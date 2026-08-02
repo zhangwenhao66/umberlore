@@ -959,5 +959,153 @@ export const guides: Guide[] = [
       }
     ],
     "published": "2026-08-02"
+  },
+  {
+    "slug": "famous-paintings",
+    "category": "Painting",
+    "title": "Famous Paintings: What Their Catalogue Entries Say",
+    "description": "Six of the world's most famous paintings, read from the collection records of the museums that own them: support, technique, size, inventory number.",
+    "published": "2026-08-02",
+    "updated": "2026-08-02",
+    "coreSummary": "Famous paintings circulate as images, and the descriptions attached to those images drift away from the objects. Read from the catalogue entries of the museums that hold them, The Great Wave is a woodblock print issued in thousands of impressions rather than a painting; the Night Watch in Amsterdam is a fragment, cut down in 1715 with 64.4 cm taken off the left edge alone; the 1893 Scream in Oslo is recorded as tempera and crayon on cardboard; and the Mona Lisa is an oil on a poplar panel measuring 79.4 by 53.4 cm.",
+    "image": "/images/famous-paintings-night-watch-rijksmuseum.jpg",
+    "imageAlt": "Rembrandt's Night Watch as it hangs today in the Rijksmuseum, showing the militia company advancing out of a dark archway.",
+    "imageCredit": "[The Nightwatch by Rembrandt](https://commons.wikimedia.org/wiki/File:The_Nightwatch_by_Rembrandt_-_Rijksmuseum.jpg), Rijksmuseum (object SK-C-5), public domain",
+    "sections": [
+      {
+        "heading": "Why the catalogue entry is worth reading",
+        "body": [
+          "Search for famous paintings and the first page returns much the same twenty works in much the same order, described in much the same words, because most of those pages were assembled from other pages. A description that gets copied often enough stops being checked against the thing it describes.",
+          "Museums keep a different kind of record. A collection entry has to name the support the work is painted on, the technique, the measurements in centimetres, an inventory number, and how the institution came to own it. Those fields exist because the object has to be insured, conserved, hung and found again, and they are maintained by people who can walk up to it and look.",
+          "Nearly every fact below comes from the catalogue entry of the museum that holds the work, or from technical research that museum published. In several cases the record is more specific, and occasionally more surprising, than the summary that travels with the picture."
+        ]
+      },
+      {
+        "heading": "Six works as their museums record them",
+        "body": [
+          "**Mona Lisa.** Leonardo da Vinci, about 1503 to 1519. Oil on a poplar panel, 0.794 by 0.534 m. Musée du Louvre, inventory INV 779 and MR 316. Catalogued as a portrait of Lisa Gherardini, wife of the Florentine silk merchant Francesco del Giocondo.",
+          "**The Night Watch.** Rembrandt van Rijn, 1642. Oil on canvas, 379.5 by 453.5 cm. Rijksmuseum, object SK-C-5. The museum's full title is \"The Night Watch Militia Company of District II under the Command of Captain Frans Banninck Cocq\"; the popular name is a nickname that attached itself after centuries of darkening varnish.",
+          "**Girl with a Pearl Earring.** Johannes Vermeer, about 1665. Oil on canvas, 44.5 by 39 cm, signed at the upper left. Mauritshuis, inventory 670.",
+          "**The Birth of Venus.** Sandro Botticelli, about 1485. The Uffizi gives the technique as \"Tempera on canvas\", 172.5 by 278.5 cm, inventory 1890 n. 878.",
+          "**The Scream.** Edvard Munch, 1893. The National Museum of Norway records the materials in Norwegian as \"Tempera og fettstift på papplate\", tempera and grease crayon on cardboard, 91 cm high by 73.5 cm wide, inventory NG.M.00939, a gift from Olaf Schou in 1910.",
+          "**Under the Wave off Kanagawa.** Katsushika Hokusai, about 1830 to 1832. Woodblock print, ink and colour on paper, 24.4 by 35.7 cm overall. The Metropolitan Museum of Art, accession JP10, classified under Prints rather than Paintings."
+        ]
+      },
+      {
+        "heading": "The Night Watch on the wall is a fragment",
+        "body": [
+          "In 1715 the painting was moved to Amsterdam's town hall, now the Royal Palace on Dam Square. It did not fit the wall it was assigned, so it was cut down. The Rijksmuseum gives the widths of what came off: 64.4 cm from the left edge, 23.3 cm from the top, 11.3 cm from the bottom and 7 cm from the right. The offcuts were never recovered, and the museum calls their fate a mystery rather than assuming they were destroyed.",
+          "Cropping the left edge changed the picture's character. In the full version the militia company advances across an open space with the archway set off to one side, and three figures stand on a bridge at the left: two militiamen and a young child. Removing them pushed Captain Banninck Cocq and his lieutenant into the centre and turned an off-balance procession into a more symmetrical arrangement. The painting admired for its dynamism is the tighter of the two versions.",
+          "What was lost is known because a small copy survives, commissioned by Banninck Cocq himself and generally attributed to Gerrit Lundens. In 2021 the Rijksmuseum used that copy to reconstruct the missing edges, training neural networks on Rembrandt's handling and palette so the added strips would not read as a modern patch, and mounted the result around the original.",
+          "One detail rewards the habit this article is arguing for. The Rijksmuseum's collection page gives the painting as 453.5 cm wide, while its own press release on the reconstruction gives the trimmed canvas as 436 cm and the reconstructed whole as 507.4 cm. Only the second figure adds up against the strip widths. Even primary sources are worth reading against each other."
+        ],
+        "image": {
+          "src": "/images/famous-paintings-night-watch-lundens-copy.jpg",
+          "alt": "Gerrit Lundens's small painted copy of The Night Watch, showing the full uncropped composition with the archway off-centre and figures at the left edge that no longer exist on the original.",
+          "credit": "[Lundens - Nachtwache-Kopie](https://commons.wikimedia.org/wiki/File:Lundens_-_Nachtwache-Kopie.jpg), attributed to Gerrit Lundens after Rembrandt, National Gallery, London, public domain. This 17th-century copy records the composition before the 1715 cutting, not the painting as it hangs today."
+        }
+      },
+      {
+        "heading": "The most reproduced image on the list is not a painting",
+        "body": [
+          "The Met's own title for accession JP10 is \"Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)\". The medium field reads woodblock print, ink and colour on paper, and the classification is Prints. The measurement is about the size of a sheet of A4 paper turned sideways.",
+          "It reaches lists of famous paintings anyway, and the consequence is that people expect a unique object hanging somewhere. There is no such object. The Great Wave was commercial publishing, printed to be sold cheaply and in quantity, and it sold well in its own time.",
+          "Capucine Korenberg's study for the British Museum puts a figure on the print run: \"Presently, experts believe that up to 8,000 impressions were made of The Great Wave.\" That sits inside a normal range for the trade, and the same paper notes a publisher generally had to sell at least 2,000 impressions of a design to make a profit.",
+          "The study also assembled a census of survivors. Photographs of 111 original impressions were gathered from museums, galleries, libraries and books, and comparing them showed at least seven separate woodblocks were used for the early printings, two of them later replaced by newly carved ones. That census is a floor rather than a final count, since impressions continue to surface. No two are quite alike, which is why collectors care which state they own. The blocks themselves are gone: \"None of the woodblocks used to produce The Great Wave in the 1830s have survived.\""
+        ],
+        "image": {
+          "src": "/images/famous-paintings-great-wave-met.jpg",
+          "alt": "Hokusai's Under the Wave off Kanagawa, a woodblock print showing a cresting wave over three fishing boats with Mount Fuji small in the distance.",
+          "credit": "[Under the Wave off Kanagawa](https://www.metmuseum.org/art/collection/search/36491), Katsushika Hokusai, The Metropolitan Museum of Art, accession JP10, [CC0](https://creativecommons.org/publicdomain/zero/1.0/). One impression among the 111 gathered for the British Museum census."
+        }
+      },
+      {
+        "heading": "Supports get swapped in the retelling",
+        "body": [
+          "The support is the least glamorous field in a catalogue entry and the one most often lost in transmission. It also determines most of what is practical about a work: how it was made, how it ages, whether it can be lent, and what a conservator has to worry about.",
+          "The 1893 Scream is a case in point. The National Museum of Norway leaves the materials line untranslated on its English page, and papplate means cardboard. That is why the work is fragile, why it is shown under controlled light, and why it does not travel the way a varnished panel painting can. Munch also returned to the motif more than once, in a second painted version, in pastel and crayon, and in an 1895 lithograph that let the image be printed and distributed; MUNCH in Oslo counts eight finished versions in its own collection.",
+          "Botticelli runs the other way. Fifteenth-century Florentine painting on the scale of the Birth of Venus is usually associated with wooden panels, and the Primavera, which the Uffizi calls the \"Allegory of Spring\", is on wood. The Birth of Venus is not. The gallery notes that canvas was \"a support that was widely used throughout the 15th century for decorative works destined to noble houses\", which places the painting in a domestic setting rather than a church or a civic hall.",
+          "The Mona Lisa's poplar panel matters for the same practical reason, since a panel responds to changes in humidity in ways a stretched canvas does not. Why that particular picture draws the queue it does is a separate question, and one [the 1911 theft only partly answers](/mona-lisa/). Van Gogh's canvases raise a third version of the problem, where [the pigments have not stayed the colours he mixed](/van-gogh-paintings/)."
+        ],
+        "image": {
+          "src": "/images/famous-paintings-the-scream-nasjonalmuseet.jpg",
+          "alt": "Munch's The Scream of 1893, the figure on a bridge under a blood-red sky, with the cardboard support visible through thin passages of paint.",
+          "credit": "[The Scream, 1893](https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg), Edvard Munch, [Nasjonalmuseet, Oslo (NG.M.00939)](https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939), public domain. The Commons file title preserves an older materials description; the museum's current record gives tempera and grease crayon on cardboard."
+        }
+      },
+      {
+        "heading": "The girl who is not a portrait, sold for 2.30 guilders",
+        "body": [
+          "The Mauritshuis is direct about what its best-known picture is not: \"Girl with a Pearl Earring is Vermeer's most famous painting. It is not a portrait, but a 'tronie' – a painting of an imaginary figure.\" A tronie was a study of a head, a costume or a type, made for the open market rather than for a sitter who commissioned it. The long search for her identity is a search for someone who probably never existed.",
+          "The earring is not what it seems either. The museum's note reads: \"This pearl is too large to be real. It is probably an imitation pearl.\" It goes on to describe the paint as two strokes of white, one at the bottom picking up the collar and a thicker dab at the top, with nothing else, not even a hook to hang it from.",
+          "The provenance line is worth reading too. The painting surfaces at a sale in The Hague in 1881, where the record reads: \"Braams sale, The Hague, 1881 (day and month unknown) (for 2,30 guilders to Des Tombe)\". Arnoldus Andries des Tombe bought it for two guilders and thirty cents, lent it to the Mauritshuis in the same year, and left it to the museum in his bequest of 1903.",
+          "The price says less about taste in 1881 than about how recently this canon settled. Vermeer had been largely out of view for two centuries, and the Mauritshuis notes that only 36 paintings by him are known. A list that feels permanent when you meet it was assembled work by work, most of it inside the last hundred and fifty years."
+        ]
+      },
+      {
+        "heading": "How to check any of this yourself",
+        "body": [
+          "Find out which institution holds the work, go to that institution's own collection pages rather than an aggregator, and search the title or the artist. What you want is the object record rather than the essay: the fields marked technique, material, dimensions, inventory or accession number, and provenance or acquisition. Those fields settle whether a work is panel or canvas, painting or print, what it actually measures, and when and from whom the museum got it. A page about a famous work that carries no inventory number is usually downstream of one that did.",
+          "Museum sites often give the entry in the local language with an English page alongside, and the technical fields are sometimes left untranslated, as with the Norwegian materials line on The Scream. Titles differ between the catalogue and common usage, so search the artist as well. Where a museum has published conservation or technical research, as the British Museum did on The Great Wave, that supersedes the summary on its own object page. And an image being downloadable from a museum site does not mean it is free for any use; the Mauritshuis, for instance, offers high-resolution downloads for non-commercial use and asks you to contact its marketing department otherwise.",
+          "Looking things up this way tends to make the objects more interesting. A cathedral carving turns out to be [a piece of drainage before it is a monster](/what-is-a-gargoyle/). A series of water lily paintings turns out to be studies of [a pond the painter dug himself](/water-lilies-monet-series/). In most cases the catalogue entry holds something the summary left out."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is The Great Wave a painting?",
+        "answer": "No. The Metropolitan Museum of Art classifies it under Prints and gives the medium as woodblock print, ink and colour on paper (accession [JP10](https://www.metmuseum.org/art/collection/search/36491)). It was published as part of the series Thirty-six Views of Mount Fuji around 1830 to 1832, and research by Capucine Korenberg for the [British Museum](https://www.britishmuseum.org/sites/default/files/2022-03/korenberg_article-for_hokusai%20_edited_volume_final-2020_accessible.pdf) reports that experts believe up to 8,000 impressions were made."
+      },
+      {
+        "question": "Why is The Night Watch smaller than Rembrandt painted it?",
+        "answer": "It was cut down in 1715, when it was moved to Amsterdam's town hall and did not fit the wall. The [Rijksmuseum](https://www.rijksmuseum.nl/en/press/press-releases/for-the-first-time-in-300-years-the-night-watch-is-complete-again) gives the removed widths as 64.4 cm on the left, 23.3 cm at the top, 11.3 cm at the bottom and 7 cm on the right. The offcuts have never been found, and the 2021 reconstruction of the missing edges was based on a 17th-century copy attributed to Gerrit Lundens."
+      },
+      {
+        "question": "Who is the girl in Girl with a Pearl Earring?",
+        "answer": "Probably no one in particular. The [Mauritshuis](https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring) states that the work \"is not a portrait, but a 'tronie' – a painting of an imaginary figure\", a study of a type or a costume rather than a likeness of a known sitter. The museum also notes that the pearl is too large to be real and was probably an imitation."
+      },
+      {
+        "question": "What is the quickest way to check a claim about a famous painting?",
+        "answer": "Go to the collection page of the museum that holds it and read the object record rather than the essay. The technique, material, dimensions, inventory number and acquisition fields answer most questions directly, and a page about a famous work that carries no inventory number is usually copied from one that did."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Musée du Louvre, collection record: Portrait de Lisa Gherardini, dit La Joconde (INV 779)",
+        "url": "https://collections.louvre.fr/en/ark:/53355/cl010062370"
+      },
+      {
+        "label": "Rijksmuseum, collection record: The Night Watch, Rembrandt, 1642 (SK-C-5)",
+        "url": "https://www.rijksmuseum.nl/en/collection/SK-C-5"
+      },
+      {
+        "label": "Rijksmuseum press release: For the first time in 300 years The Night Watch is complete again",
+        "url": "https://www.rijksmuseum.nl/en/press/press-releases/for-the-first-time-in-300-years-the-night-watch-is-complete-again"
+      },
+      {
+        "label": "The Metropolitan Museum of Art, collection record: Under the Wave off Kanagawa, Hokusai (JP10)",
+        "url": "https://www.metmuseum.org/art/collection/search/36491"
+      },
+      {
+        "label": "Capucine Korenberg, \"The making and evolution of Hokusai's Great Wave\", British Museum",
+        "url": "https://www.britishmuseum.org/sites/default/files/2022-03/korenberg_article-for_hokusai%20_edited_volume_final-2020_accessible.pdf"
+      },
+      {
+        "label": "Nasjonalmuseet, collection record: Edvard Munch, The Scream, 1893 (NG.M.00939)",
+        "url": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939"
+      },
+      {
+        "label": "MUNCH, Oslo: Where can I see The Scream",
+        "url": "https://www.munch.no/en/The-Scream/where-can-i-see-the-scream/"
+      },
+      {
+        "label": "Mauritshuis, collection record: Johannes Vermeer, Girl with a Pearl Earring (inv. 670)",
+        "url": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring"
+      },
+      {
+        "label": "Gallerie degli Uffizi: Sandro Botticelli, The Birth of Venus (inv. 1890 n. 878)",
+        "url": "https://www.uffizi.it/en/artworks/birth-of-venus"
+      }
+    ]
   }
 ];
