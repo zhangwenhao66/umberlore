@@ -1,0 +1,77 @@
+---
+import { SITE_TITLE } from '../consts';
+---
+
+<header class="border-b border-[var(--rule)] bg-[var(--paper)]">
+	<nav class="mx-auto flex h-16 max-w-5xl items-center justify-between gap-2 px-4">
+		<a href="/" class="flex shrink-0 items-center gap-2.5 no-underline" aria-label={`${SITE_TITLE} home`}>
+			<!-- A paint tube: umber is the pigment the site is named after. -->
+			<svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+				<path d="M5.2 8.4 L9 5.6 L9 18.4 L5.2 15.6 C4.3 14.9 4.3 9.1 5.2 8.4 Z" fill="var(--flag-dark)"/>
+				<rect x="9" y="5.2" width="8.4" height="13.6" rx="1.1" fill="var(--flag)"/>
+				<rect x="17.4" y="9.2" width="2.4" height="5.6" rx="0.7" fill="var(--flag-dark)"/>
+				<rect x="10.6" y="8.6" width="5.2" height="1.5" rx="0.7" fill="var(--paper)" opacity="0.75"/>
+			</svg>
+			<span class="font-display text-[1.3rem] font-semibold tracking-tight text-[var(--ink)]">{SITE_TITLE}</span>
+		</a>
+
+		<div class="hidden items-center gap-7 md:flex">
+			<a href="/topics/" class="nav-link text-[0.9rem] font-medium text-[var(--ink)]/75 no-underline">Topics</a>
+			<a href="/about/" class="nav-link text-[0.9rem] font-medium text-[var(--ink)]/75 no-underline">About</a>
+		</div>
+
+		<button
+			id="menu-toggle"
+			class="flex h-9 w-9 flex-col items-center justify-center gap-1.5 md:hidden"
+			aria-label="Open menu"
+			aria-expanded="false"
+			aria-controls="mobile-menu"
+		>
+			<span class="h-px w-5 bg-[var(--ink)]"></span>
+			<span class="h-px w-5 bg-[var(--ink)]"></span>
+			<span class="h-px w-5 bg-[var(--ink)]"></span>
+		</button>
+	</nav>
+
+	<div id="mobile-menu" class="hidden border-t border-[var(--rule)] bg-[var(--paper)] md:hidden">
+		<nav class="flex flex-col px-4 py-2">
+			<a href="/topics/" class="border-b border-[var(--rule)] py-3 text-sm text-[var(--ink)]/80 no-underline">Topics</a>
+			<a href="/about/" class="py-3 text-sm text-[var(--ink)]/80 no-underline">About</a>
+		</nav>
+	</div>
+</header>
+
+<script>
+	const toggle = document.getElementById('menu-toggle')!;
+	const menu = document.getElementById('mobile-menu')!;
+	toggle.addEventListener('click', () => {
+		const open = menu.classList.toggle('hidden');
+		toggle.setAttribute('aria-expanded', String(!open));
+	});
+</script>
+
+<style>
+	.nav-link {
+		position: relative;
+	}
+	.nav-link::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -3px;
+		height: 6px;
+		background: var(--flag);
+		opacity: 0.35;
+		transform: scaleX(0);
+		transform-origin: left;
+		transition: transform 0.18s ease;
+		z-index: -1;
+	}
+	.nav-link:hover {
+		color: var(--ink);
+	}
+	.nav-link:hover::after {
+		transform: scaleX(1);
+	}
+</style>

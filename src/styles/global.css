@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/*
+ * Earth-pigment palette, after the name: raw umber and burnt umber are the
+ * brown earth pigments squeezed out of every painter's tube. Warm paper,
+ * dark umber ink, sienna accent -- deliberately gallery-ish and distinct
+ * from the other four sites in the matrix.
+ */
+:root {
+	--ink: #241c14;
+	--paper: #faf7f2;
+	--rule: #e0d7c9;
+	--flag: #8a5a34;
+	--flag-dark: #6d4425;
+}
+
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+	font-family: "Inter", "Noto Sans SC", system-ui, sans-serif;
+}
+
+.font-display {
+	font-family: "Spectral", "Noto Serif SC", Georgia, serif;
+}

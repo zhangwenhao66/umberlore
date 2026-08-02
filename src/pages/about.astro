@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { AUTHOR_NAME } from '../consts';
+---
+
+<Layout
+	title="About"
+	description="Who writes UmberLore, and the sourcing rule behind it: dates, attributions and locations come from the institution that actually holds the work."
+>
+	<div class="mx-auto max-w-[720px]">
+		<h1 class="font-display text-3xl font-bold text-[var(--ink)] md:text-4xl">About UmberLore</h1>
+
+		<div class="mt-7 max-w-[640px] text-[0.9375rem] leading-[1.85] text-[var(--ink)]/70">
+			<p class="mb-4">
+				UmberLore is about how art actually got made and what happened to it afterwards: the
+				paintings and buildings, the pigments they were made from, the movements they get filed
+				under, and the forgeries and thefts that keep turning the filing upside down.
+			</p>
+			<p class="mb-4">
+				Art history has a specific problem that made this site worth starting. Dates, attributions,
+				dimensions and current locations get copied from blog to blog until the copy no longer
+				matches the object. So the rule here is that those details come from the institution that
+				holds the work, and the collection page is cited so you can check it yourself. Where
+				scholars genuinely disagree, that gets said rather than smoothed over.
+			</p>
+			<p class="mb-4">
+				Umber is the brown earth pigment that comes in every paint box, raw or burnt. Lore is the
+				accumulated telling. The name is meant literally: the material facts, plus the stories that
+				built up around them.
+			</p>
+			<p class="mb-4">
+				One thing you won't find here is reproductions of work still under copyright. Modern and
+				contemporary artists are written about freely, because discussing art is not the same as
+				copying it, but the images alongside those pieces are portraits, buildings, or diagrams
+				rather than the works themselves.
+			</p>
+			<p class="mb-4 text-[var(--ink)]">
+				This site is written and edited by {AUTHOR_NAME}.
+			</p>
+			<p class="m-0 text-[var(--ink)]">
+				Questions, corrections, or press inquiries:
+				<a href="mailto:contact@umberlore.com" class="text-[var(--flag-dark)] underline">contact@umberlore.com</a>
+			</p>
+		</div>
+	</div>
+</Layout>

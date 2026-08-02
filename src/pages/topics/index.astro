@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { guides, categorySlug, categoryColor } from '../../data/guides';
+
+const counts = new Map<string, number>();
+for (const g of guides) {
+	counts.set(g.category, (counts.get(g.category) ?? 0) + 1);
+}
+const topics = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+---
+
+<Layout
+	title="Topics"
+	description="Every topic UmberLore covers, from painting and architecture to pigments, photography, and art crime."
+>
+	<div class="mx-auto max-w-[720px]">
+		<nav class="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-[var(--ink)]/40">
+			<a href="/" class="no-underline hover:text-[var(--ink)] hover:underline">Home</a>
+			<span>/</span>
+			<span class="font-semibold text-[var(--ink)]/70">Topics</span>
+		</nav>
+
+		<h1 class="font-display text-3xl font-bold leading-[1.15] text-[var(--ink)] md:text-4xl">Topics</h1>
+		<p class="mt-3 text-lg leading-relaxed text-[var(--ink)]/60">
+			Everything here is visual art history: what a work is, who made it, how it was made, and what the holding institution actually records about it.
+		</p>
+
+		{topics.length === 0 ? (
+			<p class="mt-9 text-[var(--ink)]/55">Nothing published yet.</p>
+		) : (
+			<div class="mt-9 flex flex-col">
+				{topics.map(([category, n]) => (
+					<a href={`/topics/${categorySlug(category)}/`} class="item flex items-baseline justify-between gap-4 border-b border-[var(--rule)] py-4 no-underline first:border-t first:border-[var(--rule)]">
+						<span class="font-display text-[1.0625rem] font-semibold text-[var(--ink)]">{category}</span>
+						<span class="shrink-0 text-sm text-[var(--ink)]/45">{n}</span>
+					</a>
+				))}
+			</div>
+		)}
+	</div>
+</Layout>
+
+<style>
+	.item {
+		transition: padding-left 0.15s ease;
+	}
+	.item:hover {
+		padding-left: 0.5rem;
+	}
+</style>

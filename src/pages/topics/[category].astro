@@ -1,0 +1,60 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { guides, categorySlug, categoryColor } from '../../data/guides';
+
+export function getStaticPaths() {
+	const seen = new Map<string, string>();
+	for (const g of guides) {
+		seen.set(categorySlug(g.category), g.category);
+	}
+	return Array.from(seen.entries()).map(([slug, category]) => ({
+		params: { category: slug },
+		props: { category },
+	}));
+}
+
+interface Props {
+	category: string;
+}
+
+const { category } = Astro.props;
+const categoryGuides = guides.filter((g) => g.category === category);
+---
+
+<Layout
+	title={category}
+	description={`Sourced art history writing on ${category.toLowerCase()} — what the works are, who made them, and what the record actually says.`}
+>
+	<div class="mx-auto max-w-[720px]">
+		<nav class="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-[var(--ink)]/40">
+			<a href="/" class="no-underline hover:text-[var(--ink)] hover:underline">Home</a>
+			<span>/</span>
+			<span class="font-semibold text-[var(--ink)]/70">{category}</span>
+		</nav>
+
+		<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.12em]" style={`color:${categoryColor(category)}`}>Topic</p>
+		<h1 class="font-display mt-2 text-3xl font-bold leading-[1.15] text-[var(--ink)] md:text-4xl">{category}</h1>
+		<p class="mt-3 text-lg leading-relaxed text-[var(--ink)]/60">
+			{categoryGuides.length} {categoryGuides.length === 1 ? 'piece' : 'pieces'} in this topic.
+		</p>
+
+		<div class="mt-9 flex flex-col">
+			{categoryGuides.map((g) => (
+				<a href={`/${g.slug}/`} class="item border-b border-[var(--rule)] py-4 no-underline first:border-t first:border-[var(--rule)]">
+					<p class="font-display m-0 text-[1.0625rem] font-semibold leading-snug text-[var(--ink)]">{g.title}</p>
+					<p class="mt-1.5 m-0 text-sm leading-relaxed text-[var(--ink)]/55">{g.description}</p>
+				</a>
+			))}
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.item {
+		display: block;
+		transition: padding-left 0.15s ease;
+	}
+	.item:hover {
+		padding-left: 0.5rem;
+	}
+</style>
