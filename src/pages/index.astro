@@ -1,46 +1,89 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { guides } from '../data/guides';
+import { guides, categorySlug } from '../data/guides';
 
 const sorted = [...guides].sort((a, b) => b.updated.localeCompare(a.updated));
 const [lead, ...rest] = sorted;
-const index = rest.slice(0, 16);
+const wall = rest.slice(0, 18);
+
+const counts = new Map<string, number>();
+for (const g of guides) {
+	counts.set(g.category, (counts.get(g.category) ?? 0) + 1);
+}
+const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 ---
 
 <Layout>
-	<div class="border-b border-[var(--ink)] pb-3">
-		<p class="m-0 text-sm leading-relaxed text-[var(--ink)]/60">
-			Visual art history, checked against the record. Paintings and buildings, the pigments they
-			were made from, and the forgeries and thefts that keep rewriting the catalogue.
-		</p>
-	</div>
-
 	{lead && (
-		<a href={`/${lead.slug}/`} class="lead mt-8 flex flex-col gap-4 no-underline md:flex-row md:gap-8">
-			{lead.image && (
-				<img src={lead.image} alt={lead.title} class="aspect-[4/3] w-full object-cover md:w-[38%]" loading="eager" />
-			)}
-			<div class="flex-1">
-				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-[var(--flag-dark)]">{lead.category}</p>
-				<h1 class="font-display mt-2 text-3xl font-bold leading-[1.1] text-[var(--ink)] md:text-4xl">{lead.title}</h1>
-				<p class="mt-3 max-w-xl text-base leading-relaxed text-[var(--ink)]/60">{lead.description}</p>
+		<a href={`/${lead.slug}/`} class="lead grid items-center gap-8 no-underline md:grid-cols-12 md:gap-12">
+			<div class="order-2 md:order-1 md:col-span-5">
+				<p class="wall-label-dept m-0">{lead.category}</p>
+				<h1 class="font-display mt-3 text-4xl leading-[1.08] font-medium text-[var(--ink)] md:text-5xl">
+					{lead.title}
+				</h1>
+				<div class="mt-5 h-px w-14 bg-[var(--flag)]"></div>
+				<p class="mt-5 max-w-md text-[1.02rem] leading-relaxed text-[var(--ink)]/65">{lead.description}</p>
+				<p class="mt-6 mb-0 text-sm font-medium text-[var(--flag-dark)] underline underline-offset-4">
+					Read the study
+				</p>
 			</div>
+			{lead.image ? (
+				<figure class="plate order-1 m-0 w-fit max-w-full justify-self-center md:order-2 md:col-span-7">
+					<img
+						src={lead.image}
+						alt={lead.imageAlt ?? lead.title}
+						class="mx-auto h-auto max-h-[62vh] w-auto max-w-full"
+						loading="eager"
+					/>
+				</figure>
+			) : (
+				<div class="placard order-1 md:order-2 md:col-span-7">
+					<p class="font-display m-0 text-2xl leading-snug text-[var(--ink)]/80">{lead.coreSummary}</p>
+				</div>
+			)}
 		</a>
 	)}
 
-	{index.length > 0 && (
-		<div class="mt-12 border-t border-[var(--ink)] pt-6">
-			<h2 class="mb-4 text-xs font-semibold uppercase tracking-[0.15em] text-[var(--ink)]/45">More</h2>
-			<div class="columns-1 gap-x-10 md:columns-2">
-				{index.map((g) => (
-					<a href={`/${g.slug}/`} class="item mb-5 block break-inside-avoid border-b border-[var(--rule)] pb-5 no-underline">
-						<p class="m-0 text-[0.65rem] font-semibold uppercase tracking-wide text-[var(--flag-dark)]/80">{g.category}</p>
-						<p class="font-display m-0 mt-1 text-base font-bold leading-snug text-[var(--ink)]">{g.title}</p>
-						<p class="m-0 mt-1 text-sm text-[var(--ink)]/55">{g.description}</p>
+	{rooms.length > 0 && (
+		<nav class="mt-14 flex flex-wrap items-baseline gap-x-8 gap-y-2 border-y border-[var(--rule)] py-3.5">
+			<span class="font-display text-[1.05rem] text-[var(--ink)]/85">Rooms</span>
+			{rooms.map(([category, n]) => (
+				<a
+					href={`/topics/${categorySlug(category)}/`}
+					class="text-[0.9rem] text-[var(--ink)]/65 no-underline hover:text-[var(--flag-dark)] hover:underline"
+				>
+					{category} <span class="text-[var(--ink)]/35">{n}</span>
+				</a>
+			))}
+		</nav>
+	)}
+
+	{wall.length > 0 && (
+		<section class="mt-12">
+			<h2 class="font-display m-0 text-2xl font-medium text-[var(--ink)]">The collection</h2>
+			<div class="mt-7 columns-1 gap-8 sm:columns-2 lg:columns-3">
+				{wall.map((g) => (
+					<a href={`/${g.slug}/`} class="work mb-9 block break-inside-avoid no-underline">
+						{g.image ? (
+							<figure class="plate m-0">
+								<img src={g.image} alt={g.imageAlt ?? g.title} loading="lazy" />
+							</figure>
+						) : (
+							<div class="placard">
+								<p class="font-display m-0 text-lg leading-snug text-[var(--ink)]/85">{g.title}</p>
+							</div>
+						)}
+						<div class="mt-3 px-0.5">
+							<p class="wall-label-dept m-0">{g.category}</p>
+							<p class="font-display work-title m-0 mt-1 text-[1.2rem] leading-snug font-medium text-[var(--ink)]">
+								{g.title}
+							</p>
+							<p class="m-0 mt-1.5 text-sm leading-relaxed text-[var(--ink)]/55">{g.description}</p>
+						</div>
 					</a>
 				))}
 			</div>
-		</div>
+		</section>
 	)}
 
 	{!lead && (
@@ -51,16 +94,31 @@ const index = rest.slice(0, 16);
 </Layout>
 
 <style>
-	.lead {
-		transition: opacity 0.15s ease;
+	.lead .plate,
+	.work .plate {
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease;
 	}
-	.lead:hover .font-display {
+	.lead:hover .plate,
+	.work:hover .plate {
+		transform: translateY(-2px);
+		box-shadow:
+			0 2px 4px rgb(33 31 28 / 0.06),
+			0 16px 36px -14px rgb(33 31 28 / 0.24);
+	}
+	.work:hover .work-title {
 		text-decoration: underline;
+		text-underline-offset: 3px;
 	}
-	.item {
-		transition: padding-left 0.15s ease;
-	}
-	.item:hover {
-		padding-left: 0.4rem;
+	@media (prefers-reduced-motion: reduce) {
+		.lead .plate,
+		.work .plate {
+			transition: none;
+		}
+		.lead:hover .plate,
+		.work:hover .plate {
+			transform: none;
+		}
 	}
 </style>

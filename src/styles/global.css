@@ -1,25 +1,70 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import '@fontsource-variable/eb-garamond';
 
 /*
- * Earth-pigment palette, after the name: raw umber and burnt umber are the
- * brown earth pigments squeezed out of every painter's tube. Warm paper,
- * dark umber ink, sienna accent -- deliberately gallery-ish and distinct
- * from the other four sites in the matrix.
+ * Museum-catalogue redesign (2026-08-02).
+ *
+ * The one design bet: the site reads as a gallery, not a newspaper. Works are
+ * presented as plates on a cool gallery wall, each with a wall label beneath.
+ * The umber accent stays (the site is named after the pigment), but the walls
+ * went from warm cream paper to neutral gallery white so the brand color is
+ * the only warmth on the page.
+ *
+ * Type: EB Garamond (self-hosted variable font) for display and prose,
+ * system sans for wall labels and UI chrome, the way real museum labels pair
+ * a serif catalogue title with sans caption text.
  */
 :root {
-	--ink: #241c14;
-	--paper: #faf7f2;
-	--rule: #e0d7c9;
+	--ink: #211f1c;
+	--paper: #f3f2ef;
+	--rule: #dbd8d1;
 	--flag: #8a5a34;
 	--flag-dark: #6d4425;
+	--mat: #fdfdfc;
 }
 
 body {
 	background-color: var(--paper);
 	color: var(--ink);
-	font-family: "Inter", "Noto Sans SC", system-ui, sans-serif;
+	font-family: system-ui, -apple-system, 'Segoe UI', 'Noto Sans SC', sans-serif;
 }
 
 .font-display {
-	font-family: "Spectral", "Noto Serif SC", Georgia, serif;
+	font-family: 'EB Garamond Variable', 'Noto Serif SC', Georgia, serif;
+}
+
+.font-prose {
+	font-family: 'EB Garamond Variable', 'Noto Serif SC', Georgia, serif;
+}
+
+/* A framed work on the wall: white mat, hairline frame, shallow shadow. */
+.plate {
+	background: var(--mat);
+	border: 1px solid var(--rule);
+	padding: 0.625rem;
+	box-shadow:
+		0 1px 2px rgb(33 31 28 / 0.05),
+		0 10px 28px -14px rgb(33 31 28 / 0.18);
+}
+.plate > img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* Museum wall label: small sans caption block under a work. */
+.wall-label-dept {
+	font-size: 0.65rem;
+	font-weight: 600;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--flag-dark);
+}
+
+/* Text placard for works without an image: wall text on a mounted panel. */
+.placard {
+	background: var(--mat);
+	border: 1px solid var(--rule);
+	padding: 1.25rem 1.25rem 1.375rem;
+	box-shadow: 0 1px 2px rgb(33 31 28 / 0.05);
 }
