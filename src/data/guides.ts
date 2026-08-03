@@ -1107,5 +1107,140 @@ export const guides: Guide[] = [
         "url": "https://www.uffizi.it/en/artworks/birth-of-venus"
       }
     ]
+  },
+  {
+    "slug": "abstract-art-first-painting",
+    "category": "Movements",
+    "title": "Abstract Art: The 'First' Painting Its Museum Backdated",
+    "description": "A Kandinsky watercolour signed 1910 was long called the first abstract painting. Its own museum now dates it 1913, after a Swedish painter got there first.",
+    "published": "2026-08-03",
+    "updated": "2026-08-03",
+    "coreSummary": "The watercolour most often credited as the first fully abstract painting in Western art carries a handwritten inscription reading \"Kandinsky 1910\", but Centre Pompidou's own collection catalogue dates the sheet to 1913, meaning its own institution has dated the work three years later than the artist's inscription claims. Hilma af Klint, a Swedish painter working almost entirely outside the exhibiting art world, had already produced fully non-representational paintings by early 1907 in a series called The Ten Largest, five to seven years before Kandinsky's usually cited date, but her instruction that the work stay unseen kept it out of art history until decades after both painters were dead.",
+    "image": "/images/abstract-art-kandinsky-untitled-watercolor.jpg",
+    "imageAlt": "Kandinsky's Untitled watercolour, catalogued 1913, showing loosely floating patches of ink and colour with no legible object, held at the Centre Pompidou.",
+    "imageCredit": "[Untitled (First Abstract Watercolor) by Wassily Kandinsky](https://commons.wikimedia.org/wiki/File:Untitled_(First_Abstract_Watercolor)_by_Wassily_Kandinsky.jpg), Centre Pompidou, Musée National d'Art Moderne, public domain",
+    "sections": [
+      {
+        "heading": "What separates 'abstract' from merely simplified",
+        "body": [
+          "People use \"abstract\" loosely, for anything from a blurred landscape to a geometric print. Tate's own glossary is more exact: \"Abstract art is art that does not attempt to represent an accurate depiction of a visual reality but instead uses shapes, colours, forms and gestural marks to achieve its effect.\" That definition draws a real line rather than a stylistic one. A Cubist portrait that fractures a face into planes is still, technically, a picture of a face. A fully abstract work has given up that anchor: there is no object left to recognise underneath the paint, only the paint's own arrangement.",
+          "Tate credits Kazimir Malevich and Piet Mondrian as \"pioneers of 'pure' abstract painting... from about 1910-20\", and for most of the twentieth century Wassily Kandinsky held the same title, usually attached to a specific sheet of paper and a specific year. That single work, and the date attached to it, turns out to be the least settled fact in the whole story of how painting stopped representing anything.",
+          "Nothing about that line appeared overnight. Cubism and Fauvism spent the years before 1910 breaking a painted face or landscape into planes and unnatural colour without ever quite letting go of the underlying subject, which is why they count as partial rather than full abstraction. Tate's own account of the period treats those movements as groundwork rather than the finish line, noting that they \"opened the door for more extreme approaches to abstraction\" that painters then walked through. What happened next, and specifically who walked through first with no subject left at all, is the part the record does not settle cleanly.",
+          "The dispute is not folklore passed between blogs. It runs through two institutions' own catalogue records, and it is worth tracing exactly, because the answer changes depending on which record you trust and how far back you are willing to look outside the exhibited art world of the time."
+        ]
+      },
+      {
+        "heading": "The catalogue card that argues with the artist's own handwriting",
+        "body": [
+          "The watercolour usually shown as the starting point hangs in the graphic art collection of the Centre Pompidou in Paris. The museum's own collection record gives its formal title as \"Sans titre\" (Untitled), its medium as \"mine graphite, encre de Chine et aquarelle sur papier\" (graphite pencil, Chinese ink and watercolour on paper), and its dimensions as 49.6 by 64.8 cm. It entered the collection as inventory number AM 1976-864, a gift from the artist's widow, Nina Kandinsky, in 1976.",
+          "Two details in that same record pull against each other. The back of the sheet carries Kandinsky's own inscription, reading \"Kandinsky 1910 // Aquarelle 1910 / (abstraite)\". But the date field in the Centre Pompidou's own catalogue, the field a researcher would cite, reads 1913. The museum that owns the work and wrote the inscription's transcription into its own database has, in effect, dated the object three years later than the artist dated it himself.",
+          "The catalogue does not erase the older claim; it just no longer endorses it as fact. The Pompidou's teaching materials for this work still record its popular, attributed title as \"Première abstraction, aquarelle\", literally \"first abstraction, watercolour\", the name several generations of art history absorbed as settled. The formal catalogue entry and the informal legend now sit on the same page, disagreeing with each other."
+        ]
+      },
+      {
+        "heading": "Why the redating holds up",
+        "body": [
+          "A backdated inscription is a strong claim to make about a working artist, so it is worth asking what evidence moved the date. The Pompidou's own resource for the work sets out the reasoning in terms of what changed in Kandinsky's technique and when: the independence of colour and line from any descriptive job, what the museum's text calls the mark's \"autonomie\", is a quality that only appears in his output from 1911 onward. Colour patches that float in an indeterminate space rather than sitting inside a drawn contour are, by the same account, a feature of work later than 1912. Measured against those two markers, this sheet reads as a piece of 1913, not 1910.",
+          "That kind of dating is stylistic rather than documentary, comparing one undated object against a body of dated ones, which is why it is a scholarly consensus rather than a certified fact. But it is the same method conservators use to date any undocumented sheet of paper, and it is why the Pompidou's own database, not a popular retelling, now carries 1913 as the object's date."
+        ]
+      },
+      {
+        "heading": "A parallel body of abstract work already existed in Stockholm",
+        "body": [
+          "Even a corrected 1913 leaves Kandinsky short of first, because someone else had already got there and left a larger, dated body of work behind. Hilma af Klint, born in Stockholm in 1862 and academically trained as a painter of landscapes and botanical studies, spent her twenties and thirties inside Swedish spiritualist circles; the Guggenheim's own account of her describes her attending seances from the age of seventeen and immersing herself in Theosophy alongside her conventional training.",
+          "In 1905 she recorded hearing what she took to be an instruction from a spiritual source, telling her, in her own words as preserved by the Guggenheim, \"You are to proclaim a new philosophy of life.\" Between November 1906 and March 1907 she painted a group of canvases now known as the Primordial Chaos series, working with no recognisable subject at all. Tate's own magazine, Tate Etc, states the comparison directly: \"a Swedish painter by the name of Hilma af Klint had created her first abstract painting in her Stockholm studio in 1906, five years before him\" - him being Kandinsky, on the date long attached to his name."
+        ]
+      },
+      {
+        "heading": "The Ten Largest, painted on the studio floor",
+        "body": [
+          "Af Klint followed that series with an even larger undertaking. Moderna Museet's own collection guide records that \"the monumental images that make up the suite The Ten Largest were painted in egg tempera on paper mounted on linen\" across the second half of 1907, worked on sheets laid on the studio floor because the tempera dried too quickly to manage upright. Each of the ten canvases, some over three metres tall, took roughly four days to complete. The series traces four phases of a life - childhood, youth, adulthood and old age - through spirals, looping tendrils and unmodulated fields of colour with no horizon, no figure and no object anywhere in the frame.",
+          "None of it was made for a gallery wall. Af Klint painted within a private circle of four other women, later called The Five, who held regular seances and recorded what they described as messages from spiritual sources; the paintings were, by her own account, executed under that guidance rather than composed as exhibition pieces. That context is exactly why the work stayed outside art history for so long: it was never made to enter the conversation Kandinsky was having in Munich."
+        ],
+        "image": {
+          "src": "/images/abstract-art-af-klint-ten-largest-no7.jpg",
+          "alt": "Hilma af Klint's The Ten Largest, No. 7, Adulthood (1907), a monumental tempera-on-paper painting with spiralling abstract forms in orange, pink and blue, showing no recognisable figure or object.",
+          "credit": "[Hilma af Klint - The Ten Largest No. 7 - Adulthood - 1907](https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg), Moderna Museet, Stockholm, public domain"
+        }
+      },
+      {
+        "heading": "Two trains on the same tracks, and only one line got a platform",
+        "body": [
+          "Tate Etc's account of the two painters is careful not to claim influence in either direction: \"Without knowing of each other's existence, the two artists seem to have travelled for a long way like two trains on the same tracks.\" Kandinsky was publishing manifestos, exhibiting with the Munich avant-garde, and co-founding what became Der Blaue Reiter; af Klint showed her abstract work in public only a handful of times in her life, mostly at spiritual gatherings rather than art exhibitions. Priority in art history has tended to track publication and exhibition as much as the date on the canvas, and on that ledger Kandinsky had every advantage.",
+          "Af Klint compounded her own obscurity on purpose. She left her collection of more than a thousand abstract paintings and works on paper to her nephew with instructions that they remain unseen for a fixed period after her death in 1944, convinced her own era was not ready for them. She was shown to an international audience for the first time only in the mid-1980s, when the art historian Ake Fant introduced her paintings at a Nordic conference in Helsinki. Moderna Museet gave her a dedicated exhibition in 2013. The reassessment reached its widest audience in 2018, when the Guggenheim's Hilma af Klint: Paintings for the Future opened in New York; the museum's own account of the show states that \"more than 600,000 visitors have attended Hilma af Klint: Paintings for the Future, the highest recorded attendance figure for a single exhibition in the museum's history.\""
+        ]
+      },
+      {
+        "heading": "So who actually painted the first abstract picture?",
+        "body": [
+          "The honest answer is that the question assumes a cleaner finish line than the record supports. If \"first\" means the earliest dated body of fully non-representational work, af Klint's Primordial Chaos paintings of late 1906 currently hold that position over any work reliably dated to Kandinsky. If \"first\" means the earliest work that actually entered and shaped the public conversation about abstraction as it happened, Kandinsky keeps the title regardless of what year his own museum now assigns to a single watercolour, because af Klint's work did not reach that conversation until both painters were long dead. Both answers are defensible; they are just answers to different questions wearing the same word.",
+          "What the Pompidou's catalogue entry demonstrates, more than a shift in credit from one painter to another, is how much a settled art-historical fact depends on institutions actively maintaining it. The date on a watercolour changed not because a new document surfaced but because scholars re-examined the object against the rest of a career and updated the record. [Checking a museum's own catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to document a pond he built and planted himself](/water-lilies-monet-series/) rather than a scene he simply found."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What actually makes a painting \"abstract\" rather than just stylised?",
+        "answer": "Whether a recognisable subject survives at all. Tate's glossary defines abstract art as work that \"does not attempt to represent an accurate depiction of a visual reality but instead uses shapes, colours, forms and gestural marks to achieve its effect.\" A distorted or simplified figure, as in Cubism, is still a picture of something; a fully abstract work has no such referent left underneath the paint."
+      },
+      {
+        "question": "Was Kandinsky's 1910 watercolour really the first abstract painting?",
+        "answer": "Its own holding institution no longer dates it to 1910. The Centre Pompidou's collection record for the work (inventory AM 1976-864) gives its date as 1913, based on stylistic comparison with the rest of Kandinsky's output, even though the sheet itself carries his handwritten inscription \"Kandinsky 1910 // Aquarelle 1910 / (abstraite).\""
+      },
+      {
+        "question": "Who was Hilma af Klint and why is she now part of this story?",
+        "answer": "A Swedish painter, born in Stockholm in 1862, who worked within a private spiritualist circle and produced fully abstract canvases from late 1906, documented in her Primordial Chaos series and the 1907 suite The Ten Largest (Moderna Museet, Stockholm). Tate Etc states plainly that she \"had created her first abstract painting in her Stockholm studio in 1906, five years before\" the date then attached to Kandinsky."
+      },
+      {
+        "question": "Why wasn't Hilma af Klint's work known earlier?",
+        "answer": "She left instructions that her more than a thousand abstract paintings stay unseen for a set period after her death in 1944, and she had shown almost none of the work publicly during her lifetime. It was first introduced to an international audience in the mid-1980s, decades after both she and Kandinsky had died, and only reached broad public attention with the Guggenheim's 2018-2019 exhibition Hilma af Klint: Paintings for the Future."
+      },
+      {
+        "question": "Did Kandinsky and af Klint know about each other's work?",
+        "answer": "No. Tate's own magazine, Tate Etc, describes the two as having worked \"without knowing of each other's existence\", developing parallel bodies of abstract work independently and roughly simultaneously - af Klint from 1906, Kandinsky from about 1911 to 1913 on the corrected dating."
+      },
+      {
+        "question": "Is there a single settled answer to who painted the first abstract work?",
+        "answer": "No, and that is a documented disagreement rather than an unresolved trivia question. By earliest dated non-representational work, af Klint currently holds priority. By earliest work to shape the exhibited, published conversation about abstraction as it was happening, Kandinsky still does, since af Klint's paintings did not reach that conversation until decades after both painters had died."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Centre Pompidou, collection record: Vassily Kandinsky, Sans titre, 1913 (AM 1976-864)",
+        "url": "https://www.centrepompidou.fr/fr/ressources/oeuvre/cMejBMj"
+      },
+      {
+        "label": "Centre Pompidou: Vassily Kandinsky, teaching resource on the birth of abstract art",
+        "url": "https://www.centrepompidou.fr/en/offre-aux-professionnels/enseignants/dossiers-ressources-sur-lart/naissance-de-lart-abstrait/vassily-kandinsky"
+      },
+      {
+        "label": "Tate: Abstract art (art term glossary)",
+        "url": "https://www.tate.org.uk/art/art-terms/a/abstract-art"
+      },
+      {
+        "label": "Tate Etc, issue 27: \"The first abstract artist? (And it's not Kandinsky)\"",
+        "url": "https://www.tate.org.uk/tate-etc/issue-27-spring-2013/first-abstract-artist-and-its-not-kandinsky"
+      },
+      {
+        "label": "Moderna Museet collection guide: Hilma af Klint, The Ten Largest (1907)",
+        "url": "https://guide.modernamuseet.se/stockholm/en/collection/hilma-af-klint/de-tio-storsta/"
+      },
+      {
+        "label": "Guggenheim Museums and Foundation: \"Who Was Hilma af Klint?\"",
+        "url": "https://www.guggenheim.org/articles/checklist/who-was-hilma-af-klint-at-the-guggenheim-paintings-by-an-artist-ahead-of-her-time"
+      },
+      {
+        "label": "Guggenheim Museums and Foundation press release: Hilma af Klint: Paintings for the Future named most-visited exhibition in the museum's history",
+        "url": "https://www.guggenheim.org/press-release/hilma-af-klint-paintings-for-the-future-most-visited-exhibition-in-solomon-r-guggenheim-museums-history"
+      },
+      {
+        "label": "Wikimedia Commons: Untitled (First Abstract Watercolor) by Wassily Kandinsky",
+        "url": "https://commons.wikimedia.org/wiki/File:Untitled_(First_Abstract_Watercolor)_by_Wassily_Kandinsky.jpg"
+      },
+      {
+        "label": "Wikimedia Commons: Hilma af Klint, The Ten Largest No. 7, Adulthood, 1907",
+        "url": "https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg"
+      }
+    ]
   }
 ];
