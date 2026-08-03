@@ -2,36 +2,43 @@
   "https://umberlore.com/what-is-a-gargoyle/": {
     "submitted_date": "2026-08-02",
     "verified_status": "pending",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202"
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202",
+    "last_submitted_date": "2026-08-02"
   },
   "https://umberlore.com/van-gogh-paintings/": {
     "submitted_date": "2026-08-02",
     "verified_status": "pending",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202"
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202",
+    "last_submitted_date": "2026-08-02"
   },
   "https://umberlore.com/water-lilies-monet-series/": {
     "submitted_date": "2026-08-02",
     "verified_status": "pending",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202"
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202",
+    "last_submitted_date": "2026-08-02"
   },
   "https://umberlore.com/mona-lisa/": {
-    "submitted_date": "2026-08-03",
+    "submitted_date": "2026-08-02",
     "verified_status": "pending",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202. Resubmitted 2026-08-02 after content-quality-audit edit (added inbound link to what-is-a-gargoyle); Bing 200 / Yandex 202. Resubmitted 2026-08-03 after content-quality-audit edit (removed unverifiable '1907 Baedeker two asterisks' claim); Bing 200 / Yandex 202"
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202. Resubmitted 2026-08-02 after content-quality-audit edit (added inbound link to what-is-a-gargoyle); Bing 200 / Yandex 202. Resubmitted 2026-08-03 after content-quality-audit edit (removed unverifiable '1907 Baedeker two asterisks' claim); Bing 200 / Yandex 202",
+    "last_submitted_date": "2026-08-03"
   },
   "https://umberlore.com/gustav-klimt/": {
     "submitted_date": "2026-08-02",
     "verified_status": "pending",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202"
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202",
+    "last_submitted_date": "2026-08-02"
   },
   "https://umberlore.com/famous-paintings/": {
     "submitted_date": "2026-08-02",
     "verified_status": "pending",
-    "note": "umberlore-content-publishing; Bing 200 / Yandex 202"
+    "note": "umberlore-content-publishing; Bing 200 / Yandex 202",
+    "last_submitted_date": "2026-08-02"
   },
   "https://umberlore.com/abstract-art-first-painting/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "daily publish (2026-08-03); Bing 200 / Yandex 202"
+    "note": "daily publish (2026-08-03); Bing 200 / Yandex 202",
+    "last_submitted_date": "2026-08-03"
   }
 }
