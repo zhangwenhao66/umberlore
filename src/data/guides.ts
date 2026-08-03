@@ -1655,5 +1655,140 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/St._Peter%27s_Baldachin"
       }
     ]
+  },
+  {
+    "slug": "edvard-munch-the-scream",
+    "category": "Painting",
+    "title": "Munch Wrote 'Painted by a Madman' on The Scream Himself",
+    "description": "Handwriting analysis proved Munch penciled a 'madman' confession onto The Scream himself, and separate studies show its yellows are fading and its sky is disputed.",
+    "published": "2026-08-04",
+    "updated": "2026-08-04",
+    "coreSummary": "In 2021, infrared scanning and handwriting analysis by Norway's National Museum confirmed that Edvard Munch himself, not a later vandal, penciled the words \"Can only have been painted by a madman!\" into the corner of the 1893 version of The Scream, most likely after a public dispute over his sanity. Two further studies have since shown that the painting keeps changing on its own: a 2020 synchrotron study found its cadmium yellow paint is chemically degrading from humidity, and a 2018 atmospheric science paper argues its blood red sky more likely recorded rare nacreous clouds over Norway than the Krakatoa sunset it is usually credited to.",
+    "image": "/images/edvard-munch-the-scream-1893.jpg",
+    "imageAlt": "Edvard Munch's 1893 tempera and grease crayon version of The Scream, showing the central figure against a swirling orange and blue sky, held by the National Museum of Norway",
+    "imageCredit": "[The Scream, 1893](https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg), photograph by Børre Høstland, National Museum of Art, Architecture and Design (Nasjonalmuseet), public domain. The Commons file title preserves an older materials description; the museum's current record gives tempera and grease crayon on cardboard.",
+    "sections": [
+      {
+        "heading": "Four objects carry one motif",
+        "body": [
+          "There is no single Scream. Munch made four finished versions of the composition between 1893 and 1910, in two different media, and none of them is a copy of another; each has its own brushwork, its own state of the sky, its own condition report. The National Museum in Oslo holds a 1893 work in tempera and grease crayon on cardboard, inventory number NG.M.00939, measuring 91 by 73.5 centimetres, which entered the collection as a gift from the shipowner Olaf Schou in 1910. The Munch Museum holds two more: a crayon version from 1893 and a tempera version usually dated to around 1910. A fourth, a pastel on board, stayed in private hands for over a century and is the only version never owned by a Norwegian public collection. Munch also pulled roughly thirty impressions of a lithograph of the same image, six of which are now in the Munch Museum, including one he hand-coloured himself. Early impressions of that lithograph carried a German-language line from Munch's own prose poem about the walk, printed beneath the image; most surviving impressions have had that line trimmed off, so the print now mostly circulates as image alone, stripped of the words it was first sold with.",
+          "Munch's own account of where the image came from is a diary entry rather than a studio note. The Munch Museum quotes the surviving fragment directly: \"...shaking with Angst I felt the great Scream in Nature.\" He originally intended to title the work The Scream of Nature, which puts the sound in the landscape rather than in the figure's mouth; the figure is covering its ears against a shriek coming from somewhere else, not producing one.",
+          "Because there are four originals, questions that sound like they should have one answer usually do not. Which version is stolen, which is degrading, which one carries a message in pencil, and which one sold at auction are four different questions with four different answers, and treating the four versions as interchangeable is a common source of confusion in casual writing about the picture."
+        ]
+      },
+      {
+        "heading": "The confession no one could read until 2021",
+        "body": [
+          "In the top left corner of the National Museum's 1893 version, barely visible to the naked eye, is a sentence in pencil: \"Can only have been painted by a madman!\" For most of the twentieth century nobody paid it much attention, and when scholars did notice it, the assumption ran the obvious way. A gallery-goer, so the theory went, had scrawled an insult on a painting whose subject already looked deranged. In 2008, Munch scholar Gerd Woll floated exactly that: a vandal's graffiti, not the artist's hand.",
+          "That reading held until conservators at Norway's National Museum ran infrared scans of the corner as part of routine conservation work ahead of the painting's move into the museum's new Oslo building, which opened to the public in 2022. The sentence had been too faint to read reliably with the naked eye; infrared imaging pulled the pencil strokes out from under a century of surface grime and made a proper comparison possible for the first time. Curator Mai Britt Guleng, working with conservator Thierry Ford and research librarian Lasse Jacobsen, compared the scanned letterforms against Munch's own diaries and correspondence, held in the Munch Museum's digital archive. Her conclusion, given to The Art Newspaper, left little room: \"The handwriting is identical. I have word by word and letter by letter compared the sentence in The Scream with his handwriting.\"",
+          "The likely trigger was not a stranger's opinion but a public one. In 1895, roughly two years after he painted this version, Munch showed his work at Blomqvist Kunsthandel in Kristiania (now Oslo) to a hostile reception, and the Students' Association held a debate over whether he was mentally fit. The National Museum's research places the inscription in that window, meaning Munch is reported to have written a diagnosis of himself onto his own canvas in response to what other people were already saying about him in public.",
+          "The line appears on only one of the four originals. The Munch Museum's crayon and tempera versions and the privately held pastel carry no such inscription, so the confession, if that is what it is, belongs to this one specific object and not to the motif in general."
+        ],
+        "image": {
+          "src": "/images/edvard-munch-self-portrait-skeleton-arm.jpg",
+          "alt": "Edvard Munch's 1895 lithograph Self-Portrait with Skeleton Arm, showing his head against a black background above a skeletal forearm along the bottom edge",
+          "credit": "[Self-Portrait with Skeleton Arm, 1895](https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_Self-Portrait_with_Skeleton_Arm_-_Google_Art_Project.jpg), lithograph, National Gallery Prague, public domain"
+        }
+      },
+      {
+        "heading": "The paint is not doing what he left it to do",
+        "body": [
+          "Separately from the handwriting, the picture is also changing chemically, and the change is documented rather than assumed. In 2020, an international team led by Italy's CNR, with the University of Perugia, the University of Antwerp, the Bard Graduate Center, the European Synchrotron (ESRF) in France, DESY in Hamburg and the Munch Museum, published a non-invasive study of the cadmium sulfide pigments in the Munch Museum's tempera version, using portable spectroscopy on site and synchrotron X-ray analysis on paint samples.",
+          "The visible symptom is a shift from yellow to a chalky off-white. The study identifies it specifically in the brushwork of the sunset sky and in the neck of the central figure, with a separate patch of thickly applied cadmium yellow in the lake now flaking off the surface entirely. The chemistry behind it is oxidation: original cadmium sulfide reacting with moisture and mobile chlorine compounds to form cadmium sulfate and sulfite, compounds that read as pale rather than saturated. Light exposure, the usual suspect in pigment fading, turned out to matter far less than air quality. As the ESRF summarised the finding: \"Moisture is the main environmental factor that triggers the degradation.\"",
+          "The practical result was a specific conservation target rather than a general warning. The recommended humidity ceiling for keeping the painting on permanent display is 45 percent relative humidity or lower, down from roughly 50 percent at the time of the study, with lighting left at the standard levels already used for other light-sensitive paintings. That conclusion sits alongside a separate, older precaution the Munch Museum already applies to all four originals: because the pigments across every version are, in the museum's own words, extremely vulnerable and unstable when exposed to light, the works are shown on a rotation system rather than kept on permanent view, a deliberate trade-off between public access and slowing exactly the kind of degradation the 2020 study measured. Munch is not unusual among his contemporaries in this respect; the palette of [Van Gogh's own canvases has undergone comparably well-documented change since he stopped touching them](/van-gogh-paintings/), a reminder that a late-nineteenth-century painting's colour scheme is rarely a fixed record of what left the easel."
+        ]
+      },
+      {
+        "heading": "What was actually in that sky",
+        "body": [
+          "The standard explanation for the picture's blood red sky is volcanic. Krakatoa erupted in August 1883, and the ash it threw into the stratosphere produced spectacular, unnaturally vivid sunsets across Europe for months afterward, widely reported in newspapers Munch would have read. Munch himself dated the walk that produced the image to around that period, so the volcano explanation has an obvious appeal: real global event, real documented sky colour, tidy cause and effect.",
+          "A 2018 paper in the Bulletin of the American Meteorological Society, led by Rutgers atmospheric scientist Alan Robock, tested that explanation against the actual content of the painting rather than against the historical record of the eruption. Nacreous clouds form far higher than ordinary weather, in the polar stratosphere under extreme cold, and their thin ice crystals scatter light into iridescent bands quite different in structure from a volcanic haze sunset, which reddens the whole sky more uniformly as ash particles scatter light across a broad, low band near the horizon. Robock's team compared photographs of genuine volcanic twilight sunsets and of nacreous clouds against the specific colours and cloud patterns Munch painted. Their finding ran the other way from the popular account: the sky's colours and patterns matched sunsets with nacreous clouds present more closely than they matched an ordinary volcanic sunset.",
+          "Robock did not present this as a clean reversal. His own summary allows for both: \"He could have been influenced by the Krakatau sunset and nacreous clouds and combined them.\" If the nacreous-cloud reading holds even partly, one of the most reproduced images in Western art may double as one of the earliest surviving visual records of an atmospheric phenomenon that meteorologists still do not fully understand, which is a stranger claim than the volcano story, not a tidier one."
+        ]
+      },
+      {
+        "heading": "Stolen twice, then reproduced by Warhol",
+        "body": [
+          "The National Museum's 1893 version was stolen on the opening morning of the 1994 Lillehammer Winter Olympics. Thieves climbed a ladder to a window, broke the glass, lifted the painting off the wall and left the way they came in roughly fifty seconds, timed by the museum's own security footage. It was recovered undamaged on 7 May 1994 after a sting operation involving Norwegian police and Scotland Yard, and the thieves were convicted. A decade later, in August 2004, masked gunmen took the Munch Museum's tempera version along with Munch's Madonna in a daylight robbery carried out in front of museum visitors. Both paintings resurfaced in August 2006, damaged but restorable, and three men were convicted the same year.",
+          "Where the [Mona Lisa's 1911 disappearance mainly widened an audience the painting already had](/mona-lisa/), The Scream's two thefts happened to an image that was already circulating well beyond gallery walls by other means. In 1984, after a Munch retrospective at a New York gallery, Andy Warhol was commissioned to produce a series based on four of Munch's best-known prints, including The Scream, using the same photographic enlargement and screenprinting process he had already applied to Marilyn Monroe and Campbell's soup cans. The Museum of Modern Art now holds one of the resulting prints, titled The Scream (After Munch), 1984. Warhol did not paint a new interpretation so much as run Munch's own lithograph through his production line, treating a Norwegian Symbolist print exactly the way he treated a supermarket product, a move that says as much about [Pop Art's habit of collapsing high and low imagery](/pop-art/) as it does about Munch.",
+          "The image's monetary value moved in the same direction. The privately held 1895 pastel, consigned by the Norwegian shipping heir Petter Olsen, sold at Sotheby's in New York on 2 May 2012 for 119.9 million dollars to the collector Leon Black, then a record price for any work of art sold at auction. A painting that one visitor scrawled a diagnosis onto, or that its own painter did, had by then become the single most expensive object of its kind anyone had ever bought at a saleroom."
+        ]
+      },
+      {
+        "heading": "A painting that keeps producing evidence",
+        "body": [
+          "What is unusual about The Scream is not any one of these findings on its own. Museums confirm disputed handwriting, conservation labs measure pigment decay and atmospheric scientists reverse-engineer historical skies for plenty of nineteenth-century paintings. What is unusual is that all three kinds of evidence turned up on the same picture inside a single decade: a handwriting analysis in 2021, a synchrotron pigment study in 2020, and an atmospheric-science paper in 2018, each working independently, on different versions, in different disciplines, and each adding a fact the others could not have supplied.",
+          "None of the three settles the questions that made the picture famous in the first place, why this particular arrangement of a figure and a sky became a shorthand for anxiety recognisable across cultures. What they do instead is make the object itself less stable the closer it gets studied: a canvas that may carry its painter's own self-diagnosis, a set of pigments that are not the colours he mixed, and a sky that may record a real, rare weather event rather than the more famous eruption usually credited for it. A reproduction on a mug or a mask freezes The Scream as one fixed image. The paintings themselves have not stopped changing."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many versions of The Scream did Edvard Munch make?",
+        "answer": "Four finished originals. The National Museum in Oslo holds a 1893 version in tempera and grease crayon on cardboard (NG.M.00939); the Munch Museum holds a 1893 crayon version and a tempera version usually dated to around 1910; a 1895 pastel stayed in private hands and sold at auction in 2012. Munch also produced roughly thirty impressions of a lithograph of the same image, six of which are in the Munch Museum's collection."
+      },
+      {
+        "question": "What does the 'madman' inscription on The Scream say, and who wrote it?",
+        "answer": "The pencilled sentence in the top left corner of the National Museum's 1893 version reads \"Can only have been painted by a madman!\" In 2021, National Museum curator Mai Britt Guleng and colleagues used infrared scanning and letter-by-letter comparison against Munch's diaries and letters to confirm the handwriting is his own, most likely added around 1895 after public debate over his sanity. It appears on only this one of the four originals."
+      },
+      {
+        "question": "Why is The Scream's sky changing color?",
+        "answer": "A 2020 study using synchrotron X-ray analysis and on-site spectroscopy found that the cadmium sulfide pigments in the Munch Museum's tempera version are oxidizing into cadmium sulfate and sulfite, compounds that read as pale off-white rather than saturated yellow. The researchers identified moisture and airborne chlorine compounds, not light exposure, as the main driver, and recommended keeping the painting at 45 percent relative humidity or lower to slow further loss."
+      },
+      {
+        "question": "Did a volcanic eruption really cause the sky in The Scream?",
+        "answer": "It is disputed. The popular explanation credits the vivid twilight skies that followed the 1883 eruption of Krakatoa, which were reported across Europe. A 2018 paper in the Bulletin of the American Meteorological Society, led by Rutgers scientist Alan Robock, compared the painting's colours and cloud patterns against both volcanic sunsets and nacreous clouds occasionally seen over Norway, and found a closer match to nacreous clouds. Robock himself allows that Munch could have drawn on both."
+      },
+      {
+        "question": "Has The Scream been stolen?",
+        "answer": "Yes, twice, and each theft hit a different version. The National Museum's 1893 painting was stolen on 12 February 1994, the opening morning of the Lillehammer Winter Olympics, and recovered undamaged that May. The Munch Museum's tempera version was taken at gunpoint along with Munch's Madonna in August 2004 and recovered, damaged, in August 2006; three men were convicted."
+      },
+      {
+        "question": "Did Andy Warhol make a version of The Scream?",
+        "answer": "Yes. In 1984, following a Munch retrospective he saw in New York, Warhol was commissioned to produce a series of canvases and later screenprints based on four of Munch's best-known prints, including The Scream, reproducing Munch's own lithograph in the bright, flat colour blocks he had used for Marilyn Monroe and Campbell's soup cans. The Museum of Modern Art holds one of the resulting prints, The Scream (After Munch), 1984."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Munchmuseet: The Scream",
+        "url": "https://www.munch.no/en/The-Scream/"
+      },
+      {
+        "label": "Munchmuseet: 5 things you should know about The Scream",
+        "url": "https://www.munch.no/en/our-collection/5-things-you-should-know-about-the-scream/"
+      },
+      {
+        "label": "Nasjonalmuseet (National Museum of Norway): Edvard Munch, Skrik, NG.M.00939",
+        "url": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939"
+      },
+      {
+        "label": "The Art Newspaper: Munch vandalised own Scream painting, declaring himself a 'madman', new research finds",
+        "url": "https://www.theartnewspaper.com/2021/02/22/munch-vandalised-own-scream-painting-declaring-himself-a-madman-new-research-finds"
+      },
+      {
+        "label": "Science Advances: Probing the chemistry of CdS paints in The Scream by in situ noninvasive spectroscopies and synchrotron radiation x-ray techniques",
+        "url": "https://www.science.org/doi/10.1126/sciadv.aay3514"
+      },
+      {
+        "label": "European Synchrotron (ESRF): Researchers find the key to preserving The Scream",
+        "url": "https://www.esrf.fr/home/news/general/content-news/general/researchers-find-the-key-to-preserving-the-scream.html"
+      },
+      {
+        "label": "Futurity: summary of Robock et al., Bulletin of the American Meteorological Society, on the sky in The Scream",
+        "url": "https://www.futurity.org/edvard-munch-the-scream-clouds-1819162-2/"
+      },
+      {
+        "label": "Museum of Modern Art (MoMA): Andy Warhol, The Scream (after Munch), 1984",
+        "url": "https://www.moma.org/collection/works/71559"
+      },
+      {
+        "label": "History.com: Edvard Munch's 'The Scream' recovered after theft",
+        "url": "https://www.history.com/this-day-in-history/may-7/the-scream-recovered"
+      },
+      {
+        "label": "CNN: 'The Scream' sold for nearly $120 million",
+        "url": "https://www.cnn.com/2012/05/02/us/new-york-the-scream/index.html"
+      }
+    ]
   }
 ];
