@@ -1527,5 +1527,133 @@ export const guides: Guide[] = [
         "url": "https://www.salonemilano.it/en/articles/organic-architecture-examples"
       }
     ]
+  },
+{
+    "slug": "st-peters-basilica",
+    "category": "Architecture",
+    "title": "St. Peter's Basilica: What the 120-Year Design Fight Left Standing",
+    "description": "Five chief architects took turns reversing each other's plans for St. Peter's Basilica, from Bramante's circle to Maderno's cross, across 120 years of construction.",
+    "published": "2026-08-04",
+    "updated": "2026-08-04",
+    "coreSummary": "St. Peter's Basilica took 120 years to build and never settled on a single architect's plan. Donato Bramante's 1506 design was a centralized Greek cross under one dome, modeled on the Pantheon; after his death that plan was bent toward a longer Latin-cross nave, then reversed back to Bramante's centralized scheme in 1534, before Michelangelo, appointed chief architect in 1546, spent his final years building that scheme's dome up to its drum and died in 1564 with it unfinished. Carlo Maderno then reversed the logic a second time, extending Michelangelo's Greek cross into the 187-meter Latin-cross nave that stands today, work Britannica describes as \"consonant with the spirit of the Counter-Reformation.\" Pope Urban VIII consecrated the finished building on November 18, 1626, a date the basilica marked the 400th anniversary of earlier in 2026.",
+    "image": "/images/st-peters-basilica-facade.jpg",
+    "imageAlt": "The facade of St. Peter's Basilica in Vatican City, completed by Carlo Maderno in the early 17th century when he extended Michelangelo's centralized plan into a Latin-cross nave.",
+    "imageCredit": "[Saint Peter's Basilica facade, Rome, Italy](https://commons.wikimedia.org/wiki/File:Saint_Peter%27s_Basilica_facade,_Rome,_Italy.jpg) by Jebulon, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)",
+    "sections": [
+      {
+        "heading": "Bramante draws a circle, and Rome tears down a church for it",
+        "body": [
+          "The basilica that stood on the site before 1506 was the one built under the emperor Constantine in the fourth century, over what the Church holds to be the burial site of the apostle Peter. By the middle of the fifteenth century it was in visibly bad shape. Britannica records that Pope Nicholas V was prompted to consider rebuilding by the state he found it in: \"walls leaning far out of the perpendicular and frescoes covered with dust.\" Nicholas ordered a first, partial fix in 1452, work that stalled at his death three years later. Pope Paul II handed the project to the architect Giuliano da Sangallo in 1470. Neither attempt got far.",
+          "It was Pope Julius II who actually committed to starting over, and the scale of that decision is easy to undersell. As the Smarthistory essay on the building puts it, the old church \"was in disrepair. But tearing it down was a bold maneuver that gives us a sense of the enormous ambition of Pope Julius II, both for the papacy as well as for himself.\" The Fabbrica di San Pietro, the Vatican office that has managed construction and upkeep of the basilica since, dates the moment precisely: \"On 18 April 1506, the Saturday after Easter, Pope Julius II (1503-1513) laid the first stone of the new Saint Peter's Basilica on the site of the present-day (south-west) pillar of Saint Veronica, which at the time stood outside the old Constantinian and medieval church, to the left of the apse.\"",
+          "Julius had already chosen his architect: Donato Bramante. Bramante's design was not a modest renovation of what a church usually looked like. Per Smarthistory, \"He proposed an enormous centrally planned church in the shape of a Greek cross enclosed within a square with an enormous dome over the center, and smaller domes and half-domes radiating out.\" A centralized plan, built around a circle or a Greek cross rather than a long processional aisle, was the High Renaissance's preferred form for a building meant to carry theological weight, and Bramante's version was explicitly modeled on the Pantheon. The reasoning wasn't only architectural. \"The circle, which has no beginning and no end, symbolized the perfection and eternal nature of God,\" as Smarthistory explains it. Bramante built enough of the crossing piers to commit the project to his scheme. He never got much further before he died in 1514, and no later architect built his plan as drawn."
+        ]
+      },
+      {
+        "heading": "Four architects undo Bramante's circle, one architect restores it",
+        "body": [
+          "Bramante's death handed the project to a very different design sensibility. Pope Leo X commissioned Raphael, Fra Giovanni Giocondo, and Giuliano da Sangallo as successors, and Britannica states plainly what they did with the inherited plan: they \"modified the original Greek cross plan to a Latin cross with three aisles separated by pillars.\" That is the opposite architectural move from Bramante's, trading a centralized, circle-symbolic form for the long processional nave of a traditional basilica. Raphael died in 1520, passing the post to Antonio da Sangallo the Elder, Baldassarre Peruzzi, and Andrea Sansovino.",
+          "Then Rome itself intervened. The city was sacked in 1527, construction stalled, and when Pope Paul III (1534–49) restarted the project he gave it to Antonio da Sangallo the Younger, who reversed the reversal. Britannica: Sangallo \"returned to Bramante's plan and erected a dividing wall between the area for the new basilica and the eastern part of the old one, which was still in use.\" For years, in other words, a half-finished new basilica and a still-functioning fragment of the fourth-century original stood side by side behind a partition wall, a detail most casual accounts of the building skip past entirely.",
+          "Sangallo died in 1546. Paul III's next move is the one every later account of the building treats as the turning point: \"Paul III commissioned the aged Michelangelo as chief architect, a post he held under Julius III and Pius IV,\" per Britannica. Michelangelo, already past seventy, went back to a centralized scheme close to Bramante's original logic, simplified and consolidated after four decades of other architects' revisions, and devoted the rest of his working life almost entirely to the dome. He never saw it built. \"At the time of Michelangelo's death in 1564, the drum for the massive dome was practically complete,\" Britannica notes; that drum was the base ring the dome itself would eventually rest on, finished, with the dome above it still unbuilt."
+        ]
+      },
+      {
+        "heading": "The dome finished by two men who weren't Michelangelo",
+        "body": [
+          "Michelangelo's immediate successors, Pirro Ligorio and Giacomo da Vignola, did not complete the dome either. Pope Gregory XIII (1572–85) put Giacomo della Porta in charge of the works, and it was della Porta, working alongside Domenico Fontana, who finally closed the gap Michelangelo left open. Britannica is specific that what went up was not identical to what Michelangelo had designed: the dome, \"modified from Michelangelo's design, was finally completed at the insistence of Sixtus V (1585–90).\"",
+          "The Fabbrica di San Pietro's own account gives the pace of that final push: \"The dome of Saint Peter's Basilica was conceived and built up to the drum by Michelangelo Buonarroti and brought to completion, after the death of the Master, by the architect Giacomo della Porta, who worked there alongside Domenico Fontana from 1588 to 1590, raising the dome in just 22 months thanks to the tireless work of 800 labourers.\" Twenty-two months, eight hundred laborers, and a design credited to a man who had been dead for twenty-four years by the time it was finished, and even then modified from what he had actually drawn. The dome most visitors assume is a pure Michelangelo design is, on the building's own records, a collaboration finished by two other architects making their own calls, comparable to [the gap between what Frank Lloyd Wright drew for Fallingwater and what his engineer quietly had to add to keep it standing](/frank-lloyd-wright/). Gregory XIV (1590–91) then ordered the lantern built above it, and the Fabbrica's official figure for the finished structure's height is 136 meters to the top of the dome."
+        ],
+        "image": {
+          "src": "/images/st-peters-basilica-bernini-baldachin.jpg",
+          "alt": "Gian Lorenzo Bernini's bronze baldachin over the high altar of St. Peter's Basilica, standing at the crossing directly beneath Michelangelo and della Porta's dome and marking the tomb of St. Peter below.",
+          "credit": "[Baldaquin Bernin Saint-Pierre Vatican](https://commons.wikimedia.org/wiki/File:Baldaquin_Bernin_Saint-Pierre_Vatican.jpg) by Jebulon, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)"
+        }
+      },
+      {
+        "heading": "Maderno reverses the logic again, and gives the building its final footprint",
+        "body": [
+          "Carlo Maderno's route to the job ran through a single successful facade. His work on Santa Susanna in Rome, finished in 1603, got him named chief architect of St. Peter's that same year. In 1607, Britannica records, \"he designed the nave and a new facade for Saint Peter's and was made architect to Pope Paul V.\" What he designed reversed Michelangelo's centralized scheme for the second time in the building's history, this time for good: Paul V (1605–21) \"adopted Carlo Maderno's plan, giving the basilica the form of a Latin cross by extending the nave to the east.\"",
+          "The reasoning wasn't aesthetic. Britannica's entry on Maderno states it directly: his additions \"were consonant with the spirit of the Counter-Reformation; by adding the nave he transformed Michelangelo's Greek-cross plan into a longitudinal one, thus reverting to the scheme of early Christian and Medieval cathedrals.\" A centralized dome reads as a unified symbolic whole from a single vantage point. A long nave processes and seats far more people for Mass, which mattered more to a Church spending the early seventeenth century competing for the loyalty of ordinary worshippers. Maderno also designed an extra bay on each end of his facade to carry a pair of bell towers. Only one was ever built, and Britannica notes it wasn't even to Maderno's design: \"that was of a different design executed by Gian Lorenzo Bernini in 1637.\" That means Bernini's first credited contribution to the building predates his baldachin by more than a decade.",
+          "Maderno's nave is also where a commonly repeated number needs a caveat rather than a flat correction. Britannica states that Paul V's extension completed \"the 615-foot- (187-meter-) long main structure,\" and the Fabbrica di San Pietro's own visitor FAQ gives the same figure in its own words: \"Saint Peter's Basilica is one of the largest churches in the world. It is approximately 187 meters long and 136 meters high to the top of the Dome.\" Both the building's own custodians and an outside encyclopedia agree on 187 meters for what Britannica specifically labels the main structure, while the roughly 220 meters that circulates on plenty of secondary sites almost certainly includes the entrance portico and atrium, which Britannica's figure appears to exclude. Neither number is simply wrong; they most likely measure different things, which is the same habit worth applying to [a functioning gargoyle versus a merely decorative grotesque](/what-is-a-gargoyle/): check what the primary source is actually measuring before repeating a number. Construction on Maderno's nave and facade finished by 1615. The building itself wasn't consecrated until eleven years after that, on November 18, 1626, under Pope Urban VIII, 120 years, almost to the month, after Julius II laid the first stone."
+        ]
+      },
+      {
+        "heading": "Bernini's bronze canopy, and a legend the Vatican's own records complicate",
+        "body": [
+          "Gian Lorenzo Bernini's baldachin, the bronze canopy standing at the crossing directly under the dome and over the traditional site of Peter's tomb, dates to 1624–33, per Britannica's own caption for the work, commissioned by Urban VIII. It is the object most casual visitors and most museum-shop postcards treat as the building's single defining artwork.",
+          "It also carries a legend that the building's own accounts don't fully support. Urban VIII, born Maffeo Barberini, had ancient bronze beams stripped from the portico of the Pantheon during his papacy, and an anonymous critic pinned a pasquinade (a satirical broadside, named for the practice of nailing them to a talking statue in Rome called Pasquino) that read \"Quod non fecerunt barbari, fecerunt Barberini\": what the barbarians didn't do, the Barberini did. The obvious assumption, repeated for centuries, is that this stripped Pantheon bronze became Bernini's baldachin. Wikipedia's own account of the baldachin complicates that story rather than confirming it, citing historical records that indicate about ninety percent of the Pantheon bronze went toward casting a cannon, while the baldachin's own bronze traces instead to Venice. The most quoted line about the building's most photographed bronze object may be describing the wrong metal, much the same kind of afterlife a theft gave [the Mona Lisa's fame](/mona-lisa/), where the popular story and the documented one don't quite match.",
+          "Bernini's other major contribution came at the opposite end of the building. Under the commission of Pope Alexander VII (1655–67), he designed the elliptical piazza and its flanking colonnades that form the building's public approach. The Fabbrica di San Pietro dates it precisely: \"Saint Peter's Square was designed by the architect Gian Lorenzo Bernini, at the behest of Pope Alexander VII. It was completed in 1667, after eleven years of intense and onerous work.\""
+        ]
+      },
+      {
+        "heading": "A sculpture eight years older than the building holding it",
+        "body": [
+          "One further wrinkle: the basilica's single most famous sculpture predates the current building entirely. Michelangelo's Pietà was carved in 1498 and 1499, when the sculptor was twenty-three, for a chapel that no longer exists. The Fabbrica di San Pietro's own account is specific about both the age and the original setting: \"A sculpture of superhuman beauty and perfection, sculpted in 1498 by a very young Michelangelo – he was just twenty-three years old – commissioned by the French Cardinal Jean de Bilhères Lagraulas for his tomb in the Chapel of the King of France in Saint Peter's, a no longer existing chapel that was located on the southern flank of the ancient Basilica.\"",
+          "That means the Pietà was finished eight years before Julius II laid the first stone of the building it now stands in, for a chapel inside the old Constantinian basilica that was itself later demolished to make room for Bramante, Michelangelo, and Maderno's successive plans. The statue outlasted the building it was made for and was moved into the one that replaced it, the reverse of the usual assumption that a church's oldest treasures were made for the walls currently holding them."
+        ]
+      },
+      {
+        "heading": "Four hundred years on",
+        "body": [
+          "In 2026, St. Peter's Basilica marked the 400th anniversary of Urban VIII's 1626 consecration. Reporting on the anniversary for the National Catholic Register, journalist Hannah Brockhaus quoted Pietro Zander, head of the cultural heritage department of the Fabbrica di San Pietro, describing what the finished, argued-over building actually sits on: \"Beneath the dome lie 2,000 years of devotion and history in a single place, one layer upon another.\" Art historian Elizabeth Lev, in the same piece, framed what the original design brief was always aiming at, regardless of which architect happened to hold the post: a building meant to be, in her words, \"the parish church of the whole world.\"",
+          "No single one of the five architects who held that post got to build the church they had actually drawn. Bramante's circle was cut short at his death. Raphael's Latin-cross correction was itself reversed by Sangallo. Michelangelo's dome was finished by della Porta and Fontana to a modified version of his design. Maderno's nave undid Michelangelo's centralized logic a second time, for reasons that were liturgical and political as much as architectural. Bernini added a canopy that inherited a legend about its own material the Vatican's records don't fully back up, and then closed the whole project off with a piazza. What stands in Vatican City today, four centuries after its consecration, is the sum of five people overruling each other, one plan at a time, not the pure execution of any single one of them."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who actually designed St. Peter's Basilica?",
+        "answer": "No single architect. Donato Bramante drew the first plan in 1506 (a centralized Greek cross); Raphael and his collaborators changed it to a Latin cross after Bramante's 1514 death; Antonio da Sangallo the Younger reversed that back to Bramante's centralized scheme in the 1530s; Michelangelo, chief architect from 1546 until his death in 1564, built the dome up to its drum; Giacomo della Porta and Domenico Fontana completed a modified version of Michelangelo's dome in 1588–90; and Carlo Maderno reversed the plan a second time from 1607 onward, extending it into the Latin-cross nave that stands today. Gian Lorenzo Bernini later added the baldachin and the piazza colonnade. (Source: Britannica, \"St. Peter's Basilica\" and \"Carlo Maderno\"; Fabbrica di San Pietro.)"
+      },
+      {
+        "question": "How long did St. Peter's Basilica take to build?",
+        "answer": "120 years from first stone to consecration. Pope Julius II laid the first stone on April 18, 1506, and Pope Urban VIII consecrated the finished basilica on November 18, 1626, a milestone the basilica marked the 400th anniversary of in 2026. (Source: Fabbrica di San Pietro; National Catholic Register, April 2026.)"
+      },
+      {
+        "question": "How big is St. Peter's Basilica?",
+        "answer": "About 187 meters long for the main structure, per both the Fabbrica di San Pietro's own visitor FAQ (\"approximately 187 meters long and 136 meters high to the top of the Dome\") and Britannica (\"the 615-foot- (187-meter-) long main structure\"). The roughly 220 meters sometimes quoted on secondary sites is not necessarily wrong; it most likely includes the entrance portico and atrium that Britannica's 187-meter figure appears to exclude."
+      },
+      {
+        "question": "Is the bronze in Bernini's baldachin really from the Pantheon?",
+        "answer": "Probably not, despite the popular legend. Pope Urban VIII did strip ancient bronze from the Pantheon's portico during his papacy, prompting the pasquinade \"Quod non fecerunt barbari, fecerunt Barberini\" (\"what the barbarians didn't do, the Barberini did\"). But per Wikipedia's account of the baldachin, historical records indicate about ninety percent of that Pantheon bronze was used for casting a cannon, while the baldachin's own bronze traces instead to Venice."
+      },
+      {
+        "question": "Why does St. Peter's have a long nave instead of Michelangelo's centralized dome plan?",
+        "answer": "Carlo Maderno extended it into a Latin cross starting in 1607, at Pope Paul V's direction. Britannica's entry on Maderno explains the reasoning wasn't primarily visual: his additions \"were consonant with the spirit of the Counter-Reformation; by adding the nave he transformed Michelangelo's Greek-cross plan into a longitudinal one, thus reverting to the scheme of early Christian and Medieval cathedrals,\" a plan that could process and seat far more worshippers than a centralized dome."
+      },
+      {
+        "question": "Is Michelangelo's Pietà older than the current basilica building?",
+        "answer": "Yes, by eight years. The Fabbrica di San Pietro dates it to 1498, when Michelangelo was 23, made for a now-demolished chapel in the old Constantinian basilica that stood on the site before Julius II laid the first stone of the present building in 1506."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Fabbrica di San Pietro (official Vatican site): The Basilica",
+        "url": "https://www.basilicasanpietro.va/en/san-pietro"
+      },
+      {
+        "label": "Fabbrica di San Pietro: How big is Saint Peter's Basilica? (FAQ)",
+        "url": "https://www.basilicasanpietro.va/en/faq/how-big-is-st-peters-basilica"
+      },
+      {
+        "label": "Britannica: St. Peter's Basilica",
+        "url": "https://www.britannica.com/topic/Saint-Peters-Basilica"
+      },
+      {
+        "label": "Britannica: Carlo Maderno",
+        "url": "https://www.britannica.com/biography/Carlo-Maderno"
+      },
+      {
+        "label": "Smarthistory (Khan Academy): Bramante, et al., Saint Peter's Basilica, by Dr. Beth Harris and Dr. Steven Zucker",
+        "url": "https://www.khanacademy.org/humanities/renaissance-reformation/high-ren-florence-rome/bramante/a/bramante-etal-saint-peters-basilica"
+      },
+      {
+        "label": "National Catholic Register: St. Peter's Basilica at 400 (Hannah Brockhaus, April 19, 2026)",
+        "url": "https://www.ncregister.com/features/st-peter-s-basilica-at-400-dw0pvvfq"
+      },
+      {
+        "label": "Wikipedia: St. Peter's Baldachin (Pantheon bronze / Barberini pasquinade)",
+        "url": "https://en.wikipedia.org/wiki/St._Peter%27s_Baldachin"
+      }
+    ]
   }
 ];
