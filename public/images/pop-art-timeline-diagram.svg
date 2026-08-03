@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1200 560" width="1200" height="560" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="1200" height="560" fill="#faf6f0"/>
+  <text x="600" y="50" text-anchor="middle" font-size="26" fill="#4a3728" font-weight="bold">From a Toy Gun's "Pop" to a $195 Million Marilyn</text>
+  <text x="600" y="78" text-anchor="middle" font-size="15" fill="#6d4f3a">Five dated events behind the word, the name, and the market</text>
+
+  <line x1="90" y1="300" x2="1110" y2="300" stroke="#8a5a34" stroke-width="4"/>
+
+  <!-- 1947 -->
+  <circle cx="150" cy="300" r="12" fill="#8a5a34"/>
+  <text x="150" y="250" text-anchor="middle" font-size="20" fill="#4a3728" font-weight="bold">1947</text>
+  <text x="150" y="340" text-anchor="middle" font-size="13" fill="#4a3728">Paolozzi collages</text>
+  <text x="150" y="358" text-anchor="middle" font-size="13" fill="#4a3728">a toy gun's "POP!"</text>
+  <text x="150" y="376" text-anchor="middle" font-size="12" fill="#7a6248">into "I Was a Rich</text>
+  <text x="150" y="392" text-anchor="middle" font-size="12" fill="#7a6248">Man's Plaything"</text>
+
+  <!-- 1956 -->
+  <circle cx="410" cy="300" r="12" fill="#a6733f"/>
+  <text x="410" y="250" text-anchor="middle" font-size="20" fill="#4a3728" font-weight="bold">1956</text>
+  <text x="410" y="340" text-anchor="middle" font-size="13" fill="#4a3728">Hamilton's collage</text>
+  <text x="410" y="358" text-anchor="middle" font-size="13" fill="#4a3728">headlines "This Is</text>
+  <text x="410" y="376" text-anchor="middle" font-size="12" fill="#7a6248">Tomorrow" at the</text>
+  <text x="410" y="392" text-anchor="middle" font-size="12" fill="#7a6248">Whitechapel Gallery</text>
+
+  <!-- 1962 -->
+  <circle cx="630" cy="300" r="12" fill="#6d4f3a"/>
+  <text x="630" y="250" text-anchor="middle" font-size="20" fill="#4a3728" font-weight="bold">1962</text>
+  <text x="630" y="340" text-anchor="middle" font-size="13" fill="#4a3728">Alloway's "Pop Since</text>
+  <text x="630" y="358" text-anchor="middle" font-size="13" fill="#4a3728">1949" is the first essay</text>
+  <text x="630" y="376" text-anchor="middle" font-size="12" fill="#7a6248">on record actually</text>
+  <text x="630" y="392" text-anchor="middle" font-size="12" fill="#7a6248">printing the phrase</text>
+
+  <!-- 1963 -->
+  <circle cx="850" cy="300" r="12" fill="#9c6b4f"/>
+  <text x="850" y="250" text-anchor="middle" font-size="20" fill="#4a3728" font-weight="bold">1963</text>
+  <text x="850" y="340" text-anchor="middle" font-size="13" fill="#4a3728">Lichtenstein recombines</text>
+  <text x="850" y="358" text-anchor="middle" font-size="13" fill="#4a3728">DC war-comic panels</text>
+  <text x="850" y="376" text-anchor="middle" font-size="12" fill="#7a6248">into "Whaam!,"</text>
+  <text x="850" y="392" text-anchor="middle" font-size="12" fill="#7a6248">Castelli Gallery, NYC</text>
+
+  <!-- 2022 -->
+  <circle cx="1080" cy="300" r="12" fill="#7a6248"/>
+  <text x="1080" y="250" text-anchor="middle" font-size="20" fill="#4a3728" font-weight="bold">2022</text>
+  <text x="1080" y="340" text-anchor="middle" font-size="13" fill="#4a3728">Warhol's "Shot Sage</text>
+  <text x="1080" y="358" text-anchor="middle" font-size="13" fill="#4a3728">Blue Marilyn" sells for</text>
+  <text x="1080" y="376" text-anchor="middle" font-size="12" fill="#7a6248">$195.04M at Christie's,</text>
+  <text x="1080" y="392" text-anchor="middle" font-size="12" fill="#7a6248">a US art-auction record</text>
+
+  <text x="600" y="470" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">15 years separate the word "pop" first appearing in a collage from the first essay to print the phrase "Pop Art."</text>
+  <text x="600" y="490" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">The 1958 date usually given for the term's "coining" is the year Alloway published a related essay that never uses the words "Pop Art."</text>
+</svg>
