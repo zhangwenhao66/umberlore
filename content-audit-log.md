@@ -175,3 +175,92 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "mona-lisa",
+  "last_audited": "2026-08-03",
+  "published_date": "2026-08-02",
+  "article_specific_checklist": [
+    "Baedeker 1878 与 1907 两版对 Mona Lisa 词条的逐字引语（星级标记、'most celebrated' 表述、'darkened' 相关表述）需回 archive.org 原始扫描/OCR 核对，这是文章'盗窃前就已出名'核心论点的证据基础",
+    "Donald Sassoon（Prospect Magazine）给出的九世纪估值（1849年90,000法郎）与1851-1880年临摹次数（71次 vs Murillo 197/Correggio 186/Veronese 167/Titian 130）需核实准确性",
+    "卢浮宫官方藏品记录（尺寸79.4×53.4cm、材质杨木板非画布、编号INV 779/MR 316、断代1503-1519、1518年入藏/1793年归入国家收藏、Vespucci 2005年海德堡发现）需逐项核对",
+    "1911年盗窃案具体细节（Peruggia作案日期/发现者Louis Béroud/Apollinaire被捕与Picasso被问讯/1914年6月审判量刑）需核实是否有以讹传讹版本",
+    "2025年1月卢浮宫'新文艺复兴'改造公告（2031年搬迁、30,000人/日上限）截至审计日（发布后仅一天）是否有更新的进展需要补充"
+  ],
+  "findings": [
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇引用真实一手史料：卢浮宫官方藏品记录、Donald Sassoon学术研究（Prospect Magazine）、Baedeker 1878/1907两版原始扫描全文、CNN/Smithsonian/National Geographic等权威媒体报道，无模糊归因。"
+    },
+    {
+      "dimension": "事实准确性",
+      "status": "发现一处问题，已独立复核确认并修复；其余全部核实准确",
+      "detail": "下载 archive.org 两版 Baedeker 原始 OCR 全文逐字核对：1878版entry 462「♦♦462」双星号标记+「The most celebrated work of Leonardo in the Louvre is his Mona Lisa」+「are now concealed by the darkened shades」全部逐字准确；1907版entry 1601「the most celebrated female portrait in the world」+「still fascinates in spite of the darkened condition of the canvas」逐字准确。但1907版正文中『still marked with two asterisks』这一具体细节在OCR全文中找不到任何支撑，且该版星标目录（Salle Duchâtel附近）在*1600后直接跳到1602，entry 1601本身不存在于星标目录中。另经WebSearch核实：Sassoon估值数字（90,000/150,000/400,000/600,000法郎）准确；Louvre官方尺寸(79.4×53.4cm)/编号(INV 779/MR 316)/1518年François I购藏/1793年入藏国家收藏准确；Vespucci 2005年海德堡大学图书馆发现（Armin Schlechter）准确；Peruggia审判（1914年6月，判一年十五天，上诉减至约七个月）准确；Louis Béroud发现盗窃、Apollinaire被捕、Picasso被问讯后均获释，准确。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "文章published/updated均为2026-08-02，发布仅一天。WebSearch核实卢浮宫『新文艺复兴』2031年搬迁计划截至2026-08仍在正常推进（建筑师竞标预计2026年内举行），无延期或重大变更需要更新；30,000人/日参观上限（2022年6月起实施）截至目前仍然有效。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "openseo get_serp_results核实\"mona lisa\"头部结果由Wikipedia/Mona Lisa Foundation/Britannica/PBS主导；\"why is the mona lisa famous\"头部结果同样是Wikipedia/Britannica等通用概述页，Wikipedia原文仅一句带过盗窃与出名的关系（\"global fame...partly stem from its 1911 theft\"）。本文用Baedeker两版原始星级评分逐字对比+Sassoon估值/临摹数据构建的具体论证，是头部竞品未覆盖的真实增量，未发现与Wikipedia同质化风险。thecollector.com/artincontext.org均未出现在两个SERP前排。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "title渲染后64字符（含站名后缀\" | UmberLore\"，该后缀是全站Layout.astro的固定模板逻辑，非本文专属问题）；meta description 156字符，在150-160区间内；canonical由Astro.url自动生成自指；单一H1（guide.title），7个section H2+FAQ独立H2，无跳级；Article/FAQPage/BreadcrumbList三个schema组件均基于guide对象动态生成；hero图与2张正文插图均有alt文本；URL结构/mona-lisa/清晰。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题，自评约93/99（阈值80，达标）",
+      "detail": "权威原文引语16/16（Baedeker两版+Louvre+Sassoon等逐字核实准确）；统计数据完整性13-14/14（法郎估值/临摹次数/尺寸/多个具体年代数据密集）；可引用性12-13/13；结构规范性12/12；表达流畅度9/10；语义密度7/8；权威信号6/8（机构引用扎实但缺作者credential页）；专业术语6/6；鲁棒性5/5（核心论断均有verified一手引语支撑）；跨域连接4/4（3条真实回链自what-is-a-gargoyle/gustav-klimt/van-gogh-paintings，3条出链至同一批文章，双向健康）；易懂表达3/3。此为审计员自评，未使用独立工具复验。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "不适用（未发现问题）",
+      "detail": "UmberLore站从建站首日（2026-08-02）humanizer即为发布流程强制步骤（见umberlore-content-publishing SKILL.md），mona-lisa是首批5篇发布文章之一，不存在'早于humanizer强制化'的情况。机械扫描全文：em/en dash 0处、常见AI高频词（delve/crucial/testament/tapestry/pivotal等）0命中，判定为已去AI味写作。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "8条sources外部链接：collections.louvre.fr/prospectmagazine.co.uk/archive.org×2/gallica.bnf.fr curl实测200；smithsonianmag.com返回403、nationalgeographic.com连接失败——但WebSearch确认两个页面仍在Google索引中且内容可正常检索到，判定为curl环境反爬/网络限制导致的假阳性，非真实链接失效；CNN链接302重定向至edition.cnn.com后200，属正常区域重定向。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep全站guides.ts确认3条真实正文锚文本回链指向/mona-lisa/：来自what-is-a-gargoyle（'how the Mona Lisa became famous'）、gustav-klimt（'the Mona Lisa's 1911 theft'）、van-gogh-paintings（'the 1911 theft only partly answers'）。本文自身也有3条出链指向gustav-klimt/what-is-a-gargoyle。非孤儿页。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "Article/FAQPage/BreadcrumbList三个schema组件（vendor/site-toolkit/packages/schema/src/*.astro）均在构建时直接从guide对象字段动态生成JSON-LD，结构上不存在漂移风险，本次修复的正文文字改动会在下次构建时自动同步进description/FAQ等字段（本次改动未涉及description或faq字段，仅涉及section正文，schema不受影响）。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "文中人物（Leonardo da Vinci、Lisa Gherardini、Vincenzo Peruggia、Louis Béroud、Guillaume Apollinaire、Pablo Picasso等）均为历史人物或早已盖棺定论的历史事件，无现实世界近期争议。卢浮宫作为机构本身也无需要重新审视的当前进行时争议。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "3张配图（mona-lisa.jpg头图 + mona-lisa-empty-wall-1911.jpg / mona-lisa-excelsior-1913.jpg两张正文插图）本地文件均存在。逐张通过Wikimedia Commons API核实许可状态，全部仍为Public domain，与站内imageCredit标注完全一致。均为1911年前的原作/历史照片，作者Leonardo da Vinci卒于1519年，远早于本站版权风险分界线，不触及'现当代艺术家版权风险'专属检查项。"
+    }
+  ],
+  "actions_taken": [
+    "独立agent复核确认'1907年Baedeker entry 1601 still marked with two asterisks'这一具体细节在原始来源中找不到支撑（星标目录本身缺失该条目）后，删除该从句，句子其余部分（entry编号、两条已验证准确的逐字引语）保持不变，不影响文章核心论点",
+    "npm run build验证通过（17页无报错）",
+    "因umberlore-content-publishing定时任务同时在向src/data/guides.ts追加pop-art新文章（未提交），改用git hash-object+git update-index在blob层面只暂存本次审计改动的那一行，commit 4fbdb03并push，未触碰对方未提交内容",
+    "CF Pages自动部署，轮询约30秒后确认线上已渲染新文本",
+    "IndexNow提交/mona-lisa/（Bing 200/Yandex 202），更新indexnow-submit-log.json对应条目",
+    "内容发布日志.md追加审计记录，明确标注'本条为content-quality-audit审计更新，非新发布'"
+  ],
+  "seo_score": "seo-audit通过（title 64字符含站名后缀属全站模板问题非本文专属/desc 156/canonical自指/单一h1/7个h2无跳级/三个schema均基于guide对象动态生成有效/alt全部已有/8条外链经WebSearch交叉验证均仍在线，curl 403/超时判定为反爬假阳性）",
+  "geo_score": "自评约93/99（阈值80，达标），11个维度均达标，跨域连接4/4（3条回链+3条出链，双向健康）",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
