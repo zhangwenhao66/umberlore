@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1200 620" width="1200" height="620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="1200" height="620" fill="#faf6f0"/>
+  <text x="600" y="46" text-anchor="middle" font-size="24" fill="#4a3728" font-weight="bold">How Gaudí Turned a Hanging Chain Into a Stone Arch</text>
+  <text x="600" y="72" text-anchor="middle" font-size="14" fill="#6d4f3a">The method he tested at Colònia Güell from 1898, then scaled up at Sagrada Família</text>
+
+  <!-- Step 1: hanging chain (tension) -->
+  <text x="600" y="118" text-anchor="middle" font-size="16" fill="#4a3728" font-weight="bold">1. Hang a chain freely between two points</text>
+  <text x="600" y="140" text-anchor="middle" font-size="12" fill="#7a6248">Gravity pulls it into a catenary curve, held entirely in tension</text>
+
+  <line x1="180" y1="175" x2="180" y2="330" stroke="#8a5a34" stroke-width="6"/>
+  <line x1="1020" y1="175" x2="1020" y2="330" stroke="#8a5a34" stroke-width="6"/>
+  <path d="M180,180 Q600,340 1020,180" fill="none" stroke="#6d4f3a" stroke-width="4"/>
+
+  <!-- weight sacks along the chain -->
+  <g fill="#a6733f">
+    <circle cx="330" cy="228" r="9"/>
+    <circle cx="460" cy="285" r="9"/>
+    <circle cx="600" cy="308" r="9"/>
+    <circle cx="740" cy="285" r="9"/>
+    <circle cx="870" cy="228" r="9"/>
+  </g>
+  <text x="600" y="380" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">Lead-filled sacks tied along the chain, weighted the way Gaudí's studio models were</text>
+
+  <!-- arrow indicating flip -->
+  <path d="M600,400 L600,440" stroke="#4a3728" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="640" y="425" font-size="13" fill="#4a3728" font-weight="bold">flip it upside down</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4a3728"/>
+    </marker>
+  </defs>
+
+  <!-- Step 2: inverted arch (compression) -->
+  <text x="600" y="480" text-anchor="middle" font-size="16" fill="#4a3728" font-weight="bold">2. Invert the same curve</text>
+  <text x="600" y="502" text-anchor="middle" font-size="12" fill="#7a6248">It becomes an arch in pure compression, needing no external buttress</text>
+
+  <path d="M180,590 Q600,430 1020,590" fill="none" stroke="#8a5a34" stroke-width="10" stroke-linecap="round"/>
+  <line x1="180" y1="590" x2="180" y2="605" stroke="#4a3728" stroke-width="6"/>
+  <line x1="1020" y1="590" x2="1020" y2="605" stroke="#4a3728" stroke-width="6"/>
+
+  <text x="600" y="608" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">This is the geometry behind Sagrada Família's inclined columns and hyperboloid vaults</text>
+</svg>

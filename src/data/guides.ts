@@ -1905,6 +1905,144 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/The_Wounded_Table"
       }
     ]
+  },
+  {
+    "slug": "sagrada-familia",
+    "category": "Architecture",
+    "title": "Sagrada Família: A 2026 Finish Engineered a Century Earlier",
+    "description": "Sagrada Família reached its final height in February 2026. The catenary-arch system that made it possible was tested first at a smaller church Gaudí never finished.",
+    "published": "2026-08-05",
+    "updated": "2026-08-05",
+    "coreSummary": "Sagrada Família reached its final height, 172.5 meters, on 20 February 2026, when workers placed the last piece on the Tower of Jesus Christ, and on 10 June 2026, the centenary of Antoni Gaudí's death, Pope Leo XIV blessed it, putting the basilica past Germany's Ulm Minster as the tallest church on Earth. The structural system that made that height possible without a single flying buttress was not invented for Sagrada Família at all: Gaudí worked it out with hanging chain models at the Church of Colònia Güell starting in 1898, a smaller commission that itself was never finished. That geometry survived a 1936 fire that destroyed Gaudí's own studio models, letting later architects rebuild the design accurately from what remained. Construction has never taken a euro of government money, and the finished building is not, technically, a cathedral.",
+    "image": "/images/sagrada-familia-nativity-facade.jpg",
+    "imageAlt": "The Nativity Façade of Sagrada Família, densely carved with naturalistic sculpture of plants, animals, and biblical figures, the section of the basilica completed largely under Antoni Gaudí's own supervision.",
+    "imageCredit": "[General view - Nativity Facade - Sagrada Família - Barcelona 2014](https://commons.wikimedia.org/wiki/File:General_view_-_Nativity_Facade_-_Sagrada_Fam%C3%ADlia_-_Barcelona_2014.jpg) by José Luiz Bernardes Ribeiro, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)",
+    "sections": [
+      {
+        "heading": "A 144-year build reached its ceiling in February 2026",
+        "body": [
+          "On 20 February 2026, construction crews fastened the final piece onto the Tower of Jesus Christ at the center of Sagrada Família, bringing the basilica to its full height of 172.5 meters and completing all six of the temple's central towers. Vatican News reported the milestone that week as the point at which, in structural terms, the basilica Antoni Gaudí redesigned in 1883 was finally built.",
+          "The date chosen for the public ceremony was not incidental. On 10 June 2026, the hundredth anniversary of Gaudí's death, Pope Leo XIV blessed the completed tower at a mass held inside the basilica. Gaudí had been struck by a tram near the site on 7 June 1926 and died three days later, on 10 June, after being taken first to a pauper's hospital ward: witnesses, put off by his worn clothes and missing identification, had assumed the unconscious 73-year-old was a beggar, and no taxi driver would take him to a hospital until a police officer intervened.",
+          "At 172.5 meters, Sagrada Família passed Germany's Ulm Minster, previously the tallest church building on Earth at roughly 162 meters, to take the record. The basilica's own construction office puts the remaining finishing work, chiefly the monumental Glòria staircase and elements of the surrounding plaza, on a schedule that runs to 2034 or 2035. Structurally, though, the building Gaudí began is complete: all 18 of its planned towers, representing the twelve Apostles, the four Evangelists, the Virgin Mary, and Jesus Christ, are now standing."
+        ]
+      },
+      {
+        "heading": "The design Gaudí inherited was nothing like the one he built",
+        "body": [
+          "Construction started on 19 March 1882, when Bishop Urquinaona laid the cornerstone for a design by diocesan architect Francisco de Paula del Villar. Villar's Sagrada Família looked like most large churches built in Spain that decade: pointed ogival windows, buttresses and flying buttresses, and a single bell tower, a straightforward neo-Gothic revival design.",
+          "Villar resigned within a year, in a dispute over the cost of materials, and in 1883 the commission passed to a 31-year-old architect, Antoni Gaudí, who was still completing other commissions around Barcelona at the time. Gaudí kept almost none of Villar's plan. Sagrada Família is not the only major basilica whose design changed hands mid-build: [St. Peter's Basilica went through five chief architects across 120 years](/st-peters-basilica/), each reversing pieces of the last one's scheme. What sets Sagrada Família apart is that a single architect, working on it for over forty years, replaced a conventional design with one that had no real precedent, then spent his final years living inside the half-built structure to keep working on it.",
+          "Gaudí died in 1926 with barely a quarter of the building standing. Everything above that quarter, everything blessed on the tower in June 2026, was built by architects who never worked alongside him, following a design he left mostly in physical models and fragments rather than finished drawings."
+        ]
+      },
+      {
+        "heading": "The unfinished chapel where he worked out the physics",
+        "body": [
+          "The structural system that let Sagrada Família reach 172.5 meters without a single flying buttress was not developed for Sagrada Família first. In 1898, Gaudí's longtime patron Eusebi Güell commissioned him to design a church for the workers' colony at Colònia Güell, outside Barcelona, and gave the 46-year-old architect complete freedom over the design. Gaudí used the smaller commission to test ideas he had not yet dared apply to the larger project in the city.",
+          "His method was a hanging model built from ropes and chains, weighted at intervals with lead-filled sacks and suspended over a mirror so he could study the shape right-side up, as it would eventually stand built. A chain hung freely between two points settles into a catenary curve, a shape held entirely in tension. Flip that same curve upside down and it becomes an arch in pure compression, one that needs no external buttress to keep it from spreading. Gaudí used the technique to work out the hyperboloids and hyperbolic paraboloids that let Sagrada Família's inclined, tree-like columns carry the roof's load without the exterior stonework that holds up a conventional Gothic cathedral.",
+          "Colònia Güell itself was never finished. Funding collapsed in 1914, and only the crypt Gaudí designed was ever built, a permanently unfinished building. But the structural geometry it proved out is what let architects a century later, working from photographs and reconstructed models rather than Gaudí's own hand, keep building Sagrada Família to a design that still held together mathematically. The same willingness to bet a building's stability on an untested idea shows up decades later at [Frank Lloyd Wright's Fallingwater](/frank-lloyd-wright/), where the architect's own engineer left reinforcing steel out of the cantilevers and the error went uncorrected for 65 years. Gaudí's chain models held up better than that."
+        ],
+        "image": {
+          "src": "/images/sagrada-familia-catenary-diagram.svg",
+          "alt": "Diagram showing a hanging chain forming a catenary curve under tension, and the same curve inverted into an arch under pure compression, the method Gaudí used to design Sagrada Família's vaults."
+        }
+      },
+      {
+        "heading": "Two façades, one built in his lifetime, one built by someone who refused to imitate him",
+        "body": [
+          "Work on the Nativity Façade began in 1891 and continued, under Gaudí's direct supervision, for most of the rest of his life; it is the only one of the basilica's three façades substantially complete before his death. It is covered in naturalistic sculpture, plants, animals, and biblical figures carved with the density of a stone tapestry. It even has gargoyles in the strict sense of the word: [a gargoyle is a functioning waterspout, not just any stone monster](/what-is-a-gargoyle/), and the Nativity Façade's are real ones, cut as chameleons, lizards, and salamanders rather than the demons and hybrid beasts that drain Gothic cathedrals elsewhere in Europe, chosen because Gaudí treated the natural world as the more authentic source of religious imagery. The façade's naturalism was enough to earn it, together with the crypt below, UNESCO World Heritage status in 2005 as one of the \"Works of Antoni Gaudí.\"",
+          "The Passion Façade, on the opposite side of the building, tells a different story about who built this church. Sculptor Josep Maria Subirachs took the commission in 1986 and made his acceptance conditional on complete artistic freedom. He worked in sharp, angular Expressionist forms, deliberately unlike Gaudí's naturalism, arguing that copying Gaudí's style outright would have amounted to forgery, and that the subject, Christ's suffering and death, demanded a harsher visual language than the Nativity side's celebration of birth. When Subirachs unveiled his first sculptures for the façade in 1987, reaction in Barcelona split immediately; critics called the angular figures \"a crime against Gaudí\" and \"an artistic abomination.\" Both façades are load-bearing parts of the same building, an argument about how to finish someone else's masterpiece carried out in cut stone rather than words."
+        ]
+      },
+      {
+        "heading": "Anarchists destroyed his models in 1936. The design survived anyway",
+        "body": [
+          "On 20 July 1936, early in the Spanish Civil War, members of the anarchist Federación Anarquista Ibérica set fire to the site's provisional school, ransacked Gaudí's former studio, and burned the crypt. The plaster models Gaudí had used to work out Sagrada Família's geometry, the same kind of physical modeling he had developed at Colònia Güell, were smashed to fragments in the attack, along with drawings, photographs, and papers. The group returned later that day with dynamite, intending to destroy the Nativity Façade as well; for reasons never recorded, they did not go through with it.",
+          "The loss set the project back by decades. Without Gaudí's own drawings and models to work from, architects who took over construction after the war had to reconstruct his intentions from surviving photographs, salvaged model fragments, and the underlying geometry itself, the same catenary and hyperboloid mathematics that had already held up at the Colònia Güell test. That the building completed in February 2026 is recognizably the one Gaudí began is less a story about preserved paper than about a structural system precise enough to be reverse-engineered from what a fire left behind."
+        ]
+      },
+      {
+        "heading": "Why it stops at 172.5 meters, and not a meter higher",
+        "body": [
+          "The Tower of Jesus Christ was not built to whatever height engineering allowed. Gaudí fixed its ceiling deliberately at 172.5 meters, about one meter below the roughly 173-meter summit of Montjuïc, the hill that overlooks Barcelona from the far side of the city. His reasoning, as architects who continued his work have described it, was that no work of human hands should be built to surpass the height of what he considered God's own creation.",
+          "The constraint did not stop the tower from becoming a record-holder. At 172.5 meters, Sagrada Família passed Ulm Minster in Germany, roughly 162 meters, to become the tallest church building in the world, while still finishing short of a hillside Gaudí never intended to exceed. Few buildings anywhere tie their final height to a specific piece of nearby topography rather than to whatever a structure can physically support; Sagrada Família's height limit came from neither."
+        ]
+      },
+      {
+        "heading": "No government has ever paid for it, and it is not a cathedral",
+        "body": [
+          "Sagrada Família's official name, Basílica i Temple Expiatori de la Sagrada Família, describes what it was built to be: an expiatory temple, funded by the ongoing donations and sacrifice of the faithful rather than by any diocese or state. Since 1882, construction has been paid for through private donations, memberships, and, in recent decades, ticket revenue from the millions of visitors who tour the site each year. No government body, local, regional, or national, has ever put public money into its construction.",
+          "Despite its size, Sagrada Família is not a cathedral; a cathedral is specifically the seat of a bishop, a role that belongs to a separate Gothic building in Barcelona's old city. Pope Benedict XVI consecrated Sagrada Família as a minor basilica on 7 November 2010, at a mass attended by roughly 8,000 people and concelebrated by more than 1,000 cardinals, bishops, priests, and deacons. That designation, not cathedral, is the one that has applied to the building ever since, through the 2026 completion of its tallest tower and the blessing that followed."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Sagrada Família finished now?",
+        "answer": "Structurally, yes, as of 20 February 2026, when the final piece was placed on the 172.5-meter Tower of Jesus Christ and all 18 of the basilica's planned towers were complete. Finishing work, mainly the monumental Glòria staircase and elements of the surrounding plaza, is scheduled to continue until roughly 2034 or 2035, according to the project's own construction office."
+      },
+      {
+        "question": "Is Sagrada Família a cathedral?",
+        "answer": "No. A cathedral is specifically the seat of a bishop, a role that belongs to a different building in Barcelona. Pope Benedict XVI consecrated Sagrada Família as a minor basilica on 7 November 2010, and that remains its official status."
+      },
+      {
+        "question": "How tall is Sagrada Família, and why that specific height?",
+        "answer": "172.5 meters, reached when the Tower of Jesus Christ was completed on 20 February 2026. Gaudí set that ceiling deliberately, about one meter below the roughly 173-meter summit of Montjuïc, the hill overlooking Barcelona, out of a belief, as architects who continued his work have described it, that a human structure should not be built to surpass the height of what he considered God's own creation."
+      },
+      {
+        "question": "Why do the Nativity and Passion façades look so different?",
+        "answer": "The Nativity Façade was built mostly under Gaudí's own supervision starting in 1891, in his dense, naturalistic style. The Passion Façade was completed far later, starting in 1986, by sculptor Josep Maria Subirachs, who made his own artistic freedom a condition of taking the commission and deliberately worked in sharp, angular forms rather than imitate Gaudí, a choice that divided critics when it was unveiled in 1987."
+      },
+      {
+        "question": "How did architects finish Gaudí's design after his own models were destroyed?",
+        "answer": "On 20 July 1936, anarchist militants burned Gaudí's studio and its plaster models during the Spanish Civil War. Later architects rebuilt his intentions from surviving photographs, salvaged model fragments, and the underlying catenary-arch and hyperboloid geometry Gaudí had already proved out at the Church of Colònia Güell, a related commission he began in 1898 and never finished."
+      },
+      {
+        "question": "Who pays for Sagrada Família's construction?",
+        "answer": "Private donors, members of the temple's support associations, and, increasingly, ticket revenue from visitors. As an \"expiatory temple,\" a designation reflected in its full name, Basílica i Temple Expiatori de la Sagrada Família, it has never received government funding at any level."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Vatican News: Central tower of Barcelona's Sagrada Família completed",
+        "url": "https://www.vaticannews.va/en/church/news/2026-02/basilica-sagrada-familia-cross-completed-tower-of-jesus-christ.html"
+      },
+      {
+        "label": "The Art Newspaper: Gaudí's Sagrada Família finally shakes off its 'incompletable' tag (June 2026)",
+        "url": "https://www.theartnewspaper.com/2026/06/04/gaudis-sagrada-familia-finally-shakes-off-its-incompletable-tag-as-pope-prepares-to-inaugurate-tallest-and-final-tower"
+      },
+      {
+        "label": "Britannica: Sagrada Família",
+        "url": "https://www.britannica.com/topic/Sagrada-Familia"
+      },
+      {
+        "label": "Britannica: How many towers does the Sagrada Família have, and what do they represent?",
+        "url": "https://www.britannica.com/question/How-many-towers-does-the-Sagrada-Familia-have-and-what-do-they-represent"
+      },
+      {
+        "label": "Sagrada Família: History of the Temple (official site)",
+        "url": "https://sagradafamilia.org/en/history-of-the-temple"
+      },
+      {
+        "label": "Dezeen: How Gaudí's Colònia Güell hanging models paved the way for parametricism",
+        "url": "https://www.dezeen.com/2026/06/16/colonia-guell-hanging-models-gaudi-centenary/"
+      },
+      {
+        "label": "Mental Floss: Gaudí's Accidental Death — Why the Great Architect Was Mistaken for a Beggar",
+        "url": "https://www.mentalfloss.com/article/72482/gaudis-accidental-death-why-great-architect-was-mistaken-beggar"
+      },
+      {
+        "label": "Temples.org: The Spanish Civil War and the Sagrada Família",
+        "url": "https://temples.org/stories/spanish-civil-war-sagrada-familia"
+      },
+      {
+        "label": "Aleteia: Exploring Subirachs' bold sculptures in the Sagrada Familia",
+        "url": "https://aleteia.org/2023/11/08/exploring-subirachs-bold-sculptures-in-barcelonas-sagrada-familia/"
+      },
+      {
+        "label": "Vatican.va: Pope Benedict XVI, homily at the dedication of the church of the Sagrada Familia, 7 November 2010",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2010/documents/hf_ben-xvi_hom_20101107_barcelona.html"
+      }
+    ]
   }
 
 ];
