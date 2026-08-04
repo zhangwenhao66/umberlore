@@ -2043,6 +2043,146 @@ export const guides: Guide[] = [
         "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2010/documents/hf_ben-xvi_hom_20101107_barcelona.html"
       }
     ]
+  },
+  {
+    "slug": "starry-night",
+    "category": "Painting",
+    "title": "The Starry Night: One Real Star, One Invented Village",
+    "description": "The star beside the cypress in Starry Night is Venus, confirmed from Van Gogh's own 1889 letters. The village below it is invented, its swirls still disputed physics.",
+    "published": "2026-08-05",
+    "updated": "2026-08-05",
+    "coreSummary": "The bright object beside the cypress tree in The Starry Night is Venus: Van Gogh described seeing \"the morning star, which looked very big\" from his asylum window in a letter to Theo written between about 31 May and 6 June 1889, and the Van Gogh Museum's own letters project credits astronomer Charles Whitney's research with identifying it. The village underneath the swirling sky is not real; MoMA's own catalogue entry calls it \"the addition of an imaginary village,\" and its slender, Dutch-style church spire evokes the artist's homeland rather than Provence. Astronomers have precisely dated two of Van Gogh's other night paintings, White House at Night and Moonrise, to a specific hour using the calculated position of Venus and the moon; they have not done the same for The Starry Night, in part because Van Gogh himself later dismissed its arrangement as an \"exaggeration.\" Physicists have spent nearly twenty years testing whether the sky's swirls actually obey the mathematical law that governs real turbulence: a 2006 study found they did, a 2019 study of a cropped section found a pattern closer to the turbulence inside star-forming interstellar clouds, and a 2024 study analyzing the entire sky settled back on the original Kolmogorov-like result.",
+    "image": "/images/starry-night-moma.jpg",
+    "imageAlt": "Vincent van Gogh's The Starry Night, 1889, showing a swirling night sky with a bright morning star over an invented village and a large dark cypress tree",
+    "imageCredit": "[The Starry Night](https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg), via Google Arts & Culture, Museum of Modern Art, New York (accession 472.1941), public domain",
+    "sections": [
+      {
+        "heading": "The one detail that checks out: a morning star from his asylum window",
+        "body": [
+          "In May 1889, Van Gogh admitted himself to the Saint-Paul-de-Mausole asylum outside Saint-Rémy-de-Provence, where he was given a bedroom with a barred window facing east over a wheat field. In a letter to his brother Theo, written between about 31 May and 6 June 1889, he described what he had seen from that window before dawn: \"This morning I saw the countryside from my window a long time before sunrise, with nothing but the morning star, which looked very big.\" He was not being poetic about the star's size. The Van Gogh Museum's own letters project notes, in its annotation to this passage, that the star was the planet Venus, which had emerged from obscurity in the morning twilight during mid-May 1889 and grew more prominent through June, citing astronomer Charles A. Whitney's study \"The Skies of Vincent van Gogh,\" published in the journal Art History.",
+          "About two weeks later, on or about 18 June, Van Gogh wrote to Theo again, mentioning that he had just finished \"a new study of a starry sky.\" That study is catalogued today as F 612 / JH 1731, the painting now known as The Starry Night. Between those two letters is essentially everything that can be independently verified about what Van Gogh actually observed before he painted it: a bright morning star, seen from an asylum window, in the last days of May or first weeks of June 1889."
+        ]
+      },
+      {
+        "heading": "The village below is not Provence. It's Holland, remembered",
+        "body": [
+          "Everything under the sky is a different matter. The Museum of Modern Art, which has owned the painting since 1941, describes the huddled town at the bottom of the canvas plainly in its own collection record: the scene shows the view from Van Gogh's window \"with the addition of an imaginary village.\" No village of that kind stood outside his room; what he could actually see, by his own account in other letters from the asylum, was a walled field of wheat.",
+          "The invented church at the village's center has drawn particular attention from art historians, because its steep, pointed steeple resembles the Dutch Reformed churches of Nuenen and Zundert, the towns where Van Gogh grew up, far more than it resembles the low, rounded Romanesque bell towers common around Provence. The cypress looming in the left foreground is oversized to the same degree, dwarfing the village it stands beside. The painting, in other words, sets one real astronomical detail, a planet he watched from his window, inside a landscape built from homesick memory rather than observation."
+        ]
+      },
+      {
+        "heading": "Astronomers have dated two other Van Gogh night skies to the hour. Not this one",
+        "body": [
+          "Donald Olson and Russell Doescher, astronomers at Texas State University, have made a specialty of reconstructing the exact moment behind Van Gogh's night paintings by calculating where the moon and planets stood in the sky on candidate dates. Working from the position of a bright \"star\" beside a house in White House at Night, a painting that resurfaced in 1995 after being presumed lost since the Second World War, they identified the object as Venus and fixed the scene to around 8 p.m. on a specific evening in June 1890. They carried out comparable work dating Van Gogh's Moonrise, publishing their findings through Sky & Telescope.",
+          "The Starry Night has never received the same treatment. No astronomer has pinned it to one specific night the way Olson and Doescher pinned White House at Night, and the likely reason is the painting itself: it mixes one observed detail, Venus, with an invented village and an exaggerated cypress that don't correspond to any single real view. Van Gogh seems to have agreed with that assessment. In a letter to Theo written on or about 20 September 1889, he grouped what he called the \"Night effect,\" identified by the Van Gogh Museum's own letter annotations as this same canvas, together with Moonrise, and dismissed both: \"These are exaggerations from the point of view of the arrangement, their lines are contorted like those of the ancient woodcuts.\" The canvas didn't leave for Paris with that batch; a follow-up letter on 28 September lists the \"Night effect\" and Moonrise among a further group of paintings finally heading out that day, over a week after he first wrote them off. A painting built that loosely from a real sky doesn't hold still long enough for astronomical dating to work on it."
+        ]
+      },
+      {
+        "heading": "Physicists have argued about the swirls for almost twenty years",
+        "body": [
+          "In 2006, the Mexican physicist José Luis Aragón and colleagues tested something more abstract than the sky's contents: whether the pattern of brightness across the painting's surface obeys the same statistics as real turbulent fluid flow, as described mathematically by Andrei Kolmogorov in 1941. They measured the probability distribution of luminance fluctuations in The Starry Night and several other paintings from Van Gogh's late, \"impassioned\" period, and found the distributions tracked Kolmogorov's predictions closely.",
+          "The result was not automatic for any swirling picture. Aragón told Nature's news team the same year that his group had tested other artists' turbulent-looking work and come up empty: \"We have examined other apparently turbulent paintings of several artists and find no evidence of Kolmogorov scaling.\" He named [Edvard Munch's The Scream](/edvard-munch-the-scream/) specifically, a painting made by a similarly tumultuous artist and full of superficially similar swirls, as one example whose luminance pattern simply does not fit Kolmogorov's law."
+        ]
+      },
+      {
+        "heading": "A cropped sky said one thing. The whole sky said another",
+        "body": [
+          "The question did not stay settled. In 2019, astrophysicist James Beattie and colleagues took a different statistical approach, calculating the power spectrum, rather than the brightness distribution, of a square patch of sky roughly in the painting's center. They found a power-law slope of about −2.1, a value closer to the turbulence found in real interstellar molecular clouds, the supersonic, star-forming turbulence of outer space, than to the −5/3 exponent that defines classic incompressible Kolmogorov turbulence.",
+          "In 2024, a team of researchers led by Yinxiang Ma and Yongxiang Huang published a rebuttal of sorts in the journal Physics of Fluids. Their argument was methodological: earlier studies, including Beattie's, had analyzed only part of the sky. The team processed every whirl in the entire sky region instead, and found that its luminance's power spectrum did resolve into a clean −5/3 Kolmogorov-like law after all, alongside a second, steeper pattern at the smallest scales consistent with a related turbulence effect called Batchelor scaling. Their conclusion was that Van Gogh's brushwork had captured the size, spacing, and intensity of real turbulent eddies with a precision the fragmentary, cropped analyses had missed. Physicist Lewis Fry Richardson had described the underlying idea in 1922, two decades before Kolmogorov's mathematics formalized it, in a couplet that still opens most textbook discussions of the cascade: \"Big whirls have little whirls that feed on their velocity, and little whirls have lesser whirls and so on to viscosity.\""
+        ],
+        "image": {
+          "src": "/images/starry-night-turbulence-cascade-diagram.svg",
+          "alt": "Diagram of a turbulence energy cascade, showing one large whirl breaking into progressively smaller whirls, illustrating Lewis Fry Richardson's 1922 description that later studies tested against the sky of The Starry Night"
+        }
+      },
+      {
+        "heading": "From a painting he almost didn't send, to MoMA's most recognized canvas",
+        "body": [
+          "Van Gogh's own low opinion of the painting did not keep it from circulating after his death, or from changing hands repeatedly. Theo died in January 1891, six months after Vincent, and his widow, Jo van Gogh-Bonger, became caretaker of the estate; in 1900 she sold the painting to the poet Julien Leclercq, who sold it on to the painter Émile Schuffenecker the following year. Jo bought it back from Schuffenecker and, in 1906, sold it again, this time to the Oldenzeel Gallery in Rotterdam, where a local collector, Georgette van Stolk, acquired it; van Stolk kept it for over thirty years, reportedly hanging a curtain in front of the canvas on hot summer days to protect it from the sun. She eventually sold it to the Paris dealer Paul Rosenberg, who fled to the United States in 1940 as Germany occupied France. MoMA did not buy the painting from Rosenberg in 1941; it swapped for it, trading him three works bequeathed to the museum by its late co-founder Lillie P. Bliss, two Cézannes and a Toulouse-Lautrec, and recording the arrival under accession number 472.1941, [the kind of specific catalogue detail](/famous-paintings/) that tends to get lost once a painting turns into a reproduced image rather than a physical object with an inventory record. The museum first displayed it to the public that September, in an exhibition simply titled \"New Acquisition: Vincent van Gogh, The Starry Night,\" and it has remained one of the most visited works in the collection ever since.",
+          "What survives of the actual night behind the painting is thin: a bright planet, watched from a barred window sometime around late May or June 1889, and a canvas finished by 18 June. Everything else, the village, the spire, the scale of the cypress, and even whether its swirls truly obey the physics of real turbulence, has had to be argued over by astronomers and physicists rather than simply read off the canvas, and in the case of the physics, the argument is still less than a year old."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the sky in The Starry Night real?",
+        "answer": "Partly. Van Gogh's own letter from late May or early June 1889 describes seeing \"the morning star, which looked very big\" from his asylum window, and the Van Gogh Museum's letters project identifies that star as Venus. The specific arrangement of the rest of the sky, and the village underneath it, are inventions; Van Gogh himself later called the composition an \"exaggeration.\""
+      },
+      {
+        "question": "Where is the original Starry Night, and can I see it in Amsterdam?",
+        "answer": "No. The painting has been owned by the Museum of Modern Art in New York since 1941, under accession number 472.1941. The Van Gogh Museum in Amsterdam holds a large collection of his letters and other paintings, but not this one."
+      },
+      {
+        "question": "When exactly did Van Gogh paint The Starry Night?",
+        "answer": "He finished it on or about 18 June 1889, according to his own letter to Theo that day describing \"a new study of a starry sky\" (catalogued as F 612 / JH 1731). It was painted at the Saint-Paul-de-Mausole asylum near Saint-Rémy-de-Provence, where he had been a patient since May 1889."
+      },
+      {
+        "question": "Is the village in the painting a real place?",
+        "answer": "No. MoMA's own collection record describes it as \"the addition of an imaginary village\"; no such town stood outside Van Gogh's actual window. Its steep, pointed church spire more closely resembles the Dutch churches of his childhood towns, Nuenen and Zundert, than anything typical of Provence."
+      },
+      {
+        "question": "Do the swirls in the sky follow real physics?",
+        "answer": "It's disputed. A 2006 study found the painting's brightness patterns statistically matched Kolmogorov's theory of turbulence; a 2019 study of a smaller, cropped section found a pattern closer to supersonic turbulence in interstellar clouds instead; a 2024 study analyzing the painting's entire sky region found the original Kolmogorov-like pattern after all. The same 2006 team tested Edvard Munch's The Scream and found its swirls, despite looking similar, do not fit the same law."
+      },
+      {
+        "question": "Did Van Gogh himself like The Starry Night?",
+        "answer": "Not especially. In a letter to Theo written on or about 20 September 1889, he grouped it with his painting Moonrise as \"exaggerations from the point of view of the arrangement, their lines are contorted like those of the ancient woodcuts.\" The canvas didn't ship with the batch he was sending around that date; a follow-up letter on 28 September lists it among a further group finally heading to Paris over a week later."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Van Gogh Museum & Huygens ING: Letter 777, to Theo van Gogh (c. 31 May–6 June 1889)",
+        "url": "https://vangoghletters.org/vg/letters/let777/letter.html"
+      },
+      {
+        "label": "Van Gogh Museum & Huygens ING: Letter 782, to Theo van Gogh (c. 18 June 1889)",
+        "url": "https://vangoghletters.org/vg/letters/let782/letter.html"
+      },
+      {
+        "label": "Van Gogh Museum & Huygens ING: Letter 805, to Theo van Gogh (c. 20 September 1889)",
+        "url": "https://vangoghletters.org/vg/letters/let805/letter.html"
+      },
+      {
+        "label": "Van Gogh Museum & Huygens ING: Letter 806, to Theo van Gogh (28 September 1889)",
+        "url": "https://vangoghletters.org/vg/letters/let806/letter.html"
+      },
+      {
+        "label": "MoMA: Vincent van Gogh, The Starry Night, Saint Rémy, June 1889 (collection record)",
+        "url": "https://www.moma.org/collection/works/79802"
+      },
+      {
+        "label": "Wikipedia: The Starry Night — Provenance (ownership chain from Jo van Gogh-Bonger to MoMA)",
+        "url": "https://en.wikipedia.org/wiki/The_Starry_Night"
+      },
+      {
+        "label": "The Art Newspaper: Ten surprises about Van Gogh's 'Starry Night' (2023)",
+        "url": "https://www.theartnewspaper.com/2023/06/09/ten-surprises-about-van-goghs-starry-night"
+      },
+      {
+        "label": "Wikipedia: White House at Night (Olson & Doescher's dating of the painting to June 1890)",
+        "url": "https://en.wikipedia.org/wiki/White_House_at_Night"
+      },
+      {
+        "label": "Sky & Telescope: Celestial Sleuths Reveal Exact Date van Gogh Painted Moonrise",
+        "url": "https://skyandtelescope.org/press-releases/celestial-sleuths-reveal-exact-date-van-gogh-painted-moonrise/"
+      },
+      {
+        "label": "Aragón, Naumis, Bai, Torres & Maini: Turbulent Luminance in Impassioned van Gogh Paintings (2006)",
+        "url": "https://arxiv.org/abs/physics/0606246"
+      },
+      {
+        "label": "Nature News: Van Gogh painted perfect turbulence (3 July 2006)",
+        "url": "https://www.nature.com/news/2006/060703/full/news060703-17.html"
+      },
+      {
+        "label": "Beattie et al.: Is The Starry Night Turbulent? (2019)",
+        "url": "https://arxiv.org/abs/1902.03381"
+      },
+      {
+        "label": "Ma, Cheng, Huang, Schmitt, Lin & Huang: Hidden Turbulence in van Gogh's The Starry Night, Physics of Fluids 36(9) (2024)",
+        "url": "https://arxiv.org/abs/2310.03415"
+      }
+    ]
   }
 
 ];
