@@ -1,0 +1,102 @@
+---
+import Layout from '../layouts/Layout.astro';
+import MythQuiz from '../components/MythQuiz.astro';
+import BreadcrumbList from '../../vendor/site-toolkit/packages/schema/src/BreadcrumbList.astro';
+import { jsonLdStringify } from '../../vendor/site-toolkit/packages/schema/src/jsonLdStringify';
+import { mythQuizItems } from '../data/mythQuiz';
+import { SITE_ORIGIN, SITE_TITLE, AUTHOR_NAME } from '../consts';
+
+const pageUrl = `${SITE_ORIGIN}/fact-or-fiction/`;
+const title = 'Fact or Fiction? An UmberLore Art History Quiz';
+const description =
+	'Pull a claim straight from our own art-history coverage — a museum attribution, a restoration finding, a disputed date — and guess whether it holds up, or is a popular misconception the record doesn’t actually support.';
+const updated = '2026-08-05';
+
+const articleCount = new Set(mythQuizItems.map((i) => i.sourceSlug)).size;
+
+const webAppSchema = jsonLdStringify({
+	'@context': 'https://schema.org',
+	'@type': 'WebApplication',
+	name: 'Fact or Fiction? Art History Quiz',
+	url: pageUrl,
+	description,
+	applicationCategory: 'EducationApplication',
+	operatingSystem: 'Any',
+	browserRequirements: 'Requires JavaScript',
+	offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+	publisher: { '@type': 'Organization', name: SITE_TITLE, url: `${SITE_ORIGIN}/` },
+	dateModified: updated,
+});
+
+const breadcrumbItems = [
+	{ name: 'Home', item: `${SITE_ORIGIN}/` },
+	{ name: 'Fact or Fiction?', item: pageUrl },
+];
+---
+
+<Layout title={title} description={description} ogType="website">
+	<script type="application/ld+json" set:html={webAppSchema} slot="head" is:inline />
+	<BreadcrumbList slot="head" items={breadcrumbItems} />
+
+	<div class="mx-auto max-w-[720px]">
+		<nav class="mb-8 flex flex-wrap items-center gap-1.5 text-sm text-[var(--ink)]/40">
+			<a href="/" class="no-underline hover:text-[var(--ink)] hover:underline">Home</a>
+			<span>/</span>
+			<span class="text-[var(--ink)]/70">Fact or Fiction?</span>
+		</nav>
+
+		<header class="text-center">
+			<p class="wall-label-dept m-0">Interactive</p>
+			<h1 class="font-display mt-3 text-4xl leading-[1.08] font-medium text-[var(--ink)] md:text-[2.85rem]">
+				{title}
+			</h1>
+			<div class="mx-auto mt-5 h-px w-14 bg-[var(--flag)]"></div>
+			<p class="mt-5 text-[1.05rem] leading-relaxed text-[var(--ink)]/60">{description}</p>
+			<p class="mt-4 text-xs text-[var(--ink)]/40">Last updated {updated}</p>
+		</header>
+
+		<div class="placard mt-10">
+			<p class="wall-label-dept m-0">In brief</p>
+			<p class="font-prose mt-3 mb-0 text-[1.05rem] leading-relaxed text-[var(--ink)]">
+				Every claim here is pulled verbatim from the FAQ section of a real UmberLore article — nothing is
+				invented for the quiz. Each round draws {Math.min(10, mythQuizItems.length)} claims at random from a deck of {mythQuizItems.length},
+				spanning all {articleCount} articles the deck was built from, so the set changes each time you play. Pick
+				"documented fact" or "myth / not accurate," then read the sourced explanation and follow the link back
+				to the full story.
+			</p>
+		</div>
+
+		<div class="mt-8">
+			<MythQuiz count={10} />
+		</div>
+
+		<article class="mt-12">
+			<section class="mb-8">
+				<h2 class="font-display mb-3.5 text-xl font-medium text-[var(--ink)]">Why a quiz instead of a list of corrections</h2>
+				<p class="font-prose mb-3.5 text-[1.05rem] leading-[1.85] text-[var(--ink)]/70">
+					A page that just states "the Mona Lisa was already famous before the 1911 theft" can be read and
+					repeated by an AI answer box in a single sentence — the visitor never needs to open the page. A
+					claim you have to judge for yourself, before the verdict and its sourcing appear, doesn't work
+					that way: it needs a click and a guess first. The underlying facts are the same ones already
+					published across our
+					<a href="/" class="text-[var(--flag-dark)] no-underline hover:underline">art history coverage</a>;
+					this page just turns a sample of them into a game.
+				</p>
+				<p class="font-prose mb-0 text-[1.05rem] leading-[1.85] text-[var(--ink)]/70">
+					Every explanation links back to the article it came from, with the same sourcing already cited
+					there — nothing on this page is asserted without a documented origin in the linked piece. And
+					because it's built entirely from text already published in our FAQ sections, no artwork images
+					appear anywhere on this page.
+				</p>
+			</section>
+		</article>
+
+		<div class="mt-10 flex items-start gap-4 border-t border-[var(--rule)] pt-6">
+			<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[var(--flag)] font-display text-[0.8125rem] font-medium text-[var(--flag-dark)]">OZ</div>
+			<div>
+				<p class="m-0 font-semibold text-[var(--ink)]"><a href="/about/" class="text-inherit no-underline hover:text-[var(--flag-dark)]">{AUTHOR_NAME}</a></p>
+				<p class="wall-label-dept mt-1 mb-0">Editor, UmberLore</p>
+			</div>
+		</div>
+	</div>
+</Layout>

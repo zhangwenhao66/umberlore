@@ -1,0 +1,200 @@
+---
+// "Fact or fiction" quiz island. Static Astro + a single vanilla <script> island -- same
+// "logic function + thin UI wrapper" split WarCrumbs used for its myth-quiz, no
+// Preact/React/Vue dependency added.
+//
+// Why this exists: an AI Overview can answer a single static "is this true" question in
+// one sentence, so a visitor never needs to click through. A quiz that requires picking
+// an answer before the verdict + explanation appear can't be resolved that way. UmberLore
+// has no image-coordinate "spot it in the artwork" data and, per this site's own copyright
+// rules, can't legally display many of the candidate artworks anyway -- this quiz sidesteps
+// both problems entirely, since it's built purely from already-published FAQ text and shows
+// no artwork images at all.
+//
+// The full item deck is serialized into a data-* attribute at build time (server-only
+// module state doesn't exist client-side), and pickQuizSet(...) -- the pure, unit-tested
+// function in src/lib/mythQuiz.ts -- runs in the browser to draw this visitor's set so
+// repeat visits don't always see the same items in the same order.
+import { mythQuizItems } from '../data/mythQuiz';
+
+interface Props {
+	/** How many items to draw into a single play-through. */
+	count?: number;
+}
+
+const { count = 10 } = Astro.props;
+const deckJson = JSON.stringify(mythQuizItems);
+---
+
+<div class="myth-quiz" data-deck={deckJson} data-count={count}>
+	<div id="myth-quiz-progress" class="mb-4 flex items-center justify-between text-xs font-semibold tracking-[0.1em] text-[var(--flag-dark)] uppercase">
+		<span id="myth-quiz-position">Question 1</span>
+		<span id="myth-quiz-score">Score: 0</span>
+	</div>
+
+	<div id="myth-quiz-card" class="placard">
+		<p class="wall-label-dept m-0">Fact or fiction?</p>
+		<p id="myth-quiz-claim" class="font-display m-0 mt-3 text-xl leading-snug font-medium text-[var(--ink)]">&nbsp;</p>
+
+		<div id="myth-quiz-choices" class="mt-5 flex flex-col gap-2.5 sm:flex-row">
+			<button
+				type="button"
+				data-choice="true"
+				class="myth-quiz-choice-btn flex-1 rounded-sm border border-[var(--flag)] px-4 py-3 text-sm font-semibold tracking-wide text-[var(--flag-dark)] uppercase transition-colors hover:bg-[var(--flag)]/10"
+			>
+				Documented fact
+			</button>
+			<button
+				type="button"
+				data-choice="false"
+				class="myth-quiz-choice-btn flex-1 rounded-sm border border-[var(--rule)] px-4 py-3 text-sm font-semibold tracking-wide text-[var(--ink)]/60 uppercase transition-colors hover:border-[var(--flag)] hover:text-[var(--flag-dark)]"
+			>
+				Myth / not accurate
+			</button>
+		</div>
+
+		<div id="myth-quiz-reveal" class="mt-5 border-t border-[var(--rule)] pt-5" hidden>
+			<p id="myth-quiz-verdict" class="font-display m-0 text-base font-semibold"></p>
+			<p id="myth-quiz-explanation" class="mt-2 mb-0 text-sm leading-relaxed text-[var(--ink)]/70"></p>
+			<a id="myth-quiz-source-link" href="#" class="mt-3 inline-block text-sm font-semibold text-[var(--flag-dark)] no-underline hover:underline">Read the full story &rarr;</a>
+			<div class="mt-5">
+				<button id="myth-quiz-next" type="button" class="rounded-sm border border-[var(--flag)] px-4 py-2 text-xs font-semibold tracking-wide text-[var(--flag-dark)] uppercase hover:bg-[var(--flag)]/10">
+					Next question &rarr;
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="myth-quiz-done" class="placard mt-6 text-center" hidden>
+		<p class="wall-label-dept m-0">Round complete</p>
+		<p id="myth-quiz-final-score" class="font-display m-0 mt-2 text-2xl font-medium text-[var(--ink)]"></p>
+		<button id="myth-quiz-restart" type="button" class="mt-4 rounded-sm border border-[var(--flag)] px-4 py-2 text-xs font-semibold tracking-wide text-[var(--flag-dark)] uppercase hover:bg-[var(--flag)]/10">
+			Play again with a new set &rarr;
+		</button>
+	</div>
+</div>
+
+<script>
+	import { pickQuizSet, renderInlineMarkdown } from '../lib/mythQuiz';
+	import type { MythQuizItem } from '../data/mythQuiz';
+
+	document.querySelectorAll<HTMLElement>('.myth-quiz').forEach((root) => {
+		const deckRaw = root.dataset.deck;
+		if (!deckRaw) return;
+		const deck: MythQuizItem[] = JSON.parse(deckRaw);
+		const count = Number(root.dataset.count) || 10;
+
+		const positionEl = root.querySelector<HTMLElement>('#myth-quiz-position');
+		const scoreEl = root.querySelector<HTMLElement>('#myth-quiz-score');
+		const claimEl = root.querySelector<HTMLElement>('#myth-quiz-claim');
+		const choicesEl = root.querySelector<HTMLElement>('#myth-quiz-choices');
+		const revealEl = root.querySelector<HTMLElement>('#myth-quiz-reveal');
+		const verdictEl = root.querySelector<HTMLElement>('#myth-quiz-verdict');
+		const explanationEl = root.querySelector<HTMLElement>('#myth-quiz-explanation');
+		const sourceLinkEl = root.querySelector<HTMLAnchorElement>('#myth-quiz-source-link');
+		const nextBtn = root.querySelector<HTMLButtonElement>('#myth-quiz-next');
+		const cardEl = root.querySelector<HTMLElement>('#myth-quiz-card');
+		const doneEl = root.querySelector<HTMLElement>('#myth-quiz-done');
+		const finalScoreEl = root.querySelector<HTMLElement>('#myth-quiz-final-score');
+		const restartBtn = root.querySelector<HTMLButtonElement>('#myth-quiz-restart');
+		const choiceButtons = root.querySelectorAll<HTMLButtonElement>('.myth-quiz-choice-btn');
+
+		if (
+			!positionEl || !scoreEl || !claimEl || !choicesEl || !revealEl || !verdictEl ||
+			!explanationEl || !sourceLinkEl || !nextBtn || !cardEl || !doneEl || !finalScoreEl || !restartBtn
+		) {
+			return;
+		}
+
+		let set: MythQuizItem[] = [];
+		let index = 0;
+		let score = 0;
+		let answered = false;
+
+		function startRound() {
+			set = pickQuizSet(deck, count);
+			index = 0;
+			score = 0;
+			answered = false;
+			doneEl!.hidden = true;
+			cardEl!.hidden = false;
+			showQuestion();
+		}
+
+		function showQuestion() {
+			const item = set[index];
+			answered = false;
+			positionEl!.textContent = `Question ${index + 1} of ${set.length}`;
+			scoreEl!.textContent = `Score: ${score}`;
+			claimEl!.textContent = item.claim;
+			choicesEl!.hidden = false;
+			revealEl!.hidden = true;
+			choiceButtons.forEach((btn) => {
+				btn.disabled = false;
+				btn.classList.remove('myth-quiz-choice-correct', 'myth-quiz-choice-wrong');
+			});
+		}
+
+		function handleChoice(choiceIsTrue: boolean) {
+			if (answered) return;
+			answered = true;
+
+			const item = set[index];
+			const correct = choiceIsTrue === item.verdict;
+			if (correct) score += 1;
+
+			choiceButtons.forEach((btn) => {
+				btn.disabled = true;
+				const btnIsTrue = btn.dataset.choice === 'true';
+				if (btnIsTrue === item.verdict) btn.classList.add('myth-quiz-choice-correct');
+				else if (btnIsTrue === choiceIsTrue) btn.classList.add('myth-quiz-choice-wrong');
+			});
+
+			verdictEl!.textContent = correct
+				? item.verdict
+					? 'Correct — this is documented fact.'
+					: 'Correct — this is a myth.'
+				: item.verdict
+					? 'Not quite — this is documented fact.'
+					: 'Not quite — this is a myth.';
+			verdictEl!.style.color = correct ? 'var(--flag-dark)' : 'var(--ink)';
+			explanationEl!.innerHTML = renderInlineMarkdown(item.explanation);
+			sourceLinkEl!.href = `/${item.sourceSlug}/`;
+			sourceLinkEl!.textContent = `Read the full story: ${item.sourceTitle} →`;
+
+			scoreEl!.textContent = `Score: ${score}`;
+			revealEl!.hidden = false;
+		}
+
+		function nextQuestion() {
+			index += 1;
+			if (index >= set.length) {
+				cardEl!.hidden = true;
+				doneEl!.hidden = false;
+				finalScoreEl!.textContent = `${score} / ${set.length} correct`;
+				return;
+			}
+			showQuestion();
+		}
+
+		choiceButtons.forEach((btn) => {
+			btn.addEventListener('click', () => handleChoice(btn.dataset.choice === 'true'));
+		});
+		nextBtn!.addEventListener('click', nextQuestion);
+		restartBtn!.addEventListener('click', startRound);
+
+		startRound();
+	});
+</script>
+
+<style>
+	.myth-quiz-choice-correct {
+		border-color: var(--flag) !important;
+		background-color: rgb(138 90 52 / 0.12);
+		color: var(--flag-dark) !important;
+	}
+	.myth-quiz-choice-wrong {
+		border-color: #a3402f !important;
+		color: #a3402f !important;
+	}
+</style>
