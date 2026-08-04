@@ -1790,5 +1790,121 @@ export const guides: Guide[] = [
         "url": "https://www.cnn.com/2012/05/02/us/new-york-the-scream/index.html"
       }
     ]
+  },
+  {
+    "slug": "frida-kahlo-paintings",
+    "category": "Painting",
+    "title": "Frida Kahlo's Paintings: How a Career This Small Keeps Attracting Fakes",
+    "description": "Frida Kahlo painted roughly 150 works. Three authentication disputes since 2009, the latest in October 2025, show how often that short, closed list gets challenged.",
+    "published": "2026-08-04",
+    "updated": "2026-08-04",
+    "coreSummary": "Frida Kahlo's known body of work is small and largely accounted for: Taschen's 2021 complete-paintings catalogue, edited by art historian Luis-Martín Lozano, gathers 152 paintings, and the Harry Ransom Center notes that 55 of them are self-portraits. That scarcity has not stopped disputed works from surfacing. A 2009 archive of purported Kahlo paintings, letters, and diaries split her own scholars into accusers and an unconvinced owner, with no resolution to date; two attempts in 2019 and 2020 to resell her long-lost largest painting, The Wounded Table, were both rejected, the second because the resurfaced work was painted on the wrong material; and in October 2025 Bavarian police seized forged paintings attributed to Kahlo from a ring that was also selling fake Picassos and Rembrandts.",
+    "image": "/images/frida-kahlo-portrait-1919.jpg",
+    "imageAlt": "Frida Kahlo photographed in 1919 by her father, commercial photographer Guillermo Kahlo, several years before she began painting.",
+    "imageCredit": "[Guillermo Kahlo, Frida Kahlo, June 15, 1919 (restored)](https://commons.wikimedia.org/wiki/File:Guillermo_Kahlo_-_Frida_Kahlo,_June_15,_1919_-_Google_Art_Project_(restored).jpg), public domain in Mexico and the United States (Guillermo Kahlo died in 1941; the photograph was also published before 1931).",
+    "sections": [
+      {
+        "heading": "A catalogue small enough to count",
+        "body": [
+          "Frida Kahlo's entire output as a painter fits into a single, largely settled list. Taschen's 2021 monograph *Frida Kahlo: The Complete Paintings*, edited by art historian Luis-Martín Lozano, is promoted on the publisher's own site with a review quote describing it as bringing together \"all 152 of Kahlo's paintings,\" built on decades of prior scholarship including the 1988 catalogue raisonné compiled by Helga Prignitz-Poda, Salomon Grimberg, and Andrea Kettenmann. Different counts in different sources reflect ongoing arguments over attribution and how strictly a work has to be documented to make the list, but the range sits in the low 150s, not the thousands a painter like Monet or Picasso left behind.",
+          "A large share of that short list is self-portraiture. The Harry Ransom Center at the University of Texas at Austin, which holds Kahlo's 1940 *Self-Portrait with Thorn Necklace and Hummingbird*, states plainly that the painting is \"one of 55 self-portraits painted by the artist during her lifetime.\" Fifty-five out of roughly 150 means more than a third of everything Kahlo painted was a picture of herself, which is part of why any single claimed addition to the list, self-portrait or otherwise, gets scrutinized so closely.",
+          "Two paintings anchor what a fully documented Kahlo looks like. *The Two Fridas*, a 1939 oil on canvas measuring 173.5 by 173 centimetres, was acquired by Mexico's Instituto Nacional de Bellas Artes (INBA) in 1947 and transferred to the Museo de Arte Moderno in Mexico City on 28 December 1966, according to INBA's own account of the painting's history. The Ransom Center's self-portrait has an equally traceable path: Kahlo gave it to the photographer Nickolas Muray in 1940, and the Center acquired it as part of a wider collection of Muray's Mexican art in 1966. Clean acquisition dates and inventory trails like these are exactly what the disputed works below are missing."
+        ]
+      },
+      {
+        "heading": "The archive that split her own experts",
+        "body": [
+          "In 2009, The New York Times reported on the forthcoming book *Finding Frida Kahlo*, which catalogued a trove of paintings, letters, diaries, sketches, and personal effects that had surfaced in the back room of an antiques shop, La Buhardilla, in San Miguel de Allende, owned by Carlos and Leticia Noyola. According to Newsweek's account of the dispute that followed, a dozen Kahlo experts signed a letter denouncing the archive as fraudulent, and the trust that controls Kahlo's copyright filed a criminal complaint asking the Mexican government to investigate its origins and attempted to block the book's publication.",
+          "The provenance the Noyolas offered was thin by design rather than by accident: they said they had bought the archive from a lawyer, who had acquired it from a woodcarver who once worked for Kahlo's husband, Diego Rivera, and that a letter from Kahlo to the woodcarver, offering the archive as payment for his work, backed up the chain. Critics countered that no independent record ties the woodcarver to Kahlo at all, and considered the letter itself fabricated. Carlos Noyola pushed back on the critics' authority rather than conceding the point, telling Newsweek, \"The experts just know the Frida that was public.\" He went on: \"This is the controversy: we have the real Frida, the personal and intimate Frida, and they have the Frida created by the New York market.\" He also pointed to his own hired graphologist's handwriting match and chemical paint analysis consistent with the 1940s as support.",
+          "Neither side produced a result that settled the matter, and no government ruling closing the case appears in the record since. What the episode does capture is how much is riding on a single verdict either way: Salomon Grimberg, co-author of the 1988 catalogue raisonné, told Newsweek that \"having something from Kahlo is like having a sliver from the true cross,\" a measure of scarcity value that applies just as well to a fake as to the real thing, if it can pass."
+        ]
+      },
+      {
+        "heading": "Her largest painting has been missing since 1955",
+        "body": [
+          "*The Wounded Table* (*La mesa herida*), painted in 1940, is Kahlo's largest known work: oil on a wood panel roughly 122 by 244 centimetres, more than twice as wide as it is tall. It was first shown in January 1940 at the International Surrealism Exhibit at Inés Amor's Gallery of Mexican Art in Mexico City, later left Mexico, and was last seen on exhibition in Warsaw in 1955 before disappearing, reportedly en route to Moscow. It has been the subject of an international search ever since.",
+          "The painting has resurfaced twice in claims that did not hold up. In June 2019, Mexican authorities in Morelos state arrested a man who was attempting to arrange its sale in exchange for a house in Acapulco worth roughly 20 million pesos, a deal officials suspected of being fraudulent in part because the seller never produced the actual painting. A year later, in June 2020, a Spanish dealer named Cristian López Márquez announced he had located the work in a London warehouse on behalf of an anonymous owner asking around $45 million.",
+          "Art historian Helga Prignitz-Poda, who has searched for the original for years, told the Associated Press that López's photographs showed a work that differed from the documented original in several details, and that the mismatch went deeper than style: the genuine *Wounded Table* was painted on wood, and the resurfaced picture was on canvas, a medium Kahlo rarely used at that scale. A discrepancy in the support material, the same category of fact that separates [a museum's catalogued medium field from a popular misconception](/edvard-munch-the-scream/), was enough on its own to end the claim."
+        ]
+      },
+      {
+        "heading": "Two continents, one October raid",
+        "body": [
+          "On 27 October 2025, Bavarian police announced the seizure of an array of forged paintings falsely attributed to Pablo Picasso, Rembrandt, Joan Miró, Amedeo Modigliani, and Frida Kahlo, following coordinated raids on 15 October across eleven German towns, five Swiss cantons, and Liechtenstein. More than 100 officers were involved, and investigators had been building the case against a 77-year-old German man and ten suspected accomplices since the start of the year, according to the Bavarian state crime office.",
+          "The case became public because a buyer grew suspicious of the sale of two purported Picasso paintings, one a portrait of Dora Maar. \"A potential buyer came to us because the negotiations were not what you'd expect for paintings of that quality,\" chief inspector Patrick Haggenmüller told Reuters TV. \"They were selling them out of their car boot.\" The same investigation turned up roughly twenty further forged works, including a copy of Rembrandt's *The Sampling Officials of the Amsterdam Drapers' Guild* offered at 120 million Swiss francs, with sellers reportedly claiming the version actually hanging in Amsterdam's Rijksmuseum was the copy, plus a painting passed off as an Anthony van Dyck and two ceramic pieces sold as originals by Picasso. Prices across the haul ranged from €400,000 to €14 million. An 84-year-old Swiss woman and a 74-year-old man from Rhineland-Palatinate are accused of producing fraudulent certificates of authenticity for the group. Investigations are still ongoing, and no specific Kahlo work implicated in the raid has been named publicly."
+        ]
+      },
+      {
+        "heading": "What actually verifies a Kahlo",
+        "body": [
+          "Authenticating a disputed painting generally rests on three legs: provenance, meaning the documented chain of ownership from the artist onward; connoisseurship, the judgment of recognized experts on style and technique; and science, the material testing that comes in once the first two have established a plausible case. Mary-Anne Martin, who founded the Latin American art department at Sotheby's and has handled many genuine Kahlos, is among the dealers who apply that standard to the disputed archive, and by her account the works in question fail it well before any lab gets involved.",
+          "The pattern holds across every case here. The Two Fridas and the Ransom Center's self-portrait both carry clean acquisition dates, institutional custody, and inventory records reaching back decades. The Noyola archive's provenance runs through an undocumented woodcarver and a letter its own critics call fabricated. The 2020 Wounded Table claim failed a material check that [any museum's own object page would have settled in seconds](/famous-paintings/). And the 2025 forgeries came with certificates of authenticity manufactured to order rather than earned through any institution's records. None of that requires a chemist. Checking whether a claimed Kahlo has a real acquisition history, the way [the Mona Lisa's ownership by the Louvre is settled well before any technical debate about the painting starts](/mona-lisa/), catches most of these before it matters."
+        ]
+      },
+      {
+        "heading": "Why a career this size keeps generating fakes",
+        "body": [
+          "The same scarcity that makes Kahlo's catalogue unusually easy to verify in principle is what makes forging or reattributing a work so tempting in practice. A painter with thousands of catalogued canvases can absorb a disputed attribution or two without much market disruption; a painter with roughly 150 total works, more than a third of them self-portraits already accounted for in museums, has almost no slack, so anything new carries outsized weight the moment it appears. Newsweek's 2010 reporting noted that even a minor, previously obscure Kahlo landscape had sold at Christie's for more than a million dollars, ten times its estimate, evidence that the market prices scarcity itself as much as any single picture's quality.",
+          "That combination, a documented, closed catalogue and a market willing to pay far above estimate for anything bearing her name, is unlikely to resolve itself. The 2009 archive dispute, the 2019 and 2020 Wounded Table claims, and the 2025 Bavarian seizure span three separate decades and three unrelated sets of people, which suggests less a single fraud than a recurring incentive. As long as the incentive holds, the fixed, countable list Taschen and the catalogue raisonné worked to establish will keep being tested by works trying to join it."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many paintings did Frida Kahlo actually make?",
+        "answer": "Estimates cluster around 150. Taschen's 2021 complete-paintings catalogue, edited by Luis-Martín Lozano, is described in the publisher's own promotional material as gathering \"all 152\" of her paintings, building on the 1988 catalogue raisonné by Helga Prignitz-Poda, Salomon Grimberg, and Andrea Kettenmann. The Harry Ransom Center adds that 55 of them are self-portraits."
+      },
+      {
+        "question": "Was the 'Finding Frida Kahlo' archive ever proven real or fake?",
+        "answer": "Neither, conclusively. A dozen Kahlo experts and the trust controlling her copyright declared the archive owned by Carlos and Leticia Noyola fraudulent and asked Mexican authorities to investigate, but owner Carlos Noyola presented his own graphologist's handwriting match and chemical paint analysis consistent with the 1940s. No public government ruling has settled the dispute since it broke in 2009."
+      },
+      {
+        "question": "What happened to Kahlo's largest painting, The Wounded Table?",
+        "answer": "It disappeared after a 1955 exhibition in Warsaw and has never been recovered. A 2019 attempted sale in Morelos state, Mexico, and a 2020 claim by a Spanish dealer to have found it in a London warehouse were both rejected by authorities and experts; art historian Helga Prignitz-Poda pointed out that the 2020 painting was on canvas, while the genuine work was painted on wood."
+      },
+      {
+        "question": "Were fake Frida Kahlo paintings really seized by police in 2025?",
+        "answer": "Yes. On 27 October 2025, Bavarian police announced the seizure of forged works falsely attributed to Picasso, Rembrandt, Joan Miró, Amedeo Modigliani, and Kahlo, following raids across Germany, Switzerland, and Liechtenstein tied to a 77-year-old main suspect and ten accomplices. Investigations were ongoing at the time of the announcement."
+      },
+      {
+        "question": "Where can I see genuine Frida Kahlo paintings with documented provenance?",
+        "answer": "The Two Fridas hangs at the Museo de Arte Moderno in Mexico City, acquired by Mexico's Instituto Nacional de Bellas Artes in 1947 and transferred there in 1966. Self-Portrait with Thorn Necklace and Hummingbird is held by the Harry Ransom Center at the University of Texas at Austin, part of the Nickolas Muray collection the Center acquired in 1966."
+      },
+      {
+        "question": "Why does a painter with so few known works attract so many forgery attempts?",
+        "answer": "Because the catalogue is small and mostly closed, roughly 150 paintings against the thousands left by more prolific painters, any claimed new or rediscovered work carries disproportionate weight and value. Newsweek reported that even a minor, previously obscure Kahlo landscape sold at Christie's for ten times its estimate, showing the market pays a premium for scarcity that makes forgery and disputed reattribution attempts persistently worthwhile."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Harry Ransom Center: Self-Portrait with Thorn Necklace and Hummingbird by Frida Kahlo",
+        "url": "https://www.hrc.utexas.edu/frida-kahlo-self-portrait/"
+      },
+      {
+        "label": "INBA: Las dos Fridas, cuadro de Frida Kahlo, cumple 80 años con presentación en el Museo de Arte Moderno",
+        "url": "https://inba.gob.mx/prensa/13178/las-dos-fridas-cuadro-de-frida-kahlo-cumple-80-anos-con-presentacion-en-el-museo-de-arte-moderno-exhibe"
+      },
+      {
+        "label": "TASCHEN: Frida Kahlo. The Complete Paintings",
+        "url": "https://www.taschen.com/en/books/art/01189/frida-kahlo-the-complete-paintings/"
+      },
+      {
+        "label": "Newsweek: The Case of the Questionable Frida Kahlo Paintings",
+        "url": "https://www.newsweek.com/case-questionable-frida-kahlo-paintings-71721"
+      },
+      {
+        "label": "The Art Newspaper: Spanish dealer claims to find long-lost Frida Kahlo painting (2020)",
+        "url": "https://www.theartnewspaper.com/2020/07/01/spanish-dealer-claims-to-find-long-lost-frida-kahlo-painting"
+      },
+      {
+        "label": "The Art Newspaper: Forged Picasso, Rembrandt and Kahlo paintings seized by Bavarian police (2025)",
+        "url": "https://www.theartnewspaper.com/2025/10/27/forged-picasso-rembrandt-kahlo-paintings-seized-bavarian-police"
+      },
+      {
+        "label": "Wikipedia: The Wounded Table (painting infobox and 2019 Morelos arrest)",
+        "url": "https://en.wikipedia.org/wiki/The_Wounded_Table"
+      }
+    ]
   }
+
 ];
