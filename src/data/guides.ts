@@ -2297,6 +2297,114 @@ export const guides: Guide[] = [
         "url": "https://new.artsmia.org/stories/goyas-gratitude-and-the-long-tradition-of-artistic-tributes-to-health-workers"
       }
     ]
+  },
+  {
+    "slug": "andy-warhol",
+    "category": "Painting",
+    "title": "Andy Warhol: Why His Own Foundation Shut Down Its Authentication Board",
+    "description": "Andy Warhol built his silkscreens to be reproduced without him. That decision is why a $20 million lawsuit forced his foundation to shut down its authentication board.",
+    "published": "2026-08-06",
+    "updated": "2026-08-06",
+    "coreSummary": "Andy Warhol turned to photographic silkscreen printing in 1962 specifically because it let a commercial vendor and his own studio assistants reproduce his designs without him. \"I want to be a machine,\" he told Art News that year. That same design decision is what made a disputed 1965 self-portrait impossible to defend decades later: after a $20 million lawsuit and more than $7 million in legal bills, the Andy Warhol Foundation dissolved its own 16-year-old Art Authentication Board in 2011 rather than keep ruling on which of his machine-made pictures were real.",
+    "image": "/images/andy-warhol-jack-mitchell-portrait.jpg",
+    "imageAlt": "Andy Warhol photographed in 1973 with his pet dachshund Archie",
+    "imageCredit": "[Andy Warhol by Jack Mitchell](https://commons.wikimedia.org/wiki/File:Andy_Warhol_by_Jack_Mitchell.jpg), 1973, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "sections": [
+      {
+        "heading": "\"There are 32 varieties\"",
+        "body": [
+          "Andy Warhol's first solo exhibition of [pop art](/pop-art/) opened at the Ferus Gallery in Los Angeles on 9 July 1962: 32 canvases, each showing a different flavour from Campbell's full 1962 product line. The gallery's director, Irving Blum, asked Warhol why he was painting all 32. Warhol's answer, as Blum told it afterward, was flat: \"There are 32 varieties.\" The canvases were displayed in a single row on narrow ledges, like stock on a grocery shelf, and early critics dismissed the show on exactly those terms, as a set of grocery-store displays rather than paintings.",
+          "Warhol had an explanation ready for why he was working this way at all, and it ran deeper than a joke about soup. In an interview published in Art News later that year, he put it in four words: \"The reason I'm painting this way is that I want to be a machine.\" That sentence is usually quoted as a stylistic pose. Read against what happened to his estate five decades later, it reads more like a design brief he actually followed through on.",
+          "He followed it almost immediately at a larger scale. After Marilyn Monroe died on 5 August 1962, Warhol began the series that became Marilyn Diptych, now in the Tate collection in London. It repeats a single publicity still from the 1953 film Niagara fifty times across two joined canvases: twenty-five in saturated colour on the left panel, twenty-five fading into smudged black and white on the right. A machine does not paint an actress's face once. It repeats a single source image until the repetition itself becomes the subject, which is what the diptych does with an efficiency no single portrait could manage."
+        ]
+      },
+      {
+        "heading": "The process the Warhol Museum still teaches",
+        "body": [
+          "Warhol turned to photographic silkscreen printing as his signature process in 1962, and the Andy Warhol Museum in Pittsburgh, which holds the largest single collection of his work, now runs a curriculum built directly around how he actually did it. The museum's own lesson plan for \"Underpainting and Photographic Silkscreen Printing\" lays out the sequence step by step: Warhol selected a photographic image, from a magazine, a publicity still, or one of his own Polaroids; sent it to a commercial silkscreen maker with a note specifying the screen's dimensions and the number of colours to print; had the resulting screen and film positive returned to the Factory, his New York studio; built an underpainting by tracing a simple outline and blocking in colour by hand as a base layer; checked that underpainting against the film positive for colour and composition; and finally registered the underpainting to the screen so an assistant could ink it and pull a squeegee across the mesh, printing the photographic layer on top.",
+          "The museum's own Flowers series, exhibited at the Leo Castelli Gallery in 1964, shows what that process actually touched and what it left alone. The source photograph was not Warhol's: it was a colour transparency of hibiscus blossoms taken by the photographer Patricia Caulfield, printed in the June 1964 issue of Modern Photography. Warhol's hand went into flattening the image, cropping it square, boosting its contrast, and choosing the vivid colours painted around the black screened outline. Caulfield saw the finished prints, recognised her photograph, and took legal action; Warhol offered her a couple of the prints to settle it, she declined, and the dispute was eventually settled on other terms. The underlying photograph came from someone else. The commercial screen came from a vendor Warhol never had to touch personally. What Warhol supplied was the framing, the colour, and his name.",
+          "He was candid about how little of the physical printing he needed to do himself. \"I tried doing them by hand, but I find it easier to use a screen,\" he said in a 1969 interview the museum quotes on the same lesson page. \"This way, I don't have to work on my objects at all. One of my assistants or anyone else, for that matter, can reproduce the design as well as I could.\" For most of the 1960s, that assistant was Gerard Malanga, who worked for Warhol from 1963 to 1970 and whom the New York Times later called \"Andy Warhol's most important associate.\" Malanga's job began with the mechanics of the screens themselves: preparing them, inking them, and pulling the prints that turned an outside vendor's screen and Warhol's underpainting into a finished canvas."
+        ],
+        "image": {
+          "src": "/images/andy-warhol-silkscreen-process-diagram.svg",
+          "alt": "Diagram of Andy Warhol's silkscreen process, from selecting a source photograph through an outside vendor preparing the screen to an assistant pulling the final print, with a 1969 Warhol quote on assistants reproducing his designs"
+        }
+      },
+      {
+        "heading": "A souvenir that became a $20 million lawsuit",
+        "body": [
+          "In 1966 the publisher and collector Richard Ekstract staged an elaborate underground party for Warhol in the disused train tracks beneath the Waldorf Astoria hotel in New York, celebrating Warhol's film Outer and Inner Space, which starred Edie Sedgwick. As thanks, Warhol gave Ekstract the acetate separations he had used to print his own 1964 Self-Portrait, along with explicit permission to make copies off the Factory premises. \"I didn't have him sign them,\" Ekstract said later, \"because they weren't for sale. They were souvenirs of an event.\" That original 1964 Self-Portrait sold at Sotheby's in New York in November 2006 for $3.7 million.",
+          "Those separations produced a group of at least ten nearly identical 20-by-16-inch silkscreen canvases, later known as Self-Portrait (Red), 1965. Because they were pulled from the same acetate separations as the 1964 original, off-site but with Warhol's own blessing, they sit in a genuinely awkward middle ground: made using his exact process and his own materials, but not inside the Factory and not necessarily under his direct eye. Warhol's own six-step process, laid out above, never specified that step three, the underpainting, had to happen in any particular room.",
+          "The filmmaker Joe Simon-Whelan bought one of that group in 1989 for $195,000. The late Fred Hughes, sole executor of Warhol's estate, had already stamped it as a viable Warhol, before any authentication board existed to rule on it at all. It was a paper trail that, unlike [Klimt's paintings, contested for entirely different reasons](/gustav-klimt/), pointed one way and then reversed itself. When the Andy Warhol Art Authentication Board later examined Simon-Whelan's canvas independently, it rejected the painting on 2 February 2002. Simon-Whelan resubmitted it after further research; the board's second rejection letter is dated 14 July 2003. In the press, the painting became known as \"double-denied.\"",
+          "In late 2007, Simon-Whelan filed a $20 million class-action antitrust suit in US federal court against the Andy Warhol Foundation, its Authentication Board, the Warhol estate, and Vincent Fremont, the Foundation's exclusive sales agent. The suit alleged the board had rejected authentic works, including his, as part of a scheme to inflate the value of the Warhol inventory the Foundation itself was selling."
+        ]
+      },
+      {
+        "heading": "The board that decided the fight wasn't worth it",
+        "body": [
+          "Simon-Whelan withdrew all claims in 2010, unable to sustain the cost of the litigation. The Foundation described the settlement as a \"complete vindication,\" but by its own account had spent more than $7 million defending itself against the allegations of fraud, collusion, and market manipulation. No court ever ruled on whether Simon-Whelan's canvas was an authentic Warhol; the case ended on cost, not on the merits.",
+          "On 28 October 2011, the Art Newspaper reported that the Foundation had decided to dissolve the 16-year-old Andy Warhol Art Authentication Board by early 2012. Foundation president Joel Wachs gave the reasoning directly: \"It is a matter of priority, and our responsibility to Andy's mission. Our money should be going to artists, not lawyers.\" The Foundation kept its catalogue raisonné project running, but drew a line around its purpose. \"The catalogue raisonné serves a non-market purpose: Andy's legacy and Warhol scholarship,\" Wachs said. \"The market seems to want to use the authentication board, but that can't be our concern.\"",
+          "The dissolution rippled outward. The following year, the authentication committees for Jean-Michel Basquiat and Keith Haring shut down as well, out of fear that they would face the same kind of suit from owners of works they had rejected. What replaced the boards was not a new institution but a handful of independent authenticators working privately; Richard Polsky, who authenticates Warhols, Basquiats, and Harings and wrote a memoir titled I Sold Andy Warhol (Too Soon), estimates he and his colleagues have issued opinions on works numbering in the \"mid-hundreds\" since 2015. That is the same private, case-by-case scrutiny that a market small enough to keep [attracting fakes](/frida-kahlo-paintings/) has always needed, just without an institutional stamp behind it.",
+          "The story closed a loop in 2022. Ekstract still owned another canvas from that same 1965 batch, made from the same acetate separations he had received as a party favour in 1966. That October he consigned it, as Self-Portrait (red), to Larsen Art Auction in Scottsdale, Arizona, estimated at $500,000 to $700,000 and backed by Polsky's opinion that it \"should be considered a genuine Warhol.\" No official board exists anymore to agree or disagree. The painting that generations of scholars once needed a stamped verdict to sell now goes to market on the word of whichever authenticator the seller hires."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Did Andy Warhol personally screen-print every painting attributed to him?",
+        "answer": "No. By his own account in a 1969 interview quoted by the Andy Warhol Museum, Warhol said he found it easier to use a silkscreen precisely because it meant he did not have to work on his own pictures: \"One of my assistants or anyone else, for that matter, can reproduce the design as well as I could.\" His chief studio assistant for most of the 1960s, Gerard Malanga, prepared and inked screens and pulled the prints that turned an outside vendor's screen into a finished canvas."
+      },
+      {
+        "question": "What happened to the \"double-denied\" Self-Portrait (Red) painting?",
+        "answer": "Collector Joe Simon-Whelan sued the Andy Warhol Foundation and its Authentication Board for $20 million in late 2007, after the board rejected his 1965 canvas twice, in 2002 and 2003. He withdrew all claims in 2010, unable to continue funding the litigation, and no court ever ruled on whether the painting was authentic. A different canvas from the same 1965 batch, owned by Richard Ekstract, was later consigned to a 2022 auction backed by an independent authenticator's opinion that it was genuine."
+      },
+      {
+        "question": "Is there an official board that authenticates Andy Warhol's work today?",
+        "answer": "No. The Andy Warhol Foundation dissolved its 16-year-old Art Authentication Board by early 2012, after spending more than $7 million defending it in the Simon-Whelan lawsuit. The Foundation still maintains its catalogue raisonné for scholarship, but says that project is not meant to serve the art market. Authentication now happens through independent specialists, such as Richard Polsky, working privately rather than through any board tied to the Foundation."
+      },
+      {
+        "question": "Why did the Andy Warhol Foundation dissolve its authentication board?",
+        "answer": "Foundation president Joel Wachs said the board's legal costs, more than $7 million defending a single lawsuit brought by collector Joe Simon-Whelan, had become a drain on money that should go to artists. The announcement came on 28 October 2011, with the board set to close by early 2012. The Foundation's decision also drove the separate Basquiat and Haring authentication committees to dissolve the following year, for fear of facing similar suits."
+      },
+      {
+        "question": "What was Andy Warhol's Campbell's Soup Cans debut?",
+        "answer": "His first solo pop-art exhibition opened at the Ferus Gallery in Los Angeles on 9 July 1962: 32 canvases, one for each flavour in Campbell's 1962 product line, displayed on narrow ledges in a single row. Asked why 32, Warhol reportedly told gallery director Irving Blum, \"There are 32 varieties.\" Early critics dismissed the show as resembling a grocery-store display."
+      }
+    ],
+    "sources": [
+      {
+        "label": "The Andy Warhol Museum: Lesson 4, Underpainting and Photographic Silkscreen Printing",
+        "url": "https://www.warhol.org/lessons/silkscreen-printing/underpainting-and-photographic-silkscreen-printing/"
+      },
+      {
+        "label": "Artforum, 28 October 2011: Warhol Authentication Board to Shut Down",
+        "url": "https://www.artforum.com/news/warhol-authentication-board-to-shut-down-198684/"
+      },
+      {
+        "label": "The Art Newspaper, 12 September 2022: A Warhol of Disputed Authenticity and Chequered Association Heads to Auction",
+        "url": "https://www.theartnewspaper.com/2022/09/12/a-warhol-of-disputed-authenticity-and-chequered-association-heads-to-auction"
+      },
+      {
+        "label": "Hyperallergic, 12 September 2023: The Warhol Authentication Debacle That Launched an Antitrust Case",
+        "url": "https://hyperallergic.com/how-an-andy-warhol-screenprint-launched-an-anti-trust-case/"
+      },
+      {
+        "label": "Smithsonian Libraries and Archives, 9 July 2010: Warhol's 32 Soup Flavors",
+        "url": "https://blog.library.si.edu/blog/2010/07/09/warhols-32-soup-flavors/"
+      },
+      {
+        "label": "Tate: Marilyn Diptych, 1962",
+        "url": "https://www.tate.org.uk/art/artworks/warhol-marilyn-diptych-t03093"
+      },
+      {
+        "label": "MoMA: Andy Warhol, Campbell's Soup Cans, 1962",
+        "url": "https://www.moma.org/collection/works/79809"
+      },
+      {
+        "label": "Wikipedia: Gerard Malanga",
+        "url": "https://en.wikipedia.org/wiki/Gerard_Malanga"
+      }
+    ]
   }
 
 ];

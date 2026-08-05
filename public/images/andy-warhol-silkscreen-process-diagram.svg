@@ -1,0 +1,75 @@
+<svg viewBox="0 0 1200 620" width="1200" height="620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="1200" height="620" fill="#faf6f0"/>
+  <text x="600" y="48" text-anchor="middle" font-size="25" fill="#4a3728" font-weight="bold">The Process the Warhol Museum Still Teaches</text>
+  <text x="600" y="74" text-anchor="middle" font-size="14" fill="#6d4f3a">Six steps from a magazine photo to a Factory canvas, per warhol.org's own curriculum</text>
+
+  <!-- Step boxes -->
+  <!-- Step 1 -->
+  <rect x="40" y="130" width="170" height="150" rx="6" fill="#ffffff" stroke="#a6733f" stroke-width="2"/>
+  <circle cx="125" cy="110" r="18" fill="#8a5a34"/>
+  <text x="125" y="117" text-anchor="middle" font-size="16" fill="#faf6f0" font-weight="bold">1</text>
+  <text x="125" y="160" text-anchor="middle" font-size="13" fill="#4a3728" font-weight="bold">Select the source</text>
+  <text x="125" y="182" text-anchor="middle" font-size="11.5" fill="#6d4f3a">A magazine photo,</text>
+  <text x="125" y="199" text-anchor="middle" font-size="11.5" fill="#6d4f3a">publicity still, or</text>
+  <text x="125" y="216" text-anchor="middle" font-size="11.5" fill="#6d4f3a">Warhol's own Polaroid</text>
+
+  <!-- arrow -->
+  <line x1="215" y1="205" x2="245" y2="205" stroke="#9c6b4f" stroke-width="2"/>
+  <polygon points="245,199 257,205 245,211" fill="#9c6b4f"/>
+
+  <!-- Step 2 -->
+  <rect x="260" y="130" width="170" height="150" rx="6" fill="#ffffff" stroke="#a6733f" stroke-width="2"/>
+  <circle cx="345" cy="110" r="18" fill="#8a5a34"/>
+  <text x="345" y="117" text-anchor="middle" font-size="16" fill="#faf6f0" font-weight="bold">2</text>
+  <text x="345" y="160" text-anchor="middle" font-size="13" fill="#4a3728" font-weight="bold">Screen made off-site</text>
+  <text x="345" y="182" text-anchor="middle" font-size="11.5" fill="#6d4f3a">Sent to a commercial</text>
+  <text x="345" y="199" text-anchor="middle" font-size="11.5" fill="#6d4f3a">screen maker with size</text>
+  <text x="345" y="216" text-anchor="middle" font-size="11.5" fill="#6d4f3a">and colour count noted</text>
+
+  <line x1="435" y1="205" x2="465" y2="205" stroke="#9c6b4f" stroke-width="2"/>
+  <polygon points="465,199 477,205 465,211" fill="#9c6b4f"/>
+
+  <!-- Step 3 -->
+  <rect x="480" y="130" width="170" height="150" rx="6" fill="#ffffff" stroke="#a6733f" stroke-width="2"/>
+  <circle cx="565" cy="110" r="18" fill="#8a5a34"/>
+  <text x="565" y="117" text-anchor="middle" font-size="16" fill="#faf6f0" font-weight="bold">3</text>
+  <text x="565" y="160" text-anchor="middle" font-size="13" fill="#4a3728" font-weight="bold">Underpaint at the Factory</text>
+  <text x="565" y="182" text-anchor="middle" font-size="11.5" fill="#6d4f3a">Trace a simple outline,</text>
+  <text x="565" y="199" text-anchor="middle" font-size="11.5" fill="#6d4f3a">then block in colour as</text>
+  <text x="565" y="216" text-anchor="middle" font-size="11.5" fill="#6d4f3a">a base layer, by hand</text>
+
+  <line x1="655" y1="205" x2="685" y2="205" stroke="#9c6b4f" stroke-width="2"/>
+  <polygon points="685,199 697,205 685,211" fill="#9c6b4f"/>
+
+  <!-- Step 4 -->
+  <rect x="700" y="130" width="170" height="150" rx="6" fill="#ffffff" stroke="#a6733f" stroke-width="2"/>
+  <circle cx="785" cy="110" r="18" fill="#8a5a34"/>
+  <text x="785" y="117" text-anchor="middle" font-size="16" fill="#faf6f0" font-weight="bold">4</text>
+  <text x="785" y="160" text-anchor="middle" font-size="13" fill="#4a3728" font-weight="bold">Check registration</text>
+  <text x="785" y="182" text-anchor="middle" font-size="11.5" fill="#6d4f3a">Lay the film positive over</text>
+  <text x="785" y="199" text-anchor="middle" font-size="11.5" fill="#6d4f3a">the underpainting to align</text>
+  <text x="785" y="216" text-anchor="middle" font-size="11.5" fill="#6d4f3a">colour and composition</text>
+
+  <line x1="875" y1="205" x2="905" y2="205" stroke="#9c6b4f" stroke-width="2"/>
+  <polygon points="905,199 917,205 905,211" fill="#9c6b4f"/>
+
+  <!-- Step 5 -->
+  <rect x="920" y="130" width="170" height="150" rx="6" fill="#ffffff" stroke="#a6733f" stroke-width="2"/>
+  <circle cx="1005" cy="110" r="18" fill="#8a5a34"/>
+  <text x="1005" y="117" text-anchor="middle" font-size="16" fill="#faf6f0" font-weight="bold">5</text>
+  <text x="1005" y="160" text-anchor="middle" font-size="13" fill="#4a3728" font-weight="bold">Ink and pull</text>
+  <text x="1005" y="182" text-anchor="middle" font-size="11.5" fill="#6d4f3a">An assistant draws a</text>
+  <text x="1005" y="199" text-anchor="middle" font-size="11.5" fill="#6d4f3a">squeegee across the mesh,</text>
+  <text x="1005" y="216" text-anchor="middle" font-size="11.5" fill="#6d4f3a">printing the top layer</text>
+
+  <!-- Quote box -->
+  <rect x="120" y="350" width="960" height="150" rx="8" fill="#efe6d8" stroke="#9c6b4f" stroke-width="1.5"/>
+  <text x="600" y="392" text-anchor="middle" font-size="15" fill="#4a3728" font-style="italic">"I tried doing them by hand, but I find it easier to use a screen. This way, I don't have to</text>
+  <text x="600" y="418" text-anchor="middle" font-size="15" fill="#4a3728" font-style="italic">work on my objects at all. One of my assistants or anyone else, for that matter, can</text>
+  <text x="600" y="444" text-anchor="middle" font-size="15" fill="#4a3728" font-style="italic">reproduce the design as well as I could."</text>
+  <text x="600" y="478" text-anchor="middle" font-size="13" fill="#7a6248">— Andy Warhol, quoted by the Andy Warhol Museum, 1969</text>
+
+  <text x="600" y="540" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">Step 2 is why the process is hard to police: the film positive and screen were built by an outside vendor,</text>
+  <text x="600" y="560" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">not in Warhol's own hand, and by his own account anyone who owned a matching set could print another one.</text>
+  <text x="600" y="590" text-anchor="middle" font-size="11.5" fill="#9c6b4f">Source: The Andy Warhol Museum, "Lesson 4: Underpainting and Photographic Silkscreen Printing," warhol.org</text>
+</svg>
