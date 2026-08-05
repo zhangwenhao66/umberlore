@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-08-02",
+    "action": "submitted_first_run",
+    "reason": "trafficsite-gsc-index-requests首次处理本站。umberlore.com此前无gsc-index-submit-log.json，第0步用Claude in Chrome核实search.google.com/search-console属性下拉列表，确认umberlore.com（sc-domain:）已是已验证property（GSC设置早于本任务预期，'Processing data, please check again in a day or so'确认是全新property无历史数据）。本站首批5篇文章已达'累计4篇上线'首次提交门槛（无专属RELEASE_PLAN.md记录，按CLAUDE.md默认门槛执行）。逐一用URL Inspection检查，5篇均显示'URL is not on Google'，全部提交，均清晰看到绿色'Indexing requested'弹窗成功标志。",
+    "submitted_urls": [
+      "https://umberlore.com/mona-lisa/",
+      "https://umberlore.com/what-is-a-gargoyle/",
+      "https://umberlore.com/van-gogh-paintings/",
+      "https://umberlore.com/water-lilies-monet-series/",
+      "https://umberlore.com/gustav-klimt/"
+    ],
+    "index_status_before": "all 5: URL is not on Google (unknown to Google)",
+    "quota_used": "5 of shared account-wide daily quota",
+    "quota_remaining": "本次运行across全部6站共成功11次后于calcbadger.com第12次请求遇Quota Exceeded；本站5篇全部在配额耗尽前处理完毕"
+  },
+  {
+    "date": "2026-08-03",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行（两轮制配额稀缺模式，本站排第7个/round1最后一个）。今日新发布：abstract-art-first-painting。URL Inspection显示未收录（'URL is unknown to Google'），提交后清晰看到绿色'Indexing requested'弹窗成功标志。",
+    "submitted_urls": [
+      "https://umberlore.com/abstract-art-first-painting/"
+    ],
+    "index_status_before": "URL is not on Google (unknown to Google)",
+    "quota_used": "1 of shared account-wide daily quota (8th request this run)"
+  },
+  {
+    "date": "2026-08-04",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行。今日新发布3篇（frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream），取代理值最高的frank-lloyd-wright（URL is not on Google）提交成功。第二轮取st-peters-basilica（同样未收录）提交成功；edvard-munch-the-scream本轮未及检查。",
+    "submitted_urls": [
+      "https://umberlore.com/frank-lloyd-wright/",
+      "https://umberlore.com/st-peters-basilica/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota (5th and 15th requests this run)"
+  },
+  {
+    "date": "2026-08-05",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（sagrada-familia/starry-night）。第一轮取sagrada-familia（URL is not on Google）提交成功，第二轮取starry-night（同样未收录）提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/sagrada-familia/",
+      "https://umberlore.com/starry-night/"
+    ],
+    "quota_used": "2 requests this run (round 1 and round 2)"
+  }
+]

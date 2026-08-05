@@ -1,0 +1,12 @@
+{
+  "quora": [
+    {
+      "date": "2026-08-03",
+      "target_page": "https://umberlore.com/what-is-a-gargoyle/",
+      "question_url": "https://www.quora.com/What-is-a-gargoyle-chimera/answer/Owen-Zhang-161",
+      "question_title": "What is a gargoyle chimera?",
+      "notes": "UmberLore首次外链建设。发布时该问题仅3个真实答案(另有3条被Quora自动折叠，标记为低质量)，现有答案都停留在'gargoyle是滴水兽/chimera是希腊怪物'的字典式泛泛定义，没有一条真正回答'gargoyle chimera'这个具体术语的由来、也没提到巴黎圣母院这个几乎所有人问这个问题时脑子里想的具体对象。以站内文章的gargoyle机械定义(有排水槽才算)、Viollet-le-Duc和Lassus 1843-1864年修复期间新增的Galerie des Chimères、雕刻师Victor Pyanet、University of Chicago Press引述Michael Camille研究原话为骨架，核心论点是巴黎圣母院最著名的那批'滴水兽'其实是19世纪的chimera装饰雕像，完全没有排水功能。额外用WebSearch找到站内原文没有的真实增量事实：那尊最出名、每张巴黎明信片都有的托腮沉思像有具体名字叫Le Stryge(得名自中世纪传说里的吸血怪物)，它从众多雕像里脱颖而出成为巴黎地标符号，直接原因是版画家Charles Meryon 1853年(雕像装上没几年后)将其俯瞰城市天际线的形象刻成版画广为流传——让它出名的是那幅版画而不是石雕本身。过humanizer skill检查，确认无破折号、无三段式列举、无负向排比结构。用Quora Add Link功能(Cmd+K)插入真实超链接，锚文本'here'，指向目标页面。已直接发布成功(非Space类问题)，发布后用javascript_tool核实渲染页面上确实是<a href>真实超链接。"
+    }
+  ],
+  "reddit": []
+}
