@@ -2405,6 +2405,125 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/Gerard_Malanga"
       }
     ]
+  },
+  {
+    "slug": "art-deco",
+    "category": "Movements",
+    "title": "Art Deco: The Style Nobody Called That for 41 Years",
+    "description": "The 1925 Paris expo credited with launching Art Deco never used the name. Neither did the Chrysler Building. The term didn't reach print until 1966.",
+    "published": "2026-08-06",
+    "updated": "2026-08-06",
+    "coreSummary": "The style now called Art Deco ran through the 1920s and 1930s, but no one who lived through it used that name. The 1925 Paris exposition credited with launching the movement never called it \"Art Deco\"; contemporaries called it \"le style moderne\" or \"Jazz Moderne.\" The United States sent no official pavilion to that exposition, with Commerce Secretary Herbert Hoover's explanation recorded as there being no modern art in the country worth showing, then went on to build the movement's two most famous monuments, William Van Alen's Chrysler Building (1930) and the Empire State Building (1931), within six years. The word \"Art Déco\" itself did not reach print until a 1966 Paris retrospective, and did not become the standard English term until Bevis Hillier's 1968 book Art Deco of the 20s and 30s, 41 years after the exposition it is named for.",
+    "image": "/images/art-deco-chrysler-building-1930.jpg",
+    "imageAlt": "The Chrysler Building in New York photographed around 1930, shortly after its completion, in a Detroit Publishing Co. print held by the Library of Congress",
+    "imageCredit": "[Chrysler Building, New York, N.Y.](https://commons.wikimedia.org/wiki/File:Chrysler_Building,_New_York.jpg), Detroit Publishing Co., ca. 1930, Library of Congress, public domain",
+    "sections": [
+      {
+        "heading": "Where the motifs came from, three years before the style had a name",
+        "body": [
+          "On 4 November 1922, the British archaeologist Howard Carter and his crew uncovered the entrance to the tomb of Tutankhamun in the Valley of the Kings. Within months, images of the pharaoh's gold death mask, scarabs and lotus columns were circulating in newspapers and shop windows across Europe and North America, and design historians now treat that discovery as a direct feed into the visual language the coming style would rely on: stylised scarabs, hieroglyphic bands, sunburst fans and pyramidal massing, borrowed as pattern rather than reproduced as archaeology. Cartier was among the most active workshops translating the find into objects, working scarabs, lotus flowers and falcon heads into brooches and vanity cases within a few years of the discovery.",
+          "Egypt was not the only source. Encyclopaedia Britannica lists the style's formative influences as Art Nouveau, the Bauhaus, Cubism and Serge Diaghilev's Ballets Russes, with practitioners also drawing on American Indian, Egyptian and early Classical sources and on stylised natural forms. Vienna had already spent a decade breaking with realism in exactly this ornamental, flattened direction: the gold-leaf surfaces of [Gustav Klimt's paintings](/gustav-klimt/), finished in the years before the first world war, worked pattern and metal leaf into figures the same way Art Deco would later work geometric pattern into buildings, furniture and jewellery, just with paint standing in for chrome.",
+          "The result, once it arrived, was less a single look than a shared appetite for geometry and new materials applied to almost anything. Bold outlines, zigzag and sunray motifs, and a streamlined machine-age silhouette got combined with materials that were themselves new, plastics, chrome-plated metal and reinforced concrete, often set directly against older luxury materials like jade, ivory and silver. The style touched skyscrapers and cinema façades, ocean liners and radios, jewellery and vacuum cleaners. None of it yet had a collective name.",
+          "Even the most recognisable feature of New York's own version of the style, the stepped, tiered silhouette often described as a \"wedding cake\" or a ziggurat, did not start as a stylistic choice. New York's 1916 Zoning Resolution, the first citywide zoning law in the United States, capped the volume a building could occupy above a certain height and forced anything taller to step back within a set diagonal as it rose, in order to protect street-level daylight. Architects chasing every legally rentable square foot against that formula produced exactly the staggered, receding massing later associated with the style, well before the 1925 Paris exposition and years before the words \"Art Deco\" existed to describe it. The 1924 Shelton Hotel and the Barclay-Vesey building are usually cited as the earliest results, ahead of the Chrysler Building itself."
+        ]
+      },
+      {
+        "heading": "The exposition that supposedly launched it, held in a style with no name",
+        "body": [
+          "The event now credited with launching the movement was the Exposition Internationale des Arts Décoratifs et Industriels Modernes, inaugurated privately in Paris on 28 April 1925 and opened to the public the next day. It ran on the Esplanade des Invalides and along the Seine through what was meant to be a six-month run, and drew such a crowd, over 16 million visitors, that its organisers pushed the closing date back from late October to 8 November 1925 to accommodate them.",
+          "Nobody walking those pavilions called what they were looking at \"Art Deco.\" Contemporary writers reached for \"le style moderne\" or, for the more overtly machine-inflected end of it, \"Jazz Moderne.\" The exposition's own full name describes decorative and industrial arts, not a named style, and it stayed that way for decades. The label now used for the entire 1920s-to-1930s movement, the one on the cover of every survey book and museum wall text, is a piece of vocabulary its own founding event never used.",
+          "The roughly 15,000 exhibitors from 20 countries who did take part were operating under an explicit condition of entry. The exposition's own program stated it was open only to manufacturers \"whose products are artistic in character and show clearly modern tendencies,\" adding that neither an artist's reputation nor a manufacturer's commercial strength would get a submission in if it failed to meet that condition. That clause is what actually disqualified the United States. American manufacturing in the early 1920s ran heavily on revival styles, Colonial, Beaux-Arts, Gothic, precisely the kind of historicist design the program was written to keep out, which made Hoover's \"no modern art to send\" less an insult than a literal reading of the entry requirements."
+        ]
+      },
+      {
+        "heading": "The country that skipped the exposition and then built its icon",
+        "body": [
+          "In 1924, word reached the French government that the United States would not be sending an official pavilion to the following year's exposition. The reason recorded for the decision came from the Secretary of Commerce, Herbert Hoover: American manufacturers, the explanation went, had almost nothing to show that had been conceived in the modern spirit, so there was, in effect, no modern art in the United States worth exhibiting. The Commerce Department did send a commission to attend anyway and report back, and that commission's findings, published in 1926, conceded the United States had misjudged the exposition's purpose and that some form of participation would at least have honoured the wartime alliance between the two countries.",
+          "Absence from the official record did not mean absence from the building. Hundreds of American designers, architects, journalists and department-store buyers travelled to Paris on their own account, saw the pavilions, and came home converted. Within five years, American architecture produced the style's two most recognisable monuments anywhere in the world. William Van Alen's Chrysler Building, its stainless-steel crown built from a sequence of stacked, sunburst-arched tiers, was completed in Manhattan on 27 May 1930 and is still cited as, in one architecture writer's words, \"a perfect example\" of the style. Eleven months later, on 1 May 1931, the Empire State Building opened a few blocks away, taller still, its construction having finished three weeks earlier on 11 April. Both buildings went up in a country whose own government had told Paris, six years earlier, that it had no modern art to send.",
+          "Van Alen's own path to that crown involved a second concealment. He had trained and briefly partnered with H. Craig Severance, the architect racing to build 40 Wall Street into the world's tallest building at the same time. When Severance raised his building's announced height to overtake the Chrysler design in early 1929, Van Alen answered by quietly assembling a steel spire inside the Chrysler's own fire tower, out of public view, obtaining permits without disclosing its full height. On 23 October 1929, workers hoisted the finished spire through the top of the dome and riveted its sections into place in about ninety minutes, pushing the building to 1,046 feet and past 40 Wall Street before Severance's team could respond. The stock market's collapse began within days of that spire going up, closing out the same speculative decade that had paid for it. Van Alen never signed a contract with Chrysler for the job at all; when Chrysler later balked at paying the standard six percent architect's fee on the building's cost, Van Alen had to sue him to collect it, and won. The suit itself, not the design, is what ended Van Alen's career: no developer hired the architect of the world's most famous new skyscraper for another major commission afterward, and he spent his later years teaching sculpture instead."
+        ]
+      },
+      {
+        "heading": "Forty-one years without a name, then two claims to have given it one",
+        "body": [
+          "The style itself ran its course by the end of the 1930s. What it lacked, all the way through, was the word people now use for it. That changed in 1966, when Yvonne Brunhammer, a curator at the Musée des Arts Décoratifs in Paris, organised a retrospective titled \"Les Années '25': Art Déco / Bauhaus / Stijl / Esprit Nouveau.\" It is the first documented appearance of \"Art Déco\" in print as a name for the whole movement, four decades after the Paris exposition it echoes.",
+          "The English-language version of the name took two more years to settle, and arrived by way of a book rather than an exhibition. British writer Bevis Hillier published Art Deco of the 20s and 30s in 1968, described by his own Wikipedia entry as the first major work on what had, until then, mostly gone by the name \"Art Moderne\" in English. Hillier's usage became the standard one, though Hillier himself has pointed to the 1966 Paris show as the term's real point of entry into print rather than claiming to have coined it outright.",
+          "Measured from the exposition itself, that is a 41-year gap between the event and the French name, 43 years to the English one. [Pop Art at least had a word circulating in print while the movement was still forming](/pop-art/), even if the exact phrase took a few more years to settle after that. Art Deco's own audience, the people who walked the 1925 pavilions and the people who rode the elevators up the newly finished Chrysler Building in 1930, had no such word available to them at all. Art Deco is not the only style whose accepted history runs on a delay: [the founding date claimed for the first fully abstract painting has its own decades-long gap between what happened and when anyone wrote it down](/abstract-art-first-painting/). In both cases, the label museums use today came together long after the artists and architects who made the work were gone."
+        ],
+        "image": {
+          "src": "/images/art-deco-naming-timeline-diagram.svg",
+          "alt": "Timeline diagram showing six dated events from 1922 to 1968: the discovery of Tutankhamun's tomb, the 1925 Paris exposition, the Chrysler Building topping out in 1930, the Empire State Building opening in 1931, the 1966 Paris exhibition that first printed the name Art Déco, and Bevis Hillier's 1968 book that fixed the English term"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is Art Deco called Art Deco?",
+        "answer": "The name is a shortened form of the Exposition Internationale des Arts Décoratifs et Industriels Modernes, the 1925 Paris exposition now credited with launching the style. But the exposition itself never used the abbreviation. \"Art Déco\" did not appear in print as a name for the movement until a 1966 retrospective at the Musée des Arts Décoratifs in Paris, and it became the standard English term only after Bevis Hillier's 1968 book Art Deco of the 20s and 30s."
+      },
+      {
+        "question": "What did people call Art Deco before the name existed?",
+        "answer": "Contemporaries in the 1920s and 1930s referred to the style as \"le style moderne\" or, for its more machine-influenced strand, \"Jazz Moderne.\" In English-language writing it was more often described as \"Art Moderne.\" None of these labels survived as the term now used for the whole movement."
+      },
+      {
+        "question": "When did Art Deco start and end?",
+        "answer": "Encyclopaedia Britannica dates the style's international run from 1919 to 1939, with its best-known monuments concentrated in the 1920s and early 1930s. The style is most associated with that window even though, as with the label itself, exact start and end dates vary by source and by medium."
+      },
+      {
+        "question": "Did the United States participate in the 1925 Paris exposition that Art Deco is named for?",
+        "answer": "No. The United States sent no official pavilion. The recorded reason came from Secretary of Commerce Herbert Hoover, who explained that American manufacturers had almost nothing to show that counted as modern design. A Commerce Department commission attended anyway and reported back in 1926 that the decision had been a misjudgment of the exposition's purpose."
+      },
+      {
+        "question": "Is the Chrysler Building an example of Art Deco?",
+        "answer": "Yes. Designed by William Van Alen, it was completed on 27 May 1930 and is widely cited as one of the style's defining monuments, built by the same country that had declined to send an official pavilion to the 1925 Paris exposition just five years earlier. The Empire State Building, taller by roughly 200 feet, finished construction on 11 April 1931 and formally opened on 1 May 1931."
+      },
+      {
+        "question": "What influenced the Art Deco style?",
+        "answer": "Encyclopaedia Britannica lists Art Nouveau, the Bauhaus, Cubism and Serge Diaghilev's Ballets Russes as formative influences, alongside American Indian, Egyptian and early Classical sources and stylised natural forms. The 1922 discovery of Tutankhamun's tomb specifically fed the style's Egyptian-derived motifs, such as scarabs, lotus columns and sunburst fans, which appeared in jewellery and architecture within a few years of the find."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica: Art Deco",
+        "url": "https://www.britannica.com/art/Art-Deco"
+      },
+      {
+        "label": "Wikipedia: International Exhibition of Modern Decorative and Industrial Arts",
+        "url": "https://en.wikipedia.org/wiki/International_Exhibition_of_Modern_Decorative_and_Industrial_Arts"
+      },
+      {
+        "label": "Wikipedia: Bevis Hillier",
+        "url": "https://en.wikipedia.org/wiki/Bevis_Hillier"
+      },
+      {
+        "label": "Wikipedia: Chrysler Building",
+        "url": "https://en.wikipedia.org/wiki/Chrysler_Building"
+      },
+      {
+        "label": "Dezeen, 4 March 2025: The Chrysler Building Is \"a Perfect Example\" of the Art Deco Style",
+        "url": "https://www.dezeen.com/2025/03/04/chrysler-building-art-deco-centenary/"
+      },
+      {
+        "label": "Historic England (Heritage Calling blog): How the Discovery of Tutankhamun's Tomb Influenced 20th-Century Design and Architecture",
+        "url": "https://heritagecalling.com/2022/11/03/how-the-discovery-of-tutankhamuns-tomb-influenced-20th-century-design-and-architecture/"
+      },
+      {
+        "label": "The Conversation, 2025: Art Deco, 100 Years Since the Paris Exhibition That Revolutionised Modern Design",
+        "url": "https://theconversation.com/art-deco-100-years-since-the-paris-exhibition-that-revolutionised-modern-design-255053"
+      },
+      {
+        "label": "New York Public Library: Art Deco, A Research Guide",
+        "url": "https://www.nypl.org/node/171023"
+      },
+      {
+        "label": "Wikipedia: William Van Alen",
+        "url": "https://en.wikipedia.org/wiki/William_Van_Alen"
+      },
+      {
+        "label": "99% Invisible: Progressive Setbacks, the Century-Old NYC Mandate That Shaped Modern Skylines",
+        "url": "https://99percentinvisible.org/article/progressive-setbacks-the-century-old-nyc-mandate-that-shaped-modern-skylines/"
+      }
+    ]
   }
 
 ];
