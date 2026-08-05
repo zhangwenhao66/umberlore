@@ -2183,6 +2183,120 @@ export const guides: Guide[] = [
         "url": "https://arxiv.org/abs/2310.03415"
       }
     ]
+  },
+  {
+    "slug": "saturn-devouring-his-son",
+    "category": "Painting",
+    "title": "Saturn Devouring His Son: The Scholar Who Said Goya Didn't Paint It",
+    "description": "In 2003, a historian argued Goya's own son painted this Black Painting, not Goya. Most scholars rejected it, but the debate exposed how unsettled its history remains.",
+    "published": "2026-08-05",
+    "updated": "2026-08-05",
+    "coreSummary": "Saturn Devouring His Son is one of fourteen murals Francisco Goya painted directly onto the walls of his house between about 1819 and 1823, later stripped from the plaster and transferred to canvas after his death, and now held by the Museo del Prado under accession number P00763. In 2003, Madrid art historian Juan José Junquera argued from property deeds that the room holding this and eight of the other Black Paintings did not yet exist when Goya owned the house, and proposed his son Javier as the real author; most Goya scholars, and the Prado itself, have rejected the claim, but unlike some other authentication disputes, no technical study has ever definitively closed the question either way.",
+    "image": "/images/saturn-devouring-his-son-goya.jpg",
+    "imageAlt": "Francisco Goya's Saturn Devouring His Son, c. 1819-1823, showing a wild-eyed Saturn gripping the headless body of a child, from the Black Paintings series at the Museo del Prado",
+    "imageCredit": "[Saturn Devouring His Son, c. 1819-1823](https://commons.wikimedia.org/wiki/File:Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg), Museo del Prado (accession P00763), public domain",
+    "sections": [
+      {
+        "heading": "A god eating his son, painted on a dining room wall",
+        "body": [
+          "Saturn Devouring His Son shows the Roman god Saturn, conflated in myth with the Greek Titan Cronus, in the act of eating one of his own children. Francisco Goya painted it directly onto the plaster wall of a room in his own house, in a mixed technique applied straight to the wall rather than to canvas, sometime between about 1819 and 1823. The Museo del Prado, which now holds the work under accession number P00763, lists it at 143.5 by 81.4 centimetres.",
+          "It is one of fourteen paintings together known as the Black Paintings (Pinturas negras), all made on the walls of the same house within the same few years and named for their dominant palette of black, ochre and blood red as much as for their subject matter. Within the house, Saturn hung alongside several of the others in a room on the upper floor that had been used as a dining room. That upper floor's construction date is precisely what later became the center of a formal challenge to Goya's authorship, covered further below. Goya bought the house on 27 February 1819. It was already called Quinta del Sordo, the Estate of the Deaf Man, after an earlier owner who had been deaf, not after Goya, even though Goya himself had been profoundly deaf since a severe illness in 1792-93, a coincidence guidebooks have gotten backwards for two centuries.",
+          "He was 73 when he began covering the walls, and had nearly died only weeks earlier. At the end of 1819, probably from typhoid fever, he came close to dying. He commemorated his recovery in a separate 1820 painting, Self-Portrait with Dr Arrieta, now at the Minneapolis Institute of Art, which inscribes his own account of it: \"Goya gives thanks to his friend Arrieta for the expert care with which he saved his life from an acute and dangerous illness which he suffered at the close of the year 1819 when he was 73 years old.\" The Black Paintings were made in the years immediately after that brush with death, in a house he would leave for good in 1824, when he moved to Bordeaux, where he died in 1828."
+        ]
+      },
+      {
+        "heading": "Two Saturns hang a few rooms apart",
+        "body": [
+          "The Prado owns a second, much earlier painting of the identical mythological subject: Peter Paul Rubens's Saturn, painted around 1636-38 for a royal hunting lodge, the Torre de la Parada, commissioned by Philip IV of Spain, and now catalogued under accession number P01678. The two paintings, roughly 180 years apart, hang in the same museum and could not treat the same myth more differently.",
+          "Rubens gives Saturn a full mythological setting: a muscular, classically posed old man biting into the side of an infant who is still visibly, agonisingly alive, painted with the anatomical control and warm colouring typical of Baroque history painting made for a royal patron. Goya strips almost everything else away. There is no landscape, no attribute identifying Saturn as a god beyond his wild white hair and bulging eyes, and the child in his grip has already been reduced to a headless, faceless mass of flesh, one remaining hand caught in Saturn's fist. Where Rubens paints a myth being illustrated for a palace wall, Goya paints an act that has stopped being about mythology and started being about madness. Rubens completed his version as one piece in a larger mythological cycle commissioned for a hunting lodge outside Madrid; Goya answered to no patron at all, which is part of why the two paintings, made for entirely different purposes almost two centuries apart, now read like arguments about what the same myth is even for."
+        ],
+        "image": {
+          "src": "/images/saturn-devouring-his-son-rubens.jpg",
+          "alt": "Peter Paul Rubens's Saturn, c. 1636-1638, showing a classically posed Saturn biting into the side of a living infant, Museo del Prado",
+          "credit": "[Saturn](https://commons.wikimedia.org/wiki/File:Rubens_saturn.jpg), by Peter Paul Rubens, Museo del Prado (accession P01678), public domain"
+        }
+      },
+      {
+        "heading": "The wall that no longer exists",
+        "body": [
+          "Goya died in Bordeaux in 1828, and the Quinta del Sordo changed hands several times afterward. In 1873, the French-German financier Baron Émile d'Erlanger bought the property, apparently intending to show the murals at the 1878 Exposition Universelle in Paris. Between 1874 and 1878, under the direction of restorer Salvador Martínez Cubells, the fourteen paintings were physically stripped from the plaster and transferred onto canvas so they could travel, a difficult technical process that, across the series, is documented to have caused real and irreversible paint loss.",
+          "After the Paris exhibition, d'Erlanger donated the transferred canvases to the Spanish state in 1881; they went on permanent public display at the Prado in 1889. The original house stood empty for another two decades and was demolished in 1909 as Madrid's Carabanchel district expanded outward. That means the wall Goya actually painted on no longer exists in any form, anywhere. Every version of Saturn Devouring His Son anyone has looked at since 1889, in the museum or in reproduction, is the canvas Martínez Cubells produced, not the surface Goya left behind. It is a different kind of alteration from the slow chemical pigment change [conservators have measured, decades later, in Van Gogh's own canvases](/van-gogh-paintings/), but it is the same reminder that almost nothing from this period survives completely untouched by later hands."
+        ]
+      },
+      {
+        "heading": "The scholar who argued Goya never painted this",
+        "body": [
+          "The earliest documentary record of the Black Paintings' existence dates from 1828, the year Goya died, when the Spanish painter Antonio Brugada, a friend of Goya's, drew up an inventory of the works decorating the Quinta del Sordo. Brugada's list, made after Goya's death rather than during his lifetime, is the closest thing to a contemporary catalogue the series has, and it is the document both sides of the authorship dispute described below have had to argue around rather than a record that settles the question outright. Goya himself never titled, signed or wrote about any of the fourteen paintings; the names now attached to them, including Saturn, were assigned afterward, starting with Brugada's own attempt to identify the mythological and folkloric figures he was cataloguing.",
+          "In 2003, the Madrid art historian Juan José Junquera published research that directly challenged Goya's authorship. Working from property deeds for the Quinta del Sordo, Junquera argued that the house was a single-storey building at the time Goya owned it, while the room that held this painting and eight of the other thirteen Black Paintings sat on an upper floor. If that floor was added only after Goya left for Bordeaux in 1824, he reasoned, Goya could not have painted the works found in it.",
+          "Junquera's proposed replacement author was Goya's own family: his son Javier, or possibly his grandson Mariano, working from a financial motive, since paintings attributed to the already-celebrated Francisco Goya would fetch far more than work credited to his son. Most Goya scholars, including the longtime specialist Nigel Glendinning, rejected the argument, pointing out that the property records are ambiguous about how many storeys the house actually had, that Javier is not otherwise documented as a painter of remotely this ambition, and that the brushwork and pigments match Goya's other late canvases. The Museo del Prado's own catalogue continues to list the Black Paintings as autograph works by Goya.",
+          "The dispute has never been closed by hard forensic evidence the way [some Frida Kahlo authentication cases have been resolved by pigment and paper analysis](/frida-kahlo-paintings/). No infrared study, pigment dating or newly discovered document has settled the Junquera question either way; it remains an argument from indirect documentary evidence on both sides, a less tidy answer than the confident wall label in the Prado's own galleries suggests."
+        ]
+      },
+      {
+        "heading": "What the painting is actually about",
+        "body": [
+          "Goya left no letter, diary entry or inscription explaining any of the Black Paintings, so everything written about their meaning is inference rather than documented fact, and several different readings coexist rather than one displacing another. One reading is political and rests on straightforward chronology: Goya painted the series across the Trienio Liberal of 1820-1823, Spain's brief experiment with constitutional rule under the 1812 Constitution, which ended that autumn when a French army, the so-called Hundred Thousand Sons of Saint Louis, restored Ferdinand VII to absolute power and opened the repressive decade that followed. Set against those three years of civil conflict between liberals and royalists, one common reading treats a father devouring his own child as a figure for a country turning on its own people, though Goya left nothing in writing to confirm he intended that reading specifically.",
+          "A second reading is personal, and sits closer to Goya's own documented biography. He began painting the walls at 73, in the same house and years in which he had just survived the near-fatal illness described in his own words on the Arrieta portrait discussed above. Read against that timeline, an old man's fear of his own mortality, or of a son who would outlive him, fits the image at least as plausibly as any specific political allegory. A third reading treats the subject as being about the destructive weight of paternal authority in general, independent of any particular Spanish political context.",
+          "None of these is the painting's official meaning, because it does not have one. The Prado's own materials present the Black Paintings' significance as unresolved rather than settled, and on a picture this thinly documented, that may be the single most accurate sentence anyone can write about it. It puts Saturn Devouring His Son in the company of [other famous, disturbing paintings whose meaning keeps getting re-argued rather than closed](/edvard-munch-the-scream/), pictures that stay unsettled not for lack of scholarly attention, but because the artist never left enough behind to settle them."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does Saturn Devouring His Son depict?",
+        "answer": "It depicts the Roman god Saturn, identified in myth with the Greek Titan Cronus, in the act of eating one of his own children. Francisco Goya painted it directly onto a plaster wall of his own house between about 1819 and 1823, as one of fourteen works known as the Black Paintings. It was later transferred to canvas and is now held by the Museo del Prado in Madrid under accession number P00763, at 143.5 by 81.4 centimetres."
+      },
+      {
+        "question": "Is this the same painting as Rubens's Saturn?",
+        "answer": "No. They are two different works, both now owned by the Museo del Prado. Peter Paul Rubens painted his version around 1636-38 for a royal hunting lodge, showing Saturn as a controlled, classically posed figure biting into a clearly living infant. Goya's much later version, made roughly 180 years afterward for his own house rather than a patron, strips away the setting and focuses almost entirely on Saturn's wild-eyed face and a child already reduced to a faceless mass of flesh."
+      },
+      {
+        "question": "Was Saturn Devouring His Son really painted on a wall?",
+        "answer": "Yes, originally. Goya painted it directly onto the plaster wall of a room in his house, the Quinta del Sordo, sometime between about 1819 and 1823. After his death, the house's new owner, Baron Émile d'Erlanger, had restorer Salvador Martínez Cubells strip the fourteen Black Paintings from the walls and transfer them to canvas between 1874 and 1878 so they could be exhibited in Paris. The original house was demolished in 1909; the canvas now in the Prado is the only form the image survives in."
+      },
+      {
+        "question": "Did Goya actually paint the Black Paintings?",
+        "answer": "Almost certainly, according to the great majority of Goya scholars and the Museo del Prado's own catalogue, though the attribution has been formally challenged. In 2003, art historian Juan José Junquera argued from property deeds that part of the house was added after Goya left Spain in 1824, and proposed that Goya's son or grandson may have painted the works found there instead. Most specialists, including Nigel Glendinning, rejected the argument as resting on ambiguous documents, but no technical study has definitively closed the question either way."
+      },
+      {
+        "question": "What does Saturn Devouring His Son mean?",
+        "answer": "There is no single confirmed meaning. Proposed readings include a political allegory for a country consuming its own people during Spain's civil conflicts of the early 1820s, a personal meditation on mortality and ageing, since Goya began the series at 73 shortly after a near-fatal illness, and a more general commentary on destructive paternal authority. Goya left no writing explaining the series, so all three readings remain interpretive rather than documented."
+      },
+      {
+        "question": "Where can I see Saturn Devouring His Son today?",
+        "answer": "At the Museo Nacional del Prado in Madrid, where it has been on permanent public display since 1889, alongside the other Black Paintings and Rubens's earlier version of the same subject."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Museo del Prado: Saturn (Goya), accession P00763",
+        "url": "https://www.museodelprado.es/en/the-collection/art-work/saturn/18110a75-b0e7-430c-bc73-2a4d55893bd6"
+      },
+      {
+        "label": "Museo del Prado: Saturn Devouring a Son (Rubens), accession P01678",
+        "url": "https://www.museodelprado.es/en/the-collection/art-work/saturn-devouring-a-son/d022fed3-6069-4786-b59f-4399a2d74e50"
+      },
+      {
+        "label": "Wikipedia: Saturn Devouring His Son",
+        "url": "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son"
+      },
+      {
+        "label": "Wikipedia: Black Paintings",
+        "url": "https://en.wikipedia.org/wiki/Black_Paintings"
+      },
+      {
+        "label": "Wikipedia: Quinta del Sordo",
+        "url": "https://en.wikipedia.org/wiki/Quinta_del_Sordo"
+      },
+      {
+        "label": "Artforum: Authenticity of Goya's \"Black Paintings\" Questioned",
+        "url": "https://www.artforum.com/news/authenticity-of-goyas-black-paintings-questioned-167165/"
+      },
+      {
+        "label": "Minneapolis Institute of Art: Goya's Gratitude and the Long Tradition of Artistic Tributes to Health Workers",
+        "url": "https://new.artsmia.org/stories/goyas-gratitude-and-the-long-tradition-of-artistic-tributes-to-health-workers"
+      }
+    ]
   }
 
 ];
