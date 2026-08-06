@@ -43,5 +43,15 @@
       "https://umberlore.com/starry-night/"
     ],
     "quota_used": "2 requests this run (round 1 and round 2)"
+  },
+  {
+    "date": "2026-08-06",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（andy-warhol/art-deco，见内容发布日志.md）。第一轮取andy-warhol（URL is not on Google）提交成功。第二轮因Chrome扩展断连未能到达本站，art-deco及队列后续候选本次未检查。",
+    "submitted_urls": [
+      "https://umberlore.com/andy-warhol/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
   }
 ]
