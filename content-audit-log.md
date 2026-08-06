@@ -354,3 +354,94 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "gustav-klimt",
+  "last_audited": "2026-08-06",
+  "published_date": "2026-08-02",
+  "note": "站内18篇文章中，本文与已审4篇（gargoyle/van-gogh-paintings/mona-lisa/water-lilies-monet-series）同属2026-08-02 10:43首批launch批次，是从未审计过的文章中实际等待时间最长的一篇，故选定",
+  "article_specific_checklist": [
+    "核心\"纠偏\"叙事——Neue Galerie官网自己是否把2004年美国最高法院裁决（仅管辖权）与2006年奥地利仲裁裁决（所有权归属）混为一谈——是否逐字成立",
+    "大量精确金额数字（2006年6月私下售出$1.35亿、佳士得四幅画分别成交价、四幅合计$1.927亿、当晚拍卖总额$4.9147亿）逐笔核实",
+    "三份大学天顶画1945年5月因门多夫城堡焚毁的具体日期分歧（文中留有余地写\"5或9日\"）是否真实存在分歧而非编造",
+    "仲裁庭三位法官姓名与2006年1月15日裁决日期",
+    "Beethoven Frieze（1972年买下、2015年拒绝归还）与五幅Bloch-Bauer画作（2006年判归还）\"同一收藏、命运相反\"这一对比史实链条"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "5条专属重点逐一WebFetch/WebSearch核实：Cornell LII判决全文与Neue Galerie官网原文逐字核对，证实文章对官网表述不准的批评本身真实；佳士得四幅画价格（$87,936,000/$40,336,000/$31,376,000等）多信源交叉核实，合计$192,704,000与当晚总额$491,472,000均核实无误；因门多夫城堡火灾\"5日/9日\"分歧经MedUni Vienna官网(5月8日)与Google Arts & Culture(5月9日)证实分歧真实存在，非编造；仲裁庭三法官姓名与裁决日期核实无误；Beethoven Frieze史实链条经Secession官网及多方新闻源核实准确。未发现编造引语或数字错误，是本站已审样本中核实通过率最高的一篇。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "14条sources全部为博物馆官方藏品页/官方法律文书(Cornell LII)/大学官方声明，无模糊归因。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "确认发现1条候选，独立复核agent判定REFUTED（不构成问题）",
+      "detail": "诊断阶段发现文章未提及2026年5月14日已公开报道的大都会博物馆(The Met)与Neue Galerie合并计划（2028年更名'Met Neue Galerie'）。独立复核agent专门核实：多方报道（含头条'Met to Merge With Neue Galerie; Woman in Gold Stays'）确认画作物理上仍留在原第五大道William Starr Miller House建筑内，合并只是机构管理权/更名变化，非画作搬迁。FAQ现有措辞'on permanent view at the Neue Galerie New York'截至审计当日（2026-08-06）仍然准确，2028年更名前也不会过时。结论：REFUTED，不修复。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebFetch Wikipedia \"Republic of Austria v. Altmann\"词条全文，未命中仲裁庭三法官姓名/四幅拍卖精确金额/因门多夫城堡火灾细节等关键词，本文提供真实增量信息。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "seo-audit通过：title 52字符（含后缀64字符，沿用全站已判定模板非缺陷结论）/desc 157字符/单一H1/8个section H2+FAQ H2共9个无跳级/canonical自指/4张图片alt齐全/robots.txt与ads.txt(指向pub-5245502795720653)均正常。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题",
+      "detail": "自评约96/99（阈值80，达标）。权威原文引语16/16、统计数据完整性14/14、跨域连接4/4（1条出链mona-lisa，3条真实回链）、专业术语6/6、鲁棒性5/5；权威信号6/8为站级系统性短板（缺作者credential页），与此前4篇一致非本文独有。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现问题",
+      "detail": "机械扫描：em-dash 0处，en-dash 2处均为正常日期区间/展览标题分隔符（非AI写作特征），加粗0处，AI高频词0命中。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources数组14条外链逐条真实UA curl实测全部200，无失效。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "全站grep确认本文收到3条真实正文回链（来自mona-lisa/andy-warhol/art-deco），本文自身1条出链至mona-lisa，非孤儿页。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "三个schema组件均在构建时从guide对象动态生成，架构上不存在漂移风险。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "Klimt卒于1918年远早于1955年版权分界线；纳粹掠夺/战时焚毁均为已盖棺定论史实，表述克制无当前进行时争议。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "4张配图本地文件齐全，逐张通过Wikimedia Commons API核实License均为Public domain，与站内imageCredit标注一致。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "对纳粹掠夺/战时焚毁的记述为百科式、法律文书式克制表达，无猎奇渲染；标题陈述式无标题党；ads.txt/隐私页均正常。"
+    }
+  ],
+  "actions_taken": [
+    "十三维度深挖产生1条候选发现（Met/Neue Galerie合并未提及），spawn独立复核agent专门核实，结论REFUTED（画作物理位置未变，现有表述仍准确），无需修复",
+    "未对文章正文/元数据做任何编辑，未触发build/commit/push/部署/IndexNow流程（无内容变化，无需重新索引）"
+  ],
+  "seo_score": "seo-audit通过，未发现需修复项",
+  "geo_score": "自评约96/99（阈值80，达标）",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
