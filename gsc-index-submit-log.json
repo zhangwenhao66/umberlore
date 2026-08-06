@@ -53,5 +53,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
+  },
+  {
+    "date": "2026-08-06",
+    "action": "submitted",
+    "reason": "第二轮（Chrome扩展重连后继续）：取今日新发布第二篇art-deco（URL is not on Google）提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/art-deco/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request (round 2, continuation after Chrome extension reconnect)"
   }
 ]
