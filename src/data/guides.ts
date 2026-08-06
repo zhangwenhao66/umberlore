@@ -2524,6 +2524,129 @@ export const guides: Guide[] = [
         "url": "https://99percentinvisible.org/article/progressive-setbacks-the-century-old-nyc-mandate-that-shaped-modern-skylines/"
       }
     ]
+  },
+  {
+    "slug": "diego-rivera",
+    "category": "Painting",
+    "title": "Diego Rivera: The Mural Rockefeller Paid For, Then Chiseled Off the Wall",
+    "description": "Diego Rivera hid a portrait of Lenin inside a fresco commissioned for Rockefeller Center. Nelson Rockefeller had it plastered over in 1934, before it was even finished.",
+    "published": "2026-08-06",
+    "updated": "2026-08-06",
+    "coreSummary": "In April 1933, Diego Rivera added a portrait of Vladimir Lenin to Man at the Crossroads, a fresco he had been commissioned to paint in the lobby of Rockefeller Center's RCA Building, after a newspaper accused the piece of anti-capitalist propaganda. Nelson Rockefeller asked him to remove it; Rivera refused, writing that he would \"prefer the physical destruction of the conception in its entirety\" to mutilating it. Rockefeller Center Inc. paid Rivera his full fee, covered the unfinished mural with canvas, and in February 1934 had workmen chisel it off the wall entirely. Rivera later repainted the composition from salvaged photographs in Mexico City under a new title, Man, Controller of the Universe, in the building where it still hangs today.",
+    "image": "/images/diego-rivera-portrait-1932.jpg",
+    "imageAlt": "Portrait photograph of Diego Rivera, taken March 19, 1932, the same year he began work on the Detroit Industry Murals.",
+    "imageCredit": "[Portrait of Diego Rivera, 1932](https://commons.wikimedia.org/wiki/File:Diego_Rivera_1932.jpg), Carl Van Vechten, Library of Congress Prints and Photographs Division, public domain.",
+    "sections": [
+      {
+        "heading": "A Cubist in Paris becomes a muralist for the Mexican government",
+        "body": [
+          "Diego María de la Concepción Juan Nepomuceno Estanislao de la Rivera y Barrientos Acosta y Rodríguez was born on December 8, 1886, in Guanajuato, Mexico, and died on November 24, 1957, in Mexico City, at 70. His twin brother Carlos died at age two, and by his parents' account Diego was drawing on the walls of the family house not long after, prompting them to install chalkboards and canvas panels so he had somewhere sanctioned to do it.",
+          "Rivera trained at Mexico's San Carlos Academy before moving to Paris, where he spent much of the 1910s working through Cubism alongside painters including Amedeo Modigliani, who painted his portrait in 1914. He married the Russian-born artist Angelina Beloff in 1911; their son Diego died at two, echoing his own brother's death. After returning to Mexico in 1921, Rivera turned decisively toward large-scale public fresco painting and became one of the founders of the Mexican muralist movement, painting government-commissioned murals in Mexico City, Chapingo, and Cuernavaca through the 1920s and early 1930s.",
+          "In 1929 Rivera married the painter Frida Kahlo, his third wife; the marriage lasted until 1939, and the two remarried the following year. Kahlo's own account of her artistic development runs through a very different set of forgery and provenance disputes than Rivera's murals do, but both artists' reputations have had to survive attempts to rewrite what actually happened to their work, [as later disputes over which of Kahlo's paintings are genuine make clear](/frida-kahlo-paintings/). By 1931, a year before Rivera's first major American mural commission, a retrospective of his work had already been mounted at the Museum of Modern Art in Manhattan.",
+          "Rivera also wrote in 1935 that \"My Jewishness is the dominant element in my life,\" tracing the claim to converso ancestors on his mother's side who had been forced to convert from Judaism to Catholicism centuries earlier in Spain. He was never raised practicing any Jewish faith, but said the ancestry gave him \"sympathy with the downtrodden masses,\" a sympathy that runs through both the Detroit and Rockefeller Center commissions that followed."
+        ]
+      },
+      {
+        "heading": "Detroit hired him in the middle of its own depression",
+        "body": [
+          "In 1932, Wilhelm Valentiner, director of the Detroit Institute of Arts, commissioned Rivera to paint 27 fresco panels depicting the city's industries across the walls of the museum's interior courtyard, now known as Rivera Court. Valentiner's own commission letter framed the brief loosely: \"They would be pleased if you could possibly find something out of the industry of the town; but at the end they decided to leave it entirely to you, what you think best to do.\" Edsel Ford, president of the Ford Motor Company, contributed $20,000 toward the project.",
+          "Rivera spent three months touring the Ford Motor Company's River Rouge Complex before painting a single wall, filling notebooks with sketches of the assembly lines, blast furnaces, and stamping presses, aided by the plant's official photographer, W. J. Stettler. He then completed all 27 panels in eight months, working with his assistants on fifteen-hour days without breaks; Rivera lost roughly 100 pounds over the course of the project, and at one point his own crew protested for higher pay.",
+          "He began the work in 1932, at the depth of the Great Depression, when one in four Detroit laborers was unemployed and Ford workers were organizing against pay cuts and layoffs. Six thousand workers went on strike that year; five died in the violence that followed. Rivera, a committed Marxist who painted laborers and machinery with equal reverence throughout the Detroit cycle, was working against that backdrop rather than in spite of it."
+        ]
+      },
+      {
+        "heading": "A vaccination scene that clergy wanted destroyed",
+        "body": [
+          "One panel on the north wall shows a golden-haired infant flanked by a horse and an ox, with sheep below, in a composition that deliberately echoes a traditional Nativity scene; instead of the Holy Family, a doctor and a nurse administer a vaccination while three scientists conduct research in the background, standing in for the biblical Magi. At the unveiling, members of Detroit's religious community found the substitution offensive enough to demand the panel's destruction. The Detroit News called the full cycle \"vulgar\" and \"un-American.\" Edsel Ford and Wilhelm Valentiner refused to remove or alter it.",
+          "Some art historians have since floated a more cynical reading of the episode: that Edsel Ford, who had underwritten the murals and stood firmly behind them in public, also had reason to welcome the free publicity a religious scandal generated. The Detroit Institute of Arts explored that theory directly in a 2015 exhibition, without resolving it either way. What is not in dispute is that the controversy did the murals no commercial harm. Ten thousand people visited the museum in a single Sunday during the uproar, and the city subsequently increased the museum's budget. The panel remains on the wall today. On April 22, 2014, the U.S. Department of the Interior designated the Detroit Industry Murals a National Historic Landmark, and Rivera himself considered the cycle the most successful work of his career."
+        ]
+      },
+      {
+        "heading": "Rockefeller Center hired the same artist",
+        "body": [
+          "While Rivera was still painting in Detroit, Abby Aldrich Rockefeller, a collector who had bought several of his works at his 1931 MoMA retrospective, proposed him for a mural in the lobby of the RCA Building at Rockefeller Center, the new complex her husband John D. Rockefeller Jr. was then building in the middle of Manhattan. The RCA Building itself, which opened in 1933, was designed by lead architect Raymond Hood in the [Art Deco style](/art-deco/) that defined the rest of the complex, its limestone facade rising in stepped verticals framed by Lee Lawrie's Art Deco relief panels.",
+          "The commission called for a mural roughly 63 by 17 feet across the lobby's main wall, with two flanking panels contrasting capitalism and socialism under the working title Man at the Crossroads Looking with Hope and High Vision to the Choosing of a New and Better Future. Nelson Rockefeller had first wanted Henri Matisse and Pablo Picasso for the flanking panels; Matisse was already committed to work for Philadelphia's Barnes Foundation, and Picasso never responded to a wire that addressed him, by an assistant's error, as \"Pierre Picasso.\" Rivera was paid $21,000 for the commission, more than double the roughly $10,000 he had received for the entire Detroit Industry cycle, and signed a contract, without reading its fine print closely, that gave Rockefeller Center Inc. full ownership of the finished work.",
+          "Rivera nearly walked away from the job twice before painting a single wall. He objected when architect Raymond Hood initially wanted the mural restricted to grayscale, and again when he learned Josep Maria Sert and Frank Brangwyn, not Matisse or Picasso, had been hired for the flanking corridors, dismissing the pair as \"two inferior painters.\" Nelson Rockefeller talked him back in both times, agreeing to drop the grayscale requirement and let Rivera work in full fresco color; Rivera formally rejoined the project by the fall of 1932, while he was still finishing the Detroit cycle.",
+          "Rivera arrived in New York in March 1933 with a six-person crew that included the artists Ben Shahn and Lucienne Bloch. The Rockefellers had approved his sketch months earlier and seen nothing controversial in it: a central figure controlling machinery, flanked by scenes contrasting a socialist future with capitalist decline, framed by giant lens-shaped forms Rivera himself described as \"elongated ellipses,\" representing the discoveries of the telescope and the microscope."
+        ],
+        "image": {
+          "src": "/images/rca-building-rockefeller-center-1933.jpg",
+          "alt": "Rockefeller Center and the newly completed RCA Building, photographed from 515 Madison Avenue in December 1933, the same year Rivera worked on Man at the Crossroads inside its lobby.",
+          "credit": "[Rockefeller Center, December 1933](https://commons.wikimedia.org/wiki/File:Rockefeller_Center,_December_1933.jpg), Samuel Herman Gottscho, Library of Congress, public domain."
+        }
+      },
+      {
+        "heading": "A giant fist, two headless statues, and a case for socialism",
+        "body": [
+          "The finished portion of the mural centered on a worker's hand controlling a bank of machinery, with a giant fist rising before him holding a glowing orb that showed the recombination of atoms and the division of living cells, side by side as parallel acts of creation, one chemical and one biological. From that central figure, four lens-shaped forms Rivera called \"elongated ellipses\" stretched out to the corners of the composition, filled with exploding suns and cell forms meant to represent what the telescope and the microscope had each made visible to modern science.",
+          "On either side of those lenses, Rivera set two contrasting scenes of contemporary life. To the left, wealthy society women played cards and smoked, unemployed men visible nearby, with soldiers and war machinery massed above them. To the right, Lenin stood holding hands with a multiracial group of workers, a Soviet May Day parade with red flags marching above him. Framing the whole scene were two enormous classical statues, both damaged: on the left, an angry Jupiter whose raised hand, once gripping a thunderbolt, had been sheared off by a lightning strike, standing for the replacement of superstition by scientific mastery of nature; on the right, a headless seated Caesar, standing for the overthrow of authoritarian rule by workers who had freed themselves from it.",
+          "A planned lower register, showing the controlled cultivation of plants growing from their roots in a cutaway view of soil, was never painted onto the RCA Building's wall at all; work stopped before Rivera reached it. It exists only in the version he later reconstructed from memory in Mexico City."
+        ]
+      },
+      {
+        "heading": "Lenin's portrait surfaced in a drip of paint",
+        "body": [
+          "On April 24, 1933, the New York World-Telegram published an article accusing the unfinished mural of anti-capitalist propaganda. Rivera responded by adding a portrait of Vladimir Lenin to a scene that had not included him in the approved sketch, then sent assistants to scrub any trace of the addition from the mural's blueprints so it would go unnoticed. It was discovered by accident: workmen applying a final coat of paint to the wall above the mural let some drip down onto it, and when architect Raymond Hood went to inspect the drip, he found Lenin's face underneath.",
+          "Nelson Rockefeller delayed the mural's planned May 1 unveiling and wrote to Rivera asking him to remove the portrait. Rivera's reply, dated May 6, declined, offering to add a portrait of Abraham Lincoln elsewhere in the composition as a compromise but refusing to touch Lenin: \"Rather than mutilate the conception, I shall prefer the physical destruction of the conception in its entirety, but preserving, at least, its integrity.\" Hugh Robertson, of the development firm Todd, Robertson & Todd, wrote back on May 9 that Rivera had to remove the portrait immediately. On May 10, during what Rivera called \"the battle of Rockefeller Center,\" Robertson ordered all work stopped by evening. Rivera was paid in full and told reporters, \"I will not change my mural even if I lose in the courts.\" Two days later, an architect representing General Motors cited the controversy in dismissing Rivera from a separate mural commission for Chicago's Century of Progress exposition.",
+          "The unfinished mural stayed hidden behind stretched canvas for the rest of 1933 while artists' groups, including painter John Sloan and photographer Alfred Stieglitz, organized in Rivera's defense, and a December 1933 proposal to move the work intact to the Museum of Modern Art went nowhere. In February 1934, workmen peeled and chiseled the fresco off the RCA Building's lobby wall entirely. Rockefeller Center Inc. issued a two-sentence statement confirming the wall had been replastered. Rivera, whose net profit on the commission came to about $7,000 after expenses, said its destruction \"will advance the cause of the labor revolution.\" The following year, working from salvaged black-and-white photographs, he repainted the composition from memory at Mexico City's Palacio de Bellas Artes under a new title, Man, Controller of the Universe, where the recreation still hangs."
+        ]
+      },
+      {
+        "heading": "Two murals, one artist, two different patrons",
+        "body": [
+          "Rivera painted both murals within the same ten-month stretch, from July 1932, when he began work in Detroit, to May 1933, when Rockefeller Center halted the Man at the Crossroads work, for two patron families who each had reason to be uneasy about a committed Marxist decorating their walls. The difference in outcome wasn't the content: Detroit's clergy found a vaccination scene as offensive as Rockefeller Center found a portrait of Lenin, and both controversies broke out in the press before either patron had time to get ahead of it. The difference was how each patron responded once the objection was public. Edsel Ford and Wilhelm Valentiner absorbed the backlash and left the panel standing; John D. and Nelson Rockefeller, holding a contract that gave them outright ownership of the unfinished work, chose to erase it instead.",
+          "Both decisions turned out to be permanent. The Detroit panel has been on public view, undisturbed, for more than ninety years, and carries the added protection of a national landmark designation few murals of any kind receive. The Rockefeller Center original no longer exists in any form except a handful of black-and-white photographs and Rivera's own memory of it, translated a year later onto a different wall in a different country. What survives in New York today is the building Raymond Hood designed around the space where the mural was supposed to hang, not the mural itself."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why did Rockefeller Center destroy Diego Rivera's mural?",
+        "answer": "Rivera added a portrait of Vladimir Lenin to Man at the Crossroads after a New York World-Telegram article accused the commissioned mural of anti-capitalist propaganda. When Nelson Rockefeller asked him to remove the portrait, Rivera refused, and Rockefeller Center Inc. halted the unfinished work in May 1933 before having it chiseled off the lobby wall in February 1934."
+      },
+      {
+        "question": "Did Diego Rivera get paid for the destroyed mural?",
+        "answer": "Yes. Rivera was paid his full $21,000 fee under the terms of his contract with Rockefeller Center Inc., which also gave the company full ownership of the finished work. His net profit after expenses came to roughly $7,000."
+      },
+      {
+        "question": "Does Diego Rivera's Rockefeller Center mural still exist anywhere?",
+        "answer": "The original was destroyed in February 1934, but only black-and-white photographs of the unfinished work survive from before its destruction. In 1934, Rivera used those photographs to repaint the composition from memory in Mexico City's Palacio de Bellas Artes under the title Man, Controller of the Universe, and that recreation still hangs there today."
+      },
+      {
+        "question": "What was controversial about Diego Rivera's Detroit Industry Murals?",
+        "answer": "One panel reworked a Nativity-style composition into a vaccination scene, with a doctor and nurse in place of Joseph and Mary. Some of Detroit's clergy demanded the panel be destroyed and the Detroit News called the cycle \"vulgar\" and \"un-American,\" but museum director Wilhelm Valentiner and patron Edsel Ford refused to alter it. The panel remains on the wall, and the full mural cycle was designated a National Historic Landmark in 2014."
+      },
+      {
+        "question": "How long did it take Diego Rivera to paint the Detroit Industry Murals?",
+        "answer": "Rivera spent three months researching Ford's River Rouge Complex before painting, then completed all 27 fresco panels in eight months of fifteen-hour workdays, losing about 100 pounds over the course of the project."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Diego Rivera",
+        "url": "https://en.wikipedia.org/wiki/Diego_Rivera"
+      },
+      {
+        "label": "Wikipedia: Detroit Industry Murals",
+        "url": "https://en.wikipedia.org/wiki/Detroit_Industry_Murals"
+      },
+      {
+        "label": "Wikipedia: Man at the Crossroads",
+        "url": "https://en.wikipedia.org/wiki/Man_at_the_Crossroads"
+      },
+      {
+        "label": "Detroit Institute of Arts: Detroit Industry Murals",
+        "url": "https://dia.org/collection/detroit-industry-murals/58537"
+      },
+      {
+        "label": "Smarthistory: Diego Rivera, Detroit Industry Murals",
+        "url": "https://smarthistory.org/rivera-detroit-industry-murals/"
+      },
+      {
+        "label": "Wikipedia: 30 Rockefeller Plaza",
+        "url": "https://en.wikipedia.org/wiki/30_Rockefeller_Plaza"
+      }
+    ]
   }
 
 ];
