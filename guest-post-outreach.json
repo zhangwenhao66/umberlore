@@ -31,14 +31,14 @@
       {
         "name": "FangWallet — Fine Art blog",
         "url": "https://fangwallet.com/write-for-us-a-fine-art-blog-post/",
-        "status": "unverified — fetch blocked",
-        "notes": "两次WebFetch(主域名及forum子域名)均返回403，无法直接核实页面当前内容是否仍开放。仅有搜索引擎摘要显示曾有真实投稿要求(≥1500词、3篇过往作品样本、主题需预先获批)，但无法一手核实是否仍有效，未起草pitch，留待Owen人工核实或换渠道抓取。"
+        "status": "real but poor fit — not pursued (updated 2026-08-06)",
+        "notes": "两次WebFetch(主域名及forum子域名)均返回403，无法直接核实页面当前内容是否仍开放。仅有搜索引擎摘要显示曾有真实投稿要求(≥1500词、3篇过往作品样本、主题需预先获批)，但无法一手核实是否仍有效，未起草pitch，留待Owen人工核实或换渠道抓取。[2026-08-06更新] 用WebSearch(非WebFetch)成功核实：页面真实且当前仍要求≥1500词+3篇过往写作样本+可信Twitter/LinkedIn身份验证+主题需预先审批。但同一域名(FangWallet/FangWallet Insider)在完全不相关的领域(credit card blog/retail blog/fashion jewelry blog/startups blog/self improvement/accessibility/education reform……)都各自挂了一个几乎同模板的'write for us'页面，是典型guest-post-for-hire/链接工厂模式，不是真正的艺术类编辑站点。判定为real-but-poor-fit，不追加pitch，原因是质量疑虑而非渠道真实性，不再是Owen待办项。"
       },
       {
         "name": "ARCAblog (Association for Research into Crimes Against Art)",
         "url": "https://art-crime.blogspot.com/",
-        "status": "no open channel found",
-        "notes": "主题(art crime)与UmberLore的Art Crime分类高度契合，但博客本身查无'投稿/write for us/contribute'页面或联系邮箱，全部内容为固定作者(Lynda Albertson/Edgar Tijhuis)撰写，未找到面向外部作者的开放渠道。"
+        "status": "sent 2026-08-06",
+        "notes": "[2026-08-04原判定] 主题(art crime)与UmberLore的Art Crime分类高度契合，但博客本身查无'投稿/write for us/contribute'页面或联系邮箱，全部内容为固定作者(Lynda Albertson/Edgar Tijhuis)撰写，未找到面向外部作者的开放渠道。[2026-08-06更新] 该判定有误——WebSearch命中博客侧边栏文本'Have a question for us? A post you would like to guest blog? ... Write to us here'，链接到 https://www.artcrimeresearch.org/contact-us/，用Browser pane核实该页面列出真实联系邮箱 information@artcrimeresearch.org（无CAPTCHA、无需注册）。基于已发布的gustav-klimt文章起草pitch(角度：Bloch-Bauer Klimt画作与Beethoven Frieze两案均经Austria Art Restitution Committee审议但结果相反，与Pitch 3给ArtDHope的角度不同)。事实核对时发现草稿曾包含两处推断性错误(给委员会决议编造具体年份'2006'并据此推算'相差八年'；把Beethoven Frieze说成与Bloch-Bauer'同一大家族的不同分支'，原文未建立两家族的亲属关系)，自查阶段已修正。过humanizer+独立复核agent第一轮又抓出第三处问题(把2015年裁决说成'适用同一部1998年法律'，原文明确写的是'amended Art Restitution Act')，修正后过第二轮独立复核agent判定'can send'。经gmail_send.py --from umberlore实际发出，收件人information@artcrimeresearch.org，Message ID 19fd7279d5954967。发送前读取body-file确认首行为问候语非Subject行。"
       },
       {
         "name": "Architecture 'write for us' mill sites (BusinessFirms, House of Architectures, Archwhispers, The Archspace 等)",
@@ -61,5 +61,73 @@
       {"target": "ArtDHope Foundation", "to": "hello@artdhope.org", "message_id": "19fcb7f5cfb0246b", "known_defect": "none"}
     ],
     "skipped": []
+  },
+  {
+    "date": "2026-08-06",
+    "site": "umberlore",
+    "run_type": "weekly trafficsite-guest-post-outreach — backlog re-check + new channel research",
+    "backlog_recheck": {
+      "notes": "任务提示提到DailyArt Magazine/HistoryMedieval/ArtDHope Foundation三条2026-08-02积压草稿，但实际读取guest-post-outreach.json发现三条草稿已在同一天(2026-08-04)的第二条记录里全部处理完毕并发出。本轮用gmail_send.py list逐一按收件人查询Gmail全账号历史，三个Message ID(19fcb7eaa2f19805 / 19fcb7f4bb917627 / 19fcb7f5cfb0246b)与JSON日志完全一致，正文内容也核对一致，确认三封均为真实已发送，非日志造假或状态误标。本轮未重发，未做任何改动，只更新了同一批次里被误判的FangWallet(状态改为real-but-poor-fit)和ARCAblog(状态改为已发送，见上方对应条目)。",
+      "dailyart_magazine": "已于2026-08-04发出(szymon@dailyartmagazine.com, 19fcb7eaa2f19805)，本轮核实存在，未重发。",
+      "historymedieval": "已于2026-08-04发出(historymedieval62@gmail.com, 19fcb7f4bb917627)，本轮核实存在，未重发。",
+      "artdhope_foundation": "已于2026-08-04发出(hello@artdhope.org, 19fcb7f5cfb0246b)，本轮核实存在，未重发。"
+    },
+    "new_channels_researched": [
+      {
+        "name": "ARCAblog (Association for Research into Crimes Against Art)",
+        "url": "https://art-crime.blogspot.com/ ，联系页 https://www.artcrimeresearch.org/contact-us/",
+        "status": "sent 2026-08-06",
+        "notes": "2026-08-04曾判定'no open channel found'，本轮WebSearch+Browser pane找到真实开放渠道并成功核实、起草、复核、发送。详见上方主渠道条目里的更新说明，此处仅作为本轮新渠道清单的记录。Message ID 19fd7279d5954967。"
+      },
+      {
+        "name": "Art Herstory",
+        "url": "https://artherstory.net/",
+        "status": "real but poor fit — not pursued",
+        "notes": "真实且开放：About页明确写'blog posts (including guest posts by contributors from a range of backgrounds)'，联系邮箱erika@artherstory.net。但该站定位严格聚焦'female Old Masters'(文艺复兴至18世纪历史女性画家，如Artemisia Gentileschi/Sofonisba Anguissola)，UmberLore目前已发布文章里最接近的Frida Kahlo(1907-1954)是20世纪现代艺术家，不属于'Old Masters'范畴，内容角度不匹配，未起草pitch。留意：若UmberLore未来发布任何16-18世纪女性画家的文章，这个渠道值得重新评估。"
+      },
+      {
+        "name": "ArchDaily — Submit an Article",
+        "url": "https://www.archdaily.com/content/article",
+        "status": "real but poor fit — not pursued",
+        "notes": "真实且开放的投稿入口(https://rene.archdaily.com/submission/us/articles/new)，但其Guide to Publication明确要求≥5张有署名授权的原创项目图片，投稿对象定位是建筑师/事务所展示自己设计建成的项目，不是第三方历史考据类文章。UmberLore的frank-lloyd-wright/st-peters-basilica/sagrada-familia等文章是历史分析而非项目展示，且没有可授权发布的原创建筑摄影，格式不匹配，未起草pitch。"
+      },
+      {
+        "name": "The Magazine Antiques",
+        "url": "https://www.themagazineantiques.com/submission-guidelines/",
+        "status": "real but poor fit — not pursued",
+        "notes": "真实的印刷/线上装饰艺术权威期刊，接受'新研究报告'类投稿提案，联系邮箱tmaedit@themagazineantiques.com。但要求原创学术研究而非博客文章改写，门槛为专业资质，且UmberLore当前文章库里没有真正的装饰工艺(decorative crafts)选题可对应(Klimt金箔材质是最接近的角度，但仍是绘画史而非装饰工艺研究)，投稿模型与格式均不匹配，未起草pitch。"
+      },
+      {
+        "name": "Hyperallergic — How to Pitch",
+        "url": "https://hyperallergic.com/how-to-pitch/",
+        "status": "real but poor fit — not pursued",
+        "notes": "知名艺术评论媒体，pitch@hyperallergic.com，但明确是付费自由撰稿模式($250-500/篇)，要求原创未发表报道/评论，并非'客座文章换外链'模式，与UmberLore其余渠道的运营模式(免费客座文章换作者链接)不符，未起草pitch。"
+      },
+      {
+        "name": "Art in Context — join our team",
+        "url": "https://artincontext.org/about/",
+        "status": "real but poor fit — not pursued",
+        "notes": "UmberLore的直接同类竞品站(与thecollector.com同类)，HR邮箱hr@artincontext.org招募'团队成员'，但这是长期/全职撰稿人招募，不是一次性客座文章换外链的渠道，模式不符，未起草pitch。"
+      },
+      {
+        "name": "Photography history / decorative arts guest-post 渠道搜索",
+        "url": "N/A — 多轮搜索无结果",
+        "status": "no strong niche-specific channel found",
+        "notes": "针对'摄影史'和'装饰工艺史'两个细分主题多轮搜索(PhotoWhoa/The Global Hues/Glytterati/Knittyboard/Kooihaus/Crafting a Green World/Artcraftblend等)，命中的均为摄影技巧/工艺DIY/家居生活类通用guest-post站，不是聚焦'历史'角度的编辑站点，与UmberLore的考据类定位不匹配，判定为无强niche fit，未追加pitch，非Owen待办(纯属未找到合适对象，不是被卡住)。"
+      }
+    ],
+    "sent": [
+      {"target": "ARCAblog (Association for Research into Crimes Against Art)", "to": "information@artcrimeresearch.org", "message_id": "19fd7279d5954967", "known_defect": "none"}
+    ],
+    "skipped": [
+      "DailyArt Magazine / HistoryMedieval / ArtDHope Foundation — 已于2026-08-04发送，本轮核实非重复，不再处理",
+      "Art Herstory — real but poor fit (无匹配的Old Masters内容)",
+      "ArchDaily — real but poor fit (投稿模型不符)",
+      "The Magazine Antiques — real but poor fit (需原创学术研究)",
+      "Hyperallergic — real but poor fit (付费自由撰稿模式)",
+      "Art in Context — real but poor fit (招募长期撰稿人非客座文章)",
+      "Photography history / decorative arts 细分渠道 — 本轮未找到强niche fit的开放渠道"
+    ],
+    "owen_todo": []
   }
 ]

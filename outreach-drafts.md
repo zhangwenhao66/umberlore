@@ -136,3 +136,34 @@ Thanks,
 Owen Zhang
 contact@umberlore.com
 umberlore.com
+
+## Guest post pitch (2026-08-06 — new channel, weekly outreach run)
+
+### Pitch 4 — ARCAblog (Association for Research into Crimes Against Art)
+
+- URL: https://art-crime.blogspot.com/ (blog) — contact page at https://www.artcrimeresearch.org/contact-us/
+- Contact: information@artcrimeresearch.org (general inquiries, per ARCA's own contact page, verified live 2026-08-06 via Browser pane — no CAPTCHA, plain email address, no account/registration required)
+- Prior status (2026-08-04 log): "no open channel found" — ARCAblog's own blog page had no visible submission info at the time. Re-checked 2026-08-06 via WebSearch, which surfaced the blog's sidebar widget text ("Have a question for us? A post you would like to guest blog? ... Write to us here"), linking to the contact-us page above. This is new information, not a re-verification of the same page — the earlier run apparently did not see the sidebar widget or follow the "Write to us here" link.
+- Angle: the Art Restitution Committee's contradictory outcomes across two Klimt cases (Bloch-Bauer Klimts overturned by arbitration in 2006; Beethoven Frieze restitution claim refused in 2015), based on the published `gustav-klimt` article. Different angle from Pitch 3 (ArtDHope) above, which used the same article's SCOTUS-misconception/physical-materials angle — this one is built around the restitution-committee procedural contrast, which fits ARCA's specific art-crime/repatriation focus.
+- Fact-check note: an earlier draft of this pitch included three claims not supported by the guides.ts article text and was corrected before sending. (1) It originally assigned a specific year ("in 2006") to the Art Restitution Committee's recommendation against the Bloch-Bauer Klimts and used that to claim the two committee decisions were "eight years apart"; the article only establishes that the committee's refusal predates the 15 January 2006 arbitration award, not the exact year of the refusal, so the invented date and the derived interval were removed. (2) It originally described the Beethoven Frieze as seized from "a different branch of the same extended family" as the Bloch-Bauers; the article never states a family relationship between the Bloch-Bauers and the Lederers, so that claim was removed and replaced with language describing them as two separate cases. It also originally called both families "Jewish" as an assumed fact; the article states this explicitly only for the Lederers, so the Bloch-Bauer reference was rewritten to describe only what the article states (that the collection was seized after Ferdinand Bloch-Bauer fled the Anschluss), without asserting a religion the article doesn't state for that family. (3) Caught by the independent review agent, not by self-review: the draft claimed the 2015 Beethoven Frieze decision was made "working from the same 1998 Art Restitution Act" as the earlier Bloch-Bauer decision, but the article specifies the 2015 review was conducted "under the amended Art Restitution Act" — asserting the two decisions used an identical, unamended law erased a distinction the source explicitly draws. Fixed to say the committee was "created under" the 1998 Act but that the 2015 refusal stood "under an amended version of that same law." Re-submitted for a second independent review after this fix; see verdict below before treating this as sendable.
+
+**Email (humanized, self-reviewed for AI-writing tells and factual grounding, corrected after one independent-review catch):**
+
+Subject: Guest post idea: the Klimt case where Austria's own restitution committee said no twice, with two different results
+
+Hi,
+
+I write about visual art history at umberlore.com, and I noticed ARCAblog takes guest posts on art crime topics, so I wanted to pitch one built around a restitution case with a genuinely strange internal contradiction.
+
+Two separate Klimt restitution claims went in front of the same body, Austria's Art Restitution Committee, and its "no" held in one case and got overturned in the other. The committee recommended against returning five Bloch-Bauer Klimts, including Portrait of Adele Bloch-Bauer I, to Maria Altmann's family, whose collection was seized after Ferdinand Bloch-Bauer fled the 1938 Anschluss. A separate Austrian arbitration panel disagreed and awarded the family the paintings anyway, in an award dated 15 January 2006. Klimt's Beethoven Frieze, seized from the Lederer family's property after the same 1938 Anschluss, went the other way: the Republic of Austria bought it from heir Erich Lederer in 1972 after a personal intervention by Chancellor Bruno Kreisky, and when Lederer's heirs asked for it back in 2013, the same Art Restitution Committee reviewed the claim in 2015 and recommended against restitution. It's still on permanent display in the Secession building it was painted for in 1902.
+
+So the same committee, created under Austria's 1998 Art Restitution Act, got overruled by arbitrators in one case, then years later had its refusal stand in the other under an amended version of that same law. I'd want to walk through why: what the Bloch-Bauer arbitration panel (Peter Rummel, Andreas Nödl, Walter H. Rechberger) decided differently from the committee, and what made the Beethoven Frieze case different enough that the 2015 refusal held. I'd cite the Belvedere's own provenance research page, the Secession's institutional history of the frieze, and the Austrian federal provenance portal where the committee's recommendations are published.
+
+Happy to fit this to whatever length and sourcing format you use for guest posts. I also have a companion piece already published, covering the Klimt restitution story overall (including the gold-leaf physical materials and what the 2004 US Supreme Court case actually decided, which is less than most retellings suggest): https://umberlore.com/gustav-klimt/, if that's useful as a writing sample.
+
+Thanks,
+Owen Zhang
+contact@umberlore.com
+umberlore.com
+
+**Outcome:** second independent review agent returned "can send." Sent 2026-08-06 via `gmail_send.py --from umberlore` to information@artcrimeresearch.org, Message ID `19fd7279d5954967`. Body file verified read before sending (first line was the greeting "Hi,", no leaked Subject line — checking for this explicitly after the earlier DailyArt Magazine defect).
