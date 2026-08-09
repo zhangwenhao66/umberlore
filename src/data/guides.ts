@@ -2885,6 +2885,92 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/The_Birth_of_Venus"
       }
     ]
+  },
+  {
+    "slug": "venus-de-milo",
+    "category": "Sculpture",
+    "title": "Venus de Milo: The Signed Base the Louvre Never Displayed",
+    "description": "A fragment found with the Venus de Milo named its sculptor and dated it later than the Louvre's director claimed. The fragment went missing soon after.",
+    "published": "2026-08-10",
+    "updated": "2026-08-10",
+    "coreSummary": "A marble fragment found alongside the Venus de Milo on the Greek island of Melos in 1820 carried a Greek inscription naming its sculptor as Alexandros, son of Menides, from Antioch on the Maeander, and placing the work in the Hellenistic period, centuries after the Classical-era sculptors the statue is popularly associated with. The Louvre's director at the time, Auguste de Forbin, instead had the statue publicly attributed to the school of Praxiteles, the celebrated fourth-century-BC sculptor, and the inscribed fragment disappeared from the record soon afterward. The Louvre now dates the statue itself to roughly 130 to 100 BC on stylistic grounds independent of the missing fragment, but its own paintings and antiquities conservator has never taken an official position on whether that fragment belonged to the statue at all.",
+    "image": "/images/venus-de-milo-louvre.jpg",
+    "imageAlt": "The Venus de Milo, an armless marble statue of a partially draped woman, on display at the Louvre.",
+    "imageCredit": "[Venus de Milo Louvre Ma399](https://commons.wikimedia.org/wiki/File:Venus_de_Milo_Louvre_Ma399.jpg), Musée du Louvre (inv. Ma 399), public domain",
+    "sections": [
+      {
+        "heading": "What a farmer on Melos dug up in 1820",
+        "body": [
+          "On April 8, 1820, a farmer named Yorgos Kentrotas was clearing a field on the Aegean island of Melos, then part of the Ottoman Empire, when he uncovered fragments of a marble statue. A French naval ensign anchored offshore, Olivier Voutier, was exploring the island that day, saw the discovery, and recognized its importance. The pieces found together included the two halves of the female figure, a fragment of an arm, a marble hand holding an apple, two herms (carved head-and-pillar sculptures), and an inscribed base.",
+          "The statue itself had been carved in two blocks of Parian marble, joined at the hips where the line is largely hidden by the roll of drapery, which is why it could be assembled and recognized as a coherent figure once the pieces were laid out. Marble quarried on the island of Paros was prized across the ancient Greek world for its fine, translucent grain, and sculptors of the classical era, Praxiteles among them, favored it for their most important commissions. That reputation is part of why the material alone was not enough to settle which era, or which sculptor, had actually produced this particular figure.",
+          "The French vice-consul on the island and Jules Dumont d'Urville, another French naval officer, arranged for the statue's purchase on behalf of Charles-François de Riffardeau, Marquis de Rivière, the French ambassador to the Ottoman Empire. The statue reached Paris and, by early 1821, had been presented to King Louis XVIII, who donated it to the Louvre. It has stayed in the museum's collection ever since, catalogued today under inventory number Ma 399, standing 2.02 metres tall. It is not the only Venus in a major museum whose early ownership history is thinner than the label suggests; [the commission history of Botticelli's Birth of Venus in Florence has the same kind of gap](/birth-of-venus/), just for different reasons and in a different medium."
+        ]
+      },
+      {
+        "heading": "An inscription that pointed to the wrong era for what the Louvre wanted",
+        "body": [
+          "The inscribed base found with the statue carried Greek lettering identifying the sculptor as Alexandros, son of Menides, from Antioch on the Maeander, a city not founded until around 280 BC. A signature naming that city put the work firmly in the Hellenistic period, a century or more after the classical age of Phidias and Praxiteles had ended.",
+          "That created a problem for the Louvre's director at the time, Auguste de Forbin. According to the World History Encyclopedia's account of the episode, Forbin instead had the statue attributed to the circle of Praxiteles, the fourth-century-BC Athenian sculptor credited with the first celebrated nude Aphrodite in Greek art, a far more prestigious pedigree for a museum piece than an obscure, later provincial sculptor. Smithsonian Magazine's account of the same dispute describes scholars sympathetic to the Praxiteles attribution securing a paper for the Académie des Beaux-Arts in April 1821 that formalized the classical-era claim, a position later writers say the museum maintained for well over a century.",
+          "The inscribed base itself did not survive to settle the argument. It went missing from the Louvre's records not long after the statue's arrival, and it has never been recovered. What is known of its wording and appearance comes from a drawing made in 1821, at the request of the painter Jacques-Louis David, which the Comte de Clarac later used as the frontispiece for a paper making the case for the Alexandros attribution against the museum's official position. A missing fragment is a quieter way for an institution to shape how a work is read than [physically chiseling an unwanted mural off a wall](/diego-rivera/), but the effect on the historical record is the same kind of gap."
+        ]
+      },
+      {
+        "heading": "What the Louvre's own record says today",
+        "body": [
+          "Modern scholarship no longer accepts the Praxiteles attribution. The Louvre's own published dating for the Venus de Milo is roughly 130 to 100 BC, squarely within the Hellenistic period the inscription had pointed to all along. That dating rests on stylistic analysis of the sculpture itself, independent of the missing inscribed base, so the case for a Hellenistic-era statue no longer depends on recovering the lost evidence.",
+          "The attribution to Alexandros of Antioch specifically is a separate, less settled question. Alain Pasquier, the Louvre's general conservator, has not disputed the Hellenistic dating, but has stopped short of confirming that the inscribed fragment described by nineteenth-century witnesses definitely belonged to this particular statue rather than to one of the other objects, including the two herms, found in the same scattered group on Melos. The museum's position, as summarized in secondary accounts of the dispute, is to acknowledge the fragment existed and record what it said, without asserting as settled fact that it was the Venus's own base.",
+          "That caution matters for how the story should be told. It is fair to say a signed, Hellenistic-era base was found with the statue and then went missing at a moment when its contents were inconvenient for the museum's preferred attribution. It is not settled that the fragment was definitely part of this statue's own pedestal, and the Louvre's own restraint on that point is worth taking as seriously as the more dramatic cover-up framing that popular accounts of the episode tend to favor, a caution about reading too much into a single artifact that also shapes [what a museum's own catalogue record can and cannot establish](/famous-paintings/) for works far better documented than this one."
+        ]
+      },
+      {
+        "heading": "The arms nobody has reattached",
+        "body": [
+          "The Venus de Milo has been missing both arms since it entered the historical record, and the Louvre made an early decision not to guess at a restoration. Conservators considered adding replacement arms shortly after the statue arrived in Paris, then abandoned the idea on the grounds that any reconstruction, however well researched, would permanently alter an object nobody could be certain how to complete.",
+          "The clearest clue is the marble hand holding an apple that Kentrotas found in the same group of fragments on Melos. In 1876 the German scholar Wilhelm Fröhner proposed that the statue's raised left hand originally held that apple, referencing the mythological judgment of Paris, while the lowered right hand gathered the drapery slipping from her hips. Other researchers have floated alternative reconstructions over the years, including a hand resting on a shield or spinning thread, based on the angle of the shoulders and the position of the legs, but none has displaced the apple theory as the most widely cited.",
+          "None of these theories has been tested by attaching new arms to the statue itself, and the Louvre has kept it as it was found. The statue that visitors see today is missing precisely the parts of the story, the arms and the inscribed base alike, that would resolve who made it, what it depicted, and why."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why does the Venus de Milo have no arms?",
+        "answer": "Its arms were already missing by the time the statue was uncovered on Melos in 1820. A marble hand holding an apple and a separate arm fragment were found in the same scattered group of pieces, but the Louvre chose not to reattach them or guess at a full restoration, so the statue has remained armless since it entered the museum's collection."
+      },
+      {
+        "question": "Who sculpted the Venus de Milo?",
+        "answer": "An inscribed base found with the statue named the sculptor as Alexandros, son of Menides, from Antioch on the Maeander. That fragment went missing soon after the statue reached the Louvre, and Alain Pasquier, the Louvre's general conservator, has stopped short of confirming it definitely belonged to this statue rather than to another object found in the same group, so the attribution is treated as likely rather than certain."
+      },
+      {
+        "question": "How old is the Venus de Milo?",
+        "answer": "The Louvre dates the statue to roughly 130 to 100 BC, within the Hellenistic period, based on stylistic analysis of the sculpture itself. It is carved from Parian marble in two joined blocks and stands 2.02 metres tall, catalogued under inventory number Ma 399."
+      },
+      {
+        "question": "Why was the Venus de Milo once attributed to Praxiteles?",
+        "answer": "Praxiteles was a celebrated fourth-century-BC Athenian sculptor credited with the first major nude Aphrodite in Greek art, and an attribution to his school gave the newly discovered statue a far more prestigious pedigree than an obscure, later Hellenistic sculptor. The Louvre's director at the time, Auguste de Forbin, promoted that classical-era attribution publicly, a position secondary accounts say the museum maintained for decades even as the inscribed base pointed to a later date."
+      },
+      {
+        "question": "Where can you see the Venus de Milo today?",
+        "answer": "The statue is on permanent display at the Louvre in Paris, in the Sully wing, where it has remained part of the collection since it was donated by King Louis XVIII in 1821."
+      }
+    ],
+    "sources": [
+      {
+        "label": "World History Encyclopedia: Disarming Aphrodite: Rediscovering the Venus de Milo",
+        "url": "https://www.worldhistory.org/article/1377/disarming-aphrodite-rediscovering-the-venus-de-mil/"
+      },
+      {
+        "label": "Smithsonian Magazine: Base Deception",
+        "url": "https://www.smithsonianmag.com/arts-culture/base-deception-91910975/"
+      },
+      {
+        "label": "Wikipedia: Venus de Milo",
+        "url": "https://en.wikipedia.org/wiki/Venus_de_Milo"
+      },
+      {
+        "label": "Penelope (University of Chicago): The base of the Venus de Milo",
+        "url": "https://penelope.uchicago.edu/~grout/encyclopaedia_romana/miscellanea/venus/plinth.html"
+      }
+    ]
   }
 
 ];
