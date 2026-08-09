@@ -445,3 +445,58 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "famous-paintings",
+  "last_audited": "2026-08-09",
+  "published_date": "2026-08-02",
+  "article_specific_checklist": [
+    "六件作品的博物馆藏品编号/材质/尺寸是否与官方catalogue record逐字一致",
+    "Night Watch 1715年裁切尺寸（64.4/23.3/11.3/7 cm）与2021年AI重建的两套数字自相矛盾问题（文章自己已承认）",
+    "Great Wave 印数'up to 8,000 impressions'与British Museum Korenberg论文原文是否一致",
+    "Girl with a Pearl Earring 1881年拍卖价'2.30 guilders'与Des Tombe 1903年遗赠的准确性",
+    "正文引用的九条博物馆官方链接是否仍可访问",
+    "四张配图（本地文件）与四篇内链目标slug是否真实存在"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（逐条独立核实）",
+      "status": "未发现问题",
+      "detail": "WebSearch多信源交叉核实：Night Watch裁切尺寸64.4/23.3/11.3/7cm与Rijksmuseum官方新闻稿一致；Great Wave 'up to 8,000 impressions'与Korenberg论文/多篇报道对'超过8000印'的表述一致；Girl with a Pearl Earring 1881 Braams拍卖'2 guilders + 30 cents买家佣金=2.30 guilders'售予Des Tombe、1903年遗赠（Des Tombe本人1902年12月16日去世，遗赠于1903年正式生效并公开，文章表述'left it to the museum in his bequest of 1903'准确区分了去世年与遗赠生效年，未见混淆）；Louvre Mona Lisa双编号INV 779/MR 316准确；Mauritshuis'仅36幅已知Vermeer真迹'表述与博物馆自己的公开口径一致。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题（两处WAF误判已排除）",
+      "detail": "9条sources中7条curl直接200；metmuseum.org返回429、mauritshuis.nl返回403，均连续3次重试仍如此，判定为反爬WAF对自动化请求的间歇性拦截而非真链接失效——WebSearch交叉核实两个页面内容仍可正常索引且与文章引用内容（JP10/accession、670号藏品记录）完全对应，与站内已确立的判例（history.navy.mil/nationalgeographic.com等真实in-service案例）一致，不计为死链。"
+    },
+    {
+      "dimension": "早期内容AI味补漏（humanizer/avoid-ai-writing）",
+      "status": "未发现问题",
+      "detail": "本文published 2026-08-02，早于avoid-ai-writing 2026-08-07接入日期，属早期文章，需重新核查。机械扫描em-dash为0，仅2处en-dash且均出自Mauritshuis官网原文的逐字引用（'tronie – a painting of an imaginary figure'），保留原始标点属于引语忠实转录不算AI味或需要修改的问题；curly quotes为0；AI高频词/rule-of-three/additionally-moreover等填充词全部0命中。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题（非孤儿页）",
+      "detail": "grep确认5篇其他文章（含van-gogh-paintings/whaam相关文章/frida-kahlo相关文章等）已有正文回链指向本文，Painting分类现12篇文章，未见孤儿页信号。"
+    },
+    {
+      "dimension": "配图可用性 / 版权风险（本站专属）",
+      "status": "未发现问题",
+      "detail": "四张配图均为本地/public/images/文件，构建时确认存在；六件涉及作品（达芬奇/伦勃朗/维米尔/波提切利/蒙克/葛饰北斋）全部作者去世均超过公有领域年限（蒙克1944年去世，欧盟公共领域已于2014年生效；美国作品创作于1893年，早于1928年门槛），本文不落入UmberLore建站计划文档标注的146词现当代艺术家版权风险清单范围内。"
+    },
+    {
+      "dimension": "SEO技术审计 / GEO审计 / Schema一致性 / 合规敏感度 / AdSense政策风险",
+      "status": "未发现问题",
+      "detail": "title 50字符/description 148字符均在合理区间；单一h1，6个h2层级无跳级；本文为首次审计（published==updated均2026-08-02，无历史编辑），无schema一致性需要同步的场景；GEO定性评估达标（coreSummary独立成段/FAQ四条均标注可追溯博物馆来源/9条sources/密集具体数字与直接引语）；主题为艺术史事实核查无当代敏感争议；AdSense政策核查（纯博物馆藏品记录事实性内容，无暴力/限制类目/标题党）无违规风险；ads.txt/privacy/about均实测200。"
+    }
+  ],
+  "actions_taken": [
+    "无需修复——十三维度审查均未发现confirmed问题，未做任何代码改动，未触发build/deploy/IndexNow流程"
+  ],
+  "seo_score": "未运行量化打分器；技术项逐一核对全部通过，title/desc长度在合理区间",
+  "geo_score": "定性评估达标（Content Extractability Check全部通过：coreSummary前置/FAQ自包含/密集具体数字与一手引语/9条权威博物馆sources）",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
