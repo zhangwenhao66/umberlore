@@ -3192,6 +3192,138 @@ export const guides: Guide[] = [
         "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/4/7/"
       }
     ]
+  },
+  {
+    "slug": "daguerreotype",
+    "category": "Photography",
+    "title": "What Is a Daguerreotype? A \"First Photo\" That Barely Survived",
+    "description": "A daguerreotype is a unique image on silver-plated copper. The 1838 plate cited as photography's first photo of a person survives only as a copy of a copy.",
+    "published": "2026-08-10",
+    "updated": "2026-08-10",
+    "coreSummary": "A daguerreotype is a direct-positive photograph fixed on a silver-plated copper plate, a unique image made without a negative, first shown to the public by Louis Daguerre on August 19, 1839. The plate usually cited as the first photograph to show a living person, an 1838 Paris streetscape called Boulevard du Temple, no longer survives in its original state: a botched 1970 restoration in Munich compounded a century of decay, so nearly every reproduction now in circulation, including the one at the top of this article, derives from copies the historian Beaumont Newhall made in the 1930s rather than the plate itself.",
+    "image": "/images/daguerreotype-boulevard-du-temple-1838.jpg",
+    "imageAlt": "The 1838 daguerreotype Boulevard du Temple, showing an apparently empty Paris street with a man having his boots polished barely visible at the lower left corner.",
+    "imageCredit": "[Boulevard du Temple by Daguerre](https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg) by Louis Daguerre, 1838, public domain",
+    "sections": [
+      {
+        "heading": "What actually makes an image a daguerreotype",
+        "body": [
+          "Ask what separates a daguerreotype from an ordinary old photograph and the answer has nothing to do with age or sepia tone. A daguerreotype is a direct-positive process: the image forms directly on a sheet of copper plated with silver, with no negative involved at any stage. That makes every daguerreotype a one-of-a-kind object. There is no master to reprint from, so if the plate is lost, scratched, or destroyed, the image is gone in a way a modern negative-based photograph never quite is.",
+          "The process itself ran through several distinct chemical stages. A silversmith-grade copper plate was polished until its surface read as a mirror, then sensitized in a closed box over iodine until it took on a yellow-rose cast. The plate went into the camera for exposure, then over heated mercury, where vapor developed the latent image until it appeared. Fixing came next, in a solution of sodium thiosulfate (or, in Daguerre's earliest recipe, ordinary salt), sometimes followed by toning in gold chloride to improve contrast and durability. Because the finished silver surface tarnished and scratched easily, daguerreotypes were almost always sealed under glass and mounted in small hinged cases lined with velvet, leather, or occasionally mother-of-pearl.",
+          "One more property matters for what follows: a daguerreotype is a mirror image of whatever stood in front of the camera, left and right reversed, the same way a bathroom mirror reverses a face. Daguerre announced the finished process to the French Academy of Sciences in Paris on August 19, 1839, after years spent refining an earlier, far slower technique developed with his one-time partner Nicéphore Niépce. Word of the new invention crossed the Atlantic within weeks."
+        ]
+      },
+      {
+        "heading": "The photograph everyone cites as the first to include a person",
+        "body": [
+          "The plate usually offered as proof that a camera once caught a human being for the first time is known as Boulevard du Temple. Daguerre made it from a window in his own studio, beside his Diorama theater at 5 Rue des Marais in Paris, at eight o'clock in the morning on a date historians place somewhere between April 24 and May 4, in 1838 by most accounts, though the surviving documentation leaves 1837 as a live possibility that has never been fully closed. He exposed two more plates from the same window that day: one at midday, which survives, and a third in the evening, which does not. The surviving 8 a.m. plate measures roughly 13 by 16 centimeters, small enough to have fit in a coat pocket.",
+          "The street it shows would have been full of foot and carriage traffic that morning, yet the finished image looks all but deserted. That is a function of exposure time rather than an empty boulevard: anything moving during the exposure left no trace at all, and only a stationary figure would register. Sources disagree by roughly a factor of three on how long that exposure actually ran. The commonly repeated figure, drawn from Daguerre's improved 1838 method, is four to five minutes; other historical accounts of this same plate put it closer to ten or fifteen. Nobody has closed that gap with certainty.",
+          "What the exposure did preserve, in the lower left corner, is usually described as a bootblack polishing the boots of a customer standing still long enough to be recorded. That identification carries less certainty than the popular retelling suggests. It has been raised, seriously enough to appear in the photograph's own scholarly record, that the stooped shape read as a bootblack might instead be a stationary object such as a water pump. The single human detail that made this plate famous, in other words, is itself a matter of interpretation rather than settled fact, a different kind of contested \"first\" than [the disputed date on the watercolor credited as art's first fully abstract painting](/abstract-art-first-painting/), but built from the same raw material: a claim that outran what the surviving evidence can actually support."
+        ],
+        "image": {
+          "src": "/images/daguerreotype-boulevard-du-temple-midday.jpg",
+          "alt": "The companion daguerreotype Daguerre exposed at midday from the same window on the same day as the 8 a.m. Boulevard du Temple plate.",
+          "credit": "[Boulevard du Temple, midi, Daguerre](https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple,_midi,_Daguerre.png), public domain"
+        }
+      },
+      {
+        "heading": "What closer analysis has found in the plate",
+        "body": [
+          "The bootblack pair is not the only thing researchers have gone looking for in the frame. Repeated close examination of the plate has turned up faint traces beyond those two figures: a possible child looking out from a window, a horse, and other smears consistent with people or vehicles caught mid-motion and therefore never fully registered. None of these secondary traces are as legible as the two men at the corner, which is why they rarely make it into the caption most people encounter.",
+          "A 2010 close, colorized reading of the plate by an image researcher going by Charles Léo, reported at the time by NPR's science desk, pushed the count of discernible figures higher still, complicating the tidy version of the story in which Daguerre's camera caught exactly one bystander and his customer against an otherwise empty street. The more carefully the plate has been examined, the less it resembles the single, isolated human incident the caption implies.",
+          "Any reading of the image also has to account for the mirror reversal built into every daguerreotype. The street in the plate runs backward relative to the real geography of the site, which sat, at the time, behind the Place du Château-d'Eau rather than at the Place de la République that later replaced it. Researchers reconstructing exactly which window Daguerre shot from have had to flip the image first, matching its reversed rooflines against surviving Parisian maps from the 1830s before the camera's position could be pinned down with any confidence."
+        ]
+      },
+      {
+        "heading": "The plate almost didn't survive being famous",
+        "body": [
+          "Daguerre's Paris studio burned in March 1839, only months before he made his invention public. By his own account, he told the firefighters to let the studio itself go and concentrate on saving the adjoining house, which held his laboratory, his apparatus, and his existing plates; his notebook of experiments turned up in the wreckage ten days later. The rescue mattered more than it might sound, because only about twenty-five daguerreotypes survive today that can be firmly attributed to Daguerre's own hand, and the Boulevard du Temple plate is one of them.",
+          "Daguerre showed this specific plate to Samuel Morse in his studio that same March, and Morse's own account of it, written to his brother Sidney, ran in the New-York Observer on April 20, 1839, just weeks after Morse saw the plate in Paris, decades before instant transmission of any kind existed. In October 1839, ahead of the French government finalizing the pension that would place his invention in the public domain, Daguerre gave King Ludwig I of Bavaria a framed triptych as a publicity gift: the 8 a.m. Boulevard du Temple plate on the right, the midday plate on the left. Displayed at the Munich Arts Association, it drew a notice in the Leipzig Pfennig-Magazin, which described the 8 a.m. scene, in a passage later translated for research into the triptych's history, as showing that \"there appeared to be a man having his boots polished who must have been standing extremely still.\"",
+          "From there the plates went into storage at the Bavarian royal palace and later the Bavarian National Museum archives, where they deteriorated largely unexamined for close to a century. The American photography historian Beaumont Newhall rediscovered them in 1936 or 1937, made reproduction copies for display in New York, and published those copies in his 1949 book, The History of Photography from 1839 to the Present Day. The originals were kept in poor conditions through the Second World War, and in 1970 they were loaned to the Munich City Museum, where a restoration attempt went wrong badly enough that, according to independent accounts of the episode, environmental exposure and the failed treatment together finished damaging what a century of neglect had already worn down.",
+          "Every reproduction made since, in textbooks, on postcards, and in the image sitting at the top of this article, traces back to Newhall's 1930s copy rather than a direct scan of the plate. The most reproduced daguerreotype in the world survives today in worse physical condition than the copies Newhall made of it more than three decades before that restoration, a detail that tends to get smoothed out of the caption entirely, the same way [a seven-part vocabulary now taught as though it were art's timeless grammar turns out to have a specific, comparatively recent origin story of its own](/elements-of-art/) once anyone checks where it actually came from."
+        ]
+      },
+      {
+        "heading": "A different kind of first: the earliest surviving portrait",
+        "body": [
+          "Boulevard du Temple, whatever its date and whatever is actually visible in its corner, records an accident: a passerby who happened to stand still long enough to be caught by a camera pointed at a street. A different, more clearly documented milestone belongs to someone who sat for a camera on purpose.",
+          "Robert Cornelius, a young Philadelphia lamp manufacturer, made a daguerreotype self-portrait in the yard behind his family's store in October or November 1839, using a box camera he built himself with a lens taken from an opera glass. Working outdoors to take advantage of the daylight, he is estimated by historians to have held his pose for roughly ten minutes before ducking into frame. The Library of Congress, which holds the plate today, describes it as \"believed to be the earliest extant American portrait photo\" and elsewhere calls it the earliest surviving photographic portrait in the world.",
+          "Cornelius's picture postdates Boulevard du Temple by roughly a year on the conventional 1838 dating, so it does not unseat the Paris streetscape's claim to showing a person first. But it is a different kind of record: a deliberate sitting rather than an incidental figure, made by someone who wanted to be photographed and returned to check the result. Other claims complicate the sequence further. The French photographer Hippolyte Bayard said he had made photographic self-portraits as early as 1837, which would predate both Boulevard du Temple and Cornelius, but none of Bayard's claimed 1837 plates survive, so there is nothing left to check the claim against. And in an earlier Daguerre plate of the Pont Neuf, possibly made as early as 1836, close viewers have made out what appear to be one or two people lying near the bridge, a detail quietly at odds with any version of the story that starts the clock in 1838."
+        ],
+        "image": {
+          "src": "/images/daguerreotype-robert-cornelius-self-portrait.jpg",
+          "alt": "Robert Cornelius's October or November 1839 daguerreotype self-portrait, made in the yard behind his family's Philadelphia store.",
+          "credit": "[1839 Self-portrait by Robert Cornelius](https://commons.wikimedia.org/wiki/File:1839_Self-portrait_by_Robert_Cornelius.jpg), Library of Congress, public domain"
+        }
+      },
+      {
+        "heading": "Why the format lasted barely twenty years",
+        "body": [
+          "Daguerreotypes dominated commercial photography for roughly two decades before losing ground fast. Popularity declined through the late 1850s once the ambrotype, a faster and considerably cheaper process fixed on glass rather than silvered copper, became widely available to portrait studios.",
+          "The daguerreotype had a structural weakness that the ambrotype and its successors shared and eventually exploited: because each plate was a unique direct-positive image made without a negative, it could never be reprinted. A sitter who wanted a second copy for a relative needed a second sitting, not a second print. Negative-based processes developing in parallel, most notably William Henry Fox Talbot's calotype in England, could turn one exposure into any number of paper prints. However sharp the daguerreotype's detail, that limitation made it a difficult format to scale once demand for portrait photography moved from novelty to industry, which is why the single, fragile, much-photographed Boulevard du Temple plate exists at all, the same brittle survival that separates [the Louvre's own documented account of a famous painting](/mona-lisa/) from the folklore that tends to grow up around anything this widely reproduced: because there was never a negative to lose, there was also never a spare."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is a daguerreotype?",
+        "answer": "A daguerreotype is a direct-positive photograph fixed on a sheet of copper plated with silver, made without a negative, which makes each plate a unique, unrepeatable object. The silver surface is polished to a mirror finish, sensitized over iodine, exposed in a camera, developed over heated mercury vapor, and fixed in a solution of sodium thiosulfate, then usually sealed under glass in a small hinged case to protect it from scratching and tarnish."
+      },
+      {
+        "question": "Who invented the daguerreotype, and when was it made public?",
+        "answer": "Louis Daguerre developed the process in Paris through the 1830s, building on earlier work with his one-time partner Nicéphore Niépce, and announced it to the French Academy of Sciences on August 19, 1839. Descriptions of the invention, including of the Boulevard du Temple plate itself, were already circulating in American newspapers within weeks."
+      },
+      {
+        "question": "How long did a daguerreotype exposure take?",
+        "answer": "It depended on the era and the available light. Niépce's earlier heliograph process from the 1820s needed roughly eight hours. By 1838, Daguerre's improved method is usually cited at around four to five minutes, though other historical accounts of the Boulevard du Temple plate specifically put the figure closer to ten or fifteen minutes; the exact exposure time for that particular photograph has never been definitively settled."
+      },
+      {
+        "question": "Is the Boulevard du Temple photograph really the first photo of a person?",
+        "answer": "It is usually described that way, but the claim rests on softer ground than the caption implies. The photograph's own date is uncertain between 1837 and 1838, the figures normally read as a bootblack and his customer have been questioned by researchers who have raised the possibility that one is actually a stationary object such as a water pump, and a 2010 close analysis found more faint, discernible traces in the frame than the standard two-figure account allows for. The French photographer Hippolyte Bayard separately claimed to have made self-portraits as early as 1837, but none of his claimed plates survive to check the claim against."
+      },
+      {
+        "question": "What happened to the original Boulevard du Temple plate?",
+        "answer": "It survived a fire at Daguerre's studio in March 1839 and was given to King Ludwig I of Bavaria that October, after which it deteriorated in storage for close to a century until the American photography historian Beaumont Newhall rediscovered it in 1936 or 1937 and made copy negatives. A 1970 restoration attempt, after the plates were loaned to the Munich City Museum, went wrong and damaged the originals further. Nearly every modern reproduction of the image, including the one at the top of this article, derives from Newhall's decades-old copies rather than the plate itself."
+      },
+      {
+        "question": "Why did daguerreotypes stop being used?",
+        "answer": "Popularity declined through the late 1850s as the ambrotype, a faster and cheaper photographic process on glass, became widely available to portrait studios. The daguerreotype also carried a structural disadvantage: because each plate was a unique direct-positive image with no negative, it could never be reprinted, unlike the negative-based processes developing in parallel, which could produce unlimited copies from a single exposure."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Library of Congress: The Daguerreotype Medium",
+        "url": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/the-daguerreotype-medium"
+      },
+      {
+        "label": "Library Company of Philadelphia: Catching a Shadow — What Is a Daguerreotype?",
+        "url": "https://www.librarycompany.org/catchingashadow/section1/index.htm"
+      },
+      {
+        "label": "Wikipedia: Boulevard du Temple (photograph)",
+        "url": "https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph)"
+      },
+      {
+        "label": "Daguerreotype Archive: Samuel F. B. Morse's letter on Daguerre, New-York Observer, April 20, 1839",
+        "url": "http://www.daguerreotypearchive.org/texts/N8390002_MORSE_NY_OBSERVER_1839-04-20.pdf"
+      },
+      {
+        "label": "Wikimedia Commons: File:Boulevard du Temple by Daguerre.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg"
+      },
+      {
+        "label": "Library of Congress: Robert Cornelius, self-portrait",
+        "url": "https://www.loc.gov/pictures/resource/cph.3g05001/"
+      },
+      {
+        "label": "National Science and Media Museum: Faster photographs — Electroplate and the daguerreotype",
+        "url": "https://www.scienceandmediamuseum.org.uk/objects-and-stories/faster-photographs-electroplate-daguerrotype"
+      },
+      {
+        "label": "L'Œil de la Photographie: Arles 2012 — Sylvia Ballhause",
+        "url": "https://loeildelaphotographie.com/en/arles-2012-sylvia-ballhause/"
+      }
+    ]
   }
 
 ];
