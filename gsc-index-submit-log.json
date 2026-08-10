@@ -101,5 +101,17 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-10",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日两篇新发布：venus-de-milo查询已收录未提交；renaissance-art查询确认'URL is unknown to Google'，REQUEST INDEXING后确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/renaissance-art/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/venus-de-milo/"
+    ],
+    "quota_used": "1 request"
   }
 ]
