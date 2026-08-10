@@ -22,6 +22,25 @@ const { guide } = Astro.props;
 // Rotating-window related-guides selection -- see vendor/site-toolkit/packages/related-guides
 // for why this isn't a fixed .slice(0, 6) (that bug starved most of a category of any inbound link).
 const related = pickRelatedGuides(guides, guide);
+// Singleton/small categories leave `related` short (or empty) with nothing
+// else in their own category to recommend. Pad the sidebar with guides from
+// other categories so every page still gets a "related" section, and so
+// every guide (including ones in tiny categories) has a chance to appear as
+// someone else's recommendation. Rotates by each guide's own position in the
+// full array (not a fixed slice) so the fallback pool doesn't re-create the
+// same starvation bug in a different spot (pattern verified on CalcBadger:
+// 9/9 coverage with this fallback in place).
+const crossCategoryPool = guides.filter((g) => g.slug !== guide.slug && !related.includes(g));
+const crossCategoryRemaining = 6 - related.length;
+const globalIndex = guides.findIndex((g) => g.slug === guide.slug);
+const crossCategory =
+	crossCategoryRemaining > 0
+		? Array.from(
+				{ length: Math.min(crossCategoryRemaining, crossCategoryPool.length) },
+				(_, k) => crossCategoryPool[(globalIndex + k) % crossCategoryPool.length],
+			)
+		: [];
+const relatedFinal = [...related, ...crossCategory];
 
 // Categories are open strings here (UmberLore spans the whole of art history rather
 // than a fixed set of pillars), so the path is derived rather than looked up.
@@ -152,11 +171,11 @@ function md(text: string): string {
 			)}
 		</div>
 
-		{related.length > 0 && (
+		{relatedFinal.length > 0 && (
 			<div class="mt-16">
 				<h3 class="font-display m-0 text-xl font-medium text-[var(--ink)]">Nearby in the gallery</h3>
 				<div class="mt-6 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
-					{related.map((g) => (
+					{relatedFinal.map((g) => (
 						<a href={`/${g.slug}/`} class="work block no-underline">
 							{g.image ? (
 								<figure class="plate m-0">
