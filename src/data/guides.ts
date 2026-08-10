@@ -2971,6 +2971,114 @@ export const guides: Guide[] = [
         "url": "https://penelope.uchicago.edu/~grout/encyclopaedia_romana/miscellanea/venus/plinth.html"
       }
     ]
+  },
+  {
+    "slug": "renaissance-art",
+    "category": "Movements",
+    "title": "Renaissance Art: The Book That Named It Also Invented a Murder",
+    "description": "Giorgio Vasari's 1550 book gave \"Renaissance art\" its name and invented a murder confession that took an archivist three centuries to disprove using burial records.",
+    "published": "2026-08-10",
+    "updated": "2026-08-10",
+    "coreSummary": "The 1550 book that supplied Renaissance art with its cast of artists and the root of its own name also permanently attached a fabricated murder confession to one of those artists: Giorgio Vasari's Lives of the Most Excellent Painters, Sculptors, and Architects claims Andrea del Castagno killed fellow painter Domenico Veneziano over the secret of oil painting, then confessed on his deathbed years afterward. Castagno actually died of plague in August 1457, nearly four years before Veneziano's own recorded death in May 1461, a discrepancy the archival scholar Gaetano Milanesi did not formally prove from burial records until 1862, two years after Jacob Burckhardt's book finally settled \"the Renaissance\" as the period's standard name, three centuries after Vasari first wrote its root word, rinascita, on the page.",
+    "image": "/images/renaissance-art-vasari-self-portrait.jpg",
+    "imageAlt": "A self-portrait of Giorgio Vasari, the sixteenth-century painter and biographer whose 1550 book Lives of the Artists first used the word rinascita and gave Renaissance art its cast of painters, sculptors, and architects.",
+    "imageCredit": "[Giorgio Vasari, Self-Portrait](https://commons.wikimedia.org/wiki/File:Giorgio_Vasari_-_Self-Portrait_-_WGA24284.jpg), public domain",
+    "sections": [
+      {
+        "heading": "The preface that gave the period its name",
+        "body": [
+          "In 1550, the Florentine painter and architect Giorgio Vasari published a two-volume collection of artist biographies now known in English as Lives of the Most Excellent Painters, Sculptors, and Architects. In its preface, Vasari used the Italian word rinascita, meaning rebirth, to describe what he believed had happened to art after centuries of decline following antiquity: a recovery of ancient greatness that he traced from Cimabue and Giotto in the thirteenth century through to his own contemporary, Michelangelo. It is the first appearance of that word in a text about art, and it is the direct root of both the English \"Renaissance\" and the French word of the same spelling.",
+          "Vasari revised and expanded the book for a second edition in 1568, and the changes were substantial. The new edition ran to 161 biographies, 28 more than the 1550 original, widening its coverage beyond Florence to include more Venetian and non-Italian painters, among them Titian. It added woodcut portraits of the artists, designed by Vasari himself, and closed with a 42-page autobiography of Vasari's own career that he appended to the end of the book. It is this 1568 edition, not the shorter 1550 original, that is most commonly read today.",
+          "Vasari did not write as a disinterested outsider. He was court painter and architect to Cosimo I de' Medici, Duke of Florence, decorating the Medici's own Palazzo Vecchio around the same years the Lives was being written, and the book was dedicated to Cosimo. A history of Italian art that built steadily toward Florence's own masters, published by a Medici court artist and dedicated to the Medici duke, was also, not incidentally, a history that flattered the city and the family paying its author's wages.",
+          "The book did more than supply a word. It supplied a shape. Vasari organized roughly three centuries of painters, sculptors, and architects into a single narrative of decline and recovery, artist by artist, workshop by workshop, building toward Michelangelo as the culmination of everything that came before him. That structure, a period defined by steady progress toward a peak, still underlies how museum wall texts and survey courses organize the same stretch of art history today, whether or not they credit Vasari by name for it.",
+          "What the structure hides is how thin Vasari's actual evidence often was. He was writing about artists who worked one, two, sometimes three generations before he was born, in a Florence where the main surviving record of many of their lives was oral: workshop gossip, family anecdote, reputation passed down secondhand. For artists closer to his own lifetime, Vasari had documents, letters, and people who remembered them directly. For the earlier ones, he mostly had stories. He wrote both kinds down in the same confident narrative voice, and for three hundred years afterward, readers had no easy way to tell which parts were which."
+        ]
+      },
+      {
+        "heading": "The murder Vasari wrote into his life of Andrea del Castagno",
+        "body": [
+          "One of those stories concerns Andrea del Castagno, a Florentine painter known for tense, forceful figures, and Domenico Veneziano, a painter from Venice working in Florence around the same years. According to Vasari, Veneziano had brought the technique of oil painting to Florence and possessed a secret about it that Castagno wanted for himself. Vasari's account describes Castagno feigning friendship with Veneziano for years to draw out that secret, then, one evening, ambushing him near the hospital of Santa Maria Nuova and beating him to death with lengths of lead pipe, shattering the lute Veneziano was carrying in the same attack. Castagno kept the killing hidden, in Vasari's telling, until he himself lay dying years later and confessed it as his final act.",
+          "The detail about a coveted secret had a real reputation to hang on. Few signed paintings by Veneziano survive, but his reputation rests chiefly on the altarpiece he painted around 1445 to 1447 for the church of Santa Lucia de' Magnoli in Florence, now held in the Uffizi. Art historians count it among the first paintings to place the Virgin and Child together with several saints in a single, convincingly unified space and light, a technical achievement that made Veneziano's command of perspective and illumination genuinely distinctive among his Florentine contemporaries. Vasari did not need to invent Veneziano's skill to build a story around it; he only needed to invent what Castagno supposedly did to get it.",
+          "It is a vivid, specific story, with a motive, a location, a weapon, and a deathbed confession, and for centuries it was simply repeated as part of the historical record of both painters. Vasari's description of Castagno elsewhere in the Lives calls him harsh and difficult, a reading he seems to have drawn partly from the aggressive, muscular quality of Castagno's own painted figures, as if the work on the wall were evidence of the character of the man who made it. A biographer already convinced his subject looked capable of violence on canvas had less reason to question a story that confirmed it in life.",
+          "Historians who study Vasari's method also point to a broader pattern behind stories like this one: a documented bias toward Florentine and Tuscan artists over painters from Venice and other rival cities, visible in how much space and sympathy different regional schools receive across the book. Veneziano, despite a surname that ties him permanently to Venice in the historical record, worked mainly in Florence for most of his documented career. Casting him as the outsider whose secret got him killed by a Florentine fits a pattern of favoritism the rest of the book repeats in smaller ways throughout its account of the city's rival schools."
+        ],
+        "image": {
+          "src": "/images/renaissance-art-castagno-last-supper.jpg",
+          "alt": "Andrea del Castagno's 1447 fresco The Last Supper at the former convent of Sant'Apollonia in Florence, painted by the artist Vasari later accused of murdering Domenico Veneziano.",
+          "credit": "[Andrea del Castagno, The Last Supper, 1447](https://commons.wikimedia.org/wiki/File:Castagno,_Andrea_del_-_Last_Supper_-_1447.jpg), Sant'Apollonia, Florence, public domain"
+        }
+      },
+      {
+        "heading": "What the archives took three centuries to settle",
+        "body": [
+          "The story is disprovable with two dates. Andrea del Castagno died suddenly in Florence on 19 August 1457, during an outbreak of plague, a date recorded in the city's burial records from that month. Domenico Veneziano did not die until May 1461, nearly four years after Castagno. A man cannot, as Vasari describes it, spend years feigning friendship to learn a secret, murder a colleague for it, and then confess the killing on his own deathbed to someone who was still alive and working for another four years after that deathbed scene supposedly took place.",
+          "The correction came from Gaetano Milanesi, a Sienese scholar trained as a lawyer who spent decades in the region's archives teaching himself to read early Italian handwriting well enough to transcribe documents other historians could not use. In 1845, he co-founded a scholarly society with his brother Carlo Milanesi and two collaborators specifically to publish primary documents on Italian art history, and between 1846 and 1870 that project produced a new critical edition of Vasari's Lives, annotated against archival evidence rather than accepted on Vasari's word alone.",
+          "Within that decades-long project, Milanesi published a short 1862 essay under the title \"An Examination of Vasari's Account concerning the Death of Domenico Veneziano,\" laying out both painters' death dates from primary sources, burial registers and payment records rather than later retellings of Vasari's own account, and showing that Castagno's death in 1457 preceded Veneziano's in 1461 by roughly four years. That gap makes the murder, the years of feigned friendship that were supposed to precede it, and the deathbed confession all chronologically impossible exactly as Vasari wrote them.",
+          "Modern reference accounts of both painters now describe the Castagno murder story as a myth, disproved by the two men's own recorded dates of death, and both are still discussed largely through what Vasari wrote about them, corrected where the archives allow it and read with more caution everywhere else. It is a narrower kind of correction than [a museum quietly redating a work its own founding legend depended on](/abstract-art-first-painting/); nobody had to relabel a painting on a wall. But it changed how one of the founding texts of art history gets read, three hundred years after it was first published."
+        ]
+      },
+      {
+        "heading": "Why \"the Renaissance\" is a nineteenth-century word",
+        "body": [
+          "Vasari wrote rinascita on the page in 1550, but the word did not settle into \"the Renaissance\" as the accepted name for this stretch of art history for another three hundred years. The French historian Jules Michelet titled the seventh volume of his Histoire de France \"La Renaissance\" in 1855, an early and influential use of the word in something close to its modern sense, except that Michelet's Renaissance was mostly about science, running from Columbus to Copernicus to Galileo across the late fifteenth through mid-seventeenth centuries, rather than about painting and sculpture specifically.",
+          "It was the Swiss historian Jacob Burckhardt, five years later, who gave the word the shape it has in art history today. His 1860 book The Civilization of the Renaissance in Italy defined the period as running from Giotto to Michelangelo, roughly the same span Vasari's own Lives had already traced three centuries earlier without a settled name for it, and it is Burckhardt's book that is usually credited with putting \"the Renaissance\" into wide circulation as the term for this specific period of art and culture, ahead of Michelet's narrower, science-focused version and well ahead of Vasari's own rinascita, which stayed an Italian art-writing term rather than an international period name for centuries after he first wrote it down.",
+          "In English, the word arrived through criticism rather than historical scholarship. The critic Walter Pater published Studies in the History of the Renaissance in 1873, gathering essays on Leonardo, Botticelli, and Michelangelo that had already appeared individually since 1867, and retitled it The Renaissance: Studies in Art and Poetry for a second edition in 1877. It became one of the works most responsible for fixing \"the Renaissance\" as an English critical term for this stretch of art, arriving thirteen years after Burckhardt's book and three hundred and twenty-three years after Vasari's rinascita first appeared in print.",
+          "That leaves a strange gap in the middle of the story. The book that supplied the period's cast of artists, and the literal root of its name, was written in 1550. The name itself did not become the settled term historians and museums use today until Burckhardt's book in 1860, three hundred and ten years later, and only two years before Milanesi's project finally caught up with Vasari's fabricated murder. A similar lag shows up elsewhere in how art-historical labels settle long after the objects and stories they describe: [a design movement of the 1920s went by other names entirely until a French retrospective four decades later gave it the one still used today](/art-deco/), and [a movement's defining word turned up in an actual artwork over a decade before any published essay used it as a title](/pop-art/)."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who coined the term \"Renaissance\"?",
+        "answer": "The Italian word behind it, rinascita, was first used in writing about art by Giorgio Vasari, in the 1550 preface to his Lives of the Most Excellent Painters, Sculptors, and Architects. The word settled into \"the Renaissance\" as the standard art-historical term much later, mainly through Jacob Burckhardt's 1860 book The Civilization of the Renaissance in Italy, five years after the French historian Jules Michelet had already used a narrower, science-focused version of the word in 1855."
+      },
+      {
+        "question": "Did Andrea del Castagno really murder Domenico Veneziano?",
+        "answer": "No. Giorgio Vasari's Lives claimed Castagno murdered Veneziano out of jealousy over the secret of oil painting and confessed to it on his own deathbed, but Castagno died of plague on 19 August 1457, nearly four years before Veneziano's recorded death in May 1461. The archival scholar Gaetano Milanesi established both dates from burial and payment records in an 1862 essay, proving the story chronologically impossible."
+      },
+      {
+        "question": "What is Giorgio Vasari's Lives of the Artists?",
+        "answer": "It is a collection of biographies of Italian painters, sculptors, and architects, first published in two volumes in 1550 and expanded to three volumes in a revised 1568 edition. It is generally treated as the founding text of Western art history, and the first book to describe the period's art as a rinascita, or rebirth, of ancient greatness."
+      },
+      {
+        "question": "What time period does Renaissance art cover?",
+        "answer": "Art historians generally place Renaissance art across roughly the fourteenth through early seventeenth centuries, with its most influential period in Italy running from about 1400 to 1600. Jacob Burckhardt's influential 1860 definition specifically framed the period as running from the painter Giotto, active in the early 1300s, to Michelangelo, who died in 1564."
+      },
+      {
+        "question": "Why do historians still use Vasari's Lives if it contains fabricated stories like the Castagno murder?",
+        "answer": "For many of the artists Vasari wrote about, his book is the earliest or only surviving written account of their lives, so it remains a starting point by necessity. Modern historians treat individual claims in it, especially anecdotes about motive, character, and cause of death, as needing independent documentary corroboration rather than acceptance as fact, which is exactly the standard the Castagno murder story failed to meet."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica: Renaissance art",
+        "url": "https://www.britannica.com/art/Renaissance-art"
+      },
+      {
+        "label": "Virtual Uffizi: The Invention of Domenico Veneziano's Murder at the Hands of Andrea del Castagno",
+        "url": "https://www.virtualuffizi.com/the-invention-of-domenico-veneziano%E2%80%99s-murder-at-the-hands-of-andrea-del-castagno.html"
+      },
+      {
+        "label": "Italian Art Society: Andrea del Castagno died suddenly, 19 August 1457",
+        "url": "https://www.italianartsociety.org/2017/08/florentine-painter-andrea-di-bartolo-di-simone-known-as-andrea-del-castagno-died-suddenly-19-august-1457/"
+      },
+      {
+        "label": "TheCollector: The Word Renaissance — Meaning, History, and Cultural Impact",
+        "url": "https://www.thecollector.com/what-does-the-word-renaissance-mean/"
+      },
+      {
+        "label": "History Collection: Jacob Burckhardt Invented the Renaissance in 1860",
+        "url": "https://historycollection.com/the-civilization-of-the-renaissance-in-italy/"
+      },
+      {
+        "label": "Wikipedia: Gaetano Milanesi",
+        "url": "https://en.wikipedia.org/wiki/Gaetano_Milanesi"
+      },
+      {
+        "label": "Wikipedia: Santa Lucia de' Magnoli Altarpiece",
+        "url": "https://en.wikipedia.org/wiki/Santa_Lucia_de%27_Magnoli_Altarpiece"
+      }
+    ]
   }
 
 ];
