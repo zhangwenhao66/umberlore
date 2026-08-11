@@ -500,3 +500,99 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "andy-warhol",
+  "last_audited": "2026-08-11",
+  "published_date": "2026-08-06",
+  "article_specific_checklist": [
+    "\"I want to be a machine\" ARTnews quote — is the attributed publication date accurate (article implies 1962 via \"later that year\" after the July 1962 Ferus Gallery paragraph)?",
+    "Silkscreen process description (Warhol Museum's own six-step lesson: source photo → outside vendor screen → underpainting → registration → assistant pulls print) and the 1969 assistant-reproduction quote — does it match warhol.org's lesson page verbatim?",
+    "Simon-Whelan \"Self-Portrait (Red)\" lawsuit timeline — first rejection 2 February 2002, resubmission and second rejection 14 July 2003, $20M suit filed late 2007, withdrawn 2010, $7M+ in Foundation legal costs",
+    "Foundation dissolution of the Art Authentication Board — 28 October 2011 Artforum/Art Newspaper report, exact Joel Wachs quotes (\"a matter of priority...\", \"non-market purpose\")",
+    "Hero image copyright status — Jack Mitchell 1973 Warhol portrait claimed as CC BY-SA 4.0 on Wikimedia Commons; this is the site's highest-risk dimension since Warhol's work is in copyright until 2057"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含引语与时间线）",
+      "status": "确认1处问题，已独立复核确认并修复；其余核实准确",
+      "detail": "正文与coreSummary均把\"I want to be a machine\"引语的ARTnews发表时间写成\"later that year\"（暗指承接前段1962年7月Ferus Gallery画展的1962年）。WebSearch+独立agent复核确认：Gene Swenson的\"What is Pop Art? Answers from 8 Painters, Part I\"实际发表于ARTnews 1963年11月刊（Vol. 62），由ArtNews自家\"Top Ten ArtNews Stories\"回顾文章与Jennifer Sichel 2018年Oxford Art Journal同行评议论文（标题即为\"Gene Swenson's 1963 Interview with Andy Warhol\"）双重印证。本文引用的原始信源——Warhol博物馆官网教案页——本身把该引语标注为\"Art News, 1962\"，独立复核agent判断这很可能是把期刊卷号\"62\"误认成年份导致的错误，本文据此继承了这个错误，判定CONFIRMED为真实、值得修复的时间线错误。其余核实项目均准确：Simon-Whelan诉讼时间线（2 February 2002首次拒绝/14 July 2003二次拒绝信/2007年底提起$20M集体诉讼/2010年撤诉/逾$700万律师费）经warholstars.org详细专题页（含原始文件引用编号JSW5#120/125/127）逐字核对准确；Foundation解散认证委员会（2011年10月28日Artforum报道，datePublished元数据核实）与Joel Wachs两句引语（\"It is a matter of priority...\"/\"The catalogue raisonné serves a non-market purpose...\"）逐字核对准确；Flowers系列Patricia Caulfield诉讼与warhol.org六步流程描述均核对准确。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇引用Warhol博物馆官方教案页、Artforum/Art Newspaper/Hyperallergic等艺术媒体的一手报道、Tate/MoMA藏品页、Wikipedia人物条目，8条sources全部可验证，无模糊归因表述。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "updated字段修复前后分别为2026-08-06/2026-08-11。WebSearch核实截至审计日无新的Warhol认证/鉴定相关新闻会推翻本文内容（认证委员会自2012年起已不存在，现由独立鉴定人以个人身份运作，本文已准确反映这一现状）。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch核实thecollector.com与artincontext.org各自的Warhol专题文章列表（生平/Marilyn Diptych/Factory/电影史/如何理解Warhol艺术/死因等），均不含\"认证委员会为何解散\"这一角度，本文提供的Simon-Whelan诉讼+委员会解散链条是两家直接竞品都未覆盖的真实增量内容，非维基百科式复述。"
+    },
+    {
+      "dimension": "SEO 技术审计",
+      "status": "发现1项候选问题，独立复核判定NOT-CONFIRMED",
+      "detail": "直接抓取线上页面HTML核实：title标签渲染82字符（含站名后缀，原始标题70字符）、meta description 167字符，均比站内此前已审计文章的61-66字符/157-160字符明显偏长。独立复核agent判定NOT-CONFIRMED——70字符原始标题距离~600px截断阈值不算严重超标，167字符相对160字符基线仅超出约4%，二者都是同一容差范围内的边际延伸而非独立缺陷类别，不应用比此前案例更严格的标准。canonical自指；单一H1；4个section H2+FAQ H2共5个，无跳级；3个schema区块（FAQPage/Article/BreadcrumbList）经直接抓取线上LD-JSON确认存在且字段与guides.ts一致；8张图片（含站点通用元素）全部有alt文本；MoMA藏品页链接curl返回403，经WebSearch交叉核实确认为反爬拦截而非链接失效（页面确实存在且被搜索引擎正常索引）。"
+    },
+    {
+      "dimension": "GEO 审计（99分制11维度）",
+      "status": "自评修复前90/99、修复后91/99（阈值80，达标）",
+      "detail": "权威原文引语14/16（8条来源，1处日期错误已修复）；统计数据完整性13/14；可引用性12/13（coreSummary+5条FAQ均自包含）；结构规范性12/12；表达流畅度9/10；语义密度7/8；权威信号6/8（机构引用扎实，同站已知短板：缺作者专业背景credential展示）；专业术语6/6（silkscreen/underpainting/registration/acetate separations等准确使用）；鲁棒性修复前4/5（因日期错误）→修复后5/5；跨域连接4/4（3条出链至pop-art/gustav-klimt/frida-kahlo-paintings，1条jackson-pollock文章的正文回链，且经`verifyRelatedGuidesCoverage`脚本核实自动轮转推荐也覆盖到本文，Painting分类14篇>6篇轮转窗口下仍在88%总覆盖率内被覆盖）；易懂表达3/3。此为审计员自评，未使用独立工具复验，记为\"自评\"。"
+    },
+    {
+      "dimension": "AI 味扫描（humanizer + avoid-ai-writing，因published 2026-08-06早于8/7技能接入日强制复检）",
+      "status": "未发现构成问题的模式",
+      "detail": "机械扫描全文：em-dash 0处、en-dash 0处、花体引号0处、markdown加粗标记0处；Tier 1A/常见AI高频词（delve/crucial/testament/tapestry/pivotal/vibrant/foster/enhance/underscore/showcase/intricate/interplay/landscape/robust/seamless/meticulous/leverage/harness/navigate/elevate/streamline/comprehensive/nestled/boasts等）0命中；\"not only\"/\"it's not X it's Y\"负面排比句式0命中。唯一命中：\"genuinely awkward middle ground\"一处（Tier 1A\"genuinely\"孤例），未达到聚集阈值（同段落内无第二个Tier 1/2词命中），且该短语读起来是自然表达而非空洞强调，判定不构成需要修改的问题，保留原文。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "8条sources逐条实测：warhol.org（带浏览器UA后200，此前curl默认UA返回403系反爬非失效）、Artforum/Art Newspaper/Hyperallergic/Smithsonian Libraries blog/Tate/Wikipedia均200；MoMA藏品页403经WebSearch交叉核实确认页面真实存在且被搜索引擎索引，判定为反爬拦截非真实链接失效（与此前mona-lisa/van-gogh-paintings审计中Wiley DOI 403的处理原则一致）。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "本文3条出链（pop-art/gustav-klimt/frida-kahlo-paintings），并被jackson-pollock文章正文自然回链（\"a gap between a critic's label and an artist's own words familiar from what Andy Warhol said about wanting to be a machine\"）。用`vendor/site-toolkit/packages/related-guides`的`pickRelatedGuides`算法对全站25篇文章跑覆盖率验证：Painting分类14篇（>6篇轮转窗口），全站88%（22/25）覆盖率，andy-warhol在被覆盖的22篇之列，非孤儿页；全站3篇未被自动轮转覆盖（elements-of-art/venus-de-milo/daguerreotype）与本文无关，不在本次修复范围。"
+    },
+    {
+      "dimension": "Schema 数据一致性",
+      "status": "未发现问题",
+      "detail": "直接抓取线上页面确认3个LD-JSON区块（FAQPage含5条FAQ/Article/BreadcrumbList），Article的headline/datePublished/dateModified/description均与guides.ts对应字段一致，架构上（`vendor/site-toolkit/packages/schema`动态生成）不存在漂移风险。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "Warhol本人1928年生/1987年卒，其作品版权保护期至2057年（本文所属建站计划文档标注的146个高风险词之一，位列第14位）。全文核心论点是认证委员会解散的商业/法律史，未出现新的争议信息需要补充。全文未出现跨站矩阵命名规律相关措辞。"
+    },
+    {
+      "dimension": "配图可用性与版权（本站最高严重度维度）",
+      "status": "未发现问题，配图选择本身即为版权规避范例",
+      "detail": "头图为1973年Jack Mitchell拍摄的Warhol肖像照（非Warhol作品复制品），逐项核实：Wikimedia Commons文件页确认许可为CC BY-SA 4.0，与站内imageCredit标注完全一致；WebSearch交叉核实Jack Mitchell（摄影师，非Warhol本人）名下多张名人肖像作品已合法捐赠至Wikimedia Commons并以CC BY-SA 4.0开放许可，非孤证。正文插图为自制SVG流程图（`andy-warhol-silkscreen-process-diagram.svg`，本地文件确认存在），零版权风险。全文未使用任何Warhol本人绘画/丝网印刷作品的复制图像，完全符合建站计划文档规定的\"艺术家本人肖像照（公有领域/开放许可）优先于作品复制品\"这一处理惯例，是站内现当代艺术家专题文章配图选择的正面范例。"
+    },
+    {
+      "dimension": "AdSense 政策风险",
+      "status": "未发现问题",
+      "detail": "全文无裸露/图形化敏感内容，主题为商业诉讼与艺术史，无需额外语境化处理。ads.txt直接curl核实内容为`google.com, pub-5245502795720653, DIRECT, f08c47fec0942fa0`，与矩阵其余9站共用同一pub ID一致；隐私政策页面`/privacy/`直接curl核实200（footer实际链接路径为`/privacy/`非`/privacy-policy/`，首次猜测路径404属误判非真实缺失）。"
+    }
+  ],
+  "actions_taken": [
+    "独立复核agent确认ARTnews引语发表时间错误（1962→实际1963年11月）为真实问题后，窄范围修改正文该句与coreSummary字段，均将\"later that year\"/\"that year\"改为\"in November 1963\"/\"in a November 1963 interview\"，不改动其余任何文字，不涉及文章核心论点",
+    "guides.ts该条目已有published字段（2026-08-06），跳过补写流程，直接将updated字段由2026-08-06改为2026-08-11",
+    "SEO技术审计发现的title/meta description偏长候选问题，经独立复核agent判定NOT-CONFIRMED（同一容差范围内的边际延伸非独立缺陷），未采取行动",
+    "npm run test（17项全过）+ npm run build（38页无报错）验证通过，build产物直接grep确认含\"November 1963\"、不含\"later that year\"",
+    "commit df5f4ed（仅src/data/guides.ts单文件）push；轮询线上/andy-warhol/约40秒后确认已反映新内容",
+    "IndexNow提交/andy-warhol/（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加审计记录，明确标注\"本条为content-quality-audit审计更新，非新发布\"",
+    "审计过程中误用`node tools/submit-indexnow.mjs --help`测试参数解析，脚本把字面量--help当作URL路径提交，向Bing/Yandex意外提交了一条`https://umberlore.com/--help`垃圾URL；已第一时间从indexnow-submit-log.json中移除该条目（未对任何真实页面索引状态造成影响）"
+  ],
+  "seo_score": "seo-audit要点PASS（canonical自指/单一h1/5个h2无跳级/三个schema区块线上核实存在且字段一致/8张图alt齐全/ads.txt与privacy页均可达）；title 82字符/desc 167字符经独立复核判定为容差范围内边际延伸非缺陷",
+  "geo_score": "自评修复前90/99、修复后91/99（阈值80，达标），跨域连接4/4为满分（用verifyRelatedGuidesCoverage脚本实测核实非仅目测）",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
