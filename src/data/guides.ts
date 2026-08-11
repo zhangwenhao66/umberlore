@@ -3442,6 +3442,159 @@ export const guides: Guide[] = [
         "url": "https://brooklynrail.org/2013/11/criticspage/painting-pollock/"
       }
     ]
+  },
+  {
+    "slug": "art-styles",
+    "category": "Movements",
+    "title": "Art Styles: The Movement Names That Started as Insults",
+    "description": "Impressionism, Fauvism, and Cubism all began as a critic's put-down. Baroque and Gothic carried the insult even longer before scholars made the names official.",
+    "published": "2026-08-11",
+    "updated": "2026-08-11",
+    "coreSummary": "At least four of art history's most familiar movement names were coined as insults that the painters then kept for themselves. Critic Louis Leroy mocked Monet's Impression, Sunrise in the Paris weekly Le Charivari on 25 April 1874, and the group he was ridiculing formally exhibited as \"Impressionnistes\" by 1877. Critic Louis Vauxcelles compared Matisse's circle to a delicate marble bust surrounded by \"wild beasts\" in Gil Blas on 17 October 1905, coining Fauvism, and dismissed Georges Braque's Salon-rejected landscapes as reduced to \"cubes\" in the same paper on 14 November 1908, coining Cubism, though Braque and Picasso never adopted that label themselves the way the Impressionists and Fauves embraced theirs. Two older names carried the insult for even longer before scholars stripped it out: Baroque, from a Portuguese word for a misshapen pearl, stayed a term of abuse until Heinrich Wölfflin's 1888 book Renaissance und Barock reframed it as a formal style category, and Gothic architecture was condemned as barbarous \"maniera tedesca\" by Giorgio Vasari in 1550 and blamed on the Goths, a people whose last kingdoms in Western Europe had already fallen 400 to 600 years before the style itself was first built at the Basilica of Saint-Denis around 1140.",
+    "image": "/images/art-styles-monet-impression-sunrise.jpg",
+    "imageAlt": "Claude Monet's 1872 painting Impression, Sunrise, the canvas a hostile 1874 review mocked by name and unintentionally gave Impressionism its label.",
+    "imageCredit": "[Claude Monet, Impression, soleil levant, 1872](https://commons.wikimedia.org/wiki/File:Claude_Monet,_Impression,_soleil_levant.jpg), Musée Marmottan Monet, public domain",
+    "sections": [
+      {
+        "heading": "What a style label actually records",
+        "body": [
+          "Most guides to art styles read like a glossary: a movement's name, its date range, three or four representative artists, filed in alphabetical or chronological order as if a neutral committee had assigned each label once the paint had dried. The paper record for several of the most familiar names says otherwise. Impressionism, Fauvism, Cubism, and Rococo were each named in a single dismissive sentence by a critic who disliked what he was looking at, written down and printed before the artists themselves had settled on anything to call their own work, and the group being insulted kept the word anyway. Baroque and Gothic carried outright derision for longer, a century or more in Baroque's case, three centuries in Gothic's, before later scholars stripped the insult out and left the label standing.",
+          "None of this changes what any of these styles actually look like on a wall. An Impressionist canvas still reads as Impressionist whether or not a reader knows where the word came from. What the paper trail changes is how a plain definition, \"a style characterized by...\", should be read: several of the words doing the defining record a specific argument a critic was having with a specific painting, sculpture, or building, not a label a panel handed down once the movement was safely over."
+        ]
+      },
+      {
+        "heading": "Impressionism: a made-up conversation in a satirical weekly",
+        "body": [
+          "The group's first independent exhibition opened in Paris in April 1874 under a name with nothing evocative about it: the Société Anonyme Coopérative des Artistes Peintres, Sculpteurs, Graveurs, etc. It included a Claude Monet canvas of the harbor at Le Havre at dawn, boats and cranes dissolving into haze, which Monet had titled Impression, soleil levant, \"Impression, Sunrise.\"",
+          "The critic Louis Leroy reviewed the show for the satirical weekly Le Charivari on 25 April 1874, under the headline \"L'Exposition des Impressionnistes\", and built his review around an invented dialogue between two fictional gallery visitors growing more baffled by the room. Standing in front of Monet's harbor scene, one of them delivers the line that gave the movement its name: \"Impression—I was certain of it. I was just telling myself that, since I was impressed, there had to be some impression in it... A preliminary drawing for a wallpaper pattern is more finished than this seascape.\"",
+          "Leroy meant \"Impressionniste\" as a joke about unfinished work passed off as art, not as a name anyone was meant to adopt. The painters had no collective word for themselves at the time; the title on their own exhibition catalogue described trades, not a movement. But the label was already circulating in the Paris press by the group's second show in 1876, and by their third exhibition in April 1877, the artists titled the show themselves, in French, as the \"Exposition des Impressionnistes.\" The word Leroy had coined to mock a single painting became the name the painters chose for their whole group inside three years."
+        ]
+      },
+      {
+        "heading": "Fauvism: a delicate bust surrounded by wild beasts",
+        "body": [
+          "At the 1905 Salon d'Automne in Paris, the paintings of Henri Matisse, André Derain, Maurice de Vlaminck, Albert Marquet, Henri Manguin, and Charles Camoin were hung together in Room VII, canvases built out of bright, largely unmixed color applied with visible, unblended brushwork. In the center of the same room stood two conventionally delicate marble sculptures by Albert Marque, a child's torso and a small bust, working in a style closer to the Italian Renaissance than to anything on the surrounding walls.",
+          "The critic Louis Vauxcelles reviewed the room in the supplement to the Paris paper Gil Blas on 17 October 1905, and singled out the contrast between Marque's sculptures and their surroundings: \"the candor of these busts is surprising amidst the orgy of pure tones: Donatello among the wild beasts.\" Fauves, French for wild beasts, was Vauxcelles's word for the painters, not for the sculptor standing quietly in the middle of their room.",
+          "As with Leroy's Impressionists three decades earlier, the insult stuck to exactly the people it was aimed at, and they kept it. Matisse's circle became known as Les Fauves within the same exhibition season, and the name has described that short, intensely colored phase of their work ever since."
+        ]
+      },
+      {
+        "heading": "Cubism: a critic repeating what a rejection had already said",
+        "body": [
+          "In the summer of 1908, Georges Braque painted a series of landscapes at L'Estaque, on the Mediterranean coast, reducing houses and hillsides to blocky, angular planes with conventional perspective largely abandoned. He submitted six of these canvases to the jury of that year's Salon d'Automne. The jury, which included Matisse among its members, rejected the entire submission; two paintings were reclaimed under a juror's individual prerogative, but Braque withdrew from the Salon altogether rather than exhibit a partial selection.",
+          "Instead, the dealer Daniel-Henry Kahnweiler gave Braque a one-man show at his own Paris gallery, running from 9 to 28 November 1908, with twenty-seven works on view. Vauxcelles, the same critic who had named the Fauves three years earlier, reviewed the show for Gil Blas on 14 November 1908 and wrote that Braque \"reduces everything, places and a figures and houses, to geometric schemas, to cubes.\" Vauxcelles later credited the specific image to Matisse himself, who had described Braque's rejected Salon submission to him as a painting \"made of little cubes.\"",
+          "Cubism followed the same path into print that Impressionism and Fauvism had, an insult from Vauxcelles lifted almost verbatim from a private remark and turned into a headline. But its origin diverges from the other two in one respect: Braque and Picasso, the painters most closely associated with the style that grew out of those L'Estaque landscapes, are not recorded as having embraced \"Cubism\" as their own preferred word for what they were doing, the way the Impressionists and the Fauves had claimed their own insults. The press label caught on regardless, and outlasted the painters' own reluctance to use it."
+        ]
+      },
+      {
+        "heading": "Two older insults that took a century, or more, to forgive",
+        "body": [
+          "Baroque and Rococo, the styles that dominated European art and architecture through most of the seventeenth and eighteenth centuries, carried their insults for far longer than Impressionism, Fauvism, or Cubism ever did.",
+          "\"Baroque\" traces to the Portuguese barroco and the related Spanish barrueco, both words for an irregularly shaped, misshapen pearl. Eighteenth-century critics who preferred the restraint of classical and Neoclassical form applied the word to the previous century's art and architecture as a slight, faulting it as excessive, overwrought, and contorted, much as a jeweler would fault a pearl that had grown into the wrong shape. That pejorative sense held for decades, until the Swiss art historian Heinrich Wölfflin's 1888 study Renaissance und Barock treated Baroque as a formal style with its own coherent visual logic, distinct from and not simply inferior to the Renaissance that preceded it. Wölfflin's book is the point historians generally credit with turning \"Baroque\" from a term of abuse into a neutral period label.",
+          "\"Rococo\" is younger and, by most accounts, was coined even more deliberately as an insult. The word blends the French rocaille, the shell-and-rock ornamental motif common in the style's interiors, with barocco, and is attributed to the circle around the Neoclassical painter Jacques-Louis David in the 1790s, mocking the recently fashionable, elaborately ornamented interiors and paintings of the reign of Louis XV as frivolous and already out of date. The word did not reach print until 1825, where it was still being used to mean, roughly, out of style and old-fashioned. Of the names in this list, Rococo has held on to the most residual sting; it is still sometimes reached for outside art criticism as a byword for overdecorated."
+        ]
+      },
+      {
+        "heading": "Gothic: named for a people who had been gone for centuries",
+        "body": [
+          "\"Gothic\" is older still, and its origin is the oddest of the six, because the insult and the thing it described were separated by roughly half a millennium. In the 1550 first edition of his Lives of the Most Excellent Painters, Sculptors, and Architects, Giorgio Vasari dismissed medieval architecture as maniera tedesca, the \"German manner,\" describing it as monstrous, barbarous, and disorderly next to the classical forms he championed. Vasari attributed the style's invention to the Goths, the barbarian peoples he blamed for destroying Rome's classical buildings after conquering the city.",
+          "The architecture Vasari was insulting, pointed arches, ribbed vaults, flying buttresses, is generally traced by historians to a specific building: the choir and ambulatory of the Basilica of Saint-Denis, just outside Paris, rebuilt under Abbot Suger and consecrated on 11 June 1144. By that date, the Goths Vasari meant to blame had been gone from Western European political power for a long time: the Ostrogothic Kingdom in Italy fell to Byzantine reconquest in 553, and the Visigothic Kingdom in Spain fell to Muslim conquest in 711. Suger's church rose roughly six centuries after the Ostrogoths' kingdom ended and about four centuries after the Visigoths' kingdom fell, in a France the historical Goths had barely touched as a ruling power. Vasari, writing in 1550, was in fact closer in time to the invention of Gothic architecture than he was to the Goths he blamed it on.",
+          "Unlike Baroque, Gothic never had a single book or scholar credited with lifting the insult out of the word. It settled into a neutral period label gradually, as art history professionalized into an academic discipline over the eighteenth and nineteenth centuries and needed a working name for the several centuries of European building between the classical world and the Renaissance, with no rival term ever displacing an insult that was, by then, already three hundred years old and universally understood."
+        ],
+        "image": {
+          "src": "/images/art-styles-chartres-west-facade.jpg",
+          "alt": "The west facade of Chartres Cathedral in France, begun in 1134 in the same early Gothic style pioneered a few years earlier at the Basilica of Saint-Denis, roughly four centuries before Giorgio Vasari's 1550 Lives blamed the style on the long-vanished Goths.",
+          "credit": "[Chartres Cathedral, West Facade](https://commons.wikimedia.org/wiki/File:ChartresCathedral-WestFacade-high-res.jpg), Public Domain Mark 1.0"
+        }
+      },
+      {
+        "heading": "The put-down outlives the argument",
+        "body": [
+          "The pattern repeats across all six names with enough consistency to be worth noticing on its own: a critic or a rival school picks a fight with a specific painting, a specific room at a specific Salon, or a specific building, loses the argument about taste, and wins the argument about vocabulary anyway, because the word survives long after anyone remembers being angry about it. Reading a definition of any of these styles without that history means reading only the settlement, not the argument that produced it.",
+          "The same trail of naming shows up elsewhere at UmberLore from the opposite direction. [Pop Art's own name arrived in an actual artwork, cut from a toy pistol's packaging, more than a decade before any published essay printed the phrase \"Pop Art\"](/pop-art/), the reverse of a critic coining a word first and the art following. [Art Deco ran its entire course in the 1920s and 1930s without anyone using that name at all](/art-deco/), reaching print only in 1966, four decades after the exposition it is now named for. And the same 1550 book that invented Gothic's insult, Vasari's Lives, also [invented a murder confession for one of the Renaissance painters it profiled, a story that took archivists three centuries to disprove using burial records](/renaissance-art/)."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Which art movement names were originally insults?",
+        "answer": "At least six well-known names started as put-downs from critics or rival schools: Impressionism (coined by critic Louis Leroy in 1874), Fauvism (critic Louis Vauxcelles, 1905), Cubism (Vauxcelles again, 1908), Rococo (coined pejoratively in the 1790s), Baroque (used as a term of abuse through much of the eighteenth century), and Gothic (dismissed as barbarous \"maniera tedesca\" by Giorgio Vasari in 1550)."
+      },
+      {
+        "question": "Who coined the term Impressionism?",
+        "answer": "The critic Louis Leroy, in a review of the group's first exhibition published in the Paris weekly Le Charivari on 25 April 1874, mocking Claude Monet's painting Impression, Sunrise. The painters themselves formally adopted \"Impressionnistes\" as the title of their third group exhibition in 1877."
+      },
+      {
+        "question": "Why is Cubism called Cubism?",
+        "answer": "Critic Louis Vauxcelles described Georges Braque's 1908 L'Estaque landscapes, which had been rejected by the Salon d'Automne jury and were instead shown at dealer Daniel-Henry Kahnweiler's gallery, as reducing everything to \"cubes\" in a review published in Gil Blas on 14 November 1908. Vauxcelles credited the specific phrase to a remark Henri Matisse had made about the rejected paintings."
+      },
+      {
+        "question": "Why is Gothic architecture called Gothic if it has nothing to do with the Goths?",
+        "answer": "Giorgio Vasari blamed medieval architecture on the Goths as an insult in his 1550 Lives of the Artists, but the timeline does not hold up. The Ostrogothic Kingdom in Italy had already fallen by 553 and the Visigothic Kingdom in Spain by 711, both centuries before the style itself is generally traced to the rebuilt choir of the Basilica of Saint-Denis, consecrated in 1144."
+      },
+      {
+        "question": "Is Baroque a negative word?",
+        "answer": "It started as one. The word comes from a Portuguese and Spanish term for a misshapen pearl and was used pejoratively against seventeenth-century art and architecture by eighteenth-century critics who preferred classical restraint. Heinrich Wölfflin's 1888 book Renaissance und Barock reframed it as a neutral formal style category, and that is how art historians use it today."
+      },
+      {
+        "question": "Did the Impressionists choose their own name?",
+        "answer": "Not originally. Critic Louis Leroy meant \"Impressionniste\" as mockery in his 1874 review. The painters had no collective name for themselves at first, but the label was already circulating by their second exhibition in 1876, and they titled their third exhibition, in 1877, the \"Exposition des Impressionnistes\" themselves."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikisource: Exhibition of the Impressionists (Louis Leroy, Le Charivari, 25 April 1874)",
+        "url": "https://en.wikisource.org/wiki/Exhibition_of_the_Impressionists"
+      },
+      {
+        "label": "Wikipedia: Louis Leroy",
+        "url": "https://en.wikipedia.org/wiki/Louis_Leroy"
+      },
+      {
+        "label": "Wikipedia: Louis Vauxcelles",
+        "url": "https://en.wikipedia.org/wiki/Louis_Vauxcelles"
+      },
+      {
+        "label": "History Today: The Fauves at the Salon d'Automne",
+        "url": "https://www.historytoday.com/archive/fauves-salon-d%E2%80%99automne"
+      },
+      {
+        "label": "EBSCO Research Starters: Salon d'Automne Rejects Braque's Cubist Works",
+        "url": "https://www.ebsco.com/research-starters/history/salon-dautomne-rejects-braques-cubist-works"
+      },
+      {
+        "label": "Wikipedia: Houses at l'Estaque",
+        "url": "https://en.wikipedia.org/wiki/Houses_at_l%27Estaque"
+      },
+      {
+        "label": "Encyclopaedia Britannica: Rococo",
+        "url": "https://www.britannica.com/art/Rococo"
+      },
+      {
+        "label": "Etymonline: Baroque",
+        "url": "https://www.etymonline.com/word/baroque"
+      },
+      {
+        "label": "Encyclopaedia Britannica: Renaissance und Barock",
+        "url": "https://www.britannica.com/topic/Renaissance-und-Barock"
+      },
+      {
+        "label": "Wikipedia: Gothic architecture",
+        "url": "https://en.wikipedia.org/wiki/Gothic_architecture"
+      },
+      {
+        "label": "Wikipedia: Basilica of Saint-Denis",
+        "url": "https://en.wikipedia.org/wiki/Basilica_of_Saint-Denis"
+      },
+      {
+        "label": "Wikipedia: Ostrogothic Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Ostrogothic_Kingdom"
+      },
+      {
+        "label": "Wikipedia: Visigothic Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Visigothic_Kingdom"
+      }
+    ]
   }
 
 ];
