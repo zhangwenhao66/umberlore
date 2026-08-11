@@ -113,5 +113,15 @@
       "https://umberlore.com/venus-de-milo/"
     ],
     "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-11",
+    "action": "submitted",
+    "reason": "游标第7站。今日新发布jackson-pollock（1949年《生活》杂志意外成名角度，KD37但站内有KD40+先例）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。今日另有andy-warhol的content-quality-audit日期修正（既有页面小改非新URL），本轮未纳入检查。",
+    "submitted_urls": [
+      "https://umberlore.com/jackson-pollock/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request"
   }
 ]
