@@ -3324,6 +3324,124 @@ export const guides: Guide[] = [
         "url": "https://loeildelaphotographie.com/en/arles-2012-sylvia-ballhause/"
       }
     ]
+  },
+  {
+    "slug": "jackson-pollock",
+    "category": "Painting",
+    "title": "Jackson Pollock: The Film Shoot That Ended Two Years of Sobriety",
+    "description": "Two years sober, Jackson Pollock finished a four-weekend film shoot, poured a bourbon, and flipped a Thanksgiving table. He never stopped drinking again.",
+    "published": "2026-08-11",
+    "updated": "2026-08-11",
+    "coreSummary": "In the fall of 1950, photographer Hans Namuth spent several weekends filming Jackson Pollock paint outdoors and on a sheet of glass at his studio in Springs, Long Island. When the last cold session ended, in the same span of days as that year's Thanksgiving, Pollock came inside, poured himself a bourbon after roughly two years of sobriety, got into a shouting match with Namuth over which of them was the \"phony,\" and turned over the dinner table in front of seated guests. Sources disagree on the exact date, but not on what happened next: Pollock's drinking resumed for good, his 1951 paintings turned darker and sold worse, and he died in a drunk-driving crash nearly six years later.",
+    "image": "/images/jackson-pollock-barn-studio.jpg",
+    "imageAlt": "The converted barn at the Pollock-Krasner House and Study Center in Springs, New York, the studio Jackson Pollock moved onto the property in 1946 and worked in until his death in 1956.",
+    "imageCredit": "[Pollock-barn](https://commons.wikimedia.org/wiki/File:Pollock-barn.jpg), Dmadeo, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)",
+    "sections": [
+      {
+        "heading": "A cowboy from Wyoming becomes a household name overnight",
+        "body": [
+          "On August 8, 1949, Life magazine ran a feature on Jackson Pollock under the headline \"Jackson Pollock: Is he the greatest living painter in the United States?\" Written by Dorothy Seiberling and illustrated with photographs by Martha Holmes and a now-famous Arnold Newman portrait of Pollock standing in front of his 18-foot canvas Summertime: Number 9A, the piece reached a magazine with a circulation of roughly five million. It framed him as a paint-slinging cowboy out of Cody, Wyoming, a hook so effective that the Cody Enterprise, the hometown paper, opened its own inquiry into Pollock's background because nobody there had ever heard of him.",
+          "The reaction split along predictable lines. Dan Miller, who ran the general store near Pollock's home in Springs, later recalled that neighbors made peace with the article by deciding Life magazine was crazier than Pollock. The painter Willem de Kooning, seeing the photographs, joked that Pollock looked like some guy who worked at a service station pumping gas. Pollock himself reportedly refused to look at the article the day two fellow painters, James Brooks and Bradley Walker Tomlin, brought copies out to show him in Springs, though he kept stacks of the issue on a shelf afterward and pulled them out for visitors. Within weeks of the piece running, he bought a used 1941 Cadillac convertible for $500, a small, concrete sign of a working painter whose income had just changed shape."
+        ]
+      },
+      {
+        "heading": "What the fame was actually worth, in dollars",
+        "body": [
+          "The sales record for the rest of 1949 shows the Life article converting into real, if modest, money rather than instant riches. In October, the collector and fellow painter Alfonso Ossorio bought four paintings outright. A one-man show at the Betty Parsons Gallery running from November 21 to December 10 sold thirteen more works for a combined $3,600. Across the whole year Pollock sold thirty-five canvases for a total of $13,870, of which $4,578 went to the gallery, according to the historian Serge Guilbaut's account of the period. The buyers included John D. Rockefeller, Ossorio again, the collector Edward Root, the publishing executive Lee Ault, the Museum of Modern Art, and Duncan Phillips of the Phillips Collection.",
+          "Set against the scale of the Life feature, an average sale price under $400 a canvas is a reminder of how narrow the art market for [an American painter](/diego-rivera/) working outside mural commissions still was in 1949, fame in a five-million-circulation magazine notwithstanding. It took another year, and a very different kind of publicity, for Pollock's working process itself to become the story rather than the paintings it produced."
+        ]
+      },
+      {
+        "heading": "Four weekends in front of Hans Namuth's camera",
+        "body": [
+          "Hans Namuth, a photographer who had already published stills of Pollock at work, returned to Springs in the fall of 1950 with a movie camera and spent four consecutive weekends filming him paint outdoors, the sessions that became the short film Jackson Pollock 51. At some point during the shoot Pollock began working on a sheet of plate glass laid across two sawhorses so Namuth could film from underneath and show the paint landing from the canvas's own point of view. Accounts of whose idea the glass was disagree: Lee Krasner, Pollock's wife, later pushed back on the standard version in an interview with Barbara Rose, saying she was present when Pollock produced a sheet of glass and simply decided to paint on it, and that she had always assumed he got the idea from Marcel Duchamp rather than from Namuth.",
+          "Pollock discussed the glass painting himself in a radio interview recorded in his studio in late 1950, describing it as something new for him: \"That's the first thing I've done on glass and I find it very exciting. I think the possibilities of using painting on glass in modern architecture, in modern construction, terrific.\" The finished work, now catalogued as No. 29, 1950, survives today at the National Gallery of Canada in Ottawa, made with black and aluminum enamel paint, string, beads, coloured glass, and pebbles worked into the surface, a hybrid of painting and low relief that Pollock never repeated at that scale."
+        ],
+        "image": {
+          "src": "/images/jackson-pollock-studio-floor.jpg",
+          "alt": "The paint-covered wood floor of Jackson Pollock's barn studio in Springs, New York, preserved and later restored by Stony Brook University after his widow Lee Krasner's death in 1984.",
+          "credit": "[Pollock-Krasner House studio floor](https://commons.wikimedia.org/wiki/File:Pollock-Krasner_House_studio_floor.jpg), Rhododendrites, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+        }
+      },
+      {
+        "heading": "The night that ended two years of sobriety",
+        "body": [
+          "Namuth finished filming Pollock in the last cold days of November 1950, in the same narrow window as that year's Thanksgiving, which fell on November 23. Exactly which day is disputed: one detailed published timeline of Pollock's 1950 dates the final session to Saturday, November 25, two days after Thanksgiving; another account of the same events places it on the Saturday before; Namuth himself, in a later interview, described the blowup as following directly from the emotional strain of that last day of outdoor filming, with dinner served to a large group of friends that same evening. What multiple accounts agree on is what happened once the two men came in from the cold: Pollock, who had been sober for roughly two years by most accounts, poured himself a tumbler of bourbon. An argument with Namuth followed, escalating into a volley of each man calling the other a phony. Pollock tore a strap of cowbells off the studio wall and swung it around, and with dinner guests already seated and food on the table, he grabbed one end of the table and shouted \"Should I do it now?\" Namuth answered \"Now?\" and Pollock turned the whole table over: plates, glasses, meat, and gravy across the floor, with the family dogs lapping at the mess. Accounts differ on whether the meal itself was turkey or roast beef, a small enough detail that it says something about how many times this particular story has been retold since. Krasner's only recorded response was to announce that coffee would be served in the living room.",
+          "According to the account the journalist Sarah Boxer compiled for the New York Times in 1998, Pollock never stopped drinking again after that night. He put off bringing the finished glass painting in from outdoors until it was covered in rain and dead leaves, and his subsequent work moved toward a more restrained, at times figurative style, a reversal of the open, all-over drip technique that had made him famous the year before."
+        ]
+      },
+      {
+        "heading": "What changed after that night",
+        "body": [
+          "Pollock's 1951 output turned darker in nearly every sense. He began painting in black enamel on raw, unprimed canvas, a body of work now known as the Black Pourings. When he showed them at the Betty Parsons Gallery, none sold at the exhibition itself; Parsons later placed a single one with a friend at half the asking price. Meanwhile the language used to describe what Pollock did for a living was hardening into something Pollock had never used himself. In December 1952, the critic Harold Rosenberg published \"The American Action Painters\" in ARTnews, arguing that for painters like Pollock \"the canvas began to appear...as an arena in which to act, rather than as a space in which to reproduce, re-design, analyze, or 'express' an object,\" and that \"what was to go on the canvas was not a picture but an event.\" The term action painting stuck to Pollock for the rest of his career and after, and Rosenberg's essay is generally credited with giving the loose, still-unnamed circle of New York painters he was writing about the label, the New York School, that art historians still use for the group today.",
+          "Pollock's own description of his process, narrated for Namuth's camera during the same 1950 shoot that ended in the table incident, reads far more plainly: \"I don't work from drawings or color sketches. My painting is direct. I usually paint on the floor. I enjoy working on a large canvas, I feel more at home, more at ease, in a big area. Having the canvas on the floor, I feel nearer, more a part of the painting.\" Nothing in that narration mentions performance, an audience, or an arena. Rosenberg's essay named a movement; it did not describe how the artist most identified with it talked about his own work, a gap between a critic's label and an artist's own words familiar from [what Andy Warhol said about wanting to be a machine](/andy-warhol/), a line that outlived his own explanations of it in much the same way."
+        ]
+      },
+      {
+        "heading": "The year he didn't paint, and the night that ended it",
+        "body": [
+          "By 1955 Pollock's productivity had thinned to two finished paintings for the entire year, Scent and Search. In 1956 he painted nothing at all, working instead on sculpture at the sculptor Tony Smith's home, sand-cast pieces of wire, gauze, and plaster with the same heavily textured surfaces that marked his paintings. His marriage to Krasner was unraveling under the weight of his drinking and an affair with the painter Ruth Kligman, and by August Krasner had left to visit friends in Europe. Pollock's alcoholism long predates the 1950 filming, and no biographer treats the table-flipping night as a medical cause of what followed nearly six years later; what the record supports is a documented turning point after which his sobriety, once resumed for two years, was never regained.",
+          "On the night of August 11, 1956, at around 10:15 p.m., Pollock, who had been drinking, lost control of his Oldsmobile convertible less than a mile from his home in Springs and crashed. He and one of his passengers, Edith Metzger, were killed; the other passenger, Ruth Kligman, survived. Krasner returned from Europe as soon as she heard the news. Pollock is buried in Green River Cemetery in Springs, his grave marked by a large natural boulder Krasner selected, with her own, smaller grave placed in front of his after her death in 1984, a quieter echo of a decline that had a single traceable night in late November 1950 at its start, nearly six years earlier, not unlike the way [Van Gogh's own final, most mythologized months](/starry-night/) get read backward through the ending rather than forward from how the work was actually made."
+        ],
+        "image": {
+          "src": "/images/jackson-pollock-grave.jpg",
+          "alt": "Jackson Pollock's grave at Green River Cemetery in Springs, New York, marked by a large natural boulder, with Lee Krasner's smaller grave in front of it.",
+          "credit": "[Pollock-tomb](https://commons.wikimedia.org/wiki/File:Pollock-tomb.jpg), Silanoc, derivative work by Sp5uhe, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/)"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Did Hans Namuth's filming actually cause Jackson Pollock's decline?",
+        "answer": "No biographer treats it as a proven medical or causal trigger, and Pollock's alcoholism and marital problems predate the 1950 shoot. What is documented is a specific timeline: after roughly two years of sobriety, Pollock resumed drinking on the night the filming ended, in the last days of November 1950 (sources disagree on whether this fell on Thanksgiving itself or the Saturday before or after it), and did not stop again. Historians describe it as a well-documented turning point rather than a confirmed single cause of his death nearly six years later."
+      },
+      {
+        "question": "What did Jackson Pollock say about his own painting process?",
+        "answer": "In narration recorded for Hans Namuth's 1951 film, Pollock described it in physical, unromantic terms: \"I don't work from drawings or color sketches. My painting is direct. I usually paint on the floor...Having the canvas on the floor, I feel nearer, more a part of the painting.\" He never used the term \"action painting,\" which the critic Harold Rosenberg coined separately in a December 1952 essay."
+      },
+      {
+        "question": "Why did Jackson Pollock title his paintings with numbers instead of names?",
+        "answer": "Lee Krasner, Pollock's wife, said the numerical titles were meant to strip away suggestion: \"Numbers are neutral. They make people look at a painting for what it is, pure painting.\" Many of his numbered works carry a secondary, descriptive title added later by galleries or owners, which is why the same painting is sometimes cited two different ways."
+      },
+      {
+        "question": "What happened to the glass painting Namuth filmed Pollock making in 1950?",
+        "answer": "The work, painted on a sheet of plate glass and now catalogued as No. 29, 1950, survives at the National Gallery of Canada in Ottawa. It combines black and aluminum enamel paint with string, beads, coloured glass, and pebbles worked into the surface."
+      },
+      {
+        "question": "How did Jackson Pollock die?",
+        "answer": "Pollock died on August 11, 1956, at around 10:15 p.m., when he lost control of his Oldsmobile convertible while driving under the influence of alcohol less than a mile from his home in Springs, New York. He and one passenger, Edith Metzger, were killed; a second passenger, Ruth Kligman, survived."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Jackson Pollock",
+        "url": "https://en.wikipedia.org/wiki/Jackson_Pollock"
+      },
+      {
+        "label": "warholstars.org: Abstract Expressionism 1949 (Gary Comenas)",
+        "url": "https://warholstars.org/abstract-expressionism/timeline/abstractexpressionism49.html"
+      },
+      {
+        "label": "warholstars.org: Abstract Expressionism 1950 (Gary Comenas)",
+        "url": "https://warholstars.org/abstract-expressionism/timeline/abstractexpressionism50.html"
+      },
+      {
+        "label": "kottke.org: Jackson Pollock 51 (quoting Sarah Boxer, The New York Times, 1998)",
+        "url": "https://kottke.org/18/10/jackson-pollock-51"
+      },
+      {
+        "label": "National Gallery of Canada: No. 29, 1950",
+        "url": "https://www.gallery.ca/collection/artwork/no-29-1950"
+      },
+      {
+        "label": "process.arts: Did Hans Namuth Kill Jackson Pollock?",
+        "url": "https://openpractice.org/content/did-hans-namuth-kill-jackson-pollock/index.html"
+      },
+      {
+        "label": "The Brooklyn Rail: Painting Pollock",
+        "url": "https://brooklynrail.org/2013/11/criticspage/painting-pollock/"
+      }
+    ]
   }
 
 ];
