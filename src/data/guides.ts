@@ -3969,6 +3969,124 @@ export const guides: Guide[] = [
         "url": "https://rubinmuseum.org/about-us/our-story/"
       }
     ]
+  },
+
+  {
+
+    "slug": "architectural-painting",
+    "category": "Painting",
+    "title": "Architectural Painting: Measured on Site, Then Altered on the Panel",
+    "description": "Architectural painting reads as measured record-keeping. The National Gallery says Saenredam and Canaletto both altered the real buildings they measured.",
+    "published": "2026-08-12",
+    "updated": "2026-08-12",
+    "coreSummary": "Architectural painting has a reputation for documentary precision, but the genre's own history complicates it. Hans Vredeman de Vries, generally credited with founding architectural painting as an independent genre in the 1560s, illustrated the technique with invented cities rather than real ones. More than seventy years later, the National Gallery in London documents that Pieter Saenredam's 1636-37 painting of Haarlem's Grote Kerk exaggerates its foreground columns and deepens its arches beyond what his own on-site measured drawings recorded, and that Canaletto's Piazza San Marco, painted about 1758, shows the campanile taller and more slender than the real tower, changes the museum describes as deliberate compositional choices rather than errors.",
+    "image": "/images/architectural-painting-grote-kerk-haarlem.jpg",
+    "imageAlt": "Pieter Saenredam's 1636-37 painting of the interior of the Grote Kerk (St Bavo) in Haarlem, viewed across the choir from the north ambulatory.",
+    "imageCredit": "[The Interior of the Grote Kerk at Haarlem](https://www.nationalgallery.org.uk/paintings/pieter-saenredam-the-interior-of-the-grote-kerk-at-haarlem), Pieter Saenredam, 1636-37, National Gallery, London, public domain",
+    "sections": [
+      {
+        "heading": "A genre invented before it had real buildings to paint",
+        "body": [
+          "Hans Vredeman de Vries is generally credited by art historians with founding architectural painting as an independent genre, and the works that earned him that reputation weren't paintings of real buildings at all. In 1560, working for the Antwerp publisher Hieronymus Cock, he produced a set of engravings titled Scenographiae sive Perspectivae. Dumbarton Oaks, whose rare book collection holds an original edition, describes the set plainly: twenty prints showing \"invented views of cities and buildings shown in meticulously conceived linear perspective,\" aimed primarily at painters and amateurs, since, in the collection's words, \"these fanciful prints were not intended for practicing architects.\" No church, square, or palace in the series corresponds to a place that existed.",
+          "Vredeman de Vries built the technique on established theory rather than inventing it from nothing. He studied the Roman architect Vitruvius and the Renaissance architect Sebastiano Serlio through Dutch translations produced by Pieter Coecke van Aelst, and used their rules of proportion and perspective construction to stage his fictional cityscapes. Over the following decades he kept producing perspective sets on the same invented basis: a 1562 series of twenty-eight views dedicated to Cardinal Antoine Perrenot de Granvelle, an advisor to King Philip II of Spain, and a set of symmetrical perspectives apparently intended as templates for intarsia woodworkers, later reissued in 1601 as Architecturae variae formae.",
+          "Even his biography resists the kind of precision his prints project. Wikipedia's account leaves his death year unresolved beyond \"c. 1607\" and doesn't specify where he died. The Web Gallery of Art gives a different reading, \"ca. 1606,\" and places his death in Antwerp. Dumbarton Oaks' own bio note states the dates as 1527-1607 without the qualifier. A genre later prized for its precision was founded by a man whose own life dates still carry a year of disagreement between the institutions that study him."
+        ]
+      },
+      {
+        "heading": "A church measured to the drawing, then rebuilt on the panel",
+        "body": [
+          "By the time Pieter Saenredam was working a lifetime later, the genre had turned toward real, identifiable buildings. The Rijksmuseum's own account of his career draws the contrast directly: \"While artists before Saenredam mostly painted fantasy churches, he always relied on existing buildings. He worked 'after life', as he himself wrote on his drawings.\" That meant sketches taken on site, followed, in the National Gallery's description of his process, by \"preparatory drawings based on precise measurements,\" which he then traced directly onto the panel he intended to paint.",
+          "Between 1634 and 1637, Saenredam made a series of views of the interior of the Grote Kerk, the Cathedral of St Bavo, in his home city of Haarlem. The National Gallery in London holds one of them, painted in 1636-37 and catalogued as NG2531. Two of Saenredam's original preparatory drawings for this specific painting survive in the Haarlem Municipal Archives, which lets the museum compare the measured drawing against the finished panel side by side, rather than guessing at what changed.",
+          "What that comparison shows is a documented departure from the measurements underneath it. The National Gallery's catalog entry states it without hedging: \"Despite his care when measuring, he would make significant adjustments to the final painting, usually to emphasise the building's grandeur or to get around difficulties with creating the illusion of perspective.\" In the earlier of the two surviving drawings, Saenredam had already given up trying to make one particular arch resolve correctly in the composition, and the final painting never quite solves the problem either: that arch, visible through the piers in the top right corner, is left hanging behind the central foreground column rather than connecting to it. The museum adds two further, specific alterations: he \"significantly exaggerated the size of these foreground columns, and deepened the spaces we can see through the arches,\" and the figures scattered through the nave are \"out of scale, significantly smaller than they would have been in real life,\" a choice that makes the building read as more monumental than its own measured plan."
+        ]
+      },
+      {
+        "heading": "The bell tower Canaletto never painted at its real height",
+        "body": [
+          "More than a century after Saenredam's Haarlem interiors, Canaletto was applying a version of the same reputation to Venice. His views of Piazza San Marco, the city's central square, read as topographic records: the Basilica di San Marco, its freestanding campanile, and the long arcaded facades of the Procuratie buildings that frame the space. The National Gallery in London holds a small pair of Piazza San Marco views painted about 1758; NG2515, one of the pair, looks through an archway toward the basilica and its bell tower.",
+          "The museum's own catalog entry undercuts the documentary reading directly. \"Canaletto drew and painted the campanile numerous times,\" it states, \"but he nearly always showed it as taller and more slender than it was in reality.\" The distortion isn't confined to the tower. The paving stones and building lines that recede toward the basilica do so at what the museum calls \"a sharp angle, which Canaletto exaggerated,\" pulling the eye deeper into the square than an unaltered view would. A set of white marker lines across the piazza, laid down historically to mark the position of temporary stalls during fairs and processions, appears in the painting to line up exactly with the basilica's leftmost arch. That alignment isn't observed fact either: \"As in the companion piece to this work,\" the catalog notes, \"Canaletto altered the perspective to create these pleasing points of intersection.\"",
+          "One further detail complicates any reading of this painting as a stable record. The archway from which the scene is composed, part of the Procuratie building housing the square's western side, no longer exists. It was demolished in 1807 under Napoleon Bonaparte's occupation of Venice to make room for his new palatial residence, the building now occupied by the Museo Correr, less than fifty years after Canaletto painted the view through it. The vantage point itself didn't outlast the distortions built into what was seen from it."
+        ],
+        "image": {
+          "src": "/images/architectural-painting-canaletto-piazza-san-marco.jpg",
+          "alt": "Canaletto's Piazza San Marco, Looking East from the North-West Corner, showing the square's basilica and campanile viewed through a colonnaded archway that was demolished in 1807.",
+          "credit": "[Piazza San Marco, Looking East from the North-West Corner](https://www.nationalgallery.org.uk/paintings/canaletto-venice-piazza-san-marco), Canaletto, c. 1758, National Gallery, London, public domain"
+        }
+      },
+      {
+        "heading": "The prints that admitted they were invention",
+        "body": [
+          "Not every branch of the genre made a documentary claim in the first place. Giovanni Battista Piranesi's Carceri d'invenzione, usually translated as Imaginary Prisons, is a series of sixteen etchings depicting vast, impossible vaulted interiors laced with stairways that lead nowhere and machinery with no evident function. According to Wikipedia's account, corroborated by the Metropolitan Museum's and British Museum's own catalog listings for individual plates, the series began with fourteen untitled, unnumbered etchings published in 1750, then was reworked a decade later: for the 1761 second edition, all the plates were revised and numbered I through XVI, with two entirely new etchings added to the set. Piranesi named the genre himself on his own title page, using the word \"capriccio,\" Italian for architectural fantasy, a term that appears nowhere in Saenredam's or Canaletto's catalog descriptions of their supposedly documentary views.",
+          "The National Gallery's own rooms hold a comparable admission from a different Venetian painter. Francesco Guardi's An Architectural Caprice hangs in the same galleries as Canaletto's altered-but-real piazzas, and the museum's catalog entry describes it with no ambiguity: \"This capriccio, or architectural fantasy, is a patchwork of features taken from different buildings in Venice: the archway in the foreground is from the Torre dell'Orologio (clock tower) while the buildings and staircase beyond are from the inner courtyard of the Doge's Palace.\" Nobody looking at a Piranesi Carceri plate or a Guardi caprice mistakes it for a record of one identifiable place. The genre always ran along a spectrum between that kind of acknowledged invention and a documentary claim; Saenredam and Canaletto simply sit closer to the documentary end of it than their actual working methods support."
+        ]
+      },
+      {
+        "heading": "Why measure a building you're going to change anyway",
+        "body": [
+          "The measuring wasn't a discarded first step. It was the structure the later distortion depended on. Saenredam's on-site drawings gave him a perspective system accurate enough to push past its own limits and still hold together: exaggerating the foreground columns and deepening the arches reads as grander rather than as simply wrong, because the underlying geometry still obeys the same optical rules a viewer's eye already trusts. Canaletto's aligned white lines work the same way. A composition built on a genuinely measured perspective earns enough credibility that exaggerating it, taller campanile, sharper recession, still looks observed rather than composed, even where the specific proportions no longer match the real square.",
+          "Architectural painting isn't the only genre whose reputation for unmediated documentary record outpaced what its own practitioners actually produced. A comparable gap opens up a little over two centuries after Saenredam's Haarlem interiors, in photography, where [close examination of the plate](/daguerreotype/) usually credited with capturing the first photographed person turned up faint traces, a possible child, a horse, other unregistered smears, that complicate the tidy single-bystander story built around the image's most legible corner. In both cases, the more carefully the surviving evidence gets examined against the reputation, the less the reputation holds up unchanged."
+        ]
+      },
+      {
+        "heading": "How to read one of these paintings today",
+        "body": [
+          "A museum's own catalog entry is the place to check before assuming a finished architectural view records a building's true proportions, since it's often the only place preparatory drawings or measured comparisons are laid out in public. When a catalog uses the word capriccio, veduta ideata, or \"architectural fantasy,\" as the National Gallery does for Guardi's Venetian scenes, it's telling a viewer upfront that the artist worked from imagination or from a composite of separate buildings rather than from one observed place, the way Saenredam's and Canaletto's catalog entries never do for their own supposedly documentary views.",
+          "The buildings these paintings claim to record carry their own history of institutional record complicating popular assumption, independent of what the paintings themselves changed. St Peter's Basilica, the subject of some of the genre's later architectural views, has [a legend the Vatican's own records complicate](/st-peters-basilica/) attached to one of its most photographed bronze features, in a pattern not unlike Botticelli's Birth of Venus, where [a 1499 inventory undercut](/birth-of-venus/) an assumption about the painting's origin that had stood as settled fact for centuries. Architectural painting's promise of documentary accuracy sits inside a genre, and an art-historical record more broadly, that keeps turning out to be more composed, and more contested, than the finished object first suggests."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What makes a painting count as architectural painting rather than a painting that simply includes a building?",
+        "answer": "Architectural painting is the genre where a building or built structure, rather than a person, narrative event, or open landscape, is the primary subject the composition is organized around. It developed through invented perspective exercises in the 16th century, then Dutch church interiors and Italian view painting in the 17th and 18th centuries, and later Romantic ruin views and 19th-century watercolor topography, per the genre's own historical account on Wikipedia."
+      },
+      {
+        "question": "Who is credited with founding architectural painting as an independent genre?",
+        "answer": "Hans Vredeman de Vries, a Dutch-born artist and theorist active mainly in the Low Countries in the second half of the 16th century, is generally credited with founding the genre through his printed perspective series, starting with Scenographiae sive Perspectivae in 1560. Those foundational works were invented city and building views rather than depictions of real places, according to Dumbarton Oaks' collection notes on his prints."
+      },
+      {
+        "question": "Did Pieter Saenredam only paint real, existing churches, unlike earlier architectural painters?",
+        "answer": "Yes, in the sense that mattered to his own reputation: the Rijksmuseum states that while artists before him mostly painted invented, fantasy churches, Saenredam always worked from existing buildings and described his own process as working 'after life.' But the National Gallery's catalog for his Grote Kerk, Haarlem painting documents that he still made significant proportional changes to those real buildings once he moved from his measured drawings to the final panel."
+      },
+      {
+        "question": "What's the difference between a veduta and a capriccio?",
+        "answer": "A veduta is a view painting based on an identifiable real place, even when, as with Canaletto's Piazza San Marco views, the perspective or specific proportions have been adjusted. A capriccio, or architectural caprice, makes no claim to depict one real location at all; the National Gallery describes Francesco Guardi's An Architectural Caprice as combining the Torre dell'Orologio's archway with the Doge's Palace's courtyard buildings, features from separate real buildings assembled into a place that never existed as painted."
+      },
+      {
+        "question": "Why did Canaletto paint Venice's campanile taller than it actually was?",
+        "answer": "The National Gallery's catalog for his Piazza San Marco painting states that Canaletto \"nearly always showed it as taller and more slender than it was in reality,\" describing the change as part of a broader set of deliberate compositional choices, including an exaggerated perspective angle across the square, rather than a measurement error. A taller, more slender tower reads as a stronger vertical anchor against the square's horizontal sweep of arcades."
+      }
+    ],
+    "sources": [
+      {
+        "label": "National Gallery, London: Pieter Saenredam, The Interior of the Grote Kerk at Haarlem",
+        "url": "https://www.nationalgallery.org.uk/paintings/pieter-saenredam-the-interior-of-the-grote-kerk-at-haarlem"
+      },
+      {
+        "label": "National Gallery, London: Canaletto, Venice: Piazza San Marco",
+        "url": "https://www.nationalgallery.org.uk/paintings/canaletto-venice-piazza-san-marco"
+      },
+      {
+        "label": "National Gallery, London: Francesco Guardi, An Architectural Caprice",
+        "url": "https://www.nationalgallery.org.uk/paintings/francesco-guardi-an-architectural-caprice-1"
+      },
+      {
+        "label": "Dumbarton Oaks: Hans Vredeman de Vries (Online Exhibit, Rare Book Collection)",
+        "url": "https://www.doaks.org/resources/online-exhibits/hans-vredeman-de-vries"
+      },
+      {
+        "label": "Rijksmuseum: Pieter Saenredam (Dutch Masters series)",
+        "url": "https://www.rijksmuseum.nl/en/stories/dutch-masters/story/pieter-saenredam-10"
+      },
+      {
+        "label": "Web Gallery of Art: Hans Vredeman de Vries, biography",
+        "url": "https://www.wga.hu/bio_m/v/vredeman/father/biograph.html"
+      },
+      {
+        "label": "Wikipedia: Carceri d'invenzione",
+        "url": "https://en.wikipedia.org/wiki/Carceri_d%27invenzione"
+      }
+    ]
   }
 
 ];
