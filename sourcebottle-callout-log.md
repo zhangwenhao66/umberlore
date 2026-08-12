@@ -19,3 +19,15 @@
 - **Deadline**：2026-08-25 17:00
 - **发布状态**：✅ 已提交，跳转 `thankyou.asp`，Pending approval。提交回执 product id = `c9afe05a33a35d18e41033c4376f095b`。
 - **上线复核**：⏳ 待下次任务运行时补查。
+
+### 2026-08-12 — UmberLore（umberlore.com）
+
+- **问题标题**：Art authenticators and appraisers: has an authentication board stopped ruling because the legal risk got too high?
+- **角度**：绑定`andy-warhol`一文讲的沃霍尔基金会主动解散自己的真伪鉴定委员会（而非继续对争议作品做裁定）以规避法律风险的真实案例，征集艺术真伪鉴定专家/评估师/来源研究员/艺术法律专家举出另一个案例——某个鉴定委员会/基金会/全集目录委员会因为法律责任风险而停止裁定（或被解散），以及这之后未获鉴定的作品在价值、可销售性或声誉上发生了什么变化。
+- **绑定文章**：UmberLore `andy-warhol`（Andy Warhol: Why His Own Foundation Shut Down Its Authentication Board）。
+- **分类标签**：Topics = General + Professional Services；Countries = UK & Republic of Ireland + Canada + United States。
+- **表单设置**：Job title = Content Creator；Organisation = UmberLore；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@umberlore.com`。
+- **Deadline**：2026-09-02 17:00
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `6122a531eabc3dd2b8a61f036168d3ac`。
+- **上线复核**：⏳ 待补做（当天提交，通常需要1-2天过审）。
+- **备注**：本次是08-04登录失效连续三次导致周二排期落空后的补做。

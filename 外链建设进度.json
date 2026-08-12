@@ -13,6 +13,13 @@
       "question_url": "https://www.quora.com/In-1932-Diego-Riveras-Man-at-the-Crossroads-was-painted-for-a-wealthy-New-Yorker-Due-to-its-political-message-the-mural-caused-a-major-controversy-and-the-man-had-it-destroyed-What-future-Vice-President-was-this/answer/Owen-Zhang-161",
       "question_title": "In 1932, Diego Rivera's \"Man at the Crossroads\" was painted for a wealthy New Yorker. Due to its political message, the mural caused a major controversy and the man had it destroyed. What future Vice President was this?",
       "notes": "发布时该问题仅1个真实答案，人物/画面描述正确(Nelson Rockefeller)但把整个事件简化成'洛克菲勒下令销毁'，没提到Rivera本人拒绝修改、洛克菲勒仍支付全款、覆盖画布数月后才拆除、以及Rivera事后靠影像资料在墨西哥城重绘全幅的完整过程，判定为方向对但缺乏关键情节的空白，回答开头点名认可现有答案再补充。以站内文章骨架撰写(1933年4月《纽约世界电讯报》指控壁画是反资本主义宣传后，小洛克菲勒去信要求Rivera把列宁肖像换成无名面孔，Rivera书面回绝原话'宁愿整幅构图被彻底摧毁也不愿阉割它'，并提出用林肯肖像平衡构图作为折中方案，洛克菲勒未采纳；洛克菲勒中心仍支付Rivera全额酬金，用画布罩住未完成壁画数月，1934年2月未经事先公开通知直接派工人整幅凿除；Rivera凿除前已拍照存档，之后凭这些照片在墨西哥城原样重绘整幅构图，改名为《宇宙的支配者》，是今天仍悬挂展出的版本)。过humanizer skill检查，确认无破折号、无三段式列举；初稿有一处'It's not X, it's Y'负向排比已改写。用Quora Add Link功能(Cmd+K)插入真实超链接，锚文本'here'，指向目标页面。该问题不属于任何Space，提交后直接发布成功，credential选择默认'Business Communications Researcher'。发布后用javascript_tool核实DOM中确实是<a href>真实超链接指向https://umberlore.com/diego-rivera/。"
+    },
+    {
+      "date": "2026-08-12",
+      "target_page": "https://umberlore.com/mandala-art/",
+      "question_url": "https://www.quora.com/Why-are-sand-mandalas-destroyed/answer/Owen-Zhang-161",
+      "question_title": "Why are sand mandalas destroyed?",
+      "notes": "发布时该问题0答案。以站内文章骨架撰写(Smithsonian沙坛城仪式、2002 Sackler Gallery消散、2014达赖喇嘛拉达克亲自主持)。额外WebSearch找到2026年3月El Paso Museum of History意外损坏事件的增量事实。过humanizer+avoid-ai-writing自查。用Quora Add Link功能(Cmd+K)插入真实超链接，全程只填URL字段不碰Text字段，发布前DOM核实class为span link。已直接发布成功(非Space类问题)，发布后javascript_tool核实DOM中确实是<a href>真实超链接指向https://umberlore.com/mandala-art/。"
     }
   ],
   "reddit": []

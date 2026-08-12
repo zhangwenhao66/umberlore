@@ -123,5 +123,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-12",
+    "action": "submitted",
+    "reason": "游标第6站。今日新发布fallen-angel-painting（Alexandre Cabanel 1847年《L'Ange déchu》，非神话题材本身与MythCairn无重叠）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/fallen-angel-painting/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request"
   }
 ]
