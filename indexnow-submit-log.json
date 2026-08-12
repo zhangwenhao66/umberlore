@@ -51,7 +51,7 @@
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
     "note": "daily publish (2026-08-03); Bing 200 / Yandex 202",
-    "last_submitted_date": "2026-08-03",
+    "last_submitted_date": "2026-08-12",
     "last_checked_date": "2026-08-06",
     "verified_method": "bwt_url_inspection"
   },
@@ -174,6 +174,11 @@
     "verified_status": "pending"
   },
   "https://umberlore.com/mandala-art/": {
+    "submitted_date": "2026-08-12",
+    "last_submitted_date": "2026-08-12",
+    "verified_status": "pending"
+  },
+  "https://umberlore.com/architectural-painting/": {
     "submitted_date": "2026-08-12",
     "last_submitted_date": "2026-08-12",
     "verified_status": "pending"

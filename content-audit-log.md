@@ -596,3 +596,97 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "abstract-art-first-painting",
+  "last_audited": "2026-08-12",
+  "published_date": "2026-08-03",
+  "article_specific_checklist": [
+    "Centre Pompidou藏品AM 1976-864的目录日期(1913) vs 画作本身题字\"Kandinsky 1910\"，是否逐字准确反映该馆官方藏品记录",
+    "Tate Etc \"two trains on the same tracks\"及\"a Swedish painter...had created her first abstract painting...in 1906, five years before him\"两条引语是否逐字准确",
+    "Guggenheim \"You are to proclaim a new philosophy of life\"降神会引语与\"more than 600,000 visitors...highest recorded attendance\"参观人数引语是否逐字准确",
+    "Moderna Museet关于The Ten Largest \"painted in egg tempera on paper mounted on linen\"的引语是否逐字准确，且该系列创作时间段(1907年下半年)与Primordial Chaos系列(1906年11月-1907年3月)是否被文章正确区分",
+    "两条内链桥接句（指向famous-paintings/water-lilies-monet-series）是否准确反映目标文章实际内容"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "确认一处问题，已修复；其余全部核实准确",
+      "detail": "9条核心引语/数据点逐一curl+WebSearch核对原始机构页面：Centre Pompidou藏品页JSON-LD schema直接确认dateCreated:1913、inscription原文\"KANDINSKY i9i0//Aquarelle i9i0/(abstraite)\"（对应\"Kandinsky 1910//Aquarelle 1910/(abstraite)\"）、材质\"Mine graphite, encre de Chine et aquarelle sur papier\"、尺寸49.6x64.8cm、1976年Nina Kandinsky捐赠记录，全部逐字准确；Pompidou教学资源页确认\"autonomie ne s'opère...qu'à partir de 1911\"及\"taches de couleurs...ultérieures à 1912\"两条stylistic dating依据准确；Tate glossary定义引语及\"opened the door\"引语准确；Tate Etc \"two trains on the same tracks\"与\"five years before him\"逐字核对tate.org.uk原文准确；Guggenheim \"600,000 visitors...highest recorded attendance\"经WebSearch多信源交叉核实准确；af Klint 1905年降神会引语\"proclaim a new philosophy of life\"经WebSearch核实为常见转述版本，语义准确；Moderna Museet关于The Ten Largest创作方式的引语逐字核对准确。**但独立复核agent发现`coreSummary`字段误将af Klint\"early 1907\"完成的非具象绘画归为\"The Ten Largest\"系列，实际The Ten Largest创作于1907年下半年，正文与FAQ均正确地将\"early 1907\"归于Primordial Chaos系列（1906年11月-1907年3月），构成同一事实在不同字段间的内部矛盾**，已修复。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇引用Centre Pompidou/Tate/Moderna Museet/Guggenheim官方藏品记录与机构出版物，无模糊归因，9条sources全部可验证。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题（附带观察，未采取行动）",
+      "detail": "published/updated均2026-08-03（本次审计前），内容无过时论断。审计时发现Grand Palais巴黎正在举办2026-05-06至08-30 af Klint法国首次个展\"Paintings for the Temple\"，属真实时新语境但不影响文章任何现有论断的准确性，非L-0804-15类\"用旧结论冒充现状\"问题，判定为可选的锦上添花而非需要修复的缺陷，未强行插入正文（避免为追新闻而做非针对性编辑）。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch核实\"who painted the first abstract painting Kandinsky Hilma af Klint\"等相关SERP，主流结果（Open Culture/Wikipedia等）均围绕\"1911 vs 1906\"泛泛对比，未提及Pompidou藏品目录从1910改判为1913这一具体的机构自我修正细节，本文提供真实增量信息。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "线上页面title 67字符（含站名后缀）/desc 155字符，与全站其他文章同一容差范围内的系统性模式，非单篇缺陷；canonical自指；单一H1；7个section H2+FAQ独立H2无跳级；三个schema组件动态生成；两张配图alt文本齐全；robots.txt/ads.txt均确认正常。"
+    },
+    {
+      "dimension": "GEO审计（99分制11维度）",
+      "status": "未发现问题，自评约95/99（阈值80，达标）",
+      "detail": "权威原文引语16/16（9条机构级引语全部逐字核实准确）；统计数据完整性14/14；可引用性13/13；结构规范性12/12；表达流畅度9/10；语义密度7/8；权威信号6/8（同站其他文章共有的短板，缺作者credential展示）；专业术语6/6；鲁棒性5/5；跨域连接4/4（7条inbound自然回链+2条outbound桥接句均核实准确，非孤儿页）；易懂表达3/3。审计员自评，未使用独立工具复验。"
+    },
+    {
+      "dimension": "AI味扫描",
+      "status": "未发现问题",
+      "detail": "机械扫描全文正文：em-dash 0处、AI高频词表（delve/crucial/testament/tapestry/pivotal/vibrant/foster/enhance/underscore/showcase/intricate/interplay/landscape等，landscape的2处命中经核实均为字面用法\"blurred landscape\"/\"painted...landscape\"非隐喻）0命中、无\"not only...but\"负排比句式。独立复核agent同样确认零AI-tell命中。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "全部9条sources外部链接逐条curl实测200（Centre Pompidou两条/Tate两条/Moderna Museet一条/Guggenheim两条/Wikimedia Commons两条）。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "全站grep确认本文被7篇其他文章（pop-art/frank-lloyd-wright/art-deco/elements-of-art/renaissance-art/daguerreotype/mandala-art）正文自然回链，非孤儿页；本文出链2条（famous-paintings/water-lilies-monet-series）目标slug均确认真实存在；两条桥接句逐条核对目标文章实际内容（famous-paintings确系\"核对博物馆目录字段与流行说法\"主题、water-lilies-monet-series确系\"莫奈自建鱼塘而非偶然发现\"主题）均准确反映目标文章，未发现L-0805-4类桥接句失实问题。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "Article/FAQPage/BreadcrumbList均由`vendor/site-toolkit/packages/schema`在构建时直接从guide对象字段动态生成，架构上不存在漂移风险。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "Kandinsky（1944年卒）、Hilma af Klint（1944年卒）均早于站内1955年版权风险门槛，不触及146个高风险词清单。全文无跨站矩阵命名规律相关措辞。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "两张配图（Kandinsky水彩画+af Klint The Ten Largest No.7）本地文件均存在，逐张核实对应Wikimedia Commons文件页均标注Public Domain，与站内imageCredit标注一致。"
+    },
+    {
+      "dimension": "AdSense政策风险",
+      "status": "未发现问题",
+      "detail": "艺术史内容，无暴力/武器/毒品/赌博类目，无误导性标题党。ads.txt/robots.txt此前审计已确认正常，本次未见变化。"
+    }
+  ],
+  "actions_taken": [
+    "独立复核agent（Agent工具后台spawn，全程顺利完成未卡死）确认coreSummary字段将af Klint\"early 1907\"作品误归为\"The Ten Largest\"系列（应为Primordial Chaos）为真实问题后，仅改动该句\"in a series called The Ten Largest\"→\"in a series called Primordial Chaos\"，不改动其余任何文字",
+    "guides.ts该条目已有published字段（2026-08-03），跳过补写流程，直接将updated字段由2026-08-03改为2026-08-12",
+    "npm run build（44页无报错）验证通过，build产物直接grep确认含新文本、不含旧文本",
+    "commit daaa6de（仅src/data/guides.ts单文件）push；轮询约40秒后确认线上/abstract-art-first-painting/已反映新内容",
+    "IndexNow提交/abstract-art-first-painting/（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加审计记录，明确标注\"本条为content-quality-audit审计更新，非新发布\""
+  ],
+  "seo_score": "seo-audit要点PASS（title/desc长度与全站系统性模式一致非单篇缺陷/canonical自指/单一h1/7个h2无跳级/三个schema区块动态生成有效/alt全部齐全/9条外链全部200）",
+  "geo_score": "自评约95/99（阈值80，达标），跨域连接4/4（7条inbound回链+2条outbound桥接句均核实准确）",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
