@@ -3726,6 +3726,127 @@ export const guides: Guide[] = [
         "url": "https://www.deseret.com/1988/5/15/18766067/researcher-says-michelangelo-did-sistine-standing-up-and-with-help/"
       }
     ]
+  },
+
+  {
+    "slug": "fallen-angel-painting",
+    "category": "Painting",
+    "title": "The Fallen Angel: A Required Submission That Left the Academy Startled",
+    "description": "Cabanel's Fallen Angel was a mandatory Prix de Rome submission, not a free choice. The Academy's own account blames the pose, not the devil, for what unsettled it.",
+    "published": "2026-08-12",
+    "updated": "2026-08-12",
+    "coreSummary": "Alexandre Cabanel painted The Fallen Angel in 1847-48 not as a personal project but as his mandatory second-year envoi, required proof of progress sent back to Parisian academicians during his Prix de Rome residency at the Villa Médicis. Cabanel told his patron Alfred Bruyas the picture was fundamentally about Satan's fall from grace, but the Musée Fabre's own account of the reception, quoting the artist's letters directly, records the Academy as startled by the mannerism of the pose rather than outraged by the subject, and even the museum's own current records disagree with an INHA academic database that cites the same museum as its source for the painting's dimensions.",
+    "image": "/images/fallen-angel-cabanel-1847.jpg",
+    "imageAlt": "Alexandre Cabanel's 1847 painting The Fallen Angel, showing a nude Lucifer reclining on rocky ground with his face partly hidden behind his arm and tears in his eyes, while a legion of angels flies through the sky above him.",
+    "imageCredit": "[The Fallen Angel](https://commons.wikimedia.org/wiki/File:The_Fallen_Angel_-_Alexandre_Cabanel.jpg), Alexandre Cabanel, 1847-48, Musée Fabre (inv. 889.2.1), public domain",
+    "sections": [
+      {
+        "heading": "A required submission, not a free subject",
+        "body": [
+          "Cabanel won the second Grand Prix de Rome in 1845, a state scholarship awarded through the École des Beaux-Arts in Paris that sent its winners to the Villa Médicis in Rome for several years of subsidized study. In exchange, residents had to send prescribed proof of their progress back to Paris throughout the stay, works the institution's own records call envois de Rome. The Fallen Angel, painted in 1847 and carried into early 1848, was Cabanel's mandatory second-year envoi, judged by the same Parisian academicians who had sent him to Italy in the first place.",
+          "For that submission he picked a subject the Musée Fabre's own collection notice describes as then rarely represented in French painting: the biblical fall of Lucifer, drawn from passages in Ezekiel, Isaiah, and the Book of Revelation, filtered through John Milton's 1667 epic Paradise Lost, which had shaped how European artists pictured the scene for nearly two centuries by the time Cabanel took it up.",
+          "He didn't reach the final composition in one sitting. A detailed 1846 oil study survives today at the Musée Comtadin-Duplessis in Carpentras, a separate French museum roughly 100 kilometres from Montpellier, and AGORHA, the academic art-history database run by France's Institut national d'histoire de l'art, records a second, related pencil drawing whose location has been unknown since it last surfaced at a Paris sale on 10 May 1944.",
+          "The finished canvas was shown at the Villa Médicis in Rome in April 1848, later than scheduled. AGORHA's institutional record attributes the delay to the political unrest then underway in Rome, the opening stage of the revolutions that swept the Italian states that year. Cabanel was hardly the only painter whose most famous religious work came with terms he hadn't set for himself; more than three centuries earlier, [Michelangelo agreed to paint the Sistine Chapel ceiling](/michelangelo-sistine-chapel/) only after papal allies talked him back to Rome, and then spent years disputing with the pope over how the job would be carried out."
+        ]
+      },
+      {
+        "heading": "What Cabanel said the picture was about",
+        "body": [
+          "Cabanel explained his intent directly, in a letter to his friend and patron Alfred Bruyas, a Montpellier collector who separately supported Gustave Courbet and Eugène Delacroix. The Musée Fabre's own collection notice quotes the letter at length. In the art historian Tom Gurney's English rendering of the same passage: \"I depict two natures, two races, one inexorably doomed, predestined to evil and misfortune, finally to fall; while the other chaste and pure rises radiantly towards God glorifying him. However, the main motif of my painting is the evil genius, Satan!\"",
+          "The rest of the letter, in Cabanel's own French, describes Satan as a figure God had once been pleased to cover in the graces of divine beauty, now reduced to a broken power bowing his head before the creator he had dared make his rival. Cabanel adds that Satan hides the shame of his defeat while remaining proud, desperate, and vindictive, and that the legion of angels visible in the sky above, swaying through the air in happiness while singing God's glory, exists mainly to remind Satan, by contrast, of the splendor he has lost.",
+          "On Cabanel's own account, the painting is a moral and theological composition built around one character's fall from grace, not a study of the male nude for its own sake. That distinction matters for what happened when the Academy actually looked at it."
+        ]
+      },
+      {
+        "heading": "What the Academy actually reacted to",
+        "body": [
+          "The fullest documented account of how Cabanel's peers received the painting comes from the Musée Fabre itself, which has held the canvas since 1889. Its official notice describes the reaction in specific, restrained terms: the mannerism of the pose, the deliberate pursuit of originality, and the feverish pathos of the picture displeased members of the Academy, who showed themselves somewhat startled by the painter's spirit of independence.",
+          "Cabanel put it more bluntly himself, in a separate letter to Bruyas that the museum also quotes: \"Enfin je suis pour eux maintenant une espèce de renégat de leur école\" (in the end, I am now, to them, a kind of renegade from their own school).",
+          "Notice what that primary record does and doesn't say. It documents academic disapproval of the pose and the manner, not outrage directed at Satan as a subject, and it describes no public scandal in the press or at a Salon jury, the kind that later attached to paintings like Manet's Olympia in 1865. Some later English-language summaries of the painting describe its 1848 reception as highly controversial. The institution that holds the canvas and quotes the letters directly records something narrower: a startled, disapproving Academy, not a documented public uproar."
+        ]
+      },
+      {
+        "heading": "The beauty built into the fall",
+        "body": [
+          "The Musée Fabre's own formal analysis places Cabanel's figure in a specific artistic lineage, describing it as faithful to the lesson of antiquity, meaning the Belvedere Torso, and of the great masters of the Renaissance, meaning Michelangelo and Raphael. The museum's account has Cabanel setting his life-size figure close to the canvas's edge, immersed by contrast in an almost abstract landscape built from grey and lilac-blue harmonies, with the sensual curve of the wing doubling as a couch for the body and the face half-hidden and shadowed by the raised arm.",
+          "That description lines up with what Cabanel told Bruyas about Satan's beauty surviving the fall intact. The painting insists that damnation and physical beauty occupy the same body at once, which is close to the exact tension the Academy's own reaction singled out: not the theology, but the manner in which that beauty was staged for the viewer.",
+          "Cabanel kept returning to the figure rather than leaving it behind in 1848. That same year he also painted a gouache companion piece, L'Ange du soir (The Evening Angel), which the French edition of Wikipedia describes as a calmed counterpart to the oil painting: the angel now dressed in loose drapery and showing no visible anger. It reads as a second attempt at the same subject with the friction removed, made in the same year the Academy had been startled by the first. [Millais's Ophelia](/ophelia-millais/), another mid-Victorian painting this site has covered, went through a comparable multi-stage production of its own, its river landscape finished months before its model was ever posed for the figure, a reminder that paintings now treated as single, settled images were often built up across separate, disconnected sessions."
+        ],
+        "image": {
+          "src": "/images/fallen-angel-cabanel-self-portrait-1852.jpg",
+          "alt": "An 1852 self-portrait by Alexandre Cabanel, painted a few years after he completed The Fallen Angel.",
+          "credit": "[Self Portrait](https://commons.wikimedia.org/wiki/File:Self_Portrait_(Alexandre_Cabanel).jpg), Alexandre Cabanel, 1852, public domain"
+        }
+      },
+      {
+        "heading": "Forty years in the family, then a donation",
+        "body": [
+          "The finished canvas didn't enter a public collection right away. It stayed in Cabanel's own Paris collection for the rest of his career and life, more than 40 years, until his death on 23 January 1889.",
+          "It was then sold at the Galerie Georges Petit in Paris, in the estate sale of Cabanel's holdings held 22 to 25 May 1889, listed as lot 70. The Musée Fabre's own provenance record for the painting states it was probably repurchased by the family, a hedge in the museum's own wording that suggests even the institution holding the painting today isn't fully certain how it moved from that sale back into Cabanel relatives' hands.",
+          "Later that same year, the artist's brother, Barthélémy Cabanel, donated the painting to the Musée Fabre in Montpellier, the city where Alexandre Cabanel had been born in 1823. It has remained there since, catalogued under inventory number 889.2.1, a number whose first four digits record the year of accession, 1889."
+        ]
+      },
+      {
+        "heading": "Two records, two sets of numbers",
+        "body": [
+          "The Musée Fabre's own website today lists the canvas at 121 by 189.7 centimetres. AGORHA, the INHA's academic art-history database, records different figures for the same painting, 120.5 by 196.5 centimetres, while explicitly citing Musée Fabre, Montpellier as the source of its own measurement.",
+          "The two records disagree by half a centimetre in width and by almost 7 centimetres in height, even though both claim the same institution as their source. English Wikipedia's infobox for the painting, 120.50 by 196.50 cm, matches AGORHA's figure rather than the museum's current website. French Wikipedia's infobox, 121 by 189.7 cm, matches the museum's site instead. Neither language edition flags the mismatch.",
+          "There's no way to settle which figure is current from outside the museum's own files, and this piece doesn't attempt to. What the gap resembles is the situation this site found in [Goya's Saturn Devouring His Son](/saturn-devouring-his-son/), another canvas whose documented history turned out to be less settled than the confident, single-number captions built around it suggest, sometimes because a scholar disputes attribution outright, and sometimes, as here, because two records that both cite the same primary source simply don't match each other."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does The Fallen Angel by Alexandre Cabanel actually show?",
+        "answer": "It shows Lucifer immediately after being cast out of Heaven. Per Wikipedia and the Musée Fabre's own description, a life-size nude male figure reclines on rocky ground, hands clasped, tears visible in his eyes, his face partly hidden behind his right arm. One wing is rendered in detail with dark blue-and-gold feathers; the other is mostly obscured beneath him. In the sky above, a legion of smaller angels flies in the same direction, singing God's glory, a contrast Cabanel himself described as reminding Satan of the splendor he had lost."
+      },
+      {
+        "question": "Why did Cabanel paint this particular subject?",
+        "answer": "It wasn't a free choice made purely for its own sake. It was his mandatory second-year submission, or envoi, for the Prix de Rome scholarship he had won in 1845, required proof of progress sent back to Parisian academicians during his residency at the Villa Médicis. Per the Musée Fabre's own account, he chose a subject then rarely represented in French painting: the biblical fall of Lucifer, filtered through Milton's Paradise Lost."
+      },
+      {
+        "question": "Where is The Fallen Angel located today?",
+        "answer": "At the Musée Fabre in Montpellier, France, Cabanel's own birthplace, under inventory number 889.2.1. The artist's brother, Barthélémy Cabanel, donated the painting to the museum in 1889, the same year Alexandre Cabanel died."
+      },
+      {
+        "question": "Did Cabanel paint the fallen-angel theme more than once?",
+        "answer": "Yes. A detailed 1846 oil study survives at the Musée Comtadin-Duplessis in Carpentras, and AGORHA's database records a related pencil drawing whose whereabouts have been unknown since it last appeared at a Paris sale in 1944. Later in 1848, Cabanel also painted a gouache companion piece, L'Ange du soir, showing a calmer, clothed version of the same figure."
+      },
+      {
+        "question": "How big is the painting: 121 by 189.7 cm, or 120.5 by 196.5 cm?",
+        "answer": "Sources disagree. The Musée Fabre's own website currently lists 121 by 189.7 centimetres. AGORHA, the INHA's academic art database, lists 120.5 by 196.5 centimetres for the same canvas while citing the Musée Fabre as its source. English Wikipedia follows the AGORHA figure; French Wikipedia follows the museum's current website. This article can't resolve which one is current without access to the museum's own files."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Musée Fabre: L'Ange dechu (official collection notice)",
+        "url": "https://www.museefabre.fr/lange-dechu"
+      },
+      {
+        "label": "Wikipedia: The Fallen Angel (painting)",
+        "url": "https://en.wikipedia.org/wiki/The_Fallen_Angel_(painting)"
+      },
+      {
+        "label": "Wikipedia (French): L'Ange dechu (Cabanel)",
+        "url": "https://fr.wikipedia.org/wiki/L%27Ange_d%C3%A9chu_(Cabanel)"
+      },
+      {
+        "label": "AGORHA (INHA): Ange dechu, Cabanel Alexandre",
+        "url": "https://agorha.inha.fr/ark:/54721/4efcb780-1fed-4712-84e3-621a44a573ff"
+      },
+      {
+        "label": "The History of Art (Tom Gurney): Fallen Angel Painting by Alexandre Cabanel",
+        "url": "https://www.thehistoryofart.org/alexandre-cabanel/fallen-angel/"
+      },
+      {
+        "label": "Wikimedia Commons: The Fallen Angel - Alexandre Cabanel.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Fallen_Angel_-_Alexandre_Cabanel.jpg"
+      },
+      {
+        "label": "Wikimedia Commons: Self Portrait (Alexandre Cabanel).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Self_Portrait_(Alexandre_Cabanel).jpg"
+      }
+    ]
   }
 
 ];
