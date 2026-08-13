@@ -4206,6 +4206,113 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/Pala_d%27Oro"
       }
     ]
+  },
+
+  {
+    "slug": "emphasis-in-art",
+    "category": "Technique",
+    "title": "Emphasis in Art: The Principle Absent From Its Own Founding Texts",
+    "description": "Ross's 1907 design treatise names three principles, none of them emphasis. Dow's 1899 textbook named the same idea Subordination; a 1941 text filed it under Dominance.",
+    "published": "2026-08-13",
+    "updated": "2026-08-13",
+    "coreSummary": "Emphasis is taught today as one of art's standard \"principles of design,\" but none of the field's earliest systematic treatises named it that. Denman Waldo Ross's 1907 design theory, published by Houghton, Mifflin while he lectured on design at Harvard, opens by stating that \"By Order I mean, particularly, three things,—Harmony, Balance, and Rhythm\"; the word emphasis does not appear anywhere in the book's 190-odd pages. Arthur Wesley Dow's widely used 1899 textbook Composition named the same underlying idea Subordination instead, one of five numbered \"principles of composition\" built around arranging every part to serve a single dominant element. Maitland Graves's influential 1941 college text The Art of Color and Design calls its version Dominance, and its own index cross-references the now-standard word with two words: \"Emphasis. See Dominant.\"",
+    "image": "/images/rembrandt-night-watch-rijksmuseum.jpg",
+    "imageAlt": "Rembrandt's The Night Watch, 1642, a militia group portrait in which a shaft of light picks out Captain Frans Banninck Cocq's gesturing hand and a young girl in a golden dress at center, while the surrounding guardsmen fall into shadow.",
+    "imageCredit": "[The Night Watch](https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544), Rembrandt van Rijn, 1642, Rijksmuseum, public domain",
+    "sections": [
+      {
+        "heading": "A 1907 theory of design built on three other words",
+        "body": [
+          "Denman Waldo Ross was not a casual writer on art. He lectured on the theory of design at Harvard, was a Fellow of the American Academy of Arts and Sciences, and in 1907 published A Theory of Pure Design: Harmony, Balance, Rhythm through Houghton, Mifflin and Company, stating his purpose plainly in the preface: \"to define, classify, and explain the phenomena of Design.\" The book's opening section, titled simply \"The Meaning of Design,\" commits to its terms in its very first paragraph: \"By Design I mean Order in human feeling and thought... By Order I mean, particularly, three things,—Harmony, Balance, and Rhythm. These are the principal modes in which Order is revealed in Nature and, through Design, in Works of Art.\" Everything that follows, close to 200 pages on positions, lines, outlines, tones, and color sequences, works from that same three-term vocabulary.",
+          "The word \"emphasis\" is not among them. A full search of the digitized text turns up zero instances of the word anywhere in the book, not in the chapter headings, not in the paragraph index at the back, not in any of the definitions Ross takes such evident care to spell out. This is not a book that overlooked composition's power to direct a viewer's eye toward one part of a picture; Ross discusses exactly that phenomenon at length, folding it into his account of Balance, where an equilibrium among competing elements is \"lost\" by whichever one carries more visual weight. He simply never needed, or reached for, the specific word that virtually every introductory art class uses to name it a century later."
+        ]
+      },
+      {
+        "heading": "Dow's 1899 textbook: the same idea, filed under a different name",
+        "body": [
+          "Arthur Wesley Dow's Composition predates Ross by eight years and had far wider reach in American art schools; Dow taught at Columbia's Teachers College and counted Georgia O'Keeffe among students trained under his method. His book names its own \"Principles of Composition\" directly, and states the count without hedging: \"In my experience these five have been sufficient: 1. OPPOSITION 2. TRANSITION 3. SUBORDINATION 4. REPETITION 5. SYMMETRY.\" A grep of the full Project Gutenberg text turns up no instance of \"emphasis\" here either.",
+          "The third of Dow's five, Subordination, is the one that does the job now assigned to emphasis, but it is built from the opposite direction. Dow's own definition arranges everything around a single dominant part rather than making that part stand out against the rest: \"To form a complete group the parts are attached or related to a single dominating element which determines the character of the whole. A tree trunk with its branches is a good type of this kind of harmony.\" He lists three ways to construct it in a line composition, by grouping around an axis (\"as leaf relates to stem, branches to trunk\"), by radiation (\"as in flowers, the rosette, vault ribs\"), and by size (\"as in a group of mountain peaks, a cathedral with its spire and pinnacles\"). Modern \"emphasis\" asks what to make the viewer look at first; Dow's Subordination asks what to make subordinate so that one part can lead, a difference in framing, not in outcome, but a real difference in the word a 19th-century art student would actually have been taught."
+        ]
+      },
+      {
+        "heading": "A mid-century textbook demotes the word to a cross-reference",
+        "body": [
+          "Maitland Graves's The Art of Color and Design, first published by McGraw-Hill in 1941 and still in print in a second edition by 1951, was one of the most widely adopted American college design texts of its era. Its table of contents organizes the principles of design as Harmony, Gradation, Contrast, and Unity, and treats what modern readers call emphasis as a sub-mechanism of that last category, under the heading \"Unity by Dominance.\" Graves does use the word \"emphasis\" repeatedly in his running prose, almost always paired with his actual chosen term: \"Because of convergence to a focal point, radiation produces unity in design by emphasis or dominance,\" and, describing how repetition builds a focal point, \"Dominance or emphasis by repetition is the oldest, simplest, and most effective way of creating aesthetic unity.\"",
+          "But when Graves's own index sorts his book's vocabulary, \"emphasis\" does not get its own entry. It gets two words: \"Emphasis. See Dominant.\" Thirty-four years after Ross built an entire design theory without the word, and forty-two after Dow filed the same idea under Subordination, one of the most influential college textbooks of the mid-20th century still treats \"emphasis\" as a colloquial stand-in for its real, indexed term rather than a principle in its own right."
+        ],
+        "image": {
+          "src": "/images/emphasis-in-art-three-names-diagram.svg",
+          "alt": "Diagram comparing three historical names for the same compositional device: Dow's 1899 Subordination (branches radiating from a dominant trunk), Graves's 1941 Dominance by repetition (one enlarged square among identical squares), and today's Emphasis (one accent-colored dot among neutral ones)."
+        }
+      },
+      {
+        "heading": "How a synonym became the standard term",
+        "body": [
+          "Pinning down exactly when \"emphasis\" overtook Subordination and Dominance as the preferred textbook label is harder than documenting that it happened; the sources available for this piece don't supply a single clean date the way they do for Ross's 1907 title page or Graves's 1951 index. What the broader academic record does support is that the fixed, multi-term checklist most people now learn, balance, emphasis, contrast, movement, pattern, proportion, rhythm, unity, variety, consolidated later and more gradually than any one author's decision. Art educator Nanyoung Kim's 2006 history of design theory in art education, published in the Journal of Aesthetic Education, traces a line running from Dow's own turn-of-the-century teaching through the mid-century \"creative expression\" movement associated with Victor D'Amico and Viktor Lowenfeld, through the Bauhaus design theory Americans imported from Johannes Itten's circle, and on into Discipline-Based Art Education, the standards-driven approach that took hold in American schools from the 1980s and gave the elements-and-principles checklist its now-familiar, fixed form in state curricula.",
+          "That timeline runs alongside a finding this site has already documented on the elements side of the same checklist: [the seven-part vocabulary now used to describe any painting's line, shape, and color has no clear record before a 1968 classroom textbook](/elements-of-art/), decades after Ross and Dow had already published competing, incompatible versions of the principles half of the same subject. The pattern shows up again with a completely different kind of art vocabulary: [the word mandala is documented nearly two thousand years before the earliest surviving pictorial mandala](/mandala-art/), the same kind of gap between a word's familiar, settled-feeling use and the comparatively recent moment it actually acquired that use. \"Emphasis\" isn't a fabricated concept, painters have directed a viewer's eye toward one part of a picture for as long as there have been pictures, but the specific word doing that job today is a later arrival than the technique it describes, arriving well after design theorists had already spent decades calling the same thing Subordination or Dominance."
+        ]
+      },
+      {
+        "heading": "What all three were actually describing",
+        "body": [
+          "Rembrandt's The Night Watch, completed in 1642 for the Amsterdam Arquebusiers' guild hall, is the painting art teachers reach for most often to demonstrate whatever they call this device. The Rijksmuseum's own description of the work states it plainly: \"Rembrandt used the light to focus on particular details, like the captain's gesturing hand and the young girl in the background.\" Captain Frans Banninck Cocq, dressed in black, occupies the darkest clothing in the entire canvas, yet a shaft of light isolates his outstretched hand against the shadowed guardsmen crowding in behind him. A few feet to his left, an unrelated young girl in a golden dress, carrying a dead chicken with its claws still attached at her waist, the Dutch object record identifies her simply as \"een meisje met een dode kip om haar middel\", glows more brightly than any adult in the scene. The museum's own account calls her the militia company's mascot, the chicken's claws referencing the Kloveniers' name (klover, a musket-related term tied to the guild's own emblem).",
+          "The composition audiences see today isn't quite the one Rembrandt painted, which complicates any tidy lesson about where he placed his emphasis. In 1715 the canvas was trimmed on all four sides to fit a new wall at Amsterdam's City Hall, and the Rijksmuseum's own 2021 announcement of its AI-assisted reconstruction of the lost strips states that in the original, uncropped composition, \"the painting's main figures, Captain Frans Banninck Cocq and Lieutenant Willem van Ruytenburch, are now positioned to the right of centre, rather than in the middle of the canvas,\" a shift the museum credits with adding \"a considerable sense of movement and dynamism\" that the trimmed version, hanging in Amsterdam for three centuries, does not fully preserve. The 1715 crop, whatever else it cost the painting, incidentally pulled the two lit figures closer to dead center, arguably making the light-driven emphasis easier to read at a glance than Rembrandt's own asymmetrical original. Even the painting's popular nickname is a later addition, not Rembrandt's own: the Rijksmuseum's object record notes the canvas has been known as \"De Nachtwacht\" only \"since the end of the 18th century,\" after darkened varnish left generations of viewers assuming a daylight militia march was a nighttime scene.",
+          "None of that changes what the light is doing. Ross would have filed it under Balance, the equilibrium of a shadowed crowd broken by one bright hand. Dow would have called it Subordination, every musket and pike arranged to serve the captain's gesture the way branches serve a trunk. Graves would have written \"dominance,\" then, almost as an afterthought, added \"or emphasis\" beside it. Whichever word gets used, the mechanism belongs to Rembrandt's 1642 canvas and to the viewers who have been reading it correctly for nearly four centuries, well before any of the three books that tried to name it existed at all. It's a different pattern from repetition without a dominant, which this site examined in [Andy Warhol's silkscreened Marilyns](/andy-warhol/): identical, evenly repeated units that refuse to let any single one lead, the mirror image of what Rembrandt's single shaft of light does to one captain's hand."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is emphasis in art?",
+        "answer": "Emphasis is the compositional technique of making one part of an artwork draw the viewer's eye before the rest, usually through contrast in value, color, scale, or placement. The concept is old, but the specific word \"emphasis\" is a comparatively recent label for it: Denman Ross's 1907 design theory built its entire framework on Harmony, Balance, and Rhythm instead, and never used the word at all."
+      },
+      {
+        "question": "Who invented the principles of design?",
+        "answer": "No single person did, and the earliest systematic attempts disagree with each other. Denman Waldo Ross's 1907 A Theory of Pure Design names three principles (Harmony, Balance, Rhythm); Arthur Wesley Dow's 1899 textbook Composition names five different ones (Opposition, Transition, Subordination, Repetition, Symmetry). The fixed, roughly nine-term checklist taught in most classrooms today consolidated later, through 20th-century art education movements including the Bauhaus-influenced curricula of the mid-1900s and Discipline-Based Art Education from the 1980s onward, per art educator Nanyoung Kim's 2006 history of the subject."
+      },
+      {
+        "question": "Is emphasis the same as dominance in art theory?",
+        "answer": "Functionally, yes, and one influential mid-century textbook says so directly. Maitland Graves's 1941 college text The Art of Color and Design names its principle \"Dominance\" and repeatedly glosses it in the running text as \"dominance or emphasis.\" The book's own index confirms which term Graves actually treated as primary: the entry reads \"Emphasis. See Dominant.\""
+      },
+      {
+        "question": "How does Rembrandt create emphasis in The Night Watch?",
+        "answer": "Through light and value contrast. The Rijksmuseum's own description states that \"Rembrandt used the light to focus on particular details, like the captain's gesturing hand and the young girl in the background,\" isolating Captain Frans Banninck Cocq's outstretched hand and a brightly lit young girl, the militia company's mascot, against the shadowed crowd of guardsmen around them."
+      },
+      {
+        "question": "When did \"elements and principles of design\" become a standard art-class checklist?",
+        "answer": "Later than most people assume, and more gradually than a single date can capture. This site has separately documented that the \"elements\" half of the checklist has no clear textbook record before 1968. The \"principles\" half shows the same pattern from the opposite angle: Ross (1907) and Dow (1899), the two earliest systematic treatises, don't even agree with each other on the list, let alone match the version taught today."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Project Gutenberg: A Theory of Pure Design (Denman W. Ross, 1907)",
+        "url": "https://www.gutenberg.org/ebooks/74765"
+      },
+      {
+        "label": "Project Gutenberg: Composition (Arthur W. Dow, 1899)",
+        "url": "https://www.gutenberg.org/ebooks/45410"
+      },
+      {
+        "label": "Internet Archive: The Art of Color and Design (Maitland Graves, 1951 ed.)",
+        "url": "https://archive.org/details/dli.ernet.29070"
+      },
+      {
+        "label": "Rijksmuseum: The Night Watch (collection record)",
+        "url": "https://www.rijksmuseum.nl/en/collection/object/The-Night-Watch-Militia-Company-of-District-II-under-the-Command-of-Captain-Frans-Banninck-Cocq--3137deb45cd7765f9a76084a16c99544"
+      },
+      {
+        "label": "Rijksmuseum: For the first time in 300 years The Night Watch is complete again (2021)",
+        "url": "https://www.rijksmuseum.nl/en/press/press-releases/for-the-first-time-in-300-years-the-night-watch-is-complete-again"
+      },
+      {
+        "label": "Rijksmuseum: Why Is The Night Watch So Famous?",
+        "url": "https://www.rijksmuseum.nl/en/stories/operation-night-watch/story/why-is-the-night-watch-so-famous"
+      },
+      {
+        "label": "ERIC: Nanyoung Kim, \"A History of Design Theory in Art Education\" (2006)",
+        "url": "https://eric.ed.gov/?id=EJ750798"
+      }
+    ]
   }
 
 ];

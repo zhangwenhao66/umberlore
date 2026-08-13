@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1200 470" width="1200" height="470" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="1200" height="470" fill="#faf6f0"/>
+  <text x="600" y="46" text-anchor="middle" font-size="24" fill="#4a3728" font-weight="bold">Three Names for One Device, 1899&#8211;1951</text>
+  <text x="600" y="72" text-anchor="middle" font-size="14" fill="#6d4f3a">What today's art classes call &#8220;emphasis&#8221; appears earlier under two other labels</text>
+
+  <!-- Panel 1: Dow, 1899, Subordination -->
+  <g>
+    <rect x="40" y="100" width="352" height="330" rx="10" fill="#fff8ef" stroke="#d9c7ae" stroke-width="1.5"/>
+    <line x1="216" y1="330" x2="216" y2="230" stroke="#6d4f3a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="216" y1="260" x2="150" y2="200" stroke="#9c6b4f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="216" y1="250" x2="280" y2="190" stroke="#9c6b4f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="216" y1="280" x2="130" y2="255" stroke="#9c6b4f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="216" y1="275" x2="300" y2="260" stroke="#9c6b4f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="216" cy="220" r="15" fill="#4a3728"/>
+    <circle cx="150" cy="200" r="7" fill="#a6733f"/>
+    <circle cx="280" cy="190" r="7" fill="#a6733f"/>
+    <circle cx="130" cy="255" r="6" fill="#a6733f"/>
+    <circle cx="300" cy="260" r="6" fill="#a6733f"/>
+    <text x="216" y="365" text-anchor="middle" font-size="17" fill="#4a3728" font-weight="bold">DOW, 1899</text>
+    <text x="216" y="386" text-anchor="middle" font-size="14" fill="#7a6248" font-style="italic">&#8220;Subordination&#8221;</text>
+    <text x="216" y="408" text-anchor="middle" font-size="12" fill="#7a6248">Every part attached to one</text>
+    <text x="216" y="424" text-anchor="middle" font-size="12" fill="#7a6248">dominating element, like</text>
+    <text x="216" y="440" text-anchor="middle" font-size="12" fill="#7a6248">branches to a trunk</text>
+  </g>
+
+  <!-- Panel 2: Graves, 1941, Dominance by repetition -->
+  <g>
+    <rect x="424" y="100" width="352" height="330" rx="10" fill="#fff8ef" stroke="#d9c7ae" stroke-width="1.5"/>
+    <g fill="#c7ab8a">
+      <rect x="470" y="160" width="34" height="34" rx="4"/>
+      <rect x="518" y="160" width="34" height="34" rx="4"/>
+      <rect x="566" y="160" width="34" height="34" rx="4"/>
+      <rect x="614" y="160" width="34" height="34" rx="4"/>
+      <rect x="470" y="208" width="34" height="34" rx="4"/>
+      <rect x="614" y="208" width="34" height="34" rx="4"/>
+      <rect x="470" y="256" width="34" height="34" rx="4"/>
+      <rect x="518" y="256" width="34" height="34" rx="4"/>
+      <rect x="566" y="256" width="34" height="34" rx="4"/>
+      <rect x="614" y="256" width="34" height="34" rx="4"/>
+    </g>
+    <rect x="514" y="200" width="60" height="60" rx="6" fill="#4a3728"/>
+    <text x="600" y="365" text-anchor="middle" font-size="17" fill="#4a3728" font-weight="bold">GRAVES, 1941</text>
+    <text x="600" y="386" text-anchor="middle" font-size="14" fill="#7a6248" font-style="italic">&#8220;Dominance&#8221;</text>
+    <text x="600" y="408" text-anchor="middle" font-size="12" fill="#7a6248">Index says: &#8220;Emphasis.</text>
+    <text x="600" y="424" text-anchor="middle" font-size="12" fill="#7a6248">See Dominant.&#8221; Repetition</text>
+    <text x="600" y="440" text-anchor="middle" font-size="12" fill="#7a6248">sets off the one exception</text>
+  </g>
+
+  <!-- Panel 3: Today, Emphasis -->
+  <g>
+    <rect x="808" y="100" width="352" height="330" rx="10" fill="#fff8ef" stroke="#d9c7ae" stroke-width="1.5"/>
+    <g fill="#c7ab8a">
+      <circle cx="860" cy="170" r="9"/>
+      <circle cx="900" cy="155" r="9"/>
+      <circle cx="945" cy="180" r="9"/>
+      <circle cx="1000" cy="160" r="9"/>
+      <circle cx="1045" cy="185" r="9"/>
+      <circle cx="850" cy="230" r="9"/>
+      <circle cx="1055" cy="235" r="9"/>
+      <circle cx="865" cy="290" r="9"/>
+      <circle cx="920" cy="300" r="9"/>
+      <circle cx="1000" cy="295" r="9"/>
+      <circle cx="1050" cy="280" r="9"/>
+    </g>
+    <circle cx="970" cy="225" r="22" fill="#8a5a34"/>
+    <text x="984" y="365" text-anchor="middle" font-size="17" fill="#4a3728" font-weight="bold">TODAY</text>
+    <text x="984" y="386" text-anchor="middle" font-size="14" fill="#7a6248" font-style="italic">&#8220;Emphasis&#8221;</text>
+    <text x="984" y="408" text-anchor="middle" font-size="12" fill="#7a6248">One element set apart by</text>
+    <text x="984" y="424" text-anchor="middle" font-size="12" fill="#7a6248">size or value contrast, no</text>
+    <text x="984" y="440" text-anchor="middle" font-size="12" fill="#7a6248">longer built from either idea</text>
+  </g>
+</svg>
