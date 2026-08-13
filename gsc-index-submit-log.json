@@ -133,5 +133,14 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-13",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布cloisonne（umberlore-content-publishing）。URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功，等待约20秒确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/cloisonne/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota (6th request this run)"
   }
 ]
