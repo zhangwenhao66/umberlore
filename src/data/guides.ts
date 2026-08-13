@@ -4088,5 +4088,124 @@ export const guides: Guide[] = [
       }
     ]
   }
+,
+  {
+    "slug": "cloisonne",
+    "category": "Technique",
+    "title": "Cloisonné: Scorned in 1388, an Emperor's Treasure Within 40 Years",
+    "description": "China's leading antiquarian ruled cloisonné unfit for a scholar's studio in 1388. Byzantium prized it centuries earlier; Japan restarted the craft twice.",
+    "published": "2026-08-13",
+    "updated": "2026-08-13",
+    "coreSummary": "Cloisonné's reputation as an old, unbroken craft doesn't match the documented record in any of the three traditions most associated with it. In China, the earliest written mention of the technique is dismissive: Cao Zhao's 1388 antiquities guide, the Gegu Yaolun, rules copper enamelware fit only for a woman's chamber and, in the Metropolitan Museum of Art's own account of that judgment, \"not well suited to a more restrained atmosphere, such as that of a scholar's home.\" Within about 40 years, by the Ming Xuande reign (1426-35), the same technique had become prized ware at the imperial court, the period from which the earliest securely dated Chinese cloisonné survives. Byzantium had no comparable gap: the Met holds a gold and cloisonné-enamel reliquary made in the early ninth century to hold a fragment of the True Cross, and Venice's Basilica di San Marco has displayed a gold altarpiece carrying more than eighty Byzantine cloisonné enamels since 976. Japan's version shows two real breaks instead, and Sotheby's own historical account states plainly that no three-dimensional cloisonné was produced there again until a former samurai, Kaji Tsunekichi, took apart an imported enamel piece in the late 1830s.",
+    "image": "/images/cloisonne-fieschi-morgan-staurotheke-met.jpg",
+    "imageAlt": "The Fieschi Morgan Staurotheke, a Byzantine gold and cloisonné-enamel reliquary box made in the early ninth century to hold a fragment of the True Cross, its lid decorated with the Crucifixion surrounded by busts of twenty-seven saints.",
+    "imageCredit": "[The Fieschi Morgan Staurotheke](https://www.metmuseum.org/art/collection/search/472562), Byzantine, early 9th century, Metropolitan Museum of Art, public domain",
+    "sections": [
+      {
+        "heading": "A 1388 verdict: fit for a woman's chamber, not a scholar's studio",
+        "body": [
+          "The earliest written record of cloisonné in China isn't a technical description or a mark of pride. It's a put-down. In 1388, the antiquarian Cao Zhao published Gegu Yaolun, a guide to judging antiques that became the standard reference of its era. The Metropolitan Museum of Art's own essay on Chinese cloisonné renders the verdict plainly: Cao Zhao dismissed the ware as suitable only for lady's chambers, an opinion the Met describes as reflecting a broader view that the technique's \"flamboyant splendor\" suited the furnishing of temples and palaces but was \"not well suited to a more restrained atmosphere, such as that of a scholar's home.\" Cao Zhao wasn't reviewing an established Chinese craft with a known pedigree. He was cataloguing an outsider, a decorative style that read to him as foreign and slightly vulgar, worth noting in an antiquities guide mainly as a warning against poor taste.",
+          "That foreignness wasn't incidental. The Met's essay records that cloisonné is first documented in China under the Yuan dynasty, and that the technique's arrival has been linked to the western province of Yunnan, which received an influx of people from the Islamic world under Mongol rule. Cloisonné enamelwork had already been established for centuries further west, worked into Islamic metalwork and, before that, into Byzantine gold. Read against that background, Cao Zhao's dismissal looks less like an aesthetic complaint about a native Chinese object and more like the reaction of a scholar encountering an imported technique that hadn't yet earned any domestic standing at all."
+        ]
+      },
+      {
+        "heading": "Within four decades, the same ware furnished an emperor's court",
+        "body": [
+          "The reversal was fast. The Met's essay states that the earliest securely dated Chinese cloisonné comes from the reign of the Ming Xuande emperor, 1426 to 1435, and that \"by the period of Emperor Xuande, this ware came to be greatly prized at court,\" the opposite of Cao Zhao's verdict less than 40 years earlier. A small number of surviving pieces have been dated on stylistic grounds to the slightly earlier Yongle reign, 1403 to 1424, though the Met is careful to flag those as stylistic attributions rather than securely documented examples the way Xuande-period pieces are.",
+          "One of those early pieces sits in the Met's own collection: a squat cloisonné candlestick decorated with lotus scrolls, catalogued as late 14th to early 15th century and accessioned in 1929 as a gift from Edward G. Kennedy. Its turquoise ground and looping lotus vine, worked entirely in soldered copper wire and fired glass paste, belong to the same restrained repertoire of motifs that later filled Xuande-period court commissions. Whether this specific candlestick predates Xuande's reign or falls within its early years, it sits on the near side of the same short gap: a craft written off as a foreign curiosity in 1388 was furnishing an emperor's court well before the middle of the following century."
+        ],
+        "image": {
+          "src": "/images/cloisonne-xuande-candlestick-lotus-met.jpg",
+          "alt": "A turquoise cloisonné enamel candlestick with lotus scrolls, made in China in the late 14th or early 15th century, from the Metropolitan Museum of Art's collection.",
+          "credit": "[Candlestick with lotus scrolls](https://www.metmuseum.org/art/collection/search/40695), China, late 14th–early 15th century, Metropolitan Museum of Art, public domain"
+        }
+      },
+      {
+        "heading": "Byzantium already had centuries of the same craft, in gold",
+        "body": [
+          "China's dismiss-then-adopt story didn't happen in a vacuum. By the time Cao Zhao was writing in 1388, cloisonné enamel had already been a prestige medium in the Byzantine world for more than five centuries. The Met's own reliquary, the Fieschi Morgan Staurotheke, was made in the early ninth century, probably in Constantinople, to hold a fragment believed to be from the True Cross; the Met's own catalog dates it broadly to around 800, while Wikipedia's account of the object narrows that to 843, with some scholars proposing as early as 815. Its lid, worked in gilded silver, gold, and cloisonné enamel, depicts the Crucifixion surrounded by the busts of twenty-seven saints, with four more scenes announcing Christ as savior worked into the underside of the lid; the Met's own catalog also lists niello, a dark metal inlay technique, alongside the enamel among its materials, a reminder that the finest Byzantine cloisonné rarely used the technique in isolation. Its double name records its own well-documented, centuries-long trail: the Fieschi half marks its passage through that Italian family's ownership before J. Pierpont Morgan acquired it and gave it to the Met in 1917, the same year now fixed in its accession number, 17.190.715.",
+          "The technique's documented peak followed in the Pala d'Oro, the gold altarpiece of the Basilica di San Marco in Venice. It was first commissioned in 976 by Doge Pietro Orseolo, more than a century after the Staurotheke under any of the dates proposed for it, and expanded in 1105 under Doge Ordelafo Faliero, and it now carries more than eighty Byzantine cloisonné enamels dating from the tenth to the late twelfth century, alongside later Venetian additions. Where China's earliest confirmed cloisonné arrives only in the 1400s, Byzantium's had already run through several centuries of continuous, well-documented production and export by the time Cao Zhao ever saw a piece to complain about."
+        ]
+      },
+      {
+        "heading": "Why the gold version didn't last in Western Europe",
+        "body": [
+          "Byzantium's version of the craft didn't stay dominant everywhere it reached. Cloisonné construction relies on wire, historically gold or gilded silver, soldered onto a metal body to form the cell walls that hold the enamel. Wikipedia's entry on the competing technique of champlevé draws the construction difference plainly: champlevé's cells are \"carved, etched, die struck, or cast into the surface of a metal object\" rather than built from applied wire, an approach compatible with plain copper or bronze. That difference had a direct cost consequence. Champlevé's rise across Western Europe, the same Wikipedia entry notes, coincided with the \"maturation of the Romanesque style\" in the late eleventh century, and the technique's base metal choice reflects why: copper and bronze \"were soft and easy to work with, as well as relatively inexpensive,\" next to a technique that depended on gold or silver wire.",
+          "Limoges, in central France, became the technique's largest production center by the mid-twelfth century, turning out champlevé reliquary caskets on what Wikipedia describes as a \"semi-industrial scale\" for export across Europe. None of that displaced cloisonné within the Byzantine world itself, where Constantinople kept producing the older, costlier technique through the period the Pala d'Oro's latest enamels were made. What changed in Western Europe was economics, not a verdict on cloisonné's quality: a cheaper technique, built around cheaper metal, spread faster than the gold-wire original ever could."
+        ]
+      },
+      {
+        "heading": "Japan's line runs through two restarts, not one",
+        "body": [
+          "Japan's cloisonné history looks continuous from a distance and turns out to have real gaps up close. According to the Nagoya workshop Katoshippo's own historical account, the technique reached Japan in the sixth and seventh century by way of China and Korea, and the oldest surviving Japanese example is a mirror, its back enameled in cloisonné, held today in the Shōsōin, the Nara repository of imperial treasures. The Japanese word for the craft, shippō-yaki, translates as \"seven treasures,\" a reference Katoshippo traces to a list of precious materials, gold, silver, lapis lazuli, giant clamshell, agate, pearl, and carnelian, named in the Lotus Sutra; the name was given, by that account, because finished cloisonné was considered as beautiful as those seven substances. Production resumed centuries later, in the early Edo period, when Donin Hirata of Kyoto learned the technique from craftspeople from the Korean peninsula and applied it to sword fittings and architectural hardware. But the Hirata family kept the process a closely guarded secret, and it was never shared beyond their own workshop.",
+          "That secrecy produced another gap rather than a gradual spread of the technique. Sotheby's own historical account of Japanese cloisonné states that although Chinese enamels had been imported into Japan and highly valued there since at least the seventeenth century, \"there was apparently no production of three-dimensional cloisonné-enamel objects in Japan until the early nineteenth century.\" The craft's modern Japanese history is credited to Kaji Tsunekichi, a former samurai from Owari province turned metal-gilder. Citing a summary of Kaji's own account of his career, published in the art journal The Studio in June 1911, Sotheby's dates the breakthrough to around 1838: Kaji acquired a piece of Chinese cloisonné enamel, took it apart to work out how it had been made, and by 1839 had produced a six-inch plate of his own. His work later reached the Tokugawa court in Edo, presented by the feudal lord of Owari. Some later, more general retellings compress this to 1833 and describe the source piece as Dutch rather than Chinese; the earlier, source-cited account is the more specific one, and the two versions don't fully agree on either the year or what Kaji actually took apart.",
+          "From that restart, the craft's now-familiar names follow within decades, not centuries, through a direct teaching line. Kaji began taking on pupils by the mid-1850s, among them Hayashi Shogorō, whose own pupil Tsukamoto Kaisuke studied under him from 1860 to 1861 and went on to teach Hayashi Kodenji, a craftsman Sotheby's describes as becoming one of the most influential cloisonné makers of his own era. In 1871, Muramatsu Hikoshichi and Tsukamoto Jine'mon, Kaisuke's elder brother, founded the Nagoya Cloisonné Company at Toshima, outside Nagoya, building the industrial base for a craft whose reconstruction, three decades earlier, had been one man's work alone; the company won a first prize at the 1873 Vienna Exhibition. Namikawa Yasuyuki, working from his own Kyoto studio from 1874, was appointed Imperial Court Artist in 1896, and the Andō Company, whose foreman from around 1881 was Kaji Tsunekichi's own grandson, took a first award at the 1893 World's Columbian Exposition in Chicago. The Meiji-period cloisonné most collectors and museums associate with Japan today sits at the tail end of a craft that had gone completely unproduced, by Sotheby's own account, for roughly two centuries beforehand."
+        ]
+      },
+      {
+        "heading": "The same shape, three times over",
+        "body": [
+          "Line the three traditions up and the pattern repeats. Each has a documented low point, whether that's Cao Zhao's dismissal, the abandonment behind champlevé's rise, or Japan's outright production gap, and each low point is followed by a comparatively fast climb to the prestige version of the craft that collections and textbooks now treat as cloisonné's default image. That's a different shape from the steady, cumulative transmission implied by phrases like \"an ancient technique,\" the kind of framing that also undersells how recent some now-standard art vocabulary actually is: the very checklist used to describe [any painting's formal structure](/elements-of-art/) turns out to date to a specific 1899 classroom textbook rather than to any older inherited tradition. Cloisonné's popular history has the same problem in reverse, treating a craft with real, dateable interruptions as an unbroken line running back through each culture's antiquity.",
+          "The word-versus-object gap shows up elsewhere in decorative and ritual art too: [the word mandala is documented nearly two thousand years before the earliest surviving pictorial mandala](/mandala-art/), a comparable distance between an assumed origin point and what the physical record actually supports. Cloisonné's case is sharper because the record isn't ambiguous about the gaps. Cao Zhao's 1388 dismissal, the Hirata family's guarded secrecy, and Sotheby's flat statement that Japan produced no three-dimensional cloisonné for roughly two centuries are all specific, dated, sourced claims, not inference from missing evidence. The craft now displayed in museum galleries as a mark of continuous cultural refinement went unmade, unwanted, or deliberately hidden at three separate points in three separate places before it ever reached a case."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is cloisonné, and how is it made?",
+        "answer": "Cloisonné is a technique for decorating metal objects with colored glass enamel, held in place by thin metal wires bent into a design and soldered or pasted onto the object's surface. The Met's essay on Chinese cloisonné describes the process: the enclosures, called cloisons, are filled with enamel colored by metallic oxide, the piece is fired at roughly 800°C, and because the enamel shrinks after firing, the filling and firing steps are repeated several times before the surface is polished smooth and the exposed wire edges gilded."
+      },
+      {
+        "question": "What's the oldest confirmed cloisonné object still in existence?",
+        "answer": "Among securely attributed pieces, the Metropolitan Museum's Fieschi Morgan Staurotheke, a gold and cloisonné-enamel reliquary made in the early ninth century (dated broadly to around 800 by the Met, narrowed to 843 by other scholarship), probably in Constantinople, is one of the earliest well-documented examples. Cloisonné-like enameling techniques go back further still, into ancient Mycenaean and Egyptian goldwork, but the fully developed wire-cell technique associated with the word today is best documented starting in the Byzantine world of the early medieval period."
+      },
+      {
+        "question": "What's the difference between cloisonné and champlevé?",
+        "answer": "In cloisonné, the enamel-holding cells, or cloisons, are built up by soldering or pasting metal wire onto the object's surface. In champlevé, the cells are carved, etched, or cast directly into the metal itself, per Wikipedia's description of the technique. Champlevé's cells can be cut into cheaper copper or bronze, while cloisonné traditionally depended on gold or silver wire, a cost difference that helped champlevé spread faster across Western Europe from the late eleventh century onward."
+      },
+      {
+        "question": "Why did cloisonné lose ground to other enameling techniques in medieval Western Europe?",
+        "answer": "Cost. Wikipedia's entry on champlevé notes that its copper and bronze bases were \"soft and easy to work with, as well as relatively inexpensive\" compared with cloisonné's gold or silver wire construction. Limoges, in France, became the largest champlevé production center by the mid-twelfth century, exporting reliquary caskets across Europe on what the same entry calls a semi-industrial scale. Byzantium itself kept producing cloisonné through this period; the shift away from it was a Western European, cost-driven trend rather than the technique disappearing everywhere."
+      },
+      {
+        "question": "Who is credited with reviving cloisonné in Japan, and is the story agreed upon?",
+        "answer": "Kaji Tsunekichi, a former samurai from Owari province, is generally credited with restarting three-dimensional cloisonné production in Japan in the late 1830s. Sotheby's account, citing a summary of Kaji's own career published in The Studio in June 1911, dates the breakthrough to around 1838, when Kaji took apart an imported piece of Chinese cloisonné enamel to learn how it was made. Some later, more general retellings give the year as 1833 and describe the source piece as Dutch rather than Chinese, so the exact year and the piece's origin aren't fully settled between accounts."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art: Chinese Cloisonné (essay)",
+        "url": "https://www.metmuseum.org/essays/chinese-cloisonne"
+      },
+      {
+        "label": "Metropolitan Museum of Art: Candlestick with lotus scrolls",
+        "url": "https://www.metmuseum.org/art/collection/search/40695"
+      },
+      {
+        "label": "Metropolitan Museum of Art: The Fieschi Morgan Staurotheke",
+        "url": "https://www.metmuseum.org/art/collection/search/472562"
+      },
+      {
+        "label": "Wikipedia: Fieschi Morgan Staurotheke",
+        "url": "https://en.wikipedia.org/wiki/Fieschi_Morgan_Staurotheke"
+      },
+      {
+        "label": "Sotheby's: Japanese Cloisonné Enamels: An Expression of Endless Patience",
+        "url": "https://www.sothebys.com/en/articles/japanese-cloisonne-enamels-an-expression-of-endless-patience"
+      },
+      {
+        "label": "Katoshippo: History of Cloisonné",
+        "url": "https://katoshippo.com/page/history-of-cloisonne_e"
+      },
+      {
+        "label": "Wikipedia: Champlevé",
+        "url": "https://en.wikipedia.org/wiki/Champlev%C3%A9"
+      },
+      {
+        "label": "Wikipedia: Pala d'Oro",
+        "url": "https://en.wikipedia.org/wiki/Pala_d%27Oro"
+      }
+    ]
+  }
 
 ];
