@@ -158,5 +158,17 @@
       "https://umberlore.com/emphasis-in-art/"
     ],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-16",
+    "action": "submitted",
+    "reason": "同日第二次运行（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑）。build-index-queue.py队列下一批未提交候选：venus-de-milo已收录，architectural-painting经URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/architectural-painting/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/venus-de-milo/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
