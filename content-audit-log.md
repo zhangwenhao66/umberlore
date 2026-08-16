@@ -690,3 +690,99 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "pop-art",
+  "last_audited": "2026-08-16",
+  "published_date": "2026-08-03",
+  "article_specific_checklist": [
+    "coreSummary/description/FAQ核心论点：Alloway 1958年文章\"The Arts and the Mass Media\"是否从未出现\"Pop Art\"字样，1962年\"Pop Since 1949\"是否真是首次印出该短语的文章（需核对本文自引的monoskop.org PDF原文，而非仅二手转述）",
+    "description/coreSummary里\"eleven years\"（Paolozzi 1947→Hamilton 1956）与正文/FAQ里\"nine years\"是否一致（1956-1947的算术）",
+    "Whaam!画作取材Novick\"Star Jockey\"（All-American Men of War #89）+Grandenetti\"Wingmate of Doom\"（#90）两个不同漫画issue的归属，以及存疑的第三来源Russ Heath\"Aces Wild\"",
+    "Shot Sage Blue Marilyn 2022年5月9日Christie's拍出$195.04M、超越Picasso《Women of Algiers》($179.4M, 2015)成为美籍艺术家拍卖纪录这一具体数字与日期链",
+    "Paolozzi 1947年拼贴画《I Was a Rich Man's Plaything》（Tate T01462）含从玩具手枪包装剪下的\"pop\"字样这一起源性事实"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语与算术）",
+      "status": "确认2项问题，均已修复",
+      "detail": "①description（第1250行）与coreSummary（第1253行）称Paolozzi 1947年拼贴画比Hamilton 1956年拼贴画早\"eleven years\"，但1956-1947=9非11；正文第一节第三段与FAQ第2条已经正确写\"nine years\"。独立复核agent重新用Python计算1956-1947=9、1958-1947=11、1962-1947=15，确认\"eleven\"实为Alloway 1958年文章那一年的正确差值，被误接到了1956年这句话上，判定CONFIRMED。已将description/coreSummary两处\"eleven years\"改为\"nine years\"。②coreSummary/正文第三段/FAQ第1条反复声称Alloway 1958年文章\"从未使用Pop Art这个短语\"（never uses the phrase）。经curl下载该文章1962年重印版所附Nigel Whiteley 2004年Artforum导言PDF（https://monoskop.org/images/0/05/Alloway_Lawrence_1962_2004_Pop_Since_1949.pdf，可正常curl；本文自引的1958年原文出处warholstars.org有反爬机制，curl与WebFetch均无法访问，两位审核者均确认过这一限制），用pdfplumber提取全文，其\"NOTES TO THE INTRODUCTION\"脚注3原文为：'\"The Arts and the Mass Media,\" op. cit.: 84–85. It was used by Alloway only in captions in this piece.'——即该短语确实出现在1958年文章里，只是仅限图片说明（captions）而非正文论述（running prose）。独立复核agent自行下载PDF、独立提取文本核实脚注原文（未采信我的转述），判定CONFIRMED，认为这是可用常规修正解决的表述过度绝对问题，不构成推翻文章核心论点（文章'标准说法经不起细查'的整体论点因此反而更站得住）。已在coreSummary/正文/FAQ三处加入\"running prose\"/\"running text\"限定语并各自补一句注明Nigel Whiteley指出该短语出现在1958年文章的图片说明里。③Whaam!取材两个漫画issue的归属（Novick/Grandenetti，以及存疑的Russ Heath第三来源）经两次独立WebSearch核实，确认Wikipedia（援引漫画史学者Paul Gravett）与downthetubes.net两个信源在具体归属上确有分歧，文章原文已如实呈现\"两种说法均记录、互不一致\"，判定准确无需修改。④Shot Sage Blue Marilyn拍卖细节（$195.04M/2022-05-09/Christie's/超越Picasso《Women of Algiers》$179.4M 2015年纪录/买家Larry Gagosian/卖家Thomas and Doris Ammann Foundation/Dorothy Podber 1964年开枪击中4幅留turquoise一幅）经WebSearch多信源交叉核实，全部准确。⑤Paolozzi 1947年拼贴画起源事实（Tate T01462、玩具手枪包装剪下\"pop\"字样、BUNK系列）经WebSearch核实准确。MoMA两条来源链接（The Store/F-111）curl返回403，经WebSearch确认为MoMA站点反爬拦截而非真实链接失效，两条URL本身及其描述内容均核实准确。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "15条sources全部为机构/学术一手来源（Tate藏品页×2、MoMA藏品页×2、Wikipedia×3、warholstars.org、monoskop.org学术PDF、Andy Warhol Museum×2、downthetubes.net专题研究、CNBC新闻）。无模糊归因表述。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "published 2026-08-03，审计时距发布13天，WebSearch核实近期无Pop Art史/Alloway coinage相关新研究发布，无需更新。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch核实\"who coined pop art\"类查询SERP由Quora/Artchive/TheArtStory/Britannica等主导，普遍采信简化版\"Alloway 1958年提出\"叙事，未见任何竞品提及Whaam!具体归属分歧、Whiteley脚注caption细节、或MoMA F-111的23-section/86英尺具体数据，本文深度构成真实增量。"
+    },
+    {
+      "dimension": "SEO 技术审计",
+      "status": "未发现问题（1项边界值经独立复核判定不构成缺陷）",
+      "detail": "title raw 67字符/渲染79字符，独立复核agent核对本站全部历史审计先例后确认不超过已判定NOT CONFIRMED的andy-warhol先例（raw 70/渲染82），判定NOT CONFIRMED未采纳为需修复项。meta description（修复前151/修复后149字符）在150-160区间边缘但历史先例同样判定可接受。canonical自指，单一H1，6个H2+FAQ H2无跳级，3个schema组件（Article/FAQPage/BreadcrumbList）均从guide对象动态生成，全部图片alt齐全，robots.txt允许全部AI爬虫抓取，sitemap已声明并确认包含本文slug。"
+    },
+    {
+      "dimension": "GEO 审计（99分制11维度）",
+      "status": "未发现问题，自评约90/99（阈值80，达标），修复后因新增具名引证略有提升空间",
+      "detail": "权威原文引语密集（Tate/MoMA藏品页、Wikipedia援引漫画史学者原话、CNBC拍卖报道）；统计数据完整性高（1947/1956/1958/1962/1963/2022等具体年代+$195.04M/172.7×406.4cm/86英尺23块等具体数字）；可引用性强（coreSummary+6条FAQ均为可独立摘出的完整陈述）；结构规范（6节+FAQ无跳级）；专业术语准确（silkscreen/Ben-Day dots/Magna acrylic等）；跨域连接良好（1条出链至abstract-art-first-painting，另有5篇文章回链本文，Movements分类5篇未超6篇轮转阈值）；权威信号项与此前审计过的文章同样缺作者专业背景credential展示，属全站共性非本文独有短板。修复新增了Nigel Whiteley具名学术引证，理论上小幅提升权威信号维度，未重新整体复验总分。此为审计员基于本站已公开99分制评分标准自评，未使用独立工具复验。"
+    },
+    {
+      "dimension": "早期内容AI味残留扫描",
+      "status": "未发现问题",
+      "detail": "published 2026-08-03，早于avoid-ai-writing全站强制化的2026-08-07，按规则需重新扫描。机械扫描全文：em-dash/en-dash/花体引号均0处，无加粗，AI高频词（delve/crucial/testament/tapestry/pivotal/vibrant/foster/enhance/underscore/showcase/intricate/interplay/landscape/robust/comprehensive等）0命中，无填充语，无rule-of-three套路。仅\"genuinely\"命中2次，均用于技术性精确描述（\"genuinely uncertain\"\"genuinely mechanical\"）而非空洞强调，不构成AI味特征。判定为人类/已去AI味写作，修复后新增文本同样零命中扫描。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "15条sources逐条curl实测：13条200，2条（MoMA The Store/F-111藏品页）403。经WebSearch交叉核实两条URL本身正确且页面内容与本文引用完全匹配，403判定为MoMA站点反爬拦截（与此前van-gogh-paintings审计遇到的Wiley DOI 403同类模式），非真实链接失效。正文内2张Wikimedia配图来源链接均curl实测200。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep全站guides.ts确认5篇文章（edvard-munch-the-scream/andy-warhol/art-deco/renaissance-art/michelangelo-sistine-chapel）手动回链本文，锚文本各不相同；本文自身1条出链指向abstract-art-first-painting。Movements分类现有5篇文章，未超过pickRelatedGuides()的6篇轮转窗口阈值，会在全部同分类文章的\"相关文章\"侧栏中出现，非孤儿页。"
+    },
+    {
+      "dimension": "Schema 数据一致性",
+      "status": "未发现问题",
+      "detail": "Article/FAQPage/BreadcrumbList三个schema组件均在构建时直接从guide对象字段动态生成JSON-LD。线上FAQPage的6条mainEntity与guides.ts中faq数组6条逐一比对完全一致（问题文本、条数）。修复后重新build确认dist产物中Article.description与FAQPage.mainEntity[0].acceptedAnswer.text均已反映修复文本，dateModified正确显示2026-08-16。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "本文主题Pop Art涉及Andy Warhol（卒1987）、Roy Lichtenstein（卒1997）、Claes Oldenburg（卒2022）、James Rosenquist（卒2017）、Richard Hamilton（卒2011）等均卒于1955年后、作品仍受版权保护的现当代艺术家，触及建站计划文档列出的版权高风险清单。但全文核对配图仅2张：头图为Whitechapel Gallery建筑实景照片（非艺术品复制），正文插图为自制SVG时间线示意图，均不涉及复制任何在世/近期版权期内艺术家的作品图像，符合本站'讨论艺术家不等于复制其作品'的版权红线（about页面已明文声明此原则）。全文未出现跨站矩阵命名规律相关措辞。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "2张配图（pop-art-whitechapel-gallery-exterior.jpg头图+pop-art-timeline-diagram.svg自制图表）本地文件均存在，线上curl实测均200。头图WebSearch核实Wikimedia Commons文件页确认CC BY-SA 3.0，摄影者Ham II，与站内imageCredit标注完全一致，拍摄对象为建筑物实景不涉及艺术品复制。SVG为自制时间线图表，本次审计同步修复了其内嵌斜体说明文字（与正文Alloway 1958年caption表述保持一致），字号由12调整为11以容纳新增文字，经像素宽度估算确认不会溢出1200×560画布，线上curl确认新文字已生效。"
+    },
+    {
+      "dimension": "AdSense 政策风险",
+      "status": "未发现问题",
+      "detail": "curl实测ads.txt（200，含pub-5245502795720653正确条目）、/privacy/（200）、/about/（200）均正常。文章内容为艺术史教育性质，无限制类目内容，标题无误导性。"
+    }
+  ],
+  "actions_taken": [
+    "修复description/coreSummary两处算术错误：\"eleven years\"改为\"nine years\"（Paolozzi 1947→Hamilton 1956的正确差值），与正文/FAQ保持一致",
+    "修复coreSummary/正文第三段/FAQ第1条三处过度绝对表述：加入\"running prose\"/\"running text\"限定语，各自补一句注明Nigel Whiteley 2004年Artforum导言脚注指出该短语确实出现在1958年文章的图片说明（captions）里，同步修复正文配图pop-art-timeline-diagram.svg内嵌的斜体说明文字",
+    "sources数组中monoskop.org链接的label更新为注明\"含Whiteley 2004年导言与脚注\"，为新增引证建立对应来源条目",
+    "updated字段由2026-08-03改为2026-08-16（published字段已存在，未触发派生流程）",
+    "npm test（17/17通过）与npm run build（47页无报错）修复前后各跑一次确认无回归；重新扫描全文确认零新增em-dash/AI高频词",
+    "commit 32fd413（guides.ts + pop-art-timeline-diagram.svg，git add按文件名精确暂存，未触碰仓库内其他并发进程产生的未追踪/未暂存改动）push；轮询约30秒后确认线上/pop-art/已反映修复内容（正文文本+SVG图表文字均已生效）",
+    "IndexNow提交/pop-art/（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加审计记录，明确标注为content-quality-audit更新而非新发布"
+  ],
+  "seo_score": "seo-audit通过（title 67原始/79渲染字符经独立复核确认不超本站andy-warhol先例的70/82容差；description从151→149字符；canonical自指；单一h1；6个h2+FAQ无跳级；三个schema均基于guide对象动态生成有效；alt全部齐全；15条外链13条200+2条MoMA 403经交叉核实为反爬非失效）",
+  "geo_score": "自评约90/99（阈值80，达标），11个维度中权威信号项因新增Whiteley具名引证有小幅提升空间，未重新整体复验总分",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
