@@ -46,5 +46,5 @@
   <text x="1080" y="392" text-anchor="middle" font-size="12" fill="#7a6248">a US art-auction record</text>
 
   <text x="600" y="470" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">15 years separate the word "pop" first appearing in a collage from the first essay to print the phrase "Pop Art."</text>
-  <text x="600" y="490" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">The 1958 date usually given for the term's "coining" is the year Alloway published a related essay that never uses the words "Pop Art."</text>
+  <text x="600" y="490" text-anchor="middle" font-size="11" fill="#7a6248" font-style="italic">The 1958 date usually given for the term's "coining" is the year Alloway published a related essay whose running prose never uses the words "Pop Art"; only its captions did.</text>
 </svg>

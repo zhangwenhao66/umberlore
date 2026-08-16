@@ -1247,10 +1247,10 @@ export const guides: Guide[] = [
     "slug": "pop-art",
     "category": "Movements",
     "title": "Pop Art: The Collage That Said 'Pop' Before the Movement Had a Name",
-    "description": "A 1947 collage carried the word \"pop\" eleven years before Richard Hamilton's famous version, and fifteen before any essay printed the phrase \"Pop Art.\"",
+    "description": "A 1947 collage carried the word \"pop\" nine years before Richard Hamilton's famous version, and fifteen before any essay printed the phrase \"Pop Art.\"",
     "published": "2026-08-03",
-    "updated": "2026-08-03",
-    "coreSummary": "The word \"pop\" first appears in an artwork in 1947, cut from a toy pistol's packaging into Eduardo Paolozzi's collage I Was a Rich Man's Plaything, eleven years before Richard Hamilton's better-known 1956 collage and fifteen years before any published essay actually printed the two words \"Pop Art\" together. Critic Lawrence Alloway is widely credited with coining the term in a February 1958 essay, but that essay's own text reads \"mass popular art,\" not \"Pop Art\"; the first essay on record to print the literal phrase is Alloway's Pop Since 1949, published in Artforum in October 1962.",
+    "updated": "2026-08-16",
+    "coreSummary": "The word \"pop\" first appears in an artwork in 1947, cut from a toy pistol's packaging into Eduardo Paolozzi's collage I Was a Rich Man's Plaything, nine years before Richard Hamilton's better-known 1956 collage and fifteen years before any published essay actually printed the two words \"Pop Art\" together. Critic Lawrence Alloway is widely credited with coining the term in a February 1958 essay, but that essay's running prose reads \"mass popular art,\" not \"Pop Art\"; the first essay on record to print the literal phrase in its running text is Alloway's Pop Since 1949, published in Artforum in October 1962.",
     "image": "/images/pop-art-whitechapel-gallery-exterior.jpg",
     "imageAlt": "The exterior of the Whitechapel Gallery in London, the venue that hosted the 1956 exhibition This Is Tomorrow, where Richard Hamilton's collage helped launch British Pop Art.",
     "imageCredit": "[Whitechapel Gallery in August 2014](https://commons.wikimedia.org/wiki/File:Whitechapel_Gallery_in_August_2014.JPG) by Ham II, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)",
@@ -1260,7 +1260,7 @@ export const guides: Guide[] = [
         "body": [
           "In 1947, more than a decade before anyone wrote the words \"Pop Art\" down, the Scottish artist Eduardo Paolozzi pasted a stack of American magazine cuttings onto a card: a bodybuilder-style pin-up, a cherry sliced next to a wedge of cherry pie, a \"Real Gold\" lemon-juice logo, and a hand-drawn revolver firing a cartoon burst of the word \"pop\", clipped from the packaging of a toy pop-gun. Tate, which now holds the collage, catalogues it as I Was a Rich Man's Plaything (T01462) and treats it as one of the earliest works to anticipate the movement, well before the movement existed as a labelled thing to anticipate.",
           "The more famous founding image came nine years later, in 1956, when the English artist Richard Hamilton made a small collage, only 260 by 248 millimetres, to illustrate the catalogue for an exhibition called This Is Tomorrow. The show opened at the Whitechapel Art Gallery on 9 August 1956, organised by the architect Theo Crosby together with members of the Independent Group, the London discussion circle where Hamilton, Paolozzi, and the critic Lawrence Alloway all argued about mass culture. Thirty-eight participants split into twelve groups, each building one installation; the private view was opened by a robot, and the show drew roughly a thousand visitors a day. It was also, by most accounts, the Independent Group's last collective act; the group never formally met again. Hamilton's collage, titled Just What Is It That Makes Today's Homes So Different, So Appealing?, is now in the collection of the Kunsthalle Tübingen in Germany.",
-          "The gap between those two dates is where the standard history gets soft. Alloway is routinely credited with coining \"Pop Art\" in a February 1958 essay, \"The Arts and the Mass Media\", published in Architectural Design. Read the essay itself and the phrase is not there: Alloway writes about \"mass popular art\" and \"pop culture\", not \"Pop Art\" as a two-word proper name. The earliest essay on record that actually prints the literal phrase is a different Alloway piece, Pop Since 1949, published in Artforum in October 1962 - four years after the date usually given for the term's invention, and fifteen years after Paolozzi had already put the word itself into a collage. The [same pattern, of an institution quietly correcting the popular story of a movement's first moment](/abstract-art-first-painting/), turns up often enough in art history that it is worth treating any tidy coining date as a placeholder rather than a fact."
+          "The gap between those two dates is where the standard history gets soft. Alloway is routinely credited with coining \"Pop Art\" in a February 1958 essay, \"The Arts and the Mass Media\", published in Architectural Design. Read the essay's running prose and the phrase is not there: Alloway writes about \"mass popular art\" and \"pop culture\", not \"Pop Art\" as a two-word proper name. The art historian Nigel Whiteley, introducing a 2004 Artforum reprint of Alloway's later essay, notes that the phrase did appear in the 1958 piece, just confined to its picture captions rather than the argument itself. The earliest essay on record that prints the literal phrase in running text is a different Alloway piece, Pop Since 1949, published in Artforum in October 1962 - four years after the date usually given for the term's invention, and fifteen years after Paolozzi had already put the word itself into a collage. The [same pattern, of an institution quietly correcting the popular story of a movement's first moment](/abstract-art-first-painting/), turns up often enough in art history that it is worth treating any tidy coining date as a placeholder rather than a fact."
         ],
         "image": {
           "src": "/images/pop-art-timeline-diagram.svg",
@@ -1307,7 +1307,7 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Who actually coined the term \"Pop Art\"?",
-        "answer": "The critic Lawrence Alloway is usually credited with coining it in a February 1958 essay, \"The Arts and the Mass Media\", published in Architectural Design. That essay, however, never uses the phrase \"Pop Art\"; it uses \"mass popular art\" instead. The earliest essay on record to actually print the literal phrase \"Pop Art\" is Alloway's own Pop Since 1949, published in Artforum in October 1962."
+        "answer": "The critic Lawrence Alloway is usually credited with coining it in a February 1958 essay, \"The Arts and the Mass Media\", published in Architectural Design. That essay's running prose never uses the phrase \"Pop Art\"; it uses \"mass popular art\" instead, though art historian Nigel Whiteley notes the phrase did appear in the piece's picture captions. The earliest essay on record to print the literal phrase \"Pop Art\" in its running text is Alloway's own Pop Since 1949, published in Artforum in October 1962."
       },
       {
         "question": "What is the earliest known work of Pop Art?",
@@ -1348,7 +1348,7 @@ export const guides: Guide[] = [
         "url": "https://warholstars.org/arts_mass-media_lawrence_alloway.html"
       },
       {
-        "label": "Monoskop: Lawrence Alloway, \"Pop Since 1949\", Artforum, October 1962",
+        "label": "Monoskop: Lawrence Alloway, \"Pop Since 1949\", Artforum, October 1962 (reprinted with Nigel Whiteley's 2004 introduction and endnotes, Artforum)",
         "url": "https://monoskop.org/images/0/05/Alloway_Lawrence_1962_2004_Pop_Since_1949.pdf"
       },
       {
