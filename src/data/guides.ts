@@ -2190,7 +2190,7 @@ export const guides: Guide[] = [
     "title": "Saturn Devouring His Son: The Scholar Who Said Goya Didn't Paint It",
     "description": "In 2003, a historian argued Goya's own son painted this Black Painting, not Goya. Most scholars rejected it, but the debate exposed how unsettled its history remains.",
     "published": "2026-08-05",
-    "updated": "2026-08-05",
+    "updated": "2026-08-16",
     "coreSummary": "Saturn Devouring His Son is one of fourteen murals Francisco Goya painted directly onto the walls of his house between about 1819 and 1823, later stripped from the plaster and transferred to canvas after his death, and now held by the Museo del Prado under accession number P00763. In 2003, Madrid art historian Juan José Junquera argued from property deeds that the room holding this and eight of the other Black Paintings did not yet exist when Goya owned the house, and proposed his son Javier as the real author; most Goya scholars, and the Prado itself, have rejected the claim, but unlike some other authentication disputes, no technical study has ever definitively closed the question either way.",
     "image": "/images/saturn-devouring-his-son-goya.jpg",
     "imageAlt": "Francisco Goya's Saturn Devouring His Son, c. 1819-1823, showing a wild-eyed Saturn gripping the headless body of a child, from the Black Paintings series at the Museo del Prado",
@@ -2217,6 +2217,14 @@ export const guides: Guide[] = [
         }
       },
       {
+        "heading": "Fourteen paintings, maybe fifteen",
+        "body": [
+          "The Black Paintings are usually counted as fourteen because that is how many arrived at the Prado, not necessarily how many Goya painted. Antonio Brugada's 1828 inventory of the house lists seven murals on the ground floor and eight on the upper floor, fifteen in total, one more than the number that ever reached the museum. The gap has a specific documented cause: the French critic Charles Yriarte visited the Quinta del Sordo in 1867, seven years before Martínez Cubells began transferring the other fourteen to canvas, and described an additional mural that had already been taken down and moved to the Marquis of Salamanca's Vista Alegre Palace.",
+          "Most specialists identify that missing work as Heads in a Landscape (Cabezas en un paisaje), a cluster of five faces in the lower corner of a mountain scene, now held by the private collector Stanley Moss in New York. Its documented ownership trail runs further back than any of the fourteen canvases in the Prado: recorded in an 1846 inventory of Madrid's Vista Alegre Palace while it belonged to Queen María Cristina de Borbón, inherited by her daughter the Infanta María Luisa Fernanda, sold in 1859 to the financier José de Salamanca y Mayol, passed down to the Duke of Galliera by 1892, and later sold in Paris to the collector Contini Bonacossi before reaching its current owner. By the time d'Erlanger's restorer was peeling the other fourteen off Goya's walls in the 1870s, this one had already been inherited, sold, and relocated from Madrid to Seville, years before the rest of the series had even left Goya's house.",
+          "That earlier trail is also the weakest link in the story. Fundación Goya en Aragón, the scholarly foundation that catalogues Goya's documented works, states plainly that some authors have questioned the painting's authenticity. The fifteenth Black Painting, if it belonged to the same series at all, is the one member of the group nobody can walk up to in a public museum, and the one whose place in the set is argued over rather than assumed."
+        ]
+      },
+      {
         "heading": "The wall that no longer exists",
         "body": [
           "Goya died in Bordeaux in 1828, and the Quinta del Sordo changed hands several times afterward. In 1873, the French-German financier Baron Émile d'Erlanger bought the property, apparently intending to show the murals at the 1878 Exposition Universelle in Paris. Between 1874 and 1878, under the direction of restorer Salvador Martínez Cubells, the fourteen paintings were physically stripped from the plaster and transferred onto canvas so they could travel, a difficult technical process that, across the series, is documented to have caused real and irreversible paint loss.",
@@ -2230,6 +2238,13 @@ export const guides: Guide[] = [
           "In 2003, the Madrid art historian Juan José Junquera published research that directly challenged Goya's authorship. Working from property deeds for the Quinta del Sordo, Junquera argued that the house was a single-storey building at the time Goya owned it, while the room that held this painting and eight of the other thirteen Black Paintings sat on an upper floor. If that floor was added only after Goya left for Bordeaux in 1824, he reasoned, Goya could not have painted the works found in it.",
           "Junquera's proposed replacement author was Goya's own family: his son Javier, or possibly his grandson Mariano, working from a financial motive, since paintings attributed to the already-celebrated Francisco Goya would fetch far more than work credited to his son. Most Goya scholars, including the longtime specialist Nigel Glendinning, rejected the argument, pointing out that the property records are ambiguous about how many storeys the house actually had, that Javier is not otherwise documented as a painter of remotely this ambition, and that the brushwork and pigments match Goya's other late canvases. The Museo del Prado's own catalogue continues to list the Black Paintings as autograph works by Goya.",
           "The dispute has never been closed by hard forensic evidence the way [some Frida Kahlo authentication cases have been resolved by pigment and paper analysis](/frida-kahlo-paintings/). No infrared study, pigment dating or newly discovered document has settled the Junquera question either way; it remains an argument from indirect documentary evidence on both sides, a less tidy answer than the confident wall label in the Prado's own galleries suggests."
+        ]
+      },
+      {
+        "heading": "Not necessarily a child",
+        "body": [
+          "Even setting the authorship dispute aside, the painting's own subject resists the label usually attached to it. The Museo del Prado's own published encyclopedia entry, written by the scholar Valeriano Bozal, argues that the figure being eaten lacks the mythological attributes that would confirm it as Saturn's child, and that the proportions of its body could belong to a young woman rather than an infant. In Bozal's reading, that possibility pairs the image with the panel that hung facing it in the same room, Judith and Holofernes: if a young, beautiful Judith kills an older, powerful man in one picture, an old Saturn devouring a young woman would be reading it in reverse.",
+          "English-language scholarship reaches a similar conclusion from a different angle. Wikipedia's sourced summary of the painting notes that the Goya scholar Fred Licht has questioned the traditional title itself, pointing out that the figure carries none of Saturn's usual attributes, such as a scythe or hourglass, and that the smaller body does not resemble that of an infant, or arguably even an anatomically accurate human at all. The sex of the consumed figure, on both readings, cannot be determined with certainty. Licht has proposed going further still, reading the image as an inversion of antisemitic blood-libel imagery, in which the larger figure projects European fears about Jewish people rather than illustrating a scene from classical myth. It is one more reading built on a title assigned well after Goya's death, not one he ever confirmed."
         ]
       },
       {
@@ -2265,6 +2280,10 @@ export const guides: Guide[] = [
       {
         "question": "Where can I see Saturn Devouring His Son today?",
         "answer": "At the Museo Nacional del Prado in Madrid, where it has been on permanent public display since 1889, alongside the other Black Paintings and Rubens's earlier version of the same subject."
+      },
+      {
+        "question": "How many Black Paintings did Goya actually make?",
+        "answer": "The Museo del Prado holds fourteen, but Antonio Brugada's 1828 inventory of the house lists fifteen murals across its two floors. The French critic Charles Yriarte reported seeing an extra mural, already removed from the wall, when he visited the house in 1867. Most specialists identify it as Heads in a Landscape, now in a private New York collection, with a documented ownership trail running back to an 1846 Madrid palace inventory, though some scholars have questioned whether it is authentically Goya's work."
       }
     ],
     "sources": [
@@ -2295,6 +2314,14 @@ export const guides: Guide[] = [
       {
         "label": "Minneapolis Institute of Art: Goya's Gratitude and the Long Tradition of Artistic Tributes to Health Workers",
         "url": "https://new.artsmia.org/stories/goyas-gratitude-and-the-long-tradition-of-artistic-tributes-to-health-workers"
+      },
+      {
+        "label": "Museo del Prado Enciclopedia: Pinturas negras [Goya] (Valeriano Bozal)",
+        "url": "https://www.museodelprado.es/aprende/enciclopedia/voz/pinturas-negras-goya/3ac8fe0b-3dd9-4dcd-b1e1-a21877cc8163"
+      },
+      {
+        "label": "Fundación Goya en Aragón: Heads in a Landscape (Cabezas en un paisaje)",
+        "url": "https://fundaciongoyaenaragon.es/eng/obra/cabezas-en-un-paisaje/672"
       }
     ]
   },
