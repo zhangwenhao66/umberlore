@@ -4461,6 +4461,127 @@ export const guides: Guide[] = [
         "url": "https://www.nationalgallery.org.uk/exhibitions/past/artemisia/artemisia-s-rape-trial"
       }
     ]
+  },
+
+  {
+    "slug": "aztec-art",
+    "category": "Non-Western Art",
+    "title": "Aztec Art: The Sun Stone and Headdress Nobody Can Explain",
+    "description": "Archaeologists still disagree on what the Aztec Sun Stone's central face depicts, and Vienna's feather headdress may not be Moctezuma's, or even a headdress, at all.",
+    "published": "2026-08-17",
+    "updated": "2026-08-17",
+    "coreSummary": "The Aztec Sun Stone, a 24,590-kilogram basalt disc unearthed in Mexico City's Zócalo in 1790, carries a central face that scholars have never agreed on: an early-twentieth-century reading by Eduard Seler and Hermann Beyer identified it as the sun god Tonatiuh, a 1974 reinterpretation by Carlos Navarrete and Doris Heyden argued for the earth deity Tlaltecuhtli, and Cecilia Klein's 1976 study proposed a third figure, the night sun Yohualtecuhtli, a debate epigrapher David Stuart was still adding new evidence to as recently as 2016. Even the stone's basic function is contested: eighteenth-century scholar Antonio de León y Gama treated it as a working solar instrument, while the National Museum of Anthropology in Mexico City now describes it as more likely a ceremonial altar for gladiatorial sacrifice. A comparable dispute surrounds Moctezuma's feather headdress in Vienna's Weltmuseum: anthropologist Zelia Nuttall identified it as a quetzalāpanecayōtl, a stylized quetzal-bird headdress, but no document has ever confirmed it belonged to Moctezuma II, and a 2010–2012 joint Mexican-Austrian conservation study concluded the roughly 400-feather object is too fragile to survive the trip home.",
+    "image": "/images/aztec-sun-stone-museo-antropologia.jpg",
+    "imageAlt": "The Aztec Sun Stone, a large carved basalt disc with a central face surrounded by concentric rings of glyphs, on display at the Museo Nacional de Antropología in Mexico City.",
+    "imageCredit": "[Piedra del Sol (Aztec Sun Stone)](https://commons.wikimedia.org/wiki/File:Piedra_del_Sol_(Aztec_Sun_Stone)_-_M%C3%A9xico.jpg) by Juan Carlos Fonseca Mata, Museo Nacional de Antropología, Mexico City, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "sections": [
+      {
+        "heading": "Two famous objects, two open questions",
+        "body": [
+          "The Aztec Sun Stone and Moctezuma's feather headdress each carry the kind of encyclopedia certainty that suggests their basic facts were settled long ago. They weren't. What the Sun Stone's carved central face actually depicts has three separate, still-argued scholarly answers, plus a fourth possibility raised as recently as 2016. What function the stone originally served, timekeeping instrument or sacrificial platform, is disputed between its earliest interpreters and the museum that now holds it. And the headdress in Vienna carries a still larger unresolved question: whether it belonged to Moctezuma II at all, whether it's even correctly classified as a headdress, and whether the country holding it will ever let it leave."
+        ]
+      },
+      {
+        "heading": "A 24-ton disc dug out of Mexico City's main square",
+        "body": [
+          "The Sun Stone was carved from olivine basalt quarried at the Xitle volcano and probably dragged as far as 22 kilometers into the Mexica capital of Tenochtitlan. It measures 3.6 meters in diameter, is 98 centimeters thick, and weighs 24,590 kilograms. Shortly after the Spanish conquest, Alonso de Montúfar, Archbishop of Mexico from 1551 to 1572, ordered the monolith buried, so, according to the chronicler Diego Durán, that the memory of the sacrifices once performed at it would be lost. It stayed buried until 17 December 1790, when workers repaving Mexico City's Zócalo under architect José Damián Ortiz de Castro struck it about 40 centimeters below the surface.",
+          "The Mexican scholar Antonio de León y Gama arrived at the site and published one of the first treatises on Mexican archaeology in 1792, arguing for the stone's genuine artistic and scientific value against contemporaries like the naturalist Buffon, who had dismissed the artistic capacities of people born in the Americas. The stone was mounted on the exterior wall of the Metropolitan Cathedral in 1791, where Alexander von Humboldt studied it in 1803, and stayed there until 1885, when it moved to the Monolith Gallery of Mexico City's Archaeological Museum. It has been in the National Museum of Anthropology since 1964, where it now anchors the museum's Mexica Hall."
+        ]
+      },
+      {
+        "heading": "Calendar or altar? The stone's function is still argued",
+        "body": [
+          "León y Gama's original study treated the stone chiefly as a solar instrument, a reading reinforced by von Humboldt and, for decades afterward, by the object's popular nickname, the Aztec Calendar Stone. Alfredo Chavero corrected a basic error in 1875, when he established that the stone had originally lain flat, not stood upright, and proposed reading it instead as a cuauhxicalli, a carved vessel associated with sacrificial ritual, not as a working timekeeping device.",
+          "That second reading has aged better. The stone's outer rings do carry the glyphs for the 20 days of the Aztec solar calendar, but those glyphs reference the cyclical structure of Mexica time conceptually; they don't track actual dates the way a functioning calendar would. The National Museum of Anthropology's own position today is that the monument was more likely used primarily as a ceremonial basin or ritual altar for gladiatorial sacrifice than as an astronomical or astrological reference, even though the object's popular name still advertises the calendar reading its own holding institution now considers secondary."
+        ]
+      },
+      {
+        "heading": "The central face: four scholars, four different identities",
+        "body": [
+          "At the center of the stone is a carved face, holding a human heart in each clawed hand, its tongue rendered as a stone sacrificial knife, framed inside the glyph for Nahui Ollin, Four Movement, the name the Mexica gave to their current cosmic era. Before the 1970s, nearly every scholar followed the early-twentieth-century readings of Eduard Seler and Hermann Beyer, who identified the face as Tonatiuh, the sun deity, a reading so widely repeated it gave the monument its popular English name.",
+          "Carlos Navarrete and Doris Heyden broke with that consensus in 1974, arguing instead that the clawed hands and knife-tongue point to Tlaltecuhtli, the earth deity, a reading Richard Townsend supported in his own 1979 study of Aztec imperial art, in part because he judged the earth reading more consistent with the surrounding Ollin glyph than a specifically solar one. Cecilia Klein proposed a third identity in 1976: Yohualtecuhtli, the \"Night Lord,\" whom Klein linked to the earth, darkness, and the underworld instead of daylight. Maya epigrapher David Stuart revisited the question again in a 2016 essay, adding a fourth possibility without resolving the other three: that the central face may function, at least in part, as a deified portrait of the ruler Moctezuma II, embedded structurally within the Ollin glyph's design rather than merely surrounded by it. No single identification has displaced the others in the scholarly literature, even though museum labels and popular sources still default to Tonatiuh, historically the oldest reading, not the most recent one."
+        ],
+        "image": {
+          "src": "/images/moctezuma-feather-headdress-weltmuseum.jpg",
+          "alt": "Moctezuma's feather headdress on display at the Weltmuseum in Vienna, showing concentric layers of long green quetzal tail feathers, blue cotinga feathers, and small gold ornaments arranged in a fan shape.",
+          "credit": "[Moctezuma's feather headdress](https://commons.wikimedia.org/wiki/File:Moctezuma%27s_feather_headdress,_ca._1515,_Mexico;_Weltmuseum,_Vienna_(3).jpg) by Richard Mortel, Weltmuseum Wien, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)"
+        }
+      },
+      {
+        "heading": "A second, unreconciled date carved into the same stone",
+        "body": [
+          "Modern scholarship dates the stone's carving to sometime between 1502 and 1520, based on the name glyph of the Mexica ruler Moctezuma II placed among the monument's four-suns squares. But the stone's outer ring also carries a separate date glyph, 13-Reed, which corresponds to the year 1479, during the reign of an earlier ruler, Axayácatl. One interpretation ties that glyph to the year the monument was actually carved, which would place its creation two decades or more before Moctezuma II's reign began. That earlier reading has not displaced the Moctezuma II dating in current scholarship, but the two glyphs on the same object have never been fully reconciled into a single, agreed carving date."
+        ]
+      },
+      {
+        "heading": "A headdress built from 400 quetzal feathers, and maybe not a headdress",
+        "body": [
+          "In Nahuatl, the object in Vienna is called a quetzalāpanecayōtl. Its size is usually given as roughly 130 by 178 centimeters, the figure used in the Getty Museum's 2017 catalog study of the piece, though Wikipedia's own summary infobox and some other secondary sources cite a smaller 116 by 175 centimeters instead. It is built from two layers of roughly 400 quetzal tail feathers, each about 55 centimeters long, backed by blue Cotinga amabilis feathers set with small gold plates shaped like half-moons, brown feathers from the squirrel cuckoo, pink feathers from the roseate spoonbill, and three bands of small gold ornaments. American anthropologist Zelia Nuttall gave the object its modern identification in a paper titled \"Standard or Head-dress?\", reading its shape as a stylized quetzal bird with its wings extended and tail pointing upward.",
+          "Nuttall's title captures the underlying dispute: earlier writers had proposed the object was a fan, an apron, or a mantle rather than a headdress at all, and one Mexican researcher has argued directly, in a letter published in the newspaper La Jornada, that it is in fact a priest's cape. Art historian Esther Pasztory has suggested the piece was worn for rituals impersonating the deity Quetzalcoatl. Others have read it as a military standard rather than personal regalia, carried on a pole strapped to a soldier's back, a reading supported by a similar object shown mounted on the back of the ruler Axayácatl in the Codex Cozcatzin. Harvard art historian Khadija von Zinnenburg Carroll has pointed out a further problem with attributing the object to any one ruler: Mexica rulers reportedly never wore the same crown twice, so even if this is a ruler's headdress, a single surviving example gives little basis for assigning it specifically to Moctezuma II rather than to any other Mexica ruler. No document has ever confirmed that it belonged to him."
+        ]
+      },
+      {
+        "heading": "Why Austria says it can't go home",
+        "body": [
+          "The headdress first appears in the written record in a 1596 inventory of the collection of Archduke Ferdinand II of Tyrol at Ambras Castle, near Innsbruck. It resurfaced as a museum object in the late nineteenth century, when geologist Ferdinand von Hochstetter identified it while assembling collections for Austria's new Natural History Museum, and it has belonged to the Museum of Ethnology, now the Weltmuseum Wien, since 1928, catalogued under inventory number 10402VO.",
+          "Organized calls for its return date to the 1990s. Between 1992 and 2002, the Mexican activist Xokonoschtletl Gómora led repeated protests in Vienna, and in 1992 the demonstrations grew large enough that police had to secure the museum's entrance. Between 2010 and 2012, Mexican and Austrian institutions ran a joint research and conservation project specifically to test whether the headdress could survive transport to Mexico. Conservators found the object, made almost entirely of organic material, significantly sensitive to vibration and heat, and the project concluded that it could not be moved without serious risk of damage. Mexico's government renewed its formal request for the headdress's return in 2020, but it remains in Vienna. A replica made in 1940 has stood in for the original at the National Museum of Anthropology in Mexico City ever since."
+        ]
+      },
+      {
+        "heading": "The same pattern, outside Mexica art",
+        "body": [
+          "Both objects sit at the same fault line: an institution's exterior label projecting settled certainty, with a live, published, and still-unresolved argument running underneath it. That pattern isn't unique to Mexica art. [Gustav Klimt's own body of work carries a parallel argument over ownership, playing out in restitution disputes over paintings looted during the Nazi era](/gustav-klimt/), in a different European museum system but over the same basic question of who actually gets to hold and display a contested object. The mandala offers a different kind of parallel: [the word and concept predate the specific images most people now associate with it by roughly two thousand years, a case where popular understanding lags behind a much older and more specific history](/mandala-art/). And for readers more interested in Mexican art history proper than in its Mexica precursors, [Diego Rivera's murals carry their own, very different dispute over who ultimately controls a commissioned work, including one Rockefeller destroyed before it was even finished](/diego-rivera/)."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the Aztec Sun Stone?",
+        "answer": "The Aztec Sun Stone (Piedra del Sol) is a 24,590-kilogram basalt disc carved by the Mexica, most likely between 1502 and 1520, and now displayed in the National Museum of Anthropology in Mexico City. It measures 3.6 meters in diameter and was rediscovered on 17 December 1790 during repaving work in Mexico City's Zócalo."
+      },
+      {
+        "question": "Is the Aztec Sun Stone actually a calendar?",
+        "answer": "Not in a functional, day-to-day sense. Its outer rings carry the glyphs for the 20 days of the Aztec solar calendar, which is why 18th- and 19th-century scholars nicknamed it the Aztec Calendar Stone, but those glyphs reference cyclical time conceptually rather than track real dates. The National Museum of Anthropology now describes it as more likely a ceremonial altar used in gladiatorial sacrifice than a timekeeping instrument."
+      },
+      {
+        "question": "Whose face is carved in the center of the Sun Stone?",
+        "answer": "Scholars disagree. Early-twentieth-century researchers Eduard Seler and Hermann Beyer identified it as Tonatiuh, the sun god, which is why the object is often called the Sun Stone. In 1974, Carlos Navarrete and Doris Heyden argued instead for Tlaltecuhtli, the earth deity, a reading Richard Townsend supported in 1979. Cecilia Klein proposed a third option in 1976, the night sun Yohualtecuhtli, and epigrapher David Stuart added a fourth possibility in 2016: that the face may also function as a deified portrait of the ruler Moctezuma II."
+      },
+      {
+        "question": "Did Moctezuma's headdress actually belong to Moctezuma II?",
+        "answer": "There's no direct evidence that it did. The object, held in Vienna's Weltmuseum, was identified as a quetzalāpanecayōtl, a stylized quetzal-feather headdress, by anthropologist Zelia Nuttall, but its association with Moctezuma II rests on tradition rather than documentation. Art historian Khadija von Zinnenburg Carroll has noted that Mexica rulers reportedly wore many different crowns, which makes attributing a single surviving example to one specific ruler difficult to support."
+      },
+      {
+        "question": "Why hasn't Austria returned Moctezuma's headdress to Mexico?",
+        "answer": "A joint Mexican-Austrian research and conservation project conducted between 2010 and 2012 concluded that the roughly 400-feather headdress is too sensitive to vibration and heat to survive transport safely. Mexico's government renewed its formal request for the object's return in 2020, but it remains in Vienna's Weltmuseum; a replica made in 1940 stands in for it at the National Museum of Anthropology in Mexico City."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Aztec sun stone",
+        "url": "https://en.wikipedia.org/wiki/Aztec_sun_stone"
+      },
+      {
+        "label": "Wikipedia: Moctezuma's headdress",
+        "url": "https://en.wikipedia.org/wiki/Moctezuma's_headdress"
+      },
+      {
+        "label": "Maya Decipherment (David Stuart): The Face of the Calendar Stone: A New Interpretation",
+        "url": "https://mayadecipherment.com/2016/06/13/the-face-of-the-calendar-stone-a-new-interpretation/"
+      },
+      {
+        "label": "Weltmuseum Wien: The feather headdress",
+        "url": "https://www.weltmuseumwien.at/en/the-feather-headdress/"
+      },
+      {
+        "label": "Smarthistory: Aztec feathered headdress",
+        "url": "https://smarthistory.org/feathered-headdress-aztec/"
+      },
+      {
+        "label": "Mexicolore: The Aztec Calendar Stone or Sun Stone",
+        "url": "https://www.mexicolore.co.uk/aztecs/calendar/calendar-stone"
+      }
+    ]
   }
 
 ];
