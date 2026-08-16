@@ -4340,6 +4340,127 @@ export const guides: Guide[] = [
         "url": "https://eric.ed.gov/?id=EJ750798"
       }
     ]
+  },
+
+  {
+    "slug": "baroque-paintings",
+    "category": "Painting",
+    "title": "Baroque Paintings: What Two Signature Works Still Can't Settle",
+    "description": "Caravaggio's Calling of St. Matthew and Gentileschi's Judith define Baroque drama, yet scholars still dispute who Matthew is and what Judith's violence means.",
+    "published": "2026-08-16",
+    "updated": "2026-08-16",
+    "coreSummary": "Baroque painting is usually taught through a checklist, tenebrism, dramatic movement, emotional intensity, but the two works most often used to demonstrate those qualities carry real, unresolved scholarly disputes underneath the surface description. In Caravaggio's The Calling of Saint Matthew (1599–1600), art historians still disagree on which man at the table is actually Matthew, a debate running from Irving Lavin's 1993 reinterpretation to a 2026 study by Jürgen Müller arguing Caravaggio built the ambiguity on purpose; a separate 2009–2010 computer-graphics study by David Stork and Gabor Nagy tested whether the painting's light is physically plausible and found the evidence consistent with more than one real-world setup, without settling on either. In Artemisia Gentileschi's Judith Slaying Holofernes, painted in two versions after her 1612 rape trial against Agostino Tassi, biographer Mary Garrard's reading of the painting as \"a cathartic expression of the artist's private, and perhaps repressed, rage\" has been directly challenged by art historian Griselda Pollock, who argues for a more indirect relationship between the picture and Gentileschi's own testimony.",
+    "image": "/images/caravaggio-calling-of-saint-matthew.jpg",
+    "imageAlt": "The Calling of Saint Matthew by Caravaggio, 1599-1600, showing Christ pointing into a dim tavern room at a group of men counting money at a table, a shaft of light cutting across the wall above them.",
+    "imageCredit": "[The Calling of Saint Matthew](https://commons.wikimedia.org/wiki/File:Caravaggio,_Michelangelo_Merisi_da_-_The_Calling_of_Saint_Matthew_-_1599-1600_(hi_res).jpg), Caravaggio, 1599–1600, San Luigi dei Francesi, Rome, public domain",
+    "sections": [
+      {
+        "heading": "A style usually taught as a checklist",
+        "body": [
+          "Most introductions to Baroque painting reach for the same short list: chiaroscuro, dynamic diagonal composition, heightened emotion, a single dramatic instant caught mid-action. The list isn't wrong, but it treats the two paintings most often used to illustrate it, Caravaggio's The Calling of Saint Matthew and Artemisia Gentileschi's Judith Slaying Holofernes, as settled examples rather than as objects still generating live academic argument. Neither is settled. Art historians disagree about which figure in Caravaggio's picture is actually Matthew, a debate that produced a new academic reinterpretation as recently as 2025–26. A separate team of researchers spent a peer-reviewed paper trying to determine whether the light in the same painting could have come from a real window in Caravaggio's studio. And the two versions of Gentileschi's Judith sit at the center of a decades-long argument among named, published scholars over how literally to read the picture against the rape trial that followed her 1611 assault.",
+          "None of that undermines the standard description of Baroque painting. It sharpens it. The style's defining trick, making a viewer feel present at one unrepeatable moment rather than looking at a static allegory, works so well in both paintings that historians are still arguing about the specific facts inside that moment more than four centuries later."
+        ]
+      },
+      {
+        "heading": "Caravaggio's Calling of St. Matthew: a commission built on somebody else's money",
+        "body": [
+          "The French cardinal Matthieu Cointerel (Italianized as Contarelli) left funds and instructions in his will for a chapel decorated around scenes from the life of his namesake, Saint Matthew, inside the church of San Luigi dei Francesi in Rome. The dome went first, painted in a late-Mannerist style by Giuseppe Cesari, who had once employed Caravaggio and was among the most sought-after painters in the city. Cesari became too busy with royal and papal commissions to finish the side walls, and Cardinal Francesco Maria del Monte, Caravaggio's own patron, intervened to secure the commission for him instead. The contract for the two large canvases, the Calling and its counterpart, The Martyrdom of Saint Matthew, is dated July 1599, with final payment recorded in July 1600. It was Caravaggio's first major public commission and his first painting with more than a handful of figures; the finished canvas measures 322 by 340 centimeters.",
+          "The scene illustrates a single verse, Matthew 9:9: Christ enters a dim room and calls a tax collector named Matthew away from his work. Caravaggio sets it at a table where several men in contemporary dress are counting money, Christ and Peter having just stepped into the room from the right. A shaft of light cuts across the wall above the table and picks out the faces of the men looking toward Christ's outstretched hand. Nothing else in the room is especially illuminated."
+        ]
+      },
+      {
+        "heading": "Who is Matthew? Historians still don't agree",
+        "body": [
+          "Most writers on the painting take the bearded man seated in the middle of the table to be Matthew, on the grounds that he points to his own chest as if asking \"Me?\", and that the same bearded model plays Matthew unambiguously in both of Caravaggio's other two canvases for the same chapel. Art historian Irving Lavin complicated that reading in a 1993 essay, arguing the bearded man is actually pointing past himself at the young, head-down figure counting coins at the far end of the table, and that the picture captures the instant just before that younger man looks up to notice Christ has entered the room. Other scholars have proposed that the ambiguity is deliberate rather than an accident of composition. A 2025–26 study by the German art historian Jürgen Müller, presented at the Kunsthistorisches Institut in Florence and published by Brill, goes further still: Müller argues Caravaggio is actively misleading the viewer about Matthew's identity, building the argument on textual sources, including writings by Erasmus of Rotterdam already circulating in Italian translation, that earlier readings of the painting hadn't considered.",
+          "The debate has an unusual afterlife. Pope Francis wrote in his 2025 memoir Hope that this was his favorite painting, recalling praying in front of it in Rome years before his election, and he took his papal motto, miserando atque eligendo (\"by having mercy, by choosing him\"), directly from a homily about the scene it depicts. A pope built part of his public identity around a gesture that professional art historians still can't agree how to read."
+        ],
+        "image": {
+          "src": "/images/gentileschi-judith-slaying-holofernes-uffizi.jpg",
+          "alt": "Judith Slaying Holofernes by Artemisia Gentileschi, Uffizi version, c. 1620, showing Judith and her maidservant pinning down and beheading Holofernes on his bed, blood spraying across the sheets.",
+          "credit": "[Judith Slaying Holofernes](https://commons.wikimedia.org/wiki/File:Artemisia_Gentileschi_-_Giuditta_decapita_Oloferne_-_Google_Art_Project-Adjust.jpg), Artemisia Gentileschi, c. 1620, Uffizi Gallery, Florence, public domain"
+        }
+      },
+      {
+        "heading": "The physics behind Caravaggio's light",
+        "body": [
+          "Tenebrism, the extreme, near-total contrast between a brightly lit subject and an almost black surrounding field, is the specific technique Caravaggio is credited with pushing further than any painter before him, distinct from the broader, softer light-and-shadow modeling called chiaroscuro that other Baroque painters used more gently. Researchers David Stork and Gabor Nagy tested how physically real that light actually is in a 2009–2010 study built around a computer graphics reconstruction of Caravaggio's studio. They modeled two competing hypotheses: that the light in the Calling came from a nearby artificial source, or that it came from distant sunlight. Their conclusion, published through the SPIE/IS&T Electronic Imaging series with input from Metropolitan Museum of Art curators Keith Christiansen and Walter Liedtke, was carefully hedged rather than triumphant: the visual evidence in the painting \"can be consistent with local (artificial) illumination if Caravaggio painted his figures separately,\" adjusting each one's brightness to compensate for falloff, but the evidence \"is consistent with solar illumination only if the rear wall had particular reflectance properties.\" A puzzling upward-slanting shadow in the upper right corner, unremarked in the earlier art-historical literature, turned out to be explainable by either an outdoor roofline blocking sunlight or an indoor window catching a local light source, and the researchers stated outright that their results \"cannot be considered definitive.\"",
+          "That hedge is itself informative. Caravaggio's light reads, to most viewers, as simply real, as if a single window happened to be open at the perfect angle. The computer modeling shows that impression survives close physical scrutiny without confirming any one explanation for how he actually built it in the studio, which is closer to what a working illusion is supposed to do than a fully solved one."
+        ]
+      },
+      {
+        "heading": "Gentileschi's Judith: two versions, one trial",
+        "body": [
+          "Artemisia Gentileschi painted Judith Slaying Holofernes twice. The first version, now at the Museo di Capodimonte in Naples, dates to 1612–13 and measures 158.8 by 125.5 centimeters; the second, more polished version at the Uffizi in Florence followed roughly between 1613 and 1621, commissioned by Grand Duke Cosimo II de' Medici, who is thought to have seen the Naples canvas and requested a version for his wife, Maria Magdalena of Austria. Both show the same moment from the Book of Judith: Judith and her maidservant pinning the Assyrian general Holofernes to his bed as Judith drives a sword through his neck, blood spraying across the sheets in a way earlier depictions of the same subject, including one by Caravaggio himself, generally kept at a visual distance.",
+          "Gentileschi painted the first version in the years immediately following a documented assault. In 1611, when she was seventeen, she was raped by Agostino Tassi, a painter working with her father. The resulting 1612 trial ran seven months; Gentileschi was made to testify under torture with cords called sibille, tightened around her fingers, to test the truthfulness of her statement, and the roughly 300-page transcript survives today in Rome's Archivio di Stato. Tassi was convicted, though his sentence of exile was never enforced. The Florentine biographer Filippo Baldinucci, writing later in the same century, described the finished Judith as a work \"inspiring no little amount of terror.\""
+        ]
+      },
+      {
+        "heading": "What the violence means: a scholarly split, not a consensus",
+        "body": [
+          "The proximity of the trial to the painting produced an interpretive tradition that reads Judith as Gentileschi's stand-in and Holofernes as Tassi. Art historian Mary Garrard, whose 1989 monograph established Gentileschi as a serious subject of feminist art history, gave that reading its most direct statement, describing the painting as functioning as \"a cathartic expression of the artist's private, and perhaps repressed, rage.\" Griselda Pollock has pushed back on how literally to take that connection, arguing the painting should instead be \"read less in terms of its overt references to Artemisia's experience than as an encoding of the artist's sublimated responses to events in her life and the historical context in which she worked,\" a more indirect relationship than Garrard's phrasing implies. Art historian Marcia Pointon has approached the same picture through its formal technique rather than biography, arguing that Gentileschi's use of chiaroscuro is itself what generates the sense of Judith's physical power and moral weight in the scene.",
+          "More recent scholarship has generally moved away from reading the painting as a direct autobiographical transcript, focusing instead on Gentileschi's broader, sustained interest across her career in painting physically strong women as the active center of a scene rather than its passive subject, a pattern that shows up again in her other treatments of Judith, Susanna, and Cleopatra. The trial remains real, documented, and almost certainly relevant to how Gentileschi approached this specific subject at this specific moment in her life. What scholars still dispute is how direct a line to draw between the two, not whether one exists."
+        ]
+      },
+      {
+        "heading": "What actually makes these paintings baroque",
+        "body": [
+          "Set side by side, the two case studies point to the same underlying mechanism rather than a shared list of surface features. Both paintings stage a single, ongoing action rather than a static tableau, using light not simply to make a subject visible but to direct where a viewer's eye lands first and how urgently. Both use ordinary, physically specific bodies, tax collectors in contemporary dress, a servant straining against a struggling man, rather than the idealized figures of the High Renaissance that preceded them. And in both cases, that realism was convincing enough to generate real interpretive disagreement centuries later over what, exactly, the artist meant to show.",
+          "The same mythological violence shows up again in Peter Paul Rubens's Saturn, painted around 1636–38 for a royal hunting lodge with the same commitment to visceral, physically specific horror found in Caravaggio and Gentileschi. [This site has separately covered that painting's far more disturbing 19th-century descendant, Goya's Saturn Devouring His Son, and the real scholarly dispute over whether Goya painted it at all](/saturn-devouring-his-son/). Rembrandt extended Caravaggio's light-as-direction technique into an entirely different genre a generation later, in [the shaft of light Rembrandt uses to single out one captain's hand in a crowded militia portrait](/emphasis-in-art/). And for readers curious where the word \"Baroque\" itself came from, [it started as a term of outright abuse from 18th-century critics](/art-styles/), a separate and much stranger story than the paintings it eventually came to describe."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Baroque painting?",
+        "answer": "Baroque painting is the style that dominated European art through most of the 17th century, marked by strong light-and-dark contrast (chiaroscuro or its more extreme form, tenebrism), dynamic diagonal composition, heightened emotional intensity, and a preference for capturing a single dramatic instant rather than a static, composed scene. Caravaggio and Artemisia Gentileschi are among its defining Italian practitioners."
+      },
+      {
+        "question": "Who is Matthew in Caravaggio's Calling of Saint Matthew?",
+        "answer": "It's genuinely disputed. Most writers identify the bearded man in the middle of the table, who appears unambiguously as Matthew in Caravaggio's two other paintings for the same chapel. Art historian Irving Lavin argued in 1993 that the bearded man is instead pointing at the younger, head-down man at the table's end, making him Matthew. A 2025–26 study by Jürgen Müller argues the ambiguity is deliberate, drawing on textual sources by Erasmus of Rotterdam."
+      },
+      {
+        "question": "Was Caravaggio's lighting in the Calling of St. Matthew physically real?",
+        "answer": "Researchers David Stork and Gabor Nagy tested this with a computer graphics reconstruction of Caravaggio's studio, published through SPIE/IS&T's Electronic Imaging series in 2009–2010. They found the visual evidence consistent with either a nearby artificial light source (if Caravaggio adjusted each figure's brightness individually) or distant sunlight (if the rear wall had specific reflective properties), and stated their results \"cannot be considered definitive.\""
+      },
+      {
+        "question": "Is Judith Slaying Holofernes based on Artemisia Gentileschi's own rape?",
+        "answer": "Scholars disagree on how directly. Mary Garrard's influential 1989 reading calls the painting \"a cathartic expression of the artist's private, and perhaps repressed, rage\" following Gentileschi's 1612 rape trial against Agostino Tassi. Griselda Pollock has argued for a more indirect relationship, describing it as \"an encoding of the artist's sublimated responses\" rather than a literal transcript of the trial. Most recent scholarship reads it as connected to, but not a direct illustration of, that trial."
+      },
+      {
+        "question": "What's the difference between chiaroscuro and tenebrism?",
+        "answer": "Chiaroscuro is the general use of strong light-and-shadow contrast to model form and create depth, used across Renaissance and Baroque painting alike. Tenebrism is a more extreme version specifically associated with Caravaggio: a near-total, almost black background against which a brightly lit subject appears to emerge, with little gradual transition between the two."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: The Calling of Saint Matthew (identity-of-Matthew debate, commission history)",
+        "url": "https://en.wikipedia.org/wiki/The_Calling_of_Saint_Matthew"
+      },
+      {
+        "label": "Smarthistory: Caravaggio, Calling of St. Matthew",
+        "url": "https://smarthistory.org/caravaggio-calling-of-st-matthew/"
+      },
+      {
+        "label": "David G. Stork and Gabor Nagy, \"Inferring Caravaggio's studio lighting and praxis in The calling of St. Matthew by computer graphics modeling\" (SPIE/IS&T Electronic Imaging, 2009–2010, PDF)",
+        "url": "https://diatrope.com/stork/StorkNagy.pdf"
+      },
+      {
+        "label": "Kunsthistorisches Institut in Florenz: \"Who is Matthew? A New Interpretation of Caravaggio's Calling of St. Matthew\" (Jürgen Müller)",
+        "url": "https://www.khi.fi.it/en/aktuelles/veranstaltungen/2025/07/who-is-matthew.php"
+      },
+      {
+        "label": "The Conversation: Why 'The Calling of Saint Matthew' was Pope Francis' favorite painting",
+        "url": "https://theconversation.com/why-the-calling-of-saint-matthew-by-caravaggio-was-pope-francis-favorite-painting-an-art-historian-explains-255577"
+      },
+      {
+        "label": "Wikipedia: Judith Slaying Holofernes (Artemisia Gentileschi, Naples), dimensions, trial, and interpretation debate",
+        "url": "https://en.wikipedia.org/wiki/Judith_Slaying_Holofernes_(Artemisia_Gentileschi,_Naples)"
+      },
+      {
+        "label": "National Gallery, London: Artemisia's rape trial",
+        "url": "https://www.nationalgallery.org.uk/exhibitions/past/artemisia/artemisia-s-rape-trial"
+      }
+    ]
   }
 
 ];
