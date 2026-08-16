@@ -9,10 +9,10 @@
   },
   "https://umberlore.com/van-gogh-paintings/": {
     "submitted_date": "2026-08-02",
-    "verified_status": "pending",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202",
+    "verified_status": "stale_not_indexed",
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202 | 2026-08-17: Discovered but not crawled，discovered 02 Aug 2026，账龄15天，超过14天阈值判定为stale",
     "last_submitted_date": "2026-08-02",
-    "last_checked_date": "2026-08-12",
+    "last_checked_date": "2026-08-17",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/water-lilies-monet-series/": {
@@ -25,26 +25,26 @@
   },
   "https://umberlore.com/mona-lisa/": {
     "submitted_date": "2026-08-02",
-    "verified_status": "pending",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202. Resubmitted 2026-08-02 after content-quality-audit edit (added inbound link to what-is-a-gargoyle); Bing 200 / Yandex 202. Resubmitted 2026-08-03 after content-quality-audit edit (removed unverifiable '1907 Baedeker two asterisks' claim); Bing 200 / Yandex 202",
+    "verified_status": "stale_not_indexed",
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202. Resubmitted 2026-08-02 after content-quality-audit edit (added inbound link to what-is-a-gargoyle); Bing 200 / Yandex 202. Resubmitted 2026-08-03 after content-quality-audit edit (removed unverifiable '1907 Baedeker two asterisks' claim); Bing 200 / Yandex 202 | 2026-08-17: Discovered but not crawled，discovered 02 Aug 2026，账龄15天，超过14天阈值判定为stale",
     "last_submitted_date": "2026-08-03",
-    "last_checked_date": "2026-08-12",
+    "last_checked_date": "2026-08-17",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/gustav-klimt/": {
     "submitted_date": "2026-08-02",
-    "verified_status": "pending",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202",
+    "verified_status": "stale_not_indexed",
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202 | 2026-08-17: Discovered but not crawled，discovered 02 Aug 2026，账龄15天，超过14天阈值判定为stale",
     "last_submitted_date": "2026-08-02",
-    "last_checked_date": "2026-08-12",
+    "last_checked_date": "2026-08-17",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/famous-paintings/": {
     "submitted_date": "2026-08-02",
-    "verified_status": "pending",
-    "note": "umberlore-content-publishing; Bing 200 / Yandex 202",
+    "verified_status": "stale_not_indexed",
+    "note": "umberlore-content-publishing; Bing 200 / Yandex 202 | 2026-08-17: Discovered but not crawled，discovered 02 Aug 2026，账龄15天，超过14天阈值判定为stale",
     "last_submitted_date": "2026-08-02",
-    "last_checked_date": "2026-08-12",
+    "last_checked_date": "2026-08-17",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/abstract-art-first-painting/": {
@@ -57,7 +57,7 @@
   },
   "https://umberlore.com/pop-art/": {
     "submitted_date": "2026-08-03",
-    "last_submitted_date": "2026-08-03",
+    "last_submitted_date": "2026-08-16",
     "verified_status": "pending",
     "last_checked_date": "2026-08-06",
     "verified_method": "bwt_url_inspection"
@@ -191,6 +191,11 @@
   "https://umberlore.com/emphasis-in-art/": {
     "submitted_date": "2026-08-13",
     "last_submitted_date": "2026-08-13",
+    "verified_status": "pending"
+  },
+  "https://umberlore.com/baroque-paintings/": {
+    "submitted_date": "2026-08-16",
+    "last_submitted_date": "2026-08-16",
     "verified_status": "pending"
   }
 }
