@@ -142,5 +142,21 @@
       "https://umberlore.com/cloisonne/"
     ],
     "quota_used": "1 of shared account-wide daily quota (6th request this run)"
+  },
+  {
+    "date": "2026-08-16",
+    "action": "submitted",
+    "reason": "按队列脚本代理排序检查候选：pop-art/art-styles/frida-kahlo-paintings/daguerreotype/emphasis-in-art（08-13新发布）均已收录。改查Page indexing报告的'Discovered - currently not indexed'分类，命中fact-or-fiction，URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/fact-or-fiction/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/pop-art/",
+      "https://umberlore.com/art-styles/",
+      "https://umberlore.com/frida-kahlo-paintings/",
+      "https://umberlore.com/daguerreotype/",
+      "https://umberlore.com/emphasis-in-art/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
