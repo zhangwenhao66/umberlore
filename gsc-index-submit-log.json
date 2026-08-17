@@ -170,5 +170,16 @@
       "https://umberlore.com/venus-de-milo/"
     ],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-17",
+    "action": "submitted",
+    "reason": "今日新发布两篇：aztec-art与the-broken-column（umberlore-content-publishing定时任务当日两次运行）。URL Inspection分别确认均'URL is not on Google'，REQUEST INDEXING各自提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/aztec-art/",
+      "https://umberlore.com/the-broken-column/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
