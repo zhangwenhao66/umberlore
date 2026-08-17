@@ -786,3 +786,101 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "frank-lloyd-wright",
+  "last_audited": "2026-08-17",
+  "published_date": "2026-08-04",
+  "note": "站内34个slug中25篇从未审计过，4篇（frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream/frida-kahlo-paintings）published同为2026-08-04并列最早，用git log --reverse -G按实际首次提交commit时间戳排序（01:56<04:42<06:33<15:32），frank-lloyd-wright最早，选定。",
+  "article_specific_checklist": [
+    "Mendel Glickman \"Oh my God, I forgot the negative reinforcing!\" 引语与1937年1.75英寸挠度/1995年近7英寸挠度/4,380psi混凝土应力/41,720psi钢材应力等具体数字是否逐字准确",
+    "$11.5 million总修复费用与2002年3月11日完工日期是否准确",
+    "1,114件设计作品/532件建成的统计是否准确",
+    "Guggenheim博物馆13年设计周期/749张图纸是否准确",
+    "Robie House两次拆除威胁(1941/1957)与1991年AIA评选是否准确；现当代艺术家版权风险专属维度——Wright卒于1959年（晚于本站1955年红线），配图是否为合规替代方案"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "未发现问题",
+      "detail": "下载Penn State工程案例研究原始HTML逐字核对：\"1.75 inches\"挠度、Glickman引语\"Oh my God, I forgot the negative reinforcing!\"、\"4,380 psi\"（混凝土应力vs 5,000 psi极限强度）、\"41,720 psi\"（钢材应力vs 42,000 psi屈服强度）、\"8 bars\"vs推荐16 bars，全部逐字匹配。WebSearch多信源交叉核实$11.5 million总修复费用与2002年3月11日完工日期准确。curl核对fallingwater.org官方Facts页确认1,114件设计/532件建成、$35,000估算/$148,000实际造价/$11,300建筑师费、557块石板编号复位细节，全部逐字匹配。WebSearch核实Guggenheim 1943年委托/13年设计周期/749张图纸、Wright 1959年4月9日去世（早museum开馆5个月）、Robie House 1941/1957两次拆除威胁与1991年AIA评十大最重要20世纪建筑，均准确。未发现任何编造引语或时间线错误。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "10条sources全部为Frank Lloyd Wright Foundation/Frank Lloyd Wright Trust/Fallingwater.org官方页/Penn State College of Engineering学术案例研究/misfits'architecture独立研究博客/Professional Roofing行业期刊/Salone del Mobile设计出版物，无模糊归因表述。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "确认问题，已修复",
+      "detail": "WebSearch发现Fallingwater在2023-2026年间进行了一次独立于2002年结构性修复的$700万\"World Heritage Preserved\"外围维护项目（屋顶更换/钢窗保护/近12吨灰浆注入防水），已于2026年3月14日90周年重新开放；直接curl fallingwater.org官方World Heritage Preserved博客页确认项目名称、时间线、\"近12吨灰浆\"数字（比多个二手新闻源的\"11.5吨\"更准确，采用官方数字非二手数字）。原文2026-08-04发布，五个月后仍未提及这次广受报道（Dezeen/illustrarch/parametric-architecture等多方报道）的维护项目，与文章自身\"monitoring since 2013...has held\"这种\"带读者到当下\"的preservation叙事框架不符。独立复核agent判定CONFIRMED为时效性/完整性问题（非事实性错误——现有内容仍全部准确，2002年结构修复的描述不受影响），建议窄范围补充1-2句且不改动结构，已采纳。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch核实\"Frank Lloyd Wright Fallingwater cantilever engineering failure\"等查询，SERP由独立工程博客/案例研究（Penn State、structural.net等）主导，未见Wikipedia/thecollector.com/artincontext.org占据前排。none of the results做本文Robie House/Fallingwater/Guggenheim三建筑结构性比较框架（\"one philosophy, three different structural bets\"），本文提供真实增量。"
+    },
+    {
+      "dimension": "SEO 技术审计",
+      "status": "确认问题，已修复",
+      "detail": "直接抓取线上页面HTML确认渲染后title达90字符（原始78字符+\" | UmberLore\"后缀）、description 170字符。用`check_seo_field_stats.py`核算：title在全站34篇中z=2.37（全站最高值，均值60.3/标准差7.4），远超此前已判定\"边界内可接受\"的最长先例andy-warhol（渲染82字符）；description z=1.61（均值160.3/标准差6.0）。独立复核agent核算像素宽度：90字符title约800-900px，远超~600px安全阈值，且比andy-warhol先例多出30-50%不属于同一容差范围内的重复出现，判定CONFIRMED需缩短；170字符description与167字符先例像素差可忽略（约25-35px），`z=1.61`未达强异常阈值，判定不需处理。已将title从\"Frank Lloyd Wright: Organic Architecture and the Cantilever That Nearly Failed\"（78/90字符）改为\"Frank Lloyd Wright: The Cantilever That Nearly Failed\"（53/65字符），重新跑`check_seo_field_stats.py`确认z=-0.96回到正常范围；description未改动。canonical自指；单一H1；5个section H2+FAQ H2共6个无跳级；3个schema区块（Article/FAQPage/BreadcrumbList）经线上curl确认存在；9张图片全部有alt文本；ads.txt正确指向pub-5245502795720653。"
+    },
+    {
+      "dimension": "GEO 审计（99分制11维度）",
+      "status": "未发现问题，自评96/99（阈值80，达标）",
+      "detail": "权威原文引语16/16（10条机构级来源，全部核实准确）；统计数据完整性14/14（年代/psi应力值/挠度英寸数/造价/图纸张数/设计年数等数据极密集）；可引用性12-13/13（coreSummary+6条FAQ均自包含）；结构规范性12/12（5节+FAQ无跳级）；表达流畅度9/10；语义密度7-8/8；权威信号6/8（机构引用扎实，同站已知系统性短板——缺作者专业背景credential展示，非本文独有）；专业术语6/6（cantilever/post-tensioning/negative reinforcing/yield strength/ultimate strength/psi/girder/formwork准确使用）；鲁棒性5/5（核心论断均有一手机构案例研究支撑，经核实无失实）；跨域连接4/4（2条inbound回链来自st-peters-basilica/sagrada-familia+2条outbound至what-is-a-gargoyle/abstract-art-first-painting，逐条核对桥接句与目标文章实际内容一致；Architecture分类仅4篇≤6篇轮转窗口，非孤儿页）；易懂表达3/3。此为审计员基于站内既有99分制标准自评，未使用独立工具复验。"
+    },
+    {
+      "dimension": "早期内容AI味补漏（humanizer + avoid-ai-writing，因published 2026-08-04早于8/7技能接入日强制复检）",
+      "status": "未发现问题",
+      "detail": "机械扫描全文：em-dash/en-dash/花体引号/加粗均0处，AI高频词（delve/crucial/testament/tapestry/pivotal/vibrant/foster/enhance/underscore/showcase/intricate/interplay/robust/seamless等）0命中，\"landscape\"3处命中均为原文引语（Wright本人\"the building with landscape and site became inevitably one\"）或字面地理描述（\"the Midwestern landscape\"）非隐喻误用，判定为人类/已去AI味写作。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题（一处沙箱网络假阳性已排除）",
+      "detail": "10条sources逐条curl实测：9条200；misfitsarchitecture.com因沙箱代理TLS握手在15秒超时返回000（http明文301跳转正常，仅https握手超时），WebSearch交叉核实确认页面存活且内容（\"Architectural Myths #12: The Daring Cantilever\"，含Walter Hall 8→16 bars归属细节）与本文引用完全匹配，判定为沙箱网络环境假阳性非真实死链，与此前审计中Wiley DOI/MoMA藏品页403同类判例口径一致。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep全站guides.ts确认2条inbound回链：st-peters-basilica（\"the gap between what Frank Lloyd Wright drew for Fallingwater and what his engineer quietly had to add to keep it standing\"）、sagrada-familia（\"the architect's own engineer left reinforcing steel out of the cantilevers and the error went uncorrected for 65 years\"），逐条核对桥接句与本文内容准确对应（65年数字与本文一致）。本文自身2条outbound链接：/what-is-a-gargoyle/（功能vs装饰主题桥接句核实准确）、/abstract-art-first-painting/（藏馆目录覆盖原始标注主题桥接句核实准确）。Architecture分类现有4篇文章，未超过pickRelatedGuides()的6篇轮转窗口阈值，非孤儿页。"
+    },
+    {
+      "dimension": "Schema 数据一致性",
+      "status": "未发现问题",
+      "detail": "Article/FAQPage/BreadcrumbList均在构建时直接从guide对象字段动态生成JSON-LD，架构上不存在漂移风险。修复后重新build确认dist产物中Article.headline与dateModified均已同步反映新title与2026-08-17。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "Wright本人1959年4月9日去世，晚于本站1955年版权风险分界线，理论上落入\"146个高风险词\"逻辑的边缘案例。但全文正文配图全部为建筑实景照片（Fallingwater/Robie House/Guggenheim外观），非绘画/雕塑等作品复制图像，符合本站既定替代方案（\"1955年后去世艺术家用建筑照代替作品图\"，见umberlore-content-publishing SKILL.md第111-117行），且美国17 USC 120(a)对公共场所可见建筑物摄影本就有独立于建筑设计版权的合法性（区别于绘画/雕塑复制品无此摄影豁免）。未发现问题。"
+    },
+    {
+      "dimension": "配图可用性与版权（本站专属重点）",
+      "status": "未发现问题",
+      "detail": "3张配图（fallingwater-exterior.jpg头图+robie-house-exterior.jpg/guggenheim-museum-exterior.jpg两张正文插图）本地文件均存在。逐张调用Wikimedia Commons API核实许可状态：Fallingwater外观（Lykantrop摄，Copyrighted free use）、Robie House（Stilfehler摄，CC BY-SA 4.0）、Guggenheim（Ajay Suresh摄自Flickr，CC BY 2.0），与guides.ts标注imageCredit完全一致。三张均为建筑实景摄影而非艺术家作品复制品，不触及本站\"现当代艺术家版权风险\"高风险类别（详见上一维度关于17 USC 120(a)建筑摄影豁免的说明）。"
+    },
+    {
+      "dimension": "AdSense 政策风险",
+      "status": "未发现问题",
+      "detail": "curl确认ads.txt内容为\"google.com, pub-5245502795720653, DIRECT, f08c47fec0942fa0\"，正确指向本矩阵共用发布者账号；/privacy/、/about/、/terms/均curl实测200。正文为建筑工程史内容，无裸露/暴力/敏感题材，标题无误导性。"
+    }
+  ],
+  "actions_taken": [
+    "十三维度深挖产生2条候选发现（SEO title/description长度、Fallingwater 2023-2026维护项目遗漏），均已spawn独立全新上下文agent复核，2条均正常完成无卡死",
+    "独立复核确认title长度需缩短（CONFIRMED），description维持不变（NOT CONFIRMED需处理）；已将title从78/90字符改为53/65字符，重新跑check_seo_field_stats.py确认z从2.37降至-0.96",
+    "独立复核确认Fallingwater 2023-2026维护项目遗漏为真实时效性问题（CONFIRMED），在Fallingwater工程修复段落末尾追加2句说明（World Heritage Preserved项目范围+2026年3月14日重新开放），sources数组新增fallingwater.org官方来源条目；追加文字经Skill(humanizer)+Skill(avoid-ai-writing)自查后修正了一处尾部否定结构（\"none of it touching\"改为完整从句\"without touching\"）",
+    "guides.ts该条目已有published字段（2026-08-04），跳过git历史回填流程，直接将updated字段由2026-08-04改为2026-08-17",
+    "npm run build（49页无报错）+npm run test（17/17通过）修复前后各跑一次验证；build产物直接grep确认新title、新段落、Article schema headline/dateModified均已同步，旧title文本归零",
+    "commit b4879b0（仅src/data/guides.ts）push；轮询约45-60秒后确认线上/frank-lloyd-wright/已反映新title与新段落",
+    "IndexNow提交/frank-lloyd-wright/（Bing 200 / Yandex 200），indexnow-submit-log.json对应条目已更新（单独commit 81268ae）",
+    "内容发布日志.md追加审计记录（commit 83a0259），明确标注\"本条为content-quality-audit审计更新，非新发布\"",
+    "内容通用教训库.md追加复发记录（title/description长度离群值问题，非git追踪文件，直接文件编辑）"
+  ],
+  "seo_score": "seo-audit通过（title从90字符渲染缩短至65字符，check_seo_field_stats.py z-score从2.37降至-0.96；description 170字符经独立复核判定容差内不需处理；canonical自指；单一h1；6个h2无跳级；三个schema区块均基于guide对象动态生成有效；9张图alt齐全；10条外链9条200+1条misfitsarchitecture.com沙箱TLS超时经WebSearch交叉核实为假阳性）",
+  "geo_score": "自评96/99（阈值80，达标），11个维度中跨域连接4/4、专业术语6/6、鲁棒性5/5均为满分，权威信号6/8为站级系统性短板",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
