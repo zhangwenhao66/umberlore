@@ -44,3 +44,36 @@ Summary: 9 checked, 2 cleared both bars (verifiable activity within ~3 months + 
 查 9 档，2 档通过双重门槛（Art of Darkness、Who Arted），2 封 pitch 撰写+humanizer+独立复核通过+已发送，0 封因问题/卡死留待处理。
 
 
+
+## 2026-08-16 (third run)
+
+### Cooldown check
+
+Art of Darkness (artofdarkpod@gmail.com) and Who Arted (whoartedpodcast@gmail.com) were both sent 2026-08-04, 12 days before this run — still inside the 14-day cooldown per the task's own bookkeeping. Not re-contacted this round.
+
+### Fresh angle identified (not yet used in a pitch)
+
+`src/data/guides.ts` has grown from 9 articles (8/4 baseline) to 31. Read the full current list and picked a genuinely new angle, distinct from the two already-used ones (Klimt/Bloch-Bauer restitution law, Notre-Dame gargoyle history): **`saturn-devouring-his-son`** (published 2026-08-05, updated 2026-08-16) — Goya's Black Paintings are usually treated as an unambiguous, fully-documented late-career masterpiece, but the article lays out three separate open questions the popular story skips over: (1) in 2003 Madrid historian Juan José Junquera used property deeds to argue the room housing this and eight other Black Paintings didn't exist yet when Goya owned the house, and proposed Goya's son Javier as the real painter — a claim most scholars reject but that no forensic study has ever definitively closed either way; (2) the Prado's own published encyclopedia entry (Valeriano Bozal) and Goya scholar Fred Licht have both separately argued the figure being eaten may not even be a child, based on body proportions and the absence of any of Saturn's usual mythological attributes; (3) an 1828 inventory lists fifteen Black Paintings, one more than reached the Prado, with the missing one's ownership trail and even its authenticity independently disputed. This is held in reserve for the next candidate that clears both bars — not used in a pitch this round (see below).
+
+### Podcasts checked this round (12 total, all new — none previously ruled out)
+
+| Podcast | Status found | Verdict |
+|---|---|---|
+| Jo's Art History Podcast (Jo McLaughlin) | Explicit, ideal guest bar ("you don't need to be an expert on your topic"). But direct RSS/Apple Podcasts check shows only one episode in the last ~10 months: a "SEASON 5: Welcome to Saints and Their Signifiers!" trailer on 2026-06-02, preceded by an 8-month silent gap back to 2025-10-28, and nothing published since (2.5 months of silence as of this check, no forward-looking evidence of continued production found). | **Skip — cadence too sparse/unconfirmed to call genuinely active; current season is also fully thematic on Christian saint iconography, which the Goya angle doesn't fit even if it resumes** |
+| Art of History (Amanda Matta) | Site framing is "no prerequisites required" for episodes. Contact confirmed: artofhistorypod@gmail.com. But same pattern as above via Apple Podcasts dates: last episode 2026-06-06, preceded by scattered episodes (2025-09, 2025-11) then a ~6-month gap, nothing since. Directory claim of "new episodes every month" doesn't match the observed dates. | **Skip — can't confirm genuinely ongoing production despite the friendly guest framing** |
+| Is It? The Art Mystery Podcast (Prof. Noah Charney) | Brand new 2026 show, topically a near-perfect match (each episode tests a painting's disputed/uncertain authorship against expert + AI analysis) — closest topical fit found this round for the Saturn angle. | **Skip — guest bar explicitly requires "a specialist in the artist in question" plus a credentialed AI-authentication expert; same structural mismatch as The Art Law Podcast (already skipped 8/4) — would require fabricating expertise Owen doesn't have** |
+| Art Fraud (host Alec Baldwin, reporting by Vanity Fair's Michael Shnayerson) | Active, narrative true-crime show about the Knoedler forgery scandal. | **Skip — celebrity-hosted, closed/produced narrative show, no independent-guest-pitch pathway** |
+| The Mystery Behind Art History | Listed in directories as "weekly," but no confirmable 2026 content found; most recent verifiable episodes date to 2020. | **Skip — 无法确认当前是否仍在更新，按"不能确认活跃"处理** |
+| ArtHoles (Michael Anthony) | Small solo-format show (33 episodes), host + occasional early co-host. | **Skip — no guest-interview slot to pitch into** |
+| The Italian Renaissance Podcast (Rocky Ruggiero) | Most recent confirmed guest episode (playwright discussing a Michelangelo-themed play) dates to April 2026, ~4 months before this check — outside the ~3-month freshness bar. | **Skip — stale by freshness bar; also a period mismatch (Renaissance specialist show, Goya is ~300 years later)** |
+| Talk Art (Russell Tovey & Robert Diament) | Very active, well-established, 370+ episodes. | **Skip — guest roster is major international artists/gallerists (Olafur Eliasson, Luc Tuymans, Louis Fratino); no realistic path for an independent content-site writer, would be forcing the fit** |
+| Dialogues: The David Zwirner Podcast | Active, gallery-produced. | **Skip — guests are gallery-affiliated figures (e.g. a foundation director); closed booking tied to the gallery's own artist roster, not an open-guest show** |
+| Raw Material (SFMOMA) | Active, institutional museum production. | **Skip — features practicing artists working in various media on assignment from the museum, not an open guest-pitch format** |
+| The Art Engager (Claire Bown) | Checked for guest format (49 guest episodes + 101 solo across 5 years). | **Skip — show has concluded; final episode has already aired** |
+| Stories in Colour (National Gallery, London) | Weekly limited series, guests included writer Victoria Finlay. | **Skip — finite series that already finished, concluded 2026-07-08** |
+
+### Outcome
+
+0 of 12 newly-checked podcasts cleared both bars this round. No pitch was drafted, humanized, reviewed, or sent this run — nothing to send it to. Two candidates (Jo's Art History Podcast, Art of History) had the right guest-bar *framing* ("no expertise required") but failed the activity-confirmation bar on inspection of actual publish dates, not just directory claims; one (Is It? The Art Mystery Podcast) was a strong topical fit for the new Saturn/Goya angle but failed the credentials bar the same way The Art Law Podcast did in the first run. Nothing here needs Owen's personal handling — this is a supply problem (thin, mostly-professional or intermittently-active niche), not a blocked-channel problem, so nothing was added to `待Owen处理事项.md`.
+
+The Saturn Devouring His Son / Goya authorship-dispute angle above is unused and available for the next run that turns up a qualifying candidate.

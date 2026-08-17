@@ -129,5 +129,35 @@
       "Photography history / decorative arts 细分渠道 — 本轮未找到强niche fit的开放渠道"
     ],
     "owen_todo": []
+  },
+  {
+    "date": "2026-08-16",
+    "site": "umberlore",
+    "run_type": "weekly trafficsite-guest-post-outreach",
+    "gsc_check": "Ran python3 gsc_query.py umberlore (last 28 days). Top pages at position 5-40 with meaningful impressions: what-is-a-gargoyle (206 impr, pos 12.0), st-peters-basilica (199, pos 13.1), gustav-klimt (140, pos 11.6, already used in two prior pitches), diego-rivera (129, pos 16.9, not yet used in any pitch), andy-warhol (105, pos 54.0), daguerreotype (78, pos 62.2), water-lilies-monet-series (73, pos 39.6), fallen-angel-painting (58, pos 14.2), abstract-art-first-painting (53, pos 26.2). Selected diego-rivera as this round's topic source since it had strong impressions, a good SERP position, and had not been used in any prior pitch.",
+    "backlog_recheck": "Read outreach-drafts.md and guest-post-outreach.json first. Confirmed the most recent pitch (ARCAblog, sent 2026-08-06, Message ID 19fd7279d5954967) was already reviewed and sent; no pending drafted-but-unsent pitch existed. Went straight to fresh research per task instructions.",
+    "new_channels_researched": [
+      {
+        "name": "Arts, Artists, Artwork",
+        "url": "https://artsartistsartwork.com/ ; guidelines https://artsartistsartwork.com/contribute-to-our-art-community-guest-article-guidelines/",
+        "status": "sent 2026-08-16",
+        "notes": "真实且活跃的艺术画廊/博客站(同时售卖原创艺术品),2026年内多篇艺术史文章(Duchamp 2/27, Group of Seven 2/21, Kandinsky 'The First Abstract Painter?' 1/2), Facebook页面搜索时活跃于1小时内,满足'genuine recent activity'门槛。投稿指南要求邮件至support@artsartistsartwork.com,主题必须精确为'Guest Article Query for Arts Artists Artwork',正文需说明选题/作者适配性/拟推广站点(带反链)/并点名提及一篇已读博客文章。指南页本身有Cloudflare人机验证挡住(未尝试绕过,完成CAPTCHA属禁止操作),全部指南细节来自WebSearch摘要引用的页面文字。选题:Diego Rivera洛克菲勒中心壁画(Man at the Crossroads)被毁事件,对比同年仍完好保留、后被列为国家历史地标的Detroit Industry Murals,完全基于已发布的diego-rivera文章。刻意避开该站已发表的Kandinsky'第一位抽象画家'选题(与UmberLore自己的abstract-art-first-painting文章话题重叠,尊重对方'不要投已覆盖话题'的规则)。"
+      }
+    ],
+    "sent": [
+      {
+        "target": "Arts, Artists, Artwork",
+        "to": "support@artsartistsartwork.com",
+        "message_id": "1a00943b2cdfccb7",
+        "from_header_confirmed": "UmberLore <contact@umberlore.com>",
+        "review_process": "spawned an independent review sub-agent (fresh context, checklist only) but it did not return within the expected window; per standing watchdog policy, self-verified the full checklist in parallel (dedup via gmail_send.py list — both to:support@artsartistsartwork.com and to:artsartistsartwork.com returned [], factual grounding re-checked line by line against src/data/guides.ts diego-rivera entry, submission-rule match, humanizer + avoid-ai-writing re-audit). Self-review caught and fixed two precision issues before send: 'Nelson Rockefeller commissioned it' corrected to 'The Rockefeller family commissioned it, and Nelson Rockefeller approved Rivera's sketch' (guides.ts credits Abby Aldrich Rockefeller with proposing Rivera, 'the Rockefellers' plural with approving the sketch); 'that same year' (used twice) corrected to 'that same stretch of months' (guides.ts frames the Detroit/Rockefeller overlap as 'the same ten-month stretch,' July 1932-May 1933, spanning two calendar years not one). Also added an explicit named mention of 'Arts, Artists, Artwork' in the opening line to satisfy their 'mention the blog by name' submission rule, which the first draft missed. The independent review agent's result arrived roughly 2 minutes after the self-verification pass completed and returned 'VERDICT: can send', independently flagging the identical two precision issues plus the same blog-naming gap - all already fixed by that point, which corroborates the self-review rather than contradicting it. Sent text is the corrected version both reviews converged on.",
+        "known_defect": "none"
+      }
+    ],
+    "skipped": [
+      "ARCAblog / DailyArt Magazine / HistoryMedieval / ArtDHope Foundation - all previously sent (2026-08-04 and 2026-08-06), not re-contacted this round",
+      "Art Herstory / ArchDaily / The Magazine Antiques / Hyperallergic / Art in Context - previously judged real-but-poor-fit (2026-08-06), not re-researched this round"
+    ],
+    "owen_todo": []
   }
 ]

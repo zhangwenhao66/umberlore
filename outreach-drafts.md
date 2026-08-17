@@ -167,3 +167,58 @@ contact@umberlore.com
 umberlore.com
 
 **Outcome:** second independent review agent returned "can send." Sent 2026-08-06 via `gmail_send.py --from umberlore` to information@artcrimeresearch.org, Message ID `19fd7279d5954967`. Body file verified read before sending (first line was the greeting "Hi,", no leaked Subject line — checking for this explicitly after the earlier DailyArt Magazine defect).
+
+## Guest post pitch (2026-08-16 — weekly outreach run)
+
+### Pitch 5 — Arts, Artists, Artwork
+
+- URL: https://artsartistsartwork.com/ ; guidelines page https://artsartistsartwork.com/contribute-to-our-art-community-guest-article-guidelines/
+- GSC context: this round's topic sourced from `diego-rivera` (129 impressions/28 days, position 16.9 per `gsc_query.py umberlore`), a page not yet used in any prior pitch.
+- Contact: support@artsartistsartwork.com, subject line must be exactly "Guest Article Query for Arts Artists Artwork" per their published guidelines (verified via WebSearch-surfaced guideline text; the live guidelines page itself sits behind a Cloudflare "Verify you are human" checkbox challenge, which was not attempted or bypassed — completing CAPTCHAs is a prohibited action. All guideline details below come from WebSearch result snippets quoting the page text, not from a direct page load).
+- Activity check: real art gallery/blog with dated 2026 posts (Marcel Duchamp piece dated Feb 27 2026, Group of Seven piece Feb 21 2026, Kandinsky "The First Abstract Painter?" piece Jan 2 2026) and Facebook page activity within the hour of the search, satisfying the "genuine recent activity" quality bar.
+- Guidelines (per WebSearch snippets of the live guidelines page): query first via email with subject "Guest Article Query for Arts Artists Artwork," stating topic, writer's suitability, the site to be promoted with a backlink, and one specific post read on their blog (named). No account creation required for the query step. Full articles (if accepted) require 2 free-to-use sourced images per 1,500 words, one external backlink to the target site, and at least two internal backlinks to Arts Artists Artwork's own content — those apply only if/when they request a full draft, not to this initial query.
+- Angle: Diego Rivera's Rockefeller Center mural (Man at the Crossroads) and its destruction, contrasted with the surviving, still-controversial Detroit Industry Murals cycle — based entirely on the published `diego-rivera` article. Deliberately avoids their existing Kandinsky "first abstract painter" post (topic overlaps with UmberLore's own `abstract-art-first-painting` article, so that angle was skipped to respect their "don't pitch what we've already covered" rule and avoid content collision).
+- Fact-check: every claim in the pitch (Lenin portrait added by Rivera, discovered via a paint drip exposing it, Rivera's refusal, full $21,000 fee paid regardless, February 1934 chiseling, the Detroit Industry Murals vaccination-panel controversy and 2014 National Historic Landmark designation) is restated directly from the `diego-rivera` entry in `src/data/guides.ts`, no outside details added.
+- Independent review process: spawned a fresh-context review agent (checklist: dedup via `gmail_send.py list`, factual grounding against `guides.ts`, submission-rule match, template check, humanizer/AI-writing re-check). The agent did not return within the expected window, so per the standing watchdog policy I self-verified the full checklist myself in parallel: dedup queries (`to:support@artsartistsartwork.com` and `to:artsartistsartwork.com`) both returned `[]`, no prior contact. Self-review caught two precision issues in the first draft: (1) it said "Nelson Rockefeller commissioned it," but `guides.ts` credits Abby Aldrich Rockefeller with proposing Rivera and "the Rockefellers" (family, plural) with approving the sketch — corrected to "The Rockefeller family commissioned it, and Nelson Rockefeller approved Rivera's sketch"; (2) it said "that same year" twice for the Detroit and Rockefeller Center murals, but the article's own framing is "the same ten-month stretch" (July 1932–May 1933), spanning two calendar years — corrected to "that same stretch of months." Also added an explicit mention of "Arts, Artists, Artwork" by name in the opening line, since their guidelines require naming the blog, not just describing a post. After these fixes, the delayed independent review agent's result did arrive (completed ~2 minutes after the self-verification pass) and returned "VERDICT: can send," independently flagging the identical two precision issues (confirming they were real, not overcautious) plus the same blog-naming gap — all of which were already fixed by that point. Sent version below is the corrected text both reviews converged on.
+
+**Email (humanized + avoid-ai-writing pass applied, corrected after self-review + independent review):**
+
+Subject: Guest Article Query for Arts Artists Artwork
+
+Hi,
+
+Your Kandinsky piece on Arts, Artists, Artwork caught my eye, the one asking whether he really deserves credit as the first abstract painter. I write about that same kind of gap, between the tidy version of an art story and what the record actually shows, so I wanted to send a guest article query.
+
+I run umberlore.com, a site on visual art history, and the piece I'd want to write is about Diego Rivera's Rockefeller Center mural, Man at the Crossroads, and how it ended. The Rockefeller family commissioned it, and Nelson Rockefeller approved Rivera's sketch, then objected once Rivera added a portrait of Lenin partway through painting. The addition was discovered by accident, when a workman's paint dripped down the wall and exposed it underneath. Rivera refused to remove it. Rockefeller Center paid him his full fee anyway, then in February 1934 had workmen chisel the unfinished fresco off the lobby wall entirely. The part that makes it more than a one-line anecdote is the comparison: Rivera painted an equally controversial mural in Detroit within that same stretch of months, a Nativity scene reworked as a vaccination clinic that local clergy wanted destroyed too, and that one is still on the wall, now a National Historic Landmark. Same artist, same stretch of months, two patrons who made opposite calls once the backlash hit.
+
+The site work I do pulls from museum records, commission correspondence, and the artists' own letters instead of the secondhand version of a story, which seemed like a fit for what you're doing. I'd link back to the full sourced piece on umberlore.com.
+
+I can put together a full draft if the topic works for you.
+
+Owen Zhang
+contact@umberlore.com
+umberlore.com
+
+## Broken link outreach (2026-08-16 — trafficsite-broken-link-building, third run)
+
+### Pitch 5 — Marian University Library, Photography subject guide
+
+- Resource page: https://libguides.marian.edu/c.php?g=115953&p=752197 ("Online Resources" box on the Photography LibGuide)
+- Broken link: http://www.rleggat.com/photohistory/, anchor text "A History of Photography from its beginnings till the 1920s" (Robert Leggat's well-known 1999 online history-of-photography reference, cited elsewhere in academic literature). Confirmed dead by DNS, not just a timeout: both dns.google and cloudflare-dns.com return "lame delegation" / "No Reachable Authority at delegation rleggat.com" for the whole domain (not NXDOMAIN — the zone's nameservers themselves don't answer), meaning the domain registration/DNS hosting has lapsed entirely, not just moved. `curl -v` confirms "Could not resolve host."
+- Contact: cbalgeman@marian.edu (Caitlin Balgeman, the subject librarian listed on the guide's profile box). No prior contact found in this repo's logs or via `gmail_send.py list --query "to:cbalgeman@marian.edu"` / `"to:marian.edu"` (both empty).
+- Angle: UmberLore's `daguerreotype` article (published 2026-08-10, category Photography — the site's first article in this category) covers the same early-photography period Leggat's broad survey addressed, specifically the daguerreotype process and the 1838 Boulevard du Temple plate. It is a narrower, single-topic piece, not a full replacement for Leggat's multi-decade survey, and the email is worded to reflect that (offered as a possible replacement, not oversold as equivalent).
+- Other resource pages checked this run: 12 additional LibGuides/resource pages across Photography (daguerreotype/early-photography history) and Decorative Arts (cloisonné/enamel/metalwork) topics — see log for full list. All other externally-reachable links on those pages returned 200 or 403 (WAF/paywall, not counted). Two paths returned `000` (timeout) on live domains (imcpl.org, pbs.org/ktca) — not counted per the clean-404-or-dead-domain rule.
+
+**Email (humanized, passed through avoid-ai-writing):**
+
+Subject: Broken link on your Photography research guide
+
+I was going through the Photography research guide on the Marian University Library site and noticed one of the links under "Online Resources" no longer works. The entry for "A History of Photography from its beginnings till the 1920s" points to rleggat.com, and that domain's DNS registration looks to have lapsed entirely, not just moved to a new address, so there's nothing left to redirect to.
+
+If it's useful for the list, we recently put together a piece on daguerreotypes covering the same early stretch of photography that site addressed: what the process actually involved, why the 1838 Boulevard du Temple plate usually cited as the first photo of a person doesn't survive in its original state, and why the versions people reproduce today trace back to 1930s copies rather than the plate itself. It's here if you'd like to take a look: https://umberlore.com/daguerreotype. Either way, wanted to flag the dead link since you maintain the guide.
+
+Owen Zhang
+contact@umberlore.com
+umberlore.com
+
+**Outcome:** independent review agent returned "可以发送" (all 5 checks passed: no prior contact, DNS-confirmed dead domain, honest topical framing, genuine recipient, clean of AI-writing tells). Sent 2026-08-16 via `gmail_send.py --from umberlore` to cbalgeman@marian.edu, Message ID `1a0093d69f104a52`. Body file verified read before sending (first line was the opening sentence, no leaked Subject line).
