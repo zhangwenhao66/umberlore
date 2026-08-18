@@ -4801,6 +4801,119 @@ export const guides: Guide[] = [
         "url": "https://dia.org/collection/nocturne-black-and-gold-falling-rocket/64931"
       }
     ]
+  },
+  {
+    "slug": "mayan-art",
+    "category": "Non-Western Art",
+    "title": "Mayan Art: The Murals That Broke the 'Peaceful Maya' Myth",
+    "description": "Bonampak's 1946 discovery ended scholarly certainty that the Classic Maya were peaceful. A tomb found under the murals in 2010 still has no confirmed occupant.",
+    "published": "2026-08-18",
+    "updated": "2026-08-18",
+    "coreSummary": "Until 1946, the dominant scholarly picture of the Classic Maya, shaped by mid-twentieth-century Mayanist J. Eric S. Thompson, was of a peaceful civilization of priest-astronomers. That picture did not survive the discovery of the murals at Bonampak, a small Late Classic site in Chiapas that Lacandon Maya guides led American photographer Giles Healey to that year (accounts differ on whether two other American travelers, Herman Charles Frey and John Bourne, saw the site first). Painted across three rooms of Structure 1 around AD 790, the murals show a documented sequence of a dedication ceremony, a battle, the torture and sacrifice of captives, and a celebratory dance, unambiguous evidence of warfare and violence that upended the peaceful-Maya consensus almost overnight. The murals have kept complicating their own record since: of 281 painted figures, roughly a third carry name captions and a further tenth have caption spaces left conspicuously blank; a 2010 excavation beneath the torture scene uncovered the tomb of a headless man whose identity, captive or royal relative, has never been resolved; and muralist Heather Hurst, working on a modern documentation project, determined that a figure long assumed to be a male heir to the throne was, based on face paint and costume, a girl.",
+    "image": "/images/bonampak-murals-reproduction-mna.jpg",
+    "imageAlt": "A wide-angle reproduction of the Bonampak battle mural from Room 2, showing dozens of Maya warriors in elaborate feathered costumes in the chaos of combat, painted in reds, oranges, and blues, displayed at the Museo Nacional de Antropología in Mexico City.",
+    "imageCredit": "[Reproduction of Bonampak murals (panorama)](https://commons.wikimedia.org/wiki/File:Reproduction_of_Bonampak_murals_(panorama).JPG) by El Comandante, Museo Nacional de Antropología, Mexico City, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)",
+    "sections": [
+      {
+        "heading": "A word for a language family, not a people",
+        "body": [
+          "\"Mayan\" and \"Maya\" get used interchangeably in casual writing, but specialists draw a line between them: Mayan properly refers only to the family of roughly thirty related languages still spoken across Mexico and Central America, while Maya describes the people, their civilization, and their art. That distinction matters here because the art in question, the murals of Bonampak, did more than illustrate a vanished civilization. It overturned what scholars thought that civilization was."
+        ]
+      },
+      {
+        "heading": "Guides who already knew where it was",
+        "body": [
+          "In 1946, two Lacandon Maya men, Acasio Chan and José Pepe Chambor, led American photographer and documentarian Giles Healey to a small ruined city in the Chiapas rainforest. Healey had spent months living with and filming the Lacandon, who still visited the site's ancient temples to pray; the ruins were never lost to the people who lived nearby, only unseen by outsiders. Wikipedia's own account of the discovery notes that it isn't even settled who among the non-Maya saw the site first: two other American travelers, Herman Charles Frey and John Bourne, may have arrived before Healey, guided there the same way he was. What is agreed is that Healey was the first allowed to see and photograph the murals covering the walls of one of the site's three-roomed buildings, now known as Structure 1, the Temple of the Murals."
+        ]
+      },
+      {
+        "heading": "What the murals overturned",
+        "body": [
+          "The scholarly consensus Healey's photographs walked into had a specific author. Popularized by early explorers like John Lloyd Stephens and codified in the mid-twentieth century by Mayanist J. Eric S. Thompson, the \"peaceful Maya\" picture held that Classic Maya civilization was a benign society preoccupied with astronomy, calendrics, and ritual rather than conquest. Bonampak's murals argued the opposite in vivid color: Structure 1's three rooms depict, in sequence, a royal dedication ceremony, a battle involving more than a hundred combatants, the torture and sacrifice of captured warriors performed in public, and a celebratory dance shadowed by a further sacrifice. Ironically, the same 1955 Carnegie Institution publication that first brought the murals to wide scholarly attention listed Thompson himself as a co-author, alongside Karl Ruppert and Tatiana Proskouriakoff, putting the man most associated with the peaceful-Maya theory in the position of publishing the evidence that helped dismantle it."
+        ]
+      },
+      {
+        "heading": "A building that resists a single story",
+        "body": [
+          "Structure 1's three rooms don't tell one continuous story. Room 1 shows tribute, costuming, and a musical procession culminating in a dedication text; Room 2 shows the battle and its violent aftermath; Room 3 shows a dance and a ritual bloodletting. Art historian Claudia Brittenham, who has studied the murals extensively, has described them as three largely independent, self-contained narratives sharing some of the same characters rather than chapters of one plot, writing that the murals \"combine many familiar poses and themes into a work of new and striking complexity, demonstrating the power of art's ability to tell multiple and conflicting stories.\" The building's ruler, Yajaw Chan Muwaan, appears seizing a captive in Room 2 and presiding over the sacrifice of prisoners on its north wall, but his identity in Room 1 is not so clear: a caption space beside the central figure seated on the room's throne was left permanently blank, never filled in with a name."
+        ],
+        "image": {
+          "src": "/images/bonampak-structure1-interior-mural.jpg",
+          "alt": "The original, weathered Bonampak murals still on the walls at the archaeological site, showing faded but legible painted figures in procession against a blue-green background.",
+          "credit": "[Bonampak - 24 - 22](https://commons.wikimedia.org/wiki/File:Bonampak_-_24_-_22.jpg) by ProtoplasmaKid, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+        }
+      },
+      {
+        "heading": "Two-thirds of the people in the room have no name at all",
+        "body": [
+          "Across the three rooms, Bonampak's murals depict 281 human figures, painted with more than thirty distinct pigment combinations, which Brittenham has counted as more than in any other surviving Maya painting. Roughly a third of the 281 figures carry captions naming their titles or identities. A further tenth have caption spaces that were deliberately left blank, the kind of gap Brittenham points to as a mark of political uncertainty rather than an unfinished job. Slightly more than half were never captioned in the first place. Scholars have proposed several explanations for the blanks specifically, including deaths, political realignment among Bonampak's elite, or simple reluctance to commit a contested name to a permanent wall, but none has become the settled answer. The murals name the minority and leave the majority, and the identity of their own patron in one of the three rooms, unresolved."
+        ]
+      },
+      {
+        "heading": "A headless man under the torture scene",
+        "body": [
+          "In 2010, after a series of earthquakes between 2005 and 2007 prompted a restoration and conservation project, a radar survey detected a cavity beneath the floor of Room 2, directly under the painted scene of captives being tortured. Excavation uncovered a stone crypt containing the remains of a man between 35 and 42 years old, missing his skull and lower jaw, buried with jade earrings, a jade necklace and bracelets, two polychrome dishes, a perforated alabaster vase, and a small flint knife. Researchers have offered two competing explanations for who he was: a captive warrior, killed the way the murals above him show captives being killed, or a relative of Bonampak's ruling family. Whether the missing skull points to ritual decapitation, a documented practice in Maya warfare, or simply to the fact that skull bone survives burial conditions worse than the rest of a skeleton, is itself unresolved. Sixteen years after the tomb's discovery, the man buried directly beneath the murals' most violent scene remains unidentified."
+        ]
+      },
+      {
+        "heading": "The heir who was a girl",
+        "body": [
+          "One of the murals' most confidently repeated readings turned out to be wrong. In Room 1, an attendant presents a child to the assembled court, a scene most twentieth-century interpreters read as the presentation of the ruling family's heir, implicitly assumed to be a boy. Working closely with high-resolution photography as part of a modern documentation effort, muralist and archaeological illustrator Heather Hurst was the first to notice that the child's face paint and costume, details consistent with how the murals mark female figures elsewhere in the same rooms, indicate a girl rather than a boy. Combined with the unnamed ruler in Room 1 and the three young princes who dominate Room 3 without their father appearing at all, Hurst's observation adds to a picture of Bonampak's succession as considerably less settled than the murals' triumphant imagery first suggests."
+        ]
+      },
+      {
+        "heading": "From hand-painted copies to infrared cameras",
+        "body": [
+          "The murals have also been documented twice, decades apart, by two very different methods. Between 1946 and 1948, artists Antonio Tejeda and Agustín Villagra produced the first copies for the Carnegie Institution of Washington, tracing what they could see by eye and, by most accounts, omitting details they found confusing or too damaged to render with confidence rather than inventing anything outright; that work anchored the 1955 Ruppert, Thompson, and Proskouriakoff publication that introduced the murals to the wider scholarly world. Starting in 1996, art historian Mary Miller led Yale's Bonampak Documentation Project, which used infrared photography and videography, principally shot by photographer Justin Kerr, to record calligraphic lines and hieroglyphic texts that have faded past the point of being visible to the naked eye but still register under infrared light. Some of that loss, researchers on the project have noted, came not just from centuries of natural erosion but from well-intentioned mid-twentieth-century conservation attempts that ended up damaging the paint layer further. Archaeological artist Heather Hurst and Leonard Ashby used the resulting photographic record to produce new reconstruction paintings, published in Miller and Claudia Brittenham's 2013 book The Spectacle of the Late Maya Court, incorporating details the original 1940s copyists never had the means to see."
+        ]
+      },
+      {
+        "heading": "Other unsettled identities, on other walls",
+        "body": [
+          "Bonampak isn't the only case on this site where a carved or painted figure has resisted a single agreed identity: [four different scholars have proposed four different identities for the carved central face on the Aztec Sun Stone over the past century, and none has displaced the others](/aztec-art/). The gap between the story most people repeat and the record scholars have actually assembled shows up well outside Mesoamerica too: [the mandala carries a similar mismatch, its earliest documented meaning is a chapter division in a Vedic hymn collection, not the geometric picture the word now calls to mind, and popular writing keeps blurring the two anyway](/mandala-art/). And overturning a settled attribution isn't unique to Bonampak's rewriting of Maya history either: [a 2003 challenge to Goya's authorship of Saturn Devouring His Son split scholars for years without technical analysis ever fully closing the question](/saturn-devouring-his-son/)."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the difference between \"Maya\" and \"Mayan\"?",
+        "answer": "Mayan refers specifically to the family of roughly thirty related languages spoken across Mexico and Central America. Maya is the correct term for the people, their civilization, and their art, including the Bonampak murals. The distinction is a standard convention among Mesoamerican specialists, even though \"Mayan\" is common in everyday usage."
+      },
+      {
+        "question": "Who discovered the Bonampak murals?",
+        "answer": "In 1946, Lacandon Maya guides Acasio Chan and José Pepe Chambor led American photographer Giles Healey to the site, and Healey was the first outsider allowed to see and photograph the murals. Wikipedia's account notes that two other American travelers, Herman Charles Frey and John Bourne, may have arrived at the site slightly earlier, also guided by local Lacandon Maya, who had never lost track of the ruins."
+        },
+      {
+        "question": "What did the Bonampak murals prove about the Maya?",
+        "answer": "They provided direct visual evidence of warfare, captive-taking, and public torture and sacrifice, contradicting the mid-twentieth-century scholarly consensus, closely associated with Mayanist J. Eric S. Thompson, that the Classic Maya were a peaceful society focused on astronomy and ritual. The 1955 Carnegie Institution publication that introduced the murals to wider scholarship listed Thompson as a co-author."
+      },
+      {
+        "question": "Whose tomb was found under the Bonampak murals?",
+        "answer": "In 2010, archaeologists found a stone crypt beneath Room 2's torture scene containing the remains of a headless man aged 35 to 42, buried with jade jewelry and ceramic vessels. Researchers have proposed he was either a sacrificed captive or a relative of Bonampak's ruling family, but his identity has not been confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Bonampak",
+        "url": "https://en.wikipedia.org/wiki/Bonampak"
+      },
+      {
+        "label": "Mexicolore (Claudia Brittenham): The Bonampak Murals",
+        "url": "https://www.mexicolore.co.uk/maya/home/the-bonampak-murals"
+      },
+      {
+        "label": "National Geographic: Headless Man's Tomb Found Under Maya Torture Mural",
+        "url": "https://www.nationalgeographic.com/history/article/100312-headless-bonampak-tomb-maya-torture-mural"
+      },
+      {
+        "label": "CAA Reviews: The Spectacle of the Late Maya Court: Reflections on the Murals of Bonampak",
+        "url": "http://www.caareviews.org/reviews/2915"
+      },
+      {
+        "label": "Cambridge Core (Antiquity): Infrared imaging of Precolumbian murals at Bonampak, Chiapas, Mexico",
+        "url": "https://www.cambridge.org/core/journals/antiquity/article/abs/infrared-imaging-of-precolumbian-murals-at-bonampak-chiapas-mexico/385A1AF6B415C8A40A4765B7EC86A676"
+      }
+    ]
   }
 
 ];
