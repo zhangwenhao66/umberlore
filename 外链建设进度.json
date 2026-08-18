@@ -20,6 +20,13 @@
       "question_url": "https://www.quora.com/Why-are-sand-mandalas-destroyed/answer/Owen-Zhang-161",
       "question_title": "Why are sand mandalas destroyed?",
       "notes": "发布时该问题0答案。以站内文章骨架撰写(Smithsonian沙坛城仪式、2002 Sackler Gallery消散、2014达赖喇嘛拉达克亲自主持)。额外WebSearch找到2026年3月El Paso Museum of History意外损坏事件的增量事实。过humanizer+avoid-ai-writing自查。用Quora Add Link功能(Cmd+K)插入真实超链接，全程只填URL字段不碰Text字段，发布前DOM核实class为span link。已直接发布成功(非Space类问题)，发布后javascript_tool核实DOM中确实是<a href>真实超链接指向https://umberlore.com/mandala-art/。"
+    },
+    {
+      "date": "2026-08-18",
+      "target_page": "https://umberlore.com/mayan-art/",
+      "question_url": "https://www.quora.com/Do-you-believe-more-Mayan-sites-with-murals-like-Bonampak-will-be-uncovered/answer/Owen-Zhang-161",
+      "question_title": "Do you believe more Mayan sites with murals like Bonampak will be uncovered?",
+      "notes": "发布时该问题0答案（提问本身直接点名Bonampak，与新文章主题高度契合）。以站内文章骨架撰写（1946年两位拉坎冬玛雅向导Acasio Chan和José Pepe Chambor带美国摄影师Giles Healey找到该遗址、壁画约公元790年绘制、内容包含献祭仪式/战斗/俘虏施刑与献祭/庆祝舞蹈四个场景、彻底推翻此前J. Eric S. Thompson主导的'和平祭司天文学家'学界共识；281个壁画人物中约三分之一有名字题刻、另有约十分之一题刻位置刻意留白；2010年在施刑场景下方发掘出一座无头男性墓葬身份至今未解；壁画记录项目负责人Heather Hurst根据面部彩绘与服饰重新鉴定一名此前被长期认为是男性王位继承人的人物实为女性）。额外用WebSearch找到站内原文没有的真实增量事实：2018年PACUNAM LiDAR Initiative对危地马拉Petén雨林2144平方公里区域做的单次激光雷达测绘，发现超过61000处此前未知的人工建筑遗迹，该研究发表于Science期刊，用以回答问题本身'是否还会有更多遗址被发现'这一核心提问。过humanizer+avoid-ai-writing双重检查（无破折号、无AI高频词）。用Quora Add Link功能(Cmd+K)插入真实超链接，锚文本'here'，指向mayan-art页面，全程只填URL字段。该问题不属于任何Space，提交后直接发布成功，credential选择默认'Business Communications Researcher'。发布前用javascript_tool核实编辑器DOM中该span确实是class=\"span link\"，发布后再次核实渲染页面DOM中确实是<a href=\"https://umberlore.com/mayan-art/\">here</a>真实超链接，非纯文本。"
     }
   ],
   "reddit": []

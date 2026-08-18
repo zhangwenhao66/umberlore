@@ -31,3 +31,14 @@
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `6122a531eabc3dd2b8a61f036168d3ac`。
 - **上线复核**：⏳ 待补做（当天提交，通常需要1-2天过审）。
 - **备注**：本次是08-04登录失效连续三次导致周二排期落空后的补做。
+
+### 2026-08-18（周二，正常排期）— UmberLore（umberlore.com）
+
+- **问题标题**：Structural engineers and architects: has a celebrated building's design flaw been quietly papered over for years before finally being fixed?
+- **角度**：绑定`frank-lloyd-wright`一文讲的流水别墅（Fallingwater）真实工程史——赖特的工程师在混凝土悬挑结构中据传漏放了负筋，1995年时露台已下垂近7英寸，被监测和容忍了65年，直到2002年一次1150万美元的后张拉修复工程才真正止住变形（且不改变建筑外观）。征集结构工程师/建筑师/文物保护专家举出另一个真实案例——他们实际经手过的某个知名建筑，从建造之初就存在的结构问题被监测或修补而非真正修复，直到某件事最终促成了真正的修复。与此前问过的归还权判决被误报角度（08-04）、鉴定委员会因法律风险解散角度（08-12）均不重叠，这次聚焦建筑结构缺陷本身被容忍多年的现象。
+- **绑定文章**：UmberLore `frank-lloyd-wright`（Frank Lloyd Wright: The Cantilever That Nearly Failed）。
+- **分类标签**：Topics = General + Professional Services；Countries = Australia + UK & Republic of Ireland + Canada + United States。
+- **表单设置**：Job title = Content Creator；Organisation = UmberLore；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@umberlore.com`。
+- **Deadline**：2026-09-09 17:00（鼠标真实点击日历控件选中）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `fa697588583f6c728ad143c7e244da19`。
+- **上线复核**：⏳ 待下次任务运行时补查。
