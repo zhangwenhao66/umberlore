@@ -884,3 +884,91 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "st-peters-basilica",
+  "last_audited": "2026-08-19",
+  "published_date": "2026-08-04",
+  "article_specific_checklist": [
+    "奠基日1506年4月18日、祝圣日1626年11月18日两个锚点日期与\"120年\"的整体时间跨度是否准确（须核对Fabbrica di San Pietro官网原文逐字）",
+    "Britannica关于五位建筑师接力反转彼此方案的关键引语（Sangallo\"returned to Bramante's plan\"、della Porta的圆顶\"modified from Michelangelo's design\"、Maderno\"consonant with the spirit of the Counter-Reformation\"）是否逐字准确",
+    "Bernini青铜华盖材质传说的反转论断——Wikipedia圣伯多禄华盖条目是否真的说约90%万神殿青铜被用于铸炮、华盖青铜实际来自威尼斯，这是全文最反直觉、最容易被质疑的一条论断",
+    "187米vs220米长度差异的解释是否站得住——Britannica\"615-foot- (187-meter-) long main structure\"与Fabbrica di San Pietro FAQ的\"187 meters long and 136 meters high\"两条引语是否逐字准确",
+    "2026年4月National Catholic Register刊登的400周年报道（记者Hannah Brockhaus，引用Pietro Zander与Elizabeth Lev的话）是否真实存在——这是全文最新、最难验证的信源，发布日期(2026-08-04)与报道日期(2026-04-19)接近，是编造引语风险最高的一条"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "未发现问题",
+      "detail": "WebSearch逐条核实五项专属清单：Fabbrica di San Pietro官网'On 18 April 1506...laid the first stone'逐字匹配；Britannica'returned to Bramante's plan'（Sangallo）、'modified from Michelangelo's design'（della Porta圆顶）等关键引语逐字匹配；Wikipedia圣伯多禄华盖条目确认'about ninety percent of the bronze from the Pantheon was used for a cannon, and the bronze for the baldachin came from Venice'，与正文论断一致；187米数字在Fabbrica di San Pietro FAQ与Britannica两处信源逐字匹配；National Catholic Register文章'St. Peter's Basilica at 400'确认真实存在，作者Hannah Brockhaus，2026年4月19日发布，受访者Pietro Zander与Elizabeth Lev的原话逐字核实匹配。未发现任何误引、编造归因或时间线错误。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇引用真实机构一手资料（Fabbrica di San Pietro官方、Britannica百科、Smarthistory/Khan Academy学术性文章、Wikipedia、National Catholic Register 2026年最新报道），无模糊归因，sources数组7条全部可验证（2条Britannica curl返回403为机器人防护，非真实失效，内容已通过WebSearch独立核实）。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "published/updated均为2026-08-04（本次审计前），内容为历史考据+2026年400周年最新报道，无过时风险。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "拉取Wikipedia \"St. Peter's Basilica\" 条目开篇摘要对比，Wikipedia覆盖同样的基本日期与建筑师名单，但不含Fabbrica di San Pietro官方奠基仪式细节、National Catholic Register 2026年4月的400周年新报道、187米vs220米差异的信源对比解释。本文提供的具体机构级引语与2026年最新新闻角度是真实增量价值。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "发现1个真问题（已修复）",
+      "detail": "meta description 164字符（同批审计对163/164字符判定为可接受边界情况，未改动）；canonical自指；单一H1；8个H2无跳级；schema均健康。title标签实测78字符，远超50-60字符经验区间，比同批审计已判定'可接受'的61字符先例还多17字符。独立复核agent确认为真实问题。已将guide.title从68字符缩短为47字符，线上title降至59字符。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题，人工核对达标",
+      "detail": "按ai-seo skill的Content Extractability Check人工核对：coreSummary/7个section+6条FAQ均可独立摘出、7条权威来源引用、2026年4月最新时效性信号、robots.txt放行主流AI爬虫、具名作者署名均达标，明显超过≥80门槛。title缩短未影响H1与schema headline一致性。"
+    },
+    {
+      "dimension": "AI 味扫描",
+      "status": "未发现问题",
+      "detail": "机械扫描正文：em dash 0处、花体双引号0处、常见AI高频词0命中；8处叙事性en dash中7处为教皇/事件年份区间标准排版，唯1处出现在Fabbrica di San Pietro官方账目的直接逐字引语内，非本站写作痕迹。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题（含方法论说明）",
+      "detail": "7条sources链接逐条curl实测：5条200；2条Britannica链接返回403，核实为该域名对curl的机器人防护（非失效），已通过WebSearch独立核实内容匹配。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认本文已收到3处真实inbound手动锚文本链接（sagrada-familia/michelangelo-sistine-chapel/architectural-painting），非孤儿页；Architecture分类仅4篇，均在彼此related-guides轮转窗口内。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题（修复后已重新核实）",
+      "detail": "Article schema的headline字段随title修复同步更新，与线上H1完全一致（title标签/H1/JSON-LD headline三处交叉核实）；datePublished/dateModified与guides.ts一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "题材为文艺复兴/巴洛克建筑史与梵蒂冈官方史料，无争议性人物/事件，不涉及本站现当代艺术家版权风险清单。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "2张配图本地文件均存在。curl直接核实两个Wikimedia Commons文件页，均为Jebulon所摄、CC0 1.0协议，与站内imageCredit标注完全一致。"
+    }
+  ],
+  "independent_verification": "1条独立agent复核title标签78字符是否构成真实问题，判定CONFIRMED（理由：远超50-60字符经验区间，且比同批审计已判定可接受的61字符先例多出17字符），按此修复。",
+  "actions_taken": [
+    "src/data/guides.ts的st-peters-basilica条目title字段从68字符缩短为47字符，线上title标签从78字符降至59字符；updated字段改为2026-08-19（published字段已存在'2026-08-04'，符合先检查published是否存在的前置要求）",
+    "npm run build 52页成功生成后commit 68290ef并push；轮询确认线上title/H1/schema headline三处已同步更新且互相一致",
+    "IndexNow提交/st-peters-basilica/：Bing 200 / Yandex 200",
+    "内容发布日志.md追加审计记录，明确标注为content-quality-audit审计更新非新发布"
+  ],
+  "seo_score": "修复前：title 78字符超长（唯一SEO问题），meta description 164字符属可接受边界，其余均健康；修复后：title缩短到59字符，其余维度不变",
+  "geo_score": "无自动化打分工具适用于本站；按ai-seo skill的Content Extractability Check人工核对，明显超过≥80门槛，title缩短未影响正文GEO结构",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
