@@ -4914,6 +4914,112 @@ export const guides: Guide[] = [
         "url": "https://www.cambridge.org/core/journals/antiquity/article/abs/infrared-imaging-of-precolumbian-murals-at-bonampak-chiapas-mexico/385A1AF6B415C8A40A4765B7EC86A676"
       }
     ]
+  },
+  {
+    "slug": "psychedelic-art",
+    "category": "Movements",
+    "title": "Psychedelic Art Started in a Psychiatrist's Office, Not the Fillmore",
+    "description": "A Los Angeles psychiatrist gave LSD to artists starting in 1954, twelve years before the Fillmore's posters. Their trademark lettering was borrowed, not tripped into.",
+    "published": "2026-08-19",
+    "updated": "2026-08-19",
+    "coreSummary": "Psychedelic art's standard origin story starts at San Francisco's Fillmore Auditorium in 1966, with rock posters that supposedly translated an LSD trip directly onto paper. The actual timeline runs earlier and stranger. Starting in 1954, twelve years before California made LSD illegal, Los Angeles psychiatrist Oscar Janiger gave the drug to roughly a hundred professional artists as part of a clinical study into creativity, producing some 250 paintings and drawings, including two versions each of a Hopi kachina doll painted by about seventy of his patients, one sober and one under LSD. Janiger's research quietly ended in 1962, when federal investigators began scrutinizing LSD researchers, four years before California outlawed the drug itself. The visual style that eventually defined psychedelic art wasn't a spontaneous hallucination either: poster artist Wes Wilson said outright that he adapted a lettering style from an Alfred Roller poster for the Vienna Secession's sixteenth exhibition and warped it, borrowing further from Alphonse Mucha and Aubrey Beardsley. Even the movement's best-known anecdote, that concert promoter Bill Graham rejected Wilson's illegible lettering only for Wilson to reply that people would stop to read it because they couldn't, is labeled \"popular myth\" by the museum that now holds his posters.",
+    "image": "/images/psychedelic-art-roller-secession-poster-1902.jpg",
+    "imageAlt": "Alfred Roller's lithographed poster for the sixteenth Vienna Secession exhibition, dominated by tall, blocky, rectangular lettering with almost no illustration, printed in muted gold and dark tones.",
+    "imageCredit": "[Alfred Roller Poster Secession XVI](https://commons.wikimedia.org/wiki/File:Alfred_Roller_Poster_Secession_XVI.png), c. 1902–03, public domain",
+    "sections": [
+      {
+        "heading": "The story usually skips its first decade",
+        "body": [
+          "Ask where psychedelic art came from and the answer usually starts in 1966, with the concert posters Wes Wilson and a handful of other San Francisco artists made for Bill Graham's Fillmore Auditorium: swirling color, hallucinatory imagery, lettering that seemed to melt. The implied mechanism is direct. Someone took LSD, and the trip came out on paper. That story skips the drug's first decade of American use almost entirely. Beginning in 1954, a full twelve years before California made LSD illegal and before Timothy Leary had made himself its public face, a Los Angeles psychiatrist named Oscar Janiger was already giving the drug to patients in a research setting and asking some of them to paint what happened."
+        ]
+      },
+      {
+        "heading": "Seventy patients paint the same doll twice",
+        "body": [
+          "Janiger's main study eventually involved about 900 subjects, drawn from actors, writers, housewives, physicians, and at least one deputy marshal, each given a controlled dose and asked to describe the experience. A sub-study, aimed specifically at creativity, brought in roughly a hundred professional artists. One of them was Frank Murdoch, a Fortune magazine illustrator being treated with LSD as an attempted cure for late-stage alcoholism. Janiger had Murdoch, and about seventy other patients besides, paint the same object twice: a Hopi kachina doll, once sober and once under the drug's influence. The doll itself still sits on the mantel in Janiger's home, beneath Murdoch's pair of paintings, one a careful, representational likeness, the other awhirl with color and motion, its planes bending in several directions at once.",
+          "Art historian Carl Hertel later analyzed roughly 250 paintings and drawings the study produced, comparing each artist's sober and LSD-influenced versions. His 1971 assessment found the drugged work was neither better nor worse than the artists' ordinary output, but it was consistently brighter, more abstract, and less representational, and it tended to fill the entire canvas rather than leave empty space. Janiger himself was more cautious about the work's quality than its psychological weight. \"There wasn't a single artist who didn't think he or she had had some kind of revelation,\" he said, while declining to judge whether the paintings themselves were actually better, calling that a question outside a scientist's job to answer."
+        ]
+      },
+      {
+        "heading": "Stopped by a regulation, years before the ban",
+        "body": [
+          "Janiger's research ran for eight years and stopped in 1962, and the reason had nothing to do with LSD's later reputation. He abandoned the project when the U.S. government began investigating researchers who worked with the drug that year, four years before California passed a law making LSD itself illegal in October 1966. The substance he had been legally buying from the Swiss manufacturer Sandoz for most of a decade was still, technically, on the market when he shut the study down. Janiger's work also predates Timothy Leary's more famous psychedelic advocacy, but it never carried the same cultural weight, largely because he did not widely publish his data at the time. A study that produced 250 paintings from roughly a hundred artists, wrapped up four years before the first Fillmore posters went up, left almost no public trail for the standard origin story to trip over."
+        ]
+      },
+      {
+        "heading": "Wilson's own account of the borrowing",
+        "body": [
+          "The visual signature most associated with psychedelic art, hand lettering that seems to bend, melt, and vibrate, is usually treated as a direct graphic translation of a drug experience. Wilson's own account of where it came from is more specific and less mystical. According to the Smithsonian American Art Museum's own biography of the artist, Wilson's \"influential lettering was derived from the Viennese Secessionist lettering he discovered in a University of California exhibition catalogue,\" specifically the block lettering the Austrian designer Alfred Roller used on a poster for the Vienna Secession's sixteenth exhibition, staged in the winter of 1902–03. Poster House's chief curator, Angelina Lippert, separately places Roller's poster directly beside Wilson's 1967 poster for an Otis Rush performance at the Fillmore to show the letterforms carrying over almost intact, just stretched and colored differently. Wilson drew on other nineteenth-century sources too: his 1966 poster for Muddy Waters echoes the haloed, flower-crowned women Alphonse Mucha drew for the Paris printing house F. Champenois around 1897, and his 1967 poster for the Byrds recalls the undulating peacock illustrations of English artist Aubrey Beardsley."
+        ],
+        "image": {
+          "src": "/images/psychedelic-art-mucha-champenois-poster.jpg",
+          "alt": "Alphonse Mucha's lithographed poster advertising the Paris printing house F. Champenois, showing a woman with flowing hair and a flower crown framed by ornamental Art Nouveau lettering and border patterns.",
+          "credit": "[Alfons Mucha - F. Champenois Imprimeur-Éditeur](https://commons.wikimedia.org/wiki/File:Alfons_Mucha_-_F._Champenois_Imprimeur-%C3%89diteur.jpg), c. 1897, public domain"
+        }
+      },
+      {
+        "heading": "A myth the museum itself corrects",
+        "body": [
+          "The most repeated anecdote about psychedelic lettering is that Bill Graham rejected an early Wilson poster because its text was illegible, and that Wilson shot back that people would stop to read it precisely because they couldn't. It is one of the most durable origin myths in American poster history, and Poster House's own chief curator, writing an account of Wilson's career on the museum's blog, flags it by name as \"popular myth\" rather than repeating it as settled fact. No contemporary documentation from Graham or Wilson at the time confirms the exchange happened as it is now told. The line survives because it is a better story than a verified one; no contemporary record backs it up."
+        ]
+      },
+      {
+        "heading": "Not even a concert poster to begin with",
+        "body": [
+          "Wilson's very first published poster wasn't for a band at all. In 1965, before he had designed a single handbill for Bill Graham or fellow promoter Chet Helms, Wilson self-printed and sold \"Are We Next?\", a Vietnam War protest image that superimposed a swastika onto an American flag. \"I just put it out there to stir people up to thinking about things,\" he said of it. The poster caught Helms's attention and led to Wilson's first commissions designing handbills for Family Dog, and only within the following year did he begin making the concert posters, for both Helms's Avalon Ballroom and Graham's Fillmore, that would define the look now called psychedelic art. The genre's most famous visual signature started as a protest flyer."
+        ]
+      },
+      {
+        "heading": "The pattern shows up across the collection",
+        "body": [
+          "A movement's name outrunning its actual first instance isn't unique to psychedelic art. [Pop art's own label has the same problem: the word \"pop\" turns up in a 1947 collage nine years before Richard Hamilton's better-known version, and fifteen years before any published essay printed the phrase \"Pop Art\" in its running text](/pop-art/). Substituting a borrowed or mechanical process for spontaneous inspiration runs through the era's biggest name in painting, too: [Andy Warhol adopted photographic silkscreen printing in 1962 specifically so a commercial vendor and his own assistants could reproduce his designs without him touching them](/andy-warhol/). And a \"first\" that doesn't survive closer research is its own recurring story here: [the painting long called the first fully abstract work has since been redated three years later by its own museum, and preceded anyway by a Swedish painter who kept her breakthrough hidden from the public for decades](/abstract-art-first-painting/)."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "When did psychedelic art actually begin?",
+        "answer": "If LSD-influenced visual art counts, it dates to at least 1954, when Los Angeles psychiatrist Oscar Janiger began giving the drug to patients and having some of them paint before and after dosing, as part of a study that ran until 1962. The style now called \"psychedelic art,\" tied to the 1966–67 concert posters made for San Francisco's Fillmore Auditorium, arrived roughly a decade later."
+      },
+      {
+        "question": "Who was Oscar Janiger and what happened to his LSD study?",
+        "answer": "Janiger was a Los Angeles psychiatrist who gave LSD to about 900 subjects, including a sub-study of roughly a hundred professional artists, between 1954 and 1962. He abandoned the research in 1962 when the U.S. government began investigating LSD researchers, four years before California made the drug illegal in October 1966. Because he never widely published his findings at the time, his work is far less well known today than Timothy Leary's, even though it predates it."
+      },
+      {
+        "question": "Where did the \"melting\" psychedelic poster lettering come from?",
+        "answer": "By poster artist Wes Wilson's own account, he adapted the block lettering of Austrian designer Alfred Roller, used on a poster for the Vienna Secession's sixteenth exhibition around 1902–03, and reworked how it filled the page into his own signature style. He also drew on Alphonse Mucha's Art Nouveau women and Aubrey Beardsley's illustration work for other posters made the same era."
+      },
+      {
+        "question": "Is the story about Bill Graham rejecting Wilson's illegible poster true?",
+        "answer": "It's repeated constantly, but Poster House chief curator Angelina Lippert explicitly calls it \"popular myth\" in her published account of Wilson's career. The story holds that Graham objected to a Wilson poster because its text couldn't be read, and that Wilson replied people would stop to read it precisely because they couldn't, but no contemporary record confirms the exchange happened as it's now told."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Oscar Janiger",
+        "url": "https://en.wikipedia.org/wiki/Oscar_Janiger"
+      },
+      {
+        "label": "Wikipedia: Wes Wilson",
+        "url": "https://en.wikipedia.org/wiki/Wes_Wilson"
+      },
+      {
+        "label": "Smithsonian American Art Museum: Wes Wilson",
+        "url": "https://americanart.si.edu/artist/wes-wilson-27389"
+      },
+      {
+        "label": "Poster House (Angelina Lippert): Wes Wilson: From Art Nouveau to Psychedelic",
+        "url": "https://posterhouse.org/blog/wes-wilson-from-art-nouveau-to-psychedelic/"
+      },
+      {
+        "label": "Utne: Hollywood's Golden Age of LSD Therapy",
+        "url": "https://www.utne.com/science-and-technology/lsd-therapy-golden-age-in-hollywood/"
+      },
+      {
+        "label": "LA Weekly: The Trip",
+        "url": "https://www.laweekly.com/the-trip/"
+      }
+    ]
   }
 
 ];
