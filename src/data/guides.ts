@@ -1535,10 +1535,10 @@ export const guides: Guide[] = [
 {
     "slug": "st-peters-basilica",
     "category": "Architecture",
-    "title": "St. Peter's Basilica: What the 120-Year Design Fight Left Standing",
+    "title": "St. Peter's Basilica: The 120-Year Design Fight",
     "description": "Five chief architects took turns reversing each other's plans for St. Peter's Basilica, from Bramante's circle to Maderno's cross, across 120 years of construction.",
     "published": "2026-08-04",
-    "updated": "2026-08-04",
+    "updated": "2026-08-19",
     "coreSummary": "St. Peter's Basilica took 120 years to build and never settled on a single architect's plan. Donato Bramante's 1506 design was a centralized Greek cross under one dome, modeled on the Pantheon; after his death that plan was bent toward a longer Latin-cross nave, then reversed back to Bramante's centralized scheme in 1534, before Michelangelo, appointed chief architect in 1546, spent his final years building that scheme's dome up to its drum and died in 1564 with it unfinished. Carlo Maderno then reversed the logic a second time, extending Michelangelo's Greek cross into the 187-meter Latin-cross nave that stands today, work Britannica describes as \"consonant with the spirit of the Counter-Reformation.\" Pope Urban VIII consecrated the finished building on November 18, 1626, a date the basilica marked the 400th anniversary of earlier in 2026.",
     "image": "/images/st-peters-basilica-facade.jpg",
     "imageAlt": "The facade of St. Peter's Basilica in Vatican City, completed by Carlo Maderno in the early 17th century when he extended Michelangelo's centralized plan into a Latin-cross nave.",
