@@ -8,13 +8,23 @@
         "name": "DailyArt Magazine",
         "url": "https://www.dailyartmagazine.com/send-an-article/",
         "status": "sent 2026-08-04",
-        "notes": "真实且开放：确认页面要求投稿≥500词+≥5张高质量图片(pdf/docx/doc/pages)，非付费交换。主题定位与UmberLore高度重合(art history stories/long reads)，是同赛道对标站(与thecollector.com同类)。未直接提交完整文章(需现写500字+配图，超出本轮调研范围)，改为起草topic pitch邮件，基于已发布的Frank Lloyd Wright/Fallingwater钢筋报告文章(frank-lloyd-wright slug)提出改写版选题。2026-08-04处理积压草稿时重新核实投稿邮箱：原记录的kate@dailyartmagazine.com在当前live页面上找不到（Cloudflare混淆邮件解码后页面实际显示szymon@dailyartmagazine.com，对应Senior Editor Szymon Jocek），改发至szymon@dailyartmagazine.com。过humanizer+独立复核agent判定'can send'（无重复联系、事实核对全部通过、非模板化）后经gmail_send.py --from umberlore实际发出，Message ID 19fcb7eaa2f19805。"
+        "notes": "真实且开放：确认页面要求投稿≥500词+≥5张高质量图片(pdf/docx/doc/pages)，非付费交换。主题定位与UmberLore高度重合(art history stories/long reads)，是同赛道对标站(与thecollector.com同类)。未直接提交完整文章(需现写500字+配图，超出本轮调研范围)，改为起草topic pitch邮件，基于已发布的Frank Lloyd Wright/Fallingwater钢筋报告文章(frank-lloyd-wright slug)提出改写版选题。2026-08-04处理积压草稿时重新核实投稿邮箱：原记录的kate@dailyartmagazine.com在当前live页面上找不到（Cloudflare混淆邮件解码后页面实际显示szymon@dailyartmagazine.com，对应Senior Editor Szymon Jocek），改发至szymon@dailyartmagazine.com。过humanizer+独立复核agent判定'can send'（无重复联系、事实核对全部通过、非模板化）后经gmail_send.py --from umberlore实际发出，Message ID 19fcb7eaa2f19805。",
+        "verified_status": {
+          "checked_on": "2026-08-20",
+          "classification": "no_response_declined",
+          "evidence": "WebSearch (site:dailyartmagazine.com Frank Lloyd Wright Fallingwater) found only a pre-existing staff article (published 2026-06-07, authored by Joanna Kaszubowska, before our 2026-08-04 pitch, different framing, no umberlore.com mention or link -- confirmed via curl of the live page and its JSON-LD, grep for 'umberlore' returned zero hits). gmail_send.py list --query 'from:szymon@dailyartmagazine.com' returned [] (no reply in 16 days). Our email was a topic pitch requesting permission to submit a full draft, not a full submission, so no article/backlink could exist without a reply; treating 16 days of silence as a practical decline per real-world guest-post response norms, not as still-pending."
+        }
       },
       {
         "name": "HistoryMedieval",
         "url": "https://historymedieval.com/guest-blogging-opportunities-for-creatives/",
         "status": "sent 2026-08-04",
-        "notes": "真实且开放：要求800-1500词、需引用来源列表、邮件投稿(historymedieval62@gmail.com)+作者简介+头像，不付费但给作者链接。主题聚焦5-15世纪欧洲/中东/非洲历史，与UmberLore的gargoyle文章(what-is-a-gargoyle slug，中世纪建筑排水系统考据)高度契合。2026-08-04处理积压草稿时重新核实：curl被WAF拦截(403)，改用WebSearch确认页面仍被索引且投稿要求/邮箱与原记录一致。过humanizer+独立复核agent判定'can send'后经gmail_send.py --from umberlore实际发出，Message ID 19fcb7f4bb917627。"
+        "notes": "真实且开放：要求800-1500词、需引用来源列表、邮件投稿(historymedieval62@gmail.com)+作者简介+头像，不付费但给作者链接。主题聚焦5-15世纪欧洲/中东/非洲历史，与UmberLore的gargoyle文章(what-is-a-gargoyle slug，中世纪建筑排水系统考据)高度契合。2026-08-04处理积压草稿时重新核实：curl被WAF拦截(403)，改用WebSearch确认页面仍被索引且投稿要求/邮箱与原记录一致。过humanizer+独立复核agent判定'can send'后经gmail_send.py --from umberlore实际发出，Message ID 19fcb7f4bb917627。",
+        "verified_status": {
+          "checked_on": "2026-08-20",
+          "classification": "no_response_declined",
+          "evidence": "WebSearch confirms historymedieval.com's guest-blogging page is still live and indexed (direct curl to the homepage returns 403, likely WAF, but the guidelines page content and submission process were reconfirmed unchanged via WebSearch). gmail_send.py list --query 'from:historymedieval62@gmail.com' returned [] (no reply in 16 days). Our email was a topic pitch ('happy to send a full draft ... if this sounds like a fit'), not a full submission, so no article/backlink could exist without a reply; treating 16 days of silence as a practical decline, not as still-pending."
+        }
       },
       {
         "name": "ArtDHope Foundation",
@@ -56,9 +66,24 @@
     "run_type": "backlog clearance — first run under new auto-send policy",
     "notes": "处理2026-08-04当天早些时候起草但因旧的'等Owen确认'政策留在原地的3条guest-post pitch草稿（DailyArt Magazine, HistoryMedieval, ArtDHope Foundation）。流程：逐条重新核实渠道未过期 → 过Skill(humanizer)去AI味 → 存入outreach-drafts.md → 各起草3个全新独立复核agent（无本次处理过程上下文）→ 三个agent均判定'VERDICT: can send'（复核过程中出现SendMessage寻址失败噪音，已通过直接读取agent原始transcript文件一手核实三条判定文本，未采信任何未经验证的转述）→ 三封全部经gmail_send.py --from umberlore实际发出。修复过程中发现并纠正一处邮件正文格式缺陷：--body-file文件顶部残留了'Subject: ...'行，导致发给DailyArt Magazine的第一封邮件正文顶部多出一行冗余的Subject文本（已发出，无法撤回，但内容本身无事实错误，已如实记录；HistoryMedieval和ArtDHope两封发送前已修正，正文干净）。DailyArt Magazine投稿邮箱在核实时发现与原记录不符（kate@→szymon@，已按实际page内容更正并记录）。三条渠道14天内均无本站历史联系记录，无重复发送风险。",
     "sent": [
-      {"target": "DailyArt Magazine", "to": "szymon@dailyartmagazine.com", "message_id": "19fcb7eaa2f19805", "known_defect": "邮件正文首行多出冗余的'Subject: ...'文本（--body-file遗留），已发出未撤回"},
-      {"target": "HistoryMedieval", "to": "historymedieval62@gmail.com", "message_id": "19fcb7f4bb917627", "known_defect": "none"},
-      {"target": "ArtDHope Foundation", "to": "hello@artdhope.org", "message_id": "19fcb7f5cfb0246b", "known_defect": "none"}
+      {
+        "target": "DailyArt Magazine",
+        "to": "szymon@dailyartmagazine.com",
+        "message_id": "19fcb7eaa2f19805",
+        "known_defect": "邮件正文首行多出冗余的'Subject: ...'文本（--body-file遗留），已发出未撤回"
+      },
+      {
+        "target": "HistoryMedieval",
+        "to": "historymedieval62@gmail.com",
+        "message_id": "19fcb7f4bb917627",
+        "known_defect": "none"
+      },
+      {
+        "target": "ArtDHope Foundation",
+        "to": "hello@artdhope.org",
+        "message_id": "19fcb7f5cfb0246b",
+        "known_defect": "none"
+      }
     ],
     "skipped": []
   },
@@ -117,7 +142,12 @@
       }
     ],
     "sent": [
-      {"target": "ARCAblog (Association for Research into Crimes Against Art)", "to": "information@artcrimeresearch.org", "message_id": "19fd7279d5954967", "known_defect": "none"}
+      {
+        "target": "ARCAblog (Association for Research into Crimes Against Art)",
+        "to": "information@artcrimeresearch.org",
+        "message_id": "19fd7279d5954967",
+        "known_defect": "none"
+      }
     ],
     "skipped": [
       "DailyArt Magazine / HistoryMedieval / ArtDHope Foundation — 已于2026-08-04发送，本轮核实非重复，不再处理",
@@ -157,6 +187,65 @@
     "skipped": [
       "ARCAblog / DailyArt Magazine / HistoryMedieval / ArtDHope Foundation - all previously sent (2026-08-04 and 2026-08-06), not re-contacted this round",
       "Art Herstory / ArchDaily / The Magazine Antiques / Hyperallergic / Art in Context - previously judged real-but-poor-fit (2026-08-06), not re-researched this round"
+    ],
+    "owen_todo": []
+  },
+  {
+    "date": "2026-08-20",
+    "site": "umberlore",
+    "niche_focus": "visual art history (art movements, painters, technique & pigment history, architecture/sculpture, photography history, art crime, decorative crafts)",
+    "run_type": "weekly guest-post/resource-page outreach research (unattended background run — research/draft/verify only, nothing sent)",
+    "step_b_backlink_verification": {
+      "notes": "Checked the 2 oldest sent/pitch entries with no prior verified_status (both from 2026-08-04, 16 days old): DailyArt Magazine and HistoryMedieval. Both were topic pitches (not full article submissions) requesting permission to send a full draft; both got zero reply after 16 days (gmail_send.py list --query 'from:<contact>' returned [] for each). No published article or backlink attributable to UmberLore was found for either (DailyArt's only Fallingwater article is a pre-existing 2026-06-07 staff piece by a different author, unrelated to and published before our pitch; HistoryMedieval's guest-blogging page is still live per WebSearch but no gargoyle article from us appears). Classified both as no_response_declined. Full evidence recorded as verified_status fields on the DailyArt Magazine and HistoryMedieval channel objects inside the 2026-08-04 entry above (first array element). ARCAblog (sent 2026-08-06, 14 days old) and Arts Artists Artwork (sent 2026-08-16, only 4 days old) were left for a future run: the task instructions cap this check at 2 per run, and ARCAblog was the next-oldest after the two checked; Arts Artists Artwork is not yet 10+ days old so does not qualify this round."
+    },
+    "backlog_check": "Read outreach-drafts.md and guest-post-outreach.json in full before starting. No entry anywhere in the history has a channel status like 'viable — pitch drafted, not sent' left over from a prior run; the most recent pitch (Arts, Artists, Artwork, 2026-08-16) was already reviewed-status-wise and marked sent with a Message ID. Went straight to fresh research per task instructions.",
+    "gsc_check": "Ran python3 gsc_query.py umberlore (last 28 days + week-over-week). Top gainers in the 5-40 position band not yet used in any pitch: st-peters-basilica (impressions 122->213 week-over-week, ~pos 13 per the prior week's ranking table) and fallen-angel-painting (pos 25.9, 251 impressions, a fresh top gainer this week). diego-rivera (pos 16.9) was excluded since it was already used in the 2026-08-16 pitch to Arts, Artists, Artwork. Selected st-peters-basilica: stronger, more differentiated angle (a specific historical legend the article's own sourcing complicates) for this round's target.",
+    "channels_researched": [
+      {
+        "name": "Sartle (Rogue Art History)",
+        "url": "https://www.sartle.com/ ; collaboration contact info@sartle.com",
+        "status": "viable — pitch drafted, not sent (per task instructions, this run only researches/drafts/verifies) — pitch sent",
+        "notes": "Real, long-running art-history business (not a zombie blog): sells a physical trivia game listed on Barnes & Noble, has museum partnerships, an active site structure (Team/Connect/About Us pages all return HTTP 200), and a documented history of publishing guest posts from outside contributors. info@sartle.com confirmed as a real contact address; the 'email your ideas for collaboration' process comes from WebSearch-surfaced text since the actual about-us/connect pages are JS-rendered React and could not be fully scraped via curl. One honest limitation: blog.sartle.com specifically sits behind a JS/hashcash bot challenge that curl cannot pass, so current posting cadence on the blog subdomain (as opposed to the main site/business, which is clearly active) could not be directly confirmed — noted rather than glossed over. No prior contact (gmail_send.py list --query 'to:info@sartle.com' and --query 'sartle' both returned []). [Top-level orchestrator independent review 2026-08-20: confirmed info@sartle.com is Sartle's own listed collaboration contact, all facts (Barberini pasquinade, Pantheon bronze to cannon+Venice, five architects, 1626 consecration) verified verbatim against st-peters-basilica entry in guides.ts, dedup clean. Sent via gmail_send.py --from umberlore. Message ID 1a01f3aeec74b6e9.]"
+      },
+      {
+        "name": "Baroque Lifestyle — Become a Contributor",
+        "url": "https://baroquelifestyle.com/become-a-contributor/",
+        "status": "real but poor fit — not pursued",
+        "notes": "Real, active contributor program (editor@baroquelifestyle.com) but the site is a luxury-lifestyle magazine (fashion/travel/jewelry/properties/style categories confirmed via WebSearch site listing), using 'Baroque' purely as a brand/aesthetic name rather than as an art-history subject. Not a topical match for UmberLore's art-history content; not pursued."
+      },
+      {
+        "name": "II Can DM (iicandm.org) — architecture write-for-us",
+        "url": "https://iicandm.org/write-for-us-architecture-blog/",
+        "status": "real but poor fit — not pursued",
+        "notes": "Page is real but sits behind a Cloudflare CAPTCHA that curl cannot pass (not attempted — completing CAPTCHAs is a prohibited action). WebSearch summary confirms it is a generic architecture/interior-design/real-estate guest-post outlet (residential to commercial, smart homes, energy efficiency), matching the same low-quality 'architecture write-for-us mill' pattern already flagged and rejected in the 2026-08-04 run (BusinessFirms, House of Architectures, Archwhispers, The Archspace). Not an architecture-history editorial site; not pursued."
+      },
+      {
+        "name": "Strange Buildings (strangebuildings.com) — architecture/real-estate write-for-us",
+        "url": "https://strangebuildings.com/write-for-us-submit-guest-post/",
+        "status": "real but poor fit — not pursued",
+        "notes": "Same Cloudflare CAPTCHA block as II Can DM, not attempted. WebSearch confirms the site mixes 'strange buildings' content with home-improvement guides and celebrity real estate coverage, i.e. a lifestyle/real-estate blog, not an architecture-history site. Same mill pattern as the 2026-08-04 rejected architecture write-for-us cluster; not pursued."
+      },
+      {
+        "name": "History Myths Debunked (historymyths.wordpress.com)",
+        "url": "https://historymyths.wordpress.com/",
+        "status": "real but poor fit — not pursued (dormant + off-topic)",
+        "notes": "The 'guest blog' offer found via WebSearch is a single 2015 blog-comment reply from the author (Mary Miley) to one specific commenter about a specific topic (a mustang-breed myth), not a standing open submission channel. Homepage's most recent posts (checked via curl) are dated April and September 2022 — no activity in roughly 4 years, failing the 'genuinely active, not a zombie' quality bar from 外链外联真实案例调研.md. Content focus is also general American/colonial history myths, not visual art or architectural history. Not pursued on both grounds."
+      }
+    ],
+    "sent": [],
+    "drafted_not_sent": [
+      {
+        "target": "Sartle (Rogue Art History)",
+        "to": "info@sartle.com",
+        "draft_location": "outreach-drafts.md, 'Guest post pitch (2026-08-20 — weekly outreach run)' / Pitch 6",
+        "topic_source": "st-peters-basilica (guides.ts) — Bernini baldachin bronze/Pantheon legend angle, with secondary offer of the five-architect 120-year construction-history angle",
+        "review_process": "Independent fresh-context review agent not spawned this run given time budget (per standing watchdog policy this is an allowed self-verification fallback, not a silent skip); self-verified directly instead: line-by-line fact check of every claim in the draft against the st-peters-basilica entry in src/data/guides.ts (pasquinade quote and translation, the '~90% cannon / Venice bronze' claim, the five-architect list, the 1626 consecration date, the 120-year span — all confirmed consistent with the source article, no invented details), dedup check via gmail_send.py list (empty), and a humanizer + avoid-ai-writing pass that caught and fixed one 'lingering-attention claim' AI tell ('the detail I kept coming back to' -> 'the best detail in it') before finalizing.",
+        "status": "NOT SENT — awaiting separate send/review step per task instructions"
+      }
+    ],
+    "skipped": [
+      "DailyArt Magazine / HistoryMedieval / ArtDHope Foundation / ARCAblog / Arts, Artists, Artwork — all previously sent (2026-08-04, 2026-08-06, 2026-08-16); DailyArt Magazine and HistoryMedieval re-verified this round per Step B (see step_b_backlink_verification above), not re-contacted.",
+      "Art Herstory / ArchDaily / The Magazine Antiques / Hyperallergic / Art in Context / architecture write-for-us mill sites — previously judged real-but-poor-fit (2026-08-04, 2026-08-06), not re-researched this round beyond confirming the same mill pattern recurs (II Can DM, Strange Buildings)."
     ],
     "owen_todo": []
   }
