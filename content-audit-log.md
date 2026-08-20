@@ -972,3 +972,93 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "edvard-munch-the-scream",
+  "last_audited": "2026-08-20",
+  "published_date": "2026-08-04",
+  "article_specific_checklist": [
+    "2021年National Museum红外扫描+笔迹比对确认'Can only have been painted by a madman!'为Munch本人所写（策展人Mai Britt Guleng的逐字引语'The handwriting is identical. I have word by word and letter by letter compared...'）是否准确",
+    "2020年CNR/佩鲁贾大学/安特卫普大学/Bard Graduate Center/ESRF/DESY/Munch Museum联合同步辐射研究关于镉黄颜料氧化降解（湿度而非光照为主因，45% RH建议阈值）的具体机构名单与结论是否逐字准确",
+    "2018年Robock（Rutgers）团队在Bulletin of the American Meteorological Society发表的天空成因研究（珍珠云 vs 喀拉喀托火山落日）及Robock本人'combined them'引语是否准确",
+    "1994年利勒哈默尔冬奥会开幕当天National Gallery失窃与2004年Munch Museum持枪抢劫两起盗窃案的日期/追回日期/定罪细节是否准确，尤其国家博物馆藏品NG.M.00939的材质描述（tempera and grease crayon，区别于多数媒体误称的'pastel'）",
+    "2012年Sotheby's拍卖成交价$119.9 million、买家Leon Black、卖家Petter Olsen等细节是否准确"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "未发现问题",
+      "detail": "5条核心论断逐条WebSearch核实：(1)Guleng策展人引语与2021年发现细节，The Art Newspaper原文匹配；(2)2020年CNR/佩鲁贾/安特卫普/Bard/ESRF/DESY/Munch Museum联合团队+45% RH建议阈值+ESRF官方'moisture is the main environmental factor'引语，与ESRF/DESY/Science Advances(PubMed)原文匹配；(3)Robock 2018年论文'combined them'引语与研究方法（对比火山落日与珍珠云的实际照片色彩/云型），与Futurity/Rutgers原文匹配；(4)1994年2月12日利勒哈默尔开幕日失窃、5月7日追回，与2004年8月失窃、2006年8月31日追回+3人定罪，日期与细节均匹配；(5)2012年5月2日Sotheby's成交价$119.9M、买家Leon Black、卖家Petter Olsen，与ABC/NPR/CBS等多源匹配。文章对国家博物馆藏品材质表述为'tempera and grease crayon'并特别注明'Commons文件标题沿用旧版材质描述、博物馆现行记录为tempera and grease crayon'，经Nasjonalmuseet官方页核实（'tempera and oil crayon'，措辞高度接近），比多数媒体简化为'pastel version'更准确——文章此处的谨慎表述反而是优点。尺寸91x73.5cm、1910年Olaf Schou捐赠，与Nasjonalmuseet官方描述完全一致。未发现编造引语或事实错误。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇引用真实机构一手资料（National Museum策展人具名引语、同步辐射实验室联合研究、大气科学期刊论文、MoMA藏品记录），无模糊归因，sources数组10条来源均为权威机构/主流媒体。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "published/updated均为2026-08-04，引用的三项研究（2018/2020/2021）均为已完结的历史研究，无新进展需要更新；已确认published字段存在，本次审计未触发任何updated字段修改，不适用前置检查步骤。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch核实该主题SERP由单一事件报道类文章主导（Hyperallergic/CBS/BBC/Washington Post等只报道2021年笔迹发现一件事）。本文把笔迹分析、颜料化学降解、天空成因争议三条独立研究线索整合进同一篇文章，是真实的结构性增量，非对单一新闻的复述。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题（一项边界值已独立复核，判定无需处理）",
+      "detail": "title字段55字符，站内实际渲染<title>标签为55+' | UmberLore'(12字符)=67字符。独立agent复核判定NOT-CONFIRMED：67字符仅比本站已判定可接受的61字符先例多6字符，远未达到此前判定超标并修复的78字符量级，属于同一可接受区间，不构成需要处理的问题。meta description 163字符，符合本站已确立的可接受边界（对照st-peters-basilica条目164字符先例）。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题",
+      "detail": "coreSummary字段在正文前清晰陈述三项核心发现；6条FAQ均为可直接被AI摘录的完整问答；正文按'谁发现了什么/证据是什么/结论是什么'结构组织，符合ai-seo skill的Content Extractability标准，人工核对达标。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现问题",
+      "detail": "published日期2026-08-04早于avoid-ai-writing 2026-08-07接入日期，属于需补查范围。机械扫描全文0处em dash/en dash，未检出'boasts/stands as a testament/delve into/rich tapestry/moreover'等常见AI用语清单命中；人工通读（已为事实核查逐句阅读全文）未发现提示性冒号堆砌、翻案腔或异常均匀句长。判定无需重写。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题（含方法论说明）",
+      "detail": "10条sources链接逐条curl实测：8条200；science.org(DOI)与moma.org各1条403，均已独立核实为该域名对curl的机器人防护（非真实失效）——WebSearch分别核实到science.org该DOI对应PubMed收录的真实论文、moma.org该藏品页真实收录Warhol《The Scream (After Munch), 1984》（编号588.1994），内容与文章描述完全匹配。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认本文已收到4处真实inbound手动锚文本链接（frida-kahlo-paintings/一处关于Kolmogorov湍流分析的文章/saturn-devouring-his-son/ophelia-millais），非孤儿页；Painting分类20篇文章体量充足，related-guides轮转窗口机制正常覆盖。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "[slug].astro中Article组件headline/datePublished/dateModified均直接从guide.title/guide.published/guide.updated字段自动派生（非手工重复维护字段），结构上不存在漂移风险。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "文章涉及Munch自我诊断'madman'与精神健康话题，但均为已发表的、有据可查的历史研究结论的客观转述，非渲染式或猎奇式处理；无现实世界近期新增争议。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "2张配图本地文件均存在。Wikimedia Commons API直接核实两个文件页元数据：均为Public Domain（Edvard Munch原作品），与站内imageCredit标注一致。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "内容为艺术史/科学研究的百科式记述，无暴力渲染/武器毒品赌博细节/误导性标题党用语；ads.txt与AdSense验证代码此前审计已确认就位，本次未发现新变化。"
+    }
+  ],
+  "independent_verification": "1条独立agent复核title标签67字符是否构成真实问题，判定NOT-CONFIRMED（理由：仅比本站已判定可接受的61字符先例多6字符，远低于此前判定超标的78字符量级，属软性guideline非硬性上限，不构成需要处理的问题）。",
+  "actions_taken": [
+    "无——十三个维度逐一核查后均未发现需要修复的问题，未修改任何文件，未触发build/deploy/IndexNow"
+  ],
+  "seo_score": "title 67字符（独立复核判定可接受）、meta description 163字符（可接受边界），其余维度健康，无变化",
+  "geo_score": "无自动化打分工具适用于本站；按ai-seo skill的Content Extractability Check人工核对，达标，未发现薄弱维度",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
