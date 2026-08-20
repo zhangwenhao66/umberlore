@@ -5020,6 +5020,112 @@ export const guides: Guide[] = [
         "url": "https://www.laweekly.com/the-trip/"
       }
     ]
+  },
+  {
+    "slug": "aboriginal-art",
+    "category": "Non-Western Art",
+    "title": "Aboriginal Art: The Mural a Government Crew Painted Over",
+    "description": "The 1971 mural that launched the Western Desert art movement was revised twice for showing too much, then erased in 1974. A curator called it cultural vandalism.",
+    "published": "2026-08-20",
+    "updated": "2026-08-20",
+    "coreSummary": "In 1971, Aboriginal elders at the Papunya settlement school, led by artist Kaapa Tjampitjinpa, took over a mural project started by children and painted the Honey Ant Dreaming on the school wall, the event now credited with starting the Western Desert Art Movement, more widely known as Aboriginal dot painting. The mural was revised at least twice within its first years, once because senior men judged it showed too many restricted ceremonial designs, and once more after teacher Geoffrey Bardon objected to an overly simplified replacement. In 1974, government maintenance staff painted over the wall entirely; National Gallery of Victoria curator Judith Ryan later called the act \"cultural vandalism.\" The dotting technique that came to define the movement developed directly afterward, between 1973 and 1975, as artists found a way to keep selling paintings to outsiders while concealing the sacred content underneath from anyone without the ritual standing to see it.",
+    "image": "/images/papunya-school-1972.jpg",
+    "imageAlt": "A 1972 photograph of the Papunya settlement school in the Northern Territory, showing low brick and timber buildings around a red dirt yard, with a painted mural visible on the end wall of one building.",
+    "imageCredit": "[Whittaker 050 J](https://commons.wikimedia.org/wiki/File:Whittaker_050_J.jpg), Lionel and Heather Whittaker Collection, 1972, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "sections": [
+      {
+        "heading": "A teacher, sand patterns, and a school wall",
+        "body": [
+          "In the late 1960s, the Australian government relocated several groups from across the Western Desert, including Pintupi, Luritja, Warlpiri, Arrernte, and Anmatyerre people, to Papunya, a purpose-built settlement 240 kilometres northwest of Alice Springs, as part of a policy aimed at assimilation. In 1971, Geoffrey Bardon, an art teacher working at the settlement's primary school, noticed his Aboriginal students drawing the same circle-and-line patterns in the schoolyard dirt that they had grown up watching adults make in sand and body designs during ceremony. Bardon encouraged the children to paint a version of what they knew on a blank section of the school wall.",
+          "When senior men in the community saw what the children were attempting, several judged the subject too significant to leave to students and took the project over themselves. Between June and August 1971, a group led by artist Kaapa Tjampitjinpa, assisted by Billy Stockman Tjapaltjarri and Long Jack Tjakamarra, painted a mural depicting the Honey Ant Dreaming, the ancestral story tied specifically to Papunya's location as a site where several groups' songlines converge. Bardon supplied the paint in exchange for the work."
+        ]
+      },
+      {
+        "heading": "Three attempts at the same wall",
+        "body": [
+          "The mural went through at least two full revisions before any version was allowed to stand for long. The first, painted in the ochre palette of red, yellow, and black used in ceremonial ground and body designs, alarmed some elders once it was finished; they judged it revealed more of the honey ant ancestors' story than people outside the circle of initiated men were meant to see. Rather than remove the mural outright, the artists repainted the same wall with a second version, replacing the original patterns with simpler, more cartoon-like figures. Bardon himself objected to this compromise, feeling it lost what had made the first version significant.",
+          "A third version followed, built from symbols the parties involved had agreed on in advance. All three iterations stayed within the same ochre-based palette. The saturated, multicolored acrylic paintings now associated with the movement hadn't arrived yet; that shift came later, alongside the technique that would eventually give the movement its popular name."
+        ]
+      },
+      {
+        "heading": "Painted over by government order",
+        "body": [
+          "Despite the compromises, in 1974, three years after the wall was first painted, European-Australian administrators running Papunya had the mural painted over entirely by maintenance staff. Judith Ryan, curator at the National Gallery of Victoria, later described the act as \"cultural vandalism\" in her introduction to Bardon's own 1991 book on the movement, writing that \"the school was de-Aboriginalized and the art no longer allowed to stand tall and defiant as the symbol of a resilient and indomitable people.\" No photograph of the finished third version is known to survive publicly; what's documented instead is the sequence of revisions that preceded its destruction.",
+          "The wall's loss didn't end what it had started. Watching the men paint, other Papunya residents began making their own smaller versions of their own Jukurrpa, or ancestral stories, on whatever surfaces were available: offcuts of masonite, car bonnets, tin cans, and matchboxes among them. Historians of the movement treat that wave of activity, not the mural itself, as the actual beginning of contemporary Aboriginal art, independent of whether the wall survived."
+        ]
+      },
+      {
+        "heading": "Why the paintings turned to dots",
+        "body": [
+          "The dotting technique now treated as the visual signature of the whole movement wasn't part of the original mural's ochre-and-line vocabulary. It developed in the years directly after the school wall was destroyed, largely as a response to a problem the mural itself had already exposed: paintings made for sale to outsiders kept revealing ceremonial content that some viewers, including Aboriginal women and men from unrelated language groups, had no standing to see.",
+          "Ryan's own account of the shift is specific about the mechanism. Between 1973 and 1975, she writes, \"Papunya Tula artists sought to camouflage overt references to ceremony,\" removing or modifying \"detailed depictions of human figures, fully decorated tjurungas [bullroarers] and ceremonial paraphernalia\" that had appeared in earlier work. Dots, layered over or around the altered symbols, offered a way to obscure exactly what needed obscuring while still finishing a painting that could be sold. \"Dotting and over-dotting, as an ideal means of concealing or painting over dangerous, secret designs, became a fashion at this stage,\" Ryan writes. What now reads as abstract, decorative texture began as a specific act of information control, applied by the same artists who were trying to make a living from the finished paintings."
+        ]
+      },
+      {
+        "heading": "A meeting-place hill gives the company its name",
+        "body": [
+          "The artists who had been painting for Bardon organized formally the following year. At a gathering of painters at Charley Creek, near Alice Springs, in June 1972, several names were proposed for the new venture before Pintupi artist Charlie Tarawa (Tjaruru) suggested one on the spot: Papunya Tula, after two small hills near the settlement that mark a Honey Ant Dreaming site recognized across tribal and language lines. Accounts of the naming translate it as close to \"a meeting place for all brothers and cousins,\" a deliberate choice, since Papunya itself sat outside the traditional country of most of the people painting there, while the two hills offered common ground that crossed those boundaries instead.",
+          "The company incorporated formally as Papunya Tula Artists Pty Ltd on 16 November 1972, becoming, by most accounts, the first Aboriginal-owned arts business in Australia. It remains in operation today, based in Alice Springs, drawing artists from communities extending more than 700 kilometres further into the Western Desert."
+        ]
+      },
+      {
+        "heading": "The market took over a decade to catch up",
+        "body": [
+          "Mainstream art institutions were slow to follow. The National Gallery of Victoria, now home to one of the country's most prominent collections of the movement's work, didn't acquire a single Papunya Tula painting until 1987, fifteen years after the company's founding, when Ryan persuaded the gallery's director to buy ten works at once for a combined AUD 100,000. Looking back in 2008, Ryan described that price as \"a steal.\"",
+          "The gap between that early indifference and the market's later valuation is stark. In 2007, a single painting by Papunya Tula artist Clifford Possum Tjapaltjarri sold at auction for £1.03 million, or roughly $2.4 million, more than double the previous record for any work of Aboriginal art. The movement that a government maintenance crew had painted over as recently as 1974 was, within a single generation, producing individual paintings worth more than the National Gallery of Victoria had once paid for ten of them combined."
+        ]
+      },
+      {
+        "heading": "A pattern that isn't unique to the Western Desert",
+        "body": [
+          "Meaning withheld from most viewers by design, then only partly recovered by later scholarship, shows up elsewhere in the collection too. [The Aztec Sun Stone's central carved face has drawn at least four competing scholarly identifications over the past century, argued from the same surviving object](/aztec-art/), and in a different way, [the Bonampak murals in Chiapas kept yielding previously unreadable content for decades after their 1946 rediscovery, as documentation methods advanced from hand-copying to infrared photography](/mayan-art/). What a viewer takes away from either tradition depends heavily on when they're looking, and with what tools."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the origin of Aboriginal dot painting?",
+        "answer": "It traces to 1971, when Aboriginal elders at the Papunya settlement school, led by artist Kaapa Tjampitjinpa, painted the Honey Ant Dreaming mural on the school wall under teacher Geoffrey Bardon's encouragement. That project prompted other residents to begin painting their own ancestral stories on available materials, a wave of activity now regarded as the start of the movement. The dotting technique itself came later, developed between 1973 and 1975."
+      },
+      {
+        "question": "Why do Aboriginal artists paint using dots?",
+        "answer": "According to curator Judith Ryan, the technique developed specifically so Papunya Tula artists could keep selling paintings to outside buyers while concealing sacred and ceremonial designs from anyone without the ritual standing to see them, including Aboriginal people from unrelated groups. Dots applied over or around altered symbols obscured restricted content while still producing a finished, saleable painting."
+      },
+      {
+        "question": "What happened to the original Honey Ant Dreaming mural?",
+        "answer": "Painted in 1971 and revised at least twice, the mural was painted over entirely by government maintenance staff in 1974. National Gallery of Victoria curator Judith Ryan later called the act \"cultural vandalism\" in her introduction to Geoffrey Bardon's 1991 book on the movement."
+      },
+      {
+        "question": "What does \"Papunya Tula\" mean and when was the company founded?",
+        "answer": "The name was suggested by Pintupi artist Charlie Tarawa (Tjaruru) at a painters' gathering at Charley Creek in June 1972, referring to two hills near Papunya recognized as a shared meeting site; it translates to something close to \"a meeting place for all brothers and cousins.\" The company incorporated formally as Papunya Tula Artists Pty Ltd on 16 November 1972."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Honey Ant Dreaming",
+        "url": "https://en.wikipedia.org/wiki/Honey_Ant_Dreaming"
+      },
+      {
+        "label": "Wikipedia: Papunya Tula",
+        "url": "https://en.wikipedia.org/wiki/Papunya_Tula"
+      },
+      {
+        "label": "National Museum of Australia: Papunya Tula",
+        "url": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+      },
+      {
+        "label": "Bibliographic record: Geoffrey Bardon, Papunya Tula: Art of the Western Desert (McPhee Gribble, 1991)",
+        "url": "http://www.aboriginal-art.de/EN/Literatur_Info_Bardon_1991_23.htm"
+      },
+      {
+        "label": "The Age (2008): Bold vision of artistic rebirth",
+        "url": "http://www.theage.com.au/news/arts/bold-vision-of-artistic-rebirth/2008/01/03/1198949985657.html"
+      },
+      {
+        "label": "The Independent (2007, archived): Painting by aboriginal artist sells for record £1.03m",
+        "url": "https://web.archive.org/web/20080511155520/http://www.independent.co.uk/news/world/australasia/painting-by-aboriginal-artist-sells-for-record-1631m-458740.html"
+      }
+    ]
   }
 
 ];
