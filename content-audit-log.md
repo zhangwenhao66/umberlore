@@ -1155,3 +1155,5 @@
   "pending_for_owen": null
 }
 ```
+
+**2026-08-21 补充记录（同日追加，人工复核发现）**：上面记录的HRC收藏年份修复（1966→1965）实际只改对了正文段落，FAQ答案（"the Nickolas Muray collection the Center acquired in 1966"）里同一事实的独立复述未被审计agent的"穷尽式检索"覆盖到，本次审计流程结束、`actions_taken`已写"已修复"并部署上线之后，用curl比对线上页面全文才发现FAQ仍显示旧的1966。已单独修复（commit `490d009`）、build通过、push、curl轮询确认线上FAQ已生效1965、无需重新跑IndexNow（同一URL当天已提交过一次）。已作为L-0804-6的新复发案例写入`独立站/内容通用教训库.md`。
