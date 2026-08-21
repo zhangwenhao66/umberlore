@@ -1062,3 +1062,96 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "frida-kahlo-paintings",
+  "last_audited": "2026-08-21",
+  "published_date": "2026-08-04",
+  "article_specific_checklist": [
+    "画作总数\"约150/152幅\"与\"55幅自画像\"的具体出处（Taschen 2021画集/Harry Ransom Center）是否准确",
+    "2009年\"Finding Frida Kahlo\"档案争议的直接引语（Grimberg\"sliver from the true cross\"、Noyola两处）是否逐字准确",
+    "The Wounded Table 2019/2020两次复现声明被拒的细节（材质canvas vs wood）是否准确",
+    "2025年10月巴伐利亚警方查获伪作案的关键细节（日期/涉案人数/涉案画家）是否准确——这是description明确点名的最新事件，全文时效性最强、最容易过时或被后续报道推翻的一条",
+    "头图（1919年Frida Kahlo照片，摄影师为其父Guillermo Kahlo）的版权/许可依据是否真的成立——本站建站文档明确将Frida Kahlo列入版权高风险清单（画作受墨西哥版权法保护至2054年），不能默认Wikimedia Commons式\"PD\"标签就等于合规"
+  ],
+  "findings": [
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇引用真实机构/媒体一手资料（Harry Ransom Center、INBA、Taschen、Newsweek、The Art Newspaper、Wikipedia），7条sources全部可验证，多处具名专家引语（Grimberg/Prignitz-Poda/Mary-Anne Martin）非模糊归因。"
+    },
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "发现2个真问题（均已修复）",
+      "detail": "WebSearch+curl逐条核实五项专属清单：2025年10月巴伐利亚案细节（100+警员/11德国城镇+5瑞士州+列支敦士登/77岁主嫌+10名同伙/84岁瑞士女性+74岁莱茵兰-普法尔茨男性伪造证书）与The Art Newspaper/NBC/CBS/NPR/artnet等多家独立信源逐条吻合；Grimberg与Noyola三处直接引语经WebSearch独立核对均逐字准确；Wounded Table 2020 canvas vs wood材质矛盾经AP相关报道确认无误；Taschen\"152幅\"、HRC\"55幅自画像\"均有独立信源佐证。**问题①**：Harry Ransom Center自画像收藏年份正文写\"1966年\"，但文章自己引用的HRC官网原文（https://www.hrc.utexas.edu/frida-kahlo-self-portrait/）明确写\"acquired the self-portrait in 1965\"，独立agent直接curl该URL复核确认原文即1965，与正文断言矛盾。**问题②**：The Two Fridas的1947年INBA购藏/1966年12月28日转交Museo de Arte Moderno两个具体日期，正文写\"according to INBA's own account\"并引用一个INBA官网URL，独立agent完整抓取该URL全文（380词、2019年西班牙语展览新闻稿）确认页面内根本不含\"1947\"\"1966\"字样，是一篇与这两个日期无关的展览公告；日期本身经Wikipedia《The Two Fridas》等多个独立信源核实为真，但引用源头与断言不匹配。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题，已按检查前置流程更新",
+      "detail": "published字段本身已存在（2026-08-04），无需按SKILL.md的git log回填流程。WebSearch核实2025年10月巴伐利亚案截至本次审计仍处\"调查进行中\"状态，未见后续判决或涉案方立场变化，正文\"investigations are still ongoing\"表述仍准确，无需内容更新；updated字段已因上述事实修复同步改为2026-08-21。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "`dataforseo_query.py serp \"frida kahlo paintings\" --depth 10`实测真实SERP前12位（frida-kahlo-foundation.org/fridakahlo.org/christies.com/mmoca.org/moma.org/singulart.com/carredartistes.com/wikipedia.org等）清一色是作品全集/画廊/传记型内容，无一篇聚焦\"认证争议史\"角度，确认本文角度与SERP现有供给真实差异化，非第三份维基百科式重复。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "观察到边界情况，判定非阻断，未处理",
+      "detail": "线上title渲染83字符、meta description渲染164字符；canonical自指；单一H1；schema三区块（Article/FAQPage/BreadcrumbList）均健康。`check_seo_field_stats.py`对guide.title字段（71字符，不含站名后缀）给出n=40 min=47 max=72 mean=59.5 stdev=7.0，z=1.65标记为统计离群值，但71字符未超过站内当前实际最大值72字符，不构成新纪录式超标（不同于此前st-peters-basilica的78字符远超61字符先例、frank-lloyd-wright的90字符远超82字符先例两次真实超标案例）。判定为边界内可接受，未修改。description 164字符z=0.60正常范围。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现需要强化的薄弱维度",
+      "detail": "按站内既有11维度99分制自评法（无独立工具复验，记为\"自评\"）：权威原文引语14/16（2处已修复的年份/引用问题扣分）→修复后16/16；统计数据完整性13/14；可引用性12/13（coreSummary+6条FAQ均自包含）；结构规范性12/12（6节+FAQ无跳级）；表达流畅度9/10；语义密度7/8；权威信号6/8（同站已知系统性短板——缺作者专业背景credential展示，非本文独有）；专业术语6/6（provenance/connoisseurship/catalogue raisonné准确使用）；鲁棒性4/5（修复前，因年份/引用问题）→5/5（修复后）；跨域连接4/4；易懂表达3/3。**修复前90/99，修复后93/99，均≥80分门槛**。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现问题",
+      "detail": "`Skill(humanizer)`+`Skill(avoid-ai-writing)`逐段扫描正文：0处em/en dash、0处花体引号、0处\"not just/not only\"翻案句式、rule-of-three候选逐一核对均为真实事实性列举非刻意凑三、AI高频词表（tapestry/testament/underscore/pivotal等）0命中，仅\"genuine\"出现4次但均为文章主题本身\"真伪鉴定\"语境下字面用法（\"the genuine Wounded Table\"\"genuine Kahlos\"），非空洞强调词。亦未命中教训库L-0817记录的同站\"翻案揭示句\"模板过密问题（本文不使用该修辞骨架）。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题（含方法论说明）",
+      "detail": "7条sources链接逐条curl实测：6条200；Newsweek一条返回406，核实为该域名对curl的机器人防护（WebSearch确认文章仍在线，标题/内容与引用一致），非真实链接失效。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认本文已收到3处真实inbound手动锚文本链接（来自saturn-devouring-his-son关于Junquera争议段落、andy-warhol关于私人鉴定人机制段落、diego-rivera关于里维拉与卡罗婚姻段落），非孤儿页；Painting分类现20篇，超过6篇轮转窗口阈值，轮转机制正常运作。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题（修复后已重新核实）",
+      "detail": "修复后npm run build确认Article schema的dateModified字段（2026-08-21）与guides.ts的updated字段同步；headline/description字段与guide.title/description一致；FAQPage的6条问答与正文FAQ数组一一对应；BreadcrumbList路径正确。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "文中提及的认证争议均涉及在世/近期机构与专家（Kahlo信托、私人鉴定人Richard Polsky等），WebSearch核实2025年10月巴伐利亚案截至查证时点无后续判决或涉案方立场变化；2009年档案争议、2019/2020年Wounded Table声明均为多年前已定性事件，无新进展需要反映。"
+    },
+    {
+      "dimension": "配图可用性与版权（本站已知最高风险维度，独立agent专项复核）",
+      "status": "未发现问题",
+      "detail": "头图为1919年Frida Kahlo本人照片，摄影师为其父Guillermo Kahlo（1871–1941），与画家本人是完全不同的两个人、不同的版权计时起点，不涉及Frida Kahlo本人画作，因此不落入本站\"卡罗画作受版权保护至2054年\"的已知风险范畴。独立agent直接curl该Wikimedia Commons文件页原始HTML，确认PD-Mexico许可依据（\"作者卒于1952年前，适用墨西哥1982年前的死后30年版权期，且1982年及以后的版权期延长未追溯恢复已过期作品的版权\"）与PD-US许可依据（\"1931年1月1日前发表\"）均为Commons通用模板（Template:PD-Mexico/Template:PD-old-auto-expired），非该文件页临时编造的说理；WebSearch核实此类模板是Commons对墨西哥籍已故作者的标准化系统性做法，非孤例。结论\"CONFIRMED CORRECTLY LICENSED / NO COPYRIGHT RISK\"。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均显式Allow；ads.txt发布商ID\"pub-5245502795720653\"与账号一致；/privacy/与/about/均200可访问（/about/页面含contact@umberlore.com联系方式）；标题\"How a Career This Small Keeps Attracting Fakes\"未见误导性/标题党框架，内容与标题承诺一致；题材（艺术品真伪鉴定、警方查获伪作）不涉及暴力渲染/毒品赌博细节。"
+    }
+  ],
+  "independent_verification": "3条发现均通过独立、全新上下文的Agent工具调用逐一复核：①HRC收藏年份矛盾，判定CONFIRMED REAL PROBLEM（agent直接curl HRC官网复现\"1965\"原文）；②Two Fridas日期引用错配，判定CONFIRMED REAL PROBLEM（agent完整抓取INBA URL全文确认不含1947/1966字样，同时WebSearch确认日期本身经Wikipedia等独立信源核实为真）；③配图版权，判定CONFIRMED CORRECTLY LICENSED / NO COPYRIGHT RISK（agent独立curl Commons文件页原始HTML+WebSearch核实PD-Mexico模板为Commons系统性通用做法，非一次性编造）。3条agent均正常完成（22.6秒/61秒/35秒），无卡死需放弃自查的情况。SEO title离群值一项判定为边界内可接受，未单独发起独立agent复核（比照st-peters-basilica/edvard-munch-the-scream两次先例：超过既有站内最大值才判定为真实问题需要独立复核，本次71字符未超过72字符的站内现有最大值）。",
+  "actions_taken": [
+    "src/data/guides.ts的frida-kahlo-paintings条目：HRC收藏年份\"1966\"改为\"1965\"；Two Fridas引用改为\"according to the painting's documented provenance\"（不再误挂\"INBA's own account\"），并在sources[]新增Wikipedia《The Two Fridas》条目作为该具体日期的实际支撑来源（原INBA链接保留，仍是真实相关的机构背景来源）；updated字段由\"2026-08-04\"改为\"2026-08-21\"",
+    "npm run build 54页成功生成（含frida-kahlo-paintings/index.html）后commit 1f11324并push；curl轮询3次（每次间隔20秒）后确认线上JSON-LD dateModified已变为2026-08-21且正文\"Muray's Mexican art in 1965\"\"documented provenance\"均已生效，非仅状态码200的假阳性",
+    "IndexNow提交/frida-kahlo-paintings/：Bing 200 / Yandex 202",
+    "内容发布日志.md追加审计记录，明确标注为content-quality-audit审计更新非新发布"
+  ],
+  "seo_score": "修复前后SEO技术层面无变化（本次修复均为正文事实/引用问题，不涉及title/description/canonical/schema结构）；title 71字符（z=1.65，站内边界内可接受，未处理）、description 164字符（z=0.60，正常范围）",
+  "geo_score": "修复前90/99，修复后93/99（阈值80，均达标），跨域连接4/4、结构规范性12/12、专业术语6/6均为满分，权威信号6/8为站级系统性短板",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
