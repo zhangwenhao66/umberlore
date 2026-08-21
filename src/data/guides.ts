@@ -1872,7 +1872,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Where can I see genuine Frida Kahlo paintings with documented provenance?",
-        "answer": "The Two Fridas hangs at the Museo de Arte Moderno in Mexico City, acquired by Mexico's Instituto Nacional de Bellas Artes in 1947 and transferred there in 1966. Self-Portrait with Thorn Necklace and Hummingbird is held by the Harry Ransom Center at the University of Texas at Austin, part of the Nickolas Muray collection the Center acquired in 1966."
+        "answer": "The Two Fridas hangs at the Museo de Arte Moderno in Mexico City, acquired by Mexico's Instituto Nacional de Bellas Artes in 1947 and transferred there in 1966. Self-Portrait with Thorn Necklace and Hummingbird is held by the Harry Ransom Center at the University of Texas at Austin, part of the Nickolas Muray collection the Center acquired in 1965."
       },
       {
         "question": "Why does a painter with so few known works attract so many forgery attempts?",
