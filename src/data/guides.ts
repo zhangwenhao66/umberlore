@@ -5126,6 +5126,118 @@ export const guides: Guide[] = [
         "url": "https://web.archive.org/web/20080511155520/http://www.independent.co.uk/news/world/australasia/painting-by-aboriginal-artist-sells-for-record-1631m-458740.html"
       }
     ]
+  },
+
+  {
+    "slug": "encaustic-painting",
+    "category": "Technique",
+    "title": "Encaustic Painting: A Recipe Recycled Since 1893, Never Confirmed",
+    "description": "Art references still repeat a \"Punic wax\" recipe for ancient encaustic painting. A 2020 Getty study of two Fayum portraits found no evidence it was ever used.",
+    "published": "2026-08-21",
+    "updated": "2026-08-21",
+    "coreSummary": "Encaustic painting's origin is uncertain by its own earliest chronicler: writing around 77 AD, Pliny the Elder stated flatly that \"it is not agreed who was the inventor of painting in wax,\" naming four rival claimants before crediting Pausias of Sicyon as the first artist to become famous at it. The \"Punic wax\" recipe long cited as the medium behind the Fayum mummy portraits fares no better under modern testing: a 2020 Getty Museum study of two Art Institute of Chicago portraits found that recipes recorded from Otto Donner von Richter in 1893 through Euphrosyne Doxiadis in the 1990s, and repeated as settled fact in reference works including The Oxford History of Western Art, have never been confirmed by chemical analysis of an actual portrait. The same study found beeswax as the major binder in both paintings, including one that looks nothing like encaustic, undercutting the visual test art historians have used for over a century to sort portraits into \"encaustic\" and \"tempera\" groups.",
+    "image": "/images/encaustic-painting-fayum-laurel-wreath-aic.jpg",
+    "imageAlt": "A Romano-Egyptian mummy portrait of a man wearing a laurel wreath, painted in encaustic on wood, early to mid-2nd century AD, from the Art Institute of Chicago.",
+    "imageCredit": "[Portrait of a Man Wearing a Laurel Wreath](https://www.artic.edu/artworks/5520/portrait-of-a-man-wearing-a-laurel-wreath), Egyptian, early to mid-2nd century AD, Art Institute of Chicago, public domain (CC0)",
+    "sections": [
+      {
+        "heading": "Pliny's own verdict: no one agreed on who invented it",
+        "body": [
+          "Encaustic painting is usually introduced as one of the oldest, best-documented techniques in Western art history, tied to the vivid Fayum mummy portraits and a specific ancient recipe. The technique's own earliest surviving chronicler didn't see it that way. Writing around 77 AD in his Natural History, Pliny the Elder put the matter plainly: \"It is not agreed who was the inventor of painting in wax and of designs in encaustic.\" He then laid out competing claims rather than settling on one. Some credited the discovery to Aristides, later perfected by Praxiteles. Others pointed to encaustic work that predated both by a considerable margin, citing Polygnotus, and Nicanor and Mnasilaus of Paros. Pliny added a fourth piece of evidence rather than a name: Elasippus of Aegina had inscribed a picture enekaen, Greek for \"burnt in,\" a word Pliny reasoned he wouldn't have used had encaustic painting not already existed as a recognized art.",
+          "Pliny does settle on a first famous practitioner, if not a first inventor. Pamphilus, the teacher of Apelles, taught the technique to Pausias of Sicyon, whom Pliny names as the first artist to become renowned specifically for encaustic work. Pausias's own biography reads like a case study in the medium's demands: he fell for a garland-maker named Glycera and, competing with her craft, used encaustic to render an unusually wide range of flowers; his portrait of her, Stephanoplocos, was prized enough that a copy sold to the Roman general Lucius Lucullus in Athens for two talents around 88 BC. His most cited technical feat isn't floral. For a large panel called the Sacrifice of Oxen, later displayed in Pompey's portico in Rome, Pausias painted the animal facing the viewer rather than in profile, then rendered its whole body in black and modeled the shadow out of the shadow itself, a method Pliny says was widely imitated afterward but never equaled. None of this settles who invented encaustic. It only confirms that whoever it was, the technique already had a documented master by the time Pliny's sources start naming names."
+        ]
+      },
+      {
+        "heading": "What \"Punic wax\" actually says, once you read past the name",
+        "body": [
+          "The recipe most often cited as the ancient encaustic medium doesn't come from Pliny's chapter on painting at all. It appears earlier in the Natural History, in a chapter on garlands and flowers, where Pliny ranks several grades of wax and singles one out: \"The best wax is that known as Punic wax.\" His instructions for making it describe repeated bleaching rather than any painting-specific process: yellow wax is boiled in seawater with a little nitre, skimmed, boiled again, then dried in the open air on a mat of rushes, covered with linen so it won't melt, for three cycles, with the moon adding to its whiteness and the sun drying it. The chapter never mentions applying this wax to a panel or a portrait. Pliny lists it as the finest grade of wax for medicinal preparations generally, in the same breath as wax used for making models and for varnishing walls and armor.",
+          "That gap between what the text says and what it gets cited for is exactly what makes Punic wax contested. A 2020 Getty Museum study by conservation scientists Ken Sutherland, Rachel C. Sabino, and Federica Pozzi calls Pliny's account \"cryptic and open to different readings,\" noting it has been interpreted as either a simple purification or a partial saponification, turning the wax into a soap-like substance that could be applied cold and mixed with water rather than melted hot with a brush. Not every scholar who weighed in accepted either reading. The early twentieth-century conservation scientist A. P. Laurie ran his own experiments and concluded that Punic wax belonged among the \"ingenious fictions that have so long obscured the scientific investigation of the classical methods of painting.\" A recipe named once, in a chapter about flowers, for a purpose Pliny never specified as painting, has carried the weight of explaining an entire ancient art form for more than a century."
+        ]
+      },
+      {
+        "heading": "A recipe repeated since 1893, confirmed by no one",
+        "body": [
+          "What happened next is a paper trail, and the Getty study reconstructs it in detail. In 1893, the antiquarian Otto Donner von Richter published his own reading of Punic wax in a catalogue for art dealer Theodor Graf's display of Fayum portraits at the Chicago World's Fair, proposing a mixture of \"Punic wax, balm of Chios, and a very little olive-oil, all melted together over the fire and mixed up with the pigments.\" In 1921, the conservation writer Max Doerner described a comparable \"wax paste\" of wax, pigment, and mastic, adding that \"it is not impossible that the late Greek mummy portraits from the Fayum were made in that way.\" By the 1990s, the art historian Euphrosyne Doxiadis was proposing her own variations, hot beeswax mixed with Chios mastic, or cold Punic wax mixed with egg and a small amount of linseed oil, based partly on her own painting experiments rather than analysis of an ancient object.",
+          "Each version differs in its details, and each was offered by its author as informed conjecture. What changed along the way is how the recipes got cited afterward. By the time a version of the same claim reached The Oxford History of Western Art, a standard academic reference, it reads as settled fact: \"scientific analysis reveals that several types of encaustic were used ... hot beeswax mixed with resin or cold wax with egg and sometimes a little linseed oil.\" The Getty researchers are blunt about the gap between that sentence and the evidence: \"none of these combinations of materials has been indicated to date by scientific analysis of mummy portraits.\" A chain of informed guesses, recycled and refined across a century of scholarship, had been rewritten along the way into a claim about what chemistry had actually shown."
+        ]
+      },
+      {
+        "heading": "Two Chicago portraits, one visual test that failed",
+        "body": [
+          "The clearest demonstration of how little the visual evidence proves comes from two portraits in the Art Institute of Chicago, both gifts of Emily Crane Chadbourne acquired in 1922, both painted in the early to mid-second century AD. One, showing a man in a laurel wreath, carries the raised brushwork and tool marks long treated as the visual signature of encaustic, thick, worked ridges of pigment that only wax applied hot and manipulated with heated tools tends to produce. The other, showing a man in an ivy wreath, looks nothing like it. Its surface is flat and matte, built from the fine hatched lines, called tratteggio, and crosshatching normally associated with tempera, a water-based paint bound with egg or animal glue rather than wax. For more than a century, differences like this one supplied the primary evidence used to sort mummy portraits into encaustic and tempera categories, appearance standing in for chemistry.",
+          "When the Art Institute analyzed both panels ahead of an online catalogue project, the result upended that sorting method. The major binding component in both portraits turned out to be beeswax, including the flat, matte one that reads, to the eye, as tempera. Sutherland, Sabino, and Pozzi found no meaningful compositional difference between the two waxes, no distinct degree of esterification or shift in molecular ratios, that could explain why one portrait looks like classic encaustic and the other doesn't. Both samples also contained diterpene resin, shellac, protein residue, and cellulose nitrate, materials the researchers attribute partly to later restoration work rather than the original second-century paint. A visual test used for generations to tell two painting techniques apart had, in these two specific and well-documented objects, sorted a wax portrait into the wrong category entirely."
+        ],
+        "image": {
+          "src": "/images/encaustic-painting-fayum-ivy-wreath-aic.jpg",
+          "alt": "A Romano-Egyptian mummy portrait of a man wearing an ivy wreath, flat and matte in appearance despite testing positive for beeswax, Art Institute of Chicago.",
+          "credit": "[Portrait of a Man Wearing an Ivy Wreath](https://www.artic.edu/artworks/5519/portrait-of-a-man-wearing-an-ivy-wreath), Egyptian, early to mid-2nd century AD, Art Institute of Chicago, public domain (CC0)"
+        }
+      },
+      {
+        "heading": "Why the chemistry keeps hitting the same wall",
+        "body": [
+          "Modern instrumental analysis hasn't settled the question either, and the Getty researchers are candid about why. Early scientific studies from the 1960s and 1970s, once treated as authoritative confirmation of Punic wax, look less solid under current chemistry. In 1960, Hermann Kuhn proposed detecting saponified Punic wax through metal soap compounds using infrared spectroscopy; in 1978, Raymond White reached a similar conclusion about two mummy portraits using gas chromatography, reading a reduced ratio of wax esters to hydrocarbons as evidence of deliberate chemical treatment. Both findings have since been reconsidered. Metal soap formation, current research shows, happens naturally in ancient paint films through ordinary aging, and the specific ratio White measured can also shift simply because more volatile wax components evaporate over roughly two thousand years in Egypt's hot, dry climate. What once read as proof of an ancient recipe now reads as an artifact of the samples' age.",
+          "Contamination compounds the problem. Petrie himself, excavating at Hawara and er-Rubayat in the 1880s, used beeswax and paraffin wax to stabilize loose paint on the portraits he unearthed, and later conservators applied collagen glues for panel repair, so a modern sample can carry materials from three different centuries of handling rather than the second-century original alone. Sampling itself is constrained by conservation ethics, meaning researchers usually work from tiny fragments taken at existing losses or edges, exactly the areas most likely to have been touched by earlier restoration. A recent multi-institutional study comparing experimentally aged wax formulations reached a conclusion the Getty team calls humbling: \"the scope for differentiating encaustic recipes is limited in ancient samples.\" A century after Ernst Berger and A. P. Laurie argued over the same question with far cruder tools, the debate hasn't resolved so much as changed instruments."
+        ]
+      },
+      {
+        "heading": "The 20th-century revival wasn't working from a confirmed formula either",
+        "body": [
+          "Interest in encaustic never really disappeared after antiquity, and its documented revivals share the same problem as the ancient recipe: enthusiasm arriving well ahead of evidence. Eighteenth-century excavations at Herculaneum and Pompeii, which some scholars believed had turned up encaustic wall paintings, triggered a wave of Enlightenment-era attempts to reconstruct the lost technique, formalized in a 1755 treatise by the antiquarian Comte de Caylus and followed by further experiments from Vincenzo Requeno and Paillot de Montabert. None of these reconstructions had a confirmed ancient sample to work from any more than Otto Donner von Richter would over a century later; they were built from the same cryptic Pliny passage and educated guesswork.",
+          "The technique's twentieth-century return followed a similar pattern. American and Mexican painters including Arthur Dove and Diego Rivera, and later Jasper Johns and Brice Marden, picked wax back up as a working medium, several of them drawing directly on Doerner's writing on the subject. Rivera in particular is recorded as wanting to replicate the \"true\" ancient encaustic technique in his own work, a goal no scholar or scientist could actually verify for him. The gap between the confidence of the claim and the strength of the evidence behind it runs the whole length of encaustic's history, from a Roman encyclopedist who admitted he didn't know who invented the technique, through a chain of nineteenth- and twentieth-century recipes offered as informed guesses and cited later as settled fact, to a 2020 chemical analysis that still can't tell two differently made portraits apart by their wax alone."
+        ]
+      },
+      {
+        "heading": "A gap that shows up elsewhere in the record too",
+        "body": [
+          "Encaustic's history isn't the only case where a claim's confidence outruns what the physical evidence actually supports. Sanskrit sources use the word mandala as early as roughly 1500 BCE, naming the ten books of the Rig Veda rather than describing a drawing; [the earliest surviving mandala images are Tibetan sketches from the 8th and 9th centuries CE](/mandala-art/), well over a thousand years later and much closer to the geometric ritual diagrams the word now brings to mind. The seven-part vocabulary now used to describe any painting's structure, line, shape, form, has a similarly recent and specific origin: [it traces to a Massachusetts art teacher's 1899 classroom textbook](/elements-of-art/), not to any inherited ancient tradition, despite how timeless the terms now sound. And the caution that a modern reconstruction doesn't prove what an ancient artist actually did runs through photography's own founding image too: [the 1838 plate usually cited as the first photograph to capture a person survives today only as a copy of a copy](/daguerreotype/), the original having deteriorated before modern reproduction technology existed to preserve it faithfully. Encaustic's case is unusual mainly in how far back the confusion runs, and in how openly its own ancient source admitted not knowing the answer."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is encaustic painting, and how does it differ from tempera?",
+        "answer": "Encaustic is a wax-based painting technique, from the Greek enkaustikos, meaning \"burned in,\" in which pigment is bound in melted beeswax and applied while warm, often reworked afterward with heated tools to build up thick, textured brushwork. Tempera, in the context of ancient painting, refers instead to a water-based binder, commonly egg or animal glue, applied cold in fine, hatched strokes. The distinction sounds clean in theory; a 2020 Getty Museum analysis of two Art Institute of Chicago mummy portraits found beeswax as the major binder in both, even though one has the flat, matte surface long treated as tempera's visual signature."
+      },
+      {
+        "question": "What is \"Punic wax,\" and was it really the ancient painting medium?",
+        "answer": "Punic wax is a specially prepared form of beeswax that Pliny the Elder, writing in the first century AD, ranked as the finest grade available, describing a bleaching process of repeated boiling in seawater with nitre. Pliny's passage appears in a chapter about garlands and general wax preparation, not painting specifically, and scholars have read it as describing either a simple purification or a chemical saponification of the wax. No scientific analysis of an actual mummy portrait has yet confirmed that either version of Punic wax, or any of the specific recipes built on it since the 1890s, was the medium the Fayum painters actually used."
+      },
+      {
+        "question": "Who painted the Fayum mummy portraits, and when were they made?",
+        "answer": "The roughly 900 known Fayum mummy portraits, painted on wood panels and bound into the wrappings of mummies from Roman Egypt, are almost entirely unsigned; no individual Fayum portrait painter is documented by name in the surviving ancient sources. Per Wikipedia's summary of the current scholarly consensus, they date from the late 1st century BC or early 1st century AD through roughly the middle of the 3rd century AD, with the two Art Institute of Chicago portraits discussed in the Getty Museum's 2020 study dated more specifically to the early to mid-second century AD."
+      },
+      {
+        "question": "Did Pliny the Elder know who invented encaustic painting?",
+        "answer": "No, and he said so directly in his Natural History: \"It is not agreed who was the inventor of painting in wax and of designs in encaustic.\" He recorded competing claims, that Aristides discovered it and Praxiteles perfected it, against evidence of earlier encaustic work by Polygnotus and by Nicanor and Mnasilaus of Paros. Pliny does credit Pausias of Sicyon, trained by Pamphilus, as the first painter to become famous specifically for encaustic work, but that is a claim about renown, not invention."
+      }
+    ],
+    "sources": [
+      {
+        "label": "J. Paul Getty Museum: Challenges in the Characterization and Categorization of Binding Media in Mummy Portraits (Sutherland, Sabino, and Pozzi, 2020)",
+        "url": "https://www.getty.edu/publications/mummyportraits/part-one/1/"
+      },
+      {
+        "label": "Pliny the Elder, Natural History, Book 35 (trans. H. Rackham) via Attalus.org",
+        "url": "https://www.attalus.org/translate/pliny_hn35b.html"
+      },
+      {
+        "label": "Pliny the Elder, Natural History, Book 21, Chapter 49 (trans. Bostock & Riley) via Perseus Digital Library",
+        "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0137:book=21:chapter=49"
+      },
+      {
+        "label": "Art Institute of Chicago: Portrait of a Man Wearing a Laurel Wreath",
+        "url": "https://www.artic.edu/artworks/5520/portrait-of-a-man-wearing-a-laurel-wreath"
+      },
+      {
+        "label": "Art Institute of Chicago: Portrait of a Man Wearing an Ivy Wreath",
+        "url": "https://www.artic.edu/artworks/5519/portrait-of-a-man-wearing-an-ivy-wreath"
+      },
+      {
+        "label": "Wikipedia: Fayum mummy portraits",
+        "url": "https://en.wikipedia.org/wiki/Fayum_mummy_portraits"
+      }
+    ]
   }
 
 ];
