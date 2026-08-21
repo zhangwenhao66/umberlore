@@ -1801,7 +1801,7 @@ export const guides: Guide[] = [
     "title": "Frida Kahlo's Paintings: How a Career This Small Keeps Attracting Fakes",
     "description": "Frida Kahlo painted roughly 150 works. Three authentication disputes since 2009, the latest in October 2025, show how often that short, closed list gets challenged.",
     "published": "2026-08-04",
-    "updated": "2026-08-04",
+    "updated": "2026-08-21",
     "coreSummary": "Frida Kahlo's known body of work is small and largely accounted for: Taschen's 2021 complete-paintings catalogue, edited by art historian Luis-Martín Lozano, gathers 152 paintings, and the Harry Ransom Center notes that 55 of them are self-portraits. That scarcity has not stopped disputed works from surfacing. A 2009 archive of purported Kahlo paintings, letters, and diaries split her own scholars into accusers and an unconvinced owner, with no resolution to date; two attempts in 2019 and 2020 to resell her long-lost largest painting, The Wounded Table, were both rejected, the second because the resurfaced work was painted on the wrong material; and in October 2025 Bavarian police seized forged paintings attributed to Kahlo from a ring that was also selling fake Picassos and Rembrandts.",
     "image": "/images/frida-kahlo-portrait-1919.jpg",
     "imageAlt": "Frida Kahlo photographed in 1919 by her father, commercial photographer Guillermo Kahlo, several years before she began painting.",
@@ -1812,7 +1812,7 @@ export const guides: Guide[] = [
         "body": [
           "Frida Kahlo's entire output as a painter fits into a single, largely settled list. Taschen's 2021 monograph *Frida Kahlo: The Complete Paintings*, edited by art historian Luis-Martín Lozano, is promoted on the publisher's own site with a review quote describing it as bringing together \"all 152 of Kahlo's paintings,\" built on decades of prior scholarship including the 1988 catalogue raisonné compiled by Helga Prignitz-Poda, Salomon Grimberg, and Andrea Kettenmann. Different counts in different sources reflect ongoing arguments over attribution and how strictly a work has to be documented to make the list, but the range sits in the low 150s, not the thousands a painter like Monet or Picasso left behind.",
           "A large share of that short list is self-portraiture. The Harry Ransom Center at the University of Texas at Austin, which holds Kahlo's 1940 *Self-Portrait with Thorn Necklace and Hummingbird*, states plainly that the painting is \"one of 55 self-portraits painted by the artist during her lifetime.\" Fifty-five out of roughly 150 means more than a third of everything Kahlo painted was a picture of herself, which is part of why any single claimed addition to the list, self-portrait or otherwise, gets scrutinized so closely.",
-          "Two paintings anchor what a fully documented Kahlo looks like. *The Two Fridas*, a 1939 oil on canvas measuring 173.5 by 173 centimetres, was acquired by Mexico's Instituto Nacional de Bellas Artes (INBA) in 1947 and transferred to the Museo de Arte Moderno in Mexico City on 28 December 1966, according to INBA's own account of the painting's history. The Ransom Center's self-portrait has an equally traceable path: Kahlo gave it to the photographer Nickolas Muray in 1940, and the Center acquired it as part of a wider collection of Muray's Mexican art in 1966. Clean acquisition dates and inventory trails like these are exactly what the disputed works below are missing."
+          "Two paintings anchor what a fully documented Kahlo looks like. *The Two Fridas*, a 1939 oil on canvas measuring 173.5 by 173 centimetres, was acquired by Mexico's Instituto Nacional de Bellas Artes (INBA) in 1947 and transferred to the Museo de Arte Moderno in Mexico City on 28 December 1966, according to the painting's documented provenance. The Ransom Center's self-portrait has an equally traceable path: Kahlo gave it to the photographer Nickolas Muray in 1940, and the Center acquired it as part of a wider collection of Muray's Mexican art in 1965. Clean acquisition dates and inventory trails like these are exactly what the disputed works below are missing."
         ]
       },
       {
@@ -1887,6 +1887,10 @@ export const guides: Guide[] = [
       {
         "label": "INBA: Las dos Fridas, cuadro de Frida Kahlo, cumple 80 años con presentación en el Museo de Arte Moderno",
         "url": "https://inba.gob.mx/prensa/13178/las-dos-fridas-cuadro-de-frida-kahlo-cumple-80-anos-con-presentacion-en-el-museo-de-arte-moderno-exhibe"
+      },
+      {
+        "label": "Wikipedia: The Two Fridas (provenance: 1947 INBA acquisition, 1966 transfer to Museo de Arte Moderno)",
+        "url": "https://en.wikipedia.org/wiki/The_Two_Fridas"
       },
       {
         "label": "TASCHEN: Frida Kahlo. The Complete Paintings",
