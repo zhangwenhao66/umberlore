@@ -149,3 +149,32 @@
 2. **Decorative Arts 方向本轮检索了但未命中**：UIUC 和 Clark Art Institute 的装饰工艺资源页外链健康度很高（多为图书馆目录/需校内代理的数据库，非公开可测外链），`cloisonne` 文章暂时没有匹配到断链机会，不代表这个方向没价值，只是这次抽样没碰到。
 3. **Art Crime、Pigments & Materials 仍是内容空白**：站内仍然一篇都没有，下次运行前如果这两个支柱有新文章发布，可以优先检索对应资源页；如果仍是空白，继续跳过，不要为了"凑机会"检索后再放弃。
 4. `linkable-asset-backlog.md` 里 4 个资产点子仍全部 `[待制作]`——一旦有资产型页面（尤其是颜料时间轴、开放版权图库总目录）发布，应优先重新检索数据库/档案类资源页（Getty、Founding LibGuides 里带"databases"板块的部分），这类资源页此前两轮的失效链接几乎都出现在"数据库/档案清单"板块而非普通链接列表，需要用资产而非文章去匹配。
+
+---
+
+## 2026-08-21（第四次运行）
+
+### 第一部分：核实旧 pitch
+
+`broken-link-outreach-log.md` 里唯一一条"已发送"记录是 2026-08-16 的 Pitch 5（Marian University, cbalgeman@marian.edu），发送日期晚于 2026-08-11 这个核实窗口的截止线，不满足"发送日期在 2026-08-11 之前"的条件。**没有符合条件的记录，第一部分按规则跳过。**
+
+### 第二部分：新断链机会
+
+站内文章数已从上次（2026-08-16）的 32 篇涨到 **40 篇**（`src/data/guides.ts`），新增覆盖：Non-Western Art 从 1 篇（mandala-art）涨到 4 篇（新增 aztec-art、mayan-art、aboriginal-art），Movements 新增 renaissance-art、art-styles、psychedelic-art，Technique 新增 cloisonne、emphasis-in-art、encaustic-painting，另有 baroque-paintings、the-broken-column、whistler-ruskin-trial、jackson-pollock 等多篇 Painting。本轮据此改为直接检索 Aztec/Mesoamerican、Renaissance、Aboriginal/Indigenous、Encaustic、Psychedelic Art 这几个新覆盖或首次覆盖的方向，避开此前两轮已反复检查、收益递减的 Architecture/Painting/Movements 通用大学图书馆 LibGuide。
+
+**检查过的资源页**：合计 34 个（超过任务要求的 20-30 个下限），覆盖 Aztec/Mesoamerican（10 个，Kean/Yale/UAH/UCLA/Southwestern/St. Thomas/UTSA 等）、Renaissance（7 个，Illinois/UCLA/Rutgers/Brown/Michigan/SCU/Augsburg）、Encaustic（1 个，encaustic.com/links）、Aboriginal/Indigenous Art（6 个，Brandon/Calgary/Newcastle/SVA/UBC/Queen's）、Psychedelic Art（1 个，Evergreen State）、以及不限主题的通用艺术史资源页（9 个，Lincoln/Santa Fe College/William Paterson/SUNY Oswego/Kalamazoo/West Sound Academy/Wesleyan/Utah Tech/TAMUC，用于补齐样本量）。合计出站链接约 600+ 条。**两个资源页本身抓取失败**（`libguides.stthomas.edu/mesoamericanart` 返回自身 404，`tamuc.libguides.com/ArtResearchResources` SSL 握手失败，均判定为噪音跳过，非站点内容失效）。
+
+**脚本判定 DEAD 共 21 条**，逐条核实后**全部排除，本轮无可发送机会**，原因分三类：
+
+1. **站内系统链接，非内容页**（约 8 条）：Twitter 账号页、图书馆内部登录门户/楼层导览/"建议采购"表单、Berkeley 的"如何评估网络资源"教学页等——这些链接本身跟艺术史内容无关，站在断链置换的立场上没有匹配空间，直接排除。
+2. **数据库/档案/机构主页类资源，功能上无法被叙事型文章替代**（约 9 条）：Tulane 数字图书馆的"Mesoamerican Painted Manuscripts"手稿库（Islandora 平台已于 2024 年 7 月正式下线，经 WebSearch 独立信息源交叉验证确认真实停用，但目标资源是手稿数据库，站内 aztec-art/mayan-art 均是叙事型文章，不覆盖手稿本体）、Rutgers Renaissance 指南的 BIVIO 意大利文艺复兴艺术全文数字图书馆（两个独立 DNS 解析器一致返回 NXDOMAIN，确认子域名已失效，但同样是全文档案库不是叙事内容）、Princeton Art Museum 的"Art of the Ancient Americas"藏品浏览页（`curl -L` 确认真实 404，藏品数据库类）、Museo de Arte de Lima 的 `/collections` 虚拟藏品页（同样真实 404，藏品数据库类）、Santa Fe College 资源页上的 Galleria dell'Accademia di Firenze 和 National Art Museum of China 两个机构主页（分别为佛罗伦萨学院美术馆、中国美术馆，两个独立 DNS 解析器确认失效，但属于"世界各地美术馆列表"里的机构官网条目，不是可被单篇文章替代的叙事内容）、Wesleyan 页面上的 ncmodernist.org/library.htm（"US Modernist Architecture Magazine Archive"建筑期刊全文档案库，经比对同批次 Kalamazoo College 页面上的 `usmodernist.org/library` SOFT 记录，确认该资源实际已平迁至新域名 usmodernist.org 而非真正消失，正确的"修复"是更新链接指向新域名而非塞入我们自己的内容，如实排除）。这类"数据库/机构页不能被叙事文章硬顶"的判断跟本日志 2026-08-04、2026-08-09 两次运行的既有先例完全一致，延续同一标准。
+3. **地理/文化传统不对应**（2 条）：SVA 的 Indigenous Art 指南上 Portland Art Museum 的"Native American Art"专区页和 University of Alaska Fairbanks 的"Native Arts Center"页——均为北美原住民/阿拉斯加原住民艺术传统，跟站内 `aboriginal-art` 文章（专讲澳大利亚原住民、Papunya 定居点、Western Desert Art Movement）是两个完全不同的文化传统和地理区域，不构成规则 4 要求的"真实对应"，如实排除，不硬凑。
+4. **`mna.inah.gob.mx`（墨西哥国家人类学博物馆，与 `aztec-art` 文章主题高度吻合——该文章的太阳石配图就来自这家博物馆）本可能是本轮最佳候选，但核实后确认是假阳性**：脚本报告 DNS 解析失败，但用 `dns.google` 和 `cloudflare-dns.com` 两个独立解析器交叉核实，`cloudflare-dns.com` 能正常解析出 IP，且 WebSearch 能检索到该域名下多个当前存活的子页面（`/informacion_general.php`、`/el_museo.php` 等），确认这是沙箱网络环境的解析不稳定造成的假阳性，不是真实失效，按硬性规则 3 不得作为机会处理。
+
+**本轮结论**：34 个资源页、21 条脚本判定 DEAD，逐条核实后无一通过"真实失效 + 真实主题对应 + 目标页有真实权威度"三重门槛，**未发出任何邮件，`outreach-drafts.md` 未新增草稿**。由于全部是"检索了但确实没有匹配机会"而非"没轮到"，不写入 Owen 待办文档（按规则 10，单纯没找到机会不算需要 Owen 处理的事）。
+
+### 遗留待办 / 下次建议
+
+1. **Non-Western Art 方向（Aztec/Mesoamerican/Aboriginal）本轮首次系统检索，命中率仍是 0**，但样本本身健康度很高（大学图书馆藏品数据库/机构官网链接存活率普遍很高），不代表方向无价值，只是这批资源页的链接维护得比之前检查过的摄影史/建筑类页面更好。
+2. **`usmodernist.org`（原 `ncmodernist.org`）值得记一笔**：这是一个仍在运营、只是换了域名的建筑期刊全文数据库，本轮两个不同资源页上分别出现了它的新旧域名（旧域名 404，新域名本轮探测到 502 但域名本身存活）。不构成本站的断链置换机会（数据库对数据库，不是叙事文章能替代的），但如果以后本站做 Frank Lloyd Wright 相关的资产型页面，这类档案库可以作为引用来源。
+3. **数据库/档案类资源仍是本站结构性触达不到的机会类型**：连续四轮运行命中的失效链接里，凡是数据库/档案/机构主页类的全部因"功能不对等"被排除，唯一一次成功案例（2026-08-16 Marian University）匹配的是另一篇叙事型综述文章对叙事型综述文章。`linkable-asset-backlog.md` 里的资产点子（尤其 2 号"开放版权艺术图库总目录"、3 号"未追回艺术品登记册"）一旦发布，会是本站唯一能真正打开这类资源页机会的路径，目前仍全部 `[待制作]`。
