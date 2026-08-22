@@ -5242,6 +5242,118 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/Fayum_mummy_portraits"
       }
     ]
+  },
+
+  {
+    "slug": "romanesque-painting",
+    "category": "Painting",
+    "title": "Romanesque Painting: A Museum Beat a Dealer by Hiring His Crew",
+    "description": "A dealer began stripping Catalan church frescoes to sell abroad in 1919. Museums fought back by hiring his crew, but nearby Castile lost its frescoes for good.",
+    "published": "2026-08-22",
+    "updated": "2026-08-22",
+    "coreSummary": "Romanesque painting survives today mostly in fragments, and which fragments survived often came down to who won a specific 1919 negotiation. When the dealer Ignasi Pollack bought the frescoes of Santa Maria de Mur for a reported 7,500 pesetas and brought in the Italian restorer Franco Steffanoni to strip them from the church wall, the Catalan Museums Board could not stop the sale, since it was entirely legal, so it hired Steffanoni's own crew for three more years instead, racing to detach frescoes from other Pyrenees churches, including the Christ in Majesty at Sant Climent de Taüll, before any other dealer could reach them. Roughly 400 kilometers south in Castile, no museum won that race: in 1926 the murals of the hermitage of San Baudelio de Berlanga were stripped by an overlapping dealer network and scattered across five American institutions, with one panel's location still unknown today.",
+    "image": "/images/romanesque-painting-taull-apse.jpg",
+    "imageAlt": "The Romanesque apse fresco of Christ in Majesty from Sant Climent de Taüll, painted around 1123 and now displayed at the Museu Nacional d'Art de Catalunya in Barcelona.",
+    "imageCredit": "[(Barcelona) Frescos of Sant Climent de Taüll](https://commons.wikimedia.org/wiki/File:(Barcelona)_Frescos_of_Sant_Climent_de_Ta%C3%BCll.jpg), photo by Didier Descouens, public domain (2D photographic reproduction of an artwork from c. 1123)",
+    "sections": [
+      {
+        "heading": "What survives, and why it usually isn't where it was painted",
+        "body": [
+          "Romanesque painting refers to the mural and manuscript art produced across Europe roughly between 1000 and 1200, heavily shaped by Byzantine models filtered through Italy: flat, frontal figures, geometric drapery rendered in coloured outline rather than shading, and a narrow, deliberate palette. The apse fresco at Sant Climent de Taüll in the Catalan Pyrenees, one of the best-documented examples anywhere, shows exactly how deliberate that palette was. Analysis of the paint layers found blue made from aerinite applied over a base of black, and cinnabar applied over haematite to get a more intense red, a layering technique used to push the colour beyond what either pigment could produce alone. A consecration inscription painted on one of the nave's columns, naming the bishop Ramon de Roda and dated 10 December 1123, anchors the mural's date with unusual precision for the period.",
+          "What's harder to find in most general accounts is that the mural isn't in the church anymore. Neither are most of the other large-scale Romanesque murals now hanging in major museums. They were physically cut off the walls where they were painted, almost all of it within a 20-year window in the early twentieth century, and whether a given church's paintings ended up preserved in a museum or scattered to buyers abroad had far less to do with the art itself than with how fast a local institution could move against the international art market."
+        ]
+      },
+      {
+        "heading": "A 1907 expedition made the frescoes famous, and valuable",
+        "body": [
+          "The chain of events starts with an academic trip. On 30 August 1907, a team from the Institut d'Estudis Catalans, the architects Josep Puig i Cadafalch and Josep Goday, the historian Guillem Maria de Brocà, the conservator Josep Gudiol, and the photographer Adolf Mas, set out on what they called an archaeological-legal expedition through the Aragonese Strip. Over two weeks trekking through the Vall d'Aran, the Vall de Boí, and neighbouring valleys, they produced the first photographs of murals that had gone essentially uncatalogued, including the Christ in Majesty at Sant Climent de Taüll and the carved figure group at Erill la Vall.",
+          "Publishing those photographs did two things at once. It gave the Commonwealth of Catalonia a visual centerpiece for building a modern Catalan cultural identity, and it told international antiquarians exactly where to find valuable, remote, and essentially unprotected medieval murals. A follow-up article by two of the expedition's own members, Goday and Mas, describing newly found frescoes in the former Monastery of Castell de Mur, is what set off the crisis that followed."
+        ]
+      },
+      {
+        "heading": "7,500 pesetas becomes $92,100",
+        "body": [
+          "After the Castell de Mur article appeared, an antiquarian dealer named Ignasi Pollack negotiated directly with the church's rector, Father Farràs, and bought the Santa Maria de Mur frescoes for a reported 7,500 pesetas, paid in cash. In the summer of 1919, Pollack brought the Italian restorer Franco Steffanoni to Catalonia along with his assistants, Arturo Dalmatti and Arturo Cividini, experts in a technique called strappo that lifts a fresco's painted surface cleanly off the wall it was painted on. The Catalan Museums Board, led by its director Joaquim Folch i Torres, tried to stop the removal. It couldn't. Spain had no law against exporting a legally purchased fresco, so the sale went ahead regardless of how the Board felt about it.",
+          "Pollack then sold the detached frescoes to the Barcelona collector and dealer Lluís Plandiura for a price later reported at roughly 100,000 pesetas, more than thirteen times what he'd paid the rector. Plandiura, in turn, sold the central Christ in Majesty panel in 1921 to the Museum of Fine Arts, Boston, through the dealer Rafael J. Bosch, assisted by another dealer named Gabriel Dereppe, for $92,100. The museum's own catalogue record still lists that full chain: rector to Pollack, Pollack to Plandiura, Plandiura to the MFA. The painting hangs there today as \"Christ in Majesty with Symbols of the Four Evangelists,\" accession number 21.1285."
+        ]
+      },
+      {
+        "heading": "If you can't beat them, join them",
+        "body": [
+          "Having lost the Santa Maria de Mur frescoes outright, the Catalan Museums Board changed strategy. Rather than keep trying and failing to block Pollack's crew through legal means, it made Steffanoni an offer: stay in Catalonia for three more years, and detach frescoes from the region's other Romanesque churches for the benefit of the Commonwealth's own collection instead of for private export. Steffanoni and his assistants agreed, and between 1920 and 1923 they removed murals from Sant Climent de Taüll, Sant Quirze de Pedret, Sant Joan de Boí, and several other Pyrenees churches, this time bound for the future Museu Nacional d'Art de Catalunya rather than a New York or Boston sale.",
+          "It worked, in the sense that MNAC now holds one of the strongest collections of Romanesque mural painting in Europe. It also created a smaller, permanent irony that the Museums Board's own successors still point out: to see the original Christ in Majesty from Sant Climent de Taüll today, a visitor has to travel to Barcelona, roughly 300 kilometers from the church. Back at the church itself, an exact plaster replica occupies the apse where the original stood for nearly 800 years."
+        ],
+        "image": {
+          "src": "/images/san-baudelio-berlanga-interior.jpg",
+          "alt": "The interior of the eleventh-century hermitage of San Baudelio de Berlanga in Soria, Castile, whose central column and vaulted ceiling remain, but whose Romanesque murals were removed and sold abroad in 1926.",
+          "credit": "[Ermita mozárabe de San Baudelio de Berlanga](https://commons.wikimedia.org/wiki/File:San_Baudelio_de_Berlanga_13.JPG), photo by Zarateman, CC0"
+        }
+      },
+      {
+        "heading": "Same technique, no rescue, in Castile",
+        "body": [
+          "About 400 kilometers south of the Pyrenees, in Soria province, the eleventh-century hermitage of San Baudelio de Berlanga held its own cycle of murals, painted in a style showing heavy Mozarabic influence, including scenes of a camel and a war elephant drawn from Islamic motifs. Spain declared the hermitage a national monument in 1917, the same legal category that had failed to protect Santa Maria de Mur. It didn't protect San Baudelio either. In July 1926, twenty-four mural panels were stripped from its walls using the same strappo technique, sold through a Barcelona-based agent acting for a dealer partnership that again included Gabriel Dereppe, the same dealer named in the Museum of Fine Arts' own record of the 1921 Boston sale.",
+          "Twenty-three of the twenty-four panels reached New York by way of London; the whereabouts of the twenty-fourth have never been established. The paintings that did arrive were split up rather than kept together: pieces went to the Cincinnati Art Museum, the Museum of Fine Arts, Boston, the Indianapolis Museum of Art, and the Cloisters branch of the Metropolitan Museum of Art in New York, with six additional scenes eventually placed with the Prado in Madrid. News of the sale caused what contemporary Spanish accounts describe as a scandal once it became public, but by then the transaction, like Pollack's Santa Maria de Mur sale seven years earlier, was already legally finished. This time there was no Folch i Torres in a position to out-hire the removal crew before it left the country."
+        ]
+      },
+      {
+        "heading": "A partial recovery, three decades later",
+        "body": [
+          "The San Baudelio story got one more chapter in 1957, when Spain and the United States, acting through the Prado and the Metropolitan Museum, negotiated an exchange unrelated in subject but tied to the same paintings. Six of the San Baudelio scenes held by the Cloisters, depicting a bear, an elephant, a hare hunt, a soldier, a deer hunt, and a curtain motif, were placed on long-term loan with the Prado. In return, the Metropolitan Museum received the Romanesque apse of the church of San Martín at Fuentidueña, an unrelated twelfth-century Castilian building being dismantled into roughly 3,300 individual stone blocks and shipped to New York in 839 crates. Reassembled inside the Cloisters, the apse opened to the public in 1961 as the museum's largest room, and it still displays other unrelated Romanesque objects inside it today.",
+          "The net effect for San Baudelio itself was not reunification. Its murals remain split, permanently, across at least half a dozen institutions on two continents, with the original hermitage in Soria left with bare walls and a hole in its own art-historical record where a whole painted cycle used to be."
+        ]
+      },
+      {
+        "heading": "The line between rescue and loss ran through a negotiating table",
+        "body": [
+          "Set side by side, the two cases share almost everything except the outcome: the same decade, the same country, the same removal technique, and at least one of the same dealers. What separated Sant Climent de Taüll's fate from San Baudelio de Berlanga's wasn't the quality of the murals or the strength of the legal protection on paper, since both churches had been formally recognised before their paintings were touched. It was whether a museum happened to be organized and funded enough to out-negotiate a dealer before a legal sale closed. Notre-Dame de Paris shows a related version of the same gap between what a site looks like today and what actually survived from its medieval building campaign, since [the carved monsters tourists photograph on its towers date from an 1843–1864 restoration](/what-is-a-gargoyle/), not from the Gothic construction itself. Australia's Papunya Tula murals show what happens when the race goes the other way entirely: [a 1974 government maintenance crew destroyed the original Honey Ant Dreaming wall painting outright](/aboriginal-art/), years before any collecting institution moved to preserve it. And settling exactly how a given legend about an old master's life came to be treated as fact, the way archivists eventually did with a fabricated murder confession, shows how long that kind of correction can take: [Giorgio Vasari's account took roughly three centuries to formally disprove using burial records](/renaissance-art/). Romanesque painting's surviving fragments carry that same negotiating history with them, whether or not a museum label mentions it."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Romanesque painting?",
+        "answer": "Romanesque painting refers to European mural and manuscript art produced roughly between 1000 and 1200 CE, most visible today in the curved apses of village churches and in illuminated manuscripts. It draws heavily on Byzantine models, favoring flat, frontal figures, geometric drapery picked out in coloured outline, and a limited, deliberately layered palette, seen at Sant Climent de Taüll in blue made from aerinite laid over black and cinnabar laid over haematite for red. Christ in Majesty, shown enthroned within an almond-shaped mandorla and surrounded by symbols of the four Evangelists, is one of the period's most common subjects."
+      },
+      {
+        "question": "Why were so many Romanesque frescoes physically removed from their churches in the early twentieth century?",
+        "answer": "A technique called strappo, practiced by specialist Italian restorers such as Franco Steffanoni, made it possible to lift a fresco's painted surface cleanly off a wall for the first time at scale, right as international demand for early medieval art was rising. Remote rural churches in Spain's Pyrenees and Castile had little practical protection even after national governments began formally designating them historic monuments starting in 1917, since that designation didn't retroactively stop an already-legal private sale. Whether a specific church's murals were removed for a museum's own collection or for private export usually depended on which side, a national museum or an art dealer, reached the church and its rector first."
+      },
+      {
+        "question": "What happened to the murals from San Baudelio de Berlanga?",
+        "answer": "Twenty-four mural panels were stripped from the hermitage using the strappo technique in July 1926 and sold through a dealer network operating out of Barcelona. Twenty-three reached New York; the location of the twenty-fourth has never been established. The paintings that survived the journey were split between the Cincinnati Art Museum, the Museum of Fine Arts in Boston, the Indianapolis Museum of Art, and the Cloisters branch of the Metropolitan Museum of Art, with six scenes eventually placed on long-term loan with the Prado Museum in Madrid as part of a 1957 exchange for an unrelated church apse."
+      },
+      {
+        "question": "Can visitors still see the original Christ in Majesty painting inside the church at Sant Climent de Taüll?",
+        "answer": "No. The original apse fresco was removed between 1919 and 1923 and is now displayed at the Museu Nacional d'Art de Catalunya (MNAC) in Barcelona, roughly 300 kilometers from the church. An exact plaster replica has stood in the church's apse in its place since the removal, so a visitor sees the original composition and colours, but not the twelfth-century paint itself, unless they travel to Barcelona."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Apse of Sant Climent, Taüll",
+        "url": "https://en.wikipedia.org/wiki/Apse_of_Sant_Climent,_Ta%C3%BCll"
+      },
+      {
+        "label": "Government of Catalonia, Cultural Heritage: The great paradox of the Catalan Romanesque",
+        "url": "https://patrimoni.gencat.cat/en/stories/great-paradox-catalan-romanesque"
+      },
+      {
+        "label": "Museum of Fine Arts, Boston: Christ in Majesty with Symbols of the Four Evangelists (object record and provenance)",
+        "url": "https://collections.mfa.org/objects/31898"
+      },
+      {
+        "label": "Wikipedia: San Baudelio de Berlanga",
+        "url": "https://en.wikipedia.org/wiki/San_Baudelio_de_Berlanga"
+      },
+      {
+        "label": "Wikipedia: The Fuentidueña Apse",
+        "url": "https://en.wikipedia.org/wiki/The_Fuentidue%C3%B1a_Apse"
+      },
+      {
+        "label": "Wikipedia: Master of Taüll",
+        "url": "https://en.wikipedia.org/wiki/Master_of_Ta%C3%BCll"
+      }
+    ]
   }
 
 ];
