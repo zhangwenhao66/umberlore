@@ -254,3 +254,34 @@ UmberLore (umberlore.com)
 contact@umberlore.com
 
 **Status: NOT SENT** — this run only researches/drafts/verifies per task instructions. A separate step will review and send.
+
+## Guest post pitch (2026-08-22 — trafficsite-linkable-asset-building, pitch for new "Artist Peak Creation Age" data study)
+
+### Pitch 7 — CreativeLive Blog
+
+- URL: https://www.creativelive.com/blog/write-for-us/ (submission page); contact blogsubmissions@creativelive.com per the write-for-us page (verified via WebSearch-surfaced page text — the live page was not directly fetched, consistent with the WebFetch-avoidance rule)
+- Context: CreativeLive is a real, active online-learning platform for creative skills with an existing blog post on this exact topic, "When Do You Hit The Peak of Your Creativity?" (https://www.creativelive.com/blog/hit-peak-creativity), surfaced by WebSearch. The pitch is built around UmberLore's newly published data study (this run's Step 1 asset, `/artist-peak-creation-age/`), offering a sourced, downloadable dataset as a follow-up post idea rather than asking them to link an unrelated resource.
+- No prior contact: `gmail_send.py list --query "to:blogsubmissions@creativelive.com"` and `--query "creativelive"` (both accounts, all history) returned `[]`.
+- Fact-check: every number in the email (64 works, median age 39.5, Gentileschi age 20 for Judith Slaying Holofernes, Hokusai and Mondrian both age 71, 56% made their best-known work 20+ years before death) is restated directly from the published `artist-peak-creation-age` guide entry, no outside details added. One earlier draft claimed "the 42-year figure your piece cites from the Nobel-laureate research" — this was cut before finalizing because WebSearch could not confirm that specific number actually appears inside the CreativeLive article itself (search results aggregated the 42-year stat from other outlets covering the same general topic, not confirmed as CreativeLive's own citation); rather than risk misattributing a stat to an article that may not contain it, the comparison sentence was dropped and the email now only makes claims about UmberLore's own dataset.
+- Passed `Skill(humanizer)` and `Skill(avoid-ai-writing)` self-review during drafting: no em dashes, no curly quotes, no self-labeling-significance framing (an earlier draft had "the more interesting part is..." — cut), no unverifiable "actual dataset" empty-intensifier issue (contrast is named: dataset vs. "the usual single cited number").
+
+**Email (humanized + avoid-ai-writing pass applied):**
+
+Subject: Blog post idea: the real numbers behind "peak creativity age"
+
+Hi CreativeLive team,
+
+I read your piece on when creativity peaks and wanted to pitch an angle that builds on it with an actual dataset instead of the usual single cited number.
+
+I run umberlore.com, a site on visual art history. I recently checked 64 canonical paintings, the kind that end up in every art history textbook, against three verified dates each: when the artist was born, when the work was finished, and when the artist died. The median age at creation comes out to 39.5. Artemisia Gentileschi was 20 when she painted Judith Slaying Holofernes, and both Hokusai (The Great Wave) and Mondrian (Broadway Boogie Woogie) were 71 when they finished their best-known work. Fifty-six percent of the 64 artists made their best-known work 20 or more years before they died, so a late-career masterpiece turns out to be the more common shape in this set, not the young-genius exception people assume.
+
+I'd like to pitch a post for the CreativeLive blog built around this, for readers who are past the age they assumed their best work had to happen by. Every row in the underlying table links to its source, mostly Wikipedia or the holding museum's own collection page, and the full dataset downloads as a CSV if anyone wants to check or reuse it: https://umberlore.com/artist-peak-creation-age/
+
+Happy to write to whatever length and format works for your site. Let me know if this fits.
+
+Thanks,
+Owen Zhang
+contact@umberlore.com
+umberlore.com
+
+**Outcome:** independent review agent returned "VERDICT: can send" (no prior contact via `gmail_send.py list` or any outreach log; every number in the email traced directly to the `artist-peak-creation-age` guide entry; no AI-writing tells; recipient confirmed legitimate via WebSearch). Sent 2026-08-22 via `gmail_send.py --from umberlore` to blogsubmissions@creativelive.com, Message ID `1a0280c883d8012d`. Body file verified read before sending (first line was the greeting "Hi CreativeLive team,", no leaked Subject line).

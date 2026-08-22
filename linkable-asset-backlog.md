@@ -48,7 +48,9 @@
 
 *以下 5-7 号是 2026-08-17 补充。此时站内已发布 36 篇文章（Painting 20 / Movements 5 / Architecture 4 / Technique 3 / Non-Western Art 2 / Sculpture 1 / Photography 1），上面第 9 条"建议等站内积累 15-20 篇再动手"的门槛已经过了，以下点子不再受该保留意见约束。*
 
-## 5. 数据研究：艺术家"创作巅峰年龄"统计 `[待制作]`
+## 5. 数据研究：艺术家"创作巅峰年龄"统计 `[已发布]`
+
+2026-08-22 已发布为 [When Was the Masterpiece Made? What 64 Famous Paintings Say About Peak Creative Age](https://umberlore.com/artist-peak-creation-age/)，见 `linkable-asset-log.md`。实际做法：64幅公认代表作（非原计划的50-80样本区间下限附近），每条的艺术家出生年/去世年/作品完成年均由独立研究agent逐条WebSearch核实（非模型记忆），完成年有区间的取较晚年份并标注*。头条可摘引数字："中位数39.5岁，范围20岁（Artemisia Gentileschi《朱迪斯砍下荷罗孚尼头颅》）到71岁（Hokusai《神奈川冲浪里》与Mondrian《百老汇爵士乐》并列）"。含Cite this引用块+CSV下载（`public/data/artist-peak-creation-age.csv`）。分类新建为"Data Studies"。
 
 - **类别**：原创数据研究
 - **具体做什么**：从 Wikidata/公开传记资料里抓取一批公认的"最著名作品"（各大博物馆镇馆之宝、教科书高频出现的名作），记录该艺术家创作该作品时的年龄、出生年份、该作品完成到其去世的年数、是否为生前公开展出。算出统计指标：创作年龄中位数、"英年早逝却留下代表作"占比 vs "大器晚成"占比、按世纪/画派分组的年龄分布。标题走结论型，例如"名画诞生时，作者平均多少岁——对N幅公认代表作的统计"。
