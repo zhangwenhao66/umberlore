@@ -1,0 +1,65 @@
+artist,birth_year,death_year,artwork,completion_year,age_at_creation,years_creation_to_death,movement_nationality,source_url,note
+Jan van Eyck,1390,1441,The Arnolfini Portrait,1434,44,7,Early Netherlandish,https://en.wikipedia.org/wiki/Jan_van_Eyck,van Eyck birth year approximate (c.1390 or c.1380 per sources)
+Sandro Botticelli,1445,1510,The Birth of Venus,1485,40,25,"Italian, Early Renaissance",https://en.wikipedia.org/wiki/Sandro_Botticelli,
+Hieronymus Bosch,1450,1516,The Garden of Earthly Delights,1500,50,16,Netherlandish,https://en.wikipedia.org/wiki/Hieronymus_Bosch,completion range c.1490-1500
+Leonardo da Vinci,1452,1519,Mona Lisa,1506,54,13,"Italian, High Renaissance",https://en.wikipedia.org/wiki/Mona_Lisa,completion range 1503-1506
+Raphael,1483,1520,The School of Athens,1511,28,9,"Italian, High Renaissance",https://en.wikipedia.org/wiki/The_School_of_Athens,completion range 1509-1511
+Michelangelo,1475,1564,Sistine Chapel ceiling,1512,37,52,"Italian, High Renaissance",https://en.wikipedia.org/wiki/Michelangelo,completion range 1508-1512
+Hans Holbein the Younger,1497,1543,The Ambassadors,1533,36,10,"German/English, Northern Renaissance",https://en.wikipedia.org/wiki/The_Ambassadors_(Holbein),
+Titian,1490,1576,Venus of Urbino,1534,44,42,"Italian, Venetian Renaissance",https://en.wikipedia.org/wiki/Venus_of_Urbino,Titian birth year approximate c.1488/90
+Artemisia Gentileschi,1593,1654,Judith Slaying Holofernes,1613,20,41,"Italian, Baroque","https://en.wikipedia.org/wiki/Judith_Slaying_Holofernes_(Artemisia_Gentileschi,_Naples)",completion range 1612-13; death c.1654
+Rembrandt van Rijn,1606,1669,The Night Watch,1642,36,27,"Dutch, Baroque/Golden Age",https://en.wikipedia.org/wiki/The_Night_Watch,
+Diego Velazquez,1599,1660,Las Meninas,1656,57,4,"Spanish, Baroque",https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez,
+Johannes Vermeer,1632,1675,Girl with a Pearl Earring,1667,35,8,"Dutch, Golden Age",https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring,completion range 1665-1667
+George Stubbs,1724,1806,Whistlejacket,1762,38,44,"British, Sporting/Equine art",https://en.wikipedia.org/wiki/Whistlejacket,
+Jean-Honore Fragonard,1732,1806,The Swing,1768,36,38,"French, Rococo",https://en.wikipedia.org/wiki/The_Swing_(Fragonard),completion range 1767-68
+Thomas Gainsborough,1727,1788,The Blue Boy,1770,43,18,"British, Rococo/Portraiture",https://en.wikipedia.org/wiki/The_Blue_Boy,
+Jacques-Louis David,1748,1825,The Death of Marat,1793,45,32,"French, Neoclassicism",https://en.wikipedia.org/wiki/The_Death_of_Marat,
+Jacques-Louis David,1748,1825,Napoleon Crossing the Alps,1801,53,24,"French, Neoclassicism",https://en.wikipedia.org/wiki/Napoleon_Crossing_the_Alps,
+Francisco Goya,1746,1828,The Third of May 1808,1814,68,14,"Spanish, Romanticism",https://en.wikipedia.org/wiki/The_Third_of_May_1808,
+Caspar David Friedrich,1774,1840,Wanderer above the Sea of Fog,1818,44,22,"German, Romanticism",https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog,completion range c.1817-1818
+Theodore Gericault,1791,1824,The Raft of the Medusa,1819,28,5,"French, Romanticism",https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa,completion range 1818-19
+John Constable,1776,1837,The Hay Wain,1821,45,16,"British, Romanticism",https://en.wikipedia.org/wiki/The_Hay_Wain,
+Eugene Delacroix,1798,1863,Liberty Leading the People,1830,32,33,"French, Romanticism",https://en.wikipedia.org/wiki/Liberty_Leading_the_People,
+Katsushika Hokusai,1760,1849,The Great Wave off Kanagawa,1831,71,18,"Japanese, Edo/Ukiyo-e",https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa,
+J.M.W. Turner,1775,1851,The Fighting Temeraire,1839,64,12,"British, Romanticism",https://en.wikipedia.org/wiki/The_Fighting_Temeraire,"painted 1838, exhibited 1839"
+John Everett Millais,1829,1896,Ophelia,1852,23,44,"British, Pre-Raphaelite",https://en.wikipedia.org/wiki/Ophelia_(Millais),completion range 1851-52
+Edouard Manet,1832,1883,Le Dejeuner sur l'herbe,1863,31,20,"French, Realism/proto-Impressionism",https://en.wikipedia.org/wiki/Le_D%C3%A9jeuner_sur_l%27herbe,
+Edouard Manet,1832,1883,Olympia,1863,31,20,"French, Realism/proto-Impressionism",https://en.wikipedia.org/wiki/Olympia_(Manet),exhibited 1865
+James McNeill Whistler,1834,1903,Whistler's Mother,1871,37,32,"American/British, Tonalism",https://en.wikipedia.org/wiki/Whistler%27s_Mother,
+Berthe Morisot,1841,1895,The Cradle,1872,31,23,"French, Impressionism",https://en.wikipedia.org/wiki/The_Cradle_(Morisot),
+Claude Monet,1840,1926,"Impression, Sunrise",1872,32,54,"French, Impressionism","https://en.wikipedia.org/wiki/Impression,_Sunrise",
+Edgar Degas,1834,1917,The Dance Class,1874,40,43,"French, Impressionism","https://en.wikipedia.org/wiki/The_Dance_Class_(Degas,_Metropolitan_Museum_of_Art)",
+Pierre-Auguste Renoir,1841,1919,Luncheon of the Boating Party,1881,40,38,"French, Impressionism",https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir,completion range 1880-81
+Georges Seurat,1859,1891,A Sunday Afternoon on the Island of La Grande Jatte,1886,27,5,"French, Pointillism/Post-Impressionism",https://en.wikipedia.org/wiki/A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte,completion range 1884-86
+John William Waterhouse,1849,1917,The Lady of Shalott,1888,39,29,"British, Pre-Raphaelite/Academic",https://en.wikipedia.org/wiki/The_Lady_of_Shalott_(painting),
+Vincent van Gogh,1853,1890,Sunflowers,1888,35,2,"Dutch, Post-Impressionism",https://en.wikipedia.org/wiki/Sunflowers_(Van_Gogh_series),
+Vincent van Gogh,1853,1890,The Starry Night,1889,36,1,"Dutch, Post-Impressionism",https://en.wikipedia.org/wiki/The_Starry_Night,
+Paul Cezanne,1839,1906,The Card Players,1892,53,14,"French, Post-Impressionism",https://en.wikipedia.org/wiki/The_Card_Players,completion range 1890-95 across sources
+Edvard Munch,1863,1944,The Scream,1893,30,51,"Norwegian, Expressionism/Symbolism",https://en.wikipedia.org/wiki/Edvard_Munch,
+Henri de Toulouse-Lautrec,1864,1901,At the Moulin Rouge,1895,31,6,"French, Post-Impressionism",https://en.wikipedia.org/wiki/At_the_Moulin_Rouge,completion range 1892-95
+Henri Rousseau,1844,1910,The Sleeping Gypsy,1897,53,13,"French, Naive/Post-Impressionism",https://en.wikipedia.org/wiki/The_Sleeping_Gypsy,
+Paul Gauguin,1848,1903,Where Do We Come From? What Are We? Where Are We Going?,1897,49,6,"French, Post-Impressionism/Symbolism",https://en.wikipedia.org/wiki/Where_Do_We_Come_From%3F_What_Are_We%3F_Where_Are_We_Going%3F,
+Claude Monet,1840,1926,The Water Lily Pond,1899,59,27,"French, Impressionism",https://www.metmuseum.org/art/collection/search/437127,
+Pablo Picasso,1881,1973,Les Demoiselles d'Avignon,1907,26,66,"Spanish, proto-Cubism",https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon,
+Gustav Klimt,1862,1918,The Kiss,1908,46,10,"Austrian, Symbolism/Art Nouveau",https://en.wikipedia.org/wiki/The_Kiss_(Klimt),completion range 1907-08
+Henri Matisse,1869,1954,The Dance,1910,41,44,"French, Fauvism",https://en.wikipedia.org/wiki/Dance_(Matisse),
+Marc Chagall,1887,1985,I and the Village,1911,24,74,"Russian-French, Modernism",https://en.wikipedia.org/wiki/I_and_the_Village,
+Marcel Duchamp,1887,1968,"Nude Descending a Staircase, No. 2",1912,25,56,"French-American, Cubism/Futurism","https://en.wikipedia.org/wiki/Nude_Descending_a_Staircase,_No._2",
+Paul Klee,1879,1940,Twittering Machine,1922,43,18,"Swiss-German, Bauhaus/Surrealism",https://en.wikipedia.org/wiki/Twittering_Machine,
+Wassily Kandinsky,1866,1944,Composition VIII,1923,57,21,"Russian, Abstract art",https://en.wikipedia.org/wiki/Wassily_Kandinsky,
+Joan Miro,1893,1983,The Harlequin's Carnival,1925,32,58,"Spanish/Catalan, Surrealism",https://en.wikipedia.org/wiki/The_Harlequin%27s_Carnival,completion range 1924-25
+Grant Wood,1891,1942,American Gothic,1930,39,12,"American, Regionalism",https://en.wikipedia.org/wiki/Grant_Wood,
+Salvador Dali,1904,1989,The Persistence of Memory,1931,27,58,"Spanish, Surrealism",https://en.wikipedia.org/wiki/The_Persistence_of_Memory,
+Georgia O'Keeffe,1887,1986,"Cow's Skull: Red, White, and Blue",1931,44,55,"American, Modernism","https://en.wikipedia.org/wiki/Cow%27s_Skull:_Red,_White,_and_Blue",
+Pablo Picasso,1881,1973,Guernica,1937,56,36,"Spanish, Cubism",https://en.wikipedia.org/wiki/Guernica_(Picasso),
+Frida Kahlo,1907,1954,The Two Fridas,1939,32,15,"Mexican, Surrealism/Naive",https://en.wikipedia.org/wiki/The_Two_Fridas,
+Edward Hopper,1882,1967,Nighthawks,1942,60,25,"American, Realism",https://en.wikipedia.org/wiki/Edward_Hopper,
+Piet Mondrian,1872,1944,Broadway Boogie Woogie,1943,71,1,"Dutch, De Stijl/Abstract",https://en.wikipedia.org/wiki/Broadway_Boogie_Woogie,completion range 1942-43
+Jackson Pollock,1912,1956,"No. 5, 1948",1948,36,8,"American, Abstract Expressionism","https://en.wikipedia.org/wiki/No._5,_1948",
+Andrew Wyeth,1917,2009,Christina's World,1948,31,61,"American, Realism",https://en.wikipedia.org/wiki/Christina%27s_World,
+Willem de Kooning,1904,1997,Woman I,1952,48,45,"Dutch-American, Abstract Expressionism",https://en.wikipedia.org/wiki/Woman_I,completion range 1950-52
+Mark Rothko,1903,1970,"Orange, Red, Yellow",1961,58,9,"American, Abstract Expressionism/Color Field","https://en.wikipedia.org/wiki/Orange,_Red,_Yellow",
+Andy Warhol,1928,1987,Campbell's Soup Cans,1962,34,25,"American, Pop Art",https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans,completion range 1961-62
+Roy Lichtenstein,1923,1997,Whaam!,1963,40,34,"American, Pop Art",https://en.wikipedia.org/wiki/Whaam!,
+Rene Magritte,1898,1967,The Son of Man,1964,66,3,"Belgian, Surrealism",https://en.wikipedia.org/wiki/The_Son_of_Man,
