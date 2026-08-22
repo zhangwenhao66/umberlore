@@ -1157,3 +1157,101 @@
 ```
 
 **2026-08-21 补充记录（同日追加，人工复核发现）**：上面记录的HRC收藏年份修复（1966→1965）实际只改对了正文段落，FAQ答案（"the Nickolas Muray collection the Center acquired in 1966"）里同一事实的独立复述未被审计agent的"穷尽式检索"覆盖到，本次审计流程结束、`actions_taken`已写"已修复"并部署上线之后，用curl比对线上页面全文才发现FAQ仍显示旧的1966。已单独修复（commit `490d009`）、build通过、push、curl轮询确认线上FAQ已生效1965、无需重新跑IndexNow（同一URL当天已提交过一次）。已作为L-0804-6的新复发案例写入`独立站/内容通用教训库.md`。
+
+```json
+{
+  "url_slug": "sagrada-familia",
+  "last_audited": "2026-08-22",
+  "published_date": "2026-08-05",
+  "note": "站内40篇文章中，sagrada-familia/starry-night/saturn-devouring-his-son三篇同为2026-08-02批次之后最早的从未审计文章（均published 2026-08-05），sagrada-familia在guides.ts中排序最靠前，故选定。",
+  "article_specific_checklist": [
+    "2026年2月20日Tower of Jesus Christ封顶、达到172.5米最终高度、超越乌尔姆大教堂成为世界最高教堂这一系列具体数字是否准确",
+    "2026年6月10日（高迪逝世百年纪念日）教宗利奥十四世亲临祝圣封顶塔这一事件是否真实发生、教宗本人是否真实存在",
+    "172.5米高度刻意比蒙锥克山（约173米）低约1米、高迪本人\"人造之物不应超越神造之物\"这一设计意图的说法是否准确",
+    "1936年无政府主义者焚毁高迪工作室石膏模型、携炸药欲炸毁诞生立面但最终未实施这一具体情节是否准确",
+    "帕西翁立面雕塑家Subirachs 1987年揭幕作品后\"critics called the angular figures 'a crime against Gaudí' and 'an artistic abomination'\"这两条带引号的具体引语是否逐字可追溯"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "发现1处问题（引语无法追溯来源），已独立复核确认为CONFIRMED FABRICATED/UNVERIFIABLE并修复；其余专属核查点均核实准确",
+      "detail": "WebSearch多方交叉核实：2026年2月20日Tower of Jesus Christ封顶达172.5米、超越乌尔姆大教堂（约162米）成为世界最高教堂——Vatican News/Euronews/America Magazine/Catalan News等多信源一致确认；2026年6月10日教宗利奥十四世（Robert Prevost，2025年就任）亲临巴塞罗那主持弥撒并祝圣该塔——America Magazine/CNN/NBC News/Deseret News/梵蒂冈官方多信源确认，且确认为继若望保禄二世(1982)、本笃十六世(2010)之后第三位到访的教宗；172.5米比蒙锥克山（多信源确认约173-173.5米，高迪传记记载的\"不超越神造之物\"意图）低约1米——多信源交叉确认；1936年7月20日FAI无政府主义者焚毁高迪工作室模型、携炸药欲毁诞生立面未遂——Hyperallergic/Temples.org/99% Invisible等信源确认细节准确。唯一发现的问题：正文\"critics called the angular figures 'a crime against Gaudí' and 'an artistic abomination'\"两条带引号引语，归因给未点名的\"critics\"。独立复核agent通过Wayback Machine定位到真正的1991年TIME原始报道全文（'Heresy Or Homage in Barcelona?'），逐字搜索\"crime against\"/\"abomination\"均零命中；全网唯一同时出现这两条完全一致引语的地方是一个无具名出处的门票转售/联盟营销站点（tickets-sagradafamilia.co），文风疑似AI合成摘要而非真实新闻引用。判定CONFIRMED FABRICATED/UNVERIFIABLE，属于L-0804-1教训（引用的引语未经逐字核实）的复发案例。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇以Vatican News、The Art Newspaper、Britannica、Sagrada Família官网、Dezeen、Mental Floss、Temples.org、Aleteia、Vatican.va等机构/媒体一手信源为主，14+条sources全部可WebSearch交叉验证。修复后新增TIME 1991年报道来源，替换了原先无出处的模糊归因表述，EEAT有所提升。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现需要更新的问题（一项内容深度机会未处理）",
+      "detail": "published 2026-08-05、审计时2026-08-22，隔17天。WebSearch核实2026年8月未见推翻文中论断的新进展。发现Glòria立面台阶方案与巴塞罗那市政府就是否需要拆除对面民居（约影响3,000居民）的协商截至2026年6月仍未达成约束性协议，文章现有表述（\"finishing work...on a schedule that runs to 2034 or 2035\"）未提及这一争议，但也未做出与该争议矛盾的断言，判定为内容深度可选项而非事实错误，遵循\"修复必须针对性\"原则未处理，仅记录供后续参考。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "dataforseo-query确认\"sagrada familia\"月搜索量201,000/KD40，真实SERP由官方售票站/Wikipedia/官方百年纪念站/YouTube/CNN主导，UmberLore角度本非目标该泛词。WebSearch核实两个常见竞品thecollector.com与artincontext.org的Sagrada Família页面均未更新至2026年完工状态（前者仍写\"completion anticipated around 2032/2033\"，后者仍写\"remains incomplete at present\"/\"world's largest incomplete Catholic church\"），均无Colònia Güell链式模型测试、1936年焚毁细节、教宗利奥十四世2026年祝圣、蒙锥克山高度限制等具体信息，本文构成真实且更新及时的增量内容。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "两项候选（标题/描述长度）经独立agent复核判定NOT CONFIRMED，未处理",
+      "detail": "title原始59字符，含站名后缀渲染71字符；description 164字符。均高于站内此前5篇已审计文章的基线（61-66字符/150-160字符区间），审计者最初判断为候选发现，独立复核agent核实后判定：71字符与164字符仍在站内窄字符占比高、非单篇缺陷的可接受范围内，NOT CONFIRMED，未处理。canonical自指、单一H1、7个section H2+FAQ H2无跳级（模板层面确认，[slug].astro第90/123/148/176行）、schema三组件（Article/FAQPage/BreadcrumbList）均从guide对象动态生成、hero图与1张section图alt文本齐全、ads.txt正确指向pub-5245502795720653。"
+    },
+    {
+      "dimension": "GEO审计（99分制11维度）",
+      "status": "自评约90/99（阈值80，达标），修复后跨域连接维度提升",
+      "detail": "权威原文引语14-16/16（多条机构级引语核实准确，Bonet/Brossa两条新增引语同样逐字核实）；统计数据完整性13-14/14（172.5米/162米/1936/1882/1926/2010/2034-2035等数据密集）；跨域连接：修复前2条出链（st-peters-basilica/frank-lloyd-wright）、0条回链，孤儿页；修复后新增1条回链（来自st-peters-basilica），从2/4提升至3/4；权威信号6/8为站级系统性短板（缺作者credential页，与已审计文章一致）；专业术语6/6（catenary/hyperboloid/hyperbolic paraboloid等准确使用）。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "发现1处轻微候选，独立复核后判定NOT CONFIRMED，未处理",
+      "detail": "published 2026-08-05，早于avoid-ai-writing接入日期2026-08-07，触发补漏检查。机械扫描：正文em-dash 0处、en-dash 0处（1处en-dash出现在sources标签内引用的第三方文章标题，非本站正文）、加粗0处。仅命中1处Tier-1A候选词\"tapestry\"（\"carved with the density of a stone tapestry\"隐喻用法）。独立复核agent判定该用法在语境中是恰当的画面感修辞而非AI套话堆砌（全文密度极低，仅此一例），NOT CONFIRMED，未处理。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "10条原有sources逐条curl实测：7条200，3条（Britannica×2、Dezeen）403。WebSearch交叉核实3条403链接均为反爬假阳性——Britannica两篇文章内容经WebSearch确认与正文引用一致，Dezeen \"Colònia Güell hanging models\"文章确认标题/发布日期/内容均与正文匹配。新增的TIME Wayback Machine来源curl实测200，内容逐字核实。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "确认问题（正文手动锚文本孤儿页），已修复",
+      "detail": "grep全站guides.ts确认sagrada-familia在4篇Architecture分类文章中，是唯一一篇零手动锚文本回链的文章（自身有2条出链指向st-peters-basilica、frank-lloyd-wright，但从未被任何其他文章回链）。虽然[slug].astro的pickRelatedGuides()轮转窗口机制（Architecture 4篇≤6篇阈值）会让自动化\"Nearby in the gallery\"侧边栏正常收录它，但正文编辑锚文本层面确为孤儿。已修复：在st-peters-basilica \"Four hundred years on\"小节结尾新增一句呼应\"建筑接力\"主题的回链。独立复核agent核实确认CONFIRMED。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "Article/FAQPage/BreadcrumbList三个schema组件均在构建时从guide对象字段动态生成JSON-LD，架构上不存在正文改动与schema不同步的漂移风险；本次正文改动（引语替换）已在下次构建时自动同步进description等字段无关的Article schema，FAQ字段本身未被改动。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "高迪卒于1926年，远早于1955年版权分界线；Subirachs（帕西翁立面雕塑家）卒于2014年，其雕塑作品理论上仍在版权期内，但本文所用配图均为高迪本人设计、已公有领域的诞生立面照片，不涉及Subirachs作品复制品。教宗利奥十四世是在世公众人物，文中仅陈述其2026年6月到访祝圣这一公开新闻事实，无编造引语或争议性措辞。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "2个媒体资源（诞生立面头图+悬链线示意图SVG）：头图逐张核实Wikimedia Commons文件页，摄影者José Luiz Bernardes Ribeiro，许可CC BY-SA 3.0，与站内imageCredit标注一致，拍摄对象为高迪本人设计的建筑物实拍照片（不涉及在世/近期去世艺术家作品复制）；悬链线示意图为站内自制SVG插画，非外部版权素材。均不触及本站\"现当代艺术家版权风险\"高风险类别。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "正文为建筑工程史/宗教建筑纪实内容，涉及1936年焚毁、Subirachs雕塑争议等历史事件均为百科式克制表达，无暴力猎奇渲染；标题陈述式无诱导误点；ads.txt curl实测200正确指向pub-5245502795720653。"
+    }
+  ],
+  "actions_taken": [
+    "独立复核agent确认两条无出处引语（'a crime against Gaudí'/'an artistic abomination'）CONFIRMED FABRICATED/UNVERIFIABLE，用Wayback Machine定位真实1991年TIME报道后，替换为逐字核实过的真实内容：约200名巴塞罗那艺术家/知识分子批评'boorish'/'kitsch'、建筑师Jordi Bonet与诗人Joan Brossa两条具名引语；sources[]补充TIME来源条目",
+    "修复内链孤儿页问题：在st-peters-basilica结尾新增一句自然回链到sagrada-familia",
+    "补published字段确认已存在（2026-08-05）后，updated字段由2026-08-05更新为2026-08-22",
+    "SEO字段长度、AI味tapestry用词两项候选，独立复核agent判定均NOT CONFIRMED，未处理",
+    "npm run build验证通过（57页无报错），dist产物确认引语已替换、回链已生效",
+    "commit 5f322ab（正文修复）+ commit 524ee24（发布日志/indexnow日志，blob级暂存未触碰同时段并发的umberlore-content-publishing任务未提交内容）；push；curl轮询2次确认线上生效",
+    "IndexNow提交/sagrada-familia/与/st-peters-basilica/（Bing 200/Yandex 200）",
+    "内容发布日志.md追加审计记录，明确标注为content-quality-audit审计更新非新发布",
+    "内容通用教训库.md L-0804-1条目追加本次复发记录"
+  ],
+  "seo_score": "seo-audit通过（title 71字符/desc 164字符经独立agent复核判定站内可接受范围内未处理/canonical自指/单一h1/7个h2无跳级/三个schema均基于guide对象动态生成有效/alt全部已有/外链10条+新增1条TIME来源，3条403经WebSearch交叉验证为反爬假阳性）",
+  "geo_score": "自评约90/99（阈值80，达标），跨域连接由2/4（孤儿页）修复后提升至3/4，其余维度与站内已审计文章基线一致",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
