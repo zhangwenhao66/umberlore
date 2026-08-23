@@ -231,5 +231,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-23",
+    "action": "submitted",
+    "reason": "今日无新发布。Pages报告2个Discovered-currently not indexed候选(michelangelo-sistine-chapel/topics-technique)中，选中队列内匹配的michelangelo-sistine-chapel，URL Inspection确认URL is not on Google/Discovered-currently not indexed，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/michelangelo-sistine-chapel/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
