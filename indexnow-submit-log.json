@@ -75,28 +75,28 @@
     "submitted_date": "2026-08-03",
     "last_submitted_date": "2026-08-22",
     "verified_status": "pending",
-    "last_checked_date": "2026-08-20",
+    "last_checked_date": "2026-08-23",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/edvard-munch-the-scream/": {
     "submitted_date": "2026-08-03",
     "last_submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "last_checked_date": "2026-08-10",
+    "last_checked_date": "2026-08-23",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/frida-kahlo-paintings/": {
     "submitted_date": "2026-08-04",
     "last_submitted_date": "2026-08-21",
     "verified_status": "pending",
-    "last_checked_date": "2026-08-10",
+    "last_checked_date": "2026-08-23",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/sagrada-familia/": {
     "submitted_date": "2026-08-04",
     "last_submitted_date": "2026-08-22",
     "verified_status": "pending",
-    "last_checked_date": "2026-08-10",
+    "last_checked_date": "2026-08-23",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/starry-night/": {
@@ -233,6 +233,11 @@
   "https://umberlore.com/encaustic-painting/": {
     "submitted_date": "2026-08-21",
     "last_submitted_date": "2026-08-21",
+    "verified_status": "pending"
+  },
+  "https://umberlore.com/romanesque-painting/": {
+    "submitted_date": "2026-08-22",
+    "last_submitted_date": "2026-08-22",
     "verified_status": "pending"
   }
 }
