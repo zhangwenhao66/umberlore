@@ -1255,3 +1255,101 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "starry-night",
+  "last_audited": "2026-08-23",
+  "published_date": "2026-08-05",
+  "note": "站内40篇文章中，starry-night/saturn-devouring-his-son两篇是sagrada-familia（2026-08-22已审）之后剩余的最早从未审计文章（均published 2026-08-05），starry-night在guides.ts中排序更靠前，故选定。",
+  "article_specific_checklist": [
+    "Venus晨星识别的引语与出处：letter 777（约1889年5月31日-6月6日，'the morning star, which looked very big'）及Van Gogh Museum官方注释对Charles A. Whitney研究的引用是否逐字准确",
+    "MoMA官方藏品页'the addition of an imaginary village'引语与accession 472.1941是否准确，MoMA用两幅Cézanne+一幅Toulouse-Lautrec与Paul Rosenberg交换获得本画这一具体provenance细节是否真实（而非泛泛的'购得'）",
+    "letter 805（1889年9月20日，'exaggerations from the point of view of the arrangement'）与letter 806（1889年9月28日，画作最终随其他画作一起寄出）两封信的具体内容与日期是否准确",
+    "2006/2019/2024三项turbulence物理学研究（Aragón/Beattie/Ma）的作者名单、期刊、结论是否准确，尤其Aragón接受Nature采访时点名Munch's The Scream不符合Kolmogorov scaling这一细节",
+    "头图（MoMA藏1889年油画，经Google Arts & Culture转载于Wikimedia Commons）的public domain许可标注是否属实——凡·高卒于1890年，理论上无争议，但仍需按本站规则实际核实Commons文件页许可状态而非默认"
+  ],
+  "findings": [
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇引用真实一手信源：Van Gogh Museum官方书信数据库（4封信直接编号+日期）、MoMA官方藏品页、Nature新闻报道、3篇同行评审物理学论文（arXiv+期刊DOI），无模糊归因。"
+    },
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题（逐字核实全部通过）",
+      "detail": "curl直接抓取vangoghletters.org四封信原文（let777/let782/let805/let806）逐字核对：letter 777'This morning I saw the countryside from my window a long time before sunrise with nothing but the morning star, which looked very big'及其官方脚注（Venus晨星识别+Charles A. Whitney《The Skies of Vincent van Gogh》, Art History期刊引用）完全匹配；letter 782'a new study of a starry sky'（1889年6月18日）匹配；letter 805'These are exaggerations from the point of view of the arrangement, their lines are contorted like those of the ancient woodcuts'（1889年9月20日，原文同时点名Night effect与Moonrise）匹配；letter 806（1889年9月28日）中'Night effect'与'Moonrise'确实列在当天寄出清单内，匹配文中'over a week later'的时间线。MoMA provenance细节（Jo van Gogh-Bonger→Julien Leclercq 1900-1901→Schuffenecker→Jo购回1905-1906→Oldenzeel/van Stolk 1906-1938→Paul Rosenberg 1938-1941→MoMA 1941，以两幅Cézanne+一幅Toulouse-Lautrec交换）经WebSearch多信源交叉核实（含Wikipedia、MoMA自身页面摘要）逐段吻合，含具体交换的3幅画作名称）。2006年Aragón论文（arXiv:physics/0606246，作者J.L. Aragón, Naumis, Bai, Torres, Maini）、Nature新闻原文逐字核实'We have examined other apparently turbulent paintings of several artists and find no evidence of Kolmogorov scaling'及紧接着点名Munch's The Scream均属实；2019年Beattie论文（arXiv:1902.03381，power-law −2.1±0.3）与2024年Ma等论文（arXiv:2310.03415/Physics of Fluids 36(9) 095140，作者Ma, Cheng, Huang, Schmitt, Lin, Huang）作者名单、期刊、结论均逐字核实准确。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "确认问题，已修复",
+      "detail": "文章'Physicists have argued about the swirls'系列小节与FAQ将2024年Ma等论文的Kolmogorov式结论呈现为该争论目前最新、未被挑战的定论，但published 2026-08-05晚于（而非早于）2025年出现的三项重大同行评审反驳：Riley & Gad-el-Hak（Journal of Turbulence, 2025年3月18日在线发表，指出论文将Kolmogorov速度湍流理论错误延伸至画作像素亮度这一标量场，缺乏可测量的真实标量流体属性）；Bourgault & Chavanne等（Bulletin of the American Meteorological Society 106(8), 2025年8月，用同一方法分析Degas《A Woman Seated beside a Vase of Flowers》同样得出≈−5/3斜率，证明该方法本身不能区分'湍流'与'巧合'，并指出凡·高本人书信已明确该亮斑是金星而非涡旋）；两队作者联署的Comment（Physics of Fluids 37, 129101, 2025年12月，同一期刊，结论'the analysis in the paper by Ma et al. is flawed, and their conclusions unfounded'）。原文对读者造成'2024年研究已经把争论定案'的误导性印象，与2026-08-23查证时点的真实科研进展不符。已修复：详见actions_taken。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch核心关键词SERP由Tiaracle/Google Arts & Culture/MoMA/Rabbit Air/vincentvangogh.org/Artnet/Big Ox Printing等通用型'10个冷知识'类内容主导，均未触及本文核心的书信编号级考据（4封信逐字引用+日期）、MoMA具体交换条款（2幅Cézanne+1幅Toulouse-Lautrec）、Olson/Doescher天文断代方法论对比、以及2006-2025横跨近20年的物理学湍流争论全链条，确认真实增量价值，非同质化内容。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "title含站名后缀65字符、description 166字符——经对比全站42篇文章实际分布（title含后缀中位数74字符、40/42篇超60字符；description中位数162字符、22/42篇超160字符），本文两项字段均低于或接近站内中位数，非离群值，判定为站内一致的正常范围（非本文特有问题）；canonical由Layout.astro的Astro.url自动生成自指；单一H1（guide.title）；6节小标题H2+FAQ独立H2共8个，层级无跳级；hero图与SVG图均有描述性alt；Article/FAQPage/BreadcrumbList三个schema组件均从guide对象字段动态生成，无漂移风险；grep全站确认2处真实inbound手动锚文本回链（来自elements-of-art、jackson-pollock两篇），非孤儿页。"
+    },
+    {
+      "dimension": "GEO审计（99分制11维度自评，未用独立工具复验）",
+      "status": "未发现问题，自评92/99（阈值80，达标，修复后维持/略升）",
+      "detail": "权威原文引语16/16（新增3篇2025年反驳论文的直接引语后维度加强）；统计数据完整性13/14；可引用性12/13；结构规范性11/12；表达流畅度9/10；语义密度7/8；权威信号6/8（同站已知短板：缺作者专业背景credential展示，非本文特有）；专业术语6/6；鲁棒性5/5（时效性修复后核心论断不再有'被2025年研究推翻却未提及'的脆弱点，较修复前提升）；跨域连接4/4（2条inbound+2条outbound内链均已确认）；易懂表达3/3。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "确认1处非阻断问题，已修复；正文本身干净",
+      "detail": "published 2026-08-05早于avoid-ai-writing接入日期（2026-08-07），按规则重新过Skill(humanizer)+Skill(avoid-ai-writing)全文逐段扫描：正文6节+FAQ共0处em/en dash、0处花体引号、0处'not just/not only'翻案句式、0处AI高频词表命中，句长/段落节奏有真实变化，具体细节密度高（信件编号、藏品号、精确日期），判定为人类/已去AI味写作，无需重写。唯一命中：sources[]元数据字段'Wikipedia: The Starry Night — Provenance...'一条label内含1处em dash（—），身处结构化元数据而非正文段落，是此前教训库L-0810-4记录过的同类失效模式在本文的复现，已修复为'Wikipedia: The Starry Night (provenance: ...)'不含破折号的写法。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "原有13条sources逐一curl实测：vangoghletters.org四条、三篇arXiv、Nature news均200；moma.org与skyandtelescope.org两条返回403，但WebSearch确认二者均为真实可索引的在线页面（含逐字标题匹配），判定为反爬虫拦截非真实链接失效，与站内此前多次遇到的同类假阳性一致。新增的5条2025年信源（tandfonline/VCU News/ametsoc/pubs.aip.org/courthousenews）同样逐一curl实测：VCU News/ametsoc/courthousenews三条200；tandfonline与pubs.aip.org两条403但均经WebSearch独立确认为真实可索引在线论文页（标题、作者、卷期号完全匹配），同一反爬拦截模式，非真实死链。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep全站guides.ts确认starry-night有2条真实inbound手动锚文本回链（来自elements-of-art一篇关于'湍流数学检验'的段落、jackson-pollock一篇关于'凡·高晚期神话化月份'的段落），非孤儿页；本文自身也有2条outbound内链指向edvard-munch-the-scream与famous-paintings。Painting分类文章数量充足，[slug].astro轮转窗口机制正常运作。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "Article/FAQPage/BreadcrumbList三个schema组件均在构建时从guide对象字段动态生成JSON-LD，构建产物dist/starry-night/index.html确认dateModified已同步为2026-08-23、datePublished保持2026-08-05不变，新增正文段落与FAQ改动无需额外同步（无硬编码副本）。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "凡·高卒于1890年，远早于1955年版权分界线，不触及本站现当代艺术家版权风险清单。文中提及的现代学者（Aragón/Beattie/Ma/Riley/Gad-el-Hak/Bourgault/Chavanne）均为学术观点分歧的正常科研讨论，无争议性人身评价，无需调整措辞。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "2个媒体资源（头图starry-night-moma.jpg + SVG示意图starry-night-turbulence-cascade-diagram.svg）均确认本地文件真实存在。头图用Wikimedia Commons API直接查询File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg的extmetadata，确认LicenseShortName='Public domain'、Copyrighted=False、Artist标注Vincent van Gogh（1853–1890），与站内imageCredit标注完全一致，非碰巧公开但实际仍受争议的情形。SVG为站内自制湍流级联示意图，非外部版权素材。均不触及本站'现当代艺术家版权风险'高风险类别。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "ads.txt curl实测正确指向pub-5245502795720653；robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均显式Allow；/privacy/与/about/均可访问；正文为艺术史/科学史纪实内容，无暴力猎奇渲染，标题陈述式无诱导误点。"
+    }
+  ],
+  "actions_taken": [
+    "独立复核agent确认两项发现均CONFIRMED：①2024年Ma等论文的湍流结论呈现为未被挑战的定论，遗漏2025年三项重大同行评审反驳（Riley & Gad-el-Hak/Bourgault & Chavanne/两队联署Comment）；②sources[]元数据字段内1处em dash",
+    "新增小节'Two 2025 papers say the method itself is broken'（2段），基于逐字核实过的Riley/Bourgault/联署Comment引语，说明2025年学界对2024年方法论的质疑；同步更新coreSummary末句与FAQ'Do the swirls in the sky follow real physics?'答案，不再让2024年研究显得像最终定论",
+    "sources[]新增5条2025年信源（Riley & Gad-el-Hak论文/VCU News/Bourgault等BAMS论文/两队联署Comment/Courthouse News综述）",
+    "sources[]内1处em dash（Wikipedia条目label）改写为不含破折号的写法",
+    "补published字段确认已存在（2026-08-05）后，updated字段由2026-08-05更新为2026-08-23",
+    "npm run build验证通过（57页无报错），dist产物确认新小节正文、更新后的coreSummary/FAQ、dateModified均已写入构建产物",
+    "commit（正文修复）+ 追加记录到内容发布日志.md（blob级暂存，未触碰同时段并发会话对该文件与indexnow-submit-log.json的未提交改动）；push；curl轮询确认线上/starry-night/已生效新小节正文",
+    "IndexNow提交/starry-night/",
+    "内容发布日志.md追加审计记录，明确标注为content-quality-audit审计更新非新发布"
+  ],
+  "seo_score": "seo-audit通过（title 65字符/desc 166字符均低于或接近站内中位数非离群值/canonical自指/单一h1/8个h2无跳级/三个schema均基于guide对象动态生成有效/alt全部已有/内链2进2出均确认/外链18条中2条403经WebSearch交叉验证为反爬假阳性其余200）",
+  "geo_score": "自评92/99（阈值80，达标），鲁棒性维度因时效性修复由潜在脆弱点转为5/5",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```

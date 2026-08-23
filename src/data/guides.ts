@@ -2062,8 +2062,8 @@ export const guides: Guide[] = [
     "title": "The Starry Night: One Real Star, One Invented Village",
     "description": "The star beside the cypress in Starry Night is Venus, confirmed from Van Gogh's own 1889 letters. The village below it is invented, its swirls still disputed physics.",
     "published": "2026-08-05",
-    "updated": "2026-08-05",
-    "coreSummary": "The bright object beside the cypress tree in The Starry Night is Venus: Van Gogh described seeing \"the morning star, which looked very big\" from his asylum window in a letter to Theo written between about 31 May and 6 June 1889, and the Van Gogh Museum's own letters project credits astronomer Charles Whitney's research with identifying it. The village underneath the swirling sky is not real; MoMA's own catalogue entry calls it \"the addition of an imaginary village,\" and its slender, Dutch-style church spire evokes the artist's homeland rather than Provence. Astronomers have precisely dated two of Van Gogh's other night paintings, White House at Night and Moonrise, to a specific hour using the calculated position of Venus and the moon; they have not done the same for The Starry Night, in part because Van Gogh himself later dismissed its arrangement as an \"exaggeration.\" Physicists have spent nearly twenty years testing whether the sky's swirls actually obey the mathematical law that governs real turbulence: a 2006 study found they did, a 2019 study of a cropped section found a pattern closer to the turbulence inside star-forming interstellar clouds, and a 2024 study analyzing the entire sky settled back on the original Kolmogorov-like result.",
+    "updated": "2026-08-23",
+    "coreSummary": "The bright object beside the cypress tree in The Starry Night is Venus: Van Gogh described seeing \"the morning star, which looked very big\" from his asylum window in a letter to Theo written between about 31 May and 6 June 1889, and the Van Gogh Museum's own letters project credits astronomer Charles Whitney's research with identifying it. The village underneath the swirling sky is not real; MoMA's own catalogue entry calls it \"the addition of an imaginary village,\" and its slender, Dutch-style church spire evokes the artist's homeland rather than Provence. Astronomers have precisely dated two of Van Gogh's other night paintings, White House at Night and Moonrise, to a specific hour using the calculated position of Venus and the moon; they have not done the same for The Starry Night, in part because Van Gogh himself later dismissed its arrangement as an \"exaggeration.\" Physicists have spent nearly twenty years testing whether the sky's swirls actually obey the mathematical law that governs real turbulence: a 2006 study found they did, a 2019 study of a cropped section found a pattern closer to the turbulence inside star-forming interstellar clouds, and a 2024 study of the entire sky reported the original Kolmogorov-like result again, only for two 2025 rebuttal studies and a joint commentary letter that December to argue the whole method is flawed.",
     "image": "/images/starry-night-moma.jpg",
     "imageAlt": "Vincent van Gogh's The Starry Night, 1889, showing a swirling night sky with a bright morning star over an invented village and a large dark cypress tree",
     "imageCredit": "[The Starry Night](https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg), via Google Arts & Culture, Museum of Modern Art, New York (accession 472.1941), public domain",
@@ -2108,6 +2108,13 @@ export const guides: Guide[] = [
         }
       },
       {
+        "heading": "Two 2025 papers say the method itself is broken",
+        "body": [
+          "The 2024 result didn't stand unchallenged for long. In March 2025, James J. Riley of the University of Washington and Mohamed Gad-el-Hak of Virginia Commonwealth University published a direct rebuttal in the Journal of Turbulence, arguing the whole approach rests on a category error. The 2024 paper had extended Kolmogorov's velocity-turbulence theory to a scalar quantity, in this case pixel luminance, using an extension developed independently by Alexander Obukhov and Stanley Corrsin for real fluids. Riley told Virginia Commonwealth University's newsroom that the objection was foundational: \"there is no identifiable, measurable scalar fluid property in the painting that can be used to apply the theory of Obukhov and Corrsin,\" and that \"the atmospheric flow field assumed does not even closely satisfy the assumptions required of the theory.\"",
+          "A second team went further. In August 2025, Daniel Bourgault and Cédric Chavanne of the Université du Québec à Rimouski's Institut des sciences de la mer, writing in the Bulletin of the American Meteorological Society, ran the 2024 paper's identical power-spectrum method on an unrelated painting, Edgar Degas's A Woman Seated beside a Vase of Flowers, an indoor scene with nothing to do with skies or fluid motion. It produced a power-law slope near −5/3 too. Bourgault's point was that the slope alone proves nothing: \"the fact that fully developed turbulent flows exhibit a −5/3 power spectrum does not imply that any field with a −5/3 spectrum is turbulent. All roses are flowers, but not all flowers are roses.\" His team also noted that Van Gogh's own letters name the bright shape beside the cypress as Venus, not an eddy, and that both Venus and the moon are painted at an exaggerated scale that would distort any energy-spectrum measurement taken off the canvas. In December 2025, authors from both rebuttal teams published a joint comment in Physics of Fluids, the same journal that had run the original 2024 paper, concluding that \"the analysis in the paper by Ma et al. is flawed, and their conclusions unfounded.\""
+        ]
+      },
+      {
         "heading": "From a painting he almost didn't send, to MoMA's most recognized canvas",
         "body": [
           "Van Gogh's own low opinion of the painting did not keep it from circulating after his death, or from changing hands repeatedly. Theo died in January 1891, six months after Vincent, and his widow, Jo van Gogh-Bonger, became caretaker of the estate; in 1900 she sold the painting to the poet Julien Leclercq, who sold it on to the painter Émile Schuffenecker the following year. Jo bought it back from Schuffenecker and, in 1906, sold it again, this time to the Oldenzeel Gallery in Rotterdam, where a local collector, Georgette van Stolk, acquired it; van Stolk kept it for over thirty years, reportedly hanging a curtain in front of the canvas on hot summer days to protect it from the sun. She eventually sold it to the Paris dealer Paul Rosenberg, who fled to the United States in 1940 as Germany occupied France. MoMA did not buy the painting from Rosenberg in 1941; it swapped for it, trading him three works bequeathed to the museum by its late co-founder Lillie P. Bliss, two Cézannes and a Toulouse-Lautrec, and recording the arrival under accession number 472.1941, [the kind of specific catalogue detail](/famous-paintings/) that tends to get lost once a painting turns into a reproduced image rather than a physical object with an inventory record. The museum first displayed it to the public that September, in an exhibition simply titled \"New Acquisition: Vincent van Gogh, The Starry Night,\" and it has remained one of the most visited works in the collection ever since.",
@@ -2134,7 +2141,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Do the swirls in the sky follow real physics?",
-        "answer": "It's disputed. A 2006 study found the painting's brightness patterns statistically matched Kolmogorov's theory of turbulence; a 2019 study of a smaller, cropped section found a pattern closer to supersonic turbulence in interstellar clouds instead; a 2024 study analyzing the painting's entire sky region found the original Kolmogorov-like pattern after all. The same 2006 team tested Edvard Munch's The Scream and found its swirls, despite looking similar, do not fit the same law."
+        "answer": "It's disputed, and the more recent research leans skeptical. A 2006 study found the painting's brightness patterns statistically matched Kolmogorov's theory of turbulence; a 2019 study of a smaller, cropped section found a pattern closer to supersonic turbulence in interstellar clouds instead; a 2024 study of the painting's entire sky region reported the original Kolmogorov-like pattern again. But two rebuttals published in 2025, followed by a joint comment in the same journal that December, argue the 2024 method is flawed, partly because running the identical analysis on an unrelated Degas painting produces a similar-looking result. The same 2006 team tested Edvard Munch's The Scream and found its swirls, despite looking similar, do not fit the same law."
       },
       {
         "question": "Did Van Gogh himself like The Starry Night?",
@@ -2163,7 +2170,7 @@ export const guides: Guide[] = [
         "url": "https://www.moma.org/collection/works/79802"
       },
       {
-        "label": "Wikipedia: The Starry Night — Provenance (ownership chain from Jo van Gogh-Bonger to MoMA)",
+        "label": "Wikipedia: The Starry Night (provenance: ownership chain from Jo van Gogh-Bonger to MoMA)",
         "url": "https://en.wikipedia.org/wiki/The_Starry_Night"
       },
       {
@@ -2193,6 +2200,26 @@ export const guides: Guide[] = [
       {
         "label": "Ma, Cheng, Huang, Schmitt, Lin & Huang: Hidden Turbulence in van Gogh's The Starry Night, Physics of Fluids 36(9) (2024)",
         "url": "https://arxiv.org/abs/2310.03415"
+      },
+      {
+        "label": "Riley & Gad-el-Hak: Is There Hidden Turbulence in Vincent van Gogh's 'The Starry Night'?, Journal of Turbulence, Vol. 26, No. 4 (2025)",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/14685248.2025.2477244"
+      },
+      {
+        "label": "VCU News: The van Gogh masterpiece 'The Starry Night' is more art than science, researchers report (April 2025)",
+        "url": "https://news.vcu.edu/article/2025/04/the-van-gogh-masterpiece-the-starry-night-is-more-art-than-science-researchers-report"
+      },
+      {
+        "label": "Bourgault, Chavanne et al.: If van Gogh's The Starry Night Depicts Perfect Turbulence, So Should Degas' A Woman Seated beside a Vase of Flowers, Bulletin of the American Meteorological Society 106(8) (2025)",
+        "url": "https://journals.ametsoc.org/view/journals/bams/106/8/BAMS-D-25-0004.1.xml"
+      },
+      {
+        "label": "Gad-el-Hak, Bourgault, Riley & Chavanne: Comment on \"Hidden turbulence in van Gogh's The Starry Night\", Physics of Fluids 37, 129101 (2025)",
+        "url": "https://pubs.aip.org/aip/pof/article/37/12/129101/3374924/Comment-on-Hidden-turbulence-in-van-Gogh-s-The"
+      },
+      {
+        "label": "Courthouse News Service: Multiple studies rebut previous claims about turbulence in Vincent van Gogh's 'The Starry Night' (2025)",
+        "url": "https://www.courthousenews.com/multiple-studies-refute-previous-claims-about-turbulence-in-vincent-van-goghs-the-starry-night/"
       }
     ]
   },
