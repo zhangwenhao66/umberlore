@@ -217,3 +217,19 @@
 
 1. 若"艺术犯罪/伪造"方向的资产/文章一旦发布，`magazine.artland.com`的Art of Forgery文章、`westportlibrary.libguides.com/ArtHeists`指南都是可以立即重新评估的目标（后者虽然本轮链接密度太低不构成候选池，但主题极度吻合，届时可直接推资产而非等断链）。
 2. 中世纪/拜占庭/哥特式艺术方向本轮系统查过但零命中，短期内不建议重复投入，除非站内新增更精确对应的文章（如专门讲拜占庭圣像画或贝叶挂毯的文章）。
+
+---
+
+## 2026-08-24（对上面"第五次运行第二部分"的补正，同日另一路执行）
+
+**补正结论：`magazine.artland.com`的Art of Forgery机会实际有效，已发送。** 上面记录的拒绝理由"本站目前没有已发布的艺术伪造/艺术犯罪类文章"是误判——核对`src/data/guides.ts`确认`frida-kahlo-paintings`（Painting分类）早在2026-08-04已发布，正文覆盖2009年伪造Kahlo档案争议（专家指控方vs.坚持真品的持有人）与2025年10月巴伐利亚警方查获仿冒Kahlo画作（与仿冒毕加索、伦勃朗一同查获）两桩具体案例，主题与目标断链（Artland Magazine的"艺术伪造者"综述文章）高度吻合。此前那次拒绝只按"Art Crime独立分类=0篇"做了判断，没有逐篇通读Painting分类下是否有主题实质对应伪造/鉴定争议的文章，属于分类标签误导实际内容覆盖的疏漏。
+
+**验证细节**：
+- 目标资源页 https://westportlibrary.libguides.com/ArtForgery 的"Learn More Online"板块确认仍含该死链，与thecollector.com/hyperallergic.com/artsy.net等叙事型文章并列，页面`Last Updated: Mar 27, 2026`，维护活跃。
+- 死链 https://magazine.artland.com/the-art-of-forgery-art-forgers-duped-world/ 用两个独立DNS解析器交叉确认：`dig @8.8.8.8`返回NXDOMAIN；`dig @1.1.1.1`本机因本地代理返回畸形报文，改用Cloudflare DoH JSON API（`https://cloudflare-dns.com/dns-query`）交叉验证，返回`Status:3`（NXDOMAIN），确认双解析器一致判定为真实DNS层失效，非HTTP层403/超时误报。`artland.com`根域名本身可解析但返回403（反爬），WebSearch未找到该文章已迁移到新地址的证据，不构成"仅搬新域名"的排除情形。
+- 收件人 mkelly@westportlibrary.org（Melanie Kelly，Westport Library成人参考服务与馆藏策展主管）通过她本人的LibGuides员工资料页（`westportlibrary.libguides.com/prf.php?account_id=78445`）直接确认邮箱，非仅靠邮箱格式推测。`gmail_send.py list`按收件人和域名两种query核查均为空，全矩阵`outreach-drafts.md`/`broken-link-outreach-log.md`交叉查重也未发现这对URL-收件人组合被其他站处理过。
+- 邮件按两段式结构撰写（第一段只谈断链，不提本站；第二段才给替换建议），过`Skill(humanizer)`+`Skill(avoid-ai-writing)`两道检查，独立复核agent（全新上下文）逐项重新核实DNS死链、目标页真实含该链接、主题真实对应（叙事对叙事，非数据库误配）、收件人真实性、邮件内每条Kahlo事实均可回溯guides.ts原文、无AI写作痕迹，全部通过，判定"VERDICT: can send"。
+
+**已发送**：2026-08-24 via `gmail_send.py --from umberlore` 至 mkelly@westportlibrary.org，Message ID `1a033fb8dbb043ef`。完整邮件正文见`outreach-drafts.md` Pitch 8。
+
+**遗留提醒**：上面"第五次运行第二部分"记录的其余44条DEAD链接排除结论（代理系统/数据库机构页/主题不对应）本次未重新复核，维持原判——只有`magazine.artland.com`这一条因为"分类标签掩盖实际内容覆盖"这个具体疏漏被重新捞出，不代表整批复核结论需要推翻。以后核对"本站是否已有对应主题文章"时，应逐篇通读候选分类下的文章正文/coreSummary，不能只看分类标签数量是否为0。

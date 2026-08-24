@@ -285,3 +285,27 @@ contact@umberlore.com
 umberlore.com
 
 **Outcome:** independent review agent returned "VERDICT: can send" (no prior contact via `gmail_send.py list` or any outreach log; every number in the email traced directly to the `artist-peak-creation-age` guide entry; no AI-writing tells; recipient confirmed legitimate via WebSearch). Sent 2026-08-22 via `gmail_send.py --from umberlore` to blogsubmissions@creativelive.com, Message ID `1a0280c883d8012d`. Body file verified read before sending (first line was the greeting "Hi CreativeLive team,", no leaked Subject line).
+
+## Broken-link pitch (2026-08-24 — trafficsite-broken-link-building, 第五次运行第二部分补正)
+
+### Pitch 8 — Westport Library, "Art Forgery" LibGuide
+
+- URL: https://westportlibrary.libguides.com/ArtForgery ("Learn More Online" section, a curated reading list of narrative art-forgery articles alongside thecollector.com, hyperallergic.com, insider.com, artsy.net, variety.com, theguardian.com). Page shows `Last Updated: Mar 27, 2026`, confirming active maintenance within the last 12 months.
+- Dead link: https://magazine.artland.com/the-art-of-forgery-art-forgers-duped-world/ ("The Art of Forgery – Art Forgers Who Duped The World", Artland Magazine). Confirmed dead at the DNS layer with two independent resolvers — `dig @8.8.8.8 magazine.artland.com` returns NXDOMAIN, and Cloudflare's DNS-over-HTTPS API (used as the second independent check after `dig @1.1.1.1` hit a local proxy artifact) returns `Status:3` (NXDOMAIN) — not merely an HTTP-layer 403/timeout. `artland.com`'s root domain resolves fine but returns a bot-protection 403; WebSearch found no evidence the article was relocated to a working new URL on that domain, so this is not the "target only moved to a new domain" case excluded by house rule 2.
+- Contact: mkelly@westportlibrary.org (Melanie Kelly, Head of Adult Reference Services & Collection Curation, Westport Library). Confirmed via her own LibGuides staff profile page (`westportlibrary.libguides.com/prf.php?account_id=78445`), which lists the address verbatim — a primary-source confirmation, not just an inferred email pattern. No prior contact found via `gmail_send.py list --query "to:mkelly@westportlibrary.org"` or `"to:westportlibrary.org"` (both empty), and no prior pitch of this URL pair found in any other site's `outreach-drafts.md`/`broken-link-outreach-log.md`.
+- Angle: UmberLore's `frida-kahlo-paintings` article (published 2026-08-04, category Painting) covers disputed and forged Kahlo works — the 2009 archive that split her own scholars into accusers and an unconvinced owner, and the October 2025 Bavarian police seizure of forged Kahlo paintings sold alongside fake Picassos and Rembrandts. This is a genuine narrative-article-for-narrative-article match to the dead Artland Magazine piece (a survey of famous forgers), not a database swapped for a narrative article.
+- **Correction to this run's own earlier conclusion**: a prior pass earlier the same day (logged in `broken-link-outreach-log.md`, "2026-08-24（第五次运行，第二部分）") found this same dead link during the same batch scan and rejected it, reasoning "本站目前没有已发布的艺术伪造/艺术犯罪类文章" (no published art-forgery article yet). That reasoning was incorrect — `frida-kahlo-paintings` was already published on 2026-08-04, three weeks earlier, and is substantively about forged/disputed Kahlo works even though it is filed under the "Painting" category rather than a standalone "Art Crime" pillar. This run caught the oversight by reading the full text of every Painting-category article for forgery/authentication themes rather than filtering by category label alone.
+
+**Email (humanized, passed through `Skill(humanizer)` and `Skill(avoid-ai-writing)`):**
+
+Subject: Broken link on your Art Forgery guide
+
+I was looking through the Art Forgery guide on the Westport Library site and noticed one of the links under "Learn More Online" is dead. The entry for "The Art of Forgery: Art Forgers Who Duped The World" (Artland Magazine) points to magazine.artland.com, and that subdomain doesn't resolve at all anymore, so there's nothing left to redirect readers to.
+
+If it's useful for the list, we recently covered a case that fits the same theme: Frida Kahlo's paintings are a small, closed catalogue, and that scarcity keeps pulling in disputed and forged works anyway, including an archive that split her own scholars into accusers and an unconvinced owner, and a Bavarian police seizure in October 2025 of forged Kahlos being sold alongside fake Picassos and Rembrandts. It's here if you'd like to take a look: https://umberlore.com/frida-kahlo-paintings/. Either way, wanted to flag the dead link since you maintain the guide.
+
+Owen Zhang
+contact@umberlore.com
+umberlore.com
+
+**Outcome:** independent review agent (fresh context, general-purpose) returned "VERDICT: can send" after independently re-verifying all 9 checks — DNS-dead confirmed via two resolvers, target page still contains the link, topical match confirmed (narrative-for-narrative, not database-for-narrative), recipient confirmed via a primary-source staff profile page (not just inferred email pattern), no duplicate outreach (own-site and cross-site), two-paragraph structure confirmed, no AI-writing tells, and every Frida Kahlo fact in the email traced verbatim to the `frida-kahlo-paintings` guide entry. It also independently confirmed the earlier same-day rejection of this exact link was an oversight. Sent 2026-08-24 via `gmail_send.py --from umberlore` to mkelly@westportlibrary.org, Message ID `1a033fb8dbb043ef`.
