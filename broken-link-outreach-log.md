@@ -192,3 +192,28 @@
 - **UBC/SVA 页面新增的重复项**（Hatch Gallery、cdn.ubc.ca centennial、sva.edu 内部链接、Twitter 账号）：与正文已述一致，非内容页或非站内主题匹配，排除。
 
 复核后仍然是**本轮 0 条可发送机会**，结论不变，仅为保证日志计数准确而补记。
+
+---
+
+## 2026-08-24（第五次运行，第二部分）
+
+### 第一部分
+
+已由上层会话统一核实：本站唯一发送(Marian University, 8/16)距今仅8天不满10天，无需验证，跳过。
+
+### 第二部分：新断链置换机会
+
+本轮方向：Art Forgery/Provenance research（对应本站"艺术犯罪"支柱）+ Medieval/Byzantine/Gothic art + American Architecture（此前未系统查过的方向）。用WebSearch收集51个候选大学LibGuides资源页（Cornell/Brown/Harvard/Princeton/Northwestern/Illinois/Berkeley/MSU等），分批用`broken_link_scan.py`扫描（部分子agent中途因等待脚本完成即以完成状态返回，未落盘，本次由上层会话续跑完成，输出保存在带前缀的专属文件里避免并发覆盖）。
+
+**扫描结果**：合计47条脚本判定DEAD。逐条核实后**全部排除，本轮无可发送机会**，原因分类：
+1. **代理/校内认证系统链接**（约15条）：Brown的BBIS捐赠系统、Northwestern的Bluesky账号/文章传递服务、各校EZproxy/VuFind内部检索页——非公开内容资源。
+2. **档案/机构主页/收藏数据库类，功能不对等**（约20条）：Louvre旧版藏品页、卢浮宫检索系统、Maecenas古典艺术图片库、乔治·奥尔蒂斯古物收藏站、Dyabola考古数据库、National Gallery of Art展览目录页、Virginia's3D古罗马别墅重建项目、RCA设计数据库、VT国际艺术品数据库——均为数据库/机构收藏页，本站叙事型综述文章无法一对一替代，延续本站连续五轮的既有排除标准。
+3. **主题不对应**（约10条）：`magazine.artland.com`的Art of Forgery文章（本站目前没有已发布的艺术伪造/艺术犯罪类文章，此支柱在`linkable-asset-backlog.md`里仍是待制作状态）、`themourners.org`（勃艮第公爵墓雕塑巡展，本站无对应中世纪雕塑文章）、Columbia的Byzantine icon/Amiens大教堂人文项目（本站`romanesque-painting`覆盖罗曼式非拜占庭/哥特式，主题相邻但不精确对应）、`hastings1066.com`贝叶挂毯页（本站无贝叶挂毯相关文章）——均为"主题相邻但不精确对应"，未硬凑。
+4. 新增排查`westportlibrary.libguides.com/ArtHeists`（艺术盗窃案主题指南，理论上是本站"艺术犯罪"支柱的理想目标页）：仅3条出站链接，0条DEAD，本身链接密度太低不构成有效候选池，作废。
+
+**本轮结论**：延续连续五轮的核心教训——数据库/档案/机构收藏类资源是本站结构性触达不到的机会类型，唯一路径是`linkable-asset-backlog.md`里"开放版权艺术图库总目录"/"未追回艺术品登记册"/艺术伪造相关资产尽快发布。
+
+### 遗留待办
+
+1. 若"艺术犯罪/伪造"方向的资产/文章一旦发布，`magazine.artland.com`的Art of Forgery文章、`westportlibrary.libguides.com/ArtHeists`指南都是可以立即重新评估的目标（后者虽然本轮链接密度太低不构成候选池，但主题极度吻合，届时可直接推资产而非等断链）。
+2. 中世纪/拜占庭/哥特式艺术方向本轮系统查过但零命中，短期内不建议重复投入，除非站内新增更精确对应的文章（如专门讲拜占庭圣像画或贝叶挂毯的文章）。
