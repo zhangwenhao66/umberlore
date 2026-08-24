@@ -5446,5 +5446,126 @@ export const guides: Guide[] = [
         "answer": "Two works tie for oldest in this dataset: Katsushika Hokusai was 71 when he made The Great Wave off Kanagawa (1831), and Piet Mondrian was also 71 when he finished Broadway Boogie Woogie (1943)."
       }
     ]
+  },
+  {
+    "slug": "famous-renaissance-paintings",
+    "category": "Painting",
+    "title": "Famous Renaissance Paintings: What the Scans Found Underneath Them",
+    "description": "Infrared scans, X-ray fluorescence, and a surviving cartoon show four famous Renaissance paintings held different designs than the finished works display.",
+    "published": "2026-08-24",
+    "updated": "2026-08-24",
+    "coreSummary": "Four of the best-known paintings from the Renaissance carry evidence, published by the institutions that hold them, of designs their finished surfaces don't show. A 2004/05 infrared reflectography study of Leonardo da Vinci's Virgin of the Rocks at the National Gallery in London found, in the Gallery's own words, \"a completely different design, hidden under the paint,\" and a follow-up study using macro X-ray fluorescence, published in August 2019, recovered that abandoned design's angel and infant Christ, positioned higher in the panel than in the version now on view. The National Gallery's 1995 technical bulletin on Jan van Eyck's 1434 Arnolfini Portrait found that architectural details long read as central to the painting's symbolism, including elements around its mirror, were painted at a late stage without any underdrawing beneath them. A restoration completed by the Uffizi Gallery in 2017 confirmed that Leonardo's Adoration of the Magi, left behind unfinished when he departed Florence for Milan in 1482, is built from layers of overlapping, revised imagery. And the Biblioteca Ambrosiana in Milan, which has held Raphael's 295.1-by-813.8-centimetre preparatory drawing for The School of Athens since 1610, calls it \"the largest Renaissance cartoon that has survived to this day,\" and its own account shows the fresco's architecture and two figures, including Raphael's own self-portrait, were added only once the design reached the wall.",
+    "image": "/images/famous-renaissance-paintings-adoration-magi.jpg",
+    "imageAlt": "Leonardo da Vinci's unfinished Adoration of the Magi, showing loosely sketched and overlapping figures crowding around the Virgin and Child, with much of the panel left at the underdrawing stage.",
+    "imageCredit": "[Adorazione dei Magi](https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Adorazione_dei_Magi_-_Google_Art_Project.jpg), Leonardo da Vinci, about 1481, Gallerie degli Uffizi, public domain",
+    "sections": [
+      {
+        "heading": "What a finished panel doesn't show",
+        "body": [
+          "A Renaissance panel painting sits on top of one or more earlier stages the varnish now hides: a charcoal or ink underdrawing sketched directly onto the ground, corrections made as the artist changed his mind, and sometimes an entire design abandoned partway through and painted over. None of that is visible to the eye. It becomes visible when a museum runs the panel through infrared reflectography, which passes infrared light through the paint layers and picks up carbon-based drawing materials underneath, or macro X-ray fluorescence, which maps trace elements in different pigments and drawing materials across the surface.",
+          "The four works below have all been examined this way by the institutions that hold them, or in one case survive as a preparatory drawing rather than a painting at all, and in each case what the imaging or the drawing showed does not match what the finished work implies. A painting that reads as settled and inevitable turns out to be the last of several designs, or to include elements that were never part of the original plan."
+        ]
+      },
+      {
+        "heading": "The Virgin of the Rocks that Leonardo abandoned twice",
+        "body": [
+          "The National Gallery in London dates its version of The Virgin of the Rocks to about 1491/2–9 and 1506–8, two spans of work separated by more than a decade, a sign on its own that the painting was not settled in a single sitting. In 2004/05, conservators used infrared reflectography expecting to find an underdrawing beneath the finished composition. In the Gallery's own account, \"What they did not expect to find was a completely different design, hidden under the paint.\" The first area they examined was the Virgin's head, and \"what sprang out were the face and hand of another figure. Leonardo had evidently started on one picture, and then abandoned it for the existing one.\"",
+          "A second, more advanced round of research, published in a Gallery press release in August 2019, went further. Using macro X-ray fluorescence to map the zinc content of the drawing material, combined with new infrared and hyperspectral imaging, conservators recovered Leonardo's initial designs for the angel and the infant Christ in that first, abandoned composition: both figures positioned higher in the panel, with the angel facing outward and looking down at the Christ Child in what the Gallery describes as \"a much tighter embrace\" than anything in the finished painting. Why Leonardo dropped that design is not recorded, and according to the Gallery it \"remains a mystery.\"",
+          "A second underdrawing, closer to the composition Leonardo ultimately painted, shows him still revising as he worked: the infant Christ's head was turned to profile, and sections of the angel's curled hair were removed. The same 2019 research also identified handprints in the panel's priming layer, made by pressing down the ground to even its thickness, work the Gallery attributes probably to an assistant, though it allows the prints could be Leonardo's own."
+        ]
+      },
+      {
+        "heading": "The Arnolfini Portrait's symbolism wasn't planned from the start",
+        "body": [
+          "Jan van Eyck's 1434 double portrait, oil on an oak panel 82.2 by 60 centimetres, is read today as a picture built from symbols: the small convex mirror on the back wall, the single lit candle in the chandelier, the dog at the couple's feet. The National Gallery's own technical bulletin, published in 1995 by conservation scientists Rachel Billinge and Lorne Campbell, examined the panel's infrared reflectogram and found something that complicates that reading.",
+          "The bulletin's own abstract states: \"Many architectural details, long considered to have symbolism central to the portrait, turn out to have been painted at a late stage, without underdrawing.\" An underdrawing is where a panel painter like van Eyck worked out a composition before committing paint to it; elements with no underdrawing beneath them were added afterward, once the picture was already taking shape, rather than planned into the design from the start. The same reflectogram also found extensive changes elsewhere in the painting, in the positions of the hands and feet and in the modelling of both faces, the ordinary evidence of a painter adjusting a portrait as he went, alongside the more specific finding about which details were and were not part of the original plan.",
+          "The distinction matters because so much writing about this painting treats the mirror and its surrounding details as the interpretive key to the whole composition. Billinge and Campbell's reflectogram does not settle what the architectural details mean; it establishes when they were added, and \"late, without underdrawing\" is a different kind of evidence than a symbolic reading built from the finished image alone."
+        ],
+        "image": {
+          "src": "/images/famous-renaissance-paintings-arnolfini-portrait.jpg",
+          "alt": "Jan van Eyck's 1434 Arnolfini Portrait, showing a man and woman holding hands in a furnished chamber, with the small round mirror on the back wall that infrared reflectography found was painted without any underdrawing.",
+          "credit": "[Van Eyck - Arnolfini Portrait](https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg), Jan van Eyck, 1434, National Gallery, London (NG186), public domain"
+        }
+      },
+      {
+        "heading": "An unfinished painting, read layer by layer",
+        "body": [
+          "When Leonardo left Florence for Milan in 1482, he left behind an altarpiece commission in different stages of completion: parts only sketched, parts more developed and picked out in darker paint, and figures overlapping other figures where he had painted over his own earlier choices. The Uffizi Gallery, which holds the panel, describes the result plainly on its own account of the work's 2011–2017 restoration: the painting's difficulty comes from the fact that \"images overlap other images, erasing them and altering the artist's earlier intentions,\" and that \"certain areas are given over to spatial and volumetric experimentation.\"",
+          "The restoration was carried out by the Opificio delle Pietre Dure, which moved the panel to its laboratory at the Fortezza da Basso in November 2011 for a diagnostic campaign, before the decision to proceed with cleaning was reached in October 2012. Conservators Roberto Bellucci and Patrizia Riitano handled the painted surface, while Ciro Castelli, Andrea Santacesaria and Alberto Dimuccio restored the wooden support, which had begun separating along its individual planks almost as far as the paint layer itself. The panel returned to view at the Uffizi in 2017.",
+          "What the restoration confirmed is not a single hidden picture the way the Virgin of the Rocks contains one, but a working method: Leonardo built the Adoration in visible layers of changed intentions rather than settling a composition in advance and executing it. The painting looks unfinished because, in the most literal sense the Uffizi's own account allows, it is."
+        ]
+      },
+      {
+        "heading": "The drawing that shows what Raphael added after it left his hands",
+        "body": [
+          "Most Renaissance frescoes were transferred to the wall from a full-size drawing, or cartoon, that was pricked with small holes along its outlines and dusted with charcoal to leave a stencilled guide beneath the paint; the cartoon itself was mostly used up in the process. Raphael's cartoon for The School of Athens survived instead, and the Biblioteca Ambrosiana in Milan, which has held it on loan since 1610 and formally purchased it in 1626 for 600 imperial lire, describes it as \"the largest Renaissance cartoon that has survived to this day.\"",
+          "Its catalogue entry gives the technique as charcoal and white lead on cardboard, with dimensions of 295.1 by 813.8 centimetres, close to the scale of the finished fresco. It was made as a preparatory work for the Stanza della Segnatura in the Vatican, commissioned by Pope Julius II at very nearly the same time [Michelangelo was on a scaffold of his own design a short walk away, painting the Sistine ceiling for the same pope](/michelangelo-sistine-chapel/).",
+          "Comparing the cartoon to the finished fresco shows what came after the drawing stage. The Ambrosiana's own account notes that the fresco's elaborate architectural setting does not appear in the cartoon at all, and neither do two figures usually pointed out in reproductions of the finished work: the brooding, seated figure some historians read as a portrait of Michelangelo, and Raphael's own self-portrait, painted alongside the artist Sodoma at the picture's right edge. Both were added only once the design reached the wall. What the cartoon does already fix are the central figures: Plato, given the features of Leonardo da Vinci and holding his dialogue the Timaeus, and Aristotle beside him holding his Ethics, along with the geometer usually identified as Euclid, drawn with the face of the architect Donato Bramante."
+        ],
+        "image": {
+          "src": "/images/famous-renaissance-paintings-virgin-of-the-rocks.jpg",
+          "alt": "Leonardo da Vinci's Virgin of the Rocks as it hangs today in the National Gallery, London, showing the Virgin, the infant Christ, the infant John the Baptist and an angel grouped in a rocky grotto, the composition Leonardo settled on after abandoning at least one earlier design underneath it.",
+          "credit": "[Leonardo da Vinci, Virgin of the Rocks](https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_Virgin_of_the_Rocks_(National_Gallery_London).jpg), about 1491/2–9 and 1506–8, National Gallery, London (NG1093), public domain"
+        }
+      },
+      {
+        "heading": "How to check any of this yourself",
+        "body": [
+          "A gallery's own technical bulletins, exhibition pages and collection records are where this kind of research is published first, ahead of the books and articles that summarize it. Searching the museum's own domain for the artist and the painting's name, alongside terms like \"technical bulletin,\" \"infrared reflectography\" or \"restoration,\" usually surfaces the original account rather than a retelling of it. [The same habit applies to a painting's basic catalogue facts](/famous-paintings/), support, dimensions, inventory number, which get garbled in the retelling just as often as the story of what lies underneath the paint. It is worth remembering, too, that \"Renaissance\" itself is a label [applied generations after the fact by writers reconstructing a period they had not lived through](/renaissance-art/), one more reason the paintings themselves, examined directly, tend to hold more surprises than the label suggests."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is infrared reflectography and why does it reveal underdrawings?",
+        "answer": "Infrared reflectography passes infrared light through the paint layers of a panel or canvas. Most paint is more transparent to infrared light than to visible light, while the carbon-based materials artists used for underdrawing, such as charcoal, absorb it strongly, so a reflectogram captures the drawing underneath the paint as a distinct pattern. The National Gallery, London used the technique in 2004/05 to find an entirely different composition hidden under Leonardo's Virgin of the Rocks."
+      },
+      {
+        "question": "Did Leonardo abandon more than one design for the Virgin of the Rocks?",
+        "answer": "The National Gallery's research identifies two underdrawings beneath the version now on view. The first is a wholly different composition that was never painted; a 2019 study using macro X-ray fluorescence and hyperspectral imaging recovered its design for the angel and infant Christ, positioned higher in the panel than in the finished work. The second underdrawing is closer to the final composition but still shows changes, including the infant Christ's head being turned to profile."
+      },
+      {
+        "question": "Why does it matter that parts of the Arnolfini Portrait have no underdrawing?",
+        "answer": "An underdrawing is evidence that a detail was part of a painter's plan from the start. The National Gallery's 1995 technical bulletin on Jan van Eyck's 1434 portrait found that architectural details long read as central to its symbolism, including elements around the mirror on the back wall, were painted at a late stage without any underdrawing beneath them, meaning the imaging can date when a detail was added even though it cannot settle what that detail was meant to mean."
+      },
+      {
+        "question": "Why is Leonardo's Adoration of the Magi unfinished?",
+        "answer": "Leonardo left Florence for Milan in 1482 partway through the commission, according to the Uffizi Gallery, which holds the panel. Its own account of the work's 2011–2017 restoration describes a picture built from overlapping, revised passages rather than one settled design, with some areas still only at the drawing stage."
+      },
+      {
+        "question": "What makes Raphael's cartoon for The School of Athens unusual?",
+        "answer": "Most Renaissance fresco cartoons were used up in the transfer process, pricked with holes and dusted with charcoal to stencil the design onto wet plaster. Raphael's cartoon survived instead, and the Biblioteca Ambrosiana in Milan, which has held it since 1610, describes it as \"the largest Renaissance cartoon that has survived to this day,\" at 295.1 by 813.8 centimetres. Comparing it to the finished fresco shows that the architectural setting and two figures, including Raphael's own self-portrait, were added only after the cartoon stage."
+      }
+    ],
+    "sources": [
+      {
+        "label": "National Gallery, London: \"The hidden Leonardo\"",
+        "url": "https://www.nationalgallery.org.uk/paintings/learn-about-art/paintings-in-depth/the-hidden-leonardo"
+      },
+      {
+        "label": "National Gallery, London press release (August 2019): National Gallery reveals images of 'abandoned' angel and Christ underneath The Virgin of the Rocks",
+        "url": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases/national-gallery-reveals-images-of-abandoned-angel-and-christ-underneath-the-virgin-of-the-rocks-ahead-of-ground-breaking-new-leonardo-experience-this-autumn"
+      },
+      {
+        "label": "Leonardo da Vinci, The Virgin of the Rocks, National Gallery London collection record (NG1093)",
+        "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks"
+      },
+      {
+        "label": "Rachel Billinge and Lorne Campbell, \"The Infra-red Reflectograms of Jan van Eyck's Portrait of Giovanni(?) Arnolfini and his Wife Giovanna Cenami(?)\", National Gallery Technical Bulletin Vol 16",
+        "url": "https://www.nationalgallery.org.uk/research/publications/technical-bulletin/the-infra-red-reflectograms-of-jan-van-eyck-s-portrait-of-giovanni-arnolfini-and-his-wife-giovanna-cenami"
+      },
+      {
+        "label": "Jan van Eyck, The Arnolfini Portrait, National Gallery London collection record (NG186)",
+        "url": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait"
+      },
+      {
+        "label": "Gallerie degli Uffizi: Leonardo's Magic Cosmos - The Adoration of the Magi restored",
+        "url": "https://www.uffizi.it/en/events/leonardo-s-magic-cosmos-the-adoration-of-the-magi-restored"
+      },
+      {
+        "label": "Biblioteca Ambrosiana: School of Athens - Raphael (Preliminary Cartoon)",
+        "url": "https://www.ambrosiana.it/en/discover/masterpieces/school-of-athens/"
+      }
+    ]
   }
 ];
