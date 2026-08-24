@@ -1353,3 +1353,37 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "saturn-devouring-his-son",
+  "last_audited": "2026-08-24",
+  "published_date": "2026-08-05",
+  "note": "站内'从未审计过优先'排序选中——全站28篇从未被本任务审计过的文章里published日期最早的一篇；本文updated=2026-08-16（已被此前某次任务编辑过，非本次首次触碰）。按10站跨站排序本次运行处理了WageLark后接着处理UmberLore，其余8站未轮到，留待下次运行",
+  "diagnosed_checkpoints": [
+    "Junquera 2003年'两层楼vs一层楼'房产契据论证及提议Javier/Mariano为真实作者，是否为真实存在的学术争议而非编造",
+    "Prado藏品编号P00763(Goya)/P01678(Rubens)及143.5x81.4cm尺寸是否准确",
+    "Brugada 1828年清单'15幅壁画(一楼7+二楼8)'、Yriarte 1867年目击第15幅（今归Stanley Moss私人收藏）的溯源链是否可查证",
+    "画作本身描绘'一位父神吞食孩童尸体'，属本站'历史/艺术纪实描写vs猎奇渲染'AdSense合规红线的高风险测试案例，需重点核查措辞是否越界",
+    "本文published(2026-08-05)早于avoid-ai-writing强制化(2026-08-07)，虽然updated已到08-16，仍需按规则补做一次AI味排查"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch独立核实两条最关键论断：①Junquera 2003年论证与正文逐点吻合（房产契据显示Goya持有房产时为单层建筑、二楼系Goya离开西班牙后加建、提议其子Javier或孙Mariano为真实作者、财务动机说）；②Prado藏品编号与尺寸核实（Goya版P00763、143.5x81.4cm、创作年代'1821-23'与正文'about 1819 and 1823'表述范围重叠不矛盾）均与多个独立信源（The Art Newspaper/ResearchGate/Smarthistory/Fundación Goya en Aragón）交叉印证一致，非编造。" },
+    { "dimension": "AdSense政策合规（本文专属高风险核查项）", "status": "未发现问题，已重点核查", "detail": "正文对Goya/Rubens两幅画作暴力场景的描写（'headless, faceless mass of flesh'/'biting into the side of an infant who is still visibly, agonisingly alive'）在措辞尺度上与Prado博物馆官方页面、Wikipedia、Britannica等主流信源对同一幅世界知名馆藏名画的描述基本同一register，属对真实存在、已在公立博物馆公开展出140年的艺术史名作的百科式记述，非编造场景渲染猎奇；两幅原作均已过版权保护期（Goya 1828年去世/Rubens 1640年去世），配图来自Wikimedia Commons公有领域标注正确。判断为符合SKILL.md'历史/百科语境记述可以，渲染猎奇/煽动不行'的可放行标准，不构成需要邮件Owen的灰色地带（该画作是艺术史通识课程标准教材内容，非边缘/争议性猎奇话题）。标题'The Scholar Who Said Goya Didn't Paint It'准确对应正文Junquera争议主线，非标题党。ads.txt/robots.txt常规检查见下。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "grep确认3处来自其他文章（关于博物馆藏品编号矛盾的一般性讨论、Rubens/Caravaggio巴洛克风格讨论、Bonampak/阿兹特克太阳石归属争议讨论）正文手动锚文本真实链接到本文，非孤儿页；本文自身出链3处（/van-gogh-paintings/、/frida-kahlo-paintings/、/edvard-munch-the-scream/）均确认slug存在。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题（含反爬假阳性说明）", "detail": "9条sources中，Wikipedia×3与Fundación Goya en Aragón×1直接curl返回200；Museo del Prado×3与Artsmia×1分别返回403/429，WebSearch独立核实这几个URL目前仍在Google索引中且内容（Prado藏品页accession编号、Artsmia关于Arrieta肖像的报道）与正文引用完全对应，判定为站点WAF对自动化请求的反爬拦截（同calcbadger此前审计遇到的eCFR案例同类型），非真实链接失效。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "两张配图文件均存在（saturn-devouring-his-son-goya.jpg/rubens.jpg），均标注来自Wikimedia Commons且为公有领域(public domain)，两幅原作创作者均去世超过70年，无版权风险；alt文本具体描述画面内容。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "curl实测线上页面：title(79字符，同全站'标题 | UmberLore'模板不单独算问题)/meta description(191字符)/canonical自指/单一H1/8个H2/schema(Article+FAQPage+BreadcrumbList+Person+WebPage)/datePublished与dateModified与guides.ts的published/updated字段精确一致，均正常。" },
+    { "dimension": "GEO审计（99分制11维度）", "status": "未发现问题，达标", "detail": "人工按站内标准逐维度评估：权威原文引语~15/16（Goya本人题词原文引语+Bozal/Licht具名学者论点均直接引述）、统计数据完整性13/14（藏品编号/尺寸/年代齐全）、可引用性~12/13（7问FAQ均为自包含答案块）、结构规范性~11/12、表达流畅度~9/10、语义密度8/8（信息密度极高，几乎无冗余）、权威信号~8/8（Prado官方百科词条+Fundación Goya en Aragón+Artforum多信源交叉引用）、专业术语6/6、鲁棒性~4/5（'no technical study has ever definitively closed the question'等适度限定表述）、跨域连接4/4、易懂表达~2/3，合计约92/99，高于80及格线。" },
+    { "dimension": "早期内容AI味补漏", "status": "未发现问题", "detail": "published 2026-08-05早于avoid-ai-writing强制化(2026-08-07)，按规则补查（虽updated已到08-16但guides.ts无变更日志无法确认08-16改动范围，从严对全文重新扫描）。提取全文正文+FAQ约2800词过Skill(avoid-ai-writing) detect模式：未发现em dash、违禁词表命中、模板短语、空泛第三方权威（所有论断均具名到具体学者Junquera/Bozal/Licht/Glendinning）、copula avoidance等问题；句长自然变化，未见AI典型的均匀句长或空洞对冲表述。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "dataforseo-query实测SERP（'saturn devouring his son'90,500/月KD21；'goya black paintings'12,100/月KD4），头部为Wikipedia/Reddit/Artnet/Prado/Britannica，UmberLore暂未进入前10。内容层面有真实增量：Wikipedia条目对Junquera争议、Bozal的'受害者性别'论及Licht的'反犹血祭意象'论仅简略带过，本文用具名学者的完整论证链展开，且补充了第15幅画作(Heads in a Landscape)完整的私人收藏溯源链，非维基百科同质化内容。" },
+    { "dimension": "Schema数据一致性", "status": "未发现问题", "detail": "dateModified与guides.ts updated字段(2026-08-16)精确一致，无手动编辑遗漏同步的迹象。" },
+    { "dimension": "时效性/合规敏感度漂移", "status": "未发现问题", "detail": "Junquera争议为2003年学术公案，近年无新技术鉴定结果需要更新；主题（欧洲艺术史名作及其学术归属争议）无现实世界新争议信号。" }
+  ],
+  "actions_taken": ["无，11个维度均未发现需要修复的问题（含AdSense合规专项重点核查），未做任何编辑，未部署，未提交IndexNow，未追加内容发布日志.md（无实际改动内容）"],
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "约92/99（按站内既有11维度框架人工核算），高于80及格线，未触发重新打分",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
