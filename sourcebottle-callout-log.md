@@ -42,3 +42,14 @@
 - **Deadline**：2026-09-09 17:00（鼠标真实点击日历控件选中）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `fa697588583f6c728ad143c7e244da19`。
 - **上线复核**：⏳ 待下次任务运行时补查。
+
+### 2026-08-25（周二，正常排期）— UmberLore（umberlore.com）
+
+- **问题标题**：Art historians and legal historians: a famous court case whose star witness's real motive turned out to be an old grudge, not the reasons given at trial?
+- **角度**：绑定`whistler-ruskin-trial`一文讲的1878年惠斯勒诉罗斯金诽谤案——罗斯金一方的关键证人Edward Burne-Jones的证词表面上是不情愿的专业意见，但直到1921年Pennell夫妇出版的私人信件才揭露他对惠斯勒的敌意其实追溯到1867年一次与共同朋友有关的争执。征集艺术史学家/法律史学家举出另一个真实案例——某场知名庭审的关键证人，事后私人信件/档案揭露真实动机是私人恩怨而非法庭上给出的理由。与此前问过的鉴定委员会因法律风险解散角度（08-12）、建筑结构缺陷被容忍多年角度（08-18）均不重叠，这次聚焦证人动机本身的事后揭露。
+- **绑定文章**：UmberLore `whistler-ruskin-trial`（James McNeill Whistler: The Star Witness Was Settling an Old Score）。
+- **分类标签**：Topics = General + Professional Services；Countries = Australia + UK & Republic of Ireland + Canada + United States。
+- **表单设置**：Job title = Content Creator；Organisation = UmberLore；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@umberlore.com`。
+- **Deadline**：2026-09-20 17:00（鼠标真实点击日历控件选中）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `05445e278e9d0738c080254ba796a6cb`。
+- **上线复核**：⏳ 待下次任务运行时补查。
