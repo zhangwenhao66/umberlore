@@ -5567,5 +5567,129 @@ export const guides: Guide[] = [
         "url": "https://www.ambrosiana.it/en/discover/masterpieces/school-of-athens/"
       }
     ]
+  },
+
+  {
+    "slug": "majolica",
+    "category": "Decorative Arts",
+    "title": "Majolica: Named After a 400-Year-Older Technique It Never Used",
+    "description": "Victorian majolica glaze is not the Italian Renaissance technique its name borrows. The V&A's record for it calls the resemblance 'inspired by,' not the same process.",
+    "published": "2026-08-25",
+    "updated": "2026-08-25",
+    "coreSummary": "The brightly colored Victorian pottery most people mean when they say \"majolica\" today, the jardinieres and sardine boxes sold at auction and on Etsy, is not the same technique as the Renaissance Italian \"maiolica\" whose name it borrowed. Leon Arnoux's glazes for Minton, launched at the 1851 Great Exhibition, are colored lead glazes fired onto relief-molded earthenware; the tin-glazed, hand-painted process that gave 15th-century Spanish and Italian potters their name four hundred years earlier is a different chemistry entirely. The Victoria and Albert Museum's collection record describes Minton's product as glazes \"inspired by\" the older Italian colors, not a revival of the older technique, and the same lead chemistry that made the borrowed name so vivid went on to poison the Stoke-on-Trent workers who applied it, a hazard that took a Women's Trade Union League campaign and a 1950 UK regulation to bring under legal control.",
+    "image": "/images/majolica-pucci-dish-1532.jpg",
+    "imageAlt": "A 1532 istoriato maiolica dish painted with a mythological scene and the arms of the Pucci family, by Francesco Xanto Avelli of Urbino, tin-glazed earthenware.",
+    "imageCredit": "[Dish with The Woman of Sestos and the Eagle and arms of the Pucci family](https://www.metmuseum.org/art/collection/search/197226), Francesco Xanto Avelli da Rovigo, 1532, The Metropolitan Museum of Art (The Friedsam Collection, Bequest of Michael Friedsam, 1931), public domain",
+    "sections": [
+      {
+        "heading": "The name comes from a shipping stopover, not a workshop",
+        "body": [
+          "Maiolica is a tin-glazed earthenware technique: potters coat a fired clay body in a glaze made opaque and white by adding tin oxide, then paint directly onto that unfired white surface before a second firing sets both the glaze and the color together. The result is a smooth, bright ground that takes pigment the way paper takes ink, which is what let Renaissance workshops paint whole narrative scenes across a single dish. The technique itself did not originate in Italy. According to Britannica's account of Hispano-Moresque ware, tin-glazed pottery production in Spain was centered in Malaga through the 14th century, with Valencia and its satellite towns of Manises and Paterna taking over as the main production centers by the end of the 15th.",
+          "The name that eventually attached to the Italian version of this technique does not come from where it was made. It comes from where it was shipped. Spanish tin-glazed wares exported from Valencia to Italy from around 1400 onward routed through the island of Majorca, a midpoint trading stop between the two coasts, and Italian buyers came to refer to the imported pottery by the name of the island it passed through rather than the Spanish towns that actually produced it. \"Maiolica,\" the word Italian potters eventually applied to their own imitations of the technique, preserves a stopover on a trade route, not a place of manufacture."
+        ]
+      },
+      {
+        "heading": "Italy had its own maiolica within a generation, and a labor dispute in the middle of it",
+        "body": [
+          "Italian workshops were producing their own tin-glazed wares well before the Renaissance flowering usually associated with the technique. An apothecary jar in the Metropolitan Museum's Robert Lehman Collection, attributed to the workshop of the Florentine potter Giunta di Tugio and dated by the museum to probably 1431, is described in the Met's object record with the medium \"Maiolica (tin-glazed earthenware),\" placing organized Italian production within a few decades of the Spanish imports that inspired it, not centuries behind.",
+          "By the early 16th century, istoriato painting, dishes and plates covered edge to edge with narrative scenes rather than simple ornament, had become the technique's signature Italian achievement, produced in workshop centers including Deruta, Faenza, Gubbio, and above all Urbino. The best-documented istoriato painter, because he signed and dated an unusually large share of his own output, is Francesco Xanto Avelli da Rovigo. Wikipedia's account of his career notes that he is first recorded as working in Urbino in 1530, named in a notarial document describing an attempt by a group of pottery workers, the interlaboratores artis figuli, to form an early trade union to raise wages. That same year is the date on Xanto's earliest signed piece, and his habit of consistently signing and dating his work afterward is unusual enough for the period that some historians have connected it to the labor trouble, on the theory that a potter who had been blacklisted had reason to make sure his surviving work could be traced back to him. Two years later, in 1532, Xanto painted a dish bearing the arms of the Pucci family, now held by the Metropolitan Museum of Art with a credit line tracing it to the 1931 bequest of Michael Friedsam, a documented path from a Renaissance Urbino workshop into a New York museum collection that is itself part of what makes the object's history checkable rather than assumed."
+        ],
+        "image": {
+          "src": "/images/majolica-apothecary-jar-1431.jpg",
+          "alt": "A Florentine maiolica apothecary jar, probably 1431, attributed to the workshop of Giunta di Tugio, tin-glazed earthenware with bird decoration.",
+          "credit": "[Apothecary jar (orciuolo)](https://www.metmuseum.org/art/collection/search/460129), probably workshop of Giunta di Tugio, Florence, probably 1431, The Metropolitan Museum of Art (Robert Lehman Collection, 1975), public domain"
+        }
+      },
+      {
+        "heading": "A different glaze borrows the name, 1849 to 1851",
+        "body": [
+          "The gap between Renaissance maiolica and the pottery most people picture when they hear \"majolica\" today is more than three centuries wide. In 1848, the French ceramic chemist Leon Arnoux, trained at Sevres, arrived in Stoke-on-Trent and was hired by Herbert Minton. Arnoux's contribution was not a revival of tin-glaze painting. He developed a new range of richly colored lead glazes that could be fired directly onto relief-molded earthenware bodies without the colors bleeding into one another during firing, a different chemical process from tin-glaze work applied to a flat painted surface.",
+          "Minton exhibited the result at the Great Exhibition of 1851, initially under the name \"Palissy ware,\" after the 16th-century French potter Bernard Palissy, whose own naturalistic lead-glazed relief work with life-sized lizards and shells was one of Arnoux's acknowledged models. The name that stuck, within the same period, was \"majolica\" instead, borrowed from the older Italian technique despite the chemistry underneath being closer to Palissy's lead glazes than to any tin-glazed ground. The Victoria and Albert Museum's own collection record is direct about which part of the borrowing was real: Minton's majolica ware consisted of \"ceramics decorated with bold, colourful lead glazes inspired by the bright colours of Italian 'maiolica' and Renaissance ceramicists Luca Della Robbia and Bernard Palissy.\" Inspired by the colors, not a continuation of the technique. The V&A's record adds that the ware won the Council medal at the 1851 exhibition and became popular with both Queen Victoria and the general public. A Minton bottle from about 1870, now in the Metropolitan Museum's collection, is catalogued with a medium description that states the underlying chemistry plainly: \"Lead-glazed earthenware ('Minton's Majolica').\""
+        ],
+        "image": {
+          "src": "/images/majolica-minton-bottle-1870.jpg",
+          "alt": "A Minton 'Persian' bottle, about 1870, in lead-glazed earthenware marketed under the trade name Minton's Majolica, unrelated to the tin-glaze process of Renaissance maiolica.",
+          "credit": "[Fan-shape 'Persian' bottle with handles](https://www.metmuseum.org/art/collection/search/770980), Minton(s), 1870, The Metropolitan Museum of Art (Gift of Helene Fortunoff and Robert Grossman, 2017), public domain"
+        }
+      },
+      {
+        "heading": "What the borrowed color was hiding",
+        "body": [
+          "The same lead chemistry that gave Minton's glazes their saturated color was hazardous to produce. According to the Minton Archive's account of the factory's history, majolica glazes ran roughly 40 to 60 percent lead by content, applied by hand by workers known in the trade as dippers. Lead poisoning among pottery workers produced a documented set of symptoms: \"dropped wrist\" and \"dropped ankle,\" a form of nerve paralysis, along with stomach disorders, miscarriages, anaemia, and epilepsy, with some cases fatal.",
+          "The campaign against this hazard is independently documented outside the pottery industry's own trade records. Gertrude Tuckwell, an official of the Women's Trade Union League, organized a meeting in April 1898 at the Workers' Church in Hanley, one of the six towns that make up Stoke-on-Trent, which founded a reform committee that stayed active for the next fifteen years, according to Trades Union Congress archive records. The League ran a Potteries Fund that paid for an officer to live in Staffordshire supporting affected workers directly, and its Potteries Fund Register recorded medical details for 217 of 328 lead-poisoning cases its visiting officer investigated around 1899. Legal reform followed slowly and in stages rather than all at once. The Pottery (Health and Welfare) Special Regulations 1950, a UK statutory instrument made on 16 January 1950 and in force from 2 April that year, replaced separate regulations dating back to 1913 and 1932, and set the first legal definitions of a \"low solubility glaze,\" one yielding no more than 5 percent soluble lead by dry weight under a dilute hydrochloric acid test, and a \"leadless glaze,\" containing no more than 1 percent lead compound by dry weight. Getting from Arnoux's 1849 glaze formula to a legally enforceable lead limit took a full century."
+        ]
+      },
+      {
+        "heading": "Telling the two apart today",
+        "body": [
+          "Ceramics specialists now generally reserve the Italian spelling, maiolica, for the Renaissance tin-glazed technique, and the English spelling, majolica, for the Victorian and later lead-glazed relief ware, a convention that hardened only after the two names had already been used interchangeably for decades. The distinction is visible as well as etymological. Renaissance maiolica is essentially flat-painted, a smooth white surface carrying pigment the way a painted panel does, with the decoration sitting on top of the glaze rather than shaping it. Victorian majolica is sculptural, its color pooling and darkening inside the folds of a relief-molded leaf or shell the way water collects in a real one, because the glaze itself is following a molded three-dimensional form rather than a flat painted surface.",
+          "A similar gap between an assumed technique and what the documented record actually supports shows up in [the wax recipe long credited as the ancient medium behind the Fayum mummy portraits, which a 2020 chemical analysis found no confirmed trace of in an actual painting](/encaustic-painting/); majolica's version runs through a factory ledger and a trade union archive rather than a conservation lab, but the underlying mistake, a name and a process assumed to have traveled together when they hadn't, is the same shape. Reputation can swing the opposite way just as fast: [Chinese antiquarians dismissed cloisonné enamel as unfit for a scholar's studio in 1388, only for the same technique to become an imperial treasure within about forty years](/cloisonne/), a reminder that a decorative craft's status, like its name, is rarely as stable as the finished object makes it look."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the difference between maiolica and majolica?",
+        "answer": "They are two different ceramic techniques that share a borrowed name. Maiolica (with an i) is the Renaissance Italian and earlier Spanish tin-glazed process: an opaque white tin glaze is painted directly with pigment before a single firing sets both together. Majolica (with a j) usually refers to the Victorian and later English technique developed by Leon Arnoux for Minton starting in 1849, in which richly colored lead glazes are fired onto a relief-molded earthenware body. The Victoria and Albert Museum's collection record describes Minton's version as glazes \"inspired by the bright colours of Italian 'maiolica'\" rather than a revival of the older tin-glaze process."
+      },
+      {
+        "question": "Where does the name \"majolica\" come from?",
+        "answer": "It comes from the island of Majorca, a trading stopover rather than a place of manufacture. Spanish tin-glazed pottery exported from Valencia to Italy from around 1400 onward was routed through Majorca, and Italian buyers began referring to the imported ware, and later their own imitations of it, by the name of that transshipment point rather than the actual Spanish production towns of Malaga and Valencia."
+      },
+      {
+        "question": "Who invented Victorian majolica, and when?",
+        "answer": "Leon Arnoux, a French ceramic chemist trained at Sevres who was hired by Herbert Minton after arriving in Stoke-on-Trent in 1848, developed the colored lead glazes behind Minton's majolica ware. Minton exhibited the result at the Great Exhibition of 1851, initially under the name \"Palissy ware\" after the French Renaissance potter Bernard Palissy, before the name \"majolica\" became the standard term for the same product."
+      },
+      {
+        "question": "What is istoriato maiolica?",
+        "answer": "Istoriato, meaning \"storied\" in Italian, refers to Renaissance maiolica painted with full narrative scenes, mythological, historical, or biblical, covering an entire dish or plate rather than simple border ornament or heraldry. It became the signature achievement of Italian maiolica workshops in centers including Urbino, Deruta, Faenza, and Gubbio during the early 16th century. Francesco Xanto Avelli da Rovigo, active in Urbino from 1530, is the best-documented istoriato painter because he signed and dated an unusually large share of his surviving output."
+      },
+      {
+        "question": "Is antique or vintage majolica pottery safe to use for food or drink?",
+        "answer": "Treat it as decorative rather than functional. Because Victorian majolica relies on colored lead glazes, and the UK's first legal solubility limits on those glazes did not exist until the Pottery (Health and Welfare) Special Regulations came into force in 1950, older pieces predating enforceable limits can leach lead, particularly with acidic foods or drinks. The Center for Environmental Health advises that vintage and antique ceramics made before modern lead standards took hold should generally be reserved for display rather than eating or drinking use."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Victoria and Albert Museum: Fountain (Minton, majolica ware, about 1862), collection record",
+        "url": "https://collections.vam.ac.uk/item/O1509628/fountain-minton/"
+      },
+      {
+        "label": "The Metropolitan Museum of Art: Dish with The Woman of Sestos and the Eagle and arms of the Pucci family (Francesco Xanto Avelli da Rovigo, 1532)",
+        "url": "https://www.metmuseum.org/art/collection/search/197226"
+      },
+      {
+        "label": "The Metropolitan Museum of Art: Apothecary jar (orciuolo), probably workshop of Giunta di Tugio, probably 1431",
+        "url": "https://www.metmuseum.org/art/collection/search/460129"
+      },
+      {
+        "label": "The Metropolitan Museum of Art: Fan-shape 'Persian' bottle with handles, Minton(s), 1870",
+        "url": "https://www.metmuseum.org/art/collection/search/770980"
+      },
+      {
+        "label": "Wikipedia: Francesco Xanto Avelli",
+        "url": "https://en.wikipedia.org/wiki/Francesco_Xanto_Avelli"
+      },
+      {
+        "label": "Britannica: Hispano-Moresque ware",
+        "url": "https://www.britannica.com/art/Hispano-Moresque-ware"
+      },
+      {
+        "label": "UK legislation.gov.uk: The Pottery (Health and Welfare) Special Regulations 1950 (SI 1950 No. 65)",
+        "url": "https://www.legislation.gov.uk/uksi/1950/65/made"
+      },
+      {
+        "label": "Archives Hub (Jisc): Women's Trade Union League papers, Potteries Fund and lead poisoning campaign",
+        "url": "https://archiveshub.jisc.ac.uk/data/gb1924-wtul"
+      },
+      {
+        "label": "The Minton Archive: In Depth - The Killer Glazes",
+        "url": "https://www.themintonarchive.org.uk/in-depth-the-killer-glazes/"
+      },
+      {
+        "label": "Center for Environmental Health: Is Vintage Dishware Safe to Use?",
+        "url": "https://ceh.org/yourhealth/vintage-dishware-lead/"
+      }
+    ]
   }
 ];
