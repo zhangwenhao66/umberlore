@@ -1387,3 +1387,39 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "art-deco",
+  "last_audited": "2026-08-25",
+  "published_date": "2026-08-06",
+  "note": "站内'从未审计过优先'排序选中——28篇从未被本任务审计过的文章中published日期最早（2026-08-06，与diego-rivera同日）；两者published日期相同，按'第二层tie-break：git commit时间戳'判定，art-deco对应commit a7e0d71（2026-08-06 06:41）早于diego-rivera对应commit 7330f5e（2026-08-06 16:26），故选定art-deco。本文published=updated=2026-08-06，早于avoid-ai-writing接入日期(2026-08-07)，触发早期内容AI味补漏检查。",
+  "article_specific_checklist": [
+    "核心论断'Art Déco'一词直到1966年才首次印刷出现、1968年Hillier著作才确立英文标准用法（41/43年命名滞后）是否准确，尤其Wikipedia关于Hillier本人是否'创造'该词的具体归因是否被文章正确呈现（非夸大为'coined'）",
+    "Hoover'no modern art worth showing'这一说法是转述而非逐字引语，需核实转述内容与真实历史记录（1925年展会准入条款文本）是否一致，不能是编造引语",
+    "Van Alen在Chrysler Building尖顶秘密安装的具体情节（1929年10月23日、约90分钟、1,046英尺、与Severance的40 Wall Street竞速、未签合同起诉收6%设计费）是否逐项准确",
+    "1916年紐約分区法规→退台式('wedding cake')建筑立面→Shelton Hotel/Barclay-Vesey Building作为早期实例这一因果链是否成立，尤其两栋建筑的具体年代表述是否准确（本站教训库L-0806-6已记录本文首次发布前曾把Chrysler'topped out'与'completed'日期混淆，需确认现网版本是否仍保持修复后的正确表述）",
+    "头图（Chrysler Building约1930年照片，Library of Congress/Detroit Publishing Co.）的public domain许可标注是否属实"
+  ],
+  "findings": [
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "全篇引用真实一手/权威信源：Encyclopaedia Britannica（风格年代/影响来源）、Wikipedia多条（国际展览会/Bevis Hillier/Chrysler Building/William Van Alen）、Dezeen 2025年百年纪念报道、Historic England官方博客（图坦卡蒙墓与设计史）、The Conversation学术媒体、NYPL研究指南、99% Invisible（分区法规史）。无模糊归因，具体人物/机构/年份均点名。" },
+    { "dimension": "事实准确性", "status": "未发现问题（逐项核实全部通过，含一项独立agent复核的边界性问题判定NOT CONFIRMED）", "detail": "①'Art Déco'1966年首次印刷（Brunhammer策展'Les Années 25: Art Déco/Bauhaus/Stijl/Esprit Nouveau'）+Hillier 1968年书确立英文标准用法：curl直接抓取Wikipedia Art_Deco条目原文核实'The actual term Art déco did not appear in print until 1966, in the title of the first modern exhibition...The term was then used in a 1966 newspaper article by Hillary Gelson in The Times'，与本文'first documented appearance...in print'及'Hillier himself has pointed to the 1966 Paris show as the term's real point of entry into print rather than claiming to have coined it outright'完全吻合，未夸大Hillier本人的归属。②Hoover'no modern art worth showing'转述（非引语，文中未加引号）：WebSearch核实与展会准入条款'open only to manufacturers whose products are artistic in character and show clearly modern tendencies'历史记录一致，转述准确。③展会准入条款直接引语'whose products are artistic in character and show clearly modern tendencies'及'Whatever the reputation of the artist, whatever the commercial strength of the manufacturer, neither will be allowed...'经WebSearch逐字核实与Wikipedia International Exhibition条目原文完全匹配，非编造。④Van Alen尖顶情节（1929年10月23日、约90分钟、1,046英尺、与Severance竞速、未签合同起诉收6%费用）经WebSearch多信源交叉核实细节吻合。⑤Cartier将图坦卡蒙墓发现（1922年11月4日Carter发现）转化为scarab/lotus/falcon首饰的细节，WebSearch确认更详实的历史记录（1922-1925年间约150件埃及复兴风格作品），本文表述准确且保守。⑥1916年分区法规→Shelton Hotel(1924)/Barclay-Vesey Building作为退台式建筑早期实例：独立agent复核后判定NOT CONFIRMED——Barclay-Vesey实际竣工1926-1927年（晚于1925年博览会），但该建筑1923年设计/动工确实早于博览会，且真实建筑史文献（NYC Landmarks Preservation Commission等）惯常将两者并列为分区法'设计资产化'的最早实例，本文措辞'usually cited as the earliest results'指向设计先例而非明确断言竣工时间，属建筑史写作正常口径内的模糊性，非可修复的硬性事实错误。⑦Chrysler Building/Empire State Building日期表述（'completed on 27 May 1930'/'finished construction...11 April 1931 and formally opened on 1 May 1931'）经比对内容通用教训库L-0806-6记录（本文首次发布前曾把封顶/竣工/开放三个独立事件的动词与日期混淆，经独立审核agent修复），现网版本核实与修复后版本完全一致，未回退。" },
+    { "dimension": "时效性", "status": "未发现问题", "detail": "内容为纯历史考据（1920s-1968年间事件），无近期考古发现或学术研究会改变本文核心论断；published=updated=2026-08-06，本次审计未发现需要更新的内容。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "dataforseo-query实测'art deco'月搜索量确认，真实SERP由Wikipedia/artdecola.org/NYPL/ArtDeco.org/Britannica/National Building Museum/Tate主导。WebSearch核实artdecola.org等竞品页面虽然也提及'1966年才命名'这一基础事实，但均为一两句带过，未见任何竞品覆盖本文的完整论证链（Tutankhamun墓→分区法规产生的退台式建筑→Hoover拒绝参展→Van Alen尖顶暗战→1966/1968两次命名事件的完整时间线），构成真实增量内容，非同质化。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "curl实测线上页面：title 78字符（含站名后缀，与全站其他已审计文章65-79字符区间一致）/description 152字符/canonical自指/单一H1与title一致/4个正文H2+FAQ H2共5个无跳级/3个schema组件（FAQPage/Article/BreadcrumbList）均正常生成/hero图与SVG时间线示意图alt文本均具体描述性/内链健康（3条出链指向gustav-klimt、pop-art、abstract-art-first-painting，3条真实inbound手动锚文本回链来自diego-rivera、renaissance-art、pop-art，非孤儿页）。" },
+    { "dimension": "GEO审计（99分制11维度，人工按站内标准评估）", "status": "未发现问题，自评约89/99（阈值80，达标）", "detail": "权威原文引语约14/16（多条机构级引语+展会条款原文引语均逐字核实准确，Hoover部分为恰当的转述非直接引语）；统计数据完整性约13/14（日期/年份/人数/尺寸数据密集且准确）；可引用性约11/13（6条FAQ均为自包含答案块）；结构规范性约11/12；表达流畅度约9/10；语义密度约7/8；权威信号约6/8（站级系统性短板：缺作者credential页，与已审计文章基线一致）；专业术语6/6（zigzag/sunray motifs、streamlined machine-age、setback massing等准确使用）；鲁棒性5/5（无脆弱断言，历史事实已充分核实）；跨域连接4/4（3进3出均已确认）；易懂表达3/3。" },
+    { "dimension": "早期内容AI味补漏", "status": "未发现问题，正文干净", "detail": "published 2026-08-06早于avoid-ai-writing接入日期(2026-08-07)，触发补漏检查。对全文正文+FAQ（约2,156词）过Skill(avoid-ai-writing) detect模式人工扫描：0处em/en dash、0处双连字符替代、0处bold、0处Tier-1/Tier-2 AI高频词表命中（仅'streamlined'出现1次，且为描述Streamline Moderne建筑风格的准确技术用词，非空泛隐喻，非违规）、0处'not just/not only'翻案句式、0处rule-of-three滥用、0处superficial -ing分析。句长与段落节奏有真实变化（长复合句与短句交替），判定为人类/已去AI味写作，无需重写。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "10条sources逐一curl实测：8条200；Britannica与Dezeen 2条403，WebSearch交叉核实二者内容与正文引用完全对应（Britannica影响列表、Dezeen'a perfect example'引语），判定为反爬虫拦截假阳性，与站内已确立的同类模式一致，非真实死链。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "grep全站guides.ts确认art-deco有3条真实inbound手动锚文本回链（来自diego-rivera讨论RCA Building建筑风格、renaissance-art与pop-art两处讨论'标签滞后于实物'的跨文章呼应），非孤儿页；本文自身3条出链（gustav-klimt/pop-art/abstract-art-first-painting）均确认slug存在。" },
+    { "dimension": "Schema数据一致性", "status": "未发现问题", "detail": "Article/FAQPage/BreadcrumbList三个schema组件均在构建时从guide对象字段动态生成JSON-LD，本次审计未做任何正文编辑，无同步风险。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "文中提及的历史人物（Herbert Hoover、William Van Alen、Bevis Hillier、Yvonne Brunhammer）均为历史陈述型内容，无争议性人身评价；未涉及本站现当代艺术家版权风险清单（无绘画/雕塑作品复制品图片，头图为建筑实拍照片）。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "头图（Chrysler Building约1930年照片）：Wikimedia Commons API直接查询File:Chrysler_Building,_New_York.jpg的extmetadata确认Categories含'PD-Detroit'与'Library of Congress-no known copyright restrictions'，Artist标注Detroit Publishing Co.，与站内imageCredit标注一致，属建筑实拍照片非受版权保护的现当代艺术家作品复制品。SVG时间线示意图为站内自制插画，非外部版权素材。均不触及本站'现当代艺术家版权风险'高风险类别。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "正文为建筑/设计史纪实内容，无暴力/武器/毒品/赌博类目描写；标题陈述式无诱导误点；ads.txt curl实测200正确指向pub-5245502795720653；robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均显式Allow；/privacy/与/about/均可访问200。" }
+  ],
+  "actions_taken": ["无，十三个维度均未发现需要修复的问题。唯一的候选发现（Barclay-Vesey Building竣工年代与'well before 1925 exposition'表述的精确性）经独立、全新上下文的Agent工具复核后判定NOT CONFIRMED（建筑史写作正常口径内的模糊性，非可修复的硬性事实错误，独立agent正常完成未卡死），未做任何编辑，未部署，未提交IndexNow，未追加内容发布日志.md（无实际改动内容）。已预防性跑seo_drift.py baseline留存编辑前快照，因未实际编辑，未跑compare。"],
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "自评约89/99（按站内既有11维度框架人工核算），高于80及格线，未触发重新打分",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
