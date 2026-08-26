@@ -1423,3 +1423,99 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "diego-rivera",
+  "last_audited": "2026-08-26",
+  "published_date": "2026-08-06",
+  "article_specific_checklist": [
+    "Rivera 1933年5月6日回信原文措辞（\"Rather than mutilate the conception...I shall prefer the physical destruction...\"）是否逐字准确",
+    "关键金额是否准确：$21,000总酬金/$7,000净利润/Edsel Ford对底特律项目的$20,000捐助/底特律项目总酬金$10,000",
+    "\"油漆滴落暴露Lenin肖像被Raymond Hood发现\"这一具体细节是否真实还是编造的戏剧化桥段",
+    "Detroit Industry Murals国家历史地标(NHL)指定日期是否准确",
+    "\"Pierre Picasso\"电报乌龙、\"two inferior painters\"评语等轶事细节是否有据可查"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "确认1处问题，已修复；其余均未发现问题",
+      "detail": "用curl直连英文维基百科API核对原文（非WebFetch摘要，避免引语失真）：Man at the Crossroads条目原文逐字确认Rivera 5/6信件引语\"Rather than mutilate the conception [of the mural], I shall prefer the physical destruction of the conception in its entirety, but preserving, at least, its integrity.\"与本文一致；'battle of Rockefeller Center'、'I will not change my mural even if I lose in the courts'、Hugh Robertson 5/9回信、'will advance the cause of the labor revolution'等引语均逐字匹配；$21,000/$7,000金额、Pierre Picasso电报乌龙、'two inferior painters'评语、'elongated ellipses'描述均与维基百科原文一致；'油漆滴落暴露Lenin肖像'这一情节起初被误判为可能编造（WebSearch摘要未提及），经curl读取维基百科条目完整原文后确认这是真实记载的情节（'The Lenin portrait would still have gone unnoticed if not for a mistake made by workmen applying a final coat of paint to the wall above Rivera's mural. Some of the paint dripped onto the mural, and when Raymond Hood went to examine the drip, he found the portrait of Lenin.'）——本条是本次审计过程中'WebSearch摘要不可当逐字原文'教训的一次实例，最终靠读取完整API返回文本纠正了初步误判。唯一确认的真实问题：National Historic Landmark指定日期原文写'April 22, 2014'，维基百科'Detroit Industry Murals'条目原文明确为'April 23, 2014'，判定为原文疑似把NHL指定日期与国家史迹名录(NRHP)登记编号的日期（同为2014年4月但相差一天的两个不同官方动作）搞混，独立agent复核CONFIRMED，已修复为April 23。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "6条sources均为Wikipedia/DIA官方藏品页/Smarthistory学术性来源，无模糊归因，具体金额/日期/人名密度高。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题（本次审计因修复其他字段顺带更新updated）",
+      "detail": "内容为1930年代历史事件考据，无需要随时间更新的时效性数据本身；updated字段本次因修复日期错误和标题而更新，published字段2026-08-06已存在无需回填。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch多组关键词显示SERP由维基百科/EBSCO/PBS等主导，本文'两座壁画/两位赞助人/两种结局'的对比框架及Detroit与Rockefeller Center两案例并置的综合叙事是维基百科单一词条不具备的真实增量。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "确认1处问题，已修复",
+      "detail": "title原文72字符，拼上站名'| UmberLore'后台渲染84字符（独立agent复核时用Python精确计算，比最初人工估算的83字符多1字符，判断不影响结论），远超Google约60字符/580-600px截断阈值。独立agent复核CONFIRMED，已缩短为'Diego Rivera: The Mural Rockefeller Chiseled Off'（48字符，拼站名后60字符）。meta description 168字符，略超150-160经验区间，判定为次要风格问题未做独立复核，未修改。canonical/单一H1/schema/alt文本/robots.txt均正常。"
+    },
+    {
+      "dimension": "GEO审计（99分制11维度）",
+      "status": "未发现问题，自评89/99（阈值80，达标）",
+      "detail": "权威原文引语15/16、统计数据完整性12/14（含已修复的地标日期）、可引用性12/13、结构规范性11/12、表达流畅度9/10、语义密度7/8、权威信号6/8（同前几篇审计一样缺作者credential页，非本文独有问题）、专业术语6/6、鲁棒性4/5、跨域连接4/4（4条真实回链+2条出链）、易懂表达3/3。审计员自评，未使用独立工具复验。"
+    },
+    {
+      "dimension": "AI味扫描",
+      "status": "未发现问题",
+      "detail": "机械grep扫描正文：em/en dash 0处、AI高频词(delve/crucial/testament/vibrant/foster/enhance/underscore/showcase/intricate/interplay/landscape等)0命中、加粗0处、'not only'句式0命中。本文2026-08-06发布，早于avoid-ai-writing 2026-08-07接入，属于需要补做的早期内容，本次补做确认无需重写。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "6条sources逐条curl测试：4条200（含2条维基百科条目全文验证），dia.org与smarthistory.org返回403（多组UA测试排除简单UA问题），经WebSearch site:搜索交叉确认两个页面确实仍在线、内容与sources标注一致，判定为反爬虫拦截而非真实链接失效，非阻断项。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "Painting分类全站23篇，非单例分类。diego-rivera有4条真实手动锚文本回链（birth-of-venus/jackson-pollock/mandala-art/frida-kahlo-paintings，均为其他更晚文章写入），2条出链（frida-kahlo-paintings/art-deco），非孤儿页。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "site-toolkit共享schema组件从guide对象动态生成，结构上不存在漂移风险，本站已知架构结论，本次未发现例外。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "文中涉及历史政治人物（Lenin/Rockefeller/Ford）与1930年代真实历史事件，无近期现实世界争议使表述需要重新审视。未触碰版权风险艺术家名单（Rivera不在该站146人清单上）。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "2张配图（Rivera 1932年肖像照/RCA Building 1933年照片）均为Library of Congress公有领域实拍照片，非Rivera本人画作复制品，不涉及本站现当代艺术家版权风险清单。本地文件均存在。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "内容为百科式历史记述（壁画委托/政治争议/拆除事件），无渲染暴力/酷刑的猎奇描写，无武器/毒品/赌博类目内容，无误导性标题党。ads.txt正确指向pub-5245502795720653，privacy/about页面存在。"
+    }
+  ],
+  "actions_taken": [
+    "National Historic Landmark指定日期'April 22, 2014'修正为'April 23, 2014'（经维基百科原文核实+独立agent复核CONFIRMED）",
+    "SEO标题从72字符（拼站名后84字符）缩短为48字符（拼站名后60字符），消除搜索结果页截断风险（独立agent复核CONFIRMED）",
+    "updated字段2026-08-06→2026-08-26",
+    "npm run build验证61页0 error，dist/diego-rivera/index.html确认新title与新日期均已渲染",
+    "commit 5e2e2ae并push，umberlore为git连接CF Pages自动部署，curl轮询确认线上生效",
+    "seo_drift.py baseline+compare：仅2项WARNING（title变化/schema内容变化）均为本次预期编辑，无CRITICAL发现",
+    "IndexNow提交/diego-rivera/（Bing 200/Yandex 200）",
+    "内容发布日志.md追加本条审计记录，标注为审计更新非新发布"
+  ],
+  "seo_score": "修复后title 48字符(拼站名60字符)、description 168字符(略超区间未处理)、canonical自指、单一H1、schema三组件均有效、alt全部已有、6条外链4条200+2条403(反爬虫非死链)",
+  "geo_score": "自评89/99（阈值80，达标），未触发重新打分",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
