@@ -2594,10 +2594,10 @@ export const guides: Guide[] = [
   {
     "slug": "diego-rivera",
     "category": "Painting",
-    "title": "Diego Rivera: The Mural Rockefeller Paid For, Then Chiseled Off the Wall",
+    "title": "Diego Rivera: The Mural Rockefeller Chiseled Off",
     "description": "Diego Rivera hid a portrait of Lenin inside a fresco commissioned for Rockefeller Center. Nelson Rockefeller had it plastered over in 1934, before it was even finished.",
     "published": "2026-08-06",
-    "updated": "2026-08-06",
+    "updated": "2026-08-26",
     "coreSummary": "In April 1933, Diego Rivera added a portrait of Vladimir Lenin to Man at the Crossroads, a fresco he had been commissioned to paint in the lobby of Rockefeller Center's RCA Building, after a newspaper accused the piece of anti-capitalist propaganda. Nelson Rockefeller asked him to remove it; Rivera refused, writing that he would \"prefer the physical destruction of the conception in its entirety\" to mutilating it. Rockefeller Center Inc. paid Rivera his full fee, covered the unfinished mural with canvas, and in February 1934 had workmen chisel it off the wall entirely. Rivera later repainted the composition from salvaged photographs in Mexico City under a new title, Man, Controller of the Universe, in the building where it still hangs today.",
     "image": "/images/diego-rivera-portrait-1932.jpg",
     "imageAlt": "Portrait photograph of Diego Rivera, taken March 19, 1932, the same year he began work on the Detroit Industry Murals.",
@@ -2624,7 +2624,7 @@ export const guides: Guide[] = [
         "heading": "A vaccination scene that clergy wanted destroyed",
         "body": [
           "One panel on the north wall shows a golden-haired infant flanked by a horse and an ox, with sheep below, in a composition that deliberately echoes a traditional Nativity scene; instead of the Holy Family, a doctor and a nurse administer a vaccination while three scientists conduct research in the background, standing in for the biblical Magi. At the unveiling, members of Detroit's religious community found the substitution offensive enough to demand the panel's destruction. The Detroit News called the full cycle \"vulgar\" and \"un-American.\" Edsel Ford and Wilhelm Valentiner refused to remove or alter it.",
-          "Some art historians have since floated a more cynical reading of the episode: that Edsel Ford, who had underwritten the murals and stood firmly behind them in public, also had reason to welcome the free publicity a religious scandal generated. The Detroit Institute of Arts explored that theory directly in a 2015 exhibition, without resolving it either way. What is not in dispute is that the controversy did the murals no commercial harm. Ten thousand people visited the museum in a single Sunday during the uproar, and the city subsequently increased the museum's budget. The panel remains on the wall today. On April 22, 2014, the U.S. Department of the Interior designated the Detroit Industry Murals a National Historic Landmark, and Rivera himself considered the cycle the most successful work of his career."
+          "Some art historians have since floated a more cynical reading of the episode: that Edsel Ford, who had underwritten the murals and stood firmly behind them in public, also had reason to welcome the free publicity a religious scandal generated. The Detroit Institute of Arts explored that theory directly in a 2015 exhibition, without resolving it either way. What is not in dispute is that the controversy did the murals no commercial harm. Ten thousand people visited the museum in a single Sunday during the uproar, and the city subsequently increased the museum's budget. The panel remains on the wall today. On April 23, 2014, the U.S. Department of the Interior designated the Detroit Industry Murals a National Historic Landmark, and Rivera himself considered the cycle the most successful work of his career."
         ]
       },
       {
