@@ -3797,10 +3797,10 @@ export const guides: Guide[] = [
   {
     "slug": "fallen-angel-painting",
     "category": "Painting",
-    "title": "The Fallen Angel: A Required Submission That Left the Academy Startled",
-    "description": "Cabanel's Fallen Angel was a mandatory Prix de Rome submission, not a free choice. The Academy's own account blames the pose, not the devil, for what unsettled it.",
+    "title": "Fallen Angel Painting by Cabanel: Was It Really Controversial?",
+    "description": "Cabanel's Fallen Angel painting is often called 'highly controversial.' The Musée Fabre's own account says the Academy was startled by the pose, not the devil.",
     "published": "2026-08-12",
-    "updated": "2026-08-12",
+    "updated": "2026-08-26",
     "coreSummary": "Alexandre Cabanel painted The Fallen Angel in 1847-48 not as a personal project but as his mandatory second-year envoi, required proof of progress sent back to Parisian academicians during his Prix de Rome residency at the Villa Médicis. Cabanel told his patron Alfred Bruyas the picture was fundamentally about Satan's fall from grace, but the Musée Fabre's own account of the reception, quoting the artist's letters directly, records the Academy as startled by the mannerism of the pose rather than outraged by the subject, and even the museum's own current records disagree with an INHA academic database that cites the same museum as its source for the painting's dimensions.",
     "image": "/images/fallen-angel-cabanel-1847.jpg",
     "imageAlt": "Alexandre Cabanel's 1847 painting The Fallen Angel, showing a nude Lucifer reclining on rocky ground with his face partly hidden behind his arm and tears in his eyes, while a legion of angels flies through the sky above him.",
