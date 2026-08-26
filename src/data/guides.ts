@@ -5691,5 +5691,144 @@ export const guides: Guide[] = [
         "url": "https://ceh.org/yourhealth/vintage-dishware-lead/"
       }
     ]
+  },
+  {
+    "slug": "ghost-of-a-flea",
+    "category": "Painting",
+    "title": "The Ghost of a Flea: Varley Believed the Vision, Blake Just Painted It",
+    "description": "Blake finished only one panel from roughly ninety séance sketches, and his biographer concluded the astrologer hosting them believed it more than Blake did.",
+    "published": "2026-08-26",
+    "updated": "2026-08-26",
+    "coreSummary": "William Blake's tempera-and-gold panel The Ghost of a Flea, c.1819-20, is the single finished painting to come out of roughly ninety pencil sketches Blake produced during nightly sessions at the house of the astrologer John Varley, who asked him to summon and draw the spirits of historical and mythological figures. Varley published his own written account of the flea's appearance, and the panel's reverse carries his note that \"the Flea drew blood on this.\" The Blake scholar Sir Geoffrey Keynes read the sessions the opposite way from how they're usually retold: Varley, he concluded, took the pastime \"a great deal more seriously than did Blake.\"",
+    "image": "/images/ghost-of-a-flea.jpg",
+    "imageAlt": "William Blake's 'The Ghost of a Flea', c.1819-20, a tempera and gold panel painting depicting a muscular, part-reptilian, part-human figure striding between curtains while holding a cup of blood.",
+    "imageCredit": "[The Ghost of a Flea](https://www.tate.org.uk/art/artworks/blake-the-ghost-of-a-flea-n05889), William Blake, c.1819-20, Tate (bequeathed by W. Graham Robertson 1949), public domain",
+    "sections": [
+      {
+        "heading": "The one panel Blake actually finished",
+        "body": [
+          "Most of what survives from Blake's sessions with Varley is black chalk and pencil, loose sheets and pages bound into what are now called the Blake-Varley Sketchbooks. The Ghost of a Flea is not one of those sketches. It is a finished panel, 21.4 by 16 centimetres, painted in a tempera mixture with gold on a mahogany-type hardwood board, and it is the work Tate now holds under accession number N05889. Somewhere between the pencil study and this panel, Blake decided the flea was worth more than a sketchbook entry.",
+          "The gold is doing real work in the painting rather than sitting on top of it as decoration. Beneath the curtain folds, the creature's flesh, and the painted stars, Blake laid a thin foil of \"white\" gold, made from a gold-silver alloy, then used powdered gold mixed into paint for the finer detail, and overlaid parts of that with a brown paint made from sugar, gum, and glue. At the lower right, beneath a signature in shell gold, Blake labeled his own technique \"fresco.\" Tempera on a wood panel is a different process from true fresco entirely, yet that's the word Blake chose to write on the object itself. The panel has not aged well: the surface has cracked and dulled, a condition Tate's own records attribute partly to the technique Blake used to make it."
+        ],
+        "image": {
+          "src": "/images/head-of-the-ghost-of-a-flea.jpg",
+          "alt": "William Blake's pencil head study for The Ghost of a Flea, a preliminary drawing that predates the finished tempera-and-gold panel.",
+          "credit": "[The Head of the Ghost of a Flea. Verso: A Profile and a Reduced Drawing of Milton's First Wife](https://www.tate.org.uk/art/artworks/blake-the-head-of-the-ghost-of-a-flea-verso-a-profile-and-a-reduced-drawing-of-miltons-n05184), William Blake, c.1819, Tate, public domain"
+        }
+      },
+      {
+        "heading": "A nightly game that ran until five in the morning",
+        "body": [
+          "Blake met Varley in the autumn of 1818, introduced by their mutual friend, the painter John Linnell. Varley was an astrologer and watercolourist who believed firmly in the existence of spirits and was frustrated that he had never managed to see one himself, which is what drew him to a friend who described visions as an ordinary part of his life. Through 1819 and into 1820, the two men met at Varley's house nearly every night, from around nine in the evening until five the next morning, and played a version of the same game each time: Varley named a historical or mythological figure, and Blake attempted to draw whatever appeared.",
+          "Blake's biographer Alexander Gilchrist described the pattern directly. Varley would say, \"Draw me Moses,\" or ask for a likeness of Julius Caesar or Edward the Third, and Blake would answer, \"There he is!\" and begin sketching with what Gilchrist called total composure, looking up periodically as if a real sitter were in front of him. Sometimes the session stalled mid-drawing. Blake would set his pencil down and remark, in the same matter-of-fact tone someone might use to say it was raining, \"It has moved. The mouth is gone,\" or that the figure was frowning because it disapproved of its own portrait. Varley, meanwhile, stared into the empty air beside Blake and never once saw anything himself, though by his own account he kept expecting to.",
+          "A separate, older episode gets attached to the flea painting by later writers, though not by Gilchrist directly. Three decades before the Varley sessions, in 1790, Blake reportedly said he had seen an actual ghost, not a summoned vision but an unplanned encounter, standing at his garden door in Lambeth one evening and watching a figure he described as \"scaly, speckled, very awful\" come down the stairs toward him before he fled the house in fright. Wikipedia's account of the flea painting notes that a connection between that early fright and the later flea imagery is often drawn, but it is an inference readers and later writers make, not a link Gilchrist himself states."
+        ]
+      },
+      {
+        "heading": "Varley's own account of the night in question",
+        "body": [
+          "Varley did not just watch Blake draw the flea. He wrote his own description of the session for publication, and it survives verbatim. It appeared first in his 1828 book A Treatise on Zodiacal Physiognomy, was quoted afterward by Robert Southey in The Doctor because Southey thought it worth reprinting, and Gilchrist folded the same passage into his own biography of Blake:",
+          "\"As I was anxious to make the most correct investigation in my power, of the truth of these visions, on hearing of this spiritual apparition of a Flea, I asked him if he could draw for me the resemblance of what he saw: he instantly said, 'I see him now before me.' I therefore gave him paper and a pencil with which he drew the portrait... I felt convinced, by his mode of proceeding, that he had a real image before him; for he left off and began on another part of the paper to make a separate drawing of the mouth of the Flea, which the spirit having opened, he was prevented from proceeding with the first sketch till he had closed it.\"",
+          "Whatever a reader makes of the vision itself, the working detail is genuinely strange: Blake stopped a portrait in progress to sketch a mouth separately because, as Varley tells it, the mouth in front of him was open and he had to wait for it to close before he could go back to the rest of the face. Varley's account continues past the drawing itself. He wrote that the flea, once it had a body to communicate through, told Blake that fleas carry the souls of men who were by nature \"blood-thirsty to excess,\" and are confined by providence to the size of an insect, because if a man's soul with that nature were given the body of a horse instead, \"he would depopulate a great portion of the country.\""
+        ]
+      },
+      {
+        "heading": "What's written on the back of the panel",
+        "body": [
+          "The finished panel itself carries a second piece of documentation, in Varley's own hand, on its reverse: \"The Vision of the Spirit that inhabits the body of a Flea, and which appeared to the late Mr. Blake, the Designer of the vignettes for Blair's Grave and the Book of Job. The Visions first appeared to him in my presence and afterwards, till he had finished this picture. The Flea drew blood on this.\" The phrase \"the late Mr. Blake\" dates the inscription itself to sometime after 1827, when Blake died, so Varley wrote this specific note years after the sessions it describes, a retrospective label added to an object he had already owned for years by that point.",
+          "A separate, earlier stage of the same image survives too: a preliminary pencil head study Tate catalogues as The Head of the Ghost of a Flea, with an unrelated sketch of a profile and a reduced drawing of Milton's first wife on its back. Between that working study and the finished tempera panel, and between the vision itself and Varley's much later inscription describing it, the flea painting comes down to us through at least three separate layers of documentation made at three different times, not one continuous record."
+        ]
+      },
+      {
+        "heading": "Varley believed it more than Blake did",
+        "body": [
+          "The two Blake scholars most often cited on these sessions read the sincerity question in opposite directions, and it's worth noting which way each one leans. Sir Geoffrey Keynes concluded that \"Varley took this curious pastime a great deal more seriously than did Blake. To the latter it was a satisfaction to employ his faculty of vivid memory and imagination in the production of interesting characterizations of a variety of people... Blake sometimes drew them with such conviction that Varley seems to have regarded them as actual portraits.\" On Keynes's reading, the visions were closer to a performance Blake gave for an audience of one, an audience who happened to believe every word of it.",
+          "Kathleen Raine's account leans the other way without directly contradicting Keynes on the facts. She points out that Varley was a working, apparently skilled astrologer, one whose other predictions Gilchrist, no believer himself, admitted were \"astonishingly accurate,\" and she describes the sessions as conducted \"in a light-hearted spirit,\" a shared game between two men who took each other's interests seriously even if they didn't share the same beliefs about what was happening in the room. Neither scholar disputes what actually happened on the page. The disagreement is over how literally to take the man holding the pencil.",
+          "That disagreement existed in Blake's own lifetime too, aimed less charitably at Blake himself. According to the Blake scholar G. E. Bentley, word that Blake claimed to draw from visions was common enough during his life that, to some observers, \"so plain was Blake's madness to some that they assumed he must have been confined in a madhouse.\" [Edvard Munch wrote almost the identical accusation directly onto The Scream himself, in Norwegian, only for the note to become part of the painting's own documented history rather than evidence against it](/edvard-munch-the-scream/)."
+        ]
+      },
+      {
+        "heading": "A possible source, and later comparisons",
+        "body": [
+          "The flea's appearance has a plausible visual precedent, offered as a suggestion rather than something anyone has actually documented. The art historian Hope Werness has proposed that Blake may have drawn on Robert Hooke's 1665 Micrographia, whose famous engraving of a flea seen under a microscope remained in wide enough circulation in Britain that an artist working in London a century and a half later could plausibly have encountered it. Blake's flea also invites comparison to the monstrous imagery of Henry Fuseli, a comparison Tate itself made explicit in 2006, hanging The Ghost of a Flea beside William Raddon's 1827 engraving after Fuseli's The Nightmare in its exhibition Gothic Nightmares: Fuseli, Blake and the Romantic Imagination. That same year, The New York Times called the painting Blake's \"quite strangest and certainly most Gothic work,\" a description that has stuck to it since.",
+          "[The imagery driving Blake's visionary practice sits at one end of a much longer history of altered states producing recognizable art, one that runs forward as far as the psychiatrist's office where the standard psychedelic-art timeline actually begins](/psychedelic-art/), a century and a half after Varley's midnight sessions and worlds away from them in method, but not entirely in kind."
+        ]
+      },
+      {
+        "heading": "Where the panel has actually been since 1820",
+        "body": [
+          "The provenance is unusually well documented for a small panel that changed hands several times. Varley acquired the flea vision around 1820 and it passed on his death to his son, Albert Varley. Albert sold it in February 1878, a sale confirmed independently by the poet and artist William Bell Scott, who wrote in the Blake-Varley Sketchbook itself that he had, since acquiring that sketchbook in 1870, \"bought the painting of the 'Ghost' of the Flea, from Mr Varley of Oakley St. Chelsea, son of John Varley.\" From Scott it eventually reached Sotheby's, where on 14 July 1892 it sold to the collector W. Graham Robertson for £10.50.",
+          "Robertson lent the panel to the Tate from 1913 onward. He died on 4 September 1948, having bequeathed four Blake works directly to the nation, with the remainder of his collection to be sold at auction through his executors. Tate's own catalogue record lists the gift as \"Bequeathed by W. Graham Robertson 1949,\" a year after his death, because that is when the bequest was formally completed and accessioned rather than when Robertson made the decision. [A comparable gap between an object's creation and the paper trail proving what happened to it afterward shows up in the record for Botticelli's Birth of Venus, whose earliest confirmed appearance in writing is a 1499 inventory that never actually mentions it by name](/birth-of-venus/); with the flea panel, every step of that trail from 1820 onward is independently confirmed, which is unusual enough for a minor 19th-century picture to be worth pointing out on its own."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is William Blake's \"Ghost of a Flea,\" and where can you see it?",
+        "answer": "It is a small tempera-and-gold panel painting, 21.4 by 16 centimetres, that William Blake completed around 1819-20 on a mahogany-type wood board. It depicts a muscular, part-human, part-reptilian figure striding between curtains while holding a cup of blood. Tate in London holds the panel under accession number N05889, part of its collection of British art."
+      },
+      {
+        "question": "Did Blake really believe he saw a flea's ghost, or was he performing for Varley?",
+        "answer": "Blake scholars disagree, and the disagreement runs in a direction that might surprise readers who assume Blake was the one convinced of his own visions. Sir Geoffrey Keynes concluded that the astrologer John Varley, who hosted the sessions and asked Blake to draw them, \"took this curious pastime a great deal more seriously than did Blake\" himself, treating Blake's sketches as employing memory and imagination rather than literal sight of a spirit. Kathleen Raine takes a softer view of the sincerity question on both sides, describing the sessions as conducted in a light-hearted spirit between two men who took each other seriously without necessarily agreeing on what was happening in the room."
+      },
+      {
+        "question": "What does the inscription on the back of the panel say?",
+        "answer": "In Varley's own handwriting: \"The Vision of the Spirit that inhabits the body of a Flea, and which appeared to the late Mr. Blake, the Designer of the vignettes for Blair's Grave and the Book of Job. The Visions first appeared to him in my presence and afterwards, till he had finished this picture. The Flea drew blood on this.\" Because the note refers to \"the late Mr. Blake,\" it was written after Blake's death in 1827, years after the sessions themselves, making it a retrospective label rather than a contemporary record."
+      },
+      {
+        "question": "Who owned the painting before it reached the Tate?",
+        "answer": "John Varley acquired it around 1820; it passed to his son Albert Varley, who sold it in February 1878 (a sale independently confirmed by the artist William Bell Scott's own note in the Blake-Varley Sketchbook). It was sold at Sotheby's on 14 July 1892 to the collector W. Graham Robertson for £10.50, who lent it to the Tate from 1913. Robertson died in September 1948 having bequeathed it directly to the nation, and Tate's records date the completed gift to 1949, the year after his death."
+      },
+      {
+        "question": "Is the flea's appearance based on an existing image, like a scientific drawing?",
+        "answer": "It is a proposed source rather than a confirmed one. The art historian Hope Werness has suggested Blake may have been influenced by Robert Hooke's 1665 Micrographia, which includes a widely circulated engraving of a flea as seen under a microscope. No direct documentary link between Blake and that specific engraving has been established; it is a plausible visual precedent, not a settled fact about the painting's origin."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tate: 'The Ghost of a Flea', William Blake, c.1819-20 (collection record, N05889)",
+        "url": "https://www.tate.org.uk/art/artworks/blake-the-ghost-of-a-flea-n05889"
+      },
+      {
+        "label": "Tate: 'The Head of the Ghost of a Flea. Verso: A Profile and a Reduced Drawing of Milton's First Wife', William Blake, c.1819 (N05184)",
+        "url": "https://www.tate.org.uk/art/artworks/blake-the-head-of-the-ghost-of-a-flea-verso-a-profile-and-a-reduced-drawing-of-miltons-n05184"
+      },
+      {
+        "label": "Wikipedia: The Ghost of a Flea",
+        "url": "https://en.wikipedia.org/wiki/The_Ghost_of_a_Flea"
+      },
+      {
+        "label": "Wikipedia: Visionary Heads",
+        "url": "https://en.wikipedia.org/wiki/Visionary_Heads"
+      },
+      {
+        "label": "Wikisource: Life of William Blake by Alexander Gilchrist (1880 edition), pp. 303-304 / plate transcription pp. 373-374",
+        "url": "https://en.wikisource.org/wiki/Page:Life_of_William_Blake,_Gilchrist.djvu/373"
+      },
+      {
+        "label": "Art Fund: Jacob's Ladder, William Blake, 1800 (background on the 1948-49 Graham Robertson bequest)",
+        "url": "https://www.artfund.org/our-purpose/art-funded-by-you/jacobs-ladder"
+      },
+      {
+        "label": "Wikipedia: W. Graham Robertson",
+        "url": "https://en.wikipedia.org/wiki/W._Graham_Robertson"
+      },
+      {
+        "label": "Sir Geoffrey Keynes, Blake Studies: Essays on His Life and Work (2nd ed., 1971), on Varley and the Visionary Heads sessions, as quoted in Wikipedia's Visionary Heads article",
+        "url": "https://en.wikipedia.org/wiki/Visionary_Heads"
+      },
+      {
+        "label": "Kathleen Raine, William Blake (Thames and Hudson, 1970), on Varley's role in the Visionary Heads sessions, as quoted in Wikipedia's Visionary Heads article",
+        "url": "https://en.wikipedia.org/wiki/Visionary_Heads"
+      },
+      {
+        "label": "G. E. Bentley Jr., on contemporary reception of Blake's claimed visions, as cited in Wikipedia's The Ghost of a Flea article",
+        "url": "https://en.wikipedia.org/wiki/The_Ghost_of_a_Flea"
+      },
+      {
+        "label": "Hope B. Werness, The Continuum Encyclopedia of Animal Symbolism in Art (2004), on a possible Micrographia source for the flea's appearance, as cited in Wikipedia's The Ghost of a Flea article",
+        "url": "https://en.wikipedia.org/wiki/The_Ghost_of_a_Flea"
+      }
+    ]
   }
 ];
