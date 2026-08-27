@@ -5932,5 +5932,124 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/The_Heart_of_the_Andes"
       }
     ]
+  },
+
+  {
+    "slug": "sand-painting",
+    "category": "Non-Western Art",
+    "title": "Sand Painting: The Navajo Weaving That Broke a Sacred Rule",
+    "description": "Navajo sandpaintings are meant to be destroyed after the ceremony. A medicine man wove one into a rug anyway, and other singers demanded he destroy it too.",
+    "published": "2026-08-27",
+    "updated": "2026-08-27",
+    "coreSummary": "Navajo sandpainting is a ceremonial practice in which a singer pours colored sand into a sacred image used to heal a patient, then destroys it before nightfall on the same day it was made; the image is never meant to outlast the ceremony. Hosteen Klah, a Navajo singer who had mastered more ceremonies than almost anyone of his generation, broke from that rule sometime between 1911 and 1916, weaving Yeibichai dance imagery into a rug that other medicine men demanded he destroy. He didn't destroy it, and the community's threatened consequences never arrived. By 1919 or 1920, Klah went further, weaving an actual sandpainting design, the Whirling Log from the Nightway ceremony, into a tapestry that won a ribbon at a public fair. Between then and his death in 1937, he and two nieces wove dozens more, work that now anchors a Santa Fe museum built from his ceremonial knowledge, one he did not live to see open to the public, and that spent its first forty years under a name it later gave up as part of one of the earliest voluntary repatriations by a North American museum.",
+    "image": "/images/wheelwright-museum-entrance.jpg",
+    "imageAlt": "The adobe-style entrance of the Wheelwright Museum of the American Indian in Santa Fe, New Mexico, built in the form of a traditional Navajo hooghan with a rounded doorway and vigas along the roofline.",
+    "imageCredit": "[Entrance view of the Wheelwright Museum of the American Indian](https://commons.wikimedia.org/wiki/File:Entrance_view_of_the_Wheelwright_Museum_of_the_American_Indian.jpg), photo by WikTalksmart, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "sections": [
+      {
+        "heading": "A picture built to be unmade",
+        "body": [
+          "A Navajo sandpainting, or iikááh, is made during a healing ceremony, not for display afterward. A singer and helpers pour crushed sandstone, charcoal, cornmeal, and pollen onto a bed of clean sand on the floor of a hooghan, building a specific image tied to the chant being performed. The patient sits or lies on the finished painting so its power can be transferred, and by the tradition's own rules the image is then swept apart and the sand carried outside before sundown. Britannica's own overview of the practice describes it as existing among the Navajo and Pueblo peoples primarily for religious rather than aesthetic reasons, a detail easy to lose in general write-ups that treat sandpainting mainly as a striking visual style.",
+          "That built-in impermanence is the entire point, and it is what makes the Navajo singer at the center of this story unusual. Hosteen Klah didn't just perform ceremonies involving sandpaintings; over roughly two decades, he found ways to make several of them permanent, against the objections of people who considered that a serious violation."
+        ]
+      },
+      {
+        "heading": "Twenty-six years to become a singer",
+        "body": [
+          "Klah was born in October 1867 near Fort Wingate, New Mexico, as his family made its way home from Bosque Redondo, the internment camp where the U.S. government had forcibly held thousands of Navajo people since 1864. Navajo custom restricts who can teach a given chant to relatives on specific sides of a student's family, and Klah, whose kin included several practicing singers, began that training as a child. By age ten he had memorized the Hail Chant in full. He went on to study under Hathile Nah-Cloie, known as Laughing Chanter or Laughing Singer, eventually learning five of the seven forms of the Yeibichai ceremony (part of the larger Nightway) along with the Windway, Mountainway, and other multi-day chant cycles, an unusually broad range for a single singer to hold.",
+          "By his own account and those recorded by later biographers, Klah spent roughly twenty-six years training before he held his first Yeibichai ceremony as principal chanter, sending invitations across the reservation for the nine-day event. It went, according to the record, without an error in chant, symbol, or sequence, and it established him as one of the ceremony's leading practitioners. He was also, unusually for a man in that role, an accomplished weaver, a skill he'd learned as a child from his mother and sister at a time when weaving was regarded as work for Navajo women."
+        ]
+      },
+      {
+        "heading": "A rug that drew a demand for its destruction",
+        "body": [
+          "Sources on Klah's life agree that he wove ceremonial dance imagery, specifically the masked Yeibichai figures, into a rug well before he touched an actual sandpainting design, and that it provoked exactly the backlash the tradition's rules would predict. They don't agree on precisely when. A history published by the Navajo Rug Gallery dates the rug to 1911, recording that \"local singers felt that this was sacrilegious and demanded that Klah have a ceremony to expel the evil and that he destroy the weaving,\" and that Klah instead sent it to Washington and experienced no negative effects. A research profile from EBSCO, drawing on the standard biography of Klah published by Franc Johnson Newcomb in 1964, places a comparable rug in 1916, recording that other medicine men \"objected, demanding that the rug be destroyed,\" and that the dispute faded once the rug left the reservation with a buyer. Wikipedia's own account places the first sacred imagery in Klah's weaving loosely around 1914. None of the three agree on a year, and no single account resolves the gap.",
+          "What all three do agree on is the pattern: Klah wove something no one expected a singer to weave, other Navajo people objected on religious grounds, and the predicted consequences never materialized. That pattern held again a few years later, on a bigger scale."
+        ]
+      },
+      {
+        "heading": "The Whirling Log, and why the protests didn't stick",
+        "body": [
+          "Sometime in 1919 or 1920, depending on the source, Klah wove his first rug based directly on an actual sandpainting rather than on dance imagery alone: the Whirling Log, a design from the Nightway ceremony. According to EBSCO's research profile, other Navajo people protested again, this time on the grounds that an accurate, permanent copy of a sandpainting would bring disaster to the tribe. Klah's own standing as a working medicine man appears to have shielded him from any binding consequence; he went on to exhibit the rug at the Gallup Ceremonial, where it won a blue ribbon, and sold it to a tourist who then commissioned two more to complete a set of Yeibichai sandpaintings. That sale marked the start of what became a long second career: between 1919 and his death in 1937, Klah wove at least twenty-five sandpainting tapestries on his own, by EBSCO's count, a number that climbs past seventy once the paintings his two nieces, Gladys and Irene Manuelito, completed during and after his lifetime are counted in, according to the Wheelwright Museum's own institutional history.",
+          "Klah wasn't only working in wool. In 1917, trader's wife Franc Newcomb watched Klah perform a Nightway ceremony and afterward tried to reconstruct its sandpainting designs from memory. She couldn't, so Klah sketched them for her in pencil; she turned those into watercolor reproductions and, by one account, hung them privately in her bedroom so other Navajo visitors to the trading post wouldn't be offended. Only once it became clear that nothing bad had come of that, according to the same account, did Klah produce roughly two dozen more paintings for her to record. It reads as a cautious, deliberate test of exactly how far reproduction could go before it mattered, one Klah appears to have run more than once over the following two decades."
+        ]
+      },
+      {
+        "heading": "A museum he didn't live to see open",
+        "body": [
+          "In the early 1920s, Boston-born anthropologist Mary Cabot Wheelwright, who had a longstanding interest in comparative religion, bought a large tapestry-weave textile depicting part of the Navajo creation story at the Gallup Inter-Tribal Indian Ceremonial and learned it had been woven by Klah. The Wheelwright Museum's own published history dates that purchase to summer 1922 and says traders Arthur and Frances Newcomb introduced her to Klah the following year, in 1923; Wikipedia's account of the same relationship instead gives 1921 as the year the two met, without mentioning the tapestry purchase at all. The two accounts disagree on both the sequence and the date by roughly two years.",
+          "What isn't in dispute is what came next: over the following decade, Wheelwright and Klah, working with Franc Newcomb and, at times, translator and Franciscan missionary Father Berard Haile, built what the museum's own history calls \"a substantial permanent record of Diné ceremonial knowledge through chants, weavings and paintings.\" Klah blessed the site of the future museum in 1936, a year before his death from pneumonia in February 1937. He didn't live to see it finished. Another Navajo singer, known as Big Man, performed the formal House Blessing that November, attended by Wheelwright and a small group of guests including the building's contractors; the museum's public opening followed quietly about a year after that."
+        ],
+        "image": {
+          "src": "/images/mary-cabot-wheelwright-duveneck.jpg",
+          "alt": "An 1882 oil portrait of Mary Cabot Wheelwright as a young woman, painted by American artist Frank Duveneck, held in the Brooklyn Museum's collection.",
+          "credit": "[Mary Cabot Wheelwright](https://commons.wikimedia.org/wiki/File:Frank_Duveneck_-_Mary_Cabot_Wheelwright_-_Google_Art_Project.jpg), Frank Duveneck (1848–1919), 1882, Brooklyn Museum, public domain"
+        }
+      },
+      {
+        "heading": "Renamed twice, the second time to make room for repatriation",
+        "body": [
+          "The building opened under the name Navajo House of Prayer, then House of Navajo Religion, before the museum's trustees renamed it the Museum of Navajo Ceremonial Art in 1939, according to its own institutional history. It kept that name, and its focus on housing ceremonial material, through Wheelwright's tenure as director until her death in 1958.",
+          "In the 1970s, the museum reassessed that arrangement. In 1977, according to its own account, it transferred a body of ceremonial belongings, including medicine bundles, to the Ned A. Hatathli Cultural Center Museum at what was then Navajo Community College, now Diné College, in Tsaile, Arizona, describing itself as one of the first museums in North America to voluntarily repatriate sensitive religious materials to a Native nation. With that transfer complete, the institution took the name it holds today, the Wheelwright Museum of the American Indian, and renamed its main exhibition space the Klah Gallery. The shift in focus that followed was real: the same gallery has since hosted solo exhibitions for Native artists including Fritz Scholder, Allan Houser, and Pablita Velarde, work with no connection to the ceremonial sandpaintings the building was originally built to hold."
+        ]
+      },
+      {
+        "heading": "A world's fair, and an unfinished last tapestry",
+        "body": [
+          "Klah's work reached well beyond the reservation during his lifetime. He had already represented the New Mexico Territory as a weaver at the 1892 World's Columbian Exposition in Chicago, and in 1934 he returned to that city as the official Navajo delegate to the Century of Progress Exposition, demonstrating sandpainting in person; his demonstration was observed by President Franklin D. Roosevelt, according to independent biographical summaries from EBSCO and Encyclopedia.com. His last sandpainting tapestry, called The Skies, drew on the Shootingway ceremony and was still on the loom when he died in February 1937. His nieces, Gladys and Irene Manuelito, finished it.",
+          "Klah had trained one Navajo student, a young man named Beaal Begay, to carry his ceremonial knowledge forward in the traditional way, but Begay died suddenly in 1931, six years before Klah himself. That loss is likely part of why Klah leaned so heavily on outside collaborators like the Newcombs, Wheelwright, and Father Haile to write down and weave what he knew: the usual channel for passing it on had already closed."
+        ]
+      },
+      {
+        "heading": "A different tradition, the same rule about impermanence",
+        "body": [
+          "Navajo sandpainting isn't the only ritual practice built around an image meant to be destroyed rather than kept. [Tibetan Buddhist monks build sand mandalas over several days, grain by grain, only to sweep them apart and disperse the sand into flowing water once the ritual is complete](/mandala-art/), a practice the Smithsonian's National Museum of Asian Art has staged inside its own galleries. What makes Klah's case unusual within his own tradition isn't that he understood the rule. It's that, again and again, he chose to test what happened when he didn't follow it."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Navajo sand painting used for?",
+        "answer": "It's a ceremonial practice, not a decorative art form in its original context. A singer builds a specific image from colored sand, charcoal, cornmeal, and pollen as part of a healing ceremony; the patient sits on the finished painting so its power can transfer, and the image is destroyed, typically before sundown the same day, rather than kept."
+      },
+      {
+        "question": "Who was Hosteen Klah?",
+        "answer": "A Navajo singer born in 1867 who trained for roughly twenty-six years before leading his first ceremony as principal chanter, eventually mastering an unusually wide range of chant cycles. He was also a skilled weaver, and beginning sometime between 1911 and 1916, he wove sacred imagery, and later actual sandpainting designs, into permanent rugs, a practice that broke with tradition and drew objections from other Navajo religious practitioners during his lifetime."
+      },
+      {
+        "question": "Why did other Navajo people object to Klah's weavings?",
+        "answer": "Sandpaintings are meant to be temporary; a permanent, accurate copy was seen by some practitioners as a serious violation of that rule, with some sources recording demands that Klah destroy his early weavings or hold a ceremony to remove any resulting harm. Accounts differ on the exact year of the first controversial weaving, placing it anywhere from 1911 to around 1916, but agree that the predicted consequences never materialized and that Klah continued weaving sandpainting-based tapestries for the rest of his life."
+      },
+      {
+        "question": "Why did the Wheelwright Museum change its name?",
+        "answer": "It opened under the name Museum of Navajo Ceremonial Art in 1939. In 1977, according to the museum's own history, it repatriated ceremonial belongings, including medicine bundles, to Navajo Community College (now Diné College) in Tsaile, Arizona, describing itself as one of the first museums in North America to do so voluntarily. It took its current name, the Wheelwright Museum of the American Indian, once that transfer was complete, and renamed its main gallery after Klah."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Encyclopaedia Britannica: Sand painting",
+        "url": "https://www.britannica.com/art/sand-painting"
+      },
+      {
+        "label": "EBSCO Research Starters: Hosteen Klah (medicine man)",
+        "url": "https://www.ebsco.com/research-starters/biography/hosteen-klah-medicine-man"
+      },
+      {
+        "label": "Wikipedia: Hosteen Klah",
+        "url": "https://en.wikipedia.org/wiki/Hosteen_Klah"
+      },
+      {
+        "label": "Navajo Rug Gallery: Navajo Sandpainting Weaving",
+        "url": "https://www.navajorug.com/pages/navajo-sandpainting-weaving"
+      },
+      {
+        "label": "Wheelwright Museum of the American Indian: About the Museum",
+        "url": "https://wheelwright.org/about/about-the-museum/"
+      },
+      {
+        "label": "Native American Netroots: Hosteen Klah, Navajo Healer, Artist",
+        "url": "https://nativeamericannetroots.net/diary/320"
+      }
+    ]
   }
 ];
