@@ -11,6 +11,7 @@ for (const g of guides) {
 	counts.set(g.category, (counts.get(g.category) ?? 0) + 1);
 }
 const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+import { imgDims } from '../data/imageDims';
 ---
 
 <Layout>
@@ -34,6 +35,8 @@ const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCom
 						alt={lead.imageAlt ?? lead.title}
 						class="mx-auto h-auto max-h-[62vh] w-auto max-w-full"
 						loading="eager"
+						width={imgDims(lead.image)?.w}
+						height={imgDims(lead.image)?.h}
 					/>
 				</figure>
 			) : (
@@ -66,7 +69,10 @@ const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCom
 					<a href={`/${g.slug}/`} class="work mb-9 block break-inside-avoid no-underline">
 						{g.image ? (
 							<figure class="plate m-0">
-								<img src={g.image} alt={g.imageAlt ?? g.title} loading="lazy" />
+								<img src={g.image} alt={g.imageAlt ?? g.title} loading="lazy"
+						width={imgDims(g.image)?.w}
+						height={imgDims(g.image)?.h}
+					/>
 							</figure>
 						) : (
 							<div class="placard">

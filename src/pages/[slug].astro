@@ -61,6 +61,7 @@ function md(text: string): string {
 		.replace(/\*(.*?)\*/g, '<em>$1</em>')
 		.replace(/\[([^\]]+)\]\(((?:[^()]|\([^()]*\))*)\)/g, '<a href="$2">$1</a>');
 }
+import { imgDims } from '../data/imageDims';
 ---
 
 <Layout title={guide.title} description={guide.description} ogImage={guide.image ?? '/favicon.svg'} ogType="article">
@@ -74,6 +75,8 @@ function md(text: string): string {
 		authorName={AUTHOR_NAME}
 		authorUrl={`${SITE_ORIGIN}/about/`}
 		image={heroImage}
+		imageWidth={imgDims(heroImage)?.w}
+		imageHeight={imgDims(heroImage)?.h}
 		url={pageUrl}
 	/>
 	<BreadcrumbList slot="head" items={breadcrumbItems} />
@@ -103,6 +106,8 @@ function md(text: string): string {
 						alt={guide.imageAlt ?? guide.title}
 						class="mx-auto h-auto max-h-[72vh] w-auto max-w-full"
 						loading="eager"
+						width={imgDims(guide.image)?.w}
+						height={imgDims(guide.image)?.h}
 					/>
 				</div>
 				{guide.imageCredit && (
@@ -132,7 +137,9 @@ function md(text: string): string {
 										alt={section.image.alt}
 										class="mx-auto h-auto max-h-[65vh] w-auto max-w-full"
 										loading="lazy"
-									/>
+						width={imgDims(section.image.src)?.w}
+						height={imgDims(section.image.src)?.h}
+					/>
 								</div>
 								{section.image.credit && (
 									<figcaption class="mx-auto mt-3 max-w-[560px] text-center text-xs leading-relaxed text-[var(--ink)]/45" set:html={md(section.image.credit)} />
@@ -179,7 +186,10 @@ function md(text: string): string {
 						<a href={`/${g.slug}/`} class="work block no-underline">
 							{g.image ? (
 								<figure class="plate m-0">
-									<img src={g.image} alt={g.imageAlt ?? g.title} class="aspect-[4/3] w-full object-cover" loading="lazy" />
+									<img src={g.image} alt={g.imageAlt ?? g.title} class="aspect-[4/3] w-full object-cover" loading="lazy"
+						width={imgDims(g.image)?.w}
+						height={imgDims(g.image)?.h}
+					/>
 								</figure>
 							) : (
 								<div class="placard">
