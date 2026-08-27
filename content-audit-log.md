@@ -1519,3 +1519,106 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "jackson-pollock",
+  "last_audited": "2026-08-27",
+  "published_date": "2026-08-11",
+  "selection_note": "全站47篇仅18篇曾被审计，29篇从未审计过（'last_audited'缺失）。本次任务brief特别强调本站独有的现当代艺术家版权风险核查（dimension 12），故在29篇平级候选里优先选取jackson-pollock——Pollock 1956年去世，是建站计划文档标注的'1955年后去世/绝对不能用作品图'高风险名单成员，适合作为验证配图版权规则执行情况的重点样本。其余28篇仍并列'从未审计'，不因本次选择降低下次优先级。",
+  "article_specific_checklist": [
+    "Life杂志1949年专题报道细节（日期/作者Dorothy Seiberling/摄影师Martha Holmes与Arnold Newman/发行量）是否准确",
+    "1949年全年销售数字（historian Serge Guilbaut统计的35幅画作共$13,870，含Ossorio/Rockefeller/MoMA等具体买家）是否准确",
+    "1950年Namuth拍摄期间感恩节掀桌事件的具体经过与引语（'tumbler of bourbon'/'phony'对骂/'Should I do it now?'）是否逐字准确",
+    "Krasner关于玻璃画创意归属（认为来自Duchamp而非Namuth）这一具体说法是否有真实出处，还是编造的归因",
+    "1956年8月11日车祸死亡的具体细节（时间/地点/乘客Edith Metzger与Ruth Kligman姓名）是否准确"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "1处存疑经独立复核确认为准确，其余均未发现问题",
+      "detail": "WebSearch+curl逐条核对：Life 1949报道细节（日期/作者/摄影师/发行量）与多个独立信源一致；'tumbler of bourbon'/'phony'对骂/'Should I do it now?'/'Now?'引语经kottke.org转引Sarah Boxer《纽约时报》1998年原文逐字匹配；Rosenberg 'an arena in which to act...not a picture but an event'引语与ARTnews 1952年原文匹配；1956年死亡细节（Oldsmobile/Edith Metzger/Ruth Kligman/less than a mile from home）与多个独立信源一致；No. 29 1950作品材质/藏馆信息与National Gallery of Canada藏品描述一致。唯一存疑点：正文称Krasner在Barbara Rose采访中说她认为玻璃画创意来自Duchamp而非Namuth，这与National Gallery of Canada官方藏品页'at the suggestion of photographer friend Hans Namuth'的标准说法及多个独立信源（MDPI学术论文、Open Culture等）直接矛盾，WebSearch多次尝试均未找到独立佐证，列为待独立复核项（见下）。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "7条sources均为一手/学术信源（warholstars.org时间线、kottke转引NYT、National Gallery of Canada藏品页、process.arts学术研讨会记录、Brooklyn Rail），无模糊归因，具体日期/金额/人名密度高。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "内容为1949-1956年历史事件考据，无需要随时间更新的时效性数据；published/updated均为2026-08-11（发布当天），本次审计因内链修复顺带更新updated。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch多组关键词显示SERP由dangerousminds.net/kottke.org/Brooklyn Rail/Tate/npg.si.edu主导，非Wikipedia或thecollector.com/artincontext.org同质化。本文提供的具体1949年销售数字（Guilbaut统计）、Krasner访谈细节、Rosenberg完整引语构成真实增量。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题（一项边界值经比对全站分布判定为系统性模式，未独立复核）",
+      "detail": "title原文64字符，拼站名后渲染76字符。比对全站47篇标题分布（均值71.6字符，含多篇80+甚至95字符），76字符在正常范围内，非单篇缺陷——沿用van-gogh-paintings审计（2026-08-03）已确立的判断标准，未重复spawn独立agent验证这个已有先例的问题类型。canonical自指/单一H1/7节H2+FAQ无跳级/三个schema组件动态生成/3张配图alt文本齐全/robots.txt含AI爬虫规则/sitemap已声明，均正常。"
+    },
+    {
+      "dimension": "GEO审计（99分制11维度）",
+      "status": "未发现问题，自评约90/99（阈值80，达标）",
+      "detail": "权威原文引语16/16、统计数据完整性13/14、可引用性12/13、结构规范性12/12、表达流畅度9/10、语义密度7/8、权威信号6/8（同前几篇一样缺作者credential页）、专业术语6/6、鲁棒性5/5、跨域连接3/4（审计前3条出链0条回链，本次修复后提升）、易懂表达3/3。审计员自评，未使用独立工具复验。"
+    },
+    {
+      "dimension": "AI味扫描",
+      "status": "未发现问题，不适用早期补漏范围",
+      "detail": "published 2026-08-11晚于avoid-ai-writing 2026-08-07强制化时间点，不属于需要补做的早期内容。机械扫描正文：em-dash 0处、en-dash 0处、常见AI高频词（delve/crucial/testament/tapestry/pivotal/vibrant/foster/enhance/underscore/showcase/intricate/interplay/landscape/robust/seamless等）0命中、加粗0处。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "7条sources逐条curl测试：5条200直接通过，gallery.ca默认UA返回403、换真实浏览器UA复测仍403，openpractice.org默认UA返回406、换真实浏览器UA复测变200。gallery.ca虽持续403，但WebSearch多次交叉确认该藏品页内容仍在线且与站内引用描述一致，判定为反爬虫拦截而非真实链接失效，非阻断项。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "确认问题，已修复",
+      "detail": "Painting分类全站24篇（非单例分类，不受跨分类兜底规则约束，自动相关文章轮转窗口理论上可以覆盖到）。但本文3条出链（diego-rivera/andy-warhol/starry-night）之外，grep全站guides.ts确认零篇文章有手动锚文本回链到/jackson-pollock/，是真实孤儿页（正文手动锚文本层面，非只看[slug].astro轮转）。已在andy-warhol一文添加自然回链修复。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "Article/FAQPage/BreadcrumbList三组件均在构建时直接从guide对象字段动态生成，结构上不存在漂移风险，本站已知架构结论。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "涉及人物Jackson Pollock（卒1956）、Lee Krasner（卒1984）、Hans Namuth（卒1990）均为已故历史人物，全文未使用其作品图像（见下方配图维度），酗酒/车祸死亡描写为百科式记述，未渲染成猎奇内容。"
+    },
+    {
+      "dimension": "配图可用性与版权（本站特有专项，本次重点核查）",
+      "status": "未发现问题，正确规避高风险",
+      "detail": "3张配图（jackson-pollock-barn-studio.jpg头图 + jackson-pollock-studio-floor.jpg / jackson-pollock-grave.jpg正文插图）本地文件均存在。逐张查询Wikimedia Commons File API核实许可状态：Pollock-barn.jpg（Dmadeo，CC BY-SA 3.0）、Pollock-Krasner_House_studio_floor.jpg（Rhododendrites，CC BY-SA 4.0）、Pollock-tomb.jpg（Silanoc/derivative by Sp5uhe，CC BY-SA 2.5），三者的摄影师署名与许可版本均与站内imageCredit逐字一致。**关键判定**：Pollock 1956年去世，其画作仍在版权保护期内（建站计划文档'1955年后去世/绝对不能用作品图'高风险名单），三张配图正确地全部选用了工作室外观、工作室地板、墓地这类第三方摄影师拍摄的场所/实物照片，而非Pollock本人画作的复制品——完全规避了本站最高风险的版权红线，是执行'不用作品图、改用地点/实物开放许可照片'规则的正面样本。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "内容涉及酗酒与醉驾致死，均为百科式历史记述而非猎奇/煽动性渲染；无武器/毒品/赌博类目具体操作细节；无误导性标题党。ads.txt正确指向pub-5245502795720653，privacy/404页面存在。"
+    }
+  ],
+  "verification": {
+    "method": "对存疑的Krasner/Duchamp归因发现，spawn独立全新上下文agent复核（未使用WebFetch，改用WebSearch+curl直连bu.edu学术页原文，遵循全局WebFetch禁令）。agent正常完成，全程约142秒，未触发看门狗（无卡死，未使用替代自查）。",
+    "result": "CONFIRMED准确。独立agent找到并直接读取一手信源：Barbara Rose, \"Jackson Pollock at Work: An Interview with Lee Krasner,\" Partisan Review, Vol. 47, No. 1 (1980)，bu.edu数字化OCR页面第91-92页。Krasner原话确认她在场见证Pollock自己决定在玻璃上作画，且'一直认为这个想法来自Duchamp'而非标准说法归因的Namuth。文章正文的措辞与这份一手采访记录的实质内容相符，不构成编造。"
+  },
+  "actions_taken": [
+    "sources[]补一条Barbara Rose/Lee Krasner 1980年Partisan Review采访引用（这条引语准确但此前缺失对应sources条目，属于内容通用教训库L-0816-3复发模式）",
+    "在andy-warhol一文'There are 32 varieties'节的'I want to be a machine'引语段落末尾，新增一句自然桥接句回链/jackson-pollock/（两文共享'评论家命名vs艺术家本人说法'的修辞对照：Rosenberg的'action painting'之于Pollock，Warhol的'我想成为一台机器'之于Warhol；jackson-pollock原文已单向引用andy-warhol这句话，此次补上反向链接），修复孤儿页问题",
+    "jackson-pollock与andy-warhol的updated字段均改为2026-08-27（两篇published字段均已存在，无需git历史回填）",
+    "并发写入隔离：编辑期间另一会话（umberlore-content-publishing）正在guides.ts工作树内新增cristina-kahlo条目（尚未提交）。按feedback_concurrent_shared_file_commit流程，用git show HEAD取干净底稿+Python脚本仅应用本次4处编辑（均验证唯一匹配）+独立临时目录（软链node_modules）单独验证构建通过+git hash-object/update-index只暂存重建后版本，工作树内对方未提交的cristina-kahlo改动全程未被触碰，commit a98b980不含任何对方内容",
+    "npm run build隔离验证通过（63页0 error，独立临时目录，早于对方新增页面）",
+    "commit a98b980并push，umberlore为git连接CF Pages自动部署（无手动deploy hook），curl?cb=绕缓存轮询约45秒内确认两篇文章线上均已生效",
+    "seo_drift.py baseline+compare两篇：均仅1项WARNING（schema内容变化，dateModified/正文引用变化，均为本次预期编辑），无CRITICAL发现",
+    "IndexNow提交/jackson-pollock/+/andy-warhol/（Bing 200/Yandex 200）",
+    "内容发布日志.md追加本条审计记录，标注为审计更新非新发布"
+  ],
+  "seo_score": "title 76字符（比对全站分布判定系统性模式非缺陷）、meta description正常区间、canonical自指、单一H1、schema三组件均有效、alt全部已有、7条外链5条200+2条403(反爬虫非死链)",
+  "geo_score": "自评约90/99（阈值80，达标），跨域连接项因内链修复从3/4有提升空间，未重新整体复验总分",
+  "escalation": null,
+  "pending_for_owen": null,
+  "note_andy_warhol_side_effect": "本条审计连带修改了andy-warhol一文（新增回链句+updated字段），未新建该文的独立审计记录条目，改动内容已完整记录在本条jackson-pollock记录的actions_taken/verification里；andy-warhol自身的last_audited仍保持其上次审计日期不变（本次不算作对andy-warhol的完整13维度审计，只是targeted修复的落点）。"
+}
+```
