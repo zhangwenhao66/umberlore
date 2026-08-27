@@ -2370,7 +2370,7 @@ export const guides: Guide[] = [
     "title": "Andy Warhol: Why His Own Foundation Shut Down Its Authentication Board",
     "description": "Andy Warhol built his silkscreens to be reproduced without him. That decision is why a $20 million lawsuit forced his foundation to shut down its authentication board.",
     "published": "2026-08-06",
-    "updated": "2026-08-11",
+    "updated": "2026-08-27",
     "coreSummary": "Andy Warhol turned to photographic silkscreen printing in 1962 specifically because it let a commercial vendor and his own studio assistants reproduce his designs without him. \"I want to be a machine,\" he told Art News in a November 1963 interview. That same design decision is what made a disputed 1965 self-portrait impossible to defend decades later: after a $20 million lawsuit and more than $7 million in legal bills, the Andy Warhol Foundation dissolved its own 16-year-old Art Authentication Board in 2011 rather than keep ruling on which of his machine-made pictures were real.",
     "image": "/images/andy-warhol-jack-mitchell-portrait.jpg",
     "imageAlt": "Andy Warhol photographed in 1973 with his pet dachshund Archie",
@@ -2380,7 +2380,7 @@ export const guides: Guide[] = [
         "heading": "\"There are 32 varieties\"",
         "body": [
           "Andy Warhol's first solo exhibition of [pop art](/pop-art/) opened at the Ferus Gallery in Los Angeles on 9 July 1962: 32 canvases, each showing a different flavour from Campbell's full 1962 product line. The gallery's director, Irving Blum, asked Warhol why he was painting all 32. Warhol's answer, as Blum told it afterward, was flat: \"There are 32 varieties.\" The canvases were displayed in a single row on narrow ledges, like stock on a grocery shelf, and early critics dismissed the show on exactly those terms, as a set of grocery-store displays rather than paintings.",
-          "Warhol had an explanation ready for why he was working this way at all, and it ran deeper than a joke about soup. In an interview published in Art News in November 1963, he put it in four words: \"The reason I'm painting this way is that I want to be a machine.\" That sentence is usually quoted as a stylistic pose. Read against what happened to his estate five decades later, it reads more like a design brief he actually followed through on.",
+          "Warhol had an explanation ready for why he was working this way at all, and it ran deeper than a joke about soup. In an interview published in Art News in November 1963, he put it in four words: \"The reason I'm painting this way is that I want to be a machine.\" That sentence is usually quoted as a stylistic pose. Read against what happened to his estate five decades later, it reads more like a design brief he actually followed through on. The same gap between a critic's label and an artist's own plainer account of the work shows up on the other side of postwar American painting too: [Jackson Pollock's own description of how he worked](/jackson-pollock/) never uses the phrase \"action painting,\" the term Harold Rosenberg coined for his generation in 1952.",
           "He followed it almost immediately at a larger scale. After Marilyn Monroe died on 5 August 1962, Warhol began the series that became Marilyn Diptych, now in the Tate collection in London. It repeats a single publicity still from the 1953 film Niagara fifty times across two joined canvases: twenty-five in saturated colour on the left panel, twenty-five fading into smudged black and white on the right. A machine does not paint an actress's face once. It repeats a single source image until the repetition itself becomes the subject, which is what the diptych does with an efficiency no single portrait could manage."
         ]
       },
@@ -3397,7 +3397,7 @@ export const guides: Guide[] = [
     "title": "Jackson Pollock: The Film Shoot That Ended Two Years of Sobriety",
     "description": "Two years sober, Jackson Pollock finished a four-weekend film shoot, poured a bourbon, and flipped a Thanksgiving table. He never stopped drinking again.",
     "published": "2026-08-11",
-    "updated": "2026-08-11",
+    "updated": "2026-08-27",
     "coreSummary": "In the fall of 1950, photographer Hans Namuth spent several weekends filming Jackson Pollock paint outdoors and on a sheet of glass at his studio in Springs, Long Island. When the last cold session ended, in the same span of days as that year's Thanksgiving, Pollock came inside, poured himself a bourbon after roughly two years of sobriety, got into a shouting match with Namuth over which of them was the \"phony,\" and turned over the dinner table in front of seated guests. Sources disagree on the exact date, but not on what happened next: Pollock's drinking resumed for good, his 1951 paintings turned darker and sold worse, and he died in a drunk-driving crash nearly six years later.",
     "image": "/images/jackson-pollock-barn-studio.jpg",
     "imageAlt": "The converted barn at the Pollock-Krasner House and Study Center in Springs, New York, the studio Jackson Pollock moved onto the property in 1946 and worked in until his death in 1956.",
@@ -3506,6 +3506,10 @@ export const guides: Guide[] = [
       {
         "label": "The Brooklyn Rail: Painting Pollock",
         "url": "https://brooklynrail.org/2013/11/criticspage/painting-pollock/"
+      },
+      {
+        "label": "Barbara Rose: \"Jackson Pollock at Work: An Interview with Lee Krasner,\" Partisan Review, Vol. 47, No. 1 (1980)",
+        "url": "https://www.bu.edu/partisanreview/books/PR1980V47N1/HTML/files/assets/basic-html/page91.html"
       }
     ]
   },
