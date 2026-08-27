@@ -309,3 +309,47 @@ contact@umberlore.com
 umberlore.com
 
 **Outcome:** independent review agent (fresh context, general-purpose) returned "VERDICT: can send" after independently re-verifying all 9 checks — DNS-dead confirmed via two resolvers, target page still contains the link, topical match confirmed (narrative-for-narrative, not database-for-narrative), recipient confirmed via a primary-source staff profile page (not just inferred email pattern), no duplicate outreach (own-site and cross-site), two-paragraph structure confirmed, no AI-writing tells, and every Frida Kahlo fact in the email traced verbatim to the `frida-kahlo-paintings` guide entry. It also independently confirmed the earlier same-day rejection of this exact link was an oversight. Sent 2026-08-24 via `gmail_send.py --from umberlore` to mkelly@westportlibrary.org, Message ID `1a033fb8dbb043ef`.
+
+## Guest post pitch (2026-08-27 — weekly outreach run)
+
+### Step A follow-up nudges (not new pitches — one-line check-ins on two silent-but-not-yet-4-weeks pitches)
+
+Both follow-ups were single short paragraphs referencing the original send date, not re-arguing the pitch, per task instructions capping this to one follow-up per target and only if no prior follow-up had been sent (checked `guest-post-outreach.json` notes for both — neither had one).
+
+**Follow-up 1 — ARCAblog (information@artcrimeresearch.org), 21 days after the original 2026-08-06 send, zero reply:**
+
+Subject: Re: Guest post idea: the Klimt case where Austria's own restitution committee said no twice, with two different results
+
+Hi, just checking back on the Klimt restitution guest post idea I sent on August 6. No pressure if it's not the right fit, just let me know either way.
+
+Owen Zhang
+contact@umberlore.com
+umberlore.com
+
+**Outcome:** sent 2026-08-27 via `gmail_send.py --from umberlore`, Message ID `1a04347a41e43aa7`.
+
+**Follow-up 2 — Arts, Artists, Artwork (support@artsartistsartwork.com), 11 days after the original 2026-08-16 send, zero reply:**
+
+Subject: Re: Guest Article Query for Arts Artists Artwork
+
+Hi, wanted to check in on the Diego Rivera guest article query I sent on August 16. Happy to adjust the angle or length if that helps, or just let me know if it's not a fit.
+
+Owen Zhang
+contact@umberlore.com
+umberlore.com
+
+**Outcome:** sent 2026-08-27 via `gmail_send.py --from umberlore`, Message ID `1a04347ab939067c`.
+
+### Step D — new channel research (no viable target found this round)
+
+GSC topic source: `fallen-angel-painting` (Alexandre Cabanel, 1847-48), the highest-impression not-yet-pitched page in the position 5-40 band (466 impressions/28 days, position 13.5 per `gsc_query.py umberlore`, up from 251 impressions when it was passed over in the 2026-08-20 run in favor of `st-peters-basilica`). `gustav-klimt` (used twice), `diego-rivera` (used once, plus today's follow-up), `frank-lloyd-wright`, `what-is-a-gargoyle`, and `st-peters-basilica` were excluded as already-used angles.
+
+Channels checked:
+
+- **Kuriositas** (kuriositas.com) — real, active blog (posts through May 2026), has an open "Write for Kuriositas" contributor page covering an "Artists & Their Work" category, and its own 23 April 2026 article on this exact painting ("The Fallen Angel: The Shocking Painting of the Devil that Nearly Destroyed a 24-Year-Old Genius") frames the Academy's reaction as "scathing" and career-threatening — a genuinely differentiated angle would have been available. **Excluded under Step C**: the write-for-us page states explicitly, "We do not accept AI-written articles. Every piece must be 100% your own work." Not pitched, not drafted, per the hard rule.
+- **Dear Art / dearart.net** — surfaced via search with its own "Why was the Fallen Angel painting rejected?" post, but the domain's TLS handshake failed on direct curl (`SSL_ERROR_SYSCALL`) and search snippets describe it as a broad "design, culture & art inspiration magazine & database" spanning graphic design, typography, and general art topics — the same generic grab-bag-topics pattern already documented as a content-farm red flag in this file's earlier entries. Not pursued.
+- **Views on Art Blog** (viewsonartblog.wordpress.com) — has an open contributor page (viewsonartblog@gmail.com) but all indexed content and About-page comment activity dates to 2013 or earlier; no evidence of recent posts. Failed the "genuinely active" bar. Not pursued.
+- **Julian de Medeiros (Substack)** — a real philosophy/fine-art newsletter with a post specifically on this painting, but the post is dated 13 August 2024, over two years old with no visible follow-up activity, and its language echoes (near word-for-word in places) the framing found on artincontext.org, raising an unresolved originality question. Failed the "recent posts within the last few months" bar. Not pursued.
+- **my daily art display** (mydailyartdisplay.uk) — a real, long-running personal art-history blog (author "Jonathan," active since 2011) genuinely on-topic: it has dedicated tags for Alexandre Cabanel, The Fallen Angel, Musée Fabre, and Prix de Rome, and its most recent post is dated 2026-08-25, two days before this run. Read its actual 2014-10-20 post on The Fallen Angel directly (not just search snippets, after an initial WebSearch summary turned out to have conflated the Fallen Angel paragraph with the following paragraph about a different painting, John the Baptist — verified against the live page before treating anything as a factual error, per this repo's standing rule against pitching a "correction" built on a misread). The verified text quotes a documented Academy critique via Sybille Bellamy-Brown's book on Cabanel ("The movement is wrong, the draughtsmanship imprecise, the execution deficient") that is consistent with, not contradicted by, UmberLore's own sourcing — so no correction angle exists here. Checked for a guest-post or contact channel: no `/contact/`, `/contact-us/`, or `/feedback/` page exists (all return 404), and no publicly listed email address was found via search; the only visible outreach surface is blog comments, which this repo's outreach model treats as too indirect and unverifiable to substitute for an email contact. Not pursued — logged as a good-fit target with no viable contact channel, not as an Owen escalation (no CAPTCHA, no personal-judgment decision, just a missing public contact).
+
+No pitch drafted or sent from Step D this round. This is a legitimate "nothing viable found" outcome per task instructions, not a skipped step — five real channels were checked and rejected on documented grounds (one AI-content ban, one unreachable/generic-farm pattern, one dormant, one stale, one with no contact channel).

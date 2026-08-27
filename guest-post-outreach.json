@@ -102,7 +102,14 @@
         "name": "ARCAblog (Association for Research into Crimes Against Art)",
         "url": "https://art-crime.blogspot.com/ ，联系页 https://www.artcrimeresearch.org/contact-us/",
         "status": "sent 2026-08-06",
-        "notes": "2026-08-04曾判定'no open channel found'，本轮WebSearch+Browser pane找到真实开放渠道并成功核实、起草、复核、发送。详见上方主渠道条目里的更新说明，此处仅作为本轮新渠道清单的记录。Message ID 19fd7279d5954967。"
+        "notes": "2026-08-04曾判定'no open channel found'，本轮WebSearch+Browser pane找到真实开放渠道并成功核实、起草、复核、发送。详见上方主渠道条目里的更新说明，此处仅作为本轮新渠道清单的记录。Message ID 19fd7279d5954967。",
+        "verified_status": {
+          "checked_on": "2026-08-27",
+          "classification": "still_pending",
+          "evidence": "gmail_send.py list --query 'from:information@artcrimeresearch.org' and --query 'from:artcrimeresearch.org' both returned [] (no reply in 21 days). WebSearch (site:art-crime.blogspot.com Klimt restitution) found only pre-existing 2012-2013 posts about the Bloch-Bauer case, nothing matching the pitched restitution-committee-contradiction angle and no umberlore.com mention. dataforseo_query.py backlinks umberlore.com returned exactly one referring domain (stackscope.dev, DR 361, nofollow, first seen 2026-08-25) -- artcrimeresearch.org/art-crime.blogspot.com does not appear. Blog itself confirmed still active in 2026 (recent posts on 2026 postgraduate programmes and a January 2026 theft case) via WebSearch, so this is a live, non-zombie target, not a dead channel. 21 days of silence is short of the 4-week no_response_declined threshold, so classified still_pending rather than declined.",
+          "followed_up_once": true,
+          "follow_up_sent": "2026-08-27, Message ID 1a04347a41e43aa7, one-line check-in referencing the original pitch, not re-argued. No prior follow-up existed in this file before this one."
+        }
       },
       {
         "name": "Art Herstory",
@@ -171,7 +178,14 @@
         "name": "Arts, Artists, Artwork",
         "url": "https://artsartistsartwork.com/ ; guidelines https://artsartistsartwork.com/contribute-to-our-art-community-guest-article-guidelines/",
         "status": "sent 2026-08-16",
-        "notes": "真实且活跃的艺术画廊/博客站(同时售卖原创艺术品),2026年内多篇艺术史文章(Duchamp 2/27, Group of Seven 2/21, Kandinsky 'The First Abstract Painter?' 1/2), Facebook页面搜索时活跃于1小时内,满足'genuine recent activity'门槛。投稿指南要求邮件至support@artsartistsartwork.com,主题必须精确为'Guest Article Query for Arts Artists Artwork',正文需说明选题/作者适配性/拟推广站点(带反链)/并点名提及一篇已读博客文章。指南页本身有Cloudflare人机验证挡住(未尝试绕过,完成CAPTCHA属禁止操作),全部指南细节来自WebSearch摘要引用的页面文字。选题:Diego Rivera洛克菲勒中心壁画(Man at the Crossroads)被毁事件,对比同年仍完好保留、后被列为国家历史地标的Detroit Industry Murals,完全基于已发布的diego-rivera文章。刻意避开该站已发表的Kandinsky'第一位抽象画家'选题(与UmberLore自己的abstract-art-first-painting文章话题重叠,尊重对方'不要投已覆盖话题'的规则)。"
+        "notes": "真实且活跃的艺术画廊/博客站(同时售卖原创艺术品),2026年内多篇艺术史文章(Duchamp 2/27, Group of Seven 2/21, Kandinsky 'The First Abstract Painter?' 1/2), Facebook页面搜索时活跃于1小时内,满足'genuine recent activity'门槛。投稿指南要求邮件至support@artsartistsartwork.com,主题必须精确为'Guest Article Query for Arts Artists Artwork',正文需说明选题/作者适配性/拟推广站点(带反链)/并点名提及一篇已读博客文章。指南页本身有Cloudflare人机验证挡住(未尝试绕过,完成CAPTCHA属禁止操作),全部指南细节来自WebSearch摘要引用的页面文字。选题:Diego Rivera洛克菲勒中心壁画(Man at the Crossroads)被毁事件,对比同年仍完好保留、后被列为国家历史地标的Detroit Industry Murals,完全基于已发布的diego-rivera文章。刻意避开该站已发表的Kandinsky'第一位抽象画家'选题(与UmberLore自己的abstract-art-first-painting文章话题重叠,尊重对方'不要投已覆盖话题'的规则)。",
+        "verified_status": {
+          "checked_on": "2026-08-27",
+          "classification": "still_pending",
+          "evidence": "gmail_send.py list --query 'from:support@artsartistsartwork.com' and --query 'from:artsartistsartwork.com' both returned [] (no reply in 11 days). WebSearch (site:artsartistsartwork.com Diego Rivera) surfaced no page on the domain about Diego Rivera at all -- either the pitched piece was never accepted/published, or it isn't indexed yet. Direct curl to artsartistsartwork.com (search page and homepage) returned HTTP 403 both times (likely the same Cloudflare challenge noted at send time), so a live-page check could not be completed directly; WebSearch is the best available signal and shows no trace of a published Rivera piece. dataforseo_query.py backlinks umberlore.com returned exactly one referring domain (stackscope.dev, nofollow, first seen 2026-08-25) -- artsartistsartwork.com does not appear. The site itself is confirmed still active (WebSearch surfaced a June 2026 blog post commissioned by CPSA magazine), so not a dead target. 11 days of silence falls in the 10-14+ day follow-up window but well short of the 4-week no_response_declined threshold, so classified still_pending.",
+          "followed_up_once": true,
+          "follow_up_sent": "2026-08-27, Message ID 1a04347ab939067c, one-line check-in referencing the original send date, not re-argued. No prior follow-up existed in this file before this one."
+        }
       }
     ],
     "sent": [
@@ -246,6 +260,57 @@
     "skipped": [
       "DailyArt Magazine / HistoryMedieval / ArtDHope Foundation / ARCAblog / Arts, Artists, Artwork — all previously sent (2026-08-04, 2026-08-06, 2026-08-16); DailyArt Magazine and HistoryMedieval re-verified this round per Step B (see step_b_backlink_verification above), not re-contacted.",
       "Art Herstory / ArchDaily / The Magazine Antiques / Hyperallergic / Art in Context / architecture write-for-us mill sites — previously judged real-but-poor-fit (2026-08-04, 2026-08-06), not re-researched this round beyond confirming the same mill pattern recurs (II Can DM, Strange Buildings)."
+    ],
+    "owen_todo": []
+  },
+  {
+    "date": "2026-08-27",
+    "site": "umberlore",
+    "run_type": "weekly trafficsite-guest-post-outreach",
+    "step_a_backlink_verification": {
+      "notes": "Checked the two oldest sent-but-unverified pitches (ARCAblog, 21 days old; Arts, Artists, Artwork, 11 days old — both now old enough per this round's task instructions). Full evidence recorded as verified_status fields directly on each channel object above (ARCAblog inside the 2026-08-06 entry's new_channels_researched array; Arts, Artists, Artwork inside the 2026-08-16 entry's new_channels_researched array). Summary: both classified still_pending (no reply via gmail_send.py list, no published article/backlink found via WebSearch, no referring-domain match in a fresh dataforseo_query.py backlinks umberlore.com pull which returned only stackscope.dev/nofollow — neither target present). Both targets are confirmed still-active, non-zombie sites, so not classified no_response_declined (that requires 4+ weeks of silence or an explicit rejection; ARCAblog at 21 days and Arts Artists Artwork at 11 days are both short of that). Both qualified for the one-time follow-up nudge (10-14+ days silent, zero reply, no prior follow-up recorded in this file) and both were sent: ARCAblog Message ID 1a04347a41e43aa7, Arts Artists Artwork Message ID 1a04347ab939067c. Each channel object now carries followed_up_once: true so a future run does not send a second nudge."
+    },
+    "backlog_check": "Read outreach-drafts.md and guest-post-outreach.json in full before starting. The most recent entry (2026-08-20) left a Sartle pitch marked both 'drafted, not sent' in its own drafted_not_sent block and 'pitch sent' with a Message ID inline in the channels_researched note for the same target — an internal inconsistency in that prior entry, not something this run's task asked to resolve, so left as-is and not re-sent or re-drafted this round.",
+    "gsc_check": "Ran python3 gsc_query.py umberlore (last 28 days + week-over-week). Selected fallen-angel-painting (Alexandre Cabanel, 1847-48) as this round's topic source: highest-impression page in the position 5-40 band not yet used in any prior pitch (466 impressions/28 days, position 13.5), up sharply from the 251 impressions it had when it was passed over in favor of st-peters-basilica during the 2026-08-20 run. gustav-klimt (used twice), diego-rivera (used once), frank-lloyd-wright, what-is-a-gargoyle, and st-peters-basilica were excluded as already-used angles. Other in-band candidates not yet used (saturn-devouring-his-son pos 29.2/132 impr, abstract-art-first-painting pos 25.0/129 impr, the-broken-column pos 24.8/55 impr and a +53 WoW gainer, michelangelo-sistine-chapel pos 30.7/48 impr and a +48 WoW gainer, aztec-art pos 35.9/50 impr) were noted as candidates for a future run if fallen-angel-painting outreach doesn't pan out further.",
+    "channels_researched": [
+      {
+        "name": "Kuriositas",
+        "url": "https://www.kuriositas.com/ ; write-for-us page https://www.kuriositas.com/p/feedback.html",
+        "status": "excluded — explicit AI-content ban (Step C)",
+        "notes": "Real, currently active blog (posts through May 2026, contact taliesyn30@aol.com/RJ Evans), and its own 23 April 2026 article on this exact painting ('The Fallen Angel: The Shocking Painting of the Devil that Nearly Destroyed a 24-Year-Old Genius') frames the Academy reaction as career-threatening and 'scathing' — read the actual live page directly, not just a search snippet, to confirm this before considering a correction angle. Excluded before any drafting: the write-for-us page states verbatim, 'We do not accept AI-written articles. Every piece must be 100% your own work.' Logged per the hard exclusion rule in Step C; not drafted, not pitched."
+      },
+      {
+        "name": "Dear Art (dearart.net)",
+        "url": "https://dearart.net/cultural/why-was-the-fallen-angel-painting-rejected/",
+        "status": "real but poor fit — not pursued",
+        "notes": "Surfaced via search with its own post on this painting, but direct curl to the domain failed with a TLS handshake error (SSL_ERROR_SYSCALL) and could not be retried successfully within this run's time budget. Search-engine descriptions of the site call it a broad 'design, culture & art inspiration magazine & database' spanning graphic design, typography, fine art, and general design topics — the same generic grab-bag-topics content-farm pattern already documented and rejected elsewhere in this file (FangWallet, architecture write-for-us mills). Not pursued."
+      },
+      {
+        "name": "Views on Art Blog",
+        "url": "https://viewsonartblog.wordpress.com/",
+        "status": "real but poor fit — not pursued (dormant)",
+        "notes": "Has an open contributor invitation (viewsonartblog@gmail.com), but every indexed post and About-page comment dates to 2013 or earlier. No evidence of any activity in roughly a decade. Fails the genuinely-active quality bar. Not pursued."
+      },
+      {
+        "name": "Julian de Medeiros (Substack newsletter)",
+        "url": "https://julianphilosophy.substack.com/p/the-fallen-angel",
+        "status": "real but poor fit — not pursued (stale)",
+        "notes": "Real fine-art newsletter with a post specifically about this painting, but the post is dated 13 August 2024 (over two years old) with no visible recent activity on the account, failing the 'recent posts within the last few months' bar. Its phrasing about the painting also echoes text found on artincontext.org closely enough to raise an unresolved originality question, an additional reason not to build a pitch around this post. Not pursued."
+      },
+      {
+        "name": "my daily art display (mydailyartdisplay.uk)",
+        "url": "https://mydailyartdisplay.uk/ ; relevant post https://mydailyartdisplay.uk/2014/10/20/",
+        "status": "good fit, no viable contact channel found — not pursued",
+        "notes": "Real, long-running personal art-history blog (author signs as 'Jonathan,' active since 2011, most recent post dated 2026-08-25, two days before this run) with dedicated tags for Alexandre Cabanel, The Fallen Angel, Musée Fabre, and Prix de Rome — genuinely on-topic. A WebSearch summary of its 2014-10-20 Fallen Angel post initially looked like it contained a factual error (claiming the painting was 'well received' by the Academy and later 'bought by the French State'), which would have contradicted UmberLore's own sourcing. Read the live page directly before treating this as a correction angle, per this repo's standing rule against building a pitch on an unverified WebFetch/WebSearch snippet: the claims in the search summary actually describe the following year's different painting (John the Baptist, 1849), not The Fallen Angel. The verified text on The Fallen Angel itself quotes a documented Academy critique via Sybille Bellamy-Brown's book on Cabanel ('The movement is wrong, the draughtsmanship imprecise, the execution deficient'), which is consistent with, not contradicted by, UmberLore's own account of a displeased, startled Academy — so no correction angle exists here after verification. Checked for a guest-post or contact channel: /contact/, /contact-us/, and /feedback/ all return 404, and no publicly listed email address was found via search (only a masked address referenced in a third-party interview page that itself returned 403). The only visible outreach surface is blog comments on the site itself, which this repo's outreach model treats as too indirect to substitute for a verifiable email contact. Not an Owen escalation (no CAPTCHA, no personal-judgment call) — logged as a good-fit target worth re-checking in a future run if a contact channel surfaces."
+      }
+    ],
+    "sent": [],
+    "drafted_not_sent": [],
+    "skipped": [
+      "DailyArt Magazine / HistoryMedieval / ArtDHope Foundation — previously classified no_response_declined (2026-08-20), not re-contacted.",
+      "ARCAblog / Arts, Artists, Artwork — re-verified this round per Step A (see step_a_backlink_verification above); both received a one-time follow-up nudge, not a re-pitch.",
+      "Sartle — pitch already sent 2026-08-20 (Message ID 1a01f3aeec74b6e9 per that entry's notes), not re-contacted.",
+      "Baroque Lifestyle / II Can DM / Strange Buildings / History Myths Debunked — previously judged real-but-poor-fit (2026-08-20), not re-researched this round."
     ],
     "owen_todo": []
   }
