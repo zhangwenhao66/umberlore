@@ -75,37 +75,41 @@
     "submitted_date": "2026-08-03",
     "last_submitted_date": "2026-08-22",
     "verified_status": "pending",
-    "last_checked_date": "2026-08-24",
+    "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection",
-    "note": "2026-08-24: discovered date 变为 19 Aug（账龄5天，未满14天阈值），已呈现 Blocked（has issues）迹象，早期即已出现，值得关注是否会持续"
+    "note": "2026-08-24: discovered date 变为 19 Aug（账龄5天，未满14天阈值），已呈现 Blocked（has issues）迹象，早期即已出现，值得关注是否会持续 | 2026-08-28: Discovered but not crawled，discovered 19 Aug，账龄9天，未满14天已呈现issues状态"
   },
   "https://umberlore.com/edvard-munch-the-scream/": {
     "submitted_date": "2026-08-03",
     "last_submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "last_checked_date": "2026-08-24",
+    "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection",
-    "note": "2026-08-24: 仍为 Blocked（has issues preventing indexation），discovered 04 Aug账龄20天，持续未抓取"
+    "note": "2026-08-24: 仍为 Blocked（has issues preventing indexation），discovered 04 Aug账龄20天，持续未抓取 | 2026-08-28: Discovered but not crawled，discovered 22 Aug（较此前记录的04 Aug偏移），账龄6天"
   },
   "https://umberlore.com/frida-kahlo-paintings/": {
     "submitted_date": "2026-08-04",
     "last_submitted_date": "2026-08-21",
-    "verified_status": "pending",
-    "last_checked_date": "2026-08-24",
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection",
-    "note": "2026-08-24: 仍为 Blocked（has issues preventing indexation），discovered 07 Aug账龄17天，持续未抓取"
+    "note": "2026-08-24: 仍为 Blocked（has issues preventing indexation），discovered 07 Aug账龄17天，持续未抓取 | 2026-08-28: Discovered but not crawled，discovered 07 Aug，账龄21天"
   },
   "https://umberlore.com/sagrada-familia/": {
     "submitted_date": "2026-08-04",
     "last_submitted_date": "2026-08-22",
-    "verified_status": "pending",
-    "last_checked_date": "2026-08-23",
-    "verified_method": "bwt_url_inspection"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-08-28",
+    "verified_method": "bwt_url_inspection",
+    "note": "2026-08-28: Discovered but not crawled，discovered 07 Aug，账龄21天"
   },
   "https://umberlore.com/starry-night/": {
     "submitted_date": "2026-08-04",
     "last_submitted_date": "2026-08-23",
-    "verified_status": "pending"
+    "verified_status": "verified_indexed",
+    "last_checked_date": "2026-08-28",
+    "verified_method": "bwt_url_inspection",
+    "note": "2026-08-28: Indexed successfully，1条SEO/GEO issue（Meta Description too long or too short）"
   },
   "https://umberlore.com/saturn-devouring-his-son/": {
     "submitted_date": "2026-08-05",
