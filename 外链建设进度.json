@@ -2,44 +2,62 @@
   "quora": [
     {
       "date": "2026-08-03",
+      "site": "umberlore.com",
       "target_page": "https://umberlore.com/what-is-a-gargoyle/",
-      "question_url": "https://www.quora.com/What-is-a-gargoyle-chimera/answer/Owen-Zhang-161",
+      "question_url": "https://www.quora.com/What-is-a-gargoyle-chimera",
       "question_title": "What is a gargoyle chimera?",
+      "answer_url": "https://www.quora.com/What-is-a-gargoyle-chimera/answer/Owen-Zhang-161",
+      "status": null,
       "notes": "UmberLore首次外链建设。发布时该问题仅3个真实答案(另有3条被Quora自动折叠，标记为低质量)，现有答案都停留在'gargoyle是滴水兽/chimera是希腊怪物'的字典式泛泛定义，没有一条真正回答'gargoyle chimera'这个具体术语的由来、也没提到巴黎圣母院这个几乎所有人问这个问题时脑子里想的具体对象。以站内文章的gargoyle机械定义(有排水槽才算)、Viollet-le-Duc和Lassus 1843-1864年修复期间新增的Galerie des Chimères、雕刻师Victor Pyanet、University of Chicago Press引述Michael Camille研究原话为骨架，核心论点是巴黎圣母院最著名的那批'滴水兽'其实是19世纪的chimera装饰雕像，完全没有排水功能。额外用WebSearch找到站内原文没有的真实增量事实：那尊最出名、每张巴黎明信片都有的托腮沉思像有具体名字叫Le Stryge(得名自中世纪传说里的吸血怪物)，它从众多雕像里脱颖而出成为巴黎地标符号，直接原因是版画家Charles Meryon 1853年(雕像装上没几年后)将其俯瞰城市天际线的形象刻成版画广为流传——让它出名的是那幅版画而不是石雕本身。过humanizer skill检查，确认无破折号、无三段式列举、无负向排比结构。用Quora Add Link功能(Cmd+K)插入真实超链接，锚文本'here'，指向目标页面。已直接发布成功(非Space类问题)，发布后用javascript_tool核实渲染页面上确实是<a href>真实超链接。"
     },
     {
       "date": "2026-08-06",
+      "site": "umberlore.com",
       "target_page": "https://umberlore.com/diego-rivera/",
-      "question_url": "https://www.quora.com/In-1932-Diego-Riveras-Man-at-the-Crossroads-was-painted-for-a-wealthy-New-Yorker-Due-to-its-political-message-the-mural-caused-a-major-controversy-and-the-man-had-it-destroyed-What-future-Vice-President-was-this/answer/Owen-Zhang-161",
+      "question_url": "https://www.quora.com/In-1932-Diego-Riveras-Man-at-the-Crossroads-was-painted-for-a-wealthy-New-Yorker-Due-to-its-political-message-the-mural-caused-a-major-controversy-and-the-man-had-it-destroyed-What-future-Vice-President-was-this",
       "question_title": "In 1932, Diego Rivera's \"Man at the Crossroads\" was painted for a wealthy New Yorker. Due to its political message, the mural caused a major controversy and the man had it destroyed. What future Vice President was this?",
+      "answer_url": "https://www.quora.com/In-1932-Diego-Riveras-Man-at-the-Crossroads-was-painted-for-a-wealthy-New-Yorker-Due-to-its-political-message-the-mural-caused-a-major-controversy-and-the-man-had-it-destroyed-What-future-Vice-President-was-this/answer/Owen-Zhang-161",
+      "status": null,
       "notes": "发布时该问题仅1个真实答案，人物/画面描述正确(Nelson Rockefeller)但把整个事件简化成'洛克菲勒下令销毁'，没提到Rivera本人拒绝修改、洛克菲勒仍支付全款、覆盖画布数月后才拆除、以及Rivera事后靠影像资料在墨西哥城重绘全幅的完整过程，判定为方向对但缺乏关键情节的空白，回答开头点名认可现有答案再补充。以站内文章骨架撰写(1933年4月《纽约世界电讯报》指控壁画是反资本主义宣传后，小洛克菲勒去信要求Rivera把列宁肖像换成无名面孔，Rivera书面回绝原话'宁愿整幅构图被彻底摧毁也不愿阉割它'，并提出用林肯肖像平衡构图作为折中方案，洛克菲勒未采纳；洛克菲勒中心仍支付Rivera全额酬金，用画布罩住未完成壁画数月，1934年2月未经事先公开通知直接派工人整幅凿除；Rivera凿除前已拍照存档，之后凭这些照片在墨西哥城原样重绘整幅构图，改名为《宇宙的支配者》，是今天仍悬挂展出的版本)。过humanizer skill检查，确认无破折号、无三段式列举；初稿有一处'It's not X, it's Y'负向排比已改写。用Quora Add Link功能(Cmd+K)插入真实超链接，锚文本'here'，指向目标页面。该问题不属于任何Space，提交后直接发布成功，credential选择默认'Business Communications Researcher'。发布后用javascript_tool核实DOM中确实是<a href>真实超链接指向https://umberlore.com/diego-rivera/。"
     },
     {
       "date": "2026-08-12",
+      "site": "umberlore.com",
       "target_page": "https://umberlore.com/mandala-art/",
-      "question_url": "https://www.quora.com/Why-are-sand-mandalas-destroyed/answer/Owen-Zhang-161",
+      "question_url": "https://www.quora.com/Why-are-sand-mandalas-destroyed",
       "question_title": "Why are sand mandalas destroyed?",
+      "answer_url": "https://www.quora.com/Why-are-sand-mandalas-destroyed/answer/Owen-Zhang-161",
+      "status": null,
       "notes": "发布时该问题0答案。以站内文章骨架撰写(Smithsonian沙坛城仪式、2002 Sackler Gallery消散、2014达赖喇嘛拉达克亲自主持)。额外WebSearch找到2026年3月El Paso Museum of History意外损坏事件的增量事实。过humanizer+avoid-ai-writing自查。用Quora Add Link功能(Cmd+K)插入真实超链接，全程只填URL字段不碰Text字段，发布前DOM核实class为span link。已直接发布成功(非Space类问题)，发布后javascript_tool核实DOM中确实是<a href>真实超链接指向https://umberlore.com/mandala-art/。"
     },
     {
       "date": "2026-08-18",
+      "site": "umberlore.com",
       "target_page": "https://umberlore.com/mayan-art/",
-      "question_url": "https://www.quora.com/Do-you-believe-more-Mayan-sites-with-murals-like-Bonampak-will-be-uncovered/answer/Owen-Zhang-161",
+      "question_url": "https://www.quora.com/Do-you-believe-more-Mayan-sites-with-murals-like-Bonampak-will-be-uncovered",
       "question_title": "Do you believe more Mayan sites with murals like Bonampak will be uncovered?",
+      "answer_url": "https://www.quora.com/Do-you-believe-more-Mayan-sites-with-murals-like-Bonampak-will-be-uncovered/answer/Owen-Zhang-161",
+      "status": null,
       "notes": "发布时该问题0答案（提问本身直接点名Bonampak，与新文章主题高度契合）。以站内文章骨架撰写（1946年两位拉坎冬玛雅向导Acasio Chan和José Pepe Chambor带美国摄影师Giles Healey找到该遗址、壁画约公元790年绘制、内容包含献祭仪式/战斗/俘虏施刑与献祭/庆祝舞蹈四个场景、彻底推翻此前J. Eric S. Thompson主导的'和平祭司天文学家'学界共识；281个壁画人物中约三分之一有名字题刻、另有约十分之一题刻位置刻意留白；2010年在施刑场景下方发掘出一座无头男性墓葬身份至今未解；壁画记录项目负责人Heather Hurst根据面部彩绘与服饰重新鉴定一名此前被长期认为是男性王位继承人的人物实为女性）。额外用WebSearch找到站内原文没有的真实增量事实：2018年PACUNAM LiDAR Initiative对危地马拉Petén雨林2144平方公里区域做的单次激光雷达测绘，发现超过61000处此前未知的人工建筑遗迹，该研究发表于Science期刊，用以回答问题本身'是否还会有更多遗址被发现'这一核心提问。过humanizer+avoid-ai-writing双重检查（无破折号、无AI高频词）。用Quora Add Link功能(Cmd+K)插入真实超链接，锚文本'here'，指向mayan-art页面，全程只填URL字段。该问题不属于任何Space，提交后直接发布成功，credential选择默认'Business Communications Researcher'。发布前用javascript_tool核实编辑器DOM中该span确实是class=\"span link\"，发布后再次核实渲染页面DOM中确实是<a href=\"https://umberlore.com/mayan-art/\">here</a>真实超链接，非纯文本。"
     },
     {
       "date": "2026-08-21",
+      "site": "umberlore.com",
       "target_page": "https://umberlore.com/aboriginal-art/",
-      "question_url": "https://www.quora.com/Why-are-dot-paintings-marketed-with-such-a-strong-connection-to-Aboriginal-culture-if-theyre-a-relatively-modern-invention/answer/Owen-Zhang-161",
+      "question_url": "https://www.quora.com/Why-are-dot-paintings-marketed-with-such-a-strong-connection-to-Aboriginal-culture-if-theyre-a-relatively-modern-invention",
       "question_title": "Why are dot paintings marketed with such a strong connection to Aboriginal culture if they're a relatively modern invention?",
+      "answer_url": "https://www.quora.com/Why-are-dot-paintings-marketed-with-such-a-strong-connection-to-Aboriginal-culture-if-theyre-a-relatively-modern-invention/answer/Owen-Zhang-161",
+      "status": null,
       "notes": "发布时该问题仅1个真实答案(Yrrag Drof,2026年6月，讲述1950s-60s Alice Springs女性起源说)，未提供文章核心的1971年Papunya校园壁画事件与dot技法产生的直接因果关系，判定为真实内容空白，按SKILL.md放宽标准使用，回答中明确点名回应该答案(先说明这是与之不同但同样有据可查的起点，而非否定原答案)。以站内文章骨架撰写(1971年Papunya校方教师Geoffrey Bardon注意到学生在地上画的圆点线条图案与仪式沙画相同，鼓励学生画到校墙上；长者判断题材过于重要不宜由儿童处理接手项目，Kaapa Tjampitjinpa带领1971年6-8月绘制Honey Ant Dreaming壁画；首版用仪式用赭石红黄黑配色画成后被部分长者认为泄露了太多限制性内容，被重画两次；1974年政府维修人员将壁画整面涂掉，National Gallery of Victoria策展人Judith Ryan称之为cultural vandalism；点画技法正是1973-1975年间作为应对方案直接从这场冲突中发展出来——用点覆盖遮盖底下的神圣内容，使艺术家既能继续卖画给外部人又不泄露没有仪式资格看到内容的人)。过humanizer+avoid-ai-writing双重检查：初稿worth having on record too属vague endorsement模式，已用双击选词改写为a documented one too；全文无破折号、无AI高频词。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向aboriginal-art页面,全程只填URL字段。已直接发布成功(非Space类问题),发布前用javascript_tool核实编辑器DOM中该span确实是class=\"span link\"(非link_pending),发布后再次核实渲染页面DOM中确实是<a href>真实超链接指向https://umberlore.com/aboriginal-art/,锚文本为here。"
     },
     {
       "date": "2026-08-23",
+      "site": "umberlore.com",
       "target_page": "https://umberlore.com/starry-night/",
-      "question_url": "https://www.quora.com/Does-the-Starry-Night-depict-Vincent-van-Goghs-view-from-the-Saint-Paul-de-Mausole-asylum/answer/Owen-Zhang-161",
+      "question_url": "https://www.quora.com/Does-the-Starry-Night-depict-Vincent-van-Goghs-view-from-the-Saint-Paul-de-Mausole-asylum",
       "question_title": "Does the Starry Night depict Vincent van Gogh's view from the Saint-Paul de Mausole asylum?",
+      "answer_url": "https://www.quora.com/Does-the-Starry-Night-depict-Vincent-van-Goghs-view-from-the-Saint-Paul-de-Mausole-asylum/answer/Owen-Zhang-161",
+      "status": null,
       "notes": "发布时仅2个笼统答案(均只说全是想象,未提真实天文细节)。以站内文章MoMA官方记录+Van Gogh 1889年5-6月致Theo信件原文+Van Gogh Museum确认该星为金星为骨架。过humanizer+avoid-ai-writing双重检查。Quora Add Link插入真实超链接锚文本here,已用javascript_tool核实DOM为真实<a href>。"
     }
   ],
