@@ -6169,5 +6169,137 @@ export const guides: Guide[] = [
         "url": "https://jackalopemagazine.com/2013/10/23/qa-cristina-kahlo/"
       }
     ]
+  },
+
+  {
+    "slug": "famous-portraits",
+    "category": "Painting",
+    "title": "Famous Portraits: What the Provenance Records Show",
+    "description": "Three famous portraits carry a disputed detail: a cross conservators can't date, a Salon scandal, and two models the public still misreads as a married couple.",
+    "published": "2026-08-28",
+    "updated": "2026-08-28",
+    "coreSummary": "Three canonical portraits each carry a claim about who's in them or how they were made that museum and archive records complicate. Las Meninas (1656) shows Diego Velázquez wearing the red cross of the Order of Santiago, an honor he did not receive until November 1659, three years after the canvas was finished, and he died the following August. The traditional account, traced to Antonio Palomino's 1724 biography, holds that King Philip IV ordered the cross added after Velázquez's death and may have painted it himself. But the Museo del Prado's own 1984 technical examination, and Carmen Garrido's later radiographic study, found no separate paint layer where the cross sits, the kind of evidence a later addition would be expected to leave. Madame X (1883–84) shows John Singer Sargent's uncommissioned portrait of Virginie Amélie Avegno Gautreau, whose slipped shoulder strap drew enough outrage at the 1884 Paris Salon that Sargent repainted it onto her shoulder and kept the canvas for more than thirty years before selling it to the Metropolitan Museum in January 1916 for £1,000, writing to the museum's director that he supposed it was \"the best thing I have done.\" And American Gothic (1930) depicts, per the Art Institute of Chicago's own catalogue entry, \"a farmer and his daughter,\" not husband and wife as generations of viewers have assumed. Grant Wood modeled the pair on his sister Nan and his dentist, Dr. Byron McKeeby, who posed separately in his studio.",
+    "image": "/images/famous-portraits-las-meninas.jpg",
+    "imageAlt": "Diego Velázquez's 1656 painting Las Meninas, showing the Infanta Margarita Teresa surrounded by her ladies-in-waiting, with Velázquez himself at a large canvas on the left and a mirror on the back wall reflecting King Philip IV and Queen Mariana.",
+    "imageCredit": "[Las Meninas](https://commons.wikimedia.org/wiki/File:Velazquez-Meninas.jpg), Diego Velázquez, 1656, Museo del Prado, public domain",
+    "sections": [
+      {
+        "heading": "Why \"famous portrait\" hides more than it shows",
+        "body": [
+          "\"Famous portrait\" sounds like a settled category: a face, a name, a museum wall label. The three pictures below are as famous as portraits get, and each one carries a specific, checkable claim that turns out to be more complicated than the label suggests.",
+          "None of this is throwaway trivia. [This site's look at Girl with a Pearl Earring found the Mauritshuis stating outright that its most famous painting \"is not a portrait,\" but a tronie, a study of an invented type rather than a commissioned likeness](/famous-paintings/), a reminder that even the category label isn't as stable as it looks. The three works here are unambiguously portraits of specific, named people by any definition. What's unstable is something else: a mark on the canvas whose date conservators can't agree on, a scandal that forced a repaint decades before the picture reached the museum that now owns it, and a pair of models whose actual relationship the owning institution has to correct in its own catalogue entry."
+        ]
+      },
+      {
+        "heading": "Las Meninas: was the cross painted in after Velázquez died?",
+        "body": [
+          "Diego Velázquez painted Las Meninas in 1656. The canvas is enormous for a court picture, 318 by 276 centimeters, and the Museo del Prado in Madrid has owned it since the museum's founding. It shows the five-year-old Infanta Margarita Teresa at the center, flanked by two of her meninas (ladies-in-waiting) who have been identified as Isabel de Velasco and María Agustina Sarmiento, the latter kneeling to offer the princess a drink from a small red cup. Velázquez himself stands at a large canvas to the left, brush in hand, looking out past the viewer. A small mirror on the back wall reflects the upper bodies of King Philip IV and Queen Mariana. They appear to be standing roughly where the viewer stands, the position the composition seems to invite everyone, viewer included, to occupy.",
+          "Velázquez painted himself wearing a red cross on his chest, the insignia of the Order of Santiago. The timing is the problem: he was not admitted to the Order until November 1659, three years after Las Meninas was finished, and he died the following year, in August 1660. Whatever that cross records, it can't record something true at the moment the rest of the canvas was painted.",
+          "The traditional explanation comes from Antonio Palomino, a painter and court chronicler whose 1724 biographical dictionary El museo pictórico y escala óptica is one of the earliest and most-cited sources on Velázquez's life. Palomino's account, as later scholarship has summarized it, holds that the cross was painted onto the canvas after Velázquez's death, on the order of Philip IV, and that some accounts of the time held the king painted it himself, with his own hand, as a posthumous honor to a court painter the Order had been slow to admit.",
+          "That story has been repeated for three centuries, but the Prado's own conservators have complicated it. When the museum carried out a major cleaning and technical examination of Las Meninas in 1984, led by the conservator John Brealey and involving specialists including José María Cabrera and Gridley McKim-Smith, the paint around the cross was examined directly. Carmen Garrido, the Prado's own head of technical documentation, later published a fuller radiographic study of the museum's Velázquez holdings in her 1992 book Velázquez: técnica y evolución. Multiple accounts of that technical work describe the same finding: no separate paint layer where the cross sits, no seam of the kind a later addition on top of dried paint would be expected to leave. On that evidence, the cross may have been part of Velázquez's original conception rather than a posthumous correction. That would mean either that he anticipated an honor he hadn't yet received, or that it was added while the paint was still fresh, soon enough after November 1659 to sit in the same layer as everything around it. Either reading breaks with the version most popular accounts still repeat, and the Prado has not resolved the question either way.",
+          "The self-portrait carries a second, better-documented revision. Radiographic imaging of Velázquez's own figure shows he first painted himself left-handed and later reworked the image so his brush hand matched reality, a change he made [only about four years before he died](/artist-peak-creation-age/), on a canvas painted late in a career that spanned nearly four decades at court. That correction is settled by the same kind of physical evidence the cross debate turns on. The cross itself, three and a half centuries later, is not."
+        ]
+      },
+      {
+        "heading": "Madame X: the strap that ended a Salon debut, and the letter that revived it",
+        "body": [
+          "John Singer Sargent painted Madame X in Paris across 1883 and 1884, an uncommissioned portrait of Virginie Amélie Avegno Gautreau, a Louisiana-born socialite known in Paris for her striking pallor and her carefully managed public image. Sargent pursued the sitting himself, hoping a striking portrait of a woman already famous for her looks would make his own reputation at the annual Salon. The finished canvas, now at the Metropolitan Museum of Art, stands nearly seven feet tall (208.6 by 109.9 centimeters) and shows Gautreau in profile in a black gown, her skin rendered in a pale, almost lavender-white that pushed further than most Salon portraiture of the period allowed.",
+          "As Sargent originally painted it, the picture went further still: the right strap of Gautreau's gown had slipped off her shoulder, a detail read at the time as suggestive rather than formal. The painting appeared at the 1884 Salon under the title Portrait of Madame ***, though obscuring her name did nothing to stop Paris from recognizing her, and the reaction was hostile enough that, per the Metropolitan Museum's own account, it drew \"more ridicule than praise.\" Gautreau's mother reportedly confronted Sargent directly, demanding he pull the picture from the exhibition and telling him, \"All Paris is making fun of my daughter. She is ruined.\" Sargent refused to withdraw it, since the portrait was his own property rather than a commission, but he did repaint the fallen strap back onto her shoulder sometime after the Salon closed, a change that is now permanent in the version the Met owns.",
+          "The scandal damaged Sargent's Paris standing badly enough that he relocated his career to London within the year. He kept the repainted canvas in his own studio for more than three decades, unwilling, it seems, to sell a picture that had done him real damage yet that he still rated highly. On January 8, 1916, Sargent wrote to Edward Robinson, the Metropolitan Museum's director and a longtime friend, offering to sell it for £1,000. Robinson brought the offer to the museum's Committee on Purchases on January 22; the committee approved the acquisition six days later. In that same correspondence Sargent told Robinson, \"I suppose it is the best thing I have done,\" a private assessment from an artist who had spent thirty years declining to part with the painting that had once nearly ended his career.",
+          "Sargent set one condition on the sale: the museum's records should not use Gautreau's real name. She had died the previous year, in 1915, but Sargent still asked that the work be catalogued as Madame X rather than under her name. The Met's own accession records list the purchase under the Arthur Hoppock Hearn Fund, 1916, accession number 16.53. The portrait entered a major American museum's permanent collection under a title designed specifically to withhold the one piece of information a portrait is normally expected to supply."
+        ],
+        "image": {
+          "src": "/images/famous-portraits-madame-x.jpg",
+          "alt": "John Singer Sargent's 1883–84 portrait Madame X, showing Virginie Amélie Avegno Gautreau in profile in a black gown, in the repainted version with both shoulder straps in place.",
+          "credit": "[Madame X (Virginie Amélie Avegno Gautreau)](https://www.metmuseum.org/art/collection/search/12127), John Singer Sargent, 1883–84, The Metropolitan Museum of Art (Arthur Hoppock Hearn Fund, 1916), public domain"
+        }
+      },
+      {
+        "heading": "American Gothic: not a married couple, and not a painting anyone can freely reproduce",
+        "body": [
+          "Grant Wood painted American Gothic in 1930, using as his backdrop a real house he'd seen on a visit to Eldon, Iowa: a small farmhouse built in 1881–82 in the Carpenter Gothic style, distinguished mainly by the pointed Gothic window set into an otherwise plain gable. The house, sometimes called the Dibble House after the family that built it, still stands at what is now 300 American Gothic Street in Eldon. It was added to the National Register of Historic Places in 1974 and has been owned by the State Historical Society of Iowa since 1991, maintained in its 1930 appearance for visitors who make the trip.",
+          "The painting itself belongs to the Art Institute of Chicago, which bought it in 1930 through its Friends of American Art Collection after it won a prize in the museum's annual exhibition that year. Wood painted it not on canvas but on beaverboard, a fiberboard more often used for wall paneling, and the finished panel measures just 78 by 65.3 centimeters, smaller than many visitors expect from a painting this famous. The Art Institute's own catalogue entry is specific about who the two figures in front of the house actually are: \"a farmer and his daughter,\" posed, in Wood's own words, like \"tintypes from my old family album.\" They are not, despite how generations of viewers have read them, a married couple. Wood's models were his own sister, Nan Wood Graham, and his dentist, Dr. Byron H. McKeeby, who posed separately in Wood's studio rather than together in front of the actual house.",
+          "That misreading set in almost immediately. When the painting was exhibited in 1930 and reproduced widely afterward, much of the public assumed the woman was the elderly farmer's wife rather than his adult daughter, read more specifically as a stern, disapproving spinster wife. That characterization reportedly bothered Nan Wood Graham enough that she spent much of the rest of her life correcting the record and defending the painting against parody. Wood had lengthened and thinned both faces for the painting, echoing the sharp vertical line of the house's Gothic window behind them, and reportedly told his sister no one would recognize her. The finished figure's severity owed more to that deliberate exaggeration than to how Nan actually looked, which didn't stop the public from treating the stern farm-daughter face as a true likeness.",
+          "The wider reception split along the same fault line that has followed the painting for nearly a century since. Wood's own hometown of Cedar Rapids led the backlash: many Iowans felt mocked by the pinched, puritanical figures and reportedly sent Wood hostile letters and phone calls. Wood maintained the opposite was true, that he'd intended a sincere, reassuring image of steady rural values at the start of the Great Depression rather than a joke at his neighbors' expense. The Art Institute's own description of the work still frames this as unresolved. The painting's \"ambiguity\" is what made it \"an instant sensation\" in 1930, and nothing about the intervening decades has settled which reading Wood actually meant."
+        ],
+        "image": {
+          "src": "/images/famous-portraits-american-gothic-house.jpg",
+          "alt": "The American Gothic House in Eldon, Iowa, the Carpenter Gothic farmhouse Grant Wood used as the backdrop for American Gothic. The painting itself is not reproduced here.",
+          "credit": "[American Gothic House in Eldon, Iowa](https://commons.wikimedia.org/wiki/File:American_Gothic_House_in_Eldon,_Iowa_-_50872351467.jpg), photo by Eric Friedebach, 2014, CC BY 2.0"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Was the cross on Velázquez's chest in Las Meninas part of the original 1656 painting?",
+        "answer": "It's disputed. The traditional account, traced to Antonio Palomino's 1724 biography of Velázquez, holds that the cross was added after the painter's death in 1660, since he wasn't admitted to the Order of Santiago until November 1659, three years after finishing the canvas. But the Museo del Prado's own 1984 technical examination and Carmen Garrido's later radiographic study found no separate paint layer where the cross sits, evidence a later addition would typically leave. The museum has not settled the question either way."
+      },
+      {
+        "question": "Did King Philip IV really paint the Order of Santiago cross himself?",
+        "answer": "That specific claim comes from the same Palomino legend and has no independent confirmation. Palomino's account says the cross was added \"by order of\" the king after Velázquez's death, and notes that some contemporaries believed Philip IV painted it with his own hand as a posthumous honor. No documentary record proves the king personally applied paint to the canvas, and the Prado's technical findings raise a separate possibility: that the cross may not have been added after Velázquez's death at all."
+      },
+      {
+        "question": "Why did Sargent's Madame X cause a scandal at the 1884 Paris Salon?",
+        "answer": "The portrait originally showed the right strap of Virginie Gautreau's gown slipping off her shoulder, a detail 1884 Salon audiences read as suggestive rather than formal. Per the Metropolitan Museum's own account, the picture drew \"more ridicule than praise,\" and Gautreau's mother reportedly confronted Sargent directly, demanding he pull it from the exhibition and telling him, \"All Paris is making fun of my daughter. She is ruined.\" Sargent repainted the strap back onto her shoulder after the Salon closed but kept the canvas rather than selling it for more than thirty years."
+      },
+      {
+        "question": "How much did the Metropolitan Museum pay for Madame X in 1916?",
+        "answer": "Sargent offered it to the museum for £1,000 in a letter to director Edward Robinson dated January 8, 1916. Robinson presented the offer to the museum's purchase committee on January 22, and the committee approved the acquisition six days later. The Met's own records list the purchase under the Arthur Hoppock Hearn Fund, accession number 16.53."
+      },
+      {
+        "question": "Are the two figures in American Gothic a married couple?",
+        "answer": "No. The Art Institute of Chicago, which owns the painting, describes them in its own catalogue as \"a farmer and his daughter.\" Grant Wood modeled the pair on his sister, Nan Wood Graham, and his dentist, Dr. Byron H. McKeeby, who posed separately rather than together. The husband-and-wife reading was a public misinterpretation dating to the painting's first exhibition in 1930, one that reportedly bothered Nan Wood Graham for years afterward."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Museo del Prado: Las Meninas, Diego Velázquez, 1656 (collection record)",
+        "url": "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f"
+      },
+      {
+        "label": "Museo del Prado: Self-Portrait of Velázquez in Las Meninas (collection record)",
+        "url": "https://www.museodelprado.es/en/the-collection/art-work/self-portrait-of-velazquez-in-las-meninas/c183d056-c72b-4bad-b0e6-a3027b35fd08"
+      },
+      {
+        "label": "Studies in Conservation: General Remarks on the Painting Technique of Velázquez and Restoration Carried Out at the Museo del Prado (1992)",
+        "url": "https://www.tandfonline.com/doi/abs/10.1179/sic.1992.37.s1.010"
+      },
+      {
+        "label": "Wikipedia: Las Meninas",
+        "url": "https://en.wikipedia.org/wiki/Las_Meninas"
+      },
+      {
+        "label": "The Metropolitan Museum of Art: Madame X (Virginie Amélie Avegno Gautreau), John Singer Sargent (collection record, object 12127)",
+        "url": "https://www.metmuseum.org/art/collection/search/12127"
+      },
+      {
+        "label": "The Metropolitan Museum of Art: Revealing Madame X",
+        "url": "https://www.metmuseum.org/essays/revealing-madame-x"
+      },
+      {
+        "label": "The Metropolitan Museum of Art: From the Archives, How Madame X Came to The Met",
+        "url": "https://www.metmuseum.org/perspectives/how-madame-x-came-to-the-met"
+      },
+      {
+        "label": "Wikipedia: Portrait of Madame X",
+        "url": "https://en.wikipedia.org/wiki/Portrait_of_Madame_X"
+      },
+      {
+        "label": "Art Institute of Chicago: American Gothic, Grant Wood, 1930 (collection record, object 6565)",
+        "url": "https://www.artic.edu/artworks/6565/american-gothic"
+      },
+      {
+        "label": "Wikipedia: American Gothic",
+        "url": "https://en.wikipedia.org/wiki/American_Gothic"
+      },
+      {
+        "label": "Wikipedia: American Gothic House",
+        "url": "https://en.wikipedia.org/wiki/American_Gothic_House"
+      },
+      {
+        "label": "Wikipedia: Nan Wood Graham",
+        "url": "https://en.wikipedia.org/wiki/Nan_Wood_Graham"
+      }
+    ]
   }
 ];

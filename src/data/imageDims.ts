@@ -1,6 +1,6 @@
-// 自动生成，勿手改。由 独立站/tools/gen-image-dims.py 扫描 public/ 下真实图片文件产出。
-// 用途：给 <img> 补 width/height，消除 CLS 并向 Google 图片搜索提供尺寸信号。
-// 新增图片后重跑生成脚本。查不到的路径返回 undefined，模板需容错。
+// 自动生成，勿手改。由 独立站/tools/gen-image-dims.py 扫描 public/ 产出。
+// 用途：给 <img> 补 width/height（消除 CLS + 给图片搜索尺寸信号），并喂给 Article schema 的 ImageObject。
+// 新增图片后重跑本脚本。查不到的路径返回 undefined，模板需容错。
 
 export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/favicon.svg": {
@@ -170,6 +170,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/famous-paintings-the-scream-nasjonalmuseet.jpg": {
   "h": 1400,
   "w": 1127
+ },
+ "/images/famous-portraits-american-gothic-house.jpg": {
+  "h": 1080,
+  "w": 1920
+ },
+ "/images/famous-portraits-las-meninas.jpg": {
+  "h": 985,
+  "w": 865
+ },
+ "/images/famous-portraits-madame-x.jpg": {
+  "h": 3257,
+  "w": 1920
  },
  "/images/famous-renaissance-paintings-adoration-magi.jpg": {
   "h": 1517,
@@ -457,7 +469,7 @@ export function imgDims(src?: string) {
 	if (!src) return undefined;
 	let key = src.split('?')[0].split('#')[0];
 	// 模板里常传绝对 URL（如 `${SITE_ORIGIN}/images/x.jpg`），而本表的键是站内相对路径。
-	// 2026-08-27 首次接入时就是栽在这：查不到 → 宽高为 undefined → schema 静默退回裸 URL，
+	// 2026-08-27 首次接入时就栽在这：查不到 → 宽高 undefined → schema 静默退回裸 URL，
 	// 构建不报错、页面也正常，只有去看产物才发现 ImageObject 根本没生成。两种形式都认。
 	const m = key.match(/^https?:\/\/[^/]+(\/.*)$/);
 	if (m) key = m[1];
