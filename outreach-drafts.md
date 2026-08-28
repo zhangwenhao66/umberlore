@@ -353,3 +353,34 @@ Channels checked:
 - **my daily art display** (mydailyartdisplay.uk) — a real, long-running personal art-history blog (author "Jonathan," active since 2011) genuinely on-topic: it has dedicated tags for Alexandre Cabanel, The Fallen Angel, Musée Fabre, and Prix de Rome, and its most recent post is dated 2026-08-25, two days before this run. Read its actual 2014-10-20 post on The Fallen Angel directly (not just search snippets, after an initial WebSearch summary turned out to have conflated the Fallen Angel paragraph with the following paragraph about a different painting, John the Baptist — verified against the live page before treating anything as a factual error, per this repo's standing rule against pitching a "correction" built on a misread). The verified text quotes a documented Academy critique via Sybille Bellamy-Brown's book on Cabanel ("The movement is wrong, the draughtsmanship imprecise, the execution deficient") that is consistent with, not contradicted by, UmberLore's own sourcing — so no correction angle exists here. Checked for a guest-post or contact channel: no `/contact/`, `/contact-us/`, or `/feedback/` page exists (all return 404), and no publicly listed email address was found via search; the only visible outreach surface is blog comments, which this repo's outreach model treats as too indirect and unverifiable to substitute for an email contact. Not pursued — logged as a good-fit target with no viable contact channel, not as an Owen escalation (no CAPTCHA, no personal-judgment decision, just a missing public contact).
 
 No pitch drafted or sent from Step D this round. This is a legitimate "nothing viable found" outcome per task instructions, not a skipped step — five real channels were checked and rejected on documented grounds (one AI-content ban, one unreachable/generic-farm pattern, one dormant, one stale, one with no contact channel).
+
+## Broken-link outreach (2026-08-28, trafficsite-broken-link-building, sixth run)
+
+### Part 1 — follow-up on Pitch 5 (Marian University)
+
+Pitch 5 (2026-08-16, cbalgeman@marian.edu) was 12 days old with zero reply and the target page still unreplaced (verified live — see run log). Sent a short one-paragraph follow-up in the same thread:
+
+Subject: Re: Broken link on your Photography research guide
+
+Hi Caitlin,
+
+Just circling back on the note I sent a week and a half ago about the dead link on the Photography guide (rleggat.com, under "Online Resources"). No rush, just didn't want it to get buried in the inbox.
+
+Owen
+
+**Outcome:** passed `Skill(humanizer)` and `Skill(avoid-ai-writing)` clean (no changes needed). Sent 2026-08-28 via `gmail_send.py --from umberlore --reply-to 1a0093d69f104a52`, Message ID `1a0488390e7a3eae` (same thread as Pitch 5).
+
+### Part 2 — new opportunities (none found this round)
+
+Directions: Decorative Arts/ceramics (new since last run: `majolica`, published 2026-08-25) and Native American/Southwest art (new since last run: `sand-painting`, published 2026-08-27, Navajo ceremonial sandpainting). 24 resource pages scanned via `broken_link_scan.py` (16 ceramics LibGuides, 8 Native American art LibGuides), ~600+ outbound links checked. Script flagged DEAD links on 9 of the 24 pages; every one was individually verified and rejected:
+
+- **Ceramics (CSU Chico, Marymount, Tufts pages):** all DEAD links point to contemporary working-potter resources — a ceramicist's personal site (briancransom.com), a gallery (charliecummingsgallery.com), an MFA slideshow archive (clay.alfred.edu/gradslides), a stains supplier's product page labeled "Mason Color Works — Information about Mason stains" (masoncolor.com), a Material Safety Data Sheet page (lagunaclay.com/msds), a personal link directory (vickihardin.com/links), an exhibition listing (strictlyfunctionalpotterynational.net), and a trade journal labeled "Ceramics Monthly (journal)" (ceramicartsdaily.org/ceramics-monthly). None address the historical Victorian-majolica-vs-Renaissance-maiolica terminology confusion the `majolica` article covers — confirmed by reading each link's own on-page label/description, not just the URL. Forced-fit, not pursued.
+- **Native American art (Brown, Oberlin, UNCP, UMN, CNU, SVA pages):** DEAD links were mostly institutional-system links (Brown's donor-giving portal, Oberlin's library-community page, UNCP's Title IX policy page, SVA's own library/purchase-request/Twitter pages) — non-content, excluded immediately. Three content-looking candidates were individually verified and rejected:
+  - `https://portlandartmuseum.org/collection/native-american-art/` (SVA page) — confirmed via WebSearch this is the museum's general Native American collection landing page (200+ tribal communities, organized by California-Great Basin/Southwest/Plains/Woodlands/Arctic/Plateau regions), a browsable collection database, not a narrative page. Same "database/collection page can't be replaced by a narrative article" rule this log has applied consistently since 2026-08-04. Also too broad (pan-tribal survey vs. the `sand-painting` article's specific Navajo/Diné ceremonial focus).
+  - `https://www.uaf.edu/art/areas/native-arts/` (SVA page) — confirmed via WebSearch this is UAF's BFA/MFA studio-art degree program page (Alaska Native carving/beadwork/basketry instruction), not a content article, and culturally mismatched (Yupik/Inupiaq/Athabascan/Tlingit/Haida/Aleut, not Navajo/Southwest).
+  - `https://www.vmfa.museum/collections/native-american-art/` (CNU page, DNS failure) — same museum-collection-database pattern, not pursued for the same functional-mismatch reason.
+  - `https://www.history.nd.gov/archives/manuscripts/indians.html` (UMN page) — confirmed via WebSearch this is a State Historical Society of North Dakota manuscript-finding-aid index (Northern Plains tribes — Chippewa/Sioux/Mandan/Assiniboine), an archival database, not visual-art content, and geographically mismatched (Plains vs. Southwest).
+
+Two follow-up WebSearches for narrower angles (Italian Renaissance maiolica-specific resource pages; Navajo/Diné-specific university LibGuides) surfaced no additional candidate resource pages beyond the ones already scanned (all zero-DEAD).
+
+**Result: no email sent for new opportunities this round.** Consistent with this log's established standard — a database/collection/program page cannot be replaced by a narrative article, and a contemporary-practice resource (supplier, gallery, personal site, trade journal) cannot be replaced by a historical-narrative one. All rejections are on documented topical/functional-mismatch grounds, not abandoned for lack of effort.

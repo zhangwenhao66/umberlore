@@ -233,3 +233,31 @@
 **已发送**：2026-08-24 via `gmail_send.py --from umberlore` 至 mkelly@westportlibrary.org，Message ID `1a033fb8dbb043ef`。完整邮件正文见`outreach-drafts.md` Pitch 8。
 
 **遗留提醒**：上面"第五次运行第二部分"记录的其余44条DEAD链接排除结论（代理系统/数据库机构页/主题不对应）本次未重新复核，维持原判——只有`magazine.artland.com`这一条因为"分类标签掩盖实际内容覆盖"这个具体疏漏被重新捞出，不代表整批复核结论需要推翻。以后核对"本站是否已有对应主题文章"时，应逐篇通读候选分类下的文章正文/coreSummary，不能只看分类标签数量是否为0。
+
+---
+
+## 2026-08-28（第七次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中UmberLore（11-30位曝光218，矩阵内容型五站中排名第一）
+
+### 第一部分：核实一条10天以上旧pitch
+
+Pitch 5（2026-08-16，Marian University Library Photography guide，cbalgeman@marian.edu，Message ID `1a0093d69f104a52`）距今12天，是本轮唯一满足条件的记录（Westport Library 8/24送出的Pitch 8仅4天，未到期）。
+
+- curl访问目标页`https://libguides.marian.edu/c.php?g=115953&p=752197`返回200，死链`rleggat.com/photohistory/`原样仍在"Online Resources"板块，页面全文无"umberlore"字样，确认未换链。
+- `dataforseo_query.py backlinks umberlore.com`当前全站仅1条外链（stackscope.dev，无关，首次发现8/25），marian.edu未出现。
+- `gmail_send.py list --query "from:cbalgeman@marian.edu OR to:cbalgeman@marian.edu"`只有己方原邮件，零回复。
+- **判定：`not_replaced`**。
+
+满足"10-14天+目标页有真实权威度+对方零回复"跟进条件，已发送简短跟进（同线程），过humanizer+avoid-ai-writing检查无需改动，`gmail_send.py --from umberlore --reply-to 1a0093d69f104a52`发出，**Message ID `1a0488390e7a3eae`**。标记 `verified_not_replaced_followed_up_once`。
+
+### 第二部分：新断链机会——本轮无有效机会
+
+冷启动方向对齐新发布文章：Decorative Arts/陶瓷（`majolica`，8/25发布）+ Native American/西南部艺术（`sand-painting`，8/27发布，纳瓦霍仪式沙画）。`broken_link_scan.py`扫描24个资源页（16个陶瓷LibGuide+8个Native American艺术LibGuide）、约600+出站链接，9个页面命中DEAD标记，逐条核实：
+
+- **陶瓷方向**：全部DEAD链接指向当代实践类资源（陶艺家个人站/画廊/MFA作品集/釉料供应商产品页/材料安全数据表/个人链接目录/展览信息/行业期刊），无一涉及`majolica`文章讲的"维多利亚majolica vs.文艺复兴maiolica术语混淆"这条历史线索，判定硬凑不采用。
+- **Native American艺术方向**：多数DEAD链接是机构系统页（捐赠入口/Title IX政策页/图书馆社区页），3条看似内容的候选逐一WebSearch核实后排除：波特兰艺术博物馆/UAF学位项目页/北达科他州历史学会手稿索引均为数据库/项目页/地域或部落不对应，非可替代的叙事型内容（沿用本站自8/4起"数据库页不能被叙事文章替代"的一贯标准）。
+
+**本轮无新增pitch**，是真实排查后的"确实没有可采用机会"结论，非偷懒未查——24页/600+链接全部逐条核实。
+
+**累计口径**：UmberLore断链置换战术累计已发送8封pitch（含本轮1封跟进）；已验证`not_replaced` 2条（Marian、以及此前记录里的其他条目见上文各次运行）、`verified_live_backlink_confirmed` 0条，转化率仍为0。
+
+**独立agent执行说明**：本轮由独立研究子agent完成调研+跟进邮件撰写发送（跟进邮件按规则允许自行发送，不需独立复核），上层编排会话核实其查重记录（`gmail_send.py list`+全矩阵grep）后确认无误，代为写入本条日志。
