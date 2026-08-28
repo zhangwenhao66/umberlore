@@ -6301,5 +6301,139 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/Nan_Wood_Graham"
       }
     ]
+  },
+
+  {
+    "slug": "pandemonium-painting",
+    "category": "Painting",
+    "title": "Pandemonium: John Martin Engraved This Scene Twice Before He Painted It",
+    "description": "John Martin's 1841 oil Pandemonium began as a mezzotint in 1824. It later passed through a locomotive engineer's estate and one family for 151 years before reaching the Louvre.",
+    "published": "2026-08-28",
+    "updated": "2026-08-28",
+    "coreSummary": "John Martin's 1841 oil painting Pandemonium, now in the Louvre, shows the palace of Hell rising from the earth as Book I of Milton's Paradise Lost describes it, the passage that gave English the word for chaos. Martin had already designed the same rising-palace composition twice before as prints, once in 1824 and again as a larger single engraving in 1831, so the finished oil is the third version of a scene he kept returning to across seventeen years.",
+    "image": "/images/pandemonium-john-martin-louvre.jpg",
+    "imageAlt": "John Martin's 1841 oil painting Pandemonium, showing a vast flame-lit palace rising from the earth as tiny demon figures gather below, with Satan standing in the foreground.",
+    "imageCredit": "[Le Pandemonium, 1841](https://collections.louvre.fr/en/ark:/53355/cl010067390), John Martin, Musée du Louvre (RF 2006 21), public domain",
+    "sections": [
+      {
+        "heading": "What the painting shows, and where the word comes from",
+        "body": [
+          "Pandemonium is a large oil on canvas, 123 by 185 centimetres, painted by the English artist John Martin in 1841. Satan stands in the right foreground, having just raised, with a breath, the vast palace that will hold every fallen angel in Hell. Below him, in glowing lava light, the assembled demons are only just visible, dwarfed by architecture on a scale the human figures in the painting can't match.",
+          "The building itself comes directly out of Milton. In Book I of Paradise Lost, published in 1667, the poet describes the structure rising out of the ground: \"Anon out of the earth a Fabrick huge / Rose like an Exhalation, with the sound / Of Dulcet Symphonies and voices sweet, / Built like a Temple...\" That's lines 710 to 713.",
+          "A few dozen lines later, once the building stands finished, Milton names it for the first time, describing a \"solemn Councel\" called \"At Pandæmonium, the high Capital / Of Satan and his Peers.\" Milton invented the word himself, from the Greek prefix for \"all\" and a Latin word for demon, to name Hell's new capital. It has long since left the poem behind and settled into ordinary English as a byword for uproar.",
+          "None of that architecture was ever real, which sets Martin apart from [painters who worked from actual buildings and still altered what they saw](/architectural-painting/). Pandemonium's Doric pillars and gold-fretted roof only ever existed in verse; Martin had nothing to measure and nothing to distort. He was inventing a building from a description, not adjusting one he could walk into."
+        ]
+      },
+      {
+        "heading": "Three versions across seventeen years",
+        "body": [
+          "The 1841 oil wasn't Martin's first attempt at this composition. In 1824 he engraved it as a mezzotint, one of twenty-four subjects from Paradise Lost commissioned by the London publisher Septimus Prowett. Martin was paid 2,000 guineas for that first set of plates, published by subscription in twelve monthly instalments between 1825 and 1827, each pairing two mezzotints with a section of Milton's text.",
+          "He returned to the same composition again in 1831, engraving a larger, separately sold print of it. A copy of that 1831 print, titled simply Pandemonium, is held today by the Yale Center for British Art. 1831 needs a caveat, though: Martin issued more than one large-format Pandemonium-related print that year. Alongside this exterior view of the palace rising from the ground, he also reissued a different composition from the same Prowett series, Satan Presiding at the Infernal Council, which shows the finished palace's interior rather than its exterior. The two prints are easy to conflate; they aren't the same picture.",
+          "Martin didn't paint in oils again until 1840, after more than a decade working mostly on mezzotint and print projects. Pandemonium was among the first paintings he produced once he returned to the medium. According to the specialist essay written for a 2015 Sotheby's sale of a related Martin work, the finished 1841 oil \"remained quite close to the original mezzotint\" design, an unusual degree of fidelity to hold onto across seventeen years and two intervening print versions.",
+          "By 1841, Satan's fall from grace was already well-trodden ground for European painters. [Alexandre Cabanel's Fallen Angel](/fallen-angel-painting/), painted in 1847 and exhibited the following year, takes the opposite approach: one figure alone in an abstract landscape, instead of a crowded capital city rising to house an entire army of the damned."
+        ]
+      },
+      {
+        "heading": "The Royal Academy label, and the sister painting nobody sees",
+        "body": [
+          "Pandemonium was exhibited at the Royal Academy's 1841 show as catalogue number 570, captioned with Milton's own words: \"Anon, out of earth a fabric huge / Rose like an exhalation, etc.\" Hanging nearby, as number 428, was its companion piece: The Celestial City and the River of Bliss, Martin's vision of Milton's Heaven, based on a different print from the same Prowett series.",
+          "The two paintings didn't age the same way in the public record. Where Pandemonium's oil stayed close to its print original, the Sotheby's essay notes that The Celestial City \"departs more considerably from its prototype,\" with Martin trading away narrative incident in favor of pure luminous space. Pandemonium now hangs in the Louvre's permanent collection. The Celestial City and the River of Bliss stayed in private hands, and no public record names its current owner."
+        ],
+        "image": {
+          "src": "/images/pandemonium-mezzotint-1831-yale.jpg",
+          "alt": "John Martin's 1831 mezzotint engraving of Pandemonium, the earlier print version of the same composition he later painted in oil in 1841.",
+          "credit": "[Pandemonium, 1831 mezzotint](https://commons.wikimedia.org/wiki/File:John_Martin_-_Pandemonium_-_B1977.14.11944_-_Yale_Center_for_British_Art.jpg), John Martin, Yale Center for British Art, CC0"
+        }
+      },
+      {
+        "heading": "The frame with serpents and dragons",
+        "body": [
+          "Martin didn't leave the picture's frame to a framer. He designed it himself: a wide, carved surround worked with serpents and dragons rather than the neutral gilt moulding standard on paintings of the period. The Louvre's own catalogue entry lists the frame as a distinct feature of the object, separate from the canvas and its 1841 signature.",
+          "Most reproductions of the painting online crop the frame out entirely, showing only the canvas, so the detail is easy to miss unless you've seen a photograph of the object as it actually hangs, in Salle 713 of the Denon wing. Continuing the picture's subject onto its own border wasn't a requirement of the commission; Martin chose to do it."
+        ],
+        "image": {
+          "src": "/images/pandemonium-painting-frame.jpg",
+          "alt": "John Martin's Pandemonium as it hangs at the Louvre, showing the wide gilt frame he designed himself, carved with serpents and dragons around the canvas.",
+          "credit": "[Le Pandemonium, avec cadre](https://commons.wikimedia.org/wiki/File:Le_Pandemonium_-_John_Martin_-_Mus%C3%A9e_du_Louvre_Peintures_RF_2006_21_-_avec_cadre.jpg), Musée du Louvre, public domain"
+        }
+      },
+      {
+        "heading": "From a locomotive engineer to the Louvre",
+        "body": [
+          "Pandemonium's ownership history is unusually well documented, because the Louvre publishes its own provenance record for the painting online. The painting belonged first to Benjamin Hick, a steam-locomotive engineer and manufacturer in Bolton. When Hick died in 1842, his estate went to auction in Manchester the following February, and Pandemonium sold as lot 58, alongside The Celestial City as lot 59, the last point at which the two paintings are documented changing hands together.",
+          "From the Hick sale, the dealer J.C. Grundy bought it for a client, George Whiteley of Blackburn and Halifax. It then passed down through four generations of the Whiteley family, from Whiteley himself to his great-grandson, Sir Hugo Baldwin Huntington-Whiteley, 3rd Baronet, of Ripple Hall, Tewkesbury, staying in that one family's hands for 151 years before it reached the market again, through the London gallery Peter Nahum, in 1994.",
+          "From Nahum's gallery it entered the Forbes Magazine Collection, the private art collection built by the American publishing family, where it stayed only nine years. When Forbes sold part of its holdings at Christie's in London on 19 February 2003, Pandemonium went for a hammer price of £1.5 million, to the New York dealer Gallery French & Co. The Louvre acquired it three years later, in November 2006, not from its ordinary purchase budget but through what French museum records call an achat sur legs, a purchase funded by a specific bequest, from the estate of Pierre Belliot, a French architect and amateur painter, and his wife Paule Marchaud, both of whom died in 2003. It carries inventory number RF 2006 21 in the Département des Peintures."
+        ]
+      },
+      {
+        "heading": "Who really shaped Star Wars",
+        "body": [
+          "Unlike William Blake, whose own visionary panel [The Ghost of a Flea](/ghost-of-a-flea/) found no buyer at all during his lifetime, Martin's Milton illustrations reached an enormous audience while he was still alive to see it. Curating the Tate's 2011-12 retrospective, Apocalypse, the art historian Martin Myrone wrote that \"the art of John Martin penetrated the culture of the nineteenth-century English-speaking world more deeply and more profoundly than that of any other modern artist.\" Reviewing the mezzotints in 1825, the Literary Gazette praised \"a wildness, a grandeur, and a mystery about his designs which are indescribably fine.\"",
+          "That reach kept extending long after Martin's death in 1854, and this is where sources stop agreeing on specifics. The Victoria and Albert Museum and the Fitzwilliam Museum both credit a different Martin print from the same Milton series, Satan Presiding at the Infernal Council (the interior view mentioned above), with directly influencing the set design of D.W. Griffith's silent films The Birth of a Nation and Intolerance, and later the design of the Galactic Senate chamber in the Star Wars prequel The Phantom Menace.",
+          "A specialist essay written for a 2015 Sotheby's sale traces a related but distinct lineage. It credits Martin's \"monumental imagery and grand utopian architecture\" broadly with shaping the films of both Cecil B. DeMille and Griffith, and singles out a different picture for the Star Wars connection: The Celestial City and the River of Bliss, Pandemonium's own 1841 companion, whose luminous architecture the essay says is hard to look at \"without seeing a reflection of many of the set designs for the original Star Wars movies,\" by way of an intervening chain of influence through the stop-motion filmmaker Ray Harryhausen.",
+          "The two accounts can't both be naming the one painting that inspired Star Wars, because they name different paintings. What isn't in dispute is Griffith: both accounts land on him independently, drawing on two different Martin prints. Which image a specific set designer actually had in front of them is the part nobody quite agrees on, and that's a more honest place to leave the question than most retellings of \"the painting that inspired Star Wars\" bother to reach."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Pandemonium the painting, and where can you see it?",
+        "answer": "It's an 1841 oil on canvas by the English Romantic painter John Martin, 123 by 185 centimetres, showing the moment the palace of Hell rises from the earth in Book I of Milton's Paradise Lost. It has hung in the Louvre in Paris since 2006, on display in Salle 713 of the Denon wing, under inventory number RF 2006 21."
+      },
+      {
+        "question": "Why is a building in a 17th-century poem called Pandemonium?",
+        "answer": "Milton invented the word for Paradise Lost, combining the Greek prefix for \"all\" with a Latin-derived word for demon, to name the \"high Capital / Of Satan and his Peers\" that the fallen angels build as their council chamber. The word left the poem behind long ago and now means uproar or chaos in ordinary English."
+      },
+      {
+        "question": "Did John Martin paint this scene only once?",
+        "answer": "No. The 1841 oil was his third pass at the same composition. He first engraved it as a mezzotint in 1824, one of twenty-four subjects from Paradise Lost he produced for the publisher Septimus Prowett, published by subscription between 1825 and 1827. He engraved a larger, separate print of the same scene again in 1831, before finally painting it in oil in 1841, seventeen years after the first version."
+      },
+      {
+        "question": "Is Pandemonium the same picture as Satan Presiding at the Infernal Council?",
+        "answer": "No, though the two are easy to confuse because both illustrate the same building from the same Milton commission. Pandemonium shows the palace's exterior rising from the earth; Satan Presiding at the Infernal Council, a separate mezzotint from the same 1820s series, shows its interior, with Satan enthroned before the assembled fallen angels. The Victoria and Albert Museum and the Fitzwilliam Museum both hold copies of the interior print and credit it, not the Louvre's oil, with influencing the set design of D.W. Griffith's silent films and the Star Wars prequel trilogy's Galactic Senate."
+      },
+      {
+        "question": "Who owned Pandemonium before it reached the Louvre?",
+        "answer": "Per the Louvre's own provenance record, it belonged first to Benjamin Hick, a Bolton locomotive engineer, until his death in 1842, then sold at his estate auction in Manchester in 1843. It passed down through four generations of the Whiteley family until 1994, then to the Forbes Magazine Collection, then, after a 2003 Christie's sale, to a New York gallery, and finally to the Louvre in 2006, acquired through the bequest of the French architect Pierre Belliot and his wife."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Louvre Collections: Le Pandemonium, 1841 (collection record, RF 2006 21)",
+        "url": "https://collections.louvre.fr/en/ark:/53355/cl010067390"
+      },
+      {
+        "label": "Wikipedia: Pandemonium (painting)",
+        "url": "https://en.wikipedia.org/wiki/Pandemonium_(painting)"
+      },
+      {
+        "label": "Wikipedia: Satan Presiding at the Infernal Council",
+        "url": "https://en.wikipedia.org/wiki/Satan_Presiding_at_the_Infernal_Council"
+      },
+      {
+        "label": "Wikipedia: The Celestial City and the River of Bliss",
+        "url": "https://en.wikipedia.org/wiki/The_Celestial_City_and_the_River_of_Bliss"
+      },
+      {
+        "label": "Wikipedia: John Martin (painter)",
+        "url": "https://en.wikipedia.org/wiki/John_Martin_(painter)"
+      },
+      {
+        "label": "Sotheby's: Old Master & British Paintings Evening Sale, Lot 57 (2015), on John Martin and the Milton mezzotint series",
+        "url": "https://www.sothebys.com/en/auctions/ecatalogue/2015/old-master-british-paintings-evening-sale-l15033/lot.57.html"
+      },
+      {
+        "label": "Milton Reading Room, Dartmouth College: Paradise Lost, Book 1 (lines 710-717, the Pandæmonium passage)",
+        "url": "https://milton.host.dartmouth.edu/reading_room/pl/book_1/text.shtml"
+      },
+      {
+        "label": "Antiques Trade Gazette: \"Pandemonium sells for hammer price of £1.5 million\" (2003 Forbes Magazine Collection sale)",
+        "url": "https://www.antiquestradegazette.com/news/2003/pandemonium-sells-for-hammer-price-of-15-million"
+      },
+      {
+        "label": "Yale Center for British Art collection record (via Wikimedia Commons): Pandemonium, 1831 mezzotint",
+        "url": "https://commons.wikimedia.org/wiki/File:John_Martin_-_Pandemonium_-_B1977.14.11944_-_Yale_Center_for_British_Art.jpg"
+      }
+    ]
   }
 ];
