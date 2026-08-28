@@ -1622,3 +1622,96 @@
   "note_andy_warhol_side_effect": "本条审计连带修改了andy-warhol一文（新增回链句+updated字段），未新建该文的独立审计记录条目，改动内容已完整记录在本条jackson-pollock记录的actions_taken/verification里；andy-warhol自身的last_audited仍保持其上次审计日期不变（本次不算作对andy-warhol的完整13维度审计，只是targeted修复的落点）。"
 }
 ```
+
+```json
+{
+  "url_slug": "elements-of-art",
+  "last_audited": "2026-08-28",
+  "published_date": "2026-08-09",
+  "note": "全站首次审计选取从'最早last_audited/从未审计'规则出发：guides.ts里共31篇文章从未被本任务审计过，elements-of-art是其中published最早的一篇（2026-08-09）。审计当时guides.ts有一处未提交改动（并发的umberlore-content-publishing任务正在追加pandemonium-painting一文，含3张对应新图片），已确认与本文无关，全程未触碰。",
+  "article_specific_checklist": [
+    "Arthur Wesley Dow《Composition》(1899, ninth edition 1914) 中的四处逐字引语：'absolutely opposed to the time-honored approach through Imitation'/'gathering knowledge of facts but acquiring little power to use them'/三元素enumeration(LINE/NOTAN/COLOR)/notan定义'a Japanese word meaning dark, light...quantity of light reflected'，需回Project Gutenberg原文逐字核对",
+    "Denman Waldo Ross《A Theory of Pure Design》(1907)引语'My purpose, in scientific language, is to define, classify, and explain the phenomena of Design.'需回Gutenberg原文核对",
+    "Wassily Kandinsky《Point and Line to Plane》(1926)两处引语'The geometric point is an invisible thing...it equals zero.'与'the track made by the moving point'需回Internet Archive原始PDF核对；Composition 8完成于1923年7月、Guggenheim于1929年在Dessau画室直接购得（其收藏的150余件Kandinsky作品中的第一件）这两个具体细节需独立核实",
+    "Dow在Teachers College Columbia的任职细节（1904年就任Professor of Fine Arts、任职至1922年）与TC官方'redirected the goals of public art education'引语，以及O'Keeffe 1912年UVA暑期班随Bement学习、1914年入学TC随Dow直接学习这一时间链需回TC官网两篇文章核对",
+    "Otto Ocvirk《Art Fundamentals: Theory and Practice》七要素清单'历史记录中最早不早于1968年印刷版'这一断代需回Internet Archive藏书记录核对出版年份/出版社/城市"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语，重点核查L-0804-1/L-0816-3两类历史复发模式）",
+      "status": "未发现问题",
+      "detail": "对全部5项专属检查逐一核实：(1) 下载Project Gutenberg ebook 45410全文（确认版本为'NINTH EDITION—REVISED AND ENLARGED...1914'，与sources标注'ninth edition, 1914'完全一致），逐字核对四处Dow引语——'absolutely opposed to the time-honored approach through Imitation'、'gathering knowledge of facts but acquiring little power to use them'、'three structural elements...1. LINE...2. NOTAN...3. COLOR'、notan定义'a Japanese word meaning \"dark, light\", refers to the quantity of light reflected, or the massing of tones of different values'，全部逐字匹配无误。(2) 下载Gutenberg files/74765全文，Ross引语'My purpose, in scientific language, is to define, classify, and explain the phenomena of Design.'逐字匹配。(3) 下载Internet Archive Point and Line to Plane原始PDF（pdfminer提取全文），Kandinsky两处引语'The geometric point is an invisible thing...it equals zero.'与'It is the track made by the moving point'均逐字匹配；WebSearch独立核实Composition 8确实完成于1923年7月（Bauhaus Weimar时期），Guggenheim确实于1929年春在Dessau画室直接向Kandinsky本人购得该画，是其后续150余件Kandinsky收藏的第一件（该细节Guggenheim官网教学材料页因JS渲染curl无法直接提取文本，但WebSearch交叉核实内容一致，判定为工具局限而非事实问题，参考L-0816-3记录的同类工具盲区教训）。(4) TC官网两篇文章逐字核对：'Arthur Wesley Dow arrived at Teachers College as a Professor of Fine Arts in 1904 and stayed until 1922...he redirected the goals of public art education in the United States'完全匹配；另一篇TC文章核实O'Keeffe 1912年在UVA随Bement暑期班学习、1914年赴纽约随Dow直接学习，时间链准确（原文人名拼写'Alan Bement'与本站'Alon Bement'、'O'Keefe'与本站'O'Keeffe'为常见历史人名拼写变体，不构成事实错误）。(5) Internet Archive藏书记录核实Ocvirk《Art Fundamentals》确系1968年出版、Dubuque Iowa、W.C. Brown Co，与sources标注完全一致；WebSearch另核实该书确有延续到2010年代的后续版本（含McGraw-Hill 2013年版、第12版等），'later editions carried the same seven-part structure into the 2010s'这一概括性表述有依据。全文未发现任何编造引语、断代错误或L-0816-3式'断言缺配对sources条目'问题——10条sources逐条对应正文/FAQ里的具体断言，无孤证。本文是迄今为止本站审计样本中引语密度最高（7条直接逐字引语全部为一手原始文献，含2份完整下载的Gutenberg电子书全文与1份完整下载的Internet Archive PDF）且核实通过率最高的一篇。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "10条sources全部为一手原始文献：Project Gutenberg两部原始著作全文（Dow 1899/1914、Ross 1907）、Internet Archive Kandinsky原始PDF、Internet Archive Ocvirk藏书记录、Teachers College Columbia官方两篇文章、Bauhaus-Archiv官方页面、Guggenheim Museum官方教学材料页、J. Paul Getty Museum官方教学页、Wikipedia。无模糊归因，无'专家认为/研究显示'类无出处表述。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "published/updated均为2026-08-09，审计时（2026-08-28）隔19天。主题为1899-1968年间的艺术教育史，属于已尘埃落定的历史记录，WebSearch未发现任何推翻'七要素清单晚至1968年才定型'这一核心论点的新研究或新发现的更早文献。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch\"elements of art line shape form space value color texture\"与\"elements of art history who invented Arthur Wesley Dow\"两组查询，头部结果由Study.com/Fiveable/artsology/massart.edu PDF/Wikipedia等定义型listicle页主导，均只罗列七要素定义，不含Dow 1899年原书逐字引语、Ross哈佛平行体系、Kandinsky三要素几何化重构、Ocvirk教科书1968年断代这一完整历史考据链条。thecollector.com/artincontext.org未出现在两组查询前排。本文提供的是头部竞品完全未覆盖的原创历史研究，非维基百科同质复述。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "发现一处候选（meta description长度），独立复核agent判定NOT CONFIRMED，其余未发现问题",
+      "detail": "title渲染59字符（含站名后缀，在50-60区间内，本文实际优于此前多篇65/64字符的系统性模式）；meta description 168字符，超出此前审计样本观察到的上限（160字符曾被判定'区间边界内非缺陷'），本文再高8字符，判定为候选发现并spawn独立复核agent；canonical由Astro.url自动生成自指；单一H1；8个section H2（含FAQ独立H2）无跳级，仅有1个H3出现在页面末尾'Nearby in the gallery'侧栏组件标题，非正文层级跳级；3个JSON-LD schema块；全部9张图片（含本文3张+侧栏关联文章缩略图）alt文本齐全；robots.txt/sitemap/ads.txt均正常。"
+    },
+    {
+      "dimension": "GEO审计（99分制11维度）",
+      "status": "未发现问题，自评约96/99（阈值80，达标）",
+      "detail": "权威原文引语16/16（7条一手原始文献逐字引语全部核实准确，密度为本站已审样本最高）；统计数据完整性14/14（1899/1904-1922/1907/1912/1914/1923/1926/1929/1968等年代数据密集且全部核实）；可引用性13/13（coreSummary与6条FAQ均为可独立摘出的完整陈述）；结构规范性12/12；表达流畅度9/10；语义密度8/8；权威信号6/8（机构引用扎实，但同样缺作者专业背景credential展示，与全站已审12篇文章一致的系统性短板，非本文独有）；专业术语6/6（notan/Vorkurs/Bauhausbücher/pure design等准确使用）；鲁棒性5/5（核心论断均有一手引语与独立核实支撑）；跨域连接4/4（3条出链至starry-night/van-gogh-paintings/abstract-art-first-painting，5条真实回链来自daguerreotype/mandala-art/cloisonne/emphasis-in-art/encaustic-painting，是本站已审样本中双向连接最健康的一篇）；易懂表达3/3。此为审计员基于站内既有99分制标准自评，未使用独立工具复验，记为'自评'。"
+    },
+    {
+      "dimension": "AI味扫描",
+      "status": "未发现问题",
+      "detail": "机械扫描全文正文：em-dash 0处、en-dash 0处、花体引号0处、加粗0处、常见AI高频词（delve/crucial/testament/tapestry/pivotal/vibrant/foster/enhance/underscore/showcase/intricate/interplay/robust/seamless/boast/realm/journey/elevate/landscape/navigate/holistic等）0命中、'not only'句式0命中。发布日期2026-08-09晚于本站建站首日（2026-08-02）即强制化humanizer流程的时间点，且晚于全局CLAUDE.md 2026-08-07的英文双重去AI味硬性规则生效时间，不属于'早期内容'补漏范围，仍执行了机械扫描作为常规检查，结果清洁。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "10条sources外部链接逐条curl实测（真实UA），全部返回200：Wikipedia、Gutenberg ebook页与两部原始著作全文页、TC官网两篇文章（一篇经301重定向后200）、Internet Archive Kandinsky PDF、Bauhaus-Archiv官方页、Guggenheim教学材料页、Internet Archive Ocvirk藏书页、Getty Museum页。无失效链接。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题，本站已审样本中双向连接最健康的一篇",
+      "detail": "全站grep确认本文收到5条真实正文锚文本回链，分别来自daguerreotype、mandala-art、cloisonne、emphasis-in-art、encaustic-painting五篇不同文章（均以'七要素清单实为1968年教科书产物，非古老传统'这一论点作为类比引用）。本文自身有3条出链，分别指向starry-night、van-gogh-paintings、abstract-art-first-painting。所属Technique分类现有4篇文章（elements-of-art/cloisonne/emphasis-in-art/encaustic-painting），未超过pickRelatedGuides()的6篇轮转窗口阈值，会在全部4篇的'相关文章'侧栏中互相出现，非孤儿页，且完全不需要本站此前记录的'桥接句'人工补链手段——内链健康度是自然生成而非审计补救的结果。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "与此前全部12篇审计结论一致：Article/FAQPage/BreadcrumbList三个schema组件（vendor/site-toolkit/packages/schema/src/*.astro）均在构建时直接从guide对象字段动态生成JSON-LD，架构上不存在'正文改了schema未同步'的漂移风险。本次审计未对正文做任何改动，schema不受影响。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "正文提及Georgia O'Keeffe（1887-1986，确系建站计划文档第53行列出的146个版权风险艺术家之一），但仅作为Dow教学法传承的传记性历史事实提及（1912年UVA随Bement学习、1914年赴TC随Dow学习），全文未引用、复述或配图展示任何一幅O'Keeffe本人的作品，不触及本站'现当代艺术家作品复制'的核心风险。文中提及的其他人物（Dow卒于1922、Ross卒于1935前后、Kandinsky卒于1944）均早于1955年版权风险分界线。全文未出现跨站矩阵命名规律相关措辞。"
+    },
+    {
+      "dimension": "配图可用性与版权（本站优先维度）",
+      "status": "未发现问题",
+      "detail": "3张配图：kandinsky-composition-8-1923.jpg（头图）、elements-of-art-diagram.svg（正文插图，本站原创手绘SVG图解，非任何在世/近期艺术家作品复制）、dow-boats-at-rest-1895.jpg（正文插图）。逐张核实Wikimedia Commons文件页Copyright status：Composition 8文件页明确标注'The author died in 1944, so this work is in the public domain'（PD-old-80-expired/PD-Art标签）；Boats at Rest文件页明确标注'The author died in 1922, so this work is in the public domain'（PD-old-100-expired/PD-Art标签）。均与站内imageCredit标注（public domain）完全一致。两幅画作者Kandinsky（1944年卒）与Dow（1922年卒）均已超过多数法域'作者身故+70年'的公有领域门槛，不触及本站'现当代艺术家版权风险'高风险类别；本文虽正文提及在世/近期版权风险艺术家O'Keeffe，但未对其作品配图，风险敞口为零。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "正文为19-20世纪艺术教育史考据，无暴力/争议/敏感内容，无诱导性标题。curl实测ads.txt返回200，内容'google.com, pub-5245502795720653, DIRECT, f08c47fec0942fa0'正确指向矩阵共享账号。"
+    }
+  ],
+  "actions_taken": [
+    "十三维度深挖后产生1条候选待复核发现（meta description 168字符，超出此前观察到的160字符上限），已spawn独立全新上下文agent复核",
+    "独立复核结果：NOT CONFIRMED——Google实际按像素宽度而非字符数截断，本描述前段'Line, shape, color, form:'窄字符占比高，实际渲染宽度未必触发截断，即使截断也在语义完整处收尾，不构成需要修复的缺陷，判定与此前160字符案例同属'区间边界内非缺陷'",
+    "十二个维度（除已复核的SEO一项）均一次性核实通过，无其他候选发现产生",
+    "未对文章正文/元数据做任何编辑，未触发build/commit/push/部署/IndexNow流程（无内容变化，无需重新索引），亦未运行seo_drift compare（本次审计前已跑baseline存档供未来对比，本次无改动故无需当次compare）"
+  ],
+  "seo_score": "seo-audit通过（title 59字符/desc 168字符经独立复核判定为像素宽度层面非缺陷/canonical自指/单一h1/8个h2无跳级/3个JSON-LD schema块/9张图片alt全部齐全/10条外链全部200/ads.txt正确）",
+  "geo_score": "自评约96/99（阈值80，达标），11个维度均达标，跨域连接4/4为全站已审13篇文章中双向连接最健康的一篇（3出5进）",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
