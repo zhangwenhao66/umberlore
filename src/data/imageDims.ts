@@ -331,6 +331,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1306,
   "w": 1920
  },
+ "/images/pandemonium-john-martin-louvre.jpg": {
+  "h": 2127,
+  "w": 3224
+ },
+ "/images/pandemonium-mezzotint-1831-yale.jpg": {
+  "h": 1382,
+  "w": 1920
+ },
+ "/images/pandemonium-painting-frame.jpg": {
+  "h": 2793,
+  "w": 3946
+ },
  "/images/papunya-school-1972.jpg": {
   "h": 1030,
   "w": 1600
