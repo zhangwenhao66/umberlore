@@ -1715,3 +1715,98 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "birth-of-venus",
+  "last_audited": "2026-08-29",
+  "published_date": "2026-08-09",
+  "article_specific_checklist": [
+    "Uffizi官网逐字引语（\"nothing written about the painting before 1550\"/\"mala medica\"典故/172.5×278.5cm/inventory 1890 n.878/\"1485 ca.\"）需与uffizi.it官方藏品页原文逐字核对",
+    "1499年Lorenzo di Pierfrancesco家族藏品清单（1975年首次公开、列Primavera不列本画）与Ronald Lightbown《Sandro Botticelli: Life and Work》(1989)据此推论的归属史结论，需与Wikipedia及书目信息交叉核实",
+    "Kenneth Clark《The Nude: A Study in Ideal Form》引语（\"not standing but floating\"/\"the curve of a Gothic ivory\"）逐字准确性，以及该书实际出版年代",
+    "Homeric Hymn to Aphrodite（Chalkokondyles 1488年佛罗伦萨首刊）译文逐字核对，以及该诗与Botticelli构图对应关系的归因是否准确",
+    "Pliny《自然史》记载Apelles《Venus Anadyomene》受损、尼禄命Dorotheus补绘的典故细节是否准确复述"
+  ],
+  "findings": [
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇引用真实机构一手资料（Uffizi官方藏品页）与权威学术二手资料（Wikipedia条目转引Kenneth Clark学术专著、Ronald Lightbown专著、Pliny古典文献），无模糊归因，sources数组2条（Uffizi + Wikipedia）均可验证。"
+    },
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "确认1处问题，已修复",
+      "detail": "curl直连uffizi.it官网原文逐字核对6处引语/数据全部准确（172.5×278.5cm、inventory 1890 n.878、1485 ca.、'mala medica'典故、'nothing written about the painting before 1550'、'widely used throughout the 15th century for decorative works'）；curl拉取Wikipedia条目全文（explaintext API）逐句核对1499年清单细节、Lightbown结论、Kenneth Clark引语文本本身、Homeric Hymn译文、Venus de' Medici 1559年记录、Pliny-Apelles-Dorotheus典故，全部准确；WebSearch独立核实文中'温风神与同伴取材自曾属Lorenzo the Magnificent收藏的希腊化宝石浮雕'这一Wikipedia抓取文本未直接覆盖的细节，经Uffizi官方说明与其他独立信源交叉确认为真，非编造。**发现1处真实错误**：正文将Kenneth Clark《The Nude: A Study in Ideal Form》成书年代写作'1949'，独立复核agent核实该书实际由Pantheon Books于1956年出版（Bollingen Series XXXV，基于1953年A.W. Mellon Lectures），College Art Journal书评/AbeBooks首版书目/Princeton University Press系列页/JSTOR均确认1956年，无任何来源支持1949年。引语本身逐字准确，仅年代标注错误。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "published/updated原为2026-08-09（当天发布），内容为艺术史考据性质，未发现1975年清单公开/1989年Lightbown专著之后有新的推翻性学术研究需要补充。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "DataForSEO实测'who commissioned the birth of venus'真实SERP由Uffizi/Wikipedia/Britannica/若干博客混合主导，本文暂未进入前排（新发布内容正常现象，非竞争力问题）。内容核对确认远超Wikipedia单纯复述：含Kenneth Clark学术引语的完整语境、保护修复科学细节（pentimenti/blue-tinted gesso ground/two-piece sewn canvas/lost green underlayer）、Pliny-Apelles-Dorotheus典故完整链条，属于综合多个学术/机构一手信源后的真实增量价值。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题（一项边界值已核查，判定无需处理）",
+      "detail": "title 74字符（含站名后缀）；meta description 162字符，略超150-160经验区间2字符，与站内同类文章分布对比后判定属正常波动非离群值；canonical自指；单一H1；6个section H2 + FAQ独立H2，无跳级；三个schema组件（Article/FAQPage/BreadcrumbList）均直接从guide对象动态生成；全部图片alt文本齐全；robots.txt允许全部抓取（含AI爬虫显式Allow）；sitemap已收录该URL；无noindex标签。"
+    },
+    {
+      "dimension": "GEO审计（99分制11维度）",
+      "status": "未发现问题，自评约90/99（阈值80，达标）",
+      "detail": "权威原文引语16/16（多条机构级与学术级逐字引语且核实准确）；统计数据完整性13/14（尺寸/藏品号/多个具体年代密集）；可引用性12/13；结构规范性12/12；表达流畅度9/10；语义密度7/8；权威信号6/8（机构与学术引用扎实，缺作者credential页，同what-is-a-gargoyle既往结论一致）；专业术语6/6（Venus Pudica/Venus Anadyomene/contrapposto/pentimenti/gesso等准确使用）；鲁棒性4/5（因发现1处年代错误暂扣1分，修复后应回升至5/5，未重新整体复验总分）；跨域连接4/4（5篇文章inbound回链+2条outbound出链，双向连接健康）；易懂表达3/3。此为审计员基于该站已公开的99分制评分标准自行评分，未使用独立工具复验，故记为'自评'。"
+    },
+    {
+      "dimension": "AI味扫描",
+      "status": "未发现问题（非强制重查项，抽查确认）",
+      "detail": "published(2026-08-09)晚于avoid-ai-writing技能接入日期(2026-08-07)，按规则非强制重跑，仍做抽查：机械扫描全文正文，em/en dash 0处、双连字符0处、花体引号0处、常见AI高频词（delve/crucial/testament/tapestry/pivotal/vibrant/foster/enhance/underscore/showcase/intricate/interplay等）0命中；'landscape'2处命中均为字面画面场景（'the painting's landscape'/'parts of the landscape'）而非AI高频抽象隐喻用法（如'evolving landscape'），未发现AI写作痕迹。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources数组2条外部链接（Uffizi官网 + Wikipedia）逐条curl实测均200。正文内2处Wikimedia Commons图片来源页链接同样curl实测200。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认5篇已发布文章（venus-de-milo/ophelia-millais/architectural-painting/ghost-of-a-flea/aphrodite-painting）已通过手动锚文本回链本文，本文自身也有2条出链（famous-paintings/gustav-klimt/mona-lisa），非孤儿页，双向连接健康。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "构建产物dist/birth-of-venus/index.html核对确认三个JSON-LD schema块（Article/FAQPage/BreadcrumbList）均与guide对象字段完全同步，无硬编码副本，不存在漂移风险。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "涉及人物Sandro Botticelli（卒1510）、Kenneth Clark（卒1983，作为学者被学术引用而非其本人艺术作品被复制）均远早于/不触及1955版权风险分界线，不在建站计划文档的146个高风险艺术家名单内。全文未出现跨站矩阵命名规律相关措辞。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "2张配图（birth-of-venus-uffizi.jpg头图 + birth-of-venus-primavera-comparison.jpg正文插图）本地文件均存在。逐张通过Wikimedia Commons API查询extmetadata确认License均为'Public domain'，与站内imageCredit标注完全一致。拍摄/复制对象均为文艺复兴时期绘画原作实拍，不涉及在世/近期去世艺术家，不触及本站特有的版权高风险类别。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题，经研究判定非灰色地带（未升级Owen）",
+      "detail": "curl实测ads.txt返回200，内容正确指向矩阵共享账号pub-5245502795720653；privacy/about页面均可访问（200）。画面为经典文艺复兴裸体（Venus Pudica姿势），WebSearch核实Google AdSense对'艺术、教育、历史、纪录、科学考量'的裸体内容设有明确例外条款；正文全篇学术化描述（姿势类型分析、解剖学偏离讨论、保护修复科学），无煽情化措辞，与Wikipedia/Britannica对同一画作的处理方式一致。核对本站umberlore-content-publishing SKILL.md已排除的'nude art'为**关键词/选题方向**层面的排除（该词本身吸引非艺术类搜索意图），与本文'分析一幅具体馆藏名画的构图/归属/保护史'的写法不构成同一类风险，两者性质不同。判定不构成需要升级Owen的AdSense灰色地带。"
+    }
+  ],
+  "actions_taken": [
+    "起独立全新上下文Agent，仅提供'Kenneth Clark该书成书年代是否为1949'这一条断言与原文引语（不含其他上下文），Agent独立WebSearch多个信源（College Art Journal书评/AbeBooks首版书目/Princeton University Press Mellon Lectures系列页/JSTOR）判定NOT-CONFIRMED（发现错误，应为1956年），未卡死正常完成",
+    "修复：'in his 1949 study The Nude: A Study in Ideal Form' 改为 'in his 1956 study The Nude: A Study in Ideal Form'（引语文本本身未改动，逐字保持准确）",
+    "updated字段由2026-08-09更新为2026-08-29（published字段本已存在，无需git log回填流程）",
+    "npm run build验证通过（68页无报错），commit 010fe90并push到origin/main，CF Pages自动部署（该站无手动deploy hook），curl轮询约45秒后确认线上已渲染'1956'",
+    "seo_drift.py compare对比baseline结果：仅1条WARNING（schema内容变化，即dateModified更新为预期编辑），无CRITICAL",
+    "IndexNow提交/birth-of-venus/（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加审计记录，明确标注'本条为content-quality-audit审计更新，非新发布'"
+  ],
+  "seo_score": "seo-audit通过（title 74字符/desc 162字符经与站内分布对比判定属正常波动非离群值/canonical自指/单一h1/6个h2+FAQ无跳级/三个schema均基于guide对象动态生成/alt全部已有/外链2条全部200/ads.txt正确）",
+  "geo_score": "自评约90/99（阈值80，达标）；修复前鲁棒性维度因发现的年代错误暂扣1分（4/5），修复后应回升至5/5，未重新整体复验总分",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
