@@ -21,3 +21,19 @@ Record of assets produced/updated by `trafficsite-linkable-asset-building`, plus
 **Step 3.5 (discovery-platform placement)**: Evaluated Show HN — decided against it. This is a data-journalism content page (art history statistics), not a technical build a Hacker News audience would find intrinsically interesting, and submitting it risks reading as SEO/content-marketing self-promotion, which HN penalizes hard. Did not find a genuine, on-topic non-Reddit community (Discord/Slack/forum) for visual-art-history data content within this run's time budget — the closest fit found (a Quora thread asking why artists' careers peak by 30) would require creating a Quora account to answer, which is out of scope for an unattended run. No platform placement made this round; worth re-evaluating for a future asset with a more HN-native format (e.g., an interactive tool) or if a specific art-history community turns up in a later run.
 
 **Commit**: this log + backlog status update committed and pushed separately from the asset commit, per the "commit each site's log files as you go" rule.
+
+---
+
+## 2026-08-29 — distribution pass #2 (capacity-concentration rule)
+
+**Site selection**: this run applied the "🎯 外链产能集中规则" — recomputed 28-day 11-30-position impressions across all 10 traffic sites, excluded the three suppressed by the algorithmic spam update (CalcBadger 2, DialWick 495, LingoGrove 100 — all in the observation window). Ranking of the rest: WageLark (532) > DayAlmanac (303) > **UmberLore (236)** > FactCrumbs (113) > MythCairn (84) > WarCrumbs (39) > Hollowvane (10). UmberLore is in this run's top-3 capacity allocation.
+
+**Order of work**: per the 2026-08-28 "distribution before new production" directive, this run prioritized continuing distribution of UmberLore's one existing published asset (the peak-creation-age data study, one prior pitch already sent to CreativeLive) over building a new one from the backlog.
+
+**Step 2 (unlinked-mention recovery)**: WebSearch `"umberlore.com" OR "artist-peak-creation-age" -site:umberlore.com` — no results referencing the site (still expected; page is a week old). No recovery opportunity this round.
+
+**Step 3 (pitch)**: found gitnux.org's "120+ Artist Statistics" page — a citation-per-line stats roundup with no existing entry on creative peak age. Drafted and sent a pitch offering the dataset as a new, sourced stat (see `outreach-drafts.md` for full text and verification detail). Passed `Skill(humanizer)` and `Skill(avoid-ai-writing)` unmodified. Independent fresh-context review agent verified every number against the live page, confirmed no overlapping stat already existed on gitnux's page, confirmed the contact address is a general (not scoped) inbox, and returned "CAN SEND". Sent 2026-08-29 via `gmail_send.py send --from umberlore` → info@gitnux.org, Message ID `1a04c0eafa71a0e8`.
+
+**Step 3.5 (discovery-platform placement)**: not re-evaluated this run — the 2026-08-22 evaluation (Show HN rejected as ill-fitting for a data-journalism page; no genuine non-Reddit community found in budget) still stands and nothing has changed since. Separately, `reddit-投放候选清单.md` already lists this asset as candidate 3 (lower priority than the WarCrumbs/Hollowvane candidates, needs a standalone chart before it's [OC]-ready for r/dataisbeautiful) — no action needed from this task, that's the Reddit-candidate-list owner's queue.
+
+**Distribution count**: 2/10 targets pitched so far (CreativeLive 2026-08-22 + gitnux.org 2026-08-29). Below the ≥10-target saturation bar — continue distribution on future runs before considering a new asset for this site.

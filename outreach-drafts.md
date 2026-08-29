@@ -384,3 +384,38 @@ Directions: Decorative Arts/ceramics (new since last run: `majolica`, published 
 Two follow-up WebSearches for narrower angles (Italian Renaissance maiolica-specific resource pages; Navajo/Diné-specific university LibGuides) surfaced no additional candidate resource pages beyond the ones already scanned (all zero-DEAD).
 
 **Result: no email sent for new opportunities this round.** Consistent with this log's established standard — a database/collection/program page cannot be replaced by a narrative article, and a contemporary-practice resource (supplier, gallery, personal site, trade journal) cannot be replaced by a historical-narrative one. All rejections are on documented topical/functional-mismatch grounds, not abandoned for lack of effort.
+
+---
+
+## 2026-08-29 — linkable-asset distribution pitch #2 (trafficsite-linkable-asset-building)
+
+Continuing distribution of the "Artist Peak Creation Age" data study (published 2026-08-22, one prior pitch sent to CreativeLive). Searched for stats-aggregator/roundup sites that might cite the dataset as a new, sourced entry. Found gitnux.org's "120+ Artist Statistics" page — a citation-per-line stats roundup with no existing entry on when in a career an artist's best-known work gets made.
+
+### Candidate — gitnux.org ("120+ Artist Statistics")
+
+**Target:** gitnux.org/artist-statistics/ ("120+ Artist Statistics | Verified 2026 Data"), a stats-aggregation page where nearly every line cites a source. Confirmed live (470KB page, footnoted stats) and confirmed no existing overlapping stat on creative peak age via full-text search of the page.
+
+**Contact:** info@gitnux.org, found on the site's About page — general site contact, not a scoped legal/privacy/ads inbox.
+
+**Subject:** A sourced stat for your artist statistics page (creative peak age)
+
+**Body:**
+
+Hi,
+
+Your "120+ Artist Statistics" page is a solid roundup, especially with a citation attached to nearly every line. I didn't see anything on when in an artist's career their most famous work actually got made, so I thought you might want this one.
+
+I run UmberLore, a visual art history site. I went through 64 widely recognized paintings (Early Netherlandish through Pop Art) and, for each, verified the artist's birth year, death year, and the year the specific work was completed against museum collection pages, Britannica, or Wikipedia. Median age at creation across the set: 39.5. The range runs from 20 (Artemisia Gentileschi, "Judith Slaying Holofernes") to 71 (a tie between Hokusai's "The Great Wave off Kanagawa" and Mondrian's "Broadway Boogie Woogie"). Only 11% of the artists made their best-known piece in the final five years of their life.
+
+Full write-up, methodology, and a CSV of the raw per-painting data: https://umberlore.com/artist-peak-creation-age/
+
+Feel free to use it if it's a fit for the page.
+
+Owen
+UmberLore
+
+**Checks done:** Passed Skill(humanizer) and Skill(avoid-ai-writing) unmodified — no em/en dashes, no AI-vocabulary hits, no filler, no hedging. Dedup: `grep -ril "gitnux" 独立站/` → no prior contact.
+
+**Independent review verdict: CAN SEND.** Fresh-context review agent independently fetched both `artist-peak-creation-age/` and `artist-statistics/`, confirmed every number in the email against the live page, confirmed no overlapping stat already existed on gitnux's page, and confirmed `info@gitnux.org` is the site's general contact (not scoped).
+
+**Status: SENT 2026-08-29** via `gmail_send.py send --from umberlore` → info@gitnux.org, Message ID `1a04c0eafa71a0e8`.
