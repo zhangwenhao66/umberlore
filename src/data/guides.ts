@@ -6549,5 +6549,122 @@ export const guides: Guide[] = [
         "url": "https://www.artrenewal.org/artworks/daedalus-and-icarus/lord-frederick-leighton/312"
       }
     ]
+  },
+  {
+    "slug": "aphrodite-painting",
+    "category": "Painting",
+    "title": "Aphrodite Paintings: One Reclining Pose, Copied for 350 Years",
+    "description": "Titian reused the pose from Giorgione's unfinished Sleeping Venus, and Manet copied Titian's by hand for Olympia, a chain Mark Twain and Paris critics both called obscene.",
+    "published": "2026-08-29",
+    "updated": "2026-08-29",
+    "coreSummary": "Four of the most reproduced paintings of Aphrodite share more than a goddess. Giorgione's Sleeping Venus was left unfinished when he died in 1510, and the reclining pose Titian completed for him reappears almost unchanged in Titian's own Venus of Urbino, which Édouard Manet copied by hand at the Uffizi before reworking it into Olympia in 1863. Mark Twain called the Titian \"the obscenest picture the world possesses\" in 1880; Paris critics said worse about Manet's version in 1865. A fourth Venus, Velázquez's Rokeby Venus, took a different pose and a harder fate: on 10 March 1914, the suffragette Mary Richardson cut it seven times with a meat cleaver inside London's National Gallery, and faint scars from the attack are still visible on the canvas today.",
+    "image": "/images/aphrodite-painting-titian-venus-urbino.jpg",
+    "imageAlt": "Titian's Venus of Urbino, showing a nude woman reclining on a couch in a Renaissance interior, her head turned to face the viewer and one hand resting at her thigh.",
+    "imageCredit": "[Venus of Urbino](https://commons.wikimedia.org/wiki/File:Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg), Titian, c. 1534, Gallerie degli Uffizi, public domain",
+    "sections": [
+      {
+        "heading": "Botticelli isn't the only Aphrodite worth knowing",
+        "body": [
+          "Searches for \"Aphrodite painting\" mostly land on one picture, Botticelli's Birth of Venus, [already covered in depth elsewhere on this site](/birth-of-venus/) down to the 1499 inventory that leaves it out entirely. This piece covers the paintings that search doesn't surface as often, and they turn out to be more tangled with each other than Botticelli's ever was. Three of them share a single reclining pose, passed from painter to painter across three and a half centuries, each one copying the last while insisting it meant something different. The fourth shares only the goddess's name, and a documented afternoon in 1914 when someone tried to destroy it with a meat cleaver. Reading all four together says more about how later painters used, and misused, earlier ones than any single painting does on its own."
+        ]
+      },
+      {
+        "heading": "An unfinished Venus, and a cupid painted out",
+        "body": [
+          "Giorgione died in Venice in the autumn of 1510, likely of plague, and left behind a reclining nude now known as the Sleeping Venus, held today at the Gemäldegalerie Alte Meister in Dresden. The standard account, repeated by most art historians, is that Titian, a friend and near-contemporary of Giorgione's, finished the landscape and sky after his death. Twenty-first-century technical study has pushed that account further: some scholars now argue Titian painted the figure of Venus herself as well, leaving Giorgione's actual contribution to the canvas an open question rather than a settled one.",
+          "An X-ray, more than any stylistic argument, is the clearest evidence of that later reworking. A small seated Cupid originally sat at Venus's feet; in 1837, a restorer painted him out entirely and replaced him with a strip of green landscape, apparently judging the figure too damaged to preserve. Cupid's presence went unrecorded for roughly a century, until twentieth-century X-ray imaging picked up his outline underneath the overpaint. The same imaging showed Venus's head was originally turned in profile before being repainted to face more toward the viewer, and that the gold tones first used for the sheet and pillow beneath her were later shifted toward the silvery grey more typical of Titian's own palette, one more argument for how much of the finished picture is his rather than Giorgione's."
+        ],
+        "image": {
+          "src": "/images/aphrodite-painting-giorgione-sleeping-venus.jpg",
+          "alt": "Giorgione's Sleeping Venus, a nude woman lying asleep in a landscape, her Cupid companion long painted out and only recovered by later X-ray.",
+          "credit": "[Sleeping Venus](https://commons.wikimedia.org/wiki/File:Giorgione_-_Sleeping_Venus_-_Google_Art_Project.jpg), Giorgione (completed by Titian), c. 1510, Gemäldegalerie Alte Meister, Dresden, public domain"
+        }
+      },
+      {
+        "heading": "Titian borrows the pose, then Mark Twain calls it obscene",
+        "body": [
+          "Titian's Venus of Urbino, in the Uffizi since the eighteenth century, reclines in essentially the same pose Giorgione had used roughly a quarter-century earlier: on her side, head propped on pillows, one hand resting at her thigh. The earliest surviving document naming an owner is a letter from 1538 confirming that Guidobaldo della Rovere, heir to the Duchy of Urbino, had bought the painting directly from Titian; art historians generally date the work itself to around 1534, a few years before that letter was written.",
+          "The painting stayed in the della Rovere family until 1637, when Vittoria della Rovere brought it to Florence as part of her dowry on marrying Ferdinand II de' Medici. It wasn't shown in a public gallery until 1736, when Vittoria's descendant Anna Maria Luisa de' Medici had it installed in the Uffizi, and even then it was kept covered by a painting of Sacred Love to shield it from casual view. By the time Mark Twain visited in 1880, the cover was long gone, and he devoted a page of A Tramp Abroad to it, calling it, without irony, \"the foulest, the vilest, the obscenest picture the world possesses,\" adding that what unsettled him wasn't her nakedness but \"the attitude of one of her arms and hand.\"",
+          "Who modeled for the painting is disputed and probably always will be. One theory, resting on a 1532 diary entry that places Titian at dinner with her, names Angela del Moro, also known as Angela Zaffetta, one of the highest-paid courtesans in Venice at the time. Other art historians reject any specific identification. They read the figure instead as an idealized bride tied to a Venetian wedding tradition, or as an idealized nude with no real sitter behind her at all. No single reading has become consensus."
+        ]
+      },
+      {
+        "heading": "Manet copies it by hand, and the insults get worse",
+        "body": [
+          "Manet knew Titian's painting first-hand. During a trip to Florence, he made a small painted copy of the Venus of Urbino at the Uffizi itself, a copy he kept in his studio and drew on six years later for Olympia, exhibited at the 1865 Paris Salon. The pose survives almost intact: the same reclining angle, the same hand placed at the thigh, the same head turned to face the viewer directly. What Manet stripped out was everything that had framed Titian's nude as a bride. The wedding chests in the background disappear. A small dog curled at Venus's feet, a conventional symbol of fidelity, becomes a black cat arching its back at the foot of Olympia's bed.",
+          "The 1865 reception makes Twain's 1880 complaint about the Titian look mild. The critic Jules Claretie, writing in Le Figaro, dismissed Olympia's model as \"a vile model picked up who knows where.\" Manet's friend Antonin Proust later wrote that the only reason the canvas survived the exhibition intact was that the gallery deliberately hung it out of reach of visitors' canes. The model herself, Victorine Meurent, was neither a courtesan nor anonymous. She trained as a painter, and in 1876 her own work was accepted into the Salon's juried exhibition, the same year Manet's submission was rejected, a detail later writers on the painting have generally left out.",
+          "The two paintings had never hung in the same room until 2013, when the Musée d'Orsay lent Olympia to a Manet exhibition at the Doge's Palace in Venice, letting it stand next to the Uffizi's Venus of Urbino for the first time. Guy Cogeval, then president of the Musée d'Orsay, said, \"It's every art historian's obsession to bring together these two great works of art, of which one served as a model for the other.\""
+        ]
+      },
+      {
+        "heading": "A different Venus meets a meat cleaver",
+        "body": [
+          "Velázquez's Rokeby Venus, at London's National Gallery since 1906, breaks from the Giorgione-Titian-Manet lineage entirely. Venus is shown from behind, reclining and looking into a mirror held by Cupid, rather than facing the viewer directly. The National Gallery's own record calls it the only surviving female nude Velázquez painted, made in a country where the Catholic Church treated openly sensual images with suspicion. It takes its popular name from Rokeby Park in County Durham, where it hung through most of the nineteenth century before the gallery acquired it.",
+          "On 10 March 1914, the suffragette Mary Richardson walked into the National Gallery with a meat cleaver hidden in her coat and cut the canvas seven times, aiming for the torso. She was protesting the arrest of Emmeline Pankhurst the previous day. The Times published her statement on 11 March: \"I have tried to destroy the picture of the most beautiful woman in mythological history as a protest against the Government for destroying Mrs Pankhurst, who is the most beautiful character in modern history. Justice is an element of beauty as much as colour and outline on canvas.\" Richardson was sentenced to six months in Holloway Prison but served only a few weeks of it, released early on 6 April after a recurrence of appendicitis.",
+          "The National Gallery restored the painting and returned it to display. The restoration held up well enough that most visitors walk past without noticing anything happened, but faint discoloration along Venus's back, where the deepest of Richardson's cuts ran, is still visible up close today."
+        ],
+        "image": {
+          "src": "/images/aphrodite-painting-velazquez-rokeby-venus.jpg",
+          "alt": "Velázquez's Rokeby Venus, showing Venus reclining with her back to the viewer while Cupid holds a mirror reflecting her face, the canvas that was slashed seven times in 1914.",
+          "credit": "[The Toilet of Venus (The Rokeby Venus)](https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_-_Rokeby_Venus.jpg), Diego Velázquez, c. 1647-51, The National Gallery, London, public domain"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the most famous painting of Aphrodite?",
+        "answer": "Botticelli's Birth of Venus is the best known and is covered in depth elsewhere on this site. Titian's Venus of Urbino and Velázquez's Rokeby Venus are close behind in how often they're reproduced, and both come with their own well-documented histories of scandal."
+      },
+      {
+        "question": "Did Titian copy Giorgione's Sleeping Venus for Venus of Urbino?",
+        "answer": "Titian reused the same reclining pose, on her side with one hand at the thigh, that appears in Giorgione's Sleeping Venus, a painting Titian himself is thought to have partly completed after Giorgione's death in 1510. Venus of Urbino followed roughly a quarter-century later, generally dated to around 1534."
+      },
+      {
+        "question": "Did Manet copy Titian's Venus of Urbino for Olympia?",
+        "answer": "Yes. Manet made a small painted copy of Titian's Venus of Urbino at the Uffizi during a trip to Florence and referred back to it six years later while painting Olympia, keeping the same reclining pose and head angle while stripping out the details that had framed Titian's nude as a bride."
+      },
+      {
+        "question": "What happened to Velázquez's Rokeby Venus in 1914?",
+        "answer": "The suffragette Mary Richardson cut the canvas seven times with a meat cleaver at London's National Gallery on 10 March 1914, in protest of the arrest of Emmeline Pankhurst the day before. The painting was restored and returned to display; faint scars from the attack are still visible along Venus's back."
+      },
+      {
+        "question": "Who was the model for Titian's Venus of Urbino?",
+        "answer": "It's disputed. One theory names Angela del Moro, a well-known Venetian courtesan Titian is documented dining with in 1532. Other art historians reject any specific identification and read the figure as an idealized bride or an idealized nude with no real sitter at all. No reading has become consensus."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Sleeping Venus (Giorgione)",
+        "url": "https://en.wikipedia.org/wiki/Sleeping_Venus_(Giorgione)"
+      },
+      {
+        "label": "Uffizi Galleries: Venus of Urbino by Titian (collection record)",
+        "url": "https://www.uffizi.it/en/artworks/venus-urbino-titian"
+      },
+      {
+        "label": "Wikipedia: Venus of Urbino",
+        "url": "https://en.wikipedia.org/wiki/Venus_of_Urbino"
+      },
+      {
+        "label": "The History Blog: \"Olympia and Venus of Urbino together at last\" (28 February 2013)",
+        "url": "https://www.thehistoryblog.com/archives/23846"
+      },
+      {
+        "label": "Wikipedia: Victorine Meurent",
+        "url": "https://en.wikipedia.org/wiki/Victorine_Meurent"
+      },
+      {
+        "label": "The National Gallery, London: Diego Velázquez, The Toilet of Venus ('The Rokeby Venus'), NG2057 (collection record)",
+        "url": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-the-toilet-of-venus-the-rokeby-venus"
+      },
+      {
+        "label": "Wikipedia: Rokeby Venus",
+        "url": "https://en.wikipedia.org/wiki/Rokeby_Venus"
+      },
+      {
+        "label": "Wikipedia: Mary Richardson",
+        "url": "https://en.wikipedia.org/wiki/Mary_Richardson"
+      }
+    ]
   }
 ];

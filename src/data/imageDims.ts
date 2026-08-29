@@ -23,6 +23,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 620,
   "w": 1200
  },
+ "/images/aphrodite-painting-giorgione-sleeping-venus.jpg": {
+  "h": 996,
+  "w": 1600
+ },
+ "/images/aphrodite-painting-titian-venus-urbino.jpg": {
+  "h": 1125,
+  "w": 1600
+ },
+ "/images/aphrodite-painting-velazquez-rokeby-venus.jpg": {
+  "h": 1097,
+  "w": 1600
+ },
  "/images/architectural-painting-canaletto-piazza-san-marco.jpg": {
   "h": 1001,
   "w": 816
