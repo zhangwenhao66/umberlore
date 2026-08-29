@@ -240,8 +240,8 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1246
  },
  "/images/icarus-painting-draper-lament.jpg": {
-  "h": 2703,
-  "w": 2285
+  "h": 1400,
+  "w": 1183
  },
  "/images/jackson-pollock-barn-studio.jpg": {
   "h": 562,
