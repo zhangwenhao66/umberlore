@@ -235,6 +235,14 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 676,
   "w": 520
  },
+ "/images/icarus-painting-bruegel-brussels.jpg": {
+  "h": 800,
+  "w": 1246
+ },
+ "/images/icarus-painting-draper-lament.jpg": {
+  "h": 2703,
+  "w": 2285
+ },
  "/images/jackson-pollock-barn-studio.jpg": {
   "h": 562,
   "w": 750

@@ -6435,5 +6435,119 @@ export const guides: Guide[] = [
         "url": "https://commons.wikimedia.org/wiki/File:John_Martin_-_Pandemonium_-_B1977.14.11944_-_Yale_Center_for_British_Art.jpg"
       }
     ]
+  },
+  {
+    "slug": "icarus-painting",
+    "category": "Painting",
+    "title": "Icarus Painted Twice: A Doubted Bruegel and a Gold-Medal Draper",
+    "description": "The Brussels Icarus painting long credited to Bruegel is under new study in 2026. Draper's 1898 answer gave Icarus wings the myth says melted, and won gold in Paris.",
+    "published": "2026-08-29",
+    "updated": "2026-08-29",
+    "coreSummary": "Two paintings dominate searches for \"Icarus painting,\" and they treat the same fall almost as opposites. Landscape with the Fall of Icarus, in Brussels since 1912 and long credited to Pieter Bruegel the Elder, has been doubted as his own work since a 1996 technical exam; a new non-invasive study launched in 2026 with results due at a 2028 exhibition. Herbert Draper's 1898 The Lament for Icarus, built from four named studio models and now at Tate, gave Icarus fully intact wings, contradicting the myth's melted wax, and won a gold medal in Paris two years after it was painted.",
+    "image": "/images/icarus-painting-bruegel-brussels.jpg",
+    "imageAlt": "Landscape with the Fall of Icarus, a 16th-century painting showing a plowman, shepherd, and ship in the foreground while a tiny pair of legs disappears into the sea in the lower right corner.",
+    "imageCredit": "[Landscape with the Fall of Icarus](https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_WGA03321.jpg), attributed to Pieter Bruegel the Elder (after), Royal Museums of Fine Arts of Belgium, public domain",
+    "sections": [
+      {
+        "heading": "One myth, two paintings that barely agree on what to show",
+        "body": [
+          "In the story Ovid tells in the Metamorphoses, Icarus flies too close to the sun on wings his father Daedalus built from feathers and wax, and drowns when the wax melts. That single sentence is as much of the myth as this article needs. The two paintings that answer most \"Icarus painting\" searches focus less on the myth itself than on two artists, roughly 340 years apart, making almost opposite decisions about which second of the story deserves the canvas.",
+          "One painting hides Icarus almost entirely: a pair of legs kicking above the water in a corner of an otherwise ordinary countryside scene, easy to miss on a first look. The other painting shows nothing else: Icarus's dead body, life-size, cradled by mourning nymphs, filling the entire frame. There's no historically \"accurate\" version to prefer between them. Both are choices, made independently, and both turned out to matter far more than either painter could have predicted."
+        ]
+      },
+      {
+        "heading": "A Bruegel that might not be a Bruegel",
+        "body": [
+          "Landscape with the Fall of Icarus is an oil-on-canvas painting, 73.5 by 112 centimetres, that entered the collection of the Royal Museums of Fine Arts of Belgium (RMFAB) in Brussels in 1912, bought on the art market. For decades it was catalogued as the work of Pieter Bruegel the Elder. It no longer is, at least not without a heavy qualifier.",
+          "A technical examination of the painting in 1996 cast serious doubt on that attribution. Since then, the museum's own position is that it is \"doubtful the execution is by Bruegel the Elder, but the composition can be said with certainty to be his.\" In plain terms, the design is Bruegel's, most likely copied from a lost original he painted around 1558, while the physical object in Brussels is now generally treated as a good early copy by an unknown hand, made perhaps in the 1560s. In 2006, the chemist J. Reisse re-examined an earlier paint sample and argued the case for authenticity wasn't as closed as the 1996 consensus suggested, reopening a debate that technical analysis alone hasn't settled.",
+          "That debate is still active as of this writing. RMFAB published a notice on 9 April 2026 announcing new, non-invasive technical research on the painting, carried out with Belgium's Royal Institute for Cultural Heritage. The museum's own wording captures how unresolved the file still is: \"Doubts have been expressed about its attribution, dating, painting technique and the extent of its restoration.\" The results are scheduled to be unveiled at a Pieter Bruegel the Elder exhibition the museum plans for autumn 2028, and the painting itself, out of its usual gallery for the study, is expected back at the museum around October 2026."
+        ]
+      },
+      {
+        "heading": "How a 1938 poem taught the world to read it",
+        "body": [
+          "Most of what people now assume this painting is \"about\" comes less from the canvas itself than from a poem written more than 350 years after it was made. In December 1938, W. H. Auden was staying in Brussels with Christopher Isherwood and visited the RMFAB. The visit produced \"Musée des Beaux Arts,\" which opens: \"About suffering they were never wrong, / The Old Masters: how well they understood / Its human position.\" The poem's second half turns to the Icarus painting directly, describing how the ploughman, the ship, and the sun keep going about their business while, in the corner, \"something amazing, a boy falling out of the sky,\" goes almost unnoticed.",
+          "Auden's reading, that the painting is fundamentally about how ordinary life continues indifferent to someone else's catastrophe, became so influential that it now shapes how most viewers approach the image before they've had a chance to look at it themselves. William Carlos Williams pushed the same idea further in his own poem, also titled \"Landscape with the Fall of Icarus,\" first published in the Hudson Review in 1960 and later collected in Pictures from Brueghel and Other Poems (1962), the book for which Williams won a posthumous Pulitzer Prize. Williams's version is even more literal about the world's unconcern: spring is \"awake,\" a farmer is ploughing, and Icarus drowns \"unsignificantly\" off the coast, the poem's last word.",
+          "None of this is a criticism of either poet. What's actually documented and what's since been layered on top are two separate things. Whoever painted the Brussels canvas, Bruegel or the copyist working from his design, left no writing explaining what the scene meant to them. The \"human indifference to suffering\" interpretation is a twentieth-century literary lens, arriving nearly four centuries after the fact, not a caption the original composition came with."
+        ]
+      },
+      {
+        "heading": "Draper's answer: skip the irony, paint the corpse",
+        "body": [
+          "Herbert James Draper made the opposite bet. The Lament for Icarus, oil on canvas, 183 by 156 centimetres, was exhibited at the Royal Academy in 1898 and shows the dead Icarus draped across the arms of sea-nymphs who mourn over him, his wings still attached to his shoulders. Where the Brussels painting buries its subject in the margins of an unrelated landscape, Draper's canvas has almost no landscape at all. Icarus and the nymphs are the entire composition, lit in the warm colours of a setting sun.",
+          "Draper wasn't the first English painter to take on Icarus. Frederic Leighton had painted Daedalus and Icarus around 1869, choosing an earlier moment in the story: Daedalus strapping the wings onto his son before the flight, not after it. Draper, working nearly three decades later, adopted Leighton's method: build the composition from separate posed figures instead of one grouped sitting. He named four professional models for the picture: Ethel Gurden, Ethel Warwick, Florence Bird, and Luigi di Luca. [Millais famously painted Ophelia's landscape first, with no model at all, and only added Elizabeth Siddal to the canvas months later](/ophelia-millais/), a different version of the same underlying habit in Victorian studio painting: build the picture's pieces separately, then assemble them, instead of staging one live scene from start to finish.",
+          "The painting did well by any measure available to a Victorian artist. The Chantrey Bequest, a public fund set up by the sculptor Francis Leggatt Chantrey to buy modern British art, purchased it directly from the 1898 Royal Academy exhibition. Two years later, it was awarded the gold medal at the Exposition Universelle of 1900 in Paris. It now hangs at Tate.",
+          "One detail in the painting doesn't match the myth it illustrates. Icarus's wings are shown fully intact, still spread across his back, even though the entire point of the story is that the wax holding them together melted and the wings came apart in the air. Draper had a plausible reason to make that choice: a \"winged creature\" reads as more symbolic and elegant on canvas than a young man who fell to his death without any wings left at all. Draper chose the more legible image over the more literal one."
+        ],
+        "image": {
+          "src": "/images/icarus-painting-draper-lament.jpg",
+          "alt": "The Lament for Icarus by Herbert James Draper, showing the dead Icarus with wings still intact draped across the arms of mourning sea-nymphs, lit in warm sunset colours.",
+          "credit": "[The Lament for Icarus, 1898](https://www.tate.org.uk/art/artworks/draper-the-lament-for-icarus-n01679), Herbert James Draper, Tate, public domain"
+        }
+      },
+      {
+        "heading": "Two philosophies of tragedy, on the same wall of art history",
+        "body": [
+          "Set side by side, the two paintings amount to two different arguments about how to paint a death. The Brussels canvas, whoever painted it, argues that catastrophe is small next to the ordinary world, so small that a farmer doesn't even look up. Draper's argues the opposite: that the moment deserves the whole canvas, framed like a Pietà, with nothing else competing for the viewer's eye. Both approaches found an afterlife their painters couldn't have arranged for themselves. One shaped two of the twentieth century's most anthologised poems and is now the subject of fresh laboratory work aimed at settling who actually painted it. The other won an international gold medal within two years and has hung in a major national collection ever since.",
+          "The same pattern shows up across [other paintings assembled from religious and literary texts, not from direct observation](/pandemonium-painting/): artists working from a shared text or myth routinely make incompatible choices about which moment to freeze, and those choices, not just technical skill, are often what later audiences end up arguing about."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is the famous Icarus painting really by Bruegel?",
+        "answer": "That's disputed. A 1996 technical examination of Landscape with the Fall of Icarus, held by the Royal Museums of Fine Arts of Belgium since 1912, cast serious doubt on the attribution to Pieter Bruegel the Elder. The museum's position is that the composition is certainly Bruegel's design, likely based on a lost original from around 1558, but the surviving canvas is generally treated as a good early copy by another hand. A new technical study, launched in 2026 with the Royal Institute for Cultural Heritage, aims to clarify the question further, with results planned for a 2028 Bruegel exhibition."
+      },
+      {
+        "question": "Where can I see Landscape with the Fall of Icarus?",
+        "answer": "It belongs to the Royal Museums of Fine Arts of Belgium in Brussels. As of the 2026 technical study, the painting is temporarily away from its usual gallery for non-invasive analysis and is expected back at the museum around October 2026."
+      },
+      {
+        "question": "What poem is the Bruegel Icarus painting known for inspiring?",
+        "answer": "W. H. Auden's \"Musée des Beaux Arts,\" written in December 1938 after Auden visited the Brussels museum, is the best-known. William Carlos Williams wrote his own poem with the same title as the painting, published in 1960 and later collected in Pictures from Brueghel and Other Poems, for which Williams won a posthumous Pulitzer Prize."
+      },
+      {
+        "question": "Who painted The Lament for Icarus, and where is it now?",
+        "answer": "Herbert James Draper, an English painter working in the late-Victorian classical revival style. Exhibited at the Royal Academy in 1898 and purchased that year through the Chantrey Bequest, it won the gold medal at the 1900 Exposition Universelle in Paris and now belongs to Tate."
+      },
+      {
+        "question": "Why does Icarus still have his wings in Draper's painting, if the myth says they melted?",
+        "answer": "It's a deliberate departure from the myth. Draper kept Icarus's wings fully intact in the painting instead of showing him falling without them, most likely because a winged figure reads as a more symbolic and visually elegant image than a young man who has lost his wings entirely."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Royal Museums of Fine Arts of Belgium: \"New technical study of The Fall of Icarus\" (news, published 9 April 2026)",
+        "url": "https://fine-arts-museum.be/en/news/new-technical-study-of-the-fall-of-icaru"
+      },
+      {
+        "label": "Wikipedia: Landscape with the Fall of Icarus",
+        "url": "https://en.wikipedia.org/wiki/Landscape_with_the_Fall_of_Icarus"
+      },
+      {
+        "label": "Wikipedia: The Lament for Icarus",
+        "url": "https://en.wikipedia.org/wiki/The_Lament_for_Icarus"
+      },
+      {
+        "label": "Tate: 'The Lament for Icarus', Herbert Draper, exhibited 1898 (collection record)",
+        "url": "https://www.tate.org.uk/art/artworks/draper-the-lament-for-icarus-n01679"
+      },
+      {
+        "label": "Wikipedia: Musée des Beaux Arts (poem)",
+        "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_des_Beaux_Arts_(poem)"
+      },
+      {
+        "label": "Poetry Foundation: \"Musée des Beaux Arts\" by W. H. Auden (full text)",
+        "url": "https://www.poetryfoundation.org/poems/159364/musee-des-beaux-arts-63a1efde036cd"
+      },
+      {
+        "label": "Wikipedia: Landscape with the Fall of Icarus (poem, William Carlos Williams)",
+        "url": "https://en.wikipedia.org/wiki/Landscape_with_the_Fall_of_Icarus_(poem)"
+      },
+      {
+        "label": "Art Renewal Center: Daedalus and Icarus, Frederic Leighton, c.1869 (collection record)",
+        "url": "https://www.artrenewal.org/artworks/daedalus-and-icarus/lord-frederick-leighton/312"
+      }
+    ]
   }
 ];
