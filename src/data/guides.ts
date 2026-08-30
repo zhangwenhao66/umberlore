@@ -6666,5 +6666,136 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/Mary_Richardson"
       }
     ]
+  },
+  {
+    "slug": "famous-mexican-artists",
+    "category": "Painting",
+    "title": "Famous Mexican Artists: The Muralist Who Led a Raid on Trotsky's House",
+    "description": "David Alfaro Siqueiros ran a workshop that shaped Jackson Pollock, then led an armed raid on Leon Trotsky's villa. A judge acquitted him of the worst charges months later.",
+    "published": "2026-08-30",
+    "updated": "2026-08-30",
+    "coreSummary": "Mexico's most consequential modern artists were not painters working in isolation but three muralists hired by the same 1920s government program: Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros, later nicknamed Los Tres Grandes. Siqueiros erased a Los Angeles mural that Getty conservators spent years restoring, ran a 1936 New York workshop where a young Jackson Pollock learned to pour paint from a can, and on May 24, 1940, led roughly twenty armed men into Leon Trotsky's Coyoacán villa in a failed assassination attempt; a judge acquitted him of the most serious charges months later, and Mexico's incoming president arranged for him to leave the country rather than face the rest. Orozco's 1930 fresco Prometheus at Pomona College, the first modern fresco painted in the United States, drew a different kind of attention: Pollock visited it that same year and called it the greatest painting in North America.",
+    "image": "/images/david-alfaro-siqueiros-portrait-1922.jpg",
+    "imageAlt": "David Alfaro Siqueiros, photographed by an unknown photographer circa 1922-1924, roughly a year before he helped found the Mexican muralist movement's painters' union.",
+    "imageCredit": "[David Alfaro Siqueiros, 1922](https://commons.wikimedia.org/wiki/File:David_Alfaro_Siqueiros,_1922.jpg), unknown photographer, public domain.",
+    "sections": [
+      {
+        "heading": "One government contract, three careers",
+        "body": [
+          "In 1922, Mexico's Secretary of Public Education, José Vasconcelos, began commissioning murals for government buildings in Mexico City as part of a national literacy and identity campaign following the Mexican Revolution. Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros all painted for the program, and the following year Siqueiros helped found the Syndicate of Revolutionary Mexican Painters, Sculptors and Engravers, whose newspaper El Machete argued that art should serve as \"ideological propaganda\" for the masses rather than decoration for private buyers. The three became known as Los Tres Grandes, the Mexican Mural Renaissance's three central figures, though the label describes shared ambition more than shared temperament.",
+          "Rivera's own career, including the 1933 Rockefeller Center mural that was chiseled off a New York lobby wall after he refused to remove a portrait of Lenin, is [a story with its own twists](/diego-rivera/). Siqueiros and Orozco took the same premise, that murals belonged to the public and should be seen by as many people as possible, in two very different directions: Siqueiros toward political confrontation and industrial materials, Orozco toward a single fresco that became, almost by accident, the first modern mural painted on American soil.",
+          "The Syndicate itself did not survive contact with its own internal politics. A dispute over whether to keep funding El Machete or protect mural commissions split the group, and Rivera left in protest when the paper won out, pushing Siqueiros to the front of an organization that was rapidly losing government patience. By 1925 Siqueiros had been dismissed from his post at the Department of Education; within a decade he would be jailed, exiled, and deported from two countries."
+        ]
+      },
+      {
+        "heading": "A Los Angeles mural whitewashed for eighty years",
+        "body": [
+          "In 1932, art educator Nelbert Chouinard invited Siqueiros to Los Angeles to run mural workshops, and over a six-month stay he completed three murals with a team of student collaborators. The most consequential was América Tropical: Oprimida y Destrozada por los Imperialismos (Tropical America: Oppressed and Destroyed by Imperialism), painted on the exterior wall of the Plaza Art Center facing Olvera Street. Commissioned as a decorative piece, it turned into an image of an Indigenous peon crucified beneath an American eagle, a far more radical statement than the patrons had asked for.",
+          "The mural received some favorable notice but was read by others as Communist propaganda; the street-facing portion was partially covered within two years and the whole wall was whitewashed by 1938. Siqueiros himself was deported from the United States that same year for political activity, before the final cover-up. No color photographs of the original are known to survive. In 2012, the Getty Conservation Institute completed a restoration project that relied on scientific paint analysis rather than any surviving color record to recover as much of Siqueiros's original palette as possible, and the mural became newly viewable to the public on October 9, 2012, its eightieth anniversary, at a dedicated América Tropical Interpretive Center that now stands nearby."
+        ]
+      },
+      {
+        "heading": "The workshop where Jackson Pollock learned to pour paint",
+        "body": [
+          "Back in New York in 1936, Siqueiros opened an Experimental Workshop at 5 West 14th Street devoted to what he called \"controlled accidents\": painting with Duco, an automotive lacquer made from pyroxylin rather than traditional oil, applied with spray guns, airbrushes, and palette knives directly onto wood panels instead of canvas. The workshop's stated goal was to replace the artist's hand-guided brushstroke with materials and tools borrowed from industry, on the theory that revolutionary content demanded revolutionary technique.",
+          "A young Jackson Pollock attended the workshop and helped build parade floats for the 1936 May Day march that the group organized around. Accounts of the period credit Siqueiros's pouring and dripping experiments there as a direct influence on the technique Pollock would make famous more than a decade later. It is one of two documented points of contact between Los Tres Grandes and Pollock: [Pollock's own later breakdown, filmed for a very different reason in 1950](/jackson-pollock/), came after the drip technique had already made him famous, a technique whose roots trace back to a converted storefront on 14th Street that no longer stands."
+        ]
+      },
+      {
+        "heading": "The muralist who helped bring Trotsky to Mexico, and the one who tried to kill him",
+        "body": [
+          "Leon Trotsky's presence in Mexico was itself a Rivera production. In November 1936, journalist Anita Brenner cabled Diego Rivera asking whether the Mexican government would grant Trotsky asylum after Stalin forced him out of the Soviet Union; Rivera used his political standing to press the case, President Lázaro Cárdenas agreed, and Trotsky and his wife, Natalia Sedova, arrived in January 1937 to live for a time at Rivera and Frida Kahlo's Coyoacán home before moving to a house of their own nearby. Just over three years later, a different muralist from the same government mural program set out to kill him there."
+        ]
+      },
+      {
+        "heading": "The night a painter led an armed raid on Trotsky's house",
+        "body": [
+          "On May 24, 1940, at roughly 4:00 a.m., a squad of about twenty men disguised as police was let into the walled compound of Trotsky's villa in Coyoacán by a guard on duty. David Alfaro Siqueiros led the raid, made up largely of men who had served under him in the Spanish Civil War and miners from his own union, armed with submachine guns, automatic rifles, and incendiary bombs. One group went after Trotsky directly; another attacked his guards. Trotsky and Sedova survived by rolling out of bed onto the floor as machine-gun fire raked the bedroom wall above them, and the attackers withdrew believing no one could have lived through it. Trotsky's fourteen-year-old grandson was shot and wounded but survived. Police later found the body of Robert Sheldon Harte, an American Trotskyist who had been guarding the house and was abducted during the raid, in a shallow grave outside the city; a theory that Harte had knowingly let the attackers in was reported at the time but was rejected by both Trotsky and later historians.",
+          "Not quite three months later, on August 20, 1940, a separate operative, Ramón Mercader, fatally attacked Trotsky with an ice axe; Mercader had no documented connection to Siqueiros's earlier raid beyond a shared target and a shared sponsor in Soviet intelligence."
+        ]
+      },
+      {
+        "heading": "Charged with seven crimes, acquitted of the worst of them",
+        "body": [
+          "Police tracked Siqueiros to a property reportedly rented by his wife, Angélica Arenal, and her brother; he fled first to Guadalajara and then to the mountain town of Hostotipaquillo, hiding under a false name until Jalisco police apprehended him and returned him to Mexico City. He was formally charged with attempted homicide, criminal association, improper use of a uniform, usurpation of functions, breaking and entering, unlawfully firing a firearm, and robbery, and held at Lecumberri prison. At trial, Siqueiros argued that his intent had been to provoke his own expulsion from Mexico rather than to kill Trotsky; a judge acquitted him of homicide, attempted homicide, criminal conspiracy, and the firearms charge, and released him on bail while lesser charges of trespassing and property damage remained pending. Before those could be resolved, incoming president Manuel Ávila Camacho arranged for Siqueiros to leave the country instead, with a Chilean visa, an airline ticket, and a mural commission brokered by the poet Pablo Neruda; in a school library in Chillán, Siqueiros led a team pairing Mexican and Chilean historical figures in a mural titled Death to the Invader. Barred from returning to the United States, he went on to paint three more murals in Cuba before the decade was out.",
+          "Siqueiros's legal troubles did not end there. In 1960, after leading protests against the arrest of striking workers and teachers and openly criticizing President Adolfo López Mateos, he was arrested and charged with \"social dissolution,\" a now-defunct catch-all crime widely regarded at the time as pretextual, and sentenced to eight years. He was held at Lecumberri prison until international pressure, including a 1961 appeal advertisement signed by prominent artists and writers in The New York Times, contributed to his pardon in the spring of 1964. Three years later, in 1967, the Soviet Union awarded him the Lenin Peace Prize, and he spent much of his final decade on The March of Humanity, a large-scale mural complex completed in the early 1970s. He died in Cuernavaca on January 6, 1974, at 77."
+        ]
+      },
+      {
+        "heading": "Orozco's fresco that Pollock called the best painting in North America",
+        "body": [
+          "In 1930, Pomona College in Claremont, California, commissioned José Clemente Orozco to paint a fresco for the north wall of its newly built Frary Dining Hall. Architect Sumner Spaulding and art history professor José Pijoán arranged the commission, and journalist Alma Reed, a patron of Orozco's in New York, helped him land it. Students raised $300 toward Orozco's $2,500 fee. Orozco lived on campus for three months, in a dormitory, using students as models, and completed the mural, titled Prometheus, in June 1930.",
+          "The finished fresco depicts the Titan Prometheus reaching for stolen fire, surrounded by a crowd whose reactions split between welcome and horror. Los Angeles Times critic Arthur Millier called it a masterpiece on completion, and Pomona's own architect, Sumner Spaulding, said he felt the building would collapse if the fresco were ever removed. It is generally cited as the first modern fresco painted in the United States, and the commission that followed it, at New York's New School and then at Dartmouth College, built the American reputation Orozco carried for the rest of his career."
+        ],
+        "image": {
+          "src": "/images/jose-clemente-orozco-los-angeles-1930.jpg",
+          "alt": "José Clemente Orozco photographed in Los Angeles in 1930, the year he completed the Prometheus fresco at nearby Pomona College.",
+          "credit": "[José Clemente Orozco, c1930](https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Clemente_Orozco,_c1930.jpg), Los Angeles Times Photographic Collection at UCLA, CC BY 4.0."
+        }
+      },
+      {
+        "heading": "Pollock visited before he was famous for anything",
+        "body": [
+          "Jackson Pollock first saw Prometheus in the summer of 1930, six years before he ever set foot in Siqueiros's Experimental Workshop, and later called it \"the greatest painting in North America.\" That means the same eighteen-year-old who would go on to absorb Siqueiros's pouring techniques in New York had already been struck by Orozco's fresco in California, an odd coincidence in which two of Los Tres Grandes left separate, unconnected marks on the artist who came to define postwar American painting, years before either muralist knew who he was.",
+          "The mural has needed its own maintenance since: Pomona applied a protective varnish in 1980 and discovered structural damage in the wall behind it in 1982, prompting further conservation work. One detail has amused students for decades rather than troubled conservators: Orozco's Prometheus figure was painted without visible genitals, likely to avoid offending the era's sensibilities, and when Orozco tried to add one on a return visit months later, the added paint failed to adhere to the wall."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who were Los Tres Grandes in Mexican art?",
+        "answer": "Los Tres Grandes (\"The Three Greats\") refers to Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros, the three muralists most associated with the Mexican Mural Renaissance that began under a 1920s government arts program led by Secretary of Public Education José Vasconcelos."
+      },
+      {
+        "question": "Did a famous Mexican artist really try to assassinate Leon Trotsky?",
+        "answer": "Yes. On May 24, 1940, muralist David Alfaro Siqueiros led roughly twenty armed men in a raid on Leon Trotsky's villa in Coyoacán, Mexico City. Trotsky survived by rolling out of bed onto the floor, but his grandson was shot and an American guard was later found executed. Siqueiros was charged with seven crimes; a judge later acquitted him of homicide, attempted homicide, conspiracy, and the firearms charge, and Mexico's incoming president arranged for him to leave the country before the remaining charges were resolved. A separate assassin killed Trotsky with an ice axe not quite three months after the raid."
+      },
+      {
+        "question": "Did David Alfaro Siqueiros influence Jackson Pollock?",
+        "answer": "Siqueiros ran an Experimental Workshop in New York in 1936 that used industrial paint, spray guns, and deliberate \"controlled accidents\" instead of traditional brushwork. A young Jackson Pollock attended and helped with the workshop's projects; accounts of the period credit the pouring techniques Pollock encountered there as an influence on the drip technique he later made famous."
+      },
+      {
+        "question": "What happened to David Alfaro Siqueiros's mural Tropical America?",
+        "answer": "Painted in Los Angeles in 1932, the mural was read as anti-imperialist propaganda, partially covered by 1934, and completely whitewashed by 1938. No color photographs of the original survive. The Getty Conservation Institute restored it using scientific paint analysis, and it reopened to the public on October 9, 2012, its eightieth anniversary."
+      },
+      {
+        "question": "What is José Clemente Orozco's Prometheus fresco?",
+        "answer": "Prometheus is a 1930 fresco Orozco painted for Frary Dining Hall at Pomona College in Claremont, California, generally cited as the first modern fresco painted in the United States. It depicts the Titan Prometheus stealing fire for humanity and drew immediate critical praise, including from a young Jackson Pollock, who saw it that same year and called it the greatest painting in North America."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: David Alfaro Siqueiros",
+        "url": "https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros"
+      },
+      {
+        "label": "Wikipedia: Prometheus (Orozco)",
+        "url": "https://en.wikipedia.org/wiki/Prometheus_(Orozco)"
+      },
+      {
+        "label": "Marxists Internet Archive: Joseph Hansen, Attempted Assassination of Leon Trotsky (August 1940)",
+        "url": "https://www.marxists.org/archive/hansen/1940/08/assas.htm"
+      },
+      {
+        "label": "Pomona College Museum of Art: José Clemente Orozco's Prometheus",
+        "url": "https://www.pomona.edu/museum/collections/jos%C3%A9-clemente-orozcos-prometheus"
+      },
+      {
+        "label": "Village Preservation: David Alfaro Siqueiros and the Experimental Workshop",
+        "url": "https://villagepreservation.org/2021/09/23/southofunionsquare-mexican-muralists-remake-american-art-david-alfaro-siqueiros-and-the-experimental-workshop/"
+      },
+      {
+        "label": "Texas State Historical Association: Anita Brenner",
+        "url": "https://www.tshaonline.org/handbook/entries/brenner-anita"
+      },
+      {
+        "label": "TIME (1960): Mexico: Artist in Jail",
+        "url": "https://content.time.com/time/magazine/article/0,9171,829115,00.html"
+      },
+      {
+        "label": "Olga's Gallery: David Alfaro Siqueiros Biography",
+        "url": "https://www.freeart.com/gallery/s/siqueiros/siqueirosbio.html"
+      }
+    ]
   }
 ];
