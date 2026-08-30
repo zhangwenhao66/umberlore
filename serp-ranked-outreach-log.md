@@ -1,0 +1,29 @@
+# UmberLore — SERP-ranked outreach log
+
+This file is specific to the `serp-ranked-outreach` task (SERP-verified target selection: search the target keyword, see who Google actually ranks, filter by real content-quality gates). Kept separate from `broken-link-outreach-log.md` and `outreach-drafts.md` (guest-post-outreach) by design, so the three targeting logics' conversion rates can be compared independently.
+
+Fields per entry: date, target keyword, target type, target URL, contact method, AI review result, send status, 10-day verification result.
+
+---
+
+## 2026-08-29 — no qualifying target found this round (processed, date updated)
+
+**Selection context:** UmberLore was selected this run per the 2026-08-25 capacity-concentration rule (11-30 position GSC exposure ranking among non-suppressed sites: DayAlmanac 581 > WageLark 562 > UmberLore 236, recomputed live this run — CalcBadger/DialWick/LingoGrove/beta/gamma excluded as currently suppressed, alpha excluded per this task's own scope statement despite appearing in the shared capacity-rule reference table copied across multiple outreach tasks — alpha runs Chinese-language outreach under a separate task and this task's quality checks (humanizer/avoid-ai-writing) are English-only).
+
+**Four keywords tried, all failed the quality gates (details below):**
+
+1. **`fallen angel painting`** (UmberLore's `/fallen-angel-painting/` page, GSC pos 25.7-25.8). SERP: en.wikipedia.org (not an outreach target), reddit.com (2022 post, r/Art — no viable Reddit account per matrix-wide automation freeze, see memory `reddit-account-good-conflict4752-risk`), julianphilosophy.substack.com (personal essay, `datePublished` 2024-08-13 — 2 years old, fails freshness gate), facebook.com (social, skipped), commons.wikimedia.org (not an outreach target), artdevivre.com (art/lifestyle site, article `datePublished` 2023-06-27 — over 3 years old, fails freshness gate), elephantstock.com (print-on-demand e-commerce, not evaluated further given the two other candidates already failed on a more basic gate), kuurth.com (print e-commerce blog, `datePublished` 2021-07-14 — over 5 years old, fails freshness gate).
+
+2. **`aztec sun stone`** (alternate angle off UmberLore's `/aztec-art/` page, GSC "aztec sun" pos 36.8). SERP dominated by major institutions unlikely to accept small-site outreach: en.wikipedia.org, worldhistory.org (nonprofit encyclopedia), getty.edu, smarthistory.org (academic), floridamuseum.ufl.edu (university). Two smaller candidates checked: lolomercadito.com (Mexican folk-art e-commerce blog, target article `datePublished` 2022-08-02 — over 3 years old, fails freshness gate), historyofinformation.com (not fetched — SERP position and site type suggested a large reference archive, deprioritized after two prior stale-content misses).
+
+3. **`what is a gargoyle`** (near-boundary GSC candidate off UmberLore's `/what-is-a-gargoyle/` page, pos 9.8). SERP: en.wikipedia.org, reddit.com (r/NoStupidQuestions, not evaluated — same Reddit-account constraint as above), youtube.com (UmberLore is not one of the five sites this task's SKILL designates as YouTube-eligible), gloucestershire.gov.uk (government archive, not a realistic outreach target), merriam-webster.com (dictionary, not a target), study.com (ed-tech content mill, low relevance). Two genuine candidates checked: vaulteditions.com (`datePublished` 2025-02-04) and medievalists.net (`datePublished` 2025-02-22) — both roughly 18 months old as of this run, fail the "近12个月" freshness gate.
+
+4. **`venus of urbino meaning`** (alternate angle off UmberLore's recently-published `aphrodite-painting` article, part of the Sleeping Venus → Venus of Urbino → Olympia lineage covered there). SERP dominated by major museums/academic sites: uffizi.it, en.wikipedia.org, smarthistory.org, artsy.net, khanacademy.org, visituffizi.org. Two smaller candidates checked: theglobalrenaissanceorg.wordpress.com (no confirmable publish/update date found in page markup — treated as failing the freshness gate rather than assumed to pass, per "silent gaps must be flagged, not treated as pass" discipline), arteleonardo.com (a real Florence, Italy art school's blog — no confirmable date either, page markup showed signs of being an old pasted-Word-doc post; same treatment).
+
+**Why not pursued further this round:** UmberLore's niche (art history / single-painting explainers) skews toward evergreen content published once and never revisited — real independent blogs in this space are disproportionately either large institutions (unlikely to link to a new small site) or small blogs/e-commerce content mills that haven't been touched in 2+ years (failing this task's freshness gate). This is a genuine structural mismatch between the niche and this task's targeting logic, not a research shortcut — four different keyword angles were tried with real SERP queries and live-page fetches, not guessed.
+
+**Video/forum candidates:** UmberLore is not one of the five YouTube-eligible sites per this task's SKILL (CalcBadger/DayAlmanac/DialWick/LingoGrove/WageLark only). Reddit forum candidates exist (r/Art, r/NoStupidQuestions threads surfaced above) but the matrix's Reddit automation is fully disabled after account bans (see memory `reddit-account-good-conflict4752-risk` — do not attempt manual Reddit participation as a workaround without Owen's explicit sign-off).
+
+**Outcome:** No content/video/forum target met this task's quality bar this round. Per the task's own rotation rule, this counts as "轮到了但无合适机会" — processed, last-processed date updates to 2026-08-29, not skipped silently.
+
+**Next run:** Try different UmberLore keywords (avoid repeating the four above) — possibly targeting one of the site's more original-research pages (e.g. the "Artist Peak Creation Age" data study) where a data-journalism angle might surface fresher, smaller independent blog candidates than single-painting explainer pages tend to.
