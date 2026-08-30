@@ -53,6 +53,15 @@
       "answer_url": "https://www.quora.com/Does-the-Starry-Night-depict-Vincent-van-Goghs-view-from-the-Saint-Paul-de-Mausole-asylum/answer/Owen-Zhang-161",
       "status": null,
       "notes": "发布时仅2个笼统答案(均只说全是想象,未提真实天文细节)。以站内文章MoMA官方记录+Van Gogh 1889年5-6月致Theo信件原文+Van Gogh Museum确认该星为金星为骨架。过humanizer+avoid-ai-writing双重检查。Quora Add Link插入真实超链接锚文本here,已用javascript_tool核实DOM为真实<a href>。 | question_title: Does the Starry Night depict Vincent van Gogh's view from the Saint-Paul de Mausole asylum?"
+    },
+    {
+      "date": "2026-08-30",
+      "site": "umberlore.com",
+      "target_page": "https://umberlore.com/famous-mexican-artists/",
+      "question_url": "https://www.quora.com/What-are-some-interesting-facts-of-David-Alfaro-Siqueiros-biography",
+      "answer_url": "https://www.quora.com/What-are-some-interesting-facts-of-David-Alfaro-Siqueiros-biography/answer/Owen-Zhang-161",
+      "status": null,
+      "notes": "本次为外链产能集中规则(2026-08-25新增)首次执行：用gsc_query.py现算8个非压制站近28天11-30位曝光，UmberLore(259)排第三，与WageLark(533)/DayAlmanac(286)一并获得本轮全部产能。目标页选取遵循冷启动规则：famous-mexican-artists页2026-08-30发布，从未建过外链。发布时该问题0答案，与站内文章主角完全一致。以站内文章骨架撰写(Siqueiros为Los Tres Grandes之一；1940年5月24日率约20名武装人员突袭Coyoacan的Trotsky宅邸，Trotsky夫妇滚下床躲过扫射，孙子中弹幸存，美籍警卫Robert Sheldon Harte被掳后陈尸城外浅坑；三个月后Mercader用冰镐刺杀Trotsky身亡，与本次突袭无证据关联仅共享目标与苏联情报赞助人；Siqueiros被控七项罪名，法庭辩称目的是让自己被驱逐而非杀人，法官宣判故意杀人/杀人未遂/共谋/军火罪均无罪，墨西哥候任总统安排其经智利离境；1932年洛杉矶América Tropical壁画因政治内容被涂白，2012年Getty靠颜料分析而非留存彩色影像修复；1936年纽约实验工作坊直接影响了年轻Jackson Pollock后来成名的滴画技法)。已过humanizer+avoid-ai-writing双重检查(无破折号、无vague endorsement、句长有意变化)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向famous-mexican-artists页面,全程只填URL字段。发布前用javascript_tool核实编辑器DOM链接tooltip确认URL正确，发布后再次核实渲染页面DOM中确实是<a href=\"https://umberlore.com/famous-mexican-artists/\">真实超链接,锚文本为here。 | question_title: What are some interesting facts of David Alfaro Siqueiros' biography?"
     }
   ],
   "reddit": []
