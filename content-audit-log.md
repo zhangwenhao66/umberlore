@@ -1810,3 +1810,107 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "venus-de-milo",
+  "last_audited": "2026-08-30",
+  "published_date": "2026-08-10",
+  "article_specific_checklist": [
+    "购买/交涉链条人物归属是否准确：文中'法国副领事+Dumont d'Urville安排购买'是否与Wikipedia（含脚注）、World History Encyclopedia、Paul Carus记述、New World Encyclopedia等多方独立信源一致，还是把'报告发现者d'Urville'与'实际交涉购买者Comte de Marcellus'搞混",
+    "刻铭内容与断代是否准确：'Alexandros, son of Menides, from Antioch on the Maeander'及该城市约公元前280年建成的说法，是否与World History Encyclopedia/Smithsonian Magazine逐字核对一致",
+    "现行卢浮宫官方立场是否准确转述：现任保管员Alain Pasquier对'刻铭底座是否确属本尊'一事的表态（Smithsonian Magazine 2003年采访），是否被文章准确转述而非夸大成'认证'或'否认'",
+    "'130至100BC'官方断代数字是否有据可查（卢浮宫官方/Wikipedia等信源），而非编造的精确区间",
+    "1876年Fröhner手臂复原假说的年份与细节是否与Wikipedia逐字核对一致"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "确认问题，已修复",
+      "detail": "原文\"The French vice-consul on the island and Jules Dumont d'Urville, another French naval officer, arranged for the statue's purchase\"经WebSearch交叉核对Wikipedia（含脚注20/27/28）、World History Encyclopedia（署名学者Branko van Oppen）、Project Gutenberg版Paul Carus记述、New World Encyclopedia、Château de Montastruc，一致确认：d'Urville的真实角色是发现后誊抄铭文、随即启程赴君士坦丁堡向大使Marquis de Rivière报告，并未参与实际购买交涉；真正受大使委派赶赴Melos交涉并促成购买（含在农民已接受竞价对手报价、雕像已装船之际出面截购）的是Comte de Marcellus，当地副领事Louis Brest此前接触过卖家但未真正促成交易。独立agent交叉核实多个独立信源后判定CONFIRMED-ERROR（误归属），已改写为准确版本（Marcellus受Rivière委派赴Melos交涉并截购）。其余核心事实（刻铭内容/断代/Pasquier现行表态/Fröhner 1876年假说/购买后1821年初抵达巴黎并献予路易十八）经逐条核对Smithsonian Magazine（含Pasquier采访原话\"inconceivable\"）、World History Encyclopedia、Penelope UChicago等信源，均逐字/逐事实准确，未发现其他问题。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "四条外链信源为World History Encyclopedia（署名学者Branko van Oppen）、Smithsonian Magazine、Wikipedia、UChicago Penelope项目（学术性镜像站），均为可核实的真实机构/学者信源，无模糊归因（\"专家认为\"类无出处措辞仅剩1处\"as summarized in secondary accounts\"，属既有文本未改动部分，指代明确的学术争论历史而非编造匿名信源）。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现新发现需更新",
+      "detail": "WebSearch \"Venus de Milo 2026 new research\"未发现2026年内针对本文核心论断（归属/断代/购买史）的新考古发现或修复研究改变现有叙述；检索到的希腊索还辩论（2026年4月周年报道）为数十年持续存在的老议题，非发布后新出现的争议，不构成需要改写语气的合规漂移。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch核实SERP及curl抓取artincontext.org全文，确认该竞品页未覆盖Pasquier现任保管员的具体采访表态（\"inconceivable\"原话）、Comte de Marcellus购买细节、World History Encyclopedia学者Branko van Oppen的反驳论证，本文加入这些真实增量后差异化更明显，非Wikipedia/竞品的第三份复述。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "`check_seo_field_stats.py`：title原始57字符z=-0.41、description 151字符z=-1.44，均在正常范围（阈值z≥1才flag）。canonical由Layout.astro自动生成自指；单一H1；4个section H2+FAQ独立H2无跳级；Article/FAQPage/BreadcrumbList三schema组件均从guide对象动态生成，结构上不存在正文改动但schema未同步的可能；hero及无正文插图（本文无section.image）均有alt；ads.txt/robots.txt站级已知良好。"
+    },
+    {
+      "dimension": "GEO审计（99分制11维度）",
+      "status": "确认问题，已修复",
+      "detail": "独立agent逐项复核初版打分：权威原文引语2/16（正文全篇零逐字引语，仅转述信源）、统计数据完整性12/14、可引用性9/13、结构规范性11/12、表达流畅度8/10、语义密度7/8、权威信号6/8、专业术语5/6、鲁棒性1/5（因上述d'Urville误归属直接被文章自引的Wikipedia信源反驳）、跨域连接3/4（2条出链无手动回链）、易懂表达2/3，合计约66/99，低于80阈值，CONFIRMED需修复。修复：加入卢浮宫现行展签法文原文+英译逐字引语、Smithsonian Magazine对Pasquier采访的逐字引语（\"inconceivable\"）、学者Branko van Oppen反驳论证的逐字引语，同时修复上述事实误归属；预期权威引语/鲁棒性两项显著回升，跨域连接因新增回链（见内链维度）也应回升，总分预期回到80以上，未重新整体复验总分。"
+    },
+    {
+      "dimension": "早期内容AI味复扫",
+      "status": "不适用（无需重跑）",
+      "detail": "published字段为2026-08-10，晚于2026-08-07触发线，按规则不需要重跑humanizer/avoid-ai-writing全文复扫；本次仅对新增/改写段落做了针对性人工核对（见actions_taken）。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources数组4条外部链接（World History Encyclopedia/Smithsonian Magazine/Wikipedia/Penelope UChicago）逐条curl实测全部200。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "确认问题，已修复",
+      "detail": "`venus-de-milo`是\"Sculpture\"分类下唯一一篇文章（真单例分类）。独立agent核实全站`guides.ts`中grep `/venus-de-milo/`零命中——没有任何一篇其他文章的正文/FAQ手动markdown回链指向本文；`[slug].astro`的跨分类轮转兜底机制已让它在侧栏100%覆盖率验证中被至少一处抽中（用Node脚本模拟`pickRelatedGuides`+跨分类兜底逻辑复算全站覆盖率为54/54=100%），但正文语境内没有自然锚文本。已在唯一主题相关的`birth-of-venus`（同为古代维纳斯/阿芙洛狄忒题材古代大理石雕塑参照）正文'A pose borrowed from antiquity, then bent out of it'一节新增一句自然回链，形成互链；`birth-of-venus`该条目已有`published`字段（2026-08-09），仅按规则同步更新`updated`字段。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "Article/FAQPage/BreadcrumbList三个schema组件均在构建时直接从guide对象字段动态生成JSON-LD，不存在硬编码副本，此风险类别对本站架构不适用。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "涉及人物为匿名古希腊雕刻家Alexandros（公元前2世纪）及19世纪法国博物馆官员/学者（Forbin/Marcellus/Clarac/Fröhner/Pasquier为现任在世学者但仅其学术表态被引用非其本人创作被复制），均远早于/不触及1955版权风险分界线，不在建站计划文档146个高风险艺术家名单内。文中提及的希腊索还争议为背景性历史脉络，非本文核心论断且WebSearch确认非发布后新出现的争议。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "头图venus-de-milo-louvre.jpg本地文件存在。通过curl抓取Wikimedia Commons文件页确认：摄影者Marie-Lan Nguyen已将该照片自行声明为公有领域（PD-self，非CC BY-SA需署名），与站内imageCredit标注'public domain'一致。拍摄对象为公元前2世纪大理石雕塑实拍照片，不涉及在世/近期去世艺术家原作复制，不触及本站特有的版权高风险类别。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "curl实测ads.txt返回200正确指向pub-5245502795720653；robots.txt AI爬虫声明齐全。画面为古代大理石雕塑实拍照（非当代裸体绘画），正文全篇学术化考据（购买史/归属争议/断代方法），无煽情化措辞，无诱导点击标题，不构成AdSense限制类目风险。"
+    },
+    {
+      "dimension": "机械式行文模式检查",
+      "status": "确认问题，已修复",
+      "detail": "`check_prose_patterns.py --guides src/data/guides.ts --slug venus-de-milo`初次运行报警两类：①\"'s own\"归因重复6次（阈值>2，含coreSummary/标题/正文三处）；②5条FAQ与正文均有≥20字符逐字重合（FAQ2/3/4尤其严重，重合达34-73字符）。逐句改写标题（\"What the Louvre's own record\"→\"What the Louvre's record\"）与5处\"own\"中的5处（保留跨文章链接模板短语\"what a museum's own catalogue record...\"不变，未破坏站内既有跨文章锚文本一致性），并逐条改写全部5条FAQ答案（保留事实完全不变，仅改措辞顺序/替换同义表述），迭代约10轮后退出码0通过（三类模式全部通过）。"
+    }
+  ],
+  "actions_taken": [
+    "起3个独立全新上下文Agent分别核实：①d'Urville购买归属误报（判定CONFIRMED-ERROR）；②GEO评分是否确实低于80阈值（判定CONFIRM，独立agent自行复算约66/99）；③内链孤儿问题是否属实（判定CONFIRMED）——三个agent均未卡死，正常在预期时间内返回",
+    "修复事实误归属：改写购买交涉段落，准确归因为Comte de Marcellus受Marquis de Rivière委派赴Melos交涉并截购，d'Urville角色改为报告发现者",
+    "新增两处逐字引语提升GEO：卢浮宫现行展签法文原文+英译、Smithsonian Magazine对Pasquier采访原话\"inconceivable\"、学者Branko van Oppen反驳论证原话",
+    "改写全部5条FAQ答案消除与正文≥20字符逐字重合，同时削减\"'s own\"归因重复至1处",
+    "在birth-of-venus正文新增一句自然回链指向venus-de-milo，修复真单例分类零手动回链问题；同步更新birth-of-venus的updated字段（published字段已存在无需回填）",
+    "venus-de-milo的updated字段由2026-08-10更新为2026-08-30（published字段已存在无需回填）",
+    "npm run build验证通过（70页无报错），commit 524ad1f（正文）+ 658c006（IndexNow日志）并push到origin/main，CF Pages自动部署，curl轮询约60秒后确认两篇文章线上均已渲染",
+    "seo_drift.py compare对比baseline结果：仅WARNING（schema内容随dateModified预期变化）+ INFO（H2结构5→5），无CRITICAL",
+    "IndexNow提交/venus-de-milo/与/birth-of-venus/（Bing 200 / Yandex 200）",
+    "通过spawn_task登记独立后续任务（task_2e85e83a）：check_prose_patterns.py是本次运行当天新增/更新的脚本，晚于birth-of-venus上次审计（2026-08-29），该文自身即不通过此脚本检查（12处own/13处rather than超标/5条FAQ重合，均为其既有内容所致、非本次新增回链句导致），不在本次venus-de-milo审计范围内展开全文重写，登记为独立任务处理",
+    "内容发布日志.md追加审计记录，明确标注本条为content-quality-audit审计更新"
+  ],
+  "seo_score": "seo-audit通过（title 57字符z=-0.41/desc 151字符z=-1.44均正常/canonical自指/单一h1/4个h2+FAQ无跳级/三个schema均基于guide对象动态生成/外链4条全部200/ads.txt正确）",
+  "geo_score": "修复前独立agent估算约66/99（低于阈值80），修复后加入3处逐字引语+修正事实误归属+新增回链，预期回升至80以上，未重新整体复验总分",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
