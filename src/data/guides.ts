@@ -6797,5 +6797,118 @@ export const guides: Guide[] = [
         "url": "https://www.freeart.com/gallery/s/siqueiros/siqueirosbio.html"
       }
     ]
+  },
+  {
+    "slug": "non-objective-art",
+    "category": "Movements",
+    "title": "Non-Objective Art: The Curator the Guggenheim Wrote Out of Its Name",
+    "description": "Hilla Rebay named a Guggenheim museum after this term in 1939 and picked Frank Lloyd Wright to build it a home. She was pushed out in 1952, before either one survived her.",
+    "published": "2026-08-30",
+    "updated": "2026-08-30",
+    "coreSummary": "Non-objective art is the term Hilla Rebay used for fully non-representational painting, and she built an institution around the word rather than just a definition: the Solomon R. Guggenheim Foundation's Museum of Non-Objective Painting opened at 24 East 54th Street in a former automobile showroom on June 1, 1939, with Rebay as its first director, and in June 1943 she wrote to Frank Lloyd Wright asking for \"a temple of spirit, a monument\" to hold it. Rebay clashed with her own foundation's trustees when they moved, after Solomon Guggenheim's 1949 death, to start exhibiting \"objective\" art alongside her non-objective collection, and she resigned as director in March 1952 rather than accept the policy, a resignation that came with the museum dropping \"non-objective\" from its name that same year and becoming the Solomon R. Guggenheim Museum. When Wright's spiral building finally opened on October 21, 1959, more than sixteen years after her letter first asked for it, Rebay was not invited and never set foot inside.",
+    "image": "/images/rebay-guggenheim-kandinsky-bauhaus-1929.jpg",
+    "imageAlt": "Solomon R. Guggenheim, his wife, Hilla von Rebay, and Wassily Kandinsky photographed together in the Bauhaus garden in Dessau in 1929, during the trip that deepened Rebay's push to build Guggenheim a non-objective art collection.",
+    "imageCredit": "[Mrs. Guggenheim, Vassily Kandinsky, Hilla von Rebay, Solomon R. Guggenheim in the Bauhaus garden in Dessau, 1929](https://commons.wikimedia.org/wiki/File:Mrs._Guggenheim,_Vassily_Kandinsky,_Hilla_von_Rebay,_Solomon_R._Guggenheim_in_the_Bauhaus_garden_in_Dessau.jpg), unknown photographer, public domain.",
+    "sections": [
+      {
+        "heading": "A word Rebay insisted on instead of \"abstract\"",
+        "body": [
+          "Tate's own glossary defines non-objective art plainly: a type of abstract art, usually but not always geometric, built from color, shape, line and form with no recognizable object underneath any of it. Tate credits Wassily Kandinsky, Kazimir Malevich and the sculptor Naum Gabo as its pioneers, and notes that a group of American artists including Sol LeWitt and Donald Judd carried the same idea into the 1960s under the label minimal art.",
+          "For Hilla Rebay, the word carried more weight than that dictionary definition allows. Rebay, a German-born painter who had moved to New York in January 1927 and become a close advisor to the mining heir Solomon R. Guggenheim, treated non-objectivity as something closer to a spiritual discipline than a style category. \"Non-objective painting represents no object or subject known to us on earth,\" she wrote. \"It is simply a beautiful organization of colors and forms to be enjoyed for beauty's sake and arranged in rhythmic order.\" Elsewhere she went further, calling non-objective paintings \"prophets of spiritual life\" and predicting that non-objectivity would become \"the religion of the future.\"",
+          "That strictness had a real effect on what Guggenheim was allowed to call his own collection. Marc Chagall's Paris Through the Window keeps recognizable rooftops and a human figure despite borrowing Robert Delaunay's overlapping Orphist color planes, so when Rebay encouraged Guggenheim to buy it, she filed it under what she called his \"objective collection,\" a separate bucket from the non-objective paintings by Kandinsky and Rudolf Bauer she was steering him toward instead. Rebay's own words on the point survive through her biographer Joan Lukach: non-objective painting was \"not at all [Chagall's] style,\" she said, an assessment she made despite admitting she personally preferred Chagall to most of what she was buying for Guggenheim."
+        ]
+      },
+      {
+        "heading": "A curator builds a collector's eye, then a museum",
+        "body": [
+          "Rebay's own path to non-objectivity ran through Zurich. She met the artist Hans (Jean) Arp there in 1915, and through him was introduced to the non-representational work of Kandinsky, Paul Klee, Franz Marc and Bauer, a body of work that reoriented her own painting away from the portraiture and landscape training she had received in Cologne and Paris. After settling in New York in 1927, she became Guggenheim's friend and confidante, and pushed him specifically toward Bauer and Kandinsky rather than the wider modernist field.",
+          "The 1929 trip that produced the photograph above shows how far that persuasion had gone within two years: Guggenheim, his wife, Rebay and Kandinsky together in the Bauhaus garden in Dessau, the same year Guggenheim's non-objective purchases were building toward a collection large enough to need somewhere to live. Kandinsky's Composition 8, painted in 1923 and now held by the museum that grew out of this collection, is the kind of canvas Rebay meant when she used the term: circles, triangles, grids and mosaics of color with no legible figure or landscape anywhere in the frame. It is a far less contested claim to non-objectivity than [the watercolor once credited as Kandinsky's very first abstract painting](/abstract-art-first-painting/), whose own museum has since pushed its date three years later than the artist's own inscription."
+        ],
+        "image": {
+          "src": "/images/kandinsky-composition-8-guggenheim-collection.jpg",
+          "alt": "Wassily Kandinsky's Composition 8 (1923), an oil painting of overlapping geometric circles, triangles and grids with no recognizable object, one of the works Hilla Rebay steered Solomon Guggenheim toward buying.",
+          "credit": "[Kandinsky, Composition 8, 1923](https://commons.wikimedia.org/wiki/File:Kandinsky_-_Composition_8,_1923.jpg), Solomon R. Guggenheim Museum, public domain."
+        }
+      },
+      {
+        "heading": "The word becomes a museum's name",
+        "body": [
+          "The Solomon R. Guggenheim Foundation's Museum of Non-Objective Painting opened to the public on June 1, 1939, in a space at 24 East 54th Street in Manhattan that had previously served as an automobile showroom, according to Wikipedia's account of the museum's founding. The inaugural exhibition, titled Art of Tomorrow, hung fourteen works by Rebay herself alongside paintings by Bauer and Kandinsky, and Rebay chose a Bauer canvas for the catalogue cover.",
+          "Rebay ran the museum as its founding director from that opening until 1952, and treated the collection as an educational project as much as an exhibition space. Her stated goal, in her own words, was to develop viewers' \"intuitive power\" through prolonged exposure to non-objective painting, a claim she meant literally rather than as marketing language: she believed sustained looking, not scholarly explanation, was what let a viewer feel a painting's non-objective content."
+        ]
+      },
+      {
+        "heading": "She commissions a \"temple,\" then is pushed out before it opens",
+        "body": [
+          "In June 1943, with the collection outgrowing its Fifty-Fourth Street space, Rebay wrote to the architect Frank Lloyd Wright to commission what she called a museum-temple. The Frank Lloyd Wright Foundation's own account of the commission quotes the letter directly: Rebay was looking for \"a fighter, a lover of space, an originator, a tester and a wise man\" to design her \"a temple of spirit, a monument.\" Wright agreed, and the two spent years working through a design; Rebay was the one who first proposed a circular building, an idea Wright supported and ultimately built around, even as the two clashed over other details, including his early preference for red marble that Rebay rejected. While Wright worked, the museum relocated in stages, first to a townhouse at 1071 Fifth Avenue, the site earmarked for the new building, and later, once ground was broken, to a rented house at 7 East 72nd Street.",
+          "Rebay did not live to see the collaboration finished on her own terms. Solomon Guggenheim died in 1949, and by August 1951 his foundation had expanded its Fifth Avenue holdings and announced a policy shift Rebay could not accept: the museum would start exhibiting \"objective\" art and older work alongside her non-objective collection. A 1951 New York Times column by critic Aline Bernstein Saarinen had already argued publicly for Rebay's removal and for handing the collection to the Museum of Modern Art instead of finishing Wright's building, according to Lukach's account of the period. Rather than accept a policy that abandoned the principle the museum had been founded on, Rebay resigned as director in March 1952. Wikipedia's history of the institution confirms the museum dropped \"non-objective\" from its name that same year, becoming the Solomon R. Guggenheim Museum, three years after Guggenheim's death. James Johnson Sweeney, previously a curator at the Museum of Modern Art, was appointed director that October and promptly began exhibiting the figurative and objective work Rebay had kept in storage.",
+          "Demolition of the existing buildings on the Fifth Avenue construction site began on May 6, 1956, and construction ran for three more years under Sweeney, who clashed with Wright over storage space and lighting throughout. The building Rebay had spent a decade fighting to bring into existence opened to the public on October 21, 1959, nearly seventeen years after her original letter to Wright, in the Frank Lloyd Wright Foundation's own phrasing. She was not invited to the opening. By her biographer's account and Wikipedia's, Rebay never set foot inside the museum she had spent from 1943 onward pushing Wright to build."
+        ]
+      },
+      {
+        "heading": "The term outlived the purge, and so, eventually, did her name",
+        "body": [
+          "The institution dropped the word from its letterhead in 1952, but \"non-objective art\" kept its place in art history regardless: Tate's glossary still uses it today for the Kandinsky-Malevich-Gabo lineage Rebay collected, and traces its later use forward into 1960s American minimalism. The museum that erased the word from its name still owns the paintings that gave the word its meaning, including the Composition 8 pictured above.",
+          "Rebay's own rehabilitation came only after her death in 1967. Part of her personal collection went to the museum as the Hilla Rebay Collection, and a Hilla von Rebay Foundation was later established there to promote non-objective art in her name, the opposite of what happened to her while she was alive. In 2005, nearly forty years after she died and forty-six years after the building opened without her, the Guggenheim staged a retrospective titled Art of Tomorrow: Hilla Rebay and Solomon R. Guggenheim, using the same title as her 1939 opening show to credit the founding director the museum had spent decades not naming.",
+          "One more connection rarely makes it into the story: early in 1943, months before Rebay's letter to Wright, she had [a struggling young Jackson Pollock](/jackson-pollock/) on her own museum's payroll as a custodian, running the freight elevator and repairing stretchers, years before his drip paintings made him famous for a style Rebay herself would never have called non-objective."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does \"non-objective art\" mean?",
+        "answer": "Tate's glossary defines it as a type of abstract art, usually but not always geometric, built entirely from color, shape, line and form with no recognizable object or figure underneath. Tate credits Wassily Kandinsky, Kazimir Malevich and Naum Gabo as its pioneers."
+      },
+      {
+        "question": "Is \"non-objective art\" the same thing as \"abstract art\"?",
+        "answer": "They overlap but are not identical in how they were originally used. Hilla Rebay, who popularized the term through the museum she directed, applied it strictly to fully non-representational work and explicitly excluded paintings that retained any recognizable subject, filing Marc Chagall's more representational Cubist-Orphist work under what she called Solomon Guggenheim's separate \"objective collection\" even though she personally admired it."
+      },
+      {
+        "question": "Why is the Guggenheim Museum connected to the term \"non-objective art\"?",
+        "answer": "The museum began in 1939 as the Solomon R. Guggenheim Foundation's Museum of Non-Objective Painting, founded and directed by Hilla Rebay to house the non-objective paintings she had steered Guggenheim toward collecting. It kept that name until 1952, when it became the Solomon R. Guggenheim Museum."
+      },
+      {
+        "question": "Did Hilla Rebay ever see the finished Guggenheim building?",
+        "answer": "No. She commissioned Frank Lloyd Wright to design it in June 1943 and spent years shaping its design, including proposing its circular form, but was pushed out as the museum's director in March 1952, years before construction began in 1956. The building opened on October 21, 1959, and Rebay was not invited to the opening."
+      },
+      {
+        "question": "When did the Museum of Non-Objective Painting change its name?",
+        "answer": "In 1952, the same year Hilla Rebay stepped down as director, the museum became the Solomon R. Guggenheim Museum, three years after founder Solomon R. Guggenheim's 1949 death."
+      },
+      {
+        "question": "Who are considered the pioneers of non-objective art?",
+        "answer": "Tate's glossary names Wassily Kandinsky, Kazimir Malevich and the sculptor Naum Gabo as the movement's pioneers, with a later generation of American artists, including Sol LeWitt and Donald Judd, extending the same idea into 1960s minimal art."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tate: Non-objective art (art term glossary)",
+        "url": "https://www.tate.org.uk/art/art-terms/n/non-objective-art"
+      },
+      {
+        "label": "Wikipedia: Hilla von Rebay",
+        "url": "https://en.wikipedia.org/wiki/Hilla_von_Rebay"
+      },
+      {
+        "label": "Wikipedia: Solomon R. Guggenheim Museum",
+        "url": "https://en.wikipedia.org/wiki/Solomon_R._Guggenheim_Museum"
+      },
+      {
+        "label": "TheArtStory: Hilla Rebay",
+        "url": "https://www.theartstory.org/artist/rebay-hilla/"
+      },
+      {
+        "label": "Guggenheim Museums and Foundation: Hilla Rebay on Nonobjective Art",
+        "url": "https://www.guggenheim.org/articles/findings/hilla-rebay-on-nonobjective-art"
+      },
+      {
+        "label": "Frank Lloyd Wright Foundation: Concerning the Solomon R. Guggenheim Museum",
+        "url": "https://franklloydwright.org/concerning-the-solomon-r-guggenheim-museum/"
+      },
+      {
+        "label": "Artforum: The Genesis of Jackson Pollock",
+        "url": "https://www.artforum.com/features/the-genesis-of-jackson-pollock-211366/"
+      }
+    ]
   }
 ];

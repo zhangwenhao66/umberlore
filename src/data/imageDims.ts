@@ -111,6 +111,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1200,
   "w": 900
  },
+ "/images/david-alfaro-siqueiros-portrait-1922.jpg": {
+  "h": 634,
+  "w": 240
+ },
  "/images/diego-rivera-portrait-1932.jpg": {
   "h": 906,
   "w": 718
@@ -271,6 +275,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1200,
   "w": 783
  },
+ "/images/jose-clemente-orozco-los-angeles-1930.jpg": {
+  "h": 1200,
+  "w": 1035
+ },
  "/images/kahlo-sisters-1916.jpg": {
   "h": 1257,
   "w": 1200
@@ -278,6 +286,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/kandinsky-composition-8-1923.jpg": {
   "h": 755,
   "w": 1090
+ },
+ "/images/kandinsky-composition-8-guggenheim-collection.jpg": {
+  "h": 835,
+  "w": 1200
  },
  "/images/klimt-adele-bloch-bauer-i.jpg": {
   "h": 1099,
@@ -398,6 +410,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/rca-building-rockefeller-center-1933.jpg": {
   "h": 1970,
   "w": 1400
+ },
+ "/images/rebay-guggenheim-kandinsky-bauhaus-1929.jpg": {
+  "h": 1105,
+  "w": 1600
  },
  "/images/rembrandt-night-watch-rijksmuseum.jpg": {
   "h": 1041,
