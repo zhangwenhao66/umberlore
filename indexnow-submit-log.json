@@ -74,7 +74,7 @@
   "https://umberlore.com/st-peters-basilica/": {
     "submitted_date": "2026-08-03",
     "last_submitted_date": "2026-08-22",
-    "verified_status": "pending",
+    "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection",
     "note": "2026-08-24: discovered date 变为 19 Aug（账龄5天，未满14天阈值），已呈现 Blocked（has issues）迹象，早期即已出现，值得关注是否会持续 | 2026-08-28: Discovered but not crawled，discovered 19 Aug，账龄9天，未满14天已呈现issues状态"
@@ -82,7 +82,7 @@
   "https://umberlore.com/edvard-munch-the-scream/": {
     "submitted_date": "2026-08-03",
     "last_submitted_date": "2026-08-03",
-    "verified_status": "pending",
+    "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection",
     "note": "2026-08-24: 仍为 Blocked（has issues preventing indexation），discovered 04 Aug账龄20天，持续未抓取 | 2026-08-28: Discovered but not crawled，discovered 22 Aug（较此前记录的04 Aug偏移），账龄6天"
@@ -119,13 +119,13 @@
   "https://umberlore.com/andy-warhol/": {
     "submitted_date": "2026-08-05",
     "last_submitted_date": "2026-08-27",
-    "verified_status": "pending",
+    "verified_status": "verified_indexed",
     "note": "content-quality-audit fix: ARTnews interview date correction"
   },
   "https://umberlore.com/art-deco/": {
     "submitted_date": "2026-08-05",
     "last_submitted_date": "2026-08-05",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed"
   },
   "https://umberlore.com/diego-rivera/": {
     "submitted_date": "2026-08-06",
