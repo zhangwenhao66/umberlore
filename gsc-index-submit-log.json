@@ -311,5 +311,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-31",
+    "action": "submitted",
+    "reason": "本站今日随机休息未发布。用Page indexing报告找到Crawled-currently-not-indexed里的art-deco（proxy 95930，最后抓取Aug 31当天），URL Inspection确认URL is not on Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/art-deco/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
