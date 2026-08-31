@@ -261,3 +261,34 @@ Pitch 5（2026-08-16，Marian University Library Photography guide，cbalgeman@m
 **累计口径**：UmberLore断链置换战术累计已发送8封pitch（含本轮1封跟进）；已验证`not_replaced` 2条（Marian、以及此前记录里的其他条目见上文各次运行）、`verified_live_backlink_confirmed` 0条，转化率仍为0。
 
 **独立agent执行说明**：本轮由独立研究子agent完成调研+跟进邮件撰写发送（跟进邮件按规则允许自行发送，不需独立复核），上层编排会话核实其查重记录（`gmail_send.py list`+全矩阵grep）后确认无误，代为写入本条日志。
+
+---
+
+## 2026-08-31（第九次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中UmberLore（11-30位曝光344，矩阵内容型五站排名第三）
+
+### 流程异常：两次独立子agent先后"提前返回"，上层会话接手完成
+
+按流程spawn了一个独立general-purpose子agent负责本站本轮调研，该agent两次以"completed"状态返回，但结果内容均显示任务实际未完成——第一次返回"I'll wait for the monitor notification before proceeding further"，第二次（收到续接消息后）返回"候选URL扫描仍在后台跑，我armed了一个Monitor任务，会在它完成时立即恢复"，随后仍以completed状态结束自己的回合而不是真正阻塞等待。两次检查`broken-link-outreach-log.md`和`git log`均确认没有任何新记录或commit产生。按全局CLAUDE.md"后台agent看门狗"协议：给了两次机会（累计约15分钟/近30万tokens）仍未产出，判定为流程性卡死（不是单次工具报错，是子agent对"后台任务未完成"这类场景系统性选择"提前收工等通知"而非同步等待/主动查询完成），用`TaskStop`终止该子agent，改为上层编排会话本次运行内自行完成同等严格度的调研，未悄悄跳过这道产能。
+
+### 冷启动候选与扫描
+
+读`src/data/guides.ts`最近发布文章（`pattern-in-art`8/31当天发布、`non-objective-art`/`famous-mexican-artists`8/30、`aphrodite-painting`/`icarus-painting`8/29），结合此前未覆盖过的`romanesque-painting`（8/22）方向，WebSearch收集15个大学/图书馆LibGuides候选（Harvard中世纪艺术建筑指南、UNM Los Alamos古典神话指南×2、STLCC古典神话参考资源、Santa Clara希腊艺术资源×2、Southern CT古典神话网站资源、Wichita State古典语言神话指南、Brooklyn CUNY/Pasco-Hernando/MSU/Lincoln/St. Joseph's/CCAD/SCAD艺术类Web Resources页），跑`broken_link_scan.py`扫描。
+
+**扫描结果**：13个页面成功抓取（2个返回404资源页本身已下线：`libguides.phsc.edu`/`libguides.lib.msu.edu`），合计出站链接约360条，DEAD命中37条（Wichita State一页贡献20条，全部是该校自己图书馆目录`libcat.wichita.edu`内部检索链接，按硬性规则2排除，非第三方内容资源）。
+
+**逐一质量门槛核实（4条看似有内容价值的候选）**：
+- `http://hastings1066.com/baythumb.shtml`（Bayeux Tapestry缩略图页，Harvard中世纪艺术指南上失效）——**排除，主题不对应**。UmberLore的`romanesque-painting`文章专讲加泰罗尼亚/卡斯蒂利亚教堂壁画在1919-1926年被商人剥离转卖博物馆的历史，媒介是壁画（fresco），地域是西班牙；Bayeux Tapestry是诺曼/英格兰的刺绣挂毯，媒介和地域都不对应，不能算作"Romanesque painting"的替代内容，硬凑会误导。
+- `http://www.paleothea.com/Gallery.html`（希腊神话女性图像总览，在UNM Los Alamos两个古典神话指南页上重复失效）——**排除，匹配度不够具体**。用Wayback Machine复核该页实际内容（2021-01快照）：这是一个横跨多位艺术家/多件雕塑绘画的Aphrodite及其他女神图像索引页（Titian的Actaeon、Picou/Bol等次要画家的Aphrodite画作、Knidos的Aphrodite雕塑等），性质接近"图像数据库/索引"而非叙事文章；本站`aphrodite-painting`一文明确聚焦四幅共享同一斜卧姿势谱系的特定名作（乔尔乔内-提香-马奈-委拉斯开兹），且开篇特意声明不重复覆盖已单独成文的《维纳斯的诞生》——两者的具体范围差距过大，替换会构成本站一贯反对的"用叙事文章冒充数据库页替代品"，未采用。
+- `http://www.timelessmyths.com/classical/heracles.html`（同一UNM Los Alamos指南上失效）——**排除，本站无对应文章**。UmberLore目前没有任何Heracles/Hercules专题文章，无内容可替换。
+- `http://web.uvic.ca/grs/department_files/classical_myth/index.html`（Southern CT古典神话资源页上失效）——**排除，无法核实内容对应性**。Wayback Machine在多个时间点均未收录该页快照（404），无法确认原页面是否覆盖了本站`icarus-painting`文章讲的Bruegel/Draper两幅具体画作，不能凭猜测认定匹配，未采用。
+
+其余DEAD链接（Southern CT的图书馆捐款页、Lincoln University的Twitter主页与内部登录页等）均为机构内部导航/系统链接或社交媒体主页，按硬性规则2排除，非可替换的第三方内容资源。
+
+**本轮无新增pitch**，是真实排查后的结论——4条看似有价值的候选逐一核实后均因主题不对应/范围过窄或过宽/无法验证内容而排除，不硬凑。
+
+**累计口径**：UmberLore断链置换战术累计已发送8封pitch（含1封跟进）；已验证`not_replaced` 2条、`verified_live_backlink_confirmed` 0条，转化率仍为0。
+
+### 遗留待办
+
+1. `paleothea.com`若未来UmberLore发布覆盖面更广的"Aphrodite in art"综述型文章（而非当前聚焦4幅特定名画的窄口径文章），可重新评估这条候选。
+2. 本站编排层的"独立子agent遇到后台任务未完成时倾向于提前收工而非同步等待"这个模式已连续在断链置换任务里复现（本轮为第三次同类记录，此前两次是08-16/08-26的WageLark站，本次是UmberLore站首次），建议以后本站及其余站的子agent任务说明里更明确要求"任何后台脚本必须同步等待完成，不能以'已armed monitor'为由提前结束回合"。
