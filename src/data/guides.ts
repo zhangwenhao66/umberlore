@@ -6910,5 +6910,128 @@ export const guides: Guide[] = [
         "url": "https://www.artforum.com/features/the-genesis-of-jackson-pollock-211366/"
       }
     ]
+  },
+  {
+    "slug": "pattern-in-art",
+    "category": "Decorative Arts",
+    "title": "Pattern in Art: A 1453 Tiling That Beat Physics by Five Centuries",
+    "description": "A 15th-century Isfahan tiling matches a geometry physicists could not formalize until the 1970s. Whether it is truly a quasicrystal is still disputed in print.",
+    "published": "2026-08-31",
+    "updated": "2026-08-31",
+    "coreSummary": "Pattern is usually treated as decoration, the part of a work left over once composition is settled. Three well-documented objects argue otherwise. A funeral krater built for a cemetery near Athens's Dipylon Gate around 750 to 735 BCE, now in the Metropolitan Museum of Art, organizes its entire surface into bands of meander and zigzag ornament that separate a funeral procession from pure pattern. A girih tile spandrel on the 1453 Darb-i Imam shrine in Isfahan carries a design that physicists Peter Lu and Paul Steinhardt argued, in a 2007 Science paper, shows nearly perfect quasicrystalline order, the same mathematical structure Roger Penrose formalized in the 1970s and Dan Shechtman won a Nobel Prize for observing in a real alloy in 1982; mineralogist Emil Makovicky published a comment the same year disputing that reading, and the disagreement was never retracted by either side. And William Morris's 1883 textile Strawberry Thief took him six years of failed attempts at indigo discharge printing before he could manufacture it at all. None of the three uses pattern as filler.",
+    "image": "/images/pattern-in-art-darb-i-imam-spandrel.jpg",
+    "imageAlt": "A girih tile geometric pattern on a spandrel from the Darb-i Imam shrine in Isfahan, Iran, built in 1453, bordered by a Kufic calligraphy band, the tiling that physicists Peter Lu and Paul Steinhardt cited as evidence of medieval quasicrystalline design.",
+    "imageCredit": "[Darb-i Imam shrine spandrel](https://commons.wikimedia.org/wiki/File:Darb-i_Imam_shrine_spandrel.JPG), Isfahan, 1453 CE, unknown 15th-century artisan, public domain.",
+    "sections": [
+      {
+        "heading": "Pattern gets filed under decoration. The filing is wrong.",
+        "body": [
+          "Ask someone to name [what art is built from](/elements-of-art/) and they will usually reach for the same seven words this site has already traced to a specific 1899 classroom textbook: line, shape, form, space, value, color, texture. Pattern is not on that list. The J. Paul Getty Museum's teaching materials on formal analysis place it somewhere else entirely, in a separate category called the principles of design, defined there as \"the ways that artists use the elements of art in a work of art.\" The Getty's own entry for the term is plain: \"Pattern is the repeating of an object or symbol all over the work of art. Repetition works with pattern to make the work of art seem active.\" Balance, emphasis, movement, proportion, rhythm, variety, and unity fill out the rest of that list.",
+          "That classification sounds like academic housekeeping, but it changes what pattern is doing in a given work. An element is a raw ingredient. A principle governs how ingredients get organized once repetition enters the picture, and that is a different kind of work. Three well-documented objects, spanning close to twenty-six centuries, make the case better than a definition can: a funeral urn from ancient Athens, a tile spandrel from fifteenth-century Isfahan still contested in physics journals, and a nineteenth-century English textile that took its designer six years of failure to manufacture. None of them treats pattern as filler."
+        ]
+      },
+      {
+        "heading": "A funeral urn organized almost entirely by repeated bands",
+        "body": [
+          "The Geometric Period gets its name directly from what covers its pottery. Classics researchers Jessika Akmenkalns and Debby Sneed, writing for the University of Colorado Boulder's Department of Classics, date the period to roughly 900 to 700 BCE and split it into Early, Middle, and Late phases based on how that geometric decoration changed over time. Vases from the era's Protogeometric predecessor carried simpler concentric circles, checkerboards, and zigzags; by the Middle and Late Geometric phases, workshops had added meanders and more varied lozenge shapes, arranged as bands, or registers, that generally cover a vase from foot to rim.",
+          "The krater now in the Metropolitan Museum of Art, attributed to the Hirschfeld Workshop and dated by the museum to about 750 to 735 BCE, is one of the largest surviving examples: 108.3 centimeters tall with a 72.4-centimeter diameter, acquired through the Rogers Fund in 1914. It is also called the Dipylon Krater after the Athens cemetery gate near which it was excavated, and its main scene shows a funeral procession, an ekphora, with the deceased laid out on a bier surrounded by mourners. That figural scene sits inside a frame of pure pattern: meander borders run around the neck, checkerboard and zigzag registers separate the narrative bands from each other, and a chevron border closes out the base. A lower band shows a procession of chariots and shield-bearing foot soldiers, framed on both sides by the same zigzag and dot borders repeated throughout the vase.",
+          "Akmenkalns and Sneed note that some scholars have called Geometric art \"primitive\" or \"not very complicated,\" verdicts built largely on how much of the surface is covered in what looks, at a glance, like abstract filler. They push back directly, writing that judgments like these \"can undermine the greater concepts suggested in the images and the extent to which pottery as an art form had progressed by this period.\" The pattern is not incidental to the krater's funerary function. It is the structure that tells a viewer where the ritual scene starts and where ornament resumes."
+        ],
+        "image": {
+          "src": "/images/pattern-in-art-hirschfeld-krater-met.jpg",
+          "alt": "The Hirschfeld Krater, a 108-centimeter Late Geometric terracotta funerary vase at the Metropolitan Museum of Art, its surface organized into bands of meander, zigzag, and figural ornament from rim to foot.",
+          "credit": "[Terracotta krater](https://www.metmuseum.org/art/collection/search/248904), Attributed to the Hirschfeld Workshop, Greek, Attic, ca. 750–735 BCE, Metropolitan Museum of Art, Rogers Fund, 1914, [CC0](https://www.metmuseum.org/policies/image-resources)."
+        }
+      },
+      {
+        "heading": "A 1453 tiling and a physics argument that is still unresolved",
+        "body": [
+          "By around 1200 CE, tilers working on Islamic religious and civic buildings had developed a technique modern researchers call girih tiles: a small set of equilateral polygons, each scored with lines, that interlock to build complex star-and-polygon patterns without a builder needing to plot every intersection by hand. Physicist Peter Lu, then a Princeton graduate student, and his co-author Paul Steinhardt argued in a 2007 Science paper that the technique kept getting more sophisticated over the following two centuries, and that its most advanced known example survives on a spandrel of the Darb-i Imam shrine, built in Isfahan, Iran, in 1453. That project carried more weight in this setting than it might have elsewhere: figurative imagery is broadly avoided in Islamic religious architecture, which left geometric and calligraphic ornament, the Kufic border visible around the spandrel itself, to carry a share of the representational work that figural painting and sculpture carried in other traditions.",
+          "The mechanism they describe works at two scales at once. A viewer standing back sees one decagonal pattern; a viewer standing close sees a second, smaller pattern nested inside it, generated from the same girih tiles subdivided by a consistent rule. That self-similar subdivision, a shape repeating inside itself at a smaller scale, is the property Penrose tilings are built on, which is why Lu and Steinhardt treat the Darb-i Imam spandrel as different in kind from earlier, simpler girih patterns, not simply a fancier version of the same trick.",
+          "Steinhardt's summary of the paper, published on his university page, states the claim directly: the evolution of Islamic girih tilings between the thirteenth and fifteenth centuries produced \"a tessellation with nearly perfect quasicrystalline order in the Darb-i Imam shrine in Isfahan, five centuries before the discovery of Penrose tilings and quasicrystals in the West.\" Quasicrystalline order is a narrow, specific claim: a pattern that never repeats on a regular grid but still has long-range order, a structure mathematician Roger Penrose formalized in the 1970s and physicist Dan Shechtman observed in an actual metal alloy in April 1982, a finding so far outside accepted physics at the time that Shechtman has said colleagues mocked him for it before he won the 2011 Nobel Prize in Chemistry.",
+          "That claim did not go unchallenged. Danish mineralogist Emil Makovicky published a comment in Science later in 2007 arguing that the Darb-i Imam pattern actually repeats on a regular, periodic grid and does not display true quasicrystalline order, and that the unusual discs Lu and Steinhardt had highlighted within it were adapted from an earlier, smaller pattern at the Maragha tomb tower and not independent evidence of a genuine breakthrough. Lu and Steinhardt published a response defending their reading in the same issue. Both papers remain in the published record, and neither side appears to have retracted its position since."
+        ]
+      },
+      {
+        "heading": "A stolen-strawberry print that took six years to manufacture",
+        "body": [
+          "William Morris registered the Strawberry Thief design on 11 May 1883, according to the Victoria and Albert Museum's collection record for the piece, an indigo-discharged and block-printed cotton furnishing fabric showing thrushes lifting fruit from a garden bed. The V&A's record traces the idea to Morris's own kitchen garden: thrushes at his Oxfordshire home, Kelmscott Manor, kept stealing the strawberries, and he answered the nuisance by turning it into a repeating pattern.",
+          "Indigo discharge printing reverses the usual order of operations. Instead of printing color directly onto blank cloth, workers first dye an entire length of fabric a uniform, deep indigo blue, then apply a bleaching agent through carved printing blocks wherever the finished design needs a lighter tone, removing pigment instead of adding it. Morris admired the depth of color and crispness of detail the process produced, but the V&A's record notes he first attempted it in 1875 and did not get it working until 1881, after he moved his manufacturing into a factory at Merton Abbey, near Wimbledon. Strawberry Thief, printed two years later, was one result of that six-year effort.",
+          "The repeat itself required its own separate mastery. A single indigo-discharge block print has to tile edge to edge without a visible seam, so Morris's birds, strawberries, and trailing foliage were drawn to interlock across the repeat boundary, the same structural requirement the girih tiles and the meander registers were solving in their own centuries. For the Arts and Crafts movement Morris helped found, getting that repeat to work by hand, on a technique most English manufacturers had abandoned in favor of faster chemical dyes, was itself the argument he was making against industrial textile production."
+        ],
+        "image": {
+          "src": "/images/pattern-in-art-strawberry-thief-va.jpg",
+          "alt": "Strawberry Thief, an 1883 indigo-discharged and block-printed cotton textile by William Morris, showing thrushes stealing strawberries among stylized flowers and foliage in a repeating pattern.",
+          "credit": "[Strawberry Thief](https://commons.wikimedia.org/wiki/File:Strawberrythief.jpg), William Morris, 1883, Victoria and Albert Museum no. T.586-1919, public domain."
+        }
+      },
+      {
+        "heading": "What a funeral vase, a shrine tiling, and a stolen-strawberry print actually share",
+        "body": [
+          "None of these three cases uses pattern as a finishing touch applied once the important decisions were already made. The meander bands on the Hirschfeld Krater organize a funeral scene into legible registers, telling a viewer where ritual narrative ends and pure ornament begins. The girih tiling on the Darb-i Imam spandrel is treated by two physicists as evidence for a specific, falsifiable mathematical claim, contested seriously enough that a rival scholar built a published rebuttal around disputing it. And Strawberry Thief exists at all only because Morris spent six years failing to reproduce a centuries-old dyeing process before he considered the pattern finished enough to sell.",
+          "The same logic shows up elsewhere on this site in sharper form. Aboriginal dot painting, which grew out of a 1971 mural at the Papunya settlement school, developed its now-famous dotting technique specifically so [artists could sell paintings to outside buyers while concealing the sacred ceremonial content underneath from anyone without the ritual standing to see it](/aboriginal-art/), a case where pattern's job is encoding secrecy rather than announcing skill. Victorian majolica glaze borrowed its name from a genuinely older Italian process it never used, a mismatch [the V&A's collection record calls out directly](/majolica/). Pattern keeps doing specific, checkable work across all of these objects. Calling it decoration is usually the least accurate word available."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is pattern one of the elements of art?",
+        "answer": "No. The standard seven-item list, texture, color, value, space, form, shape, and line, comes from a different framework, one traced in a separate article on this site. Pattern instead sits in a different Getty-defined bucket, design principles, which also covers unity, rhythm, balance, variety, emphasis, proportion, and movement."
+      },
+      {
+        "question": "Is the Darb-i Imam spandrel really a quasicrystal tiling?",
+        "answer": "That is disputed. Working with Paul Steinhardt, Peter Lu argued the 1453 spandrel displays a quasicrystal-like structure, in a paper Science published in 2007, predating Roger Penrose's tiling mathematics by roughly 500 years. Emil Makovicky, a mineralogist based in Denmark, published a rebuttal that same year, arguing the pattern is periodic, not quasicrystalline, and that its unusual features were borrowed from an older tiling at Maragha. Neither side's position has been retracted."
+      },
+      {
+        "question": "What is the Hirschfeld Krater?",
+        "answer": "A funerary krater attributed to the workshop of an Athens vase painter modern scholars call Hirschfeld, made in roughly the third quarter of the eighth century BCE and standing just over a meter tall. It carries a second name, the Dipylon Krater, taken from the burial ground gate excavators found it beside, and its current home is the Met's collection in New York, where mourners process beside the deceased under bands of meander ornament."
+      },
+      {
+        "question": "What is indigo discharge printing?",
+        "answer": "A textile dyeing method that works backward from ordinary printing. An entire piece of cloth is dyed a uniform dark blue first, and a bleaching agent is then block-printed onto it wherever the design calls for a lighter shade, taking color away where normal printing would lay it down. William Morris needed six years, from 1875 to 1881, to make the process reliable enough to use."
+      },
+      {
+        "question": "Why did William Morris design Strawberry Thief?",
+        "answer": "Thrushes kept raiding the fruit beds at Kelmscott Manor, his home in Oxfordshire, and he turned the problem into a repeating textile design rather than fencing the garden off. The V&A registered his finished pattern on 11 May 1883."
+      },
+      {
+        "question": "Why do some art historians call Geometric-period Greek pottery primitive?",
+        "answer": "Earlier scholarship sometimes dismissed the era's busy repeated ornament as under-developed compared to the more naturalistic figure painting that followed it, a framing the two classicists who documented this period say understates how much organizational work the era's pattern was actually doing."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Metropolitan Museum of Art: Terracotta krater (Hirschfeld Workshop)",
+        "url": "https://www.metmuseum.org/art/collection/search/248904"
+      },
+      {
+        "label": "University of Colorado Boulder Classics: Geometric Period Pottery and Its Decoration",
+        "url": "https://www.colorado.edu/classics/2018/06/14/geometric-period-pottery-and-its-decoration"
+      },
+      {
+        "label": "Science: Lu & Steinhardt, Decagonal and Quasi-Crystalline Tilings in Medieval Islamic Architecture (2007)",
+        "url": "https://www.science.org/doi/10.1126/science.1135491"
+      },
+      {
+        "label": "Science: Makovicky, Comment on “Decagonal and Quasi-Crystalline Tilings in Medieval Islamic Architecture” (2007)",
+        "url": "https://www.science.org/doi/abs/10.1126/science.1146262"
+      },
+      {
+        "label": "Paul J. Steinhardt: Islamic Quasicrystal Tilings",
+        "url": "https://paulsteinhardt.org/islamic-tilings/"
+      },
+      {
+        "label": "NIST: The Nobel Moment — Dan Shechtman",
+        "url": "https://www.nist.gov/nist-and-nobel/dan-shechtman/nobel-moment-dan-shechtman"
+      },
+      {
+        "label": "Victoria and Albert Museum: Strawberry Thief furnishing fabric, William Morris",
+        "url": "https://collections.vam.ac.uk/item/O270884/strawberry-thief-furnishing-fabric-morris-william/"
+      },
+      {
+        "label": "J. Paul Getty Museum: Principles of Design (Understanding Formal Analysis)",
+        "url": "https://www.getty.edu/education/teachers/building_lessons/principles_design.pdf"
+      }
+    ]
   }
 ];

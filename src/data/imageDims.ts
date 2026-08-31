@@ -384,8 +384,8 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 646
  },
  "/images/pattern-in-art-hirschfeld-krater-met.jpg": {
-  "h": 3008,
-  "w": 2000
+  "h": 1483,
+  "w": 1200
  },
  "/images/pattern-in-art-strawberry-thief-va.jpg": {
   "h": 472,
