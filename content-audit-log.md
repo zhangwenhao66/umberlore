@@ -1914,3 +1914,104 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "renaissance-art",
+  "last_audited": "2026-08-31",
+  "published_date": "2026-08-10",
+  "note": "站内55篇文章中33篇从未被审计过，renaissance-art是guides.ts里最早出现的从未审计条目，按\"从未审计优先\"规则选定。文章体裁与预期不同：不是覆盖整个文艺复兴运动的概览文（那类内容会被Wikipedia/Britannica的broad-overview页霸占SERP），而是聚焦Vasari《Lives》1550年首创rinascita一词+书中虚构的Castagno谋杀Veneziano供词+该供词被Milanesi 1862年考据推翻+\"Renaissance\"一词经Michelet/Burckhardt/Pater三人先后定型这一条具体史学脉络的窄角度叙事稿，诊断阶段已核实此角度是真实差异化优势而非缺陷（见竞品差异化维度）。",
+  "article_specific_checklist": [
+    "Vasari 1568修订版是否确为161篇传记、比1550初版多28篇（即1550版约133篇）",
+    "Andrea del Castagno死亡日期（1457年8月19日，鼠疫）与Domenico Veneziano死亡日期（1461年5月）是否准确，两者相差是否确为近4年",
+    "Gaetano Milanesi 1862年论文标题（\"An Examination of Vasari's Account concerning the Death of Domenico Veneziano\"）与核心论点（用安葬记录证伪Vasari的谋杀+临终忏悔叙事）是否逐字准确",
+    "\"rinascita\"是否确为该词首次出现在艺术类文本中（需查是否有更早前身用法，对应L-0806-9\"首创\"类断言必须专门反查更早先例的规则）",
+    "Michelet 1855年《法国史》第七卷标题\"La Renaissance\"、Burckhardt 1860年《意大利文艺复兴时期的文化》定义Giotto至米开朗基罗、Walter Pater 1873年《Studies in the History of the Renaissance》1877年改名《The Renaissance: Studies in Art and Poetry》这条word-history链条的三个具体年代/书名是否准确"
+  ],
+  "findings": [
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "sources共7条：Encyclopaedia Britannica、Virtual Uffizi（专门论述该谋杀伪案的学术性文章）、Italian Art Society（Castagno死亡日期学术短文）、TheCollector（词源史）、History Collection（Burckhardt专题）、Wikipedia两条（Gaetano Milanesi、Santa Lucia de' Magnoli Altarpiece）。全部为具体可核实的机构/学术信源，无模糊归因（无\"学者们认为\"\"有研究显示\"这类无出处表述）。"
+    },
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "针对专属核查清单5项逐一WebSearch核实：①Vasari 1568版161篇传记、比1550版多28篇（即1550版约133篇）——多个独立信源确认，一致；②Castagno死于1457年8月19日鼠疫、Veneziano死于1461年5月，相差近4年——Wikipedia/Art UK/Italian Art Society/LRB书评等多信源交叉确认一致；③Milanesi 1862年论文标题与核心论点——WebSearch确认论文确实存在，标题\"An Examination of Vasari's Account concerning the Death of Domenico Veneziano\"、发表于Archivio Storico Italiano第15卷第1期（1862，第3-18页），核心论点与文章描述完全一致；④\"rinascita\"首见于艺术文本——WebSearch核实确认Vasari 1550年preface确为该词在艺术写作中的首次书面使用，但同时查到更早的思想史先例（Leon Battista Alberti时代已有\"艺术复兴\"的意识在流传，只是未用这个具体词），文章正文表述为\"It is the first appearance of that word in a text about art\"（措辞聚焦于\"词\"本身首次出现，未声称\"复兴\"这个概念本身由Vasari首创），核对后判定表述准确、未夸大，不构成L-0806-9类型的编造首创断言；⑤Michelet 1855年《Histoire de France》第七卷《La Renaissance》、Burckhardt 1860年《The Civilization of the Renaissance in Italy》定义Giotto至Michelangelo、Pater 1873年书1877年改名——三处年代/书名均经WebSearch多信源交叉确认准确。全文未发现编造引语、错误年代或归因错误。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "WebSearch核实截至审计日无关于Vasari/Castagno/Veneziano/Milanesi的新研究或新发现需要补充；文章讨论的是1550-1877年间已尘埃落定的史学考据脉络，无需要因新展览/新发现更新的时效性数据。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch确认\"renaissance art\"裸词SERP由Wikipedia \"Renaissance art\"、Britannica \"Renaissance art\"等broad-overview页主导（覆盖风格/特征/代表作），本文并非同类概览稿。核对sources[]中已引用的头部竞品TheCollector《The Word Renaissance: Meaning, History, & Cultural Impact》全文（curl抓取全文6000+字符核对关键词命中次数）：提及Vasari 3次、Michelet 4次、Burckhardt 4次，但Castagno/Veneziano/Milanesi/murder/rinascita全部0命中——本文核心叙事主线（Vasari虚构的谋杀供词+Milanesi 1862年考据推翻）是该头部竞品完全未覆盖的真实增量，非维基百科/竞品的第三份复述。备注（非缺陷，仅记录供后续选题参考）：本文角度是窄叙事稿而非broad-overview稿，与\"renaissance art\"裸词搜索意图存在一定错位，但这是选题策略层面的观察，不属于本次14维度审计的可修复问题范畴，不采取行动。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "`check_seo_field_stats.py`：title长度62字符，z-score=0.25，正常范围内；description长度166字符，z-score=0.55，正常范围内。canonical由Layout.astro自动生成自指；单一H1；4个section H2+FAQ独立H2，无跳级；Article/FAQPage/BreadcrumbList三个schema组件均基于guide对象动态生成；hero图与1张正文插图alt文本均具体描述性；ads.txt（curl 200，正确指向pub-5245502795720653）；robots.txt 200；线上页面curl绕缓存确认200。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题，自评约90/99（阈值80，达标）",
+      "detail": "参照站内既有99分制口径自评：权威原文引语（Milanesi论文标题+核心论点、Vasari版本细节、Michelet/Burckhardt/Pater书名年代等密集且全部核实准确）；统计数据完整性（161/28/133篇传记数、1457/1461死亡年份、1550/1568/1855/1860/1862/1873/1877/1550→1862相隔312年等大量具体数字，全部核实）；可引用性（coreSummary与4条FAQ均为可独立摘出的完整陈述）；结构规范性（4节+FAQ无跳级）；跨域连接（本文收到至少5篇其他文章的真实正文回链——art-deco/michelangelo-sistine-chapel/mandala-art/fallen-angel-painting/famous-paintings等，本文自身3条出链指向abstract-art-first-painting/art-deco/pop-art，双向健康）；专业术语（rinascita/preface/altarpiece等准确使用）；权威信号与此前已审文章一致的系统性短板（缺作者credential页），非本文独有问题。此为审计员自评，未使用独立工具复验。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "不适用（无需补漏）",
+      "detail": "published字段为2026-08-10，晚于2026-08-07 avoid-ai-writing接入触发线，不属于\"早期内容\"补漏范围。"
+    },
+    {
+      "dimension": "外部来源链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources数组7条外部链接逐条curl实测（带UA伪装）：6条200，britannica.com 1条返回403（反爬拦截，非真实失效，与此前多篇审计中Britannica/Smithsonian/DOI同类403判定口径一致）。正文内2处Wikimedia Commons图片文件页链接同样curl实测均200。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep全站guides.ts确认本文被至少5篇其他文章正文自然回链（art-deco/michelangelo-sistine-chapel/mandala-art/fallen-angel-painting/famous-paintings等，锚文本各不相同），本文自身3条出链（abstract-art-first-painting/art-deco/pop-art）均确认目标slug真实存在。Movements分类当前文章数未超过pickRelatedGuides()轮转窗口阈值，非孤儿页，无需修复。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "与此前已审文章结论一致：Article/FAQPage/BreadcrumbList均在构建时直接从guide对象字段动态生成JSON-LD，架构上不存在\"正文改了schema未同步\"的漂移风险，本次改动的section正文会在下次构建自动同步。"
+    },
+    {
+      "dimension": "合规/敏感度漂移（本站特有：现当代艺术家版权风险）",
+      "status": "未发现问题",
+      "detail": "文中涉及人物：Vasari（卒1574）、Castagno（卒1457）、Veneziano（卒1461）、Milanesi（卒1895）、Michelet（卒1874）、Burckhardt（卒1897）、Pater（卒1894），全部远早于1955年版权风险分界线，均不在建站计划文档146个高风险艺术家名单内。全文未出现跨站矩阵命名规律相关措辞，未涉神话本身/未涉通史人物生平本身，不撞跨站红线。WebSearch核实截至审计日无关于上述历史人物的新争议（真伪鉴定/归属权诉讼等）需要重新审视原文表述。"
+    },
+    {
+      "dimension": "配图可用性与版权（本站专属高风险项）",
+      "status": "未发现问题",
+      "detail": "2张配图：头图renaissance-art-vasari-self-portrait.jpg（Vasari自画像）与正文插图renaissance-art-castagno-last-supper.jpg（Castagno《最后的晚餐》1447年）。逐张curl核实对应Wikimedia Commons文件页：Vasari自画像标注PD-old-100-expired（作者卒于约1541年前后的画家身份记录，Vasari本人卒1574年），Castagno《最后的晚餐》标注PD-old-auto-expired（Castagno卒1457年）。均为古典油画的历史复制照片，非现代摄影再创作，两位艺术家均远超70年公有领域门槛（且远早于本站现当代艺术家版权红线1955年），与站内imageCredit标注（均为public domain）完全一致，不触及本站特有的版权高风险类别。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "正文为艺术史学考据（书籍版本史+人物死亡日期考证+词源史），无暴力血腥渲染（\"谋杀\"仅作为史学纠错案例陈述，无猎奇细节铺陈）、无武器/毒品/赌博类目内容，标题\"The Book That Named It Also Invented a Murder\"虽含\"Murder\"一词但属陈述式非诱导点击设计（无问句钓鱼、无\"你绝对想不到\"类煽动措辞）。ads.txt curl实测200正确指向pub-5245502795720653。"
+    },
+    {
+      "dimension": "机械式行文模式检查",
+      "status": "确认问题，已修复2处，1处经独立复核判定不构成问题",
+      "detail": "`check_prose_patterns.py --guides src/data/guides.ts --slug renaissance-art`初次运行报警3类：①\"'s own\"归因句式9次（阈值>2）；②\"rather than\"对比框架5次（阈值总数>4）；③FAQ与正文5条均有≥20字符逐字重合。起独立全新上下文agent复核，仅给出3条具体发现+支撑证据（未卡死，约8秒返回）：①CONFIRMED——9次里多数\"own\"移除后语义不变（如\"Veneziano's own recorded death\"→\"Veneziano's recorded death\"），判定为机械化归因反射而非有意义修饰；②CONFIRMED——5次\"rather than\"里3次做同一\"用证据纠正记录\"修辞动作，判定为句式模板化；③NOT CONFIRMED——逐字重合技术本身无法区分\"真实文风偷懒\"与\"专有名词/书名的必然重复\"，给出的5个重合样本（书名《Lives of the Most Excellent Painters, Sculptors, and Architects》全称、\"Gaetano Milanesi\"人名）均为实体名称的必然重复，本审计员逐一核对原文后确认另2处重合（\"the period as running from\"/\"the Castagno murder story\"）分别是不同动词恰好共享的语法尾部巧合、以及对同一具体情节的一致性指称标签，均非句子结构或论证内容的重复，认可NOT CONFIRMED结论。据此仅修复①②：改写5处\"'s own\"至\"'s\"（保留2处\"the two men's own recorded dates of death\"与\"later retellings of Vasari's own account\"，因\"own\"在此处承担与Vasari虚构叙事对照的实质语义），改写2处\"rather than\"句式为分号结构与\"not X, but Y\"结构（均未使用\"rather than/instead of\"关键词，未改动任何事实）。改写后重跑脚本：'s own降至2次（通过）、rather than降至3次（通过）、FAQ重合项因coreSummary去掉\"own\"后与FAQ#2重合字符数意外从39升至63字符仍报警（该项已判定NOT CONFIRMED不修复），脚本最终exit code为1，此为审计员知情且记录在案的例外，非遗漏。"
+    }
+  ],
+  "actions_taken": [
+    "起1个独立全新上下文Agent复核check_prose_patterns.py的3条候选发现，耗时约8秒未卡死，判定's own与rather than两类CONFIRMED、FAQ逐字重合类NOT CONFIRMED",
+    "改写5处'X's own Y'为'X's Y'（保留2处语义相关的own不改），改写2处'rather than'句式为分号结构/'not X, but Y'结构，均未改动任何事实/数字/引语",
+    "npm run build验证通过（71页无报错）",
+    "commit 8506431并push到origin/main，CF Pages自动部署，curl绕缓存轮询5次（约75秒）后确认线上已渲染新文本",
+    "seo_drift.py compare对比baseline结果：仅INFO（HTML内容变化，正文改动的预期兜底提示），无CRITICAL/WARNING",
+    "IndexNow提交/renaissance-art/（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加审计记录，明确标注本条为content-quality-audit审计更新，非新发布"
+  ],
+  "seo_score": "seo-audit通过（title 62字符z=0.25/desc 166字符z=0.55均正常/canonical自指/单一h1/4个h2+FAQ无跳级/三个schema均基于guide对象动态生成/外链7条中6条200+1条Britannica 403反爬假阳性/ads.txt正确）",
+  "geo_score": "自评约90/99（阈值80，达标），跨域连接健康（≥5条回链+3条出链），未使用独立工具复验总分",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
