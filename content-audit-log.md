@@ -2015,3 +2015,57 @@
   "pending_for_owen": null
 }
 ```
+
+```json
+{
+  "url_slug": "ophelia-millais",
+  "last_audited": "2026-09-01",
+  "published_date": "2026-08-10",
+  "article_specific_checklist": [
+    "eleven hours/tailor-fashion/halfpenny引语的收信人归属是否准确（正文原称写给Holman Hunt）",
+    "Elizabeth Siddal患病经过与Millais父亲索赔£50的细节是否准确（Tate/Wikipedia核对）",
+    "The Times两条评语与Morning Chronicle一条评语是否逐字准确",
+    "Henry Farrer 300 guineas购画细节、Sir Henry Tate 1894年捐赠、N01506藏品号是否准确",
+    "结尾桥接句关于Edvard Munch《呐喊》'离开挪威后遭遇冷遇'的具体表述是否与本站自己的edvard-munch-the-scream文章内容一致"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（含所有引号内引语）",
+      "status": "确认问题，已修复1处；其余核实无误",
+      "detail": "问题：正文称'Millais described the ordeal to Holman Hunt in a letter'，核对一手史料《The Life and Letters of Sir John Everett Millais》(1899, Vol.1, John Guille Millais著，archive.org identifier lifelettersofsir01milluoft)原文，该信函标题明确写'To Mrs. Combe'、开头'MY DEAR MRS. COMBE'，日期1851年7月2日，Holman Hunt只在信件正文中作为'与我同在'的第三方被提及，并非收信人。独立agent复核CONFIRMED，并交叉核实多条二级来源（Smarthistory等）均将此信归于Mrs. Combe。已改写为'a letter to Mrs. Combe, wife of his patron Thomas Combe'，并顺带把引语拼写订正为一手史料原文（tailor-fashion/halfpenny，此前正文写作tailor fashion/half penny）。其余核对：Tate官方页面+Wikipedia逐字核对Times两条评语（'strangely perverse...weedy ditch...pathos and beauty'/'makes us think of a dairymaid in a frolic'）与Morning Chronicle'startling in its originality'均逐字准确；Henry Farrer 300 guineas/1851年12月10日购画、Sir Henry Tate 1892年9月购入+1894年捐赠建馆、N01506藏品号，Tate官方页面与Wikipedia均逐一核对准确；Ruskin 1855-1857年£150/年资助Siddal、Siddal与Rossetti 1860年5月23日结婚、1862年2月11日因鸦片酊过量去世(32岁)，Wikipedia Elizabeth Siddal条目逐项核对准确；'wet white'技法描述（湿铅白底子作画、后期修改极难）经WebSearch多条艺术技法资料核实准确；botany教授带学生看画中花卉的轶事经Tate官方页面核实来源为Millais之子John Guille Millais传记，归因准确。"
+    },
+    {
+      "dimension": "内链桥接句准确性（本次审计新增排查角度）",
+      "status": "确认问题，已修复",
+      "detail": "结尾段落桥接句原称Edvard Munch最著名的画作'the same arc from hostile debut to canonical status that later met...once it left Norway for the first time'，暗示《呐喊》本身在'离开挪威'后遭遇过国际冷遇。核对本站自己的`edvard-munch-the-scream`文章全文，其记录的唯一冷遇事件是1895年Munch在挪威本土Kristiania（今奥斯陆）Blomqvist Kunsthandel画廊展出时遭遇的本土冷遇（导致学生会公开辩论其精神状态），文中完全没有提及《呐喊》本身曾在离开挪威后遭遇国际性冷遇的具体记录。独立agent复核CONFIRMED：这是把两件不相关史实（1895年Kristiania本土冷遇 + 1892年Munch柏林'丑闻事件'，后者早于《呐喊》1893年创作、不可能涉及该画）混淆拼接成的具体化但不实断言。已改写为'though its own hostile reception came at home, when Kristiania audiences first saw it in 1895'，准确对应目标文章的实际内容。"
+    },
+    {
+      "dimension": "EEAT/时效性/竞品差异化/SEO技术/GEO/AI味/外链腐烂/内链健康/schema一致性/合规敏感度/配图版权/AdSense（十二维度）",
+      "status": "均未发现问题",
+      "detail": "sources 6条外部链接（含新增的Millais传记archive.org链接）+2处Wikimedia Commons图片来源页逐条curl实测全部200。SEO技术：title 63字符z=0.40、description 159字符z=-0.37（`check_seo_field_stats.py`核实，均正常范围）、canonical自指、单一H1、7个section H2+FAQ H2无跳级、三个schema组件均基于guide对象动态生成。GEO：正文密集具体史料（一手信函引语、藏品号、日期、金额），WebSearch核实SERP头部竞品（Medium/Artsy/Artnet/Tate等）均为叙事性概述，本文的一手信函核对、精确金额链、多信源交叉批评引语构成真实增量，非维基百科同质化复述。AI味机械扫描：em/en dash(除合法年份范围1851–52外)/双连字符/花体引号/常见AI高频词均零命中。内链：3条真实inbound手动锚文本（fallen-angel-painting/whistler-ruskin-trial/icarus-painting，锚文本互不相同），线上'Nearby in the gallery'侧栏正常渲染3条cross-category推荐（Painting分类30篇体量充足），非孤儿页。配图：ophelia-millais-tate.jpg（Millais原作，卒1896）与ophelia-elizabeth-siddal-portrait.jpg（Rossetti作，卒1882）经Wikimedia Commons API核实均为public domain，远早于本站1955年版权风险分界线。AdSense：ads.txt正确指向pub-5245502795720653，正文为艺术史考据无暴力/限制类目内容。"
+    },
+    {
+      "dimension": "机械式行文模式检查（`check_prose_patterns.py`）",
+      "status": "确认问题，已修复大部分，2处经独立复核判定NOT CONFIRMED",
+      "detail": "初次运行报警：①\"'s own\"归因5次（阈值>2）；②\"rather than/instead of\"对比框架10次/2200词（阈值总数>4）；③FAQ与正文≥20字符逐字重合5条。独立agent复核：①CONFIRMED，4处（Uffizi's own uncertain account/Shakespeare's own lifetime/Louvre's own documented account/heading'The model's own career'）判定为机械化归因反射已移除，保留1处'Waterhouse's own Ophelia paintings'因承担与Millais原作的真实对比语义；②CONFIRMED，改写6处降至4处（阈值内），保留的4处为技术性必要表述（wet white技法/舞台改编/时间对比等）；③逐条判定：FAQ#1/#2/#3的重合内容为可改写的描述性散文，已改写消除（历经多轮改写迭代，因改写本身又产生新的短重合，反复调整至完全消除）；FAQ#4（'the accession number N01506'，Tate官方藏品编号）与FAQ#5（'makes us think of a dairymaid in a frolic'，逐字批评引语）经独立agent复核判定NOT CONFIRMED——均为专有标识符/逐字引用的必要重复，非偷懒复述，与renaissance-art审计已确立的判例一致，予以保留，脚本最终exit code为1，此为审计员知情且记录在案的例外，非遗漏。"
+    }
+  ],
+  "actions_taken": [
+    "起3个独立全新上下文Agent并行复核：(1)Holman Hunt误归因，(2)Munch桥接句准确性，(3)机械式行文3类候选发现——全部数分钟内正常返回，未出现卡死",
+    "改写误归因句为'a letter to Mrs. Combe, wife of his patron Thomas Combe'，并订正引语拼写为一手史料原文（tailor-fashion/halfpenny）",
+    "改写Munch桥接句为'followed a similar arc from hostile debut to canonical status, though its own hostile reception came at home, when Kristiania audiences first saw it in 1895'",
+    "移除4处'X's own Y'归因反射（保留1处有真实语义的用法），改写6处'rather than'至4处（脚本阈值内）",
+    "改写FAQ#1/#2/#3三条答案消除与正文的逐字重合（保留FAQ#4/#5两处经独立复核确认的必要重复）",
+    "新增《Life and Letters of Sir John Everett Millais》(1899, archive.org)为sources条目；updated字段由2026-08-10更新为2026-09-01（published字段本已存在，符合前置检查要求，未产生首发日期污染）",
+    "npm run build验证通过（73页无报错）",
+    "commit 150d034并push到origin/main（UmberLore无CF deploy hook，走git自动部署），绕缓存轮询立即确认线上200生效",
+    "seo_drift.py compare对比baseline：仅1条WARNING（schema内容变化，因heading/coreSummary文本改动，符合预期）+1条INFO（H2结构数量不变），无CRITICAL级回归",
+    "IndexNow提交/ophelia-millais/（Bing 200 / Yandex 200）",
+    "内容发布日志.md追加审计记录，明确标注本条为content-quality-audit审计更新，非新发布"
+  ],
+  "seo_score": "seo-audit通过（title 63字符z=0.40/description 159字符z=-0.37均正常/canonical自指/单一h1/7个h2+FAQ无跳级/三个schema均基于guide对象动态生成/6条sources链接全部200/ads.txt正确）",
+  "geo_score": "自评约90/99（阈值80，达标），一手史料核实密度高（信函/藏品号/多信源交叉批评引语），跨域连接健康（3条inbound回链+2条outbound出链），未使用独立工具复验总分",
+  "escalation": null,
+  "pending_for_owen": null
+}
+```
