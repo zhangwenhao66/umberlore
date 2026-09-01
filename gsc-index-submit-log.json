@@ -321,5 +321,20 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-01",
+    "action": "submitted",
+    "reason": "今日新发布chiaroscuro-woodcut，URL Inspection确认URL is not on Google，提交成功。第二轮查队列候选pop-art/art-styles/frida-kahlo-paintings均已收录；Page indexing报告discovered-currently-not-indexed里artist-peak-creation-age确认未收录，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/chiaroscuro-woodcut/",
+      "https://umberlore.com/artist-peak-creation-age/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/pop-art/",
+      "https://umberlore.com/art-styles/",
+      "https://umberlore.com/frida-kahlo-paintings/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
