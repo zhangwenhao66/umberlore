@@ -77,3 +77,25 @@ Art of Darkness (artofdarkpod@gmail.com) and Who Arted (whoartedpodcast@gmail.co
 0 of 12 newly-checked podcasts cleared both bars this round. No pitch was drafted, humanized, reviewed, or sent this run — nothing to send it to. Two candidates (Jo's Art History Podcast, Art of History) had the right guest-bar *framing* ("no expertise required") but failed the activity-confirmation bar on inspection of actual publish dates, not just directory claims; one (Is It? The Art Mystery Podcast) was a strong topical fit for the new Saturn/Goya angle but failed the credentials bar the same way The Art Law Podcast did in the first run. Nothing here needs Owen's personal handling — this is a supply problem (thin, mostly-professional or intermittently-active niche), not a blocked-channel problem, so nothing was added to `待Owen处理事项.md`.
 
 The Saturn Devouring His Son / Goya authorship-dispute angle above is unused and available for the next run that turns up a qualifying candidate.
+
+---
+
+## 2026-09-01 (fourth run)
+
+### Backlink verification: Art of Darkness (artofdarkpod@gmail.com, sent 2026-08-04, 28 days later)
+
+`dataforseo_query.py backlinks umberlore.com` returns 1 total backlink: stackscope.dev (DR361, **nofollow**, first seen 2026-08-25) — unrelated to artofdarkpod.com/Bleav, no match. No reply found, no episode referencing UmberLore. Verdict: `still_pending`. (Who Arted, sent the same day, not re-checked this round — next run's turn per "one earliest record per site.")
+
+### 🎯 Concentration rule: UmberLore selected (11-30 position impressions 344, second of 3, 2026-09-01 recalculation)
+
+### New candidates checked (3, none previously ruled out)
+
+| Podcast | Activity check | Guest fit check | Verdict |
+|---|---|---|---|
+| The Great Women Artists (Katy Hessel) | Active, ~10-day cadence, 45min avg | Guest roster is major-name artists/curators/authors (Marina Abramović, Tracey Emin, Hilton Als, Hans Ulrich Obrist) — celebrity/institutional tier, far above an independent content site's reach | **Skip — guest tier mismatch, would be an unrealistic stretch** |
+| All About Art (Alexandra Steinacker-Clark) | Substack-hosted, found via search but couldn't confirm a specific recent 2026 episode date in this pass | Guests described as "cultural practitioners, gallerists, museum directors, curators, art entrepreneurs" — professional/institutional credential bar | **Skip — guest bar requires professional art-world role Owen doesn't have, and activity unconfirmed** |
+| Forgotten Art History (Accessible Art History / Substack) | Only 5 episodes in ~8 months since launch (roughly one every 6-7 weeks) | No guest-interview evidence found — episode descriptions read as solo-narrated | **Skip — cadence too sparse to call reliably active, and no confirmed guest slot** |
+
+### Outcome
+
+0 of 3 newly-checked podcasts cleared both bars. No pitch drafted or sent this round. The art-history podcast niche keeps producing the same pattern seen in the two prior rounds: either celebrity/institutional-tier guest rosters, professional-credential guest bars (curator/gallerist/practicing artist), or shows too sparse/unconfirmed to call active. Nothing here needs Owen's personal handling — supply problem, not a blocked-channel problem.
