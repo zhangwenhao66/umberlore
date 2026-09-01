@@ -37,3 +37,23 @@ Record of assets produced/updated by `trafficsite-linkable-asset-building`, plus
 **Step 3.5 (discovery-platform placement)**: not re-evaluated this run — the 2026-08-22 evaluation (Show HN rejected as ill-fitting for a data-journalism page; no genuine non-Reddit community found in budget) still stands and nothing has changed since. Separately, `reddit-投放候选清单.md` already lists this asset as candidate 3 (lower priority than the WarCrumbs/Hollowvane candidates, needs a standalone chart before it's [OC]-ready for r/dataisbeautiful) — no action needed from this task, that's the Reddit-candidate-list owner's queue.
 
 **Distribution count**: 2/10 targets pitched so far (CreativeLive 2026-08-22 + gitnux.org 2026-08-29). Below the ≥10-target saturation bar — continue distribution on future runs before considering a new asset for this site.
+
+---
+
+## 2026-09-01 — distribution pass #3 (capacity-concentration rule)
+
+**Site selection**: recomputed 28-day 11-30-position impressions across all 10 traffic sites: dialwick(766) / dayalmanac(627) / wagelark(596) / **umberlore(344)** / mythcairn(118) / factcrumbs(114) / lingogrove(114) / warcrumbs(41) / hollowvane(10) / calcbadger(2). Excluded the three sites still in the algorithmic-suppression observation window (CalcBadger, DialWick, LingoGrove — confirmed unresolved per `流量站矩阵风险应对追踪.md`). Ranking of the rest: DayAlmanac(627) > WageLark(596) > **UmberLore(344)**, consistent with 8/29. UmberLore is in this run's top-3 allocation.
+
+**Order of work**: continued distribution of the one published asset (peak-creation-age data study; distribution count 2/10 going in) rather than building a new backlog item.
+
+**Step 2 (unlinked-mention recovery)**: WebSearch `"umberlore.com" OR "artist-peak-creation-age" -site:umberlore.com` — no results referencing the site. No recovery opportunity this round (page is ~6 weeks old, still not showing up in citation searches).
+
+**Step 3 (pitch)**: Searched for a third pitch target — art-history stats aggregators and education blogs. Candidates considered: oldest.org's "Youngest Artists in History" list (topically adjacent but no visible contact email on /about-us/ or /contact/, only a form); large museum/publication press desks (Whitney, Artsy, ARTnews, Art Institute of Chicago) — all have real press emails, but those are scoped media-relations channels for journalists asking about the institution's own exhibitions and programming, not a fit for an outside content-marketing data pitch (misusing a scoped channel this way risks reading as spam and burning a legitimate contact for a future genuine use). No qualified, reachable, on-topic target found this round. Recording this honestly rather than forcing a form submission or a mismatched press-desk email.
+
+### Step 3.5 (discovery-platform placement)
+
+Not re-evaluated — 8/22 and 8/29 conclusions stand (Show HN ill-fitting for a data-journalism page; `reddit-投放候选清单.md` still lists this as candidate 3, needs a standalone [OC] chart before it's ready, not this task's queue to build unprompted).
+
+### Distribution count
+
+Still 2/10 (no new target found this round). Continue on future runs.
