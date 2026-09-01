@@ -52,4 +52,16 @@
 - **表单设置**：Job title = Content Creator；Organisation = UmberLore；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@umberlore.com`。
 - **Deadline**：2026-09-20 17:00（鼠标真实点击日历控件选中）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `05445e278e9d0738c080254ba796a6cb`。
-- **上线复核**：⏳ 待下次任务运行时补查。
+- **上线复核**：⚠️ 2026-09-01尝试补查，但发现本站历史提交全部使用 Topics=General+Professional Services（不含Business & Finance/Health & Wellbeing），而当次能力所限只重点核对了 Business & Finance 和 Health & Wellbeing 两个分类列表，General 分类下（US单一国家）有210条结果、18页，未能逐页翻查确认本条或更早几条是否已上线。本条及此前3条（08-04/08-12/08-18）均暂未验证在线状态，留待下次运行时用更聚焦的方式（如直接搜索标题关键词）补查。
+
+### 2026-09-01（周二，正常排期，本站为本轮"外链产能集中规则"选中的3站之一）— UmberLore（umberlore.com）
+
+- **选站说明**：本次运行按 SKILL.md「外链产能集中规则」重新用 `gsc_query.py` 拉了各候选站近28天 11-30位曝光量（排除压制中的 CalcBadger/DialWick/commsadvisor/hrpaypick），UmberLore 以75次曝光排入前3（另两站为 chinaabroadguide 311、WageLark 111）；FactCrumbs 以49次并列第3同批处理。
+- **问题标题**：Art conservators: has a cleaning turned up brighter colors than assumed, then split experts over grime vs. the artist's own layer?
+- **角度**：绑定`michelangelo-sistine-chapel`一文"What the cleaning found"一节——1980-1994年西斯廷教堂天顶修复清洗出的颜色远比几代学者假设的米开朗基罗原意更明亮饱和，差距大到艺术史学家James Beck和作家Waldemar Januszczak公开主张这次清洗不只是去掉几百年的烟灰油污，还剥掉了米开朗基罗自己在灰泥干后加上的最后一层阴影和罩染。征集修复师/文物保护专家/艺术史学家分享另一个真实案例——某次清洗/修复揭露的颜色或细节明显超出预期，之后真正演变成"这到底是脏污还是艺术家本人笔触"的专业争议。与此前问过的归还权判决被误报（08-04）、鉴定委员会因法律风险解散（08-12）、建筑结构缺陷被容忍多年（08-18）、证人动机事后揭露（08-25）均不重叠——这次聚焦修复清洗本身引发的真伪/取舍争议。
+- **绑定文章**：UmberLore `michelangelo-sistine-chapel`（Michelangelo's Sistine Chapel Painting: 'It Is Not My Art'）。
+- **分类标签**：Topics = General + Professional Services；Countries = Australia + UK & Republic of Ireland + Canada + United States（与既往条目一致）。
+- **表单设置**：Job title = Content Creator；Organisation = UmberLore；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@umberlore.com`。
+- **Deadline**：2026-09-22 17:00（鼠标真实点击日历控件选中月份+日期，未直接写文本框）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval, your post will be included in the next Drink Up! Alert"。提交回执 product id = `2ce706ed100029cb420a3832a0c0c3b3`。
+- **上线复核**：⏳ 待下次任务运行时补查（本站General分类结果量大，建议下次改用标题关键词搜索而非逐页翻查）。
