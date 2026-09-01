@@ -7140,5 +7140,131 @@ export const guides: Guide[] = [
         "url": "https://www.metmuseum.org/art/collection/search/399987"
       }
     ]
+  },
+
+  {
+    "slug": "monochromatic-painting",
+    "category": "Movements",
+    "title": "Monochromatic Painting: What's Hiding Under the Black Square",
+    "description": "X-rays found two paintings and a disputed inscription under Malevich's 1915 Black Square. Klein never patented his blue, and Reinhardt's black held three different tones.",
+    "published": "2026-09-01",
+    "updated": "2026-09-01",
+    "coreSummary": "Monochromatic painting looks like the simplest possible artwork: one color, no image, nothing to interpret. Three of its most cited examples turn out to be anything but simple. X-ray analysis at Moscow's Tretyakov Gallery in 2015 found two earlier paintings and a disputed handwritten inscription hidden beneath Kazimir Malevich's 1915 Black Square, and the scholar who first announced the inscription's wording has been publicly contradicted by other named Malevich specialists. Yves Klein's International Klein Blue, registered with France's patent office in 1960, was never an actual patent; it was a cheaper, weaker legal instrument called a Soleau envelope, and what it recorded wasn't the color, which cannot be owned under French law, but a specific pigment-and-binder formula. And Ad Reinhardt's black canvases from the 1960s, which read as flat black from across a room, are built from nine squares in three distinct near-black tones that only separate for a viewer's eye after several minutes in the right light.",
+    "image": "/images/black-square-malevich-tretyakov.jpg",
+    "imageAlt": "Kazimir Malevich's 1915 painting Black Square, a black square with a fine white border, hanging in the Tretyakov Gallery in Moscow.",
+    "imageCredit": "[Black Square, 1915](https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg), Kazimir Malevich, Tretyakov Gallery, Moscow, public domain",
+    "sections": [
+      {
+        "heading": "One color, one shape, almost nothing else on the surface",
+        "body": [
+          "Tate's glossary calls monochrome painting exactly what its name suggests: a work made using only one color, sometimes with variations of tone or texture within that single hue but with no other color introduced. It is, by definition, the least busy thing a painter can put on a canvas.",
+          "That simplicity is precisely what made Kazimir Malevich's Black Square a scandal when he first showed it. He unveiled it at The Last Futurist Exhibition of Paintings 0.10 in Petrograd, which ran from December 1915 into January 1916, and he didn't just hang it among other pictures. Tate's account of the exhibition records that Malevich placed the canvas high across a corner of the room, the exact spot where a Russian Orthodox household would traditionally hang its icon of a saint. A flat black square, sitting where a holy image belonged, was the whole argument: representation was over, and this was what came next.",
+          "Malevich called the new style Suprematism, and the Black Square remained its founding icon for the rest of his life. Tate credits him, alongside Kandinsky and the sculptor Naum Gabo, as one of the [pioneers of the broader turn away from recognizable subject matter](/non-objective-art/) that Suprematism helped set off. The Black Square also turned out, a century later, to be hiding more than anyone in 1915 could have seen with the naked eye."
+        ]
+      },
+      {
+        "heading": "What the 2015 X-rays found, and where the specialists split",
+        "body": [
+          "In 2015, as the Tretyakov Gallery prepared for the Black Square's centenary, its restorers and researchers ran X-ray and infrared analysis on the 1915 original in its own collection. What came back surprised them: the black paint sits on top of two earlier compositions that Malevich painted, then deliberately covered over, a sequence of buried decisions rather than the kind of stray pentimento that occasionally bleeds through old paint on its own. The first, according to the Tretyakov's findings as reported by Smithsonian, was done in a brightly colored Cubo-Futurist style; over that, Malevich painted what the gallery's researchers described as a proto-Suprematist composition, before finally covering both with flat black. Three separate paintings, stacked and hidden, to arrive at one square of black.",
+          "The scan also picked up an inscription in the white border surrounding the black field, handwriting the Tretyakov's chief Malevich expert, Irina Vakar, attributed to the artist himself. Per reporting in The Art Newspaper, Vakar read the words as referencing a \"battle of negroes,\" a phrase she connected to an 1897 satirical monochrome cartoon by the French humorist Alphonse Allais, titled (in translation) Negroes Fighting in a Cellar at Night, itself a joke about how a solid black rectangle could stand in for an unseeable scene.",
+          "That reading has not gone unchallenged by other named specialists in the same field. Aleksandra Shatskikh, a leading historian of Suprematism, publicly dismissed the Tretyakov's attribution of the joke to Malevich, arguing he would never have told anything so lame. The art historian Andrei Nakov raised a different objection: he says his own X-ray studies of the painting's buried layers had already been published years earlier, between 2007 and 2010, so the Tretyakov's 2015 announcement wasn't the discovery it was framed as. He also questioned the second half of the claim, calling the reading of the inscription itself unidentified and uninterpreted rather than solved, and dismissed the whole announcement as a \"sensational discovery.\" Three specialists, one physical inscription, and no agreement on either what it says or who found what first.",
+          "What isn't contested is the layering itself. Whatever the words mean, Malevich built his most famous \"empty\" painting by painting over two finished pictures first, which makes the founding image of an art movement built on \"reducing everything to zero\" a canvas that spent three separate creative decisions arriving at nothing."
+        ]
+      },
+      {
+        "heading": "What Klein actually filed for his blue",
+        "body": [
+          "Yves Klein is remembered for one specific ultramarine, so closely tied to his name that it now carries his name officially: International Klein Blue, or IKB. The common version of the story says he patented it. Both halves of that claim need correcting.",
+          "On 19 May 1960, Klein registered the IKB process with France's National Institute of Industrial Property, the INPI, under envelope Soleau number 63471. A Soleau envelope sits well below a patent in legal weight: it's a much cheaper, much weaker instrument, a sealed, dated deposit that later serves as proof that a given idea or formula existed on a specific date, useful in a dispute over priority but carrying none of a patent's actual protections. Klein could have filed for a real patent. He filed the low-cost version instead.",
+          "The other half of the myth is what he supposedly protected: the color blue. Under French law, and under most legal systems, a color by itself cannot be owned. What Klein's Soleau envelope actually recorded was the specific technique behind IKB's particular look: ultramarine pigment suspended in a binder called Rhodopas M, a polyvinyl acetate resin manufactured at the time by the French chemical company Rhône-Poulenc. Ordinary paint binders dull raw pigment as they dry; Klein wanted a binder that would let the ultramarine keep its full, powdery, light-scattering intensity even once fixed to a canvas.",
+          "He didn't develop the formula alone. Klein worked with Édouard Adam, a color merchant with a shop in the Montparnasse district of Paris, testing combinations of pigment and resin until the ultramarine kept its full, chalky intensity once dry. Adam's shop is still in business today, on the Boulevard Edgar-Quinet. What Klein actually owned, in the narrow legal sense the Soleau envelope provides, was a recipe worked out with a paint dealer's help, not a hue."
+        ]
+      },
+      {
+        "heading": "Reinhardt's black paintings are secretly a grid of nine squares",
+        "body": [
+          "Ad Reinhardt spent much of the 1960s painting canvases that, from across a gallery, register as pure black rectangles. MoMA's collection record for his 1963 Abstract Painting describes what a viewer actually finds up close: a five-foot square canvas divided into a three-by-three grid, with each of the nine cells rendered in a slightly different near-black tone. Three distinct blacks appear, MoMA's record specifies: the corner squares carry a reddish black, the vertical band running through the middle carries a bluish black, and the horizontal band carries a greenish black. None of the divisions are visible on first glance. MoMA's description says they \"become visible only after prolonged looking.\"",
+          "Reinhardt built that effect through a slow, deliberate process rather than through printed color mixing charts. Per the same MoMA record, he mixed black oil paint with small amounts of red, green, or blue pigment, then let the mixture sit undisturbed for several weeks, long enough for the pigment to separate out from the solvent it was suspended in. He would pour off the solvent and paint with only the concentrated pigment left behind, applying it to leave a flat, matte surface with no visible brushwork at all. The technique erased any trace of the artist's hand from the finished canvas, on purpose.",
+          "Reinhardt described what he was after in plainly absolute terms, in language MoMA quotes directly from the artist: he wanted \"a pure, abstract, non-objective, timeless, spaceless, changeless, relationless, disinterested painting, an object that is self-conscious (no unconsciousness), ideal, transcendent, aware of no thing but art.\" A painting built to erase incident from itself as thoroughly as possible.",
+          "That same fragile, under-bound surface makes the paintings unusually hard to keep intact. Conservators studying Reinhardt's black canvases have noted the paint layer is prone to burnishing and to picking up fingerprints, and that flaking and cracking can develop depending on how a given painting has been stored. Examples in major collections, including MoMA's and the Guggenheim's, show evidence of past repainting. Reinhardt was also specific about how the paintings should be lit: he preferred natural, late-afternoon twilight and avoided any bright or dramatic lighting, partly because harsh light exposes surface damage that low, indirect light conceals, which is also the lighting condition under which the three separate blacks are hardest to tell apart."
+        ],
+        "image": {
+          "src": "/images/reinhardt-three-blacks-diagram.svg",
+          "alt": "Diagram of a 3x3 grid showing how a black painting can contain three different near-black tones: reddish black in the corners, bluish black in the vertical band, and greenish black in the horizontal band.",
+          "credit": "Original diagram, based on the tonal structure described in MoMA's collection record for Ad Reinhardt's Abstract Painting (1963)"
+        }
+      },
+      {
+        "heading": "What three \"empty\" paintings turn out to be hiding",
+        "body": [
+          "Line the three cases up and each one is solving a completely different problem. Malevich made one physical object with a buried, disputed history underneath its surface. Klein tried to secure legal ownership over a formula, using an instrument weaker than the patent people assume he filed, for a color that no filing could ever actually own. Reinhardt made paintings that only look like one color, built from nine squares and three tones through a process engineered to erase every trace of the decisions that went into it.",
+          "None of that complexity shows up in the flat definition Tate's glossary gives, or in the generic listicle framing that dominates most searches for \"monochromatic painting\": one color, minimal effort, an easy target for anyone who thinks abstraction is a shortcut. The [debate over which painting actually started abstract art](/abstract-art-first-painting/) already showed that Malevich's generation argued about priority and originality from the very start of the movement his Black Square anchors. The blank-looking canvas turns out to be one of the most contested objects in twentieth-century art, not because of what it shows, but because of what several different people have spent a century trying to prove was underneath, inside, or legally attached to it."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is monochromatic painting?",
+        "answer": "It's a picture built from a single color, sometimes shifting in tone or texture but never bringing in a second hue. The best-known examples span six decades of very different intentions: a 1915 icon of a new movement, a legally recorded blue formula from 1960, and a set of 1960s canvases engineered to hide their own internal structure."
+      },
+      {
+        "question": "What did the 2015 X-rays find under Malevich's Black Square?",
+        "answer": "Moscow's Tretyakov collection ran scans that turned up two buried compositions beneath the black paint, a colorful early attempt echoing the Cubo-Futurist manner and a second, proto-Suprematist layer painted over that, plus handwriting tucked into the white border. Tretyakov specialist Irina Vakar connected the writing to an 1897 Alphonse Allais cartoon about an unseeable dark scene, but Suprematism specialist Shatskikh and scholar Andrei Nakov have each rejected that reading in public."
+      },
+      {
+        "question": "Did Yves Klein really patent his blue color?",
+        "answer": "In no legal sense that actually protected him. What he filed with France's INPI in May 1960 was a Soleau envelope: a low-cost, sealed deposit that's useful for proving priority in a dispute yet grants none of the exclusive rights a real patent would. And French law wouldn't let anyone own a color outright anyway; the deposit covered his particular recipe for mixing pigment with a resin binder, worked out with Paris color dealer Édouard Adam, not the hue itself."
+      },
+      {
+        "question": "Are Ad Reinhardt's black paintings actually all one color?",
+        "answer": "Not up close. His 1963 canvas at MoMA turns out to be nine separate squares carrying three near-identical but distinct tones, a warmer black at the corners, a cooler bluish black down the center column, and a green-tinted black across the middle row, invisible until a viewer's eyes adjust over several minutes. Reinhardt got there by letting tinted paint sit for weeks so the solids would drop out, then working with just the thick residue left behind."
+      },
+      {
+        "question": "Why are Reinhardt's black paintings so hard to conserve?",
+        "answer": "The paint layer he used is thin on binder and heavy on raw pigment, which leaves it vulnerable to fingerprints, burnishing, and cracking as a canvas ages or gets moved between venues. Some copies held by major museums have visible signs of past touch-ups. Reinhardt also insisted the works be viewed only in soft, indirect, late-in-the-day light, never anything bright or dramatic."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tate: Five ways to look at Malevich's Black Square",
+        "url": "https://www.tate.org.uk/art/artists/kazimir-malevich-1561/five-ways-look-malevichs-black-square"
+      },
+      {
+        "label": "Tate glossary: Monochrome",
+        "url": "https://www.tate.org.uk/art/art-terms/m/monochrome"
+      },
+      {
+        "label": "Smithsonian Magazine: X-Rays Unveil Hidden Paintings Beneath an Avant-Garde Classic",
+        "url": "https://www.smithsonianmag.com/smart-news/x-rays-unveil-two-hidden-paintings-beneath-classic-avant-garde-painting-180957279/"
+      },
+      {
+        "label": "The Art Newspaper: There is more to Malevich's Black Square than a hidden racist joke, Moscow curators reveal",
+        "url": "https://www.theartnewspaper.com/2015/11/18/there-is-more-to-malevichs-black-square-than-a-hidden-racist-joke-moscow-curators-reveal"
+      },
+      {
+        "label": "Andrei Nakov: Malevich's Black Square, a fallacious discovery?",
+        "url": "https://andrei-nakov.org/en/malevichs-black-square-a-fallacious-discovery/"
+      },
+      {
+        "label": "Centre Pompidou: The untold story of the International Klein Blue (IKB) of Yves Klein",
+        "url": "https://www.centrepompidou.fr/en/pompidou-plus/magazine/article/the-untold-story-of-the-international-klein-blue-ikb-of-yves-klein"
+      },
+      {
+        "label": "Wikipedia: Soleau envelope",
+        "url": "https://en.wikipedia.org/wiki/Soleau_envelope"
+      },
+      {
+        "label": "Wikipedia: International Klein Blue",
+        "url": "https://en.wikipedia.org/wiki/International_Klein_Blue"
+      },
+      {
+        "label": "MoMA collection: Ad Reinhardt, Abstract Painting, 1963",
+        "url": "https://www.moma.org/collection/works/78976"
+      },
+      {
+        "label": "Wikimedia Commons: Kazimir Malevich, Black Square, 1915, Tretyakov Gallery",
+        "url": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg"
+      }
+    ]
   }
 ];

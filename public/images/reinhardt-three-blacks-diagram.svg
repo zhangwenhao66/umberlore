@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="800" height="620" fill="#faf8f4"/>
+  <text x="400" y="46" text-anchor="middle" font-size="22" fill="#1a1a1a" font-weight="bold">How a "black square" can hold three different blacks</text>
+  <text x="400" y="72" text-anchor="middle" font-size="14" fill="#555">Illustrative diagram of the tonal structure MoMA describes in Reinhardt's 1963 grid — not a reproduction of the painting</text>
+
+  <!-- 3x3 grid -->
+  <g transform="translate(220,110)">
+    <!-- corners: reddish black -->
+    <rect x="0" y="0" width="120" height="120" fill="#1a0f0f"/>
+    <rect x="240" y="0" width="120" height="120" fill="#1a0f0f"/>
+    <rect x="0" y="240" width="120" height="120" fill="#1a0f0f"/>
+    <rect x="240" y="240" width="120" height="120" fill="#1a0f0f"/>
+    <!-- vertical bar: bluish black -->
+    <rect x="120" y="0" width="120" height="120" fill="#0d0f1a"/>
+    <rect x="120" y="240" width="120" height="120" fill="#0d0f1a"/>
+    <rect x="120" y="120" width="120" height="120" fill="#0d0f1a"/>
+    <!-- horizontal bar: greenish black -->
+    <rect x="0" y="120" width="120" height="120" fill="#0f1a10"/>
+    <rect x="240" y="120" width="120" height="120" fill="#0f1a10"/>
+    <rect x="0" y="0" width="360" height="360" fill="none" stroke="#3a3a3a" stroke-width="2"/>
+    <line x1="120" y1="0" x2="120" y2="360" stroke="#3a3a3a" stroke-width="1"/>
+    <line x1="240" y1="0" x2="240" y2="360" stroke="#3a3a3a" stroke-width="1"/>
+    <line x1="0" y1="120" x2="360" y2="120" stroke="#3a3a3a" stroke-width="1"/>
+    <line x1="0" y1="240" x2="360" y2="240" stroke="#3a3a3a" stroke-width="1"/>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(90,500)">
+    <rect x="0" y="0" width="24" height="24" fill="#1a0f0f"/>
+    <text x="34" y="17" font-size="15" fill="#1a1a1a">Corners: black mixed with red</text>
+  </g>
+  <g transform="translate(90,536)">
+    <rect x="0" y="0" width="24" height="24" fill="#0d0f1a"/>
+    <text x="34" y="17" font-size="15" fill="#1a1a1a">Vertical bar: black mixed with blue</text>
+  </g>
+  <g transform="translate(90,572)">
+    <rect x="0" y="0" width="24" height="24" fill="#0f1a10"/>
+    <text x="34" y="17" font-size="15" fill="#1a1a1a">Horizontal bar: black mixed with green</text>
+  </g>
+
+  <text x="710" y="536" font-size="13" fill="#666" text-anchor="end">Source: MoMA collection</text>
+  <text x="710" y="554" font-size="13" fill="#666" text-anchor="end">record for Abstract Painting, 1963</text>
+</svg>

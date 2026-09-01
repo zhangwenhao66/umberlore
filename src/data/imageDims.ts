@@ -71,6 +71,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1206,
   "w": 1920
  },
+ "/images/black-square-malevich-tretyakov.jpg": {
+  "h": 1400,
+  "w": 1400
+ },
  "/images/bonampak-murals-reproduction-mna.jpg": {
   "h": 774,
   "w": 1600
@@ -85,6 +89,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/caravaggio-calling-of-saint-matthew.jpg": {
   "h": 1496,
+  "w": 1600
+ },
+ "/images/chiaroscuro-woodcut-burgkmair-saint-george.jpg": {
+  "h": 1600,
+  "w": 1144
+ },
+ "/images/chiaroscuro-woodcut-cranach-saint-christopher.jpg": {
+  "h": 1600,
+  "w": 1151
+ },
+ "/images/chiaroscuro-woodcut-ugo-death-of-ananias.jpg": {
+  "h": 1032,
   "w": 1600
  },
  "/images/cloisonne-fieschi-morgan-staurotheke-met.jpg": {
@@ -414,6 +430,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/rebay-guggenheim-kandinsky-bauhaus-1929.jpg": {
   "h": 1105,
   "w": 1600
+ },
+ "/images/reinhardt-three-blacks-diagram.svg": {
+  "h": 620,
+  "w": 800
  },
  "/images/rembrandt-night-watch-rijksmuseum.jpg": {
   "h": 1041,
