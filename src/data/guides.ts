@@ -7270,5 +7270,127 @@ export const guides: Guide[] = [
         "url": "https://commons.wikimedia.org/wiki/File:Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg"
       }
     ]
+  },
+
+  {
+    "slug": "john-martin-paintings",
+    "category": "Painting",
+    "title": "John Martin's Paintings: A Blockbuster the Academy Rejected",
+    "description": "John Martin's paintings drew paying crowds and got pirated as an unauthorized diorama in 1833. The Royal Academy still rejected his last trilogy as vulgar.",
+    "published": "2026-09-02",
+    "updated": "2026-09-02",
+    "coreSummary": "John Martin's paintings made him one of the most widely seen painters in nineteenth-century Britain and one of the least respected by the institutions that judged art. Belshazzar's Feast (1821) drew paying crowds that needed a railing, and by 1833 an unauthorized diorama version of it was playing to the public, a piracy case Martin took to court and lost. His last trilogy, finished just before the stroke that killed him in 1853, was rejected by the Royal Academy as vulgar even as it kept drawing crowds. After his death, his paintings toured the world for two decades and were seen by as many as eight million people, then largely vanished from major museums for most of a century.",
+    "image": "/images/john-martin-great-day-of-his-wrath-tate.jpg",
+    "imageAlt": "John Martin's The Great Day of His Wrath, an 1851-1853 oil painting at Tate Britain showing a mountain citadel collapsing under a dark, stormy sky.",
+    "imageCredit": "[The Great Day of His Wrath, 1851-53](https://www.tate.org.uk/art/artworks/martin-the-great-day-of-his-wrath-n05613), John Martin, Tate Britain (N05613), public domain",
+    "sections": [
+      {
+        "heading": "The painting that needed a railing",
+        "body": [
+          "Before Belshazzar's Feast, Martin's career ran on private patronage rather than institutional approval. His first exhibited subject picture, Sadak in Search of the Waters of Oblivion, hung ignored in the Royal Academy's Ante-room in 1812 and sold for only fifty guineas; it took a private buyer, the MP William Manning, to give Martin his first real break. The sale of The Fall of Babylon for £420 in 1818 cleared his debts and let him buy a house in Marylebone, where he started meeting the writers and scientists who later filled his guest lists. None of that prepared the art world for what Belshazzar's Feast did three years later.",
+          "Belshazzar's Feast went on show at the British Institution in February 1821 and won its £200 prize for the best picture in the exhibition, the moment John Martin's name went from provincial curiosity to national fame. Paying visitors turned out in such numbers that the gallery had to put up a railing to keep the crowd back from the canvas.",
+          "Martin had already sold the picture before the exhibition opened, for 1,000 guineas, to William Collins, the glass painter who had once been his master. Collins made him agree not to reproduce the image in any form until Collins had sold it on. When the Duke of Buckingham and Chandos offered 800 guineas for the painting itself, Martin turned him down and took a different commission instead, The Destruction of Pompeii and Herculaneum. Collins then sent Belshazzar's Feast on a tour of Britain, and it kept drawing crowds wherever it went; by 1826, the explanatory pamphlet Martin had written to accompany it was in its 45th printing.",
+          "Not every response was admiring. Charles Lamb, reviewing the same exhibition, called the picture \"vulgar and bombastic,\" a judgment that would follow Martin through most of his career: enormous public appetite running alongside open contempt from people whose opinion the art world took seriously.",
+          "In 1826, with the picture still touring under Collins's ownership, Martin decided to publish an engraved version of the composition anyway. Collins sued him for breaking their agreement. Martin's defense was that the print reproduced his own preliminary sketches for the painting, not Collins's finished canvas, and it worked. Mezzotints of Belshazzar's Feast followed in 1826 and 1832, and again as part of Martin's own Illustrations of the Bible project in 1835."
+        ]
+      },
+      {
+        "heading": "Martin sued over his own hit, and lost",
+        "body": [
+          "Belshazzar's Feast was popular enough to attract outright copies, not just paying crowds. In 1833, an operation calling itself the British Diorama put on an unauthorized version of the composition, painted across roughly 2,000 square feet of canvas and lit the way commercial dioramas of the period were, without paying Martin anything for the use of his design.",
+          "Martin went to court for an injunction. Before Vice Chancellor Shadwell, his counsel argued there was no real difference between selling a pirated print and staging a pirated exhibition, since both took profit from a design that belonged to someone else. Shadwell rejected the argument before the defense had even finished replying to it. Exhibiting a picture for money, he ruled, \"is in no way analogous to selling a copy of the Plaintiff's print, but is dealing with it in a very different manner.\" The law protecting Martin's engravings, he found, \"never was intended to apply to a case where there was no intention to print, sell or publish, but to exhibit in a certain manner.\" He declined to grant the injunction. A second unauthorized diorama of the same picture opened in New York in 1835.",
+          "The court loss didn't stop the print income. Martin dealt directly with publishers rather than handing his paintings over to specialist engravers the way most painters of his generation did, and he later claimed to have earned more than £21,000 between 1826 and 1840 from royalties and direct print sales alone, separate from whatever the original paintings themselves sold for. His single largest engraving commission came from the publisher Septimus Prowett: 2,000 guineas for a first set of twenty-four mezzotints illustrating Milton's Paradise Lost, then another 1,500 guineas for a second, smaller-format set, sold to subscribers in monthly instalments between 1825 and 1827. Martin's other Louvre-connected painting, [Pandemonium](/pandemonium-painting/), came out of that same Paradise Lost project: he engraved the composition twice, in 1824 and 1831, before finally painting it in oil in 1841."
+        ],
+        "image": {
+          "src": "/images/john-martin-belshazzars-feast-mezzotint-nga.jpg",
+          "alt": "An 1826 mezzotint engraving by John Martin of Belshazzar's Feast, showing the biblical banquet hall with the writing on the wall above the crowd.",
+          "credit": "[Belshazzar's Feast, 1826 mezzotint](https://www.nga.gov/artworks/56798-belshazzars-feast), John Martin, National Gallery of Art, CC0 (Open Access)"
+        }
+      },
+      {
+        "heading": "The trilogy the Academy called vulgar",
+        "body": [
+          "Martin spent the last four years of his life on one more outsized project, a trilogy of last-things paintings: The Last Judgement, The Great Day of His Wrath, and The Plains of Heaven. He finished all three in 1853. On 12 November that year, while still working, he suffered a stroke that took away his speech and the use of his right arm. He never recovered, and died three months later, on 17 February 1854, at Douglas on the Isle of Man.",
+          "At the moment of his death, the three canvases, not entirely finished, were on show in Newcastle. After the funeral they toured London and the major cities of England, drawing large crowds according to contemporary accounts. The Royal Academy's judgment on the same paintings was blunter: submitted for exhibition, they were rejected as vulgar.",
+          "What The Great Day of His Wrath actually shows is disputed even among specialists who study Martin closely. Frances Carey, then Deputy Keeper in the British Museum's Department of Prints and Drawings, reads it as a generalized cataclysm, the destruction of Babylon and the material world together. William Feaver, art critic for The Observer, has argued the collapsing skyline is specifically Edinburgh, with Calton Hill, Arthur's Seat, and Castle Rock all falling into the valley between them. Charles F. Stuckey, an art historian at the School of the Art Institute of Chicago, has pushed back on that identification as unproven. What isn't disputed is the source: the painting follows a passage from the Book of Revelation closely enough that the Tate cites the chapter directly in its own catalogue entry.",
+          "Institutional rejection didn't keep the paintings out of a national collection forever, it just took a very long time. The Great Day of His Wrath reached the Tate in 1945, bought from an art dealer who had restored it, close to a century after it was painted. Unlike the [real buildings that architectural painters measure on site and then alter on the panel](/architectural-painting/), the citadel collapsing in that painting never existed anywhere to begin with; there was no building to check the proportions against. The Last Judgement and The Plains of Heaven followed even later, entering the Tate as a 1974 bequest."
+        ]
+      },
+      {
+        "heading": "Eight million viewers, then near silence",
+        "body": [
+          "What the Academy rejected, the paying public kept turning out for. After Martin's death, his paintings went on a commercial tour that ran from 1854 well into the 1870s, with venues across Britain and Ireland, a run in New York in 1856-57, and a stop in Sydney as late as 1878-79. Tate's own account of the tour puts the cumulative audience, from Dundee and Dublin to Sydney and New York, at as many as eight million people.",
+          "The numbers didn't move the critics who mattered most to Martin's reputation. Writing in Modern Painters in 1843, John Ruskin used one of Martin's paintings, a scene of King Canute rebuking his flattering courtiers, to make a point about technique rather than vision. Martin, he wrote, \"has attempted this Denner-like portraiture of sea-foam with the assistance of an acre of canvas, with what success, I believe the critics of his last year's Canute had, for once, sense enough to decide.\" He wasn't the only Romantic-era painter working from private vision rather than direct observation; William Blake did something similar on a far smaller scale, finishing a single tempera panel, [The Ghost of a Flea](/ghost-of-a-flea/), out of séance sketches he never exhibited to a paying crowd at all.",
+          "For most of the twentieth century, museums sided with Ruskin over the touring crowds. It took until 21 September 2011 for a major British museum to give Martin a full retrospective again: Tate Britain's John Martin: Apocalypse, the first exhibition dedicated to his work in more than thirty years and the largest public display of his paintings since 1822, the year Belshazzar's Feast was still touring the country under Collins's ownership."
+        ]
+      },
+      {
+        "heading": "The wrong Mad Martin",
+        "body": [
+          "John Martin gets called \"Mad Martin\" often enough in later writing that the label is worth untangling. It properly belongs to his older brother Jonathan, a preacher who set fire to York Minster in February 1829, causing extensive damage to the medieval cathedral. Jonathan stood trial for arson; John paid for his brother's defense. Jonathan was found guilty but spared execution on the grounds of insanity, and it's Jonathan, not John, whom contemporaries actually knew by that nickname.",
+          "One more crossover is worth noting. A print of Belshazzar's Feast hung on the parlour wall of the parsonage at Haworth, where Patrick Brontë's children grew up. It fed directly into the invented kingdoms the young Brontës built in their childhood writing, Glasstown and Angria; Martin himself turns up as a character in that fiction, a nobleman named Edward de Lisle of Verdopolis."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why did Belshazzar's Feast need a railing when it was exhibited in 1821?",
+        "answer": "Crowds showed up at the London gallery in numbers the venue hadn't planned for, forcing staff to add a barrier around the canvas. That same show handed the picture its £200 first prize, instant recognition for a painter who'd struggled for most of a decade."
+      },
+      {
+        "question": "Did John Martin win his lawsuit against the pirated Belshazzar's Feast diorama?",
+        "answer": "No. The judge hearing Martin's 1833 injunction request found that the statute covering his prints said nothing about staging an unlicensed public exhibition, only about selling unauthorized copies. A rival diorama in New York followed two years afterward, apparently unchallenged."
+      },
+      {
+        "question": "How many people saw John Martin's paintings after he died?",
+        "answer": "Tate's own estimate puts the audience for that posthumous tour close to eight million, reaching venues in Scotland, Ireland, the United States, and eventually Australia in the two decades after his 1854 death."
+      },
+      {
+        "question": "Was John Martin actually nicknamed 'Mad Martin'?",
+        "answer": "The nickname belongs to his brother. Jonathan Martin, a preacher, torched the cathedral at York in early 1829, and an insanity plea kept him off the gallows after the criminal trial that followed. John funded that defense. Historians and casual readers alike sometimes apply the nickname to the wrong sibling."
+      },
+      {
+        "question": "Why did the Royal Academy reject Martin's last paintings?",
+        "answer": "The Academy judged his final three-painting series to be vulgar, even though the same canvases kept drawing paying crowds when they toured English cities after his 1854 death. Tate didn't acquire one of the three until 1945; the remaining pair arrived only via a 1974 bequest."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: John Martin (painter)",
+        "url": "https://en.wikipedia.org/wiki/John_Martin_(painter)"
+      },
+      {
+        "label": "Wikipedia: Belshazzar's Feast (Martin)",
+        "url": "https://en.wikipedia.org/wiki/Belshazzar%27s_Feast_(Martin)"
+      },
+      {
+        "label": "Wikipedia: The Great Day of His Wrath",
+        "url": "https://en.wikipedia.org/wiki/The_Great_Day_of_His_Wrath"
+      },
+      {
+        "label": "Tate: The Great Day of His Wrath, 1851-53 (collection record, N05613)",
+        "url": "https://www.tate.org.uk/art/artworks/martin-the-great-day-of-his-wrath-n05613"
+      },
+      {
+        "label": "Tate: John Martin 1789-1854 (artist page)",
+        "url": "https://www.tate.org.uk/art/artists/john-martin-371"
+      },
+      {
+        "label": "Tate: John Martin: Apocalypse (exhibition, 2011-12)",
+        "url": "https://www.tate.org.uk/whats-on/tate-britain/john-martin-apocalypse"
+      },
+      {
+        "label": "Copyrighthistory.org (University of Birmingham School of Law): The Scope of Artistic Copyright in Nineteenth-Century Britain, on Martin v. the British Diorama (1833)",
+        "url": "https://copyrighthistory.org/cam/commentary/uk_1862/uk_1862_com_137200719122.html"
+      },
+      {
+        "label": "National Gallery of Art: John Martin, Belshazzar's Feast, 1826 (Open Access collection record)",
+        "url": "https://www.nga.gov/artworks/56798-belshazzars-feast"
+      },
+      {
+        "label": "Project Gutenberg: John Ruskin, Modern Painters, Volume I (1843)",
+        "url": "https://www.gutenberg.org/files/29907/29907-h/29907-h.htm"
+      }
+    ]
   }
 ];
