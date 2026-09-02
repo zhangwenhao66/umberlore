@@ -292,3 +292,45 @@ Pitch 5（2026-08-16，Marian University Library Photography guide，cbalgeman@m
 
 1. `paleothea.com`若未来UmberLore发布覆盖面更广的"Aphrodite in art"综述型文章（而非当前聚焦4幅特定名画的窄口径文章），可重新评估这条候选。
 2. 本站编排层的"独立子agent遇到后台任务未完成时倾向于提前收工而非同步等待"这个模式已连续在断链置换任务里复现（本轮为第三次同类记录，此前两次是08-16/08-26的WageLark站，本次是UmberLore站首次），建议以后本站及其余站的子agent任务说明里更明确要求"任何后台脚本必须同步等待完成，不能以'已armed monitor'为由提前结束回合"。
+
+---
+
+## 2026-09-02（第十次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中UmberLore（11-30位曝光408，矩阵内容型站排名第三）
+
+### 第一部分：核实旧pitch
+
+复查全部"已发送"记录：Pitch 5（Marian University，2026-08-16）已在2026-08-28验证为`not_replaced`并完成一次跟进（`verified_not_replaced_followed_up_once`），按规则不再重复验证、也不二次跟进。Pitch 8（Westport Library，2026-08-24）距今仅9天，不满足"10天以前"的核实窗口。**没有满足"10天以前且从未验证过"条件的记录，第一部分按规则跳过。**
+
+### 第二部分：新断链机会
+
+**冷启动方向对齐最近发布文章**：读`src/data/guides.ts`确认站内文章数已涨到**58篇**，最近14天新发布且此前未系统检索过的方向包括`chiaroscuro-woodcut`（2026-09-01，Technique分类，讲Cranach木版画倒填年份的具体考据）、`famous-portraits`（2026-08-28，Painting分类，讲Las Meninas/Madame X/American Gothic三幅肖像画的档案争议）、`ghost-of-a-flea`+`pandemonium-painting`（Blake插画相关）、`monochromatic-painting`/`non-objective-art`（2026-09-01/08-30，Movements）。据此确定三个检索方向：① 版画史/Printmaking（对应`chiaroscuro-woodcut`）② William Blake（对应`ghost-of-a-flea`/`pandemonium-painting`）③ Portraiture/肖像画史（对应`famous-portraits`）。均为本站首次系统检索这几个方向（此前九轮检索过的方向是Architecture/Painting/Movements通用页、Photography、Decorative Arts/金属工艺、Aztec/Renaissance/Aboriginal/Encaustic/Psychedelic、Art Forgery/Medieval/Byzantine/American Architecture、陶瓷/Native American）。
+
+用WebSearch收集candidate 29个大学图书馆LibGuides/机构研究指南（RISD Printmaking系列4个、Simmons/SUNY New Paltz/OCADU/Towson/MassArt/Clark Art Institute《The Print》系列2个共9个印刷史资源页，Duquesne/Bryn Mawr Tri-Co系列3个/Missouri/Yale Blake系列5个共10个Blake资源页，Illinois Milton Studies/New St. Andrews/Dartmouth Milton Reading Room共3个，UCNJ/SJSU/Smithsonian/Brown/Columbia College Chicago共5个肖像画资源页），跑`broken_link_scan.py`扫描（29个URL，超过任务20-30下限）。
+
+**扫描结果**：4个RISD页面因SSL握手失败（`curl -v`交叉确认为连接层`Connection reset by peer`，非HTTP层错误，判定为沙箱/对方WAF噪音，非站点内容失效）、3个Bryn Mawr Tri-Co页面返回404（资源页自身已下线或迁移，非目标内容失效）、1个tyndale.nsa.edu页面返回403（反爬），均排除不计入。**成功扫描25个资源页，合计出站链接约1,000+条，脚本判定DEAD共24条**。
+
+**逐条核实24条DEAD，全部排除，本轮无可发送机会**，原因分类：
+
+1. **代理/校内认证系统链接**（1条）：Duquesne Blake指南上`www-oxfordreference-com.authenticate.library.duq.edu`（校内代理域名整体失效）——非公开内容，排除。
+2. **图书馆内部系统/目录/ILL链接**（6条）：Missouri的`library.missouri.edu/databases/moreinfo/?id=3177`（内部数据库信息页）、Dartmouth的`libcat.dartmouth.edu`（本校目录首页）、Yale Illuminated Books页上3条`borrow-direct.relaisd2d.com`深链（馆际互借系统按查询条件生成的检索结果页，非内容页）、Smithsonian页上`library.dev.si.edu/research/art-and-design-collections-smithsonian`（URL本身带`.dev.`，是对方网站自己的staging环境地址误留在生产页面，属于对方需要自己修正的内部typo，不是可被第三方内容替换的资源）——均排除。
+3. **机构/校务/无关页面**（3条）：Missouri的`missouri.edu/eeo-aa/`（学校平权行动政策页，与内容无关，属页脚模板链接失效）、Brown的`bbis.advancement.brown.edu/BBPhenix/giving/library`（校友捐赠系统，与2026-08-21本站曾排除的同款Brown捐赠链接是同一模式）——排除。
+4. **专业协会/博物馆机构主页，功能不对等**（8条）：`ifpda.org/content/`（国际版画经销商协会官网首页）、Smithsonian页上`www.npg.si.edu`×2（国家肖像馆官网首页，DNS解析失败，即便该机构确实存在，官网首页也不能被叙事文章替代）、`www.americanart.si.edu/renwick/index.cfm`（Renwick Gallery旧版URL）、`www.addisongallery.org`（Addison Gallery美国艺术博物馆官网首页，HTTP 404）、`www.appraisersassoc.org`（美国鉴定师协会官网）、`www.asopa.com`（经WebSearch核实为American Society of Portrait Artists旧域名，肖像画家协会官网）、`www.portraitsociety.org`（Portrait Society of America官网）——延续本站自2026-08-04起一贯的"机构/协会主页不能被单篇叙事文章硬顶"标准，全部排除。
+5. **数据库/收藏项目类资源**（1条）：Smithsonian页上`decorativearts.library.wisc.edu`（University of Wisconsin的装饰艺术图像数据库项目），排除（数据库对数据库，本站无对应资产）。
+6. **主题/媒介不对应，逐条WebSearch/Wayback核实内容后排除**（5条）：
+   - `graphicstudio.usf.edu/gs/education/printmaking.html`（USF Graphicstudio当代版画工作室的教育项目页）与`blog.art21.org/category/media/printmaking/`（Art21纪录片系列关于"printmaking"标签的博客文章聚合页）——均为**当代版画教育/媒体机构资源**，本站唯一版画类文章`chiaroscuro-woodcut`讲的是1506-1516年间Cranach/Burgkmair/Ugo da Carpi的具体断代考据（16世纪历史专题），跟当代版画教育项目/纪录片博客毫无交集，硬凑会误导，排除。
+   - `www.philaprintshop.com/diction.html`（费城印刷品商店的版画术语词典）——工具类词典页，非叙事内容，且`chiaroscuro-woodcut`是聚焦单一断代争议的窄口径文章，不能替代一份通用术语词典，排除。
+   - `www.loebclassics.com/view/horace-odes/2004/pb_LCL033.23.xml/`（Dartmouth Milton Reading Room上失效的贺拉斯《颂歌》文本链接）——古典文学文本版本，跟本站视觉艺术史内容完全不相关（本站没有任何一篇文章覆盖古典文学文本本身），排除。
+   - `www.rc.umd.edu`（Missouri《英语4168：1789-1890年主要作家》课程指南上失效，经识别为马里兰大学"Romantic Circles"浪漫主义文学学术门户旧域名）——**这是本轮核实最仔细的一条**：门户覆盖的是浪漫主义时期文学与文本研究（诗歌、书信、学术论文），不是视觉艺术；本站`ghost-of-a-flea`和`pandemonium-painting`两篇都是关于Blake作为**画家/版画家**的具体单幅作品考据，跟一个文学研究门户在媒介（文字研究 vs. 视觉艺术）和内容颗粒度（综合性学术门户 vs. 单幅画作专题）上都不对应，排除。
+   - `www.neuegalerie.org/madame-dora`（Columbia College Chicago"Photo History I - Portraiture"页上失效，经Wayback核实为Neue Galerie博物馆关于摄影师Madame d'Ora [Dora Kallmus，1920-30年代维也纳/巴黎肖像摄影师]的过往特展页）——**本轮唯一认真评估过是否匹配的候选**：所在资源页明确是"摄影史"分类页（Photo History I），死链本身也是摄影师的特展介绍；本站`famous-portraits`一文虽然标题相关，但全文三个案例（Velázquez的《宫娥》、Sargent的《X夫人》、Grant Wood的《美国哥特式》）全部是**绘画**而非摄影，媒介不对应，站内也没有任何一篇覆盖20世纪肖像摄影或Madame d'Ora本人的文章，如实排除，不因标题字面相似（"portrait"）就硬凑。
+
+**本轮结论**：29个候选、25个成功扫描、24条脚本判定DEAD，逐条核实后**无一通过"真实失效+真实主题对应+目标页有真实权威度"三重门槛，本轮无发送**。是真实排查后的"确实没有可采用机会"结论，非偷懒未查。
+
+### 累计口径更正
+
+前几轮日志里"累计已发送8封pitch"的表述有误——核对`outreach-drafts.md`的"Pitch N"编号后发现该编号是本站全部外链战术（guest-post-outreach + broken-link-building + linkable-asset-building）共用的同一套流水号，不是断链置换战术专属计数。**按`trafficsite-broken-link-building`战术本身重新核实**：本战术累计实际发送 **3封邮件**（Pitch 5原始pitch 1封 + 8/28对Pitch 5的跟进1封 + Pitch 8原始pitch 1封），已验证`verified_not_replaced_followed_up_once` 1条（Marian）、`verified_live_backlink_confirmed` 0条、Pitch 8（Westport）尚未到10天核实窗口。转化率 0/2（按2封原始pitch计，不含跟进）。以后本战术的累计口径统计应以`broken-link-outreach-log.md`自身记录的Message ID为准，不套用`outreach-drafts.md`的跨战术流水号。
+
+### 遗留待办
+
+1. 版画史（Printmaking）、William Blake、肖像画史三个方向本轮首次系统检索均为0命中，主要卡在"本站对应文章都是聚焦极窄的单一考据专题（某一年代争议/某一幅具体画作），而资源页上的死链多是机构主页/当代项目/工具词典"这个结构性错配，不是资源页本身链接质量差。跟`linkable-asset-backlog.md`里持续未落地的"开放版权艺术图库总目录"（2号点子）这类参考型资产才是真正能打开这类资源页机会的路径，延续第16/21/24/28次运行已反复记录的同一结论。
+2. `www.neuegalerie.org/madame-dora`（Madame d'Ora特展页）如果本站未来发布覆盖20世纪肖像摄影或维也纳/巴黎摄影史的文章，可重新评估这条候选（目标页所在的Columbia College Chicago Photo History Portraiture指南本身应该还在维护，值得留意）。
+3. `www.rc.umd.edu`（Romantic Circles）如果本站未来发布聚焦Blake作为诗人/插画家双重身份的综述型文章（而非当前两篇单幅画作窄口径文章），值得重新评估。
