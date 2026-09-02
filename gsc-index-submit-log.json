@@ -336,5 +336,19 @@
       "https://umberlore.com/frida-kahlo-paintings/"
     ],
     "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-02",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，UmberLore排第9位，今日无新发布。检查pop-art/art-styles/frida-kahlo-paintings均已收录（历史已提交生效），Page indexing报告Discovered-not-indexed仅2条，artist-peak-creation-age昨日已提交，改用/topics/technique/（分类归档页，Discovered-currently-not-indexed）提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/topics/technique/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/pop-art/",
+      "https://umberlore.com/art-styles/",
+      "https://umberlore.com/frida-kahlo-paintings/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
