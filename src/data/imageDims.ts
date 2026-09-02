@@ -287,6 +287,14 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1200,
   "w": 1600
  },
+ "/images/john-martin-belshazzars-feast-mezzotint-nga.jpg": {
+  "h": 1103,
+  "w": 1600
+ },
+ "/images/john-martin-great-day-of-his-wrath-tate.jpg": {
+  "h": 989,
+  "w": 1515
+ },
  "/images/john-ruskin-self-portrait-1875.jpg": {
   "h": 1200,
   "w": 783
