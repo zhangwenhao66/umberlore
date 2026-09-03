@@ -7392,5 +7392,131 @@ export const guides: Guide[] = [
         "url": "https://www.gutenberg.org/files/29907/29907-h/29907-h.htm"
       }
     ]
+  },
+  {
+    "slug": "schiele-neulengbach-trial",
+    "category": "Painting",
+    "title": "Egon Schiele: The Kidnapping Charge Was Dropped, the Conviction Wasn't",
+    "description": "Neulengbach police charged Egon Schiele with kidnapping a runaway teenager in 1912. The charge collapsed, but a separate immorality charge still sent him to jail.",
+    "published": "2026-09-03",
+    "updated": "2026-09-03",
+    "coreSummary": "In April 1912, police in the small Austrian town of Neulengbach arrested Egon Schiele on suspicion of kidnapping and seducing Tatjana von Mossig, the 13-year-old daughter of a retired naval officer, after she asked Schiele and his companion Wally Neuzil to take her to her grandmother's house in Vienna and then changed her mind partway there. Those charges collapsed once the case reached a judge. Schiele was convicted instead on a separate charge, exhibiting an erotic drawing where local children could see it, and served 24 days in custody; a judge burned one confiscated drawing over a candle in the courtroom itself. A century later, during the #MeToo movement, Schiele scholar Jane Kallir argued in The Art Newspaper that folding those two accusations into one had gotten Schiele filed, wrongly, under the label of historical sex offender.",
+    "image": "/images/schiele-orange-only-light-1912.jpg",
+    "imageAlt": "Egon Schiele's 1912 watercolor of his Neulengbach jail cell, showing a single orange on a blanket beside a folded jacket used as a pillow.",
+    "imageCredit": "[Die eine Orange war das einzige Licht (The One Orange Was the Only Light), 19 April 1912](https://commons.wikimedia.org/wiki/File:Egon_Schiele_-_Die_eine_Orange_war_das_einzige_Licht19-4-1912.jpeg), Egon Schiele, public domain",
+    "sections": [
+      {
+        "heading": "A ride to Vienna that never happened",
+        "body": [
+          "In 1911, Egon Schiele and his companion Wally Neuzil left Vienna for Krumau, the Bohemian town where his mother had been born, looking for a cheap studio and quieter surroundings. Local residents objected to the unmarried couple living together, an arrangement the period's own vocabulary labeled a wilde Ehe, a wild marriage, and to the teenagers who gathered at Schiele's studio to watch him work. Within the year the two moved again, this time to Neulengbach, a small town roughly 35 kilometers west of Vienna, hoping the smaller distance from the capital and a change of neighbors would settle the disruption down.",
+          "The same pattern followed them. Children and teenagers kept visiting Schiele's studio in Neulengbach, and in April 1912 that familiarity turned into a criminal case. Tatjana Georgette Anna von Mossig, the 13-year-old daughter of a retired naval captain in the town, asked Schiele and Neuzil to take her to her grandmother's house in Vienna; she wanted to get away from Neulengbach for a while. They agreed. Once in the city, according to Jane Kallir, author of Schiele's catalogue raisonné, the girl changed her mind, and the three of them returned to Neulengbach the following day.",
+          "By then her father, a retired naval officer, had already gone to the police. He filed charges of kidnapping and statutory rape against Schiele. Officers arriving to make the arrest searched Schiele's studio and confiscated hundreds of drawings they judged sexually explicit, a haul Tate's summary of the case puts at well over a hundred sheets."
+        ]
+      },
+      {
+        "heading": "Two charges dropped, one conviction that stuck",
+        "body": [
+          "When the case came before a judge, the kidnapping and statutory rape charges, recorded in German-language sources under the older legal terms Entführung and Schändung, did not hold up. The Egon Schiele Museum in Neulengbach, which now occupies part of the former district court building, records only that the artist \"was only convicted because he had presented a nude depiction in his home in such a way that it could be seen by visitors.\" Schiele was found guilty on that narrower charge alone: exhibiting an erotic drawing in a place accessible to children, stemming from the same teenagers who had been visiting his studio.",
+          "During the trial, the presiding judge singled out one of the confiscated drawings, described in later accounts as showing a young girl undressed above the waist, and burned it over a candle flame in the courtroom itself. Schiele had already spent 21 days in pretrial custody by the time of the verdict. The judge added three more days to that, bringing the total to 24 days served over a charge that, in the end, had nothing to do with the runaway girl who triggered the arrest.",
+          "Kallir's reading of the case, laid out in a 2018 piece for The Art Newspaper, stresses how thin the surviving evidence is for the abandoned charges: court records from the case no longer survive, and what remains is largely secondhand. What is documented is the outcome. Two of the three original accusations were dropped for lack of grounds. The one that produced a criminal record was about a drawing on a wall, not about the girl at all.",
+          "A painter facing a courtroom over the boundaries of decent art was not unique to Austria in this period. Thirty-three years earlier and a country away, [James McNeill Whistler sued the critic John Ruskin for libel in a London courtroom](/whistler-ruskin-trial/) after Ruskin accused him of flinging a pot of paint in the public's face; Whistler won the case but was awarded only a farthing in damages."
+        ]
+      },
+      {
+        "heading": "Three watercolors, painted before the verdict",
+        "body": [
+          "Held in a cellar cell at the Neulengbach district court while awaiting trial, Schiele kept working. Wally Neuzil was not allowed to visit him directly, but she found a way to pass him an orange through the small window of his cell. Schiele painted it the same day, in a watercolor dated 19 April 1912 and titled, in German, Die eine Orange war das einzige Licht: the one orange was the only light. Against the flat gray of the cell, the fruit and a single folded jacket used as a pillow are the only points of color in the sheet.",
+          "The following day, 20 April 1912, he painted a second watercolor of the same cell, titled Nicht gestraft, sondern gereinigt fühl ich mich, roughly \"I feel not punished, but purified,\" a title that reads as Schiele's framing of the ordeal, not a neutral description of the room. A third dated sheet, Die Tür in das Offene, The Door Into the Open, followed on 21 April, showing the cell door itself.",
+          "None of the three watercolors depict violence or despair in any literal sense. What they record, with a precision that later proved useful to historians, is the physical layout of a specific, identifiable cell: its door, its window, and the single blanket Schiele had on hand during those three days of pretrial detention in April."
+        ],
+        "image": {
+          "src": "/images/schiele-not-punished-purified-1912.jpg",
+          "alt": "Egon Schiele's 20 April 1912 watercolor titled 'I feel not punished, but purified,' painted during his pretrial detention in Neulengbach.",
+          "credit": "[Nicht gestraft, sondern gereinigt fühl ich mich, 20 April 1912](https://commons.wikimedia.org/wiki/File:Egon_Schiele_-_Nicht_gestraft%2C_sondern_gereinigt_f%C3%BChl_ich_mich_20-04-1912.jpeg), Egon Schiele, public domain"
+        }
+      },
+      {
+        "heading": "The cell an art historian found using the drawings themselves",
+        "body": [
+          "That precision paid off decades later. On 27 August 1963, the American art historian Alessandra Comini located the actual cell inside the Neulengbach district court building, using Schiele's drawing of the cell door as her guide down a basement corridor that, per the museum's account, still looked exactly as Schiele had drawn it. Comini went on to become one of the leading English-language scholars of Austrian Expressionism, and the discovery turned a set of jailhouse sketches into a piece of verifiable topography.",
+          "The building is now part of the Egon Schiele Museum and can be visited free of charge. The connection between the 1912 case and Schiele's personal life did not end well for Neuzil, either: the museum's account notes that she was never accepted within Schiele's circle as a serious partner, and that two years after he ended their relationship, she died serving as a wartime nurse in Dalmatia.",
+          "The case has also traveled outside academic writing. In 2003, the playwright Julia Jordan staged Tatjana in Color at Manhattan's Culture Project, retelling the events of that April from the perspective of Tatjana and her younger sister rather than the artist's. The production is a reminder that the same set of underlying facts, a runaway teenager, two dropped charges, and a conviction over a drawing on a wall, can be narrated from more than one vantage point, and that arguments over how to read Schiele's conduct did not start with the #MeToo movement fifteen years later."
+        ],
+        "image": {
+          "src": "/images/schiele-door-into-open-1912.jpg",
+          "alt": "Egon Schiele's 21 April 1912 watercolor 'The Door Into the Open,' showing the cell door that art historian Alessandra Comini later used to identify the exact room in 1963.",
+          "credit": "[Die Tür in das Offene (The Door Into the Open), 21 April 1912](https://commons.wikimedia.org/wiki/File:Egon_Schiele_-_Die_T%C3%BCr_in_das_Offene_-_21-4-1912.jpeg), Egon Schiele, public domain"
+        }
+      },
+      {
+        "heading": "The #MeToo-era argument over what he was actually convicted of",
+        "body": [
+          "Schiele died on 31 October 1918, at 28, three days after his pregnant wife Edith, both victims of the same influenza pandemic that killed tens of millions worldwide that year. The centenary of his death in 2018 brought commemorative exhibitions to Moscow, Boston, Vienna, Paris, London, Liverpool, and New York, arriving at the same moment as the #MeToo movement's reexamination of how museums frame the personal conduct of historical artists. Boston's Museum of Fine Arts added wall text addressing Schiele's alleged mistreatment of women to a Klimt and Schiele exhibition that spring, and The New York Times listed him among a group of historical \"artist-abusers\" alongside the contemporary artist Chuck Close, who was then facing his own sexual harassment allegations.",
+          "Kallir pushed back directly. Writing in The Art Newspaper that June, she argued that the 1912 case involved three distinct allegations, kidnapping, statutory rape, and public immorality, and that only the third produced a conviction. Collapsing all three into a single label, she wrote, ignored what the court record actually established: the charges tied to the runaway girl were dropped, and the conviction that remained concerned a drawing on a studio wall. Her piece closed with a direct line: to call Schiele a sex offender \"is not only wrong; it ignores essential historical context and forecloses necessary dialogue.\"",
+          "Kallir went further than the bare procedural point, placing the arrest inside the social norms of the period rather than judging it by present-day standards alone. She noted that the legal age of consent in Austria at the time was 14, that bourgeois men in their twenties were, by the conventions of the era, expected to delay marriage until they were established professionally, and that models and working-class girlfriends filled the gap in the meantime. Set against that backdrop, she argued, Schiele's conduct was unremarkable for a young man of his class and moment; what made him a target in Neulengbach was not his behavior toward the teenagers who visited his studio but the erotic content of the drawings a small town's police force happened to find hanging on his walls.",
+          "Schiele's mentor, Gustav Klimt, had died nearly nine months earlier that same year; [Klimt's own most famous paintings carry a comparably tangled paper trail](/gustav-klimt/), tied up for decades in a Nazi-era looting dispute that reached the US Supreme Court in 2004. Schiele's case, by contrast, was resolved within weeks of his arrest and never left an Austrian courtroom, with no international court, no restitution committee, and no arbitration panel ever involved. It is a small, provincial trial from more than a century ago, decided long before either man's death, and it is still being argued about today."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What was Egon Schiele actually convicted of in the 1912 Neulengbach case?",
+        "answer": "A single charge: showing an obscene sketch where children in his studio could see it. Two other accusations, abduction and statutory rape, tied to a runaway 13-year-old girl, were both thrown out earlier in the process."
+      },
+      {
+        "question": "Who was the girl at the center of the Schiele Neulengbach affair?",
+        "answer": "A 13-year-old named Tatjana von Mossig whose father had retired from the navy and settled the family in Neulengbach. She had wanted help reaching relatives in Vienna, backed out once she got there, and made the return trip a day later."
+      },
+      {
+        "question": "How long was Egon Schiele imprisoned over the case?",
+        "answer": "Twenty-four days in all: three weeks awaiting trial, plus a further three-day sentence handed down once the public-immorality count alone stuck."
+      },
+      {
+        "question": "What did the judge do with one of Schiele's confiscated drawings?",
+        "answer": "He set it alight with a candle in open court. Officers had taken more than a hundred drawings from Schiele's studio when they made the arrest, and this was one of them."
+      },
+      {
+        "question": "What did Egon Schiele paint while he was in custody?",
+        "answer": "Three watercolors of his jail cell, each dated to a different day in April 1912. One shows an orange smuggled to him through the window; another shows the door that a researcher, Alessandra Comini, later used to pinpoint the exact room decades afterward."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Egon Schiele",
+        "url": "https://en.wikipedia.org/wiki/Egon_Schiele"
+      },
+      {
+        "label": "Wikipedia (German): Egon Schiele",
+        "url": "https://de.wikipedia.org/wiki/Egon_Schiele"
+      },
+      {
+        "label": "Egon Schiele Museum, Neulengbach: District Court Neulengbach",
+        "url": "https://www.schielemuseum.at/en/mehr-Schiele/neulengbach"
+      },
+      {
+        "label": "The Art Newspaper: Jane Kallir, \"Egon Schiele was not a sex offender\" (1 June 2018)",
+        "url": "https://www.theartnewspaper.com/2018/06/01/egon-schiele-was-not-a-sex-offender"
+      },
+      {
+        "label": "Tate: Five Things to Know: Egon Schiele",
+        "url": "https://www.tate.org.uk/whats-on/tate-liverpool/life-motion-egon-schiele-francesca-woodman/five-things-know-egon"
+      },
+      {
+        "label": "Wikimedia Commons: Die eine Orange war das einzige Licht, 19 April 1912",
+        "url": "https://commons.wikimedia.org/wiki/File:Egon_Schiele_-_Die_eine_Orange_war_das_einzige_Licht19-4-1912.jpeg"
+      },
+      {
+        "label": "Wikimedia Commons: Nicht gestraft, sondern gereinigt fühl ich mich, 20 April 1912",
+        "url": "https://commons.wikimedia.org/wiki/File:Egon_Schiele_-_Nicht_gestraft%2C_sondern_gereinigt_f%C3%BChl_ich_mich_20-04-1912.jpeg"
+      },
+      {
+        "label": "Wikimedia Commons: Die Tür in das Offene, 21 April 1912",
+        "url": "https://commons.wikimedia.org/wiki/File:Egon_Schiele_-_Die_T%C3%BCr_in_das_Offene_-_21-4-1912.jpeg"
+      },
+      {
+        "label": "amNewYork (The Villager): \"The Egon Schiele Affair From the Girl's Point of View,\" on Julia Jordan's 2003 play Tatjana in Color",
+        "url": "https://www.amny.com/news/the-egon-schiele-affair-from-the-girls-point-of-view/"
+      }
+    ]
   }
 ];
