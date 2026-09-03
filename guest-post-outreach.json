@@ -259,7 +259,7 @@
         "draft_location": "outreach-drafts.md, 'Guest post pitch (2026-08-20 — weekly outreach run)' / Pitch 6",
         "topic_source": "st-peters-basilica (guides.ts) — Bernini baldachin bronze/Pantheon legend angle, with secondary offer of the five-architect 120-year construction-history angle",
         "review_process": "Independent fresh-context review agent not spawned this run given time budget (per standing watchdog policy this is an allowed self-verification fallback, not a silent skip); self-verified directly instead: line-by-line fact check of every claim in the draft against the st-peters-basilica entry in src/data/guides.ts (pasquinade quote and translation, the '~90% cannon / Venice bronze' claim, the five-architect list, the 1626 consecration date, the 120-year span — all confirmed consistent with the source article, no invented details), dedup check via gmail_send.py list (empty), and a humanizer + avoid-ai-writing pass that caught and fixed one 'lingering-attention claim' AI tell ('the detail I kept coming back to' -> 'the best detail in it') before finalizing.",
-        "status": "NOT SENT — awaiting separate send/review step per task instructions"
+        "status": "sent 2026-08-20 (Message ID 1a01f3aeec74b6e9) — see channels_researched[0] above; this drafted_not_sent block was stale (corrected 2026-09-03, was found alongside the same target's channels_researched status carrying the separate 'NOT sent...pitch sent' contradiction bug)"
       }
     ],
     "skipped": [
