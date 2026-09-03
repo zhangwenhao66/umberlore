@@ -30,7 +30,12 @@
         "name": "ArtDHope Foundation",
         "url": "https://artdhope.org/write-for-us-submit-a-guest-post/",
         "status": "sent 2026-08-04",
-        "notes": "真实且开放：邮件投稿至hello@artdhope.org，主题'Guest Post Submission'，需要姓名/联系方式、50-100词简介、100-200词pitch、500-1000词写作样本。页面提到'需要注册账号(免费)'才能成为完整contributor，未注册账号(账号创建属禁止自主执行的操作)，邮件中如实说明未注册、写作样本改为链接已发布的gustav-klimt文章。2026-08-04处理积压草稿时重新核实页面仍live且要求不变。过humanizer+独立复核agent判定'can send'后经gmail_send.py --from umberlore实际发出，Message ID 19fcb7f5cfb0246b。"
+        "notes": "真实且开放：邮件投稿至hello@artdhope.org，主题'Guest Post Submission'，需要姓名/联系方式、50-100词简介、100-200词pitch、500-1000词写作样本。页面提到'需要注册账号(免费)'才能成为完整contributor，未注册账号(账号创建属禁止自主执行的操作)，邮件中如实说明未注册、写作样本改为链接已发布的gustav-klimt文章。2026-08-04处理积压草稿时重新核实页面仍live且要求不变。过humanizer+独立复核agent判定'can send'后经gmail_send.py --from umberlore实际发出，Message ID 19fcb7f5cfb0246b。",
+        "verified_status": {
+          "checked_on": "2026-09-03",
+          "classification": "no_response_declined",
+          "evidence": "gmail_send.py list --query \"from:hello@artdhope.org\" returned [] (no reply in 30 days). WebSearch (site:artdhope.org umberlore OR Gustav Klimt guest post) found no published guest post. Submission required registering a free contributor account (not created, per this project rule against autonomous account creation) plus editor approval, so no article/backlink could exist without a reply; treating 30 days of silence as practical decline."
+        }
       },
       {
         "name": "Slow Art Day",
@@ -218,8 +223,8 @@
       {
         "name": "Sartle (Rogue Art History)",
         "url": "https://www.sartle.com/ ; collaboration contact info@sartle.com",
-        "status": "viable — pitch drafted, not sent (per task instructions, this run only researches/drafts/verifies) — pitch sent",
-        "notes": "Real, long-running art-history business (not a zombie blog): sells a physical trivia game listed on Barnes & Noble, has museum partnerships, an active site structure (Team/Connect/About Us pages all return HTTP 200), and a documented history of publishing guest posts from outside contributors. info@sartle.com confirmed as a real contact address; the 'email your ideas for collaboration' process comes from WebSearch-surfaced text since the actual about-us/connect pages are JS-rendered React and could not be fully scraped via curl. One honest limitation: blog.sartle.com specifically sits behind a JS/hashcash bot challenge that curl cannot pass, so current posting cadence on the blog subdomain (as opposed to the main site/business, which is clearly active) could not be directly confirmed — noted rather than glossed over. No prior contact (gmail_send.py list --query 'to:info@sartle.com' and --query 'sartle' both returned []). [Top-level orchestrator independent review 2026-08-20: confirmed info@sartle.com is Sartle's own listed collaboration contact, all facts (Barberini pasquinade, Pantheon bronze to cannon+Venice, five architects, 1626 consecration) verified verbatim against st-peters-basilica entry in guides.ts, dedup clean. Sent via gmail_send.py --from umberlore. Message ID 1a01f3aeec74b6e9.]"
+        "status": "pitch sent 2026-08-20 (Message ID 1a01f3aeec74b6e9)",
+        "notes": "Real, long-running art-history business (not a zombie blog): sells a physical trivia game listed on Barnes & Noble, has museum partnerships, an active site structure (Team/Connect/About Us pages all return HTTP 200), and a documented history of publishing guest posts from outside contributors. info@sartle.com confirmed as a real contact address; the 'email your ideas for collaboration' process comes from WebSearch-surfaced text since the actual about-us/connect pages are JS-rendered React and could not be fully scraped via curl. One honest limitation: blog.sartle.com specifically sits behind a JS/hashcash bot challenge that curl cannot pass, so current posting cadence on the blog subdomain (as opposed to the main site/business, which is clearly active) could not be directly confirmed — noted rather than glossed over. No prior contact (gmail_send.py list --query 'to:info@sartle.com' and --query 'sartle' both returned []). [Top-level orchestrator independent review 2026-08-20: confirmed info@sartle.com is Sartle's own listed collaboration contact, all facts (Barberini pasquinade, Pantheon bronze to cannon+Venice, five architects, 1626 consecration) verified verbatim against st-peters-basilica entry in guides.ts, dedup clean. Sent via gmail_send.py --from umberlore. Message ID 1a01f3aeec74b6e9.] [2026-09-03 trafficsite-guest-post-outreach 修正]: 本条状态此前自相矛盾写着\"not sent...— pitch sent\"，导致本次运行第0步差点重复发送同一封邮件给同一收件人（独立复核agent核实gmail_send.py list返回该邮件确已于2026-08-20发出，Message ID 1a01f3aeec74b6e9）。状态已订正为准确的已发送记录，未重复发送。"
       },
       {
         "name": "Baroque Lifestyle — Become a Contributor",
@@ -313,5 +318,36 @@
       "Baroque Lifestyle / II Can DM / Strange Buildings / History Myths Debunked — previously judged real-but-poor-fit (2026-08-20), not re-researched this round."
     ],
     "owen_todo": []
+  },
+  {
+    "date": "2026-09-03",
+    "site": "umberlore",
+    "niche_focus": "visual art & architectural history, this round targeting fallen-angel-painting/cristina-kahlo pages (GSC position 11-30, positive impressions)",
+    "channels_researched": [
+      {
+        "name": "Virtosu Art Gallery Blog guest post page",
+        "url": "https://www.virtosuart.com/index.php/rss/595-submit-a-guest-post-guidelines-for-virtosu-art-gallery-blog",
+        "status": "dead-link-or-domain-repurposed",
+        "notes": "curl -L追踪该URL的301重定向,最终落地en.elartemonumental.com(完全不同的网站/品牌),原Virtosu Art Gallery域名及其guest-post页面已不存在,搜索结果里的摘要是过期缓存。"
+      },
+      {
+        "name": "art-mine.com — Guest Post Guidelines",
+        "url": "https://art-mine.com/guest-post-guidelines/",
+        "status": "real domain but guidelines page content unconfirmed — not pursued",
+        "notes": "curl返回200,但页面正文抓不到guest-post相关文字,只抓到sales@agora-gallery.com(Agora Gallery商业画廊的销售邮箱),推测该域名现由Agora Gallery持有/转售,原\"guest-post-guidelines\"页面可能已被替换成其他内容或是JS渲染。证据不足以确认这是仍然开放的真实投稿渠道,未起草pitch。"
+      },
+      {
+        "name": "arttextstyle.com — Guest Post Archives",
+        "url": "https://arttextstyle.com/art/guest-post/",
+        "status": "unreachable — connection timeout",
+        "notes": "curl两次尝试(含--max-time 15s后台重试)均返回连接失败(curl code 000),域名可能已下线或DNS异常,未起草pitch。"
+      },
+      {
+        "name": "HealthyWrites.com — Write for Us (cross-relevance check from wagelark search, not topically relevant to umberlore)",
+        "url": "https://www.healthywrites.com/write-for-us/",
+        "status": "not applicable to umberlore — health/fitness niche, no art angle",
+        "notes": "在wagelark调研中发现,健康/健身类站点,与UmberLore(视觉艺术史)主题不匹配,仅记录避免下次重复搜索到时误判为未查过。"
+      }
+    ]
   }
 ]
