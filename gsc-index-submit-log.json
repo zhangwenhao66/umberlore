@@ -350,5 +350,15 @@
       "https://umberlore.com/frida-kahlo-paintings/"
     ],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-03",
+    "action": "submitted",
+    "reason": "今日新发布schiele-neulengbach-trial，URL Inspection确认URL is not on Google，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/schiele-neulengbach-trial/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
