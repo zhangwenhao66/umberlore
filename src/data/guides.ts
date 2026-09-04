@@ -7518,5 +7518,111 @@ export const guides: Guide[] = [
         "url": "https://www.amny.com/news/the-egon-schiele-affair-from-the-girls-point-of-view/"
       }
     ]
+  },
+  {
+    "slug": "jackson-pollock-convergence",
+    "category": "Painting",
+    "title": "Jackson Pollock's Convergence, Sold as a Puzzle",
+    "description": "Critics called its reds an 'unfortunate' clash. Springbok later turned Convergence into the 340-piece jigsaw marketed as the world's hardest puzzle.",
+    "published": "2026-09-04",
+    "updated": "2026-09-04",
+    "coreSummary": "Convergence: Number 10, 1952 is a 93½-by-155-inch oil on canvas that Jackson Pollock began in black and white and reworked with red, yellow, and blue only after deciding the monochrome version had failed, according to the Buffalo AKG Art Museum's account of the painting it has held since 1956. The Sidney Janis Gallery showed the finished canvas in Pollock's November 1952 solo exhibition, and the collector Seymour H. Knox Jr. gave it to what was then the Albright Art Gallery on March 13, 1956, five months before Pollock's death in a car crash that August. In 1964 the game company Springbok Editions turned the same canvas into a 340-piece jigsaw puzzle marketed as the world's most difficult, and it reportedly sold in the hundreds of thousands the following year, a level of popular embrace the painting itself never got from critics: writing in Artforum in 1967, the curator William Rubin judged that its reds have \"an unfortunate tendency to 'pop' optically out of pictorial fabric.\"",
+    "image": "/images/jackson-pollock-passport-1955.jpg",
+    "imageAlt": "Jackson Pollock's passport photograph, taken July 21, 1955, roughly three years after he painted Convergence and about a year before his death.",
+    "imageCredit": "[Jackson Pollock's passport (cropped)](https://commons.wikimedia.org/wiki/File:Jackson_Pollock%27s_passport_(cropped_2).jpg), Smithsonian Institution, public domain",
+    "sections": [
+      {
+        "heading": "A black-and-white painting he wasn't happy with",
+        "body": [
+          "The Buffalo AKG Art Museum's catalogue entry for Convergence: Number 10, 1952 describes Pollock's drip technique in his own words, from a statement he made about laying canvas on the studio floor: \"this way I can walk around it, work from the four sides and literally be in the painting.\" The same page adds a detail specific to this canvas: \"Searching for something to follow his drip paintings, Pollock began working in black and white, which is the way Convergence: Number 10, 1952 began...Not happy with the result, he added color as a way to salvage the work.\" A small match is embedded in the paint near the center of the canvas, left there from whatever was on the studio floor the day he was working.",
+          "The art historian Jordan Kantor examined the layering more closely in a March 2016 Artforum essay, describing the finished canvas as having \"two formally distinct registers\": a first layer that is \"a typical black pouring\" with \"an explicitly figurative (though overworked) image,\" then submerged beneath \"a marbled network of dripped pools of colored paint, as if to overlay a painting from 1949 on top of one from 1951.\" Kantor's reading is that the two layers actively resist each other, \"like oil and water,\" refusing to blend, and that the top layer's palette, three primary colors plus black and white, looks \"artificial and disjunctive\" next to both the \"autumnal\" tones of his 1950 abstractions and the austere blacks he'd been using more recently.",
+          "That black underlayer is why Convergence doesn't sit neatly inside the run of paintings, Autumn Rhythm, One: Number 31, and Lavender Mist, all from 1950, that most people picture when they think of classic Pollock. Those three came before a real interruption: in 1951 he set the all-over color technique aside for [what his biographers call the Black Pourings](/jackson-pollock/), black enamel worked into raw, unprimed canvas, shown to little commercial success at the Betty Parsons Gallery. Convergence, painted the following year, isn't a return to 1950's method so much as an attempt to weld that abandoned black phase back onto full color."
+        ]
+      },
+      {
+        "heading": "Critics split in 1952, and they still don't agree",
+        "body": [
+          "The museum's framing of the contemporary response is blunt: \"In 1952, critics debated whether or not he had succeeded.\" That debate never fully resolved. Writing fifteen years later in a multi-part Artforum essay on Pollock, the curator William Rubin placed Convergence among the small number of paintings where he thought the artist's late push toward brighter color went wrong: \"The reds of Convergence (1952) for example, have an unfortunate tendency to 'pop' optically out of pictorial fabric.\" Rubin was comparing it unfavorably to Number 12, 1952, a canvas from the same year and the same Sidney Janis Gallery show that he thought handled bright color better, before that painting was later damaged in a fire unrelated to Convergence.",
+          "Kantor's 2016 reassessment reads the same canvas as deliberate rather than botched. He calls Convergence \"far from a nostalgic reprise,\" arguing that Pollock's return to his own earlier idioms \"fiercely detourned\" them, and that the painting stages \"an image of the present occupied by a past that, although pervasive, can never be integrated or assimilated.\" When the Dallas Museum of Art hung Convergence as the centerpiece of the 2015 traveling survey Jackson Pollock: Blind Spots, the critic Phyllis Tuchman wrote in ARTnews that the surrounding black paintings in the show were hard to focus on next to it: \"It's difficult to concentrate on most of these because they are overwhelmed by Convergence... its surface is a cavalcade of colors.\"",
+          "A separate, more political reading has circulated around the painting: that its energetic, individualist brushwork embodied a kind of Cold War-era \"freedom of speech,\" a framing tied to the broader, genuinely documented argument that Abstract Expressionism benefited from informal Cold War cultural promotion. The art historian Yve-Alain Bois has pushed back on applying that kind of reading to Pollock's actual working method, on the grounds that it \"fails to account for how Pollock allowed the forces of gravity and fluidity to direct the pooling and mixing of the paint\" rather than compose it as a deliberate statement. Neither position has settled the argument; Convergence has been read as a technical stumble, a self-aware late masterwork, and a political allegory, sometimes by the same institution in different decades."
+        ]
+      },
+      {
+        "heading": "How a Buffalo collector ended up owning it",
+        "body": [
+          "Convergence left the studio for the Sidney Janis Gallery, which gave Pollock his November 1952 solo show, one of three the dealer staged for him. From there the museum's own provenance record is exact: the gallery sold the canvas to what was then called the Albright Art Gallery on March 13, 1956, as a gift of Seymour H. Knox Jr., a Buffalo collector and heir to the F.W. Woolworth five-and-dime fortune who worked closely with the museum's director, Gordon M. Smith, on regular scouting trips to New York galleries through the 1950s and into the early 1970s. The gift closed five months before Pollock died in the August 11, 1956 car crash [that ended his life at 44](/jackson-pollock/). The museum still catalogues the painting under that original accession number, K1956:7, and it has been renamed twice since, from Albright Art Gallery to Albright-Knox Art Gallery, honoring Knox, and again in 2023 to the Buffalo AKG Art Museum.",
+          "The canvas has kept moving through exhibitions since arriving in Buffalo, not sitting in storage: the museum's exhibition history lists it in shows running from Contemporary Art: Acquisitions 1954–1957 in 1957 through Action/Abstraction: Pollock, de Kooning, and American Art, 1940–1976 in 2009, and it traveled to the Dallas Museum of Art for the 2015–2016 Blind Spots survey discussed above. Nothing turned up in researching this piece to suggest any authentication question about Convergence; its ownership record runs unbroken from the November 1952 Janis show to the 1956 gift to the present day, without the kind of provenance gap that has clouded other paintings attributed to Pollock over the years."
+        ],
+        "image": {
+          "src": "/images/buffalo-akg-art-museum-exterior.jpg",
+          "alt": "The Buffalo AKG Art Museum, formerly the Albright-Knox Art Gallery, which has held Convergence since Seymour H. Knox Jr.'s gift on March 13, 1956.",
+          "credit": "[Albright-Knox Art Gallery](https://commons.wikimedia.org/wiki/File:20190611_-_22_-_Albright-Knox_Art_Gallery.jpg), Andre Carrotflower, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+        }
+      },
+      {
+        "heading": "The world's most difficult puzzle",
+        "body": [
+          "In 1964, twelve years after the painting was finished and eight years after it entered the Buffalo collection, the game company Springbok Editions released a 340-piece jigsaw version of Convergence, marketed with the tagline \"the world's most difficult puzzle.\" The claim wasn't just advertising bluster that fizzled: by 1965 it had become a genuine sales phenomenon, with accounts putting the number of Americans who bought it in the hundreds of thousands, a figure repeated closely enough across independent write-ups of the puzzle's history that it appears to trace back to the same original reporting rather than several separate counts.",
+          "The reason it earned the tagline is the same reason Rubin found the painting hard to resolve as a critic: an all-over drip composition has no sky, no horizon, no obvious figure, and no corner of canvas that reads differently from any other, which strips away almost every visual anchor a puzzle solver normally relies on to sort pieces by what they belong to. Springbok's puzzle later got harder on purpose. The fine-art puzzle publisher Pomegranate reissued Convergence at 1,000 pieces, sold today with marketing that says the larger piece count \"nearly triples the challenge\" of the original. Both versions are still sold new, decades later, through museum shops including the Seattle Art Museum, Crystal Bridges, and the MOCA Store, alongside Springbok's current catalogue, a commercial afterlife most museum-owned paintings never get.",
+          "There's something almost funny about the timing. By the time one of the most respected Pollock scholars of his generation flagged the painting's colors in print, in 1967, as \"popping\" the wrong way, Springbok's puzzle had already been on shelves for three years, sought out by hundreds of thousands of ordinary buyers specifically because it was so hard to finish."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where is Jackson Pollock's Convergence located today?",
+        "answer": "Buffalo, New York. The institution went by a different, older name in March 1956 when Buffalo collector Seymour Knox donated the canvas, and has changed names again since, but its current incarnation, Buffalo AKG, still catalogues Convergence under the 1956 accession number it received on arrival."
+      },
+      {
+        "question": "How big is Convergence, and is it one of Pollock's largest paintings?",
+        "answer": "Yes. The canvas measures 93½ by 155 inches (237.5 by 393.7 cm), oil on canvas. William Rubin, the MoMA curator who profiled Pollock at length in a multi-part 1967 Artforum essay, put it in a small group of paintings from Pollock's mature period large enough to qualify as wall-size, alongside One, Number Thirty Two, Autumn Rhythm, Lavender Mist, and Blue Poles."
+      },
+      {
+        "question": "Is Convergence part of Pollock's famous 1950 drip paintings?",
+        "answer": "No, even though the two groups get shown together often enough that people assume it is. The best-known drip canvases date to 1950; Convergence came two years later, after an entire year, 1951, when Pollock had set color aside for black enamel on raw canvas (his Black Pourings). Jordan Kantor's scholarship treats Convergence as a deliberate, self-aware revisiting of that earlier monochrome detour, not a simple continuation of what came before it."
+      },
+      {
+        "question": "Why was Convergence turned into a jigsaw puzzle?",
+        "answer": "Springbok Editions, a game company, cut a 340-piece version in 1964 and billed it as the toughest jigsaw on the market: Pollock's all-over pouring method left no single recognizable shape anywhere on the surface for a solver to use as a reference point. Reported sales ran to six figures within a year of release. Pomegranate later put out a tougher, 1,000-piece edition, and museum gift shops still carry both."
+      },
+      {
+        "question": "Did Jackson Pollock name the painting Convergence himself?",
+        "answer": "That specific detail isn't confirmed in any source consulted for this article. By the late 1940s Pollock had mostly moved to numbering his paintings rather than titling them; his wife, Lee Krasner, said the plain numbers were meant to keep viewers focused on \"pure painting.\" Evocative titles were sometimes added afterward by others, most famously when the critic Clement Greenberg supplied the name \"Lavender Mist\" for Number 1, 1950, so it isn't settled whether Pollock, Krasner, Janis, or someone else chose the word \"Convergence\" for this canvas."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Buffalo AKG Art Museum: Convergence: Number 10, 1952",
+        "url": "https://buffaloakg.org/artworks/k19567-convergence"
+      },
+      {
+        "label": "Jordan Kantor, \"First Among Sequels: Jackson Pollock's Late Work,\" Artforum, March 2016",
+        "url": "https://www.artforum.com/features/first-among-sequels-jackson-pollocks-late-work-228009/"
+      },
+      {
+        "label": "William Rubin, \"Jackson Pollock and the Modern Tradition, Part I,\" Artforum, February 1967",
+        "url": "https://www.artforum.com/features/jackson-pollock-and-the-modern-tradition-part-i-215312/"
+      },
+      {
+        "label": "William Rubin, \"Jackson Pollock and the Modern Tradition, Part II,\" Artforum, March 1967",
+        "url": "https://www.artforum.com/features/jackson-pollock-and-the-modern-tradition-part-ii-214929/"
+      },
+      {
+        "label": "Phyllis Tuchman, \"Lifting the Veil in 'Jackson Pollock: Blind Spots,'\" ARTnews, December 1, 2015",
+        "url": "https://www.artnews.com/art-news/reviews/lifting-the-veil-in-jackson-pollock-blind-spots-the-dallas-museum-of-art-champions-the-masters-black-paintings-5431/"
+      },
+      {
+        "label": "Wikipedia: Convergence (Pollock)",
+        "url": "https://en.wikipedia.org/wiki/Convergence_(Pollock)"
+      },
+      {
+        "label": "Springbok Puzzles: Jackson Pollock's Convergence",
+        "url": "https://www.springbok-puzzles.com/Jackson-Pollock-s-Convergence-p/33-10353a.htm/"
+      },
+      {
+        "label": "Tate: Jackson Pollock Blind Spots",
+        "url": "https://www.tate.org.uk/whats-on/tate-liverpool/jackson-pollock-blind-spots"
+      }
+    ]
   }
 ];
