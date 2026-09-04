@@ -360,5 +360,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-04",
+    "action": "submitted",
+    "reason": "今日新发布Jackson Pollock's Convergence, Sold as a Puzzle(slug: jackson-pollock-convergence)，URL Inspection确认URL is not on Google，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/jackson-pollock-convergence/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
