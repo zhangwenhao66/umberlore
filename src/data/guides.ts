@@ -7624,5 +7624,108 @@ export const guides: Guide[] = [
         "url": "https://www.tate.org.uk/whats-on/tate-liverpool/jackson-pollock-blind-spots"
       }
     ]
+  },
+  {
+    "slug": "the-milkmaid-vermeer",
+    "category": "Painting",
+    "title": "Vermeer's Milkmaid: What the X-Rays Keep Finding",
+    "description": "Vermeer's Milkmaid outsold every painting but one in 1696. In 2022, Rijksmuseum scans found he'd painted over a jug holder and a fire basket, and sketched in a hurry.",
+    "published": "2026-09-06",
+    "updated": "2026-09-06",
+    "coreSummary": "Vermeer's The Milkmaid, held today at the Rijksmuseum (object SK-A-2344), fetched 175 guilders at the 1696 estate sale of his patron's heirs, the second-highest price of any Vermeer in that auction after View of Delft's 200 guilders. It passed through at least five Amsterdam collections before the Six family held it from 1822 until selling it to the Rijksmuseum in 1908, amid public concern the painting would leave the Netherlands. In September 2022, ahead of a Vermeer retrospective, conservators using Macro-XRF and reflectance-imaging technology developed for the restoration of Rembrandt's The Night Watch found that Vermeer had painted out a wooden jug holder and a woven fire basket, both matched to items in his estate inventory, on top of an earlier, hastily sketched underpainting beneath the milkmaid's arm. As the Rijksmuseum put it in announcing the find, the long-held assumption that Vermeer always worked slowly and with total precision \"is now being revised.\"",
+    "image": "/images/the-milkmaid-vermeer.jpg",
+    "imageAlt": "The Milkmaid by Johannes Vermeer, showing a maid in a plain kitchen pouring milk from a jug into a bowl on a table set with bread.",
+    "imageCredit": "[Het melkmeisje (The Milkmaid)](https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg), Johannes Vermeer, Rijksmuseum (object SK-A-2344), public domain",
+    "sections": [
+      {
+        "heading": "Second-highest price in its own estate sale",
+        "body": [
+          "Vermeer signed almost nothing about his working dates, and The Milkmaid carries no date at all. The physical object is small and specific even if its date is not: oil on canvas, 45.5 by 41 centimeters, catalogued at the Rijksmuseum as SK-A-2344. The absent date has left a real spread among the scholars who have tried to pin one down. Albert Blankert's 1975 catalogue places it at 1660-61. Arthur Wheelock Jr. puts it at roughly 1658-60. Walter Liedtke's 2008 catalogue raisonne argues for 1657-58. Wayne Franits, writing in 2015, lands on 1658-59. The Rijksmuseum's current object record for the painting gives a fifth estimate, \"c. 1660,\" which does not match the \"1657-58\" its press office used in a 2022 release about the same picture. None of these is wrong exactly; they are four or five specialists reading the same undated canvas against the wider arc of Vermeer's undated career and landing in slightly different places. Vermeer's other most-recognized single-figure painting has an easier anchor: he was 35, the same age recorded for him in [a wider dataset of 64 canonical paintings' creation ages](/artist-peak-creation-age/), when he made it. A dating gap of a few years is a mild version of what unresolved 17th-century scholarship can look like; [Caravaggio's The Calling of Saint Matthew carries a sharper dispute among named art historians over which man in the scene is actually Matthew](/baroque-paintings/), argued in print as recently as 2025-26.",
+          "What is on the record is what the painting was worth within a generation of being painted. It was probably bought directly from Vermeer by his Delft patron, Pieter van Ruijven, who owned twenty-one of the artist's works by the time he died in 1674. Ownership passed to Ruijven's widow, Maria de Knuijt, likely then to their daughter Magdalena, and definitely to Magdalena's husband, Jacob Dissius, whose own estate put the painting up for sale in Amsterdam in 1696. The sale catalogue described it as \"exceptionally good.\" It brought 175 guilders, the second-highest price paid for any Vermeer in that auction, beaten only by the 200 guilders paid for View of Delft."
+        ]
+      },
+      {
+        "heading": "A Six family heirloom that took a public fight to sell",
+        "body": [
+          "The painting resurfaced at another Amsterdam auction in 1719, catalogued as \"the famous milkmaid, by Vermeer of Delft, artful,\" then moved through at least five more Amsterdam collections before landing with Lucretia Johanna van Winter, a collector the Metropolitan Museum has called one of the era's great assemblers of Dutch art. In 1822 she married into the Six family, a line of collectors that had already been buying Dutch masters for generations, and The Milkmaid stayed inside that family for the next eighty-six years.",
+          "It left the Six collection in 1908, when Lucretia's two sons' heirs sold thirty-nine works, The Milkmaid among them, to the Rijksmuseum. The sale happened against a backdrop of public alarm: American collectors were actively buying up Dutch and Flemish old masters at the time, and museum director Abraham Bredius was convinced the financier J. Pierpont Morgan had his eye on this particular painting. Victor de Stuers, a member of the Dutch parliament known for pushing heritage-protection measures, argued publicly for keeping the picture in the country whatever it cost, and after a running dispute played out in the press, a parliamentary majority sided with him and backed the purchase. Morgan never got the painting, and it never left the Netherlands. Secondary sources disagree on exactly what the museum paid for The Milkmaid on its own, as opposed to the Six collection as a whole, with figures ranging from roughly 170,000 to 400,000 guilders depending on the account. What isn't in dispute: the picture was purchased in 1908, as part of the Six family sale, with state and Rembrandt Society support, to keep it from being sold abroad."
+        ],
+        "image": {
+          "src": "/images/petronella-oortman-dollhouse.jpg",
+          "alt": "The dolls' house of Petronella Oortman, Amsterdam, c. 1686-1710, at the Rijksmuseum, whose miniature jug holder helped conservators identify a hidden object beneath the paint of The Milkmaid.",
+          "credit": "[Dolls' house of Petronella Oortman](https://commons.wikimedia.org/wiki/File:Dolls%E2%80%99_house_of_Petronella_Oortman.jpg), anonymous, c. 1686-1710, Rijksmuseum, public domain"
+        }
+      },
+      {
+        "heading": "What two separate rounds of scanning found",
+        "body": [
+          "Long before the Rijksmuseum's 2022 announcement, conservators already knew Vermeer had painted over two things in this picture. Infrared imaging had found a large wall map sketched behind the upper part of the maid's body, an object that would not have looked out of place in the actual room: large maps were a common, inexpensive way to decorate a bare wall in a 17th-century Dutch household, cheaper than a painting. X-ray separately turned up a large clothes basket, what the collection description calls a \"sewing basket,\" behind her red skirt, visible today only as a faint tonal shift, a pentimento, in the wall near the foot warmer. Both were established findings, discussed in Vermeer scholarship well before the 2022 discoveries that made international headlines.",
+          "In September 2022, ahead of a Vermeer retrospective at the museum, a research team scanned the painting again, this time with Macro-XRF and reflectance imaging spectroscopy (RIS), the same technologies developed during Operation Night Watch, the multi-year project restoring Rembrandt's painting one floor away. The new scans found two objects the earlier imaging had missed. On the wall behind the maid's head, black-paint sketch lines outline a wooden jug holder built to hang ceramic jugs by their handles, a fixture the research connects both to an item recorded in Vermeer's estate inventory and to a miniature version built into the dolls' house of Petronella Oortman, held in the same museum, a real luxury object from the same decades valued at the time at roughly what an actual house on an Amsterdam canal cost. In the lower right, the scans confirmed a woven willow \"fire basket,\" also documented in that same estate inventory as a household item used to hold warm coals for drying laundry and warming infants, later buried under the painted foot stove, the Delft tiles, and the floor.",
+          "The more striking find sits underneath both of those. The same 2022 scans revealed an earlier underpainting: a thick, hastily applied black line sketched beneath the milkmaid's arm, blocking in the whole scene in broad light and dark before any detail went in. The press statement announcing the discovery is direct about what it revises: \"the general assumption was that the artist produced his small oeuvre very slowly, and always worked with extreme precision. This view is now being revised.\" That conclusion about the painting came from a scan the museum ran on purpose to prepare for an exhibition, not a reinterpretation applied from outside."
+        ]
+      },
+      {
+        "heading": "Chore or come-on? A reading that scholars still split on",
+        "body": [
+          "Dutch genre painting of Vermeer's generation had an established visual vocabulary for maids that ran toward the suggestive. Painters including Gerrit Dou, Joachim Beuckelaer, and Pieter Aertsen had spent decades painting kitchen and market maids alongside symbols period viewers would have read as sexual: wide-mouthed jugs, dangling birds, foot warmers slipped under a skirt. Met curator Walter Liedtke reads The Milkmaid inside that tradition, pointing to the Delft wall tile depicting Cupid near the foot warmer as a deliberate amorous cue. Art historian Serena Cant extends the same reading to the foot warmer itself, arguing it functioned in period painting as a recognized symbol for a woman's suppressed desire.",
+          "Other writers on the same painting read it the opposite way. The Essential Vermeer catalogue frames the maid's \"measured demeanor, modest dress and judiciousness\" as an expression of the era's domestic-virtue ideal, dignifying ordinary kitchen labor rather than eroticizing it. Forbes critic Raquel Laneri put it directly: \"it is not the allusions to female sexuality that give this painting its romance or emotional resonance — it is the depiction of honest, hard work as something romantic in and of itself.\" Both readings work from the same tile, the same foot warmer, the same jug. Neither side has produced a document from Vermeer or his patron settling which one he meant, and the painting has been read both ways in print for decades without a resolution in sight. Vermeer's other most-discussed single figure carries a related kind of open question rather than an answer: [the Mauritshuis says plainly that Girl with a Pearl Earring is not a portrait at all, but a tronie, a study of an imagined face with no sitter behind it](/famous-paintings/)."
+        ]
+      },
+      {
+        "heading": "Did he trace this with a lens, or measure it by hand?",
+        "body": [
+          "A separate, more technical argument surrounds how Vermeer built the picture's illusion of depth in the first place. Objects at different distances from the viewer, the near table setting against the far wall, sit at slightly inconsistent scales, and Serena Cant has pointed to that discrepancy as possible evidence that Vermeer projected the scene through a camera obscura and painted over the projection rather than working from measured perspective alone.",
+          "Walter Liedtke, who curated the European paintings department at the Metropolitan Museum of Art and organized two separate Vermeer exhibitions there, pushed back on that reading using a piece of physical evidence in the canvas itself: a small pinhole, later found at the vanishing point of the composition. In his account, the pinhole undercuts the optical-device theory rather than supporting it, since a camera obscura projection lasts only as long as the light holds, roughly ten seconds by his estimate, while the painting itself took months to complete. Liedtke's alternative is more mundane: a pin driven into the canvas at the vanishing point, with a chalked string tied to it and snapped against the surface to lay out straight perspective lines by hand, a standard studio technique that needed no lens at all."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "When did Vermeer paint The Milkmaid?",
+        "answer": "No one can say for certain, since the canvas is unsigned and undated. Specialists writing decades apart have proposed different windows within the late 1650s to early 1660s, and even the Rijksmuseum's paperwork isn't internally consistent: a 2022 press release from the museum dated the picture to 1657-58, while its current online object listing instead gives \"c. 1660.\" Treat any single year quoted elsewhere as one scholar's estimate rather than a settled fact."
+      },
+      {
+        "question": "How much did The Milkmaid sell for in 1696?",
+        "answer": "175 guilders, at the Amsterdam sale of the estate of Jacob Dissius, son-in-law of Vermeer's Delft patron Pieter van Ruijven. Among the Vermeer paintings sold off in that single auction, that price ranked second; only View of Delft went for more, at 200 guilders. Sale descriptions from that era rarely bothered with praise at all, which makes the auction catalogue's positive words about this picture stand out."
+      },
+      {
+        "question": "What did the Rijksmuseum's 2022 scans find inside The Milkmaid?",
+        "answer": "Two objects Vermeer had sketched in and then covered over: a wooden holder built for hanging jugs, and a woven basket used to hold warming coals, both matching furnishings listed in his household estate at his death. Underneath those, the scans also picked up a rough, fast underlayer near the maid's raised forearm, suggesting Vermeer blocked in the whole composition quickly rather than building it up with the slow precision usually credited to him. The imaging equipment behind all three findings had first been built for a separate project, restoring a Rembrandt painting in the same building."
+      },
+      {
+        "question": "Where is The Milkmaid held today, and how did it get there?",
+        "answer": "In Amsterdam, inside the Rijksmuseum, catalogued as SK-A-2344 since 1908. Getting there took more than two centuries: a sale out of the original patron's family holdings in 1696, another public sale in 1719, five or more further changes of private ownership, and then eighty-six years inside one family, the Six collectors, starting in 1822. The purchase, bundled with thirty-eight other works from that family's holdings, came together only after lawmakers and a private arts society stepped in to keep the picture from leaving the country."
+      },
+      {
+        "question": "Is The Milkmaid about honest work or about sexual desire?",
+        "answer": "Published opinion splits on exactly this question, and neither camp has won. One line of interpretation, associated with a Met curator and an independent art historian, points to period-specific symbols on the canvas, a Cupid tile, a foot warmer, that Dutch viewers of the 1650s would likely have read as suggestive. A rival reading treats the same maid's plain dress and steady focus as a study in domestic virtue, presenting her housework as admirable rather than undercutting it with innuendo. Both interpretations are argued from the same handful of details, which is exactly why the debate has not resolved."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Rijksmuseum: press release, \"Rijksmuseum reveals major discoveries on Vermeer's painting The Milkmaid\" (8 September 2022)",
+        "url": "https://www.rijksmuseum.nl/en/press/press-releases/rijksmuseum-reveals-major-discoveries-on-vermeer-s-painting-the-milkmaid"
+      },
+      {
+        "label": "Rijksmuseum: collection object record, The Milkmaid (SK-A-2344)",
+        "url": "https://www.rijksmuseum.nl/en/collection/object/The-Milkmaid--42dd0e658c2979aec8e144d2357c55c0"
+      },
+      {
+        "label": "Rijksmuseum: collection object record, Dolls' House of Petronella Oortman",
+        "url": "https://www.rijksmuseum.nl/en/collection/object/Dolls-House-of-Petronella-Oortman--25ea0168749cf51a8c7c5a819ab0a1b1"
+      },
+      {
+        "label": "Wikipedia: The Milkmaid (Vermeer)",
+        "url": "https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)"
+      },
+      {
+        "label": "Essential Vermeer: catalogue entry, The Milkmaid",
+        "url": "https://www.essentialvermeer.com/catalogue/milkmaid.html"
+      },
+      {
+        "label": "The Art Newspaper: \"Investigation of Vermeer painting reveals 'startling discoveries' about his technique\" (8 September 2022)",
+        "url": "https://www.theartnewspaper.com/2022/09/08/investigation-of-vermeer-painting-reveals-startling-discoveries-about-his-technique"
+      }
+    ]
   }
 ];

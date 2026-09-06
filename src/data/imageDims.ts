@@ -87,6 +87,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 460,
   "w": 640
  },
+ "/images/buffalo-akg-art-museum-exterior.jpg": {
+  "h": 1200,
+  "w": 1600
+ },
  "/images/caravaggio-calling-of-saint-matthew.jpg": {
   "h": 1496,
   "w": 1600
@@ -283,6 +287,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 845,
   "w": 1145
  },
+ "/images/jackson-pollock-passport-1955.jpg": {
+  "h": 613,
+  "w": 527
+ },
  "/images/jackson-pollock-studio-floor.jpg": {
   "h": 1200,
   "w": 1600
@@ -415,6 +423,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 472,
   "w": 736
  },
+ "/images/petronella-oortman-dollhouse.jpg": {
+  "h": 1088,
+  "w": 1200
+ },
  "/images/pop-art-timeline-diagram.svg": {
   "h": 560,
   "w": 1200
@@ -483,6 +495,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1600,
   "w": 768
  },
+ "/images/schiele-door-into-open-1912.jpg": {
+  "h": 1600,
+  "w": 1031
+ },
+ "/images/schiele-not-punished-purified-1912.jpg": {
+  "h": 1600,
+  "w": 1030
+ },
+ "/images/schiele-orange-only-light-1912.jpg": {
+  "h": 1031,
+  "w": 1600
+ },
  "/images/st-peters-basilica-bernini-baldachin.jpg": {
   "h": 1200,
   "w": 899
@@ -498,6 +522,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/starry-night-turbulence-cascade-diagram.svg": {
   "h": 640,
   "w": 1200
+ },
+ "/images/the-milkmaid-vermeer.jpg": {
+  "h": 1600,
+  "w": 1427
  },
  "/images/van-gogh-bedroom-arles-1888.jpg": {
   "h": 900,
