@@ -7727,5 +7727,134 @@ export const guides: Guide[] = [
         "url": "https://www.theartnewspaper.com/2022/09/08/investigation-of-vermeer-painting-reveals-startling-discoveries-about-his-technique"
       }
     ]
+  },
+  {
+    "slug": "byzantine-mosaics",
+    "category": "Decorative Arts",
+    "title": "Why the Best Byzantine Mosaics Survive in Italy",
+    "description": "Hagia Sophia's original gold mosaics were destroyed in the Iconoclasm. The best 6th-century survivors instead sit in a Ravenna church that had already left Byzantine rule.",
+    "published": "2026-09-09",
+    "updated": "2026-09-09",
+    "coreSummary": "Justinian's Hagia Sophia opened in 537 encrusted floor-to-dome in gold mosaic, and none of that original decoration survives: Byzantine authorities spent much of the 8th and 9th centuries stripping figural images from churches empire-wide, and the oldest mosaic standing in Hagia Sophia today, the apse Virgin and Child, is first documented in a sermon Patriarch Photius delivered from the ambo of Hagia Sophia itself on 29 March 867, over three centuries after the building opened. The best-preserved sixth-century Byzantine mosaics anywhere instead survive in Ravenna, Italy, inside the Basilica of San Vitale, completed in 547 for a recorded 26,000 solidi. Ravenna's Byzantine government collapsed to the Lombards in 751, six decades before the empire's harsher Second Iconoclasm (815-843) even began, and San Vitale's mosaics were already two centuries old by then. A 1934 study in the American Journal of Archaeology by Emerson Swift explains the shimmer that made this gold-ground style famous: mosaicists set each tessera \"not... normal to the surface of the plaster but inclined outward and downward, in order to catch the light and reflect it with a shimmering, twinkling vibration to the eye of the spectator below.\"",
+    "image": "/images/byzantine-mosaics.jpg",
+    "imageAlt": "The Empress Theodora mosaic in the Basilica of San Vitale, Ravenna, showing Theodora in jeweled robes and a gemmed crown flanked by attendants and clergy, made around 547 AD.",
+    "imageCredit": "[Mosaic of Empress Theodora](https://commons.wikimedia.org/wiki/File:Mosaic_of_empress_Theodora,_Ravenna,_San_Vitale,_547.jpg), workshop of San Vitale, 547 AD, public domain",
+    "sections": [
+      {
+        "heading": "Hagia Sophia's oldest mosaic is three centuries younger than the building",
+        "body": [
+          "When Justinian I's Hagia Sophia was consecrated in 537, its interior was not a bare shell waiting for later decoration. Emerson Swift's 1934 study for the American Journal of Archaeology describes the original scheme plainly: \"Throughout the entire Church of Hagia Sophia at Constantinople the surfaces of all vaults and arches above the level of the marble revetment were encrusted originally with gold mosaic.\" Swift quotes the sixth-century court historian Procopius on the same point, in three words: \"The entire ceiling is covered with real gold.\" On top of that gold ground, the original scheme carried, in Swift's phrase, \"great figure compositions instinct with the awful dignity of a dogmatic and powerful faith,\" a full population of saints, angels, and emperors worked in colored glass tesserae.",
+          "None of that sixth-century figural decoration is on the walls today. The Byzantine Iconoclasm, an imperial campaign against religious images that ran in two waves, roughly 726 to 787 and then, more severely, 815 to 843, targeted exactly this kind of figural church mosaic across the empire. The second wave ended only with the Council of Constantinople, convened by the regent Theodora, whose delegates confirmed the restoration of icons on 11 March 843 and walked in procession to Hagia Sophia itself carrying an icon of the Virgin. Even after that restoration, it took another generation before the church regained a major figural mosaic: the enthroned Virgin and Child that still fills the apse today was unveiled, according to a scholarly study of the mosaics by Ernest Hawkins and Cyril Mango, around 867. The occasion is recorded in a sermon Patriarch Photius delivered from the ambo of the church itself on 29 March 867, in front of Emperors Michael III and Basil I, a text whose surviving manuscripts title it a homily \"delivered from the ambo of the Great Church, on Holy Saturday, in the presence of the Christ-loving Emperor, when the form of the Theotokos had been depicted and uncovered.\" Photius treated the unveiling as a bigger event than a separate diplomatic win he described in the same sermon, calling it proof of the definitive defeat of the Iconoclast position. Whatever Justinian's original mosaic program looked like, no scholar has been able to reconstruct it from surviving material at Hagia Sophia itself; the building's oldest standing figural mosaic dates from over three centuries after its consecration."
+        ]
+      },
+      {
+        "heading": "Ravenna kept its gold because Constantinople lost the city first",
+        "body": [
+          "The best-preserved sixth-century Byzantine mosaics anywhere are not in the empire's capital at all. They are in Ravenna, on Italy's Adriatic coast, inside the Basilica of San Vitale. Construction began in 526 under Bishop Ecclesius, while Ravenna was still under Ostrogothic rule, and Bishop Maximian completed the building in 547, following Justinian's reconquest of Italy. A local banker and architect, Julius Argentarius, financed the project; Wikipedia's account of the building's history puts the final cost at 26,000 solidi. Converting that into a modern weight of gold is not as settled as it looks: Wikipedia's own figure for the sum is 16.38 kilograms, but the standard late Roman solidus weighed about 4.45 grams of gold, which would put 26,000 of them closer to 116 kilograms, roughly seven times more. This account cannot resolve which conversion is right, only flag that the two published numbers for the same 26,000 solidi disagree sharply. What that spending bought is, in Wikipedia's description, \"the largest and best-preserved specimens\" of Byzantine mosaic art \"outside of Istanbul,\" inside what is separately described as the only major church from Justinian's reign to survive virtually intact anywhere.",
+          "San Vitale's completeness is not an accident of luck so much as an accident of politics. Byzantine rule over Ravenna, organized as the Exarchate of Ravenna, collapsed in 751, when the Lombard king Aistulf took the city, pulling it out of Constantinople's direct political reach. That break came six decades before the Second Iconoclasm (815-843), the longer and more thoroughly documented of the two anti-image campaigns, even began. It is not a claim that Ravenna's churches were untouched by the earlier, less severe First Iconoclasm (726-787) while the city was still nominally Byzantine; it is a claim that the city had already left Byzantine administration behind by the time the harsher, later campaign proceeded across Constantinople's core provinces. San Vitale's mosaics, worked in the years right after the building's completion in 547, simply were not in the room when that later campaign happened."
+        ],
+        "image": {
+          "src": "/images/san-vitale-justinian-mosaic.jpg",
+          "alt": "The Emperor Justinian I mosaic in the Basilica of San Vitale, Ravenna, showing Justinian in imperial purple flanked by clergy, courtiers, and soldiers, made around 547 AD.",
+          "credit": "[Mosaic of Emperor Justinian and his retinue](https://commons.wikimedia.org/wiki/File:The_mosaic_of_Emperor_Justinian_and_his_retinue,_Basilica_of_San_Vitale,_Ravenna,_Italy_-_24346194696.jpg), photograph by [Following Hadrian](https://commons.wikimedia.org/wiki/User:Following_Hadrian), CC BY-SA 2.0"
+        }
+      },
+      {
+        "heading": "How mosaicists made cold glass throw off light like fire",
+        "body": [
+          "Byzantine gold tesserae are not solid metal. Swift's 1934 study lays out the manufacturing process still used to explain them: a thin, faintly tinted glass slab was coated with a delicate layer of beaten gold or, on occasion, silver, held in place with an adhesive as simple as gum arabic. Over that gold, workers flowed a second, very thin layer of glass, which protected the metal and, in Swift's account, \"greatly enhanced its brilliance.\" The finished slab was then broken up into small, irregular cubes, each one, in Swift's description, \"measuring less than a quarter of an inch on a side.\" Wikipedia's overview of Byzantine technique adds the groundwork beneath the tesserae: a multi-layer plaster bed, its top coat a fine mix of crushed lime and brick powder, onto which artists sketched their design using strings, compasses, and calipers before setting the individual pieces by hand.",
+          "The shimmer that made this gold ground famous did not come from the gold leaf alone. Swift's close study of the surviving tesserae beds inside Hagia Sophia found that setters angled each gold cube on purpose: the tesserae, he writes, \"were not set normal to the surface of the plaster but inclined outward and downward, in order to catch the light and reflect it with a shimmering, twinkling vibration to the eye of the spectator below.\" That deliberate tilt, repeated across thousands of individual cubes on a curved vault lit only by oil lamps and daylight, is what produced the moving, unstable glitter that medieval writers reached for sun and fire imagery to describe. Not every detail of the technique was settled even by the twentieth century: Swift's 1934 article spends a full page working through, and mostly ruling out, competing theories for a reddish substance found on the back of the gold tesserae, a manufacturing detail that a craft over a thousand years old had still not fully given up to scholarship as late as 1934."
+        ]
+      },
+      {
+        "heading": "Whitewashed, restored, and covered again: Hagia Sophia's modern mosaic history",
+        "body": [
+          "The apse Virgin and Child was far from the last mosaic Hagia Sophia acquired, and far from the last one to be hidden. After the Ottoman conquest of Constantinople in 1453, the building became a mosque, and later Ottoman-era work covered a number of its figural mosaics with whitewash and plaster rather than destroying them outright, leaving the images physically intact but invisible for centuries.",
+          "Their recovery came from an outsider. Thomas Whittemore, an American Byzantinist, founded the Byzantine Institute of America in 1930 and, according to Dumbarton Oaks' account of his career, obtained permission from Mustafa Kemal Ataturk in June 1931, with the American ambassador Joseph Grew helping secure it, to uncover and conserve Hagia Sophia's mosaics. Whittemore's team began the physical restoration work in 1932, a campaign that continued for close to two decades and included the apse Virgin and Child, the imperial-gate mosaic, and the Deesis panel showing Christ flanked by the Virgin and John the Baptist. The building was formally redesignated a museum in 1935, putting the newly uncovered mosaics on permanent public view for the first time since the Ottoman conquest.",
+          "That status did not hold permanently. In 2020, Turkey's Council of State annulled the 1934 decision establishing the museum, and Hagia Sophia was reclassified as an active mosque. Multiple outlets, including Al Jazeera, The Art Newspaper, and Balkan Insight, reported at the time that Turkish authorities planned to cover the building's figural Christian mosaics, among them the images facing the direction of prayer, with curtains or projected light during prayer times, since figural imagery is not traditionally displayed in the sightline of Muslim prayer, while leaving them uncovered and visible to visitors between services. The mosaics that Whittemore's team spent nearly twenty years freeing from Ottoman-era whitewash are, as a result, visible today on a schedule rather than permanently, a second and much more recent chapter in a building whose relationship to its own figural mosaics has now shifted at least three times: covered under the Ottomans, uncovered as a museum, and covered again on a rotating basis as a mosque."
+        ],
+        "image": {
+          "src": "/images/hagia-sophia-deesis-mosaic.jpg",
+          "alt": "The 13th-century Deesis mosaic in Hagia Sophia, Istanbul, showing Christ Pantocrator flanked by the Virgin Mary and John the Baptist in a gesture of intercession.",
+          "credit": "[Deesis mosaic, Hagia Sophia](https://commons.wikimedia.org/wiki/File:Deesis_mosaic_Hagia_Sophia.jpg), photograph by [Myrabella](https://commons.wikimedia.org/wiki/User:Myrabella), public domain"
+        }
+      },
+      {
+        "heading": "The Renaissance built its own origin story by insulting this technique",
+        "body": [
+          "Byzantine mosaic did not simply fall out of fashion once panel painting took over in Western Europe; it was written out of the record on purpose. Giorgio Vasari's 1550 Lives of the Most Excellent Painters, Sculptors, and Architects credits Giotto with a decisive break from what Vasari's Italian text calls the goffa maniera greca, the clumsy Greek manner, a label historians have since applied broadly to the Byzantine-influenced painting that dominated Italian churches before Giotto's generation. Vasari's habit of pinning a whole style's flaws on an outside group was not limited to painting: [he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen](/art-styles/).",
+          "The label stuck in art-historical shorthand even though, by the time Vasari was writing in the 1550s, the tradition he was dismissing had already left a wider mark than his own \"clumsy\" verdict allowed for. Byzantine cloisonne enamel, a related luxury medium built on the same fused-gold logic as mosaic tesserae, had already given Venice's Basilica di San Marco a gold altarpiece, first commissioned in 976 and [carrying more than eighty pieces of Byzantine cloisonne enamel added over the following two centuries](/cloisonne/), the whole ensemble on public display centuries before Vasari ever picked up a pen. Byzantine mosaic conventions had also already traveled directly into medieval European painting rather than staying confined to the empire that produced them: [Romanesque church murals across eleventh- and twelfth-century Europe borrowed the same flat, frontal figures and geometric drapery associated with Byzantine mosaic, filtered through Italy into village churches as far from Constantinople as the Catalan Pyrenees](/romanesque-painting/).",
+          "Some artists went looking for the source material directly. [Gustav Klimt traveled to Ravenna in December 1903 specifically to study the Theodora mosaic inside San Vitale, and the gold-ground paintings of his Golden Phase followed in the years immediately after that trip](/gustav-klimt/). A technique Vasari's generation dismissed as clumsy was, three and a half centuries later, exactly what one of Europe's most celebrated painters crossed the Alps to learn from."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why are Ravenna's Byzantine mosaics better preserved than those in Istanbul?",
+        "answer": "A Lombard conquest in 751 cut Ravenna loose from Byzantine political control, a good six decades ahead of the longer, more damaging round of image-smashing the empire went through between 815 and 843. Ravenna's own San Vitale church, finished back in 547, kept its gold-ground saints and courtiers from that century largely intact as a result, while the sixth-century gold ground Justinian had commissioned for the capital's own cathedral did not make it through the iconoclastic campaigns at all."
+      },
+      {
+        "question": "What is the oldest surviving mosaic inside Hagia Sophia?",
+        "answer": "A large apse mosaic of Mary seated on a throne with the infant Christ, unveiled around 867, roughly 330 years past the church's original 537 consecration. Patriarch Photius marked the occasion with a sermon on 29 March 867, delivered before the two ruling co-emperors of the day. The sixth-century decoration Justinian had originally commissioned, once spread across the vaults and arches throughout the interior, left no known trace behind by that point."
+      },
+      {
+        "question": "How did Byzantine mosaicists make gold tesserae shimmer?",
+        "answer": "Craftsmen sandwiched beaten gold leaf between two layers of glass, then set the resulting cubes into wet plaster leaning away from the wall's own flat surface, angled toward the floor below. Archaeologist Emerson Swift traced that deliberate lean back in 1934, finding it let each cube throw lamplight and daylight back at a slightly different angle from its neighbors on a curved vault, which is why a viewer walking past the same wall would see the gold surface flicker and change rather than sit still."
+      },
+      {
+        "question": "Can visitors see Hagia Sophia's Christian mosaics today?",
+        "answer": "Yes, but only on a rotating schedule. After Hagia Sophia's 2020 switch back to an active mosque, international news coverage, Al Jazeera among the outlets reporting it, described a plan to hide the figural Christian images, particularly those facing worshippers, behind drawn curtains or a light projection for the length of each prayer session, then open them back up to view once the service ends."
+      },
+      {
+        "question": "How much gold did the Basilica of San Vitale cost to build?",
+        "answer": "The recorded price was 26,000 solidi, gold coins Julius Argentarius put up as the project's financier. A kilogram figure for that sum is contested rather than settled: one widely cited source lands on 16.38 kilograms of gold, while multiplying the coin count by the era's typical per-coin weight instead points to something in the neighborhood of 116 kilograms. Bishop Ecclesius broke ground in 526, while the Ostrogoths still held the city; a later bishop, Maximian, finally saw the project finished in the year 547, once Justinian I's forces had retaken Ravenna for Byzantium."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Byzantine mosaics",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_mosaics"
+      },
+      {
+        "label": "Wikipedia: Byzantine Iconoclasm",
+        "url": "https://en.wikipedia.org/wiki/Byzantine_Iconoclasm"
+      },
+      {
+        "label": "Wikipedia: Basilica of San Vitale",
+        "url": "https://en.wikipedia.org/wiki/Basilica_of_San_Vitale"
+      },
+      {
+        "label": "Wikipedia: Hagia Sophia",
+        "url": "https://en.wikipedia.org/wiki/Hagia_Sophia"
+      },
+      {
+        "label": "Wikipedia: Council of Constantinople (843)",
+        "url": "https://en.wikipedia.org/wiki/Council_of_Constantinople_(843)"
+      },
+      {
+        "label": "Emerson H. Swift, \"Byzantine Gold Mosaic,\" American Journal of Archaeology 38 (1934), pp. 81-82",
+        "url": "https://penelope.uchicago.edu/Thayer/E/Journals/AJA/38/1/Byzantine_Gold_Mosaic*.html"
+      },
+      {
+        "label": "Bob Atchison / Ernest Hawkins & Cyril Mango: The Apse Mosaics of St. Sophia at Istanbul",
+        "url": "https://www.pallasweb.com/deesis/virgin-and-child-hagia-sophia.html"
+      },
+      {
+        "label": "Dumbarton Oaks: Who Was Thomas Whittemore?",
+        "url": "https://www.doaks.org/resources/online-exhibits/before-byzantium/who-was-thomas-whittemore"
+      },
+      {
+        "label": "Al Jazeera: \"Turkey to cover Hagia Sophia's Christian icons during prayers\" (14 July 2020)",
+        "url": "https://www.aljazeera.com/news/2020/7/14/turkey-to-cover-hagia-sophias-christian-icons-during-prayers"
+      },
+      {
+        "label": "The Art Newspaper: \"Some of Hagia Sophia's mosaics will be covered during Muslim prayers\" (20 July 2020)",
+        "url": "https://www.theartnewspaper.com/2020/07/20/some-of-hagia-sophias-mosaics-will-be-covered-during-muslim-prayers"
+      },
+      {
+        "label": "Balkan Insight: \"Turkey to Cover Hagia Sophia Mosaics During Prayers\" (20 July 2020)",
+        "url": "https://balkaninsight.com/2020/07/20/turkey-to-cover-hagia-sophia-mosaics-during-prayers/"
+      }
+    ]
   }
 ];

@@ -91,6 +91,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1200,
   "w": 1600
  },
+ "/images/byzantine-mosaics.jpg": {
+  "h": 1662,
+  "w": 980
+ },
  "/images/caravaggio-calling-of-saint-matthew.jpg": {
   "h": 1496,
   "w": 1600
@@ -265,6 +269,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/guggenheim-museum-exterior.jpg": {
   "h": 900,
+  "w": 1600
+ },
+ "/images/hagia-sophia-deesis-mosaic.jpg": {
+  "h": 930,
   "w": 1600
  },
  "/images/head-of-the-ghost-of-a-flea.jpg": {
@@ -486,6 +494,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/san-baudelio-berlanga-interior.jpg": {
   "h": 1600,
   "w": 1200
+ },
+ "/images/san-vitale-justinian-mosaic.jpg": {
+  "h": 1061,
+  "w": 1600
  },
  "/images/saturn-devouring-his-son-goya.jpg": {
   "h": 1600,
