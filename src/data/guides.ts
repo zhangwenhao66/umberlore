@@ -1535,7 +1535,7 @@ export const guides: Guide[] = [
 {
     "slug": "st-peters-basilica",
     "category": "Architecture",
-    "title": "St. Peter's Basilica: The 120-Year Design Fight",
+    "title": "St. Peter's Basilica: 5 Architects, One Fight",
     "description": "Five chief architects took turns reversing each other's plans for St. Peter's Basilica, from Bramante's circle to Maderno's cross, across 120 years of construction.",
     "published": "2026-08-04",
     "updated": "2026-08-19",

@@ -2148,3 +2148,15 @@
   "escalation": null
 }
 ```
+
+## 2026-09-09 CTR标题改写（`site-search-opportunity-refresh`，受控协议第2.9步，本站首次）
+
+**候选筛选**：`title_test.py candidates --site umberlore` 输出2个候选（排名4-15、曝光≥100/28天、CTR低于本站同排名档中位一半）——`/st-peters-basilica/`（pos10.5，525曝光，CTR 0.2% vs同档期望6.1%，比值0.03）与`/frank-lloyd-wright/`（pos13.8，119曝光，CTR 0%，但同档期望本身仅0.1%，缺口不显著）。本次只改前者，遵守"每站每批≤5页"但克制到1页；对照组选取`/fallen-angel-painting/`（pos12.1）、`/michelangelo-sistine-chapel/`（pos26.3）、`/frank-lloyd-wright/`（pos13.8）三页不改。
+
+**诊断**：可见查询明细高度碎片化（多数单条1-2曝光，含"architects of st peter's basilica and their contributions"这类长尾及疑似AI评测式问句），GSC page维度525曝光与query维度可见曝光总和（约30）差距巨大，判定为GSC对稀疏长尾查询的匿名化隐藏、非机器人流量（该主题全球知名度高，长尾分散属正常模式）——按`gsc_query.py`的BOT_RULES检查本站本次输出"识别0条"，交叉一致。查询类型判断为**内容型**（"who designed/architects/plans"涉及跨世纪多位建筑师的复杂事实，非单一事实，AI摘要/知识面板不易一句话说完），故走标题优化而非仅FAQ补强路径。
+
+**改动**：`title`由"St. Peter's Basilica: The 120-Year Design Fight"改为"St. Peter's Basilica: 5 Architects, One Fight"。快照`title_terms_with_impressions`确认"st"/"peter's"/"basilica"三词带曝光，新标题全部保留（R1）；新标题把可见查询里反复出现的"architects"一词镜像进标题（R2，原标题用抽象的"Design Fight"未出现该词）；"5 Architects"数字直接取自description已有且经核实的"Five chief architects took turns reversing each other's plans"（非新增事实，R3）；未改H1结构/正文/description（R7）。`title_lint.py`结果WARN（误报"st"缺失，实际"St."已存在，标题以句点缩写形式出现，判定为分词器误判非真实缺失，保留）。**假设**：把抽象的"Design Fight"换成具体的"architects"关键词，能让"who were the architects of St. Peter's Basilica"一类内容型查询更容易识别页面相关性，预期这批查询CTR比值从当前0.03回升，排名维持10-11档不变。
+
+**验证**：`npm run build` 78页0 error；线上`<title>`/JSON-LD headline均已生效渲染新标题；未动description/正文/H1。
+
+**记录**：快照 `seo-geo-trinity/data/title_tests/umberlore-0909-architects-hook.json`（change_date 2026-09-07，实际改动执行于09-09）。复核：14天初读（约09-23）、28天定去留（约10-07），由`site-search-opportunity-refresh`执行`title_test.py evaluate --label umberlore-0909-architects-hook`。⚠️标题不含年份，年度刷新不涉及此页。
