@@ -7856,5 +7856,117 @@ export const guides: Guide[] = [
         "url": "https://balkaninsight.com/2020/07/20/turkey-to-cover-hagia-sophia-mosaics-during-prayers/"
       }
     ]
+  },
+  {
+    "slug": "joan-of-arc-painting",
+    "category": "Painting",
+    "title": "The Joan of Arc Painting One Critic Called False",
+    "description": "Bastien-Lepage's 1879 Joan of Arc won praise for its heroine's pose, but one critic called its ghostly saints 'false naturalism.' An American bought it for the Met.",
+    "published": "2026-09-09",
+    "updated": "2026-09-09",
+    "coreSummary": "Jules Bastien-Lepage's 1879 Joan of Arc, now at the Metropolitan Museum of Art under accession number 89.21.1, shows the peasant girl in her parents' garden at Domrémy as the transparent, ghostly figures of Saints Michael, Margaret, and Catherine hover before a sunlit wall, calling her to fight. Bastien-Lepage, who had fought and been wounded in the Franco-Prussian War in 1870, traveled to Domrémy itself, not far from his own birthplace of Damvillers in Lorraine, the region France had just partly lost to Prussia, and painted Joan's face and pose from his cousin, Marie-Adèle Robert, who had modeled for him before. At the 1880 Paris Salon, critics praised Joan's expression but split over the saints: Joris-Karl Huysmans dismissed them as \"false naturalism,\" a real blow for a painter France had already crowned leader of its Naturalist school. American businessman Erwin Davis bought the canvas and gave it to the Met in 1889, the same year it was shown at the Paris Exposition Universelle. Painter and diarist Marie Bashkirtseff complained that French critics failed to appreciate a painting she said was properly \"worshipped\" in the United States.",
+    "image": "/images/joan-of-arc-painting.jpg",
+    "imageAlt": "Jules Bastien-Lepage's 1879 painting Joan of Arc, showing the peasant girl in her parents' garden reaching toward the faint, transparent figures of three saints who appear to her among the trees.",
+    "imageCredit": "[Joan of Arc](https://www.metmuseum.org/art/collection/search/435621), Jules Bastien-Lepage, 1879, Metropolitan Museum of Art (89.21.1), public domain",
+    "sections": [
+      {
+        "heading": "A saint from the region France had just lost",
+        "body": [
+          "Jules Bastien-Lepage, trained at the École des Beaux-Arts in Paris under Alexandre Cabanel, finished Joan of Arc in 1879, nine years after he himself fought in the Franco-Prussian War and was wounded, and after France's defeat in that war let Prussia annex the eastern part of Lorraine, the same region where both Bastien-Lepage and, some four centuries earlier, Joan of Arc herself had been born. A national heroine from a region the country had just partly lost gave the Paris art world an obvious reason to look at her again, and Joan became a recurring subject in French art through the 1870s and 1880s.",
+          "The most visible sign of that revival stands outdoors, not inside a gallery. In 1874, five years before Bastien-Lepage's canvas, the French government commissioned sculptor Emmanuel Frémiet's gilded bronze equestrian Joan of Arc for the Place des Pyramides in Paris, the only work the state itself commissioned during an era, 1870 to 1914, when most Parisian public statues were funded by private subscription instead. Frémiet went looking for the same kind of authenticity Bastien-Lepage later sought in paint: his model for Joan's face was Aimée Girod, a young woman who actually came from Domrémy, Joan's home village. Frémiet kept revising the monument for decades afterward, casting a second version for the city of Nancy in 1889 and then, in 1899, swapping the original Paris horse for a copy of the smaller Nancy one, a change that drew its own round of public criticism, a reminder that even a state-commissioned bronze wasn't safe from the same critical scrutiny painters faced at the Salon.",
+          "Bastien-Lepage did not work from imagination or from earlier paintings of Joan either. He traveled to Domrémy himself, on the Meuse, not far from his own birthplace of Damvillers, before he began the canvas. For the central figure, he turned to family rather than a professional model: his cousin, Marie-Adèle Robert, who had already sat for other paintings of his, posed again as the peasant girl caught mid-motion in her parents' garden."
+        ]
+      },
+      {
+        "heading": "The leader of Naturalism, accused of faking it",
+        "body": [
+          "By 1880, Bastien-Lepage was not just another Salon painter; he was, by most contemporary accounts, the recognized leader of France's Naturalist school, the style that had grown out of Realism and, in Émile Zola's backhanded description, amounted to \"impressionism corrected, sweetened and adapted to the taste of the crowd.\" His 1878 Haymaking, now in the Musée d'Orsay, had secured that reputation two years before Joan of Arc's debut at the 1880 Salon, and by 1883 a critic could joke that the whole world painted like Bastien-Lepage rather than the other way around. That reputation rested specifically on his unsentimental, close-observed peasant scenes, plein-air studies of rural labor that had already made him famous with a portrait of his own grandfather working in a garden back in 1873, the same kind of garden setting he would return to for Joan.",
+          "The finished Joan of Arc sets its supernatural moment inside exactly that ordinary rural world: cabbages, wildflowers, a rough wooden fence, and a sunlit stone wall behind it all. Hovering in front of that wall are the barely material, transparent figures of Saints Michael, Margaret, and Catherine, faint enough that the garden's foliage shows through them. Michael's armor is pitched close in tone to the wall behind him, catching the light just enough to register as metal; he raises a sword, and Joan's bare arm lifts in response, continuing the line of the blade into her own gesture.",
+          "That single gesture is what critics single out most when they praise the picture. At the Salon of 1880, reviewers credited Bastien-Lepage's handling of Joan's pose and facial expression with conveying a believable spiritual awakening in an otherwise unremarkable peasant girl. What split opinion was everything around her: the acknowledged leader of French naturalist painting had populated his own naturalist garden with three ghosts. The critic Joris-Karl Huysmans, reviewing the Salon, dismissed the saints outright as \"false naturalism,\" a phrase that stuck to the painting, and to Bastien-Lepage's reputation, for the rest of the century."
+        ]
+      },
+      {
+        "heading": "Critics panned it in Paris; an American bought it",
+        "body": [
+          "The reception reportedly hit Bastien-Lepage hard enough that he left Paris for London not long afterward, abandoning a similarly staged painting of Ophelia that he never returned to finish. The artist and diarist Marie Bashkirtseff, herself a painter exhibiting in the same Salons, wrote in her own diary that she was outraged on Bastien-Lepage's behalf, arguing French critics had failed to give Joan of Arc a fair reading; Bashkirtseff would die of tuberculosis in Paris that same decade, in 1884, at twenty-five, and her diary reached print only after her death, in 1887. She noted, pointedly, that the painting was properly \"worshipped\" once it crossed the Atlantic.",
+          "That trans-Atlantic contrast came with a transaction attached to it. Erwin Davis, an American businessman, bought the canvas, a monumental work at 2.54 by 2.79 meters, from Bastien-Lepage for $4,000, the deal arranged through the painter J. Alden Weir, and lent it to the 1889 Exposition Universelle in Paris before giving it to the Metropolitan Museum of Art that same year, where it remains today under accession number 89.21.1, on view in the museum's European Paintings galleries. Four years after Bastien-Lepage's own Salon scandal, in 1884, [a strikingly similar uproar hit John Singer Sargent's Madame X, whose slipped shoulder strap outraged that year's Salon audience, and which Sargent likewise sold to the same museum, decades later, in 1916](/famous-portraits/): two very different pictures, the same pattern of French condemnation followed eventually by an American museum's acquisition."
+        ]
+      },
+      {
+        "heading": "A different Joan, built from a nude model",
+        "body": [
+          "Bastien-Lepage's was not the only prominent Joan of Arc on view in nineteenth-century Paris. A generation earlier, in 1854, Jean-Auguste-Dominique Ingres completed Joan of Arc at the Coronation of Charles VII, now in the Louvre. The commission traces to 1851, when the state's Director of Fine Arts offered Ingres 20,000 francs for a painting of his choosing; Ingres proposed finishing two pictures he already had underway rather than starting fresh, and Joan was one of them. He had painted her once before, in a wash drawing made in the 1840s as a model for a magazine engraving, in a similar pose but without the surrounding figures. The finished coronation scene went on to its own Exposition Universelle showing, in Paris in 1855, echoing, three and a half decades ahead of time, the same kind of world's-fair display Bastien-Lepage's Joan would later get in 1889.",
+          "The working method could not have been further from Bastien-Lepage's village research trip. Ingres built the coronation scene from nude studio studies of a model, then added the armor and robes afterward, the standard academic sequence of his own training. Ingres built the picture's visual language by merging his teacher Jacques-Louis David's Neoclassicism with the ornate, historically costumed troubadour style then fashionable in French painting, filling the scene with ambient light and the kind of sumptuous, richly colored ceremonial objects a peasant garden in Lorraine never had reason to contain. The finished composition shows Joan at Reims Cathedral, victorious and looking toward heaven, flanked by three pages, a monk named Jean Paquerel, and a servant figure that is, by Ingres's own hand, a self-portrait of the artist standing at the edge of Joan's triumph.",
+          "The two pictures make an unusually clean pair for comparing academic and naturalist habits on the same historical subject a generation apart: one girl built in a Paris studio from an undressed model and dressed afterward in painted armor for a royal coronation, the other built from a real village, a real cousin, and three saints thin enough to see the garden through. [Not every critical put-down aimed at nineteenth-century French painting stuck to a single canvas the way \"false naturalism\" stuck to Bastien-Lepage's Joan; Impressionism, Fauvism, and Cubism all started out as insults a critic threw at an entire group of painters, and those insults became the names the movements still carry](/art-styles/)."
+        ],
+        "image": {
+          "src": "/images/joan-of-arc-ingres-coronation.jpg",
+          "alt": "Jean-Auguste-Dominique Ingres's 1854 painting Joan of Arc at the Coronation of Charles VII, showing Joan in armor at the altar of Reims Cathedral, surrounded by pages, a monk, and a servant figure that is a self-portrait of the artist.",
+          "credit": "[Joan of Arc at the Coronation of Charles VII](https://commons.wikimedia.org/wiki/File:Ingres_coronation_charles_vii.jpg), Jean-Auguste-Dominique Ingres, 1854, Louvre, public domain"
+        }
+      },
+      {
+        "heading": "Still generating new readings, a century and a half later",
+        "body": [
+          "Both paintings have kept resurfacing outside art history departments. Ingres's coronation scene had an unexpected afterlife in popular satire: in 1980, illustrator Michael Leonard redrew Margaret Thatcher's face onto Joan's body for a caricature in The Sunday Times, borrowing the composition's confident upward gaze for a very different kind of political victory. Bastien-Lepage's picture drew a different sort of modern attention in January 2025, when the journal Sleep Health published a short paper by Hailey Talbert and Meir Kryger reading Joan's collapsed, entranced posture in the garden through the lens of modern sleep medicine, an argument published nearly a century and a half after the canvas was finished, in a journal that normally covers clinical sleep disorders, not nineteenth-century French painting. Two French paintings of the same historical figure, made a generation apart by artists who never agreed on how to paint her, are both still drawing readers who were never trained as art historians at all: a political cartoonist looking for a ready-made icon of victory, and, more than four decades later, a pair of sleep researchers looking at a peasant girl's collapsed posture and seeing a clinical case rather than a saint's calling."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Who was the model for Bastien-Lepage's Joan of Arc?",
+        "answer": "A family member sat for it: his cousin Marie-Adèle Robert posed as Joan mid-gesture in her parents' plot of vegetables and flowers, one of several canvases she modeled for him."
+      },
+      {
+        "question": "Where is Bastien-Lepage's Joan of Arc painting today?",
+        "answer": "In New York, logged as object 89.21.1 in a museum built partly on gifts like Erwin Davis's, the businessman who bought the canvas once Salon interest cooled and passed it along a decade later."
+      },
+      {
+        "question": "Why did a critic call the painting \"false naturalism\"?",
+        "answer": "Because reviewer Huysmans felt the three ghostly saints betrayed the plain, documentary approach to peasant life that had built this particular painter's reputation. Most other Salon reviewers had no complaint about Joan herself, only about what hovered behind her."
+      },
+      {
+        "question": "Is Ingres's Joan of Arc the same painting as Bastien-Lepage's?",
+        "answer": "No, a separate work entirely: Ingres finished his coronation scene of Joan in 1854, decades earlier, and it now hangs in the Louvre rather than New York. He built the figure by drawing a bare model in the studio first, not by visiting her home village."
+      },
+      {
+        "question": "Did Bastien-Lepage actually visit Joan of Arc's hometown?",
+        "answer": "Yes, he went to Domrémy in person, close to Damvillers where he himself grew up. A sculptor had made a similar pilgrimage a few years earlier: Emmanuel Frémiet cast a Domrémy native as the face of his 1874 equestrian statue of Joan in Paris."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Joan of Arc (painting)",
+        "url": "https://en.wikipedia.org/wiki/Joan_of_Arc_(painting)"
+      },
+      {
+        "label": "Wikipedia: Jules Bastien-Lepage",
+        "url": "https://en.wikipedia.org/wiki/Jules_Bastien-Lepage"
+      },
+      {
+        "label": "Metropolitan Museum of Art: Joan of Arc, Jules Bastien-Lepage",
+        "url": "https://www.metmuseum.org/art/collection/search/435621"
+      },
+      {
+        "label": "Metropolitan Museum of Art Collection API: object 435621",
+        "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435621"
+      },
+      {
+        "label": "Wikipedia: Joan of Arc at the Coronation of Charles VII",
+        "url": "https://en.wikipedia.org/wiki/Joan_of_Arc_at_the_Coronation_of_Charles_VII"
+      },
+      {
+        "label": "Wikipedia: Jeanne d'Arc (Frémiet)",
+        "url": "https://en.wikipedia.org/wiki/Jeanne_d%27Arc_(Fr%C3%A9miet)"
+      },
+      {
+        "label": "TheCollector: 9 Must-See Representations of Joan of Arc in Art",
+        "url": "https://www.thecollector.com/joan-of-arc-art-representations/"
+      },
+      {
+        "label": "Sleep Health (National Sleep Foundation): \"Narcolepsy in naturalism: Joan of Arc by Jules Bastien-Lepage,\" Talbert & Kryger, 2025",
+        "url": "https://www.sleephealthjournal.org/article/S2352-7218(24)00272-9/fulltext"
+      }
+    ]
   }
 ];
