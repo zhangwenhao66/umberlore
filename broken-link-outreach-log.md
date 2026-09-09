@@ -334,3 +334,33 @@ Pitch 5（2026-08-16，Marian University Library Photography guide，cbalgeman@m
 1. 版画史（Printmaking）、William Blake、肖像画史三个方向本轮首次系统检索均为0命中，主要卡在"本站对应文章都是聚焦极窄的单一考据专题（某一年代争议/某一幅具体画作），而资源页上的死链多是机构主页/当代项目/工具词典"这个结构性错配，不是资源页本身链接质量差。跟`linkable-asset-backlog.md`里持续未落地的"开放版权艺术图库总目录"（2号点子）这类参考型资产才是真正能打开这类资源页机会的路径，延续第16/21/24/28次运行已反复记录的同一结论。
 2. `www.neuegalerie.org/madame-dora`（Madame d'Ora特展页）如果本站未来发布覆盖20世纪肖像摄影或维也纳/巴黎摄影史的文章，可重新评估这条候选（目标页所在的Columbia College Chicago Photo History Portraiture指南本身应该还在维护，值得留意）。
 3. `www.rc.umd.edu`（Romantic Circles）如果本站未来发布聚焦Blake作为诗人/插画家双重身份的综述型文章（而非当前两篇单幅画作窄口径文章），值得重新评估。
+
+---
+
+## 2026-09-09（第十一次运行）— 「外链产能集中规则」本轮命中UmberLore（11-30位曝光550，矩阵内容型站排名第一）
+
+### 第一部分：核实旧pitch
+
+Pitch 8（Westport Library / Art Forgery LibGuide，mkelly@westportlibrary.org，2026-08-24发出，Message ID `1a033fb8dbb043ef`）今天满16天，此前从未验证过，符合"最早未验证"条件（09-02当轮距今仅9天未到窗口，跳过是对的）。
+
+- curl复查 `https://westportlibrary.libguides.com/ArtForgery`：HTTP 200，`magazine.artland.com`死链原样仍在"Learn More Online"板块，全文无"umberlore"字样，判定**`not_replaced`**。
+- `dataforseo_query.py backlinks umberlore.com --limit 100`：未查到westportlibrary.org。
+- `gmail_send.py list --query "from:mkelly@westportlibrary.org"`返回空，对方从未回复。
+- 发出已16天，落在合理跟进窗口内且目标是真实图书馆资源指南，本应满足跟进条件，但**本轮因SES迁移冻结（见下）审慎起见暂停跟进邮件发送**，不标记`followed_up_once`。标记 **`not_replaced`（跟进暂缓）**。
+
+### 第二部分：新断链机会——Sculpture/Non-Western Art方向（本站首次系统检索）
+
+读`src/data/guides.ts`确认Sculpture/Non-Western Art/Data Studies三类目前有7篇文章（`venus-de-milo`/`mandala-art`/`aztec-art`/`mayan-art`/`aboriginal-art`/`sand-painting`/`artist-peak-creation-age`），此前九轮从未系统检索过这几个方向。WebSearch找到8个大学图书馆LibGuides候选（Duke/Clark/UW/Michigan/Brown/Kean/Academy of Art/UIUC，覆盖Non-Western Art主题分页），`broken_link_scan.py`扫描：
+
+**扫描结果**：8个页面成功扫描（合计约344条出站链接），脚本判定DEAD共5条，逐条核实：
+- Duke的`screencast.com/t/3vw6QKv0`（404）——核实为视频教程链接，非叙事内容，跟本站任何一篇Non-Western Art文章都不构成主题对应，排除。
+- Clark的3条`web.a/b.ebscohost.com`深链（DNS解析失败）——均为EBSCO数据库按会话ID生成的检索结果深链（session-specific），非公开可替代的内容资源，跟本站08-28/09-02两轮已排除的"图书馆内部系统/目录/ILL链接"是同一类，排除。
+- Brown的`bbis.advancement.brown.edu/BBPhenix/giving/library`（404）——**与2026-08-21、2026-09-02两轮已排除的同一条Brown校友捐赠系统链接完全相同**（同一URL在不同LibGuides页面上被重复引用），非新机会，排除。
+
+**本轮结论**：0条通过门槛，与09-02轮"24条DEAD全部排除"是同一性质的真实排查结果，非偷懒未查。Sculpture/Non-Western Art方向本轮验证了"图书馆资源页链接腐烂的候选很少是可被单篇窄口径文章替代的内容页"这一跨方向的结构性规律（延续遗留待办第1条的判断）。
+
+### ⛔ 本轮未走独立复核、未发送——SES迁移冻结
+
+处理过程中读到`独立站/邮件发信基础设施迁移_AWS_SES_20260907.md`：截至2026-09-09，14个矩阵域名的Gmail「Send mail as」仍未从Mailjet切到AWS SES，Mailjet已明确不同意继续这种多域名代发模式；`独立站/待Owen处理事项.md`当天已有`trafficsite-directory-media-outreach`任务记录的同名冻结条目。本轮虽无新draft（第二部分0命中），Westport跟进邮件同样因此暂缓，不构成本轮遗漏。
+
+**累计口径**：UmberLore断链置换战术累计已发送3封pitch（含1封跟进）；已验证`not_replaced` 2条（Marian、Westport）、`verified_live_backlink_confirmed` 0条，转化率0/2。
