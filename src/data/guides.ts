@@ -3523,7 +3523,7 @@ export const guides: Guide[] = [
     "title": "Art Styles: The Movement Names That Started as Insults",
     "description": "Impressionism, Fauvism, and Cubism all began as a critic's put-down. Baroque and Gothic carried the insult even longer before scholars made the names official.",
     "published": "2026-08-11",
-    "updated": "2026-08-11",
+    "updated": "2026-09-10",
     "coreSummary": "At least four of art history's most familiar movement names were coined as insults that the painters then kept for themselves. Critic Louis Leroy mocked Monet's Impression, Sunrise in the Paris weekly Le Charivari on 25 April 1874, and the group he was ridiculing formally exhibited as \"Impressionnistes\" by 1877. Critic Louis Vauxcelles compared Matisse's circle to a delicate marble bust surrounded by \"wild beasts\" in Gil Blas on 17 October 1905, coining Fauvism, and dismissed Georges Braque's Salon-rejected landscapes as reduced to \"cubes\" in the same paper on 14 November 1908, coining Cubism, though Braque and Picasso never adopted that label themselves the way the Impressionists and Fauves embraced theirs. Two older names carried the insult for even longer before scholars stripped it out: Baroque, from a Portuguese word for a misshapen pearl, stayed a term of abuse until Heinrich Wölfflin's 1888 book Renaissance und Barock reframed it as a formal style category, and Gothic architecture was condemned as barbarous \"maniera tedesca\" by Giorgio Vasari in 1550 and blamed on the Goths, a people whose last kingdoms in Western Europe had already fallen 400 to 600 years before the style itself was first built at the Basilica of Saint-Denis around 1140.",
     "image": "/images/art-styles-monet-impression-sunrise.jpg",
     "imageAlt": "Claude Monet's 1872 painting Impression, Sunrise, the canvas a hostile 1874 review mocked by name and unintentionally gave Impressionism its label.",
@@ -3556,7 +3556,7 @@ export const guides: Guide[] = [
         "heading": "Cubism: a critic repeating what a rejection had already said",
         "body": [
           "In the summer of 1908, Georges Braque painted a series of landscapes at L'Estaque, on the Mediterranean coast, reducing houses and hillsides to blocky, angular planes with conventional perspective largely abandoned. He submitted six of these canvases to the jury of that year's Salon d'Automne. The jury, which included Matisse among its members, rejected the entire submission; two paintings were reclaimed under a juror's individual prerogative, but Braque withdrew from the Salon altogether rather than exhibit a partial selection.",
-          "Instead, the dealer Daniel-Henry Kahnweiler gave Braque a one-man show at his own Paris gallery, running from 9 to 28 November 1908, with twenty-seven works on view. Vauxcelles, the same critic who had named the Fauves three years earlier, reviewed the show for Gil Blas on 14 November 1908 and wrote that Braque \"reduces everything, places and a figures and houses, to geometric schemas, to cubes.\" Vauxcelles later credited the specific image to Matisse himself, who had described Braque's rejected Salon submission to him as a painting \"made of little cubes.\"",
+          "Instead, the dealer Daniel-Henry Kahnweiler gave Braque a one-man show at his own Paris gallery, running from 9 to 28 November 1908, with twenty-seven works on view. Vauxcelles, the same critic who had named the Fauves three years earlier, reviewed the show for Gil Blas on 14 November 1908 and wrote that Braque \"reduces everything, places and figures and houses, to geometric schemas, to cubes.\" Vauxcelles later credited the specific image to Matisse himself, who had described Braque's rejected Salon submission to him as a painting \"made of little cubes.\"",
           "Cubism followed the same path into print that Impressionism and Fauvism had, an insult from Vauxcelles lifted almost verbatim from a private remark and turned into a headline. But its origin diverges from the other two in one respect: Braque and Picasso, the painters most closely associated with the style that grew out of those L'Estaque landscapes, are not recorded as having embraced \"Cubism\" as their own preferred word for what they were doing, the way the Impressionists and the Fauves had claimed their own insults. The press label caught on regardless, and outlasted the painters' own reluctance to use it."
         ]
       },
@@ -3592,27 +3592,27 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Which art movement names were originally insults?",
-        "answer": "At least six well-known names started as put-downs from critics or rival schools: Impressionism (coined by critic Louis Leroy in 1874), Fauvism (critic Louis Vauxcelles, 1905), Cubism (Vauxcelles again, 1908), Rococo (coined pejoratively in the 1790s), Baroque (used as a term of abuse through much of the eighteenth century), and Gothic (dismissed as barbarous \"maniera tedesca\" by Giorgio Vasari in 1550)."
+        "answer": "At least six well-known names started as put-downs from critics or rival schools: Impressionism (Louis Leroy's coinage, 1874), Fauvism (Louis Vauxcelles, 1905), Cubism (Vauxcelles again, 1908), Rococo (coined pejoratively in the 1790s), Baroque (used as a term of abuse through much of the eighteenth century), and Gothic (Vasari's 1550 book of artist biographies dismissed it in near-identical terms)."
       },
       {
         "question": "Who coined the term Impressionism?",
-        "answer": "The critic Louis Leroy, in a review of the group's first exhibition published in the Paris weekly Le Charivari on 25 April 1874, mocking Claude Monet's painting Impression, Sunrise. The painters themselves formally adopted \"Impressionnistes\" as the title of their third group exhibition in 1877."
+        "answer": "Paris critic Louis Leroy, writing up the group's first exhibition for Le Charivari, ran his mocking piece the same week the show opened in spring 1874, aimed at Claude Monet's Le Havre harbor canvas. By their third group show in 1877, the painters were using that same word themselves as its official title."
       },
       {
         "question": "Why is Cubism called Cubism?",
-        "answer": "Critic Louis Vauxcelles described Georges Braque's 1908 L'Estaque landscapes, which had been rejected by the Salon d'Automne jury and were instead shown at dealer Daniel-Henry Kahnweiler's gallery, as reducing everything to \"cubes\" in a review published in Gil Blas on 14 November 1908. Vauxcelles credited the specific phrase to a remark Henri Matisse had made about the rejected paintings."
+        "answer": "Vauxcelles, who had already coined the Fauves' name, wrote that Braque's 1908 landscapes painted at L'Estaque, rejected by the Salon d'Automne jury and shown instead at dealer Kahnweiler's own gallery, reduced everything to \"cubes,\" in his Gil Blas write-up that same November. Vauxcelles said the exact image came from Henri Matisse, who'd used it in conversation about the rejected paintings."
       },
       {
         "question": "Why is Gothic architecture called Gothic if it has nothing to do with the Goths?",
-        "answer": "Giorgio Vasari blamed medieval architecture on the Goths as an insult in his 1550 Lives of the Artists, but the timeline does not hold up. The Ostrogothic Kingdom in Italy had already fallen by 553 and the Visigothic Kingdom in Spain by 711, both centuries before the style itself is generally traced to the rebuilt choir of the Basilica of Saint-Denis, consecrated in 1144."
+        "answer": "Giorgio Vasari pinned the blame for pointed arches and ribbed vaults on the Goths as an insult in his 1550 Lives of the Artists, but the timeline does not hold up. Byzantine forces ended Ostrogothic rule in Italy in 553, and Muslim conquest ended Visigothic rule in Spain in 711, both events centuries before historians date the style's actual debut to Abbot Suger's rebuilt choir outside Paris, consecrated in 1144."
       },
       {
         "question": "Is Baroque a negative word?",
-        "answer": "It started as one. The word comes from a Portuguese and Spanish term for a misshapen pearl and was used pejoratively against seventeenth-century art and architecture by eighteenth-century critics who preferred classical restraint. Heinrich Wölfflin's 1888 book Renaissance und Barock reframed it as a neutral formal style category, and that is how art historians use it today."
+        "answer": "It started as one. Portuguese and Spanish jewelers used the word for an irregular, misshapen pearl, and critics a century on borrowed that same put-down for seventeenth-century painting and buildings, favoring Neoclassical restraint instead. Credit for turning it into a neutral style category generally goes to Heinrich Wölfflin, a Swiss scholar whose 1888 study of the two periods' contrasting formal logic is how art historians still use the word today."
       },
       {
         "question": "Did the Impressionists choose their own name?",
-        "answer": "Not originally. Critic Louis Leroy meant \"Impressionniste\" as mockery in his 1874 review. The painters had no collective name for themselves at first, but the label was already circulating by their second exhibition in 1876, and they titled their third exhibition, in 1877, the \"Exposition des Impressionnistes\" themselves."
+        "answer": "Not originally. Louis Leroy coined the word as an insult in his 1874 review. None of the artists had picked a name for the group yet, but French newspapers were already using it before the group's following show, and two years on the painters adopted it themselves as the official title of their next exhibition."
       }
     ],
     "sources": [
