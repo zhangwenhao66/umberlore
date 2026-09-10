@@ -109,9 +109,9 @@
         "status": "sent 2026-08-06",
         "notes": "2026-08-04曾判定'no open channel found'，本轮WebSearch+Browser pane找到真实开放渠道并成功核实、起草、复核、发送。详见上方主渠道条目里的更新说明，此处仅作为本轮新渠道清单的记录。Message ID 19fd7279d5954967。",
         "verified_status": {
-          "checked_on": "2026-08-27",
-          "classification": "still_pending",
-          "evidence": "gmail_send.py list --query 'from:information@artcrimeresearch.org' and --query 'from:artcrimeresearch.org' both returned [] (no reply in 21 days). WebSearch (site:art-crime.blogspot.com Klimt restitution) found only pre-existing 2012-2013 posts about the Bloch-Bauer case, nothing matching the pitched restitution-committee-contradiction angle and no umberlore.com mention. dataforseo_query.py backlinks umberlore.com returned exactly one referring domain (stackscope.dev, DR 361, nofollow, first seen 2026-08-25) -- artcrimeresearch.org/art-crime.blogspot.com does not appear. Blog itself confirmed still active in 2026 (recent posts on 2026 postgraduate programmes and a January 2026 theft case) via WebSearch, so this is a live, non-zombie target, not a dead channel. 21 days of silence is short of the 4-week no_response_declined threshold, so classified still_pending rather than declined.",
+          "checked_on": "2026-09-10",
+          "classification": "no_response_declined",
+          "evidence": "2026-09-10 re-check: gmail_send.py list --query 'from:artcrimeresearch.org' returned [] (no reply in 35 days since the original 2026-08-06 send, and 14 days since the 2026-08-27 follow-up nudge). WebSearch (site:art-crime.blogspot.com umberlore) found no matching post. dataforseo_query.py backlinks umberlore.com still returns only the single stackscope.dev referring domain (nofollow) -- art-crime.blogspot.com/artcrimeresearch.org does not appear. 35 days of silence, with the one allotted follow-up already sent and also unanswered, crosses the 4-week no_response_declined threshold. Reclassified from still_pending to no_response_declined; not re-contacted.",
           "followed_up_once": true,
           "follow_up_sent": "2026-08-27, Message ID 1a04347a41e43aa7, one-line check-in referencing the original pitch, not re-argued. No prior follow-up existed in this file before this one."
         }
@@ -224,7 +224,14 @@
         "name": "Sartle (Rogue Art History)",
         "url": "https://www.sartle.com/ ; collaboration contact info@sartle.com",
         "status": "pitch sent 2026-08-20 (Message ID 1a01f3aeec74b6e9)",
-        "notes": "Real, long-running art-history business (not a zombie blog): sells a physical trivia game listed on Barnes & Noble, has museum partnerships, an active site structure (Team/Connect/About Us pages all return HTTP 200), and a documented history of publishing guest posts from outside contributors. info@sartle.com confirmed as a real contact address; the 'email your ideas for collaboration' process comes from WebSearch-surfaced text since the actual about-us/connect pages are JS-rendered React and could not be fully scraped via curl. One honest limitation: blog.sartle.com specifically sits behind a JS/hashcash bot challenge that curl cannot pass, so current posting cadence on the blog subdomain (as opposed to the main site/business, which is clearly active) could not be directly confirmed — noted rather than glossed over. No prior contact (gmail_send.py list --query 'to:info@sartle.com' and --query 'sartle' both returned []). [Top-level orchestrator independent review 2026-08-20: confirmed info@sartle.com is Sartle's own listed collaboration contact, all facts (Barberini pasquinade, Pantheon bronze to cannon+Venice, five architects, 1626 consecration) verified verbatim against st-peters-basilica entry in guides.ts, dedup clean. Sent via gmail_send.py --from umberlore. Message ID 1a01f3aeec74b6e9.] [2026-09-03 trafficsite-guest-post-outreach 修正]: 本条状态此前自相矛盾写着\"not sent...— pitch sent\"，导致本次运行第0步差点重复发送同一封邮件给同一收件人（独立复核agent核实gmail_send.py list返回该邮件确已于2026-08-20发出，Message ID 1a01f3aeec74b6e9）。状态已订正为准确的已发送记录，未重复发送。"
+        "notes": "Real, long-running art-history business (not a zombie blog): sells a physical trivia game listed on Barnes & Noble, has museum partnerships, an active site structure (Team/Connect/About Us pages all return HTTP 200), and a documented history of publishing guest posts from outside contributors. info@sartle.com confirmed as a real contact address; the 'email your ideas for collaboration' process comes from WebSearch-surfaced text since the actual about-us/connect pages are JS-rendered React and could not be fully scraped via curl. One honest limitation: blog.sartle.com specifically sits behind a JS/hashcash bot challenge that curl cannot pass, so current posting cadence on the blog subdomain (as opposed to the main site/business, which is clearly active) could not be directly confirmed — noted rather than glossed over. No prior contact (gmail_send.py list --query 'to:info@sartle.com' and --query 'sartle' both returned []). [Top-level orchestrator independent review 2026-08-20: confirmed info@sartle.com is Sartle's own listed collaboration contact, all facts (Barberini pasquinade, Pantheon bronze to cannon+Venice, five architects, 1626 consecration) verified verbatim against st-peters-basilica entry in guides.ts, dedup clean. Sent via gmail_send.py --from umberlore. Message ID 1a01f3aeec74b6e9.] [2026-09-03 trafficsite-guest-post-outreach 修正]: 本条状态此前自相矛盾写着\"not sent...— pitch sent\"，导致本次运行第0步差点重复发送同一封邮件给同一收件人（独立复核agent核实gmail_send.py list返回该邮件确已于2026-08-20发出，Message ID 1a01f3aeec74b6e9）。状态已订正为准确的已发送记录，未重复发送。",
+        "verified_status": {
+          "checked_on": "2026-09-10",
+          "classification": "still_pending",
+          "evidence": "gmail_send.py list --query 'from:sartle.com' returned [] (no reply in 21 days). WebSearch (site:sartle.com for 'umberlore' and for 'St. Peter's Basilica Bernini baldachin') found no published piece on the site referencing UmberLore or the pitched angle. dataforseo_query.py backlinks umberlore.com returned exactly one referring domain (stackscope.dev, nofollow, first seen 2026-08-25) -- sartle.com does not appear. 21 days of silence is short of the 4-week no_response_declined threshold, so classified still_pending. Qualifies for a one-time follow-up nudge (10-14+ days silent, zero reply, no prior follow-up on this target) -- drafted in outreach-drafts.md ('2026-09-10 -- weekly trafficsite-guest-post-outreach run' entry) but not sent, per this round's SES-migration email freeze.",
+          "followed_up_once": true,
+          "follow_up_drafted_not_sent": "2026-09-10, drafted in outreach-drafts.md, held as drafted_blocked_by_ses_migration -- gmail_send.py --from umberlore still routes through the Mailjet relay Mailjet has told Owen it no longer permits for these 14 domains, pending AWS SES sandbox exit (see 独立站/待Owen处理事项.md)."
+        }
       },
       {
         "name": "Baroque Lifestyle — Become a Contributor",
@@ -349,5 +356,69 @@
         "notes": "在wagelark调研中发现,健康/健身类站点,与UmberLore(视觉艺术史)主题不匹配,仅记录避免下次重复搜索到时误判为未查过。"
       }
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "site": "umberlore",
+    "run_type": "weekly trafficsite-guest-post-outreach (email sending frozen this round -- SES migration, see 独立站/待Owen处理事项.md)",
+    "step_0_backlog_check": "Read outreach-drafts.md and guest-post-outreach.json in full before starting. No entry has any channel left in a 'viable -- pitch drafted, not sent' or self-contradictory status this round (the Sartle status-field bug from 2026-08-20 was already corrected 2026-09-03). Went straight to Step 0.4 verification.",
+    "step_0_4_backlink_verification": {
+      "notes": "Sartle (info@sartle.com, sent 2026-08-20, Message ID 1a01f3aeec74b6e9) was the oldest sent-but-never-verified pitch in the file (21 days old) -- verified this round, classified still_pending, and given its one-time follow-up nudge (drafted, not sent -- see outreach-drafts.md and channels_researched[Sartle].verified_status in the 2026-08-20 entry). ARCAblog (information@artcrimeresearch.org, sent 2026-08-06, followed up once 2026-08-27) was re-checked opportunistically since it was already tracked with an open still_pending status: now 35 days silent with the one follow-up also unanswered, reclassified to no_response_declined (see new_channels_researched[ARCAblog].verified_status in the 2026-08-06 entry). Arts, Artists, Artwork (support@artsartistsartwork.com) is at 25 days since its original send, under the 28-day threshold, left unchanged this round."
+    },
+    "gsc_check": "Ran python3 gsc_query.py umberlore (last 28 days). Selected michelangelo-sistine-chapel (position 26.2, 544 impressions, never used in any prior pitch) as this round's topic source over the higher-impression fallen-angel-painting (pos 12.1, 844 impr, also unused) because fallen-angel-painting already had five channels checked against it without a send in the 2026-08-27 round. cristina-kahlo (pos 13.1, 435 impr, unused) was set aside per the copyright-risk instruction: its content centers on Frida Kahlo/Diego Rivera works, both artists still under copyright in Mexico (life+100 years, deaths in the 1950s). diego-rivera, st-peters-basilica, and what-is-a-gargoyle were excluded as already-used angles.",
+    "channels_researched": [
+      {
+        "name": "MoMAA (momaa.org)",
+        "url": "https://momaa.org/guest-posting-in-contemporary-art-publications/",
+        "status": "excluded — paid placement",
+        "notes": "Real, active contemporary-art site, but the guest-post offer is a paid Sponsored Guest Post (EUR 300 for a ready-to-publish article with dofollow links). Excluded per the standing no-paid-placements rule (feedback_no_paid_placements_until_traffic_sites_profitable); not pursued."
+      },
+      {
+        "name": "Art History Teaching Resources (AHTR) / Smarthistory",
+        "url": "https://arthistorytr.org/ ; https://smarthistory.org/about/",
+        "status": "real but poor fit — not pursued",
+        "notes": "Both real and active academic/pedagogical platforms, but both require contributors to hold a PhD (or equivalent scholarly credential) with teaching experience; not a guest-post-for-backlink model. Same reasoning as the earlier Magazine Antiques/Art in Context rejections. Not pursued."
+      },
+      {
+        "name": "ArtHist.net",
+        "url": "https://arthist.net/mailing-list/",
+        "status": "real but poor fit — not pursued",
+        "notes": "Real academic art-history mailing-list network for professional news, reviews, and conference reports, requiring advance contact with an editorial team; not a blog guest-post channel. Not pursued."
+      },
+      {
+        "name": "Art History News (arthistorynews.com, Bendor Grosvenor)",
+        "url": "https://www.arthistorynews.com/contact.php",
+        "status": "real but unclear fit — not pursued",
+        "notes": "Real, active art-market/attribution news blog, but its contact page is framed around exhibition publicity tips and opinions on existing news stories, not open guest-article submissions. No guest-post guidelines page found via WebSearch. Not pursued."
+      },
+      {
+        "name": "Farcroft Group (farcroftgroup.com)",
+        "url": "https://www.farcroftgroup.com/the-controversial-restoration-of-the-sistine-chapel/",
+        "status": "real but no open channel found — not pursued",
+        "notes": "Real UK antiques/valuation firm with a topically relevant blog post on the Sistine Chapel restoration controversy. curl of the page found only a general enquiries mailbox (enquiries@farcroftuk.com), no write-for-us/guest-post page; reads as an in-house content blog for their own business. Not pursued."
+      },
+      {
+        "name": "Shesvii (shesvii.com/art-blog)",
+        "url": "https://www.shesvii.com/art-blog/the-history-of-colours-and-pigments",
+        "status": "real but no open channel found — not pursued",
+        "notes": "Has a relevant pigment/color-history post, but curl of the homepage found no guest-post or write-for-us page. Not pursued without a confirmed open channel."
+      }
+    ],
+    "sent": [],
+    "drafted_not_sent": [
+      {
+        "target": "Sartle (Rogue Art History) — follow-up nudge, not a new pitch",
+        "to": "info@sartle.com",
+        "draft_location": "outreach-drafts.md, 'Guest post pitch (2026-09-10 — weekly trafficsite-guest-post-outreach run)' / Step 0.4",
+        "status": "drafted, humanized, independent review VERDICT: can send (fresh-context agent confirmed zero prior contact/dup risk, no new unverified claims, 21 days silence past the 10-day threshold, plain human tone, passed humanizer/avoid-ai-writing, no copyright-risk subject matter) -- held unsent per this round's SES-migration email freeze, not because of any quality issue. Status: followed_up_drafted_blocked_by_ses_migration."
+      }
+    ],
+    "skipped": [
+      "DailyArt Magazine / HistoryMedieval / ArtDHope Foundation / ARCAblog — previously classified no_response_declined, not re-contacted.",
+      "Arts, Artists, Artwork — still_pending at 25 days, under the 28-day reclassification threshold, no action due this round.",
+      "Kuriositas / Dear Art / Views on Art Blog / Julian de Medeiros / my daily art display / Art Herstory / ArchDaily / The Magazine Antiques / Hyperallergic / Art in Context / Baroque Lifestyle / II Can DM / Strange Buildings / History Myths Debunked / architecture write-for-us mills / Virtosu Art Gallery / art-mine.com / arttextstyle.com — previously judged real-but-poor-fit, dead, unreachable, or unconfirmed in prior rounds, not re-researched this round."
+    ],
+    "owen_todo": [],
+    "independent_review_agent_status": "completed normally, no watchdog intervention needed (finished in well under the 15-20 minute cap)."
   }
 ]

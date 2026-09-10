@@ -419,3 +419,46 @@ UmberLore
 **Independent review verdict: CAN SEND.** Fresh-context review agent independently fetched both `artist-peak-creation-age/` and `artist-statistics/`, confirmed every number in the email against the live page, confirmed no overlapping stat already existed on gitnux's page, and confirmed `info@gitnux.org` is the site's general contact (not scoped).
 
 **Status: SENT 2026-08-29** via `gmail_send.py send --from umberlore` → info@gitnux.org, Message ID `1a04c0eafa71a0e8`.
+
+## Guest post pitch (2026-09-10 — weekly trafficsite-guest-post-outreach run)
+
+### Step 0.4 — Sartle follow-up nudge (not a new pitch)
+
+Sartle (info@sartle.com) was sent 2026-08-20 (Message ID `1a01f3aeec74b6e9`, the St. Peter's Basilica Bernini-bronze pitch) and had never been through `verified_status` in any prior run — the oldest never-verified sent pitch in the file, 21 days old today. `gmail_send.py list --query "from:sartle.com"` returned `[]` (zero reply). WebSearch (`site:sartle.com` for "umberlore", for "St. Peter's Basilica Bernini baldachin") found no published piece on the site referencing UmberLore or the pitched angle. `dataforseo_query.py backlinks umberlore.com` returned exactly one referring domain (stackscope.dev, nofollow, first seen 2026-08-25) — sartle.com does not appear. Classified `still_pending` (21 days is short of the 4-week `no_response_declined` threshold) and qualifies for the one-time follow-up nudge (10-14+ days silent, zero reply, no prior follow-up on this target). Drafted below, but **not sent** — per this round's task instructions, the entire email infrastructure (`gmail_send.py --from umberlore`, which still routes through the Mailjet relay Mailjet has told Owen it no longer permits for these 14 domains, pending the AWS SES sandbox exit) is frozen this round. Already logged in `独立站/待Owen处理事项.md` by an earlier task; not duplicated here.
+
+**Follow-up email (passed through `Skill(humanizer)` and `Skill(avoid-ai-writing)` — no em dashes, no AI-vocabulary hits, matches the plain one-paragraph check-in style used for the 2026-08-27 ARCAblog/Arts Artists Artwork follow-ups):**
+
+Subject: Re: Collaboration idea: the Bernini bronze legend the Vatican's own records don't back up
+
+Hi, just checking back on the St. Peter's Basilica idea I sent over on August 20. No pressure if it's not a fit, just let me know either way.
+
+Best,
+Owen Zhang
+contact@umberlore.com
+umberlore.com
+
+**Independent review verdict: CAN SEND.** Fresh-context review agent independently confirmed: zero prior contact with sartle.com beyond the original 2026-08-20 pitch (`gmail_send.py list --query "sartle"` → exactly one email, the original send), no new/unverified claim introduced in the follow-up text, the original pitch is genuinely 21 days old with zero reply, the tone reads as a one-off human check-in rather than a template, no em dashes/AI-vocabulary/chatbot-artifact tells, and no modern/contemporary copyrighted-artist reference (Bernini died 1680).
+
+**Status: DRAFTED, NOT SENT (`followed_up_drafted_blocked_by_ses_migration`)** — cleared by independent review, held unsent purely because this round's email infrastructure is frozen (SES migration), not for any quality reason. Will be ready to send as soon as the freeze lifts.
+
+### Step A backlink re-verification — ARCAblog reclassified
+
+ARCAblog (information@artcrimeresearch.org, sent 2026-08-06, followed up once 2026-08-27) is now 35 days past the original send and 14 days past its one-time follow-up nudge, with zero reply either time (`gmail_send.py list --query "from:artcrimeresearch.org"` → `[]`). WebSearch (`site:art-crime.blogspot.com umberlore`) found no matching post. `dataforseo_query.py backlinks umberlore.com` still shows only the single stackscope.dev referring domain. Reclassified from `still_pending` to `no_response_declined` (past the 4-week silence threshold, already had its one follow-up). Arts, Artists, Artwork (support@artsartistsartwork.com, sent 2026-08-16, followed up 2026-08-27) is at 25 days since the original send, under the 28-day threshold, so left as `still_pending` unchanged — no action needed this round.
+
+### GSC topic source for this round
+
+`python3 gsc_query.py umberlore` (last 28 days). Selected `michelangelo-sistine-chapel` (position 26.2, 544 impressions, never used in any prior pitch) over the higher-impression `fallen-angel-painting` (pos 12.1, 844 impr) because fallen-angel-painting already had five channels checked against it in the 2026-08-27 round (Kuriositas excluded for an explicit AI-content ban, three more stale/dormant/poor-fit, one good-fit-no-contact) without a send, so a fresh angle was more likely to find a live match. `diego-rivera` (already pitched to Arts, Artists, Artwork), `st-peters-basilica` (already pitched to Sartle), `what-is-a-gargoyle` (already pitched to HistoryMedieval), and `cristina-kahlo` (pos 13.1, 435 impr, unused) were also candidates; cristina-kahlo was set aside specifically because its subject matter centers on Frida Kahlo and Diego Rivera works — both artists died in the 1950s and their work remains under copyright in Mexico (life+100 years) well past 2026 — and this run's copyright-risk instruction says to prefer a safer classic/historical case when in doubt. Michelangelo (died 1564) carries no such risk.
+
+Pitch angle drafted from the `michelangelo-sistine-chapel` guide entry: the 1980-1994 ceiling restoration controversy (art historian James Beck and critic Waldemar Januszczak arguing the cleaning stripped away a final glazing/shadow layer Michelangelo himself added, not just centuries of grime), paired with the currently newsworthy hook that the Vatican began restoring the adjacent Last Judgment fresco in February 2026, its first cleaning since 1994 (confirmed via WebSearch — Catholic Standard/Detroit Catholic/Catholic Register coverage of the announcement, and Artnet News on the ongoing conservation work).
+
+### New channel research — no viable open channel found this round
+
+- **MoMAA (momaa.org)** — real, active contemporary-art site with a "Guest Posting in Contemporary Art Publications" page, but the offer is a paid Sponsored Guest Post (EUR 300 for a ready-to-publish article with dofollow links). Excluded per the standing no-paid-placements rule; not pursued.
+- **Art History Teaching Resources (AHTR, info@arthistorytr.org)** and **Smarthistory** — both real and active, but both are academic/pedagogical platforms requiring contributors to hold a PhD (or equivalent scholarly credential) and existing teaching experience; not a guest-post-for-backlink model. Not pursued, same reasoning as the earlier Magazine Antiques/Art in Context rejections.
+- **ArtHist.net** — a real academic art-history mailing-list network for professional news, reviews, and conference reports, requiring advance contact with an editorial team; not a blog guest-post channel. Not pursued.
+- **Art History News (arthistorynews.com, Bendor Grosvenor)** — real, active blog on art-market/attribution news, but its "contact" invitation is for exhibition publicity tips and opinions on existing news stories, not open guest-article submissions; no clear guest-post guidelines page found. Not pursued.
+- **Farcroft Group (farcroftgroup.com)** — real UK antiques/valuation firm with a relevant blog post on the Sistine Chapel restoration controversy, but `curl` of the site found no write-for-us/guest-post page, only a general enquiries mailbox (enquiries@farcroftuk.com); reads as an in-house content blog for their own business, not an open contributor channel. Not pursued.
+- **Shesvii (shesvii.com/art-blog)** — has a relevant pigment/color-history post, but `curl` of the homepage found no guest-post or write-for-us page; not pursued without a confirmed open channel.
+- Renaissance-focused Substacks surfaced by search (The Culture Dump, Renaissance Readings, billconnolly.substack.com) are single-author newsletters with no visible guest-contributor model; not pursued.
+
+**sent:** none this round (Sartle follow-up drafted, not sent, per SES freeze).
