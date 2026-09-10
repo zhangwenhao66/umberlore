@@ -380,5 +380,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-10",
+    "action": "submitted",
+    "reason": "今日新发布the-lovers-painting，URL Inspection确认URL is not on Google，提交成功。同日art-styles为content-quality-audit审计更新，本轮已用掉本站名额未额外查询。",
+    "submitted_urls": [
+      "https://umberlore.com/the-lovers-painting/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
