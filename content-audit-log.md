@@ -2160,3 +2160,56 @@
 **验证**：`npm run build` 78页0 error；线上`<title>`/JSON-LD headline均已生效渲染新标题；未动description/正文/H1。
 
 **记录**：快照 `seo-geo-trinity/data/title_tests/umberlore-0909-architects-hook.json`（change_date 2026-09-07，实际改动执行于09-09）。复核：14天初读（约09-23）、28天定去留（约10-07），由`site-search-opportunity-refresh`执行`title_test.py evaluate --label umberlore-0909-architects-hook`。⚠️标题不含年份，年度刷新不涉及此页。
+
+```json
+{
+  "url_slug": "art-styles",
+  "last_audited": "2026-09-10",
+  "published_date": "2026-08-11",
+  "note": "39篇从未审计文章中发布日期最早两篇之一（与michelangelo-sistine-chapel并列08-11，取guides.ts数组顺序在前者）；UmberLore与MythCairn并列全矩阵最久未审计站(09-03)",
+  "findings": [
+    {
+      "dimension": "引语准确性（Vauxcelles评论Braque的1908年直接引语）",
+      "status": "确认问题，已修复",
+      "detail": "正文引语\"reduces everything, places and a figures and houses, to geometric schemas, to cubes.\"多出一个语法不通的\"a\"。独立agent复核：法语原文\"réduit tout, sites et figures et maisons, à des schémas géométriques, à des cubes\"三词并列无冠词；多个独立英译来源均为\"places and figures and houses\"不含\"a\"；进一步查证发现这个\"a\"是英文维基百科Cubism/Houses at l'Estaque条目正文里一个孤立转录笔误，本文疑似照抄维基百科时连错字一并带入。纠错记录：现状=引语含多余\"a\"；替换=删除该\"a\"；来源=法语原文+多个独立英译对照+英文维基百科现存笔误比对；理由=直接引语必须逐字准确。"
+    },
+    {
+      "dimension": "机械散文检查(L-0819-9 FAQ逐字重合)",
+      "status": "确认问题，已修复",
+      "detail": "check_prose_patterns.py初检6条FAQ answer与正文/coreSummary存在≥20字符逐字重合。独立agent复核4条(Vasari措辞/Le Charivari周刊描述/Wölfflin动词短语/\"标签已经流传\"从句)CONFIRMED为可避免偷懒复制，2条(\"dealer Daniel-Henry Kahnweiler\"/\"Visigothic Kingdom in Spain\")REJECTED为专有名词必然性重复。仍全部改写以清零机械检查（REJECTED两条不涉及事实变动），经约10轮迭代最终check_prose_patterns.py退出码0。"
+    },
+    {
+      "dimension": "事实核实（关键年代数字）",
+      "status": "核实通过，未发现问题",
+      "detail": "WebSearch逐一核实：Ostrogothic Kingdom灭亡553年（拜占庭Battle of Mons Lactarius）✓；Visigothic Kingdom灭亡711年（Battle of Guadalete）✓；Basilica of Saint-Denis choir consecrated 11 June 1144 ✓；Rococo一词1825年首次见诸法语印刷品（TLFi Trésor de la langue française）✓、与coreSummary里\"around 1140\"施工起始年不矛盾（consecrated 1144是不同的里程碑事件）。"
+    },
+    {
+      "dimension": "外部引用链接",
+      "status": "核实通过（含误判排查）",
+      "detail": "13条sources中10条curl 200；History Today与Britannica×2共3条返回403（多次UA重试仍非200），均为知名百科全书/媒体网站，判定为反爬拦截而非真实链接失效，不构成问题。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "核实通过，未发现问题",
+      "detail": "3处站内inbound链接（来自emphasis-in-art/byzantine-mosaics/joan-of-arc-painting等文章的自然锚文本），非孤儿页；正文outbound内链目标slug(pop-art/art-deco/renaissance-art)均存在。"
+    },
+    {
+      "dimension": "其他维度（EEAT/竞品差异化/schema一致性/合规敏感度/配图/AdSense政策/谷歌垃圾政策）",
+      "status": "核实通过，未发现问题",
+      "detail": "内容为艺术史考据类记述，无AdSense限制类目描写；配图2张（Monet画作public domain + Chartres大教堂Public Domain Mark 1.0）线上可访问；Article/BreadcrumbList/FAQPage三类schema随FAQ文本更新同步生效（seo_drift.py compare仅WARNING预期内变化，无CRITICAL）。"
+    }
+  ],
+  "verification": "2条发现各起1个独立agent复核：①Vauxcelles引语\"a\"错误核实（WebSearch多信源交叉+维基百科笔误溯源，CONFIRMED，约61秒正常完成未卡死）；②FAQ逐字重合是否构成真实问题（逐条判断4 CONFIRMED+2 REJECTED，约171秒正常完成未卡死）。均未触发看门狗兜底。",
+  "actions_taken": [
+    "正文引语纠错：删除Vauxcelles Cubism评论引语中多余的\"a\"",
+    "FAQ 6条answer全部改写以消除与正文/coreSummary的逐字重合，经约10轮迭代确认check_prose_patterns.py退出码0",
+    "updated由2026-08-11改为2026-09-10（published字段已存在，未受影响）",
+    "npm run build通过（80页，0错误）；commit 5f2b30d并push（无CF deploy hook，走git自动部署）；绕缓存curl轮询确认新文本已在线上生效；seo_drift.py compare仅WARNING（schema内容变化，预期内），无未解释CRITICAL",
+    "IndexNow提交：/art-styles/ Bing 200 / Yandex 200，indexnow-submit-log.json已更新",
+    "内容发布日志.md追加审计记录"
+  ],
+  "seo_score": "title/description未改动，未重新跑z-score检查（本次编辑未涉及这两个字段）；单一H1/canonical/三类schema均有效",
+  "geo_score": "未重新单独打分（本次修复不涉及证据密度/结构调整，仅修正一处引语准确性错误+FAQ去重），FAQ 6条直接问答、多条原始文献引语+具体年代数字(1874/1876/1877/1905/1908/1550/553/711/1144/1790s/1825/1888)，可抽取性信号未受影响",
+  "escalation": null
+}
+```
