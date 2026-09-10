@@ -59,6 +59,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1245,
   "w": 1600
  },
+ "/images/artist-peak-creation-age-featured.png": {
+  "h": 630,
+  "w": 1200
+ },
  "/images/aztec-sun-stone-museo-antropologia.jpg": {
   "h": 1250,
   "w": 1600
@@ -303,6 +307,14 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1200,
   "w": 1600
  },
+ "/images/joan-of-arc-ingres-coronation.jpg": {
+  "h": 1600,
+  "w": 1187
+ },
+ "/images/joan-of-arc-painting.jpg": {
+  "h": 1449,
+  "w": 1600
+ },
  "/images/john-martin-belshazzars-feast-mezzotint-nga.jpg": {
   "h": 1103,
   "w": 1600
@@ -475,6 +487,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 900,
   "w": 728
  },
+ "/images/rene-magritte-wolleh-portrait.jpg": {
+  "h": 441,
+  "w": 445
+ },
  "/images/robie-house-exterior.jpg": {
   "h": 1200,
   "w": 1600
@@ -533,6 +549,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/starry-night-turbulence-cascade-diagram.svg": {
   "h": 640,
+  "w": 1200
+ },
+ "/images/the-lovers-provenance-diagram.svg": {
+  "h": 560,
   "w": 1200
  },
  "/images/the-milkmaid-vermeer.jpg": {
