@@ -535,6 +535,14 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1031,
   "w": 1600
  },
+ "/images/simonetta-vespucci-muse-debate-timeline.svg": {
+  "h": 620,
+  "w": 1200
+ },
+ "/images/simonetta-vespucci-piero-di-cosimo.jpg": {
+  "h": 1200,
+  "w": 860
+ },
  "/images/st-peters-basilica-bernini-baldachin.jpg": {
   "h": 1200,
   "w": 899

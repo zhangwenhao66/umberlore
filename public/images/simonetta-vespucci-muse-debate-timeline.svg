@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 620" width="1200" height="620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="1200" height="620" fill="#f7f4ef"/>
+  <text x="600" y="44" text-anchor="middle" font-size="23" fill="#2f2a3a" font-weight="bold">Six Different Authorities, Six Different Simonettas</text>
+  <text x="600" y="68" text-anchor="middle" font-size="13" fill="#5a5266">Each generation has re-read the same handful of paintings through its own preferred lens.</text>
+
+  <line x1="90" y1="140" x2="1120" y2="140" stroke="#8a5a7a" stroke-width="4"/>
+
+  <circle cx="120" cy="140" r="9" fill="#8a5a7a"/>
+  <text x="120" y="120" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">1476</text>
+  <text x="120" y="165" text-anchor="middle" font-size="11" fill="#5a5266">Simonetta dies,</text>
+  <text x="120" y="179" text-anchor="middle" font-size="11" fill="#5a5266">age 22 or 23</text>
+
+  <circle cx="290" cy="140" r="9" fill="#a06f92"/>
+  <text x="290" y="120" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">c. 1484-86</text>
+  <text x="290" y="165" text-anchor="middle" font-size="11" fill="#5a5266">Botticelli finishes</text>
+  <text x="290" y="179" text-anchor="middle" font-size="11" fill="#5a5266">The Birth of Venus</text>
+
+  <circle cx="460" cy="140" r="9" fill="#a06f92"/>
+  <text x="460" y="120" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">1550</text>
+  <text x="460" y="165" text-anchor="middle" font-size="11" fill="#5a5266">Vasari reads Piero di</text>
+  <text x="460" y="179" text-anchor="middle" font-size="11" fill="#5a5266">Cosimo's snake portrait</text>
+  <text x="460" y="193" text-anchor="middle" font-size="11" fill="#5a5266">as Cleopatra's asp</text>
+
+  <circle cx="630" cy="140" r="9" fill="#a06f92"/>
+  <text x="630" y="120" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">1800s</text>
+  <text x="630" y="165" text-anchor="middle" font-size="11" fill="#5a5266">John Ruskin popularizes</text>
+  <text x="630" y="179" text-anchor="middle" font-size="11" fill="#5a5266">the "Botticelli loved her"</text>
+  <text x="630" y="193" text-anchor="middle" font-size="11" fill="#5a5266">reading</text>
+
+  <circle cx="800" cy="140" r="9" fill="#8a5a7a"/>
+  <text x="800" y="120" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">20th c.</text>
+  <text x="800" y="165" text-anchor="middle" font-size="11" fill="#5a5266">Gombrich and</text>
+  <text x="800" y="179" text-anchor="middle" font-size="11" fill="#5a5266">Fernandez-Armesto call</text>
+  <text x="800" y="193" text-anchor="middle" font-size="11" fill="#5a5266">the muse story a myth</text>
+
+  <circle cx="960" cy="140" r="9" fill="#5a8a6f"/>
+  <text x="960" y="120" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">2019</text>
+  <text x="960" y="165" text-anchor="middle" font-size="11" fill="#5a5266">Endocrinologists propose</text>
+  <text x="960" y="179" text-anchor="middle" font-size="11" fill="#5a5266">a pituitary tumor, from</text>
+  <text x="960" y="193" text-anchor="middle" font-size="11" fill="#5a5266">facial change across portraits</text>
+
+  <circle cx="1100" cy="140" r="9" fill="#5a8a6f"/>
+  <text x="1100" y="120" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">2026</text>
+  <text x="1100" y="165" text-anchor="middle" font-size="11" fill="#5a5266">Same team names the</text>
+  <text x="1100" y="179" text-anchor="middle" font-size="11" fill="#5a5266">exact mechanism: tumor</text>
+  <text x="1100" y="193" text-anchor="middle" font-size="11" fill="#5a5266">apoplexy at a ball</text>
+
+  <line x1="90" y1="260" x2="1120" y2="260" stroke="#c9c2d6" stroke-width="1"/>
+
+  <text x="90" y="300" font-size="14" fill="#2f2a3a" font-weight="bold">What each side of the debate is actually built on</text>
+
+  <rect x="90" y="320" width="490" height="230" rx="8" fill="#efe9f2" stroke="#c9b8d6"/>
+  <text x="110" y="348" font-size="13" fill="#2f2a3a" font-weight="bold">The muse case</text>
+  <text x="110" y="370" font-size="11.5" fill="#4a4356">- Only confirmed Botticelli image of her</text>
+  <text x="110" y="388" font-size="11.5" fill="#4a4356">  is a lost joust banner, painted 1475</text>
+  <text x="110" y="410" font-size="11.5" fill="#4a4356">- Every surviving "Simonetta" painting is</text>
+  <text x="110" y="428" font-size="11.5" fill="#4a4356">  posthumous by a decade or more</text>
+  <text x="110" y="450" font-size="11.5" fill="#4a4356">- Musee Conde titles its own portrait</text>
+  <text x="110" y="468" font-size="11.5" fill="#4a4356">  "said to be" Simonetta, not confirmed</text>
+  <text x="110" y="490" font-size="11.5" fill="#4a4356">- Lightbown: workshop portraits of</text>
+  <text x="110" y="508" font-size="11.5" fill="#4a4356">  "ideal beauties," not real likenesses</text>
+  <text x="110" y="530" font-size="11.5" fill="#4a4356">- Ruskin, not a contemporary source,</text>
+  <text x="110" y="548" font-size="11.5" fill="#4a4356">  gets blamed for the romance</text>
+
+  <rect x="620" y="320" width="490" height="230" rx="8" fill="#e8f0ea" stroke="#a9cdb4"/>
+  <text x="640" y="348" font-size="13" fill="#2f2a3a" font-weight="bold">The medical case</text>
+  <text x="640" y="370" font-size="11.5" fill="#37503f">- Same posthumous portraits, read instead</text>
+  <text x="640" y="388" font-size="11.5" fill="#37503f">  for facial change, not for likeness</text>
+  <text x="640" y="410" font-size="11.5" fill="#37503f">- Deep-learning face model across five</text>
+  <text x="640" y="428" font-size="11.5" fill="#37503f">  portraits, per Pozzilli et al. 2019</text>
+  <text x="640" y="450" font-size="11.5" fill="#37503f">- 1476 Florence archive letter describes</text>
+  <text x="640" y="468" font-size="11.5" fill="#37503f">  her last-days symptoms directly</text>
+  <text x="640" y="490" font-size="11.5" fill="#37503f">- Two Renaissance physicians already</text>
+  <text x="640" y="508" font-size="11.5" fill="#37503f">  disagreed on the cause in 1476</text>
+  <text x="640" y="530" font-size="11.5" fill="#37503f">- 2026 paper's own trigger theory rests on</text>
+  <text x="640" y="548" font-size="11.5" fill="#37503f">  a poem of "doubtful" accuracy</text>
+
+  <text x="600" y="595" text-anchor="middle" font-size="11" font-style="italic" fill="#7a6b78">Neither column is settled scholarship. Both keep being revised by whoever writes about her next.</text>
+</svg>

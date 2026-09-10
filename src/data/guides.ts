@@ -8080,5 +8080,111 @@ export const guides: Guide[] = [
         "url": "https://www.nybooks.com/articles/2018/10/25/rene-magritte-every-time-i-look-at-it-i-feel-ill/"
       }
     ]
+  },
+  {
+    "slug": "simonetta-vespucci",
+    "category": "Painting",
+    "title": "Simonetta Vespucci: A Death Reopened by Medicine",
+    "description": "A 2026 medical paper argues a pituitary tumor killed Botticelli's presumed muse at twenty-three, though scholars still cannot agree she is in the paintings at all.",
+    "published": "2026-09-10",
+    "updated": "2026-09-10",
+    "coreSummary": "The only painting historical record confirms Sandro Botticelli made of Simonetta Vespucci while she was alive, a 1475 joust banner, no longer survives; every surviving \"Simonetta\" portrait, including the face in The Birth of Venus, was painted after her death, and the resemblance is what the historian Ernst Gombrich called a \"romantic myth.\" A 2019 paper and a July 2026 follow-up by the same research team argue she died at twenty-three of a ruptured pituitary tumor, not tuberculosis, reading the same posthumous portraits for facial change instead of likeness.",
+    "image": "/images/simonetta-vespucci-piero-di-cosimo.jpg",
+    "imageAlt": "Piero di Cosimo's posthumous portrait of a woman, said to be Simonetta Vespucci, shown bare-shouldered in profile with a small snake coiled around her necklace and a stormy landscape behind her.",
+    "imageCredit": "[Portrait of a woman, said to be of Simonetta Vespucci](https://commons.wikimedia.org/wiki/File:Piero_di_Cosimo_-_Portrait_de_femme_dit_de_Simonetta_Vespucci_-_Google_Art_Project.jpg), Piero di Cosimo, c. 1480-1490, Musée Condé, Chantilly, public domain",
+    "sections": [
+      {
+        "heading": "The only confirmed portrait is lost",
+        "body": [
+          "Simonetta Cattaneo was born around 1453 somewhere on the Ligurian coast near Genoa, into a family of Genoese nobility. She married Marco Vespucci, a distant cousin of the explorer Amerigo Vespucci, at fifteen or sixteen, after meeting him in April 1469 at the church of San Torpete in Genoa. The couple moved to Florence that same year, where Simonetta's family connections and reputed beauty quickly drew the attention of the city's ruling Medici brothers, Lorenzo and Giuliano.",
+          "At a jousting tournament, La Giostra, held at the Piazza Santa Croce in 1475, Giuliano de' Medici entered carrying a banner painted by Sandro Botticelli. It showed Simonetta as a helmeted Pallas Athena, inscribed underneath in French with the words La Sans Pareille, \"The Unparalleled One.\" Giuliano won the tournament and crowned her Queen of Beauty at the event. A 2026 medical-history paper reassessing her death separately credits the humanist poet Poliziano with a related but distinct title for her, La Sans Par, \"the Unrivaled,\" without dating exactly when he coined it. The two epithets overlap enough in meaning that later retellings have sometimes folded them into one.",
+          "The joust banner has not survived. That makes it the one painting anyone can say with confidence Botticelli made of Simonetta while she was alive. Everything else attributed to him, including the face most readers arrive at this page to check, was painted after she was already dead."
+        ]
+      },
+      {
+        "heading": "A muse the museum won't fully confirm",
+        "body": [
+          "Botticelli finished The Birth of Venus in the mid-1480s, roughly a decade after Simonetta died. The claim that the goddess's face is a portrait of her has circulated for well over a century, but two historians have pushed back on it directly: Ernst Gombrich dismissed the identification as a \"romantic myth,\" and Felipe Fernández-Armesto separately called it \"romantic nonsense.\" The Victorian critic John Ruskin is usually named as the figure most responsible for popularizing the claim in the first place, generations after anyone who had actually known Simonetta was dead.",
+          "The clearest attempt at an actual portrait hangs in the Musée Condé in Chantilly: a half-length woman by Piero di Cosimo, bare-breasted, with a small snake coiled around her necklace. Giorgio Vasari, writing in 1550, read the snake as Cleopatra's asp and described the picture as a portrait of Simonetta in the guise of the Egyptian queen. Later scholarship is far less certain. The art historian Norbert Schneider has argued the same imagery more plausibly borrows from classical antiquity, where a snake could symbolize the cyclical passage of time or stand for Prudentia, wisdom personified, not a weapon for suicide; a separate reading proposes the sitter as Proserpina rather than Cleopatra at all. The museum that owns the painting hedges its title too, calling it Portrait of a woman, said to be of Simonetta Vespucci, and noting the inscription naming her at the bottom may have been added later. Piero di Cosimo was fourteen the year Simonetta died, and the painting is usually dated a decade or more afterward, which is why it is generally treated as, at best, a copy of an earlier likeness rather than one taken from life.",
+          "The art historian Ronald Lightbown, in his 1989 biography of Botticelli, went further. He described the workshop's assorted \"fair ladies\" as fancy portraits of ideal beauties, not real sitters. By that reading, several of the paintings people now call \"Simonetta\" were never meant to depict anyone in particular."
+        ]
+      },
+      {
+        "heading": "Two ages at death, and a case nobody made until 2019",
+        "body": [
+          "Sources do not agree on how old Simonetta was when she died on the night of 26 to 27 April 1476. The version most often repeated, drawing on Lightbown's biography, gives her age as twenty-two. Two later medical papers, both from a team led by the endocrinologist Paolo Pozzilli, independently give twenty-three, a discrepancy that traces back to her birth year only being known approximately. Giuliano de' Medici, who had crowned her Queen of Beauty the year before, was assassinated in the Pazzi conspiracy on 26 April 1478, two years to the day after her death.",
+          "The traditional explanation for that death is tuberculosis, then usually called consumption. In 2019, Pozzilli and two co-authors, writing in the journal Endocrine Practice, proposed something different: a hormone-secreting pituitary tumor, producing both prolactin and growth hormone. Their evidence was a face, not a document. Using measurements taken from fixed points across five separate Botticelli portraits attributed to her, corrected with three-dimensional head modeling for differences in pose, the team argued her features changed visibly over the years the portraits span, in ways consistent with a slow-growing secreting adenoma. The clearest sign, in their reading, appears in a work known as the Allegorical Portrait of a Woman, which shows a stream of milk running from one bared breast, even though Simonetta is not known to have given birth; her husband Marco later remarried and fathered nine children, which the researchers took as evidence the infertility in the first marriage wasn't his.",
+          "The Birth of Venus itself carries a smaller, separate clue that drew attention long before 2019: Venus's eyes sit at a slightly irregular angle, a quirk sometimes called the \"strabismus of Venus.\" A large pituitary tumor can compress the nerves that control eye movement, so a few writers have floated the eyes as a fourth piece of evidence. It is the shakiest of the four. Mannerist painters of the following century exaggerated irregular, elongated features like this one as a beauty convention in its own right, unconnected to anyone's medical history, so an unusual eye in a 1480s Florentine painting is not, by itself, strong evidence of anything."
+        ],
+        "image": {
+          "src": "/images/simonetta-vespucci-muse-debate-timeline.svg",
+          "alt": "Timeline comparing six readings of Simonetta Vespucci across five and a half centuries: her 1476 death, Botticelli's Birth of Venus around 1485, Vasari's 1550 Cleopatra reading, Ruskin's Victorian romance, Gombrich and Fernandez-Armesto's mid-20th-century skepticism, and the 2019 and 2026 medical papers proposing a pituitary tumor.",
+          "credit": ""
+        }
+      },
+      {
+        "heading": "A nosebleed at a ball, and a theory about why",
+        "body": [
+          "In July 2026, Pozzilli's team returned to the case with a more specific claim, published in Endocrinology, Diabetes & Metabolism. Where the 2019 paper had argued for a tumor, the follow-up argued for exactly how it killed her: pituitary tumor apoplexy, a sudden hemorrhage or loss of blood supply inside an existing tumor that can bring on severe headache, vomiting, confusion and rapid collapse.",
+          "The new paper draws on sources the earlier one didn't use, including a description of the night Simonetta first collapsed, taken from a biography by G. Strano: she \"laid helpless, for a little or for a long time, in absence of light, unable to react, while the bystanders tried to stop the blood running from her nose.\" That collapse happened at a ball. Correspondence between Piero Vespucci and Lorenzo de' Medici, preserved in the State Archive of Florence, describes what followed over her final days: nosebleeds, a runny nose, severe headaches, confusion, hallucinations, vomiting and high fevers. Lorenzo sent his own physician, Maestro Stephano, who blamed her illness on something in the Vespucci household itself. A second doctor attending the family, Maestro Moyse, disagreed and diagnosed consumption instead. The two argued, then compromised on medicine for consumption. It made no difference. Simonetta died in April 1476, at twenty-three by this account, and her body was displayed dressed in white with her face uncovered, a customary honor for illustrious figures in Renaissance Florence. She was buried at the church of Ognissanti, where in 1510, thirty-four years later, Botticelli asked to be interred at her feet.",
+          "The 2026 paper proposes two specific events that might have triggered the fatal bleed. The first is mechanical: Renaissance balls involved a vigorous dance style, the alte danze, full of jumps, and Simonetta collapsed at exactly this kind of event. The second is harder to pin down: a supposed violent encounter with Alfonso II of Aragon, Duke of Calabria, who met Simonetta through the Medici after 1473. The paper cites a poem by the theologian Lorenzo Sardi describing an ambush on the banks of the Arno, alongside a separate, anonymous chronicle that accuses Alfonso of \"most cruel insults and abuses\" toward women. The paper's authors flag that second source's accuracy as doubtful, a more candid admission than most retellings of Renaissance scandal bother to make. [A different painting has its own discredited origin story attached to it: the veiled kiss in Magritte's The Lovers is usually traced to a riverbank scene from his childhood that Magritte biographers have since walked back as unreliable.](/the-lovers-painting/)"
+        ]
+      },
+      {
+        "heading": "Why the file never closes",
+        "body": [
+          "Every element of Simonetta Vespucci's afterlife rests on the same handful of paintings, read differently depending on who is doing the reading. Vasari saw Cleopatra's asp. Schneider sees a symbol of time or wisdom instead. Ruskin saw a doomed love story; Gombrich and Fernández-Armesto saw a Victorian fantasy attached to a woman neither of them had any way to have met. A team of endocrinologists now reads the same faces for hormonal change instead of beauty or grief, and arrives at a diagnosis in place of a myth. [The Birth of Venus itself sits at the center of a separate, older mystery: no surviving document records who commissioned it, and a supposedly complete 1499 household inventory lists its companion painting while leaving this one out entirely.](/birth-of-venus/)",
+          "None of these readings can be checked against a confirmed likeness, because the one painting known to have been made from life disappeared centuries ago. What remains is a set of posthumous images, an inscription a museum won't stand fully behind, and a five-hundred-year argument about what a dead woman's face is allowed to prove. [A comparable gap between a museum's plain label and the fuller story behind it shows up in other well-known portraits too: three paintings profiled elsewhere on this site each carry a detail that turns out to be more complicated than the label alone suggests.](/famous-portraits/)"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Was Simonetta Vespucci really the model for Botticelli's Birth of Venus?",
+        "answer": "Probably not in the way it's usually told. Serious skepticism runs through the modern scholarship, which treats the claim as invented sentiment, not documented fact. The one Botticelli image of Simonetta that historical record actually confirms, painted from life for a joust held in 1475, has been lost since. Venus's face in the finished 1480s canvas belongs to a much later, unconfirmed layer of that story."
+      },
+      {
+        "question": "How did Simonetta Vespucci die?",
+        "answer": "For centuries doctors and historians alike pointed to consumption, the old name for tuberculosis. A research group led by an Italian endocrinologist has since built a different case across two papers: first a tumor secreting excess hormones, published in 2019, then a specific fatal mechanism, a sudden internal bleed inside it, added in a 2026 follow-up. Their account traces a collapse at a ball, a severe nosebleed, and several days of worsening symptoms recorded in a 1476 letter."
+      },
+      {
+        "question": "How old was Simonetta Vespucci when she died?",
+        "answer": "Sources disagree by a year, which comes down to how precisely her birth is dated. Ronald Lightbown, writing Botticelli's 1989 biography, puts her at twenty-two. The endocrinology team's two studies both land on twenty-three instead, using the same approximate birth year of 1453 but rounding it differently against her documented death date in 1476."
+      },
+      {
+        "question": "Is the Piero di Cosimo portrait at the Musée Condé really Simonetta Vespucci?",
+        "answer": "The museum stops short of a firm yes. Its wall label hedges her name with the phrase said to be, rather than stating a match outright. Two details drive that caution: the artist's age when Simonetta died, young enough to make a life portrait implausible, and a name inscribed at the canvas's base that curators suspect was added well after the paint dried."
+      },
+      {
+        "question": "Why did Botticelli ask to be buried near Simonetta Vespucci?",
+        "answer": "Some writers, including John Ruskin, have read Botticelli's 1510 request to be buried at Ognissanti, at Simonetta's feet, as a sign he had loved her. There's a simpler complication: Ognissanti had been his baptismal parish since childhood, already held other work by him, and became the resting place of his own family as well, so the request did not need a romance behind it to make sense."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Simonetta Vespucci",
+        "url": "https://en.wikipedia.org/wiki/Simonetta_Vespucci"
+      },
+      {
+        "label": "Wikipedia: Portrait of Simonetta Vespucci",
+        "url": "https://en.wikipedia.org/wiki/Portrait_of_Simonetta_Vespucci"
+      },
+      {
+        "label": "Pozzilli, Vollero, Colao, \"Venus by Botticelli and Her Pituitary Adenoma,\" Endocrine Practice 25(10), 2019 (PubMed)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31170360/"
+      },
+      {
+        "label": "Nardelli, Black, Schafer, Pozzilli, \"Pituitary Tumour Apoplexy as Cause of Death of Simonetta Vespucci, the Venus by Botticelli,\" Endocrinology, Diabetes & Metabolism, 2026 (open access)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13263234/"
+      },
+      {
+        "label": "Ettle, \"The Venus Dilemma: Notes on Botticelli and Simonetta Cattaneo Vespucci,\" Notes in the History of Art 27(4), 2008",
+        "url": "https://www.journals.uchicago.edu/doi/10.1086/sou.27.4.23207901"
+      },
+      {
+        "label": "Wikimedia Commons: Portrait of a woman, said to be of Simonetta Vespucci, Piero di Cosimo",
+        "url": "https://commons.wikimedia.org/wiki/File:Piero_di_Cosimo_-_Portrait_de_femme_dit_de_Simonetta_Vespucci_-_Google_Art_Project.jpg"
+      }
+    ]
   }
 ];
