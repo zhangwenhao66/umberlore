@@ -364,3 +364,17 @@ Pitch 8（Westport Library / Art Forgery LibGuide，mkelly@westportlibrary.org�
 处理过程中读到`独立站/邮件发信基础设施迁移_AWS_SES_20260907.md`：截至2026-09-09，14个矩阵域名的Gmail「Send mail as」仍未从Mailjet切到AWS SES，Mailjet已明确不同意继续这种多域名代发模式；`独立站/待Owen处理事项.md`当天已有`trafficsite-directory-media-outreach`任务记录的同名冻结条目。本轮虽无新draft（第二部分0命中），Westport跟进邮件同样因此暂缓，不构成本轮遗漏。
 
 **累计口径**：UmberLore断链置换战术累计已发送3封pitch（含1封跟进）；已验证`not_replaced` 2条（Marian、Westport）、`verified_live_backlink_confirmed` 0条，转化率0/2。
+
+---
+
+## 2026-09-11（第十二次运行）— 「外链产能集中规则」本轮命中UmberLore（11-30位曝光342，矩阵内容型站排名第二）
+
+### 第一部分：核实旧pitch
+
+无新的≥10天未验证记录（growpurpose同类Marian pitch与Westport均已验证），本轮跳过第一部分。Westport跟进（09-09标注"跟进暂缓"）因SES冻结仍未解除，本轮维持暂缓。
+
+### 第二部分：新机会挖掘
+
+WebSearch搜索艺术史类LibGuides（decorative arts/art forgery/photography history方向），命中的候选（UND/UTSA/Kent State/UConn/UCLA等）全部是订阅数据库/付费文献索引（BHA、ARTbibliographies Modern等），无公开可访问、可能真实失效的免费外部链接结构，跟"断链置换"操作模式不匹配（同历史多轮已确认的"学术数据库链接不构成机会"规律）。本轮未形成新候选，未运行`broken_link_scan.py`（候选本身已在人工核实阶段排除，跑扫描无意义）。
+
+**累计口径不变**：仍是3封pitch（含1封跟进），已验证`not_replaced` 2条，转化率0/2；Westport跟进继续标注`drafted_blocked_by_ses_migration`，待SES切换完成后处理。
