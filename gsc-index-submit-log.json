@@ -390,5 +390,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-11",
+    "action": "submitted",
+    "reason": "今日随机休息未发布。Page indexing报告Crawled-not-indexed仅1条：birth-of-venus，URL Inspection确认未收录未提交过，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/birth-of-venus/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
