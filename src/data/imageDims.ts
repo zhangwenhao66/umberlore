@@ -52,8 +52,8 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1200
  },
  "/images/art-styles-chartres-west-facade.jpg": {
-  "h": 2573,
-  "w": 1920
+  "h": 2144,
+  "w": 1600
  },
  "/images/art-styles-monet-impression-sunrise.jpg": {
   "h": 1245,
@@ -68,12 +68,12 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1600
  },
  "/images/birth-of-venus-primavera-comparison.jpg": {
-  "h": 1275,
-  "w": 1920
+  "h": 1062,
+  "w": 1600
  },
  "/images/birth-of-venus-uffizi.jpg": {
-  "h": 1206,
-  "w": 1920
+  "h": 1005,
+  "w": 1600
  },
  "/images/black-square-malevich-tretyakov.jpg": {
   "h": 1400,
@@ -180,8 +180,8 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 843
  },
  "/images/fallen-angel-cabanel-1847.jpg": {
-  "h": 1263,
-  "w": 2000
+  "h": 1010,
+  "w": 1600
  },
  "/images/fallen-angel-cabanel-self-portrait-1852.jpg": {
   "h": 1400,
@@ -196,12 +196,12 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 480
  },
  "/images/famous-landscape-heart-of-the-andes.jpg": {
-  "h": 2099,
-  "w": 3811
+  "h": 881,
+  "w": 1600
  },
  "/images/famous-landscape-wanderer-sea-of-fog.jpg": {
-  "h": 2980,
-  "w": 2327
+  "h": 2049,
+  "w": 1600
  },
  "/images/famous-paintings-great-wave-met.jpg": {
   "h": 945,
@@ -220,16 +220,16 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1127
  },
  "/images/famous-portraits-american-gothic-house.jpg": {
-  "h": 1080,
-  "w": 1920
+  "h": 900,
+  "w": 1600
  },
  "/images/famous-portraits-las-meninas.jpg": {
   "h": 985,
   "w": 865
  },
  "/images/famous-portraits-madame-x.jpg": {
-  "h": 3257,
-  "w": 1920
+  "h": 2714,
+  "w": 1600
  },
  "/images/famous-renaissance-paintings-adoration-magi.jpg": {
   "h": 1517,
@@ -252,28 +252,28 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 694
  },
  "/images/gargoyle-epidauros-lion-waterspouts.jpg": {
-  "h": 1277,
-  "w": 1920
+  "h": 1064,
+  "w": 1600
  },
  "/images/gargoyle-notre-dame-chimeras.jpg": {
-  "h": 1280,
-  "w": 1920
+  "h": 1067,
+  "w": 1600
  },
  "/images/gargoyle-notre-dame-rainwater.jpg": {
   "h": 2947,
   "w": 1280
  },
  "/images/gargoyle-reims-cathedral.jpg": {
-  "h": 1331,
-  "w": 1920
+  "h": 1109,
+  "w": 1600
  },
  "/images/gentileschi-judith-slaying-holofernes-uffizi.jpg": {
   "h": 1600,
   "w": 1301
  },
  "/images/ghost-of-a-flea.jpg": {
-  "h": 2196,
-  "w": 1609
+  "h": 2184,
+  "w": 1600
  },
  "/images/guggenheim-museum-exterior.jpg": {
   "h": 900,
@@ -388,12 +388,12 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1069
  },
  "/images/michelangelo-sistine-ceiling-full.jpg": {
-  "h": 3397,
-  "w": 2536
+  "h": 2143,
+  "w": 1600
  },
  "/images/michelangelo-sistine-deluge.jpg": {
-  "h": 1577,
-  "w": 4096
+  "h": 616,
+  "w": 1600
  },
  "/images/moctezuma-feather-headdress-weltmuseum.jpg": {
   "h": 1066,
@@ -408,28 +408,28 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1280
  },
  "/images/mona-lisa.jpg": {
-  "h": 2861,
-  "w": 1920
+  "h": 2384,
+  "w": 1600
  },
  "/images/ophelia-elizabeth-siddal-portrait.jpg": {
   "h": 1200,
   "w": 894
  },
  "/images/ophelia-millais-tate.jpg": {
-  "h": 1306,
-  "w": 1920
+  "h": 1088,
+  "w": 1600
  },
  "/images/pandemonium-john-martin-louvre.jpg": {
-  "h": 2127,
-  "w": 3224
+  "h": 1056,
+  "w": 1600
  },
  "/images/pandemonium-mezzotint-1831-yale.jpg": {
-  "h": 1382,
-  "w": 1920
+  "h": 1152,
+  "w": 1600
  },
  "/images/pandemonium-painting-frame.jpg": {
-  "h": 2793,
-  "w": 3946
+  "h": 1132,
+  "w": 1600
  },
  "/images/papunya-school-1972.jpg": {
   "h": 1030,
@@ -608,12 +608,12 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1400
  },
  "/images/water-lilies-orangerie-room.jpg": {
-  "h": 1012,
-  "w": 1800
+  "h": 900,
+  "w": 1600
  },
  "/images/water-lilies-reflets-verts.jpg": {
-  "h": 599,
-  "w": 2600
+  "h": 369,
+  "w": 1600
  },
  "/images/wheelwright-museum-entrance.jpg": {
   "h": 1064,
