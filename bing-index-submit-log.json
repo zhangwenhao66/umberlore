@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-09-12",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/fallen-angel-painting/",
+      "https://umberlore.com/michelangelo-sistine-chapel/",
+      "https://umberlore.com/cristina-kahlo/",
+      "https://umberlore.com/diego-rivera/",
+      "https://umberlore.com/st-peters-basilica/",
+      "https://umberlore.com/daguerreotype/",
+      "https://umberlore.com/andy-warhol/",
+      "https://umberlore.com/saturn-devouring-his-son/",
+      "https://umberlore.com/the-broken-column/",
+      "https://umberlore.com/what-is-a-gargoyle/"
+    ],
+    "method": "SubmitUrlBatch"
+  }
+]
