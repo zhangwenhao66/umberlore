@@ -103,6 +103,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1496,
   "w": 1600
  },
+ "/images/caravaggio-narcissus.jpg": {
+  "h": 1000,
+  "w": 819
+ },
  "/images/chiaroscuro-woodcut-burgkmair-saint-george.jpg": {
   "h": 1600,
   "w": 1144
@@ -535,6 +539,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1031,
   "w": 1600
  },
+ "/images/seurat-la-grande-jatte.jpg": {
+  "h": 1065,
+  "w": 1600
+ },
  "/images/simonetta-vespucci-muse-debate-timeline.svg": {
   "h": 620,
   "w": 1200
@@ -542,6 +550,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/simonetta-vespucci-piero-di-cosimo.jpg": {
   "h": 1200,
   "w": 860
+ },
+ "/images/spadarino-banquet-of-the-gods.jpg": {
+  "h": 536,
+  "w": 800
  },
  "/images/st-peters-basilica-bernini-baldachin.jpg": {
   "h": 1200,
@@ -579,6 +591,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1200,
   "w": 915
  },
+ "/images/van-gogh-wheat-field-cypresses.jpg": {
+  "h": 1266,
+  "w": 1600
+ },
  "/images/venus-de-milo-louvre.jpg": {
   "h": 1400,
   "w": 563
@@ -606,6 +622,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/whistler-nocturne-black-and-gold-falling-rocket.jpg": {
   "h": 1600,
   "w": 1204
+ },
+ "/logo-512.png": {
+  "h": 512,
+  "w": 512
  }
 };
 
