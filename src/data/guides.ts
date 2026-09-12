@@ -2594,7 +2594,7 @@ export const guides: Guide[] = [
   {
     "slug": "diego-rivera",
     "category": "Painting",
-    "title": "Diego Rivera: The Mural Rockefeller Chiseled Off",
+    "title": "Diego Rivera: The Lenin Mural Rockefeller Chiseled Off in 1934",
     "description": "Diego Rivera hid a portrait of Lenin inside a fresco commissioned for Rockefeller Center. Nelson Rockefeller had it plastered over in 1934, before it was even finished.",
     "published": "2026-08-06",
     "updated": "2026-08-26",
@@ -3805,7 +3805,7 @@ export const guides: Guide[] = [
   {
     "slug": "fallen-angel-painting",
     "category": "Painting",
-    "title": "Fallen Angel Painting by Cabanel: Was It Really Controversial?",
+    "title": "Fallen Angel Painting by Cabanel: Location, Was It Controversial?",
     "description": "Cabanel's Fallen Angel painting is often called 'highly controversial.' The Musée Fabre's own account says the Academy was startled by the pose, not the devil.",
     "published": "2026-08-12",
     "updated": "2026-08-26",
@@ -6063,7 +6063,7 @@ export const guides: Guide[] = [
   {
     "slug": "cristina-kahlo",
     "category": "Painting",
-    "title": "Cristina Kahlo: The Sister in Four Kahlo and Rivera Artworks",
+    "title": "Cristina Kahlo: Frida's Sister, Painted by Diego Rivera",
     "description": "Cristina Kahlo appears in at least four documented works by Frida Kahlo and Diego Rivera. Her own family kept producing photographers, four generations running.",
     "published": "2026-08-27",
     "updated": "2026-08-27",
