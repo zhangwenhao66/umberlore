@@ -2213,3 +2213,111 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "michelangelo-sistine-chapel",
+  "last_audited": "2026-09-12",
+  "published_date": "2026-08-11",
+  "article_specific_checklist": [
+    "被打了引号的Symonds sonnet翻译是否逐字准确、译者归因是否正确——文章自己引用的Harper's Magazine来源本身写的是哪个译者",
+    "1508年5月8日合同签署日期、3,000达克特报酬（约合2021年黄金价值$600,000）、经Cardinal Alidosi转交的500达克特预付款三个数字是否准确",
+    "1506年4月18日Michelangelo离开罗马的具体日期是否准确（存在'4月17日'的竞争说法）",
+    "Bramante提议的绳索脚手架方案+Michelangelo自建脚手架、1980年代修复时重用同一批孔洞的说法是否有据",
+    "6名助手姓名清单（Francesco Granacci/Giuliano Bugiardini/Jacopo di Sandro/l'Indaco the Elder/Agnolo di Domenico/Aristotile da Sangallo）是否准确",
+    "James Beck与Waldemar Januszczak对1980-1994修复的争议描述是否准确"
+  ],
+  "findings": [
+    {
+      "dimension": "1. EEAT",
+      "status": "未发现问题",
+      "detail": "引用真实机构级/学术级来源：Wikipedia（Sistine Chapel ceiling、Tomb of Pope Julius II）、The Conversation（学者撰稿）、Harper's Magazine（Scott Horton整理的原始译文引语）、Britannica、Deseret News 1988年报道。sources[]共6条，无泛泛而谈的模糊归因（无'专家认为'式措辞）。"
+    },
+    {
+      "dimension": "2. 事实准确性（含专属核查清单全部6项）",
+      "status": "1项CONFIRMED为真实错误并已修复，其余5项核实无误",
+      "detail": "①【已修复】sonnet翻译归因错误：文章原文写'The English translation by...John Addington Symonds'，但独立复核agent直接抓取Harper's Magazine原文确认该刊明确写'transl. S. Elizabeth Hall, The Sonnets of Michelangelo Buonarroti, p. 89 (1903)'，且Symonds本人1878年出版的实际译文（Project Gutenberg核实）开头是'I've grown a goitre by dwelling in this den...'，逐字不同于文中引用的'In this hard toil I've such a goiter grown...'——证明文章连自己标注的来源都未核对，属于L-0819-1类'把内容错误归到已引用的具名来源'。②WebSearch核实3,000达克特+约合2021年黄金价值$600,000的具体数字组合，与另一独立信源逐字匹配，非编造。③Wikipedia『Tomb of Pope Julius II』直接抓取全文核实'abruptly left Rome on 18 April 1506'，与文中日期一致（另有博客类二手信源写4月17日，但一手/权威信源以18日为准）。④Bramante绳索脚手架方案+Michelangelo自建脚手架+1980年代修复重用原孔洞，经WebSearch多来源交叉确认（Sistine Chapel ceiling Wikipedia原文即写重建脚手架用了同一批孔洞）。⑤助手6人姓名清单经WebSearch核实与Wikipedia『Sistine Chapel ceiling』援引Vasari的原文列表逐字一致（Francesco Granacci, Giuliano Bugiardini, Jacopo di Sandro, l'Indaco the Elder, Agnolo di Domenico, Aristotile）。⑥James Beck/ArtWatch International/Waldemar Januszczak关于修复争议的描述与检索结果一致，未发现失实。"
+    },
+    {
+      "dimension": "3. 时效性",
+      "status": "未发现问题",
+      "detail": "历史考据类内容，无需要随时间更新的时效性数据；published 2026-08-11，本次审计更新updated为2026-09-12。"
+    },
+    {
+      "dimension": "4. 竞品差异化",
+      "status": "未发现问题",
+      "detail": "本文以'他不想接这个活'的叙事角度切入（拒绝方案、脚手架冲突、发霉重画、十四行诗自述身体变形），提供比Wikipedia/Britannica更细颗粒度的具体情节和逐字引语，非对头部竞品的第三次复述。"
+    },
+    {
+      "dimension": "5. SEO技术审计",
+      "status": "未发现问题，1项系统性观察记录但不在本次修复范围",
+      "detail": "check_seo_field_stats.py：title长度58字符z=-0.09、description长度169字符z=0.94，均在正常范围内，不构成'疑似超标'。seo-audit技能脚本对拼接站名后70字符的浏览器标题、及Article schema缺publisher/Organization缺sameAs+contactPoint给出warn——经确认这是site-toolkit共享Article.astro组件对全站所有文章的统一渲染行为，非本文独有问题，超出单篇内容审计的合理修复范围，不在本次处理。单一H1、8个H2+FAQ、canonical自指、2条内链目标slug均存在、404.astro存在。"
+    },
+    {
+      "dimension": "6. GEO审计（99分制11维度，自评）",
+      "status": "修复前约85/99、修复后约88-89/99，均达标（阈值80）",
+      "detail": "权威原文引语~14/16（翻译归因错误修复前扣分，修复后接近满分）；统计数据完整性~12/14；可引用性~11/13；结构规范性~11/12；表达流畅度8→9/10（FAQ轻改写后）；语义密度~7/8；权威信号5→6/8（归因修复后提升）；专业术语6/6（giornata/intonaco/buon fresco/pozzolana使用准确）；鲁棒性4→5/5（核心引语来源问题修复后）；跨域连接4/4（2条出链+2条其他文章的手写入链）；易懂表达3/3。此为审计员基于该站已公开的99分制评分标准自评，未使用独立工具复验。"
+    },
+    {
+      "dimension": "7. 早期内容AI味补漏（humanizer + avoid-ai-writing）",
+      "status": "未发现问题",
+      "detail": "humanizer：全文grep检查未发现AI高频词（delve/tapestry/testament/underscore/vibrant等零命中）、无叙事性em/en dash误用（仅imageCredit字段年代范围'1508–1512'的规范排版连字符，非AI式破折号）、无'not just X, it's Y'负向排比、标题列表无同一语法模板（'He didn't want the job'/'The scaffold fight'/'Standing, not lying down'/'He said he did it alone. He mostly did.'等句式各异）。avoid-ai-writing：check_prose_patterns.py报警的'X's own Y'×3和FAQ重合×6两类均已spawn独立agent复核，见下方独立复核记录。"
+    },
+    {
+      "dimension": "8. 外部引用链接腐烂",
+      "status": "5/6可直接curl验证200，1条因反爬网关无法用curl确认但非死链",
+      "detail": "Wikipedia×2、The Conversation、Harper's Magazine、Deseret News均curl返回200。Britannica链接curl返回403，但响应体是Cloudflare人机验证挑战页（'Just a moment...'），换Chrome UA仍403——判定为对自动化请求的反爬拦截、非真实链接失效（与本站及流量站矩阵已知的curl/WebFetch对反爬站点的盲区一致），未计入违规统计，建议后续人工浏览器抽查确认。"
+    },
+    {
+      "dimension": "9. 内链健康度",
+      "status": "未发现问题，非孤儿页",
+      "detail": "文章正文手写2条出链（/renaissance-art/、/st-peters-basilica/，均核实slug存在）；同时被其他2篇文章手写入链（cabanel-lucifer相关文章'Michelangelo agreed to paint the Sistine Chapel ceiling'、某素描研究文章'Michelangelo was on a scaffold of his own design...painting the Sistine ceiling'），均为真实上下文锚文本，非仅靠related-guides轮转覆盖。"
+    },
+    {
+      "dimension": "10. Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "本次编辑未涉及image/imageAlt/imageCredit/category等结构化字段，仅改动正文prose与sources label文本，Article/FAQPage/BreadcrumbList三类schema均由guide对象字段自动生成，改动后重新构建确认无报错。"
+    },
+    {
+      "dimension": "11. 合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "宗教题材（教皇委托、西斯廷教堂）措辞保持中立客观的历史叙述视角，未见新的争议性表述需要调整；1980年代修复争议本身即为文章内容一部分，已如实呈现两方观点。"
+    },
+    {
+      "dimension": "12. 配图可用性与版权（含现代摄影专项检查）",
+      "status": "未发现问题",
+      "detail": "2张配图（ceiling-full.jpg、deluge.jpg）均标注来自Wikimedia Commons且credit为public domain古典油画/壁画复制品（Michelangelo原作摄影复制件，1508–1512完成，早已进入公有领域）；未发现任何'现代修复照片'或'当代摄影师拍摄的梵蒂冈博物馆内景照'类型的配图，不涉及本站已知的现当代摄影版权风险清单。图片文件均存在（720KB/948KB）。"
+    },
+    {
+      "dimension": "12b. 系统性观察：配图文件体积未经压缩（非本文独有）",
+      "status": "记录但不在本次修复范围",
+      "detail": "本文2张图720KB/948KB，站内141张图平均539KB、最大3.3MB，未见astro:assets/sharp等构建期压缩管线，全部走public/images/静态直出。这是全站系统性问题（对应内容通用教训库L-0829-1），非本文独有，不适合在单篇内容审计里局部处理，建议作为独立的站级优化任务处理。"
+    },
+    {
+      "dimension": "13. AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "public/ads.txt确认指向pub-5245502795720653；privacy.astro/terms.astro/about.astro三个必备页面均存在。"
+    },
+    {
+      "dimension": "14. 机械散文四项检查（check_prose_patterns.py）",
+      "status": "2类报警，独立复核后1类确认为假阳性（不改），1类部分确认（已改写2处，其余4处判定为不可压缩重合，接受非零退出码）",
+      "detail": "①L-0819-8『X's own Y』×3：spawn独立agent复核，判定NOT A REAL ISSUE——其中2处('the pope's own architect'，分别出现在coreSummary与'The scaffold fight'节正文)描述的是同一个事实(Bramante是教皇的官方建筑师)，属于摘要预告正文的自然结构性回声非机械修辞重复；第3处('the artist's own hand'，出现在'What the cleaning found'节)是艺术鉴定语境里描述'画家本人手笔'的惯用表达，与前两处功能完全不同，仅字面共享''s own'。三处分散在全文开头/中段/结尾，非扎堆出现。未修改。②L-0819-9 FAQ与正文≥20字符重合×6：spawn独立agent复核，4/6（合同日期、达克特金额换算、pozzolana技术定义、助手研磨颜料任务描述）判定为无法避免的事实/术语复述——重写空间为零或只会牺牲准确性/制造不自然表达；2/6（1965年电影引用句尾的'not from any account...lifetime'措辞、Beck/Januszczak关于'shadow and glazing'的转述句）判定为真实的可改写措辞重复，已改写消除interpretive-phrase层面的重复（保留电影片名本身、保留争议双方姓名与核心论断不变）。改写后脚本仍报6条候选（因4条不可压缩项本身仍会命中≥20字符规则），退出码非0——按内容通用教训库L-0819-9已确立的'专有名词/数值常量/技术术语定义等不可压缩锚点接受非零退出码'先例处理，不做进一步改写。"
+    },
+    {
+      "dimension": "15. 谷歌垃圾政策合规（google-spam-compliance）",
+      "status": "PASS（全部11类+AI内容判定）",
+      "detail": "三要素判定：投入[有，含逐字引语核实与具体人名/日期]、原创[有，独特叙事角度非通用话题]、附加价值[有，比头部竞品信息密度更高]，高危信号[否]。11类政策逐条：规模化内容滥用PASS（非模板换词页）、站点声誉滥用/过期域名滥用NA、隐藏文字链接PASS、关键词堆砌PASS、链接垃圾PASS（内链目标真实存在）、抓取PASS（原创综合叙事非洗稿）、伪装门页PASS、误导性功能NA（非工具页）、机器生成流量NA、恶意行为PASS。AI内容专属：非商品化内容（有本站独有的具体历史情节角度），PASS。变现合规：ads.txt正确，PASS。"
+    }
+  ],
+  "actions_taken": [
+    "修复sonnet翻译译者归因错误：正文'The English translation by...John Addington Symonds'改为'The English translation below, by S. Elizabeth Hall from her 1903 collection'；sources[]对应label的'(quoting the Symonds translation)'改为'(quoting the S. Elizabeth Hall translation)'",
+    "轻改写2条FAQ答案（'lying on his back'问题的电影引用句尾措辞、'restoration controversial'问题的Beck/Januszczak转述措辞）以降低与正文的近逐字重合，事实内容完全不变",
+    "updated字段从2026-08-11改为2026-09-12（published字段已存在无需回填）",
+    "npm run build 83页0 error；git commit 2d4063c push"
+  ],
+  "independent_verification": "spawn 2个全新独立sub-agent并行：(1)核实sonnet翻译归因——CONFIRMED为真实错误，直接抓取Harper's Magazine原文与Project Gutenberg上Symonds真实译文比对得出结论；(2)核实check_prose_patterns.py的两类机械化文风报警——'X's own Y'×3判定NOT A REAL ISSUE，FAQ重合×6判定4/6不构成真实问题、2/6（FAQ#1尾句、FAQ#6措辞）建议改写，均已采纳。两个agent均一次性正常完成，无卡死/需TaskStop情况。",
+  "seo_score": "本次编辑不涉及title/description/H1/schema结构，z-score维持title=−0.09/description=0.94均正常范围，未重新单独复核",
+  "geo_score": "修复前约85/99，修复后约88-89/99（详见维度6），均达标",
+  "escalation": null
+}
+```
