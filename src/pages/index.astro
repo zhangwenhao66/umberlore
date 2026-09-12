@@ -1,96 +1,143 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { guides, categorySlug } from '../data/guides';
+import { imgDims } from '../data/imageDims';
+
+/*
+ * Homepage as a catalogue index (2026-09-12).
+ *
+ * Clarity scroll maps (2026-09-03, 09-10): half of desktop visitors never
+ * passed 20% of the old page, nine in ten never reached 30%. The old layout
+ * hung one 62vh lead plate and then a masonry of full-width plates, so each
+ * screen carried roughly one title. This version keeps the gallery language
+ * (plates, wall labels, EB Garamond, the umber rule) but treats the page as
+ * the index at the front of an exhibition catalogue: a slim room directory,
+ * one lead work at reduced size, then a dense three-column checklist of
+ * works with thumbnail plates. Long-form text (about, quiz) sits below.
+ */
 
 const sorted = [...guides].sort((a, b) => b.updated.localeCompare(a.updated));
 const [lead, ...rest] = sorted;
-const wall = rest.slice(0, 18);
+const CHECKLIST_SIZE = 24;
+const checklist = rest.slice(0, CHECKLIST_SIZE);
+const remaining = Math.max(0, rest.length - checklist.length);
 
 const counts = new Map<string, number>();
 for (const g of guides) {
 	counts.set(g.category, (counts.get(g.category) ?? 0) + 1);
 }
+// Ordered by size so the biggest rooms come first; counts stay on /topics/ to keep the strip one line.
 const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-import { imgDims } from '../data/imageDims';
 ---
 
 <Layout>
+	{rooms.length > 0 && (
+		<nav class="rooms -mt-4 flex items-baseline gap-x-5 border-b border-[var(--rule)] pb-3 md:flex-wrap md:gap-y-1" aria-label="Rooms">
+			<span class="wall-label-dept shrink-0">Rooms</span>
+			{rooms.map(([category]) => (
+				<a
+					href={`/topics/${categorySlug(category)}/`}
+					class="shrink-0 text-[0.88rem] text-[var(--ink)]/70 no-underline hover:text-[var(--flag-dark)] hover:underline"
+				>
+					{category}
+				</a>
+			))}
+			<a href="/topics/" class="shrink-0 text-[0.88rem] text-[var(--flag-dark)] no-underline hover:underline md:ml-auto">All topics</a>
+		</nav>
+	)}
+
 	{lead && (
-		<a href={`/${lead.slug}/`} class="lead grid items-center gap-8 no-underline md:grid-cols-12 md:gap-12">
-			<div class="order-2 md:order-1 md:col-span-5">
-				<p class="wall-label-dept m-0">{lead.category}</p>
-				<h1 class="font-display mt-3 text-4xl leading-[1.08] font-medium text-[var(--ink)] md:text-5xl">
+		<a href={`/${lead.slug}/`} class="lead mt-8 grid items-center gap-6 no-underline md:grid-cols-12 md:gap-10">
+			<div class="md:col-span-6 lg:col-span-5">
+				<p class="wall-label-dept m-0">{lead.category} · Latest</p>
+				<h1 class="font-display mt-2.5 text-[1.85rem] leading-[1.1] font-medium text-[var(--ink)] md:text-[2.5rem]">
 					{lead.title}
 				</h1>
-				<div class="mt-5 h-px w-14 bg-[var(--flag)]"></div>
-				<p class="mt-5 max-w-md text-[1.02rem] leading-relaxed text-[var(--ink)]/65">{lead.description}</p>
-				<p class="mt-6 mb-0 text-sm font-medium text-[var(--flag-dark)] underline underline-offset-4">
-					Read the study
-				</p>
+				<div class="mt-4 h-px w-14 bg-[var(--flag)]"></div>
+				<p class="mt-4 hidden max-w-md text-[0.98rem] leading-relaxed text-[var(--ink)]/65 md:block">{lead.description}</p>
+				<p class="mt-4 mb-0 text-sm font-medium text-[var(--flag-dark)] underline underline-offset-4">Read the study</p>
 			</div>
 			{lead.image ? (
-				<figure class="plate order-1 m-0 w-fit max-w-full justify-self-center md:order-2 md:col-span-7">
+				<figure class="plate m-0 w-fit max-w-full justify-self-center md:col-span-6 md:justify-self-end lg:col-span-7">
 					<img
 						src={lead.image}
 						alt={lead.imageAlt ?? lead.title}
-						class="mx-auto h-auto max-h-[62vh] w-auto max-w-full"
+						class="mx-auto h-auto max-h-[24vh] w-auto max-w-full md:max-h-[300px] lg:max-h-[340px]"
 						loading="eager"
+						fetchpriority="high"
 						width={imgDims(lead.image)?.w}
 						height={imgDims(lead.image)?.h}
 					/>
 				</figure>
 			) : (
-				<div class="placard order-1 md:order-2 md:col-span-7">
-					<p class="font-display m-0 text-2xl leading-snug text-[var(--ink)]/80">{lead.coreSummary}</p>
+				<div class="placard md:col-span-6 lg:col-span-7">
+					<p class="font-display m-0 text-xl leading-snug text-[var(--ink)]/80">{lead.coreSummary}</p>
 				</div>
 			)}
 		</a>
 	)}
 
-	{rooms.length > 0 && (
-		<nav class="mt-14 flex flex-wrap items-baseline gap-x-8 gap-y-2 border-y border-[var(--rule)] py-3.5">
-			<span class="font-display text-[1.05rem] text-[var(--ink)]/85">Rooms</span>
-			{rooms.map(([category, n]) => (
-				<a
-					href={`/topics/${categorySlug(category)}/`}
-					class="text-[0.9rem] text-[var(--ink)]/65 no-underline hover:text-[var(--flag-dark)] hover:underline"
-				>
-					{category} <span class="text-[var(--ink)]/35">{n}</span>
-				</a>
-			))}
-		</nav>
-	)}
-
-	{wall.length > 0 && (
-		<section class="mt-12">
-			<h2 class="font-display m-0 text-2xl font-medium text-[var(--ink)]">The collection</h2>
-			<div class="mt-7 columns-1 gap-8 sm:columns-2 lg:columns-3">
-				{wall.map((g) => (
-					<a href={`/${g.slug}/`} class="work mb-9 block break-inside-avoid no-underline">
-						{g.image ? (
-							<figure class="plate m-0">
-								<img src={g.image} alt={g.imageAlt ?? g.title} loading="lazy"
-						width={imgDims(g.image)?.w}
-						height={imgDims(g.image)?.h}
-					/>
-							</figure>
-						) : (
-							<div class="placard">
-								<p class="font-display m-0 text-lg leading-snug text-[var(--ink)]/85">{g.title}</p>
-							</div>
-						)}
-						<div class="mt-3 px-0.5">
-							<p class="wall-label-dept m-0">{g.category}</p>
-							<p class="font-display work-title m-0 mt-1 text-[1.2rem] leading-snug font-medium text-[var(--ink)]">
-								{g.title}
-							</p>
-							<p class="m-0 mt-1.5 text-sm leading-relaxed text-[var(--ink)]/55">{g.description}</p>
-						</div>
-					</a>
-				))}
+	{checklist.length > 0 && (
+		<section class="mt-8 md:mt-10">
+			<div class="flex items-baseline justify-between gap-4 border-b-2 border-[var(--ink)] pb-2">
+				<h2 class="font-display m-0 text-[1.45rem] font-medium text-[var(--ink)]">The collection</h2>
+				<p class="m-0 text-xs text-[var(--ink)]/45">{guides.length} works · newest first</p>
 			</div>
+			<ol class="checklist m-0 grid list-none gap-x-8 p-0 sm:grid-cols-2 lg:grid-cols-3">
+				{checklist.map((g) => (
+					<li class="m-0 border-b border-[var(--rule)] p-0">
+						<a href={`/${g.slug}/`} class="entry flex gap-3.5 py-3.5 no-underline">
+							{g.image ? (
+								<span class="thumb shrink-0">
+									<img
+										src={g.image}
+										alt={g.imageAlt ?? g.title}
+										loading="lazy"
+										decoding="async"
+										width={imgDims(g.image)?.w}
+										height={imgDims(g.image)?.h}
+									/>
+								</span>
+							) : (
+								<span class="thumb thumb-blank shrink-0" aria-hidden="true"></span>
+							)}
+							<span class="min-w-0">
+								<span class="wall-label-dept block">{g.category}</span>
+								<span class="font-display entry-title mt-0.5 block text-[1.05rem] leading-[1.3] font-medium text-[var(--ink)]">{g.title}</span>
+								<span class="mt-1 line-clamp-2 text-[0.82rem] leading-snug text-[var(--ink)]/55">{g.description}</span>
+							</span>
+						</a>
+					</li>
+				))}
+			</ol>
+			{remaining > 0 && (
+				<p class="m-0 mt-4 text-sm text-[var(--ink)]/60">
+					{remaining} earlier {remaining === 1 ? 'work is' : 'works are'} hung by room.
+					<a href="/topics/" class="ml-1 text-[var(--flag-dark)] underline underline-offset-4 hover:text-[var(--ink)]">Browse the rooms</a>
+				</p>
+			)}
 		</section>
 	)}
+
+	<section class="mt-14 grid gap-6 md:grid-cols-2">
+		<div class="placard">
+			<p class="wall-label-dept m-0">About this catalogue</p>
+			<p class="font-prose mt-3 mb-0 text-[1.05rem] leading-relaxed text-[var(--ink)]/85">
+				Dates, attributions, dimensions and locations here come from the institution that holds the
+				work, with its collection page cited so you can check. Where scholars disagree, the
+				disagreement is reported rather than smoothed over.
+				<a href="/about/" class="ml-1 whitespace-nowrap text-[var(--flag-dark)] underline underline-offset-4 hover:text-[var(--ink)]">About UmberLore</a>
+			</p>
+		</div>
+		<div class="placard">
+			<p class="wall-label-dept m-0">Fact or fiction?</p>
+			<p class="font-prose mt-3 mb-0 text-[1.05rem] leading-relaxed text-[var(--ink)]/85">
+				A short quiz built from claims in these studies: a museum attribution, a restoration
+				finding, a disputed date. Guess whether each one holds up against the record.
+				<a href="/fact-or-fiction/" class="ml-1 whitespace-nowrap text-[var(--flag-dark)] underline underline-offset-4 hover:text-[var(--ink)]">Take the quiz</a>
+			</p>
+		</div>
+	</section>
 
 	{!lead && (
 		<div class="mt-10 text-sm text-[var(--ink)]/40">
@@ -100,30 +147,71 @@ import { imgDims } from '../data/imageDims';
 </Layout>
 
 <style>
-	.lead .plate,
-	.work .plate {
+	/* Room directory: one scrolling line on phones, wraps on wider screens. */
+	.rooms {
+		overflow-x: auto;
+		white-space: nowrap;
+		scrollbar-width: none;
+	}
+	.rooms::-webkit-scrollbar {
+		display: none;
+	}
+	@media (min-width: 768px) {
+		.rooms {
+			overflow-x: visible;
+			white-space: normal;
+		}
+	}
+
+	/* Thumbnail plate: the same white mat and hairline as a full plate, scaled
+	   down to a 4:3 swatch so a row stays about 90px tall. */
+	.thumb {
+		display: block;
+		width: 5.5rem;
+		aspect-ratio: 4 / 3;
+		background: var(--mat);
+		border: 1px solid var(--rule);
+		padding: 3px;
+		box-shadow: 0 1px 2px rgb(33 31 28 / 0.05);
+		transition:
+			transform 0.2s ease,
+			box-shadow 0.2s ease;
+	}
+	.thumb > img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.thumb-blank {
+		background:
+			linear-gradient(135deg, transparent 47%, var(--rule) 47%, var(--rule) 53%, transparent 53%),
+			var(--mat);
+	}
+
+	.lead .plate {
 		transition:
 			transform 0.2s ease,
 			box-shadow 0.2s ease;
 	}
 	.lead:hover .plate,
-	.work:hover .plate {
+	.entry:hover .thumb {
 		transform: translateY(-2px);
 		box-shadow:
 			0 2px 4px rgb(33 31 28 / 0.06),
 			0 16px 36px -14px rgb(33 31 28 / 0.24);
 	}
-	.work:hover .work-title {
+	.entry:hover .entry-title {
 		text-decoration: underline;
 		text-underline-offset: 3px;
 	}
 	@media (prefers-reduced-motion: reduce) {
 		.lead .plate,
-		.work .plate {
+		.thumb {
 			transition: none;
 		}
 		.lead:hover .plate,
-		.work:hover .plate {
+		.entry:hover .thumb {
 			transform: none;
 		}
 	}
