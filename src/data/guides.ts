@@ -3676,7 +3676,7 @@ export const guides: Guide[] = [
     "title": "Michelangelo's Sistine Chapel Painting: 'It Is Not My Art'",
     "description": "Michelangelo painted the Sistine Chapel ceiling standing upright for four and a half years, not lying down, and built his own scaffold after rejecting the pope's design.",
     "published": "2026-08-11",
-    "updated": "2026-08-11",
+    "updated": "2026-09-12",
     "coreSummary": "Michelangelo painted the Sistine Chapel ceiling standing on a platform of his own design, leaning his head and torso backward for four and a half years, not lying on his back as the popular image holds. He took the 1508 commission only after Pope Julius II's allies talked him back to Rome, rejected the pope's own architect's scaffold plan in favor of one he built himself, watched his first finished section grow mold within months, and wrote to a friend in a sonnet that his eyesight and judgment had gone crooked from the strain, since \"'tis ill shooting through a twisted reed.\"",
     "image": "/images/michelangelo-sistine-ceiling-full.jpg",
     "imageAlt": "The full ceiling of the Sistine Chapel, painted by Michelangelo between 1508 and 1512, showing the Genesis scenes and surrounding prophets and sibyls.",
@@ -3711,7 +3711,7 @@ export const guides: Guide[] = [
       {
         "heading": "The sonnet he sent a friend",
         "body": [
-          "Sometime around 1509, a year or so into the job, Michelangelo sent a sonnet to Giovanni da Pistoia, a member of Florence's literary academy who had written to him first. The English translation by the Victorian scholar John Addington Symonds, still the most widely reprinted version, has Michelangelo describing his own body distorted by the posture:",
+          "Sometime around 1509, a year or so into the job, Michelangelo sent a sonnet to Giovanni da Pistoia, a member of Florence's literary academy who had written to him first. The English translation below, by S. Elizabeth Hall from her 1903 collection of Michelangelo's sonnets, has Michelangelo describing his own body distorted by the posture:",
           "\"In this hard toil I've such a goiter grown, / Like cats that water drink in Lombardy, / (Or wheresoever else the place may be) / That chin and belly meet perforce in one. / My beard doth point to heaven, my scalp its place / Upon my shoulder finds; my chest, you'll say, / A harpy's is, my paintbrush all the day / Doth drop a rich mosaic on my face. / My loins have entered my paunch within, / My nether end my balance doth supply, / My feet unseen move to and fro in vain. / In front to utmost length is stretched my skin / And wrinkled up in folds behind, while I / Am bent as bowmen bend a bow in Spain. / No longer true or sane, / The judgment now doth from the mind proceed, / For 'tis ill shooting through a twisted reed.\"",
           "The poem is not subtle about what a year of overhead work had already done to him, roughly three more still ahead: paint dripping onto his own face, his spine curved into a permanent arch, and by the closing lines, a suspicion that the distortion had reached his judgment along with his back. It reads less like the complaint of an artist confident he was making a masterpiece and more like a man convinced the job had bent him out of shape in every sense."
         ]
@@ -3751,7 +3751,7 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Did Michelangelo paint the Sistine Chapel ceiling lying on his back?",
-        "answer": "No. He worked standing on a raised wooden platform of his own design, about seven feet below the vault, leaning his head and upper body backward with his arms raised overhead. The image of him lying flat comes from later popular retellings and especially from the 1965 film \"The Agony and the Ecstasy,\" not from any record made during his lifetime. Michelangelo's own marginal sketch of himself at work, drawn beside his sonnet about the ordeal, shows him upright."
+        "answer": "No. He worked standing on a raised wooden platform of his own design, about seven feet below the vault, leaning his head and upper body backward with his arms raised overhead. The reclining image is a later invention, popularized above all by the 1965 film \"The Agony and the Ecstasy\"; no source written in his lifetime describes him that way. Michelangelo's own marginal sketch of himself at work, drawn beside his sonnet about the ordeal, shows him upright."
       },
       {
         "question": "How long did it take Michelangelo to paint the Sistine Chapel ceiling?",
@@ -3771,7 +3771,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Was the 1980s-1990s restoration of the ceiling controversial?",
-        "answer": "Yes. Cleaning revealed colors considerably brighter than the muted palette scholars had long assumed was original. Critics including art historian James Beck and writer Waldemar Januszczak argued the restoration removed a final layer of shadow and glazing that Michelangelo added himself after the plaster dried, along with the grime, so some of what came off was the artist's own work rather than dirt."
+        "answer": "Yes. Cleaning revealed colors considerably brighter than the muted palette scholars had long assumed was original. Critics including art historian James Beck and writer Waldemar Januszczak argued the cleaning also took off a layer of shading and glaze that Michelangelo brushed on once the plaster had set, so part of what came away was his own finishing work, not just centuries of dirt."
       }
     ],
     "sources": [
@@ -3788,7 +3788,7 @@ export const guides: Guide[] = [
         "url": "https://theconversation.com/michelangelo-hated-painting-the-sistine-chapel-and-never-aspired-to-be-a-painter-to-begin-with-275788"
       },
       {
-        "label": "Harper's Magazine (Scott Horton): Michelangelo, Painting the Sistine Chapel (quoting the Symonds translation)",
+        "label": "Harper's Magazine (Scott Horton): Michelangelo, Painting the Sistine Chapel (quoting the S. Elizabeth Hall translation)",
         "url": "https://harpers.org/2010/05/michelangelo-painting-the-sistine-chapel/"
       },
       {
