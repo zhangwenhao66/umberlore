@@ -57,3 +57,21 @@ Not re-evaluated — 8/22 and 8/29 conclusions stand (Show HN ill-fitting for a 
 ### Distribution count
 
 Still 2/10 (no new target found this round). Continue on future runs.
+
+---
+
+## 2026-09-12 — distribution pass #4 (capacity-concentration rule)
+
+**Site selection**: recomputed 28-day 11-30-position impressions across the 7 non-suppressed traffic sites (excluding CalcBadger/DialWick, which get a fixed priority slot instead of exclusion per the 2026-09-04 revision, and LingoGrove, still excluded as ranking-suppressed): umberlore(563) > wagelark(328) > mythcairn(67) > factcrumbs(38) > dayalmanac(33) > hollowvane(14) > warcrumbs(10). DialWick took this run's fixed priority slot (never processed by this task before). UmberLore is #1 of the remaining top-3.
+
+**Order of work**: continued distribution of the one published asset (peak-creation-age data study; distribution count 2/10 going in, from CreativeLive 8/22 and gitnux.org 8/29) rather than building a new asset.
+
+**Step 2 (unlinked-mention recovery)**: WebSearch `"umberlore.com" OR "artist-peak-creation-age"` — no results referencing the site. No recovery opportunity this round.
+
+**Step 3 (pitch)**: found zipdo.co, a statistics-aggregator site (same category as gitnux.org) with a live "Global Creative Industry Statistics" report page that has no existing stat on age/peak-creativity. Drafted a pitch offering the dataset; independent review agent verified every number against the live page, confirmed the target page and contact (info@zipdo.co) are real and live, confirmed no dedup conflict, and returned CAN SEND.
+
+**Step 3.5**: not re-evaluated — 8/22 and 8/29 conclusions stand.
+
+**Not sent**: withheld per the SES migration freeze (see `独立站/待Owen处理事项.md`) — the 14 matrix domains' Gmail "Send mail as" still routes through Mailjet, which Mailjet has told Owen it no longer permits. Drafted and reviewed (CAN SEND), stored in `outreach-drafts.md`, marked `drafted_blocked_by_ses_migration`.
+
+**Distribution count**: 2/10 sent + 1/10 drafted-and-approved-but-withheld = 3 targets identified so far. Still below the ≥10-target saturation bar.

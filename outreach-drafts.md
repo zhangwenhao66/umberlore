@@ -462,3 +462,29 @@ Pitch angle drafted from the `michelangelo-sistine-chapel` guide entry: the 1980
 - Renaissance-focused Substacks surfaced by search (The Culture Dump, Renaissance Readings, billconnolly.substack.com) are single-author newsletters with no visible guest-contributor model; not pursued.
 
 **sent:** none this round (Sartle follow-up drafted, not sent, per SES freeze).
+
+---
+
+## Pitch 9 — ZipDo (info@zipdo.co) — 2026-09-12 distribution pass #4
+
+Status: DRAFTED, pending independent review.
+
+Subject: A sourced stat for your creative-industry statistics page
+
+Hi,
+
+I run UmberLore, an art-history site. We put together a dataset on 64 well-known paintings spanning the 15th to 20th century, tracking each artist's age when they made their best-known work.
+
+The median age was 39.5. The range ran from 20 (Artemisia Gentileschi, Judith Slaying Holofernes) to 71 (Hokusai's Great Wave and Mondrian's Broadway Boogie Woogie, tied). Only 11% of the group made their best-known piece in their final five years of life.
+
+Your creative-industry statistics page (zipdo.co/creative-industry-statistics/) doesn't currently have anything on age and peak creative output. Full dataset, methodology, and sourcing for every year (birth, death, completion) is here if useful: https://umberlore.com/artist-peak-creation-age/. CSV download included.
+
+Happy to answer questions about how any of it was compiled.
+
+Thanks,
+Owen
+UmberLore
+
+**Verification notes**: Target found via WebSearch (`zipdo.co creativity statistics page contact`, `site:zipdo.co creativity age statistics`) — zipdo.co is a real statistics-aggregator site (same category as gitnux.org, which UmberLore successfully pitched 2026-08-29) with a live "Global Creative Industry Statistics" report page that has no existing age/peak-creativity stat. Contact `info@zipdo.co` confirmed live via `curl` on `https://zipdo.co/contact-us/`. Dedup: `gmail_send.py list --query "to:zipdo.co"` → empty; `grep -ril "zipdo.co" 独立站/` → no prior contact (gitnux.org, a different domain, was the 8/29 target — not reused here to avoid a second email to a similar-sounding but distinct aggregator within the same run). All numbers (median 39.5, range 20-71, 11%) match the original 2026-08-22 publish-log entry; re-verified against the live page before sending (see distribution-count note below).
+
+**Status: ⛔ NOT SENT this run — blocked by the SES migration freeze.** Independent review verdict was CAN SEND (all facts verified against the live page, contact confirmed live, no dedup conflict). Withholding actual send anyway: as of this run, the 14 matrix domains' Gmail "Send mail as" still routes through Mailjet, which Mailjet has told Owen it no longer permits for this use (see `独立站/待Owen处理事项.md` "SES迁移期间..." and `独立站/邮件发信基础设施迁移_AWS_SES_20260907.md`, both still open as of this run). Marked `drafted_blocked_by_ses_migration`; send once Owen completes the SES cutover and a task re-verifies the numbers are still live-accurate.
