@@ -2321,3 +2321,18 @@
   "escalation": null
 }
 ```
+
+## 2026-09-12 CTR 受控标题测试（八件事第 7 项，skill title-ctr-rewrite，快照 `seo-geo-trinity/data/title_tests/umberlore-0912-ctr.json`）
+依据：`独立站/十站数据诊断_GSC-Bing-Clarity_20260912.md`——本站 26 页排 4-20 名、28 天 3,329 曝光只有 17 点击。`title_test.py candidates` 只给出 4 页，其中 frank-lloyd-wright 查询词面只有 3 曝光无法镜像查询（R2），未改。只改 `title`（R7），全部只加不减（R1），快照 `title_terms_with_impressions` 的词一个没丢。改前 WebSearch 看过主查询前十：fallen angel 结果里 Wikipedia/Art de Vivre 都带"位置/故事"角度，hercules-mother 类问句标题常见。
+
+| 页 | 改前 | 改后 | 假设 |
+|---|---|---|---|
+| /fallen-angel-painting/ | Fallen Angel Painting by Cabanel: Was It Really Controversial? | Fallen Angel Painting by Cabanel: Location, Was It Controversial? | 加 Location，镜像 "fallen angel painting location"(20@8.4)/"where is … located"(11@9.3) 这组 8-10 名零点击查询；去掉无曝光的 Really |
+| /cristina-kahlo/ | Cristina Kahlo: The Sister in Four Kahlo and Rivera Artworks | Cristina Kahlo: Frida's Sister, Painted by Diego Rivera | 加 Frida/Diego，镜像 "cristina kahlo painting by diego rivera"(42@8.3)、"frida kahlo sister cristina"(7@10.3) |
+| /diego-rivera/ | Diego Rivera: The Mural Rockefeller Chiseled Off | Diego Rivera: The Lenin Mural Rockefeller Chiseled Off in 1934 | 加 Lenin + 1934（正文已核：1934 年被凿掉），镜像 "diego rivera lenin mural"(5@9.8) |
+
+对照组（不改）：/what-is-a-gargoyle/、/icarus-painting/、/ghost-of-a-flea/、/st-peters-basilica/。
+lint：三条均 WARN 超 48 字符（55/62/65），保留理由：原标题本就 48-60 字符，R1 不允许删词，只能加不能减；均 ≤65 未 FAIL。
+落地：commit 81f5892，push 即部署；IndexNow 已提交 3 URL（Bing/Yandex 200）。
+复核：第 3-7 天 SERP 看新标题是否被采用；2026-09-26 `title_test.py evaluate --label umberlore-0912-ctr --days 14` 初读，2026-10-10 定去留；ROLLBACK 即恢复快照里的 title_before。
+⚠️ diego-rivera 标题含年份 1934 是历史年份不是应景年份，不进年度刷新清单。
