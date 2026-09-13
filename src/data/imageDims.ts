@@ -507,6 +507,222 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 441,
   "w": 445
  },
+ "/images/responsive/abstract-art-kandinsky-untitled-watercolor-sm.jpg": {
+  "h": 577,
+  "w": 750
+ },
+ "/images/responsive/aphrodite-painting-titian-venus-urbino-sm.jpg": {
+  "h": 527,
+  "w": 750
+ },
+ "/images/responsive/architectural-painting-grote-kerk-haarlem-sm.jpg": {
+  "h": 546,
+  "w": 750
+ },
+ "/images/responsive/art-deco-chrysler-building-1930-sm.jpg": {
+  "h": 978,
+  "w": 750
+ },
+ "/images/responsive/art-styles-monet-impression-sunrise-sm.jpg": {
+  "h": 584,
+  "w": 750
+ },
+ "/images/responsive/aztec-sun-stone-museo-antropologia-sm.jpg": {
+  "h": 586,
+  "w": 750
+ },
+ "/images/responsive/birth-of-venus-uffizi-sm.jpg": {
+  "h": 471,
+  "w": 750
+ },
+ "/images/responsive/black-square-malevich-tretyakov-sm.jpg": {
+  "h": 750,
+  "w": 750
+ },
+ "/images/responsive/bonampak-murals-reproduction-mna-sm.jpg": {
+  "h": 363,
+  "w": 750
+ },
+ "/images/responsive/byzantine-mosaics-sm.jpg": {
+  "h": 1272,
+  "w": 750
+ },
+ "/images/responsive/caravaggio-calling-of-saint-matthew-sm.jpg": {
+  "h": 701,
+  "w": 750
+ },
+ "/images/responsive/caravaggio-narcissus-sm.jpg": {
+  "h": 916,
+  "w": 750
+ },
+ "/images/responsive/chiaroscuro-woodcut-cranach-saint-christopher-sm.jpg": {
+  "h": 1043,
+  "w": 750
+ },
+ "/images/responsive/daguerreotype-boulevard-du-temple-1838-sm.jpg": {
+  "h": 539,
+  "w": 750
+ },
+ "/images/responsive/edvard-munch-the-scream-1893-sm.jpg": {
+  "h": 931,
+  "w": 750
+ },
+ "/images/responsive/encaustic-painting-fayum-laurel-wreath-aic-sm.jpg": {
+  "h": 1000,
+  "w": 750
+ },
+ "/images/responsive/fallen-angel-cabanel-1847-sm.jpg": {
+  "h": 473,
+  "w": 750
+ },
+ "/images/responsive/fallingwater-exterior-sm.jpg": {
+  "h": 562,
+  "w": 750
+ },
+ "/images/responsive/famous-landscape-heart-of-the-andes-sm.jpg": {
+  "h": 413,
+  "w": 750
+ },
+ "/images/responsive/famous-paintings-night-watch-rijksmuseum-sm.jpg": {
+  "h": 610,
+  "w": 750
+ },
+ "/images/responsive/famous-portraits-las-meninas-sm.jpg": {
+  "h": 854,
+  "w": 750
+ },
+ "/images/responsive/famous-renaissance-paintings-adoration-magi-sm.jpg": {
+  "h": 711,
+  "w": 750
+ },
+ "/images/responsive/frida-kahlo-portrait-1919-sm.jpg": {
+  "h": 961,
+  "w": 750
+ },
+ "/images/responsive/gargoyle-notre-dame-rainwater-sm.jpg": {
+  "h": 1727,
+  "w": 750
+ },
+ "/images/responsive/ghost-of-a-flea-sm.jpg": {
+  "h": 1024,
+  "w": 750
+ },
+ "/images/responsive/icarus-painting-bruegel-brussels-sm.jpg": {
+  "h": 482,
+  "w": 750
+ },
+ "/images/responsive/joan-of-arc-painting-sm.jpg": {
+  "h": 679,
+  "w": 750
+ },
+ "/images/responsive/john-martin-great-day-of-his-wrath-tate-sm.jpg": {
+  "h": 490,
+  "w": 750
+ },
+ "/images/responsive/kahlo-sisters-1916-sm.jpg": {
+  "h": 786,
+  "w": 750
+ },
+ "/images/responsive/kandinsky-composition-8-1923-sm.jpg": {
+  "h": 519,
+  "w": 750
+ },
+ "/images/responsive/klimt-the-kiss-hero-sm.jpg": {
+  "h": 421,
+  "w": 750
+ },
+ "/images/responsive/majolica-pucci-dish-1532-sm.jpg": {
+  "h": 562,
+  "w": 750
+ },
+ "/images/responsive/mandala-jnanadakini-met-14thc-sm.jpg": {
+  "h": 864,
+  "w": 750
+ },
+ "/images/responsive/michelangelo-sistine-ceiling-full-sm.jpg": {
+  "h": 1005,
+  "w": 750
+ },
+ "/images/responsive/mona-lisa-sm.jpg": {
+  "h": 1118,
+  "w": 750
+ },
+ "/images/responsive/ophelia-millais-tate-sm.jpg": {
+  "h": 510,
+  "w": 750
+ },
+ "/images/responsive/pandemonium-john-martin-louvre-sm.jpg": {
+  "h": 495,
+  "w": 750
+ },
+ "/images/responsive/papunya-school-1972-sm.jpg": {
+  "h": 483,
+  "w": 750
+ },
+ "/images/responsive/pop-art-whitechapel-gallery-exterior-sm.jpg": {
+  "h": 1000,
+  "w": 750
+ },
+ "/images/responsive/rebay-guggenheim-kandinsky-bauhaus-1929-sm.jpg": {
+  "h": 518,
+  "w": 750
+ },
+ "/images/responsive/rembrandt-anatomy-lesson-nicolaes-tulp-sm.jpg": {
+  "h": 565,
+  "w": 750
+ },
+ "/images/responsive/rembrandt-night-watch-rijksmuseum-sm.jpg": {
+  "h": 610,
+  "w": 750
+ },
+ "/images/responsive/romanesque-painting-taull-apse-sm.jpg": {
+  "h": 1126,
+  "w": 750
+ },
+ "/images/responsive/sagrada-familia-nativity-facade-sm.jpg": {
+  "h": 1165,
+  "w": 750
+ },
+ "/images/responsive/saturn-devouring-his-son-goya-sm.jpg": {
+  "h": 1378,
+  "w": 750
+ },
+ "/images/responsive/schiele-orange-only-light-1912-sm.jpg": {
+  "h": 483,
+  "w": 750
+ },
+ "/images/responsive/simonetta-vespucci-piero-di-cosimo-sm.jpg": {
+  "h": 1047,
+  "w": 750
+ },
+ "/images/responsive/st-peters-basilica-facade-sm.jpg": {
+  "h": 499,
+  "w": 750
+ },
+ "/images/responsive/starry-night-moma-sm.jpg": {
+  "h": 594,
+  "w": 750
+ },
+ "/images/responsive/the-milkmaid-vermeer-sm.jpg": {
+  "h": 841,
+  "w": 750
+ },
+ "/images/responsive/van-gogh-bedroom-arles-1888-sm.jpg": {
+  "h": 422,
+  "w": 750
+ },
+ "/images/responsive/water-lilies-orangerie-room-sm.jpg": {
+  "h": 422,
+  "w": 750
+ },
+ "/images/responsive/wheelwright-museum-entrance-sm.jpg": {
+  "h": 499,
+  "w": 750
+ },
+ "/images/responsive/whistler-nocturne-black-and-gold-falling-rocket-sm.jpg": {
+  "h": 997,
+  "w": 750
+ },
  "/images/robie-house-exterior.jpg": {
   "h": 1200,
   "w": 1600

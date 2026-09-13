@@ -62,6 +62,19 @@ function md(text: string): string {
 		.replace(/\[([^\]]+)\]\(((?:[^()]|\([^()]*\))*)\)/g, '<a href="$2">$1</a>');
 }
 import { imgDims } from '../data/imageDims';
+import { RESPONSIVE_HERO } from '../data/responsiveHero';
+// 2026-09-13 响应式 hero 图：见 独立站/CWV月检记录.md「响应式图片改造」一节。本站 hero 图
+// 用 contain 布局保留原图完整宽高比（不像 factcrumbs/warcrumbs 裁成固定 16:9），真实展示
+// 宽度是 `.hero-plate` 的 `min(100%, calc(<断点maxHeight> * w/h))` 公式算出来的、随每张图
+// 宽高比变化的值——所以 sizes 不能写死一个容器宽度，要把这张图自己的 w/h 代进同一条公式，
+// 让浏览器按这张图实际会渲染多宽来选 srcset 档位（跟 CSS 里 .hero-plate 用的公式必须一致，
+// 否则会选错档）。580px/880px 分别对应 main 在 <768px / ≥768px 两档的左右内边距（20px/32px）
+// 相对 mx-auto max-w-[880px] 外层容器算出的可用宽度上限。
+const heroDims = guide.image ? imgDims(guide.image) : undefined;
+const heroResponsive = guide.image ? RESPONSIVE_HERO[guide.image] : undefined;
+const heroSizes = heroDims
+	? `(min-width: 768px) min(calc(100vw - 64px), 880px, calc(72vh * ${heroDims.w} / ${heroDims.h})), min(calc(100vw - 40px), calc(585px * ${heroDims.w} / ${heroDims.h}))`
+	: undefined;
 ---
 
 <Layout title={guide.title} description={guide.description} ogImage={guide.image ?? '/favicon.svg'} ogType="article">
@@ -126,6 +139,8 @@ import { imgDims } from '../data/imageDims';
 						width={imgDims(guide.image)?.w}
 						height={imgDims(guide.image)?.h}
 						style={imgDims(guide.image) ? `aspect-ratio: ${imgDims(guide.image)!.w} / ${imgDims(guide.image)!.h};` : undefined}
+						srcset={heroResponsive ? `${heroResponsive.mobile} ${heroResponsive.w}w, ${guide.image} ${heroDims?.w}w` : undefined}
+						sizes={heroResponsive ? heroSizes : undefined}
 					/>
 				</div>
 				{guide.imageCredit && (

@@ -1,0 +1,553 @@
+{
+ "/images/gargoyle-notre-dame-rainwater.jpg": {
+  "fingerprint": "1789196494529484680:1046663:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/gargoyle-notre-dame-rainwater-sm.jpg",
+   "w": 750,
+   "h": 1727
+  },
+  "desktop_rel": "/images/gargoyle-notre-dame-rainwater.jpg"
+ },
+ "/images/van-gogh-bedroom-arles-1888.jpg": {
+  "fingerprint": "1789196496543155744:526021:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/van-gogh-bedroom-arles-1888-sm.jpg",
+   "w": 750,
+   "h": 422
+  },
+  "desktop_rel": "/images/van-gogh-bedroom-arles-1888.jpg"
+ },
+ "/images/water-lilies-orangerie-room.jpg": {
+  "fingerprint": "1789196496718444641:168331:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/water-lilies-orangerie-room-sm.jpg",
+   "w": 750,
+   "h": 422
+  },
+  "desktop_rel": "/images/water-lilies-orangerie-room.jpg"
+ },
+ "/images/mona-lisa.jpg": {
+  "fingerprint": "1789196495574641132:1224328:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/mona-lisa-sm.jpg",
+   "w": 750,
+   "h": 1118
+  },
+  "desktop_rel": "/images/mona-lisa.jpg"
+ },
+ "/images/klimt-the-kiss-hero.jpg": {
+  "fingerprint": "1789196495099197179:388782:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/klimt-the-kiss-hero-sm.jpg",
+   "w": 750,
+   "h": 421
+  },
+  "desktop_rel": "/images/klimt-the-kiss-hero.jpg"
+ },
+ "/images/famous-paintings-night-watch-rijksmuseum.jpg": {
+  "fingerprint": "1789196494126067937:287499:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/famous-paintings-night-watch-rijksmuseum-sm.jpg",
+   "w": 750,
+   "h": 610
+  },
+  "desktop_rel": "/images/famous-paintings-night-watch-rijksmuseum.jpg"
+ },
+ "/images/abstract-art-kandinsky-untitled-watercolor.jpg": {
+  "fingerprint": "1789196493045438496:404365:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/abstract-art-kandinsky-untitled-watercolor-sm.jpg",
+   "w": 750,
+   "h": 577
+  },
+  "desktop_rel": "/images/abstract-art-kandinsky-untitled-watercolor.jpg"
+ },
+ "/images/pop-art-whitechapel-gallery-exterior.jpg": {
+  "fingerprint": "1789196496019207853:350689:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/pop-art-whitechapel-gallery-exterior-sm.jpg",
+   "w": 750,
+   "h": 1000
+  },
+  "desktop_rel": "/images/pop-art-whitechapel-gallery-exterior.jpg"
+ },
+ "/images/fallingwater-exterior.jpg": {
+  "fingerprint": "1789196493900999916:558836:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/fallingwater-exterior-sm.jpg",
+   "w": 750,
+   "h": 562
+  },
+  "desktop_rel": "/images/fallingwater-exterior.jpg"
+ },
+ "/images/st-peters-basilica-facade.jpg": {
+  "fingerprint": "1789196496465673666:363898:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/st-peters-basilica-facade-sm.jpg",
+   "w": 750,
+   "h": 499
+  },
+  "desktop_rel": "/images/st-peters-basilica-facade.jpg"
+ },
+ "/images/edvard-munch-the-scream-1893.jpg": {
+  "fingerprint": "1789196493787786770:333343:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/edvard-munch-the-scream-1893-sm.jpg",
+   "w": 750,
+   "h": 931
+  },
+  "desktop_rel": "/images/edvard-munch-the-scream-1893.jpg"
+ },
+ "/images/frida-kahlo-portrait-1919.jpg": {
+  "fingerprint": "1789196494380144473:147338:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/frida-kahlo-portrait-1919-sm.jpg",
+   "w": 750,
+   "h": 961
+  },
+  "desktop_rel": "/images/frida-kahlo-portrait-1919.jpg"
+ },
+ "/images/sagrada-familia-nativity-facade.jpg": {
+  "fingerprint": "1789196496225095571:308974:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/sagrada-familia-nativity-facade-sm.jpg",
+   "w": 750,
+   "h": 1165
+  },
+  "desktop_rel": "/images/sagrada-familia-nativity-facade.jpg"
+ },
+ "/images/starry-night-moma.jpg": {
+  "fingerprint": "1789196496480889578:249393:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/starry-night-moma-sm.jpg",
+   "w": 750,
+   "h": 594
+  },
+  "desktop_rel": "/images/starry-night-moma.jpg"
+ },
+ "/images/saturn-devouring-his-son-goya.jpg": {
+  "fingerprint": "1789196496294467617:225184:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/saturn-devouring-his-son-goya-sm.jpg",
+   "w": 750,
+   "h": 1378
+  },
+  "desktop_rel": "/images/saturn-devouring-his-son-goya.jpg"
+ },
+ "/images/andy-warhol-jack-mitchell-portrait.jpg": {
+  "fingerprint": "1789196493049358305:46570:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/andy-warhol-jack-mitchell-portrait.jpg"
+ },
+ "/images/art-deco-chrysler-building-1930.jpg": {
+  "fingerprint": "1789196493144620543:214556:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/art-deco-chrysler-building-1930-sm.jpg",
+   "w": 750,
+   "h": 978
+  },
+  "desktop_rel": "/images/art-deco-chrysler-building-1930.jpg"
+ },
+ "/images/diego-rivera-portrait-1932.jpg": {
+  "fingerprint": "1785993762688273425:49916:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/diego-rivera-portrait-1932.jpg"
+ },
+ "/images/kandinsky-composition-8-1923.jpg": {
+  "fingerprint": "1788080581937778268:143193:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/kandinsky-composition-8-1923-sm.jpg",
+   "w": 750,
+   "h": 519
+  },
+  "desktop_rel": "/images/kandinsky-composition-8-1923.jpg"
+ },
+ "/images/birth-of-venus-uffizi.jpg": {
+  "fingerprint": "1789196493390033474:458968:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/birth-of-venus-uffizi-sm.jpg",
+   "w": 750,
+   "h": 471
+  },
+  "desktop_rel": "/images/birth-of-venus-uffizi.jpg"
+ },
+ "/images/venus-de-milo-louvre.jpg": {
+  "fingerprint": "1789196496619511673:95417:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/venus-de-milo-louvre.jpg"
+ },
+ "/images/renaissance-art-vasari-self-portrait.jpg": {
+  "fingerprint": "1789196496142329041:82673:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/renaissance-art-vasari-self-portrait.jpg"
+ },
+ "/images/ophelia-millais-tate.jpg": {
+  "fingerprint": "1789196495643085277:485348:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/ophelia-millais-tate-sm.jpg",
+   "w": 750,
+   "h": 510
+  },
+  "desktop_rel": "/images/ophelia-millais-tate.jpg"
+ },
+ "/images/daguerreotype-boulevard-du-temple-1838.jpg": {
+  "fingerprint": "1789196493684301129:376447:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/daguerreotype-boulevard-du-temple-1838-sm.jpg",
+   "w": 750,
+   "h": 539
+  },
+  "desktop_rel": "/images/daguerreotype-boulevard-du-temple-1838.jpg"
+ },
+ "/images/jackson-pollock-barn-studio.jpg": {
+  "fingerprint": "1789196494770662015:106173:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/jackson-pollock-barn-studio.jpg"
+ },
+ "/images/art-styles-monet-impression-sunrise.jpg": {
+  "fingerprint": "1789196493238789091:423816:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/art-styles-monet-impression-sunrise-sm.jpg",
+   "w": 750,
+   "h": 584
+  },
+  "desktop_rel": "/images/art-styles-monet-impression-sunrise.jpg"
+ },
+ "/images/michelangelo-sistine-ceiling-full.jpg": {
+  "fingerprint": "1789196495329662194:552315:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/michelangelo-sistine-ceiling-full-sm.jpg",
+   "w": 750,
+   "h": 1005
+  },
+  "desktop_rel": "/images/michelangelo-sistine-ceiling-full.jpg"
+ },
+ "/images/fallen-angel-cabanel-1847.jpg": {
+  "fingerprint": "1789196493846785282:179163:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/fallen-angel-cabanel-1847-sm.jpg",
+   "w": 750,
+   "h": 473
+  },
+  "desktop_rel": "/images/fallen-angel-cabanel-1847.jpg"
+ },
+ "/images/mandala-jnanadakini-met-14thc.jpg": {
+  "fingerprint": "1786524194288865060:906123:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/mandala-jnanadakini-met-14thc-sm.jpg",
+   "w": 750,
+   "h": 864
+  },
+  "desktop_rel": "/images/mandala-jnanadakini-met-14thc.jpg"
+ },
+ "/images/architectural-painting-grote-kerk-haarlem.jpg": {
+  "fingerprint": "1789196493130044412:67177:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/architectural-painting-grote-kerk-haarlem-sm.jpg",
+   "w": 750,
+   "h": 546
+  },
+  "desktop_rel": "/images/architectural-painting-grote-kerk-haarlem.jpg"
+ },
+ "/images/cloisonne-fieschi-morgan-staurotheke-met.jpg": {
+  "fingerprint": "1789196493656342472:47865:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/cloisonne-fieschi-morgan-staurotheke-met.jpg"
+ },
+ "/images/rembrandt-night-watch-rijksmuseum.jpg": {
+  "fingerprint": "1789196496120691278:276445:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/rembrandt-night-watch-rijksmuseum-sm.jpg",
+   "w": 750,
+   "h": 610
+  },
+  "desktop_rel": "/images/rembrandt-night-watch-rijksmuseum.jpg"
+ },
+ "/images/caravaggio-calling-of-saint-matthew.jpg": {
+  "fingerprint": "1789196493532302174:306719:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/caravaggio-calling-of-saint-matthew-sm.jpg",
+   "w": 750,
+   "h": 701
+  },
+  "desktop_rel": "/images/caravaggio-calling-of-saint-matthew.jpg"
+ },
+ "/images/aztec-sun-stone-museo-antropologia.jpg": {
+  "fingerprint": "1789196493291981616:291994:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/aztec-sun-stone-museo-antropologia-sm.jpg",
+   "w": 750,
+   "h": 586
+  },
+  "desktop_rel": "/images/aztec-sun-stone-museo-antropologia.jpg"
+ },
+ "/images/frida-kahlo-portrait-1932.jpg": {
+  "fingerprint": "1786941889510509866:112961:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/frida-kahlo-portrait-1932.jpg"
+ },
+ "/images/whistler-nocturne-black-and-gold-falling-rocket.jpg": {
+  "fingerprint": "1789196496788491051:301732:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/whistler-nocturne-black-and-gold-falling-rocket-sm.jpg",
+   "w": 750,
+   "h": 997
+  },
+  "desktop_rel": "/images/whistler-nocturne-black-and-gold-falling-rocket.jpg"
+ },
+ "/images/bonampak-murals-reproduction-mna.jpg": {
+  "fingerprint": "1789196493427464931:202742:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/bonampak-murals-reproduction-mna-sm.jpg",
+   "w": 750,
+   "h": 363
+  },
+  "desktop_rel": "/images/bonampak-murals-reproduction-mna.jpg"
+ },
+ "/images/psychedelic-art-roller-secession-poster-1902.jpg": {
+  "fingerprint": "1789196496051098610:121820:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/psychedelic-art-roller-secession-poster-1902.jpg"
+ },
+ "/images/papunya-school-1972.jpg": {
+  "fingerprint": "1789196495939093362:204337:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/papunya-school-1972-sm.jpg",
+   "w": 750,
+   "h": 483
+  },
+  "desktop_rel": "/images/papunya-school-1972.jpg"
+ },
+ "/images/encaustic-painting-fayum-laurel-wreath-aic.jpg": {
+  "fingerprint": "1789196493812360317:86418:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/encaustic-painting-fayum-laurel-wreath-aic-sm.jpg",
+   "w": 750,
+   "h": 1000
+  },
+  "desktop_rel": "/images/encaustic-painting-fayum-laurel-wreath-aic.jpg"
+ },
+ "/images/romanesque-painting-taull-apse.jpg": {
+  "fingerprint": "1789196496195946351:316852:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/romanesque-painting-taull-apse-sm.jpg",
+   "w": 750,
+   "h": 1126
+  },
+  "desktop_rel": "/images/romanesque-painting-taull-apse.jpg"
+ },
+ "/images/famous-renaissance-paintings-adoration-magi.jpg": {
+  "fingerprint": "1789196494328913081:364906:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/famous-renaissance-paintings-adoration-magi-sm.jpg",
+   "w": 750,
+   "h": 711
+  },
+  "desktop_rel": "/images/famous-renaissance-paintings-adoration-magi.jpg"
+ },
+ "/images/majolica-pucci-dish-1532.jpg": {
+  "fingerprint": "1789196495154974745:237409:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/majolica-pucci-dish-1532-sm.jpg",
+   "w": 750,
+   "h": 562
+  },
+  "desktop_rel": "/images/majolica-pucci-dish-1532.jpg"
+ },
+ "/images/ghost-of-a-flea.jpg": {
+  "fingerprint": "1789196494676928669:611647:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/ghost-of-a-flea-sm.jpg",
+   "w": 750,
+   "h": 1024
+  },
+  "desktop_rel": "/images/ghost-of-a-flea.jpg"
+ },
+ "/images/famous-landscape-heart-of-the-andes.jpg": {
+  "fingerprint": "1789196493983875694:323561:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/famous-landscape-heart-of-the-andes-sm.jpg",
+   "w": 750,
+   "h": 413
+  },
+  "desktop_rel": "/images/famous-landscape-heart-of-the-andes.jpg"
+ },
+ "/images/wheelwright-museum-entrance.jpg": {
+  "fingerprint": "1789196496764153917:421775:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/wheelwright-museum-entrance-sm.jpg",
+   "w": 750,
+   "h": 499
+  },
+  "desktop_rel": "/images/wheelwright-museum-entrance.jpg"
+ },
+ "/images/kahlo-sisters-1916.jpg": {
+  "fingerprint": "1787837213985139794:219213:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/kahlo-sisters-1916-sm.jpg",
+   "w": 750,
+   "h": 786
+  },
+  "desktop_rel": "/images/kahlo-sisters-1916.jpg"
+ },
+ "/images/famous-portraits-las-meninas.jpg": {
+  "fingerprint": "1787892382269162911:130974:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/famous-portraits-las-meninas-sm.jpg",
+   "w": 750,
+   "h": 854
+  },
+  "desktop_rel": "/images/famous-portraits-las-meninas.jpg"
+ },
+ "/images/pandemonium-john-martin-louvre.jpg": {
+  "fingerprint": "1789196495711901750:193966:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/pandemonium-john-martin-louvre-sm.jpg",
+   "w": 750,
+   "h": 495
+  },
+  "desktop_rel": "/images/pandemonium-john-martin-louvre.jpg"
+ },
+ "/images/icarus-painting-bruegel-brussels.jpg": {
+  "fingerprint": "1787978423633923913:152771:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/icarus-painting-bruegel-brussels-sm.jpg",
+   "w": 750,
+   "h": 482
+  },
+  "desktop_rel": "/images/icarus-painting-bruegel-brussels.jpg"
+ },
+ "/images/aphrodite-painting-titian-venus-urbino.jpg": {
+  "fingerprint": "1789196493093476817:290129:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/aphrodite-painting-titian-venus-urbino-sm.jpg",
+   "w": 750,
+   "h": 527
+  },
+  "desktop_rel": "/images/aphrodite-painting-titian-venus-urbino.jpg"
+ },
+ "/images/david-alfaro-siqueiros-portrait-1922.jpg": {
+  "fingerprint": "1789196493718868050:28409:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/david-alfaro-siqueiros-portrait-1922.jpg"
+ },
+ "/images/rebay-guggenheim-kandinsky-bauhaus-1929.jpg": {
+  "fingerprint": "1789196496100967400:215918:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/rebay-guggenheim-kandinsky-bauhaus-1929-sm.jpg",
+   "w": 750,
+   "h": 518
+  },
+  "desktop_rel": "/images/rebay-guggenheim-kandinsky-bauhaus-1929.jpg"
+ },
+ "/images/pattern-in-art-darb-i-imam-spandrel.jpg": {
+  "fingerprint": "1786624963236477955:81507:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/pattern-in-art-darb-i-imam-spandrel.jpg"
+ },
+ "/images/chiaroscuro-woodcut-cranach-saint-christopher.jpg": {
+  "fingerprint": "1789196493623838683:459485:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/chiaroscuro-woodcut-cranach-saint-christopher-sm.jpg",
+   "w": 750,
+   "h": 1043
+  },
+  "desktop_rel": "/images/chiaroscuro-woodcut-cranach-saint-christopher.jpg"
+ },
+ "/images/black-square-malevich-tretyakov.jpg": {
+  "fingerprint": "1789196493411579697:246465:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/black-square-malevich-tretyakov-sm.jpg",
+   "w": 750,
+   "h": 750
+  },
+  "desktop_rel": "/images/black-square-malevich-tretyakov.jpg"
+ },
+ "/images/john-martin-great-day-of-his-wrath-tate.jpg": {
+  "fingerprint": "1789196494934016529:197954:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/john-martin-great-day-of-his-wrath-tate-sm.jpg",
+   "w": 750,
+   "h": 490
+  },
+  "desktop_rel": "/images/john-martin-great-day-of-his-wrath-tate.jpg"
+ },
+ "/images/schiele-orange-only-light-1912.jpg": {
+  "fingerprint": "1789196496363141259:221123:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/schiele-orange-only-light-1912-sm.jpg",
+   "w": 750,
+   "h": 483
+  },
+  "desktop_rel": "/images/schiele-orange-only-light-1912.jpg"
+ },
+ "/images/jackson-pollock-passport-1955.jpg": {
+  "fingerprint": "1789196494791557707:51385:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/jackson-pollock-passport-1955.jpg"
+ },
+ "/images/the-milkmaid-vermeer.jpg": {
+  "fingerprint": "1789196496511668813:425392:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/the-milkmaid-vermeer-sm.jpg",
+   "w": 750,
+   "h": 841
+  },
+  "desktop_rel": "/images/the-milkmaid-vermeer.jpg"
+ },
+ "/images/byzantine-mosaics.jpg": {
+  "fingerprint": "1788929313338933835:779589:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/byzantine-mosaics-sm.jpg",
+   "w": 750,
+   "h": 1272
+  },
+  "desktop_rel": "/images/byzantine-mosaics.jpg"
+ },
+ "/images/joan-of-arc-painting.jpg": {
+  "fingerprint": "1789196494894014782:438712:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/joan-of-arc-painting-sm.jpg",
+   "w": 750,
+   "h": 679
+  },
+  "desktop_rel": "/images/joan-of-arc-painting.jpg"
+ },
+ "/images/rene-magritte-wolleh-portrait.jpg": {
+  "fingerprint": "1789015329015325456:15001:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/rene-magritte-wolleh-portrait.jpg"
+ },
+ "/images/simonetta-vespucci-piero-di-cosimo.jpg": {
+  "fingerprint": "1789196496416717445:165446:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/simonetta-vespucci-piero-di-cosimo-sm.jpg",
+   "w": 750,
+   "h": 1047
+  },
+  "desktop_rel": "/images/simonetta-vespucci-piero-di-cosimo.jpg"
+ },
+ "/images/caravaggio-narcissus.jpg": {
+  "fingerprint": "1789188184623054096:101398:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/caravaggio-narcissus-sm.jpg",
+   "w": 750,
+   "h": 916
+  },
+  "desktop_rel": "/images/caravaggio-narcissus.jpg"
+ },
+ "/images/masaccio-holy-trinity.jpg": {
+  "fingerprint": "1789274546878132585:123948:contain:None:750",
+  "result": null,
+  "desktop_rel": "/images/masaccio-holy-trinity.jpg"
+ },
+ "/images/rembrandt-anatomy-lesson-nicolaes-tulp.jpg": {
+  "fingerprint": "1789289543274808070:366014:contain:None:750",
+  "result": {
+   "mobile": "/images/responsive/rembrandt-anatomy-lesson-nicolaes-tulp-sm.jpg",
+   "w": 750,
+   "h": 565
+  },
+  "desktop_rel": "/images/rembrandt-anatomy-lesson-nicolaes-tulp.jpg"
+ }
+}
