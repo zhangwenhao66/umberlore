@@ -365,6 +365,14 @@ export const guides: Guide[] = [
       {
         "question": "Where can I check the date and dimensions of a specific Van Gogh painting?",
         "answer": "On the object page of the museum that owns it, since dates and measurements drift badly in secondhand sources. The Van Gogh Museum gives *The Potato Eaters* as Nuenen, April to May 1885, 82 by 114 cm (s0005V1962); *The Bedroom* as Arles, October 1888, 72.4 by 91.3 cm (s0047V1962); and *Sunflowers* as Arles, January 1889, 95 by 73 cm (s0031V1962)."
+      },
+      {
+        "question": "What is Vincent van Gogh's most famous painting called?",
+        "answer": "The Starry Night (1889), painted during his stay at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence and now held at the Museum of Modern Art in New York. It's the painting most frequently reproduced on posters, mugs, and phone cases, and it draws the largest crowds of any single Van Gogh work on public view."
+      },
+      {
+        "question": "Who owns most of Van Gogh's paintings?",
+        "answer": "The Van Gogh Museum in Amsterdam, which holds the largest Van Gogh collection anywhere: more than 200 paintings alongside some 500 drawings and over 800 of his letters, most of it built from the estate his brother Theo's family kept together after both brothers died in 1890."
       }
     ],
     "sources": [
@@ -2162,6 +2170,10 @@ export const guides: Guide[] = [
       {
         "question": "Did Van Gogh himself like The Starry Night?",
         "answer": "Not especially. In a letter to Theo written on or about 20 September 1889, he grouped it with his painting Moonrise as \"exaggerations from the point of view of the arrangement, their lines are contorted like those of the ancient woodcuts.\" The canvas didn't ship with the batch he was sending around that date; a follow-up letter on 28 September lists it among a further group finally heading to Paris over a week later."
+      },
+      {
+        "question": "Why are there 11 stars in The Starry Night?",
+        "answer": "The count itself is disputed, since Van Gogh's swirling sky isn't a literal star map and different viewers tally the bright shapes differently. The popular \"11 stars\" reading ties the painting to Genesis 37:9, where Joseph dreams of the sun, moon, and eleven stars bowing to him, but Van Gogh's own letters don't record him citing that passage for this painting, so the biblical link is an interpretation later readers have layered onto the picture rather than a confirmed intent."
       }
     ],
     "sources": [
@@ -2570,6 +2582,10 @@ export const guides: Guide[] = [
       {
         "question": "What influenced the Art Deco style?",
         "answer": "Encyclopaedia Britannica lists Art Nouveau, the Bauhaus, Cubism and Serge Diaghilev's Ballets Russes as formative influences, alongside American Indian, Egyptian and early Classical sources and stylised natural forms. The 1922 discovery of Tutankhamun's tomb specifically fed the style's Egyptian-derived motifs, such as scarabs, lotus columns and sunburst fans, which appeared in jewellery and architecture within a few years of the find."
+      },
+      {
+        "question": "Is Art Deco the same as Art Nouveau?",
+        "answer": "No, and they don't overlap much in time either. Art Nouveau ran from roughly 1880 to 1914 and drew on nature, favoring sinuous curves, floral motifs, and asymmetrical organic forms. Art Deco followed after the First World War and looked to the machine age instead, favoring sharp angles, geometric symmetry, and streamlined forms, with its own coming-out moment at the 1925 Paris exposition that later gave the style its name."
       }
     ],
     "sources": [
@@ -3520,6 +3536,14 @@ export const guides: Guide[] = [
       {
         "question": "How did Jackson Pollock die?",
         "answer": "Pollock died on August 11, 1956, at around 10:15 p.m., when he lost control of his Oldsmobile convertible while driving under the influence of alcohol less than a mile from his home in Springs, New York. He and one passenger, Edith Metzger, were killed; a second passenger, Ruth Kligman, survived."
+      },
+      {
+        "question": "How much is a real Jackson Pollock worth?",
+        "answer": "His record is $200 million, paid privately by hedge-fund manager Kenneth Griffin in 2015 for Number 17A (1948), bought along with a de Kooning from the David Geffen Foundation in a single $500 million deal. The previous benchmark, Number 5, 1948, had sold the same way for $140 million in 2006. Smaller drip paintings and works on paper sell for far less, from the low hundreds of thousands into the low millions depending on size and date."
+      },
+      {
+        "question": "What is Jackson Pollock's most famous piece?",
+        "answer": "Number 5, 1948, an enormous drip painting on fiberboard that's most often pointed to as defining his mature style, even though the 2015 record sale price belongs to a different painting, Number 17A. David Geffen sold Number 5, 1948 privately in 2006 for $140 million, a record at the time for any painting."
       }
     ],
     "sources": [
@@ -4524,6 +4548,10 @@ export const guides: Guide[] = [
       {
         "question": "What's the difference between chiaroscuro and tenebrism?",
         "answer": "Chiaroscuro is the general use of strong light-and-shadow contrast to model form and create depth, used across Renaissance and Baroque painting alike. Tenebrism is a more extreme version specifically associated with Caravaggio: a near-total, almost black background against which a brightly lit subject appears to emerge, with little gradual transition between the two."
+      },
+      {
+        "question": "What is the difference between Baroque and Rococo?",
+        "answer": "Baroque, running from roughly the late 1500s through the 1600s, favored dramatic lighting, weighty religious and state subjects, and bold, saturated color, largely in service of the Catholic Church's response to the Protestant Reformation. Rococo followed in the early 1700s and pulled in the opposite direction: lighter, more intimate secular scenes, pastel palettes, and asymmetrical, curving ornament aimed at aristocratic interiors rather than church naves or palace ceilings."
       }
     ],
     "sources": [
@@ -5703,6 +5731,14 @@ export const guides: Guide[] = [
       {
         "question": "Is antique or vintage majolica pottery safe to use for food or drink?",
         "answer": "Treat it as decorative rather than functional. Because Victorian majolica relies on colored lead glazes, and the UK's first legal solubility limits on those glazes did not exist until the Pottery (Health and Welfare) Special Regulations came into force in 1950, older pieces predating enforceable limits can leach lead, particularly with acidic foods or drinks. The Center for Environmental Health advises that vintage and antique ceramics made before modern lead standards took hold should generally be reserved for display rather than eating or drinking use."
+      },
+      {
+        "question": "How can you tell if something is majolica?",
+        "answer": "Look at the glaze, the weight, and the underside. Genuine period pieces are heavy, thickly potted, and finished with rich, saturated colors and detailed relief modeling; the unglazed foot ring should show the raw clay body rather than glaze. Fine surface crazing is a sign of real age rather than a flaw, while a piece in flawless, unblemished condition is more likely a modern reproduction, and a maker's mark helps but isn't required, since plenty of genuine 19th-century pieces left the factory unmarked."
+      },
+      {
+        "question": "Is majolica worth anything?",
+        "answer": "Yes, though prices vary widely by maker, size, and condition. Victorian majolica from English makers such as Minton or Wedgwood typically brings several hundred to several thousand dollars per piece at auction, while French majolica tends to sell for less, often in the low hundreds. Chips, cracks, and heavy restoration all reduce value, though the light crazing common on genuinely old glazes doesn't."
       }
     ],
     "sources": [
@@ -6079,6 +6115,10 @@ export const guides: Guide[] = [
       {
         "question": "Why did the Wheelwright Museum change its name?",
         "answer": "It opened under the name Museum of Navajo Ceremonial Art in 1939. In 1977, according to the museum's own history, it repatriated ceremonial belongings, including medicine bundles, to Navajo Community College (now Diné College) in Tsaile, Arizona, describing itself as one of the first museums in North America to do so voluntarily. It took its current name, the Wheelwright Museum of the American Indian, once that transfer was complete, and renamed its main gallery after Klah."
+      },
+      {
+        "question": "How long does a Navajo sand painting last?",
+        "answer": "Only hours. A ceremonial sandpainting is poured, used, and destroyed inside a single roughly twelve-hour period: four to six men can take three to five hours to complete one, the patient then sits on the finished image to absorb its healing power, and singers destroy it afterward because it's considered to have absorbed the patient's illness. The sand is swept up and either buried outside or scattered to the four directions, which is exactly the practice Hosteen Klah broke by weaving one into a rug meant to last."
       }
     ],
     "sources": [
@@ -6455,6 +6495,10 @@ export const guides: Guide[] = [
       {
         "question": "Who owned Pandemonium before it reached the Louvre?",
         "answer": "Per the Louvre's own provenance record, it belonged first to Benjamin Hick, a Bolton locomotive engineer, until his death in 1842, then sold at his estate auction in Manchester in 1843. It passed down through four generations of the Whiteley family until 1994, then to the Forbes Magazine Collection, then, after a 2003 Christie's sale, to a New York gallery, and finally to the Louvre in 2006, acquired through the bequest of the French architect Pierre Belliot and his wife."
+      },
+      {
+        "question": "How much is the painting Pandemonium by John Martin worth?",
+        "answer": "The Louvre hasn't disclosed what it paid when it acquired the painting in 2006, and as part of a national museum collection, it isn't for sale. As a benchmark, the auction record for any John Martin painting is $4,183,482, set in 2015 at Sotheby's London for The Celestial City and the River of Bliss (1841), another large apocalyptic history painting from the same period."
       }
     ],
     "sources": [
@@ -7755,6 +7799,10 @@ export const guides: Guide[] = [
       {
         "question": "Is The Milkmaid about honest work or about sexual desire?",
         "answer": "Published opinion splits on exactly this question, and neither camp has won. One line of interpretation, associated with a Met curator and an independent art historian, points to period-specific symbols on the canvas, a Cupid tile, a foot warmer, that Dutch viewers of the 1650s would likely have read as suggestive. A rival reading treats the same maid's plain dress and steady focus as a study in domestic virtue, presenting her housework as admirable rather than undercutting it with innuendo. Both interpretations are argued from the same handful of details, which is exactly why the debate has not resolved."
+      },
+      {
+        "question": "What is the most expensive Vermeer painting ever sold?",
+        "answer": "Young Woman Seated at a Virginal, which sold for £16.2 million, about $30 million, at Sotheby's London in 2004, the first Vermeer to reach auction in roughly 80 years. Scholars had doubted the attribution for decades before a decade of forensic study persuaded most of them it was genuine. The Milkmaid itself has never gone to auction since entering the Rijksmuseum's collection; national museums rarely sell paintings already in their holdings."
       }
     ],
     "sources": [
