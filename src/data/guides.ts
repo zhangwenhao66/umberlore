@@ -7732,6 +7732,10 @@ export const guides: Guide[] = [
       {
         "question": "Did Jackson Pollock name the painting Convergence himself?",
         "answer": "That specific detail isn't confirmed in any source consulted for this article. By the late 1940s Pollock had mostly moved to numbering his paintings rather than titling them; his wife, Lee Krasner, said the plain numbers were meant to keep viewers focused on \"pure painting.\" Evocative titles were sometimes added afterward by others, most famously when the critic Clement Greenberg supplied the name \"Lavender Mist\" for Number 1, 1950, so it isn't settled whether Pollock, Krasner, Janis, or someone else chose the word \"Convergence\" for this canvas."
+      },
+      {
+        "question": "What is Jackson Pollock's style of painting called?",
+        "answer": "Drip painting, sometimes called action painting: a technique built around pouring or flinging paint onto a canvas laid on the floor rather than applying it with a brush to an easel-mounted surface. Pollock developed the method around 1947, and Convergence, from 1952, is a later example painted after a full year in which he had set the technique aside to work in black enamel instead of color."
       }
     ],
     "sources": [
