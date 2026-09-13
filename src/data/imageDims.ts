@@ -487,6 +487,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 620,
   "w": 800
  },
+ "/images/rembrandt-anatomy-lesson-nicolaes-tulp.jpg": {
+  "h": 1054,
+  "w": 1400
+ },
  "/images/rembrandt-night-watch-rijksmuseum.jpg": {
   "h": 1041,
   "w": 1280

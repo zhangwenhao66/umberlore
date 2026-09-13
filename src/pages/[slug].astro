@@ -106,6 +106,7 @@ import { imgDims } from '../data/imageDims';
 						alt={guide.imageAlt ?? guide.title}
 						class="mx-auto h-auto max-h-[72vh] w-auto max-w-full"
 						loading="eager"
+						fetchpriority="high"
 						width={imgDims(guide.image)?.w}
 						height={imgDims(guide.image)?.h}
 					/>
