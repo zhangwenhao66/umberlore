@@ -100,7 +100,23 @@ import { imgDims } from '../data/imageDims';
 
 		{guide.image && (
 			<figure class="m-0 mt-10">
-				<div class="plate mx-auto w-fit max-w-full">
+				{/* 2026-09-13 CLS 根因修复：`.plate` 原来是 w-fit（收缩自适应内容宽度），
+				    宽度依赖 img 自身渲染出的尺寸——用 `--save-assets` 拿真实 trace 逐帧截图对比后
+				    实锤：Chrome 在图片资源到位前，shrink-to-fit 的"预估宽度"计算不会正确套用
+				    aspect-ratio + max-height 约束，先给出一个错误的小方块（实测 78×78），资源到位后
+				    才反悔重排成正确尺寸——这才是本站 CLS 数值分毫不差、五轮改图片属性/字体都无效的
+				    真正原因（此前五轮全部没找对，因为一直在查 H1/字体，而 layout-shifts 审计明确显示
+				    98% 的偏移分数记在这个 .plate 节点上，只有 0.05% 是字体）。
+				    直接去掉 w-fit 能消除偏移，但会让窄幅人像图（如 david-alfaro-siqueiros-portrait-1922.jpg，
+				    240×634）在桌面端被横向拉伸变形（实测量出 313px 宽而非按比例应有的 221px）——因为
+				    .plate 会变成占满可用宽度的块级盒子，不再收缩贴合图片。
+				    真正稳妥的修法：不依赖浏览器的 shrink-to-fit 计算，改成用已知的宽高比在 CSS 里
+				    直接算出 .plate 的确定宽度（`min(100%, calc(<该断点max-height> * w/h))`），
+				    从第一帧起就是这个数字，不需要等图片加载完再反悔。 */}
+				<div
+					class="plate hero-plate mx-auto max-w-full"
+					style={imgDims(guide.image) ? `--pw: ${imgDims(guide.image)!.w}; --ph: ${imgDims(guide.image)!.h};` : undefined}
+				>
 					<img
 						src={guide.image}
 						alt={guide.imageAlt ?? guide.title}
@@ -165,7 +181,11 @@ import { imgDims } from '../data/imageDims';
 						))}
 						{section.image && (
 							<figure class="m-0 mt-7">
-								<div class="plate mx-auto w-fit max-w-full">
+								{/* 同上（2026-09-13 CLS 根因修复），换成正文配图自己的断点高度 */}
+								<div
+									class="plate section-plate mx-auto max-w-full"
+									style={imgDims(section.image.src) ? `--pw: ${imgDims(section.image.src)!.w}; --ph: ${imgDims(section.image.src)!.h};` : undefined}
+								>
 									<img
 										src={section.image.src}
 										alt={section.image.alt}
@@ -248,6 +268,26 @@ import { imgDims } from '../data/imageDims';
 </Layout>
 
 <style>
+	/* 2026-09-13 CLS 根因修复：用已知宽高比 + 该断点的 max-height 直接算出 .plate 的
+	   确定宽度，不再靠 width:fit-content 收缩贴合 img 自身渲染出的尺寸（后者在图片资源
+	   到位前会被 Chrome 算错，产生真实布局偏移）。数值要跟对应 <img> 的 max-h-[...] /
+	   md:max-h-[...] 断点保持一致，改图片尺寸规则时这两处要一起改。 */
+	.hero-plate {
+		width: min(100%, calc(585px * var(--pw, 1) / var(--ph, 1)));
+	}
+	@media (min-width: 768px) {
+		.hero-plate {
+			width: min(100%, calc(72vh * var(--pw, 1) / var(--ph, 1)));
+		}
+	}
+	.section-plate {
+		width: min(100%, calc(528px * var(--pw, 1) / var(--ph, 1)));
+	}
+	@media (min-width: 768px) {
+		.section-plate {
+			width: min(100%, calc(65vh * var(--pw, 1) / var(--ph, 1)));
+		}
+	}
 	.adsterra-slots {
 		display: flex;
 		flex-direction: column;

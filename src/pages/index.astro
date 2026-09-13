@@ -58,7 +58,17 @@ const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCom
 				<p class="mt-4 mb-0 text-sm font-medium text-[var(--flag-dark)] underline underline-offset-4">Read the study</p>
 			</div>
 			{lead.image ? (
-				<figure class="plate m-0 w-fit max-w-full justify-self-center md:col-span-6 md:justify-self-end lg:col-span-7">
+				// 2026-09-13 CLS 根因修复：这里的 `.plate` 原来是 w-fit（收缩自适应内容宽度）。
+				// 用 --save-assets 拿真实 Lighthouse trace 逐帧截图对比后实锤：Chrome 在图片资源
+				// 到位前，shrink-to-fit 的"预估宽度"计算不会正确套用 aspect-ratio + max-height 约束，
+				// 会先给出一个错误的小方块，资源到位后才反悔重排——这才是首页 CLS 0.126 分毫不差、
+				// 之前五轮改图片属性/字体都无效的真正原因（同一根因见 [slug].astro 里更详细的注释）。
+				// 改成用已知宽高比 + 各断点 max-height 直接算出确定宽度（.lead-plate，定义见下方
+				// <style>），不再依赖 img 自身渲染出的尺寸，从第一帧起就是这个数字。
+				<figure
+					class="plate lead-plate m-0 max-w-full justify-self-center md:col-span-6 md:justify-self-end lg:col-span-7"
+					style={imgDims(lead.image) ? `--pw: ${imgDims(lead.image)!.w}; --ph: ${imgDims(lead.image)!.h};` : undefined}
+				>
 					<img
 						src={lead.image}
 						alt={lead.imageAlt ?? lead.title}
@@ -148,6 +158,24 @@ const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCom
 </Layout>
 
 <style>
+	/* 2026-09-13 CLS 根因修复：同 [slug].astro 的 .hero-plate/.section-plate，
+	   用已知宽高比 + 该断点的 max-height 直接算出 .plate 的确定宽度，替代
+	   width:fit-content（后者在图片资源到位前会被 Chrome 算错，产生真实布局偏移）。
+	   数值要跟 <img> 的 max-h-[...] / md:max-h-[...] / lg:max-h-[...] 断点保持一致。 */
+	.lead-plate {
+		width: min(100%, calc(195px * var(--pw, 1) / var(--ph, 1)));
+	}
+	@media (min-width: 768px) {
+		.lead-plate {
+			width: min(100%, calc(300px * var(--pw, 1) / var(--ph, 1)));
+		}
+	}
+	@media (min-width: 1024px) {
+		.lead-plate {
+			width: min(100%, calc(340px * var(--pw, 1) / var(--ph, 1)));
+		}
+	}
+
 	/* Room directory: one scrolling line on phones, wraps on wider screens. */
 	.rooms {
 		overflow-x: auto;
