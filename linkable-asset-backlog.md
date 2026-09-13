@@ -52,6 +52,14 @@
 
 2026-08-22 已发布为 [When Was the Masterpiece Made? What 64 Famous Paintings Say About Peak Creative Age](https://umberlore.com/artist-peak-creation-age/)，见 `linkable-asset-log.md`。实际做法：64幅公认代表作（非原计划的50-80样本区间下限附近），每条的艺术家出生年/去世年/作品完成年均由独立研究agent逐条WebSearch核实（非模型记忆），完成年有区间的取较晚年份并标注*。头条可摘引数字："中位数39.5岁，范围20岁（Artemisia Gentileschi《朱迪斯砍下荷罗孚尼头颅》）到71岁（Hokusai《神奈川冲浪里》与Mondrian《百老汇爵士乐》并列）"。含Cite this引用块+CSV下载（`public/data/artist-peak-creation-age.csv`）。分类新建为"Data Studies"。
 
+**[同类反查 2026-09-13]**：`serp "age artists created their most famous works"` 前排结果多为Reddit/Facebook/Quora讨论帖，取质量较高的3个（mymodernmet.com/celesteduffy.com/theartofeducation.edu的间接来源）做 backlinks 反查，合并去重后过门槛，1 个合格：
+
+| 来源域名 | 命中同类资产数 | 类型 | ETV | 外链结构 | 具体来源页 |
+|---|---|---|---|---|---|
+| theartofeducation.edu | 1 | resource_page（艺术教育机构网站） | 14.6万 | 14.6条/域名，正常 | https://mymodernmet.com/natural-art-supplies/（锚文本"make art"） |
+
+筛掉2个：fineartphotoawards.com（ETV仅259，未达300门槛）、monovisionsawards.com（ETV仅124，未达300门槛）——两个都是摄影奖项网站，主题相关但流量太小。
+
 - **类别**：原创数据研究
 - **具体做什么**：从 Wikidata/公开传记资料里抓取一批公认的"最著名作品"（各大博物馆镇馆之宝、教科书高频出现的名作），记录该艺术家创作该作品时的年龄、出生年份、该作品完成到其去世的年数、是否为生前公开展出。算出统计指标：创作年龄中位数、"英年早逝却留下代表作"占比 vs "大器晚成"占比、按世纪/画派分组的年龄分布。标题走结论型，例如"名画诞生时，作者平均多少岁——对N幅公认代表作的统计"。
 - **为什么会被引用**：这是带真实新闻钩子的数据角度（"天才早逝"叙事 vs 实际统计），媒体、艺术教育博主、播客在讨论"艺术家生涯"话题时缺一个可引用的量化依据，目前同类内容几乎都是轶事堆砌，没有统一口径的统计版本。
