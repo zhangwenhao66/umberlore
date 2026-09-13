@@ -8414,5 +8414,114 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/Giovanni_Antonio_Galli_(artist)"
       }
     ]
+  },
+  {
+    "slug": "vanishing-point",
+    "category": "Technique",
+    "title": "Nobody Alive Saw the First Vanishing Point",
+    "description": "Brunelleschi's two demonstration panels are lost, scholars can't agree what year he built them, and the one detailed account of how they worked was written decades later.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "coreSummary": "The vanishing point, the spot toward which parallel lines converge on a horizon, was first demonstrated in practice by Filippo Brunelleschi on two small painted panels in Florence, though historians still argue over when: proposed dates range from around 1401 to around 1425, pieced together from indirect clues rather than a surviving record. Both panels are lost. The fullest account of how they worked comes from Antonio di Tuccio Manetti's Life of Brunelleschi, a text scholars date to the 1480s and describe as \"the only 15th-century description\" of the demonstration, according to National Gallery, London research by the art historian Amanda Lillie. Manetti was born in 1423, close to or after every proposed date for the panels, and whether he actually wrote the biography attributed to him, per the German art historian Johannes Grave, remains only \"probable\" rather than settled; the earliest published edition, in 1812, credited it to an anonymous contemporary instead. Manetti describes a hole bored through the Baptistery panel, sized \"like a lentil bean\" on the front and widening to a coin's width on the back, through which a viewer held up a mirror to check the illusion against the real building; the second panel, showing the Piazza della Signoria, used no hole or mirror at all, its top edge simply cut away so the real sky stood in for painted sky. Leon Battista Alberti gave the underlying geometry its first written name, the \"centric point,\" composing the Latin treatise in 1435 and dedicating the Italian version he published the following year to Brunelleschi. The English phrase \"vanishing point\" is centuries younger still, introduced by the mathematician Brook Taylor in 1715.",
+    "image": "/images/masaccio-holy-trinity.jpg",
+    "imageAlt": "Masaccio's Holy Trinity fresco, 1425-1428, in Santa Maria Novella, Florence, showing a coffered barrel-vaulted chapel painted in single-point perspective with all orthogonal lines converging toward one vanishing point below the figures.",
+    "imageCredit": "[Holy Trinity](https://commons.wikimedia.org/wiki/File:Masaccio_trinity.jpg), Masaccio, 1425-1428, Santa Maria Novella, Florence, public domain",
+    "sections": [
+      {
+        "heading": "Two panels, and only one of them used a mirror",
+        "body": [
+          "Filippo Brunelleschi built two small painted panels meant to do something no painting had done before: let a viewer check the illusion against the real place it depicted. Manetti describes the first as \"una tavoletta di circha mezo braccio quadro,\" a small panel about half a braccio square, showing the Florence Baptistery as seen from just inside the central portal of the cathedral facing it. Brunelleschi bored a hole through this panel at the exact point where the painted lines converged. Per the academic reconstruction of Manetti's account, that hole was, on the painted side, \"as tiny as a lentil bean,\" widening conically on the back \"to about the circumference of a ducat\" coin. A viewer pressed one eye to the wide end of the hole while holding up a flat mirror with the other hand, angled to catch the painted surface reflected back into view. What that eye saw was not the Baptistery directly but Brunelleschi's painting of it, reflected, held at the exact distance and angle needed to match the real building rising behind the panel's edge. For the sky, Brunelleschi skipped paint entirely. Manetti's account, translated by the art historian Amanda Lillie for a National Gallery, London research project, describes him placing \"burnished silver where the sky had to be represented, so that the buildings in the painting were imprinted in the air, in order that the real air and the natural sky would be reflected in it, and thus the clouds seen on that silvered surface are carried along by the wind as it blows.\" A fixed painted building sat on the panel while real clouds, caught in polished metal, drifted across the sky behind it.",
+          "The second panel worked on an entirely different principle. It showed the Piazza della Signoria from an angle that took in both facades of the Palazzo Vecchio, and it was too large for the hole-and-mirror trick: the necessary viewing distance would have needed a mirror bigger than anyone could realistically hold. So Brunelleschi dropped the hole and the mirror altogether. Instead, according to the same academic reconstruction of Manetti's text, he had the panel's upper edge \"cut away . . . in the area above the buildings represented,\" so the actual Florentine sky, not silver or paint, filled in above the painted rooftops when a viewer held the panel up in the piazza itself. Two panels, one basic geometric trick, and two unrelated methods of exhibiting it, a detail flattened out of most retellings that treat Brunelleschi's demonstration as a single, uniform device."
+        ]
+      },
+      {
+        "heading": "Nobody can say what year this happened",
+        "body": [
+          "Ask when Brunelleschi built these panels and the honest answer is that historians don't agree. No contract, ledger entry, or dated letter records the moment. Proposed dates in the scholarly literature range from around 1401, when Brunelleschi was competing for the Florence Baptistery's bronze doors, to around 1425, a spread of roughly two and a half decades depending on which scholar's argument you follow. Giuliano Tanturli has pointed to a 1413 letter that refers to Brunelleschi as \"prespettivo,\" already known for perspective work, as evidence the panels predate that year; other historians, working from stylistic or circumstantial grounds, argue for a date closer to the 1420s. Wikipedia narrows this to roughly 1415 to 1420, following Brunelleschi's early biographers, but that narrower window is itself just one position inside a wider and still unresolved argument, not a fact anyone has nailed down with documentary proof."
+        ]
+      },
+      {
+        "heading": "Written by someone born too late to have watched it",
+        "body": [
+          "Every modern description of this demonstration, including this one, traces back to a single text: Antonio di Tuccio Manetti's Life of Brunelleschi. Amanda Lillie's National Gallery research calls it plainly \"the only 15th-century description\" of either panel. What later art history knows about the hole, the mirror, the burnished silver, and the cut-away sky comes from this one narrative account, not from the panels themselves or from any contemporary record made while Brunelleschi was still demonstrating them.",
+          "Manetti's own biography creates a timing problem for the very story it tells. He was born on 6 July 1423, close to or after every proposed date for the panels, which puts firsthand childhood memory of the demonstrations somewhere between unlikely and impossible depending on whose dating you accept. He wrote his biography as an adult; the art historian Johannes Grave, citing the standard critical edition, dates the text to the 1480s, decades after Brunelleschi's death on 15 April 1446. The manuscript record is unsettled too. Three copies survive, known to scholars as the Magliabechiana, the Pistoiese, and the Corsiniana, and the first of them wasn't published until 1812, by the canon Domenico Moreni, who attributed it at the time to an anonymous contemporary of Brunelleschi rather than to Manetti. Manetti's authorship came later, from the archivist Gaetano Milanesi's 1887 edition, and Grave, writing in a peer-reviewed 2010 study of the panels, still describes it only as Manetti's \"probable authorship,\" not a closed question. A demonstration nobody can date precisely is known through a text nobody can fully date or attribute either, more than five centuries on."
+        ]
+      },
+      {
+        "heading": "The name came from a different book, by someone else",
+        "body": [
+          "Brunelleschi never wrote down a name for the point where his lines converged. That came from Leon Battista Alberti, a different Florentine, on a different project entirely. Alberti composed De pictura in Latin in 1435 and published an Italian version, Della pittura, the following year, dedicating it to \"Pippo,\" his nickname for Brunelleschi. In the treatise, Alberti describes placing a point where a central sightline strikes the picture plane and writes that \"for this it is called the centric point,\" punto centrico in his Italian, giving the underlying geometry its first formal name. Alberti credited Brunelleschi with the discovery, but Alberti had only returned to Florence in 1434, after his family's long exile from the city ended, a year before he wrote the treatise and close to a decade after even the latest proposed date for the panels. He wasn't present for the demonstration either; he simply arrived in time to give it a name and a theoretical framework the practical trick itself never had."
+        ],
+        "image": {
+          "src": "/images/alberti-self-portrait.jpg",
+          "alt": "A bronze self-portrait relief by Leon Battista Alberti, c. 1435, the same year he wrote De pictura and named the centric point.",
+          "credit": "[Self-Portrait](https://commons.wikimedia.org/wiki/File:Leon_Battista_Alberti,_Self-Portrait,_c._1435,_NGA_43845.jpg), Leon Battista Alberti, c. 1435, National Gallery of Art, Washington, CC0"
+        }
+      },
+      {
+        "heading": "The word itself is three centuries younger than the trick",
+        "body": [
+          "Alberti's \"centric point\" isn't the phrase used today. \"Vanishing point,\" the English term, entered print only in 1715, when the mathematician Brook Taylor published Linear Perspective: Or, a New Method of Representing Justly All Manner of Objects as They Appear to the Eye in All Situations, the first English-language book to work out the full geometry of perspective using more than one vanishing point at a time. Depending on which proposed date for Brunelleschi's panels you accept, something like three centuries separate the demonstration from the English words now used to describe it.",
+          "Long after both demonstration panels vanished, the underlying technique kept going. Masaccio's Holy Trinity fresco, painted in Santa Maria Novella between 1425 and 1428, applies a single vanishing point to a coffered barrel vault receding behind the figures, positioned low enough that a viewer standing in the nave gets something close to what Brunelleschi's Baptistery panel was built to prove: a flat wall behaving like an opening cut through stone. Masaccio died in 1428, and the fresco remains on the same wall he painted it on, still visible today, while the two panels that likely taught him the underlying geometry have not survived in any form. A plainer studio version of the same trick turns up again more than two centuries later in Vermeer's workshop, where, on one contested reading of the physical evidence, a [pin driven into the canvas at the vanishing point, tied to a chalked string, may have been enough to lay out straight perspective lines by hand](/the-milkmaid-vermeer/), skipping any mirror or lens.",
+          "The one-point system held its position as the default way of building spatial illusion in Western painting for well over four centuries, refined by Piero della Francesca, absorbed into Leonardo da Vinci's writing on painting, and passed down through drawing manuals until artists in the late 19th century began deliberately working against it. American art classrooms eventually folded that same underlying problem, how to depict depth on a flat surface, into \"space,\" one entry on the seven-item checklist of [elements of art](/elements-of-art/) now standard in textbooks, a vocabulary that itself only crystallized into that exact seven-word list generations after Dow's own, differently organized 1899 classroom system. Gaetano Milanesi, the archivist behind Manetti's disputed 1887 attribution, made a more definitive correction elsewhere in Renaissance art history: burial records he tracked down are what finally disproved [Giorgio Vasari's fabricated murder confession involving Andrea del Castagno](/renaissance-art/), a reminder of how much inherited art history still traces back to writers working well after the events they describe."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is a vanishing point in art?",
+        "answer": "It's where receding parallel lines in a drawing or painting appear to meet on the horizon, giving a flat surface the illusion of depth. A composition built around one such meeting point is working in what artists call one-point perspective; some scenes need two or three instead."
+      },
+      {
+        "question": "Who invented the vanishing point?",
+        "answer": "Credit usually goes to the Florentine architect Brunelleschi, who staged the earliest known working demonstration on two painted panels, at a date historians still can't pin down precisely, guesses range across roughly a quarter century. A formal name for that convergence trick came later still, from a treatise the humanist Alberti wrote once those two panels were already old news."
+      },
+      {
+        "question": "Do Brunelleschi's original demonstration panels still exist?",
+        "answer": "Neither one does. The painting of the Baptistery and the larger view showing Florence's town-hall square have both disappeared without a trace, and nothing physical from either has ever turned up. Everything now known about how they functioned rests entirely on a written description, not on the objects."
+      },
+      {
+        "question": "Is Antonio Manetti's account of the demonstration considered reliable?",
+        "answer": "It's the only surviving account with any real detail, though scholars flag two problems with it. Take the earliest date scholars have floated for when the panels went up, and its author hadn't been born yet; take the latest, and he was a toddler too young to remember any of it, and he only set the story down as an adult many decades afterward. On top of that, whether he personally wrote the text now credited to him is a question specialists still treat as unresolved."
+      },
+      {
+        "question": "When did the English term \"vanishing point\" come into use?",
+        "answer": "Not for a long while. Brook Taylor's 1715 perspective manual is the first known appearance of that exact phrase in English. Whatever Renaissance Florence called this convergence point, it wasn't that phrase, and English speakers went without a settled name for it for roughly three more centuries after the concept first took hold in painting."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Filippo Brunelleschi",
+        "url": "https://en.wikipedia.org/wiki/Filippo_Brunelleschi"
+      },
+      {
+        "label": "Wikipedia: Antonio Manetti",
+        "url": "https://en.wikipedia.org/wiki/Antonio_Manetti"
+      },
+      {
+        "label": "Wikipedia: De pictura",
+        "url": "https://en.wikipedia.org/wiki/De_pictura"
+      },
+      {
+        "label": "Wikipedia: Vanishing point",
+        "url": "https://en.wikipedia.org/wiki/Vanishing_point"
+      },
+      {
+        "label": "Johannes Grave, \"Brunelleschi's Perspective Panels: Rupture and Continuity in the History of the Image,\" in The Rise of the Image, ed. Rose Marie San Juan et al. (Brill, 2010)",
+        "url": "http://wwwhomes.uni-bielefeld.de/jgrave/publ/brunelleschi_alt.pdf"
+      },
+      {
+        "label": "Amanda Lillie, \"Place Making,\" Building the Picture, The National Gallery, London",
+        "url": "https://www.nationalgallery.org.uk/research/research-resources/exhibition-catalogues/building-the-picture/place-making/introduction"
+      },
+      {
+        "label": "Internet Archive: Brook Taylor, Linear Perspective (1715)",
+        "url": "https://archive.org/details/bim_eighteenth-century_linear-perspective-or-_taylor-brook_1715"
+      },
+      {
+        "label": "Wikimedia Commons: Masaccio, Holy Trinity, Santa Maria Novella",
+        "url": "https://commons.wikimedia.org/wiki/File:Masaccio_trinity.jpg"
+      }
+    ]
   }
 ];

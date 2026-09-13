@@ -15,6 +15,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1231,
   "w": 1600
  },
+ "/images/alberti-self-portrait.jpg": {
+  "h": 1200,
+  "w": 859
+ },
  "/images/andy-warhol-jack-mitchell-portrait.jpg": {
   "h": 480,
   "w": 598
@@ -386,6 +390,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/mary-cabot-wheelwright-duveneck.jpg": {
   "h": 1600,
   "w": 1069
+ },
+ "/images/masaccio-holy-trinity.jpg": {
+  "h": 1073,
+  "w": 531
  },
  "/images/michelangelo-sistine-ceiling-full.jpg": {
   "h": 2143,
