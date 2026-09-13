@@ -67,6 +67,7 @@ const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCom
 						fetchpriority="high"
 						width={imgDims(lead.image)?.w}
 						height={imgDims(lead.image)?.h}
+						style={imgDims(lead.image) ? `aspect-ratio: ${imgDims(lead.image)!.w} / ${imgDims(lead.image)!.h};` : undefined}
 					/>
 				</figure>
 			) : (

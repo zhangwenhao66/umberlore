@@ -109,6 +109,7 @@ import { imgDims } from '../data/imageDims';
 						fetchpriority="high"
 						width={imgDims(guide.image)?.w}
 						height={imgDims(guide.image)?.h}
+						style={imgDims(guide.image) ? `aspect-ratio: ${imgDims(guide.image)!.w} / ${imgDims(guide.image)!.h};` : undefined}
 					/>
 				</div>
 				{guide.imageCredit && (
