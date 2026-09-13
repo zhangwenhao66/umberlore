@@ -4,6 +4,11 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE, SITE_DESCRIPTION, ADSENSE_PUBLISHER_ID, GA4_ID, CLARITY_ID, SITE_ORIGIN, BRAND_SAME_AS, BRAND_DESCRIPTION, CONTACT_EMAIL, BRAND_KNOWS_ABOUT } from '../consts';
 import Organization from '../../vendor/site-toolkit/packages/schema/src/Organization.astro';
+// 2026-09-13 CWV 修复：怀疑图片"unsized"导致 CLS，加了 aspect-ratio 后重测完全无变化
+// （section 分数和成因判定分毫不差）——重新排查发现真正来源跟 commsadvisor 同款：
+// `@fontsource-variable/eb-garamond` 默认 font-display:swap，标题字体切换时正文重排。
+// 加 aspect-ratio 那次修复留着无害，字体才是真正根因，用同一套 preload 方案。
+import ebGaramondUrl from '@fontsource-variable/eb-garamond/files/eb-garamond-latin-wght-normal.woff2?url';
 
 interface Props {
 	title?: string;
@@ -30,6 +35,7 @@ const ogImageURL = new URL(ogImage, Astro.site);
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#f3f2ef" />
+		<link rel="preload" href={ebGaramondUrl} as="font" type="font/woff2" crossorigin />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="canonical" href={canonicalURL} />
 		<link rel="alternate" type="application/rss+xml" title={`${SITE_TITLE} RSS`} href="/rss.xml" />
