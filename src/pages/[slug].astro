@@ -104,7 +104,7 @@ import { imgDims } from '../data/imageDims';
 					<img
 						src={guide.image}
 						alt={guide.imageAlt ?? guide.title}
-						class="mx-auto h-auto max-h-[72vh] w-auto max-w-full"
+						class="mx-auto h-auto max-h-[585px] w-auto max-w-full md:max-h-[72vh]"
 						loading="eager"
 						fetchpriority="high"
 						width={imgDims(guide.image)?.w}
@@ -169,10 +169,11 @@ import { imgDims } from '../data/imageDims';
 									<img
 										src={section.image.src}
 										alt={section.image.alt}
-										class="mx-auto h-auto max-h-[65vh] w-auto max-w-full"
+										class="mx-auto h-auto max-h-[528px] w-auto max-w-full md:max-h-[65vh]"
 										loading="lazy"
 						width={imgDims(section.image.src)?.w}
 						height={imgDims(section.image.src)?.h}
+						style={imgDims(section.image.src) ? `aspect-ratio: ${imgDims(section.image.src)!.w} / ${imgDims(section.image.src)!.h};` : undefined}
 					/>
 								</div>
 								{section.image.credit && (
