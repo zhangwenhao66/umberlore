@@ -2336,3 +2336,48 @@ lint：三条均 WARN 超 48 字符（55/62/65），保留理由：原标题本�
 落地：commit 81f5892，push 即部署；IndexNow 已提交 3 URL（Bing/Yandex 200）。
 复核：第 3-7 天 SERP 看新标题是否被采用；2026-09-26 `title_test.py evaluate --label umberlore-0912-ctr --days 14` 初读，2026-10-10 定去留；ROLLBACK 即恢复快照里的 title_before。
 ⚠️ diego-rivera 标题含年份 1934 是历史年份不是应景年份，不进年度刷新清单。
+
+## 2026-09-13 PAA-FAQ批强(2026-09-13批次)
+
+依据：`独立站/research-db/paa_gap.py` 重新解析12000+份历史DataForSEO SERP抓取，比对出`独立站/research-db/paa_bulk_20260913/umberlore.json`里43篇文章的目标词存在真实Google PAA问法但现有FAQ未接住。Owen批准的一次性批量补强，范围已排除CalcBadger/DialWick/LingoGrove三站压制期规则与beta/gamma的walled_deprioritize名单（不适用于本站umberlore）。
+
+**处理方式**：逐篇读现有`faq`数组确认语气/长度/引用风格 → 从`gap_questions`挑1-2条能找到真实来源的问题 → WebSearch核实（本站涉及艺术家在世状态/拍卖价/馆藏位置等具体事实，全部核实而非用训练记忆）→ 按JSON风格`"question"`/`"answer"`格式追加到该文章`faq`数组末尾，不改动其他任何字段（不动`updated`/`published`，本次是纯增量补充非内容刷新）。
+
+**新增FAQ的28篇文章**（36条FAQ，按impressions_28d降序处理）：
+fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、cristina-kahlo(2)、diego-rivera(2)、st-peters-basilica(1)、andy-warhol(1)、daguerreotype(2)、saturn-devouring-his-son(1)、what-is-a-gargoyle(2)、frank-lloyd-wright(1)、pandemonium-painting(1)、sand-painting(1)、majolica(2)、baroque-paintings(1)、van-gogh-paintings(2)、jackson-pollock(2)、starry-night(1)、art-deco(1)、the-milkmaid-vermeer(1)、non-objective-art(1)、gustav-klimt(2)、aphrodite-painting(1)、mona-lisa(2)、famous-portraits(1)、famous-paintings(1)、edvard-munch-the-scream(1)、byzantine-mosaics(1)、birth-of-venus(2)、jackson-pollock-convergence(1)。
+
+**跳过的14篇文章**（列表里43篇 − 上面29篇 = 14篇；均已逐条评估，非漏检）：
+
+- `icarus-painting`：2条gap问题均不适配——"Matisse's Icarus的含义"是完全不同的另一件作品（1946年剪纸而非本文聚焦的Bruegel/Draper两幅油画），会破坏文章"两幅画对照"的紧凑框架；"fall of Icarus的故事"已被正文神话背景实质覆盖。
+- `famous-mexican-artists`：3条gap问题全部与已有FAQ"Los Tres Grandes"重复，或过于宽泛/榜单式（"最受欢迎的墨西哥艺术家"无可靠单一答案）。
+- `sagrada-familia`：4条gap问题（144年工期/是否仍未完工/为何特别/2026年能否完工）均已被现有FAQ"Is Sagrada Família finished now?"实质覆盖（该FAQ已含2026年2月20日中央塔楼结构完工+2034/2035年收尾工程时间线）。
+- `frida-kahlo-paintings`：2条gap问题（"两幅最著名画作"/"最著名的单幅作品"）找不到可靠单一排名来源——Wikipedia仅列出1939-40年间数幅名作(The Two Fridas/Self-Portrait with Cropped Hair/The Wounded Table等)未做排序，为避免编造排名而跳过。
+- `pop-art`："Pop Art是否仍存在"过于主观/论文式，无干净可核实的单一事实支撑；"5个事实"和"最著名的Pop Art"均为榜单式问法，不适配本站单一事实FAQ风格。
+- `monochromatic-painting`：2条gap问题（举例/代表艺术家）已被现有FAQ（Malevich黑方块、Yves Klein蓝、Ad Reinhardt黑色系列）实质覆盖。
+- `john-martin-paintings`：唯一gap问题"哪幅画卖了7000万美元"经WebSearch核实与John Martin真实拍卖纪录（$4,183,482，2015 Sotheby's）不符，判定为PAA匹配脚本的错配问法，不可靠，跳过。
+- `the-lovers-painting`：4条gap问题均已被现有FAQ覆盖（MoMA地点已在"Where can you see The Lovers today"里回答）或过于主观("史上最悲伤的画作"，与fallen-angel-painting的同款问法一样跳过)/显而易见("谁画的The Lovers"，文章标题本身已隐含)。
+- `pattern-in-art`：4条gap问题全部是榜单式("5个例子"/"10种类型"/"5种主要类型"/"3种类型")，不适配本站具体事实型FAQ风格。
+- `art-techniques`：gap问题同样是榜单式("有哪些艺术技法""7种不同的艺术类型"等)，同上理由跳过。
+- `caravaggio-narcissus`："Was Caravaggio LGBTQ?"涉及敏感的历史人物性向猜测，学界无定论共识事实可引用，为避免主观臆测跳过；"最著名的Narcissus by Caravaggio"是伪问题（该画家名下只有这一幅Narcissus作品，无排名可言）。
+- `vanishing-point`：唯一gap问题"艺术中的70/30法则是什么"经排查不是消失点/透视相关的公认艺术原理术语，疑似PAA匹配错配，找不到可靠来源，跳过。
+- `famous-landscape-paintings`：4条gap问题全部是榜单式("经典风景画有哪些""美国著名风景画有哪些")或主观排名式("最著名的风景画是什么""谁以风景画最出名")，不适配本站单一事实FAQ风格，且与现有FAQ（Friedrich/Constable/Church三幅具体作品）的具体化风格不符。
+- `famous-renaissance-paintings`：4条gap问题里3条是榜单式，1条("史上最著名的前三幅画")经核对与本文主题（文艺复兴巡回展）无关联，疑似关键词误配，跳过。
+
+**未使用WebSearch即可安全回答的条目**：fallen-angel-painting的"crying"问题、michelangelo-sistine-chapel的"Adam为何无生气"（需1次搜索核实古罗马凹雕来源）、cristina-kahlo/diego-rivera的引用均直接复用文章正文已核实来源；non-objective-art/birth-of-venus的部分问题复用了文章正文已核实的Tate/Uffizi/Wikipedia引述，未消耗额外WebSearch额度。
+
+**WebSearch额度**：本次会话在处理到第3批次末尾时耗尽200次WebSearch会话上限，第3批次末段与第4批次改用Bash curl直接调用Wikipedia REST/API（`en.wikipedia.org/w/api.php?action=query&prop=extracts`，UA标注联系方式）核实剩余事实（Gustav Klimt/Oprah持有画作细节、Mona Lisa保险估值、Lisa Gherardini生卒年、Sagrada Família 2026进度、Byzantine vs Roman mosaic区别、Birth of Venus神话叙事与Botticelli-Simonetta传说），与`独立站/CLAUDE.md`里"定时任务禁用WebFetch/浏览器面板读外部站点，优先WebSearch/curl"的既有规则一致，未使用WebFetch或内置Browser面板读取外部站点。
+
+**Git**：5次commit（batch 1-5，共36条FAQ/29篇文章），每次commit后`git pull --rebase origin main`再push，全部成功；push过程中检测到并发的CWV修复commit（6ea41b7等），rebase正常处理无冲突。
+
+**Build**：每次commit前`npm run build`确认0 error，85页全部构建成功（5次批次均验证）。
+
+**线上抽查**（绕缓存，`?cb=$RANDOM`）：见下方独立记录。
+
+**线上抽查结果**（`curl -s "https://umberlore.com/<slug>/?cb=$RANDOM"`，2026-09-13执行，此时距最后一次push仅数分钟）：5/5命中，全部已生效：
+- /fallen-angel-painting/ → "Why is The Fallen Angel painting crying" 命中
+- /mona-lisa/ → "How much is the Mona Lisa worth today" 命中
+- /gustav-klimt/ → "Did Oprah Winfrey own a Gustav Klimt painting" 命中
+- /birth-of-venus/ → "What is the story behind The Birth of Venus" 命中
+- /jackson-pollock/ → "What is Jackson Pollock's most famous piece" 命中
+
+Cloudflare Pages部署延迟本次未成为问题（可能因umberlore.com此前访问量带来的缓存较少，或部署已提前完成）。
