@@ -751,6 +751,14 @@ export const guides: Guide[] = [
       {
         "question": "When was the Mona Lisa painted, and who is the sitter?",
         "answer": "The Louvre dates it to the first quarter of the sixteenth century, between 1503 and 1519. The sitter is Lisa Gherardini (1479 to 1542), wife of the Florentine silk merchant Francesco del Giocondo. The museum treats the identification as settled. A marginal note by Agostino Vespucci from October 1503, found in a Heidelberg library copy of Cicero in 2005, records Leonardo working on a head of Lisa del Giocondo and confirms the account Vasari published in 1550."
+      },
+      {
+        "question": "How much is the Mona Lisa worth today?",
+        "answer": "There's no current appraisal, since the Louvre has never assigned it a market value and it can't legally be sold as part of France's protected national collection. The one benchmark on record is decades old: it holds the Guinness World Record for the highest insurance valuation ever placed on a painting, set at $100 million in 1962, which Guinness itself calculates as roughly $1 billion in 2023 dollars."
+      },
+      {
+        "question": "How old was Lisa Gherardini, the Mona Lisa's model, when she died?",
+        "answer": "63. She was born in Florence on 15 June 1479 and died there on 14 July 1542, a month after her 63rd birthday. She had outlived her husband, the silk merchant Francesco del Giocondo, and by most accounts led an unremarkable domestic life as the mother of six children, entirely apart from the fame her portrait would go on to acquire."
       }
     ],
     "sources": [
@@ -914,6 +922,14 @@ export const guides: Guide[] = [
       {
         "question": "Is the Beethoven Frieze at the Belvedere?",
         "answer": "The Belvedere owns it, but it has been on permanent display in a purpose-built basement room at the Secession building since 1986, in the building it was painted for in 1902. Austria bought it from Erich Lederer in 1972 after Chancellor Bruno Kreisky intervened, and in 2015 the Art Restitution Committee recommended against returning it to Lederer’s heirs."
+      },
+      {
+        "question": "Did Oprah Winfrey own a Gustav Klimt painting?",
+        "answer": "Yes. Oprah Winfrey bought Portrait of Adele Bloch-Bauer II at Christie's in November 2006 for close to $88 million, shortly after the painting and four other Klimt works were restituted to Maria Altmann, the niece of the sitter's husband. Winfrey lent it out for exhibitions over the years, including a long-term loan to New York's Museum of Modern Art starting in 2014, before selling it privately in 2016 for a reported $150 million to an unidentified buyer in China."
+      },
+      {
+        "question": "What is Gustav Klimt's most famous piece?",
+        "answer": "The Kiss (1907-08), a gold-leaf-covered canvas of an embracing couple, now held at Vienna's Belvedere museum. It's the work most consistently singled out as his career-defining piece and the most reproduced Klimt image on posters, prints, and consumer goods, well ahead of the Bloch-Bauer portraits in general public recognition even though those carry the more dramatic restitution story."
       }
     ],
     "sources": [
@@ -1083,6 +1099,10 @@ export const guides: Guide[] = [
       {
         "question": "What is the quickest way to check a claim about a famous painting?",
         "answer": "Go to the collection page of the museum that holds it and read the object record rather than the essay. The technique, material, dimensions, inventory number and acquisition fields answer most questions directly, and a page about a famous work that carries no inventory number is usually copied from one that did."
+      },
+      {
+        "question": "What is the #1 most famous painting in the world?",
+        "answer": "By common consensus, the Mona Lisa, Leonardo da Vinci's early-16th-century portrait at the Louvre. It wasn't always ranked that way: nineteenth-century valuations placed other Louvre paintings, including Raphael's Holy Family and Titian's Supper at Emmaus, well above it in both price and reputation. Its current status as the world's single most famous painting is a twentieth- and twenty-first-century development, driven partly by its 1911 theft and partly by decades of mass reproduction."
       }
     ],
     "sources": [
@@ -6349,6 +6369,10 @@ export const guides: Guide[] = [
       {
         "question": "Are the two figures in American Gothic a married couple?",
         "answer": "No. The Art Institute of Chicago, which owns the painting, describes them in its own catalogue as \"a farmer and his daughter.\" Grant Wood modeled the pair on his sister, Nan Wood Graham, and his dentist, Dr. Byron H. McKeeby, who posed separately rather than together. The husband-and-wife reading was a public misinterpretation dating to the painting's first exhibition in 1930, one that reportedly bothered Nan Wood Graham for years afterward."
+      },
+      {
+        "question": "Who painted the most famous portrait ever?",
+        "answer": "Leonardo da Vinci, with the Mona Lisa, generally regarded today as the most famous painting in the world, not only the most famous portrait. It depicts the Florentine noblewoman Lisa Gherardini and hangs in the Louvre. None of the four portraits covered in this piece, Las Meninas, Madame X, or American Gothic, claim that specific title, though each is a landmark within its own tradition."
       }
     ],
     "sources": [
@@ -6734,6 +6758,10 @@ export const guides: Guide[] = [
       {
         "question": "Who was the model for Titian's Venus of Urbino?",
         "answer": "It's disputed. One theory names Angela del Moro, a well-known Venetian courtesan Titian is documented dining with in 1532. Other art historians reject any specific identification and read the figure as an idealized bride or an idealized nude with no real sitter at all. No reading has become consensus."
+      },
+      {
+        "question": "Are Venus and Aphrodite the same?",
+        "answer": "Same figure, different name and culture. Aphrodite is the Greek goddess of love and beauty; Venus is her Roman counterpart, adopted along with most of her myths and imagery once Roman religion absorbed Greek mythology into its own pantheon. That's why painters move freely between the two names for the same nude figure: Botticelli's Birth of Venus and Titian's Venus of Urbino both use the Roman name, while works titled Aphrodite usually lean on the Greek tradition or a specific Greek myth instead."
       }
     ],
     "sources": [
@@ -6982,6 +7010,10 @@ export const guides: Guide[] = [
       {
         "question": "Who are considered the pioneers of non-objective art?",
         "answer": "Tate's glossary names Wassily Kandinsky, Kazimir Malevich and the sculptor Naum Gabo as the movement's pioneers, with a later generation of American artists, including Sol LeWitt and Donald Judd, extending the same idea into 1960s minimal art."
+      },
+      {
+        "question": "Can you give an example of non-objective art?",
+        "answer": "Kazimir Malevich's Black Square (1915), a plain black square painted on a white canvas with no recognizable object underneath it, is the movement's most cited founding example. Wassily Kandinsky's Compositions from the same period and Piet Mondrian's grid paintings are also standard examples; Tate's own glossary names Kandinsky, Malevich, and the sculptor Naum Gabo as the style's pioneers."
       }
     ],
     "sources": [
