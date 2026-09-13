@@ -8523,5 +8523,110 @@ export const guides: Guide[] = [
         "url": "https://commons.wikimedia.org/wiki/File:Masaccio_trinity.jpg"
       }
     ]
+  },
+
+  {
+    "slug": "the-anatomy-lesson-nicolaes-tulp",
+    "category": "Painting",
+    "title": "The Anatomy Lesson of Dr. Nicolaes Tulp: Retested",
+    "description": "A 2006 study found four anatomical errors in Rembrandt's dissected forearm painting. A 2026 retest, run by one of the same researchers, cleared three of the four.",
+    "published": "2026-09-13",
+    "updated": "2026-09-13",
+    "coreSummary": "Rembrandt's 1632 group portrait shows Dr. Nicolaes Tulp dissecting the left forearm of Adriaan Adriaanszoon, an executed robber known as Aris Kindt, in front of seven members of the Amsterdam Guild of Surgeons. In 2006, a University of Groningen hand-surgery team led by Frank IJpma dissected a 41-year-old cadaver's forearm, positioned to match the painting, and published four specific anatomical discrepancies in the Journal of Hand Surgery: a muscle visible in the painting that had no match on the cadaver, more bulk in Dr. Tulp's forceps than the anatomy should hold, two flexor tendons running to the wrong fingers, and a pale cord-like structure with no real anatomical counterpart. In March 2026, IJpma returned to the question with a new team and ten dissected forearms in place of one, each positioned in the exact pose shown in the painting. The new study cleared three of the four original findings and called the depiction \"a remarkable degree of anatomical accuracy.\" Only the misrouted tendons held up. Separately, a 1996-1998 restoration at the Mauritshuis found that Rembrandt had painted over an amputated stump where the corpse's right hand now appears, and had lowered the dissected arm from a higher position earlier in the composition.",
+    "image": "/images/rembrandt-anatomy-lesson-nicolaes-tulp.jpg",
+    "imageAlt": "Rembrandt van Rijn's The Anatomy Lesson of Dr. Nicolaes Tulp, 1632, showing Dr. Tulp holding forceps over the dissected left forearm of the corpse while seven members of the Amsterdam Guild of Surgeons look on.",
+    "imageCredit": "[The Anatomy Lesson of Dr Nicolaes Tulp, by Rembrandt van Rijn](https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp_-_146_-_Mauritshuis.jpg), Mauritshuis, object 146, public domain",
+    "sections": [
+      {
+        "heading": "Two dissections, twenty years apart, from the same researcher",
+        "body": [
+          "For most of the 20th century, the debate over Rembrandt's The Anatomy Lesson of Dr. Nicolaes Tulp came down to a single alleged blunder: the flexor muscles Dr. Tulp holds in his forceps appear to originate from the wrong side of the elbow, the side where the extensor muscles actually start. Writers going back to 1944 took this at face value as an error, and the Journal of Hand Surgery even ran it as a reader challenge on the painting's 350th anniversary in 1982. It is not, in fact, an error: the forearm's specific twisted position in the painting turns that landmark away from the viewer. But the exchange set the template for how this particular painting gets studied, less like art history and more like a specimen doctors keep re-examining.",
+          "The most direct test came from a University of Groningen team (Frank IJpma, Robert van de Graaf, Jean-Philippe Nicolai, and Marcel Meek), who marked Rembrandt's 400th birthday in 2006 by dissecting the left forearm of a 41-year-old male cadaver, positioned and skinned to match the painting exactly, and comparing what they found to what Rembrandt painted. Their published verdict listed four specific mismatches: no trace of the sloping muscle visible near the elbow in the painting, noticeably more muscle tissue bunched in Dr. Tulp's forceps than the real anatomy could produce, two tendons feeding the wrong fingers (the ones running to the index and small fingers were swapped with the ones running to the middle and ring fingers), and no equivalent anywhere of the thin, pale cord Rembrandt painted running along the little-finger side of the hand.",
+          "Twenty years later, one name from that 2006 paper resurfaces on a different one. In March 2026, Frank IJpma joined a new team (Stella Bult, Annelie Suurmeijer, Karl Jacobs, J.A. Halm, Thomas van Gulik, Els Nieveen van Dijkum, and Roelof-Jan Oostra) in a study posted to the preprint server SSRN, not yet peer-reviewed, that dissected ten forearms instead of one, each positioned in the same external rotation and supination the painting shows, layer by layer. Where the 2006 study had one cadaver's anatomy to compare against, the 2026 team had ten data points to average out individual variation. The result reversed most of the earlier verdict: the muscles, the forceps bulk, and the pale cord all checked out this time. Only one problem from 2006 survived contact with the larger sample: the swapped tendons, the exact same finding, independently confirmed by the same researcher two decades apart."
+        ]
+      },
+      {
+        "heading": "Who was actually on the table",
+        "body": [
+          "The corpse is Adriaan Adriaanszoon, known by the alias Aris Kindt, a 28-year-old repeat offender from Leiden. Court records researchers have traced describe him as convicted of a violent robbery (he and an accomplice attacked a man in Amsterdam to steal his cloak), formally charged as grave assault and battery, and he had reportedly assaulted a prison guard during an earlier stint in custody. He was hanged on January 31, 1632, and the Amsterdam Guild of Surgeons collected his body that same day for their annual public dissection.",
+          "The Guild had held that privilege since 1555: one legally sanctioned dissection a year, always the body of an executed criminal, always in winter so the cold would slow decomposition through the days the lesson took. The event was less a private classroom than a paid public spectacle, staged in a theater built to seat two to three hundred spectators, open to Guild members, city officials, and any citizen willing to buy a ticket. Nicolaes Tulp presided as Praelector Anatomiae, the Guild's elected reader in anatomy, a post he had held since 1628. His own family name was an adopted one: a burial register for one of his children mentions a signboard with a tulip outside his house, and he took the flower for his coat of arms and, eventually, his surname. Tulp went on to a long career past this painting, serving as an Amsterdam city councilor and burgomaster and publishing Observationes Medicae in 1641, a case-history collection covering well over a hundred patients that included what is credited as the first accurate description of the ileocecal valve."
+        ]
+      },
+      {
+        "heading": "The four discrepancies, and the one that keeps surviving",
+        "body": [
+          "The 2006 dissection worked through the painting one contested region at a time. The first was a sloping muscle bulge near the elbow that the Groningen team could not reproduce on their cadaver at all, not as a natural structure and not as a documented anatomical variation. The only way they could recreate its shape was by artificially cutting and repositioning a nearby tendon that Dr. Tulp would have had to lift out of its normal bed to expose the muscle underneath it, which reads less like an error than a demonstration choice: moving one structure aside to show another one more clearly.",
+          "The second and third regions both concern the muscle bundle sitting in Dr. Tulp's forceps. There was more visible bulk there than a single muscle should account for, which the 2006 team could only match by holding two separate muscles in the forceps together rather than one, plausible for a demonstration but not what the anatomy alone would predict. Within that same bundle, the specific tendons feeding the fingers ran to the wrong ones: the strands that should lead to the middle and ring fingers instead led to the index and small fingers in the painting, and vice versa. This is the one discrepancy that reappeared in 2026 across all ten of the newer dissections, the single finding two research generations, twenty years apart, could not make disappear.",
+          "The fourth region was a thin, pale, cord-like line running along the ulnar side of the hand toward the little finger, a structure Rembrandt clearly painted but which corresponds to no standard nerve or tendon in that position. The 2006 team could only reproduce something resembling it by surgically rerouting a nerve to a location it does not normally reach, concluding the painting most likely shows a rare anatomical variation of the ulnar nerve rather than an invented detail. The 2026 team's larger sample apparently turned up examples of that same variation occurring naturally, which is why this discrepancy, like the first two, did not survive the retest."
+        ],
+        "image": {
+          "src": "/images/rembrandt-anatomy-lesson-nicolaes-tulp.jpg",
+          "alt": "Detail of Rembrandt's The Anatomy Lesson of Dr. Nicolaes Tulp showing the dissected left forearm held in Dr. Tulp's forceps, the region at the center of both the 2006 and 2026 anatomical studies."
+        }
+      },
+      {
+        "heading": "What the X-rays found under the paint",
+        "body": [
+          "The 2006 paper drew on a separate line of evidence: the Mauritshuis's own technical restoration of the canvas, carried out from 1996 to 1998. That project found that the corpse's right hand, which appears whole in the finished painting, sits on top of an earlier layer showing an amputated stump. The researchers raise, without confirming, a specific possibility: Aris Kindt may have already lost that hand to an earlier punishment for theft, and Rembrandt's canvas first recorded the corpse as it actually looked before a later layer of paint restored the missing hand.",
+          "The same restoration traced a second change to the dissected forearm itself: Rembrandt had originally placed it higher in the composition, in a position the 2006 researchers describe as less practical for teaching, before lowering it to where it sits in the finished picture. A third change involves the sheet of paper held by one of the seated Guild members. Under the visible layer, which lists the observers' names, restorers found Rembrandt's own original painted illustration of an arm on that same sheet. It was covered over, the 2006 paper notes, sometime during an 18th-century restoration, long after Rembrandt's death, and only uncovered again by the 1996-1998 project. A fourth adjustment is smaller: Frans van Loenen, seated at the top of the group, was first painted wearing a black hat that Rembrandt later painted out.",
+          "One more detail complicates any reading of the painting as a literal record. Public anatomy lessons in the 17th century conventionally began with the perishable organs of the abdomen and chest, saving the limbs for last since they kept longest. Rembrandt's painting shows the opposite order: the forearm is already fully dissected while the rest of the body sits untouched. Taken together with the restoration evidence and the absence of any surviving eyewitness account or preparatory drawing by Rembrandt himself, the 2006 researchers read the painting less as a transcript of the actual January 31 lesson and more as a composed, symbolic scene the Guild members sat for afterward, likely built around a real limb Rembrandt studied directly rather than a moment he witnessed live."
+        ]
+      },
+      {
+        "heading": "A dissection everyone remembers, a doctor few can name",
+        "body": [
+          "A 2016 paper in Clinical Orthopaedics and Related Research, by Berardo Di Matteo and colleagues at the Rizzoli Orthopaedic Institute, gave the imbalance in this painting's fame a name: Nicolaes Tulp, its ostensible subject, is overshadowed by the executed man on the table and by its own fame as an image, more than by the physician who commissioned it and whose demonstration it records. Tulp seems to have understood exactly what he was doing by posing with a dissected forearm in the first place: art historians trace his stance back to the frontispiece of Andreas Vesalius's 1543 anatomy text, which shows Vesalius himself demonstrating forearm muscles in almost the same posture. A century after Vesalius rebuilt the field on direct observation over inherited authority, Tulp appears to have wanted the same visual claim made about himself, and his later writing backs that up: in his 1641 book Observationes Medicae, he described anatomy itself as \"the very eye of medicine,\" a science that \"brought forth the truth as it were out of the shadow into the light.\"",
+          "The painting keeps company on this site with other Dutch Golden Age works that have drawn their own close, sometimes forensic, scrutiny: [a 2022 scan of Vermeer's The Milkmaid found he had painted over a jug holder and a fire basket, on top of an earlier, hastily sketched underpainting](/the-milkmaid-vermeer/). The pattern of a single old-master canvas becoming the subject of dueling, decades-apart expert reassessments also runs through [the two most famous Baroque paintings usually cited to define chiaroscuro, both still generating live academic disagreement about their exact details four centuries on](/baroque-paintings/). And the idea of a painting's reputation resting on a specific, contested legal or scientific verdict shows up again in [the 1878 libel trial that pitted James McNeill Whistler against John Ruskin, decided as much on courtroom testimony as on the painting itself](/whistler-ruskin-trial/). Two research teams, twenty years and one shared name apart, arrived at nearly the same conclusion from opposite directions: three alleged errors turned out not to be errors at all, and the one that is has never gone away."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Rembrandt's Anatomy Lesson of Dr. Nicolaes Tulp anatomically accurate?",
+        "answer": "Mostly, according to the researchers who have tested it twice. A 2006 team of Dutch hand surgeons dissecting a single cadaver's forearm reported four mismatches with the painted anatomy. A 2026 follow-up by an overlapping research group, working from a larger set of cadaver arms, threw out three of those four findings and described the depiction as remarkably accurate overall. Only one problem, a pair of swapped finger tendons, held up in both rounds of testing."
+      },
+      {
+        "question": "Who was the corpse in the painting, and what did he do to end up there?",
+        "answer": "Aris Kindt was an alias for a man surnamed Adriaanszoon, a Leiden-born man in his late twenties with a history of run-ins with the law. Court paperwork lists a violent robbery, a mugging with a partner in crime that ended with a stolen cloak, and a formal charge that combined battery with assault; an earlier jail stay had also reportedly ended with him attacking a guard. His execution and the Guild's annual dissection fell on the same date, since the corpse used each year had to be a criminal put to death that winter."
+      },
+      {
+        "question": "What did the 1996-1998 restoration find hidden under the paint?",
+        "answer": "Several changes Rembrandt made as he worked. X-ray and technical analysis showed Aris Kindt's right hand, unhurt in the completed canvas, had begun life on the canvas as an amputated stump, which researchers suggest may reflect a punishment Aris Kindt had already suffered before his execution. The forearm Dr. Tulp is shown dissecting had originally sat higher up in the composition before Rembrandt lowered it, and the piece of paper one onlooker holds turned out to carry his own sketch of an arm underneath a list of observers' names that a different hand added on top, generations later."
+      },
+      {
+        "question": "Did Rembrandt actually witness the dissection he painted?",
+        "answer": "There is no surviving record either way. Nothing documents Rembrandt sketching at the actual lesson, and nothing shows the corpse ever reaching his workshop afterward. The 2006 Groningen researchers concluded, based on the anatomical detail in the finished canvas, that Rembrandt most likely worked from a real limb directly, with its sitters posing for their individual portraits on their own schedule."
+      },
+      {
+        "question": "Why is Dr. Tulp's surname Dutch for tulip?",
+        "answer": "It wasn't his birth name. He was born Claes Pieterszoon, and a record of a family burial notes that a tulip sign hung outside the house where he lived. He chose the tulip as his emblem, and Tulp eventually replaced Pieterszoon as the name he went by."
+      }
+    ],
+    "sources": [
+      {
+        "label": "IJpma, van de Graaf, Nicolai, Meek, \"The Anatomy Lesson of Dr. Nicolaes Tulp by Rembrandt (1632): A Comparison of the Painting With a Dissected Left Forearm of a Dutch Male Cadaver,\" Journal of Hand Surgery (American) 31A(6):882-891, 2006",
+        "url": "https://doi.org/10.1016/j.jhsa.2006.02.014"
+      },
+      {
+        "label": "Bult, Suurmeijer, Jacobs, Halm, van Gulik, Nieveen van Dijkum, IJpma, Oostra, \"Revisiting the Anatomical Structures of the Dissected Forearm in Rembrandt's The Anatomy Lesson of Dr. Nicolaes Tulp (1632),\" SSRN, posted March 11, 2026",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6388858"
+      },
+      {
+        "label": "Di Matteo, Tarabella, Filardo, Tomba, Viganò, Marcacci, \"Nicolaes Tulp: The Overshadowed Subject in The Anatomy Lesson of Dr. Nicolaes Tulp,\" Clinical Orthopaedics and Related Research 474(3):625-629, 2016",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4746154/"
+      },
+      {
+        "label": "Mauritshuis: The Anatomy Lesson of Dr Nicolaes Tulp, collection object 146",
+        "url": "https://www.mauritshuis.nl/en/our-collection/artworks/146-the-anatomy-lesson-of-dr-nicolaes-tulp"
+      },
+      {
+        "label": "Executed Today: \"1632: Aris Kindt, Rembrandt subject\"",
+        "url": "https://www.executedtoday.com/2012/01/31/1632-aris-kindt-rembrandt-anatomy-lesson-dr-nicolaes-tulp/"
+      },
+      {
+        "label": "Wikimedia Commons: The Anatomy Lesson of Dr Nicolaes Tulp (Rembrandt van Rijn, Mauritshuis object 146)",
+        "url": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp_-_146_-_Mauritshuis.jpg"
+      }
+    ]
   }
 ];
