@@ -1794,6 +1794,10 @@ export const guides: Guide[] = [
       {
         "question": "Did Andy Warhol make a version of The Scream?",
         "answer": "Yes. In 1984, following a Munch retrospective he saw in New York, Warhol was commissioned to produce a series of canvases and later screenprints based on four of Munch's best-known prints, including The Scream, reproducing Munch's own lithograph in the bright, flat colour blocks he had used for Marilyn Monroe and Campbell's soup cans. The Museum of Modern Art holds one of the resulting prints, The Scream (After Munch), 1984."
+      },
+      {
+        "question": "How much is The Scream worth today?",
+        "answer": "The clearest benchmark is the 1895 pastel version, which sold for $119,922,600 at Sotheby's in New York on 2 May 2012 to financier Leon Black, the highest nominal price paid for any artwork at public auction at that time. The two painted versions and the other pastel are held by Norwegian museums and aren't for sale, so that 2012 pastel sale remains the only real market price on record for the image."
       }
     ],
     "sources": [
@@ -3007,6 +3011,14 @@ export const guides: Guide[] = [
       {
         "question": "Is The Birth of Venus a pair with Primavera?",
         "answer": "Not formally, though the two Botticelli paintings are almost always discussed together and both hang in the Uffizi. They were long assumed to share a single commission from the same Medici patron. That assumption is now uncertain: a 1499 inventory of the relevant Medici branch's property, published in 1975, lists Primavera but not the Birth of Venus, which is the evidence the art historian Ronald Lightbown used to argue the two paintings entered Medici ownership at different times."
+      },
+      {
+        "question": "What is the story behind The Birth of Venus?",
+        "answer": "The painting shows the goddess Venus arriving on land at Cyprus after being born from sea foam, blown ashore on a giant scallop shell by the wind god Zephyr and a companion, while a robed attendant waits with a cloak, following the Uffizi's own description of the scene. The composition's closest literary match is a Homeric Hymn to Aphrodite that wasn't published in Florence until 1488, three years after the painting is now dated, so Botticelli's more likely source was Angelo Poliziano's 1475 poem Stanze per la giostra, which describes a relief of the same birth and would have circulated in the Medici court poet's own Florentine circles."
+      },
+      {
+        "question": "Who was Botticelli in love with?",
+        "answer": "The traditional answer is Simonetta Vespucci, a Genoese noblewoman whose face popular legend identifies in The Birth of Venus and other Botticelli women. The connection is unproven, though: no contemporary document records a romance, the only confirmed portrait Botticelli made of her while she was alive, a 1475 tournament banner, does not survive, and every surviving \"Simonetta\" portrait was painted after her 1476 death. The art historian Ernst Gombrich called the romantic identification a myth."
       }
     ],
     "sources": [
@@ -7944,6 +7956,10 @@ export const guides: Guide[] = [
       {
         "question": "How much gold did the Basilica of San Vitale cost to build?",
         "answer": "The recorded price was 26,000 solidi, gold coins Julius Argentarius put up as the project's financier. A kilogram figure for that sum is contested rather than settled: one widely cited source lands on 16.38 kilograms of gold, while multiplying the coin count by the era's typical per-coin weight instead points to something in the neighborhood of 116 kilograms. Bishop Ecclesius broke ground in 526, while the Ostrogoths still held the city; a later bishop, Maximian, finally saw the project finished in the year 547, once Justinian I's forces had retaken Ravenna for Byzantium."
+      },
+      {
+        "question": "How is Byzantine mosaic different from Roman mosaic?",
+        "answer": "Byzantine mosaics grew directly out of earlier Hellenistic and Roman techniques, but Byzantine craftsmen shifted both the medium's purpose and its materials. Roman mosaics were mostly floor decoration made from small stone tesserae, often geometric patterns or genre scenes for private houses. Byzantine artisans moved the art onto church walls and vaults, switching to glass tesserae, frequently backed with gold leaf for a shimmering gold ground, and used it for large-scale religious imagery, icons, and biblical scenes rather than decorative flooring."
       }
     ],
     "sources": [
