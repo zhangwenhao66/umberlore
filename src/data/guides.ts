@@ -201,6 +201,14 @@ export const guides: Guide[] = [
       {
         "question": "What is a chimera in architecture?",
         "answer": "A chimera is a carved hybrid used as architectural ornament, a creature made from parts of different animals or combining animal and human features. In the Notre-Dame context the word refers specifically to the figures Viollet-le-Duc placed along the gallery linking the west towers in the 1850s, a stretch now known as the Galerie des Chimères. Chimeras are a subset of grotesques, and because they carry no water channel they are not gargoyles, however often they are called that."
+      },
+      {
+        "question": "Are gargoyles considered evil?",
+        "answer": "Not exactly; they're closer to a paradox. Carved as grotesque, demon-like figures, they were meant to ward off evil rather than embody it, an apotropaic use built on the medieval idea that something monstrous enough could frighten off worse monsters. Church art historians also read them as moral warnings, exaggerated sinners and devils left in stone to remind worshippers of what waited outside the sanctuary, which is how gargoyles ended up looking threatening while still serving a protective role."
+      },
+      {
+        "question": "Who is the most famous gargoyle?",
+        "answer": "Le Stryge, the horned, chin-in-hand figure perched on the gallery between Notre-Dame de Paris's towers. Architect Eugène Viollet-le-Duc added it during his 1850s restoration; strictly it's a chimera rather than a true gargoyle, since it carries no water spout, but it became the best-known figure of the group after printmaker Charles Méryon featured it in his 1853 etching, which he titled Le Stryge, French for a vampiric night creature."
       }
     ],
     "sources": [
@@ -1483,6 +1491,10 @@ export const guides: Guide[] = [
       {
         "question": "Who actually doubled the reinforcing steel in Fallingwater's cantilever?",
         "answer": "The historical record disagrees. Contractor Walter Hall, also a trained engineer, argued during construction for roughly doubling Wright's original reinforcing (a Penn State engineering case study cites 8 bars specified against 16 recommended); some accounts say Hall added the extra steel himself, others say Kaufmann's own consulting engineers redrew Wright's reinforcing drawings. Either way, the addition didn't address the actual flaw that surfaced later: missing reinforcing at the top of the beam, which engineer Mendel Glickman reportedly discovered only after the formwork was removed."
+      },
+      {
+        "question": "What is Frank Lloyd Wright's most famous building?",
+        "answer": "Fallingwater, the 1935 weekend house he built over a waterfall in rural Pennsylvania for department-store owner Edgar Kaufmann. The American Institute of Architects named it the best all-time work of American architecture in a poll of its own members, and in 2019 UNESCO added it, along with seven other Wright buildings, to the World Heritage List. It remains a private residence turned museum, drawing more than 120,000 visitors a year."
       }
     ],
     "sources": [
@@ -1627,6 +1639,10 @@ export const guides: Guide[] = [
       {
         "question": "Is Michelangelo's Pietà older than the current basilica building?",
         "answer": "Yes, by eight years. The Fabbrica di San Pietro dates it to 1498, when Michelangelo was 23, made for a now-demolished chapel in the old Constantinian basilica that stood on the site before Julius II laid the first stone of the present building in 1506."
+      },
+      {
+        "question": "Can you wear jeans to St. Peter's Basilica?",
+        "answer": "Yes, jeans are fine as long as they aren't ripped or heavily distressed above the knee. What trips visitors up is the stricter rule underneath: shoulders and knees must be covered for everyone entering, so shorts, skirts, or dresses that stop above the knee, sleeveless tops, and swimwear are all turned away regardless of the weather. The dress code applies to the free public visit to the basilica itself, not only to Masses or the papal audience."
       }
     ],
     "sources": [
@@ -2323,6 +2339,10 @@ export const guides: Guide[] = [
       {
         "question": "How many Black Paintings did Goya actually make?",
         "answer": "The Museo del Prado holds fourteen, but Antonio Brugada's 1828 inventory of the house lists fifteen murals across its two floors. The French critic Charles Yriarte reported seeing an extra mural, already removed from the wall, when he visited the house in 1867. Most specialists identify it as Heads in a Landscape, now in a private New York collection, with a documented ownership trail running back to an 1846 Madrid palace inventory, though some scholars have questioned whether it is authentically Goya's work."
+      },
+      {
+        "question": "What illness did Goya suffer from?",
+        "answer": "An unidentified illness struck him in late 1792 and nearly killed him, leaving him permanently deaf; researchers have proposed causes ranging from lead poisoning in his paints to a viral or autoimmune condition, but no diagnosis has ever been confirmed. The same illness recurred in 1819, again nearly fatally, not long before Goya began painting the Black Paintings, including Saturn Devouring His Son, directly onto the walls of his house."
       }
     ],
     "sources": [
@@ -2435,6 +2455,10 @@ export const guides: Guide[] = [
       {
         "question": "What was Andy Warhol's Campbell's Soup Cans debut?",
         "answer": "His first solo pop-art exhibition opened at the Ferus Gallery in Los Angeles on 9 July 1962: 32 canvases, one for each flavour in Campbell's 1962 product line, displayed on narrow ledges in a single row. Asked why 32, Warhol reportedly told gallery director Irving Blum, \"There are 32 varieties.\" Early critics dismissed the show as resembling a grocery-store display."
+      },
+      {
+        "question": "What did Andy Warhol die from?",
+        "answer": "Cardiac arrhythmia, in the early hours of 22 February 1987, two days after gallbladder surgery at New York Hospital that his doctors had called routine. His estate later sued the hospital for malpractice, arguing he had been overloaded with intravenous fluids after being misdiagnosed as dehydrated; the case went to trial in 1991, and the hospital settled for $8 million without admitting liability."
       }
     ],
     "sources": [
@@ -2685,6 +2709,14 @@ export const guides: Guide[] = [
       {
         "question": "How long did it take Diego Rivera to paint the Detroit Industry Murals?",
         "answer": "Rivera spent three months researching Ford's River Rouge Complex before painting, then completed all 27 fresco panels in eight months of fifteen-hour workdays, losing about 100 pounds over the course of the project."
+      },
+      {
+        "question": "What happened to Diego Rivera after Frida Kahlo died?",
+        "answer": "Rivera mourned for about a year, later writing in his autobiography, My Art, My Life, that her 1954 death was \"the most tragic day of my life.\" He set up the trust that turned her home, the Casa Azul in Coyoacán, into the Museo Frida Kahlo, and on 29 July 1955 he married his longtime art dealer, Emma Hurtado. Rivera himself died two years later, on 24 November 1957, and was buried in Mexico City's Rotunda of Illustrious Persons rather than having his ashes mixed with Frida's, which family members say had been his wish."
+      },
+      {
+        "question": "How much is a Diego Rivera painting worth?",
+        "answer": "Prices vary enormously by period and subject, but his auction record is $9,762,500, set in 2018 at Christie's New York for The Rivals (1931), a village fiesta scene Abby Aldrich Rockefeller had commissioned as a wedding gift for her son. That sale made it, at the time, the most expensive work by a Latin American artist ever sold at auction. Outside the auction room, Rivera's 1928 Dance in Tehuantepec reportedly sold privately in 2016 for $15.7 million to Argentine collector Eduardo Costantini."
       }
     ],
     "sources": [
@@ -3358,6 +3390,14 @@ export const guides: Guide[] = [
       {
         "question": "Why did daguerreotypes stop being used?",
         "answer": "Cost and convenience beat it out. By the late 1850s, portrait studios were switching over to the ambrotype, a glass-based process that was quicker and cheaper to produce. Daguerreotypes also had a deeper structural problem: since each plate was an unrepeatable, one-shot original with no negative behind it, getting a second copy meant sitting for a second exposure, unlike rival processes built around a negative, which could print as many copies as anyone wanted from a single sitting."
+      },
+      {
+        "question": "How can you tell if a photo is a daguerreotype?",
+        "answer": "Tilt it. A daguerreotype's image sits on a mirror-polished, silver-plated copper sheet, so from one angle it reads as a dark negative and from another, held at roughly 45 degrees, the correct positive image appears, an effect neither paper photographs nor the ambrotypes and tintypes that later replaced it can reproduce. Most surviving examples are also small and kept sealed in a hinged case behind glass with a brass mat, because the bare silver surface tarnishes and scratches easily once exposed to air."
+      },
+      {
+        "question": "Are daguerreotypes worth anything?",
+        "answer": "Most are worth relatively little: ordinary studio portraits with no case or identified sitter often sell for as little as $25 to $100, not far off flea-market prices. Value climbs sharply for pieces with a named subject, an intact case and seal, an unusual size, or a rare subject beyond the standard studio portrait; outdoor and occupational scenes are especially sought after, and a daguerreotype of a rural estate has sold for as much as $62,500."
       }
     ],
     "sources": [
@@ -3772,6 +3812,10 @@ export const guides: Guide[] = [
       {
         "question": "Was the 1980s-1990s restoration of the ceiling controversial?",
         "answer": "Yes. Cleaning revealed colors considerably brighter than the muted palette scholars had long assumed was original. Critics including art historian James Beck and writer Waldemar Januszczak argued the cleaning also took off a layer of shading and glaze that Michelangelo brushed on once the plaster had set, so part of what came away was his own finishing work, not just centuries of dirt."
+      },
+      {
+        "question": "Why does Adam look so lifeless on the Sistine Chapel ceiling?",
+        "answer": "Adam's slack pose is deliberate, not a flaw. Michelangelo shows him a moment before life enters his body, propped on one elbow with his hand barely raised, his form left passive and inert against God's taut, forward-driving figure. The British Museum points to a Roman cameo of the emperor Augustus reclining on a Capricorn as one likely antique source for the general pose, the kind of ancient gem and sculpture Michelangelo would have studied in Rome. The contrast is the point: an inert body about to be charged with divine energy, set beside a Creator whose whole figure surges forward."
       }
     ],
     "sources": [
@@ -3889,6 +3933,10 @@ export const guides: Guide[] = [
       {
         "question": "How big is the painting: 121 by 189.7 cm, or 120.5 by 196.5 cm?",
         "answer": "Sources disagree. The Musée Fabre's own website currently lists 121 by 189.7 centimetres. AGORHA, the INHA's academic art database, lists 120.5 by 196.5 centimetres for the same canvas while citing the Musée Fabre as its source. English Wikipedia follows the AGORHA figure; French Wikipedia follows the museum's current website. This article can't resolve which one is current without access to the museum's own files."
+      },
+      {
+        "question": "Why is The Fallen Angel painting crying?",
+        "answer": "Per Cabanel's own letter to his patron Alfred Bruyas, quoted by the Musée Fabre, the tears mark the moment Satan registers what he has lost, a once-beautiful being reduced to what Cabanel called \"a broken power bowing his head before the creator he had dared make his rival.\" The legion of angels singing God's glory in the sky above, by Cabanel's own description, exists mainly to remind Satan of the splendor by contrast."
       }
     ],
     "sources": [
@@ -6133,6 +6181,14 @@ export const guides: Guide[] = [
       {
         "question": "Is the photographer Cristina Kahlo related to the historical Cristina Kahlo?",
         "answer": "Yes. The contemporary photographer Cristina Kahlo is the great-niece of Frida Kahlo and the granddaughter of the historical Cristina Kahlo, named after her. She is the daughter of photographer Antonio Kahlo, Cristina's son, and served as a consultant on the 2024 documentary Frida."
+      },
+      {
+        "question": "Did Frida Kahlo ever forgive her sister Cristina?",
+        "answer": "Yes, though not quickly. After discovering Cristina's affair with Diego Rivera, Frida cut off her hair and put away the Tehuana dresses she associated with him, and the sisters were estranged for roughly a year. They reconciled afterward, and Cristina remained one of the sisters Frida stayed closest to for the rest of her life, later accompanying her on a trip to New York, even though the affair itself helped drive Frida and Diego into a divorce that lasted four years before they remarried in 1940."
+      },
+      {
+        "question": "Who was Diego Rivera's love of his life?",
+        "answer": "Frida Kahlo, by his own account, despite marrying four times and despite his affair with her sister Cristina. In his autobiography, My Art, My Life, dictated to Gladys March, Rivera described Frida as the great love of his life. After she died in 1954 he mourned for about a year before remarrying his longtime art dealer, Emma Hurtado, and he set up the trust that turned Frida's Casa Azul into the museum it remains today."
       }
     ],
     "sources": [
