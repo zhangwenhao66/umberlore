@@ -1,0 +1,16 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "[The Aztec Sun Stone's central carved face has drawn at least four competing scholarly identifications over the past century, argued from the same surviving object](/aztec-art/), and in a different way, [the Bonampak murals in Chiapas kept yielding previously unreadable content for decades after their 1946 rediscovery, as documentation methods advanced from hand-copying to infrared photography](/mayan-art/).",
+    "target_slug": "aztec-art",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "[The Aztec Sun Stone's central carved face has drawn at least four competing scholarly identifications over the past century, argued from the same surviving object](/aztec-art/), and in a different way, [the Bonampak murals in Chiapas kept yielding previously unreadable content for decades after their 1946 rediscovery, as documentation methods advanced from hand-copying to infrared photography](/mayan-art/).",
+    "target_slug": "mayan-art",
+    "target_found": true
+  }
+]

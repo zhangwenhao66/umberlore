@@ -1,0 +1,30 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "Non-representational art has found unconventional doorways more than once: decades later, [a Los Angeles psychiatrist's 1950s LSD studies pushed professional artists toward their own unplanned departures from recognizable subject matter](/psychedelic-art/), a different route to a broadly similar kind of break.",
+    "target_slug": "psychedelic-art",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "The reassessment reached its widest audience in 2018, when the Guggenheim's Hilma af Klint: Paintings for the Future opened in New York; the museum's account of the show states that \\\"more than 600,000 visitors have attended Hilma af Klint: Paintings for the Future, the highest recorded attendance figure for a single exhibition in the museum's history.\\\" Institutions have shaped which abstract pioneers get remembered in more than one case: [the Guggenheim's forerunner institution was originally named the Museum of Non-Objective Painting after curator Hilla Rebay, who was pushed out in 1952, the same year the museum dropped the term from its name](/non-objective-art/).",
+    "target_slug": "non-objective-art",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "[Checking a museum's catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to document a pond he built and planted himself](/water-lilies-monet-series/) rather than a scene he simply found.",
+    "target_slug": "famous-paintings",
+    "target_found": true
+  },
+  {
+    "index": 4,
+    "source": "正文",
+    "sentence": "[Checking a museum's catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to document a pond he built and planted himself](/water-lilies-monet-series/) rather than a scene he simply found.",
+    "target_slug": "water-lilies-monet-series",
+    "target_found": true
+  }
+]
