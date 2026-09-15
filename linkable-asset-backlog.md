@@ -20,7 +20,9 @@
 - **制作复杂度**：需要简单前端交互 + 静态 JSON 数据。**零版权风险**——色块是自己渲染的，不涉及任何艺术品图像。
 - **备注**：色块只能是"近似示意"，页面必须写明屏幕无法准确呈现实际颜料色，并说明 hex 值的来源依据（例如取自某公开颜料数据库或博物馆的色度测量），不能自己随手调一个色。
 
-## 2. 开放版权艺术图库总目录 `[待制作]`
+## 2. 开放版权艺术图库总目录 `[已发布]` https://umberlore.com/open-license-art-image-directory/（2026-09-15）
+
+2026-09-15 制作完成：10家机构（Met/Rijksmuseum/Art Institute of Chicago/Smithsonian/Cleveland Museum of Art/Getty/National Gallery of Art/Paris Musées/British Museum/Wikimedia Commons）逐家WebSearch核实许可条款，British Museum是唯一非CC0（CC BY-NC-SA 4.0，仅限非商业）的机构，作为页面差异化亮点单独列caveat表说明。头条可摘引数字："10家机构中9家已将部分或全部藏品图像开放为CC0"。含Cite this引用块。10个terms链接中6个WebSearch结果标题精确匹配确认（可信），4个（artic.edu/britishmuseum.org/metmuseum.org/nga.gov/si.edu）遭遇WAF拦截curl返回403/429无法直接200核实——URL本身来自WebSearch结果且标题与预期完全吻合，判断为真实链接但记录此限制，未来复核建议用真实浏览器核实。
 
 - **类别**：终极合集页
 - **具体做什么**：把全世界发布开放许可艺术图像的机构整理成一张可筛选表，每行：机构名、开放藏品数量、许可类型（CC0 / 公有领域标记 / 需署名 / 仅限非商业）、是否允许商用、最大可下载分辨率、有无公开 API、批量下载入口、注意事项。覆盖 Met、Rijksmuseum、Art Institute of Chicago、Cleveland Museum of Art、Smithsonian Open Access、Getty、National Gallery of Art、Paris Musées、大英博物馆、各国国家图书馆等。每行给一句话"什么情况下该用这家"。

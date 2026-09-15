@@ -8896,5 +8896,105 @@ export const guides: Guide[] = [
         "url": "https://commons.wikimedia.org/wiki/File:David_-_The_Death_of_Socrates.jpg"
       }
     ]
-  }
+  },
+  {
+  "slug": "open-license-art-image-directory",
+  "category": "Resources",
+  "title": "The Open-License Museum Image Directory: Where to Find Art You Can Actually Use",
+  "description": "Ten major museums and archives that release collection images under an open license, checked against each institution’s own current terms page: what’s actually free to use, what still requires attribution, and the one major outlier that isn’t cleared for commercial use.",
+  "published": "2026-09-15",
+  "updated": "2026-09-15",
+  "coreSummary": "Of the ten major museums and archives checked against their own current terms pages, nine release some or all of their collection images under CC0, free for any use including commercial, with no permission required. Only one, the British Museum, licenses its open collection under CC BY-NC-SA 4.0, which requires attribution and rules out commercial use without a separate paid license.",
+  "sections": [
+    {
+      "heading": "Why this list exists",
+      "body": [
+        "Every writer, teacher, and designer who has gone looking for a usable museum image has hit the same wall: a dozen \"free stock photo\" roundups that quietly mix in images still under copyright, alongside real open-access programs whose terms pages are three clicks deep and easy to misread. This page checks ten of the largest open-access programs directly against their own current policy pages, on the date given below, and lays out what each one actually allows.",
+        "This is also a page UmberLore uses itself: every image on this site is sourced from one of the programs below or from a comparable public-domain source, and this table is the reference we check before publishing an image credit."
+      ]
+    },
+    {
+      "heading": "The directory",
+      "body": [
+        "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.8rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Institution</th><th style=\"padding:8px 10px;text-align:left;\">Open collection size</th><th style=\"padding:8px 10px;text-align:left;\">License</th><th style=\"padding:8px 10px;text-align:left;\">Commercial use</th><th style=\"padding:8px 10px;text-align:left;\">Access</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">Source</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">The Metropolitan Museum of Art</td><td style=\"padding:8px 10px;white-space:nowrap;\">~492,000 images</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Public API + full GitHub dataset</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://www.metmuseum.org/policies/image-resources\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Rijksmuseum</td><td style=\"padding:8px 10px;white-space:nowrap;\">700,000+ images</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0 / Public Domain Mark</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Rijksdata API; free account needed for max-resolution download</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://data.rijksmuseum.nl/policy/information-and-data-policy\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Art Institute of Chicago</td><td style=\"padding:8px 10px;white-space:nowrap;\">50,000+ images</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Public API (api.artic.edu) + IIIF</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://www.artic.edu/open-access\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Smithsonian Institution (20+ museums)</td><td style=\"padding:8px 10px;white-space:nowrap;\">2.8 million+ images at launch, grown since</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Public API via api.data.gov (free key)</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://www.si.edu/openaccess/faq\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Cleveland Museum of Art</td><td style=\"padding:8px 10px;white-space:nowrap;\">37,000+ images (of 64,000+ catalog records)</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Open API, no key required</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://www.clevelandart.org/open-access\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Getty (Open Content Program)</td><td style=\"padding:8px 10px;white-space:nowrap;\">88,000+ images</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Direct download from object pages; no bulk API</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://www.getty.edu/projects/open-content-program/faqs/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">National Gallery of Art (Washington, DC)</td><td style=\"padding:8px 10px;white-space:nowrap;\">60,000+ images</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Open Data GitHub dataset (130,000+ object records) + object-page downloads</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://www.nga.gov/artworks/free-images-and-open-access\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Paris Musées (14 City of Paris museums)</td><td style=\"padding:8px 10px;white-space:nowrap;\">150,000+ images</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Direct download via parismuseescollections.paris.fr; mirrored on Wikimedia Commons</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://www.parismuseescollections.paris.fr/fr/les-images-sous-droits\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">British Museum</td><td style=\"padding:8px 10px;white-space:nowrap;\">1.9 million images</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC BY-NC-SA 4.0</td><td style=\"padding:8px 10px;white-space:nowrap;\">No, non-commercial only</td><td style=\"padding:8px 10px;\">Collection Online database</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://www.britishmuseum.org/terms-use/copyright-and-permissions/images-and-photography\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Wikimedia Commons</td><td style=\"padding:8px 10px;white-space:nowrap;\">Millions (aggregated from many institutions, including several above)</td><td style=\"padding:8px 10px;white-space:nowrap;\">CC0 / Public Domain (for faithful 2D reproductions of PD art)</td><td style=\"padding:8px 10px;white-space:nowrap;\">Yes, unrestricted</td><td style=\"padding:8px 10px;\">Public API + bulk data dumps</td><td style=\"padding:8px 0 8px 10px;white-space:nowrap;\"><a href=\"https://commons.wikimedia.org/wiki/Commons:Licensing\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:var(--ink);font-weight:600;\">Terms page</a></td></tr></tbody></table></div><p style=\"font-size:0.75rem;color:rgba(33,31,28,0.5);margin-top:8px;\">Terms verified directly against each institution's own policy page on 2026-09-15. Licensing programs change; re-check the linked terms page before relying on this table for a specific image.</p>"
+      ]
+    },
+    {
+      "heading": "What to check before you reuse an image",
+      "body": [
+        "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.8rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Institution</th><th style=\"padding:8px 10px;text-align:left;\">What to know before you use it</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">The Metropolitan Museum of Art</td><td style=\"padding:8px 10px;\">Covers accessioned public-domain works only; images still under copyright are excluded.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">Rijksmuseum</td><td style=\"padding:8px 10px;\">The free-account requirement is only a download gate, not a licensing restriction.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">Art Institute of Chicago</td><td style=\"padding:8px 10px;\">Filter search results by \"CC0\" or \"public domain\" to isolate the open-license subset.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">Smithsonian Institution (20+ museums)</td><td style=\"padding:8px 10px;\">Spans 20+ separate Smithsonian museums and archives; coverage varies unit by unit.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">Cleveland Museum of Art</td><td style=\"padding:8px 10px;\">Not every catalog record has an accompanying open image; check the record’s own flag.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">Getty (Open Content Program)</td><td style=\"padding:8px 10px;\">Getty asks for a courtesy credit line, but it is not a legal condition of the CC0 grant.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">National Gallery of Art (Washington, DC)</td><td style=\"padding:8px 10px;\">Only images the Gallery believes are in the public domain are included; some cataloged works are not.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">Paris Musées (14 City of Paris museums)</td><td style=\"padding:8px 10px;\">The site name is French-only; the linked page also lists which works remain under rights and are excluded.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">British Museum</td><td style=\"padding:8px 10px;\">The one major outlier on this list: attribution is required and commercial use is not permitted without a separate paid license.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;white-space:nowrap;\">Wikimedia Commons</td><td style=\"padding:8px 10px;\">Not a museum itself. Verify the original source and license tag on each individual file page before reuse.</td></tr></tbody></table></div>",
+        "The recurring mistake is treating \"open access\" as a single license. It is not. CC0 (used by nine of the ten programs above) puts the image fully in the public domain: no permission, no attribution, no restriction on commercial use. CC BY-NC-SA (the British Museum’s license) is a genuinely different, more restrictive grant: it requires credit, forbids commercial use outright, and requires any adaptation to carry the same license forward. Confusing the two is the single most common licensing mistake in roundup posts about \"free museum images.\"",
+        "A second distinction worth holding onto: several CC0 programs (Getty is the clearest example) ask for a courtesy credit line even though the license itself does not require one. Giving that credit is good practice and costs nothing, but it is worth knowing the difference between a request and a legal condition when you are deciding how to caption an image."
+      ]
+    },
+    {
+      "heading": "How this list was built",
+      "body": [
+        "Inclusion criteria: a national or major encyclopedic museum, gallery, or archive with an explicit, named open-access or open-content program, and a policy page published by the institution itself (not a third-party summary) that states the license terms in writing. Ten programs meeting that bar are listed above; there are others (regional museums, smaller archives) that were not checked for this first version and may be added later.",
+        "Every license, collection-size figure, and access method in the table above was checked against the institution’s own terms or FAQ page linked in the Source column, not against secondary write-ups, on the verification date given below the table.",
+        "<div style=\"border-top:1px solid var(--rule);padding-top:16px;margin-top:4px;\"><p style=\"font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:rgba(33,31,28,0.45);margin:0;\">Cite this</p><p style=\"font-size:0.875rem;line-height:1.6;color:rgba(33,31,28,0.7);margin-top:8px;margin-bottom:0;\">UmberLore Editorial, &#x201c;The Open-License Museum Image Directory: Where to Find Art You Can Actually Use,&#x201d; UmberLore, published September 15, 2026, https://umberlore.com/open-license-art-image-directory/.</p></div>"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What does a CC0 license actually mean for an image?",
+      "answer": "CC0 (\"Creative Commons Zero\") is a public-domain dedication: the rights holder waives all copyright and related rights, so anyone can copy, modify, and redistribute the image for any purpose, including commercial use, without asking permission or crediting the source. It is the most permissive license in common use, distinct from licenses like CC BY or CC BY-NC that still carry conditions."
+    },
+    {
+      "question": "Can I use these museum images in a commercial project without paying?",
+      "answer": "For the nine CC0 programs in the table above, yes, that is what CC0 is designed to allow. The one exception on this list is the British Museum, whose open collection is licensed CC BY-NC-SA 4.0 and explicitly excludes commercial use; a separate commercial license from the museum’s own image service is required for that purpose."
+    },
+    {
+      "question": "If an image is CC0, do I still need to credit the museum?",
+      "answer": "Legally, no. CC0 does not require attribution. Several institutions (Getty is the clearest example) request a courtesy credit line as a matter of goodwill, and crediting the source is generally good practice, but it is not a condition of using the image under CC0."
+    },
+    {
+      "question": "Are all of a museum’s images free to use just because it has an open-access program?",
+      "answer": "No. Open-access programs cover the subset of a collection the institution has confirmed is in the public domain or otherwise clear to release; a museum can hold millions of objects while its open program covers a fraction of them, and works still under copyright (by living artists, or artists who died recently enough that their work has not yet entered the public domain) are excluded. Always check the license tag on the specific object page, not just the museum’s general policy."
+    }
+  ],
+  "sources": [
+    {
+      "label": "The Metropolitan Museum of Art: image and open-access terms",
+      "url": "https://www.metmuseum.org/policies/image-resources"
+    },
+    {
+      "label": "Rijksmuseum: image and open-access terms",
+      "url": "https://data.rijksmuseum.nl/policy/information-and-data-policy"
+    },
+    {
+      "label": "Art Institute of Chicago: image and open-access terms",
+      "url": "https://www.artic.edu/open-access"
+    },
+    {
+      "label": "Smithsonian Institution (20+ museums): image and open-access terms",
+      "url": "https://www.si.edu/openaccess/faq"
+    },
+    {
+      "label": "Cleveland Museum of Art: image and open-access terms",
+      "url": "https://www.clevelandart.org/open-access"
+    },
+    {
+      "label": "Getty (Open Content Program): image and open-access terms",
+      "url": "https://www.getty.edu/projects/open-content-program/faqs/"
+    },
+    {
+      "label": "National Gallery of Art (Washington, DC): image and open-access terms",
+      "url": "https://www.nga.gov/artworks/free-images-and-open-access"
+    },
+    {
+      "label": "Paris Musées (14 City of Paris museums): image and open-access terms",
+      "url": "https://www.parismuseescollections.paris.fr/fr/les-images-sous-droits"
+    },
+    {
+      "label": "British Museum: image and open-access terms",
+      "url": "https://www.britishmuseum.org/terms-use/copyright-and-permissions/images-and-photography"
+    },
+    {
+      "label": "Wikimedia Commons: image and open-access terms",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Licensing"
+    }
+  ]
+}
 ];
