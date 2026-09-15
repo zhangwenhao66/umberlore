@@ -83,5 +83,17 @@
       "https://umberlore.com/the-lovers-painting/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-15",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/open-license-art-image-directory/",
+      "https://umberlore.com/the-anatomy-lesson-nicolaes-tulp/",
+      "https://umberlore.com/the-death-of-socrates/",
+      "https://umberlore.com/vanishing-point/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
