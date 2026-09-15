@@ -15,11 +15,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1231,
   "w": 1600
  },
+ "/images/abstract-art-kandinsky-untitled-watercolor.webp": {
+  "h": 1231,
+  "w": 1600
+ },
  "/images/alberti-self-portrait.jpg": {
   "h": 1200,
   "w": 859
  },
  "/images/andy-warhol-jack-mitchell-portrait.jpg": {
+  "h": 480,
+  "w": 598
+ },
+ "/images/andy-warhol-jack-mitchell-portrait.webp": {
   "h": 480,
   "w": 598
  },
@@ -35,6 +43,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1125,
   "w": 1600
  },
+ "/images/aphrodite-painting-titian-venus-urbino.webp": {
+  "h": 1125,
+  "w": 1600
+ },
  "/images/aphrodite-painting-velazquez-rokeby-venus.jpg": {
   "h": 1097,
   "w": 1600
@@ -47,7 +59,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 582,
   "w": 800
  },
+ "/images/architectural-painting-grote-kerk-haarlem.webp": {
+  "h": 582,
+  "w": 800
+ },
  "/images/art-deco-chrysler-building-1930.jpg": {
+  "h": 1280,
+  "w": 982
+ },
+ "/images/art-deco-chrysler-building-1930.webp": {
   "h": 1280,
   "w": 982
  },
@@ -63,11 +83,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1245,
   "w": 1600
  },
+ "/images/art-styles-monet-impression-sunrise.webp": {
+  "h": 1245,
+  "w": 1600
+ },
  "/images/artist-peak-creation-age-featured.png": {
   "h": 630,
   "w": 1200
  },
  "/images/aztec-sun-stone-museo-antropologia.jpg": {
+  "h": 1250,
+  "w": 1600
+ },
+ "/images/aztec-sun-stone-museo-antropologia.webp": {
   "h": 1250,
   "w": 1600
  },
@@ -79,11 +107,23 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1005,
   "w": 1600
  },
+ "/images/birth-of-venus-uffizi.webp": {
+  "h": 1005,
+  "w": 1600
+ },
  "/images/black-square-malevich-tretyakov.jpg": {
   "h": 1400,
   "w": 1400
  },
+ "/images/black-square-malevich-tretyakov.webp": {
+  "h": 1400,
+  "w": 1400
+ },
  "/images/bonampak-murals-reproduction-mna.jpg": {
+  "h": 774,
+  "w": 1600
+ },
+ "/images/bonampak-murals-reproduction-mna.webp": {
   "h": 774,
   "w": 1600
  },
@@ -103,11 +143,23 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1662,
   "w": 980
  },
+ "/images/byzantine-mosaics.webp": {
+  "h": 1662,
+  "w": 980
+ },
  "/images/caravaggio-calling-of-saint-matthew.jpg": {
   "h": 1496,
   "w": 1600
  },
+ "/images/caravaggio-calling-of-saint-matthew.webp": {
+  "h": 1496,
+  "w": 1600
+ },
  "/images/caravaggio-narcissus.jpg": {
+  "h": 1000,
+  "w": 819
+ },
+ "/images/caravaggio-narcissus.webp": {
   "h": 1000,
   "w": 819
  },
@@ -119,11 +171,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1600,
   "w": 1151
  },
+ "/images/chiaroscuro-woodcut-cranach-saint-christopher.webp": {
+  "h": 1600,
+  "w": 1151
+ },
  "/images/chiaroscuro-woodcut-ugo-death-of-ananias.jpg": {
   "h": 1032,
   "w": 1600
  },
  "/images/cloisonne-fieschi-morgan-staurotheke-met.jpg": {
+  "h": 480,
+  "w": 600
+ },
+ "/images/cloisonne-fieschi-morgan-staurotheke-met.webp": {
   "h": 480,
   "w": 600
  },
@@ -139,6 +199,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1149,
   "w": 1600
  },
+ "/images/daguerreotype-boulevard-du-temple-1838.webp": {
+  "h": 1149,
+  "w": 1600
+ },
  "/images/daguerreotype-boulevard-du-temple-midday.jpg": {
   "h": 859,
   "w": 1200
@@ -151,6 +215,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 634,
   "w": 240
  },
+ "/images/david-alfaro-siqueiros-portrait-1922.webp": {
+  "h": 634,
+  "w": 240
+ },
  "/images/death-of-socrates-detail.jpg": {
   "h": 999,
   "w": 1400
@@ -159,7 +227,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1051,
   "w": 1600
  },
+ "/images/death-of-socrates.webp": {
+  "h": 1051,
+  "w": 1600
+ },
  "/images/diego-rivera-portrait-1932.jpg": {
+  "h": 906,
+  "w": 718
+ },
+ "/images/diego-rivera-portrait-1932.webp": {
   "h": 906,
   "w": 718
  },
@@ -172,6 +248,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1128
  },
  "/images/edvard-munch-the-scream-1893.jpg": {
+  "h": 1600,
+  "w": 1289
+ },
+ "/images/edvard-munch-the-scream-1893.webp": {
   "h": 1600,
   "w": 1289
  },
@@ -191,7 +271,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1124,
   "w": 843
  },
+ "/images/encaustic-painting-fayum-laurel-wreath-aic.webp": {
+  "h": 1124,
+  "w": 843
+ },
  "/images/fallen-angel-cabanel-1847.jpg": {
+  "h": 1010,
+  "w": 1600
+ },
+ "/images/fallen-angel-cabanel-1847.webp": {
   "h": 1010,
   "w": 1600
  },
@@ -203,11 +291,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1199,
   "w": 1600
  },
+ "/images/fallingwater-exterior.webp": {
+  "h": 1199,
+  "w": 1600
+ },
  "/images/famous-landscape-hay-wain-study.jpg": {
   "h": 360,
   "w": 480
  },
  "/images/famous-landscape-heart-of-the-andes.jpg": {
+  "h": 881,
+  "w": 1600
+ },
+ "/images/famous-landscape-heart-of-the-andes.webp": {
   "h": 881,
   "w": 1600
  },
@@ -227,6 +323,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1139,
   "w": 1400
  },
+ "/images/famous-paintings-night-watch-rijksmuseum.webp": {
+  "h": 1139,
+  "w": 1400
+ },
  "/images/famous-paintings-the-scream-nasjonalmuseet.jpg": {
   "h": 1400,
   "w": 1127
@@ -239,11 +339,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 985,
   "w": 865
  },
+ "/images/famous-portraits-las-meninas.webp": {
+  "h": 985,
+  "w": 865
+ },
  "/images/famous-portraits-madame-x.jpg": {
   "h": 2714,
   "w": 1600
  },
  "/images/famous-renaissance-paintings-adoration-magi.jpg": {
+  "h": 1517,
+  "w": 1600
+ },
+ "/images/famous-renaissance-paintings-adoration-magi.webp": {
   "h": 1517,
   "w": 1600
  },
@@ -259,7 +367,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1230,
   "w": 960
  },
+ "/images/frida-kahlo-portrait-1919.webp": {
+  "h": 1230,
+  "w": 960
+ },
  "/images/frida-kahlo-portrait-1932.jpg": {
+  "h": 1000,
+  "w": 694
+ },
+ "/images/frida-kahlo-portrait-1932.webp": {
   "h": 1000,
   "w": 694
  },
@@ -275,6 +391,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 2947,
   "w": 1280
  },
+ "/images/gargoyle-notre-dame-rainwater.webp": {
+  "h": 2947,
+  "w": 1280
+ },
  "/images/gargoyle-reims-cathedral.jpg": {
   "h": 1109,
   "w": 1600
@@ -284,6 +404,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1301
  },
  "/images/ghost-of-a-flea.jpg": {
+  "h": 2184,
+  "w": 1600
+ },
+ "/images/ghost-of-a-flea.webp": {
   "h": 2184,
   "w": 1600
  },
@@ -303,6 +427,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 800,
   "w": 1246
  },
+ "/images/icarus-painting-bruegel-brussels.webp": {
+  "h": 800,
+  "w": 1246
+ },
  "/images/icarus-painting-draper-lament.jpg": {
   "h": 1400,
   "w": 1183
@@ -311,11 +439,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 562,
   "w": 750
  },
+ "/images/jackson-pollock-barn-studio.webp": {
+  "h": 562,
+  "w": 750
+ },
  "/images/jackson-pollock-grave.jpg": {
   "h": 845,
   "w": 1145
  },
  "/images/jackson-pollock-passport-1955.jpg": {
+  "h": 613,
+  "w": 527
+ },
+ "/images/jackson-pollock-passport-1955.webp": {
   "h": 613,
   "w": 527
  },
@@ -331,11 +467,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1449,
   "w": 1600
  },
+ "/images/joan-of-arc-painting.webp": {
+  "h": 1449,
+  "w": 1600
+ },
  "/images/john-martin-belshazzars-feast-mezzotint-nga.jpg": {
   "h": 1103,
   "w": 1600
  },
  "/images/john-martin-great-day-of-his-wrath-tate.jpg": {
+  "h": 989,
+  "w": 1515
+ },
+ "/images/john-martin-great-day-of-his-wrath-tate.webp": {
   "h": 989,
   "w": 1515
  },
@@ -351,7 +495,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1257,
   "w": 1200
  },
+ "/images/kahlo-sisters-1916.webp": {
+  "h": 1257,
+  "w": 1200
+ },
  "/images/kandinsky-composition-8-1923.jpg": {
+  "h": 755,
+  "w": 1090
+ },
+ "/images/kandinsky-composition-8-1923.webp": {
   "h": 755,
   "w": 1090
  },
@@ -375,6 +527,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 899,
   "w": 1600
  },
+ "/images/klimt-the-kiss-hero.webp": {
+  "h": 899,
+  "w": 1600
+ },
  "/images/majolica-apothecary-jar-1431.jpg": {
   "h": 1600,
   "w": 1339
@@ -387,11 +543,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1200,
   "w": 1600
  },
+ "/images/majolica-pucci-dish-1532.webp": {
+  "h": 1200,
+  "w": 1600
+ },
  "/images/mandala-chenrezig-sand-house-of-commons-2008.jpg": {
   "h": 960,
   "w": 1280
  },
  "/images/mandala-jnanadakini-met-14thc.jpg": {
+  "h": 1475,
+  "w": 1280
+ },
+ "/images/mandala-jnanadakini-met-14thc.webp": {
   "h": 1475,
   "w": 1280
  },
@@ -403,7 +567,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1073,
   "w": 531
  },
+ "/images/masaccio-holy-trinity.webp": {
+  "h": 1073,
+  "w": 531
+ },
  "/images/michelangelo-sistine-ceiling-full.jpg": {
+  "h": 2143,
+  "w": 1600
+ },
+ "/images/michelangelo-sistine-ceiling-full.webp": {
   "h": 2143,
   "w": 1600
  },
@@ -427,6 +599,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 2384,
   "w": 1600
  },
+ "/images/mona-lisa.webp": {
+  "h": 2384,
+  "w": 1600
+ },
  "/images/ophelia-elizabeth-siddal-portrait.jpg": {
   "h": 1200,
   "w": 894
@@ -435,7 +611,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1088,
   "w": 1600
  },
+ "/images/ophelia-millais-tate.webp": {
+  "h": 1088,
+  "w": 1600
+ },
  "/images/pandemonium-john-martin-louvre.jpg": {
+  "h": 1056,
+  "w": 1600
+ },
+ "/images/pandemonium-john-martin-louvre.webp": {
   "h": 1056,
   "w": 1600
  },
@@ -451,7 +635,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1030,
   "w": 1600
  },
+ "/images/papunya-school-1972.webp": {
+  "h": 1030,
+  "w": 1600
+ },
  "/images/pattern-in-art-darb-i-imam-spandrel.jpg": {
+  "h": 431,
+  "w": 646
+ },
+ "/images/pattern-in-art-darb-i-imam-spandrel.webp": {
   "h": 431,
   "w": 646
  },
@@ -475,11 +667,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1600,
   "w": 1200
  },
+ "/images/pop-art-whitechapel-gallery-exterior.webp": {
+  "h": 1600,
+  "w": 1200
+ },
  "/images/psychedelic-art-mucha-champenois-poster.jpg": {
   "h": 1400,
   "w": 1030
  },
  "/images/psychedelic-art-roller-secession-poster-1902.jpg": {
+  "h": 1200,
+  "w": 405
+ },
+ "/images/psychedelic-art-roller-secession-poster-1902.webp": {
   "h": 1200,
   "w": 405
  },
@@ -491,6 +691,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1105,
   "w": 1600
  },
+ "/images/rebay-guggenheim-kandinsky-bauhaus-1929.webp": {
+  "h": 1105,
+  "w": 1600
+ },
  "/images/reinhardt-three-blacks-diagram.svg": {
   "h": 620,
   "w": 800
@@ -499,7 +703,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1054,
   "w": 1400
  },
+ "/images/rembrandt-anatomy-lesson-nicolaes-tulp.webp": {
+  "h": 1054,
+  "w": 1400
+ },
  "/images/rembrandt-night-watch-rijksmuseum.jpg": {
+  "h": 1041,
+  "w": 1280
+ },
+ "/images/rembrandt-night-watch-rijksmuseum.webp": {
   "h": 1041,
   "w": 1280
  },
@@ -511,7 +723,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 900,
   "w": 728
  },
+ "/images/renaissance-art-vasari-self-portrait.webp": {
+  "h": 900,
+  "w": 728
+ },
  "/images/rene-magritte-wolleh-portrait.jpg": {
+  "h": 441,
+  "w": 445
+ },
+ "/images/rene-magritte-wolleh-portrait.webp": {
   "h": 441,
   "w": 445
  },
@@ -519,7 +739,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 577,
   "w": 750
  },
+ "/images/responsive/abstract-art-kandinsky-untitled-watercolor-sm.webp": {
+  "h": 577,
+  "w": 750
+ },
  "/images/responsive/aphrodite-painting-titian-venus-urbino-sm.jpg": {
+  "h": 527,
+  "w": 750
+ },
+ "/images/responsive/aphrodite-painting-titian-venus-urbino-sm.webp": {
   "h": 527,
   "w": 750
  },
@@ -527,7 +755,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 546,
   "w": 750
  },
+ "/images/responsive/architectural-painting-grote-kerk-haarlem-sm.webp": {
+  "h": 546,
+  "w": 750
+ },
  "/images/responsive/art-deco-chrysler-building-1930-sm.jpg": {
+  "h": 978,
+  "w": 750
+ },
+ "/images/responsive/art-deco-chrysler-building-1930-sm.webp": {
   "h": 978,
   "w": 750
  },
@@ -535,7 +771,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 584,
   "w": 750
  },
+ "/images/responsive/art-styles-monet-impression-sunrise-sm.webp": {
+  "h": 584,
+  "w": 750
+ },
  "/images/responsive/aztec-sun-stone-museo-antropologia-sm.jpg": {
+  "h": 586,
+  "w": 750
+ },
+ "/images/responsive/aztec-sun-stone-museo-antropologia-sm.webp": {
   "h": 586,
   "w": 750
  },
@@ -543,7 +787,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 471,
   "w": 750
  },
+ "/images/responsive/birth-of-venus-uffizi-sm.webp": {
+  "h": 471,
+  "w": 750
+ },
  "/images/responsive/black-square-malevich-tretyakov-sm.jpg": {
+  "h": 750,
+  "w": 750
+ },
+ "/images/responsive/black-square-malevich-tretyakov-sm.webp": {
   "h": 750,
   "w": 750
  },
@@ -551,7 +803,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 363,
   "w": 750
  },
+ "/images/responsive/bonampak-murals-reproduction-mna-sm.webp": {
+  "h": 363,
+  "w": 750
+ },
  "/images/responsive/byzantine-mosaics-sm.jpg": {
+  "h": 1272,
+  "w": 750
+ },
+ "/images/responsive/byzantine-mosaics-sm.webp": {
   "h": 1272,
   "w": 750
  },
@@ -559,7 +819,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 701,
   "w": 750
  },
+ "/images/responsive/caravaggio-calling-of-saint-matthew-sm.webp": {
+  "h": 701,
+  "w": 750
+ },
  "/images/responsive/caravaggio-narcissus-sm.jpg": {
+  "h": 916,
+  "w": 750
+ },
+ "/images/responsive/caravaggio-narcissus-sm.webp": {
   "h": 916,
   "w": 750
  },
@@ -567,11 +835,31 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1043,
   "w": 750
  },
+ "/images/responsive/chiaroscuro-woodcut-cranach-saint-christopher-sm.webp": {
+  "h": 1043,
+  "w": 750
+ },
  "/images/responsive/daguerreotype-boulevard-du-temple-1838-sm.jpg": {
   "h": 539,
   "w": 750
  },
+ "/images/responsive/daguerreotype-boulevard-du-temple-1838-sm.webp": {
+  "h": 539,
+  "w": 750
+ },
+ "/images/responsive/death-of-socrates-sm.jpg": {
+  "h": 493,
+  "w": 750
+ },
+ "/images/responsive/death-of-socrates-sm.webp": {
+  "h": 493,
+  "w": 750
+ },
  "/images/responsive/edvard-munch-the-scream-1893-sm.jpg": {
+  "h": 931,
+  "w": 750
+ },
+ "/images/responsive/edvard-munch-the-scream-1893-sm.webp": {
   "h": 931,
   "w": 750
  },
@@ -579,7 +867,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1000,
   "w": 750
  },
+ "/images/responsive/encaustic-painting-fayum-laurel-wreath-aic-sm.webp": {
+  "h": 1000,
+  "w": 750
+ },
  "/images/responsive/fallen-angel-cabanel-1847-sm.jpg": {
+  "h": 473,
+  "w": 750
+ },
+ "/images/responsive/fallen-angel-cabanel-1847-sm.webp": {
   "h": 473,
   "w": 750
  },
@@ -587,7 +883,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 562,
   "w": 750
  },
+ "/images/responsive/fallingwater-exterior-sm.webp": {
+  "h": 562,
+  "w": 750
+ },
  "/images/responsive/famous-landscape-heart-of-the-andes-sm.jpg": {
+  "h": 413,
+  "w": 750
+ },
+ "/images/responsive/famous-landscape-heart-of-the-andes-sm.webp": {
   "h": 413,
   "w": 750
  },
@@ -595,7 +899,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 610,
   "w": 750
  },
+ "/images/responsive/famous-paintings-night-watch-rijksmuseum-sm.webp": {
+  "h": 610,
+  "w": 750
+ },
  "/images/responsive/famous-portraits-las-meninas-sm.jpg": {
+  "h": 854,
+  "w": 750
+ },
+ "/images/responsive/famous-portraits-las-meninas-sm.webp": {
   "h": 854,
   "w": 750
  },
@@ -603,7 +915,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 711,
   "w": 750
  },
+ "/images/responsive/famous-renaissance-paintings-adoration-magi-sm.webp": {
+  "h": 711,
+  "w": 750
+ },
  "/images/responsive/frida-kahlo-portrait-1919-sm.jpg": {
+  "h": 961,
+  "w": 750
+ },
+ "/images/responsive/frida-kahlo-portrait-1919-sm.webp": {
   "h": 961,
   "w": 750
  },
@@ -611,7 +931,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1727,
   "w": 750
  },
+ "/images/responsive/gargoyle-notre-dame-rainwater-sm.webp": {
+  "h": 1727,
+  "w": 750
+ },
  "/images/responsive/ghost-of-a-flea-sm.jpg": {
+  "h": 1024,
+  "w": 750
+ },
+ "/images/responsive/ghost-of-a-flea-sm.webp": {
   "h": 1024,
   "w": 750
  },
@@ -619,7 +947,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 482,
   "w": 750
  },
+ "/images/responsive/icarus-painting-bruegel-brussels-sm.webp": {
+  "h": 482,
+  "w": 750
+ },
  "/images/responsive/joan-of-arc-painting-sm.jpg": {
+  "h": 679,
+  "w": 750
+ },
+ "/images/responsive/joan-of-arc-painting-sm.webp": {
   "h": 679,
   "w": 750
  },
@@ -627,7 +963,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 490,
   "w": 750
  },
+ "/images/responsive/john-martin-great-day-of-his-wrath-tate-sm.webp": {
+  "h": 490,
+  "w": 750
+ },
  "/images/responsive/kahlo-sisters-1916-sm.jpg": {
+  "h": 786,
+  "w": 750
+ },
+ "/images/responsive/kahlo-sisters-1916-sm.webp": {
   "h": 786,
   "w": 750
  },
@@ -635,7 +979,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 519,
   "w": 750
  },
+ "/images/responsive/kandinsky-composition-8-1923-sm.webp": {
+  "h": 519,
+  "w": 750
+ },
  "/images/responsive/klimt-the-kiss-hero-sm.jpg": {
+  "h": 421,
+  "w": 750
+ },
+ "/images/responsive/klimt-the-kiss-hero-sm.webp": {
   "h": 421,
   "w": 750
  },
@@ -643,7 +995,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 562,
   "w": 750
  },
+ "/images/responsive/majolica-pucci-dish-1532-sm.webp": {
+  "h": 562,
+  "w": 750
+ },
  "/images/responsive/mandala-jnanadakini-met-14thc-sm.jpg": {
+  "h": 864,
+  "w": 750
+ },
+ "/images/responsive/mandala-jnanadakini-met-14thc-sm.webp": {
   "h": 864,
   "w": 750
  },
@@ -651,7 +1011,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1005,
   "w": 750
  },
+ "/images/responsive/michelangelo-sistine-ceiling-full-sm.webp": {
+  "h": 1005,
+  "w": 750
+ },
  "/images/responsive/mona-lisa-sm.jpg": {
+  "h": 1118,
+  "w": 750
+ },
+ "/images/responsive/mona-lisa-sm.webp": {
   "h": 1118,
   "w": 750
  },
@@ -659,7 +1027,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 510,
   "w": 750
  },
+ "/images/responsive/ophelia-millais-tate-sm.webp": {
+  "h": 510,
+  "w": 750
+ },
  "/images/responsive/pandemonium-john-martin-louvre-sm.jpg": {
+  "h": 495,
+  "w": 750
+ },
+ "/images/responsive/pandemonium-john-martin-louvre-sm.webp": {
   "h": 495,
   "w": 750
  },
@@ -667,7 +1043,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 483,
   "w": 750
  },
+ "/images/responsive/papunya-school-1972-sm.webp": {
+  "h": 483,
+  "w": 750
+ },
  "/images/responsive/pop-art-whitechapel-gallery-exterior-sm.jpg": {
+  "h": 1000,
+  "w": 750
+ },
+ "/images/responsive/pop-art-whitechapel-gallery-exterior-sm.webp": {
   "h": 1000,
   "w": 750
  },
@@ -675,7 +1059,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 518,
   "w": 750
  },
+ "/images/responsive/rebay-guggenheim-kandinsky-bauhaus-1929-sm.webp": {
+  "h": 518,
+  "w": 750
+ },
  "/images/responsive/rembrandt-anatomy-lesson-nicolaes-tulp-sm.jpg": {
+  "h": 565,
+  "w": 750
+ },
+ "/images/responsive/rembrandt-anatomy-lesson-nicolaes-tulp-sm.webp": {
   "h": 565,
   "w": 750
  },
@@ -683,7 +1075,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 610,
   "w": 750
  },
+ "/images/responsive/rembrandt-night-watch-rijksmuseum-sm.webp": {
+  "h": 610,
+  "w": 750
+ },
  "/images/responsive/romanesque-painting-taull-apse-sm.jpg": {
+  "h": 1126,
+  "w": 750
+ },
+ "/images/responsive/romanesque-painting-taull-apse-sm.webp": {
   "h": 1126,
   "w": 750
  },
@@ -691,7 +1091,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1165,
   "w": 750
  },
+ "/images/responsive/sagrada-familia-nativity-facade-sm.webp": {
+  "h": 1165,
+  "w": 750
+ },
  "/images/responsive/saturn-devouring-his-son-goya-sm.jpg": {
+  "h": 1378,
+  "w": 750
+ },
+ "/images/responsive/saturn-devouring-his-son-goya-sm.webp": {
   "h": 1378,
   "w": 750
  },
@@ -699,7 +1107,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 483,
   "w": 750
  },
+ "/images/responsive/schiele-orange-only-light-1912-sm.webp": {
+  "h": 483,
+  "w": 750
+ },
  "/images/responsive/simonetta-vespucci-piero-di-cosimo-sm.jpg": {
+  "h": 1047,
+  "w": 750
+ },
+ "/images/responsive/simonetta-vespucci-piero-di-cosimo-sm.webp": {
   "h": 1047,
   "w": 750
  },
@@ -707,7 +1123,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 499,
   "w": 750
  },
+ "/images/responsive/st-peters-basilica-facade-sm.webp": {
+  "h": 499,
+  "w": 750
+ },
  "/images/responsive/starry-night-moma-sm.jpg": {
+  "h": 594,
+  "w": 750
+ },
+ "/images/responsive/starry-night-moma-sm.webp": {
   "h": 594,
   "w": 750
  },
@@ -715,7 +1139,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 841,
   "w": 750
  },
+ "/images/responsive/the-milkmaid-vermeer-sm.webp": {
+  "h": 841,
+  "w": 750
+ },
  "/images/responsive/van-gogh-bedroom-arles-1888-sm.jpg": {
+  "h": 422,
+  "w": 750
+ },
+ "/images/responsive/van-gogh-bedroom-arles-1888-sm.webp": {
   "h": 422,
   "w": 750
  },
@@ -723,11 +1155,23 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 422,
   "w": 750
  },
+ "/images/responsive/water-lilies-orangerie-room-sm.webp": {
+  "h": 422,
+  "w": 750
+ },
  "/images/responsive/wheelwright-museum-entrance-sm.jpg": {
   "h": 499,
   "w": 750
  },
+ "/images/responsive/wheelwright-museum-entrance-sm.webp": {
+  "h": 499,
+  "w": 750
+ },
  "/images/responsive/whistler-nocturne-black-and-gold-falling-rocket-sm.jpg": {
+  "h": 997,
+  "w": 750
+ },
+ "/images/responsive/whistler-nocturne-black-and-gold-falling-rocket-sm.webp": {
   "h": 997,
   "w": 750
  },
@@ -739,11 +1183,19 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1600,
   "w": 1066
  },
+ "/images/romanesque-painting-taull-apse.webp": {
+  "h": 1600,
+  "w": 1066
+ },
  "/images/sagrada-familia-catenary-diagram.svg": {
   "h": 620,
   "w": 1200
  },
  "/images/sagrada-familia-nativity-facade.jpg": {
+  "h": 1600,
+  "w": 1030
+ },
+ "/images/sagrada-familia-nativity-facade.webp": {
   "h": 1600,
   "w": 1030
  },
@@ -756,6 +1208,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1600
  },
  "/images/saturn-devouring-his-son-goya.jpg": {
+  "h": 1600,
+  "w": 871
+ },
+ "/images/saturn-devouring-his-son-goya.webp": {
   "h": 1600,
   "w": 871
  },
@@ -775,6 +1231,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1031,
   "w": 1600
  },
+ "/images/schiele-orange-only-light-1912.webp": {
+  "h": 1031,
+  "w": 1600
+ },
  "/images/seurat-la-grande-jatte.jpg": {
   "h": 1065,
   "w": 1600
@@ -784,6 +1244,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 1200
  },
  "/images/simonetta-vespucci-piero-di-cosimo.jpg": {
+  "h": 1200,
+  "w": 860
+ },
+ "/images/simonetta-vespucci-piero-di-cosimo.webp": {
   "h": 1200,
   "w": 860
  },
@@ -799,7 +1263,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1065,
   "w": 1600
  },
+ "/images/st-peters-basilica-facade.webp": {
+  "h": 1065,
+  "w": 1600
+ },
  "/images/starry-night-moma.jpg": {
+  "h": 792,
+  "w": 1000
+ },
+ "/images/starry-night-moma.webp": {
   "h": 792,
   "w": 1000
  },
@@ -815,7 +1287,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1600,
   "w": 1427
  },
+ "/images/the-milkmaid-vermeer.webp": {
+  "h": 1600,
+  "w": 1427
+ },
  "/images/van-gogh-bedroom-arles-1888.jpg": {
+  "h": 900,
+  "w": 1600
+ },
+ "/images/van-gogh-bedroom-arles-1888.webp": {
   "h": 900,
   "w": 1600
  },
@@ -835,6 +1315,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1400,
   "w": 563
  },
+ "/images/venus-de-milo-louvre.webp": {
+  "h": 1400,
+  "w": 563
+ },
  "/images/water-lilies-japanese-bridge-1900.jpg": {
   "h": 1328,
   "w": 1500
@@ -847,6 +1331,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 900,
   "w": 1600
  },
+ "/images/water-lilies-orangerie-room.webp": {
+  "h": 900,
+  "w": 1600
+ },
  "/images/water-lilies-reflets-verts.jpg": {
   "h": 369,
   "w": 1600
@@ -855,7 +1343,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1064,
   "w": 1600
  },
+ "/images/wheelwright-museum-entrance.webp": {
+  "h": 1064,
+  "w": 1600
+ },
  "/images/whistler-nocturne-black-and-gold-falling-rocket.jpg": {
+  "h": 1600,
+  "w": 1204
+ },
+ "/images/whistler-nocturne-black-and-gold-falling-rocket.webp": {
   "h": 1600,
   "w": 1204
  },
