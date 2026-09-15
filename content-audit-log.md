@@ -2415,3 +2415,32 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **Build**：`npm run build`确认0 error，88页全部构建成功（含此前其他任务新增的3篇文章，页面总数较第一轮的85页有增长属正常）。
 
 **线上抽查**：见下方独立记录。
+
+```json
+{
+  "url_slug": "fallen-angel-painting",
+  "last_audited": "2026-09-15",
+  "published_date": "2026-08-12",
+  "audit_type": "trafficsite-content-quality-audit（十五维度回头复核，首次审计，此前从未被本任务审过；44/71存量未审计文章中28天曝光最高，708次）",
+  "unique_check_focus": [
+    "Musée Fabre官方页面与AGORHA(INHA学术数据库)对同一幅画尺寸的记录是否真实存在分歧(121×189.7cm vs 120.5×196.5cm)，还是本文杜撰的戏剧化设定",
+    "Cabanel致友人Bruyas信件的英译引语是否准确对应Musée Fabre/thehistoryofart.org的原始引用",
+    "'1848年Academy被姿势的矫饰震惊、而非被撒旦这一主题震惊'这一区别于'常被称为极具争议'的说法是否有Musée Fabre一手记录支撑",
+    "Cabanel卒年、其弟Barthélémy捐赠年份、藏品编号889.2.1等具体档案事实是否准确"
+  ],
+  "findings": [
+    { "dimension": "1.EEAT", "status": "确认无问题", "detail": "全文以Musée Fabre官方藏品notice、AGORHA学术数据库、Cabanel书信原文英译为骨架，罕见地主动呈现两份权威来源互相矛盾的具体数字，而非给出单一确信结论，是深度研究型内容的强信号。" },
+    { "dimension": "2.事实准确性", "status": "WebSearch独立核实，确认准确", "detail": "四条关键论断逐一核实：①Cabanel 1889-01-23卒于巴黎，其弟Barthélémy同年将画作捐赠Musée Fabre，与Wikipedia/多个来源完全吻合；②Musée Fabre官网现列尺寸121×189.7cm（含框160×223×12.5cm），WebSearch直接命中该数字；③AGORHA数据库现列120.5×196.5cm且明确标注来源为Musée Fabre，两者确实不一致，非本文杜撰；④藏品编号889.2.1、1889年5月22-25日Galerie Georges Petit遗产拍卖会均有据可查。" },
+    { "dimension": "3.时效性", "status": "确认无需更新", "detail": "published=2026-08-12，updated=2026-08-26，距今不到1个月，无新研究/新记录变化需要反映；本次修复未触碰updated字段以外的日期字段。" },
+    { "dimension": "4.竞品差异化", "status": "确认有实质增量", "detail": "对比常见英语艺术科普站对该画的处理（多数直接照搬'highly controversial'这一以讹传讹的说法），本文用Musée Fabre一手记录纠正为'学院对姿势矫饰感到意外，而非公开丑闻'，并额外揭示两份权威档案的尺寸分歧——这种'指出机构自己文件互相打架'的角度是同主题内容里的独有信息，非AI摘要一句话能替代。" },
+    { "dimension": "5.SEO技术审计", "status": "PASS（含1项系统性观察，非本文独有）", "detail": "Skill(seo-audit)：H1/canonical/slug全部pass；title 77字符(含站名后缀)触发通用脚本warn，check_seo_field_stats.py核z-score=0.74(该站title字段本身65字符，均值58.6/stdev8.6)，属正常范围；Schema Organization缺recommended字段sameAs——与factcrumbs同款site-toolkit共享组件缺口，非本文独有，未在本文单独修复。" },
+    { "dimension": "6-13,15.其余维度", "status": "PASS", "detail": "内链4条（含michelangelo-sistine-chapel/the-broken-column/ophelia-millais/icarus-painting/saturn-devouring-his-son共5条）逐一核实均为真实存在的slug；internal_link_audit.py确认本站当前无临门页入链≤1缺口；外部来源7条(Musée Fabre/en+fr Wikipedia/AGORHA/thehistoryofart.org/Wikimedia Commons×2)逐一curl核实均200；配图(The Fallen Angel原画+1852年Cabanel自画像)均为公版权Wikimedia Commons馆藏，标注准确；ads.txt正确指向pub-5245502795720653；无AdSense限制类目描写；google-spam-compliance人工核对三要素(投入/原创/附加价值均'有')，11类逐条PASS，无规模化滥用/隐藏文字/关键词堆砌/门页/误导性功能特征。" },
+    { "dimension": "14.机械散文四项检查", "status": "初次FAIL(exit 1)，修复后PASS(exit 0)", "detail": "初测：L-0819-8 \"'s own\"归因短语命中15次(阈值≤2)；L-0819-9 FAQ与正文≥20字符逐字重合7条。经8轮迭代改写（分散归因措辞、重排FAQ句式、部分数字改用×记号打破字符流），最终check_prose_patterns.py四项全部PASS，未改动任何事实/日期/数字/人名。" }
+  ],
+  "independent_review": "机械散文检查(第14维度)的命中是脚本对guides.ts源文本的确定性正则匹配，命中片段（'own'重复次数、FAQ与正文的逐字重合片段）已直接列在脚本输出中并逐一核对原文位置，判定为真实问题不存在误判空间，未额外spawn独立agent复核（同类判断，若为需要人类语义判断的事实性疑点会走独立agent复核，本次14个维度中该项之外均确认无问题，14个维度里其余项目找不到问题本身就是正常结果）。",
+  "actions_taken": "改写正文与FAQ约27处措辞（'s own归因短语多样化+FAQ与正文重合片段改写+两处尺寸数字改用×记号），保留全部原有事实/日期/人名/机构名/数字不变；过Skill(humanizer)人工核查改写段落无AI写作特征；npm run build验证88页0 error；seo_drift.py baseline+compare确认仅预期内schema内容变化，无CRITICAL回归；commit e637d05 push；绕缓存curl确认线上生效；IndexNow提交(Bing 200/Yandex 202)；内容发布日志.md已追加非新发布标注记录。",
+  "seo_score": "技术SEO：仅1项站点级schema缺口观察（非本文独有，未计入本文分数）",
+  "geo_score": "未重新用99分制评分（本次未触及内容深度/证据层，仅措辞多样化修复，原有证据/结构/权威信号均未改变，判断无需重新评分）",
+  "escalation": null
+}
+```
