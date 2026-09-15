@@ -29,6 +29,26 @@
 	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
+/* 2026-09-15 CWV 二次跟进：daguerreotype/emphasis-in-art 两篇给 hero 图接入 AVIF 后 LCP
+ * 变快，暴露出上面 09-13 那次"font-display:optional 治本"结论并不完整——Lighthouse 实测
+ * CLS 从历史 0.032-0.090 涨到 0.100-0.167，layout-shifts 审计明确指认成因还是 "IN BRIEF"
+ * 摘要框的 "Web font loaded"（不是 hero 图/.plate，那套 CLS 逻辑完好无损）。怀疑 optional
+ * 只覆盖了 latin/latin-ext 两个 unicode-range + weight 400-800，`@import` 引入的原始
+ * swap 声明可能仍对某些细分场景生效，具体哪种情形没有继续深挖——直接换成跟 cashflowpick/
+ * commsadvisor 同款更彻底的 metric override 方案：不依赖"字体到不到位"这个时序判断，
+ * 让 fallback 阶段的渲染尺寸跟真实字体精确匹配，即使真的发生 swap 也不会有可感知位移。
+ * 度量用 fontTools 读 eb-garamond-latin-wght-normal.woff2（变量字体，仍有静态 hhea/OS2
+ * 表可读）算出，fallback 目标用 local('Georgia')——字体栈里本来就排在 Georgia，且
+ * macOS/Windows 都自带，local() 能稳定匹配到。 */
+@font-face {
+	font-family: 'EB Garamond Fallback';
+	src: local('Georgia');
+	ascent-override: 114.91%;
+	descent-override: 34.00%;
+	line-gap-override: 0%;
+	size-adjust: 87.64%;
+}
+
 /*
  * Museum-catalogue redesign (2026-08-02).
  *
@@ -58,11 +78,11 @@ body {
 }
 
 .font-display {
-	font-family: 'EB Garamond Variable', 'Noto Serif SC', Georgia, serif;
+	font-family: 'EB Garamond Variable', 'EB Garamond Fallback', 'Noto Serif SC', Georgia, serif;
 }
 
 .font-prose {
-	font-family: 'EB Garamond Variable', 'Noto Serif SC', Georgia, serif;
+	font-family: 'EB Garamond Variable', 'EB Garamond Fallback', 'Noto Serif SC', Georgia, serif;
 }
 
 /* A framed work on the wall: white mat, hairline frame, shallow shadow. */
