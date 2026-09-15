@@ -74,6 +74,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/daguerreotype-boulevard-du-temple-1838-sm.jpg",
   "w": 750
  },
+ "/images/death-of-socrates.jpg": {
+  "h": 493,
+  "mobile": "/images/responsive/death-of-socrates-sm.jpg",
+  "w": 750
+ },
  "/images/edvard-munch-the-scream-1893.jpg": {
   "h": 931,
   "mobile": "/images/responsive/edvard-munch-the-scream-1893-sm.jpg",

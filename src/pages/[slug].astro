@@ -61,6 +61,8 @@ function md(text: string): string {
 		.replace(/\*(.*?)\*/g, '<em>$1</em>')
 		.replace(/\[([^\]]+)\]\(((?:[^()]|\([^()]*\))*)\)/g, '<a href="$2">$1</a>');
 }
+import fs from 'node:fs';
+import path from 'node:path';
 import { imgDims } from '../data/imageDims';
 import { RESPONSIVE_HERO } from '../data/responsiveHero';
 // 2026-09-13 响应式 hero 图：见 独立站/CWV月检记录.md「响应式图片改造」一节。本站 hero 图
@@ -75,9 +77,58 @@ const heroResponsive = guide.image ? RESPONSIVE_HERO[guide.image] : undefined;
 const heroSizes = heroDims
 	? `(min-width: 768px) min(calc(100vw - 64px), 880px, calc(72vh * ${heroDims.w} / ${heroDims.h})), min(calc(100vw - 40px), calc(585px * ${heroDims.w} / ${heroDims.h}))`
 	: undefined;
+// 2026-09-15 CWV 跟进：跟 factcrumbs/warcrumbs 同款 WebP + preload 手法（gen-responsive-images.py
+// 现在也给 contain 模式生成同名 WebP 兄弟文件，quality=75，不改变任何宽高/裁剪数值——只加一份
+// 更小的等效编码，<picture> 包裹不影响 `.plate` 的 CSS 计算，因为视觉盒子仍由内部 <img> 的
+// width/height/style 决定，<picture> 本身不参与布局）。这几行只做字节层面优化，不碰上面
+// `.plate`/`--pw`/`--ph` 那套五轮才排查清楚的 CLS 逻辑一个字符。
+const heroWebpDesktop = (() => {
+	if (!guide.image || !guide.image.match(/\.jpe?g$/i)) return null;
+	const rel = guide.image.replace(/\.jpe?g$/i, '.webp');
+	const abs = path.join(process.cwd(), 'public', rel.replace(/^\//, ''));
+	return fs.existsSync(abs) ? rel : null;
+})();
+const heroWebpMobile = (() => {
+	if (!heroResponsive) return null;
+	const rel = heroResponsive.mobile.replace(/\.jpe?g$/i, '.webp');
+	const abs = path.join(process.cwd(), 'public', rel.replace(/^\//, ''));
+	return fs.existsSync(abs) ? rel : null;
+})();
+// 2026-09-15 二次跟进：AVIF 比同 quality 的 WebP 还小 ~27%，本站几篇卡需改进边界的页面靠这段
+// 差值验证能跨过 2.5s。同 webp 一样不碰 `.plate`/`--pw`/`--ph` 的 CLS 逻辑，只加一份更小编码。
+const heroAvifDesktop = (() => {
+	if (!guide.image || !guide.image.match(/\.jpe?g$/i)) return null;
+	const rel = guide.image.replace(/\.jpe?g$/i, '.avif');
+	const abs = path.join(process.cwd(), 'public', rel.replace(/^\//, ''));
+	return fs.existsSync(abs) ? rel : null;
+})();
+const heroAvifMobile = (() => {
+	if (!heroResponsive) return null;
+	const rel = heroResponsive.mobile.replace(/\.jpe?g$/i, '.avif');
+	const abs = path.join(process.cwd(), 'public', rel.replace(/^\//, ''));
+	return fs.existsSync(abs) ? rel : null;
+})();
 ---
 
 <Layout title={guide.title} description={guide.description} ogImage={guide.image ?? '/favicon.svg'} ogType="article">
+	{guide.image && (
+		<link
+			rel="preload"
+			as="image"
+			type={heroAvifDesktop ? 'image/avif' : heroWebpDesktop ? 'image/webp' : undefined}
+			href={heroAvifDesktop ?? heroWebpDesktop ?? guide.image}
+			imagesrcset={
+				heroAvifMobile
+					? `${heroAvifMobile} ${heroResponsive!.w}w, ${heroAvifDesktop} ${heroDims?.w}w`
+					: heroWebpMobile
+						? `${heroWebpMobile} ${heroResponsive!.w}w, ${heroWebpDesktop} ${heroDims?.w}w`
+						: undefined
+			}
+			imagesizes={heroAvifMobile || heroWebpMobile ? heroSizes : undefined}
+			fetchpriority="high"
+			slot="head"
+		/>
+	)}
 	{guide.faq && guide.faq.length > 0 && <FAQPage items={guide.faq} slot="head" />}
 	<Article
 		slot="head"
@@ -130,18 +181,34 @@ const heroSizes = heroDims
 					class="plate hero-plate mx-auto max-w-full"
 					style={imgDims(guide.image) ? `--pw: ${imgDims(guide.image)!.w}; --ph: ${imgDims(guide.image)!.h};` : undefined}
 				>
-					<img
-						src={guide.image}
-						alt={guide.imageAlt ?? guide.title}
-						class="mx-auto h-auto max-h-[585px] w-auto max-w-full md:max-h-[72vh]"
-						loading="eager"
-						fetchpriority="high"
-						width={imgDims(guide.image)?.w}
-						height={imgDims(guide.image)?.h}
-						style={imgDims(guide.image) ? `aspect-ratio: ${imgDims(guide.image)!.w} / ${imgDims(guide.image)!.h};` : undefined}
-						srcset={heroResponsive ? `${heroResponsive.mobile} ${heroResponsive.w}w, ${guide.image} ${heroDims?.w}w` : undefined}
-						sizes={heroResponsive ? heroSizes : undefined}
-					/>
+					<picture>
+						{heroAvifDesktop && (
+							<source
+								srcset={heroAvifMobile ? `${heroAvifMobile} ${heroResponsive!.w}w, ${heroAvifDesktop} ${heroDims?.w}w` : heroAvifDesktop}
+								sizes={heroAvifMobile ? heroSizes : undefined}
+								type="image/avif"
+							/>
+						)}
+						{heroWebpDesktop && (
+							<source
+								srcset={heroWebpMobile ? `${heroWebpMobile} ${heroResponsive!.w}w, ${heroWebpDesktop} ${heroDims?.w}w` : heroWebpDesktop}
+								sizes={heroWebpMobile ? heroSizes : undefined}
+								type="image/webp"
+							/>
+						)}
+						<img
+							src={guide.image}
+							alt={guide.imageAlt ?? guide.title}
+							class="mx-auto h-auto max-h-[585px] w-auto max-w-full md:max-h-[72vh]"
+							loading="eager"
+							fetchpriority="high"
+							width={imgDims(guide.image)?.w}
+							height={imgDims(guide.image)?.h}
+							style={imgDims(guide.image) ? `aspect-ratio: ${imgDims(guide.image)!.w} / ${imgDims(guide.image)!.h};` : undefined}
+							srcset={heroResponsive ? `${heroResponsive.mobile} ${heroResponsive.w}w, ${guide.image} ${heroDims?.w}w` : undefined}
+							sizes={heroResponsive ? heroSizes : undefined}
+						/>
+					</picture>
 				</div>
 				{guide.imageCredit && (
 					<figcaption class="mx-auto mt-3 max-w-[560px] text-center text-xs leading-relaxed text-[var(--ink)]/45" set:html={md(guide.imageCredit)} />
