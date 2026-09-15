@@ -759,8 +759,12 @@ export const guides: Guide[] = [
       {
         "question": "How old was Lisa Gherardini, the Mona Lisa's model, when she died?",
         "answer": "63. She was born in Florence on 15 June 1479 and died there on 14 July 1542, a month after her 63rd birthday. She had outlived her husband, the silk merchant Francesco del Giocondo, and by most accounts led an unremarkable domestic life as the mother of six children, entirely apart from the fame her portrait would go on to acquire."
-      }
-    ],
+      },
+      {
+        "question": "Why did it take 16 years to paint the Mona Lisa?",
+        "answer": "Leonardo began the portrait around 1503 and, according to most accounts, kept working on it until close to his death in 1519, carrying the unfinished panel with him for years, including his final move to France. Contemporaries and later biographers describe him as a famously slow, perfectionist painter who revised his work over long periods rather than completing commissions promptly; his sfumato technique, discussed elsewhere on this site, is applied in many thin, gradual layers, a method that by its nature resists being rushed."
+      },
+],
     "sources": [
       {
         "label": "Musée du Louvre, collection record: Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa (INV 779; MR 316)",
@@ -930,8 +934,16 @@ export const guides: Guide[] = [
       {
         "question": "What is Gustav Klimt's most famous piece?",
         "answer": "The Kiss (1907-08), a gold-leaf-covered canvas of an embracing couple, now held at Vienna's Belvedere museum. It's the work most consistently singled out as his career-defining piece and the most reproduced Klimt image on posters, prints, and consumer goods, well ahead of the Bloch-Bauer portraits in general public recognition even though those carry the more dramatic restitution story."
-      }
-    ],
+      },
+      {
+        "question": "Did Gustav Klimt have 14 children?",
+        "answer": "That figure is unverified. Fourteen people came forward claiming to be Klimt's illegitimate children and sought a share of his estate after his death in 1918, but only a handful, generally put at around six, are documented with reasonable certainty, including Gustav Ucicky, his best-known son, born to Maria Ucicka in 1899. Klimt never married and kept his romantic life largely private, so the true number may never be settled."
+      },
+      {
+        "question": "Is Klimt art deco or Art Nouveau?",
+        "answer": "Art Nouveau. Klimt was a founding member of the Vienna Secession, the Austrian branch of the broader Art Nouveau movement, known for sinuous lines and ornamental, nature-derived motifs. Art Deco emerged after Klimt's 1918 death, from the 1925 Paris exposition covered elsewhere on this site; his decorative use of gold leaf and pattern is sometimes cited as an influence on the later style, but the two movements are chronologically and stylistically distinct."
+      },
+],
     "sources": [
       {
         "label": "Belvedere, Sammlung Online: The Kiss (Lovers), inv. 912, with catalogue essay by Franz Smola and Markus Fellinger",
@@ -1103,8 +1115,12 @@ export const guides: Guide[] = [
       {
         "question": "What is the #1 most famous painting in the world?",
         "answer": "By common consensus, the Mona Lisa, Leonardo da Vinci's early-16th-century portrait at the Louvre. It wasn't always ranked that way: nineteenth-century valuations placed other Louvre paintings, including Raphael's Holy Family and Titian's Supper at Emmaus, well above it in both price and reputation. Its current status as the world's single most famous painting is a twentieth- and twenty-first-century development, driven partly by its 1911 theft and partly by decades of mass reproduction."
-      }
-    ],
+      },
+      {
+        "question": "What are the 10 most valuable paintings ever sold?",
+        "answer": "Topping the list is Leonardo da Vinci's Salvator Mundi, which sold for $450.3 million at Christie's New York in 2017, roughly double the next entry. Other paintings that have sold privately or at auction for well over $100 million include Willem de Kooning's Interchange, Paul Cézanne's The Card Players, Jackson Pollock's Number 17A, Andy Warhol's Shot Sage Blue Marilyn ($195 million, Christie's, 2022), Gustav Klimt's Water Serpents II, Mark Rothko's No. 6 (Violet, Green and Red), and Picasso's Women of Algiers (Version O). Private sales are harder to verify than auction results, so figures for deals not conducted at a public auction house carry more uncertainty than the auction-house prices."
+      },
+],
     "sources": [
       {
         "label": "Musée du Louvre, collection record: Portrait de Lisa Gherardini, dit La Joconde (INV 779)",
@@ -1364,8 +1380,16 @@ export const guides: Guide[] = [
       {
         "question": "Why did Andy Warhol's Marilyn painting sell for $195 million?",
         "answer": "Shot Sage Blue Marilyn, one of five 1964 silkscreen portraits of Marilyn Monroe that survived a 1964 shooting incident at Warhol's studio, sold at Christie's in New York on 9 May 2022 for $195.04 million including fees. It became the most expensive work by an American artist ever sold at auction, surpassing the prior record for any twentieth-century work, Picasso's Women of Algiers ($179.4 million, 2015)."
-      }
-    ],
+      },
+      {
+        "question": "What is the most famous Pop Art?",
+        "answer": "Andy Warhol's 32 Campbell's Soup Cans (1962), one canvas for each flavor sold at the time, is the work most often pointed to as the movement's single most iconic piece, first shown at Los Angeles's Ferus Gallery in July 1962. Warhol's Marilyn portraits and Roy Lichtenstein's Whaam!, covered elsewhere on this page, are usually named alongside it as the other works most people picture when they hear \"Pop Art.\""
+      },
+      {
+        "question": "Does Pop Art still exist today?",
+        "answer": "The original movement wound down by the early 1970s, but a later generation, usually called Neo-Pop, has kept its methods and subject matter in circulation since the 1980s. Artists including Jeff Koons, Takashi Murakami, KAWS, and Damien Hirst work in a similar vein, borrowing from advertising, toys, and celebrity culture the way Warhol and Lichtenstein borrowed from comic books and product packaging in the 1960s."
+      },
+],
     "sources": [
       {
         "label": "Tate: I Was a Rich Man's Plaything, Eduardo Paolozzi, 1947 (T01462)",
@@ -1798,8 +1822,16 @@ export const guides: Guide[] = [
       {
         "question": "How much is The Scream worth today?",
         "answer": "The clearest benchmark is the 1895 pastel version, which sold for $119,922,600 at Sotheby's in New York on 2 May 2012 to financier Leon Black, the highest nominal price paid for any artwork at public auction at that time. The two painted versions and the other pastel are held by Norwegian museums and aren't for sale, so that 2012 pastel sale remains the only real market price on record for the image."
-      }
-    ],
+      },
+      {
+        "question": "Is The Scream based on Van Gogh?",
+        "answer": "Not directly. Munch admired Van Gogh's work and picked up elements of his loose, expressive brushwork and heightened color, but art historians consider it unlikely Munch had seen any specific Van Gogh painting, including Sorrowing Old Man (\"At Eternity's Gate\"), before painting The Scream in 1893. The similarities between the two artists are usually explained as a shared artistic moment, both responding to the same currents of anxiety and industrialization, rather than one work directly inspiring the other."
+      },
+      {
+        "question": "Why is The Scream so popular?",
+        "answer": "Its central figure, featureless and without a clear gender, reads as a stand-in for anxiety in general rather than a portrait of one person, which lets viewers across cultures project their own fear onto it. The image also spread unusually fast for a 19th-century painting: reproductions appeared in French magazines within two years of its creation, and it has since been endlessly parodied, referenced in film franchises like Scream and Home Alone, and turned into its own emoji."
+      },
+],
     "sources": [
       {
         "label": "Munchmuseet: The Scream",
@@ -1925,8 +1957,12 @@ export const guides: Guide[] = [
       {
         "question": "Why does a painter with so few known works attract so many forgery attempts?",
         "answer": "Because the catalogue is small and mostly closed, roughly 150 paintings against the thousands left by more prolific painters, any claimed new or rediscovered work carries disproportionate weight and value. Newsweek reported that even a minor, previously obscure Kahlo landscape sold at Christie's for ten times its estimate, showing the market pays a premium for scarcity that makes forgery and disputed reattribution attempts persistently worthwhile."
-      }
-    ],
+      },
+      {
+        "question": "What is Frida Kahlo's most famous artwork?",
+        "answer": "The Two Fridas (1939), now at the Museo de Arte Moderno in Mexico City, is usually named as her single most famous painting; it shows two versions of Kahlo, one in traditional Tehuana dress and one in a European-style gown, painted after her divorce from Diego Rivera. Self-Portrait with Thorn Necklace and Hummingbird (1940), held by the Harry Ransom Center in Texas, is her most reproduced image, appearing on more posters, book covers, and prints than any other Kahlo painting."
+      },
+],
     "sources": [
       {
         "label": "Harry Ransom Center: Self-Portrait with Thorn Necklace and Hummingbird by Frida Kahlo",
@@ -2055,8 +2091,12 @@ export const guides: Guide[] = [
       {
         "question": "Who pays for Sagrada Família's construction?",
         "answer": "Private donors, members of the temple's support associations, and, increasingly, ticket revenue from visitors. As an \"expiatory temple,\" a designation reflected in its full name, Basílica i Temple Expiatori de la Sagrada Família, it has never received government funding at any level."
-      }
-    ],
+      },
+      {
+        "question": "Why did it take 144 years to build the Sagrada Família?",
+        "answer": "Construction began on 19 March 1882 and reached its final height in February 2026, a span of 144 years, for several compounding reasons rather than one. The temple has always been funded by private donations and, more recently, visitor ticket revenue, never public money, so work has repeatedly slowed or stalled when funds ran short. Gaudí, who took over as chief architect in 1883 and worked on it until his death in 1926, left behind an extraordinarily complex design built on hyperboloid and catenary-arch geometry that later architects had to painstakingly rebuild after anarchist militants burned his studio and plaster models in 1936, and the Spanish Civil War halted construction for years on top of that."
+      },
+],
     "sources": [
       {
         "label": "Vatican News: Central tower of Barcelona's Sagrada Família completed",
@@ -2379,8 +2419,12 @@ export const guides: Guide[] = [
       {
         "question": "What illness did Goya suffer from?",
         "answer": "An unidentified illness struck him in late 1792 and nearly killed him, leaving him permanently deaf; researchers have proposed causes ranging from lead poisoning in his paints to a viral or autoimmune condition, but no diagnosis has ever been confirmed. The same illness recurred in 1819, again nearly fatally, not long before Goya began painting the Black Paintings, including Saturn Devouring His Son, directly onto the walls of his house."
-      }
-    ],
+      },
+      {
+        "question": "What is the meaning behind a Saturn Devouring His Son tattoo?",
+        "answer": "People who get this image tattooed are usually drawing on the same readings art historians have proposed for the painting itself: time as a devouring force that consumes everything, including youth, or a symbol of destructive power that will do anything, even destroy what it created, to hold on to control. Some tattoo write-ups also connect it to personal fears about aging and mortality, the same anxieties historians think Goya may have been working through when he painted it in his seventies after a near-fatal illness. None of these readings is Goya's own recorded explanation, since he left no writing about the Black Paintings; they're later interpretations, same as the ones applied to the original canvas."
+      },
+],
     "sources": [
       {
         "label": "Museo del Prado: Saturn (Goya), accession P00763",
@@ -2610,8 +2654,16 @@ export const guides: Guide[] = [
       {
         "question": "Is Art Deco the same as Art Nouveau?",
         "answer": "No, and they don't overlap much in time either. Art Nouveau ran from roughly 1880 to 1914 and drew on nature, favoring sinuous curves, floral motifs, and asymmetrical organic forms. Art Deco followed after the First World War and looked to the machine age instead, favoring sharp angles, geometric symmetry, and streamlined forms, with its own coming-out moment at the 1925 Paris exposition that later gave the style its name."
-      }
-    ],
+      },
+      {
+        "question": "What are the three types of Art Deco?",
+        "answer": "In architecture, historians usually group Art Deco buildings into three styles: Zigzag Moderne, the earlier, heavily decorated 1920s style built around geometric ornamentation; Classic Moderne, a more restrained, symmetrical variant; and Streamline Moderne, the 1930s style borrowed from aerodynamic design, built around smooth curves and horizontal speed lines."
+      },
+      {
+        "question": "What is the most famous Art Deco piece?",
+        "answer": "The Chrysler Building in New York, designed by William Van Alen and completed in 1930, is the building most often pointed to, with its stainless-steel, sunburst-patterned spire and eagle gargoyles at the setbacks. The Empire State Building and Radio City Music Hall, both also in New York, are usually the next two cited."
+      },
+],
     "sources": [
       {
         "label": "Encyclopaedia Britannica: Art Deco",
@@ -2757,8 +2809,12 @@ export const guides: Guide[] = [
       {
         "question": "How much is a Diego Rivera painting worth?",
         "answer": "Prices vary enormously by period and subject, but his auction record is $9,762,500, set in 2018 at Christie's New York for The Rivals (1931), a village fiesta scene Abby Aldrich Rockefeller had commissioned as a wedding gift for her son. That sale made it, at the time, the most expensive work by a Latin American artist ever sold at auction. Outside the auction room, Rivera's 1928 Dance in Tehuantepec reportedly sold privately in 2016 for $15.7 million to Argentine collector Eduardo Costantini."
-      }
-    ],
+      },
+      {
+        "question": "What is Diego Rivera's most famous artwork?",
+        "answer": "According to Britannica, his best-known murals are the Detroit Industry cycle at the Detroit Institute of Arts and Man, Controller of the Universe at Mexico City's Palacio de Bellas Artes, the repainted version of the destroyed Rockefeller Center mural. His largest single commission, though, is Epopeya del Pueblo Mexicano (The History of Mexico), covering three walls of the National Palace's main staircase in Mexico City, which he worked on, on and off, from 1929 to 1935."
+      },
+],
     "sources": [
       {
         "label": "Wikipedia: Diego Rivera",
@@ -3446,8 +3502,16 @@ export const guides: Guide[] = [
       {
         "question": "Are daguerreotypes worth anything?",
         "answer": "Most are worth relatively little: ordinary studio portraits with no case or identified sitter often sell for as little as $25 to $100, not far off flea-market prices. Value climbs sharply for pieces with a named subject, an intact case and seal, an unusual size, or a rare subject beyond the standard studio portrait; outdoor and occupational scenes are especially sought after, and a daguerreotype of a rural estate has sold for as much as $62,500."
-      }
-    ],
+      },
+      {
+        "question": "What is the difference between a daguerreotype and a photograph?",
+        "answer": "Daguerreotype is one specific, early photographic process, not a synonym for photograph in general. It produces a direct positive image on a silver-coated copper plate with no negative involved, so the plate itself is the only copy that will ever exist unless the sitter poses again; most later photographic processes, film and digital alike, are built around a negative or file that can be reprinted any number of times. The daguerreotype's mirror-polished surface also behaves differently from a printed photograph: tilted at the right angle, the image flips between a dark negative and a correct positive, an effect paper prints can't reproduce."
+      },
+      {
+        "question": "What was the daguerreotype and why was it important?",
+        "answer": "It was the first photographic process to reach the public, made public by Louis Daguerre in a formal announcement on August 19, 1839, after building on his earlier partnership with Nicéphore Niépce. Its introduction is usually treated as photography's public debut: within weeks, newspapers as far away as the United States were describing the process, and portrait studios using it opened in cities across Europe and North America within a year or two. It remained the dominant commercial photographic process for about two decades before cheaper glass-based methods like the ambrotype took over in the late 1850s."
+      },
+],
     "sources": [
       {
         "label": "Library of Congress: The Daguerreotype Medium",
@@ -3872,8 +3936,12 @@ export const guides: Guide[] = [
       {
         "question": "Why does Adam look so lifeless on the Sistine Chapel ceiling?",
         "answer": "Adam's slack pose is deliberate, not a flaw. Michelangelo shows him a moment before life enters his body, propped on one elbow with his hand barely raised, his form left passive and inert against God's taut, forward-driving figure. The British Museum points to a Roman cameo of the emperor Augustus reclining on a Capricorn as one likely antique source for the general pose, the kind of ancient gem and sculpture Michelangelo would have studied in Rome. The contrast is the point: an inert body about to be charged with divine energy, set beside a Creator whose whole figure surges forward."
-      }
-    ],
+      },
+      {
+        "question": "What is the most famous painting in the Sistine Chapel?",
+        "answer": "The Creation of Adam, showing God's outstretched hand almost touching Adam's, is generally considered the single most famous image on the ceiling and one of the most reproduced images in Western art. It occupies one of the nine central Genesis scenes running down the vault's spine, painted around 1511, roughly three years into the four-and-a-half-year project. The Last Judgment, the large fresco Michelangelo added to the altar wall more than two decades later, is the chapel's other major draw, but it's a separate commission from the ceiling itself."
+      },
+],
     "sources": [
       {
         "label": "Wikipedia: Sistine Chapel ceiling",
@@ -3993,8 +4061,12 @@ export const guides: Guide[] = [
       {
         "question": "Why is The Fallen Angel painting crying?",
         "answer": "Per Cabanel's own letter to his patron Alfred Bruyas, quoted by the Musée Fabre, the tears mark the moment Satan registers what he has lost, a once-beautiful being reduced to what Cabanel called \"a broken power bowing his head before the creator he had dared make his rival.\" The legion of angels singing God's glory in the sky above, by Cabanel's own description, exists mainly to remind Satan of the splendor by contrast."
-      }
-    ],
+      },
+      {
+        "question": "What is the saddest painting of all time?",
+        "answer": "There's no official ranking, and art critics don't agree on one answer. Works most often named in these lists include Van Gogh's Sorrowing Old Man (\"At Eternity's Gate\"), Picasso's The Old Guitarist from his Blue Period, and John Everett Millais's [Ophelia](/ophelia-millais/), painted the same decade as this canvas. Cabanel's Fallen Angel isn't part of that standard rotation, but its single tear and Lucifer's half-hidden face are usually what people point to when they call it one of the more emotionally direct religious paintings of the 19th century."
+      },
+],
     "sources": [
       {
         "label": "Musée Fabre: L'Ange dechu (official collection notice)",
@@ -4584,8 +4656,16 @@ export const guides: Guide[] = [
       {
         "question": "What is the difference between Baroque and Rococo?",
         "answer": "Baroque, running from roughly the late 1500s through the 1600s, favored dramatic lighting, weighty religious and state subjects, and bold, saturated color, largely in service of the Catholic Church's response to the Protestant Reformation. Rococo followed in the early 1700s and pulled in the opposite direction: lighter, more intimate secular scenes, pastel palettes, and asymmetrical, curving ornament aimed at aristocratic interiors rather than church naves or palace ceilings."
-      }
-    ],
+      },
+      {
+        "question": "Who were the four main Baroque artists?",
+        "answer": "No museum or academic body publishes an official four, but historians most often reach for the same set of names as a short answer: Caravaggio, Peter Paul Rubens, Diego Velázquez, and Rembrandt van Rijn. Between them they cover the movement's major regional schools, Caravaggio in Italy, Rubens in Flanders, Velázquez in Spain, and Rembrandt in the Dutch Republic, though any longer list would also include Artemisia Gentileschi, Nicolas Poussin, and Johannes Vermeer."
+      },
+      {
+        "question": "What is the most famous Baroque painting?",
+        "answer": "Velázquez's Las Meninas (1656), now at the Museo del Prado in Madrid, is the painting most frequently singled out as the single most famous work of the Baroque period, prized especially for how it plays with the viewer's own position in the scene. Rembrandt's The Night Watch (1642) at the Rijksmuseum is typically named as the other leading contender, particularly as a symbol of Dutch national identity."
+      },
+],
     "sources": [
       {
         "label": "Wikipedia: The Calling of Saint Matthew (identity-of-Matthew debate, commission history)",
@@ -5651,8 +5731,16 @@ export const guides: Guide[] = [
       {
         "question": "What makes Raphael's cartoon for The School of Athens unusual?",
         "answer": "Most Renaissance fresco cartoons were used up in the transfer process, pricked with holes and dusted with charcoal to stencil the design onto wet plaster. Raphael's cartoon survived instead, and the Biblioteca Ambrosiana in Milan, which has held it since 1610, describes it as \"the largest Renaissance cartoon that has survived to this day,\" at 295.1 by 813.8 centimetres. Comparing it to the finished fresco shows that the architectural setting and two figures, including Raphael's own self-portrait, were added only after the cartoon stage."
-      }
-    ],
+      },
+      {
+        "question": "What are the four styles of Renaissance art?",
+        "answer": "Art historians commonly divide the period into four phases: the Proto-Renaissance (roughly the 1300s, associated with Giotto), the Early Renaissance (much of the 1400s, associated with Botticelli and Donatello), the High Renaissance (roughly 1495 to 1520, associated with Leonardo, Michelangelo, and Raphael), and the Northern Renaissance, the parallel movement in the Low Countries and Germany associated with painters like Jan van Eyck and Albrecht Dürer."
+      },
+      {
+        "question": "Who are five famous Renaissance artists?",
+        "answer": "The five names that come up most consistently are Leonardo da Vinci, Michelangelo, Raphael, Sandro Botticelli, and Titian. Leonardo, Michelangelo, and Raphael are usually grouped together as the High Renaissance's central figures; Botticelli belongs to the earlier Florentine Renaissance, and Titian led the later Venetian school."
+      },
+],
     "sources": [
       {
         "label": "National Gallery, London: \"The hidden Leonardo\"",
@@ -5771,8 +5859,12 @@ export const guides: Guide[] = [
       {
         "question": "Is majolica worth anything?",
         "answer": "Yes, though prices vary widely by maker, size, and condition. Victorian majolica from English makers such as Minton or Wedgwood typically brings several hundred to several thousand dollars per piece at auction, while French majolica tends to sell for less, often in the low hundreds. Chips, cracks, and heavy restoration all reduce value, though the light crazing common on genuinely old glazes doesn't."
-      }
-    ],
+      },
+      {
+        "question": "Is majolica Spanish or Italian?",
+        "answer": "Both, at different points in its history. The technique of tin-glazed earthenware reached Europe through Moorish Spain, where wares from the region around Valencia were shipped to Italy through the island of Majorca, which is where the name comes from. Italian potters then developed the style further during the Renaissance, adding the brightly painted narrative scenes (istoriato ware) that made maiolica famous, so while the technique's European roots are Spanish and Moorish, its best-known artistic identity is Italian."
+      },
+],
     "sources": [
       {
         "label": "Victoria and Albert Museum: Fountain (Minton, majolica ware, about 1862), collection record",
@@ -6032,8 +6124,16 @@ export const guides: Guide[] = [
       {
         "question": "Did Church really display Heart of the Andes with palm fronds and gaslights?",
         "answer": "That specific detail is unverified. The 1859 New York exhibition did use an elaborate custom frame, drawn curtains, and directed skylighting to make the canvas feel like a window onto a real landscape, and that staging is documented. But the widely repeated claim that the room was decorated with palm fronds and lit by gaslights with silver reflectors has no surviving contemporary record to confirm it; Wikipedia's own sourcing describes it as \"widely claimed, although probably falsely.\""
-      }
-    ],
+      },
+      {
+        "question": "What are some famous American landscape paintings?",
+        "answer": "The Hudson River School, active roughly 1825 to 1870, produced most of the paintings usually cited: Thomas Cole's The Oxbow, Asher Durand's Kindred Spirits (1849), showing Cole and the poet William Cullen Bryant together in the Catskills, and Frederic Edwin Church's Heart of the Andes, already covered on this page. Albert Bierstadt's large-scale Rocky Mountain paintings from the 1860s are also frequently listed among the movement's best-known landscapes."
+      },
+      {
+        "question": "Who is best known for his landscape paintings?",
+        "answer": "Among American painters, that's usually Thomas Cole, founder of the Hudson River School; among European painters, John Constable and J.M.W. Turner in Britain and Caspar David Friedrich in Germany are the names most often given that title, and Constable's Hay Wain is covered elsewhere in this article."
+      },
+],
     "sources": [
       {
         "label": "Wikipedia: Wanderer Above the Sea of Fog",
@@ -6385,8 +6485,12 @@ export const guides: Guide[] = [
       {
         "question": "Who painted the most famous portrait ever?",
         "answer": "Leonardo da Vinci, with the Mona Lisa, generally regarded today as the most famous painting in the world, not only the most famous portrait. It depicts the Florentine noblewoman Lisa Gherardini and hangs in the Louvre. None of the four portraits covered in this piece, Las Meninas, Madame X, or American Gothic, claim that specific title, though each is a landmark within its own tradition."
-      }
-    ],
+      },
+      {
+        "question": "Who are the top portrait artists of all time?",
+        "answer": "Rankings like this are inherently subjective, but the same names turn up across most art-history surveys: Leonardo da Vinci, Rembrandt van Rijn, Diego Velázquez, Jan van Eyck, Hans Holbein the Younger, Anthony van Dyck, and John Singer Sargent, the painter behind Madame X, already covered on this page. Rembrandt in particular is often singled out for his self-portraits, which he painted roughly 40 times over his career and which are frequently cited as unmatched studies of light and psychological depth."
+      },
+],
     "sources": [
       {
         "label": "Museo del Prado: Las Meninas, Diego Velázquez, 1656 (collection record)",
@@ -6653,8 +6757,16 @@ export const guides: Guide[] = [
       {
         "question": "Why does Icarus still have his wings in Draper's painting, if the myth says they melted?",
         "answer": "It's a deliberate departure from the myth. Draper kept Icarus's wings fully intact in the painting instead of showing him falling without them, most likely because a winged figure reads as a more symbolic and visually elegant image than a young man who has lost his wings entirely."
-      }
-    ],
+      },
+      {
+        "question": "What is the meaning behind Henri Matisse's painting \"Icarus\"?",
+        "answer": "In Matisse's 1943 cut-out, made for his illustrated book Jazz, Icarus falls through a blue sky dotted with yellow bursts, but Matisse gave him a prominent red heart where the ancient myth blamed hubris for the fall. Scholars reading the work in the context of its creation, during the Nazi occupation of France while members of Matisse's own family were active in the Resistance, connect that red heart to passion and personal danger rather than to punishment for flying too high. Matisse himself described Icarus's fall as happening \"with a passionate heart,\" a phrase that points away from the moralizing usually attached to the myth."
+      },
+      {
+        "question": "What is the story behind the fall of Icarus painting?",
+        "answer": "In the underlying Greek myth, the craftsman Daedalus built wings of feathers and wax so he and his son Icarus could escape imprisonment on Crete. Daedalus warned Icarus not to fly too low, where sea spray would weigh the feathers down, or too high, where the sun would melt the wax; Icarus ignored the warning, flew too close to the sun, and fell into the sea when his wings failed. Painters have handled the moment very differently ever since: the Bruegel painting central to this page shows the fall as a barely noticed detail in a busy landscape, in keeping with the poem it inspired, while other artists, Matisse included, put Icarus himself front and center."
+      },
+],
     "sources": [
       {
         "label": "Royal Museums of Fine Arts of Belgium: \"New technical study of The Fall of Icarus\" (news, published 9 April 2026)",
@@ -6774,8 +6886,12 @@ export const guides: Guide[] = [
       {
         "question": "Are Venus and Aphrodite the same?",
         "answer": "Same figure, different name and culture. Aphrodite is the Greek goddess of love and beauty; Venus is her Roman counterpart, adopted along with most of her myths and imagery once Roman religion absorbed Greek mythology into its own pantheon. That's why painters move freely between the two names for the same nude figure: Botticelli's Birth of Venus and Titian's Venus of Urbino both use the Roman name, while works titled Aphrodite usually lean on the Greek tradition or a specific Greek myth instead."
-      }
-    ],
+      },
+      {
+        "question": "Why was Aphrodite chubby?",
+        "answer": "Ancient Greek sculptors and painters working from the Aphrodite of Knidos (4th century BC) onward gave the goddess a fuller, rounder figure than later ideals of beauty prized, reflecting a culture where carrying extra weight signaled the wealth to eat well rather than the leanness associated with manual labor and poverty. What counted as an Aphrodite-appropriate body has shifted with every era since: Renaissance and Baroque painters like Titian and Rubens kept the fuller figure, while 20th- and 21st-century depictions of Venus and Aphrodite tend to follow contemporary, thinner beauty standards instead."
+      },
+],
     "sources": [
       {
         "label": "Wikipedia: Sleeping Venus (Giorgione)",
@@ -6905,8 +7021,12 @@ export const guides: Guide[] = [
       {
         "question": "What is José Clemente Orozco's Prometheus fresco?",
         "answer": "Prometheus is a 1930 fresco Orozco painted for Frary Dining Hall at Pomona College in Claremont, California, generally cited as the first modern fresco painted in the United States. It depicts the Titan Prometheus stealing fire for humanity and drew immediate critical praise, including from a young Jackson Pollock, who saw it that same year and called it the greatest painting in North America."
-      }
-    ],
+      },
+      {
+        "question": "Who is the most popular Mexican artist today?",
+        "answer": "By most measures of contemporary recognition, Frida Kahlo has eclipsed even Los Tres Grandes in global visibility, driven by decades of exhibitions, merchandise, and film, including the 2002 biopic Frida, that have made her self-portraits among the most reproduced images in art history. Historically, though, Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros, the muralists profiled on this page, were considered Mexico's most consequential artists during their own lifetimes, commissioned directly by the government to define the country's post-revolutionary identity."
+      },
+],
     "sources": [
       {
         "label": "Wikipedia: David Alfaro Siqueiros",
@@ -7851,8 +7971,16 @@ export const guides: Guide[] = [
       {
         "question": "What is the most expensive Vermeer painting ever sold?",
         "answer": "Young Woman Seated at a Virginal, which sold for £16.2 million, about $30 million, at Sotheby's London in 2004, the first Vermeer to reach auction in roughly 80 years. Scholars had doubted the attribution for decades before a decade of forensic study persuaded most of them it was genuine. The Milkmaid itself has never gone to auction since entering the Rijksmuseum's collection; national museums rarely sell paintings already in their holdings."
-      }
-    ],
+      },
+      {
+        "question": "How much is The Milkmaid painting worth?",
+        "answer": "There's no current public appraisal, because the painting has never gone to auction since the Rijksmuseum acquired it in 1908, and national museums don't typically sell works already in their permanent collections. The closest available benchmark is a different Vermeer, Young Woman Seated at a Virginal, which sold for about $30 million at Sotheby's London in 2004; The Milkmaid, better known and more securely attributed, would likely draw a higher price if it were ever sold, but that figure would be speculation rather than a documented sale."
+      },
+      {
+        "question": "What did The Milkmaid carry on her head?",
+        "answer": "A crisp white linen cap, the standard headwear for a Dutch domestic servant of the period, not a basket or jug as some retellings assume. The jug she's pouring milk from, and the bread on the table in front of her, are held in her hands, not balanced on her head."
+      },
+],
     "sources": [
       {
         "label": "Rijksmuseum: press release, \"Rijksmuseum reveals major discoveries on Vermeer's painting The Milkmaid\" (8 September 2022)",
@@ -8208,8 +8336,12 @@ export const guides: Guide[] = [
       {
         "question": "How old was Magritte when his mother died?",
         "answer": "Thirteen. He was born in 1898, and his mother's death in February 1912 came months before his fourteenth birthday later that same year. Several retellings of the story get the number wrong."
-      }
-    ],
+      },
+      {
+        "question": "What is the saddest painting of all time?",
+        "answer": "No museum or scholarly body keeps an official ranking of \"saddest painting,\" and critics land on different answers. Works that come up most often include Van Gogh's Sorrowing Old Man (\"At Eternity's Gate\"), Picasso's The Old Guitarist, and John Everett Millais's [Ophelia](/ophelia-millais/). Magritte's The Lovers isn't part of that standard rotation, since its central feeling is usually described as estrangement or isolation rather than grief, but the veiled kiss is still one of the images people reach for when the subject of quietly unsettling paintings comes up."
+      },
+],
     "sources": [
       {
         "label": "Wikipedia: Rene Magritte",

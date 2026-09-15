@@ -2381,3 +2381,37 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、cristina-kahlo(2)、
 - /jackson-pollock/ → "What is Jackson Pollock's most famous piece" 命中
 
 Cloudflare Pages部署延迟本次未成为问题（可能因umberlore.com此前访问量带来的缓存较少，或部署已提前完成）。
+
+## PAA-FAQ批量补强第二轮（2026-09-15批次）
+
+**背景**：清单文件`独立站/research-db/paa_bulk_20260915/umberlore.json`——由`paa_gap.py`基于第一轮（2026-09-13）之后的最新数据重新计算，已自动排除第一轮已完全覆盖的页面，只列剩余未答问题。共35篇候选，按`impressions_28d`降序处理。
+
+**处理方式同第一轮**：逐篇读现有`faq`数组确认语气/长度/引用风格 → 从`gap_questions`挑1-2条能找到真实来源的问题 → WebSearch核实 → 按JSON风格`"question"`/`"answer"`追加到该文章`faq`数组末尾，不改动其他字段。新增内容过了一遍Skill(avoid-ai-writing)和Skill(humanizer)的检测模式核查（em dash、AI词表、rule-of-three、copula avoidance等常见AI写作特征），未发现需要修正的问题。
+
+**新增FAQ的23篇文章**（33条FAQ，按impressions_28d降序）：
+fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、daguerreotype(2)、saturn-devouring-his-son(1)、icarus-painting(2)、majolica(1)、famous-paintings(1)、baroque-paintings(2)、famous-landscape-paintings(2)、famous-renaissance-paintings(2)、the-milkmaid-vermeer(2)、the-lovers-painting(1)、aphrodite-painting(1)、famous-mexican-artists(1)、sagrada-familia(1)、famous-portraits(1)、gustav-klimt(2)、frida-kahlo-paintings(1)、art-deco(2)、mona-lisa(1)、pop-art(2)、edvard-munch-the-scream(2)。
+
+**跳过的12篇文章**（35篇 − 23篇 = 12篇，均已逐条评估）：
+
+- `non-objective-art`：2条gap问题（"non-objective与abstract的区别"/"最著名的non-objective艺术家"）均已被现有FAQ（Hilla Rebay严格定义区分/Tate认定的Kandinsky-Malevich-Gabo三位先驱）实质覆盖，属重复。
+- `what-is-a-gargoyle`：2条gap问题（"gargoyle象征什么"/"为何显得可怕"）均已被现有FAQ（"宗教/保护作用"讲排水功能优先于象征意义、"gargoyles是否被视为邪恶"讲驱邪悖论）实质覆盖。
+- `sand-painting`：唯一gap问题"sand art里用什么液体"经核查明显是PAA匹配脚本错配——本文主题是纳瓦霍仪式沙画（干沙+粘合剂），问题指向的是完全不相关的"液体流沙摆件"消费品，强行作答会破坏文章主题聚焦，跳过。
+- `starry-night`：2条gap问题（"Starry Night现在在哪""谁拥有它"）均已被现有FAQ"Where is the original Starry Night, and can I see it in Amsterdam?"（答案：MoMA紐約，1941年起持有）完整覆盖，属重复。
+- `jackson-pollock-convergence`：唯一gap问题"convergence在艺术中是什么意思"经核查是通用艺术术语（如线性透视的会聚点），与本文主题（Pollock这幅具体命名为《Convergence》的画作）关联薄弱，且现有FAQ已明确"Pollock本人是否亲自命名不确定"，找不到将"convergence"作为艺术通用概念与这幅画意义绑定的可靠来源，跳过。
+- `john-martin-paintings`：唯一gap问题"哪幅画卖了7000万美元"经WebSearch核实，John Martin真实拍卖纪录为$4,183,482（2015 Sotheby's《The Celestial City and the River of Bliss》），与7000万美元相差约17倍，判定为PAA匹配脚本错配，不可靠，跳过。
+- `pattern-in-art`：4条gap问题全部是通用榜单式（"5种图案实例""10种图案类型""3种图案类型"），且更像是家居/设计领域的泛用问法而非本文聚焦的艺术史案例（Darb-i Imam准晶镶嵌、Strawberry Thief等），不适配跳过。
+- `caravaggio-narcissus`：2条gap问题——"Was Caravaggio LGBTQ"涉及历史人物性向的学界无定论猜测，为避免主观臆测跳过；"最著名的Narcissus by Caravaggio是哪幅"是伪问题（该画家名下仅此一幅Narcissus作品），且本页impressions仅2，优先级最低。
+- `art-techniques`：4条gap问题全部是通用榜单式（"什么是艺术技法""7种不同的艺术类型"），与本文聚焦的具体技法深度案例（sfumato/impasto/pointillism的科学检测过程）风格不符，且impressions为0（无近28天曝光数据），跳过。
+- `vanishing-point`：唯一gap问题"艺术中的70/30法则是什么"经排查不是消失点/透视相关的公认艺术原理术语，疑似PAA匹配错配，找不到可靠来源，且impressions为0，跳过。
+- `the-death-of-socrates`：唯一gap问题"苏格拉底之死的故事背景"已被现有FAQ（"苏格拉底死因""画作信息""柏拉图是否在场"）实质覆盖大部分叙事要素，且impressions为0，优先级最低，时间预算下跳过。
+- `monochromatic-painting`：2条gap问题（"单色艺术举例"/"哪些艺术家以单色艺术闻名"）已被现有FAQ（Malevich黑方块X光发现、Yves Klein蓝专利、Ad Reinhardt黑色系列保存难题）实质覆盖，属重复。
+
+**与第一轮skip判断的分歧说明（诚实披露）**：本轮清单里有8篇页面（icarus-painting、famous-mexican-artists、sagrada-familia、frida-kahlo-paintings、pop-art、the-lovers-painting、famous-landscape-paintings、famous-renaissance-paintings）在第一轮日志里曾被跳过，但`paa_gap.py`重新计算后判定这些页面的gap问题仍未被现有FAQ覆盖，因此再次出现在本轮清单中——说明第一轮的跳过是"未新增FAQ"而非"问题已解决"，工具据此正确地未把这些页面标记为已完成。本轮对这8篇重新逐条评估后，多数找到了第一轮认定"找不到"的可靠来源或更具体的问法角度，因此新增了FAQ（例如`sagrada-familia`用"为何耗时144年"这个不同于第一轮"是否已完工"的角度找到了三个具体历史原因；`frida-kahlo-paintings`用"最著名单幅作品"锁定《The Two Fridas》并给出馆藏方Museo de Arte Moderno佐证，弱于博物馆一手权威来源但被Wikipedia等多个独立来源一致复述）。其中`icarus-painting`的Matisse问题第一轮认为"会破坏两幅画对照的紧凑框架"而跳过，本轮判断这是编辑取舍而非事实缺失问题，认为作为独立FAQ条目加入不影响正文框架，故采纳。特此如实记录这一分歧，供后续审核参考。
+
+**WebSearch额度**：本次会话WebSearch调用约25次，会话结束时额度未耗尽，未触发切换到curl的情形。
+
+**Git**：本次改动作为单次commit提交（33条FAQ规模适中，未分批）；push前已`git pull --rebase origin main`。
+
+**Build**：`npm run build`确认0 error，88页全部构建成功（含此前其他任务新增的3篇文章，页面总数较第一轮的85页有增长属正常）。
+
+**线上抽查**：见下方独立记录。
