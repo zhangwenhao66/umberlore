@@ -14,7 +14,10 @@ export const CLARITY_ID = 'y14zpor730';
 
 // 品牌实体的外部档案（Organization schema 的 sameAs）。2026-09-10 建：矩阵站品牌信号为零，先把实体块放上，
 // 目录收录页/Product Hunt/Pinterest 等真实档案上线后往这里填 URL（只填本站自己的档案，不填别的站）。
-export const BRAND_SAME_AS: string[] = [];
+// 2026-09-15：Pinterest 账号 qk2375 的验证标签已上线 umberlore.com（未正式 claim，个人账户
+// 一次只能认领一个网站），建有 "Art History by UmberLore" 图板，见 独立站/待Owen处理事项.md
+// 2026-09-12 记录。Owen 转企业账户后应补做正式 claim。
+export const BRAND_SAME_AS: string[] = ['https://www.pinterest.com/qk2375/'];
 
 // Organization schema 的实体字段（2026-09-13）：description 复用 SITE_DESCRIPTION（站点已有的一句话定位，不新编）；
 // email 与 /about/ 页上公开的联系邮箱一致；knowsAbout 取自本站分区名，不堆关键词。
