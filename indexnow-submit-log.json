@@ -233,17 +233,23 @@
   "https://umberlore.com/emphasis-in-art/": {
     "submitted_date": "2026-08-13",
     "last_submitted_date": "2026-08-13",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-09-15",
+    "verified_method": "bing_url_inspection"
   },
   "https://umberlore.com/baroque-paintings/": {
     "submitted_date": "2026-08-16",
     "last_submitted_date": "2026-08-16",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-09-15",
+    "verified_method": "bing_url_inspection"
   },
   "https://umberlore.com/aztec-art/": {
     "submitted_date": "2026-08-16",
     "last_submitted_date": "2026-08-16",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-09-15",
+    "verified_method": "bing_url_inspection"
   },
   "https://umberlore.com/the-broken-column/": {
     "submitted_date": "2026-08-17",
