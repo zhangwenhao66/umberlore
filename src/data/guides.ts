@@ -8339,7 +8339,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "What is the saddest painting of all time?",
-        "answer": "No museum or scholarly body keeps an official ranking of \"saddest painting,\" and critics land on different answers. Works that come up most often include Van Gogh's Sorrowing Old Man (\"At Eternity's Gate\"), Picasso's The Old Guitarist, and John Everett Millais's [Ophelia](/ophelia-millais/). Magritte's The Lovers isn't part of that standard rotation, since its central feeling is usually described as estrangement or isolation rather than grief, but the veiled kiss is still one of the images people reach for when the subject of quietly unsettling paintings comes up."
+        "answer": "No museum or scholarly body keeps an official ranking of \"saddest painting,\" and critics land on different answers. Works that come up most often include Van Gogh's Sorrowing Old Man (\"At Eternity's Gate\"), Picasso's The Old Guitarist, and John Everett Millais's [Ophelia](/ophelia-millais/). The veiled kiss discussed on this page doesn't usually make that particular list, since its central feeling reads more as estrangement or isolation than outright grief, but it's still one of the images people reach for when the subject of quietly unsettling paintings comes up."
       },
 ],
     "sources": [
