@@ -3840,7 +3840,7 @@ export const guides: Guide[] = [
       {
         "heading": "What the cleaning found",
         "body": [
-          "The ceiling opened to public view on November 1, 1512, roughly four and a half years after the contract was signed. It stayed under centuries of accumulated soot, candle smoke, and old varnish until a restoration ran from 1980 to 1994, financed largely by the Nippon Television Network Corporation in exchange for exclusive film and photography rights across the project's three phases: the wall lunettes, the ceiling itself, and finally the Last Judgment on the altar wall. The colors under the grime turned out far brighter and more saturated than the muted, brownish palette generations of scholars had assumed was Michelangelo's original intent, a gap large enough that it unsettled specialists who had studied the ceiling for decades. The find set off disagreement, not celebration. The art historian James Beck and the writer Waldemar Januszczak argued publicly that the restoration had stripped away a final layer of shadow and glazing that Michelangelo himself added after the plaster dried, along with the centuries of grime, softening tones the cleaning then erased. The dispute comes down to how much of what came off the ceiling was dirt, and how much was the artist's own hand."
+          "The ceiling opened to public view on November 1, 1512, roughly four and a half years after the contract was signed. It stayed under centuries of accumulated soot, candle smoke, and old varnish until a restoration ran from 1980 to 1994, financed largely by the Nippon Television Network Corporation in exchange for exclusive film and photography rights across the project's three phases: the wall lunettes, the ceiling itself, and finally the Last Judgment on the altar wall. The colors under the grime turned out far brighter and more saturated than the muted, brownish palette generations of scholars had assumed was Michelangelo's original intent, a gap large enough that it unsettled specialists who had studied the ceiling for decades. The find set off disagreement, not celebration. The art historian James Beck and the writer Waldemar Januszczak argued publicly that the restoration had stripped away a final layer of shadow and glazing that Michelangelo himself added after the plaster dried, along with the centuries of grime, softening tones the cleaning then erased. The dispute comes down to how much of what came off the ceiling was dirt, and how much was the artist's own hand. Technical imaging has unsettled other old-master surfaces the same way: [X-radiography and infrared study of a Neoclassical deathbed scene turned up an entire figure group the artist painted over completely, along with a repositioned chain, a removed hairband, and a window painted out mid-composition](/the-death-of-socrates/)."
         ]
       }
     ],
@@ -8782,6 +8782,118 @@ export const guides: Guide[] = [
       {
         "label": "Wikimedia Commons: The Anatomy Lesson of Dr Nicolaes Tulp (Rembrandt van Rijn, Mauritshuis object 146)",
         "url": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp_-_146_-_Mauritshuis.jpg"
+      }
+    ]
+  },
+
+  {
+    "slug": "the-death-of-socrates",
+    "category": "Painting",
+    "title": "The Death of Socrates: The Man Who Wasn't There",
+    "description": "A Hellenist scholar advised David on staging a mourner who, by his own account, wasn't in the room. The Met's 2022 X-ray study shows how deliberate that choice was.",
+    "published": "2026-09-15",
+    "updated": "2026-09-15",
+    "coreSummary": "Jacques-Louis David's The Death of Socrates, finished in 1787 and now at the Metropolitan Museum of Art, shows the condemned philosopher reaching for a cup of hemlock while still teaching his followers. Seated at the foot of the bed is Plato, painted as an old man sunk in grief, though the Met's own 2022 technical study of the canvas states plainly that Plato was not present at Socrates' death; David worked closely from Plato's account of the scene, the Phaedo, which names each attendee and adds only, \"Plato, if I am not mistaken, was ill.\" David had received a private commission for the subject in 1786 from a young patron, Charles-Michel Trudaine de la Sablière, and consulted the Hellenist Father Jean Adry on how to stage the missing philosopher; Adry's surviving advice recommended painting him immobile. X-radiography carried out for the Met's 2022 exhibition Jacques Louis David: Radical Draftsman found that David positioned the vanishing point of his single-point perspective system directly over Plato's head, with an actual stylus hole marking the convergence point on the canvas, and that David made at least two dedicated preparatory drawings of Plato alone. Infrared and X-ray fluorescence imaging of the finished canvas turned up further changes David made and then painted over, including a hairband, a window, and an entire hidden pair of figures on the stairs. Trudaine was executed during the Reign of Terror in 1794; the painting passed through several later owners before the Metropolitan Museum bought it in 1931.",
+    "image": "/images/death-of-socrates.jpg",
+    "imageAlt": "Jacques-Louis David's The Death of Socrates, 1787, showing Socrates reaching for a cup of hemlock while still gesturing upward as if teaching, surrounded by grieving disciples, with Plato seated and slumped at the foot of the bed.",
+    "imageCredit": "[The Death of Socrates](https://commons.wikimedia.org/wiki/File:David_-_The_Death_of_Socrates.jpg), Jacques-Louis David, 1787, Metropolitan Museum of Art, public domain",
+    "sections": [
+      {
+        "heading": "A private commission for an unfinished play",
+        "body": [
+          "David did not paint The Death of Socrates on royal commission, or even because a patron already admired his earlier work. The commission, arranged in 1786, came from Charles-Michel Trudaine de la Sablière, the youngest son of the Trudaine de Montigny family and only about twenty years old at the time. Trudaine had been intrigued by a dramatic treatment of Socrates' final hours that the philosophe Denis Diderot had once considered writing and never finished; one of the scenes Diderot had sketched out was the death itself, and that unrealized scene became the seed of the commission David received instead. David's friend André Chénier, part of the same Trudaine circle, appears to have shaped some of the staging, including the specific pose of Socrates reaching for the cup while still gesturing as if mid-lecture.",
+          "David had already sketched an early version of the composition on his own, without any commission, as far back as 1782. That drawing survives: a sheet in black chalk with brush and gray wash, onto which David physically glued extra fragments of paper and added a strip along the top margin once he decided the scene needed more room than his first sketch allowed. He returned to that same early idea once Trudaine's commission gave him a reason to develop it further, working out the final staging across at least two more rounds of drawings before he ever touched the canvas."
+        ]
+      },
+      {
+        "heading": "The Hellenist's notes on who should look upset",
+        "body": [
+          "Working out how to stage a scene from a text he had not personally witnessed, David turned to Father Jean Adry, a Hellenist scholar, for advice on the circumstances of Socrates' death. One of Adry's letters survives, and in it he makes specific staging recommendations: Plato should appear immobile, Crito should show more visible emotion, and Apollodorus, positioned at the painting's right edge, should be shown thoroughly overcome.",
+          "What the letter does not mention is that Plato was not there to be immobile about anything. Plato's account of the event, the Phaedo, gives a full roll call of who actually attended: Apollodorus, Critobulus and his father Crito, Hermogenes, Epigenes, Aeschines, Antisthenes, Ctesippus of the deme of Paeania, Menexenus, and a handful of visitors from Thebes and elsewhere. The passage adds one more line, almost as an aside: \"Plato, if I am not mistaken, was ill.\" The Met's 2022 technical study of the canvas confirms the same point in plainer language: Plato \"was not present at Socrates' death,\" even though David followed the Phaedo closely for the rest of the scene. He painted Plato in anyway, seated at the foot of the bed, an old man mourning an event the text he was working from says he missed."
+        ]
+      },
+      {
+        "heading": "A stylus hole where the lines all meet",
+        "body": [
+          "For the prison's stone backdrop, David used a single-point perspective system, the same one he had already worked out in his circa 1786 compositional study, a sheet squared in black chalk for transferring the design proportionally onto canvas. According to the Met's 2022 technical examination, David positioned the vanishing point of that system directly above Plato's head, a choice the museum describes as directing \"the viewer's gaze to the source of the narrative.\" It is the same basic geometric convention covered elsewhere on this site, [the technique whose earliest documented demonstration in Western painting has left no surviving physical trace at all](/vanishing-point/), put here to a far more pointed use: aiming an entire architectural background at one man's face.",
+          "X-radiography of the finished canvas found something even more literal waiting at that convergence point: an actual hole pricked into the paint with a stylus, marking the exact spot where David's construction lines meet, probably made using chalk-covered thread snapped against the canvas to lay the lines down straight. David did not treat Plato as an afterthought in his preparations, either. At least two separate drawings survive of the Plato figure alone, sketched apart from the rest of the composition: a black chalk study called Seated Old Man (Plato), now at the Musée Magnin in Dijon, and a second version with a young man standing behind him, at the Musée des Beaux-Arts de Tours."
+        ]
+      },
+      {
+        "heading": "What the X-rays found, and what David painted over",
+        "body": [
+          "Technical imaging of the finished canvas, carried out by the Met's conservation and scientific research departments in 2022, found that David kept revising the picture well past the drawing stage. Infrared reflectography showed a full carbon-based underdrawing beneath the paint, closely following his figure and drapery studies, transferred to canvas by the traditional method of squaring: a grid laid over the drawing, the same grid scaled up on the canvas, and the drawing in each square copied over individually. The same imaging caught changes made after that transfer. A chain David first painted hanging down over the leg of the bed ends up, in the finished picture, simply coiled around the end of it instead.",
+          "Macro X-ray fluorescence mapping, which tracks specific chemical elements across the canvas, found traces of vermilion, a mercury-based red pigment, in a hairband worn by the dark-haired disciple standing near the group on the left; David painted the hairband out entirely, apparently judging it too distracting. The same mapping showed Socrates' forearm had first been positioned slightly closer to the cup, and that his index and middle fingers had originally been extended further before David relaxed them into their final pose. An iron-distribution map turned up an oculus window David had tried in different spots across both his 1782 and circa 1786 studies; in the finished canvas that window disappears behind bare stone, replaced by a small painted ring and hook.",
+          "The single strangest find sits on the staircase in the background, where the finished painting shows one woman glancing back, traditionally identified as Socrates' wife Xanthippe. Underneath the visible paint, the same fluorescence mapping revealed a second figure David had painted there and then covered over completely: a cloaked woman holding a child, the child gripping her neck with one hand and reaching backward with the other. Nobody has confirmed who they were meant to be, though the Phaedo itself mentions a young son small enough to be carried in his mother's arms on the day his father died, which makes the guess that David first sketched in Xanthippe with their youngest boy, then changed his mind, a reasonable one. The same kind of buried evidence, paint layers quietly contradicting each other about what an old-master canvas is supposed to show, is what eventually reopened the question of who painted [a Caravaggio-attributed canvas at the Palazzo Barberini, where a 1995 X-ray restoration turned up evidence that still hasn't settled a decades-long authorship dispute](/caravaggio-narcissus/)."
+        ],
+        "image": {
+          "src": "/images/death-of-socrates-detail.jpg",
+          "alt": "Detail of The Death of Socrates showing Socrates reaching for the cup with one hand while pointing upward with the other, and Crito gripping his thigh, the central group where most of the painting's recorded pentimenti and X-ray changes cluster."
+        }
+      },
+      {
+        "heading": "Two rivals at the same Salon, and a verdict from Jefferson",
+        "body": [
+          "David unveiled the finished canvas at the Paris Salon of 1787, where it was an immediate success among his fellow painters. Joshua Reynolds called it the greatest work of art since the Sistine Chapel and Raphael's Vatican Stanze. Thomas Jefferson, in Paris that year as the American minister to France, wrote that it was the best work in the whole Salon and simply called it superb. A rival version of the same subject, painted by David's contemporary Pierre Peyron, hung at that same Salon; the two men had a running rivalry over who would next lead the French Academy in Rome, and critics judged the comparison in David's favor without much hesitation. Count Potocki put it bluntly, writing that Peyron's picture had shown up the quality of David's by proving to the public how far beneath him one could be.",
+          "David brought the painting back out for the Salon of 1791, where its stoic subject matter suited the revolutionary mood of the moment, and again in 1826, at a benefit exhibition for the Greek War of Independence, staged in Paris the year after David died in exile in Brussels."
+        ]
+      },
+      {
+        "heading": "From a guillotined patron's estate to a New York museum",
+        "body": [
+          "Trudaine did not get to keep the painting he had commissioned. He and his brother were both executed in 1794, during the Terror, and ownership of the canvas passed to his brother's widow, Louise Micault de Courbeton. From there it moved through a string of private owners by inheritance and sale, including Olivier de Saint-Georges de Vérac and his wife, who held it from 1809 to 1870. It crossed the Atlantic decades later: the Metropolitan Museum of Art bought The Death of Socrates in 1931, through the Catharine Lorillard Wolfe Collection's Wolfe Fund, and it has stayed there ever since under accession number 31.45, a canvas measuring 51 by 77 1/4 inches (129.5 by 196.2 centimetres).",
+          "A canvas surviving a revolution, an execution, and more than a century of private hands before it lands in a public collection is not unusual among old-master paintings; [another painting on this site has a documented ownership record that starts a full twenty-five years after it was painted, a gap that happens to span the German occupation of Belgium, where its earliest documented owner was based, though nothing in the museum's own listing flags the stretch as a concern at all](/the-lovers-painting/)."
+        ]
+      },
+      {
+        "heading": "A signature that says who he needed to believe",
+        "body": [
+          "David signed the finished canvas twice, in two very deliberate places. His full signature sits beneath Crito, the disciple gripping Socrates' thigh; only his initials appear beneath Plato. Elsewhere in his career, David used signature placement the same quiet way: in his portrait of Stanisław Kostka Potocki, he signed in the collar of the dog barking at the sitter. Read the same way here, the initials under Plato work almost like a footnote, brief thanks to the source the whole composition depends on, while the full signature under Crito marks the figure David is said to have identified with most, the one gripping at the same convictions Socrates represents in the scene. It is a small detail easy to miss standing in front of a canvas built, in nearly every other respect, to make sure nothing gets missed."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What caused Socrates' death?",
+        "answer": "An Athenian court convicted Socrates of impiety and of corrupting the city's youth, and sentenced him to die by drinking poison hemlock. Plato's Phaedo, the primary account David worked from, describes him accepting the sentence calmly rather than fleeing when the chance arose, discussing the immortality of the soul with his followers right up until he drank the poison."
+      },
+      {
+        "question": "What is the message of the Death of Socrates painting?",
+        "answer": "David built the scene around an Enlightenment-era ideal, rational self-control facing death, with Socrates' calm, upright pose set against the visible grief of everyone around him. The staging advice he sought from a classical-languages scholar, and the way perspective and repeated drawing revisions keep pulling the eye back toward Socrates and toward Plato, all serve the same idea, a philosopher's convictions outlasting his fear of dying."
+      },
+      {
+        "question": "Was Plato actually present at Socrates' death?",
+        "answer": "No. The Phaedo, the dialogue describing the scene, names everyone who was actually in the room, several of Socrates' students and a few visitors, and Plato is not among them. A technical study the Met conducted in 2022 reached the same conclusion independently, describing Plato as absent from the actual event, even though David relied on that same text to construct nearly everything else in the composition."
+      },
+      {
+        "question": "What did X-ray and infrared imaging reveal about the painting?",
+        "answer": "A 2022 conservation study at the Met traced a full layer of drawing hidden under the paint surface, plus several revisions David later painted over: a chain repositioned around a bed leg, a hairband removed, Socrates' forearm and fingers shifted slightly, a window replaced with bare stone, and, most unexpectedly, one entire extra figure group on the staircase that never made it into the finished composition."
+      },
+      {
+        "question": "What were Socrates' last words?",
+        "answer": "According to Plato's Phaedo, after most of his body had already gone cold and numb from the poison, Socrates uncovered his face and said: \"Crito, I owe a cock to Asclepius; will you remember to pay the debt?\" Crito promised to see to it. Those were reportedly his final words before he died."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: The Death of Socrates",
+        "url": "https://en.wikipedia.org/wiki/The_Death_of_Socrates"
+      },
+      {
+        "label": "Charlotte Hale and Silvia A. Centeno, \"The Death of Socrates: New Discoveries,\" Close Look, The Metropolitan Museum of Art, May 5, 2022",
+        "url": "https://www.metmuseum.org/perspectives/the-death-of-socrates-new-discoveries"
+      },
+      {
+        "label": "Plato, Phaedo, translated by Benjamin Jowett, Project Gutenberg",
+        "url": "https://www.gutenberg.org/files/1658/1658-h/1658-h.htm"
+      },
+      {
+        "label": "The Metropolitan Museum of Art, press release for \"Jacques Louis David: Radical Draftsman\" (2022), reposted at Enfilade",
+        "url": "https://enfilade18thc.com/2022/02/16/exhibition-jacques-louis-david-radical-draftsman/"
+      },
+      {
+        "label": "Wikimedia Commons: File:David - The Death of Socrates.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:David_-_The_Death_of_Socrates.jpg"
       }
     ]
   }

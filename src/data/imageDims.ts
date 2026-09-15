@@ -151,6 +151,14 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 634,
   "w": 240
  },
+ "/images/death-of-socrates-detail.jpg": {
+  "h": 999,
+  "w": 1400
+ },
+ "/images/death-of-socrates.jpg": {
+  "h": 1051,
+  "w": 1600
+ },
  "/images/diego-rivera-portrait-1932.jpg": {
   "h": 906,
   "w": 718
