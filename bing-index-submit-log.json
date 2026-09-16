@@ -95,5 +95,14 @@
       "https://umberlore.com/vanishing-point/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-16",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/prussian-blue-pigment/"
+    ],
+    "method": "SubmitUrl"
   }
 ]
