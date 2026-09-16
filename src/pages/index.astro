@@ -30,7 +30,7 @@ for (const g of guides) {
 const rooms = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 ---
 
-<Layout>
+<Layout title="Visual Art History, Checked Against the Record">
 	{rooms.length > 0 && (
 		<nav class="rooms -mt-4 flex items-baseline gap-x-5 border-b border-[var(--rule)] pb-3 md:flex-wrap md:gap-y-1" aria-label="Rooms">
 			<span class="wall-label-dept shrink-0">Rooms</span>
