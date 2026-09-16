@@ -378,3 +378,37 @@ Pitch 8（Westport Library / Art Forgery LibGuide，mkelly@westportlibrary.org�
 WebSearch搜索艺术史类LibGuides（decorative arts/art forgery/photography history方向），命中的候选（UND/UTSA/Kent State/UConn/UCLA等）全部是订阅数据库/付费文献索引（BHA、ARTbibliographies Modern等），无公开可访问、可能真实失效的免费外部链接结构，跟"断链置换"操作模式不匹配（同历史多轮已确认的"学术数据库链接不构成机会"规律）。本轮未形成新候选，未运行`broken_link_scan.py`（候选本身已在人工核实阶段排除，跑扫描无意义）。
 
 **累计口径不变**：仍是3封pitch（含1封跟进），已验证`not_replaced` 2条，转化率0/2；Westport跟进继续标注`drafted_blocked_by_ses_migration`，待SES切换完成后处理。
+
+---
+
+## 2026-09-16（第十三次运行）— 「外链产能集中规则」本轮命中UmberLore（11-30位曝光658，矩阵内容型站排名第一）；名额按09-12修订优先投给外链优先页面清单里的高曝光页
+
+### 第一部分：核实旧pitch
+
+Westport Library Art Forgery LibGuide跟进（09-09标注"跟进暂缓"，见SES冻结）：curl复查`https://westportlibrary.libguides.com/ArtForgery`仍200，死链`magazine.artland.com`原样仍在，无umberlore字样，判定**`not_replaced`**。原始pitch发出已23天，远超10-14天跟进窗口，**不安排跟进**，标记最终状态`not_replaced`（跟进窗口已过）。
+
+### 第二部分：新断链机会——按`外链优先页面清单_20260912.md`的UmberLore 26页清单选题（本轮起改用该清单而非最近14天新文章，按09-12修订）
+
+聚焦清单内高曝光页对应主题：fallen-angel-painting(830)、cristina-kahlo(517)、**diego-rivera(514)**、st-peters-basilica(469)。WebSearch定向搜索Mexican art/muralism大学LibGuides，`broken_link_scan.py`扫描4个候选页（Westport FridaKahlo指南、RCBC Latin American Art指南、Saint Paul College Detroit Murals指南、Alamo ARTS 1301指南，合计约109条出站链接）：
+
+**发现1条真实DEAD链接**：Saint Paul College "Detroit Murals"指南（`https://saintpaul.libguides.com/detroitmurals`，隶属ENGL 1711课程）——锚文本"Rivera Court"（描述"A panoramic view of Rivera Court at the Detroit Institute of Arts"）指向`http://riveracourt.synthescape.com/`，DNS交叉验证（dns.google/cloudflare-dns.com均Status 3 NXDOMAIN）确认真实失效，父域名`synthescape.com`本身仍存活（Netlify托管），只是这个子域名失效，非整体误判。替换内容：`diego-rivera`文章（清单第3名，514曝光），确认FAQ schema里真实覆盖Detroit Industry Murals的疫苗接种场景争议（部分神职人员要求销毁该壁画面板，馆长Wilhelm Valentiner与赞助人Edsel Ford拒绝更改），跟死链描述的"Rivera Court全景"主题真实对应。
+
+其余3个候选（Westport FridaKahlo 21条出站链接、RCBC Latin American Art 37条、Alamo ARTS 1301 39条）全部SOFT（图书馆目录深链SSL握手超时、社交分享链接、403反爬），无真实DEAD命中，如实记录未强凑。
+
+**收件人**：hannah.kauffmann@saintpaul.edu，该指南Profile Box实地核对确认真实存在"Hannah Kauffmann"（Instructional Librarian，she/her），非猜测得出（吸取本日MythCairn WIU pitch的教训——独立复核agent这次专门重新核实了姓名字面是否出现在页面上，而非只信任草稿转述）。
+
+**查重**：`gmail_send.py list --query "to:hannah.kauffmann@saintpaul.edu"`返回空；跨矩阵grep无历史接触。
+
+**已过`Skill(humanizer)`+`Skill(avoid-ai-writing)`**：无em/en dash（用"--"）、无AI高频词、无模板收尾句。
+
+**独立复核**：全新spawn agent逐项独立核实（dedup、死链真实性含DNS交叉验证、收件人身份实地核对、替换内容真实性、语气/去AI味、无施压条款），**VERDICT: SEND**。
+
+**已发送**：`gmail_send.py send --from umberlore --to hannah.kauffmann@saintpaul.edu --subject "A dead link on your Detroit Industry Murals guide"`，**Message ID `1a0aa5cecd0b34d2`**。
+
+### 累计口径
+
+UmberLore断链置换战术累计已发送 **4封**（含1封跟进：Marian University）；已验证`not_replaced` 2条（Marian、Westport），本轮新发Saint Paul College尚未到验证窗口；`verified_live_backlink_confirmed` 0条，转化率0/3（不含本轮新发未到验证期）。
+
+### 遗留待办
+
+下轮继续按`外链优先页面清单_20260912.md`剩余高曝光页（cristina-kahlo/st-peters-basilica/what-is-a-gargoyle等）方向找候选，本轮Diego Rivera方向已找到1条真实机会，其余3页方向候选池（LibGuides）已扫描4个仅剩0个可用，下轮换新的搜索角度或资源页类型。

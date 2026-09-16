@@ -488,3 +488,30 @@ UmberLore
 **Verification notes**: Target found via WebSearch (`zipdo.co creativity statistics page contact`, `site:zipdo.co creativity age statistics`) — zipdo.co is a real statistics-aggregator site (same category as gitnux.org, which UmberLore successfully pitched 2026-08-29) with a live "Global Creative Industry Statistics" report page that has no existing age/peak-creativity stat. Contact `info@zipdo.co` confirmed live via `curl` on `https://zipdo.co/contact-us/`. Dedup: `gmail_send.py list --query "to:zipdo.co"` → empty; `grep -ril "zipdo.co" 独立站/` → no prior contact (gitnux.org, a different domain, was the 8/29 target — not reused here to avoid a second email to a similar-sounding but distinct aggregator within the same run). All numbers (median 39.5, range 20-71, 11%) match the original 2026-08-22 publish-log entry; re-verified against the live page before sending (see distribution-count note below).
 
 **Status: ⛔ NOT SENT this run — blocked by the SES migration freeze.** Independent review verdict was CAN SEND (all facts verified against the live page, contact confirmed live, no dedup conflict). Withholding actual send anyway: as of this run, the 14 matrix domains' Gmail "Send mail as" still routes through Mailjet, which Mailjet has told Owen it no longer permits for this use (see `独立站/待Owen处理事项.md` "SES迁移期间..." and `独立站/邮件发信基础设施迁移_AWS_SES_20260907.md`, both still open as of this run). Marked `drafted_blocked_by_ses_migration`; send once Owen completes the SES cutover and a task re-verifies the numbers are still live-accurate.
+
+## 2026-09-16 — Broken link pitch: Saint Paul College Detroit Murals LibGuide (Rivera Court panorama link)
+
+- Target page: https://saintpaul.libguides.com/detroitmurals (Saint Paul College, "Detroit Murals" research guide for ENGL 1711 Johnson)
+- Discovery path: WebSearch for Diego Rivera / Mexican muralism LibGuides (delegated broken_link_scan.py across 4 candidates: Westport Library FridaKahlo guide, RCBC Latin American Art guide, Saint Paul detroitmurals guide, Alamo ARTS 1301 guide). Only 1 genuine DEAD link surfaced out of ~109 combined outbound links scanned; the rest were SOFT (catalog search deep-links, timeouts, 403s — not confirmed failures).
+- Dead link: anchor text "Rivera Court", description "A panoramic view of Rivera Court at the Detroit Institute of Arts" → `http://riveracourt.synthescape.com/`. Confirmed NXDOMAIN via `dns.google` (Status 3). Link still present verbatim on the live page.
+- Content match: UmberLore's `diego-rivera` article (514 28-day impressions, #3 on `外链优先页面清单_20260912.md`) specifically covers the Detroit Industry Murals, including the vaccination-panel controversy (clergy demanded destruction; Wilhelm Valentiner and Edsel Ford refused) — confirmed present in the live page's FAQ schema, not just a title match to the guide's subject.
+- Contact: hannah.kauffmann@saintpaul.edu — confirmed via the guide's own profile box ("Hannah Kauffmann", she/her), not guessed. (Lesson from today's MythCairn WIU incident: independent review must verify a name/email literally appears on the page before trusting a "confirmed via profile" claim — this one was re-checked directly in the raw HTML.)
+- Dedup: `gmail_send.py list --query "to:hannah.kauffmann@saintpaul.edu"` → empty. `grep -ril "kauffmann\|saintpaul.edu\|synthescape"` across all `独立站/*/broken-link-outreach-log.md` and `*/outreach-drafts.md` → no hits outside this file.
+- Passed Skill(humanizer) + Skill(avoid-ai-writing): zero em/en dashes (uses "--"), no AI-vocabulary hits, no template closer, one specific detail drawn directly from the article (not fabricated).
+
+**Draft email:**
+
+Subject: A dead link on your Detroit Industry Murals guide
+
+Hi Hannah,
+
+I was going through the Detroit Industry Murals guide and noticed the "Rivera Court" link doesn't work anymore -- riveracourt.synthescape.com no longer resolves at all, not just a slow server.
+
+If it's useful, I run umberlore.com and have an article on the Detroit Industry Murals that covers the same room, including the controversy over the panel with the vaccination scene that some of Detroit's clergy wanted destroyed: https://umberlore.com/diego-rivera/
+
+No worries if it's not a fit, just wanted to flag the broken link.
+
+Owen Zhang
+contact@umberlore.com
+
+**状态：SENT (2026-09-16)。** 独立复核agent（全新spawn）逐项核实全部通过（死链真实性/收件人身份实地核对/替换内容真实性/去AI味/无施压条款），VERDICT: SEND。`gmail_send.py send --from umberlore --to hannah.kauffmann@saintpaul.edu`，Message ID `1a0aa5cecd0b34d2`。
