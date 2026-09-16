@@ -8557,7 +8557,7 @@ export const guides: Guide[] = [
         "heading": "The name is shorter than the mechanism",
         "body": [
           "None of the three one-line definitions is wrong. Sfumato really does blend tones without visible lines; impasto really is thick, textured paint; pointillism really is small dots of unmixed color read from a distance. What the short version leaves out is how specific and how documented the underlying mechanism turns out to be once someone actually measures it: a shadow built from a slightly thicker layer of one pigment rather than a different color altogether, a paint chosen for a measurable 30-fold difference in yield stress, a technique traceable to two named books a painter is recorded reading at two different ages.",
-          "This site has found a version of the same gap running the other direction, in the vocabulary art classes use rather than in the techniques themselves: [the checklist of \"elements of art\" now taught in most classrooms has no clear textbook record before a 1968 printing](/elements-of-art/), decades after painters had already been working with line, color, and form without that specific seven-word list attached to them. A name settling into common use, whether it names a technique or a teaching checklist, tends to outrun the documentation behind it. What changes is only whether anyone goes back and checks.",
+          "This site has found a version of the same gap running the other direction, in the vocabulary art classes use rather than in the techniques themselves: [the checklist of \"elements of art\" now taught in most classrooms has no clear textbook record before a 1968 printing](/elements-of-art/), decades after painters had already been working with line, color, and form without that specific seven-word list attached to them. A name settling into common use, whether it names a technique or a teaching checklist, tends to outrun the documentation behind it. What changes is only whether anyone goes back and checks. A pigment can carry the same kind of loose ends: [Prussian blue picked up several regional trade names over three centuries, and one of them, Turnbull's Blue, was assumed for decades to name a chemically distinct substance until X-ray diffraction studies confirmed it was the identical compound all along](/prussian-blue-pigment/).",
           "The paintings used as examples above carry their own separate, already-documented histories on this site. [The Mona Lisa's fame is often credited to its 1911 theft from the Louvre, though a guidebook was already calling it the most celebrated female portrait in the world four years before the theft happened](/mona-lisa/). [Van Gogh's palette is precise enough to date his paintings almost to the season, and separate conservation research shows how much of that original color has since shifted](/van-gogh-paintings/), a finding about the same painter's materials aging over time rather than about how he applied them. A third technique on this site carries a similarly thin documentary record: [the fullest surviving account of Brunelleschi's lost vanishing-point demonstration panels was written decades after he built them, by a biographer whose own authorship of that account isn't fully settled either](/vanishing-point/)."
         ]
       }
@@ -9152,5 +9152,119 @@ export const guides: Guide[] = [
       "url": "https://commons.wikimedia.org/wiki/Commons:Licensing"
     }
   ]
-}
+},
+
+  {
+    "slug": "prussian-blue-pigment",
+    "category": "Technique",
+    "title": "Prussian Blue: An Accident, Then an Antidote",
+    "description": "A failed red pigment from a 1704 Berlin workshop broke ultramarine's price monopoly, colored Hokusai's Great Wave, and is now an FDA-approved treatment for radiation poisoning.",
+    "published": "2026-09-16",
+    "updated": "2026-09-16",
+    "coreSummary": "Prussian blue began as a mistake. Around 1704, the Berlin colormaker Johann Jacob Diesbach was trying to make a red lake pigment from cochineal insects when a batch of potash borrowed from the alchemist Johann Konrad Dippel, already contaminated with potassium ferrocyanide from an earlier distillation of animal oil, turned his mixture a deep blue instead. Dippel and Diesbach kept the recipe secret for two decades, selling the pigment as Berlin Blue, until an English chemist reverse-engineered and published the formula in 1724. The American Chemical Society credits it as the first modern synthetic pigment, with the chemical formula Fe4[Fe(CN)6]3. Eighteenth-century Paris price lists examined by art historians Charlotte Guichard, Anne-Solenn Le Hô and Hannah Williams show natural ultramarine selling for 1,536 livres per pound against 40 livres per pound for even the finest grade of Prussian blue, a price gap that let painters use a saturated blue without the cost of lapis lazuli. The pigment reached Japan through the single Dutch trading post at Nagasaki, and Katsushika Hokusai's publisher Eijudo used it, mixed with traditional indigo according to later spectroscopic analysis by the Metropolitan Museum of Art, to print Under the Wave off Kanagawa for the New Year's market of 1831. Vincent van Gogh listed it among the paints delivered to him in Arles in April 1888, and the painter Edward Burne-Jones, after testifying against James McNeill Whistler at Whistler's 1878 libel trial, once named it, in a letter about a duel that never happened, the most effective weapon he knew. Chemists later confirmed that Berlin Blue, Paris Blue, Turnbull's Blue and Milori Blue are all the same compound with different impurities, though Crayola renamed its Prussian Blue crayon Midnight Blue in 1958. In October 2003 the FDA approved insoluble Prussian blue, sold as Radiogardase, as a treatment that binds ingested radioactive cesium or thallium in the gut and carries it out of the body before it can be reabsorbed.",
+    "image": "/images/prussian-blue-hokusai-great-wave.jpg",
+    "imageAlt": "Katsushika Hokusai's Under the Wave off Kanagawa, around 1830-32, printed with the newly imported synthetic pigment Prussian blue mixed with traditional indigo, from the Metropolitan Museum of Art's collection",
+    "imageCredit": "[Under the Wave off Kanagawa](https://www.metmuseum.org/art/collection/search/45434), Katsushika Hokusai, ca. 1830-32, Metropolitan Museum of Art (H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929), public domain, Open Access",
+    "sections": [
+      {
+        "heading": "A red pigment that came out blue",
+        "body": [
+          "Sometime around 1704, a Berlin colormaker named Johann Jacob Diesbach was trying to make a red lake pigment, the kind of glaze produced by precipitating a dye like cochineal onto a base of alum and potash. The potash he used for that batch came from the alchemist Johann Konrad Dippel, who had previously used the same stock in distilling animal oil, a process that left it contaminated with potassium ferrocyanide without either man realizing it. When Diesbach combined the contaminated potash with iron sulfate and cochineal, the mixture that came out was not red at all but a dense, saturated blue.",
+          "Dippel recognized what had happened and saw a commercial opening in it. He and Diesbach refined the reaction and began selling the result as Berlin Blue, keeping the exact recipe secret for roughly two decades. That secrecy ended in 1724, when an English chemist reverse-engineered the process and published it, and from that point the pigment was available to any colormaker willing to make it. The American Chemical Society's own entry on the compound calls it the first modern synthetic pigment, assigning it the chemical formula Fe4[Fe(CN)6]3, iron bound to a cyanide-based complex that gives the color its unusual stability."
+        ]
+      },
+      {
+        "heading": "Forty livres against fifteen hundred",
+        "body": [
+          "Before 1704, a painter who wanted a strong, stable blue had two real options, and both were expensive. Natural ultramarine, ground from lapis lazuli mined almost exclusively in Afghanistan, was so costly that painters sometimes billed it to patrons as a separate line item from their labor. Smalt, a ground cobalt glass, was cheaper but far less saturated and prone to fading. Prussian blue undercut both on price while matching or beating ultramarine on intensity, and price lists from eighteenth-century Paris studied by the art historians Charlotte Guichard, Anne-Solenn Le Hô and Hannah Williams in a 2023 Art History article show exactly how wide that gap was.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.5;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Pigment</th><th style=\"padding:8px 10px;text-align:left;\">Paris price, per pound</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Natural ultramarine (lapis lazuli)</td><td style=\"padding:8px 10px;\">1,536 livres</td></tr><tr><td style=\"padding:8px 10px 8px 0;\">Prussian blue, finest grade</td><td style=\"padding:8px 10px;\">40 livres</td></tr></tbody></table></div>",
+          "That is a gap of better than thirty-eight to one for the top grade of the new pigment, and cheaper grades of Prussian blue sold for even less. A separate English price list from 1750 shows the same pattern from a different angle: Prussian blue at five shillings a pound against ultramarine at twenty to thirty shillings an ounce, meaning a pound of ultramarine could run to several hundred shillings. For painters who had never been able to justify the cost of lapis lazuli, a strong, stable blue was suddenly within reach."
+        ]
+      },
+      {
+        "heading": "Through one trading post to a Japanese print",
+        "body": [
+          "By the 1820s, Prussian blue had reached Japan, though only through a narrow channel: Dutch traders operating out of the artificial island of Dejima in Nagasaki harbor, Japan's single officially sanctioned point of contact with the West during this period. The Japanese print trade called the imported color bero, a shortened transliteration of Berliner Blau, and the publisher Eijudo began experimenting with it in prints during the late 1820s, replacing the duller, less stable blues, indigo and dayflower blue, that woodblock printers had used until then.",
+          "Eijudo timed a major release around the new pigment. Katsushika Hokusai's series Thirty-six Views of Mount Fuji went on sale for the New Year's market of 1831, and its best-known print, Under the Wave off Kanagawa, leaned on Prussian blue for its dynamic curling wave. Later spectroscopic analysis carried out by the Metropolitan Museum of Art found that the printers did not simply swap the new pigment in for the old one. They mixed Prussian blue with traditional indigo and layered the two inks to build a bold outline, darkening the bright synthetic blue without losing its intensity, a compositing choice a straightforward substitution would not explain."
+        ],
+        "image": {
+          "src": "/images/prussian-blue-pigment-sample.jpg",
+          "alt": "A sample of raw Prussian blue pigment powder, the deep synthetic blue first produced in Berlin around 1704"
+        }
+      },
+      {
+        "heading": "On a painter's palette, and in a duelist's threat",
+        "body": [
+          "By the nineteenth century, Prussian blue was a standard studio color, not a novelty. When a delivery of paint from Paris finally caught up with [Vincent van Gogh in Arles in April 1888](/van-gogh-paintings/), he wrote to his brother Theo with an itemized list of what had arrived, naming Prussian blue alongside chrome yellows, emerald green and madder lakes as colors he said were \"hardly found in the Dutch palette\" he had trained on.",
+          "The pigment shows up in a stranger register in a letter from the painter Edward Burne-Jones, who [testified for the critic John Ruskin at Ruskin's 1878 libel trial against James McNeill Whistler](/whistler-ruskin-trial/). Burne-Jones had carried his own grudge against Whistler since 1867, after Whistler struck his friend, the painter Alphonse Legros, in an unrelated quarrel, and the courtroom gave him a public confrontation in place of a physical one. Writing to a friend afterward, Burne-Jones said that if the dispute ever came to an actual duel, he would choose his weapon: \"pots of oil paint,\" and specifically \"prussian blue as the most effective weapon I know.\" No duel followed, but the line has outlived the quarrel that prompted it."
+        ]
+      },
+      {
+        "heading": "The same compound under four names",
+        "body": [
+          "Prussian blue picked up a string of alternate names as it spread across markets and decades. Continental manufacturers sold it as Berlin Blue or Paris Blue. A separate reaction path, adding iron salts to a solution of ferricyanide, was once thought to produce a genuinely different pigment named Turnbull's Blue after the chemist who described it, until X-ray and electron diffraction studies showed the two materials share an identical crystal structure, differing only in impurities and particle size left over from their different starting reagents. Industrial suppliers today also sell a warmer, reddish-toned cooked variant under the name Milori Blue.",
+          "The name changed again, and for a different reason, inside a box of crayons. Crayola introduced a Prussian Blue crayon in 1949 and quietly renamed it Midnight Blue in 1958. The company's own explanation has varied over the years, pointing at different points to schoolchildren no longer recognizing what Prussia was and to a general Cold War-era wariness about a name that echoed the old Prussian and, by association, the divided German state on the far side of the Iron Curtain."
+        ]
+      },
+      {
+        "heading": "A museum pigment that is also an FDA-approved drug",
+        "body": [
+          "The same chemical structure that makes Prussian blue useful on canvas also makes it useful in medicine, for an entirely unrelated reason. Insoluble Prussian blue binds strongly to metal ions, including the ions of radioactive cesium-137 and thallium. In October 2003, the Food and Drug Administration approved the first new drug application built on that property, marketed as Radiogardase, for treating people who have ingested harmful levels of those two elements.",
+          "Taken orally, the capsules work by intercepting cesium or thallium as it recirculates through the gut during the body's normal enterohepatic cycle, binding the metal ions and carrying them out in feces before they can be reabsorbed into the bloodstream. The FDA's approved dosing for adults and adolescents over twelve is three grams, taken three times a day, with constipation and upset stomach listed as the main side effects. A compound discovered by accident while someone was trying to dye something red is now stocked, under a completely different name, as an antidote."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is special about Prussian blue?",
+        "answer": "Chemists point to it as the earliest example of a lab-made color rather than one ground from a mineral or extracted from a plant or insect, and it arrived by pure accident, out of a Berlin workshop trying to make red dye around 1704. Its formula, Fe4[Fe(CN)6]3, gives it unusual chemical stability, and surviving price records show it undercutting the period's costlier ground-lapis-lazuli blue by dozens of times over while holding up just as well in intensity."
+      },
+      {
+        "question": "What does Prussian blue do to the body?",
+        "answer": "Taken as an oral capsule under the brand name Radiogardase, its insoluble form grabs onto metal ions from two specific radioactive elements, cesium and thallium, inside the digestive system, carrying them out with normal waste rather than letting the body reabsorb them. The FDA cleared this specific use in October 2003, aimed at anyone who has swallowed unsafe quantities of either one."
+      },
+      {
+        "question": "What is Prussian blue called now?",
+        "answer": "Older trade names for the identical compound include Berlin Blue and Paris Blue, and manufacturers now sell a warmer-toned cooked version as Milori Blue. A fourth name, Turnbull's Blue, was assigned to what nineteenth-century chemists took for a separate substance made by a different reaction path, until later lab analysis using X-rays traced it back to the very same crystal, just carrying different leftover impurities."
+      },
+      {
+        "question": "Why did Crayola get rid of Prussian blue?",
+        "answer": "The crayon debuted under that name in 1949, and the company swapped in Midnight Blue nine years later. Crayola's stated reasoning has shifted depending on who was asked, sometimes pointing to kids who simply didn't know what Prussia even was and sometimes to a Cold War-era discomfort with anything recalling the divided Germany behind the Iron Curtain."
+      }
+    ],
+    "sources": [
+      {
+        "label": "American Chemical Society, Molecule of the Week: Prussian Blue",
+        "url": "https://www.acs.org/molecule-of-the-week/archive/p/prussian-blue.html"
+      },
+      {
+        "label": "Wikipedia: Prussian blue",
+        "url": "https://en.wikipedia.org/wiki/Prussian_blue"
+      },
+      {
+        "label": "Webexhibits, Pigments through the Ages: Prussian blue",
+        "url": "https://www.webexhibits.org/pigments/indiv/history/prussblue.html"
+      },
+      {
+        "label": "Charlotte Guichard, Anne-Solenn Le Hô and Hannah Williams, \"Prussian Blue: Chemistry, Commerce, and Colour in Eighteenth-Century Paris,\" Art History 46 (2023): 154-186",
+        "url": "https://doi.org/10.1111/1467-8365.12695"
+      },
+      {
+        "label": "The Metropolitan Museum of Art, The Great Wave: Anatomy of an Icon",
+        "url": "https://www.metmuseum.org/essays/hokusai-great-wave"
+      },
+      {
+        "label": "U.S. Food and Drug Administration, FDA Approves First New Drug Application for Treatment of Radiation Contamination due to Cesium or Thallium (2003)",
+        "url": "https://www.fda.gov/drugs/bioterrorism-and-drug-preparedness/fda-approves-first-new-drug-application-treatment-radiation-contamination-due-cesium-or-thallium"
+      },
+      {
+        "label": "Fast Company, The Long, Strange History of Prussian Blue",
+        "url": "https://www.fastcompany.com/90182697/the-long-strange-history-of-prussian-blue"
+      },
+      {
+        "label": "Wikimedia Commons: File:Pigment Berliner Blau.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Pigment_Berliner_Blau.JPG"
+      }
+    ]
+  }
 ];

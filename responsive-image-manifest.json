@@ -558,5 +558,14 @@
    "h": 493
   },
   "desktop_rel": "/images/death-of-socrates.jpg"
+ },
+ "/images/prussian-blue-hokusai-great-wave.jpg": {
+  "fingerprint": "1789533975045396035:570622:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/prussian-blue-hokusai-great-wave-sm.jpg",
+   "w": 750,
+   "h": 504
+  },
+  "desktop_rel": "/images/prussian-blue-hokusai-great-wave.jpg"
  }
 }

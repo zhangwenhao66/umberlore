@@ -204,6 +204,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/pop-art-whitechapel-gallery-exterior-sm.jpg",
   "w": 750
  },
+ "/images/prussian-blue-hokusai-great-wave.jpg": {
+  "h": 504,
+  "mobile": "/images/responsive/prussian-blue-hokusai-great-wave-sm.jpg",
+  "w": 750
+ },
  "/images/rebay-guggenheim-kandinsky-bauhaus-1929.jpg": {
   "h": 518,
   "mobile": "/images/responsive/rebay-guggenheim-kandinsky-bauhaus-1929-sm.jpg",

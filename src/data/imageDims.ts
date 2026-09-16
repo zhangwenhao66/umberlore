@@ -867,6 +867,22 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1600,
   "w": 1200
  },
+ "/images/prussian-blue-hokusai-great-wave.avif": {
+  "h": 1075,
+  "w": 1600
+ },
+ "/images/prussian-blue-hokusai-great-wave.jpg": {
+  "h": 1075,
+  "w": 1600
+ },
+ "/images/prussian-blue-hokusai-great-wave.webp": {
+  "h": 1075,
+  "w": 1600
+ },
+ "/images/prussian-blue-pigment-sample.jpg": {
+  "h": 845,
+  "w": 1600
+ },
  "/images/psychedelic-art-mucha-champenois-poster.jpg": {
   "h": 1400,
   "w": 1030
@@ -1433,6 +1449,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/pop-art-whitechapel-gallery-exterior-sm.webp": {
   "h": 1000,
+  "w": 750
+ },
+ "/images/responsive/prussian-blue-hokusai-great-wave-sm.avif": {
+  "h": 504,
+  "w": 750
+ },
+ "/images/responsive/prussian-blue-hokusai-great-wave-sm.jpg": {
+  "h": 504,
+  "w": 750
+ },
+ "/images/responsive/prussian-blue-hokusai-great-wave-sm.webp": {
+  "h": 504,
   "w": 750
  },
  "/images/responsive/rebay-guggenheim-kandinsky-bauhaus-1929-sm.avif": {
