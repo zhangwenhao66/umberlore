@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "elements-of-art.md coreSummary states directly: 'The seven-item checklist now printed in American art textbooks... does not appear on the historical record before a 1968 printing, decades after both' (Dow's 1899 and Kandinsky's 1926 systems). This matches the bridge sentence's claim that the elements-of-art checklist 'has no clear textbook record before a 1968 printing.'"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "prussian-blue-pigment.md body states: 'Chemists later confirmed that Berlin Blue, Paris Blue, Turnbull's Blue and Milori Blue are all the same compound with different impurities,' and the 'same compound under four names' section explains Turnbull's Blue 'was once thought to produce a genuinely different pigment... until X-ray and electron diffraction studies showed the two materials share an identical crystal structure.' The pigment dates to c.1704, so 'over three centuries' to the present (2026) checks out."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "van-gogh-paintings.md coreSummary states 'Van Gogh's paintings can be dated by palette alone: the pigments he ordered from Paris in April 1888 are what separate the dark Dutch canvases from the Provençal ones,' and body confirms the April 1888 paint order is 'probably the most useful dating document in the whole correspondence' -- dating to specific months, i.e. 'almost to the season.' The REVIGO project (finished 2017) is described in detail quantifying how much original color (violet walls now reading blue, etc.) has shifted, confirming the second half of the bridge claim."
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "note": "vanishing-point.md coreSummary/body state the fullest account is Antonio di Tuccio Manetti's Life of Brunelleschi, dated by scholars to the 1480s, decades after the panels (built somewhere 1401-1425) and after Manetti's own birth in 1423; and that 'whether he actually wrote the biography attributed to him... remains only \"probable\" rather than settled.' This matches the bridge sentence's claims about a decades-later account by a biographer whose authorship isn't fully settled."
+  }
+]

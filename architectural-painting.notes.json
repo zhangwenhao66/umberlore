@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "daguerreotype.md body section 'What closer analysis has found in the plate' states verbatim: 'Repeated close examination of the plate has turned up faint traces beyond those two figures: a possible child looking out from a window, a horse, and other smears consistent with people or vehicles caught mid-motion and therefore never fully registered.' This matches the bridge sentence's claim about faint traces, a possible child, a horse, and unregistered smears exactly."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "st-peters-basilica.md section heading is literally 'Bernini's bronze canopy, and a legend the Vatican's own records complicate,' and the body says 'It also carries a legend that the building's own accounts don't fully support... Wikipedia's own account of the baldachin complicates that story... the baldachin's own bronze traces instead to Venice.' The baldachin is explicitly the basilica's 'most photographed bronze object,' matching the bridge sentence's framing exactly."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "birth-of-venus.md section heading is 'The inventory that undercut the assumption,' and the body states the 1499 Medici household inventory (published 1975) lists Primavera but omits the Birth of Venus, which 'was enough to unravel an assumption that had stood as settled fact' about a shared commission. This confirms the bridge sentence's claim that a 1499 inventory undercut a long-settled assumption about the painting's origin."
+  }
+]
