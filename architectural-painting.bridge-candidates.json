@@ -1,0 +1,23 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "A comparable gap opens up a little over two centuries after Saenredam's Haarlem interiors, in photography, where [close examination of the plate](/daguerreotype/) usually credited with capturing the first photographed person turned up faint traces, a possible child, a horse, other unregistered smears, that complicate the tidy single-bystander story built around the image's most legible corner.",
+    "target_slug": "daguerreotype",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "St Peter's Basilica, the subject of some of the genre's later architectural views, has [a legend that Vatican records complicate](/st-peters-basilica/) attached to one of its most photographed bronze features, in a pattern not unlike Botticelli's Birth of Venus, where [a 1499 inventory undercut](/birth-of-venus/) an assumption about the painting's origin that had stood as settled fact for centuries.",
+    "target_slug": "st-peters-basilica",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "St Peter's Basilica, the subject of some of the genre's later architectural views, has [a legend that Vatican records complicate](/st-peters-basilica/) attached to one of its most photographed bronze features, in a pattern not unlike Botticelli's Birth of Venus, where [a 1499 inventory undercut](/birth-of-venus/) an assumption about the painting's origin that had stood as settled fact for centuries.",
+    "target_slug": "birth-of-venus",
+    "target_found": true
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "This site has found a version of the same gap running the other direction, in the vocabulary art classes use rather than in the techniques themselves: [the checklist of \\\"elements of art\\\" now taught in most classrooms has no clear textbook record before a 1968 printing](/elements-of-art/), decades after painters had already been working with line, color, and form without that specific seven-word list attached to them.",
+    "target_slug": "elements-of-art",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "A pigment can carry the same kind of loose ends: [Prussian blue picked up several regional trade names over three centuries, and one of them, Turnbull's Blue, was assumed for decades to name a chemically distinct substance until X-ray diffraction studies confirmed it was the identical compound all along](/prussian-blue-pigment/).",
+    "target_slug": "prussian-blue-pigment",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "[Van Gogh's palette is precise enough to date his paintings almost to the season, and separate conservation research shows how much of that original color has since shifted](/van-gogh-paintings/), a finding about the same painter's materials aging over time rather than about how he applied them.",
+    "target_slug": "van-gogh-paintings",
+    "target_found": true
+  },
+  {
+    "index": 4,
+    "source": "正文",
+    "sentence": "A third technique on this site carries a similarly thin documentary record: [the fullest surviving account of Brunelleschi's lost vanishing-point demonstration panels was written decades after he built them, by a biographer whose own authorship of that account isn't fully settled either](/vanishing-point/).",
+    "target_slug": "vanishing-point",
+    "target_found": true
+  }
+]
