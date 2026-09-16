@@ -1120,7 +1120,11 @@ export const guides: Guide[] = [
         "question": "What are the 10 most valuable paintings ever sold?",
         "answer": "Topping the list is Leonardo da Vinci's Salvator Mundi, which sold for $450.3 million at Christie's New York in 2017, roughly double the next entry. Other paintings that have sold privately or at auction for well over $100 million include Willem de Kooning's Interchange, Paul Cézanne's The Card Players, Jackson Pollock's Number 17A, Andy Warhol's Shot Sage Blue Marilyn ($195 million, Christie's, 2022), Gustav Klimt's Water Serpents II, Mark Rothko's No. 6 (Violet, Green and Red), and Picasso's Women of Algiers (Version O). Private sales are harder to verify than auction results, so figures for deals not conducted at a public auction house carry more uncertainty than the auction-house prices."
       },
-],
+      {
+        "question": "What are the top 10 most famous paintings of all time?",
+        "answer": "No museum or survey keeps an official ranking, but the same works recur across nearly every list: Leonardo da Vinci's [Mona Lisa](/mona-lisa/) (Louvre) and The Last Supper (Santa Maria delle Grazie, Milan), Michelangelo's [Sistine Chapel ceiling](/michelangelo-sistine-chapel/) (Vatican), Sandro Botticelli's [The Birth of Venus](/birth-of-venus/) (Uffizi), Vincent van Gogh's [The Starry Night](/starry-night/) (MoMA), Rembrandt's The Night Watch (Rijksmuseum, also covered above), Pablo Picasso's Guernica (Museo Reina Sofía), Édouard Manet's Olympia (Musée d'Orsay), Gustav Klimt's The Kiss (Belvedere, Vienna), and Grant Wood's American Gothic (Art Institute of Chicago). Narrow that same list to five and it's usually the first five in that group: the Mona Lisa, The Last Supper, the Sistine Chapel ceiling, The Birth of Venus, and The Starry Night."
+      }
+    ],
     "sources": [
       {
         "label": "Musée du Louvre, collection record: Portrait de Lisa Gherardini, dit La Joconde (INV 779)",
@@ -2096,7 +2100,11 @@ export const guides: Guide[] = [
         "question": "Why did it take 144 years to build the Sagrada Família?",
         "answer": "Construction began on 19 March 1882 and reached its final height in February 2026, a span of 144 years, for several compounding reasons rather than one. The temple has always been funded by private donations and, more recently, visitor ticket revenue, never public money, so work has repeatedly slowed or stalled when funds ran short. Gaudí, who took over as chief architect in 1883 and worked on it until his death in 1926, left behind an extraordinarily complex design built on hyperboloid and catenary-arch geometry that later architects had to painstakingly rebuild after anarchist militants burned his studio and plaster models in 1936, and the Spanish Civil War halted construction for years on top of that."
       },
-],
+      {
+        "question": "Why is the Sagrada Família so special?",
+        "answer": "UNESCO's committee gave its clearest answer in 2005, when it inscribed the crypt and Nativity Façade, the two parts Gaudí personally saw built, as a World Heritage Site under criterion (i): his work represents \"an exceptional and outstanding creative contribution to the development of architecture and building technology in the late 19th and early 20th centuries.\" The specific innovation is structural. Working from small-scale hanging-chain models years in advance, Gaudí calculated leaning columns, branching tree-like supports, and hyperboloid vaulting so precisely that the roof's weight travels straight down through the columns themselves, with no exterior stone buttressing needed to keep the walls standing. That combination of naturalistic form and calculated engineering, worked out here before it appeared anywhere else in his career, is what architectural historians point to over any single decorative detail."
+      }
+    ],
     "sources": [
       {
         "label": "Vatican News: Central tower of Barcelona's Sagrada Família completed",
@@ -5740,7 +5748,15 @@ export const guides: Guide[] = [
         "question": "Who are five famous Renaissance artists?",
         "answer": "The five names that come up most consistently are Leonardo da Vinci, Michelangelo, Raphael, Sandro Botticelli, and Titian. Leonardo, Michelangelo, and Raphael are usually grouped together as the High Renaissance's central figures; Botticelli belongs to the earlier Florentine Renaissance, and Titian led the later Venetian school."
       },
-],
+      {
+        "question": "What are some famous artworks from the Renaissance period?",
+        "answer": "The period produced some of the most reproduced images in Western art: Da Vinci's Mona Lisa and his The Last Supper, Michelangelo's [Sistine Chapel ceiling](/michelangelo-sistine-chapel/) and his sculpture David, Sandro Botticelli's [The Birth of Venus](/birth-of-venus/), Titian's Venus of Urbino, and Raphael's School of Athens, already covered above through its surviving cartoon. Leonardo, Michelangelo and Raphael are usually grouped as the High Renaissance's three central figures, while Botticelli represents the earlier Florentine Renaissance and Titian the later Venetian school."
+      },
+      {
+        "question": "What are the top 3 most famous paintings of all time?",
+        "answer": "Renaissance works dominate almost every version of this list. The three that recur most consistently across surveys and museum-attendance figures are Da Vinci's Mona Lisa at the Louvre, his The Last Supper in Milan, and Michelangelo's [Sistine Chapel ceiling](/michelangelo-sistine-chapel/) at the Vatican. No single museum or scholarly body ranks them by number, but all three combine instant public recognition with more than 500 years of continuous documentation, a combination almost no work from any other period matches."
+      }
+    ],
     "sources": [
       {
         "label": "National Gallery, London: \"The hidden Leonardo\"",
@@ -6133,7 +6149,11 @@ export const guides: Guide[] = [
         "question": "Who is best known for his landscape paintings?",
         "answer": "Among American painters, that's usually Thomas Cole, founder of the Hudson River School; among European painters, John Constable and J.M.W. Turner in Britain and Caspar David Friedrich in Germany are the names most often given that title, and Constable's Hay Wain is covered elsewhere in this article."
       },
-],
+      {
+        "question": "What is the most famous landscape painting?",
+        "answer": "No museum or academic survey keeps an official ranking, but Vincent van Gogh's [The Starry Night](/starry-night/) (1889, MoMA) is the landscape work most frequently singled out as art history's single most famous, helped by decades of reproduction on posters, mugs, and merchandise far beyond the art world. Among painters working before mass reproduction existed, Constable's The Hay Wain, covered above, and J.M.W. Turner's seascapes are the next most commonly cited British contenders."
+      }
+    ],
     "sources": [
       {
         "label": "Wikipedia: Wanderer Above the Sea of Fog",
@@ -7026,7 +7046,11 @@ export const guides: Guide[] = [
         "question": "Who is the most popular Mexican artist today?",
         "answer": "By most measures of contemporary recognition, Frida Kahlo has eclipsed even Los Tres Grandes in global visibility, driven by decades of exhibitions, merchandise, and film, including the 2002 biopic Frida, that have made her self-portraits among the most reproduced images in art history. Historically, though, Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros, the muralists profiled on this page, were considered Mexico's most consequential artists during their own lifetimes, commissioned directly by the government to define the country's post-revolutionary identity."
       },
-],
+      {
+        "question": "Who are some famous Mexican artists?",
+        "answer": "Beyond Frida Kahlo and Los Tres Grandes, several artists built serious reputations outside the muralist tradition. Rufino Tamayo, born in Oaxaca in 1899, rejected the muralists' overtly political program in favor of blending international modernist styles, Cubism among them, with Indigenous Zapotec imagery. María Izquierdo, born in 1902, was among the first Mexican women to hold a major solo exhibition and, alongside Kahlo, is generally ranked as one of the country's most important twentieth-century female painters; she and Tamayo were also a couple who shared a Mexico City studio in the late 1920s and early 1930s. Remedios Varo, born in Spain but a naturalized Mexican citizen for most of her working life, became a central figure in Mexico City's Surrealist circle, painting esoteric, dreamlike scenes far removed from the muralists' public wall-sized statements."
+      }
+    ],
     "sources": [
       {
         "label": "Wikipedia: David Alfaro Siqueiros",
