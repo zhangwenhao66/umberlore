@@ -2495,3 +2495,44 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **线上抽查**：见下方。
 
 抽查5篇中的2篇（sagrada-familia、famous-mexican-artists）绕缓存curl，均200且新增FAQ问题文本已在线上HTML中命中，确认部署已生效；其余3篇（famous-paintings、famous-landscape-paintings、famous-renaissance-paintings）绕缓存curl均200（Cloudflare Pages部署通常在push后数分钟内生效，未逐篇抓取HTML内容核对文本，不代表未生效）。
+
+## 2026-09-16 trafficsite-content-quality-audit（non-objective-art，首次审计，十四维度）
+
+```json
+{
+  "url_slug": "non-objective-art",
+  "last_audited": "2026-09-16",
+  "published_date": "2026-08-30",
+  "article_specific_priorities": "选自独立站/PAA缺口清单_20260913.md（28天曝光161，本站PAA gap候选最高值，未覆盖问法'What's the difference between non-objective and abstract art?'/'Who are the most famous non-objective artists?'）。核对现有FAQ#2（区分Rebay对non-objective vs abstract的严格用法）和FAQ#6（列出Kandinsky/Malevich/Gabo三位先驱）已实质覆盖两条gap问题，判定不追加新FAQ。专属核查清单：①Museum of Non-Objective Painting 1939年6月1日开馆细节；②Rebay 1952年3月辞职经过与museum改名年份；③Frank Lloyd Wright 1959年10月21日建筑开馆日期；④Solomon Guggenheim 1949年去世时间线。",
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "核实无误，未发现编造",
+      "detail": "WebSearch交叉核实四条核心时间线（TheArtStory/History.com/Guggenheim基金会官网等独立信源）：1939年6月1日开馆、Rebay 1952年3月辞去馆长职务、1952年同年改名Solomon R. Guggenheim Museum、建筑1959年10月21日（Wright去世后6个月）开馆，均准确。"
+    },
+    {
+      "dimension": "机械散文检查（第14项）三类命中",
+      "status": "确认问题，已修复",
+      "detail": "首次对本文运行check_prose_patterns.py（该规则升级为硬检查的日期2026-08-30恰好是本文发布当天，此前从未被扫描）：①L-0819-8'\\'s own'归因短语7次（阈值>2，命中'Tate's own glossary'/'Rebay's own words'/'Rebay's own path'/'artist's own inscription'/'Foundation's own account'×2/'Rebay's own rehabilitation'）；②L-0820-2'rather than/instead of'对比框架7次（阈值>4）；③L-0819-9全部7条FAQ均与正文有≥20字符逐字重合。改写正文5处's own'短语（保留2处降至阈值内）、改写3处对比框架句、改写全部7条FAQ答案措辞（约6轮迭代避免专有名词/常见连接词组意外重合），未改动任何事实/日期/人名，三项检查全部退出码0。"
+    },
+    {
+      "dimension": "外部引用链接腐烂 / 内链健康度 / 头图裁剪核对",
+      "status": "抽查未发现问题",
+      "detail": "grep统计正文markdown链接指向/non-objective-art/的次数为3，非孤儿页。头图为原始宽高比未做object-cover强制裁剪，check_hero_crop.py判定本检查不适用。sources链接未逐条curl核对（时间预算内跳过，留作后续运行补充项）。"
+    },
+    {
+      "dimension": "EEAT / 时效性 / SEO技术审计 / GEO审计 / Schema一致性 / 合规敏感度漂移 / AdSense政策合规 / 谷歌垃圾政策合规",
+      "status": "抽查未发现问题",
+      "detail": "文章基于Tate官方术语表+Guggenheim基金会官方历史记录+传记学者Joan Lukach研究交叉验证，证据充分；艺术史内容无需追新数据；无暴力/限制类目/误导性标题，AdSense/谷歌垃圾政策层面无风险信号。未逐项跑seo-audit/ai-seo/google-spam-compliance独立技能复核，基于人工抽查判断本次运行内无待修复项。"
+    }
+  ],
+  "independent_verification_note": "本次发现（'s own重复/对比框架密度/FAQ逐字重合）均由脚本机械输出精确命中位置，属确定性判定，未额外spawn独立agent复核；已通过直接核对脚本输出与源文本自证。事实核实用WebSearch对4条最具体的历史时间线做了交叉信源核对，未使用WebFetch。",
+  "build_verification": "npm run build 无语法错误，89个页面全部生成成功。",
+  "commits": ["6c1cc38 content: fix non-objective-art prose gate violations (content-quality-audit)"],
+  "push_status": "git pull --rebase origin main（无冲突，无需rebase）后 git push origin main 成功，ad3d6a4..6c1cc38。",
+  "live_verification": "seo_drift.py baseline（编辑前）→ compare（部署后）：1条WARNING级'schema内容变化'（FAQPage schema随FAQ改写同步更新，符合预期）+1条INFO级'H2结构变化'（6→6，因改写1处小节标题措辞避免instead of用词，标题数量未变），无CRITICAL发现。绕缓存curl轮询3次（约30秒）命中新增文本'scrubbing that whole'，HTTP 200。IndexNow提交（仅本文路径）Bing 200/Yandex 200。",
+  "seo_score": null,
+  "geo_score": null,
+  "escalation": null
+}
+```
