@@ -60,6 +60,8 @@
 |---|---|---|---|---|---|
 | theartofeducation.edu | 1 | resource_page（艺术教育机构网站） | 14.6万 | 14.6条/域名，正常 | https://mymodernmet.com/natural-art-supplies/（锚文本"make art"） |
 
+**[已联系 2026-09-16]** asset-distribution-outreach 已联系 theartofeducation.edu（help@theartofeducation.edu），见 `独立站/资产分发外联台账.json`
+
 筛掉2个：fineartphotoawards.com（ETV仅259，未达300门槛）、monovisionsawards.com（ETV仅124，未达300门槛）——两个都是摄影奖项网站，主题相关但流量太小。
 
 - **类别**：原创数据研究
