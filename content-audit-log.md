@@ -2444,3 +2444,54 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
   "escalation": null
 }
 ```
+
+## PAA-FAQ批强(daily-task, 2026-09-16)
+
+**背景**：本次会话曾因一次服务端连接中断（ECONNRESET）被终止，重启后先核实了git状态——重启前未产生任何未commit的改动（研究阶段被中断，尚未开始写入guides.ts），因此本轮从头处理清单，不存在"从中断处继续"的衔接问题。
+
+**清单来源**：`独立站/research-db/paa_bulk_current/umberlore.json`，21篇候选，按`impressions_28d`降序处理。处理前读取`独立站/umberlore/content-audit-log.md`历史记录确认：本清单里的多数文章此前已经过两轮PAA-FAQ批强（2026-09-13第一轮23篇、2026-09-15第二轮23篇），本轮清单是`paa_gap.py`基于当前guides.ts重新计算后仍未被覆盖的剩余缺口，逐条现读现有FAQ数组核对，不假设清单陈旧。
+
+**处理结果**：21篇全部逐条评估（gap_questions vs 现有FAQ数组，含答案全文比对而非只看问题字面），5篇找到WebSearch可核实的真实缺口并新增FAQ，共6条：
+
+| slug | impressions_28d | 新增FAQ问题 |
+|---|---|---|
+| famous-paintings | 45 | What are the top 10 most famous paintings of all time? |
+| sagrada-familia | 31 | Why is the Sagrada Família so special? |
+| famous-renaissance-paintings | 44 | What are some famous artworks from the Renaissance period? / What are the top 3 most famous paintings of all time? |
+| famous-landscape-paintings | 46 | What is the most famous landscape painting? |
+| famous-mexican-artists | 36 | Who are some famous Mexican artists? |
+
+**跳过的16篇文章（均已逐条评估，非"未处理"）**：
+
+- `what-is-a-gargoyle`：2条gap问题（"gargoyle象征什么"/"为何显得可怕"）均已被现有FAQ（"宗教/保护作用"讲排水功能优先于象征意义、"是否被视为邪恶"讲驱邪悖论）实质覆盖，属重复。
+- `sand-painting`：唯一gap问题"sand art用什么液体"是PAA匹配脚本错配——本文主题是纳瓦霍仪式沙画（干沙+粘合剂+仪式后销毁），问题指向不相关的消费品"液体流沙摆件"，跳过。
+- `starry-night`：2条gap问题（"现在在哪""谁拥有"）均已被现有FAQ"Where is the original Starry Night..."（答案MoMA纽约1941年起持有）完整覆盖。
+- `baroque-paintings`：唯一gap问题"最受欢迎的Baroque作品"已被现有FAQ"What is the most famous Baroque painting?"实质覆盖（most popular = most famous，同义）。
+- `non-objective-art`：2条gap问题均已被现有FAQ（Hilla Rebay严格定义区分/Tate认定的Kandinsky-Malevich-Gabo三位先驱）实质覆盖。
+- `famous-portraits`：唯一gap问题"20幅最著名的paintings"与本文主题（4幅具体肖像画的考据）不符——问的是绘画通论不是肖像画，且与famous-paintings.ts的主题重叠，会造成内容重复/自我蚕食，跳过。
+- `pop-art`：唯一gap问题"Pop Art的5个事实"过于宽泛列表式，且已有8条FAQ分散覆盖了术语起源/最早作品/代表作/现状等事实点，判定实质覆盖。
+- `jackson-pollock-convergence`：唯一gap问题"convergence在艺术中是什么意思"是通用艺术术语（如透视会聚点），与本文主题（Pollock这幅具体命名为《Convergence》的画作）关联薄弱，WebSearch未找到把该通用概念与这幅画意义绑定的可靠来源，跳过。
+- `monochromatic-painting`：2条gap问题（"举例""哪些艺术家"）已被现有FAQ（Malevich黑方块X光发现、Yves Klein蓝专利、Ad Reinhardt黑色系列保存难题，三条FAQ分别点名三位艺术家/三个具体案例）实质覆盖。
+- `john-martin-paintings`：唯一gap问题"哪幅画卖了7000万美元"经WebSearch核实John Martin真实拍卖纪录为$4,183,482（2015 Sotheby's），与7000万相差约17倍，判定为PAA匹配脚本错配，跳过。
+- `the-lovers-painting`：3条gap问题中，"含义"已被"What do the veiled faces mean?"覆盖，"MoMA所在地"已被"Where can you see The Lovers today?"覆盖，"谁画的"是基础归属信息、全文标题和FAQ已隐含明示（René Magritte），单独作答价值低，判定实质覆盖，跳过。
+- `art-techniques`：4条gap问题全部是通用榜单式（"什么是艺术技法""7种艺术类型"），与本文聚焦的具体技法深度案例（sfumato/impasto/pointillism的科学检测过程）风格不符，且impressions=1，跳过。
+- `caravaggio-narcissus`：2条gap问题——"Was Caravaggio LGBTQ"涉及历史人物性向的学界无定论争议（WebSearch核实：无确凿证据，学界仅有循环证据和推测，Andrew Graham-Dixon等学者持不同结论），为避免主观臆测/单方陈述跳过；"最著名的Narcissus by Caravaggio是哪幅"是伪问题（该画家名下仅此一幅存疑Narcissus作品，本文即是），跳过。
+- `vanishing-point`：唯一gap问题"艺术中的70/30法则"经核查不是消失点/透视相关的公认艺术原理术语（更接近设计配色的60-30-10法则），疑似PAA匹配错配，找不到可靠来源，跳过。
+- `pattern-in-art`：4条gap问题全部是通用榜单式（"5种图案实例""10种图案类型"等），更像家居/设计领域泛用问法，与本文聚焦的艺术史案例（Darb-i Imam准晶镶嵌、Strawberry Thief等）不符，跳过。
+- `the-death-of-socrates`：唯一gap问题"苏格拉底之死的故事背景"已被现有FAQ（死因/画作信息/柏拉图是否在场/最后遗言）实质覆盖大部分叙事要素，跳过。
+
+**核实方式**：全部用WebSearch核实（未使用WebFetch，遵守环境红线）。关键核实点：Sagrada Família UNESCO 2005年以criterion(i)将Nativity Façade和crypt列入世界遗产、引文原文；famous-mexican-artists新增的Rufino Tamayo/María Izquierdo/Remedios Varo三位艺术家生平核心事实（生年、籍贯、与Los Tres Grandes的关系）；famous-paintings/famous-renaissance-paintings/famous-landscape-paintings三篇"最著名"类问题WebSearch确认无官方权威排名，采用本站已有的固定句式"No museum or academic body/survey keeps an official ranking, but X is most often..."保持全站一致语气，所列具体画作/机构/年代均逐条核实非编造。
+
+**⚠️ 强制质量门槛执行记录（本次踩坑与修复过程如实记录）**：
+
+1. **技术事故（已修复，不影响最终commit）**：首次用脚本批量插入FAQ时，因guides.ts文件里`faq`数组的收尾格式在不同文章间不统一（部分是`      }\n],`即4空格前无缩进直接跟在最后一条FAQ后，部分是`      }\n    ],`标准4空格缩进），用固定缩进正则定位插入点导致5篇全部插入到了`sources`数组末尾而非`faq`数组末尾（`git diff`当场发现，此时尚未commit）。改用括号深度计数法+找最后一个`}`的方式重新定位，验证`git diff`确认全部插入到正确的`faq`数组内后才继续。此事故与R-scripts.md"巡检脚本格式不统一"教训同源，记录供后续同类脚本参考。
+2. **发现新增FAQ与正文逐字重合，已改写至清零**：`check_prose_patterns.py --guides --slug`对5篇文章分别在改动前（baseline，用`git show HEAD`取原始版本单独跑）和改动后各跑一遍比较——这是`paa_gap.py`脚本头部注明的"判断是否本次改动引入"的标准方法，不能只看改动后是否为0（这5篇文章在本次编辑前就已因该站尚未回溯清理的存量债务而无法达到退出码0，纯粹exit code判断法在这种场景下无法工作）。首次插入后对比发现本次新增FAQ确实引入了6处新的"FAQ与正文≥20字符逐字重合"（famous-paintings因提及"Girl with a Pearl Earring"与正文重合、sagrada-familia因"the Nativity Façade and"语序重合、famous-mexican-artists因"Los Tres Grandes and"语序重合、famous-landscape-paintings因"famous landscape painting"与文章标题重合、famous-renaissance-paintings因"Leonardo da Vinci's"和"Arnolfini Portrait"两处重合各出现一次），逐条改写用词（换用词、调整语序、替换成正文未提及的画作如Manet's Olympia/Titian's Venus of Urbino）后重新逐一验证，5篇最终新增FAQ引入的新增重合数**全部归零**（改动前后重合总数完全一致：famous-paintings 5→5、sagrada-familia 7→7、famous-mexican-artists 6→6、famous-landscape-paintings 7→7、famous-renaissance-paintings 7→7）。
+3. **诚实披露：5篇文章仍未达到脚本整体退出码0**，原因是这5篇文章本身携带该脚本2026-08-30上线前的存量债务（`'s own`归因重复超阈值、`rather than/instead of`密度超阈值、图片credit里的连字符被判定为叙事性短横线、以及本次新增之外的历史FAQ重合项），这些问题与本次"只新增FAQ"的改动无关，按`独立站/内容通用教训库.md`R-publishing.md"新增质量门槛必须排期存量回溯，不能要求新规则倒查清零存量才能生效"的既定原则，不在本任务范围内修复（该债务已知，属于`matrix-prose-gate-backfill`一类的存量回溯范畴，非本次改动引入，未被隐瞒或静默忽略）。
+
+**Git**：单次commit（5篇6条FAQ，规模适中未分批），`git pull --rebase origin main`确认无冲突（无并发改动），commit `24c11d9`，push成功。
+
+**Build**：`npm run build` 0 error，88页全部构建成功。
+
+**线上抽查**：见下方。
+
+抽查5篇中的2篇（sagrada-familia、famous-mexican-artists）绕缓存curl，均200且新增FAQ问题文本已在线上HTML中命中，确认部署已生效；其余3篇（famous-paintings、famous-landscape-paintings、famous-renaissance-paintings）绕缓存curl均200（Cloudflare Pages部署通常在push后数分钟内生效，未逐篇抓取HTML内容核对文本，不代表未生效）。
