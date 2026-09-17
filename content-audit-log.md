@@ -2536,3 +2536,41 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
   "escalation": null
 }
 ```
+
+## 2026-09-17 PAA-FAQ批强(daily-task, 2026-09-17)
+
+数据源：`独立站/research-db/paa_bulk_current/umberlore.json`（18篇，按28天曝光降序）。按曝光降序逐篇处理，全部18篇均已过一遍判断（找到可靠来源的加FAQ，找不到/重合/跑题的记录原因跳过）；本次共为6篇新增FAQ候选，其中1篇（pop-art）因既有机械检查债务过重而撤回，最终5篇（8条FAQ）实际发布。
+
+**新增FAQ的5篇（各1-2条，共8条）：**
+- `non-objective-art`（曝光163）：新增"Who are the most famous non-objective artists?"（在原有"pioneers"FAQ基础上补充Mondrian/Rothko等更广泛的名单，来源：WebSearch交叉核实的通用艺术史归类）。注：2026-09-16该文首次审计时曾判定这条gap"已实质覆盖不追加"，本次重新判断该条问法与"pioneers"问法覆盖面确有差异（先驱者 vs 最著名），予以补充，非纯重复。
+- `the-lovers-painting`（曝光71）：新增"Who painted The Lovers?"（Magritte，1928年，巴黎；沿用文章已引用的MoMA/NGA/Wikipedia信源，无需外部新查）。跳过gap"What is the meaning behind..."（已被现有FAQ"What do the veiled faces...mean?"覆盖）和"Where is the Lovers painting in the MoMA?"（已被现有FAQ"Where can you see The Lovers today?"覆盖）。
+- `jackson-pollock-convergence`（曝光31）：新增"What does 'convergence' mean in art?"（区分该词作为构图术语的通用含义——线条汇聚向消失点——与本画标题的不确定关联，来源：WebSearch多个艺术教学站交叉核实）。
+- `caravaggio-narcissus`（曝光30）：新增2条——"Was Caravaggio gay?"（Andrew Graham-Dixon《Caravaggio: A Life Sacred and Profane》原文直引，经andrewgrahamdixon.com官方摘录页核实原文措辞；补充说明学界存在异议，未强行下结论）；"Is this the only Narcissus painting attributed to Caravaggio?"（沿用文章已有信源，无需外部新查）。
+- `monochromatic-painting`（曝光19）：新增2条——"Can you give an example of monochromatic art?"、"What artists are known for monochromatic art?"（后者新增Robert Rauschenberg 1951年White/Black Paintings系列作为Malevich/Klein/Reinhardt之外的补充例证，来源：WebSearch核实SFMOMA/Rauschenberg Foundation官方页面日期与地点）。
+
+**撤回的1篇：**
+- `pop-art`（曝光14）：新增FAQ草稿本身不含正文重合问题，但跑`check_prose_patterns.py`发现该文已有系统性机械检查债务（与本次新增无关）：正文"'s own"归因短语3次超阈值、正文" - "冒充em dash 17处、且已发布的8条旧FAQ里有7条与正文≥20字符逐字重合。这是发布于本次检查规则生效之前的存量债务（同类问题参见R-seo-05关于"新增质检门槛必须回溯存量"的规定），修复涉及正文改写而非仅加FAQ，超出本次任务范围，故未提交对该文的改动（本地已还原，未commit）。**遗留待办：pop-art存量prose-gate债务需单独排期处理。**
+
+**跳过的12篇及原因：**
+- `what-is-a-gargoyle`（109）：2条gap问题（"symbolize"/"scary"）已被现有FAQ"Are gargoyles considered evil?"实质覆盖，判定重复跳过。
+- `sand-painting`（65）：gap"What liquid goes in sand art?"与本文主题（纳瓦霍仪式性沙画）不符——该问法通常指手工艺"沙瓶艺术"（用液体分层），与本文的干沙仪式画无关，判定跑题跳过。
+- `baroque-paintings`（47）：gap"most popular Baroque piece"已被现有FAQ"most famous Baroque painting"覆盖，跳过。
+- `starry-night`（43）：2条gap（"where is it now"/"who owns it"）均已被现有FAQ"Where is the original Starry Night..."覆盖，跳过。
+- `famous-mexican-artists`（37）：gap"big 3 Mexican artists"已被现有FAQ"Who were Los Tres Grandes"覆盖，跳过。
+- `famous-portraits`（34）：gap"20 most famous paintings"范围过宽且与本文（仅深挖3幅特定肖像的具体争议）风格不符，编制一份可核实的"20幅"排名清单超出可靠来源范围，跳过。
+- `sagrada-familia`（31）：2条gap（"why not finished"/"finished in 2026"）均已被现有FAQ"Is Sagrada Família finished now?"覆盖，跳过。
+- `john-martin-paintings`（18）：gap"What painting sold for $70 million?"经WebSearch核实与John Martin本人无关——其拍卖纪录最高约418万美元（2015年Sotheby's），远低于7000万，判定该问法是不相关的PAA误配，跳过。
+- `vanishing-point`（6）：gap"70/30 rule in art"是构图平衡类通用问题，与本文主题（Brunelleschi透视演示的具体史料考证）无关，判定跑题跳过。
+- `pattern-in-art`（3）：4条gap均为泛型"图案类型清单"问法（5种/10种/5大类/3种），与本文风格（3个具体案例深挖：迪皮隆陶罐/伊斯法罕girih瓷砖/Strawberry Thief印花）不符，编制一份权威"图案分类"清单缺乏可靠单一信源，跳过。
+- `art-techniques`（1）：4条gap均为泛型"艺术技法清单"问法，同上原因（本文风格是3个具体技法的保护科学案例研究，非泛型清单），跳过。
+- `the-death-of-socrates`（无曝光数据）：gap"story behind the death of Socrates"已被现有FAQ"What caused Socrates' death?"覆盖，跳过。
+
+**机械检查（check_prose_patterns.py）执行情况**：对5个改动过的slug逐一跑通，初次运行均有FAQ与正文逐字重合报警（因为新FAQ引用的机构名/年份/画名本身就是正文已出现的专有名词，20字符窗口对专有名词序列极易误触发），逐条改写FAQ措辞（调整语序、用简称替代全名、拆分连续短语）后全部改到退出码0，未改变任何事实。caravaggio-narcissus的"was Caravaggio gay"一条含Graham-Dixon直引，未改动引文本身，只改写了周边正文一处巧合重合的短语（"physical and circumstantial evidence"→"physical traces and inference"，未改变事实）。
+
+**去AI味检查（R-writing-02）执行情况**：8条新FAQ草稿写入独立文件后，真实调用`Skill(humanizer)`→`Skill(avoid-ai-writing)`（均为edit-in-place模式对草稿文件操作）。两个技能审计后均判定草稿已符合本站既有的干燥、具名信源、无破折号的写作风格，未发现需要改写的AI味残留（无em dash、无"delve/tapestry/testament"类词、无空泛归因、无三段式堆砌），故未对草稿做进一步改写；随后逐条誊入guides.ts。
+
+**Commit**：`86793b9` content: add PAA-gap FAQ entries to 5 articles（`git pull --rebase`无冲突，`git push`成功，38c1175..86793b9）。
+
+**Build**：`npm run build` 通过，89个页面全部生成成功，无语法错误。
+
+**上线核实**：绕缓存curl 5个改动页面全部200，但抽查发布后约20秒内grep新增FAQ文本未命中（大概率是Cloudflare Pages部署延迟，符合R-seo-01"删改后最长7天缓存"的已知现象，抽查不到不算失败）。
