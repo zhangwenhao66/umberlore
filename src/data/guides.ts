@@ -7170,6 +7170,10 @@ export const guides: Guide[] = [
       {
         "question": "Can you give an example of non-objective art?",
         "answer": "The style's most cited founding example is Black Square, the 1915 canvas Kazimir Malevich painted as a plain black square on white with nothing recognizable underneath it. Works by Kandinsky from the same era and Piet Mondrian's grid paintings are also standard textbook examples."
+      },
+      {
+        "question": "Who are the most famous non-objective artists?",
+        "answer": "The trio Tate names as pioneers, covered above, answers who started the movement rather than who is most widely recognized today. Broader surveys of abstraction with no legible subject matter generally add Piet Mondrian, whose grid-based canvases pushed that same logic in a different geometric direction, and Mark Rothko, whose large color-field paintings are commonly grouped under the same non-objective label in general use. LeWitt and Judd, already noted above for extending the idea into minimal art, round out the names that turn up most often in these surveys."
       }
     ],
     "sources": [
@@ -7514,6 +7518,14 @@ export const guides: Guide[] = [
       {
         "question": "Why are Reinhardt's black paintings so hard to conserve?",
         "answer": "The paint layer he used is thin on binder and heavy on raw pigment, which leaves it vulnerable to fingerprints, burnishing, and cracking as a canvas ages or gets moved between venues. Some copies held by major museums have visible signs of past touch-ups. Reinhardt also insisted the works be viewed only in soft, indirect, late-in-the-day light, never anything bright or dramatic."
+      },
+      {
+        "question": "Can you give an example of monochromatic art?",
+        "answer": "Three well-documented examples run through this page: the Black Square Kazimir Malevich painted in 1915, now the founding icon of Suprematism, still hanging in Moscow; Yves Klein's IKB paintings from around 1960, built on the ultramarine-and-resin formula he registered with a Soleau envelope; and the nine tonally distinct squares making up Ad Reinhardt's 1960s black canvases, which read as a single flat black once a viewer steps back."
+      },
+      {
+        "question": "What artists are known for monochromatic art?",
+        "answer": "Malevich, Klein, and Reinhardt, covered above, are the three this page goes into depth on, but the practice goes back further and reaches past them. Robert Rauschenberg's all-white and all-black canvases, shown at New York's Stable Gallery in 1953, predate Klein's blue monochromes by the better part of a decade, and both the Museum of Modern Art and SFMOMA now hold examples from that series."
       }
     ],
     "sources": [
@@ -7880,6 +7892,10 @@ export const guides: Guide[] = [
       {
         "question": "What is Jackson Pollock's style of painting called?",
         "answer": "Drip painting, sometimes called action painting: a technique built around pouring or flinging paint onto a canvas laid on the floor rather than applying it with a brush to an easel-mounted surface. Pollock developed the method around 1947, and Convergence, from 1952, is a later example painted after a full year in which he had set the technique aside to work in black enamel instead of color."
+      },
+      {
+        "question": "What does \"convergence\" mean in art?",
+        "answer": "Outside this specific painting, convergence is a general compositional term for lines or shapes that appear to draw together toward a single point, the same principle behind a vanishing point in linear perspective, used to pull a viewer's eye toward one part of a composition. Pollock's all-over drip method doesn't use that literal device: there's no perspective system in the painting for anything to converge along. Nothing in the sources consulted for this piece confirms whether the title was meant to invoke that formal sense of the word, or something looser, like separate paintings or paint layers coming together on one canvas."
       }
     ],
     "sources": [
@@ -8365,6 +8381,10 @@ export const guides: Guide[] = [
         "question": "What is the saddest painting of all time?",
         "answer": "No museum or scholarly body keeps an official ranking of \"saddest painting,\" and critics land on different answers. Works that come up most often include Van Gogh's Sorrowing Old Man (\"At Eternity's Gate\"), Picasso's The Old Guitarist, and John Everett Millais's [Ophelia](/ophelia-millais/). The veiled kiss discussed on this page doesn't usually make that particular list, since its central feeling reads more as estrangement or isolation than outright grief, but it's still one of the images people reach for when the subject of quietly unsettling paintings comes up."
       },
+      {
+        "question": "Who painted The Lovers?",
+        "answer": "Belgian Surrealist Rene Magritte, who made both museum versions, the face-to-face canvas at MoMA and the forward-facing canvas at Australia's national gallery in Canberra, working in Paris during 1928. Two more paintings using the same veiled-kiss motif followed from his own hand that year, labeled III and IV in later catalogs, both still privately owned and seldom put on public view."
+      },
 ],
     "sources": [
       {
@@ -8636,7 +8656,7 @@ export const guides: Guide[] = [
         "heading": "A find in a colleague's collection",
         "body": [
           "Roberto Longhi, the historian most responsible for pulling Caravaggio's reputation out of three centuries of neglect, first saw this painting in 1913, in Milan, in the private collection of a fellow scholar, Paolo D'Ancona. D'Ancona had inherited it from a Florentine banker great-uncle, Laudadio della Ripa, who is recorded as having bought a group of paintings from the Giordani, a noble family from Pesaro, sometime in the first half of the 19th century. Nothing in that chain of ownership mentions Caravaggio by name. Three years after seeing the canvas, in 1916, Longhi published an article titled Gentileschi padre e figlia and named it an autograph work by Michelangelo Merisi da Caravaggio anyway, later calling it one of the painter's most personal inventions.",
-          "The attribution held up reasonably well for most of the 20th century. Scholars including Baroni, Bernard Berenson, Bottari, Mia Cinotti, and, until 1989, Mina Gregori signed onto Longhi's reading at various points, alongside Maurizio Marini and Rossella Vodret, who went on to do the deepest archival digging in its defense. Basile Khwoschinski bought the painting soon after Longhi's discovery and, in 1916, the same year Longhi's article appeared, donated it to what is now the Galleria Nazionale d'Arte Antica at Palazzo Barberini in Rome, where it still hangs. That is a fast route from a private Milanese apartment to a national collection, and it happened almost entirely on the strength of one historian's eye. No contract, inventory entry, or contemporary letter naming a Caravaggio Narcissus survives from the 1590s, the decade most Caravaggio partisans place the painting in. Whatever case exists for his authorship has to be built after the fact, out of physical and circumstantial evidence, not paperwork from the artist's own lifetime."
+          "The attribution held up reasonably well for most of the 20th century. Scholars including Baroni, Bernard Berenson, Bottari, Mia Cinotti, and, until 1989, Mina Gregori signed onto Longhi's reading at various points, alongside Maurizio Marini and Rossella Vodret, who went on to do the deepest archival digging in its defense. Basile Khwoschinski bought the painting soon after Longhi's discovery and, in 1916, the same year Longhi's article appeared, donated it to what is now the Galleria Nazionale d'Arte Antica at Palazzo Barberini in Rome, where it still hangs. That is a fast route from a private Milanese apartment to a national collection, and it happened almost entirely on the strength of one historian's eye. No contract, inventory entry, or contemporary letter naming a Caravaggio Narcissus survives from the 1590s, the decade most Caravaggio partisans place the painting in. Whatever case exists for his authorship has to be built after the fact, out of physical traces and inference, not paperwork from the artist's own lifetime."
         ]
       },
       {
@@ -8694,6 +8714,14 @@ export const guides: Guide[] = [
       {
         "question": "What did the 1995 X-ray restoration find?",
         "answer": "Nothing sketched underneath the paint layer, which fits how Caravaggio is known to have worked in several other canvases, along with one scored guideline and a handful of small mid-process revisions, a knee moved, a profile adjusted, a hand that started out fully submerged and was later raised above the water's edge. None of it ended the debate, since one of the conservators who studied the results argued the paint handling actually pointed away from Caravaggio."
+      },
+      {
+        "question": "Was Caravaggio gay?",
+        "answer": "Historians don't agree, and no document settles it either way. Andrew Graham-Dixon, in his 2010 biography of the painter, writes that \"there is no absolute proof of it, only strong circumstantial evidence and much rumour,\" adding that Caravaggio \"likely slept with men\" and \"did sleep with women\" but \"settled with no one.\" Some of his early paintings for Cardinal del Monte, including Concert of Youths and The Lute Player, are commonly read as homoerotic, though other historians have argued the surviving evidence for a male lover is thin and that Caravaggio had documented relationships with women as well. Narcissus doesn't factor into that specific debate in the sources checked for this piece; the authorship dispute above turns on paint layers and physiognomy, not on Caravaggio's biography."
+      },
+      {
+        "question": "Is this the only Narcissus painting attributed to Caravaggio?",
+        "answer": "As far as the documented record shows, yes. No inventory, contract, or early biography describes a second Narcissus credited to Caravaggio, and the export license Marini found, dated 1645, for a matching-size version doesn't nail down which canvas it actually names, this one or some other, lost picture. If the Spadarino attribution is correct instead, there's no authentic Narcissus painted by Caravaggio at all, only Spadarino's."
       }
     ],
     "sources": [
