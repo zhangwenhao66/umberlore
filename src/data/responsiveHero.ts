@@ -119,6 +119,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/famous-renaissance-paintings-adoration-magi-sm.jpg",
   "w": 750
  },
+ "/images/fresco-prince-of-the-lilies-knossos.jpg": {
+  "h": 1126,
+  "mobile": "/images/responsive/fresco-prince-of-the-lilies-knossos-sm.jpg",
+  "w": 750
+ },
  "/images/frida-kahlo-portrait-1919.jpg": {
   "h": 961,
   "mobile": "/images/responsive/frida-kahlo-portrait-1919-sm.jpg",

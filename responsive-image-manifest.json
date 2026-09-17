@@ -567,5 +567,14 @@
    "h": 504
   },
   "desktop_rel": "/images/prussian-blue-hokusai-great-wave.jpg"
+ },
+ "/images/fresco-prince-of-the-lilies-knossos.jpg": {
+  "fingerprint": "1789620384047769972:388658:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/fresco-prince-of-the-lilies-knossos-sm.jpg",
+   "w": 750,
+   "h": 1126
+  },
+  "desktop_rel": "/images/fresco-prince-of-the-lilies-knossos.jpg"
  }
 }

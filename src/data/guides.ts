@@ -8802,7 +8802,7 @@ export const guides: Guide[] = [
         "heading": "The word itself is three centuries younger than the trick",
         "body": [
           "Alberti's \"centric point\" isn't the phrase used today. \"Vanishing point,\" the English term, entered print only in 1715, when the mathematician Brook Taylor published Linear Perspective: Or, a New Method of Representing Justly All Manner of Objects as They Appear to the Eye in All Situations, the first English-language book to work out the full geometry of perspective using more than one vanishing point at a time. Depending on which proposed date for Brunelleschi's panels you accept, something like three centuries separate the demonstration from the English words now used to describe it.",
-          "Long after both demonstration panels vanished, the underlying technique kept going. Masaccio's Holy Trinity fresco, painted in Santa Maria Novella between 1425 and 1428, applies a single vanishing point to a coffered barrel vault receding behind the figures, positioned low enough that a viewer standing in the nave gets something close to what Brunelleschi's Baptistery panel was built to prove: a flat wall behaving like an opening cut through stone. Masaccio died in 1428, and the fresco remains on the same wall he painted it on, still visible today, while the two panels that likely taught him the underlying geometry have not survived in any form. A plainer studio version of the same trick turns up again more than two centuries later in Vermeer's workshop, where, on one contested reading of the physical evidence, a [pin driven into the canvas at the vanishing point, tied to a chalked string, may have been enough to lay out straight perspective lines by hand](/the-milkmaid-vermeer/), skipping any mirror or lens.",
+          "Long after both demonstration panels vanished, the underlying technique kept going. Masaccio's Holy Trinity fresco, painted in Santa Maria Novella between 1425 and 1428, applies a single vanishing point to a coffered barrel vault receding behind the figures, positioned low enough that a viewer standing in the nave gets something close to what Brunelleschi's Baptistery panel was built to prove: a flat wall behaving like an opening cut through stone. Masaccio died in 1428, and the fresco remains on the same wall he painted it on, still visible today because [true fresco bonds pigment chemically into wet plaster as it cures](/fresco-painting/), while the two panels that likely taught him the underlying geometry have not survived in any form. A plainer studio version of the same trick turns up again more than two centuries later in Vermeer's workshop, where, on one contested reading of the physical evidence, a [pin driven into the canvas at the vanishing point, tied to a chalked string, may have been enough to lay out straight perspective lines by hand](/the-milkmaid-vermeer/), skipping any mirror or lens.",
           "The one-point system held its position as the default way of building spatial illusion in Western painting for well over four centuries, refined by Piero della Francesca, absorbed into Leonardo da Vinci's writing on painting, and passed down through drawing manuals until artists in the late 19th century began deliberately working against it. American art classrooms eventually folded that same underlying problem, how to depict depth on a flat surface, into \"space,\" one entry on the seven-item checklist of [elements of art](/elements-of-art/) now standard in textbooks, a vocabulary that itself only crystallized into that exact seven-word list generations after Dow's own, differently organized 1899 classroom system. Gaetano Milanesi, the archivist behind Manetti's disputed 1887 attribution, made a more definitive correction elsewhere in Renaissance art history: burial records he tracked down are what finally disproved [Giorgio Vasari's fabricated murder confession involving Andrea del Castagno](/renaissance-art/), a reminder of how much inherited art history still traces back to writers working well after the events they describe."
         ]
       }
@@ -9292,6 +9292,127 @@ export const guides: Guide[] = [
       {
         "label": "Wikimedia Commons: File:Pigment Berliner Blau.JPG",
         "url": "https://commons.wikimedia.org/wiki/File:Pigment_Berliner_Blau.JPG"
+      }
+    ]
+  },
+
+  {
+    "slug": "fresco-painting",
+    "category": "Technique",
+    "title": "Fresco Painting: How Much of Knossos Is Original",
+    "description": "A restorer rebuilt Crete's most famous fresco from nine mismatched fragments in 1905. A century later, specialists still argue the pieces may not be the same person.",
+    "published": "2026-09-17",
+    "updated": "2026-09-17",
+    "coreSummary": "Fresco painting bonds pigment permanently into a wall through a real chemical reaction: calcium hydroxide in wet lime plaster converts to calcium carbonate as the plaster cures, locking color into the surface rather than sitting on top of it. That distinction matters more than most visitors realize, because the most reproduced Bronze Age fresco anywhere, the Prince of the Lilies at Knossos, is a composite the restorer Émile Gilliéron assembled from roughly nine separated fragments in 1905, and Wikipedia's summary of the scholarship notes specialists still argue the crown, torso and legs may not belong to the same figure at all, a dispute a 2024 study in the Annual of the British School at Athens narrowed but did not fully close. A 2017 re-examination of the Throne Room's griffins found a related problem: the version on display doesn't match the excavated fragments, and may never have had wings.",
+    "image": "/images/fresco-prince-of-the-lilies-knossos.jpg",
+    "imageAlt": "The Prince of the Lilies fresco from the palace of Knossos, a composite reconstruction assembled from separated fragments, now in the Archaeological Museum of Heraklion.",
+    "imageCredit": "[Prince of the Lilies, Minoan fresco from Knossos](https://commons.wikimedia.org/wiki/File:Prince_of_the_Lilies,_Minoan_fresco_from_Knossos,_1550_BC,_AMH,_145372.jpg), photo by Zde, CC BY-SA 4.0",
+    "sections": [
+      {
+        "heading": "What actually happens when a fresco dries",
+        "body": [
+          "True fresco, called *buon fresco* in Italian, is painted with pigment ground in water and applied directly onto a thin top layer of wet lime plaster called *intonaco*. As that plaster sets, the calcium hydroxide inside it reacts with carbon dioxide from the surrounding air and converts into calcium carbonate, a chemical change that locks the pigment inside a hardened crystalline surface, not left sitting on top the way oil paint would be. A University of Southern California engineering write-up on the process describes the plaster layer as porous enough for that carbon dioxide to diffuse in and react with the dissolved lime, effectively growing a durable stone surface around the pigment as it cures.",
+          "That same chemistry sets a hard deadline. Once the plaster stops absorbing water, it stops absorbing pigment too, so a painter has to finish an entire section, called a *giornata*, in a single working day, with no way to blend or revise once it sets. [Michelangelo's crew on the Sistine Chapel ceiling](/michelangelo-sistine-chapel/) learned this the difficult way in 1508, when a lime-and-pozzolana plaster mix stayed wet too long in Rome's damp air and grew mold across an entire finished section before it could cure, forcing the team to scrape the plaster back and start over with a standard lime-and-sand mix.",
+          "Because the bond is chemical, not just visual, a genuine fresco surface and later paint added on top of it after the plaster has already cured age differently and can, in principle, be told apart. That distinction turns out to matter more than most visitors to the ancient world's most reproduced frescoes realize, because several of Bronze Age Crete's signature images were extensively completed by restorers, not simply recovered whole, some within a few years of excavation and one only decades later, all working for the same excavator."
+        ]
+      },
+      {
+        "heading": "The most reproduced Minoan fresco is a modern collage",
+        "body": [
+          "The image most people picture when they hear \"Minoan fresco\" is the Prince of the Lilies: a slim, muscular figure crowned with lilies and peacock feathers, striding through a garden with one hand on his chest, usually captioned as a Knossos priest-king from around 1500 BC. It is reproduced on postcards, book covers and museum posters well beyond its home in the Archaeological Museum of Heraklion. The fragments were excavated by Arthur Evans's team at the palace of Knossos in the early 1900s, and the crown, the torso and the legs turned up apart from one another in different parts of the site.",
+          "The striding, unified prince now on display was assembled from roughly nine separate pieces in 1905 by the Swiss restorer Émile Gilliéron (1850-1924), working for Evans. His son, Émile Gilliéron fils (1885-1939), later made a second copy of the finished composition in 1926 for display elsewhere in the reconstructed palace. Wikipedia's summary of the scholarship notes that many specialists argue the crown, the torso and the legs probably came from different paintings, and possibly from different figures entirely, not the single striding prince Evans's team put together. A 2024 paper in the Annual of the British School at Athens by Ute Günkel-Maschek of Heidelberg University took up one specific piece of that dispute, a rival theory that the torso fragment, formally catalogued as the \"male torso with the lily collar,\" actually belonged to a right-facing boxer or deity rather than the traditional left-facing striding man. Comparing the necklace on the torso with how similar jewelry appears in other Minoan images, Günkel-Maschek's analysis sided with Evans's original orientation, concluding the traditional reading should \"regain its central place\" in Minoan art, not lose ground to the boxer theory. The 45-year-old argument over which way this one torso faces remains a live scholarly debate; the 2024 paper only closes one round of it.",
+          "The garden motifs, the crown and the muscular torso are all real ancient paint on real ancient plaster. Joining them into one striding person was an editorial decision Gilliéron made in 1905, not something anyone dug out of the ground fully formed, and which way that person is facing is still being argued over in academic journals more than a century later."
+        ]
+      },
+      {
+        "heading": "The women in blue never had faces to begin with",
+        "body": [
+          "The Ladies in Blue fresco, showing women in elaborate hairstyles and jewelry against a blue ground, has a more literal version of the same problem: none of the original heads survived at all. Whatever the missing heads actually looked like, the faces visitors see today were supplied by Gilliéron fils from his own imagination, following the same method used on the Prince of the Lilies, take a handful of fragments believed to belong to the same scene and complete whatever is missing by eye.",
+          "The bull-leaping fresco, often called the Toreador Fresco and reproduced just as widely, has a different kind of gap: not in what survives, but in how many scenes the surviving pieces actually show. Evans and Gilliéron combined the largest fragments from at least seven separate painted panels into the single composition now displayed, one charging bull and three human figures. The archaeologist Mark Cameron later proposed a different reading of the same fragments: four similar but separate bull-leaping compositions, each with its own bull and its own trio of figures, repeated across the wall, not one continuous scene shown once."
+        ]
+      },
+      {
+        "heading": "The griffins on display don't match what was found",
+        "body": [
+          "The griffin fresco flanking the alabaster seat in the Throne Room, unearthed by Evans in 1900 and long read as evidence that whoever sat there ruled beside two mythic guardian beasts, has its own documented mismatch. The griffins on the wall today were restored by the Gilliérons in 1913 and again in 1930, and for more than eighty years, that reconstruction was the closest thing anyone had to a primary source for what the original composition looked like.",
+          "In 2017, Yannis Galanakis, Efi Tsitsa and Ute Günkel-Maschek published a systematic re-examination in the Annual of the British School at Athens, working from archival material held at the Ashmolean Museum in Oxford alongside the surviving fragments in Heraklion. Their finding was that the version on the wall bears little resemblance to what was actually excavated: the best-preserved griffin fragment does not carry the curling neck plumes shown in Gilliéron's drawing and copied onto the wall, even though Evans had described those plumes in his own notes based on that drawing, not on the fragment underneath it. The team proposed a different original composition altogether: two overlapping griffins with no wings at all, set among papyrus plants, not the heraldic winged pair now framing the throne in every photograph."
+        ]
+      },
+      {
+        "heading": "Why the Gilliérons did this, and what it doesn't mean",
+        "body": [
+          "None of this makes Evans a forger in the ordinary sense. He funded much of the Knossos excavation and its restoration from his own family fortune, which meant no outside board was checking how much license his restorers took, and early 20th-century archaeology had no shared professional standard yet for how much a restorer could add before a reconstruction stopped documenting a find and started arguing for what the excavator already believed had been there. It is a different problem from what happened to [Romanesque frescoes stripped from Catalan churches](/romanesque-painting/) in the same general period, where the fight was over who got to remove a fresco from a wall, not over what got painted back onto it.",
+          "None of this touches the archaeology of the palace itself. The room layout, the storage magazines, the drainage system and the Linear B tablets are excavated structure and inscribed clay, not painted plaster, and none of it depends on anything the Gilliérons drew. What is in question is specifically the painted surface of a handful of famous frescoes, reassembled and completed by two artists working from fragments, their own training in illustration, and Evans's confidence that he already knew what Minoan Crete had looked like.",
+          "Museum conservation today runs on the opposite premise: additions are supposed to be reversible and visually distinguishable from the original material, precisely so a later scholar with better evidence, or a better archive search, can undo them without having to guess what the fragment underneath actually showed. The 2024 study of the Prince of the Lilies and the 2017 study of the Throne Room griffins are what that later evidence looks like, arriving about a century after the plaster first set."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the difference between a fresco and a mural?",
+        "answer": "A mural is any large painting applied directly to a wall or ceiling, whatever the method. Fresco specifically means pigment applied to wet lime plaster so the color bonds chemically into the wall as it cures. Every fresco is a mural, but most modern murals are painted onto dry plaster or another surface with a different binder, so they are not frescoes in the technical sense."
+      },
+      {
+        "question": "Is fresco painting difficult?",
+        "answer": "Yes, largely because of the deadline the wet-plaster chemistry imposes. Color stops bonding once the lime finishes curing, so there is no room afterward to blend tones or paint over an error; a flawed passage typically has to be chiseled out and re-plastered instead. Painting [the Vatican ceiling now known worldwide as Michelangelo's Sistine Chapel](/michelangelo-sistine-chapel/) cost his team an entire completed stretch of work when a faulty lime batch stayed damp long enough for mold to take hold."
+      },
+      {
+        "question": "What is the most famous fresco?",
+        "answer": "The ceiling Michelangelo painted in Rome's Sistine Chapel is the answer most people give first, but Minoan wall paintings from Bronze Age Crete, especially the striding lily-crowned figure and the bull-leaping scene from Knossos, circulate just as widely as emblems of that civilization, even though restorers working a century ago rebuilt them far more heavily than most reproductions let on."
+      },
+      {
+        "question": "Is fresco a medium?",
+        "answer": "Yes. Fresco is a painting medium defined by its binder, the wet lime plaster the pigment is worked into, rather than by subject matter or scale. Art historians classify it alongside oil, tempera and encaustic as one of the standard binder-based painting categories."
+      },
+      {
+        "question": "How much of the Prince of the Lilies fresco is original?",
+        "answer": "The individual fragments are ancient: a crown, a torso and a pair of legs, all painted in the same Late Minoan style and excavated from the same part of the palace complex. What is not ancient is their assembly into one striding figure. Working for Evans in 1905, the Swiss illustrator Gilliéron joined those pieces into a single walking prince, and a number of researchers now doubt the crown and the torso came from the same body."
+      },
+      {
+        "question": "Did Arthur Evans fake the Knossos frescoes?",
+        "answer": "Most scholars stop short of calling it fraud. Evans paid for the restoration work himself, with no outside body reviewing how much his restorers invented, and the field had not yet drawn a firm boundary between recording what was found and supplying what was missing. What resulted is generally described today as heavy interpretive reconstruction, not forgery, and the record on any one fresco can cut either way: a 2017 paper found the griffin pair beside the throne diverges sharply from what was pulled out of the ground, while a 2024 paper on the lily-crowned figure's torso backed Evans on which way that figure faces, even as it left the separate question of whether the crown and torso belong together unresolved."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Fresco",
+        "url": "https://en.wikipedia.org/wiki/Fresco"
+      },
+      {
+        "label": "USC Viterbi Illumin Magazine, Engineering a Masterpiece: The Science of Fresco Painting",
+        "url": "https://illumin.usc.edu/engineering-a-masterpiece-the-science-of-fresco-painting/"
+      },
+      {
+        "label": "Wikipedia: Prince of the Lilies",
+        "url": "https://en.wikipedia.org/wiki/Prince_of_the_Lilies"
+      },
+      {
+        "label": "Ute Günkel-Maschek, \"The Lilies of the Prince: The Orientation and Gesture of the 'Male Torso with the Lily Collar' from Knossos,\" Annual of the British School at Athens 119 (2024): 249-282",
+        "url": "https://www.cambridge.org/core/journals/annual-of-the-british-school-at-athens/article/lilies-of-the-prince-the-orientation-and-gesture-of-the-male-torso-with-the-lily-collar-from-knossos/91EA73CFA2CDDA837B53666DCF8DECA2"
+      },
+      {
+        "label": "Wikipedia: Émile Gilliéron",
+        "url": "https://en.wikipedia.org/wiki/%C3%89mile_Gilli%C3%A9ron"
+      },
+      {
+        "label": "Royal Society of Chemistry, Restoration of Minoan Paintings: Imitation or Reproduction?",
+        "url": "https://edu.rsc.org/resources/restoration-of-minoan-paintings-imitation-or-reproduction/1640.article"
+      },
+      {
+        "label": "Wikipedia: Bull-Leaping Fresco",
+        "url": "https://en.wikipedia.org/wiki/Bull-Leaping_Fresco"
+      },
+      {
+        "label": "Yannis Galanakis, Efi Tsitsa and Ute Günkel-Maschek, \"The Power of Images: Re-Examining the Wall Paintings from the Throne Room at Knossos,\" Annual of the British School at Athens 112 (2017): 47-98",
+        "url": "https://www.cambridge.org/core/journals/annual-of-the-british-school-at-athens/article/power-of-images-reexamining-the-wall-paintings-from-the-throne-room-at-knossos/93E11F6E27E0265AE77C0FE050690090"
+      },
+      {
+        "label": "Wikipedia: Throne Room, Knossos",
+        "url": "https://en.wikipedia.org/wiki/Throne_Room,_Knossos"
+      },
+      {
+        "label": "Wikimedia Commons: File:Prince of the Lilies, Minoan fresco from Knossos, 1550 BC, AMH, 145372.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Prince_of_the_Lilies,_Minoan_fresco_from_Knossos,_1550_BC,_AMH,_145372.jpg"
       }
     ]
   }

@@ -471,6 +471,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1600,
   "w": 1038
  },
+ "/images/fresco-prince-of-the-lilies-knossos.avif": {
+  "h": 1600,
+  "w": 1066
+ },
+ "/images/fresco-prince-of-the-lilies-knossos.jpg": {
+  "h": 1600,
+  "w": 1066
+ },
+ "/images/fresco-prince-of-the-lilies-knossos.webp": {
+  "h": 1600,
+  "w": 1066
+ },
  "/images/frida-kahlo-portrait-1919.avif": {
   "h": 1230,
   "w": 960
@@ -1245,6 +1257,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/famous-renaissance-paintings-adoration-magi-sm.webp": {
   "h": 711,
+  "w": 750
+ },
+ "/images/responsive/fresco-prince-of-the-lilies-knossos-sm.avif": {
+  "h": 1126,
+  "w": 750
+ },
+ "/images/responsive/fresco-prince-of-the-lilies-knossos-sm.jpg": {
+  "h": 1126,
+  "w": 750
+ },
+ "/images/responsive/fresco-prince-of-the-lilies-knossos-sm.webp": {
+  "h": 1126,
   "w": 750
  },
  "/images/responsive/frida-kahlo-portrait-1919-sm.avif": {
