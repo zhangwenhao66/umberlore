@@ -954,7 +954,7 @@ export const guides: Guide[] = [
         "url": "https://www.belvedere.at/en/belvedere/provenance-research"
       },
       {
-        "label": "Belvedere: Gustav Klimt – Pigment & Pixel, 20 February to 7 September 2025",
+        "label": "Belvedere: Gustav Klimt, Pigment & Pixel, 20 February to 7 September 2025",
         "url": "https://www.belvedere.at/en/gustav-klimt-pigment-pixel"
       },
       {
@@ -1216,7 +1216,7 @@ export const guides: Guide[] = [
         "image": {
           "src": "/images/abstract-art-af-klint-ten-largest-no7.jpg",
           "alt": "Hilma af Klint's The Ten Largest, No. 7, Adulthood (1907), a monumental tempera-on-paper painting with spiralling abstract forms in orange, pink and blue, showing no recognisable figure or object.",
-          "credit": "[Hilma af Klint — The Ten Largest No. 7 — Adulthood — 1907](https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg), Moderna Museet, Stockholm, public domain"
+          "credit": "[Hilma af Klint, The Ten Largest No. 7, Adulthood, 1907](https://commons.wikimedia.org/wiki/File:Hilma_af_Klint_-_The_Ten_Largest_No._7_-_Adulthood_-_1907.jpg), Moderna Museet, Stockholm, public domain"
         }
       },
       {
@@ -2131,7 +2131,7 @@ export const guides: Guide[] = [
         "url": "https://www.dezeen.com/2026/06/16/colonia-guell-hanging-models-gaudi-centenary/"
       },
       {
-        "label": "Mental Floss: Gaudí's Accidental Death — Why the Great Architect Was Mistaken for a Beggar",
+        "label": "Mental Floss: Gaudí's Accidental Death, Why the Great Architect Was Mistaken for a Beggar",
         "url": "https://www.mentalfloss.com/article/72482/gaudis-accidental-death-why-great-architect-was-mistaken-beggar"
       },
       {
@@ -2250,7 +2250,7 @@ export const guides: Guide[] = [
     ],
     "sources": [
       {
-        "label": "Van Gogh Museum & Huygens ING: Letter 777, to Theo van Gogh (c. 31 May–6 June 1889)",
+        "label": "Van Gogh Museum & Huygens ING: Letter 777, to Theo van Gogh (c. 31 May-6 June 1889)",
         "url": "https://vangoghletters.org/vg/letters/let777/letter.html"
       },
       {
@@ -3273,7 +3273,7 @@ export const guides: Guide[] = [
         "url": "https://www.italianartsociety.org/2017/08/florentine-painter-andrea-di-bartolo-di-simone-known-as-andrea-del-castagno-died-suddenly-19-august-1457/"
       },
       {
-        "label": "TheCollector: The Word Renaissance — Meaning, History, and Cultural Impact",
+        "label": "TheCollector: The Word Renaissance, Meaning, History, and Cultural Impact",
         "url": "https://www.thecollector.com/what-does-the-word-renaissance-mean/"
       },
       {
@@ -4375,7 +4375,7 @@ export const guides: Guide[] = [
         "image": {
           "src": "/images/cloisonne-xuande-candlestick-lotus-met.jpg",
           "alt": "A turquoise cloisonné enamel candlestick with lotus scrolls, made in China in the late 14th or early 15th century, from the Metropolitan Museum of Art's collection.",
-          "credit": "[Candlestick with lotus scrolls](https://www.metmuseum.org/art/collection/search/40695), China, late 14th–early 15th century, Metropolitan Museum of Art, public domain"
+          "credit": "[Candlestick with lotus scrolls](https://www.metmuseum.org/art/collection/search/40695), China, late 14th-early 15th century, Metropolitan Museum of Art, public domain"
         }
       },
       {
@@ -7317,7 +7317,7 @@ export const guides: Guide[] = [
         "url": "https://paulsteinhardt.org/islamic-tilings/"
       },
       {
-        "label": "NIST: The Nobel Moment — Dan Shechtman",
+        "label": "NIST: The Nobel Moment, Dan Shechtman",
         "url": "https://www.nist.gov/nist-and-nobel/dan-shechtman/nobel-moment-dan-shechtman"
       },
       {
