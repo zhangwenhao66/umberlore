@@ -176,15 +176,15 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "What is the difference between a gargoyle and a grotesque?",
-        "answer": "A gargoyle carries water. It has a channel cut through the stone that takes rainwater from a roof gutter and discharges it clear of the wall, usually through the mouth. A grotesque is a carved figure with no such channel, so it is ornament only. Washington National Cathedral’s visitor guide draws the line the same way: gargoyles \"function as drain spouts that direct rain and melted snow away from the building\", while the exterior carvings that have no drain spout are called grotesques. A chimera is a grotesque of a particular kind, a hybrid creature assembled from parts of different animals or from human and animal parts."
+        "answer": "A gargoyle carries water. It has an opening carved through the stone that channels rainwater from a roof gutter and throws it clear of the wall, usually released through the mouth. A grotesque is a carved shape lacking that channel, so it is ornament only. Washington's National Cathedral draws the same distinction in its printed guide for visitors, reserving the term for figures that actually carry rain and meltwater off the roof, while the exterior carvings with no drain get the name grotesques instead. A chimera is a grotesque of a particular kind, a hybrid creature assembled from parts of different animals or from human and animal parts."
       },
       {
         "question": "Are the gargoyles on Notre-Dame de Paris medieval?",
-        "answer": "Mostly not. The best-known figures, the hybrid creatures along the gallery between the west towers, are chimeras added during the restoration run by Eugène Viollet-le-Duc and Jean-Baptiste-Antoine Lassus between 1843 and 1864, and they drain nothing at all. The genuine waterspouts, concentrated on the flying buttresses of the choir, are largely nineteenth-century replacements as well: Friends of Notre-Dame de Paris records that during that campaign \"many of the original gargoyles were replaced with new sculptures.\" The twelfth- and thirteenth-century originals had weathered badly."
+        "answer": "Mostly not. The best-known figures, the hybrid figures placed along the walkway linking the cathedral's two west towers, are chimeras added during Viollet-le-Duc's 1843-to-1864 restoration campaign, with collaborator Lassus, and they drain nothing at all. The genuine waterspouts, found mainly on the choir's flying buttresses, are largely 19th-century replacements as well: a cathedral preservation group notes that the same campaign swapped fresh carvings in for a large share of the medieval originals, which had weathered badly by then."
       },
       {
         "question": "Where does the word gargoyle come from?",
-        "answer": "From Old French, and originally from plumbing rather than mythology. The Trésor de la langue française records gargoule in 1294, in the building accounts of Saint-Lazare at Autun, meaning a conduit for water to run off through; gargouille follows at the end of 1313. It combines an onomatopoeic root garg-, imitating liquid moving through a throat, with Old French goule, the modern gueule, meaning throat or maw. English gargle and gurgle come from the same noise. The Rouen legend of a dragon called La Gargouille is first recorded in 1394, a century after the word was already in use for drainage, so the legend cannot be its source."
+        "answer": "From Old French, and originally from plumbing rather than mythology. The CNRTL's historical French dictionary traces gargoule to 1294, in fabric accounts from Autun's Saint-Lazare, meaning a channel built to carry water away, with gargouille appearing in the record by late 1313. It draws on a sound-imitating root, garg-, echoing the sound of liquid moving through a throat, with an Old French word for throat that survives in modern French as gueule. English gargle and gurgle come from the same noise. The Rouen legend, featuring a river dragon named La Gargouille, is first recorded in 1394, a century after the word was already in use for drainage, so the legend cannot be its source."
       },
       {
         "question": "Did gargoyles have a religious or protective purpose?",
@@ -192,15 +192,15 @@ export const guides: Guide[] = [
       },
       {
         "question": "Are gargoyles only found on Gothic buildings?",
-        "answer": "No. Carved waterspouts long predate Gothic architecture. Greek temples discharged roof water through lion-head spouts set into the sima, the upturned lip at the eaves. The Museum of Classical Archaeology in Cambridge describes one from Bassae of about 420 BC as \"a waterspout for throwing rainwater from the roof clear of the temple’s walls and columns\", and the J. Paul Getty Museum holds a South Italian terracotta version made between 425 and 400 BC. Egyptian and Roman builders used carved outlets too. Gothic masons inherited the device, extended its reach, and widened the range of creatures enormously."
+        "answer": "No. Carved waterspouts long predate Gothic architecture. Greek temples discharged roof water through lion-head spouts set into the sima, the raised edge running along the roofline. A Cambridge classical-archaeology museum describes one such spout from Bassae, roughly 420 BC, as a functioning outlet that carried rainwater away from the temple's walls and columns, and a similar South Italian terracotta spout, dated to the late fifth century BC, is held by the Getty Museum. Egyptian and Roman builders used carved outlets too. Gothic masons inherited the device, extended its reach, and widened the range of creatures enormously."
       },
       {
         "question": "Do gargoyles still work as drains today?",
-        "answer": "Many do, and on cathedrals they are still maintained as drainage rather than as sculpture. Where a channel has cracked, eroded, or silted up, water backs up over the parapet and runs down the wall face, which is the exact damage the spout was built to prevent, so blocked gargoyles are a routine item in fabric inspection reports. Depending on condition, conservators consolidate the original in place, take it down for storage and fit a carved copy, or install a plain lead spout where the carving is beyond honest replication."
+        "answer": "Many do, and on cathedrals they are still maintained as drainage rather than as sculpture. Where a channel has cracked, eroded, or silted up, water backs up over the parapet and runs down the wall face, which is the exact damage the spout was built to prevent, so blocked gargoyles are a routine item in fabric inspection reports. Depending on condition, conservators consolidate the original in place, take it down for storage and fit a carved copy, or fit a simple lead outlet where the carving is beyond honest replication."
       },
       {
         "question": "What is a chimera in architecture?",
-        "answer": "A chimera is a carved hybrid used as architectural ornament, a creature made from parts of different animals or combining animal and human features. In the Notre-Dame context the word refers specifically to the figures Viollet-le-Duc placed along the gallery linking the west towers in the 1850s, a stretch now known as the Galerie des Chimères. Chimeras are a subset of grotesques, and because they carry no water channel they are not gargoyles, however often they are called that."
+        "answer": "A chimera is a carved hybrid used as architectural ornament, a creature made from parts of different animals or combining animal and human features. In the Notre-Dame context the word refers specifically to the figures Viollet-le-Duc placed along the gallery linking the west towers in the 1850s, a stretch that has since taken its own French name for the group. Chimeras are a subset of grotesques, and because they carry no water channel they are not gargoyles, however often they are called that."
       },
       {
         "question": "Are gargoyles considered evil?",
@@ -208,7 +208,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Who is the most famous gargoyle?",
-        "answer": "Le Stryge, the horned, chin-in-hand figure perched on the gallery between Notre-Dame de Paris's towers. Architect Eugène Viollet-le-Duc added it during his 1850s restoration; strictly it's a chimera rather than a true gargoyle, since it carries no water spout, but it became the best-known figure of the group after printmaker Charles Méryon featured it in his 1853 etching, which he titled Le Stryge, French for a vampiric night creature."
+        "answer": "Le Stryge, the horned, chin-in-hand figure at the cathedral's west end, set where its two towers meet. Architect Viollet-le-Duc added it during his 1850s restoration; strictly it's a chimera rather than a true gargoyle, since it carries no water spout, but it became the best-known figure of the group after printmaker Charles Méryon featured it in his 1853 etching, which he titled Le Stryge, French for a vampiric night creature."
       }
     ],
     "sources": [
@@ -7961,7 +7961,7 @@ export const guides: Guide[] = [
         "image": {
           "src": "/images/petronella-oortman-dollhouse.jpg",
           "alt": "The dolls' house of Petronella Oortman, Amsterdam, c. 1686-1710, at the Rijksmuseum, whose miniature jug holder helped conservators identify a hidden object beneath the paint of The Milkmaid.",
-          "credit": "[Dolls' house of Petronella Oortman](https://commons.wikimedia.org/wiki/File:Dolls%E2%80%99_house_of_Petronella_Oortman.jpg), anonymous, c. 1686-1710, Rijksmuseum, public domain"
+          "credit": "[Dolls' house of Petronella Oortman](https://commons.wikimedia.org/wiki/File:Dolls%E2%80%99_house_of_Petronella_Oortman.jpg), anonymous, c. 1686-1710, Rijksmuseum, released under a free-use license (no attribution required)"
         }
       },
       {
@@ -8076,7 +8076,7 @@ export const guides: Guide[] = [
         "image": {
           "src": "/images/san-vitale-justinian-mosaic.jpg",
           "alt": "The Emperor Justinian I mosaic in the Basilica of San Vitale, Ravenna, showing Justinian in imperial purple flanked by clergy, courtiers, and soldiers, made around 547 AD.",
-          "credit": "[Mosaic of Emperor Justinian and his retinue](https://commons.wikimedia.org/wiki/File:The_mosaic_of_Emperor_Justinian_and_his_retinue,_Basilica_of_San_Vitale,_Ravenna,_Italy_-_24346194696.jpg), photograph by [Following Hadrian](https://commons.wikimedia.org/wiki/User:Following_Hadrian), CC BY-SA 2.0"
+          "credit": "[Mosaic of Emperor Justinian and his retinue](https://commons.wikimedia.org/wiki/File:The_mosaic_of_Emperor_Justinian_and_his_retinue,_Basilica_of_San_Vitale,_Ravenna,_Italy_-_24346194696.jpg), photograph by [Following Hadrian](https://www.flickr.com/photos/carolemage/), CC BY-SA 2.0"
         }
       },
       {
