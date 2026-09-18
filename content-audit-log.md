@@ -2657,3 +2657,15 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow**：已提交`/frida-kahlo-paintings/`（Bing 200 / Yandex 200）。
 
 **剩余量**：41篇存量批次中已修复1篇，剩余40篇（原分布2类16、3类19、4类2，`frida-kahlo-paintings`原属1类范畴内最简单的3篇之一，现已清零）。
+
+## 2026-09-18 操作事故记录：并发编辑场景下`git commit -- <path>`意外提交了子任务未完成的改动
+
+**背景**：本次会话在派发无头子任务（`umberlore-prose-gate-backfill`，处理41篇prose-gate存量债务）并发运行期间，主会话用`run_checks.py --all`发现并修复了`abstract-art-first-painting`一篇的真实em dash问题（无关联的另一篇文章）。
+
+**事故**：主会话用`git diff` + `git apply --cached`试图精确只暂存自己改动的那一个hunk（避免带上子任务尚未提交的`icarus-painting`改动），但`git commit -- <pathspec>`的实际行为**不是提交index里已staged的内容，而是直接对比HEAD与working directory该路径下的当前全部内容**——`git apply --cached`对index的精细操作被完全绕过。结果commit `ba1d9fc`（message只描述了abstract-art-first-painting的em dash修复）的diff里意外混入了子任务当时已经改到工作目录、但尚未commit的`icarus-painting`部分改动。
+
+**核实无工作丢失**：子任务随后的commit `f160824`（"content: fix prose-gate violations on icarus-painting"）是在此基础上的正常后续迭代（相对于HEAD即`ba1d9fc`的增量修改），说明子任务未受干扰、继续正常工作，两个commit合起来构成icarus-painting完整的修复历史，没有内容丢失，没有产生git冲突。**唯一的问题是commit历史的可读性/归属被破坏**：`ba1d9fc`的commit message完全没有提及它实际包含的icarus-painting部分改动。
+
+**教训（已记入通用工具经验，避免复发）**：多会话共享同一git工作树时，`git add -p`/`git apply --cached`这类"精确只暂存部分改动"的操作对**后续的`git commit -- <pathspec>`不构成保护**——commit时如果带pathspec，git会直接比较HEAD与working directory，不会遵循index里精心构造的部分staging状态。真正安全的做法是：确认要commit的文件在working directory里当前的**全部**未提交内容都确实是自己想提交的，如果不确定（比如已知有其他并发进程在改同一文件），应该完全避免对该文件做commit操作，等并发进程完成或改别的不冲突的文件。
+
+**后续处理**：未做revert/reset（会打乱仍在运行的子任务节奏，且没有必要——没有内容丢失）。本记录作为对git历史的补充说明存档。
