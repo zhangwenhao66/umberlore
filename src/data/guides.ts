@@ -253,7 +253,7 @@ export const guides: Guide[] = [
   {
     "slug": "van-gogh-paintings",
     "category": "Painting",
-    "title": "Van Gogh Paintings: Reading the Palette, Then and Now",
+    "title": "Van Gogh Paintings: Which Colors Have Already Faded",
     "description": "Van Gogh painted for barely ten years. His palette dates the work almost to the season, and conservation research shows how much of that colour has since moved.",
     "published": "2026-08-02",
     "updated": "2026-08-02",
@@ -803,7 +803,7 @@ export const guides: Guide[] = [
   {
     "slug": "gustav-klimt",
     "category": "Painting",
-    "title": "Gustav Klimt: The Gold Leaf and the Looted Portraits",
+    "title": "Gustav Klimt: What the 2004 Supreme Court Case Didn't Decide",
     "description": "Gustav Klimt used real gold, silver and platinum leaf. Three of his paintings burned in 1945, and the 2004 US Supreme Court case decided less than you think.",
     "updated": "2026-08-02",
     "coreSummary": "Gustav Klimt’s best-known works sit inside an unusually complete paper trail: the Vienna ministry file that bought The Kiss unfinished in 1908 for 25,000 crowns, an Austrian arbitration award dated 15 January 2006 that sent five Nazi-looted Bloch-Bauer paintings to Maria Altmann’s family, and black-and-white photographs of three ceiling paintings that burned in May 1945. The 2004 US Supreme Court ruling in that case decided only that Austria could be sued in an American court; it did not decide who owned the paintings.",
@@ -8296,7 +8296,7 @@ export const guides: Guide[] = [
   {
     "slug": "the-lovers-painting",
     "category": "Painting",
-    "title": "The Lovers Painting Is Actually Two Different Canvases",
+    "title": "The Lovers Painting: Two Canvases, One Debunked Legend",
     "description": "MoMA and the National Gallery of Australia both own a painting called The Lovers, made by Magritte in Paris in 1928. Their ownership records look nothing alike.",
     "published": "2026-09-10",
     "updated": "2026-09-10",
