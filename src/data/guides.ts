@@ -1940,31 +1940,31 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "How many paintings did Frida Kahlo actually make?",
-        "answer": "Estimates cluster around 150. Taschen's 2021 complete-paintings catalogue, edited by Luis-Martín Lozano, is described in the publisher's own promotional material as gathering \"all 152\" of her paintings, building on the 1988 catalogue raisonné by Helga Prignitz-Poda, Salomon Grimberg, and Andrea Kettenmann. The Harry Ransom Center adds that 55 of them are self-portraits."
+        "answer": "Estimates cluster around 150 total paintings. Taschen published a catalogue of her complete paintings in 2021 with Luis-Martín Lozano as editor. The publisher itself describes it as gathering \"all 152\" of her paintings. That figure builds on a 1988 raisonné catalogue that scholar Prignitz-Poda co-authored with two colleagues. The Ransom Center reports that self-portraits account for 55 of the total."
       },
       {
         "question": "Was the 'Finding Frida Kahlo' archive ever proven real or fake?",
-        "answer": "Neither, conclusively. A dozen Kahlo experts and the trust controlling her copyright declared the archive owned by Carlos and Leticia Noyola fraudulent and asked Mexican authorities to investigate, but owner Carlos Noyola presented his own graphologist's handwriting match and chemical paint analysis consistent with the 1940s. No public government ruling has settled the dispute since it broke in 2009."
+        "answer": "Neither, conclusively. Twelve Kahlo scholars and the trust controlling her copyright declared the Noyolas' archive fraudulent and asked Mexico's government to look into its origins. Owner Carlos Noyola countered with his own hired expert's handwriting comparison plus a paint-dating test that matched the 1940s. No public government ruling has settled the dispute since it broke in 2009."
       },
       {
         "question": "What happened to Kahlo's largest painting, The Wounded Table?",
-        "answer": "It disappeared after a 1955 exhibition in Warsaw and has never been recovered. A 2019 attempted sale in Morelos state, Mexico, and a 2020 claim by a Spanish dealer to have found it in a London warehouse were both rejected by authorities and experts; art historian Helga Prignitz-Poda pointed out that the 2020 painting was on canvas, while the genuine work was painted on wood."
+        "answer": "It disappeared after being exhibited in Warsaw in 1955 and has never been recovered. A 2019 attempted sale in Morelos state, Mexico, and a 2020 claim by a Spanish dealer to have located it in a warehouse in London were both rejected by authorities and experts. Prignitz-Poda noted that the 2020 painting was on canvas, unlike the genuine wood panel."
       },
       {
         "question": "Were fake Frida Kahlo paintings really seized by police in 2025?",
-        "answer": "Yes. On 27 October 2025, Bavarian police announced the seizure of forged works falsely attributed to Picasso, Rembrandt, Joan Miró, Amedeo Modigliani, and Kahlo, following raids across Germany, Switzerland, and Liechtenstein tied to a 77-year-old main suspect and ten accomplices. Investigations were ongoing at the time of the announcement."
+        "answer": "Yes. Bavarian authorities confirmed on October 27, 2025, that they had seized a batch of counterfeit paintings, with false attributions covering Kahlo, Rembrandt, Miró, Modigliani, and Picasso. The raids spanned Germany, Switzerland, and Liechtenstein, targeting a 77-year-old main suspect along with ten accomplices. Investigations were ongoing at the time of the announcement."
       },
       {
         "question": "Where can I see genuine Frida Kahlo paintings with documented provenance?",
-        "answer": "The Two Fridas hangs at the Museo de Arte Moderno in Mexico City, acquired by Mexico's Instituto Nacional de Bellas Artes in 1947 and transferred there in 1966. Self-Portrait with Thorn Necklace and Hummingbird is held by the Harry Ransom Center at the University of Texas at Austin, part of the Nickolas Muray collection the Center acquired in 1965."
+        "answer": "The Two Fridas hangs in Mexico City's museum of modern art; Mexico's INBA acquired it in 1947, then moved it to its current home by 1966. Her other self-portrait, the 1940 piece involving a hummingbird and thorn necklace, is held in Texas by the Ransom Center, part of the Nickolas Muray collection acquired in 1965."
       },
       {
         "question": "Why does a painter with so few known works attract so many forgery attempts?",
-        "answer": "Because the catalogue is small and mostly closed, roughly 150 paintings against the thousands left by more prolific painters, any claimed new or rediscovered work carries disproportionate weight and value. Newsweek reported that even a minor, previously obscure Kahlo landscape sold at Christie's for ten times its estimate, showing the market pays a premium for scarcity that makes forgery and disputed reattribution attempts persistently worthwhile."
+        "answer": "Because the catalogue is small and mostly closed, roughly 150 paintings against the thousands left by more prolific painters, any claimed new or rediscovered work carries disproportionate weight and value. A 2010 Newsweek report cited a case where an obscure, minor Kahlo landscape fetched ten times its pre-sale estimate at Christie's, evidence that scarcity itself commands a premium in this market and keeps forgery and disputed reattribution attempts worthwhile."
       },
       {
         "question": "What is Frida Kahlo's most famous artwork?",
-        "answer": "The Two Fridas (1939), now at the Museo de Arte Moderno in Mexico City, is usually named as her single most famous painting; it shows two versions of Kahlo, one in traditional Tehuana dress and one in a European-style gown, painted after her divorce from Diego Rivera. Self-Portrait with Thorn Necklace and Hummingbird (1940), held by the Harry Ransom Center in Texas, is her most reproduced image, appearing on more posters, book covers, and prints than any other Kahlo painting."
+        "answer": "The Two Fridas (1939), now in Mexico City's museum of modern art, is usually named as her single most famous painting; it shows two versions of Kahlo, one in traditional Tehuana dress and one in a European-style gown, painted after her divorce from Diego Rivera. Her other widely reproduced 1940 self-portrait, involving a hummingbird and thorn necklace, is held in Texas by the Ransom Center and appears on more posters, book covers, and prints than any other Kahlo painting."
       },
 ],
     "sources": [
