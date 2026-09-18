@@ -2773,3 +2773,30 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow**：已提交`/van-gogh-paintings/`（Bing 200 / Yandex 200）。
 
 **剩余量**：34篇存量批次中已修复1篇，剩余33篇（原第二批结束时清单：van-gogh-paintings/water-lilies-monet-series/mona-lisa/gustav-klimt/famous-paintings/frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream/sagrada-familia/starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock/michelangelo-sistine-chapel/mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art/psychedelic-art/encaustic-painting/romanesque-painting/famous-renaissance-paintings/majolica/ghost-of-a-flea/famous-landscape-paintings/sand-painting/cristina-kahlo，共34篇——本次处理了van-gogh-paintings，故剩余33篇）。
+
+## 2026-09-18 全站prose-gate存量债务第三批：water-lilies-monet-series（34篇存量批次，第2篇）
+
+**命中**：L-0820-2（rather than/instead of对比框架密度超阈，正文5次>阈值4次）+ L-0819-9（FAQ与正文≥20字符逐字重合，初次扫描7条FAQ命中）。
+
+**修复方式**：
+- **对比框架**：消去1处"rather than"（"which counts the wall the panels sit in rather than the canvas alone"→"...in, not the canvas alone"），5次降为4次，密度检查通过。
+- **FAQ逐字重合**：7条FAQ经过约10轮迭代收敛，每轮清除最长重合片段。命中类型：
+  - 机构全称"The Musée de l'Orangerie"/"The Art Institute of Chicago"/"the Metropolitan Museum of Art"/"Musée Marmottan Monet"（均单独≥20字符）反复触发，FAQ里交替改用"The Orangerie"/"Chicago's Art Institute"/"New York's Met"/"the Marmottan Monet museum"等已在文中建立的简称或改述，正文本身的机构全称不变。
+  - 画作标题"Le Matin aux saules"/"Le Matin clair aux saules"（分别19/25字符，前后加空格必然≥20）：FAQ改用"the two willow-shore morning panels named for their light"间接指代整组，不逐一重复法文标题，正文完整标题保留。
+  - "Bridge over a Pond of Water Lilies"（34字符标题）：FAQ改用"a 1899 canvas showing Monet's footbridge over the pond"描述性指代，未丢失年份/收购渠道（Havemeyer bequest）等关键事实。
+  - 直接引语片段（"almost 300 paintings, over 40 of which were large format"等机构公开表态原文）：FAQ改用近义词转述（"nearly 300 paintings, forty-plus of them in large format"），不加引号，正文引语不变。
+  - 其余为日期/数量表述改写（"more than a hundred canvases"→"upwards of a hundred paintings"、"around 1914 and 1915"→"starting in 1914...for about two years"等）常规打断连续字符流手法。
+
+**事实核对**：改写过程中一度把"Havemeyer bequest"（据Louisine Havemeyer遗赠，1929年，她本人当年1月去世）简化成"Havemeyer gift"，复核时发现"bequest"（遗赠）与泛化的"gift"（赠予）法律含义不同，已改回"Havemeyer bequest"保持准确。另确认"6/60"（Coutela医生1922年测得的左眼视力）与"仅光感"（右眼）两项数据在FAQ改写后均完整保留，未被间接指代丢弃。
+
+**去AI味检查**：人工逐句核对7条FAQ改写，无em dash、AI高频词、填充语、空泛归因；未引入未经核实的新细节。
+
+**Build**：`npm run build`通过，90个页面全部生成成功，0 error。
+
+**Git**：commit `6cf452f`（`git pull --rebase`无冲突，push成功，ed3fa45..6cf452f）。
+
+**上线核实**：绕缓存curl轮询，第3次（约40秒后）命中新版本文本，确认部署生效。
+
+**IndexNow**：已提交`/water-lilies-monet-series/`（Bing 200 / Yandex 200）。
+
+**剩余量**：34篇存量批次中已修复2篇（van-gogh-paintings、water-lilies-monet-series），剩余32篇：mona-lisa/gustav-klimt/famous-paintings/frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream/sagrada-familia/starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock/michelangelo-sistine-chapel/mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art/psychedelic-art/encaustic-painting/romanesque-painting/famous-renaissance-paintings/majolica/ghost-of-a-flea/famous-landscape-paintings/sand-painting/cristina-kahlo。
