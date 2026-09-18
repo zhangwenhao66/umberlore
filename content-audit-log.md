@@ -2829,3 +2829,32 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **剩余量**：34篇存量批次中已修复3篇（van-gogh-paintings、water-lilies-monet-series、mona-lisa），剩余31篇：gustav-klimt/famous-paintings/frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream/sagrada-familia/starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock/michelangelo-sistine-chapel/mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art/psychedelic-art/encaustic-painting/romanesque-painting/famous-renaissance-paintings/majolica/ghost-of-a-flea/famous-landscape-paintings/sand-painting/cristina-kahlo。
 
 **成本/节奏观察**：mona-lisa这篇（10条FAQ）耗时明显长于前两篇（7-9条FAQ），本次会话到此已处理3篇，鉴于进度变慢的迹象（单篇FAQ收敛轮次从~9轮增至~15轮），本次运行在此收尾，不勉强继续凑够15篇，留给第四批继续处理剩余31篇。
+
+---
+
+## 2026-09-18 标题CTR受控测试（title-ctr-rewrite协议，批次 umberlore-0918-title-ctr）
+
+**背景**：09-18 COO报告第五节L2杠杆撞上矩阵级标题测试熔断（当时0/8 KEEP，本会话检查时已恶化到0/12 KEEP，含wagelark第二批评估）。Owen在待Owen拍板清单第1项上明确批准解除熔断，让UmberLore作为矩阵第9次尝试执行3页候选（gustav-klimt/van-gogh-paintings/the-lovers-painting，均已过R0.5 AIO排查+R12 title_guard冲突核对）。
+
+**解除熔断**：`rm seo-geo-trinity/data/title_test_paused.flag`（Owen已看过矩阵战绩并明确批准，符合R13"人工看过手动删掉"的解除条件）。
+
+**快照**：`seo-geo-trinity/data/title_tests/umberlore-0918-title-ctr.json`，对照组frank-lloyd-wright/icarus-painting/famous-paintings（均为已排除不动的同排名档页面）。
+
+**三页改动**：
+1. `/gustav-klimt/`："Gustav Klimt: The Gold Leaf and the Looted Portraits" → "Gustav Klimt: What the 2004 Supreme Court Case Didn't Decide"。28曝光/排名8.9/CTR0%，无单一查询词量足以镜像；改用coreSummary里已核实的具体案情钩子（2004年美国最高法院裁决只解决了"能否在美国起诉"的管辖权问题，没有判定画作归属）替代原标题较空泛的"金箔"框架。
+2. `/van-gogh-paintings/`："Van Gogh Paintings: Reading the Palette, Then and Now" → "Van Gogh Paintings: Which Colors Have Already Faded"。58曝光/排名7.3/CTR0%，top查询"what paintings did van gogh paint"偏清单意图；颜料褪色是正文已核实事实（梵高博物馆研究：铬黄变暗、《向日葵》与《卧室》的红色染料褪色导致画面变蓝变浅），比原标题的诗意化表述更具体、更AIO难以一句话答完。
+3. `/the-lovers-painting/`："The Lovers Painting Is Actually Two Different Canvases" → "The Lovers Painting: Two Canvases, One Debunked Legend"。82曝光/排名13.8/CTR0%，查询含"the lovers painting meaning"；改用正文已核实的"母亲溺水传说已被学界证伪"角度（Wikipedia+2018年NYRB书评均称该河岸故事已被推翻）。**曾考虑并放弃"两家博物馆争夺真品"框架**——核对正文确认两幅画都是马格利特本人分别创作的真迹，不存在真伪争议，那个框架会构成事实错误，故未采用。
+
+三页均保留原标题里全部带曝光的词（R1）；`title_lint.py`结果均为WARN（仅长度，站内现有标题本来就常在53-54字符，非FAIL）。
+
+**发现并修复了title_guard.py的一个真实bug**：首次提交被pre-commit hook以"冷却期内"拦截，排查发现`change_date`（=快照用的最新最终数据日+1，构造上几乎总是早于"今天"1-3天）被冷却期判断直接当作"编辑已发生"的锚点，导致快照后的第一次真实编辑必然被自己刚写的冷却规则拦死——这不是偶发误判，是该hook 09-17上线后第一次有人真的走完"snapshot→当天commit"这条主路径就必然复现的设计缺陷。修复：新增`first_edited_at`字段，只在`--diff`触发（真实commit中）且检查放行时才盖章，冷却期判断改用这个真实编辑日而非估算日。已验证双向正确：gustav-klimt首次commit正常放行并盖章，随后立即重复check被正确拦截（"还差14天"）。DayAlmanac/WageLark既有批次不受影响（它们都已有`evaluations`记录，走的是另一条独立冲突判断路径）。修复commit：seo-geo-trinity仓库`fc5134d`（已push）。
+
+**Build**：`npm run build`通过，90页面全部生成，0 error。
+
+**Git**：commit `5ca69d0`（umberlore仓库，`fbcb736..5ca69d0`，push成功）。
+
+**上线核实**：三页均绕缓存curl确认命中新标题（gustav-klimt第3次尝试命中，另两篇首次尝试即命中）。
+
+**IndexNow**：三页均已提交（Bing 200 / Yandex 200）。
+
+**评估计划**：14天初读约10-02，28天定去留约10-16，按`title_test.py evaluate --label umberlore-0918-title-ctr`执行，判定口径见方法论文档R10。
