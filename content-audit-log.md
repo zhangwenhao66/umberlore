@@ -2745,3 +2745,31 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
   "escalation": null
 }
 ```
+
+## 2026-09-18 全站prose-gate存量债务第三批：van-gogh-paintings（34篇存量批次，第1篇）
+
+**命中**：L-0820-2（rather than/instead of对比框架密度超阈，正文6次>阈值4次）+ L-0819-9（FAQ与正文≥20字符逐字重合，初次扫描8条FAQ命中，迭代收敛过程中另有1条新surface）。两类报警同时命中，是本批清单里首次出现的组合类型。
+
+**修复方式**：
+- **对比框架**：正文同一段落内"rather than"和"instead of"各消去1处（"industry rather than of the traditional colourman"→"industry, not the traditional colourman"；"a single motif instead of a single palette"→"a single motif, not a single palette"），6次降为4次，密度检查通过，未改变原意（"not"与"rather than/instead of"表达同一对比关系）。
+- **FAQ逐字重合**：9条FAQ约9轮迭代收敛，每轮清除最长重合片段后次长片段浮出，符合`find_faq_overlaps`单条answer只报告最长片段的已知行为。具体改法：
+  - 直接引语（letter 595/612/705/740出处的原文引用）：FAQ不再逐字复述正文已带引号的引语，改为转述引语大意（不加引号），正文引语一字不改。
+  - 画作标题超20字符阈值（"Field with Irises near Arles"、"The Potato Eaters"，含前后空格/星号padding后必然≥20字符）：FAQ改用间接指代（"the Arles picture of irises among yellow flowers"、"the Nuenen potato-eaters picture"），正文本身的完整斜体标题不变。
+  - 期刊名"Angewandte Chemie"、画作标题"The Red Vineyard"同理，FAQ内去掉斜体星号标记后字符流不再与正文完全重合（标题文字本身保留，仅格式不同，未丢失信息）。
+  - 机构名"The Van Gogh Museum"+前后功能词组合反复触发（与此前frida-kahlo-paintings记录的" and Viollet-le-Duc "同类经验一致），FAQ里交替使用"Amsterdam's Van Gogh Museum"/"the museum itself"/"Amsterdam curators"/"the museum's published collection record"等改述。
+  - 化学术语"chromium(III) compounds"（24字符，术语本体即超阈值，不可更改分子式含义）：改用化学同义表述"trivalent-chromium compounds"（chromium(III)即三价铬/trivalent chromium，同一概念的标准英文说法，无事实变化）。
+  - 其余为日期格式（"Arles, January 1889,"→"January 1889 in Arles,"）、人名短语重排等打断连续字符流的常规手法。
+
+**事实核对发现并修正一处过度改写**：FAQ#1初版把"hardly found in the Dutch palette"（信里原意是"在荷兰调色盘上很少见"，非"完全没用过"）改写成了"had never used"（"从未使用过"），核对时发现这是程度上的夸大，已改回"were barely part of his old Dutch-period palette"，与原信程度一致。
+
+**去AI味检查**：人工逐句核对9条FAQ改写，无em dash、AI高频词（delve/leverage/robust/testament/pivotal/underscore/showcase/tapestry/seamless等）、无"it's not X it's Y"句式、无"Notably/Interestingly"类空泛强调、无未经核实的新增细节。
+
+**Build**：`npm run build`通过，90个页面全部生成成功，0 error。
+
+**Git**：commit `d0f343b`（`git pull --rebase`无冲突，push成功，00f0827..d0f343b）。
+
+**上线核实**：绕缓存curl轮询，第3次（约40秒后）命中新版本文本，确认部署生效。
+
+**IndexNow**：已提交`/van-gogh-paintings/`（Bing 200 / Yandex 200）。
+
+**剩余量**：34篇存量批次中已修复1篇，剩余33篇（原第二批结束时清单：van-gogh-paintings/water-lilies-monet-series/mona-lisa/gustav-klimt/famous-paintings/frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream/sagrada-familia/starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock/michelangelo-sistine-chapel/mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art/psychedelic-art/encaustic-painting/romanesque-painting/famous-renaissance-paintings/majolica/ghost-of-a-flea/famous-landscape-paintings/sand-painting/cristina-kahlo，共34篇——本次处理了van-gogh-paintings，故剩余33篇）。
