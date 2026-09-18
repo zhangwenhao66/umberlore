@@ -35,7 +35,7 @@
     "submitted_date": "2026-08-02",
     "verified_status": "stale_not_indexed",
     "note": "launch batch (2026-08-02); Bing 202 / Yandex 202 | 2026-08-17: Discovered but not crawled，discovered 02 Aug 2026，账龄15天，超过14天阈值判定为stale",
-    "last_submitted_date": "2026-08-02",
+    "last_submitted_date": "2026-09-18",
     "last_checked_date": "2026-08-17",
     "verified_method": "bwt_url_inspection"
   },
@@ -404,7 +404,7 @@
   },
   "https://umberlore.com/the-lovers-painting/": {
     "submitted_date": "2026-09-10",
-    "last_submitted_date": "2026-09-10",
+    "last_submitted_date": "2026-09-18",
     "verified_status": "pending"
   },
   "https://umberlore.com/simonetta-vespucci/": {
