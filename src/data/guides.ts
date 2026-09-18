@@ -6760,7 +6760,7 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Is the famous Icarus painting really by Bruegel?",
-        "answer": "That's disputed. A 1996 technical examination of the painting, held by RMFAB since 1912, cast serious doubt on the attribution to Bruegel. The museum's position is that the composition is certainly Bruegel's design, likely based on a lost original from around 1558, though the canvas itself is now usually classified as a period copy from an unknown hand. A new technical study, launched in 2026 with a Belgian cultural-heritage research institute, aims to clarify the question further, with results planned for a 2028 Bruegel exhibition."
+        "answer": "That's disputed. RMFAB has held the piece since 1912, and a 1996 technical study raised serious doubts about the attribution to Bruegel. The museum's position is that the composition is certainly Bruegel's design, likely based on a lost original from around 1558, though the canvas itself is now usually classified as a period copy from an unknown hand. A fresh technical study began in 2026, run with a Belgian cultural-heritage research institute, and aims to clarify the question further, with results planned for a 2028 Bruegel exhibition."
       },
       {
         "question": "Where can I see Landscape with the Fall of Icarus?",
@@ -6772,7 +6772,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Who painted The Lament for Icarus, and where is it now?",
-        "answer": "Draper, an English painter working in the late-Victorian classical revival style. The Royal Academy showed the painting in 1898, and the Chantrey Bequest purchased it that same year; two years later it earned a gold medal at the 1900 Paris world's fair, and it now belongs to Tate."
+        "answer": "Draper, an English painter working in the late-Victorian classical revival style. The Royal Academy showed the painting in 1898, and the Chantrey fund purchased it that same year; two years later it earned a gold medal at the 1900 Paris world's fair, and it now belongs to Tate."
       },
       {
         "question": "Why does Icarus still have his wings in Draper's painting, if the myth says they melted?",
