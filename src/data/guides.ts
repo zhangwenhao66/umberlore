@@ -1204,13 +1204,13 @@ export const guides: Guide[] = [
         "heading": "A parallel body of abstract work already existed in Stockholm",
         "body": [
           "Even a corrected 1913 leaves Kandinsky short of first, because someone else had already got there and left a larger, dated body of work behind. Hilma af Klint, born in Stockholm in 1862 and academically trained as a painter of landscapes and botanical studies, spent her twenties and thirties inside Swedish spiritualist circles; the Guggenheim's account of her describes her attending seances from the age of seventeen and immersing herself in Theosophy alongside her conventional training.",
-          "In 1905 she recorded hearing what she took to be an instruction from a spiritual source, telling her, in words the Guggenheim has preserved, \"You are to proclaim a new philosophy of life.\" Between November 1906 and March 1907 she painted a group of canvases now known as the Primordial Chaos series, working with no recognisable subject at all. Tate's magazine, Tate Etc, states the comparison directly: \"a Swedish painter by the name of Hilma af Klint had created her first abstract painting in her Stockholm studio in 1906, five years before him\" — him being Kandinsky, on the date long attached to his name."
+          "In 1905 she recorded hearing what she took to be an instruction from a spiritual source, telling her, in words the Guggenheim has preserved, \"You are to proclaim a new philosophy of life.\" Between November 1906 and March 1907 she painted a group of canvases now known as the Primordial Chaos series, working with no recognisable subject at all. Tate's magazine, Tate Etc, states the comparison directly: \"a Swedish painter by the name of Hilma af Klint had created her first abstract painting in her Stockholm studio in 1906, five years before him.\" That \"him\" is Kandinsky, on the date long attached to his name."
         ]
       },
       {
         "heading": "The Ten Largest, painted on the studio floor",
         "body": [
-          "Af Klint followed that series with an even larger undertaking. Moderna Museet's collection guide records that \"the monumental images that make up the suite The Ten Largest were painted in egg tempera on paper mounted on linen\" across the second half of 1907, worked on sheets laid on the studio floor because the tempera dried too quickly to manage upright. Each of the ten canvases, some over three metres tall, took roughly four days to complete. The series traces four phases of a life — childhood, youth, adulthood and old age — through spirals, looping tendrils and unmodulated fields of colour with no horizon, no figure and no object anywhere in the frame.",
+          "Af Klint followed that series with an even larger undertaking. Moderna Museet's collection guide records that \"the monumental images that make up the suite The Ten Largest were painted in egg tempera on paper mounted on linen\" across the second half of 1907, worked on sheets laid on the studio floor because the tempera dried too quickly to manage upright. Each of the ten canvases, some over three metres tall, took roughly four days to complete. The series traces four phases of a life (childhood, youth, adulthood and old age) through spirals, looping tendrils and unmodulated fields of colour with no horizon, no figure and no object anywhere in the frame.",
           "None of it was made for a gallery wall. Af Klint painted within a private circle of four other women, later called The Five, who held regular seances and recorded what they described as messages from spiritual sources; the paintings were, by her own account, executed under that guidance, not composed as exhibition pieces. That context is exactly why the work stayed outside art history for so long: it was never made to enter the conversation Kandinsky was having in Munich. Non-representational art has found unconventional doorways more than once: decades later, [a Los Angeles psychiatrist's 1950s LSD studies pushed professional artists toward their own unplanned departures from recognizable subject matter](/psychedelic-art/), a different route to a broadly similar kind of break."
         ],
         "image": {
@@ -6760,23 +6760,23 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Is the famous Icarus painting really by Bruegel?",
-        "answer": "That's disputed. A 1996 technical examination of Landscape with the Fall of Icarus, held by the Royal Museums of Fine Arts of Belgium since 1912, cast serious doubt on the attribution to Pieter Bruegel the Elder. The museum's position is that the composition is certainly Bruegel's design, likely based on a lost original from around 1558, but the surviving canvas is generally treated as a good early copy by another hand. A new technical study, launched in 2026 with the Royal Institute for Cultural Heritage, aims to clarify the question further, with results planned for a 2028 Bruegel exhibition."
+        "answer": "That's disputed. A 1996 technical examination of the painting, held by RMFAB since 1912, cast serious doubt on the attribution to Bruegel. The museum's position is that the composition is certainly Bruegel's design, likely based on a lost original from around 1558, though the canvas itself is now usually classified as a period copy from an unknown hand. A new technical study, launched in 2026 with a Belgian cultural-heritage research institute, aims to clarify the question further, with results planned for a 2028 Bruegel exhibition."
       },
       {
         "question": "Where can I see Landscape with the Fall of Icarus?",
-        "answer": "It belongs to the Royal Museums of Fine Arts of Belgium in Brussels. As of the 2026 technical study, the painting is temporarily away from its usual gallery for non-invasive analysis and is expected back at the museum around October 2026."
+        "answer": "It belongs to RMFAB, in Brussels. As of the 2026 technical study, the painting is off view while conservators complete non-invasive testing, and should return to display in roughly October 2026."
       },
       {
         "question": "What poem is the Bruegel Icarus painting known for inspiring?",
-        "answer": "W. H. Auden's \"Musée des Beaux Arts,\" written in December 1938 after Auden visited the Brussels museum, is the best-known. William Carlos Williams wrote his own poem with the same title as the painting, published in 1960 and later collected in Pictures from Brueghel and Other Poems, for which Williams won a posthumous Pulitzer Prize."
+        "answer": "Auden's 1938 poem, written after his December visit to the Brussels museum, is the best-known response to the painting. Williams wrote his own poem sharing the painting's title, published in 1960; it later appeared in his 1962 poetry collection; he received the Pulitzer Prize for it after his death."
       },
       {
         "question": "Who painted The Lament for Icarus, and where is it now?",
-        "answer": "Herbert James Draper, an English painter working in the late-Victorian classical revival style. Exhibited at the Royal Academy in 1898 and purchased that year through the Chantrey Bequest, it won the gold medal at the 1900 Exposition Universelle in Paris and now belongs to Tate."
+        "answer": "Draper, an English painter working in the late-Victorian classical revival style. The Royal Academy showed the painting in 1898, and the Chantrey Bequest purchased it that same year; two years later it earned a gold medal at the 1900 Paris world's fair, and it now belongs to Tate."
       },
       {
         "question": "Why does Icarus still have his wings in Draper's painting, if the myth says they melted?",
-        "answer": "It's a deliberate departure from the myth. Draper kept Icarus's wings fully intact in the painting instead of showing him falling without them, most likely because a winged figure reads as a more symbolic and visually elegant image than a young man who has lost his wings entirely."
+        "answer": "It's a deliberate departure from the myth. Draper kept Icarus's wings fully intact in the painting instead of showing him falling without them, most likely because a winged figure reads as a more symbolic and visually elegant image than an image of a young man falling with no wings left at all."
       },
       {
         "question": "What is the meaning behind Henri Matisse's painting \"Icarus\"?",
@@ -6784,7 +6784,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "What is the story behind the fall of Icarus painting?",
-        "answer": "In the underlying Greek myth, the craftsman Daedalus built wings of feathers and wax so he and his son Icarus could escape imprisonment on Crete. Daedalus warned Icarus not to fly too low, where sea spray would weigh the feathers down, or too high, where the sun would melt the wax; Icarus ignored the warning, flew too close to the sun, and fell into the sea when his wings failed. Painters have handled the moment very differently ever since: the Bruegel painting central to this page shows the fall as a barely noticed detail in a busy landscape, in keeping with the poem it inspired, while other artists, Matisse included, put Icarus himself front and center."
+        "answer": "In the underlying Greek myth, the craftsman Daedalus built wings of feathers and wax so he and his son Icarus could escape imprisonment on Crete. Daedalus warned Icarus not to fly too low, where sea spray would weigh the feathers down, or too high, where the sun would melt the wax; Icarus ignored the warning, climbed nearer the sun than his father had allowed, and fell into the sea when his wings failed. Painters have handled the moment very differently ever since: the Bruegel painting central to this page shows the fall as a barely noticed detail in a busy landscape, in keeping with the poem it inspired, while other artists, Matisse included, put Icarus himself front and center."
       },
 ],
     "sources": [
