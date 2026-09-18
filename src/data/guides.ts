@@ -641,7 +641,7 @@ export const guides: Guide[] = [
         "body": [
           "Almost every claim about this painting is worth checking against the museum that owns it, because the second-hand versions drift. The Louvre catalogues the work not as the Mona Lisa but as the Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa, with La Joconde as the working title. Its support is listed as \"huile sur bois (peuplier)\": oil on poplar wood, not canvas. It measures 79.4 by 53.4 centimetres, which is smaller than most people picture, and it carries two inventory numbers, INV 779 and MR 316.",
           "The museum dates it to the first quarter of the sixteenth century, giving a range of 1503 to 1519 rather than a single year. On the identity of the sitter the Louvre is blunt, calling the modern hunt for alternative candidates a false problem. Its evidence is a marginal note that Agostino Vespucci, a colleague of Machiavelli in the Florentine chancery, wrote in a copy of Cicero in October 1503, discovered in a Heidelberg library in 2005. Vespucci recorded Leonardo at work on a head of Lisa del Giocondo, which corroborates what Giorgio Vasari published in 1550.",
-          "The provenance runs: begun around 1503, probably for the silk merchant Francesco del Giocondo; kept by Leonardo until his death rather than delivered; \"très probablement acquis par François Ier en 1518\"; absorbed into the national collection in 1793. It hangs today in Room 711 of the Denon wing, level 1, which the Louvre's own catalogue now labels the Salle de la Joconde. Provenance is rarely this untroubled. For a case where the paper trail turned into decades of legal dispute, see [Gustav Klimt](/gustav-klimt/)."
+          "The provenance runs: begun around 1503, probably for the silk merchant Francesco del Giocondo; kept by Leonardo until his death, never delivered; \"très probablement acquis par François Ier en 1518\"; absorbed into the national collection in 1793. It hangs today in Room 711 of the Denon wing, level 1, which the Louvre's own catalogue now labels the Salle de la Joconde. Provenance is rarely this untroubled. For a case where the paper trail turned into decades of legal dispute, see [Gustav Klimt](/gustav-klimt/)."
         ]
       },
       {
@@ -696,7 +696,7 @@ export const guides: Guide[] = [
         "image": {
           "src": "/images/mona-lisa-excelsior-1913.jpg",
           "alt": "Front page of the Paris daily Excelsior, 14 December 1913, given over to a staged photographic reconstruction of the Mona Lisa theft, with a portrait of Vincenzo Peruggia at the centre",
-          "credit": "[Excelsior - Vincenzo Peruggia - Vol de La Joconde - Mona Lisa](https://commons.wikimedia.org/wiki/File:Excelsior_-_Vincenzo_Peruggia_-_Vol_de_La_Joconde_-_Mona_Lisa.jpg), Excelsior, 14 December 1913, digitised by Gallica / Bibliothèque nationale de France, public domain"
+          "credit": "[Excelsior, Vincenzo Peruggia, Vol de La Joconde, Mona Lisa](https://commons.wikimedia.org/wiki/File:Excelsior_-_Vincenzo_Peruggia_-_Vol_de_La_Joconde_-_Mona_Lisa.jpg), Excelsior, 14 December 1913, digitised by Gallica / Bibliothèque nationale de France, public domain"
         }
       },
       {
@@ -722,43 +722,43 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Did the 1911 theft make the Mona Lisa famous?",
-        "answer": "Only partly, and not in the way the story is usually told. The painting was already the highest-rated Leonardo in the Louvre for Baedeker's guidebooks, which in 1907 called it \"the most celebrated female portrait in the world\". The theft and the 1913 recovery took a reputation that existed inside the art-viewing public and pushed it into the general public, using an illustrated daily press that had only just become capable of mass photographic reproduction. The historian Donald Sassoon, who wrote the standard study of the painting's fame, calls the claim that the theft was the main cause \"premature\"."
+        "answer": "Only partly, and not in the way the story is usually told. Baedeker's guidebooks already rated the painting the top Leonardo housed at the Louvre, and by 1907 were calling it the standout female portrait anywhere in their pages. The theft and the 1913 recovery took a reputation that existed inside the art-viewing public and pushed it into the general public, using an illustrated daily press whose halftone printing method had only recently become fast enough for mass use. Sassoon, the historian behind the standard telling of how this Leonardo became a cultural icon, dismisses the idea that the theft drove most of that fame as \"premature\"."
       },
       {
         "question": "Was the Mona Lisa famous before it was stolen?",
-        "answer": "Yes, though its standing rose sharply over the nineteenth century. In an 1849 valuation it was estimated at 90,000 francs, behind Titian's Supper at Emmaus at 150,000 and far behind Raphael's Holy Family at 600,000. Between 1851 and 1880 it was copied 71 times by artists at the Louvre, against 197 for Murillo's Immaculate Conception. By 1878 Baedeker was calling it the most celebrated Leonardo in the Louvre, and by 1907 the most celebrated female portrait in the world."
+        "answer": "Yes, though its standing rose sharply across the eighteen-hundreds. In an 1849 valuation it was estimated at 90,000 francs, behind a Titian valued at 150,000 and far behind 600,000 for Raphael's Holy Family, the priciest of the group. Artists at the Louvre copied it 71 times across the 1851-to-1880 window alone, against 197 for a Murillo of the same period. By 1878 Baedeker ranked it the top Leonardo the Louvre owned, and by 1907 the single highest-scoring portrait of a woman in the whole guidebook."
       },
       {
         "question": "Who stole the Mona Lisa, and how?",
-        "answer": "Vincenzo Peruggia, an Italian glazier who had worked at the Louvre fitting protective glass over paintings. He took the panel on Monday 21 August 1911, the museum's closing day, lifted it off its hooks in the Salon Carré, removed the frame and walked out. The theft was discovered the next morning by the painter Louis Béroud, who had come to work on a view of that gallery. Guillaume Apollinaire was arrested and Pablo Picasso questioned during the investigation, over an unrelated matter, and both were released."
+        "answer": "Vincenzo Peruggia, an Italian glass-fitter employed by the Louvre to protect its paintings behind glass. On the museum's closing day, Monday the 21st of August 1911, he lifted it free of its Salon Carré mounting, took off the frame and walked out. The theft was discovered the next morning by Louis Béroud, a painter engaged that day in sketching that same gallery. Investigators then swept up the poet Apollinaire, who was arrested, and Pablo Picasso, who was hauled in and questioned, over an unrelated matter, and each was let go without charge."
       },
       {
         "question": "How long was the Mona Lisa missing, and how was it recovered?",
-        "answer": "It was gone for about two years and four months. Peruggia kept it in his Paris lodgings, then took it to Florence in December 1913 and tried to sell it to the dealer Alfredo Geri, who brought in Giovanni Poggi, director of the Uffizi. Poggi confirmed it was genuine and Peruggia was arrested. The painting was exhibited in Florence, Rome and Milan before returning to the Louvre wall in early January 1914."
+        "answer": "It was gone for about two years and four months. Peruggia held onto it inside his Paris apartment, then carried it to Florence in December 1913 and tried to sell it to Alfredo Geri, an antiques dealer who called in Uffizi director Giovanni Poggi; Poggi confirmed it was genuine, and Peruggia was arrested. The painting was exhibited in Florence, Rome and Milan before it went back on display at the Louvre during the first days of 1914."
       },
       {
         "question": "What sentence did Vincenzo Peruggia receive?",
-        "answer": "He was tried in Florence in June 1914, argued that he had acted from patriotic motives to return the painting to Italy, and was sentenced to one year and fifteen days. On appeal the term was reduced to a little over seven months. He served a short sentence and was treated with some sympathy in Italy."
+        "answer": "His trial took place in Florence during June 1914, where he argued that he had acted from patriotic motives to return the painting to Italy, and was sentenced to twelve months and fifteen days. On appeal the sentence was trimmed to just past seven months. He served a short sentence and was treated with some sympathy in Italy."
       },
       {
         "question": "What is the Mona Lisa painted on, and how big is it?",
-        "answer": "The Louvre lists the medium as \"huile sur bois (peuplier)\", oil on poplar wood panel, not canvas. The panel measures 79.4 by 53.4 centimetres. Its inventory numbers are INV 779 and MR 316. Even standard sources get this wrong: Baedeker's 1907 Paris guidebook referred to the darkened condition of the canvas."
+        "answer": "The Louvre's official record gives the medium in French, translating to oil on poplar wood panel, not canvas. At 79.4 × 53.4 cm, the panel comes in smaller than most visitors imagine. Its inventory record lists MR 316 and INV 779. Even standard sources get this wrong: the 1907 edition of Baedeker's Paris guidebook called it a canvas and noted its darkened surface."
       },
       {
         "question": "Where is the Mona Lisa displayed now, and is it moving?",
-        "answer": "It hangs in Room 711 of the Denon wing, level 1, which the Louvre catalogues as the Salle de la Joconde. In January 2025 the museum announced that under its Nouvelle Renaissance project the painting will be relocated to a dedicated room of its own, accessible on a separate ticket, targeted for 2031 alongside a new entrance."
+        "answer": "It hangs in the Denon wing's level 1, Room 711, the gallery space the Louvre has since renamed for the painting itself. The museum said, in a January 2025 statement, that under its newly unveiled renovation initiative, the painting will be relocated to a dedicated room of its own, entered with its own separate ticket, targeted for 2031 alongside a new entrance."
       },
       {
         "question": "When was the Mona Lisa painted, and who is the sitter?",
-        "answer": "The Louvre dates it to the first quarter of the sixteenth century, between 1503 and 1519. The sitter is Lisa Gherardini (1479 to 1542), wife of the Florentine silk merchant Francesco del Giocondo. The museum treats the identification as settled. A marginal note by Agostino Vespucci from October 1503, found in a Heidelberg library copy of Cicero in 2005, records Leonardo working on a head of Lisa del Giocondo and confirms the account Vasari published in 1550."
+        "answer": "The Louvre places it in the 1500s' opening quarter, between 1503 and 1519. The sitter is Lisa Gherardini (1479 to 1542), the wife of a Florentine silk merchant. The museum treats the identification as settled. A marginal note by Agostino Vespucci from October 1503, unearthed inside a library in Heidelberg, tucked into a Cicero volume, during 2005, records Leonardo sketching out Lisa del Giocondo's likeness, matching Giorgio Vasari's account, set down in his 1550 biography."
       },
       {
         "question": "How much is the Mona Lisa worth today?",
-        "answer": "There's no current appraisal, since the Louvre has never assigned it a market value and it can't legally be sold as part of France's protected national collection. The one benchmark on record is decades old: it holds the Guinness World Record for the highest insurance valuation ever placed on a painting, set at $100 million in 1962, which Guinness itself calculates as roughly $1 billion in 2023 dollars."
+        "answer": "There's no current appraisal, since the Louvre has never assigned it a market value and it can't legally be sold, belonging as it does to France's protected national heritage collection. The one benchmark on record is decades old: it holds the Guinness World Record for the highest insurance valuation ever placed on a painting, set at $100 million in 1962, which Guinness itself calculates as roughly $1 billion in 2023 dollars."
       },
       {
         "question": "How old was Lisa Gherardini, the Mona Lisa's model, when she died?",
-        "answer": "63. She was born in Florence on 15 June 1479 and died there on 14 July 1542, a month after her 63rd birthday. She had outlived her husband, the silk merchant Francesco del Giocondo, and by most accounts led an unremarkable domestic life as the mother of six children, entirely apart from the fame her portrait would go on to acquire."
+        "answer": "63. She was born in Florence on 15 June 1479 and died there on 14 July 1542, a month after her 63rd birthday. She had outlived her husband, a Florentine silk trader, and by most accounts led an unremarkable domestic life as the mother of six children, entirely apart from the fame her portrait would go on to acquire."
       },
       {
         "question": "Why did it take 16 years to paint the Mona Lisa?",
