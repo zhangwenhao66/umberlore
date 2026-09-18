@@ -2669,3 +2669,34 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **教训（已记入通用工具经验，避免复发）**：多会话共享同一git工作树时，`git add -p`/`git apply --cached`这类"精确只暂存部分改动"的操作对**后续的`git commit -- <pathspec>`不构成保护**——commit时如果带pathspec，git会直接比较HEAD与working directory，不会遵循index里精心构造的部分staging状态。真正安全的做法是：确认要commit的文件在working directory里当前的**全部**未提交内容都确实是自己想提交的，如果不确定（比如已知有其他并发进程在改同一文件），应该完全避免对该文件做commit操作，等并发进程完成或改别的不冲突的文件。
 
 **后续处理**：未做revert/reset（会打乱仍在运行的子任务节奏，且没有必要——没有内容丢失）。本记录作为对git历史的补充说明存档。
+
+## 2026-09-18 全站prose-gate存量债务第二批：icarus-painting（41篇批次，第2篇）
+
+**命中**：L-0819-9（FAQ与正文≥20字符逐字重合），初次扫描6条FAQ命中，经约10轮迭代收敛（多轮是因为每轮只报告单条answer里最长的重合片段，同一条answer清完一处后次长处会在下一轮重新报警，与frida-kahlo-paintings一文同样的收敛模式）。
+
+**修复方式**：全部是专有名词/固定短语本身超过或接近20字符阈值，正文已建立简称的一律改用简称，未建立的新引入简称：
+- 机构"the Royal Museums of Fine Arts of Belgium"改用正文已有的缩写"RMFAB"。
+- 机构"the Royal Institute for Cultural Heritage"（38字符，正文仅出现一次，无既有简称）改用意译"a Belgian cultural-heritage research institute"，不编造机构简称。
+- 人名"Pieter Bruegel the Elder"改用正文/FAQ问题本身已用的简称"Bruegel"；"Herbert James Draper"改用正文反复使用的简称"Draper"；"William Carlos Williams"改用简称"Williams"。
+- 诗作标题"Musée des Beaux Arts"（含引号后≥20字符，且是专有标题无法通过语序调整规避）改用间接指代"Auden's 1938 poem"，正文本身保留完整诗名。
+- 事件名"Exposition Universelle"（23字符专有名词）改用意译"world's fair"（该展览的通用英文别称，1900年巴黎世博会）。
+- 基金名"the Chantrey Bequest"改用"the Chantrey fund"（正文已说明这是一个public fund，用词准确不属编造）。
+- 日期格式"27 October 2025"→"October 27, 2025"（同frida一文手法）、"too close to the sun"→"nearer the sun than his father had allowed"（打断固定短语连续字符）等语序/近义词调整。
+
+**特殊情况记录**：本文改写过程中意外撞见**另一个并发会话正在同一工作目录（同一git仓库checkout）操作`guides.ts`**——该会话的commit `ba1d9fc`（"remove 2 real em-dash characters from abstract-art-first-painting"，处理另一篇文章的em dash问题）疑似使用了较宽的`git add`，把本次会话当时尚未提交的icarus-painting FAQ改动一并打包提交了（commit diff核实FAQ#1/FAQ#2/FAQ#6/FAQ#7的改动确实包含在该commit里，不是本会话自己提交的）。本会话随后只需为最后两轮收敛（FAQ#1的"cast serious doubt"重合、FAQ#4的"Chantrey Bequest"重合）补一个小commit（`f160824`）。**内容本身完整无误、无丢失**（每次编辑后都重跑检查脚本确认），仅git提交历史的归属被并发会话打乱，如实记录以备将来排查"为什么这次commit这么小"的疑问。
+
+**事实核实**："Exposition Universelle"译为"world's fair"、"Chantrey Bequest"简称"fund"均为准确转述，未引入新事实。
+
+**去AI味检查**：人工核对7条FAQ，无em dash、AI高频词、填充语、空泛归因。FAQ#4以"Draper,"开头（省略全名）风格上稍显突兀但符合"Who painted X?"问答的正常简答语域，非AI写作特征。
+
+**Build**：`npm run build`通过，90个页面全部生成成功。
+
+**Git**：内容分散在`ba1d9fc`（并发会话代提交，含本文大部分FAQ改动）+ 本会话自己的`f160824`（收尾2处），均已push（2b945b0..f160824）。
+
+**上线核实**：绕缓存curl轮询，第5次（约100秒后）命中新版本文本，确认部署生效。
+
+**IndexNow**：已提交`/icarus-painting/`（Bing 200 / Yandex 200）。
+
+**Title字段**：全程未改动（09-12批次title-ctr-rewrite对照组冻结要求）。
+
+**剩余量**：41篇存量批次中已修复2篇（frida-kahlo-paintings、icarus-painting），剩余39篇。
