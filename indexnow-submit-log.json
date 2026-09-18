@@ -166,14 +166,14 @@
   },
   "https://umberlore.com/ophelia-millais/": {
     "submitted_date": "2026-08-10",
-    "last_submitted_date": "2026-09-01",
+    "last_submitted_date": "2026-09-18",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-09-02",
     "verified_method": "bwt_url_inspection"
   },
   "https://umberlore.com/daguerreotype/": {
     "submitted_date": "2026-08-10",
-    "last_submitted_date": "2026-09-03",
+    "last_submitted_date": "2026-09-18",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-09-02",
     "verified_method": "bwt_url_inspection"
@@ -389,7 +389,7 @@
   },
   "https://umberlore.com/the-milkmaid-vermeer/": {
     "submitted_date": "2026-09-06",
-    "last_submitted_date": "2026-09-06",
+    "last_submitted_date": "2026-09-18",
     "verified_status": "pending"
   },
   "https://umberlore.com/byzantine-mosaics/": {
@@ -455,6 +455,11 @@
   "https://umberlore.com/fresco-painting/": {
     "submitted_date": "2026-09-17",
     "last_submitted_date": "2026-09-17",
+    "verified_status": "pending"
+  },
+  "https://umberlore.com/artist-peak-creation-age/": {
+    "submitted_date": "2026-09-18",
+    "last_submitted_date": "2026-09-18",
     "verified_status": "pending"
   }
 }

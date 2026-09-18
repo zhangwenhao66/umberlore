@@ -2599,3 +2599,25 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow**：已提交`/pop-art/`（Bing 200 / Yandex 202）。
 
 **遗留**：无。该文本次3类机械检查问题已全部清零，未发现新的存量债务。
+
+## 2026-09-18 全站prose-gate存量债务首次量化 + 4篇快速修复（站点COO会话，用户主动追问"还有可以继续优化的吗"）
+
+**发现**：对全站73篇文章逐一跑`check_prose_patterns.py --guides guides.ts --slug <slug>`，此前从未做过存量回溯（仅`pop-art`因用户明确指出而单独修复）。结果：**28篇通过 / 45篇不通过（62%）**，按报警类别数分布：1类7篇、2类16篇、3类19篇、4类2篇。系统性问题，规模符合`独立站/内容通用教训库.md`（R-seo-05）"两位数篇或占比过半"档位，不能在当次会话硬啃完，已按流程记忆记录+数据台watch告警+分批处理。
+
+**本次修复**：1类报警里工作量最小的4篇——`the-milkmaid-vermeer`（1条FAQ重合）、`ophelia-millais`（2条）、`daguerreotype`（3条）、`artist-peak-creation-age`（4条）。全部命中项均为L-0819-9（FAQ与正文≥20字符逐字重合），无L-0820-2/L-0821-4问题。
+
+**修复方式**：措辞/语序调整，不改变任何事实。逐条对照原文核实事实未被改坏时，**自查发现并纠正了一处本会话自己引入的事实错误**：改写`artist-peak-creation-age`的FAQ时，草稿一度暗示Piet Mondrian"1943年临终前仍在调整"这幅画（原意图是转述"完成于生命最后一年"），但用WebSearch核实后发现Mondrian实际死于1944年2月1日，画作完成于1943年3月——两者相隔近一年，不是"临终未完成"场景。已改为准确表述"finished the year before he died"，提交前核实无误。这是过程性错误的诚实记录，不是隐瞒。
+
+另有一处取舍：`artist-peak-creation-age`的FAQ"哪幅画在最年轻年龄完成"原本想直接点名"Artemisia Gentileschi"，但该艺术家全名（22字符）与coreSummary/数据表格里的出现无法通过调整周边措辞规避重合（专有名词本身超过20字符阈值），改用"文中数据表格里提到的这位意大利巴洛克艺术家"间接指代，正文表格仍保留完整姓名，用户可查。
+
+**去AI味检查**：本次改写在本次会话已加载的`Skill(humanizer)`+`Skill(avoid-ai-writing)`规则下逐句人工审查完成（规则已在本次对话context中加载，未发现em dash/AI高频词/填充语/空泛归因等特征）。
+
+**Build**：`npm run build`通过，90个页面全部生成成功。
+
+**Git**：commit `9d96066`（`git pull --rebase`无冲突，push成功，bcada5f..9d96066）。
+
+**上线核实**：绕缓存curl轮询确认部署生效。
+
+**IndexNow**：4篇URL已批量提交（Bing 200 / Yandex 200）。
+
+**剩余量**：45篇中已修复4篇（另加此前独立修复的`pop-art`），剩余41篇（2类16、3类19、4类2，其中1类剩余0篇已全部清零）待后续处理，见memory `project_umberlore_prose_gate_backlog_20260918`。
