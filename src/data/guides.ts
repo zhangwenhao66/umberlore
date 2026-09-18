@@ -3373,11 +3373,11 @@ export const guides: Guide[] = [
       },
       {
         "question": "Where is Ophelia displayed today?",
-        "answer": "Ophelia hangs at Tate Britain in London under the accession number N01506. It entered the collection in 1894 as part of a large gift from the sugar magnate and art collector Sir Henry Tate, whose donation founded the gallery that bears his name."
+        "answer": "Ophelia hangs at Tate Britain in London, catalogued under N01506. It came in through Sir Henry Tate's 1894 gift, the sugar magnate whose donation founded the gallery that carries his name."
       },
       {
         "question": "How was Ophelia received when it was first exhibited?",
-        "answer": "Reaction at the 1852 Royal Academy exhibition was divided. A critic in The Times wrote that the painting \"makes us think of a dairymaid in a frolic\" and objected to Millais setting Ophelia's death in what it called \"a weedy ditch,\" while the Morning Chronicle called the same picture \"startling in its originality.\" The painting's reputation had already reversed within Millais's own lifetime, well before it entered the national collection in 1894."
+        "answer": "Reaction at the 1852 Royal Academy exhibition was divided. The Times ran two separate notices, one calling the choice of setting \"strangely perverse\" and the other comparing Millais's drowning Ophelia to an ordinary farm girl splashing about, unfit for the tragedy of the scene. A rival London paper (named above) went the other way and praised the picture as boldly original. By the time Tate's gift brought the painting into public hands four decades later, that reputation had already flipped."
       }
     ],
     "sources": [
@@ -3505,7 +3505,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "How can you tell if a photo is a daguerreotype?",
-        "answer": "Tilt it. A daguerreotype's image sits on a mirror-polished, silver-plated copper sheet, so from one angle it reads as a dark negative and from another, held at roughly 45 degrees, the correct positive image appears, an effect neither paper photographs nor the ambrotypes and tintypes that later replaced it can reproduce. Most surviving examples are also small and kept sealed in a hinged case behind glass with a brass mat, because the bare silver surface tarnishes and scratches easily once exposed to air."
+        "answer": "Tilt it. A daguerreotype's image sits on a mirror-polished sheet of silvered copper, so from one angle it reads as a dark negative and from another, held at roughly 45 degrees, the correct positive image appears, an effect neither paper photographs nor the ambrotypes and tintypes that came after it in the market can reproduce. Most surviving examples are also small and kept sealed in a hinged case behind glass with a brass mat, since the exposed metal darkens and scuffs quickly in open air."
       },
       {
         "question": "Are daguerreotypes worth anything?",
@@ -3513,11 +3513,11 @@ export const guides: Guide[] = [
       },
       {
         "question": "What is the difference between a daguerreotype and a photograph?",
-        "answer": "Daguerreotype is one specific, early photographic process, not a synonym for photograph in general. It produces a direct positive image on a silver-coated copper plate with no negative involved, so the plate itself is the only copy that will ever exist unless the sitter poses again; most later photographic processes, film and digital alike, are built around a negative or file that can be reprinted any number of times. The daguerreotype's mirror-polished surface also behaves differently from a printed photograph: tilted at the right angle, the image flips between a dark negative and a correct positive, an effect paper prints can't reproduce."
+        "answer": "Daguerreotype is one specific, early photographic process, not a synonym for photograph in general. It produces a direct positive image on a silver-coated copper plate, skipping the negative stage entirely, so the plate itself is the only copy that will ever exist unless the sitter poses again; most later photographic processes, film and digital alike, are built around a negative or file that can be reprinted any number of times. Its mirror-polished plate also behaves differently from a printed photograph: tilted at the right angle, the image flips between a dark negative and a correct positive, an effect paper prints can't reproduce."
       },
       {
         "question": "What was the daguerreotype and why was it important?",
-        "answer": "It was the first photographic process to reach the public, made public by Louis Daguerre in a formal announcement on August 19, 1839, after building on his earlier partnership with Nicéphore Niépce. Its introduction is usually treated as photography's public debut: within weeks, newspapers as far away as the United States were describing the process, and portrait studios using it opened in cities across Europe and North America within a year or two. It remained the dominant commercial photographic process for about two decades before cheaper glass-based methods like the ambrotype took over in the late 1850s."
+        "answer": "It reached the public before any rival process existed. Louis Daguerre unveiled it in a formal announcement dated 19 August 1839, building on years of earlier work alongside Nicéphore Niépce. Historians generally mark it as the moment photography went public: within weeks, newspapers as far away as the United States were describing the process, and portrait studios using it opened in cities across Europe and North America within a year or two. It stayed the leading way to buy a photograph for roughly twenty years, until cheaper glass-based methods like the ambrotype took over in the late 1850s."
       },
 ],
     "sources": [
@@ -5635,19 +5635,19 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "What is the average age at which artists create their most famous work?",
-        "answer": "Across 64 canonical paintings with a verifiable completion date and the artist's birth year, the mean age at creation is 41.6 and the median is 39.5. The range runs from 20 (Artemisia Gentileschi) to 71 (Katsushika Hokusai and Piet Mondrian, tied)."
+        "answer": "In this 64-painting dataset, cross-checked against each artist's dates of birth and death alongside the work's completion date, the mean age is 41.6 and the median 39.5. Twenty marks the low end of that spread and seventy-one the high end, with two different artists tied at the top."
       },
       {
         "question": "Do most famous paintings get made early or late in an artist's career?",
-        "answer": "Neither extreme dominates. In this 64-work dataset, 56% of artists finished their best-known work 20 or more years before they died, meaning they lived on for decades afterward, while only 11% made it in the final five years of life. The median age at creation, 39.5, sits closer to mid-career than to either a young prodigy or a late-life culmination."
+        "answer": "Neither extreme dominates. In this 64-work dataset, well over half the artists (56%) had at least two more decades left to live once their signature painting was done, while a much smaller share, 11%, produced it within five years of dying. At 39.5, the midpoint of the whole dataset sits closer to mid-career than to either a young prodigy or a late-life culmination."
       },
       {
         "question": "Which famous painting was made at the youngest age?",
-        "answer": "Artemisia Gentileschi was 20 when she completed Judith Slaying Holofernes around 1613, the youngest age at creation among the 64 works in this dataset."
+        "answer": "Age twenty is the youngest in the dataset, set by the Italian Baroque artist named in the table above for her Old Testament beheading scene, completed around 1613."
       },
       {
         "question": "Which famous painting was made at the oldest age?",
-        "answer": "Two works tie for oldest in this dataset: Katsushika Hokusai was 71 when he made The Great Wave off Kanagawa (1831), and Piet Mondrian was also 71 when he finished Broadway Boogie Woogie (1943)."
+        "answer": "Two artists share the oldest spot at 71. One is Katsushika Hokusai, for his cresting wave off Mount Fuji, dated to 1831. The other is Piet Mondrian, for a grid-based canvas capturing New York rhythms, finished the year before he died."
       }
     ]
   },
@@ -8010,7 +8010,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "What is the most expensive Vermeer painting ever sold?",
-        "answer": "Young Woman Seated at a Virginal, which sold for £16.2 million, about $30 million, at Sotheby's London in 2004, the first Vermeer to reach auction in roughly 80 years. Scholars had doubted the attribution for decades before a decade of forensic study persuaded most of them it was genuine. The Milkmaid itself has never gone to auction since entering the Rijksmuseum's collection; national museums rarely sell paintings already in their holdings."
+        "answer": "Young Woman Seated at a Virginal, which sold for £16.2 million, about $30 million, at Sotheby's London in 2004, the first Vermeer to reach auction in roughly 80 years. Scholars had doubted the attribution for decades before a decade of forensic study persuaded most of them it was genuine. The Milkmaid itself has never gone to auction since it entered the museum's holdings in 1908; national museums rarely sell paintings already in their permanent collection."
       },
       {
         "question": "How much is The Milkmaid painting worth?",
