@@ -2724,3 +2724,24 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow**：已提交`/what-is-a-gargoyle/`（Bing 200 / Yandex 200）。
 
 **剩余量**：41篇存量批次中已修复3篇（frida-kahlo-paintings、icarus-painting、what-is-a-gargoyle），剩余38篇，1类报警清零。
+
+## 2026-09-18 — 补充分区枢纽内链（矩阵级结构性缺口第1轮，交互会话执行）
+
+```json
+{
+  "trigger": "矩阵级分析（涨页特征对照_20260913.md）发现14站正文0%链接回自己的分区/hub页；本任务是低优先级卫生工作，不是增长杠杆，加内链不改变文章排名/CTR",
+  "actions": [
+    {
+      "type": "分区枢纽内链",
+      "pages": [
+        {"slug": "mona-lisa", "category": "Painting", "hub": "/topics/painting/"},
+        {"slug": "pop-art", "category": "Movements", "hub": "/topics/movements/"},
+        {"slug": "chiaroscuro-woodcut", "category": "Technique", "hub": "/topics/technique/"}
+      ],
+      "detail": "每篇在最后一个正文小节末尾自然位置加一句指向该文分类hub页的句子，措辞逐篇手写各不相同。句子过Skill(humanizer)+Skill(avoid-ai-writing)后插入，跑check_bridge_sentences.py确认新句均未产生新候选（各篇仍各自命中若干与本次改动无关的旧候选：abstract-art-first-painting/renaissance-art，属存量债务不在本次处理）；check_prose_patterns.py对mona-lisa报FAQ与正文逐字重合告警（L-0819-9，3类，均为本次编辑前就存在的旧内容重合，与新增句子无关），pop-art/chiaroscuro-woodcut均退出码0。npm run build 0报错，commit 80ff417。"
+    }
+  ],
+  "verification": "绕缓存curl三篇线上均已生效(Painting/Movements/Technique hub均命中，mona-lisa因CF Pages部署传播延迟晚约2分钟才在主域名确认到，源站pages.dev已先行确认)；IndexNow已提交3个URL(Bing 200/Yandex 200，commit 8c94f49)",
+  "escalation": null
+}
+```
