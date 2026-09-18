@@ -295,7 +295,7 @@ export const guides: Guide[] = [
         "heading": "The April 1888 paint order is the hinge",
         "body": [
           "Six weeks after he arrived, a paint delivery caught up with him from Paris, and his thank-you note to Theo is probably the most useful dating document in the whole correspondence. Writing from Arles on or about 11 April 1888, he lists what came: \"the 3 chromes (the orange, the yellow, the lemon), the Prussian blue, the emerald, the madder lakes, the Veronese green, the orange lead, all of that is hardly found in the Dutch palette\" (letter 595). He then names the painters whose palettes lack them, Maris, Mauve and Israëls, which is to say the circle he had come out of.",
-          "Most of these were products of nineteenth-century industry rather than of the traditional colourman. The chromes are lead chromates, cheap and startlingly bright. The lakes are organic dyes precipitated onto an inert base, which is exactly what makes them fugitive. And in the same letter, underlined in the manuscript, comes a sentence that reads very differently now than it did then: \"all the colours that Impressionism has made fashionable are unstable, all the more reason boldly to use them too raw, time will only soften them too much.\" In the decades that followed, another painter organised his materials around a single motif instead of a single palette, a programme traced in [Monet's Water Lilies series](/water-lilies-monet-series/).",
+          "Most of these were products of nineteenth-century industry, not the traditional colourman. The chromes are lead chromates, cheap and startlingly bright. The lakes are organic dyes precipitated onto an inert base, which is exactly what makes them fugitive. And in the same letter, underlined in the manuscript, comes a sentence that reads very differently now than it did then: \"all the colours that Impressionism has made fashionable are unstable, all the more reason boldly to use them too raw, time will only soften them too much.\" In the decades that followed, another painter organised his materials around a single motif, not a single palette, a programme traced in [Monet's Water Lilies series](/water-lilies-monet-series/).",
           "He knew. He bought them anyway, and his stated compensation was to lay them on unmixed and thick so that there would be more colour to lose.",
           "Nine months later he told the Dutch painter Arnold Koning precisely what had gone into the sunflower canvases of the previous summer: \"Painted with the three chrome yellows, yellow ochre and Veronese green and nothing else\" (letter 740, Arles, on or about 22 January 1889). Three yellows off that April invoice, one ochre, one green.",
           "This yields a rule that works standing in a gallery without a label. A canvas built on unmixed chrome yellow and Veronese green belongs to Arles or later. A canvas built on mixed earth neutrals is Dutch. The Paris pictures sit between the two, lighter than Nuenen and less flat than Arles."
@@ -340,31 +340,31 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "How can you tell an early Van Gogh painting from a late one?",
-        "answer": "By the pigments. Before he left the Netherlands in 1886 he worked in earth colours and mixed his complementary pairs down to neutrals, the method behind *The Potato Eaters*. From April 1888 in Arles he was painting with chrome yellows, Prussian blue, emerald and Veronese green, which he told Theo were \"hardly found in the Dutch palette\" (letter 595). The Paris pictures of 1886 to early 1888 sit between the two, already lightened but not yet flat."
+        "answer": "By the pigments. Before he left the Netherlands in 1886 he worked in earth colours, blending opposing hues into muted greys, the method behind his Nuenen-era potato-eaters canvas. From April 1888 in Arles he was painting with chrome yellows, Prussian blue, emerald and Veronese green, pigments he told Theo were barely part of his old Dutch-period palette (letter 595). His Paris-period canvases from 1886 to early 1888 fall in the middle, already lighter but not yet flattened into colour blocks."
       },
       {
         "question": "Were the walls in Van Gogh's The Bedroom really purple?",
-        "answer": "Yes. He listed the colours for Theo on 16 October 1888: \"The walls are of a pale violet\" and \"The doors lilac\" (letter 705). The Van Gogh Museum states that the walls and doors were originally purple and now read blue, because the unstable red lake in the mixture faded and left the blue component dominant. The floor was also a harder red than it is today."
+        "answer": "Yes. In a 16 October 1888 letter to Theo he described the walls as a light violet shade and the doors as lilac (letter 705). As the museum documents in its published collection record, those surfaces started out a shade of purple and now read blue, because the unstable red lake in the mixture faded and left the blue component dominant. The floor was also a harder red than it is today."
       },
       {
         "question": "Did Van Gogh really sell only one painting in his lifetime?",
-        "answer": "No, and the Van Gogh Museum says so directly: the exact number is unknown, \"but in any case, it was more than a couple.\" His uncle Cor commissioned nineteen cityscapes of The Hague, the Paris colourman Julien Tanguy bought a painting, and Theo sold one to a London gallery. *The Red Vineyard* was bought by Anna Boch after a public exhibition, which is the sale the myth compresses everything else into."
+        "answer": "No. According to the museum itself, no exact count survives, though it puts the total well beyond a single sale. His art-dealer uncle, Cor, ordered nineteen views of The Hague from him, a Paris colourman named Julien Tanguy took a canvas as well, and Theo placed a further painting with a gallery in London. The Red Vineyard found a buyer in Anna Boch after it went on public display, and that single sale is what the myth compresses everything else into."
       },
       {
         "question": "Why are Van Gogh's Sunflowers turning brown?",
-        "answer": "Two pigments are moving in opposite directions. Conservator Ella Hendriks summarised the 2016 research as showing \"the colour changes in Sunflowers are mainly caused by a certain type of red paint (geranium lake) fading and a certain type of yellow paint (chrome yellow) darkening\". Analysis published in *Angewandte Chemie* in 2015 found that the sulfur-rich chrome yellow he used reduces under light into chromium(III) compounds. The Van Gogh Museum cut its maximum light level from 150 to 50 lux in response and stopped lending the painting."
+        "answer": "Two pigments are moving in opposite directions. Ella Hendriks, the conservator who summarised the 2016 investigation, pointed to the red geranium lake in parts of the composition fading at the same time as the chrome yellow darkens. A 2015 paper in the journal Angewandte Chemie found that the sulfur-rich chrome yellow he used breaks down under exposure to light, forming trivalent-chromium compounds in the process. Amsterdam curators cut the maximum light level from 150 to 50 lux in response and stopped lending the painting."
       },
       {
         "question": "How many versions of Sunflowers did Van Gogh paint?",
-        "answer": "Five large canvases of a bunch of sunflowers in a vase, by the Van Gogh Museum's count, made in Arles in 1888 and 1889. The Amsterdam picture is dated January 1889 and repeats the summer 1888 version now in the National Gallery, London. He described the palette himself as \"the three chrome yellows, yellow ochre and Veronese green and nothing else\" (letter 740)."
+        "answer": "Five oversized canvases showing a vase of sunflower blooms, by the Amsterdam museum's own count, made in Arles in 1888 and 1889. The Amsterdam picture is dated January 1889; an earlier one from the summer of 1888 hangs in London's National Gallery. He told Arnold Koning the palette used three distinct chrome yellows together with yellow ochre and a Veronese green, nothing more (letter 740)."
       },
       {
         "question": "Which Van Gogh paintings have been digitally restored to their original colours?",
-        "answer": "*The Bedroom* received an early digital colour reconstruction, and *Field with Irises near Arles* was the subject of the full REVIGO reconstruction completed in 2017. In the reconstruction the irises are purple rather than blue and the field behind them is more strongly yellow, which matches his own description of the motif as \"that sea of yellow flowers with a line of purple irises\" (letter 612)."
+        "answer": "*The Bedroom* received an early digital colour reconstruction, and the Arles picture of irises among yellow flowers underwent the full REVIGO reconstruction completed in 2017. In that reconstruction the irises are purple rather than the blue seen today, and the surrounding field reads more strongly yellow, matching the field of yellow blooms streaked with purple irises that he wrote about to a fellow painter that same May (letter 612)."
       },
       {
         "question": "Where can I check the date and dimensions of a specific Van Gogh painting?",
-        "answer": "On the object page of the museum that owns it, since dates and measurements drift badly in secondhand sources. The Van Gogh Museum gives *The Potato Eaters* as Nuenen, April to May 1885, 82 by 114 cm (s0005V1962); *The Bedroom* as Arles, October 1888, 72.4 by 91.3 cm (s0047V1962); and *Sunflowers* as Arles, January 1889, 95 by 73 cm (s0031V1962)."
+        "answer": "On the object page of the museum that owns it, since dates and measurements drift badly in secondhand sources. Museum records place the Nuenen potato-eaters picture across April and May of 1885, at 82 by 114 cm (s0005V1962); *The Bedroom* in Arles, October 1888, at 72.4 by 91.3 cm (s0047V1962); and *Sunflowers* to January 1889 in Arles, at 95 by 73 cm (s0031V1962)."
       },
       {
         "question": "What is Vincent van Gogh's most famous painting called?",
@@ -372,7 +372,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Who owns most of Van Gogh's paintings?",
-        "answer": "The Van Gogh Museum in Amsterdam, which holds the largest Van Gogh collection anywhere: more than 200 paintings alongside some 500 drawings and over 800 of his letters, most of it built from the estate his brother Theo's family kept together after both brothers died in 1890."
+        "answer": "Amsterdam's Van Gogh Museum, home to the largest Van Gogh collection anywhere: more than 200 paintings alongside some 500 drawings and over 800 of his letters, most of it built from the estate his brother Theo's family kept together after both brothers died in 1890."
       }
     ],
     "sources": [
