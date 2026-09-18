@@ -2621,3 +2621,13 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow**：4篇URL已批量提交（Bing 200 / Yandex 200）。
 
 **剩余量**：45篇中已修复4篇（另加此前独立修复的`pop-art`），剩余41篇（2类16、3类19、4类2，其中1类剩余0篇已全部清零）待后续处理，见memory `project_umberlore_prose_gate_backlog_20260918`。
+
+## 2026-09-18 内链孤儿页补链（`internal_link_audit.py --all-pages`发现）
+
+全站重新审计（`--all-pages`模式，此前几次报告只查临门页子集）：正文入链=0的孤儿页从2篇降到1篇。
+
+**已修复**：`the-anatomy-lesson-nicolaes-tulp`（09-13发布，0入链）——从`michelangelo-sistine-chapel`（候选来源页里topic_score最高、outbound=4未超OUT_CAP=5）的"Standing, not lying down"小节末尾加一句真实桥接句，主题关联：两篇都是"用物理/科学证据检验一幅名画的流行叙事是否属实"（米开朗基罗站姿作画 vs. 伦勃朗解剖画科学复核）。Commit `ff80b8d`，build通过，push成功，IndexNow已提交，部署核实中。
+
+**暂缓、如实记录**：`open-license-art-image-directory`（Resources类图片版权工具页）仍是唯一真正0入链孤儿页。候选来源页全部topic_score=1（脚本最低有效档），逐一核对未发现任何一篇艺术史叙事文章跟这篇纯工具页有足够真实的主题关联可以写出自然桥接句（例如`mayan-art`正文本身不讨论图片授权话题，强行插入会显得生硬）。判断：不强行凑一条低质量链接，留待后续如果有更合适的新文章（比如讨论"如何合规使用博物馆图片"的相关叙事内容）自然带出这个链接。
+
+**其余4个入链≤1（非0，暂未处理）**：venus-de-milo/the-death-of-socrates/prussian-blue-pigment/fresco-painting各1条入链，优先级低于0入链孤儿页，留待后续。
