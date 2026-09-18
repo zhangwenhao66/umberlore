@@ -3,7 +3,7 @@
     "submitted_date": "2026-08-02",
     "verified_status": "stale_not_indexed",
     "note": "launch batch (2026-08-02); Bing 202 / Yandex 202 | discovered 03 Aug, account age 15 days",
-    "last_submitted_date": "2026-08-02",
+    "last_submitted_date": "2026-09-18",
     "last_checked_date": "2026-08-18",
     "verified_method": "bwt_url_inspection"
   },
@@ -89,7 +89,7 @@
   },
   "https://umberlore.com/frida-kahlo-paintings/": {
     "submitted_date": "2026-08-04",
-    "last_submitted_date": "2026-08-21",
+    "last_submitted_date": "2026-09-18",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection",
@@ -339,7 +339,7 @@
   },
   "https://umberlore.com/icarus-painting/": {
     "submitted_date": "2026-08-29",
-    "last_submitted_date": "2026-08-29",
+    "last_submitted_date": "2026-09-18",
     "verified_status": "pending"
   },
   "https://umberlore.com/aphrodite-painting/": {
