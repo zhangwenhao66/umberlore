@@ -2574,3 +2574,28 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **Build**：`npm run build` 通过，89个页面全部生成成功，无语法错误。
 
 **上线核实**：绕缓存curl 5个改动页面全部200，但抽查发布后约20秒内grep新增FAQ文本未命中（大概率是Cloudflare Pages部署延迟，符合R-seo-01"删改后最长7天缓存"的已知现象，抽查不到不算失败）。
+
+## 2026-09-18 pop-art存量prose-gate债务修复（站点COO首轮分析发现，Owen批准执行）
+
+**背景**：`独立站/站点COO/umberlore/COO报告_20260918.md`首轮分析发现`pop-art`一文（发布2026-08-03，早于`check_prose_patterns.py`2026-08-30上线）在09-16/09-17的PAA-FAQ批强任务中曾被检查出3类问题、因涉及正文改写超出当次任务范围而撤回未修复，记为遗留待办。Owen确认后本次修复。
+
+**初测**（`check_prose_patterns.py --guides guides.ts --slug pop-art`）：
+- L-0819-8 `'s own`归因短语3次（阈值>2）
+- L-0821-4 叙事性" - "冒充em dash 17处（零容忍）
+- L-0819-9 FAQ与正文≥20字符逐字重合7/8条
+
+**修复过程**：正文改写去掉2处"'s own"（降到0次）；17处" - "全部改写为句号/逗号/冒号或重组句子结构（不是简单替换成真正的em dash——em dash本身也是humanizer/avoid-ai-writing零容忍的AI写作特征，采用重写句子结构的方式）；FAQ重合经约12轮迭代收敛，多数是历史专有名词（作品标题、漫画期刊名、艺术家姓名组合）本身超过20字符导致的必然重合，采用"FAQ间接指代+正文保留完整信息"的方式解决（如把完整作品标题从FAQ里去掉、改用"named above"式指代，正文保留原样）。逐轮核对未改动任何事实（人名/日期/金额/机构名/作品标题/画作尺寸等全部保持原值），仅调整措辞与语序。
+
+**去AI味检查**：过`Skill(humanizer)`+`Skill(avoid-ai-writing)`双重检查（R-writing-02），detect模式核对全部改动段落——未发现Tier 1/2/3 AI高频词、无em dash残留、无filler/hedging/vague attribution等典型AI写作特征；发现并修正了一处为绕开机械重合检测而引入的补丁式短语（"named in full above"被机械重复使用4次），改用不同措辞自然表达，避免"改写本身注入新的可识别腔调"（R-writing-02关于avoid-ai-writing"Never inject these"一节的要求）。
+
+**最终检查**：`check_prose_patterns.py`四项全部退出码0。
+
+**Build**：`npm run build`通过，90个页面全部生成成功，无语法错误。
+
+**Git**：commit `4740916` content: fix pop-art prose-gate violations（`git pull --rebase`无冲突，`git push`成功，f70457e..4740916）。
+
+**上线核实**：绕缓存curl轮询（30秒间隔）第1次即命中新版本文本，200，确认部署生效。
+
+**IndexNow**：已提交`/pop-art/`（Bing 200 / Yandex 202）。
+
+**遗留**：无。该文本次3类机械检查问题已全部清零，未发现新的存量债务。
