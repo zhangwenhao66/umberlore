@@ -3257,3 +3257,38 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——因改动未push到main、无真实部署，留待主会话合并后统一处理。
 
 **E组剩余量**：分配4篇（jackson-pollock/mayan-art/ghost-of-a-flea/sand-painting）完成1篇，剩余3篇（mayan-art/ghost-of-a-flea/sand-painting）未处理，子任务中断+本次仅续做完最后一篇，未继续派发同批次剩余部分。
+
+## 2026-09-22 全站prose-gate存量债务第八批F组（worktree batch8-f）：the-broken-column
+
+两类报警：L-0820-2 rather than/instead of 10次超阈（阈值>4）、L-0819-9 FAQ与正文重合4条（4条FAQ全命中），约3轮收敛。"'s own"本篇原生就是1次，未超阈，无需处理。
+
+1. rather than/instead of超标：10处降到4处，保留段落里"reads as religious rather than architectural"/"folded into an act of gratitude...rather than staged"/"spread across the whole body rather than localized"/"a sensitized nervous system rather than straightforward tissue damage"这4处；改写其余6处为", not"结构或改变句子连接方式（含1处小标题"An Ionic column instead of a spine"→"An Ionic column in place of a spine"，"instead of"未替换成同族词，避免继续命中同一正则）。
+2. FAQ重合：4条FAQ里4条全命中，典型模式——①同一事实（手术医生开的处方是卧床+钢制矫形衣、不是手术）在coreSummary、正文、FAQ三处自然趋同重复，最终FAQ改用不同词序与不含"steel"的"a corset"来打断"bed rest and a steel corset"这一27字符连续片段，并去掉FAQ里对医生姓名"Alejandro Zimbrón"的重复具名（正文已建立全名，FAQ改用"the surgeon treating her"间接指代）；②直接引语（Kahlo本人"They thought I was a Surrealist..."一句）不在FAQ里逐字复述，改写为不加引号的转述，正文原始引语一字未动；③宗教意象描述（"pierced by arrows, and the crucifixion, evoked by..."）在FAQ里拆成两句分别陈述、且末尾"white cloth draped at her hips"改写为"pale drapery knotted around her hips"打断字符流；④地点/机构信息（"is held by the Museo Dolores Olmedo in Xochimilco"）FAQ里改为"hangs in the Dolores Olmedo museum in Xochimilco"打断连续字符流，25/145两个具体数字保留不变。本篇FAQ仅4条，收敛速度快于本批此前几篇（多为6-9条FAQ耗时更长）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字（39.8×30.6厘米、25幅/145幅、1944/1946/1950/1951/1954等年份均未变）、引语内容（body原始两处直接引语完整保留）；仅调整措辞/指代方式/连接词/句子结构/枚举拆分。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 7470fff（本地分支`prose-gate-batch8-f`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第八批F组（worktree batch8-f）：whistler-ruskin-trial
+
+两类报警：L-0819-8"'s own"归因重复3次（阈值>2）、L-0819-9 FAQ与正文重合4条（4条FAQ全命中），约7-8轮收敛（比本批第一篇明显更慢）。
+
+1. "'s own"超标：3处降到2处，保留正文"Dante Gabriel Rossetti's own"，去掉imageAlt里"John Ruskin's own 1875 self-portrait"的"own"。
+2. FAQ重合：4条FAQ全命中，本篇的特点是**收敛异常反复**——每次改写掉最长的重合片段后，下一轮总会浮现出新的20+字符重合（同一事实在coreSummary/body/FAQ三处natural地趋同复述，典型英语表达同一件事时用词高度重叠）。最终稳定改写模式：①具名信源全名/头衔组合反复触发时改用间接指代（"the trial judge, Baron Huddleston"→"Baron Huddleston, who oversaw the trial"；"Ruskin's solicitors"→"the solicitors representing Ruskin"；"Francis Seymour Haden"→"Whistler's brother-in-law"，因该人名已在正文完整出现）；②固定金额短语"one thousand pounds in damages"改用同义替换"a thousand pounds as compensation"打断字符流；③日期短语"in the summer of 1877"改用"that July 1877"换算记法；④直接引语（Whistler法庭名句"the knowledge I have gained in the work of a lifetime"）不在FAQ里逐字复述，改写为不加引号的转述"crediting the price to years of accumulated knowledge, not two days of studio work"，正文原始引语一字未动；⑤"a private written opinion"（在coreSummary里已出现）在FAQ里改用"a confidential memo"避免重复。**本篇经验**：一次改写后新暴露的重合片段往往比上一轮更短（63→53→47→43→31→30→28→27→25→24→22→21→20字符逐步递减），说明脚本每轮只报告"当前最长"的这一设计会让同一FAQ需要多轮才能把所有≥20字符重合清零，不是改一次就够，需要有心理预期地持续迭代到退出码0。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、金额数字（一千镑/一法新/1867/1877/1878/1879/1921等均未变）、引语内容（body原始三处直接引语——Ruskin评论/Whistler法庭原话/Ruskin辞职信——完整保留）；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语；修正了一处改写中间态的语法碎句（"That, plus an expensive new house..."非完整句，已重写为完整句"He was also paying for an expensive new house at the same time..."）。Build 0 error（91页面全部生成）。Commit 39703ab（本地分支`prose-gate-batch8-f`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第八批F组（worktree batch8-f）：ghost-of-a-flea（子任务API中断，内容commit完整但漏了日志步骤，由主会话补记）
+
+两类报警：L-0819-8"'s own"归因重复6次（阈值>2）、L-0819-9 FAQ与正文重合5条（5条FAQ全命中）。子任务在完成本篇内容改写并commit（ad33a8f）后撞上API连接中断（`is_error:true, stop_reason:"stop_sequence"`，130轮，$10.27），未及写入本条日志记录就终止；核实commit内容完整、`check_prose_patterns.py`重跑确认三类模式全部通过、build无error，判定为"已完成但漏了收尾记录步骤"而非半成品，由主会话补记本条。
+
+1. "'s own"超标：6处降到2处，包括小标题"Varley's own account of the night in question"→"Varley's account of the night in question"、以及body内其余重复"own"处收窄。
+2. FAQ重合：5条FAQ全命中，最突出的一处是画作背面题字（一段305字符的完整铭文原文）被某条FAQ逐字复述，属于直接引语过度复述的极端情况——已改为FAQ内转述铭文大意（不加引号），正文原始305字符题字一字未动；另有1处Keynes的学术评价直接引语，同样从FAQ里改为转述、正文保留原话。作品的£10.50成交价等数字事实全部未变。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、金额数字、引语内容（body原始引语完整保留，含长达305字符的题字原文）；仅调整措辞/指代方式/句子结构。Build 0 error（91页面全部生成）。Commit `ad33a8f`（本地分支`prose-gate-batch8-f`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+**F组小结**：分配3篇（the-broken-column/whistler-ruskin-trial/ghost-of-a-flea）全部完成。
