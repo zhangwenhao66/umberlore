@@ -3003,3 +3003,18 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——按任务要求，因改动未push到main、无真实部署，留待主会话合并后统一处理。
 
 **剩余量（本worktree范围内）**：A组分配9篇中完成1篇（edvard-munch-the-scream），剩余8篇待处理：sagrada-familia/starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock。
+
+## 2026-09-22 全站prose-gate存量债务第六批A组（worktree batch6-a）：sagrada-familia
+
+四类报警：L-0819-8"'s own"归因重复7次（阈值>2）、L-0820-2 rather than/instead of 7次超阈（阈值>4）、L-0821-4叙事性" - "冒充em dash 3处（imageCredit字段的Wikimedia Commons文件标题"General view - Nativity Facade - Sagrada Família - Barcelona 2014"用作markdown链接锚文本）、L-0819-9 FAQ与正文重合7条。改写约30轮收敛。
+
+1. "'s own"超标：7处里保留2处（"Gaudí's own studio models"、"God's own creation"），其余5处（Gaudí's own supervision/hand/drawings、the basilica's own construction office、the architect's own engineer）去掉"own"。
+2. rather than/instead of超标：改写3处为逗号+"not"分句（"proved lasting, not a one-time reaction"等），从7降到4。
+3. 连字符冒充em dash：与此前mona-lisa案例（09-18第三批）同类边界情况——imageCredit链接锚文本直接照搬Wikimedia Commons文件名（含" - "分隔符），改成逗号分隔"General view, Nativity Facade, Sagrada Família, Barcelona 2014"，URL本身未动。
+4. FAQ重合：这篇专有名词/长短语密度也较高（"Josep Maria Subirachs"21字符人名、"the Spanish Civil War"22字符专有战争名、官方全名"Basílica i Temple Expiatori de la Sagrada Família"、"Tower of Jesus Christ"等反复出现的塔名），套用与st-peters-basilica/edvard-munch-the-scream相同的间接指代策略：人名改用姓氏简称（"Subirachs"代替全名，body已完整给出）、专有战争名改写为"Spain's civil war of that era"/"the fighting of Spain's civil war"打断字符流、官方全名改为不逐字复述的意译（"labels it a temple of atonement"）、塔名改用"the central tower"等泛称。日期换算（"20 February 2026"→"February 20, 2026"）、机构泛称（"per the office that manages the build"代替"according to the construction office"）也用上。7条FAQ收敛比预期磨人，反复出现"修掉最长重合、次长重合又暴露"的模式，且两次因为改写时无意中复用了body原句的措辞（如"under Gaudí's direct supervision"、"sculptor Josep Maria Subirachs"）而引入新重合，提醒：改写FAQ时要避免顺手复用body里刚读到的确切短语。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容；仅调整措辞/指代方式/句子结构/链接锚文本分隔符。过`Skill(humanizer)`+`Skill(avoid-ai-writing)`复核未发现新引入AI写作特征。Build 0 error（91页面全部生成）。Commit（本地分支prose-gate-batch6-a，未push，等主会话合并）。
+
+**本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——按任务要求，因改动未push到main、无真实部署，留待主会话合并后统一处理。
+
+**剩余量（本worktree范围内）**：A组分配9篇中完成2篇（edvard-munch-the-scream、sagrada-familia），剩余7篇待处理：starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock。
