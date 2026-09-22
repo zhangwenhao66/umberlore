@@ -6588,7 +6588,7 @@ export const guides: Guide[] = [
         "heading": "Three versions across seventeen years",
         "body": [
           "The 1841 oil wasn't Martin's first attempt at this composition. In 1824 he engraved it as a mezzotint, one of twenty-four subjects from Paradise Lost commissioned by the London publisher Septimus Prowett. Martin was paid 2,000 guineas for that first set of plates, published by subscription in twelve monthly instalments between 1825 and 1827, each pairing two mezzotints with a section of Milton's text.",
-          "He returned to the same composition again in 1831, engraving a larger, separately sold print of it. A copy of that 1831 print, titled simply Pandemonium, is held today by the Yale Center for British Art. 1831 needs a caveat, though: Martin issued more than one large-format Pandemonium-related print that year. Alongside this exterior view of the palace rising from the ground, he also reissued a different composition from the same Prowett series, Satan Presiding at the Infernal Council, which shows the finished palace's interior rather than its exterior. The two prints are easy to conflate; they aren't the same picture.",
+          "He returned to the same composition again in 1831, engraving a larger, separately sold print of it. A copy of that 1831 print, titled simply Pandemonium, is held today by the Yale Center for British Art. 1831 needs a caveat, though: Martin issued more than one large-format Pandemonium-related print that year. Alongside this exterior view of the palace rising from the ground, he also reissued a different composition from the same Prowett series, Satan Presiding at the Infernal Council, which shows the finished palace's interior, not its exterior. The two prints are easy to conflate; they aren't the same picture.",
           "Martin didn't paint in oils again until 1840, after more than a decade working mostly on mezzotint and print projects. Pandemonium was among the first paintings he produced once he returned to the medium. According to the specialist essay written for a 2015 Sotheby's sale of a related Martin work, the finished 1841 oil \"remained quite close to the original mezzotint\" design, an unusual degree of fidelity to hold onto across seventeen years and two intervening print versions.",
           "By 1841, Satan's fall from grace was already well-trodden ground for European painters. [Alexandre Cabanel's Fallen Angel](/fallen-angel-painting/), painted in 1847 and exhibited the following year, takes the opposite approach: one figure alone in an abstract landscape, instead of a crowded capital city rising to house an entire army of the damned."
         ]
@@ -6608,7 +6608,7 @@ export const guides: Guide[] = [
       {
         "heading": "The frame with serpents and dragons",
         "body": [
-          "Martin didn't leave the picture's frame to a framer. He designed it himself: a wide, carved surround worked with serpents and dragons rather than the neutral gilt moulding standard on paintings of the period. The Louvre's own catalogue entry lists the frame as a distinct feature of the object, separate from the canvas and its 1841 signature.",
+          "Martin didn't leave the picture's frame to a framer. He designed it himself: a wide, carved surround worked with serpents and dragons rather than the neutral gilt moulding standard on paintings of the period. The Louvre's catalogue entry lists the frame as a distinct feature of the object, separate from the canvas and its 1841 signature.",
           "Most reproductions of the painting online crop the frame out entirely, showing only the canvas, so the detail is easy to miss unless you've seen a photograph of the object as it actually hangs, in Salle 713 of the Denon wing. Continuing the picture's subject onto its own border wasn't a requirement of the commission; Martin chose to do it. A religious subject painted from literary or devotional text rather than direct observation shows up again in a very different nineteenth-century canvas: [Jules Bastien-Lepage's 1879 Joan of Arc shows the saints who called her to fight as transparent, ghostly figures rather than solid ones, a choice one contemporary critic dismissed as \"false naturalism\"](/joan-of-arc-painting/)."
         ],
         "image": {
@@ -6638,27 +6638,27 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "What is Pandemonium the painting, and where can you see it?",
-        "answer": "It's an 1841 oil on canvas by the English Romantic painter John Martin, 123 by 185 centimetres, showing the moment the palace of Hell rises from the earth in Book I of Milton's Paradise Lost. It has hung in the Louvre in Paris since 2006, on display in Salle 713 of the Denon wing, under inventory number RF 2006 21."
+        "answer": "It's an 1841 oil on canvas by the English Romantic painter John Martin, roughly 123×185 cm, showing the moment Hell's great palace rises up out of the ground, the scene that opens Milton's epic Paradise Lost. It has hung in the Louvre in Paris since 2006, in the Denon wing's room 713, catalogued as RF 2006 21."
       },
       {
         "question": "Why is a building in a 17th-century poem called Pandemonium?",
-        "answer": "Milton invented the word for Paradise Lost, combining the Greek prefix for \"all\" with a Latin-derived word for demon, to name the \"high Capital / Of Satan and his Peers\" that the fallen angels build as their council chamber. The word left the poem behind long ago and now means uproar or chaos in ordinary English."
+        "answer": "Milton coined the word for Paradise Lost, fusing a Greek root meaning \"every\" with a Latin root for demon, then attached it to the fallen angels' council chamber, the capital city they raise for Satan and his lieutenants. That word has drifted far from the poem and now just means uproar or chaos in ordinary English."
       },
       {
         "question": "Did John Martin paint this scene only once?",
-        "answer": "No. The 1841 oil was his third pass at the same composition. He first engraved it as a mezzotint in 1824, one of twenty-four subjects from Paradise Lost he produced for the publisher Septimus Prowett, published by subscription between 1825 and 1827. He engraved a larger, separate print of the same scene again in 1831, before finally painting it in oil in 1841, seventeen years after the first version."
+        "answer": "No. The 1841 oil was his third version of the scene. He first rendered it in mezzotint in 1824, part of a two-dozen-print series drawn from the poem, issued to subscribers from 1825 to 1827. He engraved a larger, separate print of the same scene again in 1831, before finally painting it in oil in 1841, seventeen years after the first version."
       },
       {
         "question": "Is Pandemonium the same picture as Satan Presiding at the Infernal Council?",
-        "answer": "No, though the two are easy to confuse because both illustrate the same building from the same Milton commission. Pandemonium shows the palace's exterior rising from the earth; Satan Presiding at the Infernal Council, a separate mezzotint from the same 1820s series, shows its interior, with Satan enthroned before the assembled fallen angels. The Victoria and Albert Museum and the Fitzwilliam Museum both hold copies of the interior print and credit it, not the Louvre's oil, with influencing the set design of D.W. Griffith's silent films and the Star Wars prequel trilogy's Galactic Senate."
+        "answer": "No, though the two are easy to confuse because both illustrate the same building described in Milton's poem. Pandemonium shows Hell's palace from outside; its companion mezzotint from the same 1820s series shows the interior instead, Satan enthroned before the assembled fallen angels. Two English museums holding copies of that interior print, named above, credit it, not the Louvre's oil, with shaping how D.W. Griffith's earliest silent films were staged and, decades later, a Star Wars prequel's council-chamber design."
       },
       {
         "question": "Who owned Pandemonium before it reached the Louvre?",
-        "answer": "Per the Louvre's own provenance record, it belonged first to Benjamin Hick, a Bolton locomotive engineer, until his death in 1842, then sold at his estate auction in Manchester in 1843. It passed down through four generations of the Whiteley family until 1994, then to the Forbes Magazine Collection, then, after a 2003 Christie's sale, to a New York gallery, and finally to the Louvre in 2006, acquired through the bequest of the French architect Pierre Belliot and his wife."
+        "answer": "Per the Louvre's published ownership history, its first owner was Benjamin Hick, a Bolton engineer who built steam locomotives, until his death in 1842, then sold in Manchester at his 1843 estate sale. It stayed within one family, the Whiteleys, across four generations until 1994, then to a collection owned by the Forbes publishing family until a 2003 Christie's sale sent it onward to a New York gallery, and finally to the Louvre in 2006, acquired through the bequest of the French architect Pierre Belliot and his wife."
       },
       {
         "question": "How much is the painting Pandemonium by John Martin worth?",
-        "answer": "The Louvre hasn't disclosed what it paid when it acquired the painting in 2006, and as part of a national museum collection, it isn't for sale. As a benchmark, the auction record for any John Martin painting is $4,183,482, set in 2015 at Sotheby's London for The Celestial City and the River of Bliss (1841), another large apocalyptic history painting from the same period."
+        "answer": "The Louvre hasn't disclosed what it paid when it acquired the painting in 2006, and as part of a national museum collection, it isn't for sale. As a benchmark, the auction record for any John Martin painting is $4,183,482, set in 2015 at Sotheby's London for its 1841 companion piece described above, a fellow large apocalyptic history painting from the same period."
       }
     ],
     "sources": [
