@@ -1,0 +1,16 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "None of it is a document naming a patron, which puts this painting in the same evidentiary position as most works this famous: [what a museum's catalogue entry can and cannot establish](/famous-paintings/) turns out to matter more than the popular story built on top of it.",
+    "target_slug": "famous-paintings",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "Ownership records overturning a settled attribution decades after the fact is not unique to this painting either; it is the same kind of documentary reversal that reshaped [who legally owned Gustav Klimt's most famous portraits](/gustav-klimt/): this one was settled by an inventory, that one by arbitration after a courtroom fight over jurisdiction.",
+    "target_slug": "gustav-klimt",
+    "target_found": true
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "A comparable identification puzzle turns up in Mesoamerican art further south as well: [a tomb uncovered beneath the Bonampak murals in 2010 holds an occupant whose identity, captive or royal relative, has never been resolved](/mayan-art/).",
+    "target_slug": "mayan-art",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "[Gustav Klimt's own body of work carries a parallel argument over ownership, playing out in restitution disputes over paintings looted during the Nazi era](/gustav-klimt/), in a different European museum system but over the same basic question of who actually gets to hold and display a contested object.",
+    "target_slug": "gustav-klimt",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "The mandala offers a different kind of parallel: [the word and concept predate the specific images most people now associate with it by roughly two thousand years, a case where popular understanding lags behind a much older and more specific history](/mandala-art/).",
+    "target_slug": "mandala-art",
+    "target_found": true
+  }
+]

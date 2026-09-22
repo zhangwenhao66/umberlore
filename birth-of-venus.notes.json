@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "famous-paintings' entire theme is that museum catalogue entries (support/technique/size/inventory number) reveal facts the popular story omits -- coreSummary states 'Read from the catalogue entries of the museums that hold them, The Great Wave is a woodblock print... rather than a painting' etc. This is exactly 'what a museum's catalogue entry can and cannot establish,' matching the bridge sentence's framing."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Originally this bridge sentence said the Klimt ownership dispute was 'resolved through... a courtroom,' which was a MISMATCH: gustav-klimt's body states the 2004 US Supreme Court case only ruled on jurisdiction ('The Court expressly declined to review whether the expropriation exception... applied. It said nothing about who owned the paintings'), and ownership was actually decided by 'binding arbitration in Austria' (three Austrian jurists, award dated 15 January 2006). Fixed the birth-of-venus body text to read 'this one was settled by an inventory, that one by arbitration after a courtroom fight over jurisdiction' -- now accurately reflects that Klimt ownership went through a courtroom fight over jurisdiction first, then was actually settled by arbitration, paralleling how birth-of-venus's own attribution was settled by a 1499 inventory. Re-verified against gustav-klimt's full text after the edit: CONFIRMED accurate."
+  }
+]

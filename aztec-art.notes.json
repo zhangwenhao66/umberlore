@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "mayan-art body states: 'a 2010 excavation beneath the torture scene uncovered the tomb of a headless man whose identity, captive or royal relative, has never been resolved' and FAQ#4 repeats '2010, archaeologists found a stone crypt beneath Room 2's torture scene ... his identity has not been confirmed.' Matches the bridge sentence's claim about a 2010 Bonampak tomb with an unresolved captive-or-royal-relative identity exactly."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "gustav-klimt body documents that after the 1938 Anschluss the Lederer/Bloch-Bauer paintings were seized by the Nazi-appointed administrator, and ownership was later fought over via US litigation and a 2006 Austrian arbitration restitution award ('five Nazi-looted Bloch-Bauer paintings to Maria Altmann's family'). This is a genuine 'restitution dispute over paintings looted during the Nazi era,' matching the bridge sentence."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "mandala-art coreSummary states the word 'mandala' is first documented in the Rig Veda (c. 1500-1200 BCE) naming the text's ten books, 'not a drawing,' while the earliest pictorial mandalas survive only from 8th-9th century CE Tibetan sketches -- a gap the article itself says is 'closer to two thousand years than to one.' Body also notes 'this gets flattened in a lot of general-audience writing about mandalas,' confirming the bridge sentence's claim that the word/concept predates the images by roughly two millennia and popular understanding blurs the two."
+  }
+]
