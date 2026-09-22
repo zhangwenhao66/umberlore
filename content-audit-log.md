@@ -3041,3 +3041,18 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **顺手事项未处理**：与famous-landscape-paintings互相引用的镜像桥接句（"Later Renaissance landscapes have their own version of this gap..."）清理，因famous-landscape-paintings本身也在本批待处理清单内，留到处理该文时一并评估是否顺手改写，避免同一句话被改两次。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第六批C组（worktree batch6-c）：majolica
+
+两类报警：L-0820-2 rather than/instead of 7次超阈（阈值>4）、L-0819-9 FAQ与正文重合7条（8条FAQ里7条命中），约15轮收敛。"'s own"本篇原生就是2次，未超阈，无需处理。
+
+1. rather than/instead of超标：7处降到4处，改写其中3处为", not"/", 不"结构（"checkable rather than assumed"→"checkable, not merely assumed"；"in stages rather than all at once"→"in stages, not all at once"；"a trade union archive rather than a conservation lab"→"a trade union archive, not a conservation lab"）。
+2. FAQ重合：8条FAQ里7条命中，典型模式与此前几篇一致：①具名信源全名"Francesco Xanto Avelli da Rovigo"（32字符，本身已远超20字符阈值，且在imageCredit/正文/FAQ多处重复）——最终用短称"Xanto"（正文已建立的简称）加"introduced above"替代；②官方法规全名"the Pottery (Health and Welfare) Special Regulations"改用"the regulation detailed above"间接指代；③直接引语片段（V&A"inspired by"表述）在FAQ里改写措辞打断连续字符流；④机构+技术术语组合（"French ceramic chemist"、"colored lead glazes"、"lead-glazed relief work"）反复调整用词避开；⑤当FAQ答案开头与body句子开头共享前缀（如"Victorian majolica"、"Spanish tin-glazed"）时换开头结构规避。本篇收敛轮次约15轮，比famous-renaissance-paintings（约30轮）明显更快，因为FAQ数量更少（8条vs9条）且没有同时出现4个独立子故事各自的技术术语。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、法规编号；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 9509c9c（本地分支`prose-gate-batch6-c`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 本次worktree batch6-c会话总结
+
+处理完5篇（psychedelic-art、encaustic-painting、romanesque-painting、famous-renaissance-paintings、majolica），因famous-renaissance-paintings和majolica两篇FAQ收敛耗时明显增长（约30轮、15轮），按成本控制指引在完成majolica后主动停止，未继续处理剩余4篇（ghost-of-a-flea、famous-landscape-paintings、sand-painting、cristina-kahlo）。famous-renaissance-paintings与famous-landscape-paintings之间的镜像桥接句清理（"顺手事项"）未做，因famous-landscape-paintings本身未被处理，留给下一批一并评估。5次commit均已在本地分支`prose-gate-batch6-c`完成，未push，等待主会话合并到main后统一做push/绕缓存核实/IndexNow提交。
