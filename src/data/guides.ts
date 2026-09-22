@@ -5188,18 +5188,18 @@ export const guides: Guide[] = [
       {
         "heading": "Wilson's own account of the borrowing",
         "body": [
-          "The visual signature most associated with psychedelic art, hand lettering that seems to bend, melt, and vibrate, is usually treated as a direct graphic translation of a drug experience. Wilson's own account of where it came from is more specific and less mystical. According to the Smithsonian American Art Museum's own biography of the artist, Wilson's \"influential lettering was derived from the Viennese Secessionist lettering he discovered in a University of California exhibition catalogue,\" specifically the block lettering the Austrian designer Alfred Roller used on a poster for the Vienna Secession's sixteenth exhibition, staged in the winter of 1902–03. Poster House's chief curator, Angelina Lippert, separately places Roller's poster directly beside Wilson's 1967 poster for an Otis Rush performance at the Fillmore to show the letterforms carrying over almost intact, just stretched and colored differently. Wilson drew on other nineteenth-century sources too: his 1966 poster for Muddy Waters echoes the haloed, flower-crowned women Alphonse Mucha drew for the Paris printing house F. Champenois around 1897, and his 1967 poster for the Byrds recalls the undulating peacock illustrations of English artist Aubrey Beardsley."
+          "The visual signature most associated with psychedelic art, hand lettering that seems to bend, melt, and vibrate, is usually treated as a direct graphic translation of a drug experience. Wilson's account of where it came from is more specific and less mystical. According to the Smithsonian American Art Museum's biography of the artist, Wilson's \"influential lettering was derived from the Viennese Secessionist lettering he discovered in a University of California exhibition catalogue,\" specifically the block lettering the Austrian designer Alfred Roller used on a poster for the Vienna Secession's sixteenth exhibition, staged in the winter of 1902–03. Poster House's chief curator, Angelina Lippert, separately places Roller's poster directly beside Wilson's 1967 poster for an Otis Rush performance at the Fillmore to show the letterforms carrying over almost intact, just stretched and colored differently. Wilson drew on other nineteenth-century sources too: his 1966 poster for Muddy Waters echoes the haloed, flower-crowned women Alphonse Mucha drew for the Paris printing house F. Champenois around 1897, and his 1967 poster for the Byrds recalls the undulating peacock illustrations of English artist Aubrey Beardsley."
         ],
         "image": {
           "src": "/images/psychedelic-art-mucha-champenois-poster.jpg",
           "alt": "Alphonse Mucha's lithographed poster advertising the Paris printing house F. Champenois, showing a woman with flowing hair and a flower crown framed by ornamental Art Nouveau lettering and border patterns.",
-          "credit": "[Alfons Mucha - F. Champenois Imprimeur-Éditeur](https://commons.wikimedia.org/wiki/File:Alfons_Mucha_-_F._Champenois_Imprimeur-%C3%89diteur.jpg), c. 1897, public domain"
+          "credit": "[Alfons Mucha, F. Champenois Imprimeur-Éditeur](https://commons.wikimedia.org/wiki/File:Alfons_Mucha_-_F._Champenois_Imprimeur-%C3%89diteur.jpg), c. 1897, public domain"
         }
       },
       {
         "heading": "A myth the museum itself corrects",
         "body": [
-          "The most repeated anecdote about psychedelic lettering is that Bill Graham rejected an early Wilson poster because its text was illegible, and that Wilson shot back that people would stop to read it precisely because they couldn't. It is one of the most durable origin myths in American poster history, and Poster House's own chief curator, writing an account of Wilson's career on the museum's blog, flags it by name as \"popular myth\" rather than repeating it as settled fact. No contemporary documentation from Graham or Wilson at the time confirms the exchange happened as it is now told. The line survives because it is a better story than a verified one; no contemporary record backs it up."
+          "The most repeated anecdote about psychedelic lettering is that Bill Graham rejected an early Wilson poster because its text was illegible, and that Wilson shot back that people would stop to read it precisely because they couldn't. It is one of the most durable origin myths in American poster history, and Poster House's chief curator, writing an account of Wilson's career on the museum's blog, flags it by name as \"popular myth\" rather than repeating it as settled fact. No contemporary documentation from Graham or Wilson at the time confirms the exchange happened as it is now told. The line survives because it is a better story than a verified one; no contemporary record backs it up."
         ]
       },
       {
@@ -5218,19 +5218,19 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "When did psychedelic art actually begin?",
-        "answer": "If LSD-influenced visual art counts, it dates to at least 1954, when Los Angeles psychiatrist Oscar Janiger began giving the drug to patients and having some of them paint before and after dosing, as part of a study that ran until 1962. The style now called \"psychedelic art,\" tied to the 1966–67 concert posters made for San Francisco's Fillmore Auditorium, arrived roughly a decade later."
+        "answer": "If LSD-influenced visual art counts, it dates to at least 1954, when the psychiatrist profiled in the next answer started dosing patients and having some of them paint their reactions, in research that continued until 1962. The style now called \"psychedelic art,\" tied to the 1966–67 Fillmore concert posters discussed below, arrived roughly a decade later."
       },
       {
         "question": "Who was Oscar Janiger and what happened to his LSD study?",
-        "answer": "Janiger was a Los Angeles psychiatrist who gave LSD to about 900 subjects, including a sub-study of roughly a hundred professional artists, between 1954 and 1962. He abandoned the research in 1962 when the U.S. government began investigating LSD researchers, four years before California made the drug illegal in October 1966. Because he never widely published his findings at the time, his work is far less well known today than Timothy Leary's, even though it predates it."
+        "answer": "Janiger practiced psychiatry in Los Angeles and gave LSD to roughly 900 people, including the artist-focused sub-study described above, between 1954 and 1962. He shut the project down that year, after federal regulators started scrutinizing scientists running LSD studies, well ahead of California's October 1966 ban on it. Because he never widely published his findings at the time, his work is far less well known today than Timothy Leary's, even though it predates it."
       },
       {
         "question": "Where did the \"melting\" psychedelic poster lettering come from?",
-        "answer": "By poster artist Wes Wilson's own account, he adapted the block lettering of Austrian designer Alfred Roller, used on a poster for the Vienna Secession's sixteenth exhibition around 1902–03, and reworked how it filled the page into his own signature style. He also drew on Alphonse Mucha's Art Nouveau women and Aubrey Beardsley's illustration work for other posters made the same era."
+        "answer": "As Wilson explained it himself, he adapted block lettering that Alfred Roller had created for an early-1900s Vienna show, detailed above, then reworked how it filled the page into his own signature style. Other Wilson posters from that period drew on Alphonse Mucha's Art Nouveau women and, separately, the illustration work of Aubrey Beardsley."
       },
       {
         "question": "Is the story about Bill Graham rejecting Wilson's illegible poster true?",
-        "answer": "It's repeated constantly, but Poster House chief curator Angelina Lippert explicitly calls it \"popular myth\" in her published account of Wilson's career. The story holds that Graham objected to a Wilson poster because its text couldn't be read, and that Wilson replied people would stop to read it precisely because they couldn't, but no contemporary record confirms the exchange happened as it's now told."
+        "answer": "It's repeated constantly, but Poster House chief curator Angelina Lippert explicitly calls it \"popular myth\" in her write-up for the museum's blog. As the story goes, Graham balked at a poster's lettering, and Wilson fired back that its unreadability was the whole point, since passersby would linger to decode it. Neither man left any records at the time to back up that version of events."
       }
     ],
     "sources": [
