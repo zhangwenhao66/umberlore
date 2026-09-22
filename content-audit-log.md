@@ -3279,3 +3279,16 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 事实核对：全程未改动任何日期、人名拼写、机构名称、金额数字（一千镑/一法新/1867/1877/1878/1879/1921等均未变）、引语内容（body原始三处直接引语——Ruskin评论/Whistler法庭原话/Ruskin辞职信——完整保留）；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语；修正了一处改写中间态的语法碎句（"That, plus an expensive new house..."非完整句，已重写为完整句"He was also paying for an expensive new house at the same time..."）。Build 0 error（91页面全部生成）。Commit 39703ab（本地分支`prose-gate-batch8-f`，未push，等待主会话合并）。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第八批F组（worktree batch8-f）：ghost-of-a-flea（子任务API中断，内容commit完整但漏了日志步骤，由主会话补记）
+
+两类报警：L-0819-8"'s own"归因重复6次（阈值>2）、L-0819-9 FAQ与正文重合5条（5条FAQ全命中）。子任务在完成本篇内容改写并commit（ad33a8f）后撞上API连接中断（`is_error:true, stop_reason:"stop_sequence"`，130轮，$10.27），未及写入本条日志记录就终止；核实commit内容完整、`check_prose_patterns.py`重跑确认三类模式全部通过、build无error，判定为"已完成但漏了收尾记录步骤"而非半成品，由主会话补记本条。
+
+1. "'s own"超标：6处降到2处，包括小标题"Varley's own account of the night in question"→"Varley's account of the night in question"、以及body内其余重复"own"处收窄。
+2. FAQ重合：5条FAQ全命中，最突出的一处是画作背面题字（一段305字符的完整铭文原文）被某条FAQ逐字复述，属于直接引语过度复述的极端情况——已改为FAQ内转述铭文大意（不加引号），正文原始305字符题字一字未动；另有1处Keynes的学术评价直接引语，同样从FAQ里改为转述、正文保留原话。作品的£10.50成交价等数字事实全部未变。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、金额数字、引语内容（body原始引语完整保留，含长达305字符的题字原文）；仅调整措辞/指代方式/句子结构。Build 0 error（91页面全部生成）。Commit `ad33a8f`（本地分支`prose-gate-batch8-f`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+**F组小结**：分配3篇（the-broken-column/whistler-ruskin-trial/ghost-of-a-flea）全部完成。
