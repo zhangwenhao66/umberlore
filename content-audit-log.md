@@ -3017,3 +3017,20 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
 
 **本worktree（batch6-b）B组处理进度**：9篇清单中已处理2篇（michelangelo-sistine-chapel、mandala-art），剩余7篇：cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。
+
+## 2026-09-22 全站prose-gate存量债务第六批B组：cloisonne（worktree batch6-b，第3篇）
+
+三类报警全中（本批目前最难一篇）：L-0819-8"'s own"归因重复12次（阈值>2，本批最高）、L-0820-2 rather than/instead of 6次超阈（阈值>4）、L-0819-9 FAQ与正文重合5条（最长68字符）。改写约15轮收敛。
+
+1. "'s own"超标：12处里保留2处（"Kaji's own account of his career"改动前一版本最终改为转述"a profile of Kaji"、"Kaji Tsunekichi's own grandson"保留，均为有实际家族/个人归属含义的用法），其余10处（Metropolitan Museum of Art's own account/Sotheby's own historical account/Met's own essay/Met's own collection/Met's own reliquary/Met's own catalog×2/Katoshippo's own historical account/Sotheby's own account of Japanese cloisonné/Sotheby's own account结尾）去掉"own"。
+2. rather than/instead of超标：改写2处降到4次——"flag those as stylistic attributions rather than securely documented examples"改为"...attributions, not securely documented examples"；"flip just as fast toward closer scrutiny rather than prestige"改为"...as toward prestige"。
+3. FAQ重合：这篇专有名词+直接引语密度都很高。机构全称（Metropolitan Museum of Art、Fieschi Morgan Staurotheke文物名26字符）改用间接指代（"the Byzantine gold-and-cloisonné reliquary shown at the top of this page"代替具名文物）；Wikipedia原话引语"soft and easy to work with, as well as relatively inexpensive"（带引号直接引语）在FAQ改为不加引号的转述"easy to shape and cheap to source"，body内引语原文未动；"semi-industrial scale"（Wikipedia引语）同样改为转述"a scale...describes as approaching industrial production"；世纪/年代表述统一等值换算（"early ninth century"→"early 800s CE"、"mid-twelfth century"→"the 1150s"、"late eleventh century"整句删除改为不带具体年代的"medieval Western Europe"）；人物描述"Kaji Tsunekichi, a former samurai from Owari province"改为拆分重排（先给结论句，再补"he had given up his status as a samurai to work as a metal-gilder in the Owari region"）；巧合性子串重合（"description of the technique"与coreSummary"earliest written **mention** of the technique"因"-tion of the technique"后缀巧合命中）通过换词"explanation of the two methods"解决。
+4. 收敛轮次为本批最长（约15轮，5条FAQ，约3轮/FAQ），符合"专有名词+直接引语密度高的文章收敛显著更慢"的既有规律（与第五批st-peters-basilica、本批mandala-art一致）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容；两处直接引语从带引号逐字复述改为不加引号的转述时，转述内容与原意一致（核对：body原引语未动）。人工通读FAQ确认无em dash/delve等AI写作特征。Build 0 error（91页面）。Commit 9d5d001（本地分支`prose-gate-batch6-b`，未push，待主会话合并）。
+
+**顺手事项说明（桥接句复用）**：本文确实含"A craft's documented timeline can get backdated on purpose, not just misjudged at first sight"桥接句引到`/chiaroscuro-woodcut/`（行4365附近），与任务描述的骨架吻合，但引到`/mandala-art/`的桥接句（"The word-versus-object gap shows up elsewhere..."）用的是不同骨架，与任务描述稍有出入——留给处理emphasis-in-art时一并核对两篇的实际骨架是否真的逐字相似，若属实再按任务建议改写emphasis-in-art一侧（本文cloisonne一侧不动，作为"保留原表述"的一方）。
+
+**IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
+
+**本worktree（batch6-b）B组处理进度**：9篇清单中已处理3篇（michelangelo-sistine-chapel、mandala-art、cloisonne），剩余6篇：emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。因cloisonne耗时明显超出预期（三类报警全中+15轮收敛），下一篇emphasis-in-art处理前会重新评估节奏，感觉变慢会提前停在已完成的最后一篇。
