@@ -2987,3 +2987,17 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **上线核实**：两篇均绕缓存curl确认命中新文本。
 
 **IndexNow**：`/frank-lloyd-wright/`、`/simonetta-vespucci/`均已提交（Bing 200 / Yandex 200）。
+
+## 2026-09-22 全站prose-gate存量债务第六批B组：michelangelo-sistine-chapel（worktree batch6-b，第1篇）
+
+2类报警：L-0819-8"'s own"归因重复3次（阈值>2）、L-0819-9 FAQ与正文重合6条（最长67字符，付费金额"at 3,000 ducats, worth roughly $600,000 in gold value as of 2021"在body与FAQ3逐字重复）。改写约6轮收敛。
+
+1. "'s own"超标：coreSummary的"rejected the pope's own architect's scaffold plan"改为"rejected the pope's chosen architect's scaffold plan"，body内"pope's own architect"与"artist's own hand"两处保留，降到2次。
+2. FAQ重合：金额"3,000 ducats"/"$600,000"改用等值文字数字("three thousand ducats"/"an estimated $600,000")打断字符流，数值不变；日期"May 8, 1508"/"November 1, 1512"在FAQ2改用日月倒序等值换算("8 May 1508"/"1 November 1512")；人名"Cardinal Francesco Alidosi"（26字符）、"Giuliano da Sangallo"（20字符）在body已完整出现，FAQ改用间接指代（"the pope's intermediary"/"an outside architect"）；机构名"Domenico Ghirlandaio's workshop"改称"the Florentine workshop where he'd trained as a teenager"；"Waldemar Januszczak"在FAQ6简化为姓氏"Januszczak"（body保留全名）；其余是连接词/介词短语层面的措辞重排（"platform of his own design"→"platform built to his own specifications"、"in the chapel's damp conditions"→"Given the dampness inside the chapel"、"the standard lime-and-sand"→"the usual lime-and-sand"等）。
+3. 每消除一处最长重合，下一轮暴露次长重合，符合已知规律，8条FAQ约6轮收敛，快于"每条FAQ约1-1.5轮"的既有估算（可能因原始重合片段多为通用连接短语而非高密度专有名词堆叠）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容；仅调整措辞/指代方式/句子结构，数字换算均为等值形式。人工通读FAQ确认无em dash/delve等AI写作特征。Build 0 error（91页面）。Commit e8a2212（本地分支`prose-gate-batch6-b`，未push，待主会话合并）。
+
+**IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
+
+**本worktree（batch6-b）B组处理进度**：9篇清单中已处理1篇（michelangelo-sistine-chapel），剩余8篇：mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。
