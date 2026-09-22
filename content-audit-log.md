@@ -3215,3 +3215,13 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 ## 本次worktree batch6-c会话总结
 
 处理完5篇（psychedelic-art、encaustic-painting、romanesque-painting、famous-renaissance-paintings、majolica），因famous-renaissance-paintings和majolica两篇FAQ收敛耗时明显增长（约30轮、15轮），按成本控制指引在完成majolica后主动停止，未继续处理剩余4篇（ghost-of-a-flea、famous-landscape-paintings、sand-painting、cristina-kahlo）。famous-renaissance-paintings与famous-landscape-paintings之间的镜像桥接句清理（"顺手事项"）未做，因famous-landscape-paintings本身未被处理，留给下一批一并评估。5次commit均已在本地分支`prose-gate-batch6-c`完成，未push，等待主会话合并到main后统一做push/绕缓存核实/IndexNow提交。
+
+## 2026-09-22 全站prose-gate存量债务第七批E组：jackson-pollock（子任务API中断后由主会话接续完成）
+
+批次E的无头子任务在处理jackson-pollock时撞上API连接中断（`is_error:true, stop_reason:"stop_sequence"`，19轮，仅$1.54），核实工作目录发现中断前已完成3/4类检查（'s own/rather-than/em-dash全部通过），只剩L-0819-9 FAQ重合未收敛的干净WIP状态，无内容丢失。主会话直接续做完：1类报警（FAQ与正文7条全部命中，含1处对Pollock本人处理过程口述的直接引语被FAQ逐字复述，已改为转述，正文原始引语一字未动），约18轮收敛（本篇FAQ间关联性强，多处日期/地名/材料清单反复触发次长重合，收敛轮次高于同等FAQ数量的多数前例）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容（body原始引语完整保留）；仅调整FAQ措辞为转述、指代方式、句子结构、材料清单枚举顺序。Build 0 error（91页面全部生成）。Commit `69a7db3`（本地分支`prose-gate-batch7-e`，未push，等主会话合并）。
+
+**本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——因改动未push到main、无真实部署，留待主会话合并后统一处理。
+
+**E组剩余量**：分配4篇（jackson-pollock/mayan-art/ghost-of-a-flea/sand-painting）完成1篇，剩余3篇（mayan-art/ghost-of-a-flea/sand-painting）未处理，子任务中断+本次仅续做完最后一篇，未继续派发同批次剩余部分。
