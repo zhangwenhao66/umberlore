@@ -444,5 +444,17 @@
   "already_indexed_no_action": [],
   "quota_exceeded_attempted": [],
   "quota_used": "1 of shared account-wide daily quota"
+ },
+ {
+  "date": "2026-09-22",
+  "action": "submitted",
+  "reason": "今日新发布grisaille，URL Inspection确认URL unknown to Google，提交成功（期间因Claude in Chrome插件瞬时断连+页面'Testing if live URL can be indexed'耗时较长，重试3次后于约30秒内确认成功，非Quota Exceeded）。老页未收录巡检（unindexed_pages.py）额外发现fresco-painting（Discovered-not-indexed），第二轮提交成功。",
+  "submitted_urls": [
+   "https://umberlore.com/grisaille/",
+   "https://umberlore.com/fresco-painting/"
+  ],
+  "already_indexed_no_action": [],
+  "quota_exceeded_attempted": [],
+  "quota_used": "2 of shared account-wide daily quota"
  }
 ]
