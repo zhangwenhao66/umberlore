@@ -3268,3 +3268,14 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 事实核对：全程未改动任何日期、人名拼写、机构名称、数字（39.8×30.6厘米、25幅/145幅、1944/1946/1950/1951/1954等年份均未变）、引语内容（body原始两处直接引语完整保留）；仅调整措辞/指代方式/连接词/句子结构/枚举拆分。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 7470fff（本地分支`prose-gate-batch8-f`，未push，等待主会话合并）。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第八批F组（worktree batch8-f）：whistler-ruskin-trial
+
+两类报警：L-0819-8"'s own"归因重复3次（阈值>2）、L-0819-9 FAQ与正文重合4条（4条FAQ全命中），约7-8轮收敛（比本批第一篇明显更慢）。
+
+1. "'s own"超标：3处降到2处，保留正文"Dante Gabriel Rossetti's own"，去掉imageAlt里"John Ruskin's own 1875 self-portrait"的"own"。
+2. FAQ重合：4条FAQ全命中，本篇的特点是**收敛异常反复**——每次改写掉最长的重合片段后，下一轮总会浮现出新的20+字符重合（同一事实在coreSummary/body/FAQ三处natural地趋同复述，典型英语表达同一件事时用词高度重叠）。最终稳定改写模式：①具名信源全名/头衔组合反复触发时改用间接指代（"the trial judge, Baron Huddleston"→"Baron Huddleston, who oversaw the trial"；"Ruskin's solicitors"→"the solicitors representing Ruskin"；"Francis Seymour Haden"→"Whistler's brother-in-law"，因该人名已在正文完整出现）；②固定金额短语"one thousand pounds in damages"改用同义替换"a thousand pounds as compensation"打断字符流；③日期短语"in the summer of 1877"改用"that July 1877"换算记法；④直接引语（Whistler法庭名句"the knowledge I have gained in the work of a lifetime"）不在FAQ里逐字复述，改写为不加引号的转述"crediting the price to years of accumulated knowledge, not two days of studio work"，正文原始引语一字未动；⑤"a private written opinion"（在coreSummary里已出现）在FAQ里改用"a confidential memo"避免重复。**本篇经验**：一次改写后新暴露的重合片段往往比上一轮更短（63→53→47→43→31→30→28→27→25→24→22→21→20字符逐步递减），说明脚本每轮只报告"当前最长"的这一设计会让同一FAQ需要多轮才能把所有≥20字符重合清零，不是改一次就够，需要有心理预期地持续迭代到退出码0。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、金额数字（一千镑/一法新/1867/1877/1878/1879/1921等均未变）、引语内容（body原始三处直接引语——Ruskin评论/Whistler法庭原话/Ruskin辞职信——完整保留）；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语；修正了一处改写中间态的语法碎句（"That, plus an expensive new house..."非完整句，已重写为完整句"He was also paying for an expensive new house at the same time..."）。Build 0 error（91页面全部生成）。Commit 39703ab（本地分支`prose-gate-batch8-f`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
