@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claims the Calling of Saint Matthew dispute is about reading who Matthew is, not about who painted the picture. Verified by baroque-paintings coreSummary: \"art historians still disagree on which man at the table is actually Matthew, a debate running from Irving Lavin's 1993 reinterpretation to a 2026 study by Jurgen Muller arguing Caravaggio built the ambiguity on purpose\" -- authorship is never in question, only which figure is Matthew."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Claims a 2022 Rijksmuseum scan found Vermeer had painted over a wooden jug holder and a woven fire basket beneath The Milkmaid's surface. Verified by the-milkmaid-vermeer coreSummary: \"conservators using Macro-XRF and reflectance-imaging technology ... found that Vermeer had painted out a wooden jug holder and a woven fire basket, both matched to items in his estate inventory, on top of an earlier, hastily sketched underpainting beneath the milkmaid's arm.\""
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "Claims a 2010 fluorescence study measured the individual glaze layers inside Leonardo's sfumato. Verified by art-techniques coreSummary: \"A 2010 X-ray fluorescence study of nine faces Leonardo da Vinci painted across 40 years ... found his sfumato was built from as many as 30 glaze layers, each only 1 to 2 micrometers thick.\""
+  }
+]

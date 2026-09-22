@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Claims conservation science measured what sfumato/impasto/pointillism definitions leave out, down to paint-glaze layer width. Target article's own text: 'individual glaze layers only 1 to 2 micrometers thick... stacked as many as 30 times' from the 2010 X-ray fluorescence study, plus separate rheology and reading-list findings for impasto and pointillism."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Claims Romanesque painting has 'a rescue story of its own, a museum beating a dealer by hiring his crew.' Matches target article's own title verbatim: 'Romanesque Painting: A Museum Beat a Dealer by Hiring His Crew', and its body: the Catalan Museums Board 'hired Steffanoni's own crew for three more years' after losing the Santa Maria de Mur sale to dealer Ignasi Pollack."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "Claims the checklist for painting's formal structure dates to a specific 1968 textbook, not older tradition. Fixed a pre-existing factual error in the source article during this verification pass: it previously said '1899 classroom textbook', but the target article (elements-of-art) documents the 7-item checklist (line/shape/form/space/value/color/texture) specifically to Otto Ocvirk's 'Art Fundamentals', earliest Internet Archive copy a 1968 printing -- Dow's 1899 book only had 3 elements (line/notan/color), not the 7-item list referenced here. Corrected cloisonne's body text from 1899 to 1968 to match; also independently cross-confirmed by mandala-art's own text referencing 'that piece found a system many people assume is ancient turning out to date only to a 1968 textbook'."
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "note": "Claims the word mandala is documented nearly two thousand years before the earliest surviving pictorial mandala. Target article's own text: 'closer to two thousand years after that first documented use than to one' and FAQ states 'runs nearer 2,000 years than 1,000' between the Rig Veda's c. 1500-1200 BCE textual use and the 8th-9th century CE Tibetan pictorial sketches."
+  }
+]
