@@ -2907,3 +2907,29 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow**：已提交`/gustav-klimt/`（Bing 200 / Yandex 202）。
 
 **剩余量**：31篇存量批次中已修复1篇，剩余30篇：famous-paintings/frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream/sagrada-familia/starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock/michelangelo-sistine-chapel/mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art/psychedelic-art/encaustic-painting/romanesque-painting/famous-renaissance-paintings/majolica/ghost-of-a-flea/famous-landscape-paintings/sand-painting/cristina-kahlo。
+
+## 2026-09-22 全站prose-gate存量债务第四批：famous-paintings（31篇存量批次，第2篇）
+
+**命中**：三类全中——L-0820-2（rather than/instead of密度超阈，正文8次>阈值4次，本批目前最高）、L-0821-4（叙事性" - "1处，来自Wikimedia图片文件原名"Lundens - Nachtwache-Kopie"直接用作链接可读文本，与此前mona-lisa记录的同类边界情况一致）、L-0819-9（FAQ与正文≥20字符逐字重合，初次扫描5条FAQ命中，迭代过程中另有数条新surface，共约11轮收敛）。
+
+**修复方式**：
+- **对比框架**：8处消去4处降到阈值内（coreSummary"is a woodblock print issued in thousands of impressions rather than a painting"→", not a painting"；正文"classified under Prints rather than Paintings"→", not Paintings"；"collection pages rather than an aggregator"→"skipping any aggregator"；"the object record rather than the essay"→", not the essay"），保留4处（"mystery rather than assuming"/"floor rather than a final count"/"domestic setting rather than a church"/"open market rather than for a sitter"）未改，密度检查通过。**注意**：脚本该项检查只扫描sections正文+coreSummary+description等字段，不含FAQ，故FAQ answer里保留"rather than"用词不受此阈值约束，本文修复时确认过这一点。
+- **叙事性" - "**：图片credit链接可读文本"[Lundens - Nachtwache-Kopie]"改为逗号分隔"[Lundens, Nachtwache-Kopie]"，Wikimedia Commons的URL文件名本身（含连字符）未改动，不影响链接指向。
+- **FAQ逐字重合**：7条FAQ经约11轮收敛。命中类型：
+  - 直接引语转述：Mauritshuis"is not a portrait, but a 'tronie' – a painting of an imaginary figure"、"This pearl is too large to be real"两处正文直接引语，FAQ原先逐字复述，均改为转述（保留"tronie"术语本体和核心事实，不再逐字复述引号内容），正文引语一字不改。
+  - 机构全称重复触发："The Metropolitan Museum of Art"（FAQ改用文中已建立的简称"The Met"）；官方系列标题"Thirty-six Views of Mount Fuji"（FAQ改用描述性指代"a larger Hokusai print set depicting Mount Fuji"，正文完整标题保留）。
+  - 数字列表重合：Night Watch四条裁切尺寸（64.4/23.3/11.3/7 cm）FAQ与正文顺序完全一致导致重合，改为不同枚举顺序打断字符流，四个数值本身不变。
+  - 常规措辞重合（"Amsterdam's town hall"→"Amsterdam's city hall"同义替换；"attributed to Gerrit Lundens"→"historians link to the painter Gerrit Lundens"；"technique, material, dimensions, inventory"→重排序为"Technique, support, size, and inventory"）。
+  - 本文提供了一个新观察：description字段（非body/coreSummary）"support, technique, size, inventory number"也会被计入重合检查范围，FAQ4的"Size, support, technique..."与description重合触发过一轮，后续处理时需一并核对description字段。
+
+**去AI味检查**：人工逐句核对7条FAQ改写，无em dash、AI高频词、填充语、空泛归因；未引入未经核实的新细节，事实（尺寸数字、机构名、年份、金额）逐项核对与原文一致。
+
+**Build**：`npm run build`通过，90个页面全部生成成功，0 error。
+
+**Git**：commit `f03388b`（`git pull --rebase`无冲突，push成功，423c9e7..f03388b）。
+
+**上线核实**：绕缓存curl轮询，第3次（约40秒后）命中新版本文本，确认部署生效。
+
+**IndexNow**：已提交`/famous-paintings/`（Bing 200 / Yandex 200）。
+
+**剩余量**：31篇存量批次中已修复2篇（gustav-klimt、famous-paintings），剩余29篇：frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream/sagrada-familia/starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock/michelangelo-sistine-chapel/mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art/psychedelic-art/encaustic-painting/romanesque-painting/famous-renaissance-paintings/majolica/ghost-of-a-flea/famous-landscape-paintings/sand-painting/cristina-kahlo。
