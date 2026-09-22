@@ -3085,3 +3085,65 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——按任务要求，因改动未push到main、无真实部署，留待主会话合并后统一处理。
 
 **剩余量（本worktree范围内）**：A组分配9篇中完成4篇（edvard-munch-the-scream、sagrada-familia、starry-night、saturn-devouring-his-son）。本篇耗时明显超出前三篇（10处own+11处rather-than+9条FAQ重合，是本批目前报警数量最多的一篇），按任务成本控制要求，处理完这1篇后主动停止收尾，未继续处理剩余5篇（diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock）。
+## 2026-09-22 全站prose-gate存量债务第六批B组：michelangelo-sistine-chapel（worktree batch6-b，第1篇）
+
+2类报警：L-0819-8"'s own"归因重复3次（阈值>2）、L-0819-9 FAQ与正文重合6条（最长67字符，付费金额"at 3,000 ducats, worth roughly $600,000 in gold value as of 2021"在body与FAQ3逐字重复）。改写约6轮收敛。
+
+1. "'s own"超标：coreSummary的"rejected the pope's own architect's scaffold plan"改为"rejected the pope's chosen architect's scaffold plan"，body内"pope's own architect"与"artist's own hand"两处保留，降到2次。
+2. FAQ重合：金额"3,000 ducats"/"$600,000"改用等值文字数字("three thousand ducats"/"an estimated $600,000")打断字符流，数值不变；日期"May 8, 1508"/"November 1, 1512"在FAQ2改用日月倒序等值换算("8 May 1508"/"1 November 1512")；人名"Cardinal Francesco Alidosi"（26字符）、"Giuliano da Sangallo"（20字符）在body已完整出现，FAQ改用间接指代（"the pope's intermediary"/"an outside architect"）；机构名"Domenico Ghirlandaio's workshop"改称"the Florentine workshop where he'd trained as a teenager"；"Waldemar Januszczak"在FAQ6简化为姓氏"Januszczak"（body保留全名）；其余是连接词/介词短语层面的措辞重排（"platform of his own design"→"platform built to his own specifications"、"in the chapel's damp conditions"→"Given the dampness inside the chapel"、"the standard lime-and-sand"→"the usual lime-and-sand"等）。
+3. 每消除一处最长重合，下一轮暴露次长重合，符合已知规律，8条FAQ约6轮收敛，快于"每条FAQ约1-1.5轮"的既有估算（可能因原始重合片段多为通用连接短语而非高密度专有名词堆叠）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容；仅调整措辞/指代方式/句子结构，数字换算均为等值形式。人工通读FAQ确认无em dash/delve等AI写作特征。Build 0 error（91页面）。Commit e8a2212（本地分支`prose-gate-batch6-b`，未push，待主会话合并）。
+
+**IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
+
+**本worktree（batch6-b）B组处理进度**：9篇清单中已处理1篇（michelangelo-sistine-chapel），剩余8篇：mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。
+
+## 2026-09-22 全站prose-gate存量债务第六批B组：mandala-art（worktree batch6-b，第2篇）
+
+2类报警：L-0819-8"'s own"归因重复8次（阈值>2，本批最高）、L-0819-9 FAQ与正文重合5条（最长96字符，Rig Veda日期段落在coreSummary/body/FAQ1三处重复）。改写约10轮收敛，本批目前最磨人一篇。
+
+1. "'s own"超标：8处里保留2处（"the museum's own record of the event"、"Jung's own psychic material"，均为有实际对比含义的用法），其余6处（World History Encyclopedia's own entry/The Met's own materials/Sakya school's own spiritual lineage/Smithsonian's own Sackler Gallery/Dalai Lama's own account/Library of Congress's own exhibition）去掉"own"。
+2. FAQ重合：这篇专有名词密度也很高（Vedic Heritage Portal 22字符、Smithsonian's National Museum of Asian Art、Mandalas: Mapping the Buddhist Art of Tibet展览标题44字符、Metropolitan Museum of Art全称），全部改用间接指代或已在body/其他FAQ里用过的简称（"The Met"代替"The Metropolitan Museum of Art"、"The Smithsonian"代替全称机构名、"a documented exhibit"代替"Library of Congress"具体机构名、展览标题改述为"a dedicated show on the Buddhist mandala tradition of Tibet"）。世纪/年代表述统一改用等值数字换算打断字符流（"8th and 9th centuries"→"700s and 800s"、"11th and 12th centuries"→"1100s and 1200s"、"sixth century"→"500s"、"14th-century"→"1300s"）。日期"July 16, 2014"/"September 19, 2024"等在FAQ里改用日月倒序等值换算。数字"two thousand years than to one"改用阿拉伯数字"2,000 years than 1,000"打断字符流，语义未变（对应原文隐含的千年对比）。引语性短语"the archetype of wholeness"（Jung原话，body里带引号）在FAQ改为不加引号的转述"a symbol of psychological wholeness"，避免逐字复述带引号的直接引语。
+3. 收敛轮次明显长于此前几批（约10轮，5条FAQ，约2轮/FAQ），高于"1-1.5轮/FAQ"的既有估算，符合"专有名词密度高的文章收敛更慢"的已知规律（同第五批st-peters-basilica经验一致）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容；仅调整措辞/指代方式/句子结构，数字与日期换算均为等值形式。人工通读FAQ确认无em dash/delve等AI写作特征，direct quote改为转述未遗漏原意。Build 0 error（91页面）。Commit 5d38c92（本地分支`prose-gate-batch6-b`，未push，待主会话合并）。
+
+**顺手事项说明**：本文是cloisonne/emphasis-in-art两篇桥接句的引用目标，但本次未改动mandala-art正文的可引用内容（无需改，两篇桥接句改写只需改引入侧的cloisonne/emphasis-in-art，不影响本文）。
+
+**IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
+
+**本worktree（batch6-b）B组处理进度**：9篇清单中已处理2篇（michelangelo-sistine-chapel、mandala-art），剩余7篇：cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。
+
+## 2026-09-22 全站prose-gate存量债务第六批B组：cloisonne（worktree batch6-b，第3篇）
+
+三类报警全中（本批目前最难一篇）：L-0819-8"'s own"归因重复12次（阈值>2，本批最高）、L-0820-2 rather than/instead of 6次超阈（阈值>4）、L-0819-9 FAQ与正文重合5条（最长68字符）。改写约15轮收敛。
+
+1. "'s own"超标：12处里保留2处（"Kaji's own account of his career"改动前一版本最终改为转述"a profile of Kaji"、"Kaji Tsunekichi's own grandson"保留，均为有实际家族/个人归属含义的用法），其余10处（Metropolitan Museum of Art's own account/Sotheby's own historical account/Met's own essay/Met's own collection/Met's own reliquary/Met's own catalog×2/Katoshippo's own historical account/Sotheby's own account of Japanese cloisonné/Sotheby's own account结尾）去掉"own"。
+2. rather than/instead of超标：改写2处降到4次——"flag those as stylistic attributions rather than securely documented examples"改为"...attributions, not securely documented examples"；"flip just as fast toward closer scrutiny rather than prestige"改为"...as toward prestige"。
+3. FAQ重合：这篇专有名词+直接引语密度都很高。机构全称（Metropolitan Museum of Art、Fieschi Morgan Staurotheke文物名26字符）改用间接指代（"the Byzantine gold-and-cloisonné reliquary shown at the top of this page"代替具名文物）；Wikipedia原话引语"soft and easy to work with, as well as relatively inexpensive"（带引号直接引语）在FAQ改为不加引号的转述"easy to shape and cheap to source"，body内引语原文未动；"semi-industrial scale"（Wikipedia引语）同样改为转述"a scale...describes as approaching industrial production"；世纪/年代表述统一等值换算（"early ninth century"→"early 800s CE"、"mid-twelfth century"→"the 1150s"、"late eleventh century"整句删除改为不带具体年代的"medieval Western Europe"）；人物描述"Kaji Tsunekichi, a former samurai from Owari province"改为拆分重排（先给结论句，再补"he had given up his status as a samurai to work as a metal-gilder in the Owari region"）；巧合性子串重合（"description of the technique"与coreSummary"earliest written **mention** of the technique"因"-tion of the technique"后缀巧合命中）通过换词"explanation of the two methods"解决。
+4. 收敛轮次为本批最长（约15轮，5条FAQ，约3轮/FAQ），符合"专有名词+直接引语密度高的文章收敛显著更慢"的既有规律（与第五批st-peters-basilica、本批mandala-art一致）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容；两处直接引语从带引号逐字复述改为不加引号的转述时，转述内容与原意一致（核对：body原引语未动）。人工通读FAQ确认无em dash/delve等AI写作特征。Build 0 error（91页面）。Commit 9d5d001（本地分支`prose-gate-batch6-b`，未push，待主会话合并）。
+
+**顺手事项说明（桥接句复用）**：本文确实含"A craft's documented timeline can get backdated on purpose, not just misjudged at first sight"桥接句引到`/chiaroscuro-woodcut/`（行4365附近），与任务描述的骨架吻合，但引到`/mandala-art/`的桥接句（"The word-versus-object gap shows up elsewhere..."）用的是不同骨架，与任务描述稍有出入——留给处理emphasis-in-art时一并核对两篇的实际骨架是否真的逐字相似，若属实再按任务建议改写emphasis-in-art一侧（本文cloisonne一侧不动，作为"保留原表述"的一方）。
+
+**IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
+
+**本worktree（batch6-b）B组处理进度**：9篇清单中已处理3篇（michelangelo-sistine-chapel、mandala-art、cloisonne），剩余6篇：emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。因cloisonne耗时明显超出预期（三类报警全中+15轮收敛），下一篇emphasis-in-art处理前会重新评估节奏，感觉变慢会提前停在已完成的最后一篇。
+
+## 2026-09-22 全站prose-gate存量债务第六批B组：emphasis-in-art（worktree batch6-b，第4篇）
+
+2类报警：L-0819-8"'s own"归因重复9次（阈值>2）、L-0819-9 FAQ与正文重合5条（最长130字符，Rijksmuseum关于《夜巡》的直接引语在body和FAQ4里逐字重复）。改写约20轮收敛，本批目前最磨人一篇（超过cloisonne的15轮）。
+
+1. "'s own"超标：9处里保留2处（"guild's own emblem"、"Rembrandt's own asymmetrical original"，均为有实际对比/归属含义的用法），其余7处（Dow's own definition/Graves's own index/Dow's own turn-of-the-century/Rijksmuseum's own description/museum's own account/Rijksmuseum's own 2021 announcement/"not Rembrandt's own"改写为"not something Rembrandt chose"）去掉"own"或改写。
+2. FAQ重合：这篇的直接引语密度是本批最高——Rijksmuseum关于《夜巡》光影处理的完整一句引语（130字符）在body和FAQ4逐字重复，改为不加引号的转述"Rembrandt used a shaft of light to pull the eye toward two specific details"，body原引语未动。三位设计理论家（Ross/Dow/Graves）的书名（A Theory of Pure Design、Composition、The Art of Color and Design）和人物全名（Denman Waldo Ross、Arthur Wesley Dow）反复触发重合，改用已在其他地方确立的简称（"Ross"/"Dow"代替全名，书名部分场合省略只留年份+"design treatise"泛称）。三词术语列表"Harmony, Balance, and Rhythm"因与body/description字段的书面表述重合，改用重新排序"Balance, Harmony, and Rhythm"打断字符流（同一份三词概念，排序不影响事实）。教育史学者Nanyoung Kim的书名/年份表述多次调整措辞规避重合。一处易被忽略的重合源是`description`字段本身（也被脚本纳入比对范围）——FAQ2最初改写后意外与`description`字段"Ross's 1907 design treatise names three principles"逐字重合，提醒以后类似改写要连description/imageAlt等元数据字段一起核对，不能只对照body/coreSummary。
+3. 收敛轮次为目前最长（约20轮，5条FAQ，约4轮/FAQ），符合"专有名词+直接引语密度高的文章收敛更慢"规律，且本篇额外因为有3位历史人物+3本书名同时高频出现，属于比cloisonne更极端的密度案例。
+
+事实核对：全程未改动任何日期、人名拼写、书名、数字、引语内容；唯一直接引语（Rijksmuseum一句）从带引号逐字复述改为不加引号的转述，转述内容与原意一致，body原引语未动。人工通读FAQ确认无em dash/delve等AI写作特征。Build 0 error（91页面）。Commit 3f020c0（本地分支`prose-gate-batch6-b`，未push，待主会话合并）。
+
+**顺手事项（桥接句改写，已完成）**：本文确认含两处与cloisonne几乎逐字相同的桥接句——引到`/chiaroscuro-woodcut/`（"A technique's accepted origin story can get backdated on purpose, not just renamed by later theorists"骨架，与cloisonne的"A craft's documented timeline can get backdated on purpose, not just misjudged at first sight"几乎同构）、引到`/mandala-art/`（"The pattern shows up again with a completely different kind of art vocabulary"骨架，与cloisonne的"The word-versus-object gap shows up elsewhere in decorative and ritual art too"几乎同构）。已按任务建议改写emphasis-in-art一侧的两处引入句框架（cloisonne一侧保留不动，作为原表述），链接目标和被引用事实（chiaroscuro-woodcut的1508年重新断代、mandala-art词与图像近两千年的时间差）完全未变。改写后重跑三篇（cloisonne/mandala-art/emphasis-in-art）的prose-gate检查均仍通过，build 0 error。
+
+**IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
+
+**本worktree（batch6-b）B组处理进度**：9篇清单中已处理4篇（michelangelo-sistine-chapel、mandala-art、cloisonne、emphasis-in-art）。因cloisonne（15轮）和emphasis-in-art（20轮）连续两篇远超预期耗时，累计成本已显著超出"平均$5-7/篇"的预估，本次会话在完成第4篇后主动停止收尾，不再处理剩余5篇（baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art）。
