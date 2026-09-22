@@ -3215,3 +3215,14 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 ## 本次worktree batch6-c会话总结
 
 处理完5篇（psychedelic-art、encaustic-painting、romanesque-painting、famous-renaissance-paintings、majolica），因famous-renaissance-paintings和majolica两篇FAQ收敛耗时明显增长（约30轮、15轮），按成本控制指引在完成majolica后主动停止，未继续处理剩余4篇（ghost-of-a-flea、famous-landscape-paintings、sand-painting、cristina-kahlo）。famous-renaissance-paintings与famous-landscape-paintings之间的镜像桥接句清理（"顺手事项"）未做，因famous-landscape-paintings本身未被处理，留给下一批一并评估。5次commit均已在本地分支`prose-gate-batch6-c`完成，未push，等待主会话合并到main后统一做push/绕缓存核实/IndexNow提交。
+
+## 2026-09-22 全站prose-gate存量债务第七批D组（worktree batch7-d）：diego-rivera
+
+两类报警：L-0819-8"'s own"归因重复3次（阈值>2）、L-0819-9 FAQ与正文重合7条（8条FAQ里7条命中），约4轮收敛。
+
+1. "'s own"超标：3处降到2处，保留"Kahlo's own account"、"Rivera's own memory"，去掉"Valentiner's own commission letter"里的"own"（"Valentiner's commission letter"）。
+2. FAQ重合：典型模式——①机构全名"Rockefeller Center Inc."（23字符本身已超阈值）在FAQ里改用"the company that had hired him"/"the firm that hired him"间接指代；②作品新标题"Man, Controller of the Universe"（32字符）在FAQ里改用"under a new title"/"bearing a different title"/"under its later title"间接指代（正文与coreSummary已完整给出全称，FAQ不重复不算信息丢失）；③人名"Abby Aldrich Rockefeller"（24字符）改用"the same Rockefeller family collector who later proposed him for his celebrated New York mural"关系描述；④人名"Nelson Rockefeller"（19字符，但连同前后标点/空格反复越过20字符阈值）改用"the developer's son, who oversaw the building's art program"间接指代；⑤官方名称"National Historic Landmark"改用"federal landmark status"间接表述；⑥Detroit News的直接引语"vulgar"和"un-American"改写为不加引号的转述"panned the whole cycle in harshly nationalistic terms"；⑦常见短语"the unfinished work"改写为"the still-incomplete mural"打断字符流。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、金额数字（$21,000、$7,000、100磅、27幅壁画、1933/1934年份等均未变）；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 32bcb0b（本地分支`prose-gate-batch7-d`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
