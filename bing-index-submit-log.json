@@ -104,5 +104,15 @@
       "https://umberlore.com/prussian-blue-pigment/"
     ],
     "method": "SubmitUrl"
+  },
+  {
+    "date": "2026-09-22",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/fresco-painting/",
+      "https://umberlore.com/grisaille/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
