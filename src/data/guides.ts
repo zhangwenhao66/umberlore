@@ -3845,7 +3845,7 @@ export const guides: Guide[] = [
     "description": "Michelangelo painted the Sistine Chapel ceiling standing upright for four and a half years, not lying down, and built his own scaffold after rejecting the pope's design.",
     "published": "2026-08-11",
     "updated": "2026-09-12",
-    "coreSummary": "Michelangelo painted the Sistine Chapel ceiling standing on a platform of his own design, leaning his head and torso backward for four and a half years, not lying on his back as the popular image holds. He took the 1508 commission only after Pope Julius II's allies talked him back to Rome, rejected the pope's own architect's scaffold plan in favor of one he built himself, watched his first finished section grow mold within months, and wrote to a friend in a sonnet that his eyesight and judgment had gone crooked from the strain, since \"'tis ill shooting through a twisted reed.\"",
+    "coreSummary": "Michelangelo painted the Sistine Chapel ceiling standing on a platform of his own design, leaning his head and torso backward for four and a half years, not lying on his back as the popular image holds. He took the 1508 commission only after Pope Julius II's allies talked him back to Rome, rejected the pope's chosen architect's scaffold plan in favor of one he built himself, watched his first finished section grow mold within months, and wrote to a friend in a sonnet that his eyesight and judgment had gone crooked from the strain, since \"'tis ill shooting through a twisted reed.\"",
     "image": "/images/michelangelo-sistine-ceiling-full.jpg",
     "imageAlt": "The full ceiling of the Sistine Chapel, painted by Michelangelo between 1508 and 1512, showing the Genesis scenes and surrounding prophets and sibyls.",
     "imageCredit": "[Sistine Chapel ceiling](https://commons.wikimedia.org/wiki/File:Michelangelo_Buonarroti_014.jpg), Michelangelo, 1508–1512, Sistine Chapel, Vatican Museums, public domain",
@@ -3919,27 +3919,27 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Did Michelangelo paint the Sistine Chapel ceiling lying on his back?",
-        "answer": "No. He worked standing on a raised wooden platform of his own design, about seven feet below the vault, leaning his head and upper body backward with his arms raised overhead. The reclining image is a later invention, popularized above all by the 1965 film \"The Agony and the Ecstasy\"; no source written in his lifetime describes him that way. Michelangelo's own marginal sketch of himself at work, drawn beside his sonnet about the ordeal, shows him upright."
+        "answer": "No. He worked standing on a raised wooden platform built to his own specifications, about seven feet under the ceiling, tilting his head and upper body backward with his arms raised overhead. The reclining image is a later invention, popularized above all by a 1965 Hollywood dramatization of his life; no source written in his lifetime describes him working that way. His own marginal sketch of himself at work, made next to the verses he wrote describing the strain, shows him upright."
       },
       {
         "question": "How long did it take Michelangelo to paint the Sistine Chapel ceiling?",
-        "answer": "About four and a half years. He signed the contract on May 8, 1508, and the ceiling was unveiled to the public on November 1, 1512."
+        "answer": "Roughly 4.5 years. The agreement was finalized on 8 May 1508, and the ceiling was unveiled to the public on 1 November 1512."
       },
       {
         "question": "How much was Michelangelo paid for the Sistine Chapel ceiling?",
-        "answer": "The contract set his fee at 3,000 ducats, worth roughly $600,000 in gold value as of 2021. Pope Julius II's agent, Cardinal Francesco Alidosi, had first lured him back to Rome in 1508 with a partial offer of 500 ducats before the full contract was signed."
+        "answer": "The contract fixed his fee at three thousand ducats, worth an estimated $600,000 in gold-equivalent value under a 2021 calculation. The pope's intermediary had first lured him back to Rome in 1508 with a partial offer of 500 ducats before the formal agreement was finalized."
       },
       {
         "question": "Did Michelangelo paint the entire ceiling by himself?",
-        "answer": "He brought a team of Florentine assistants to Rome to help, several of them former colleagues from Domenico Ghirlandaio's workshop. He judged none of them skilled enough at fresco painting to trust with the actual figures, so he painted the ceiling's more than 300 figures himself, keeping the assistants mainly for grinding pigments and preparing plaster rather than for painting."
+        "answer": "He brought a team of Florentine assistants to Rome to help, several of them former colleagues from the Florentine workshop where he'd trained as a teenager. He decided none of them had the fresco skill needed for the actual figures, so more than 300 of the ceiling's figures are his work alone. The assistants were kept on mainly to grind pigments and prepare plaster, not to handle the brushwork."
       },
       {
         "question": "Why did part of the ceiling grow mold while Michelangelo was working on it?",
-        "answer": "His crew's first batch of plaster used lime mixed with pozzolana, a volcanic-ash mortar common in Roman construction, instead of the standard lime-and-sand mix. It stayed wet too long in the chapel's damp conditions and grew mold across the first finished section. Pope Julius II sent the architect Giuliano da Sangallo to advise on a fix; Michelangelo's crew switched to lime and sand, and he repainted the affected area."
+        "answer": "His crew's first batch of plaster combined lime with pozzolana, an ash-based volcanic material often used in ancient Roman building work, instead of the usual lime-and-sand mixture. Given the dampness inside the chapel, the plaster remained wet far longer than intended, and mold spread across the first completed section. Pope Julius II brought in an outside architect to advise on a fix; the team then moved to a lime-sand blend, after which he repainted the affected area."
       },
       {
         "question": "Was the 1980s-1990s restoration of the ceiling controversial?",
-        "answer": "Yes. Cleaning revealed colors considerably brighter than the muted palette scholars had long assumed was original. Critics including art historian James Beck and writer Waldemar Januszczak argued the cleaning also took off a layer of shading and glaze that Michelangelo brushed on once the plaster had set, so part of what came away was his own finishing work, not just centuries of dirt."
+        "answer": "Yes. Cleaning revealed colors considerably brighter than the muted palette scholars had long assumed was original. Critics such as James Beck and Januszczak felt the process had also stripped away a layer of shading and glaze that Michelangelo brushed on once the plaster had set, so part of what came away was his own finishing work, not just centuries of dirt."
       },
       {
         "question": "Why does Adam look so lifeless on the Sistine Chapel ceiling?",
