@@ -5079,7 +5079,7 @@ export const guides: Guide[] = [
         "image": {
           "src": "/images/bonampak-structure1-interior-mural.jpg",
           "alt": "The original, weathered Bonampak murals still on the walls at the archaeological site, showing faded but legible painted figures in procession against a blue-green background.",
-          "credit": "[Bonampak - 24 - 22](https://commons.wikimedia.org/wiki/File:Bonampak_-_24_-_22.jpg) by ProtoplasmaKid, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+          "credit": "[Bonampak, 24, 22](https://commons.wikimedia.org/wiki/File:Bonampak_-_24_-_22.jpg) by ProtoplasmaKid, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
         }
       },
       {
@@ -5097,7 +5097,7 @@ export const guides: Guide[] = [
       {
         "heading": "The heir who was a girl",
         "body": [
-          "One of the murals' most confidently repeated readings turned out to be wrong. In Room 1, an attendant presents a child to the assembled court, a scene most twentieth-century interpreters read as the presentation of the ruling family's heir, implicitly assumed to be a boy. Working closely with high-resolution photography as part of a modern documentation effort, muralist and archaeological illustrator Heather Hurst was the first to notice that the child's face paint and costume, details consistent with how the murals mark female figures elsewhere in the same rooms, indicate a girl rather than a boy. Combined with the unnamed ruler in Room 1 and the three young princes who dominate Room 3 without their father appearing at all, Hurst's observation adds to a picture of Bonampak's succession as considerably less settled than the murals' triumphant imagery first suggests."
+          "One of the murals' most confidently repeated readings turned out to be wrong. In Room 1, an attendant presents a child to the assembled court, a scene most twentieth-century interpreters read as the presentation of the ruling family's heir, implicitly assumed to be a boy. Working closely with high-resolution photography as part of a modern documentation effort, muralist and archaeological illustrator Heather Hurst was the first to notice that the child's face paint and costume, details consistent with how the murals mark female figures elsewhere in the same rooms, indicate the child was a girl, not a boy. Combined with the unnamed ruler in Room 1 and the three young princes who dominate Room 3 without their father appearing at all, Hurst's observation adds to a picture of Bonampak's succession as considerably less settled than the murals' triumphant imagery first suggests."
         ]
       },
       {
@@ -5116,19 +5116,19 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "What is the difference between \"Maya\" and \"Mayan\"?",
-        "answer": "Mayan refers specifically to the family of roughly thirty related languages spoken across Mexico and Central America. Maya is the correct term for the people, their civilization, and their art, including the Bonampak murals. The distinction is a standard convention among Mesoamerican specialists, even though \"Mayan\" is common in everyday usage."
+        "answer": "Mayan denotes the language family: about thirty related tongues in use today across Mexico and neighboring Central America. Maya is the correct label for the broader civilization, its people, and everything they made, the Bonampak murals included. The distinction is a standard convention among Mesoamerican specialists, even though \"Mayan\" is common in everyday usage."
       },
       {
         "question": "Who discovered the Bonampak murals?",
-        "answer": "In 1946, Lacandon Maya guides Acasio Chan and José Pepe Chambor led American photographer Giles Healey to the site, and Healey was the first outsider allowed to see and photograph the murals. Wikipedia's account notes that two other American travelers, Herman Charles Frey and John Bourne, may have arrived at the site slightly earlier, also guided by local Lacandon Maya, who had never lost track of the ruins."
+        "answer": "In 1946, a pair of local guides from the Lacandon Maya brought Giles Healey, a photographer from the United States, to the ruins, and he became the earliest outsider given the chance to view and record the paintings. Wikipedia's account adds a wrinkle: a second pair of American visitors, named earlier in the historical record, may have gotten there slightly ahead of Healey, also guided by local Lacandon Maya who had never lost track of the ruins."
         },
       {
         "question": "What did the Bonampak murals prove about the Maya?",
-        "answer": "They provided direct visual evidence of warfare, captive-taking, and public torture and sacrifice, contradicting the mid-twentieth-century scholarly consensus, closely associated with Mayanist J. Eric S. Thompson, that the Classic Maya were a peaceful society focused on astronomy and ritual. The 1955 Carnegie Institution publication that introduced the murals to wider scholarship listed Thompson as a co-author."
+        "answer": "They provided direct visual proof that the Maya waged war, took captives, and inflicted public mistreatment and ritual killing on them, contradicting decades of academic thinking tied to a leading mid-century Mayanist who believed Classic Maya society was peaceful, focused mainly on astronomy and ritual. The same 1955 academic publication that made the murals widely known named that same scholar, Thompson, among its co-authors."
       },
       {
         "question": "Whose tomb was found under the Bonampak murals?",
-        "answer": "In 2010, archaeologists found a stone crypt beneath Room 2's torture scene containing the remains of a headless man aged 35 to 42, buried with jade jewelry and ceramic vessels. Researchers have proposed he was either a sacrificed captive or a relative of Bonampak's ruling family, but his identity has not been confirmed."
+        "answer": "In 2010, archaeologists found a stone crypt beneath Room 2's torture scene that held the skeleton of a headless man aged 35 to 42, buried with jade jewelry and ceramic vessels. Researchers have proposed he was either a sacrificed captive or kin to the site's ruling dynasty, but his identity has not been confirmed."
       }
     ],
     "sources": [
