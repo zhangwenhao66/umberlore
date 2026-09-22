@@ -2999,3 +2999,17 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 事实核对：全程未改动任何日期、人名拼写、机构名称、数字；仅调整措辞/指代方式/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit c7a221b（本地分支`prose-gate-batch6-c`，未push，等待主会话合并）。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第六批C组（worktree batch6-c）：encaustic-painting
+
+三类报警：L-0819-8"'s own"归因重复4次（阈值>2）、L-0820-2 rather than/instead of 10次超阈（阈值>4，密度1次/246词）、L-0819-9 FAQ与正文重合4条，约6轮收敛（本批目前最复杂一篇）。
+
+1. "'s own"超标：4处里保留2处（正文小标题"Pliny's own verdict"、桥接句"photography's own founding image too"），其余2处（"The technique's own earliest surviving chronicler"、"Pausias's own biography reads like a case study"）去掉"own"。
+2. rather than/instead of超标：10处改写6处为其他连接方式（逗号+"not X"结构、分号），保留4处（"laid out competing claims rather than settling on one"等），从10降到4，密度同步降至安全区间。改写均保留原意，仅换连接词，不改事实（如"turning the wax into a soap-like substance that could be applied cold...rather than melted hot with a brush"改为"...could be mixed with cold water; melting it hot for use with a brush was not required"）。
+3. FAQ重合：4条FAQ命中多轮（每轮清除最长重合后暴露次长重合，符合已知规律，约6轮才收敛）。典型模式：①专有机构名"Art Institute of Chicago"/古代人名"Nicanor and Mnasilaus of Paros"本身超阈值，FAQ改用间接指代（"discussed above"、"other named painters"）或缩短为已在正文完整出现过的简称；②直接引语（Pliny"It is not agreed who was the inventor..."）在FAQ里从直接引用改为转述（不加引号），正文原始引语一字未动；③度量衡/时间表述用等值换算打断字符流（"early to mid-second century AD"改用数字形式"early-to-mid-2nd century AD"）；④"Pausias of Sicyon"这类18字符专有名词单独使用是安全的，但紧邻逗号/"as the first"等固定搭配会把重合片段推过20字符阈值，需要连同紧邻词一起改写（本篇踩了两次这个坑，第一次去掉逗号仍不够，第二次连"as the first"也一并改写才收敛）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 7f38af7（本地分支`prose-gate-batch6-c`，未push，等待主会话合并）。
+
+**新增经验补充**：专有名词长度略低于20字符阈值（如"Pausias of Sicyon"18字符）不代表FAQ里重复使用绝对安全——如果该名词在正文里紧邻的标点/连接词（逗号、"as the first"等）恰好与FAQ里紧邻的词语相同，会把连续重合字符数推过阈值，必须连同紧邻搭配一起改写，不能只看专有名词本身的字符数。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
