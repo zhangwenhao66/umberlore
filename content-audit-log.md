@@ -3248,3 +3248,12 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 事实核对：全程未改动任何日期、人名拼写、书名、年份（1550/1568/1457/1461/1862/1860/1855等均未变）；仅调整措辞/指代方式/连接词/枚举顺序/日期记法。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 28bde4e（本地分支`prose-gate-batch7-d`，未push，等待主会话合并）。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+## 2026-09-22 全站prose-gate存量债务第七批E组：jackson-pollock（子任务API中断后由主会话接续完成）
+
+批次E的无头子任务在处理jackson-pollock时撞上API连接中断（`is_error:true, stop_reason:"stop_sequence"`，19轮，仅$1.54），核实工作目录发现中断前已完成3/4类检查（'s own/rather-than/em-dash全部通过），只剩L-0819-9 FAQ重合未收敛的干净WIP状态，无内容丢失。主会话直接续做完：1类报警（FAQ与正文7条全部命中，含1处对Pollock本人处理过程口述的直接引语被FAQ逐字复述，已改为转述，正文原始引语一字未动），约18轮收敛（本篇FAQ间关联性强，多处日期/地名/材料清单反复触发次长重合，收敛轮次高于同等FAQ数量的多数前例）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容（body原始引语完整保留）；仅调整FAQ措辞为转述、指代方式、句子结构、材料清单枚举顺序。Build 0 error（91页面全部生成）。Commit `69a7db3`（本地分支`prose-gate-batch7-e`，未push，等主会话合并）。
+
+**本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——因改动未push到main、无真实部署，留待主会话合并后统一处理。
+
+**E组剩余量**：分配4篇（jackson-pollock/mayan-art/ghost-of-a-flea/sand-painting）完成1篇，剩余3篇（mayan-art/ghost-of-a-flea/sand-painting）未处理，子任务中断+本次仅续做完最后一篇，未继续派发同批次剩余部分。
