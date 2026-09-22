@@ -93,3 +93,21 @@ Still 2/10 (no new target found this round). Continue on future runs.
 **Distribution (steps 2/3/3.5) for this new asset**: not executed this run — the asset was pushed and deployed near the end of the session; per "分发优先于新产" the next run processing UmberLore should do steps 2 (unlinked-mention recovery) and 3 (pitch targets — resource pages maintained by design-blog/education/library-guide editors are the natural target class for this specific asset, per the general CLAUDE.md guidance on editorial resource pages) for this new URL before continuing distribution on the existing peak-creation-age asset (still at 2/10 sent + 1/10 drafted-but-withheld).
 
 **Distribution for the existing asset (peak-creation-age)**: not attempted this run — session time was spent entirely on the new-asset build per the monthly-quota rule. Distribution count unchanged at 2/10 sent + 1/10 drafted-and-withheld.
+
+---
+
+## 2026-09-22 — distribution pass #5 (capacity-concentration rule)
+
+**Site selection**: recomputed 28-day 11-30-position impressions across the 7 non-suppressed traffic sites via `gsc_query.py`: umberlore(605) > wagelark(472) > dayalmanac(427) > mythcairn(406) > factcrumbs(88) > hollowvane(25) = warcrumbs(25). DialWick took this run's fixed priority slot (per rotation, less recently processed than CalcBadger); LingoGrove excluded (still ranking-suppressed). UmberLore ranked #1.
+
+**Order of work**: distribution for both published assets — the SES migration freeze lifted 2026-09-15, clearing a backlog of approved-but-withheld pitches, plus first-ever distribution for the 2026-09-15 asset (open-license-art-image-directory).
+
+**Peak-creation-age asset — cleared backlog**: sent the two pitches drafted 2026-08-29/09-12 that were approved by independent review but withheld only for the SES freeze: (1) Sartle follow-up nudge to info@sartle.com (re-verified no reply since 8/20, no content change), Message ID `1a0c79e4b4d315d8`; (2) ZipDo pitch to info@zipdo.co (re-verified page still live, numbers unchanged), Message ID `1a0c79e5f76278df`. Distribution count for this asset: 2 sent (8/22-8/29) + 2 now sent (Sartle follow-up doesn't count as a new target, it's a nudge on an existing one; ZipDo is a new target) = 3 distinct targets sent (CreativeLive, gitnux.org, ZipDo) + 1 follow-up nudge.
+
+**Open-license-art-image-directory — first distribution pass**: Step 2 (WebSearch `"umberlore.com" open license art image directory`) found no third-party mentions — no recovery opportunity. Step 3: found Douglas College Library's "Find Open Images" research guide (guides.douglascollege.ca/images) as a target — a LibGuide listing free/open image sources. Drafted a pitch claiming the guide already covered "Met, Smithsonian, Getty, National Gallery" and was missing Rijksmuseum/Cleveland/Paris Musées. **Independent review caught a real problem**: fetched the actual guide page and found the claim was wrong for 3 of 4 named institutions — Met has zero mentions, Smithsonian is mentioned only for an unrelated biodiversity project, Getty is mentioned only as a paid stock-photo source (the opposite of an open-access program); only National Gallery and Wikimedia were genuinely covered. Rewrote the opening line to claim only what was verified true, dropping the false claims about Met/Smithsonian/Getty. Sent corrected version to villavicenciog@douglascollege.ca (the guide's own "Report a problem" contact), Message ID `1a0c7a472f21aaa4`. Full detail in `outreach-drafts.md`.
+
+**Step 3.5 (discovery-platform placement)**: not re-evaluated this run — prior conclusions stand for both assets.
+
+**Distribution counts**: peak-creation-age at 3 sent targets + 1 follow-up (below the ≥10 saturation bar, continue on future runs); open-license-art-image-directory at 1 sent target (just started, far from saturation).
+
+**Lesson for future runs**: this round's near-miss (a pitch that misrepresented the recipient's own page) is a reminder that "the asset's own published research is accurate" does not mean "my assumption about what the target page covers is accurate" — the independent-review step exists precisely to catch exactly this kind of claim, and it did its job. Verify claims about the *recipient's* page as rigorously as claims about the asset itself, not just self-consistency.
