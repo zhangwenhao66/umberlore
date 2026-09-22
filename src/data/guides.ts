@@ -1530,7 +1530,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Why did Fallingwater need an $11.5 million repair decades after it was built?",
-        "answer": "The cantilevered terraces lacked adequate reinforcing from day one. Wright's engineer Mendel Glickman reportedly realized only after construction wrapped up that the top of the main girder had gone up with no structural reinforcing in it, exactly where a cantilever needs it most. The terraces kept sinking for six and a half decades, deflecting close to seven inches by 1995, until a 2002 repair using post-tensioned steel, engineered by Robert Silman Associates and costing the nonprofit that owns the house $11.5 million in total, used steel cable worked into the concrete beams under tension to arrest further movement."
+        "answer": "The cantilevered terraces lacked adequate reinforcing from day one. Wright's engineer Mendel Glickman reportedly caught the mistake only once the wooden supports were stripped away, realizing the top of the main girder had gone up with no structural reinforcing in it, exactly where a cantilever needs it most. The terraces kept sinking for six and a half decades, deflecting close to seven inches by 1995, until a 2002 repair using post-tensioned steel, engineered by Robert Silman Associates and costing the nonprofit that owns the house $11.5 million in total, used steel cable worked into the concrete beams under tension to arrest further movement."
       },
       {
         "question": "How many buildings did Frank Lloyd Wright actually build, out of everything he designed?",
