@@ -2987,3 +2987,15 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **上线核实**：两篇均绕缓存curl确认命中新文本。
 
 **IndexNow**：`/frank-lloyd-wright/`、`/simonetta-vespucci/`均已提交（Bing 200 / Yandex 200）。
+
+## 2026-09-22 全站prose-gate存量债务第六批C组（worktree batch6-c）：psychedelic-art
+
+三类报警：L-0819-8"'s own"归因重复5次（阈值>2）、L-0821-4叙事性" - "冒充em dash 1处（图片credit字段Wikimedia文件标题）、L-0819-9 FAQ与正文重合4条，约10轮收敛。
+
+1. "'s own"超标：5处里保留2处（正文小标题"Wilson's own account of the borrowing"、桥接句"Pop art's own label has the same problem"），其余3处（"Wilson's own account of where it came from"、"the Smithsonian American Art Museum's own biography"、"Poster House's own chief curator"）去掉"own"。
+2. " - "冒充em dash：`imageCredit`里`[Alfons Mucha - F. Champenois Imprimeur-Éditeur]`是Wikimedia Commons文件标题原文照搬进锚文本，改成`[Alfons Mucha, F. Champenois Imprimeur-Éditeur]`（逗号分隔），URL本体未动，属于此前mona-lisa/st-peters-basilica已确认过的同类边界情况。
+3. FAQ重合：4条FAQ全部命中，典型模式是FAQ照抄正文里已出现过的专有名词全称（"Los Angeles psychiatrist Oscar Janiger"、"San Francisco's Fillmore Auditorium"、"Austrian designer Alfred Roller"、"Vienna Secession's sixteenth exhibition"）或复述myth段落的转述性叙述（"people would stop to read it precisely because they couldn't"、"confirms the exchange happened as it..."）。全部改为间接指代（"the psychiatrist profiled in the next answer"、"discussed below"、"detailed above"）或改写叙述框架（"Graham balked at a poster's lettering, and Wilson fired back that its unreadability was the whole point"），事实（人名、地名、年份、機構名）一字未删，仅调整措辞和引入方式。每消除一轮最长重合，下一轮暴露次长重合，符合已知规律，本篇因FAQ较短（4条）收敛较快（约10轮）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字；仅调整措辞/指代方式/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit c7a221b（本地分支`prose-gate-batch6-c`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
