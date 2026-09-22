@@ -2987,3 +2987,43 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **上线核实**：两篇均绕缓存curl确认命中新文本。
 
 **IndexNow**：`/frank-lloyd-wright/`、`/simonetta-vespucci/`均已提交（Bing 200 / Yandex 200）。
+
+---
+
+## 2026-09-22 content-quality-audit：cristina-kahlo（首次审计，14维度）
+
+**站点选择依据**：跨站按`content-audit-log.md`最近一次`last_audited`升序排列，umberlore（09-16）为全流量站矩阵最久未审计站，本次优先处理。
+
+**站内选文依据**：`独立站/零点击查询内容增量清单_20260912.md`标记本篇为"cristina kahlo painting by diego rivera"（42曝光/8.3均排名）待处理候选，优先于按last_audited选文的默认规则。
+
+**十四维度结果**：
+1. **EEAT**：强——9条来源（Wikipedia×3/Smarthistory/TIME/Wikimedia Commons/George Eastman Museum/Jackalope Magazine），大量可核实具体细节（画作尺寸/馆藏机构/日期），通过。
+2. **事实准确性**：发现并修复2处真实错误（独立agent复核CONFIRMED，见下）。
+3. **时效性**：`updated`从2026-08-27改为2026-09-22（`published`字段已存在，跳过git历史回填步骤）。
+4. **竞品差异化**：`dataforseo_query.py serp "cristina kahlo"`真实SERP，头部为Wikipedia+两个关于同名当代摄影师的站点（edithfarnsworthhouse.org/lenscratch.com）+TIME；本文4代家族摄影谱系叙事、具体馆藏/尺寸数据密度明显超过Wikipedia条目，非简单改写。本次SERP无AI Overview，无AI摘要竞争风险。
+5. **SEO技术**：title 55字符(z=-0.36)/description 160字符(z=-0.25)均在该站正常范围。
+6. **GEO**：未独立打分（本次为事实修复而非新写，跳过完整11维度重新评分），修复后逻辑一致性提升。
+7. **早期AI味补漏**：published 2026-08-27，晚于avoid-ai-writing接入(08-07)，跳过全篇重跑；本次编辑段落已过humanizer+avoid-ai-writing检查，干净。
+8. **外部引用链接**：9条来源逐一curl核实，3条（smarthistory.org/time.com/collections.eastman.org）返回403/406，判定为反爬虫拦截误报（WebSearch确认页面仍存在），非真实链接腐烂。
+9. **内链健康度**：3条真实正文回链（famous-mexican-artists/diego-rivera/the-broken-column），非孤儿页，无需补链。
+10. **Schema一致性**：未发现独立divergence。
+11. **合规/敏感度漂移**：涉及婚外情/裸体壁画描述，均为艺术史百科式记述，无煽动性渲染，未发现新增争议风险。
+12. **配图版权**：头图为1916年Guillermo Kahlo拍摄家庭合影，Wikimedia Commons公有领域（Guillermo Kahlo 1941年去世），归属标注正确；本站不在object-cover强制裁剪五站清单内，跳过裁剪检查。
+13. **AdSense合规**：无暴力/毒品/赌博等限制类目，裸体描写为艺术史语境记述非展示，通过。
+14. **机械散文检查**（`check_prose_patterns.py`）：首轮命中"'s own"6次/"rather than"6次（1882词，密度未超但总数超标）/FAQ逐字重合6条。逐项改写后：`'s own`降至1次、`rather than`降至3次、FAQ重合迭代约10轮收敛至0条，退出码0。
+
+**独立agent复核（事实性发现）**：
+- **确认①**：正文称"A Few Small Nips"与"Memory, the Heart"关系表述为"Frida returned to the same wound within the year, in A Few Small Nips, another 1935 painting..."（暗示A Few Small Nips发生在Memory the Heart之后"当年内"）。多信源（WikiArt/Wikipedia画作列表/Britannica/George Eastman Museum）交叉核实：A Few Small Nips确系1935年作，Memory the Heart确系1937年作，真实顺序相反且相隔约2年非"当年"。**现状**：原文顺序写反+时间跨度错误。**替换**：改为"Frida had confronted the same wound two years earlier, in A Few Small Nips..."，并将连带的"Frida returned to her own body as evidence again six years later, in The Broken Column"（1944年作）换算错误一并修正为"seven years later"（1944-1937=7）。**来源**：WikiArt/Wikipedia List of paintings by Frida Kahlo/Britannica/George Eastman Museum。**理由**：原文时序断言与多个权威信源直接矛盾，且下游"six years later"是基于错误时序的连带错误换算。
+- **确认②**：正文称"Rivera worked on the murals of Mexico City's Ministry of Health building on and off for more than two decades, from 1929 to 1953"。多信源（Public Art Dialogue期刊论文/Oxford Academic Clinical Infectious Diseases论文/墨西哥文化部官方修复页/gob.mx卫生部官网）一致确认该建筑壁画（含描绘Cristina裸体的Figure of Knowledge一幅）系1929-1930年单次集中施工，无任何信源支持延续到1953年。**现状**：编造的24年跨度表述。**替换**：改为"Rivera painted the murals of Mexico City's Ministry of Health building in a single concentrated campaign in 1929-30"。**来源**：见上。**理由**：无信源支持原表述，且该文章自己引用的Wikipedia Cristina Kahlo条目本身也未提供该日期跨度佐证。
+
+**修复方式**：仅改动被确认有问题的具体语句，未做大范围重写；FAQ 6条为消除机械检查触发的逐字重合而改写措辞，事实内容未变。
+
+**验证**：`npm run build` 91页0 error；`seo_drift.py compare`仅WARNING级schema内容变化（FAQ文本改动的预期结果），无CRITICAL发现；绕缓存curl确认线上文本已更新。
+
+**部署**：commit `2a5ecdd`，push成功；IndexNow已提交`/cristina-kahlo/`（Bing 200/Yandex 200）；`内容发布日志.md`已追加记录供GSC索引请求任务接力。
+
+**零点击候选处置**：确认FAQ「Did Diego Rivera paint Cristina Kahlo?」+"Two Rivera murals"整节已充分覆盖"cristina kahlo painting by diego rivera"查询，判定无需新增内容块，本次仅事实修正已足够。
+
+**暂停项**：无，未发现需要推翻核心结论的问题。
+
+**last_audited**: 2026-09-22
