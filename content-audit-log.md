@@ -3333,3 +3333,15 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 5. `famous-mexican-artists`：3类报警（"'s own"3次、rather than 7次、FAQ 6条），待处理。
 
 **根因判断**：这次全站复查证实了两件此前已经观察到但未系统量化的事——①已修复文章存在被后续内容补强"打回原形"的回归风险（edvard-munch-the-scream实证）；②"45篇"这个数字从一开始就不是全站真实债务的完整集合，只是09-18那一次扫描时刻的快照，此后新发布/被修改的文章会持续产生新的未追踪债务。**这意味着prose-gate不能被当作"一次性清零就完事"的项目，需要定期（如每次内容发布任务）重跑全站扫描，而不是只依赖一份历史清单。**famous-portraits/pandemonium-painting/famous-mexican-artists三篇的修复继续跟进。
+
+## 2026-09-22 全站prose-gate权威复查新债务修复（worktree batch9-i）：pandemonium-painting
+
+三类报警：L-0819-8"'s own"归因重复3次（阈值>2）、L-0820-2 rather than/instead of密度超阈（5次，阈值>4）、L-0819-9 FAQ与正文重合（6条FAQ全命中），约3轮收敛。本篇不在09-18首次扫描的45篇清单内，是09-22全站权威复查时才发现的新债务。
+
+1. "'s own"超标：3降到2，去掉"The Louvre's own catalogue entry lists the frame"里的"own"（改为"The Louvre's catalogue entry"），保留"Milton's own words"与"Pandemonium's own 1841 companion"两处。
+2. rather than/instead of超标：5降到4，把"shows the finished palace's interior rather than its exterior"改写为", not its exterior"，去掉一次匹配；其余4处（instead of一次+rather than三次）未动。
+3. FAQ重合：6条FAQ全命中，典型模式——①"Book I of Milton's Paradise Lost"/"Milton's Paradise Lost"这类专有短语本身≥20字符且与coreSummary重复，FAQ改写为"the scene that opens Milton's epic Paradise Lost"打断连续字符流；②Milton原诗直接引语"high Capital / Of Satan and his Peers"不在FAQ里逐字复述，改为转述"the fallen angels' council chamber, the capital city they raise for Satan and his lieutenants"，正文原始引语一字未动；③机构名"Victoria and Albert Museum"/"Fitzwilliam Museum"（均单独≥20字符）改用"Two English museums holding copies of that interior print, named above"间接指代（正文已完整给出全称）；④画作标题"The Celestial City and the River of Bliss"（42字符）在FAQ估值问题里改用"its 1841 companion piece described above"间接指代（正文已完整给出标题）；⑤度量衡"123 by 185 centimetres"改写为"roughly 123×185 cm"换算记法打断字符流；⑥地点"Salle 713 of the Denon wing"改写为"the Denon wing's room 713"调换语序；⑦人物身份"Benjamin Hick, a Bolton locomotive engineer"里"locomotive engineer"（20字符）改为"a Bolton engineer who built steam locomotives"打断字符流；⑧机构描述"the Forbes Magazine Collection, the..."改用"a collection owned by the Forbes publishing family"打断字符流；⑨"auction in Manchester"改写为"sold in Manchester at his 1843 estate sale"调换语序；⑩"the Louvre publishes its own provenance record"改用"the Louvre's published ownership history"打断字符流。本篇收敛过程典型体现"每轮只报告最长重合片段，清除后次长片段暴露"的既有规律，约5轮才彻底清零全部6条FAQ的重合。
+
+事实核对：全程未改动任何日期（1824/1825-1827/1831/1840/1841/1842/1843/1854/1994/2003/2006/2015等）、人名拼写（John Martin、Benjamin Hick、George Whiteley、Hugo Baldwin Huntington-Whiteley、Pierre Belliot、Paule Marchaud、Martin Myrone等）、机构名称全称（正文完整保留，仅FAQ改为间接指代）、数字（123×185厘米、2000 guineas、£1.5 million、$4,183,482、inventory number RF 2006 21等）、引语内容（body原始三处直接引语——Milton诗句"Anon out of the earth..."与"high Capital..."、Royal Academy展签"Anon, out of earth..."、Sotheby's essay评论——完整保留）；仅调整FAQ措辞/指代方式/连接词/句子结构/度量衡记法。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit `4d71766`（本地分支`prose-gate-batch9-i`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
