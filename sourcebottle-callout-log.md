@@ -65,3 +65,16 @@
 - **Deadline**：2026-09-22 17:00（鼠标真实点击日历控件选中月份+日期，未直接写文本框）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval, your post will be included in the next Drink Up! Alert"。提交回执 product id = `2ce706ed100029cb420a3832a0c0c3b3`。
 - **上线复核**：⏳ 待下次任务运行时补查（本站General分类结果量大，建议下次改用标题关键词搜索而非逐页翻查）。
+
+### 2026-09-22（周二，正常排期）
+
+- **上线复核（本次先做）**：查了General分类列表（`industry-list-results.asp?iid=63&scid=5`第2页），确认09-01提交的"Art conservators..."条目✅已上线（Date Posted 1 September 2026，Deadline 22 September 2026 @ 5pm，署名UmberLore (Content Creator)，与提交内容一致）。
+- **选站说明**：本站最后发布日期为09-01，是本轮流量站矩阵里最久未发布的三站之一（另两站FactCrumbs/WageLark同为09-01），本次轮到。
+- **问题标题**：Medical historians and paleopathologists: a retrospective diagnosis for a historical figure that later got challenged?
+- **角度**：绑定`simonetta-vespucci`一文——现存所有"西莫内塔·韦斯普奇"肖像（包括《维纳斯的诞生》里那张脸）都是她1476年去世后才画的，唯一确认她生前留下的肖像（1475年Giostra比武大会上的旗帜画）早已失传，19世纪历史学家贡布里希称这种"画中人是她"的说法是"浪漫神话"。2026年一篇医学论文（及同一团队2026年7月的后续研究）改用现代医学重新诊断她的死因——不是传统说法的肺结核，而是垂体瘤破裂——依据正是这些死后肖像画里的面部变化痕迹，而非任何生前记录。征集医学史学家/古病理学家分享另一个真实案例：某个历史人物的死因/疾病诊断，多年后被现代医学专家从肖像画或文字记录里"倒推"出来，这个倒推诊断后来又被别的学者挑战或推翻。与本站此前问过的归还权判决误报、鉴定委员会因法律风险解散、建筑结构缺陷容忍多年、证人动机事后揭露、修复清洗引发真伪争议五个角度均不重叠，本次首次切入医学史/古病理学角度。
+- **绑定文章**：UmberLore `simonetta-vespucci`（Simonetta Vespucci: A Death Reopened by Medicine）。
+- **分类标签**：Topics = General + Professional Services；Countries = Australia + UK & Republic of Ireland + Canada + United States（与既往条目一致）。
+- **表单设置**：Your name = Owen Zhang；Job title = Content Creator；Organisation = UmberLore；Contact = Email；Unpaid；勾选了 Expert Directory 搜索；未勾 Verified Media。Email address 和 Contact email 均填 `contact@umberlore.com`。
+- **Deadline**：2026-10-08 17:00（鼠标真实点击日历控件切换到10月并选中8日、三击选中分钟数字段输入00改成整点，未直接写文本框，符合SKILL.md第0条硬规则）。
+- **发布状态**：✅ 已提交，跳转到`thankyou.asp?k=0,%200&product=1ccbbf7161b74b8cd93d5c04c500258f&name=Owen%20Zhang&email=contact@umberlore.com`，提示"Pending approval, your post will be included in the next Drink Up! Alert"。提交回执 product id = `1ccbbf7161b74b8cd93d5c04c500258f`。
+- **上线复核**：⏳ 待下次任务运行时补查。
