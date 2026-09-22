@@ -3034,3 +3034,19 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
 
 **本worktree（batch6-b）B组处理进度**：9篇清单中已处理3篇（michelangelo-sistine-chapel、mandala-art、cloisonne），剩余6篇：emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。因cloisonne耗时明显超出预期（三类报警全中+15轮收敛），下一篇emphasis-in-art处理前会重新评估节奏，感觉变慢会提前停在已完成的最后一篇。
+
+## 2026-09-22 全站prose-gate存量债务第六批B组：emphasis-in-art（worktree batch6-b，第4篇）
+
+2类报警：L-0819-8"'s own"归因重复9次（阈值>2）、L-0819-9 FAQ与正文重合5条（最长130字符，Rijksmuseum关于《夜巡》的直接引语在body和FAQ4里逐字重复）。改写约20轮收敛，本批目前最磨人一篇（超过cloisonne的15轮）。
+
+1. "'s own"超标：9处里保留2处（"guild's own emblem"、"Rembrandt's own asymmetrical original"，均为有实际对比/归属含义的用法），其余7处（Dow's own definition/Graves's own index/Dow's own turn-of-the-century/Rijksmuseum's own description/museum's own account/Rijksmuseum's own 2021 announcement/"not Rembrandt's own"改写为"not something Rembrandt chose"）去掉"own"或改写。
+2. FAQ重合：这篇的直接引语密度是本批最高——Rijksmuseum关于《夜巡》光影处理的完整一句引语（130字符）在body和FAQ4逐字重复，改为不加引号的转述"Rembrandt used a shaft of light to pull the eye toward two specific details"，body原引语未动。三位设计理论家（Ross/Dow/Graves）的书名（A Theory of Pure Design、Composition、The Art of Color and Design）和人物全名（Denman Waldo Ross、Arthur Wesley Dow）反复触发重合，改用已在其他地方确立的简称（"Ross"/"Dow"代替全名，书名部分场合省略只留年份+"design treatise"泛称）。三词术语列表"Harmony, Balance, and Rhythm"因与body/description字段的书面表述重合，改用重新排序"Balance, Harmony, and Rhythm"打断字符流（同一份三词概念，排序不影响事实）。教育史学者Nanyoung Kim的书名/年份表述多次调整措辞规避重合。一处易被忽略的重合源是`description`字段本身（也被脚本纳入比对范围）——FAQ2最初改写后意外与`description`字段"Ross's 1907 design treatise names three principles"逐字重合，提醒以后类似改写要连description/imageAlt等元数据字段一起核对，不能只对照body/coreSummary。
+3. 收敛轮次为目前最长（约20轮，5条FAQ，约4轮/FAQ），符合"专有名词+直接引语密度高的文章收敛更慢"规律，且本篇额外因为有3位历史人物+3本书名同时高频出现，属于比cloisonne更极端的密度案例。
+
+事实核对：全程未改动任何日期、人名拼写、书名、数字、引语内容；唯一直接引语（Rijksmuseum一句）从带引号逐字复述改为不加引号的转述，转述内容与原意一致，body原引语未动。人工通读FAQ确认无em dash/delve等AI写作特征。Build 0 error（91页面）。Commit 3f020c0（本地分支`prose-gate-batch6-b`，未push，待主会话合并）。
+
+**顺手事项（桥接句改写，已完成）**：本文确认含两处与cloisonne几乎逐字相同的桥接句——引到`/chiaroscuro-woodcut/`（"A technique's accepted origin story can get backdated on purpose, not just renamed by later theorists"骨架，与cloisonne的"A craft's documented timeline can get backdated on purpose, not just misjudged at first sight"几乎同构）、引到`/mandala-art/`（"The pattern shows up again with a completely different kind of art vocabulary"骨架，与cloisonne的"The word-versus-object gap shows up elsewhere in decorative and ritual art too"几乎同构）。已按任务建议改写emphasis-in-art一侧的两处引入句框架（cloisonne一侧保留不动，作为原表述），链接目标和被引用事实（chiaroscuro-woodcut的1508年重新断代、mandala-art词与图像近两千年的时间差）完全未变。改写后重跑三篇（cloisonne/mandala-art/emphasis-in-art）的prose-gate检查均仍通过，build 0 error。
+
+**IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
+
+**本worktree（batch6-b）B组处理进度**：9篇清单中已处理4篇（michelangelo-sistine-chapel、mandala-art、cloisonne、emphasis-in-art）。因cloisonne（15轮）和emphasis-in-art（20轮）连续两篇远超预期耗时，累计成本已显著超出"平均$5-7/篇"的预估，本次会话在完成第4篇后主动停止收尾，不再处理剩余5篇（baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art）。
