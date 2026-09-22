@@ -1011,7 +1011,7 @@ export const guides: Guide[] = [
     "description": "Six of the world's most famous paintings, read from the collection records of the museums that own them: support, technique, size, inventory number.",
     "published": "2026-08-02",
     "updated": "2026-08-02",
-    "coreSummary": "Famous paintings circulate as images, and the descriptions attached to those images drift away from the objects. Read from the catalogue entries of the museums that hold them, The Great Wave is a woodblock print issued in thousands of impressions rather than a painting; the Night Watch in Amsterdam is a fragment, cut down in 1715 with 64.4 cm taken off the left edge alone; the 1893 Scream in Oslo is recorded as tempera and crayon on cardboard; and the Mona Lisa is an oil on a poplar panel measuring 79.4 by 53.4 cm.",
+    "coreSummary": "Famous paintings circulate as images, and the descriptions attached to those images drift away from the objects. Read from the catalogue entries of the museums that hold them, The Great Wave is a woodblock print issued in thousands of impressions, not a painting; the Night Watch in Amsterdam is a fragment, cut down in 1715 with 64.4 cm taken off the left edge alone; the 1893 Scream in Oslo is recorded as tempera and crayon on cardboard; and the Mona Lisa is an oil on a poplar panel measuring 79.4 by 53.4 cm.",
     "image": "/images/famous-paintings-night-watch-rijksmuseum.jpg",
     "imageAlt": "Rembrandt's Night Watch as it hangs today in the Rijksmuseum, showing the militia company advancing out of a dark archway.",
     "imageCredit": "[The Nightwatch by Rembrandt](https://commons.wikimedia.org/wiki/File:The_Nightwatch_by_Rembrandt_-_Rijksmuseum.jpg), Rijksmuseum (object SK-C-5), public domain",
@@ -1032,7 +1032,7 @@ export const guides: Guide[] = [
           "**Girl with a Pearl Earring.** Johannes Vermeer, about 1665. Oil on canvas, 44.5 by 39 cm, signed at the upper left. Mauritshuis, inventory 670.",
           "**The Birth of Venus.** Sandro Botticelli, about 1485. The Uffizi gives the technique as \"Tempera on canvas\", 172.5 by 278.5 cm, inventory 1890 n. 878.",
           "**The Scream.** Edvard Munch, 1893. The National Museum of Norway records the materials in Norwegian as \"Tempera og fettstift på papplate\", tempera and grease crayon on cardboard, 91 cm high by 73.5 cm wide, inventory NG.M.00939, a gift from Olaf Schou in 1910.",
-          "**Under the Wave off Kanagawa.** Katsushika Hokusai, about 1830 to 1832. Woodblock print, ink and colour on paper, 24.4 by 35.7 cm overall. The Metropolitan Museum of Art, accession JP10, classified under Prints rather than Paintings."
+          "**Under the Wave off Kanagawa.** Katsushika Hokusai, about 1830 to 1832. Woodblock print, ink and colour on paper, 24.4 by 35.7 cm overall. The Metropolitan Museum of Art, accession JP10, classified under Prints, not Paintings."
         ]
       },
       {
@@ -1046,7 +1046,7 @@ export const guides: Guide[] = [
         "image": {
           "src": "/images/famous-paintings-night-watch-lundens-copy.jpg",
           "alt": "Gerrit Lundens's small painted copy of The Night Watch, showing the full uncropped composition with the archway off-centre and figures at the left edge that no longer exist on the original.",
-          "credit": "[Lundens - Nachtwache-Kopie](https://commons.wikimedia.org/wiki/File:Lundens_-_Nachtwache-Kopie.jpg), attributed to Gerrit Lundens after Rembrandt, National Gallery, London, public domain. This 17th-century copy records the composition before the 1715 cutting, not the painting as it hangs today."
+          "credit": "[Lundens, Nachtwache-Kopie](https://commons.wikimedia.org/wiki/File:Lundens_-_Nachtwache-Kopie.jpg), attributed to Gerrit Lundens after Rembrandt, National Gallery, London, public domain. This 17th-century copy records the composition before the 1715 cutting, not the painting as it hangs today."
         }
       },
       {
@@ -1089,7 +1089,7 @@ export const guides: Guide[] = [
       {
         "heading": "How to check any of this yourself",
         "body": [
-          "Find out which institution holds the work, go to that institution's own collection pages rather than an aggregator, and search the title or the artist. What you want is the object record rather than the essay: the fields marked technique, material, dimensions, inventory or accession number, and provenance or acquisition. Those fields settle whether a work is panel or canvas, painting or print, what it actually measures, and when and from whom the museum got it. A page about a famous work that carries no inventory number is usually downstream of one that did.",
+          "Find out which institution holds the work, and go straight to that institution's own collection pages, skipping any aggregator, to search the title or the artist. What you want is the object record, not the essay: the fields marked technique, material, dimensions, inventory or accession number, and provenance or acquisition. Those fields settle whether a work is panel or canvas, painting or print, what it actually measures, and when and from whom the museum got it. A page about a famous work that carries no inventory number is usually downstream of one that did.",
           "Museum sites often give the entry in the local language with an English page alongside, and the technical fields are sometimes left untranslated, as with the Norwegian materials line on The Scream. Titles differ between the catalogue and common usage, so search the artist as well. Where a museum has published conservation or technical research, as the British Museum did on The Great Wave, that supersedes the summary on its own object page. And an image being downloadable from a museum site does not mean it is free for any use; the Mauritshuis, for instance, offers high-resolution downloads for non-commercial use and asks you to contact its marketing department otherwise.",
           "Looking things up this way tends to make the objects more interesting. A cathedral carving turns out to be [a piece of drainage before it is a monster](/what-is-a-gargoyle/). A series of water lily paintings turns out to be studies of [a pond the painter dug himself](/water-lilies-monet-series/). In most cases the catalogue entry holds something the summary left out."
         ]
@@ -1098,23 +1098,23 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Is The Great Wave a painting?",
-        "answer": "No. The Metropolitan Museum of Art classifies it under Prints and gives the medium as woodblock print, ink and colour on paper (accession [JP10](https://www.metmuseum.org/art/collection/search/36491)). It was published as part of the series Thirty-six Views of Mount Fuji around 1830 to 1832, and research by Capucine Korenberg for the [British Museum](https://www.britishmuseum.org/sites/default/files/2022-03/korenberg_article-for_hokusai%20_edited_volume_final-2020_accessible.pdf) reports that experts believe up to 8,000 impressions were made."
+        "answer": "No. The Met classifies it under Prints and gives the medium as an ink-and-colour woodblock print on paper (accession [JP10](https://www.metmuseum.org/art/collection/search/36491)). It was published around 1830 to 1832 as part of a larger Hokusai print set depicting Mount Fuji, and research by Capucine Korenberg for the [British Museum](https://www.britishmuseum.org/sites/default/files/2022-03/korenberg_article-for_hokusai%20_edited_volume_final-2020_accessible.pdf) puts the total print run as high as 8,000."
       },
       {
         "question": "Why is The Night Watch smaller than Rembrandt painted it?",
-        "answer": "It was cut down in 1715, when it was moved to Amsterdam's town hall and did not fit the wall. The [Rijksmuseum](https://www.rijksmuseum.nl/en/press/press-releases/for-the-first-time-in-300-years-the-night-watch-is-complete-again) gives the removed widths as 64.4 cm on the left, 23.3 cm at the top, 11.3 cm at the bottom and 7 cm on the right. The offcuts have never been found, and the 2021 reconstruction of the missing edges was based on a 17th-century copy attributed to Gerrit Lundens."
+        "answer": "It was cut down in 1715, after relocating to the building that then served as Amsterdam's city hall, because it didn't fit the wall there. The [Rijksmuseum](https://www.rijksmuseum.nl/en/press/press-releases/for-the-first-time-in-300-years-the-night-watch-is-complete-again) gives the removed widths as 23.3 cm off the top, 64.4 cm off the left, 7 cm off the right-hand edge and 11.3 cm off the bottom. Those missing strips have never resurfaced, and the 2021 reconstruction of the missing edges drew on a 17th-century copy historians link to the painter Gerrit Lundens."
       },
       {
         "question": "Who is the girl in Girl with a Pearl Earring?",
-        "answer": "Probably no one in particular. The [Mauritshuis](https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring) states that the work \"is not a portrait, but a 'tronie' – a painting of an imaginary figure\", a study of a type or a costume rather than a likeness of a known sitter. The museum also notes that the pearl is too large to be real and was probably an imitation."
+        "answer": "Probably no one in particular. The [Mauritshuis](https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring) calls the work a 'tronie': a study of an imagined face, type or costume, not a likeness of a known sitter. The museum also notes that the pearl's size is unrealistic for a real gem, most likely a painted imitation."
       },
       {
         "question": "What is the quickest way to check a claim about a famous painting?",
-        "answer": "Go to the collection page of the museum that holds it and read the object record rather than the essay. The technique, material, dimensions, inventory number and acquisition fields answer most questions directly, and a page about a famous work that carries no inventory number is usually copied from one that did."
+        "answer": "Go to the collection page of the institution that owns the piece and read the primary catalogue entry, not the secondary write-up. Technique, support, size, and inventory or acquisition details answer most questions directly; if a famous work's page never lists an accession or inventory ID, treat that as a sign the description was lifted from somewhere else, not written from the object itself."
       },
       {
         "question": "What is the #1 most famous painting in the world?",
-        "answer": "By common consensus, the Mona Lisa, Leonardo da Vinci's early-16th-century portrait at the Louvre. It wasn't always ranked that way: nineteenth-century valuations placed other Louvre paintings, including Raphael's Holy Family and Titian's Supper at Emmaus, well above it in both price and reputation. Its current status as the world's single most famous painting is a twentieth- and twenty-first-century development, driven partly by its 1911 theft and partly by decades of mass reproduction."
+        "answer": "By common consensus, the Mona Lisa, Leonardo da Vinci's early-16th-century portrait at the Louvre. It wasn't always ranked that way: nineteenth-century valuations placed other Louvre paintings, including Raphael's Holy Family and Titian's Supper at Emmaus, well above it in both price and reputation. Its current status as the world's single best-known painting is a twentieth- and twenty-first-century development, driven partly by its 1911 theft and partly by decades of mass reproduction."
       },
       {
         "question": "What are the 10 most valuable paintings ever sold?",
