@@ -8802,7 +8802,7 @@ export const guides: Guide[] = [
         "heading": "The word itself is three centuries younger than the trick",
         "body": [
           "Alberti's \"centric point\" isn't the phrase used today. \"Vanishing point,\" the English term, entered print only in 1715, when the mathematician Brook Taylor published Linear Perspective: Or, a New Method of Representing Justly All Manner of Objects as They Appear to the Eye in All Situations, the first English-language book to work out the full geometry of perspective using more than one vanishing point at a time. Depending on which proposed date for Brunelleschi's panels you accept, something like three centuries separate the demonstration from the English words now used to describe it.",
-          "Long after both demonstration panels vanished, the underlying technique kept going. Masaccio's Holy Trinity fresco, painted in Santa Maria Novella between 1425 and 1428, applies a single vanishing point to a coffered barrel vault receding behind the figures, positioned low enough that a viewer standing in the nave gets something close to what Brunelleschi's Baptistery panel was built to prove: a flat wall behaving like an opening cut through stone. Masaccio died in 1428, and the fresco remains on the same wall he painted it on, still visible today because [true fresco bonds pigment chemically into wet plaster as it cures](/fresco-painting/), while the two panels that likely taught him the underlying geometry have not survived in any form. A plainer studio version of the same trick turns up again more than two centuries later in Vermeer's workshop, where, on one contested reading of the physical evidence, a [pin driven into the canvas at the vanishing point, tied to a chalked string, may have been enough to lay out straight perspective lines by hand](/the-milkmaid-vermeer/), skipping any mirror or lens.",
+          "Long after both demonstration panels vanished, the underlying technique kept going. Masaccio's Holy Trinity fresco, painted in Santa Maria Novella between 1425 and 1428, applies a single vanishing point to a coffered barrel vault receding behind the figures, positioned low enough that a viewer standing in the nave gets something close to what Brunelleschi's Baptistery panel was built to prove: a flat wall behaving like an opening cut through stone. Masaccio died in 1428, and the fresco remains on the same wall he painted it on, still visible today because [true fresco bonds pigment chemically into wet plaster as it cures](/fresco-painting/), while the two panels that likely taught him the underlying geometry have not survived in any form. A different illusion of solid form was taking shape at almost the same moment across the Alps, where [Jan and Hubert van Eyck used grisaille, shades of grey rather than converging lines, to make two flat panels on the 1432 Ghent Altarpiece read as carved stone saints](/grisaille/), a trompe l'oeil trick built from tone instead of geometry. A plainer studio version of the same trick turns up again more than two centuries later in Vermeer's workshop, where, on one contested reading of the physical evidence, a [pin driven into the canvas at the vanishing point, tied to a chalked string, may have been enough to lay out straight perspective lines by hand](/the-milkmaid-vermeer/), skipping any mirror or lens.",
           "The one-point system held its position as the default way of building spatial illusion in Western painting for well over four centuries, refined by Piero della Francesca, absorbed into Leonardo da Vinci's writing on painting, and passed down through drawing manuals until artists in the late 19th century began deliberately working against it. American art classrooms eventually folded that same underlying problem, how to depict depth on a flat surface, into \"space,\" one entry on the seven-item checklist of [elements of art](/elements-of-art/) now standard in textbooks, a vocabulary that itself only crystallized into that exact seven-word list generations after Dow's own, differently organized 1899 classroom system. Gaetano Milanesi, the archivist behind Manetti's disputed 1887 attribution, made a more definitive correction elsewhere in Renaissance art history: burial records he tracked down are what finally disproved [Giorgio Vasari's fabricated murder confession involving Andrea del Castagno](/renaissance-art/), a reminder of how much inherited art history still traces back to writers working well after the events they describe."
         ]
       }
@@ -9413,6 +9413,138 @@ export const guides: Guide[] = [
       {
         "label": "Wikimedia Commons: File:Prince of the Lilies, Minoan fresco from Knossos, 1550 BC, AMH, 145372.jpg",
         "url": "https://commons.wikimedia.org/wiki/File:Prince_of_the_Lilies,_Minoan_fresco_from_Knossos,_1550_BC,_AMH,_145372.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "grisaille",
+    "category": "Technique",
+    "title": "Grisaille: Van Eyck's Statues Fooled Everyone",
+    "description": "A 2016 restoration found that roughly 70% of Jan van Eyck's grisaille saints on the Ghent Altarpiece were 1500s overpaint, hidden for nearly 500 years.",
+    "published": "2026-09-22",
+    "updated": "2026-09-22",
+    "coreSummary": "Grisaille is a painting done almost entirely in shades of one neutral color, built by mixing white into black to shift value, not by thinning out a single pigment, and it does two different jobs: imitating carved stone on a flat surface, or laying down the tonal groundwork for a picture that will later be finished in color. Jan and Hubert van Eyck used the first job on the closed exterior of the 1432 Ghent Altarpiece, painting Saint John the Baptist and Saint John the Evangelist in grey convincing enough to read as statues standing in stone niches. A restoration completed by Belgium's KIK-IRPA institute in October 2016 found that roughly 70 percent of that exterior surface had been covered in overpaint added in the mid-1500s, and the institute says the true grisaille beneath it hadn't been visible again for nearly 500 years. The technique's underpainting job is often confused with a related but different Renaissance method called verdaccio, the greenish-grey layer Leonardo da Vinci built up under his flesh tones, including in the Mona Lisa. Five centuries after Van Eyck, Pablo Picasso returned to a true grey, black and white palette for Guernica, a choice historians tie to the black-and-white newsprint and newsreel footage through which the 1937 bombing itself became known.",
+    "image": "/images/grisaille-ghent-altarpiece-closed.jpg",
+    "imageAlt": "The closed exterior of Jan and Hubert van Eyck's 1432 Ghent Altarpiece after its 2012-2016 restoration, with Saint John the Baptist and Saint John the Evangelist painted in grisaille to imitate stone statues in the lower register.",
+    "imageCredit": "[The Ghent Altarpiece (closed, after restoration)](https://commons.wikimedia.org/wiki/File:Ghent_Altarpiece_(closed,_after_restoration).jpg), Hubert and Jan van Eyck, 1432, via Google Arts & Culture, public domain",
+    "sections": [
+      {
+        "heading": "The test: mixed tones, not a diluted color",
+        "body": [
+          "Grisaille is a painting made almost entirely in shades of one neutral color, traditionally grey. The word comes from the French gris, meaning grey, with the suffix -aille added to turn it into a noun for the finished effect. Britannica describes the term as a monochrome painting technique, produced either as a finished work in its own right or as a preparatory study for a picture that will later be developed in full color.",
+          "What separates grisaille from a plain grey wash is how the tones get there. National Galleries of Scotland's glossary entry describes the method as building value through tonal variations achieved by mixing white into black, not by diluting or scrumbling a single tone thinner or thicker. Diluting a wash gives you the same grey at different strengths. Mixing white into black gives the painter a full scale from near-black to near-white to model form and light the way a sculptor would with actual material.",
+          "That modeling ability is what grisaille has been used for since long before oil painters picked it up. Painters reached for it to do one of two jobs: fool the eye into reading a flat painted surface as carved stone or relief, or lay down a tonal foundation before adding color glazes on top. The technique's oldest surviving uses are not on panels at all. They are in glass."
+        ]
+      },
+      {
+        "heading": "It started with a ban on color, in glass",
+        "body": [
+          "Grisaille's history in stained glass predates its use in panel painting by roughly three centuries, and it began as a workaround for a restriction, not an artistic choice. The Cistercian Order, the austere monastic reform movement that spread across medieval Europe, issued a rule in 1134 barring colored glass from its churches, part of a broader push against ornament the order considered a distraction from worship.",
+          "Glaziers working within that restriction developed what came to be called the grisaille window: panes made largely of clear or lightly tinted glass, with foliate or geometric patterns painted on in a brown, iron-oxide-based pigment that fused permanently to the glass surface when fired. The Corning Museum of Glass defines the term this way: a monochrome grey design executed in that iron-oxide brown line, distinct from the fully colored pot-metal glass used elsewhere in the same buildings. The style caught on for reasons beyond doctrine. Grisaille glass was cheaper to produce than glass colored throughout with metallic oxides, and because it let far more daylight through, it lit church interiors that fully colored windows left dim.",
+          "The Metropolitan Museum's Cloisters branch holds a surviving set of these windows: four French grisaille panels, probably made in Normandy, that the museum dates to 1270-80, acquired as part of the Cloisters Collection in 2010. They show the same restrained brown-on-clear patterning the 1134 rule pushed glaziers toward more than a century earlier, made permanent by the same firing process used on fully colored church glass of the period."
+        ],
+        "image": {
+          "src": "/images/grisaille-met-cloisters-glass-panel.jpg",
+          "alt": "A 13th-century French grisaille stained glass panel, probably made in Normandy around 1270-80, painted in brown iron-oxide pigment on largely clear glass, from the Metropolitan Museum's Cloisters collection.",
+          "credit": "[Grisaille Panels](https://www.metmuseum.org/art/collection/search/478999), French, 1270-80, Metropolitan Museum of Art (The Cloisters Collection, 2010), public domain"
+        }
+      },
+      {
+        "heading": "The statues that weren't visible for 500 years",
+        "body": [
+          "By the time Jan and Hubert van Eyck completed the Ghent Altarpiece in 1432, grisaille had moved from glass to panel and taken on its most famous job: imitating sculpture. When the altarpiece's wings are closed, the lower register shows Saint John the Baptist and Saint John the Evangelist rendered entirely in shades of grey, standing in painted stone niches that read, at a glance, as carved statues, not paint on oak. The illusion works because Van Eyck modeled the folds of drapery and the fall of light across each figure exactly as a sculptor would carve them, using the black-to-white tonal range grisaille makes possible.",
+          "That illusion turned out to be more fragile than it looked, not to the eye but to time. When the Royal Institute for Cultural Heritage, known by its Dutch initials KIK-IRPA, began conserving the closed altarpiece's panels in October 2012, the plan was routine: remove recent retouching and yellowed varnish, stabilize the paint layer, conserve the wooden supports. Restorers instead found the paint covered by large zones of overpaint whose existence had gone unrecorded for centuries. Further research by KIK-IRPA's laboratories, together with the universities of Ghent and Antwerp, dated these additions to the middle of the 16th century and found they covered around 70 percent of the surface, closely enough following Van Eyck's original composition that they had gone undetected under yellowed varnish for generations.",
+          "An international committee of outside experts reviewed the findings and approved removing the overpaint, a process restorers then carried out centimeter by centimeter with a scalpel under a binocular microscope, work that ran through the end of Phase 1 of the treatment in October 2016. KIK-IRPA's press materials state the result plainly: \"the exceptional quality of the closed Ghent Altarpiece hadn't been visible for nearly 500 years.\" A technique built to convince viewers they were looking at real stone had itself been quietly repainted, closely enough to pass, and mistaken for Van Eyck's own hand for nearly five centuries before conservators proved otherwise."
+        ],
+        "image": {
+          "src": "/images/grisaille-ghent-altarpiece-john-evangelist.jpg",
+          "alt": "Jan van Eyck's grisaille panel of Saint John the Evangelist from the closed Ghent Altarpiece, painted in shades of grey to mimic a carved stone statue standing in a niche.",
+          "credit": "[Ghent Altarpiece: John the Evangelist](https://commons.wikimedia.org/wiki/File:Ghent_Altarpiece_G_-_John_the_Evangelist.jpg), Jan van Eyck, 1432, public domain"
+        }
+      },
+      {
+        "heading": "Not the same grey: verdaccio",
+        "body": [
+          "Grisaille's other traditional job, laying down tone before adding color, gets confused often enough with a related but distinct Renaissance technique that the two deserve to be pulled apart. True grisaille stays neutral: black and white mixed together, with no other pigment shifting the hue. Verdaccio starts from a different base, a dark pigment worked with a yellow earth ochre to produce a warmer, greenish-grey mixture built specifically to sit under flesh tones, letting the cooler green push back against the pink and red glazes painted over it later so skin reads as lifelike, not flat.",
+          "Leonardo da Vinci is the painter most associated with the technique, and he used verdaccio, not true grisaille, to construct faces and hands. It sits beneath the finished glazes of the [Mona Lisa](/mona-lisa/), invisible to the eye but detectable in technical imaging of the paint layers, and it stands fully exposed in his unfinished Adoration of the Magi, abandoned mid-underpainting in 1482 when Leonardo left Florence for the Sforza court in Milan and never returned to finish the commission. Because the panel was never glazed in color, its greenish-grey underlayer is the entire visible painting today, held at the Uffizi.",
+          "So the underpainting most people picture when they hear grisaille, the ghostly monochrome layer beneath a Renaissance portrait, is more often verdaccio specifically, not grisaille in the strict, neutral-grey sense the word originally described."
+        ]
+      },
+      {
+        "heading": "Picasso's grey, five centuries later",
+        "body": [
+          "On April 26, 1937, German and Italian aircraft flying for the Nationalist side in the Spanish Civil War bombed the Basque town of Guernica, killing and wounding a large share of its civilian population. Pablo Picasso, in Paris and already committed to a mural for the Spanish Republic's pavilion at that year's World's Fair, learned of the bombing when reports reached the city on May 1 and switched the mural's subject within days.",
+          "The painting he produced, finished within a month and known simply as Guernica, is grisaille in the strict sense the Van Eycks would have recognized: grey, black and white only, with no other color anywhere on the canvas. A widely cited art-history account of the painting, published through the University of Utah's pressbooks platform, offers the standard reading of that choice: \"this may reflect his initial encounter with the original newspaper reports and photographs in black and white; or perhaps it suggested to Picasso the objective factuality of an eye witness report.\" The same account adds that a mottled, textured passage across the canvas's center is often read as an echo of newsprint itself. Picasso left no single definitive statement pinning down his reasoning, so historians present this as the leading interpretation, not a settled fact. The finished 349 by 776 centimeter canvas now hangs in the Museo Reina Sofía in Madrid.",
+          "Guernica's grey is doing documentary work: standing in for the black-and-white photographic record through which the event reached the public. That is a different job from the abstract painters who returned to [pure monochrome decades later](/monochromatic-painting/), stripping color out to focus attention on form and surface rather than to evoke any specific external image. Picasso's grisaille still depicts something. Their monochrome, in several well-known cases, deliberately did not."
+        ]
+      },
+      {
+        "heading": "Four examples, seven centuries",
+        "body": [
+          "Laid side by side, these four uses of grisaille and its close relative verdaccio span roughly seven centuries, two mediums and at least three distinct purposes, from a monastic building code to a war memorial.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.5;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Work</th><th style=\"padding:8px 10px;text-align:left;\">Date</th><th style=\"padding:8px 10px;text-align:left;\">Medium</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">What the grey does</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">French grisaille windows (The Cloisters)</td><td style=\"padding:8px 10px;\">1270-80</td><td style=\"padding:8px 10px;\">Painted stained glass</td><td style=\"padding:8px 0 8px 10px;\">Ornamental pattern, cheaper than color, lets in more light</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Ghent Altarpiece exterior (Van Eyck)</td><td style=\"padding:8px 10px;\">1432</td><td style=\"padding:8px 10px;\">Oil on oak panel</td><td style=\"padding:8px 0 8px 10px;\">Imitates carved stone statues</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;\">Mona Lisa / Adoration of the Magi (verdaccio, Leonardo)</td><td style=\"padding:8px 10px;\">c. 1481-1506</td><td style=\"padding:8px 10px;\">Oil/tempera underlayer</td><td style=\"padding:8px 0 8px 10px;\">Tonal base for flesh, glazed over in color when finished</td></tr><tr><td style=\"padding:8px 10px 8px 0;\">Guernica (Picasso)</td><td style=\"padding:8px 10px;\">1937</td><td style=\"padding:8px 10px;\">Oil on canvas</td><td style=\"padding:8px 0 8px 10px;\">Finished painting, evokes newsprint and photographic record</td></tr></tbody></table></div>",
+          "What holds those four rows together is the same underlying trick: a painter or glazier deciding that removing color, rather than adding it, was the most convincing way to make a viewer believe in what they were looking at, whether that was a saint carved from stone, a face built from living flesh, or a bombing most of the audience would only ever see in black and white. UmberLore's [Technique hub](/topics/technique/) covers the chiaroscuro woodcut's own disputed origin story and Prussian blue's accidental discovery, among others, if the mechanics behind a technique are what brought you here."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do you pronounce grisaille?",
+        "answer": "Roughly gruh-ZY, rhyming with the end of the word eye, reflecting its French origin in gris, meaning grey. English speakers land the stress on that final syllable, though you'll hear small variations depending on how anglicized the speaker's accent is."
+      },
+      {
+        "question": "What is a grisaille technique?",
+        "answer": "It is a painting built almost entirely from shades of a single neutral color, produced by blending white pigment against black to move the tonal value rather than thinning out one color. Painters have used it as a finished, standalone picture, most often to mimic a sculpted, three-dimensional form, and as an underlayer of tone laid down before the color goes on top."
+      },
+      {
+        "question": "What color is grisaille?",
+        "answer": "Grey, specifically. That neutral grey base is what separates true grisaille from related monochrome underpainting methods built around a different hue, such as the greenish-grey verdaccio Renaissance painters favored for laying in flesh tones before glazing."
+      },
+      {
+        "question": "Did Da Vinci use grisaille?",
+        "answer": "Not quite. Leonardo built his faces and hands with verdaccio, a yellow-earth-toned underlayer distinct from neutral grisaille. Color glazes cover that layer in the Mona Lisa, but a separate, earlier altarpiece commission never got past that stage before Leonardo relocated to Milan in 1482, leaving the raw underlayer as the whole visible picture today."
+      },
+      {
+        "question": "Why did Picasso paint Guernica in grey, black and white instead of color?",
+        "answer": "The standard art-historical reading, drawn from accounts of the painting's creation, ties the palette to how Picasso and much of the public first learned of the 1937 bombing: through monochrome press photos and newsreel clips of the day, and a mottled texture near the middle of the canvas is sometimes said to mimic printed newsprint grain. Picasso never spelled out his reasoning in any confirmed remark, so this stays the widely repeated explanation without ever being confirmed by the artist himself."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Cambridge Dictionary: Grisaille (pronunciation)",
+        "url": "https://dictionary.cambridge.org/us/pronunciation/english/grisaille"
+      },
+      {
+        "label": "Britannica: Grisaille",
+        "url": "https://www.britannica.com/art/grisaille"
+      },
+      {
+        "label": "National Galleries of Scotland: Grisaille (glossary)",
+        "url": "https://www.nationalgalleries.org/art-and-artists/glossary-terms/grisaille"
+      },
+      {
+        "label": "Corning Museum of Glass: Grisaille (definition)",
+        "url": "https://allaboutglass.cmog.org/definition/grisaille"
+      },
+      {
+        "label": "Metropolitan Museum of Art: Grisaille Panels, French, 1270-80",
+        "url": "https://www.metmuseum.org/art/collection/search/478999"
+      },
+      {
+        "label": "KIK-IRPA: The conservation treatment of the Ghent Altarpiece by the Van Eyck brothers (press kit)",
+        "url": "https://www.kikirpa.be/files/Pers/Dossier-Het-Lam-Gods/2020.01.27-Restoration-Ghent-Altarpiece-Synthesis.pdf"
+      },
+      {
+        "label": "Wikipedia: Verdaccio",
+        "url": "https://en.wikipedia.org/wiki/Verdaccio"
+      },
+      {
+        "label": "Wikipedia: Adoration of the Magi (Leonardo)",
+        "url": "https://en.wikipedia.org/wiki/Adoration_of_the_Magi_(Leonardo)"
+      },
+      {
+        "label": "Pablo Picasso, Guernica: Renaissance Through Contemporary Art History (University of Utah pressbooks)",
+        "url": "https://uen.pressbooks.pub/arth2720/chapter/pablo-picasso-guernica/"
       }
     ]
   }

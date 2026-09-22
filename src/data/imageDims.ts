@@ -547,6 +547,26 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 2184,
   "w": 1600
  },
+ "/images/grisaille-ghent-altarpiece-closed.avif": {
+  "h": 2283,
+  "w": 1600
+ },
+ "/images/grisaille-ghent-altarpiece-closed.jpg": {
+  "h": 2283,
+  "w": 1600
+ },
+ "/images/grisaille-ghent-altarpiece-closed.webp": {
+  "h": 2283,
+  "w": 1600
+ },
+ "/images/grisaille-ghent-altarpiece-john-evangelist.jpg": {
+  "h": 1673,
+  "w": 594
+ },
+ "/images/grisaille-met-cloisters-glass-panel.jpg": {
+  "h": 2000,
+  "w": 835
+ },
  "/images/guggenheim-museum-exterior.jpg": {
   "h": 900,
   "w": 1600
@@ -1305,6 +1325,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/ghost-of-a-flea-sm.webp": {
   "h": 1024,
+  "w": 750
+ },
+ "/images/responsive/grisaille-ghent-altarpiece-closed-sm.avif": {
+  "h": 1070,
+  "w": 750
+ },
+ "/images/responsive/grisaille-ghent-altarpiece-closed-sm.jpg": {
+  "h": 1070,
+  "w": 750
+ },
+ "/images/responsive/grisaille-ghent-altarpiece-closed-sm.webp": {
+  "h": 1070,
   "w": 750
  },
  "/images/responsive/icarus-painting-bruegel-brussels-sm.avif": {

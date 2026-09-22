@@ -139,6 +139,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/ghost-of-a-flea-sm.jpg",
   "w": 750
  },
+ "/images/grisaille-ghent-altarpiece-closed.jpg": {
+  "h": 1070,
+  "mobile": "/images/responsive/grisaille-ghent-altarpiece-closed-sm.jpg",
+  "w": 750
+ },
  "/images/icarus-painting-bruegel-brussels.jpg": {
   "h": 482,
   "mobile": "/images/responsive/icarus-painting-bruegel-brussels-sm.jpg",

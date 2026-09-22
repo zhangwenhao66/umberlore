@@ -576,5 +576,14 @@
    "h": 1126
   },
   "desktop_rel": "/images/fresco-prince-of-the-lilies-knossos.jpg"
+ },
+ "/images/grisaille-ghent-altarpiece-closed.jpg": {
+  "fingerprint": "1790054496914216863:663898:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/grisaille-ghent-altarpiece-closed-sm.jpg",
+   "w": 750,
+   "h": 1070
+  },
+  "desktop_rel": "/images/grisaille-ghent-altarpiece-closed.jpg"
  }
 }
