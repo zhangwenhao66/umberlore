@@ -4959,7 +4959,7 @@ export const guides: Guide[] = [
         ],
         "image": {
           "src": "/images/john-ruskin-self-portrait-1875.jpg",
-          "alt": "John Ruskin's own 1875 self-portrait, painted two years before he wrote the review that led to the libel trial and around the time of the mental breakdown that repeatedly postponed it",
+          "alt": "John Ruskin's 1875 self-portrait, painted two years before he wrote the review that led to the libel trial and around the time of the mental breakdown that repeatedly postponed it",
           "credit": "[John Ruskin, self-portrait, 1875](https://commons.wikimedia.org/wiki/File:Ruskin_Self_Portrait_1875.jpg), public domain (Ruskin died in 1900)."
         }
       },
@@ -5003,19 +5003,19 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Did Whistler win his libel case against Ruskin?",
-        "answer": "Technically, yes. Court records reconstructed from newspaper coverage show the jury ruled in Whistler's favor in November 1878, but awarded him only a farthing in damages and no costs, an outcome the trial judge, Baron Huddleston, had suggested to the jury in advance as the fitting response to a case he considered a waste of the court's time. Whistler had sought one thousand pounds."
+        "answer": "Technically, yes. Court records reconstructed from newspaper coverage show the jury ruled in Whistler's favor in November 1878, but awarded him only a farthing in damages and no costs, an outcome Baron Huddleston, who oversaw the trial, had floated to the jury beforehand as fitting for a dispute he viewed as unworthy of the court's attention. Whistler had originally sought a thousand pounds as compensation."
       },
       {
         "question": "Did the Ruskin trial bankrupt Whistler?",
-        "answer": "It made an existing crisis worse rather than starting one. Whistler's letters show he was falling into serious debt from an earlier commission, the Peacock Room, and from an expensive new house he was simultaneously having built, before he filed suit against Ruskin in the summer of 1877. The one thousand pounds he sought in damages matched the sum his patron Frederick Leyland had refused to pay him for the Peacock Room commission. Losing the case without recovering his legal costs deepened those debts. Whistler was declared bankrupt in May 1879."
+        "answer": "It made an existing crisis worse rather than starting one. Whistler's letters show he was already falling into serious debt from an earlier decorating job for a patron: the Peacock Room commission. He was also paying for an expensive new house at the same time, all before he filed suit against Ruskin that July 1877. The thousand pounds he sought in damages was the same sum his patron Frederick Leyland still owed him for that same Peacock Room job and wouldn't hand over. Losing the case without recovering his legal costs deepened those debts, and by May 1879 he had been declared bankrupt."
       },
       {
         "question": "Why did Edward Burne-Jones testify against Whistler?",
-        "answer": "Officially, as Ruskin's expert witness on painting. A private written opinion Burne-Jones gave Ruskin's solicitors before the trial, not made public until the Pennells published it in 1921, shows testimony more hostile than his reluctant courtroom manner suggested, and biographers trace his animosity to an unrelated 1867 dispute in which Whistler struck a mutual friend of theirs, the painter Alphonse Legros, during a fight with his brother-in-law."
+        "answer": "Officially, as Ruskin's expert witness on painting. A confidential memo Burne-Jones gave to the solicitors representing Ruskin before the trial, not revealed publicly until the Pennell biography appeared in 1921, shows testimony more hostile than his reluctant courtroom manner suggested, and biographers trace his animosity to a separate incident from 1867, in which Whistler struck a mutual friend of theirs, Alphonse Legros, for taking the side of Whistler's brother-in-law, whom Whistler had come to blows with once before, a decade earlier."
       },
       {
         "question": "Is there an official transcript of the Whistler v. Ruskin trial?",
-        "answer": "No. English courts of the period routinely destroyed trial records once a case closed, and Linda Merrill's history of the trial notes the loss directly. What survives comes entirely from newspaper reporters' shorthand accounts, which is why even the trial's most famous exchange, Whistler's line about painting for \"the knowledge I have gained in the work of a lifetime,\" is usually quoted today in a shortened form that doesn't quite match the fuller wording multiple papers recorded at the time."
+        "answer": "No. Court records from this period in England were routinely discarded once a case wrapped up, and Linda Merrill's history of the trial confirms none survive for Whistler v. Ruskin. What's left comes only from journalists' shorthand notes taken in the courtroom, which is why even the trial's most famous exchange, Whistler's reply crediting the price to years of accumulated knowledge, not two days of studio work, is typically trimmed down today into a version that doesn't quite match the fuller wording multiple papers recorded at the time."
       }
     ],
     "sources": [
