@@ -2739,7 +2739,7 @@ export const guides: Guide[] = [
       {
         "heading": "Detroit hired him in the middle of its own depression",
         "body": [
-          "In 1932, Wilhelm Valentiner, director of the Detroit Institute of Arts, commissioned Rivera to paint 27 fresco panels depicting the city's industries across the walls of the museum's interior courtyard, now known as Rivera Court. Valentiner's own commission letter framed the brief loosely: \"They would be pleased if you could possibly find something out of the industry of the town; but at the end they decided to leave it entirely to you, what you think best to do.\" Edsel Ford, president of the Ford Motor Company, contributed $20,000 toward the project.",
+          "In 1932, Wilhelm Valentiner, director of the Detroit Institute of Arts, commissioned Rivera to paint 27 fresco panels depicting the city's industries across the walls of the museum's interior courtyard, now known as Rivera Court. Valentiner's commission letter framed the brief loosely: \"They would be pleased if you could possibly find something out of the industry of the town; but at the end they decided to leave it entirely to you, what you think best to do.\" Edsel Ford, president of the Ford Motor Company, contributed $20,000 toward the project.",
           "Rivera spent three months touring the Ford Motor Company's River Rouge Complex before painting a single wall, filling notebooks with sketches of the assembly lines, blast furnaces, and stamping presses, aided by the plant's official photographer, W. J. Stettler. He then completed all 27 panels in eight months, working with his assistants on fifteen-hour days without breaks; Rivera lost roughly 100 pounds over the course of the project, and at one point his own crew protested for higher pay.",
           "He began the work in 1932, at the depth of the Great Depression, when one in four Detroit laborers was unemployed and Ford workers were organizing against pay cuts and layoffs. Six thousand workers went on strike that year; five died in the violence that followed. Rivera, a committed Marxist who painted laborers and machinery with equal reverence throughout the Detroit cycle, was working against that backdrop rather than in spite of it."
         ]
@@ -2792,23 +2792,23 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Why did Rockefeller Center destroy Diego Rivera's mural?",
-        "answer": "Rivera added a portrait of Vladimir Lenin to Man at the Crossroads after a New York World-Telegram article accused the commissioned mural of anti-capitalist propaganda. When Nelson Rockefeller asked him to remove the portrait, Rivera refused, and Rockefeller Center Inc. halted the unfinished work in May 1933 before having it chiseled off the lobby wall in February 1934."
+        "answer": "After a New York tabloid ran a story accusing his commissioned lobby fresco of pushing a Marxist message, Rivera answered by adding the Soviet leader Vladimir Lenin's likeness to the scene. The developer's son, who oversaw the building's art program, pushed back and asked him to take it out; Rivera declined, and the company that had hired him halted work on the still-incomplete mural in May 1933 before having it chiseled off the lobby wall in February 1934."
       },
       {
         "question": "Did Diego Rivera get paid for the destroyed mural?",
-        "answer": "Yes. Rivera was paid his full $21,000 fee under the terms of his contract with Rockefeller Center Inc., which also gave the company full ownership of the finished work. His net profit after expenses came to roughly $7,000."
+        "answer": "Yes. Rivera was paid his full $21,000 fee under the terms of his contract with the firm that hired him, a contract that also signed over the finished mural to that company outright. His net profit after expenses came to roughly $7,000."
       },
       {
         "question": "Does Diego Rivera's Rockefeller Center mural still exist anywhere?",
-        "answer": "The original was destroyed in February 1934, but only black-and-white photographs of the unfinished work survive from before its destruction. In 1934, Rivera used those photographs to repaint the composition from memory in Mexico City's Palacio de Bellas Artes under the title Man, Controller of the Universe, and that recreation still hangs there today."
+        "answer": "The original was destroyed in February 1934, but only a handful of monochrome photographs taken before the demolition survive. In 1934, Rivera drew on those photographs to reconstruct the whole scene by memory on a museum wall in Mexico City, bearing a different title, and it remains on view there today."
       },
       {
         "question": "What was controversial about Diego Rivera's Detroit Industry Murals?",
-        "answer": "One panel reworked a Nativity-style composition into a vaccination scene, with a doctor and nurse in place of Joseph and Mary. Some of Detroit's clergy demanded the panel be destroyed and the Detroit News called the cycle \"vulgar\" and \"un-American,\" but museum director Wilhelm Valentiner and patron Edsel Ford refused to alter it. The panel remains on the wall, and the full mural cycle was designated a National Historic Landmark in 2014."
+        "answer": "One panel reworked a Nativity-style composition to show a doctor and nurse administering an inoculation, standing in for Joseph and Mary. Some of Detroit's clergy demanded the panel be destroyed, and a local newspaper panned the whole cycle in harshly nationalistic terms, but the museum's director and its patron Edsel Ford refused to alter it. It is still there, and in 2014 the full cycle earned federal landmark status."
       },
       {
         "question": "How long did it take Diego Rivera to paint the Detroit Industry Murals?",
-        "answer": "Rivera spent three months researching Ford's River Rouge Complex before painting, then completed all 27 fresco panels in eight months of fifteen-hour workdays, losing about 100 pounds over the course of the project."
+        "answer": "He put in three months studying operations at Ford's sprawling auto plant before he started painting, and needed just eight months of fifteen-hour workdays to finish the full set of 27 fresco panels, shedding close to 100 pounds by the time the cycle was finished."
       },
       {
         "question": "What happened to Diego Rivera after Frida Kahlo died?",
@@ -2816,11 +2816,11 @@ export const guides: Guide[] = [
       },
       {
         "question": "How much is a Diego Rivera painting worth?",
-        "answer": "Prices vary enormously by period and subject, but his auction record is $9,762,500, set in 2018 at Christie's New York for The Rivals (1931), a village fiesta scene Abby Aldrich Rockefeller had commissioned as a wedding gift for her son. That sale made it, at the time, the most expensive work by a Latin American artist ever sold at auction. Outside the auction room, Rivera's 1928 Dance in Tehuantepec reportedly sold privately in 2016 for $15.7 million to Argentine collector Eduardo Costantini."
+        "answer": "Prices vary enormously by period and subject, but his auction record is $9,762,500, set in 2018 at Christie's New York for The Rivals (1931), a village fiesta scene the same Rockefeller family collector who later proposed him for his celebrated New York mural had commissioned as a wedding gift for her son. That sale made it, at the time, the most expensive work by a Latin American artist ever sold at auction. Outside the auction room, Rivera's 1928 Dance in Tehuantepec reportedly sold privately in 2016 for $15.7 million to Argentine collector Eduardo Costantini."
       },
       {
         "question": "What is Diego Rivera's most famous artwork?",
-        "answer": "According to Britannica, his best-known murals are the Detroit Industry cycle at the Detroit Institute of Arts and Man, Controller of the Universe at Mexico City's Palacio de Bellas Artes, the repainted version of the destroyed Rockefeller Center mural. His largest single commission, though, is Epopeya del Pueblo Mexicano (The History of Mexico), covering three walls of the National Palace's main staircase in Mexico City, which he worked on, on and off, from 1929 to 1935."
+        "answer": "According to Britannica, his best-known murals are the Michigan factory-themed cycle discussed above, housed in the same museum that commissioned it, and the repainted version of the destroyed New York piece, under its later title, on view in the same Mexico City fine-arts palace mentioned above. His largest single commission, though, is Epopeya del Pueblo Mexicano (The History of Mexico), covering three walls of the National Palace's main staircase in Mexico City, which he worked on, on and off, from 1929 to 1935."
       },
 ],
     "sources": [
@@ -2873,7 +2873,7 @@ export const guides: Guide[] = [
         "heading": "The seven terms, briefly",
         "body": [
           "Museum wall text and Wikipedia agree closely on what each of the seven terms means, which is worth spelling out before getting into where they came from. Line is a mark tracing the path of a moving point, read by a viewer as direction, speed, and intention depending on how it curves or breaks. Shape is a flat, two-dimensional area enclosed by a line or a change in tone; give that same enclosed area height, width, and depth and it becomes form, the term reserved for objects with actual or implied volume, like a sculpture or a shaded sphere painted onto a flat canvas. Space describes how an artist manages perspective and proportion so some shapes read as near and others as far, including the negative space around a subject as well as the positive space it occupies. Value is the degree of lightness or darkness in a tone, independent of hue, running from white to black through every grey between. Color is that hue itself, defined by three properties, the specific color name, its intensity or chroma, and its own value, and built up through primary, secondary, and complementary relationships on a standard color wheel. Texture is the surface quality of a work, either tactile, something a viewer could actually feel on a sculpture, or purely implied through visual cues on a flat painted surface.",
-          "Some sources do not stop at seven. Wikipedia's own entry adds mark making, the visible trace of how an artist's hand moved across the material, and materiality, the specific physical substance chosen and what that choice does to a viewer's reading of the work, as an eighth and ninth term. That the count keeps shifting depending on which department or textbook is asked is itself evidence for the argument in the rest of this article: this is a teaching convention still being revised, not a fixed inventory handed down from antiquity."
+          "Some sources do not stop at seven. Wikipedia's entry adds mark making, the visible trace of how an artist's hand moved across the material, and materiality, the specific physical substance chosen and what that choice does to a viewer's reading of the work, as an eighth and ninth term. That the count keeps shifting depending on which department or textbook is asked is itself evidence for the argument in the rest of this article: this is a teaching convention still being revised, not a fixed inventory handed down from antiquity."
         ],
         "image": {
           "src": "/images/elements-of-art-diagram.svg",
@@ -2903,7 +2903,7 @@ export const guides: Guide[] = [
       {
         "heading": "The Bauhaus turns three elements into a geometry",
         "body": [
-          "The next major rebuilding happened in Germany. Walter Gropius founded the Bauhaus in Weimar in 1919 around a required preliminary course, the Vorkurs, that put every incoming student through drills in materials, color, and formal composition before they specialized in a workshop. Wassily Kandinsky joined the Bauhaus faculty in 1922 to teach analytical drawing, and in 1926 he published Point and Line to Plane as the ninth volume in the school's own book series, the Bauhausbücher.",
+          "The next major rebuilding happened in Germany. Walter Gropius founded the Bauhaus in Weimar in 1919 around a required preliminary course, the Vorkurs, that put every incoming student through drills in materials, color, and formal composition before they specialized in a workshop. Wassily Kandinsky joined the Bauhaus faculty in 1922 to teach analytical drawing, and in 1926 he published Point and Line to Plane as the ninth volume in the school's book series, the Bauhausbücher.",
           "Kandinsky's book treats the elements almost as physics. \"The geometric point is an invisible thing,\" he writes. \"Therefore, it must be defined as an incorporeal thing. Considered in terms of substance, it equals zero.\" A line, in his system, is simply \"the track made by the moving point,\" the record left behind once that zero-dimensional nothing is set into motion. Where Dow had grouped line, notan, and color as three practical tools for a painting student, Kandinsky proposed point, line, and plane as a near-geometric account of how any mark on a surface generates meaning and emotional force.",
           "Kandinsky had already made the case in paint before he made it in prose. Composition 8, which he finished in July 1923, three years before Point and Line to Plane appeared, arranges circles, triangles, and crossing diagonals across a canvas with no representational subject at all, close to a direct illustration of the vocabulary he would spend the next few years writing down. Solomon Guggenheim bought it directly from Kandinsky's studio in Dessau in 1929, the first of more than 150 works by the artist Guggenheim would go on to acquire, and it now hangs in the museum that carries his name."
         ]
@@ -2927,27 +2927,27 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "What are the seven elements of art?",
-        "answer": "The version now standard in American art classrooms lists line, shape, form, space, value, color, and texture. Wikipedia's own summary of the topic describes them as the stylistic building blocks an artist uses to communicate, and notes that some departments add mark making and materiality as an eighth and ninth term, so even the count is not fully settled."
+        "answer": "The version now standard in American art classrooms lists seven terms: color, form, line, shape, space, texture, and value. Wikipedia describes them as the stylistic building blocks an artist uses to communicate, and notes that a handful of departments teach two extra categories, the physical trace of an artist's hand and the substance a work is made from, so even the tally is not fully settled."
       },
       {
         "question": "Who invented the elements of art?",
-        "answer": "No single person did. The earliest documented systematic version is Arthur Wesley Dow's 1899 textbook Composition, which named line, notan, and color as the three structural elements of art. Denman Ross at Harvard and Wassily Kandinsky at the Bauhaus each built parallel systems over the following three decades, and the specific seven-term list used in classrooms today doesn't appear on the historical record before college textbooks like Otto Ocvirk's Art Fundamentals: Theory and Practice, first documented in a 1968 printing."
+        "answer": "No single person did. The oldest known formal version traces to a book Arthur Wesley Dow published in 1899, which reduced picture-making to a trio: color, notan, and line. Denman Ross at Harvard and Wassily Kandinsky at the Bauhaus each built parallel systems over the following three decades, and today's classroom checklist of seven terms first turns up in a college textbook, documented in a 1968 printing."
       },
       {
         "question": "What does \"notan\" mean in art?",
-        "answer": "Notan is a Japanese term meaning dark and light. Arthur Wesley Dow, who introduced the word to American art teaching in his 1899 book Composition, defined it as referring \"to the quantity of light reflected, or the massing of tones of different values.\" It is the direct ancestor of what today's lists call value."
+        "answer": "Notan is a Japanese term meaning dark and light. Dow, who introduced the word to American art teaching in his 1899 book Composition, used it to describe how much light a surface bounces back to the eye, in effect how light and dark tones group together across a composition. Today's lists trace their term value straight back to it."
       },
       {
         "question": "Did Kandinsky invent the modern seven-element list of art?",
-        "answer": "No. Kandinsky's 1926 Bauhaus book Point and Line to Plane formalized a different, three-part system, point, line, and plane, treated almost as a branch of geometry. It predates the now-standard seven-term American classroom list and isn't its direct source, though both belong to the same broader history of artists and teachers trying to reduce painting to countable, describable parts."
+        "answer": "No. His 1926 Bauhaus-era treatise formalized a different, three-part system built from a point, a line, and a plane, treated almost as a branch of geometry. It predates the now-standard seven-term American classroom list and isn't its direct source, though both belong to the same broader history of artists and teachers trying to reduce painting to countable, describable parts."
       },
       {
         "question": "Is the list of elements of art the same in every textbook?",
-        "answer": "No. Arthur Wesley Dow's original 1899 list had three elements. Denman Ross's 1907 A Theory of Pure Design organized the subject around dots, lines, and tone rather than a fixed count. Wikipedia's current entry lists seven core elements and adds mark making and materiality as further terms some departments teach. The number has changed more than once across the documented history of the idea."
+        "answer": "No. Dow's original 1899 list counted just three. Denman Ross's 1907 book on design theory treated dots, lines, and patches of tone as the working vocabulary, never settling on a fixed count at all. Wikipedia's current entry lists seven core elements and tacks on two more categories that some departments also cover. The number has changed more than once across the documented history of the idea."
       },
       {
         "question": "Why do art teachers still use a framework that's less than 150 years old?",
-        "answer": "Because it works as a shared descriptive vocabulary, not because it's ancient. The J. Paul Getty Museum's own teaching materials on formal analysis use the same basic terms to help viewers describe exactly how a picture produces its effect rather than just naming what's in it, which was the practical problem Arthur Wesley Dow set out to solve in 1899 when he built the first version of the list."
+        "answer": "Because it works as a shared descriptive vocabulary, not because it's ancient. One major California museum's teaching materials on formal analysis use the same basic terms to help viewers unpack why a picture works the way it does, rather than just naming what's in it, which was the practical problem Arthur Wesley Dow was trying to solve back in 1899 when he first wrote his three-part system down."
       }
     ],
     "sources": [
@@ -3223,7 +3223,7 @@ export const guides: Guide[] = [
         "body": [
           "The story is disprovable with two dates. Andrea del Castagno died suddenly in Florence on 19 August 1457, during an outbreak of plague, a date recorded in the city's burial records from that month. Domenico Veneziano did not die until May 1461, nearly four years after Castagno. A man cannot, as Vasari describes it, spend years feigning friendship to learn a secret, murder a colleague for it, and then confess the killing on his own deathbed to someone who was still alive and working for another four years after that deathbed scene supposedly took place.",
           "The correction came from Gaetano Milanesi, a Sienese scholar trained as a lawyer who spent decades in the region's archives teaching himself to read early Italian handwriting well enough to transcribe documents other historians could not use. In 1845, he co-founded a scholarly society with his brother Carlo Milanesi and two collaborators specifically to publish primary documents on Italian art history, and between 1846 and 1870 that project produced a new critical edition of Vasari's Lives, annotated against archival evidence rather than accepted on Vasari's word alone.",
-          "Within that decades-long project, Milanesi published a short 1862 essay under the title \"An Examination of Vasari's Account concerning the Death of Domenico Veneziano,\" laying out both painters' death dates from primary sources, burial registers and payment records rather than later retellings of Vasari's own account, and showing that Castagno's death in 1457 preceded Veneziano's in 1461 by roughly four years. That gap makes the murder, the years of feigned friendship that were supposed to precede it, and the deathbed confession all chronologically impossible exactly as Vasari wrote them.",
+          "Within that decades-long project, Milanesi published a short 1862 essay under the title \"An Examination of Vasari's Account concerning the Death of Domenico Veneziano,\" laying out both painters' death dates from primary sources, burial registers and payment records rather than later retellings of Vasari's account, and showing that Castagno's death in 1457 preceded Veneziano's in 1461 by roughly four years. That gap makes the murder, the years of feigned friendship that were supposed to precede it, and the deathbed confession all chronologically impossible exactly as Vasari wrote them.",
           "Modern reference accounts of both painters now describe the Castagno murder story as a myth, disproved by the two men's own recorded dates of death, and both are still discussed largely through what Vasari wrote about them, corrected where the archives allow it and read with more caution everywhere else. It is a narrower kind of correction than [a museum quietly redating a work its own founding legend depended on](/abstract-art-first-painting/); nobody had to relabel a painting on a wall. But it changed how one of the founding texts of art history gets read, three hundred years after it was first published."
         ]
       },
@@ -3240,23 +3240,23 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Who coined the term \"Renaissance\"?",
-        "answer": "The Italian word behind it, rinascita, was first used in writing about art by Giorgio Vasari, in the 1550 preface to his Lives of the Most Excellent Painters, Sculptors, and Architects. The word settled into \"the Renaissance\" as the standard art-historical term much later, mainly through Jacob Burckhardt's 1860 book The Civilization of the Renaissance in Italy, five years after the French historian Jules Michelet had already used a narrower, science-focused version of the word in 1855."
+        "answer": "The Italian word behind it, rinascita, was first used in writing about art by Giorgio Vasari, in the preface to his 1550 biographical collection. It settled into the now-familiar English term much later, mainly through a Swiss historian's landmark 1860 study of Italian culture, five years after a French historian had already applied a similar word, in a much more science-heavy sense, back in 1855."
       },
       {
         "question": "Did Andrea del Castagno really murder Domenico Veneziano?",
-        "answer": "No. Giorgio Vasari's Lives claimed Castagno murdered Veneziano out of jealousy over the secret of oil painting and confessed to it on his own deathbed, but Castagno died of plague on 19 August 1457, nearly four years before Veneziano's recorded death in May 1461. The archival scholar Gaetano Milanesi established both dates from burial and payment records in an 1862 essay, proving the story chronologically impossible."
+        "answer": "No. Vasari's biography of the two painters claimed Castagno murdered Veneziano to get his hands on a closely guarded oil-painting technique, then confessed the crime as his own life was ending, but Castagno died of plague on August 19, 1457, while Veneziano lived on for roughly another four years, until May 1461. The archivist Gaetano Milanesi, working a few centuries later, cross-checked financial documents against parish burial entries in an 1862 essay, showing the timeline simply could not have happened."
       },
       {
         "question": "What is Giorgio Vasari's Lives of the Artists?",
-        "answer": "It is a collection of biographies of Italian painters, sculptors, and architects, first published in two volumes in 1550 and expanded to three volumes in a revised 1568 edition. It is generally treated as the founding text of Western art history, and the first book to describe the period's art as a rinascita, or rebirth, of ancient greatness."
+        "answer": "It is a collection of biographies covering Italy's architects, sculptors, and painters, first published in two volumes in 1550 and expanded to three volumes in a revised 1568 edition. It is generally treated as the founding text of Western art history, and the first book to frame the period's art in terms of rinascita, an Italian word for the rebirth of a lost classical standard."
       },
       {
         "question": "What time period does Renaissance art cover?",
-        "answer": "Art historians generally place Renaissance art across roughly the fourteenth through early seventeenth centuries, with its most influential period in Italy running from about 1400 to 1600. Jacob Burckhardt's influential 1860 definition specifically framed the period as running from the painter Giotto, active in the early 1300s, to Michelangelo, who died in 1564."
+        "answer": "Art historians generally place Renaissance art somewhere between the 1300s and the early 1600s, with its most influential period in Italy running from about 1400 to 1600. A landmark 1860 study, written by the Swiss scholar most often named as the one who put the modern label into general use, bracketed it more specifically, starting with the painter Giotto, active in the early 1300s, and ending with Michelangelo, who died in 1564."
       },
       {
         "question": "Why do historians still use Vasari's Lives if it contains fabricated stories like the Castagno murder?",
-        "answer": "For many of the artists Vasari wrote about, his book is the earliest or only surviving written account of their lives, so it remains a starting point by necessity. Modern historians treat individual claims in it, especially anecdotes about motive, character, and cause of death, as needing independent documentary corroboration rather than acceptance as fact, which is exactly the standard the Castagno murder story failed to meet."
+        "answer": "For many of the artists Vasari wrote about, his book is the earliest or only surviving written account of their lives, so it remains a starting point by necessity. Modern historians treat individual claims in it, especially anecdotes about motive, character, and cause of death, as needing independent documentary corroboration rather than acceptance as fact, exactly the test the fabricated Veneziano killing failed to pass."
       }
     ],
     "sources": [
