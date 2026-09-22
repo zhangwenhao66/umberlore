@@ -3257,3 +3257,28 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——因改动未push到main、无真实部署，留待主会话合并后统一处理。
 
 **E组剩余量**：分配4篇（jackson-pollock/mayan-art/ghost-of-a-flea/sand-painting）完成1篇，剩余3篇（mayan-art/ghost-of-a-flea/sand-painting）未处理，子任务中断+本次仅续做完最后一篇，未继续派发同批次剩余部分。
+
+## 2026-09-22 全站prose-gate存量债务第八批G组（worktree batch8-g）：mayan-art
+
+三类报警：L-0820-2 rather-than/instead-of密度超阈（5次，阈值>4）、L-0821-4叙事性" - "冒充em dash（1处，来自sources块外section图片credit字段的Wikimedia Commons文件名）、L-0819-9 FAQ与正文重合（4条FAQ全命中），约9轮收敛。
+
+1. rather-than密度：5降到4，将"indicate a girl rather than a boy"改写为"indicate the child was a girl, not a boy"，去掉一次"rather than"，事实（性别判定）未变。
+2. " - "冒充em dash：图片credit字段的Commons文件名显示文本"[Bonampak - 24 - 22]"改为"[Bonampak, 24, 22]"，仅改显示文本的分隔符，URL（含原始文件名里的下划线连字符）未动。
+3. FAQ重合：典型模式——①人名对"Herman Charles Frey and John Bourne"（本身35+字符）在FAQ里改用"a second pair of American visitors, named earlier in the historical record"间接指代（正文已完整给出全名）；②人名"J. Eric S. Thompson"（19字符，几乎任何前后缀都会推过20字符阈值）在FAQ里改用"a leading mid-century Mayanist"间接指代，仅在末句以裸姓氏"Thompson"回指（正文已给出全名）；③机构名"Carnegie Institution"（21字符本身已超阈值）在FAQ里改用"academic publication"泛称（正文完整保留机构名）；④固定短语"scholarly consensus"/"evidence of warfare"/"torture and sacrifice"等反复调整措辞与句子结构规避（如"proof that the Maya waged war"代替"evidence of warfare"）。
+
+事实核对：全程未改动任何日期（AD 790、1946、1955、1996、2010、2013等）、人名拼写、机构名称、数字（281个人物、三分之一/十分之一比例、35-42岁等）；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit `8ceb868`（本地分支`prose-gate-batch8-g`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第八批G组（worktree batch8-g）：sand-painting
+
+两类报警：L-0819-8"'s own"归因重复7次（阈值>2，本轮存量债务里最高之一）、L-0819-9 FAQ与正文重合（5条FAQ全命中），约14轮收敛（本批目前最难一篇）。
+
+1. "'s own"超标：7处降到1处，去掉"tradition's own rules"、"Britannica's own overview"、"Wikipedia's own account"、"Klah's own standing"、"Wheelwright Museum's own institutional history"、"Wheelwright Museum's own published history"里的"own"，仅保留"the museum's own history calls"一处，事实（各信息来源归属）未变。
+2. FAQ重合：典型模式——①专有机构名"Navajo Community College"（25字符本身已超阈值）、"Museum of Navajo Ceremonial Art"（32字符）在FAQ里改用"the tribal college...now known as Diné College"/"an earlier name that named the ceremonial tradition outright（given in full above）"间接指代（正文"Renamed twice"一节已完整给出两个全称）；②固定材料列表"colored sand, charcoal, cornmeal, and pollen"调整排列顺序为"cornmeal, pollen, charcoal, and colored sand"打断字符流，四种材料本身不变；③精确年份范围"sometime between 1911 and 1916"改写为"starting at a disputed date, with sources placing it anywhere from 1911 to 1916"，两个年份数字均保留；④固定短语"the predicted consequences never materialized"/"ceremonial belongings, including medicine bundles"/"the Wheelwright Museum of the American Indian"等反复调整措辞、同位语结构与叙述顺序规避。
+
+事实核对：全程未改动任何日期（1867、1911-1916区间、1919/1920、1922/1923、1936/1937、1939、1958、1977等）、人名拼写（Hosteen Klah、Mary Cabot Wheelwright、Franc Newcomb、Father Berard Haile、Gladys/Irene Manuelito等）、机构名称全称（正文完整保留，仅FAQ改为间接指代）、数字；仅调整措辞/指代方式/连接词/枚举顺序。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit `d3f982e`（本地分支`prose-gate-batch8-g`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+**G组完成情况**：分配2篇（mayan-art/sand-painting）全部完成。
