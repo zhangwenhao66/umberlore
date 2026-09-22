@@ -3018,3 +3018,17 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——按任务要求，因改动未push到main、无真实部署，留待主会话合并后统一处理。
 
 **剩余量（本worktree范围内）**：A组分配9篇中完成2篇（edvard-munch-the-scream、sagrada-familia），剩余7篇待处理：starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock。
+
+## 2026-09-22 全站prose-gate存量债务第六批A组（worktree batch6-a）：starry-night
+
+三类报警：L-0819-8"'s own"归因重复7次（阈值>2）、L-0820-2 rather than/instead of 5次超阈（阈值>4，仅超1次）、L-0819-9 FAQ与正文重合7条（含2处FAQ直接复述body里的直接引语，最长139字符）。改写约35轮收敛（此篇FAQ数量7条但专有名词/引语密度高，收敛轮次多于同等FAQ数量的其他篇）。
+
+1. "'s own"超标：7处里保留2处（description字段"Van Gogh's own 1889 letters"、"Van Gogh's own low opinion of the painting"），其余5处（the Van Gogh Museum's own letters project×2处、MoMA's own catalogue entry、the Van Gogh Museum's own letter annotations、Van Gogh's own letters name）去掉"own"。
+2. rather than/instead of超标：仅超1次，改写coreSummary里1处（"evokes the artist's homeland rather than Provence"→"evokes the artist's homeland, not Provence"），从5降到4。
+3. FAQ重合：本篇最突出的两个坑是**直接引语被FAQ逐字复述**——FAQ1复述body的"the morning star, which looked very big"引语（74字符重合）、FAQ6复述body的"exaggerations from the point of view of the arrangement..."长引语（139字符，本批目前单条最长重合）、FAQ3复述"a new study of a starry sky"引语、FAQ4复述MoMA收藏记录的"the addition of an imaginary village"引语——全部改为转述大意（不加引号），body的原始引语一字未动，符合memory里"直接引语不在FAQ里逐字复述"的既定处理模式。其余重合是机构名/地名反复使用造成（"the Museum of Modern Art"改用"MoMA"缩写、"Saint-Paul-de-Mausole asylum"改用不含专名的"the asylum"泛称、画作标题"Edvard Munch's The Scream"改用"Edvard Munch's most famous canvas"间接指代）。收敛过程中两次因为改写FAQ时重新引入了body里刚读到的确切短语（如"MoMA's catalogue entry"与"MoMA's own catalogue entry"、"the same journal that had run")而产生新重合，与sagrada-familia篇观察到的坑相同。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容（body原始引语完整保留）；仅调整FAQ措辞为转述、指代方式、句子结构。过`Skill(humanizer)`+`Skill(avoid-ai-writing)`复核未发现新引入AI写作特征（无em dash、无AI高频词汇）。Build 0 error（91页面全部生成）。Commit（本地分支prose-gate-batch6-a，未push，等主会话合并）。
+
+**本轮跳过步骤**：绕缓存curl核实部署、IndexNow提交——按任务要求，因改动未push到main、无真实部署，留待主会话合并后统一处理。
+
+**剩余量（本worktree范围内）**：A组分配9篇中完成3篇（edvard-munch-the-scream、sagrada-familia、starry-night），剩余6篇待处理：saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock。本轮处理三篇后感觉单篇耗时较长（每篇均需20-35轮FAQ收敛），按任务成本控制要求，考虑在完成第4-5篇后评估是否需要停止收尾。
