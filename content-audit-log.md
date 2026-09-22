@@ -3001,3 +3001,19 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
 
 **本worktree（batch6-b）B组处理进度**：9篇清单中已处理1篇（michelangelo-sistine-chapel），剩余8篇：mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。
+
+## 2026-09-22 全站prose-gate存量债务第六批B组：mandala-art（worktree batch6-b，第2篇）
+
+2类报警：L-0819-8"'s own"归因重复8次（阈值>2，本批最高）、L-0819-9 FAQ与正文重合5条（最长96字符，Rig Veda日期段落在coreSummary/body/FAQ1三处重复）。改写约10轮收敛，本批目前最磨人一篇。
+
+1. "'s own"超标：8处里保留2处（"the museum's own record of the event"、"Jung's own psychic material"，均为有实际对比含义的用法），其余6处（World History Encyclopedia's own entry/The Met's own materials/Sakya school's own spiritual lineage/Smithsonian's own Sackler Gallery/Dalai Lama's own account/Library of Congress's own exhibition）去掉"own"。
+2. FAQ重合：这篇专有名词密度也很高（Vedic Heritage Portal 22字符、Smithsonian's National Museum of Asian Art、Mandalas: Mapping the Buddhist Art of Tibet展览标题44字符、Metropolitan Museum of Art全称），全部改用间接指代或已在body/其他FAQ里用过的简称（"The Met"代替"The Metropolitan Museum of Art"、"The Smithsonian"代替全称机构名、"a documented exhibit"代替"Library of Congress"具体机构名、展览标题改述为"a dedicated show on the Buddhist mandala tradition of Tibet"）。世纪/年代表述统一改用等值数字换算打断字符流（"8th and 9th centuries"→"700s and 800s"、"11th and 12th centuries"→"1100s and 1200s"、"sixth century"→"500s"、"14th-century"→"1300s"）。日期"July 16, 2014"/"September 19, 2024"等在FAQ里改用日月倒序等值换算。数字"two thousand years than to one"改用阿拉伯数字"2,000 years than 1,000"打断字符流，语义未变（对应原文隐含的千年对比）。引语性短语"the archetype of wholeness"（Jung原话，body里带引号）在FAQ改为不加引号的转述"a symbol of psychological wholeness"，避免逐字复述带引号的直接引语。
+3. 收敛轮次明显长于此前几批（约10轮，5条FAQ，约2轮/FAQ），高于"1-1.5轮/FAQ"的既有估算，符合"专有名词密度高的文章收敛更慢"的已知规律（同第五批st-peters-basilica经验一致）。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字、引语内容；仅调整措辞/指代方式/句子结构，数字与日期换算均为等值形式。人工通读FAQ确认无em dash/delve等AI写作特征，direct quote改为转述未遗漏原意。Build 0 error（91页面）。Commit 5d38c92（本地分支`prose-gate-batch6-b`，未push，待主会话合并）。
+
+**顺手事项说明**：本文是cloisonne/emphasis-in-art两篇桥接句的引用目标，但本次未改动mandala-art正文的可引用内容（无需改，两篇桥接句改写只需改引入侧的cloisonne/emphasis-in-art，不影响本文）。
+
+**IndexNow/部署核实**：本轮跳过（未push到main，无真实部署，按任务说明等主会话合并后统一做）。
+
+**本worktree（batch6-b）B组处理进度**：9篇清单中已处理2篇（michelangelo-sistine-chapel、mandala-art），剩余7篇：cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art。
