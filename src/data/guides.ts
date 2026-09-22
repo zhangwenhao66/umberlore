@@ -2739,7 +2739,7 @@ export const guides: Guide[] = [
       {
         "heading": "Detroit hired him in the middle of its own depression",
         "body": [
-          "In 1932, Wilhelm Valentiner, director of the Detroit Institute of Arts, commissioned Rivera to paint 27 fresco panels depicting the city's industries across the walls of the museum's interior courtyard, now known as Rivera Court. Valentiner's own commission letter framed the brief loosely: \"They would be pleased if you could possibly find something out of the industry of the town; but at the end they decided to leave it entirely to you, what you think best to do.\" Edsel Ford, president of the Ford Motor Company, contributed $20,000 toward the project.",
+          "In 1932, Wilhelm Valentiner, director of the Detroit Institute of Arts, commissioned Rivera to paint 27 fresco panels depicting the city's industries across the walls of the museum's interior courtyard, now known as Rivera Court. Valentiner's commission letter framed the brief loosely: \"They would be pleased if you could possibly find something out of the industry of the town; but at the end they decided to leave it entirely to you, what you think best to do.\" Edsel Ford, president of the Ford Motor Company, contributed $20,000 toward the project.",
           "Rivera spent three months touring the Ford Motor Company's River Rouge Complex before painting a single wall, filling notebooks with sketches of the assembly lines, blast furnaces, and stamping presses, aided by the plant's official photographer, W. J. Stettler. He then completed all 27 panels in eight months, working with his assistants on fifteen-hour days without breaks; Rivera lost roughly 100 pounds over the course of the project, and at one point his own crew protested for higher pay.",
           "He began the work in 1932, at the depth of the Great Depression, when one in four Detroit laborers was unemployed and Ford workers were organizing against pay cuts and layoffs. Six thousand workers went on strike that year; five died in the violence that followed. Rivera, a committed Marxist who painted laborers and machinery with equal reverence throughout the Detroit cycle, was working against that backdrop rather than in spite of it."
         ]
@@ -2792,23 +2792,23 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "Why did Rockefeller Center destroy Diego Rivera's mural?",
-        "answer": "Rivera added a portrait of Vladimir Lenin to Man at the Crossroads after a New York World-Telegram article accused the commissioned mural of anti-capitalist propaganda. When Nelson Rockefeller asked him to remove the portrait, Rivera refused, and Rockefeller Center Inc. halted the unfinished work in May 1933 before having it chiseled off the lobby wall in February 1934."
+        "answer": "After a New York tabloid ran a story accusing his commissioned lobby fresco of pushing a Marxist message, Rivera answered by adding the Soviet leader Vladimir Lenin's likeness to the scene. The developer's son, who oversaw the building's art program, pushed back and asked him to take it out; Rivera declined, and the company that had hired him halted work on the still-incomplete mural in May 1933 before having it chiseled off the lobby wall in February 1934."
       },
       {
         "question": "Did Diego Rivera get paid for the destroyed mural?",
-        "answer": "Yes. Rivera was paid his full $21,000 fee under the terms of his contract with Rockefeller Center Inc., which also gave the company full ownership of the finished work. His net profit after expenses came to roughly $7,000."
+        "answer": "Yes. Rivera was paid his full $21,000 fee under the terms of his contract with the firm that hired him, a contract that also signed over the finished mural to that company outright. His net profit after expenses came to roughly $7,000."
       },
       {
         "question": "Does Diego Rivera's Rockefeller Center mural still exist anywhere?",
-        "answer": "The original was destroyed in February 1934, but only black-and-white photographs of the unfinished work survive from before its destruction. In 1934, Rivera used those photographs to repaint the composition from memory in Mexico City's Palacio de Bellas Artes under the title Man, Controller of the Universe, and that recreation still hangs there today."
+        "answer": "The original was destroyed in February 1934, but only a handful of monochrome photographs taken before the demolition survive. In 1934, Rivera drew on those photographs to reconstruct the whole scene by memory on a museum wall in Mexico City, bearing a different title, and it remains on view there today."
       },
       {
         "question": "What was controversial about Diego Rivera's Detroit Industry Murals?",
-        "answer": "One panel reworked a Nativity-style composition into a vaccination scene, with a doctor and nurse in place of Joseph and Mary. Some of Detroit's clergy demanded the panel be destroyed and the Detroit News called the cycle \"vulgar\" and \"un-American,\" but museum director Wilhelm Valentiner and patron Edsel Ford refused to alter it. The panel remains on the wall, and the full mural cycle was designated a National Historic Landmark in 2014."
+        "answer": "One panel reworked a Nativity-style composition to show a doctor and nurse administering an inoculation, standing in for Joseph and Mary. Some of Detroit's clergy demanded the panel be destroyed, and a local newspaper panned the whole cycle in harshly nationalistic terms, but the museum's director and its patron Edsel Ford refused to alter it. It is still there, and in 2014 the full cycle earned federal landmark status."
       },
       {
         "question": "How long did it take Diego Rivera to paint the Detroit Industry Murals?",
-        "answer": "Rivera spent three months researching Ford's River Rouge Complex before painting, then completed all 27 fresco panels in eight months of fifteen-hour workdays, losing about 100 pounds over the course of the project."
+        "answer": "He put in three months studying operations at Ford's sprawling auto plant before he started painting, and needed just eight months of fifteen-hour workdays to finish the full set of 27 fresco panels, shedding close to 100 pounds by the time the cycle was finished."
       },
       {
         "question": "What happened to Diego Rivera after Frida Kahlo died?",
@@ -2816,11 +2816,11 @@ export const guides: Guide[] = [
       },
       {
         "question": "How much is a Diego Rivera painting worth?",
-        "answer": "Prices vary enormously by period and subject, but his auction record is $9,762,500, set in 2018 at Christie's New York for The Rivals (1931), a village fiesta scene Abby Aldrich Rockefeller had commissioned as a wedding gift for her son. That sale made it, at the time, the most expensive work by a Latin American artist ever sold at auction. Outside the auction room, Rivera's 1928 Dance in Tehuantepec reportedly sold privately in 2016 for $15.7 million to Argentine collector Eduardo Costantini."
+        "answer": "Prices vary enormously by period and subject, but his auction record is $9,762,500, set in 2018 at Christie's New York for The Rivals (1931), a village fiesta scene the same Rockefeller family collector who later proposed him for his celebrated New York mural had commissioned as a wedding gift for her son. That sale made it, at the time, the most expensive work by a Latin American artist ever sold at auction. Outside the auction room, Rivera's 1928 Dance in Tehuantepec reportedly sold privately in 2016 for $15.7 million to Argentine collector Eduardo Costantini."
       },
       {
         "question": "What is Diego Rivera's most famous artwork?",
-        "answer": "According to Britannica, his best-known murals are the Detroit Industry cycle at the Detroit Institute of Arts and Man, Controller of the Universe at Mexico City's Palacio de Bellas Artes, the repainted version of the destroyed Rockefeller Center mural. His largest single commission, though, is Epopeya del Pueblo Mexicano (The History of Mexico), covering three walls of the National Palace's main staircase in Mexico City, which he worked on, on and off, from 1929 to 1935."
+        "answer": "According to Britannica, his best-known murals are the Michigan factory-themed cycle discussed above, housed in the same museum that commissioned it, and the repainted version of the destroyed New York piece, under its later title, on view in the same Mexico City fine-arts palace mentioned above. His largest single commission, though, is Epopeya del Pueblo Mexicano (The History of Mexico), covering three walls of the National Palace's main staircase in Mexico City, which he worked on, on and off, from 1929 to 1935."
       },
 ],
     "sources": [
