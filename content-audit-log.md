@@ -3316,3 +3316,20 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
 
 **G组完成情况**：分配2篇（mayan-art/sand-painting）全部完成。
+
+---
+
+## 2026-09-22 prose-gate存量债务清零后的全站权威复查：发现6篇此前从未追踪的问题
+
+45篇（09-18首次扫描）追踪清单全部处理完后，主会话对全站74篇文章跑了一次权威性的逐篇`check_prose_patterns.py`扫描（不依赖任何历史清单记忆），发现6篇不通过，其中1篇是已修复文章的回归、5篇是此前从未出现在任何追踪清单里的新债务：
+
+**回归（1篇）**：`edvard-munch-the-scream`——09-22第六批已修复过，但之后一个并发会话给这篇文章新增了2020年CNR/ESRF颜料降解研究的一整段内容，把"rather than"计数从4推回5。已改写1处（"a specific conservation target rather than a general warning"→"...target, not a vague warning"）修复，commit 091b19d。
+
+**首次发现的新债务（5篇，均不在原45篇清单内，大概率是09-18首次扫描后新发布或被批量FAQ补强修改过的文章）**：
+1. `vanishing-point`：1类报警（rather than密度5→4），已修复（commit 58cd45c）。
+2. `open-license-art-image-directory`：2类报警（"'s own"4→2处、FAQ 4条全命中），已修复（commit 58cd45c）——这篇结构特殊（大量HTML表格+少量prose），FAQ重合主要来自与表格单元格内容的自然重复。
+3. `famous-portraits`：3类报警（"'s own"11次、rather than 8次、FAQ 7条），规模较大，待处理。
+4. `pandemonium-painting`：3类报警（"'s own"3次、rather than 5次、FAQ 6条），待处理。
+5. `famous-mexican-artists`：3类报警（"'s own"3次、rather than 7次、FAQ 6条），待处理。
+
+**根因判断**：这次全站复查证实了两件此前已经观察到但未系统量化的事——①已修复文章存在被后续内容补强"打回原形"的回归风险（edvard-munch-the-scream实证）；②"45篇"这个数字从一开始就不是全站真实债务的完整集合，只是09-18那一次扫描时刻的快照，此后新发布/被修改的文章会持续产生新的未追踪债务。**这意味着prose-gate不能被当作"一次性清零就完事"的项目，需要定期（如每次内容发布任务）重跑全站扫描，而不是只依赖一份历史清单。**famous-portraits/pandemonium-painting/famous-mexican-artists三篇的修复继续跟进。
