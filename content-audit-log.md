@@ -2966,3 +2966,24 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **IndexNow**：已提交`/st-peters-basilica/`（Bing 200 / Yandex 200）。
 
 **剩余量**：28篇存量批次中已修复1篇（st-peters-basilica），剩余27篇：edvard-munch-the-scream/sagrada-familia/starry-night/saturn-devouring-his-son/diego-rivera/elements-of-art/birth-of-venus/renaissance-art/jackson-pollock/michelangelo-sistine-chapel/mandala-art/cloisonne/emphasis-in-art/baroque-paintings/aztec-art/the-broken-column/whistler-ruskin-trial/mayan-art/psychedelic-art/encaustic-painting/romanesque-painting/famous-renaissance-paintings/majolica/ghost-of-a-flea/famous-landscape-paintings/sand-painting/cristina-kahlo。
+
+---
+
+## 2026-09-22 内链桥接句模板复用清理（L-0809-10，09-18发现的63组候选，本次首次动手）
+
+重新跑`check_bridge_template_reuse.py --all`（应查74篇/实查74篇，258条含内链句子），61对疑似复用。人工通读排序前列的候选后判断：大多数是"两篇文章链接到同一目标、准确复述目标页同一个事实"造成的正常重合，不是偷懒复制；真正符合"桥接框架本身模板化"的只有2组，均已修复（挑选依据：双方都不在当时正在跑的第五批prose-gate队列里，避免与并发子任务冲突）：
+
+1. **frank-lloyd-wright ↔ what-is-a-gargoyle**：两篇引到`/sagrada-familia/`的桥接句几乎逐字相同（"...reached/ran the other way: a 2026 finish engineered a century earlier"）。改写frank-lloyd-wright一侧为"Barcelona's Sagrada Família took the opposite path: construction wrapped up in 2026, on an engineering plan drawn a hundred years earlier."，事实不变。
+2. **simonetta-vespucci ↔ icarus-painting**：两篇引到`/the-lovers-painting/`的桥接句共用同一个"discredited origin story"骨架。改写simonetta-vespucci一侧的引入句，保留原有事实从句（Magritte童年河边场景传说已被传记作者推翻）不变。
+
+**过程中的并发事故（无内容丢失，记录留痕）**：这两处改写最初在工作目录里未提交时，恰好被第五批派发子任务对`st-peters-basilica`的`git commit -- src/data/guides.ts`（commit 260bd28）一并带走提交——与此前记录的"git commit --pathspec 对并发改动无隔离作用"是同一类已知行为。核实`git show 260bd28`确认两处改写完整无误地包含在那次commit里，未丢失；随后又在frank-lloyd-wright上发现改写本身引入了一处新的FAQ/正文重合（"construction wrapped up"在Sagrada Família新句和FAQ2里同时出现），单独一次小commit（0944eef）修正。
+
+**其余59对候选**：抽查了长度排名靠前的几组（如cloisonne/emphasis-in-art两次共用"[X]'s [Y] can get backdated on purpose"骨架分别引到mandala-art和chiaroscuro-woodcut、mona-lisa/andy-warhol共用jackson-pollock-convergence拼图梗的引入句），判断多数是"引用同一目标页同一事实"的正常重合，且cloisonne/emphasis-in-art这类涉及仍在prose-gate存量清单里的文章，留给处理该文prose-gate时一并考虑，不在本次单独处理。
+
+**Build**：`npm run build`通过，91页面全部生成（新增1页来自其他并发任务的正常发布），0 error。
+
+**Git**：commit 260bd28（内容首次落地，并发带入）+ 0944eef（FAQ重合修正），均已push。
+
+**上线核实**：两篇均绕缓存curl确认命中新文本。
+
+**IndexNow**：`/frank-lloyd-wright/`、`/simonetta-vespucci/`均已提交（Bing 200 / Yandex 200）。
