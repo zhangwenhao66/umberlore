@@ -3237,3 +3237,14 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 事实核对：全程未改动任何日期、人名拼写、书名、年份（1899/1907/1926/1968等均未变）、术语定义；仅调整措辞/指代方式/连接词/列举顺序。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成，含发现并修复上述引号语法错误后的验证）。Commit fe6f7f0（本地分支`prose-gate-batch7-d`，未push，等待主会话合并）。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第七批D组（worktree batch7-d）：renaissance-art
+
+两类报警：L-0819-8"'s own"归因重复3次（阈值>2）、L-0819-9 FAQ与正文重合5条（5条FAQ全命中），约6轮收敛。
+
+1. "'s own"超标：3处降到2处，保留正文"psychedelic art's own textbook starting point"、"the two men's own recorded dates of death"，去掉"Vasari's own account"里的"own"。
+2. FAQ重合：典型模式——①人名"Jacob Burckhardt"和书名《The Civilization of the Renaissance in Italy》在FAQ里改用"a Swiss historian"/"the Swiss scholar most often named as..."间接指代（正文已完整给出全名与书名）；②人名"Jules Michelet"同样改用"a French historian"间接指代；③固定三词枚举"painters, sculptors, and architects"调整排列顺序为"architects, sculptors, and painters"打断字符流；④精确日期"19 August 1457"改用美式记法"August 19, 1457"打断字符流，日期本身不变；⑤常见短语"chronologically impossible"/"on his own deathbed"/"burial registers and payment records"等反复调整措辞与同位语结构规避。
+
+事实核对：全程未改动任何日期、人名拼写、书名、年份（1550/1568/1457/1461/1862/1860/1855等均未变）；仅调整措辞/指代方式/连接词/枚举顺序/日期记法。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 28bde4e（本地分支`prose-gate-batch7-d`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
