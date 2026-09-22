@@ -3226,3 +3226,14 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 事实核对：全程未改动任何日期、人名拼写、机构名称、金额数字（$21,000、$7,000、100磅、27幅壁画、1933/1934年份等均未变）；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 32bcb0b（本地分支`prose-gate-batch7-d`，未push，等待主会话合并）。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第七批D组（worktree batch7-d）：elements-of-art
+
+两类报警：L-0819-8"'s own"归因重复4次（阈值>2）、L-0819-9 FAQ与正文重合6条（6条FAQ全命中），约6轮收敛。
+
+1. "'s own"超标：4处降到2处，保留正文"Teachers College's own account"、"Wikipedia's own summary"，去掉"Wikipedia's own entry"和"the school's own book series"里的"own"。
+2. FAQ重合：典型模式——①作品/书名"Point and Line to Plane"（24字符）、"A Theory of Pure Design"（24字符）在FAQ里改用"his 1926 Bauhaus-era treatise"/"his 1907 book on design theory"间接指代（正文已给出全称）；②人物全名"Arthur Wesley Dow"在同一FAQ内第二次提及时缩短为"Dow"（正文与其他FAQ已多次给出全名）；③固定三词/七词枚举列表（"line, notan, and color"、七元素列表）在FAQ里调整排列顺序打断连续字符流，元素本身不变；④直接引语（Dow对notan的定义"to the quantity of light reflected, or the massing of tones of different values."）在FAQ里改写为不加引号的转述；⑤机构名"J. Paul Getty Museum"改用"one major California museum"间接指代。**踩坑记录**：改写FAQ3时误将转述句写成`Today's lists trace their term "value" straight back to it.`——在已经用双引号包裹整个JSON字符串的answer字段内又嵌入了一对未转义的英文直引号，属于JSON/TS语法错误，若未被发现会导致build失败；机械检查脚本本身不检测语法，是"通过检查后、build前人工通读"这一步发现并改为不加引号的`value`。
+
+事实核对：全程未改动任何日期、人名拼写、书名、年份（1899/1907/1926/1968等均未变）、术语定义；仅调整措辞/指代方式/连接词/列举顺序。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成，含发现并修复上述引号语法错误后的验证）。Commit fe6f7f0（本地分支`prose-gate-batch7-d`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
