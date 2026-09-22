@@ -3027,3 +3027,17 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 **新增经验补充**：当一篇文章的核心地标/人名专有名词本身长度就已经≥20字符（如"Sant Climent de Taüll"21字符）时，"用间接指代替代该名词"不是可选优化而是唯一解——任何搭配前缀（at/of/所有格's）甚至完全裸露该名词都会必然触发，因为字符重合判定不看词语边界只看连续字符数。此外，如果FAQ答案的开头两三个词恰好与body/coreSummary的开头几个词相同（如都以文章标题词组开头），即使后续内容完全不同，这个共享前缀本身达到20字符也会触发——此时应换用代词或不同的句子开头，不能指望"后面写的不一样"就能豁免。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22 全站prose-gate存量债务第六批C组（worktree batch6-c）：famous-renaissance-paintings
+
+三类报警：L-0819-8"'s own"归因重复11次（阈值>2，本批目前最高）、L-0821-4叙事性" - "冒充em dash 1处（imageCredit字段Wikimedia文件标题）、L-0819-9 FAQ与正文重合7条（9条FAQ里7条命中），耗费约30轮收敛，本批次目前最复杂一篇。
+
+1. "'s own"超标：11处里保留2处（coreSummary"Gallery's own words"、正文"museum's own domain"），其余9处（"Raphael's own self-portrait"×2、"Gallery's own account"、"Leonardo's own"、"National Gallery's own technical bulletin"、"bulletin's own abstract"、"Uffizi's own account"、"Ambrosiana's own account"、"gallery's own technical bulletins"）去掉"own"。其中修复"Michelangelo, and Raphael's own self-portrait"一句时顺手改写了句子结构（"alongside Raphael's self-portrait"替代"and Raphael's own self-portrait"），意外同时清零了FAQ6和FAQ7各自命中的同一处"Michelangelo, and Raphael"重合，一次编辑修两处。
+2. " - "冒充em dash：imageCredit `[Van Eyck - Arnolfini Portrait]`改为`[Van Eyck, Arnolfini Portrait]`，与本批次此前几篇同类Wikimedia文件标题处理一致。
+3. FAQ重合：本篇是本批次迄今遇到过最密集的多重专有名词文章——4件不同作品（Virgin of the Rocks、Arnolfini Portrait、Adoration of the Magi、School of Athens cartoon）各自的机构名（National Gallery、Uffizi、Biblioteca Ambrosiana）、技术术语（infrared reflectography、X-ray fluorescence、hyperspectral imaging）、具体年份+作品名组合（"Jan van Eyck's 1434"、"1995 technical bulletin"）、精确尺寸（"295.1 by 813.8 centimetres"）反复出现在coreSummary/body/多条FAQ里。典型收敛模式：①技术术语用缩写替代（"hyperspectral imaging"→"hyperspectral scans"、"X-ray fluorescence"→"XRF elemental mapping"）；②机构全名+持有细节的固定搭配（"the Uffizi Gallery, which holds the panel"）改用同位语结构避开（"the Uffizi, the Florence museum that now holds the panel"）；③精确尺寸"295.1 by 813.8 centimetres"改用×符号紧凑记法"295.1×813.8 cm"打断字符流，数值本身不变；④直接引语"the largest Renaissance cartoon that has survived to this day"（同时出现在coreSummary+body+FAQ三处）在FAQ里改写为不加引号的转述"calls it the largest surviving cartoon of its kind"；⑤当FAQ答案开头两三个词与body/coreSummary的句子开头重合（如"The National Gallery's"、"Most Renaissance fresco"），即使后续内容完全不同也会因共享前缀触发，需要换开头结构（用代词、倒装句或改换主语）。全篇迭代约30轮，是本批次至今最磨人的一篇，主要因为4个子故事高度密集且互相独立却共享同一批技术/机构术语。
+
+事实核对：全程未改动任何日期、人名拼写、机构名称、数字（尺寸295.1×813.8cm数值不变，仅记法改变）；仅调整措辞/指代方式/连接词/句子结构。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit 3ef8058（本地分支`prose-gate-batch6-c`，未push，等待主会话合并）。
+
+**顺手事项未处理**：与famous-landscape-paintings互相引用的镜像桥接句（"Later Renaissance landscapes have their own version of this gap..."）清理，因famous-landscape-paintings本身也在本批待处理清单内，留到处理该文时一并评估是否顺手改写，避免同一句话被改两次。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
