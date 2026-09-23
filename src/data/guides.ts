@@ -1393,6 +1393,10 @@ export const guides: Guide[] = [
         "question": "Does Pop Art still exist today?",
         "answer": "The original movement wound down by the early 1970s, but a later generation, usually called Neo-Pop, has kept its methods and subject matter in circulation since the 1980s. Artists including Jeff Koons, Takashi Murakami, KAWS, and Damien Hirst work in a similar vein, borrowing from advertising, toys, and celebrity culture the way Warhol and Lichtenstein borrowed from comic books and product packaging in the 1960s."
       },
+      {
+        "question": "What are 5 facts about Pop Art?",
+        "answer": "Five worth knowing: a 1947 collage by Eduardo Paolozzi, its full title given above, tucked the word \"pop\" into the picture, snipped straight from a toy pistol's box, roughly a decade ahead of the label critics eventually settled on. The critic usually given credit for coining \"Pop Art\" never actually wrote those two words together in his 1958 essay's running text, only in its picture captions; that didn't happen until a different piece he wrote for Artforum in 1962. Roy Lichtenstein's Whaam! pulls from two separate comic panels by different artists, not the single source most summaries mention. The dot pattern people associate with Lichtenstein, which reads as machine-printed, was in fact hand-applied through a perforated stencil, while Andy Warhol's silkscreens ran through an actual printing press. The sage-blue Warhol portrait named above sold at Christie's in 2022 for $195.04 million, the highest price any American artist's work has fetched at auction."
+      },
 ],
     "sources": [
       {
@@ -8602,6 +8606,10 @@ export const guides: Guide[] = [
       {
         "question": "How do conservators find out what technique or materials a painter actually used?",
         "answer": "Mostly by scanning the finished object instead of cutting into it. Leonardo's own panels were studied with a handheld scanner that reads the fluorescent light individual elements give off under X-rays, revealing layer thickness without touching the surface. Van Gogh's pigments were approached differently: researchers rebuilt the period paint recipes from scratch in a lab and put the reconstructions through mechanical testing."
+      },
+      {
+        "question": "What are art techniques?",
+        "answer": "The three named methods on this page each fold down to one sentence in most sources, but a sentence isn't a mechanism. Scanning Leonardo's paint with X-ray fluorescence, the study named above turned up roughly thirty separate glazes making up his soft tonal blending, none thicker than a couple of micrometers, rather than one gradual stroke. The rheology study on Van Gogh, also named above, traced his paint's raised ridges to a pigment with far greater resistance to sagging than the one most other painters of his era relied on. Georges Seurat's dot technique, meant to blend in a viewer's eye rather than on the palette, traces to a pair of books he read as a student, dated 1867 and 1879 and credited by author above. Each of these turns out to be a specific, measurable process, not just a name attached to a famous painter."
       }
     ],
     "sources": [
@@ -9507,6 +9515,10 @@ export const guides: Guide[] = [
       {
         "question": "Why did Picasso paint Guernica in grey, black and white instead of color?",
         "answer": "The standard art-historical reading, drawn from accounts of the painting's creation, ties the palette to how Picasso and much of the public first learned of the 1937 bombing: through monochrome press photos and newsreel clips of the day, and a mottled texture near the middle of the canvas is sometimes said to mimic printed newsprint grain. Picasso never spelled out his reasoning in any confirmed remark, so this stays the widely repeated explanation without ever being confirmed by the artist himself."
+      },
+      {
+        "question": "What is the difference between grisaille and underpainting?",
+        "answer": "Underpainting is the broader category: any initial monochrome layer laid down to establish tone before color goes on top, and it comes in several standard varieties depending on the base hue used. Grisaille is one specific version of that, built entirely from grey. Verdaccio, the yellow-green-toned layer discussed above in connection with Leonardo, is a different variety of the same underpainting method. What sets grisaille apart is that it doesn't have to stay hidden under color: painters have also used it as a finished, standalone picture, most often to imitate carved stone or sculpture, which isn't how the other varieties are typically used."
       }
     ],
     "sources": [
