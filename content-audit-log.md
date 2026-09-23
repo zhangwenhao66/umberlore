@@ -3345,3 +3345,19 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 事实核对：全程未改动任何日期（1824/1825-1827/1831/1840/1841/1842/1843/1854/1994/2003/2006/2015等）、人名拼写（John Martin、Benjamin Hick、George Whiteley、Hugo Baldwin Huntington-Whiteley、Pierre Belliot、Paule Marchaud、Martin Myrone等）、机构名称全称（正文完整保留，仅FAQ改为间接指代）、数字（123×185厘米、2000 guineas、£1.5 million、$4,183,482、inventory number RF 2006 21等）、引语内容（body原始三处直接引语——Milton诗句"Anon out of the earth..."与"high Capital..."、Royal Academy展签"Anon, out of earth..."、Sotheby's essay评论——完整保留）；仅调整FAQ措辞/指代方式/连接词/句子结构/度量衡记法。人工通读改写句子未发现em dash、delve/tapestry/testament等AI高频词、"it's not X it's Y"结构或空泛强调语。Build 0 error（91页面全部生成）。Commit `4d71766`（本地分支`prose-gate-batch9-i`，未push，等待主会话合并）。
 
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+## 2026-09-22/23 全站prose-gate权威复查新债务修复（worktree batch9-i，子任务撞月度消费上限后由主会话续做）：famous-mexican-artists
+
+三类报警：L-0819-8"'s own"归因重复3次（阈值>2）、L-0820-2 rather than/instead of 7次超阈（阈值>4）、L-0819-9 FAQ与正文重合6条。子任务在完成pandemonium-painting后开始处理本篇，撞上账号月度消费上限中断（`is_error:true, stop_reason:"stop_sequence"`，"You've hit your monthly spend limit"——这是本项目首次遇到的一种新的中断类型，不是API连接错误也不是代码报错，是真实的账号计费上限），核实工作目录发现中断前已完成前3类检查（own/rather-than/em-dash全部通过），只剩FAQ重合（1类，5条命中）未收敛的干净WIP状态，无内容丢失。主会话直接续做完：
+
+FAQ重合改写模式：①直接事实描述"survived by rolling out of bed onto the floor"（Trotsky夫妇躲避枪击的具体动作）逐字复述body，改写为不同措辞的转述；②机构名"the Getty Conservation Institute"/"an Experimental Workshop"（均单独≥20字符的专有名词）改用间接指代（"Getty conservators"、"a New York studio space, described above"）；③"scientific paint analysis"改写为"chemically analyzing the surviving paint layers"打断字符流；④"Pomona College in Claremont, California"改写语序为"the Frary Dining Hall, on the Pomona campus in the Claremont Colleges group of southern California"；⑤"depicts the Titan Prometheus reaching for stolen fire"（直接复述body对壁画内容的具体描述）改写为"shows the mythical fire-thief mid-reach"；⑥"killed Trotsky with an ice axe"改用等价描述"struck down by a different assailant wielding a mountaineer's pick"；⑦"Los Tres Grandes"因是全站反复出现的专有名词（16字符本身，加前后缀极易越过20字符阈值），多处FAQ改用"introduced above as part of the trio"等间接指代规避；⑧Trotsky妻子"his wife"改用body已建立的全名"Natalia Sedova"，但需要调整语序避免与body原句"his wife, Natalia Sedova"完全重合。
+
+**新增经验（本篇尤其典型）**：本篇coreSummary字段本身异常密集，几乎把全文每个关键事实都提前浓缩复述了一遍，导致FAQ改写过程中"清除最长重合→次长重合暴露"的循环次数明显多于其他文章（约15轮才收敛5条FAQ），因为FAQ不仅要跟body的sections比对，还要跟同样详尽的coreSummary比对，等于两份"正文"都要避开。
+
+**过程中自查发现并修正一处算术错误**：改写"the mural...whitewashed by 1938"这句时，草稿一度写成"partially covered by 1934, then painted over in full two years after that"——但body原文明确"partially covered within two years [of 1932年首展]"及whitewashed by 1938，1934到1938是四年不是两年，属于改写时心算错误，在commit前发现并改为"four years after that"，未造成事实性错误进入线上版本。
+
+事实核对：全程未改动任何日期、人名拼写（Siqueiros/Trotsky/Sedova/Orozco/Pollock等）、地点、金额、引语内容；仅调整措辞/指代方式/句子结构。人工通读改写句子未发现em dash、AI高频词汇、"it's not X it's Y"结构。Build 0 error（91页面全部生成）。Commit `9edca66`（本地分支`prose-gate-batch9-i`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+**I组小结**：分配2篇（pandemonium-painting/famous-mexican-artists）全部完成。
