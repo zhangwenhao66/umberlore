@@ -5377,7 +5377,7 @@ export const guides: Guide[] = [
     "title": "Encaustic Painting: A Recipe Recycled Since 1893, Never Confirmed",
     "description": "Art references still repeat a \"Punic wax\" recipe for ancient encaustic painting. A 2020 Getty study of two Fayum portraits found no evidence it was ever used.",
     "published": "2026-08-21",
-    "updated": "2026-08-21",
+    "updated": "2026-09-23",
     "coreSummary": "Encaustic painting's origin is uncertain by its own earliest chronicler: writing around 77 AD, Pliny the Elder stated flatly that \"it is not agreed who was the inventor of painting in wax,\" naming four rival claimants before crediting Pausias of Sicyon as the first artist to become famous at it. The \"Punic wax\" recipe long cited as the medium behind the Fayum mummy portraits fares no better under modern testing: a 2020 Getty Museum study of two Art Institute of Chicago portraits found that recipes recorded from Otto Donner von Richter in 1893 through Euphrosyne Doxiadis in the 1990s, and repeated as settled fact in reference works including The Oxford History of Western Art, have never been confirmed by chemical analysis of an actual portrait. The same study found beeswax as the major binder in both paintings, including one that looks nothing like encaustic, undercutting the visual test art historians have used for over a century to sort portraits into \"encaustic\" and \"tempera\" groups.",
     "image": "/images/encaustic-painting-fayum-laurel-wreath-aic.jpg",
     "imageAlt": "A Romano-Egyptian mummy portrait of a man wearing a laurel wreath, painted in encaustic on wood, early to mid-2nd century AD, from the Art Institute of Chicago.",
@@ -5453,6 +5453,10 @@ export const guides: Guide[] = [
       {
         "question": "Did Pliny the Elder know who invented encaustic painting?",
         "answer": "No. He said so directly, writing that nobody had settled who first painted in wax or devised encaustic designs. He recorded competing claims, that Aristides discovered it and Praxiteles perfected it, against evidence of still-earlier encaustic work by other named painters. Pliny does credit Pausias, introduced above, as the painter whose reputation in the medium outlasted his rivals, but that is a claim about renown, not invention."
+      },
+      {
+        "question": "Did any 19th-century artist revive encaustic painting after a duke invited them?",
+        "answer": "Yes. In 1840, Duke Carlo Lodovico of Lucca commissioned a restoration of the church of Sant'Alessandro in Lucca, directed by the architect Lorenzo Nottolini, and the Italian painter Michele Ridolfi was hired to render its apse in hot wax, the same burned-in method covered throughout this page. It's one of the clearest documented cases of the 19th-century European revival, predating the 1893 Chicago recipe discussed above, though nobody appears to have published lab testing of Ridolfi's apse paintings confirming exactly which wax formula he used."
       }
     ],
     "sources": [
