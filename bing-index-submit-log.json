@@ -114,5 +114,16 @@
       "https://umberlore.com/grisaille/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-23",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/psychedelic-art/",
+      "https://umberlore.com/aboriginal-art/",
+      "https://umberlore.com/encaustic-painting/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
