@@ -585,5 +585,14 @@
    "h": 1070
   },
   "desktop_rel": "/images/grisaille-ghent-altarpiece-closed.jpg"
+ },
+ "/images/arnolfini-portrait-nationalgallery.jpg": {
+  "fingerprint": "1790139213071242587:515862:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/arnolfini-portrait-nationalgallery-sm.jpg",
+   "w": 750,
+   "h": 1026
+  },
+  "desktop_rel": "/images/arnolfini-portrait-nationalgallery.jpg"
  }
 }

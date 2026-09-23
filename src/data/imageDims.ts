@@ -79,6 +79,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 582,
   "w": 800
  },
+ "/images/arnolfini-portrait-nationalgallery.avif": {
+  "h": 1915,
+  "w": 1400
+ },
+ "/images/arnolfini-portrait-nationalgallery.jpg": {
+  "h": 1915,
+  "w": 1400
+ },
+ "/images/arnolfini-portrait-nationalgallery.webp": {
+  "h": 1915,
+  "w": 1400
+ },
  "/images/art-deco-chrysler-building-1930.avif": {
   "h": 1280,
   "w": 982
@@ -1037,6 +1049,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/architectural-painting-grote-kerk-haarlem-sm.webp": {
   "h": 546,
+  "w": 750
+ },
+ "/images/responsive/arnolfini-portrait-nationalgallery-sm.avif": {
+  "h": 1026,
+  "w": 750
+ },
+ "/images/responsive/arnolfini-portrait-nationalgallery-sm.jpg": {
+  "h": 1026,
+  "w": 750
+ },
+ "/images/responsive/arnolfini-portrait-nationalgallery-sm.webp": {
+  "h": 1026,
   "w": 750
  },
  "/images/responsive/art-deco-chrysler-building-1930-sm.avif": {

@@ -8326,7 +8326,7 @@ export const guides: Guide[] = [
           "That specific detail is the one scholarship has walked back. Wikipedia's entry on Magritte states plainly that later research discredited the eyewitness story, and suggests it may have originated with the family's nurse rather than with Magritte himself. Reviewing Magritte scholarship for the New York Review of Books in 2018, Regina Marler goes further, calling the riverbank tale a family legend, now discredited. Magritte was born on 21 November 1898, which puts him at thirteen years old when his mother died, not fourteen, a number a fair few retellings repeat without doing the arithmetic.",
           "Even the surrounding facts don't fully agree. Wikipedia states the gap as sixteen days, but a straight calendar count from 24 February to 12 March in 1912, a leap year, comes to seventeen; the New York Review of Books account rounds the same gap to three weeks instead. None of those three numbers is wildly wrong, seventeen days is a full week short of three weeks, but the small drift between even the most reputable accounts is a low-stakes demonstration of how loosely details get repeated once a story is in general circulation, long before it reaches the far less reliable claim that a thirteen-year-old boy stood there to see any of it.",
           "Magritte's account of the day, given decades later in a third-person sketch of his own life, left the riverbank out entirely: \"In 1912, his mother Regina is tired of life. She throws herself into the Sambre.\" That account leaves out both the child at the water's edge and the cloth.",
-          "He was just as resistant to explaining his pictures on any other grounds. Asked what a painting meant, he tended to turn the question back on the asker: \"It does not mean anything, because mystery means nothing either, it is unknowable.\" [William Blake left behind a comparable mismatch between what actually happened and what later writers made of it, though the direction runs the other way: the astrologer hosting Blake's nightly sketching sessions took the results far more seriously than Blake himself apparently did.](/ghost-of-a-flea/)"
+          "He was just as resistant to explaining his pictures on any other grounds. Asked what a painting meant, he tended to turn the question back on the asker: \"It does not mean anything, because mystery means nothing either, it is unknowable.\" [William Blake left behind a comparable mismatch between what actually happened and what later writers made of it, though the direction runs the other way: the astrologer hosting Blake's nightly sketching sessions took the results far more seriously than Blake himself apparently did.](/ghost-of-a-flea/) A different couple painting carries a related kind of correction: [the identity long attached to the two figures in Jan van Eyck's Arnolfini Portrait turned out to rest on a marriage date that fell years after the artist's own death, once archivists checked the record against the calendar.](/the-arnolfini-portrait/)"
         ]
       },
       {
@@ -9557,6 +9557,104 @@ export const guides: Guide[] = [
       {
         "label": "Pablo Picasso, Guernica: Renaissance Through Contemporary Art History (University of Utah pressbooks)",
         "url": "https://uen.pressbooks.pub/arth2720/chapter/pablo-picasso-guernica/"
+      }
+    ]
+  },
+{
+    "slug": "the-arnolfini-portrait",
+    "category": "Painting",
+    "title": "The Arnolfini Portrait Might Not Be a Wedding",
+    "description": "For centuries this was read as a wedding portrait. Archives published in 1997 show the bride everyone named actually married six years after van Eyck died.",
+    "published": "2026-09-23",
+    "updated": "2026-09-23",
+    "coreSummary": "Jan van Eyck's 1434 double portrait, oil on an oak panel measuring 82.2 by 60 centimeters and catalogued today as NG186 at the National Gallery, London, has been read since Erwin Panofsky's influential 1934 article as a painted marriage record, its ornate signature above the room's convex mirror, \"Johannes de eyck fuit hic. 1434\" (\"Jan van Eyck was here. 1434\"), standing in for a witnessed ceremony. Panofsky identified the couple as the Italian merchant Giovanni di Arrigo Arnolfini and his bride Jeanne Cenami. Archival research the French historian Jacques Paviot published in 1997, folded into Lorne Campbell's 1998 National Gallery catalogue, undid that identification: Burgundian ducal accounts record Philip the Good buying two silver pots as a wedding gift for \"Jehan Arnoulphin\" between April and November 1447, six years after van Eyck died in 1441 and thirteen years after the panel was painted. Campbell's verdict is blunt: \"Since Giovanni di Arrigo married Jeanne Cenami in or after 1447... Panofsky's theory has little to recommend it.\" The gallery's current catalogue instead credits an earlier, separate Arnolfini, Giovanni di Nicolao, likely in his late thirties in 1434, with an unidentified second wife. Infrared reflectography has since found van Eyck reworked the underdrawing in at least two stages, changing the sitters' proportions and adding the dog, chandelier, chair, and discarded shoes only in a later pass. A 1700 Spanish royal inventory describing the same panel reads the woman not as a bride at all but as \"a pregnant German woman,\" a misreading documented more than three centuries before the one modern viewers still repeat.",
+    "image": "/images/arnolfini-portrait-nationalgallery.jpg",
+    "imageAlt": "The Arnolfini Portrait by Jan van Eyck, 1434, showing a man and woman holding hands in a furnished room with a convex mirror and brass chandelier behind them.",
+    "imageCredit": "[The Arnolfini Portrait](https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg), Jan van Eyck, 1434, National Gallery, London (NG186), public domain",
+    "sections": [
+      {
+        "heading": "A reception room dressed to look like real wealth",
+        "body": [
+          "Van Eyck signed and dated this panel in 1434, and the National Gallery's catalogue calls it \"one of the most famous and intriguing paintings in the world.\" A richly dressed man and woman stand in a private room that reads as entirely real until it's examined closely. There isn't enough wall space for the brass chandelier hanging above them, and the room has no fireplace anywhere in it, despite housing a couple wealthy enough for a bed dressed in expensive red woolen cloth, a carved chair and bench, an oriental carpet, and oranges scattered on a chest beneath the window, at the time an imported luxury fruit. The gallery is direct about what this means: \"Although it looks as if van Eyck has simply removed a wall, close examination reveals inconsistencies.\" Every object in the room does a job. The bed dominating the space isn't proof this is a bedroom; a bed dressed this richly was itself a reception-room status symbol in a wealthy Bruges merchant household of the period, not primarily somewhere to sleep.",
+          "The couple's clothes carry the same restrained signaling. The man wears a wide hat of plaited straw and a dark tabard trimmed with brown fur over a black silk doublet with silver cuffs, his muddy wooden overshoes discarded on the floor beside him. The woman's green wool overdress, trimmed in white fur and cut with a train that pools in thick folds around her feet, is fashionable without tipping into the kind of display that would have invited criticism for aping the nobility. Ernst Gombrich, writing in The Story of Art, credited the picture with a specific kind of newness: \"In its own way it was as new and revolutionary as Donatello's or Masaccio's work in Italy. A simple corner of the real world had suddenly been fixed on to a panel as if by magic [...] For the first time in history the artist became the perfect eye-witness in the truest sense of the term.\" Van Eyck was in his mid-forties when he painted it, a data point that sits inside [a wider dataset tracking when 64 canonical paintings were made relative to their makers' lifespans](/artist-peak-creation-age/)."
+        ]
+      },
+      {
+        "heading": "The bride nobody can actually name",
+        "body": [
+          "In 1934, Erwin Panofsky published an article arguing the painting was not just a portrait but a private marriage record, its signature and the two figures reflected in the mirror standing in for a witnessed legal ceremony. Panofsky identified the sitters as Giovanni di Arrigo Arnolfini, an Italian merchant based in Bruges, and his wife Jeanne Cenami. The theory held for over sixty years. Then Jacques Paviot, working through Burgundian court financial records and publishing his findings in 1997, found an entry showing Duke Philip the Good bought two silver pots in 1447 as a wedding gift for a merchant named \"Jehan Arnoulphin,\" the accounts recording them as \"a gift from himself to Jehan Arnoulphin, merchant, residing in the said town of Bruges, on the day of his marriage.\" That dates the Cenami marriage to 1447, six years after van Eyck's death and thirteen years after the panel was signed. Lorne Campbell, incorporating Paviot's find into the National Gallery's 1998 scholarly catalogue, states the consequence without hedging: \"Since Giovanni di Arrigo married Jeanne Cenami in or after 1447, and since the portrait apparently represents Giovanni di Nicolao Arnolfini, Panofsky's theory has little to recommend it.\"",
+          "The gallery's current identification points instead to a different, separate member of the same extended merchant family, Giovanni di Nicolao di Arnolfini, who would have been in his late thirties in 1434. His wife's name has not survived in any document historians have found. A famous painting can carry a confidently named subject for decades and then lose that identity to a single overlooked archive entry; [a set of three canonical portraits examined through their own provenance records](/famous-portraits/) turns up the same pattern from a different angle, including a painting generations of viewers assumed showed a married couple, American Gothic, that the Art Institute of Chicago's catalogue instead identifies as a farmer and his daughter."
+        ]
+      },
+      {
+        "heading": "A misreading that's older than you'd think",
+        "body": [
+          "The woman's bulky, gathered-up green overdress has led generations of casual viewers to assume she's pregnant. The National Gallery addresses this directly: \"She is not pregnant, though she might look it: she is holding up her bulky gown in front of her, as ladies commonly did.\" It was a fashionable way to manage an intentionally long, heavy train, not a physical condition. What's less well known is how old this specific misreading actually is. An inventory taken shortly after the 1700 death of Charles II of Spain, when the painting still hung in the royal palace at Madrid, describes the same panel as showing \"a pregnant German woman (una Alemana preñada) dressed in green giving her hand to a youth,\" adding that the pair appeared to be marrying \"by night\" and that inscribed verses on the frame revealed the couple was deceiving each other. That reading has been documented for more than three centuries, which means the pregnancy myth wasn't invented by modern viewers unfamiliar with 15th-century fashion; it was already the official word in a royal inventory generations before art history existed as a discipline."
+        ]
+      },
+      {
+        "heading": "Ten tiny scenes hidden in a mirror",
+        "body": [
+          "Between the couple, mounted on the back wall, hangs a large convex mirror framed by ten short spokes, each holding a tiny painted roundel depicting a scene from the Passion of Christ. Immediately above the mirror is van Eyck's flamboyant signature, in Latin script: Johannes de eyck fuit hic. 1434, \"Jan van Eyck was here. 1434.\" The mirror itself reflects the room from the opposite angle, curved and compressed, showing the backs of the man and woman and, faintly visible in the doorway behind them, two more figures, one in red and one in blue. The gallery's description leaves the identity of those two reflected figures open: \"Perhaps they are visitors, or the artist and his assistant, or perhaps they might even be us, welcomed into this 15th century home.\" Combined with the pointedly witness-style signature directly above it, the mirror has invited exactly the kind of legal-witness reading Panofsky built his marriage-certificate theory on, even though the identification of the sitters underneath that theory has since been overturned."
+        ]
+      },
+      {
+        "heading": "Two paintings under the paint",
+        "body": [
+          "Infrared reflectography, which reveals the charcoal or liquid-medium underdrawing beneath the finished paint layer, shows van Eyck reworked this composition more than once. In the earliest visible layer, the man's feet were positioned differently, his robe was shorter, and his hat was larger; the woman originally looked up toward her husband, and her face sat lower, which would have made her forehead look even higher than it does now. Van Eyck routinely adjusted his sitters' proportions between an initial sketch and the finished panel, but the National Gallery notes that here the changes to the man's face went further than usual: \"Arnolfini must have been a strange-looking man, and in the second underdrawing van Eyck improved his proportions and idealised his features.\" A cluster of the painting's most-discussed details, the watchful terrier, the chandelier, the carved chair, the strand of beads on the wall, the discarded shoes, don't appear in the earliest underdrawing at all; van Eyck added every one of them at a later stage. For a panel this precisely finished, the working method behind it was looser than the result suggests: the gallery describes van Eyck \"almost bouncing the paintbrush off the panel,\" using his fingers and the brush handle as well as its point, leaving an actual thumbprint visible today in the paint near the shadow of the dog's leg. That kind of hidden-layer evidence is the same category of finding that [separate technical studies using X-ray fluorescence and other imaging](/art-techniques/) have turned up in paintings from far later periods, from the dozens of glaze layers hidden inside Leonardo's sfumato to the paint chemistry behind Van Gogh's raised brushstrokes, revealing working methods no amount of looking at the finished surface alone could recover.",
+          "The panel's condition on the reverse also limits what technical study can do: an opaque layer on the back of the panel makes X-radiography of this particular work far less informative than it is for most Early Netherlandish paintings of the period, according to Campbell's 1998 catalogue, which is part of why the infrared evidence of the underdrawing carries so much of the technical argument."
+        ]
+      },
+      {
+        "heading": "How a Napoleonic War trophy became Britain's first Van Eyck",
+        "body": [
+          "The painting's documented ownership starts with Don Diego de Guevara, a Spanish nobleman raised at the Burgundian court, who gave it to Margaret of Austria, Regent of the Netherlands. It's the first item listed in an inventory of her paintings taken at her palace in Mechlin on 17 July 1516, described there as \"a large picture which is called Hernoul le Fin with his wife in a chamber, which was given to Madame by Don Diego, whose arms are on the cover of the said picture; done by the painter Johannes.\" A marginal note in that same inventory records that Margaret ordered a lock fitted so the shuttered panel could be closed. It passed to her niece Mary of Hungary, who carried it to Spain in 1556, and from there into the Spanish royal collection under Philip II, where it stayed through the 1700 death of Charles II and into an 1794 palace inventory listing a Spanish yard's worth of panel.",
+          "The picture is presumed to have left Spain during the Peninsular War (1807-14). Its next confirmed owner was James Hay, a Scottish soldier with the 16th Light Dragoons who was present at the Battle of Vitoria in 1813, the battle after which the Duke of Wellington recorded capturing King Joseph Bonaparte's abandoned baggage train: \"The baggage of King Joseph after the battle of Vitoria fell into my hands, after having been plundered by the soldiers; and I found among it an Imperial containing prints, drawings and pictures.\" A separate account, given by the dealer Chrétien-Jean Nieuwenhuys in 1843, instead credits Hay's convalescence after Waterloo: Hay, \"having been dangerously wounded at Waterloo, was moved to a private house in Brussels and lodged in a room decorated with this picture. During his long convalescence, it attracted his attention several times; he admired it so much that, in the end, he acquired it.\" The two accounts of how Hay got the panel don't agree with each other, and the National Gallery's catalogue does not resolve which is correct. What's certain is the ending: the National Gallery bought the painting from Hay's estate in 1842 for \"the moderate price\" of 600 guineas, its first Netherlandish painting."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Why is the Arnolfini Portrait controversial?",
+        "answer": "Because the couple everyone named for sixty years turns out not to fit the timeline. Erwin Panofsky's 1934 marriage-record theory rested on identifying the sitters as a specific pair, but ducal account books unearthed in 1997 place that pair's actual wedding well past the year the artist himself was buried. Current scholarship instead points to a different relative sharing the Arnolfini name, paired with a wife whose identity was never recorded."
+      },
+      {
+        "question": "What is the story behind the Arnolfini Portrait?",
+        "answer": "This 1434 panel spent centuries celebrated as visual proof of a specific wedding, its mirror and showy Latin inscription read as witness marks on a private ceremony. That reading unraveled once archivists traced the presumed bride's actual marriage date to more than a decade past the painting's completion, leaving historians to reconstruct a different, less documented couple as the true sitters."
+      },
+      {
+        "question": "Who is the woman in the Arnolfini Portrait?",
+        "answer": "Nobody knows her name. Current scholarship attaches the male sitter to a specific Arnolfini relative and treats the woman beside him only as his presumed second spouse, a person no surviving record names. The bride's name popular older sources use belonged to a different Arnolfini relative's wife, who married well after this panel was finished."
+      },
+      {
+        "question": "What is a fun fact about the Arnolfini Portrait?",
+        "answer": "For all its polish, much of the paint layer went down quickly. Conservators can point to an actual fingerprint van Eyck left behind, pressed into paint that was still wet near the small dog standing at the couple's feet."
+      },
+      {
+        "question": "Is the woman in the Arnolfini Portrait pregnant?",
+        "answer": "She isn't. Curators attribute the rounded silhouette to how she's holding up the excess fabric of an oversized, fashionable gown, not to pregnancy. This exact misunderstanding predates the internet by a wide margin: a Madrid palace inventory drawn up around 1700 already logged the same figure as expecting."
+      },
+      {
+        "question": "How did the Arnolfini Portrait end up in London?",
+        "answer": "Through a chain of royal owners and one probable act of wartime looting. The panel moved out of Philip the Good's ducal circle into Spain's royal holdings by the mid-1500s and stayed there for roughly two and a half centuries, disappearing from Spanish records only once fighting from the Napoleonic era disrupted the country. A Scottish army officer surfaces as its next owner, and the gallery purchased the piece from him in 1842."
+      }
+    ],
+    "sources": [
+      {
+        "label": "National Gallery, London: Jan van Eyck, The Arnolfini Portrait (NG186)",
+        "url": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait"
+      },
+      {
+        "label": "National Gallery, London: Lorne Campbell, 1998 catalogue entry, The Arnolfini Portrait",
+        "url": "https://www.nationalgallery.org.uk/paintings/catalogues/campbell-1998/the-arnolfini-portrait"
+      },
+      {
+        "label": "Wikipedia: Arnolfini Portrait",
+        "url": "https://en.wikipedia.org/wiki/Arnolfini_Portrait"
+      },
+      {
+        "label": "Wikimedia Commons: File:Van Eyck - Arnolfini Portrait.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg"
       }
     ]
   }

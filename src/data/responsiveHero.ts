@@ -19,6 +19,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/architectural-painting-grote-kerk-haarlem-sm.jpg",
   "w": 750
  },
+ "/images/arnolfini-portrait-nationalgallery.jpg": {
+  "h": 1026,
+  "mobile": "/images/responsive/arnolfini-portrait-nationalgallery-sm.jpg",
+  "w": 750
+ },
  "/images/art-deco-chrysler-building-1930.jpg": {
   "h": 978,
   "mobile": "/images/responsive/art-deco-chrysler-building-1930-sm.jpg",
