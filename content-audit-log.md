@@ -3333,3 +3333,15 @@ fallen-angel-painting(1)、michelangelo-sistine-chapel(1)、diego-rivera(1)、da
 5. `famous-mexican-artists`：3类报警（"'s own"3次、rather than 7次、FAQ 6条），待处理。
 
 **根因判断**：这次全站复查证实了两件此前已经观察到但未系统量化的事——①已修复文章存在被后续内容补强"打回原形"的回归风险（edvard-munch-the-scream实证）；②"45篇"这个数字从一开始就不是全站真实债务的完整集合，只是09-18那一次扫描时刻的快照，此后新发布/被修改的文章会持续产生新的未追踪债务。**这意味着prose-gate不能被当作"一次性清零就完事"的项目，需要定期（如每次内容发布任务）重跑全站扫描，而不是只依赖一份历史清单。**famous-portraits/pandemonium-painting/famous-mexican-artists三篇的修复继续跟进。
+
+## 2026-09-22/23 全站prose-gate权威复查新债务修复（worktree batch9-h，子任务撞月度消费上限后由主会话续做）：famous-portraits
+
+三类报警，是09-22全站权威复查发现的6篇新债务中规模最大的一篇：L-0819-8"'s own"归因重复11次（阈值>2）、L-0820-2 rather than/instead of 8次超阈（阈值>4）、L-0819-9 FAQ与正文重合7条全命中。本篇不在09-18首次扫描的45篇清单内。子任务处理到只剩1条FAQ重合（约23字符）时撞上账号月度消费上限中断（`is_error:true, stop_reason:"stop_sequence"`，"You've hit your monthly spend limit"，本项目首次遇到的中断类型），核实工作目录发现前3类检查（own/rather-than/em-dash）已全部通过、build无误，只是最后一步FAQ收尾没来得及做，无内容丢失，未提交到git（本地未commit的干净WIP）。主会话直接完成最后一步并commit：
+
+FAQ#1原文"a full three years after the painting was already done"与coreSummary"three years after the canvas was finished"重合，改写为"three full years past the point when the painting was done"仍不够（"when the painting was"仍重合），最终改为"a full three-year gap measured from the canvas's completion"，历经约4轮才彻底打断字符流（同一事实"三年"+"1659年11月"+"完成时间"三个元素在极短篇幅内反复出现，导致简单改写很容易在打断一处重合的同时意外制造另一处新重合，这是本轮子任务自己已经完成的"'s own"归因11降2、rather-than 8降4两大类工作之外，最后剩下的这1条FAQ反而耗费了不成比例的迭代轮次）。
+
+事实核对：全程未改动Velázquez获得圣地亚哥骑士团十字勋章的具体日期（1659年11月）、画作完成时间、Sargent《Madame X》售价、American Gothic模特身份等任何事实/数字/人名；仅调整这1条FAQ的措辞与句子结构。人工通读未发现em dash、AI高频词汇、空泛强调语。Build 0 error（91页面全部生成）。Commit `4046b06`（本地分支`prose-gate-batch9-h`，未push，等待主会话合并）。
+
+**本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
+
+**H组小结**：分配1篇（famous-portraits），已完成。
