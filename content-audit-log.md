@@ -3380,3 +3380,35 @@ FAQ重合改写模式：①直接事实描述"survived by rolling out of bed ont
 **方法**：从`guides.ts`提取全部74个slug，逐一循环调用`check_prose_patterns.py --guides src/data/guides.ts --slug <slug>`，统计通过/不通过/未检查三态（R-core-09），本次三态结果为74/74/0。
 
 **结论确认**：09-22日志已写明"'45篇'这个数字从一开始就只是09-18那次扫描的快照，需要定期重跑全站扫描，而不是只依赖一份历史清单"——本次复查验证了这个结论的必要性（果然又发现了新债务并已清零），同时也验证了"清零"在本次复查时点是真实的、可核实的，不是靠历史清单推断的。**后续任何内容发布/编辑任务如涉及本站，建议定期（如每次批量编辑后）重跑本节方法做一次全站复查，而不是假设历史清单仍然完整**。
+
+## 2026-09-23 PAA-FAQ批强(daily-task, 2026-09-23)
+
+**清单来源**：`独立站/research-db/paa_bulk_current/umberlore.json`，15篇候选，按`impressions_28d`降序处理，共25条gap_questions。
+
+**处理结果**：新增3条FAQ，跳过22条（均已登记`paa_gap.py --reject-site`，90天冷却）。
+
+**新增（3条）**：
+- `art-techniques`：「What are art techniques?」——综述性FAQ，引用文中已核实的三项事实（2010年X射线荧光扫描发现达芬奇烟熏法约30层釉、2014年流变学研究解释梵高厚涂颜料的锌白屈服应力、修拉点彩技法溯源1867/1879两本书），不引入新事实。
+- `pop-art`：「What are 5 facts about Pop Art?」——综合文中已核实的5个事实（帕洛齐1947拼贴画早于运动定名/阿洛威1958年论文未在正文用"Pop Art"二字/《Whaam!》至少两个漫画来源/利希滕斯坦圆点手工制作而沃霍尔丝网印刷是真机械工艺/2022年沃霍尔画作拍出1.9504亿美元）。
+- `grisaille`：「What is the difference between grisaille and underpainting?」——underpainting是底层色调打底的统称，grisaille是其中纯灰色的一种、且唯一能独立成画的一种；verdaccio是另一种（黄绿色调）。经WebSearch核实Wikipedia「Underpainting」词条交叉验证后落笔。
+
+**跳过（22条，全部已登记拒绝理由）**：
+- 与现有FAQ实质重复（14条）：non-objective-art「difference between non-objective and abstract art」、the-lovers-painting「meaning behind the painting」、what-is-a-gargoyle「symbolize/why scary」×2、caravaggio-narcissus「Was Caravaggio LGBTQ」、the-death-of-socrates「story behind the death」、famous-mexican-artists「big 3」、starry-night「where is it now/who owns it」×2、baroque-paintings「most popular piece」、sagrada-familia「why not finished/finished in 2026」×2、fresco-painting「example of a fresco」、art-techniques「different types of art techniques」（与本次新增FAQ意图重复）。
+- 无可靠稳定来源（1条）：the-lovers-painting「Where is the Lovers painting in the MoMA」——馆内具体展厅会随策展轮换变化，curl核实moma.org作品页为JS渲染无法拿到on-view状态，WebSearch结果（Floor 5/Room 517）无法独立核实，判定不适合写入常青FAQ。
+- 主题与本文角度不匹配（7条）：famous-portraits「20 most famous paintings」、pattern-in-art「5 examples/10 types/five main types/three types of patterns」×4、art-techniques「7 different types of art/five techniques of art」×2——均为泛化列表型问题，与各文章"具体案例深挖"的角度不符，回答需要编造文中未支撑的分类清单。
+
+**机械检查**：3篇新增/改写文章逐篇跑`check_prose_patterns.py --guides src/data/guides.ts --slug <slug>`直至退出码0（art-techniques、pop-art各经过约10轮改写才彻底打断与正文/coreSummary的≥20字符逐字重合，grisaille一次通过）。
+
+**⚠️ 过程中发现的意外情况**：处理pop-art/art-techniques时发现有并行会话已提交过这两篇的FAQ改动（commit `4623213`新增+`dedeaba`"refine wording"），但实测HEAD版本仍各遗留1条FAQ与正文≥20字符逐字重合未收敛（"x-ray fluorescence,"与"toy pistol's"两处片段），与同一天稍晚的「全站prose-gate权威复查（第二次）：74/74篇全部通过」记录矛盾——说明那次全站复查的时间点早于（或未覆盖到）这两处并发提交的残留问题。本次会话在此基础上继续改写至两篇均退出码0并commit（`7658bb1`），已提醒：**后续做"全站XX/XX通过"结论时，如果同一天有其他并发会话仍在改同一批文件，结论的时效性需要谨慎，建议在没有已知并发写入之后再做最终复查**。
+
+**去AI味检查（R-writing-02，英文站点）**：3条新增FAQ写入前均真实调用`Skill(humanizer)`（识别负面排比句式"not just X"重复问题并改写）与`Skill(avoid-ai-writing)`（对照806行规则库逐条核对Tier 1/2/3词表、em dash、rule of three等，未发现残留AI写作特征）。改写过程中同时人工核对了所有数字（30层/1-2微米/1867/1879/1947/1958/1962/1963/195.04百万美元/2022）、人名（Leonardo/Van Gogh/Georges Seurat/Charles Blanc/Ogden Rood/Eduardo Paolozzi/Lawrence Alloway/Roy Lichtenstein/Andy Warhol）未被改写过程改坏；修复pop-art"toy pistol's box"误写为"cap-gun"的一次自我引入偏差（玩具类型不同，已改回不臆断具体玩具种类的"toy gun's own packaging"）。
+
+**Build**：`npm run build`通过，91个页面全部生成成功，无语法错误。
+
+**Git**：commit `7658bb1`（`git pull --rebase`无冲突，push成功，`3e7285e..7658bb1`）。
+
+**上线核实**：绕缓存curl首次抽查（推送后约1分钟）三篇均200，但pop-art/art-techniques仍返回并发会话遗留的旧版本文本（Cloudflare部署延迟，符合R-seo-03预期）；grisaille当时即已核实生效。后台轮询约15秒后第2次抽查，pop-art/art-techniques新文本均已生效，三篇全部确认线上一致。
+
+**IndexNow**：未提交（本次任务未要求，且线上尚未确认最终生效，留待后续常规巡检一并处理）。
+
+**遗留/未处理**：15条候选中剩余的"跳过"清单已全部登记冷却期，任务未要求处理全部候选，无遗留待办。
