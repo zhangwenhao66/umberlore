@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Target article confirms a genuine dating dispute: Kandinsky's watercolor bears his own handwritten inscription reading 'Kandinsky 1910' on the back, but the Centre Pompidou's own catalogue record now dates the same sheet to 1913 based on stylistic comparison, three years later than the artist's own inscription -- this is exactly the 'disputed date' the bridge sentence describes."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Target article's coreSummary states directly that the seven-part vocabulary (line, shape, form, space, value, color, texture) 'is not an inherited law of art; it has a specific and comparatively recent history,' tracing to Arthur Wesley Dow's 1899 textbook -- matches the bridge sentence's claim of 'a specific, comparatively recent origin story' precisely."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "Target article's first section is literally titled 'Start with the Louvre's own record' and lays out the museum's own catalogue data (inventory numbers INV 779/MR 316, dimensions 79.4x53.4cm, medium oil on poplar, dating 1503-1519, provenance) -- this is precisely 'the Louvre's own documented account' the bridge sentence points to."
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "The single human detail that made this plate famous, in other words, is itself a matter of interpretation rather than settled fact, a different kind of contested \\\"first\\\" than [the disputed date on the watercolor credited as art's first fully abstract painting](/abstract-art-first-painting/), but built from the same raw material: a claim that outran what the surviving evidence can actually support.",
+    "target_slug": "abstract-art-first-painting",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "The most reproduced daguerreotype in the world survives today in worse physical condition than the copies Newhall made of it more than three decades before that restoration, a detail that tends to get smoothed out of the caption entirely, the same way [a seven-part vocabulary now taught as though it were art's timeless grammar turns out to have a specific, comparatively recent origin story of its own](/elements-of-art/) once anyone checks where it actually came from.",
+    "target_slug": "elements-of-art",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "However sharp the daguerreotype's detail, that limitation made it a difficult format to scale once demand for portrait photography moved from novelty to industry, which is why the single, fragile, much-photographed Boulevard du Temple plate exists at all, the same brittle survival that separates [the Louvre's own documented account of a famous painting](/mona-lisa/) from the folklore that tends to grow up around anything this widely reproduced: because there was never a negative to lose, there was also never a spare.",
+    "target_slug": "mona-lisa",
+    "target_found": true
+  }
+]

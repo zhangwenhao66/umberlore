@@ -1,0 +1,23 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "That timeline runs alongside a finding this site has already documented on the elements side of the same checklist: [the seven-part vocabulary now used to describe any painting's line, shape, and color has no clear record before a 1968 classroom textbook](/elements-of-art/), decades after Ross and Dow had already published competing, incompatible versions of the principles half of the same subject.",
+    "target_slug": "elements-of-art",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "A comparable lag turns up in an unrelated corner of art vocabulary: [the word mandala appears in written sources nearly two thousand years before any surviving pictorial mandala](/mandala-art/), which is the same lesson from a different direction, a term's familiar, settled feel says nothing about when it actually took on its current meaning. \\\"Emphasis\\\" isn't a fabricated concept, painters have directed a viewer's eye toward one part of a picture for as long as there have been pictures, but the specific word doing that job today is a later arrival than the technique it describes, arriving well after design theorists had already spent decades calling the same thing Subordination or Dominance.",
+    "target_slug": "mandala-art",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "It's a different pattern from repetition without a dominant, which this site examined in [Andy Warhol's silkscreened Marilyns](/andy-warhol/): identical, evenly repeated units that refuse to let any single one lead, the mirror image of what Rembrandt's single shaft of light does to one captain's hand.",
+    "target_slug": "andy-warhol",
+    "target_found": true
+  }
+]

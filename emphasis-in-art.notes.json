@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Target article states the seven-term checklist (line, shape, form, space, value, color, texture) 'shows up on the historical record specifically in college textbooks' and that Otto Ocvirk's Art Fundamentals, 'the earliest copy of it held by the Internet Archive is a 1968 printing' -- matches the bridge sentence's claim of 'no clear record before a 1968 classroom textbook' exactly."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Target article dates the word mandala's first documented use to the Rig Veda (c. 1500-1200 BCE) and the earliest surviving pictorial mandalas to Tibetan sketches of the 8th-9th centuries CE, and states directly: 'That gap between the word's earliest recorded appearance in the Rig Veda and the earliest surviving picture ... runs nearer 2,000 years than 1,000' -- matches the bridge sentence's 'nearly two thousand years' framing."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "Target article describes Warhol's Marilyn Diptych as repeating 'a single publicity still from the 1953 film Niagara fifty times across two joined canvases: twenty-five in saturated colour on the left panel, twenty-five fading into smudged black and white on the right,' explicitly framing repetition itself as the subject with no single image treated as focal -- supports the bridge sentence's characterization of 'repetition without a dominant.'"
+  }
+]
