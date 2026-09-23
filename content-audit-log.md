@@ -3372,3 +3372,11 @@ FAQ重合改写模式：①直接事实描述"survived by rolling out of bed ont
 **本轮跳过步骤**：因改动尚未push到main、无真实部署，本次不做绕缓存curl核实和IndexNow提交，留给主会话合并后统一处理。
 
 **I组小结**：分配2篇（pandemonium-painting/famous-mexican-artists）全部完成。
+
+## 2026-09-23 全站prose-gate权威复查（第二次）：74/74篇全部通过，存量债务真正清零
+
+继09-22首次全站权威复查发现1篇回归+5篇新增债务（famous-portraits/pandemonium-painting/famous-mexican-artists/edvard-munch-the-scream/vanishing-point/open-license-art-image-directory）并全部修复后，本次对全站74篇文章逐一重新执行`check_prose_patterns.py`（应查74/实查74/未检查0），结果**74篇全部通过三类模式检查**，无一遗漏。
+
+**方法**：从`guides.ts`提取全部74个slug，逐一循环调用`check_prose_patterns.py --guides src/data/guides.ts --slug <slug>`，统计通过/不通过/未检查三态（R-core-09），本次三态结果为74/74/0。
+
+**结论确认**：09-22日志已写明"'45篇'这个数字从一开始就只是09-18那次扫描的快照，需要定期重跑全站扫描，而不是只依赖一份历史清单"——本次复查验证了这个结论的必要性（果然又发现了新债务并已清零），同时也验证了"清零"在本次复查时点是真实的、可核实的，不是靠历史清单推断的。**后续任何内容发布/编辑任务如涉及本站，建议定期（如每次批量编辑后）重跑本节方法做一次全站复查，而不是假设历史清单仍然完整**。
