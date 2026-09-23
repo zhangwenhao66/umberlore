@@ -412,3 +412,35 @@ UmberLore断链置换战术累计已发送 **4封**（含1封跟进：Marian Uni
 ### 遗留待办
 
 下轮继续按`外链优先页面清单_20260912.md`剩余高曝光页（cristina-kahlo/st-peters-basilica/what-is-a-gargoyle等）方向找候选，本轮Diego Rivera方向已找到1条真实机会，其余3页方向候选池（LibGuides）已扫描4个仅剩0个可用，下轮换新的搜索角度或资源页类型。
+
+---
+
+## 2026-09-23（第十四次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中UmberLore（11-30位曝光609，矩阵内容型站排名第一）
+
+### 第一部分：核实旧pitch
+
+Saint Paul College（09-16发出，Hannah Kauffmann，Message ID `1a0aa5cecd0b34d2`）距今7天，未满10天窗口，跳过。全站无其他满足条件的未验证记录。
+
+### 第二部分：新断链机会——继续按`外链优先页面清单_20260912.md`的UmberLore清单选题
+
+延续上轮"下轮换新搜索角度"的遗留待办，改用大学官方项目页/机构curriculum页方向（而非LibGuides）。命中`https://riveramural.org/curriculum/`（City College of San Francisco官方Diego Rivera壁画项目课程页，Lesson 2 "Pan American Unity Mural at CCSF"），`broken_link_scan.py`扫描该页14条出站链接：命中3条DEAD（PBS History Detectives视频404、CCSF Library Diego Rivera guide 404、CCSF About City College页404）。独立curl复核（带真实浏览器UA）：PBS链接返回连接失败(HTTP 000)，无法确认是真死链还是网络限制，本次不采用；CCSF Library guide与CCSF About页均独立确认HTTP 404，采用这两条。
+
+**主题匹配诚实披露**：本页聚焦CCSF自己的Pan American Unity Mural（1940），umberlore的`diego-rivera`文章讲的是Rivera另外两桩壁画争议（Detroit Industry Murals疫苗接种场景争议、Rockefeller Center被铲除的列宁肖像），不覆盖Pan American Unity。邮件如实声明"不是替代品，只是同一位艺术家的另外两桩壁画争议，也许值得放在一起"，不硬称主题完全对应（沿用WageLark FANA案例的诚实软匹配框架）。
+
+**收件人**：mural@ccsf.edu（页面Further Reading小节内公布的项目联系邮箱）。
+
+**查重**：`gmail_send.py list --query "to:mural@ccsf.edu"`返回空；跨14站`outreach-drafts.md`/所有`*-outreach-log.md`/`broken-link-outreach-log.md` grep "mural@ccsf.edu"/"riveramural.org"均无历史记录。
+
+**已过`Skill(humanizer)`+`Skill(avoid-ai-writing)`**：均判定干净，无em dash/AI高频词/rule of three/promotional language，唯一的判断性点（"worth having alongside them"）经avoid-ai-writing评估为非独立问题（紧接着给出了具体理由/链接，不算空洞背书）。
+
+**独立复核**：全新spawn agent，独立re-fetch核实全部6项——死链真实性（含独立curl复核+页面原文逐字核对）、收件人身份（WebSearch确认院系公开邮箱非单一用途）、主题匹配诚实性（独立fetch diego-rivera文章确认覆盖Detroit/Rockefeller两桩事件+grep确认无Pan American Unity/CCSF字样，诚实披露成立）、语气/结构、无不可核实的收件人陈述、无重复/群发迹象。**VERDICT: SEND**。
+
+**已发送**：`gmail_send.py send --from umberlore --to mural@ccsf.edu --subject "Two broken links on your Diego Rivera curriculum page"`，**Message ID `1a0ce6cb661b464c`**。
+
+### 累计口径
+
+UmberLore断链置换战术累计已发送 **5封**（含1封跟进：Marian University）；已验证`not_replaced` 2条（Marian、Westport），Saint Paul College（09-16）与本轮riveramural.org均尚未到验证窗口；`verified_live_backlink_confirmed` 0条，转化率0/4（不含2条未到验证期）。
+
+### 遗留待办
+
+下轮继续核实Saint Paul College（09-16，满10天后）；继续按外链优先页面清单剩余高曝光页（cristina-kahlo/st-peters-basilica/what-is-a-gargoyle等）方向找候选，大学官方项目curriculum页（非LibGuides）这个新角度本轮命中1条真实机会，值得继续沿用。

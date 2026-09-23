@@ -559,3 +559,38 @@ UmberLore
 **Status: SENT 2026-09-22** via `gmail_send.py send --from umberlore --to villavicenciog@douglascollege.ca`, Message ID `1a0c7a472f21aaa4`. Corrected version was not re-run through a second independent-review agent (the fix only removed unverified claims and kept everything the reviewer already confirmed true; re-verification would have re-checked the same facts already checked) — a future run should still spot-check this decision if it recurs.
 
 **Step 2 (unlinked mention recovery)**: WebSearch `"umberlore.com" open license art image directory` — no third-party page references the asset (page is 1 week old). No recovery opportunity this round.
+
+---
+
+## 2026-09-23 — Diego Rivera Mural Project / riveramural.org (mural@ccsf.edu) — broken-link-building
+
+**发现**：`https://riveramural.org/curriculum/`（City College of San Francisco 官方 Diego Rivera 壁画项目课程页，Lesson 2 "The Pan American Unity Mural at CCSF"）的 Further Reading/研究环节里两条真实死链，均用独立curl复核（`-A "Mozilla/5.0..."`，与扫描工具结果一致）确认：
+- `https://library.ccsf.edu/diego/guide` — HTTP 404
+- `https://www.ccsf.edu/en/about-city-college/diego-rivera-mural.html` — HTTP 404
+（扫描工具还标了第三条PBS History Detectives链接为DEAD，但独立curl返回HTTP 000连接失败，无法确认是真死链还是网络限制，本次不采用该条，只用两条已独立确认的404。）
+
+**主题匹配诚实披露**：本页聚焦的是CCSF自己的Pan American Unity Mural（1940年），umberlore的`diego-rivera`文章主要讲Rivera另外两桩壁画争议（Detroit Industry Murals疫苗接种场景争议、Rockefeller Center被铲除的列宁肖像），不覆盖Pan American Unity本身。邮件如实说明"不是Pan American Unity资源的替代品，只是同一位艺术家的另外两桩壁画争议，也许值得放在一起"，不硬称主题完全对应（沿用WageLark FANA案例的诚实软匹配框架）。
+
+**收件人**：mural@ccsf.edu（页面Further Reading小节内明确公布的项目联系邮箱，非猜测）。
+
+**查重**：`gmail_send.py list --query "to:mural@ccsf.edu"` 返回空；跨14站`outreach-drafts.md`/所有`*-outreach-log.md`/`broken-link-outreach-log.md` grep "mural@ccsf.edu"/"riveramural.org" 均无历史记录。
+
+Subject: Two broken links on your Diego Rivera curriculum page
+
+Body:
+
+Hi,
+
+I was going through the Diego Rivera curriculum page on riveramural.org and noticed two links in the research section don't work anymore. The CCSF Library's Diego Rivera guide (library.ccsf.edu/diego/guide) returns a 404, and the About City College page for the mural (ccsf.edu/en/about-city-college/diego-rivera-mural.html) does too.
+
+Not a replacement for either one, just something that might be worth having alongside them: we wrote up two of Rivera's other mural disputes, the vaccination panel controversy at the Detroit Industry Murals and the Lenin portrait Rockefeller Center had chiseled off the wall before it was even finished. https://umberlore.com/diego-rivera/
+
+Thanks for keeping the project's resources up.
+
+Best,
+Owen
+UmberLore
+
+**独立复核（全新spawn agent，独立re-fetch核实）**：VERDICT: SEND。6项检查逐一独立验证：①两条死链均独立curl复核为404，且在riveramural.org/curriculum/页面Lesson 2 "Pan American Unity Mural"研究环节里逐字确认存在（非编造）；②mural@ccsf.edu经WebSearch确认是riveramural.org公开的院系联系邮箱（School of Fine, Applied, & Communication Arts），非单一用途邮箱；③独立fetch umberlore.com/diego-rivera/确认文章确实覆盖Detroit疫苗接种争议+Rockefeller列宁肖像铲除两桩事件，且grep全文确认无"Pan American Unity"/"CCSF"字样，诚实披露成立不构成夸大；④语气/结构检查通过，无AI写作痕迹，两段式结构（第一段纯死链通知，第二段给替换建议）符合规范；⑤无不可核实的收件人相关陈述；⑥无重复/群发迹象。
+
+**已发送**：`gmail_send.py send --from umberlore --to mural@ccsf.edu --subject "Two broken links on your Diego Rivera curriculum page"`，**Message ID `1a0ce6cb661b464c`**。
