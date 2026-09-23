@@ -3412,3 +3412,35 @@ FAQ重合改写模式：①直接事实描述"survived by rolling out of bed ont
 **IndexNow**：未提交（本次任务未要求，且线上尚未确认最终生效，留待后续常规巡检一并处理）。
 
 **遗留/未处理**：15条候选中剩余的"跳过"清单已全部登记冷却期，任务未要求处理全部候选，无遗留待办。
+
+## 2026-09-23 trafficsite-content-quality-audit（十四维度审计）：encaustic-painting
+
+```json
+{
+  "url_slug": "encaustic-painting",
+  "last_audited": "2026-09-23",
+  "published_date": "2026-08-21",
+  "findings": [
+    "选文来源：零点击查询内容增量清单_20260912.md标记待处理——查询\"19th century artist taught abroad ducal invitation encaustic painting\"，32曝光/位置5.7/0点击；正文完全未覆盖19世纪欧洲复兴角度（仅覆盖古罗马Fayum肖像+20世纪美国/包豪斯复兴）",
+    "事实准确性：Getty 2020研究关于Otto Donner von Richter 1893年配方、Euphrosyne Doxiadis 1990年代配方、The Oxford History of Western Art引语，均逐字核对Getty原文（getty.edu/publications/mummyportraits）确认准确，无以讹传讹",
+    "外部引用链接：Getty/Pliny(Attalus.org)/Pliny(Perseus)/AIC×2/Wikipedia共6条链接绕缓存curl全部200，无腐烂",
+    "机械散文检查：check_prose_patterns.py改动前后均4项全通过",
+    "SEO字段：title长度z-score=0.79，description z-score=-0.24，均正常范围（check_seo_field_stats.py）",
+    "内链健康度：3条inbound markdown链接（elements-of-art/vanishing-point等文章引用），非孤儿页",
+    "配图：2张Art Institute of Chicago公有领域(CC0)图片线上200加载正常",
+    "竞品差异化：WebSearch对比Britannica/Wikipedia/工艺博客头部竞品，均为\"是什么+怎么做\"科普角度，本文Pliny原始文本批判性分析+Getty科学研究叙事显著差异化，无同质化风险"
+  ],
+  "actions_taken": [
+    "新增FAQ「Did any 19th-century artist revive encaustic painting after a duke invited them?」，回答1840年卢卡公爵Carlo Lodovico委托画家Michele Ridolfi用蜡画法绘制圣亚历山德罗教堂后殿（建筑师Lorenzo Nottolini主持修复）——双独立源核实（Wikipedia Michele Ridolfi词条+turismo.lucca.it官方页），未采用GSC原始查询词中无法核实的'taught abroad'表述，避免编造",
+    "独立agent复核：CONFIRMED，无需修改",
+    "FAQ两轮机械检查迭代：初稿触发check_prose_patterns.py的FAQ逐字重合报警(\"chemical analysis of\"/\"encaustic technique\"各20+字符)，改写至0命中",
+    "去AI味：humanizer+avoid-ai-writing双检，判定clean",
+    "published字段已存在(2026-08-21)，updated回填至2026-09-23",
+    "SEO drift对比：仅WARNING级(schema变化，为FAQ新增的预期结果)，无CRITICAL",
+    "commit 317aded，push成功，绕缓存curl确认线上生效；IndexNow已提交(/encaustic-painting/，Bing 200/Yandex 200)"
+  ],
+  "seo_score": "未重新打分（本次仅追加FAQ，未触及正文，判定不影响既有SEO状态）",
+  "geo_score": "未重新打分（同上，ai-seo技能本轮未执行，正文主体未改动）",
+  "pending_owen_decision": false
+}
+```
