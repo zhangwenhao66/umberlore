@@ -603,5 +603,14 @@
    "h": 761
   },
   "desktop_rel": "/images/golden-ratio-in-art-pacioli-dodecahedron.jpg"
+ },
+ "/images/most-expensive-painting-salvator-mundi.jpg": {
+  "fingerprint": "1790239839800033781:219631:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/most-expensive-painting-salvator-mundi-sm.jpg",
+   "w": 750,
+   "h": 1103
+  },
+  "desktop_rel": "/images/most-expensive-painting-salvator-mundi.jpg"
  }
 }

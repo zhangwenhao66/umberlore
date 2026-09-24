@@ -333,7 +333,8 @@ export const guides: Guide[] = [
           "**Unmixed chrome yellow and green, flat areas of colour, firm outlines, cropping borrowed from Japanese prints.** Arles onward, after February 1888.",
           "**Blue where the letters say violet, lilac or purple.** Assume a faded red lake and add the red back in your head. This applies to a great many of the French paintings, not only the famous two.",
           "**A brownish cast creeping in at the edge of a bright yellow passage.** Suspect chrome yellow reduction before you blame dirty varnish, though on the Amsterdam *Sunflowers* both are present at once.",
-          "None of this needs equipment. It needs the habit of checking the letter and the museum record instead of the caption, which is roughly the same habit conservators apply with better instruments."
+          "None of this needs equipment. It needs the habit of checking the letter and the museum record instead of the caption, which is roughly the same habit conservators apply with better instruments.",
+          "Price is a separate record from the museum file. Van Gogh's Portrait of Dr. Gachet sold for $82.5 million at Christie's in 1990 and, according to a 2019 Daily Beast report, has not been seen in public since. [How record painting prices have moved since 1987](/most-expensive-painting-in-the-world/) lays out that sale next to the later ones."
         ]
       }
     ],
@@ -9776,6 +9777,166 @@ export const guides: Guide[] = [
       {
         "label": "Wikimedia Commons: File:De divina proportione - Dodecaedron Elevatum Vacuum.jpg",
         "url": "https://commons.wikimedia.org/wiki/File:De_divina_proportione_-_Dodecaedron_Elevatum_Vacuum.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "most-expensive-painting-in-the-world",
+    "category": "Painting",
+    "title": "Most Expensive Painting: The Record Price Ladder",
+    "description": "The most expensive painting in the world is Salvator Mundi at $450.3 million, but that includes $50.3 million in fees, and the biggest private sales are only reported.",
+    "published": "2026-09-24",
+    "updated": "2026-09-24",
+    "coreSummary": "The most expensive painting in the world is Leonardo da Vinci's Salvator Mundi, sold at Christie's New York on 15 November 2017 for $450,312,500, of which $400 million was the hammer price and $50,312,500 was fees. Two private sales, Willem de Kooning's Interchange at a reported $300 million and Cézanne's The Card Players at $250 million or more, sit below it, and neither price was confirmed by the parties. Counted against van Gogh's Portrait of Dr. Gachet, which fetched $82.5 million in 1990, the record has risen 5.5 times in 27 and a half years, about 6.4% a year before inflation. The same Leonardo panel sold for 45 pounds in 1958, and its attribution to Leonardo is still disputed by some specialists.",
+    "image": "/images/most-expensive-painting-salvator-mundi.jpg",
+    "imageAlt": "Half-length portrait of Christ facing the viewer in a blue robe crossed by gold bands, raising two fingers of the right hand and holding a transparent crystal orb in the left, against a dark ground.",
+    "imageCredit": "[Salvator Mundi](https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci,_Salvator_Mundi,_c.1500,_oil_on_walnut,_45.4_×_65.6_cm.jpg), attributed to Leonardo da Vinci, c. 1500, oil on walnut, 45.4 × 65.6 cm, public domain",
+    "sections": [
+      {
+        "heading": "The short answer and the catch",
+        "body": [
+          "The record for a painting is $450,312,500. That is what Leonardo da Vinci's Salvator Mundi cost its buyer at Christie's in New York on 15 November 2017, after 19 minutes of bidding between two parties, according to NBC News. The gavel came down at $400 million. The extra $50,312,500 is the auction house's fees, which the buyer pays on top, as Wikipedia's account of the sale spells out.",
+          "\"Most expensive\" has at least three defensible meanings, and each crowns a different painting or a different number."
+        ]
+      },
+      {
+        "heading": "Three ways to read \"most expensive\"",
+        "body": [
+          "Public auctions leave a paper trail. Private sales do not, and their figures usually reach the press through a person who was close to the deal. Insurance valuations are a third kind of number, set by a museum or an insurer for a specific purpose. Putting them in one table shows how different their evidence is.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Definition</th><th style=\"padding:8px 10px;text-align:left;\">Holder</th><th style=\"padding:8px 10px;text-align:left;\">Figure</th><th style=\"padding:8px 10px;text-align:left;\">How solid is the number</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Public auction</td><td style=\"padding:6px 10px;\">Salvator Mundi (Leonardo, c. 1500)</td><td style=\"padding:6px 10px;\">$450,312,500 (15 Nov 2017)</td><td style=\"padding:6px 10px;\">Reported by the auction house and the press, includes fees</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Reported private sale</td><td style=\"padding:6px 10px;\">Interchange (de Kooning, 1955)</td><td style=\"padding:6px 10px;\">$300 million (sold 2015, reported Feb 2016)</td><td style=\"padding:6px 10px;\">Reported by CNN from a person close to the deal, not confirmed by the parties</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Reported private sale</td><td style=\"padding:6px 10px;\">The Card Players (Cézanne, 1892/93)</td><td style=\"padding:6px 10px;\">$250 million or more (2011)</td><td style=\"padding:6px 10px;\">Vanity Fair reported it in 2012 (relayed by Art Observed), and estimates range up to about $320 million</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Insurance valuation</td><td style=\"padding:6px 10px;\">Mona Lisa (Leonardo da Vinci)</td><td style=\"padding:6px 10px;\">$100 million (14 Dec 1962)</td><td style=\"padding:6px 10px;\">A valuation for a loan, not a sale</td></tr></tbody></table></div>",
+          "On the auction definition there is one clear answer. On the private-sale definition the ranking is not settled, because Wikipedia says the Cézanne price has been variously estimated between $250 million and $320 million, and the de Kooning figure of $300 million sits inside that range. Anyone who ranks those two against each other is choosing between unconfirmed numbers.",
+          "The insurance figure explains why the [Mona Lisa](/mona-lisa/) turns up in these conversations without ever having been sold. Guinness World Records lists the $100 million (53.55 million pounds) valuation assessed on 14 December 1962 for the painting's trip to the United States. It measures the cost of losing the picture, and nobody paid it."
+        ]
+      },
+      {
+        "heading": "The record ladder, five rungs",
+        "body": [
+          "Here are five landmark prices, in date order. The table skips several intermediate records, so the last column compares each price with the 1990 auction price of $82.5 million, and not with whichever painting held the record just before it.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Year</th><th style=\"padding:8px 10px;text-align:left;\">Painting</th><th style=\"padding:8px 10px;text-align:left;\">Reported price</th><th style=\"padding:8px 10px;text-align:left;\">Sale type</th><th style=\"padding:8px 10px;text-align:left;\">Multiple of the 1990 price</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">1987</td><td style=\"padding:6px 10px;\">Vase with Fifteen Sunflowers, van Gogh</td><td style=\"padding:6px 10px;\">24.75 million pounds</td><td style=\"padding:6px 10px;\">Auction, Christie's London</td><td style=\"padding:6px 10px;\">Priced in pounds, so no multiple</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">1990</td><td style=\"padding:6px 10px;\">Portrait of Dr. Gachet, van Gogh</td><td style=\"padding:6px 10px;\">$82.5 million</td><td style=\"padding:6px 10px;\">Auction, Christie's New York</td><td style=\"padding:6px 10px;\">1.0×</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">2011</td><td style=\"padding:6px 10px;\">The Card Players, Cézanne</td><td style=\"padding:6px 10px;\">$250 million or more</td><td style=\"padding:6px 10px;\">Private sale</td><td style=\"padding:6px 10px;\">3.0× or more</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">2015</td><td style=\"padding:6px 10px;\">Interchange, de Kooning</td><td style=\"padding:6px 10px;\">$300 million (reported)</td><td style=\"padding:6px 10px;\">Private sale</td><td style=\"padding:6px 10px;\">3.6×</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">2017</td><td style=\"padding:6px 10px;\">Salvator Mundi, Leonardo</td><td style=\"padding:6px 10px;\">$450.3 million</td><td style=\"padding:6px 10px;\">Auction, Christie's New York</td><td style=\"padding:6px 10px;\">5.5×</td></tr></tbody></table></div>",
+          "Wikipedia says the 1987 van Gogh sale tripled the previous record and opened a new era in top prices. From the 1990 rung to the 2017 rung, the price grew 5.46 times in 27 and a half years. Compounded, that is about 6.4% a year in nominal dollars, and the figure is before any adjustment for inflation. The largest step between neighbouring rungs is 1990 to 2011, a factor of about three over 21 years.",
+          "Wikipedia's entry on The Card Players says the 2011 price marked the highest ever paid for a painting and stood until November 2017. The reported $300 million for Interchange falls inside the estimate range for the Cézanne, which is why the two private sales are hard to rank against each other. The 2017 auction gave the first confirmed public figure above both, at 1.5 times the reported Interchange price."
+        ]
+      },
+      {
+        "heading": "What the number includes",
+        "body": [
+          "Auction prices are quoted with fees in some places and without in others, which is why two lists of the same sales can disagree. Two sales in this article let you see the fee arithmetic. Christie's sold van Gogh's Portrait of Dr. Gachet for $82.5 million in May 1990, which Wikipedia breaks down as $75 million plus a 10 percent commission. Multiply and it checks: 75 × 1.10 = 82.5.",
+          "For Salvator Mundi the fees are $50,312,500 on a $400 million hammer price, or 12.6% of the hammer. The $400 million is the hammer price, and the buyer's total came to $450.3 million with fees. The private sales in the table have no disclosed fee structure at all, which is another reason not to rank them precisely against auction results."
+        ]
+      },
+      {
+        "heading": "One painting, four prices",
+        "body": [
+          "Salvator Mundi shows how far one panel's price can move. In 1958 it appeared at Sotheby's in London as a work by Leonardo's follower Boltraffio and sold for 45 pounds, per Artnet's timeline of its ownership. Wikipedia adds that it stayed attributed to Boltraffio until 2011.",
+          "In 2013 the painting was sold by its owners to the dealer Yves Bouvier for $80 million, and Bouvier sold it on to the Russian collector Dmitry Rybolovlev for $127.5 million, a markup of about 59% on Wikipedia's figures. Wikipedia describes how that markup became the center of a legal dispute between Rybolovlev, Bouvier and Sotheby's. Rybolovlev then put the painting up at Christie's, where it sold in 2017 for 3.5 times what he had paid, about four and a half years later.",
+          "Laid out in order, the price was 45 pounds in 1958, then $80 million and $127.5 million in 2013, and $450.3 million in 2017. Between the first and last, the attribution moved from Boltraffio to Leonardo."
+        ]
+      },
+      {
+        "heading": "Sales with no public price",
+        "body": [
+          "Any list of record prices leaves out the sales nobody announced. Wikipedia's list notes that it is incomplete for private transactions, because they are not always reported and the price may stay secret even when they are. Its two examples are a Caravaggio Judith and Holofernes bought privately in June 2019 by the hedge fund manager J. Tomilson Hill, where a confidentiality agreement kept the price undisclosed, and a 2019 sale of van Gogh's The Seated Zouave, which some sources put at $300 million but which none of the parties confirmed.",
+          "The highest confirmed price is $450.3 million. The highest price anyone has paid for a painting could be higher, and the sources that would settle it are private."
+        ]
+      },
+      {
+        "heading": "Is it really a Leonardo?",
+        "body": [
+          "Christie's said in 2017 that most leading scholars consider the panel an original work by Leonardo. Wikipedia's summary adds that some specialists dispute this, proposing that he contributed only certain elements, and that others think extensive restoration prevents a firm attribution. Wikipedia records a 2011 meeting of scholars at which the attribution to Leonardo was agreed, which is the point where the painting stopped being catalogued as a Boltraffio.",
+          "The public record after the sale adds a question mark. In September 2018 Abu Dhabi's Department of Culture and Tourism announced that the unveiling planned for the Louvre Abu Dhabi was postponed indefinitely, and Artnet and Al Jazeera reported that no reason was given. Christie's and Saudi officials had said the buyer, Prince Badr bin Abdullah Al Saud, acted for the Abu Dhabi department, while The Wall Street Journal reported he was an intermediary for Crown Prince Mohammed bin Salman."
+        ]
+      },
+      {
+        "heading": "Where a former record holder ended up",
+        "image": {
+          "src": "/images/most-expensive-painting-gachet.jpg",
+          "alt": "Van Gogh's 1890 portrait of Dr. Paul Gachet, a red-haired man in a white cap and dark blue coat resting his head on his hand, with a foxglove sprig and two yellow books on a red table.",
+          "credit": "[Portrait of Dr. Gachet](https://commons.wikimedia.org/wiki/File:Portrait_of_Dr._Gachet.jpg), first version, Vincent van Gogh, June 1890, public domain"
+        },
+        "body": [
+          "Van Gogh's Portrait of Dr. Gachet went to the Japanese businessman Ryoei Saito in 1990, who said he would have it cremated with him. The painting later changed hands privately. The Art Newspaper's 2019 investigation says the current owner remains unknown, and The Daily Beast reported that year that it had never been seen publicly again, nearly 30 years after the auction.",
+          "For more, see [van Gogh paintings](/van-gogh-paintings/) and [famous paintings](/famous-paintings/)."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the most expensive painting in the world?",
+        "answer": "Salvator Mundi, a c. 1500 panel credited to Leonardo, holds the record at about $450.3 million, paid at a Christie's auction in New York in 2017. The total covers a $400 million gavel price plus fees, and some specialists doubt the Leonardo attribution."
+      },
+      {
+        "question": "Who bought the 400 million dollar painting?",
+        "answer": "A Saudi prince, Badr bin Abdullah, was named as the buyer afterward. Christie's along with Saudi officials said he acted for an Abu Dhabi government agency, whereas the WSJ described him as a go-between for the Saudi crown prince."
+      },
+      {
+        "question": "How much is the Mona Lisa worth?",
+        "answer": "None of the sources here records it being sold, so it has no market price. The Guinness record book carries a 1962 coverage figure of $100 million, made when the painting was lent for a US tour."
+      },
+      {
+        "question": "What is the most expensive painting ever sold privately?",
+        "answer": "Nobody can say for sure. CNN put the 2015 sale of de Kooning's painting Interchange at $300 million, while Cézanne's Card Players went to Qatar in 2011 for at least $250 million, with some estimates higher. In both cases the buyers and sellers kept the figures unconfirmed."
+      },
+      {
+        "question": "Why is the price of Salvator Mundi $450.3 million and not $400 million?",
+        "answer": "The auctioneer's hammer stopped at $400 million, and $50,312,500 in buyer fees was added on top. Those fees came to about an eighth of the hammer price."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: List of most expensive paintings",
+        "url": "https://en.wikipedia.org/wiki/List_of_most_expensive_paintings"
+      },
+      {
+        "label": "Wikipedia: Salvator Mundi (painting)",
+        "url": "https://en.wikipedia.org/wiki/Salvator_Mundi_(painting)"
+      },
+      {
+        "label": "NBC News: Leonardo da Vinci's Salvator Mundi sells for record $450M",
+        "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/leonardo-da-vinci-s-salvator-mundi-painting-sells-record-450m-n821271"
+      },
+      {
+        "label": "Artnet News: How Salvator Mundi went from 45 pounds to $450 million in 59 years",
+        "url": "https://news.artnet.com/market/timeline-salvator-mundi-went-45-to-450-million-59-years-1150661"
+      },
+      {
+        "label": "Artnet News: Louvre Abu Dhabi postpones display of Salvator Mundi",
+        "url": "https://news.artnet.com/art-world/louvre-abu-dhabi-postpones-display-salvator-mundi-1341950"
+      },
+          {
+        "label": "The Art Newspaper: Where is the portrait of Dr Gachet?",
+        "url": "https://www.theartnewspaper.com/2019/11/15/where-is-the-portrait-of-dr-gachet-the-mysterious-disappearance-of-van-goghs-most-expensive-painting"
+      },
+      {
+        "label": "Al Jazeera: Louvre Abu Dhabi delays exhibition of Salvator Mundi",
+        "url": "https://www.aljazeera.com/features/2018/9/3/louvre-abu-dhabi-delays-exhibition-of-da-vincis-salvator-mundi"
+      },
+  {
+        "label": "Wikipedia: Portrait of Dr. Gachet",
+        "url": "https://en.wikipedia.org/wiki/Portrait_of_Dr._Gachet"
+      },
+      {
+        "label": "The Daily Beast: Where is Van Gogh's Portrait of Dr. Gachet? No one knows",
+        "url": "https://www.thedailybeast.com/where-is-vincent-van-goghs-portrait-of-dr-gachet-no-one-knows/"
+      },
+      {
+        "label": "CNN Business: Ken Griffin buys two paintings from David Geffen for $500 million",
+        "url": "https://www.cnn.com/2016/02/19/luxury/ken-griffin-david-geffen-de-kooning-jackson-pollock"
+      },
+      {
+        "label": "Art Observed: Qatar purchase of Card Players by Paul Cézanne",
+        "url": "https://artobserved.com/2012/02/breaking-qatar-purchase-of-250-300-million-card-players-by-paul-cezanne-is-most-expensive-art-sale-in-history/"
+      },
+      {
+        "label": "Wikipedia: The Card Players",
+        "url": "https://en.wikipedia.org/wiki/The_Card_Players"
+      },
+      {
+        "label": "Guinness World Records: Highest insurance valuation for a painting",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-insurance-valuation-for-a-painting"
+      },
+      {
+        "label": "Wikimedia Commons: File:Leonardo da Vinci, Salvator Mundi, c.1500, oil on walnut, 45.4 × 65.6 cm.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci,_Salvator_Mundi,_c.1500,_oil_on_walnut,_45.4_%C3%97_65.6_cm.jpg"
       }
     ]
   }

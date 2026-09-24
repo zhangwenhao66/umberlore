@@ -559,6 +559,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 2184,
   "w": 1600
  },
+ "/images/golden-ratio-in-art-pacioli-dodecahedron.avif": {
+  "h": 1015,
+  "w": 1000
+ },
+ "/images/golden-ratio-in-art-pacioli-dodecahedron.jpg": {
+  "h": 1015,
+  "w": 1000
+ },
+ "/images/golden-ratio-in-art-pacioli-dodecahedron.webp": {
+  "h": 1015,
+  "w": 1000
+ },
  "/images/grisaille-ghent-altarpiece-closed.avif": {
   "h": 2283,
   "w": 1600
@@ -822,6 +834,22 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/mona-lisa.webp": {
   "h": 2384,
   "w": 1600
+ },
+ "/images/most-expensive-painting-gachet.jpg": {
+  "h": 1008,
+  "w": 819
+ },
+ "/images/most-expensive-painting-salvator-mundi.avif": {
+  "h": 1324,
+  "w": 900
+ },
+ "/images/most-expensive-painting-salvator-mundi.jpg": {
+  "h": 1324,
+  "w": 900
+ },
+ "/images/most-expensive-painting-salvator-mundi.webp": {
+  "h": 1324,
+  "w": 900
  },
  "/images/ophelia-elizabeth-siddal-portrait.jpg": {
   "h": 1200,
@@ -1351,6 +1379,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1024,
   "w": 750
  },
+ "/images/responsive/golden-ratio-in-art-pacioli-dodecahedron-sm.avif": {
+  "h": 761,
+  "w": 750
+ },
+ "/images/responsive/golden-ratio-in-art-pacioli-dodecahedron-sm.jpg": {
+  "h": 761,
+  "w": 750
+ },
+ "/images/responsive/golden-ratio-in-art-pacioli-dodecahedron-sm.webp": {
+  "h": 761,
+  "w": 750
+ },
  "/images/responsive/grisaille-ghent-altarpiece-closed-sm.avif": {
   "h": 1070,
   "w": 750
@@ -1481,6 +1521,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/mona-lisa-sm.webp": {
   "h": 1118,
+  "w": 750
+ },
+ "/images/responsive/most-expensive-painting-salvator-mundi-sm.avif": {
+  "h": 1103,
+  "w": 750
+ },
+ "/images/responsive/most-expensive-painting-salvator-mundi-sm.jpg": {
+  "h": 1103,
+  "w": 750
+ },
+ "/images/responsive/most-expensive-painting-salvator-mundi-sm.webp": {
+  "h": 1103,
   "w": 750
  },
  "/images/responsive/ophelia-millais-tate-sm.avif": {

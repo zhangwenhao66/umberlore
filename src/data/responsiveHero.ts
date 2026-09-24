@@ -204,6 +204,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/mona-lisa-sm.jpg",
   "w": 750
  },
+ "/images/most-expensive-painting-salvator-mundi.jpg": {
+  "h": 1103,
+  "mobile": "/images/responsive/most-expensive-painting-salvator-mundi-sm.jpg",
+  "w": 750
+ },
  "/images/ophelia-millais-tate.jpg": {
   "h": 510,
   "mobile": "/images/responsive/ophelia-millais-tate-sm.jpg",
