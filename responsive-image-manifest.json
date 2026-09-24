@@ -594,5 +594,14 @@
    "h": 1026
   },
   "desktop_rel": "/images/arnolfini-portrait-nationalgallery.jpg"
+ },
+ "/images/golden-ratio-in-art-pacioli-dodecahedron.jpg": {
+  "fingerprint": "1790225263742715551:323874:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/golden-ratio-in-art-pacioli-dodecahedron-sm.jpg",
+   "w": 750,
+   "h": 761
+  },
+  "desktop_rel": "/images/golden-ratio-in-art-pacioli-dodecahedron.jpg"
  }
 }

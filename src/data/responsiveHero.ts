@@ -144,6 +144,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/ghost-of-a-flea-sm.jpg",
   "w": 750
  },
+ "/images/golden-ratio-in-art-pacioli-dodecahedron.jpg": {
+  "h": 761,
+  "mobile": "/images/responsive/golden-ratio-in-art-pacioli-dodecahedron-sm.jpg",
+  "w": 750
+ },
  "/images/grisaille-ghent-altarpiece-closed.jpg": {
   "h": 1070,
   "mobile": "/images/responsive/grisaille-ghent-altarpiece-closed-sm.jpg",

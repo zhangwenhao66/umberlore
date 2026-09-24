@@ -7177,7 +7177,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Can you give an example of non-objective art?",
-        "answer": "The style's most cited founding example is Black Square, the 1915 canvas Kazimir Malevich painted as a plain black square on white with nothing recognizable underneath it. Works by Kandinsky from the same era and Piet Mondrian's grid paintings are also standard textbook examples."
+        "answer": "The style's most cited founding example is Black Square, the 1915 canvas Kazimir Malevich painted as a plain black square on white with nothing recognizable underneath it. Works by Kandinsky from the same era and Piet Mondrian's grid paintings are also standard textbook examples. Mondrian's grids are often said to follow the golden ratio, a claim critics have disputed, as the [golden ratio guide](/golden-ratio-in-art/) explains."
       },
       {
         "question": "Who are the most famous non-objective artists?",
@@ -9659,6 +9659,123 @@ export const guides: Guide[] = [
       {
         "label": "Wikimedia Commons: File:Van Eyck - Arnolfini Portrait.jpg",
         "url": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "golden-ratio-in-art",
+    "category": "Technique",
+    "title": "How to Use the Golden Ratio in Art: Fact vs Myth",
+    "description": "How to build a golden rectangle and phi grid with real canvas numbers, plus which famous golden ratio claims (Mona Lisa, Parthenon) have no evidence behind them.",
+    "published": "2026-09-24",
+    "updated": "2026-09-24",
+    "coreSummary": "To use the golden ratio in art, you divide a canvas or a line so the larger part is about 1.618 times the smaller, which puts key lines at roughly 38.2% and 61.8% across the picture instead of the rule of thirds' 33.3% and 66.7%. On a 24 by 36 inch canvas that moves each grid line less than two inches, so the practical gain is small. The history behind the golden ratio in art is also thinner than most tutorials say. Luca Pacioli's 1509 Divina proportione, illustrated by Leonardo da Vinci, named the ratio but did not tell painters to use it, and the reading that it did was only attached to him in 1799. Claims about the Mona Lisa, the Parthenon and Mondrian have little or no evidence behind them. Salvador Dalí's 1955 Sacrament of the Last Supper is the well-documented case: its canvas measures 166.7 by 267 centimeters, about 1% off a true golden rectangle.",
+    "image": "/images/golden-ratio-in-art-pacioli-dodecahedron.jpg",
+    "imageAlt": "Woodcut of a hollow dodecahedron with its faces built up into star-shaped pyramids, drawn as a skeleton of ribbon-like edges, from the 1509 edition of De divina proportione.",
+    "imageCredit": "[Dodecaedron Elevatum Vacuum](https://commons.wikimedia.org/wiki/File:De_divina_proportione_-_Dodecaedron_Elevatum_Vacuum.jpg), illustration by Leonardo da Vinci for Luca Pacioli's De divina proportione, 1509, public domain",
+    "sections": [
+      {
+        "heading": "What the ratio does on a canvas",
+        "body": [
+          "The golden ratio, written phi and equal to about 1.618, describes a split where the whole is to the larger part as the larger part is to the smaller. Euclid called it the \"extreme and mean ratio\". In a picture it becomes two things you can actually lay down with a ruler: a rectangle whose long side is 1.618 times its short side, and a pair of lines placed 38.2% and 61.8% of the way across the surface.",
+          "Artists use it as a placement tool. You put the horizon, the brightest edge or the eye of a portrait on one of those lines, or you cut a canvas into a square plus a smaller golden rectangle and let the divisions guide where large shapes land. Nothing in the geometry forces a good picture. It speeds up a decision and obeys no law of beauty."
+        ]
+      },
+      {
+        "heading": "How to build a golden rectangle with a compass",
+        "body": [
+          "This is the standard construction, and it works on paper, a sketchbook page or a primed panel before you paint. Start with a square of any size, side s. Mark the midpoint of the bottom edge. Extend the bottom edge past the right-hand corner. Set a compass point on the midpoint and open it to the top left corner. Swing the arc down to the extended baseline, and mark where it lands. The new baseline runs from the bottom left corner to that mark, and its length is s multiplied by 1.618, because half of s plus 1.118 times s adds up to 1.618 times s. Close the rectangle and you have a golden rectangle, with the original square sitting inside it.",
+          "Repeat the trick inside the leftover rectangle and each step gives you a smaller square plus a smaller golden rectangle. Connect quarter-circles through the squares and you get the golden spiral seen in every tutorial. Use it as a sketching aid for where a spiral of attention might run through a picture, and treat any claim that a specific painting \"contains\" the spiral with suspicion, because a spiral can be laid over almost any composition if you are free to choose the starting rectangle.",
+          "If you would rather not use a compass, Fibonacci numbers get you close. Dividing consecutive terms gives 8/5 = 1.6, 13/8 = 1.625 and 21/13 = 1.615, so a 13 by 21 inch panel is a workable golden rectangle."
+        ]
+      },
+      {
+        "heading": "The golden ratio grid versus the rule of thirds, in inches",
+        "body": [
+          "Many tutorials that compare the golden ratio grid with the rule of thirds stop at \"it's similar\". The numbers show how similar. Here are the grid lines on a 24 by 36 inch canvas.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">24 × 36 in canvas</th><th style=\"padding:8px 10px;text-align:left;\">Rule of thirds</th><th style=\"padding:8px 10px;text-align:left;\">Golden ratio grid</th><th style=\"padding:8px 10px;text-align:left;\">Difference</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Lines across the 24 in side</td><td style=\"padding:6px 10px;\">8.00 and 16.00</td><td style=\"padding:6px 10px;\">9.17 and 14.83</td><td style=\"padding:6px 10px;\">1.17 in</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Lines along the 36 in side</td><td style=\"padding:6px 10px;\">12.00 and 24.00</td><td style=\"padding:6px 10px;\">13.75 and 22.25</td><td style=\"padding:6px 10px;\">1.75 in</td></tr></tbody></table></div>",
+          "The two systems put the lines within 1.2 to 1.8 inches of each other. A brush mark is wider than that difference at most scales, and a viewer standing three feet from the painting will not register it. If a composition works on the thirds, moving a horizon 1.75 inches will not rescue or wreck it. The choice is best made on what the picture needs, not on which grid sounds more classical."
+        ]
+      },
+      {
+        "heading": "Standard canvas sizes are not golden",
+        "body": [
+          "A second surprise for anyone shopping for supports is that stretched canvases and paper sizes are built on other ratios. Dividing the long side of common sizes by the short side gives ratios to compare with 1.618.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Canvas (inches)</th><th style=\"padding:8px 10px;text-align:left;\">Long side ÷ short side</th><th style=\"padding:8px 10px;text-align:left;\">Gap from 1.618</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">8 × 10</td><td style=\"padding:6px 10px;\">1.250</td><td style=\"padding:6px 10px;\">22.7% short</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">11 × 14</td><td style=\"padding:6px 10px;\">1.273</td><td style=\"padding:6px 10px;\">21.3% short</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">12 × 16</td><td style=\"padding:6px 10px;\">1.333</td><td style=\"padding:6px 10px;\">17.6% short</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">16 × 20</td><td style=\"padding:6px 10px;\">1.250</td><td style=\"padding:6px 10px;\">22.7% short</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">18 × 24</td><td style=\"padding:6px 10px;\">1.333</td><td style=\"padding:6px 10px;\">17.6% short</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">24 × 36</td><td style=\"padding:6px 10px;\">1.500</td><td style=\"padding:6px 10px;\">7.3% short</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">A4 (210 × 297 mm)</td><td style=\"padding:6px 10px;\">1.414</td><td style=\"padding:6px 10px;\">12.6% short</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Dalí, Sacrament of the Last Supper (166.7 × 267 cm)</td><td style=\"padding:6px 10px;\">1.602</td><td style=\"padding:6px 10px;\">1.0% short</td></tr></tbody></table></div>",
+          "Even the closest standard canvas, 24 by 36 inches, is 7.3% short. If you want a true golden rectangle for the support, order a custom size or cut your own panel: with a 24 inch short side the long side is 38.83 inches, and 13 by 21 inches from the Fibonacci shortcut above is within 0.2% of golden. Dalí's canvas is closer than any commercial size in the table, at about 1% short."
+        ]
+      },
+      {
+        "heading": "The famous claims: what has evidence and what doesn't",
+        "body": [
+          "The idea that Renaissance painters worked to the golden ratio is usually traced to Luca Pacioli, whose Divina proportione (1509) was illustrated by Leonardo da Vinci with polyhedra, one of which is the woodcut at the top of this page. The book was named for the ratio. What it did not do, according to the mathematician Keith Devlin as summarized by Plus magazine, is argue for a theory of beauty built on it, and that view was attributed to Pacioli only in 1799.",
+          "Leonardo is the next name attached. Plus notes there is no direct evidence he used the golden ratio in his paintings, and that his Vitruvian Man does not match it, since Leonardo only mentioned whole-number ratios in his writings. Wikipedia records the matching point about the [Mona Lisa](/mona-lisa/) itself, that the idea of golden proportions in it finds no support in Leonardo's own writings. Where the popular version does come from is Adolf Zeising, a German psychologist who wrote in 1854 that the ratio was a universal law of beauty across nature and art. Devlin credits him with popularizing it.",
+          "Architecture gets the same treatment. Devlin's line on the Parthenon, quoted on Wikipedia's golden ratio page, is blunt: \"Certainly, the oft repeated assertion that the Parthenon in Athens is based on the golden ratio is not supported by actual measurements.\" Plus points out that its subtle curves make precise measurement hard enough that you can pick rectangles to suit the answer you want.",
+          "Modern painting fares no better. Wikipedia reports that Piet Mondrian has been said to use the golden section extensively, though experts including the critic Yve-Alain Bois have discredited the claims, and that Georges Seurat's own writings and paintings do not show the ratio either. Preference tests are no help. Plus reports that studies of people picking a favorite rectangle found a wide range of preferences, with the square root of two to one often preferred over the golden one."
+        ]
+      },
+      {
+        "heading": "Dalí's Sacrament: the case you can check",
+        "body": [
+          "The painter who did it on purpose is Salvador Dalí. His Sacrament of the Last Supper, painted in 1955 and now at the National Gallery of Art in Washington, is catalogued as 166.7 by 267 centimeters. Dividing gives 1.6017, which is 1.0% shorter than 1.618, so the canvas is essentially a golden rectangle. Wikipedia adds that Dalí was influenced by the writer Matila Ghyka and built the scene inside a huge dodecahedron whose edges appear in golden proportion in perspective, so the ratio was a documented choice, and nobody had to retrofit it.",
+          "This one holds up because the artist left evidence, the canvas measurements sit in a museum record, and the number lands within a percent. Most other examples fail at least one of those tests. Dalí is also still under copyright, so this site links the painting's record and does not reproduce the image.",
+          "The idea did have real followers in the early twentieth century. The Section d'Or, a group of painters and writers around Cubism active from about 1911 to 1914, took the name Section d'Or, which Wikipedia says was chosen both to signal continuity with a grand tradition and in homage to the mathematical harmony associated with Georges Seurat. If you like the ratio, that history is a better reason to use it than any claim about Leonardo."
+        ]
+      },
+      {
+        "heading": "A practical way to use it without the myths",
+        "body": [
+          "Draw your thumbnail on a rectangle with the phi grid drawn lightly across it. Put the main division of the picture, say the horizon or the edge of the largest shadow shape, on one of the four lines and see whether it improves the balance. Try the thirds version beside it. If both work, pick the one you prefer, and move on. If you are building a series of paintings on custom panels, adopt the 1 to 1.618 proportion for consistency, knowing your reason is taste and not tradition.",
+          "Then put the ratio away. Elements such as [emphasis](/emphasis-in-art/) and [pattern](/pattern-in-art/) usually decide whether a picture holds the eye, and the grid is a check on placement, not a substitute for them. Where perspective matters, the [vanishing point](/vanishing-point/) also fixes where the eye lands before any grid does."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How is the golden ratio used in art?",
+        "answer": "Painters put horizons, edges and focal points roughly 0.382 or 0.618 of the way along a picture, or cut the support itself to a 1 to 1.618 shape. The best-documented user is Dalí, whose 1955 Washington altarpiece was stretched to within a percent of that shape."
+      },
+      {
+        "question": "How do you apply the golden ratio?",
+        "answer": "Take the short side times 1.618 for a golden long side, or take either dimension times 0.382 and 0.618 to mark grid lines. For a 24 by 36 canvas that means marks at 9.17 and 14.83 inches across, and 13.75 and 22.25 inches down the length."
+      },
+      {
+        "question": "Can you give me some examples of artwork that uses the golden ratio?",
+        "answer": "Dalí's Last Supper canvas, hanging in the Washington museum, is the clearest major case, 267 centimeters wide and 166.7 tall. The futurist artist Almada Negreiros also used golden-ratio constructions openly, according to Wikipedia. The stories told about Leonardo's portrait, Athens' temple and Mondrian's grids are contested, and Keith Devlin says the temple story fails when you measure it."
+      },
+      {
+        "question": "Did Leonardo da Vinci use the golden ratio in the Mona Lisa?",
+        "answer": "No direct evidence says so. He drew the solids for the friar Pacioli's 1509 book on the ratio, yet his own texts cite integer proportions alone, and the figure in his Vitruvian drawing does not fit the golden proportion."
+      },
+      {
+        "question": "Is the golden ratio really more pleasing than other rectangles?",
+        "answer": "Not reliably. Plus magazine describes tests where people chose favorites all over the range, and a root-two rectangle often beat the golden one."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Plus magazine: Myths of maths, the golden ratio",
+        "url": "https://plus.maths.org/content/myths-maths-golden-ratio"
+      },
+      {
+        "label": "Wikipedia: Golden ratio",
+        "url": "https://en.wikipedia.org/wiki/Golden_ratio"
+      },
+      {
+        "label": "Wikipedia: The Sacrament of the Last Supper",
+        "url": "https://en.wikipedia.org/wiki/The_Sacrament_of_the_Last_Supper"
+      },
+      {
+        "label": "National Gallery of Art: The Sacrament of the Last Supper, Salvador Dalí (1963.10.115)",
+        "url": "https://www.nga.gov/artworks/46590-sacrament-last-supper"
+      },
+      {
+        "label": "National Gallery of Art Open Data: objects.csv, dimensions of object 46590",
+        "url": "https://github.com/NationalGalleryOfArt/opendata"
+      },
+      {
+        "label": "Wikimedia Commons: File:De divina proportione - Dodecaedron Elevatum Vacuum.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:De_divina_proportione_-_Dodecaedron_Elevatum_Vacuum.jpg"
       }
     ]
   }
