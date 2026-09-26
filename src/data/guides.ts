@@ -716,7 +716,7 @@ export const guides: Guide[] = [
           "The theft, and more importantly the recovery, closed that gap. It attached to the image a story that required no art-historical literacy at all to follow and retell: a small man, a big museum, a missing picture, two years, Florence. Once a painting has a story like that, it can circulate through channels that art does not normally reach, and by 1913 the channels existed to circulate it fast.",
           "The theft also left a physical legacy inside the museum. It converted the painting from an artwork on a wall into a security object, and everything that has happened to it since, the glass and the crowd barriers included, follows from that reclassification.",
           "That reclassification is still generating consequences. The Louvre now caps admissions at thirty thousand people a day, a very large share of whom are in the building specifically for this one panel, and in January 2025 the museum announced plans under the Nouvelle Renaissance project to move it out of Room 711 into a dedicated space of its own by 2031, reached on a separate ticket. The problem the Louvre is solving in 2031 is the one that arrived in the autumn of 1911: too many people want to stand in front of a picture that is fifty-three centimetres wide.",
-          "The gap between the object people photograph and the object actually doing the work is not unique to this painting. Gothic architecture has its own version of it: see [what actually makes a gargoyle a gargoyle](/what-is-a-gargoyle/), which turns out to have nothing to do with how frightening it looks. The rest of UmberLore's [Painting hub](/topics/painting/) includes The Scream and Starry Night."
+          "The other incidents people count against the painting are a separate question. For what was really stolen and what was thrown at the glass, see [how many times the Mona Lisa has been stolen](/how-many-times-was-the-mona-lisa-stolen/). The rest of UmberLore's [Painting hub](/topics/painting/) includes The Scream and Starry Night."
         ]
       }
     ],
@@ -10062,6 +10062,123 @@ export const guides: Guide[] = [
       {
         "label": "Wikimedia Commons: File:ThomasKinkade.jpg",
         "url": "https://commons.wikimedia.org/wiki/File:ThomasKinkade.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "how-many-times-was-the-mona-lisa-stolen",
+    "category": "Painting",
+    "title": "How Many Times Was the Mona Lisa Stolen?",
+    "description": "The Mona Lisa was stolen once, in 1911. Later incidents are counted five to seven ways. A dated ledger of each incident and where the accounts disagree.",
+    "published": "2026-09-26",
+    "updated": "2026-09-26",
+    "coreSummary": "How many times was the Mona Lisa stolen? Once. Vincenzo Peruggia took it from the Louvre on 21 August 1911 and it was recovered in Florence in December 1913. The other incidents people count, from the 1956 acid and rock attacks to the 2024 soup protest, were attacks on the painting or its glass, and none removed it from the wall.",
+    "image": "/images/mona-lisa.jpg",
+    "imageAlt": "Leonardo da Vinci's portrait of Lisa Gherardini, oil on poplar panel, in the Musée du Louvre",
+    "imageCredit": "[Mona Lisa, by Leonardo da Vinci, from C2RMF retouched](https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg), Musée du Louvre (scan by the Centre de recherche et de restauration des musées de France), public domain",
+    "sections": [
+      {
+        "heading": "The short answer",
+        "body": [
+          "Once. The Mona Lisa has been stolen one time: on 21 August 1911, when Vincenzo Peruggia, a Louvre glazier, took it off the wall and walked out. Every incident since has been an attack or a protest, and none of them removed the painting from the building.",
+          "The number \"several\" comes from counting all of those together. It is a fair thing to count, though the answer changes with the definition. If you only need the count for a caption or a quiz, \"once\" is right, and \"stolen once, with six later incidents\" is the fuller version. The attack count is where numbers wobble: NPR counted five by 2022, the 2024 soup makes six, and the razor-blade case would make seven. The table further down sorts every incident I could source into what happened, whether the painting left the wall, and where the accounts disagree."
+        ]
+      },
+      {
+        "heading": "The one real theft, 1911 to 1914",
+        "body": [
+          "Peruggia entered the Louvre on Monday 21 August 1911 in a white smock like the ones staff wore, according to his own later account in Florence. The painter Louis Béroud reported the panel missing the next day. The museum shut for a week, and at least 60 police officers searched the building. The officer in charge said the investigation would take two or three days; it took more than two years. Police questioned the poet Guillaume Apollinaire, who was arrested, and he named his friend Pablo Picasso, who was also questioned. Both were cleared.",
+          "Peruggia had helped build the painting's glass case, and he left a thumbprint on the glass. Peruggia was an Italian decorator, born in 1881, who had briefly worked at the Louvre as a glazier. He kept the panel in his apartment for about two years. In December 1913 he tried to sell it in Florence, where Giovanni Poggi, the director of the Uffizi, authenticated it. Police arrested Peruggia at his hotel on 12 December 1913.",
+          "The painting hung in the Uffizi for a little over two weeks before returning to the Louvre on 4 January 1914, according to Wikipedia's Mona Lisa article. Wikipedia describes Peruggia as an Italian patriot who believed the painting belonged in an Italian museum. He served a short sentence, was hailed as a patriot in Italy, and later served in the Italian army in the First World War, where Austria-Hungary captured him and held him as a prisoner of war for two years.",
+          "Another account followed. In 1932 the journalist Karl Decker published a claim that a man named Eduardo de Valfierno had masterminded the theft to sell forged copies in America. Wikipedia describes this as an alleged account, and Peruggia's own page says Decker heard it from Valfierno in 1913 and that the theory has no external confirmation. I leave it out of the count."
+        ],
+        "image": {
+          "src": "/images/mona-lisa-excelsior-1913.jpg",
+          "alt": "Front page of the Paris daily Excelsior, 14 December 1913, given over to a staged photographic reconstruction of the Mona Lisa theft, with a portrait of Vincenzo Peruggia at the centre",
+          "credit": "[Excelsior, Vincenzo Peruggia, Vol de La Joconde, Mona Lisa](https://commons.wikimedia.org/wiki/File:Excelsior_-_Vincenzo_Peruggia_-_Vol_de_La_Joconde_-_Mona_Lisa.jpg), Excelsior (publication director Pierre Lafitte), 14 December 1913, digitised by Gallica / Bibliothèque nationale de France, public domain"
+        }
+      },
+      {
+        "heading": "Why people say it was stolen more than once",
+        "body": [
+          "Three things get mixed into the count. The first is 1956, when The Week and NPR describe an acid attack alongside the rock. The second is a razor-blade incident from a few years before that. Wikipedia says a man who claimed to be in love with the painting cut it with a razor and tried to steal it, while The Week, citing ARTnews, says someone tried and failed to use a razor to damage it. Wikipedia places it a few years before 1956, while The Week lists it among the 1956 attacks. Neither gives a full date, so I would not count it as a second theft.",
+          "The third is the 2025 Louvre robbery. On 19 October 2025 thieves disguised as construction workers took eight pieces of the French crown jewels, valued at about €88 million, from the Apollo Gallery in under eight minutes. Wikipedia says the most recent art theft from the Louvre before it was a Corot painting, Le chemin de Sèvres, in 1998. The Mona Lisa was not involved, but the headlines put the Louvre and a famous theft together, and a search for that story can land on the painting."
+        ]
+      },
+      {
+        "heading": "Every incident, sorted",
+        "body": [
+          "I built this from the Wikipedia article on the painting, The Week's timeline (which draws on ARTnews) and NPR's 2022 segment with the art historian Cammy Brothers. The last column shows where those sources give different details.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Date</th><th style=\"padding:8px 10px;text-align:left;\">What happened</th><th style=\"padding:8px 10px;text-align:left;\">Did it leave the wall?</th><th style=\"padding:8px 10px;text-align:left;\">Damage</th><th style=\"padding:8px 10px;text-align:left;\">Where sources differ</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">21 Aug 1911</td><td style=\"padding:6px 10px;\">Taken from the Salon Carré by Vincenzo Peruggia</td><td style=\"padding:6px 10px;\">Yes, for more than two years</td><td style=\"padding:6px 10px;\">None recorded</td><td style=\"padding:6px 10px;\">Sentence length: 6 or 7 months served</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Before 1956, or in 1956 (sources differ)</td><td style=\"padding:6px 10px;\">A man goes at the painting with a razor blade</td><td style=\"padding:6px 10px;\">Disputed</td><td style=\"padding:6px 10px;\">Not clear</td><td style=\"padding:6px 10px;\">Date, and whether he meant to steal it or damage it</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">1956 (The Week, NPR)</td><td style=\"padding:6px 10px;\">Acid thrown at the painting, in Montauban according to The Week</td><td style=\"padding:6px 10px;\">No</td><td style=\"padding:6px 10px;\">No damage stated in the sources I read</td><td style=\"padding:6px 10px;\">Wikipedia does not mention it; NPR says it is why the painting sits behind glass</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">30 Dec 1956</td><td style=\"padding:6px 10px;\">Rock thrown at the case at the Louvre</td><td style=\"padding:6px 10px;\">No</td><td style=\"padding:6px 10px;\">Case shattered, a speck of pigment lost near the left elbow</td><td style=\"padding:6px 10px;\">Attacker's name spelling</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">21 Apr 1974</td><td style=\"padding:6px 10px;\">Red paint sprayed in Tokyo</td><td style=\"padding:6px 10px;\">No</td><td style=\"padding:6px 10px;\">None</td><td style=\"padding:6px 10px;\">Whether it hit the glass or the panel</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">2 Aug 2009</td><td style=\"padding:6px 10px;\">Ceramic cup thrown at the glass</td><td style=\"padding:6px 10px;\">No</td><td style=\"padding:6px 10px;\">None</td><td style=\"padding:6px 10px;\">Teacup, mug or coffee</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">29 May 2022</td><td style=\"padding:6px 10px;\">Cake smeared on the glass</td><td style=\"padding:6px 10px;\">No</td><td style=\"padding:6px 10px;\">None</td><td style=\"padding:6px 10px;\">None that I found</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">28 Jan 2024</td><td style=\"padding:6px 10px;\">Soup thrown at the glass</td><td style=\"padding:6px 10px;\">No</td><td style=\"padding:6px 10px;\">None</td><td style=\"padding:6px 10px;\">None that I found</td></tr></tbody></table></div>",
+          "NPR's 2022 segment called the cake the fifth attack in 60 years. NPR does not itemise them in what I could read, but acid, rock, paint, cup and cake gives five, and the 2024 soup makes six. According to Wikipedia, Salvador Dalí wrote an essay titled \"Why they attack the Mona Lisa\" after the 1956 rock attack.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">If you count...</th><th style=\"padding:8px 10px;text-align:left;\">Number</th><th style=\"padding:8px 10px;text-align:left;\">Which incidents</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Thefts</td><td style=\"padding:6px 10px;\">1</td><td style=\"padding:6px 10px;\">21 August 1911</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Times it left the wall</td><td style=\"padding:6px 10px;\">1</td><td style=\"padding:6px 10px;\">The 1911 theft</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Times damage is documented in these sources</td><td style=\"padding:6px 10px;\">1</td><td style=\"padding:6px 10px;\">30 December 1956 rock, a speck of pigment near the left elbow</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Attacks on the painting or its glass since 1956</td><td style=\"padding:6px 10px;\">6</td><td style=\"padding:6px 10px;\">Acid, rock, paint, cup, cake, soup</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Attempts on the painting before 1956</td><td style=\"padding:6px 10px;\">0 or 1</td><td style=\"padding:6px 10px;\">The razor-blade case, if you accept it as an attempt</td></tr></tbody></table></div>",
+          "Read by category, the ledger has one theft, one documented case of damage (the 1956 rock), and five other incidents with no damage stated: acid, paint, cup, cake and soup. The acid attack has only passing coverage in NPR and The Week."
+        ]
+      },
+      {
+        "heading": "Times it left the wall without being stolen",
+        "body": [
+          "If a source says the painting \"went missing\" or \"was taken\" more than once, check whether it means a planned move. Wikipedia lists several. During the Franco-Prussian War of 1870 to 1871 the painting was moved from the Louvre to the Brest Arsenal. On 28 August 1939, shortly before the Second World War began, it was taken out of the Louvre and sent first to the Château d'Amboise, then to Loc-Dieu Abbey and the Château de Chambord, and finally to the Musée Ingres in Montauban, which kept it from the paintings looted by Nazi Germany.",
+          "Since the 1990s the painting has also been moved for renovations three times: 1992 to 1995, 2001 to 2005 and 2019. Each of these was an official relocation, and the painting was never out of the museum's hands. The Louvre has had thefts. This painting has had one.",
+          "A short test works for any claim of this kind. Ask whether the object physically left the building without permission, whether anyone was caught with it, and whether the source names a date. Only the 1911 event passes all three."
+        ]
+      },
+      {
+        "heading": "Where the accounts disagree",
+        "body": [
+          "The accounts differ in small ways that are easy to miss, so here are the ones I found.",
+          "Peruggia's sentence is one example. Wikipedia's Mona Lisa article says he served six months. His own Wikipedia page says he was sentenced to one year and 15 days and served seven months on appeal. The 2009 object is another: Wikipedia and The Week say a teacup, NPR's guest says a mug and hot coffee. Both Wikipedia and The Week agree on the attacker: a Russian woman upset over being denied French citizenship.",
+          "The 1956 events are muddier. NPR says the acid attack is why the painting is behind glass today. Wikipedia says glass was already there because of the earlier razor incident, and that the December rock shattered it. The attacker of 30 December is called Ugo Ungaza Villegas on Wikipedia and Hugo Unjaga Villegas in The Week.",
+          "None of this changes the headline count. When I cite a detail from these accounts, I use the wording the sources share and say where they split."
+        ]
+      },
+      {
+        "heading": "What changed after each incident",
+        "body": [
+          "The 1956 rock is the turning point for protection. Wikipedia says bulletproof glass has shielded the painting since that attack, and in all later cases it was undamaged. The 1974 paint left no damage, and the 2009 cup, the 2022 cake and the 2024 soup ended on the glass.",
+          "In April 2005 the painting moved to a purpose-built, climate-controlled enclosure behind bulletproof glass in the Salle des États. Wikipedia also reports that in 2024 it was decided to move the panel to a separate room with its own entrance.",
+          "For the 1911 story in more depth, including why the theft did not make the painting famous the way people say it did, see the [Mona Lisa](/mona-lisa/) article."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many times has the Mona Lisa been stolen?",
+        "answer": "One time. A former Louvre glazier named Peruggia lifted it off the wall in August 1911, and it surfaced again in Florence late in 1913. Everything after that, including the acid, the rock and the soup, went for the panel or the case around it and never got it out of the building (Wikipedia, Mona Lisa)."
+      },
+      {
+        "question": "What happened to the man that stole the Mona Lisa?",
+        "answer": "Florence police caught him when he tried to sell the painting, in mid-December 1913. The court handed down a year and 15 days, and on appeal he did seven months, per Wikipedia's page on him; Wikipedia's separate Mona Lisa entry says six. Italians hailed him as a patriot."
+      },
+      {
+        "question": "What happened in 2009 to the Mona Lisa?",
+        "answer": "On 2 August 2009 a woman from Russia, angry that France had refused her citizenship, hurled a cup at the case. The Week and Wikipedia call it a ceramic teacup and NPR's guest a mug; either way the cup shattered against the glass and the artwork came away unharmed."
+      },
+      {
+        "question": "Was the Mona Lisa stolen in the 2025 Louvre robbery?",
+        "answer": "No. The 19 October 2025 robbery targeted crown jewels in the Apollo Gallery. Eight pieces, worth around €88 million, were taken (Wikipedia, 2025 Louvre heist)."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Mona Lisa",
+        "url": "https://en.wikipedia.org/wiki/Mona_Lisa"
+      },
+      {
+        "label": "Wikipedia: Vincenzo Peruggia",
+        "url": "https://en.wikipedia.org/wiki/Vincenzo_Peruggia"
+      },
+      {
+        "label": "Wikipedia: 2025 Louvre heist",
+        "url": "https://en.wikipedia.org/wiki/2025_Louvre_heist"
+      },
+      {
+        "label": "The Week: A timeline of attacks on the Mona Lisa",
+        "url": "https://theweek.com/culture/1014104/a-timeline-of-attacks-on-the-mona-lisa"
+      },
+      {
+        "label": "NPR: The cake attack isn't the first time Mona Lisa has been targeted",
+        "url": "https://www.npr.org/2022/05/31/1102260613/the-cake-attack-isnt-the-first-time-mona-lisa-has-been-targeted-over-the-years"
       }
     ]
   }
