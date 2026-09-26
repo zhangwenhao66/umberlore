@@ -1,481 +1,492 @@
 [
- {
-  "date": "2026-08-02",
-  "action": "submitted_first_run",
-  "reason": "trafficsite-gsc-index-requests首次处理本站。umberlore.com此前无gsc-index-submit-log.json，第0步用Claude in Chrome核实search.google.com/search-console属性下拉列表，确认umberlore.com（sc-domain:）已是已验证property（GSC设置早于本任务预期，'Processing data, please check again in a day or so'确认是全新property无历史数据）。本站首批5篇文章已达'累计4篇上线'首次提交门槛（无专属RELEASE_PLAN.md记录，按CLAUDE.md默认门槛执行）。逐一用URL Inspection检查，5篇均显示'URL is not on Google'，全部提交，均清晰看到绿色'Indexing requested'弹窗成功标志。",
-  "submitted_urls": [
-   "https://umberlore.com/mona-lisa/",
-   "https://umberlore.com/what-is-a-gargoyle/",
-   "https://umberlore.com/van-gogh-paintings/",
-   "https://umberlore.com/water-lilies-monet-series/",
-   "https://umberlore.com/gustav-klimt/"
-  ],
-  "index_status_before": "all 5: URL is not on Google (unknown to Google)",
-  "quota_used": "5 of shared account-wide daily quota",
-  "quota_remaining": "本次运行across全部6站共成功11次后于calcbadger.com第12次请求遇Quota Exceeded；本站5篇全部在配额耗尽前处理完毕"
- },
- {
-  "date": "2026-08-03",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行（两轮制配额稀缺模式，本站排第7个/round1最后一个）。今日新发布：abstract-art-first-painting。URL Inspection显示未收录（'URL is unknown to Google'），提交后清晰看到绿色'Indexing requested'弹窗成功标志。",
-  "submitted_urls": [
-   "https://umberlore.com/abstract-art-first-painting/"
-  ],
-  "index_status_before": "URL is not on Google (unknown to Google)",
-  "quota_used": "1 of shared account-wide daily quota (8th request this run)"
- },
- {
-  "date": "2026-08-04",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行。今日新发布3篇（frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream），取代理值最高的frank-lloyd-wright（URL is not on Google）提交成功。第二轮取st-peters-basilica（同样未收录）提交成功；edvard-munch-the-scream本轮未及检查。",
-  "submitted_urls": [
-   "https://umberlore.com/frank-lloyd-wright/",
-   "https://umberlore.com/st-peters-basilica/"
-  ],
-  "quota_used": "2 of shared account-wide daily quota (5th and 15th requests this run)"
- },
- {
-  "date": "2026-08-05",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（sagrada-familia/starry-night）。第一轮取sagrada-familia（URL is not on Google）提交成功，第二轮取starry-night（同样未收录）提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/sagrada-familia/",
-   "https://umberlore.com/starry-night/"
-  ],
-  "quota_used": "2 requests this run (round 1 and round 2)"
- },
- {
-  "date": "2026-08-06",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（andy-warhol/art-deco，见内容发布日志.md）。第一轮取andy-warhol（URL is not on Google）提交成功。第二轮因Chrome扩展断连未能到达本站，art-deco及队列后续候选本次未检查。",
-  "submitted_urls": [
-   "https://umberlore.com/andy-warhol/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
- },
- {
-  "date": "2026-08-06",
-  "action": "submitted",
-  "reason": "第二轮（Chrome扩展重连后继续）：取今日新发布第二篇art-deco（URL is not on Google）提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/art-deco/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 request (round 2, continuation after Chrome extension reconnect)"
- },
- {
-  "date": "2026-08-07",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行（跨天连续游标轮换，两轮）。按收入代理排序队列逐个URL Inspection检查：已收录（URL is on Google）的候选跳过不消耗配额，共3个；找到未收录候选后提交REQUEST INDEXING，两轮各提交1个，共2个。",
-  "submitted_urls": [
-   "https://umberlore.com/famous-paintings/",
-   "https://umberlore.com/saturn-devouring-his-son/"
-  ],
-  "already_indexed_no_action": [
-   "https://umberlore.com/pop-art/",
-   "https://umberlore.com/edvard-munch-the-scream/",
-   "https://umberlore.com/frida-kahlo-paintings/"
-  ],
-  "quota_used": "2 requests (2轮各1次)"
- },
- {
-  "date": "2026-08-08",
-  "action": "skipped_all_indexed",
-  "reason": "trafficsite-gsc-index-requests例行运行。队列内4个候选全部已'URL is on Google'（自然收录），未消耗提交配额。",
-  "submitted_urls": [],
-  "already_indexed_no_action": [
-   "https://umberlore.com/pop-art/",
-   "https://umberlore.com/edvard-munch-the-scream/",
-   "https://umberlore.com/frida-kahlo-paintings/",
-   "https://umberlore.com/diego-rivera/"
-  ],
-  "quota_used": "0 requests (全部候选已自然收录)"
- },
- {
-  "date": "2026-08-09",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行。处理今日新发布 elements-of-art，URL Inspection确认'URL is not on Google'，REQUEST INDEXING后确认'Indexing requested'。",
-  "submitted_urls": [
-   "https://umberlore.com/elements-of-art/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 request"
- },
- {
-  "date": "2026-08-10",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行。今日两篇新发布：venus-de-milo查询已收录未提交；renaissance-art查询确认'URL is unknown to Google'，REQUEST INDEXING后确认'Indexing requested'。",
-  "submitted_urls": [
-   "https://umberlore.com/renaissance-art/"
-  ],
-  "already_indexed_no_action": [
-   "https://umberlore.com/venus-de-milo/"
-  ],
-  "quota_used": "1 request"
- },
- {
-  "date": "2026-08-11",
-  "action": "submitted",
-  "reason": "游标第7站。今日新发布jackson-pollock（1949年《生活》杂志意外成名角度，KD37但站内有KD40+先例）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。今日另有andy-warhol的content-quality-audit日期修正（既有页面小改非新URL），本轮未纳入检查。",
-  "submitted_urls": [
-   "https://umberlore.com/jackson-pollock/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 request"
- },
- {
-  "date": "2026-08-12",
-  "action": "submitted",
-  "reason": "游标第6站。今日新发布fallen-angel-painting（Alexandre Cabanel 1847年《L'Ange déchu》，非神话题材本身与MythCairn无重叠）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。",
-  "submitted_urls": [
-   "https://umberlore.com/fallen-angel-painting/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 request"
- },
- {
-  "date": "2026-08-13",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行。今日新发布cloisonne（umberlore-content-publishing）。URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功，等待约20秒确认'Indexing requested'。",
-  "submitted_urls": [
-   "https://umberlore.com/cloisonne/"
-  ],
-  "quota_used": "1 of shared account-wide daily quota (6th request this run)"
- },
- {
-  "date": "2026-08-16",
-  "action": "submitted",
-  "reason": "按队列脚本代理排序检查候选：pop-art/art-styles/frida-kahlo-paintings/daguerreotype/emphasis-in-art（08-13新发布）均已收录。改查Page indexing报告的'Discovered - currently not indexed'分类，命中fact-or-fiction，URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
-  "submitted_urls": [
-   "https://umberlore.com/fact-or-fiction/"
-  ],
-  "already_indexed_no_action": [
-   "https://umberlore.com/pop-art/",
-   "https://umberlore.com/art-styles/",
-   "https://umberlore.com/frida-kahlo-paintings/",
-   "https://umberlore.com/daguerreotype/",
-   "https://umberlore.com/emphasis-in-art/"
-  ],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-16",
-  "action": "submitted",
-  "reason": "同日第二次运行（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑）。build-index-queue.py队列下一批未提交候选：venus-de-milo已收录，architectural-painting经URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
-  "submitted_urls": [
-   "https://umberlore.com/architectural-painting/"
-  ],
-  "already_indexed_no_action": [
-   "https://umberlore.com/venus-de-milo/"
-  ],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-17",
-  "action": "submitted",
-  "reason": "今日新发布两篇：aztec-art与the-broken-column（umberlore-content-publishing定时任务当日两次运行）。URL Inspection分别确认均'URL is not on Google'，REQUEST INDEXING各自提交成功确认'Indexing requested'。",
-  "submitted_urls": [
-   "https://umberlore.com/aztec-art/",
-   "https://umberlore.com/the-broken-column/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "2 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-18",
-  "action": "submitted",
-  "reason": "今日新发布mayan-art，URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
-  "submitted_urls": [
-   "https://umberlore.com/mayan-art/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-19",
-  "action": "submitted",
-  "reason": "今日新发布psychedelic-art，URL Inspection确认'URL is not on Google'（unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。今日另有content-quality-audit审计更新st-peters-basilica（该URL历史已提交过，本轮未重复查询/提交）。",
-  "submitted_urls": [
-   "https://umberlore.com/psychedelic-art/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-20",
-  "action": "submitted",
-  "reason": "今日新发布aboriginal-art（umberlore-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/aboriginal-art/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-21",
-  "action": "submitted",
-  "reason": "今日新发布encaustic-painting（umberlore-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/encaustic-painting/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-22",
-  "action": "submitted",
-  "reason": "今日新发布romanesque-painting（umberlore-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/romanesque-painting/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-23",
-  "action": "submitted",
-  "reason": "今日无新发布。Pages报告2个Discovered-currently not indexed候选(michelangelo-sistine-chapel/topics-technique)中，选中队列内匹配的michelangelo-sistine-chapel，URL Inspection确认URL is not on Google/Discovered-currently not indexed，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/michelangelo-sistine-chapel/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-24",
-  "action": "submitted",
-  "reason": "今日新发布famous-renaissance-paintings（umberlore-content-publishing任务，12:35档）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/famous-renaissance-paintings/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-25",
-  "action": "submitted",
-  "reason": "今日新发布majolica（umberlore-content-publishing任务，12:35档）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/majolica/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-26",
-  "action": "submitted",
-  "reason": "今日新发布ghost-of-a-flea，URL Inspection确认未收录，REQUEST INDEXING提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/ghost-of-a-flea/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": 1
- },
- {
-  "date": "2026-08-27",
-  "action": "submitted",
-  "reason": "今日新发布famous-landscape-paintings（umberlore-content-publishing任务），URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/famous-landscape-paintings/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-28",
-  "action": "submitted",
-  "reason": "今日新发布famous-portraits（12:35档）：URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/famous-portraits/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-29",
-  "action": "submitted",
-  "reason": "今日新发布icarus-painting（12:35档）：URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/icarus-painting/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-30",
-  "action": "submitted",
-  "reason": "今日新发布famous-mexican-artists：URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/famous-mexican-artists/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-08-31",
-  "action": "submitted",
-  "reason": "本站今日随机休息未发布。用Page indexing报告找到Crawled-currently-not-indexed里的art-deco（proxy 95930，最后抓取Aug 31当天），URL Inspection确认URL is not on Google，REQUEST INDEXING提交成功确认Indexing requested。",
-  "submitted_urls": [
-   "https://umberlore.com/art-deco/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-01",
-  "action": "submitted",
-  "reason": "今日新发布chiaroscuro-woodcut，URL Inspection确认URL is not on Google，提交成功。第二轮查队列候选pop-art/art-styles/frida-kahlo-paintings均已收录；Page indexing报告discovered-currently-not-indexed里artist-peak-creation-age确认未收录，提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/chiaroscuro-woodcut/",
-   "https://umberlore.com/artist-peak-creation-age/"
-  ],
-  "already_indexed_no_action": [
-   "https://umberlore.com/pop-art/",
-   "https://umberlore.com/art-styles/",
-   "https://umberlore.com/frida-kahlo-paintings/"
-  ],
-  "quota_used": "2 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-02",
-  "action": "submitted",
-  "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，UmberLore排第9位，今日无新发布。检查pop-art/art-styles/frida-kahlo-paintings均已收录（历史已提交生效），Page indexing报告Discovered-not-indexed仅2条，artist-peak-creation-age昨日已提交，改用/topics/technique/（分类归档页，Discovered-currently-not-indexed）提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/topics/technique/"
-  ],
-  "already_indexed_no_action": [
-   "https://umberlore.com/pop-art/",
-   "https://umberlore.com/art-styles/",
-   "https://umberlore.com/frida-kahlo-paintings/"
-  ],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-03",
-  "action": "submitted",
-  "reason": "今日新发布schiele-neulengbach-trial，URL Inspection确认URL is not on Google，提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/schiele-neulengbach-trial/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-04",
-  "action": "submitted",
-  "reason": "今日新发布Jackson Pollock's Convergence, Sold as a Puzzle(slug: jackson-pollock-convergence)，URL Inspection确认URL is not on Google，提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/jackson-pollock-convergence/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-09",
-  "action": "submitted",
-  "reason": "今日新发布Why the Best Byzantine Mosaics Survive in Italy(slug: byzantine-mosaics)，URL Inspection确认URL is not on Google，提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/byzantine-mosaics/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-10",
-  "action": "submitted",
-  "reason": "今日新发布the-lovers-painting，URL Inspection确认URL is not on Google，提交成功。同日art-styles为content-quality-audit审计更新，本轮已用掉本站名额未额外查询。",
-  "submitted_urls": [
-   "https://umberlore.com/the-lovers-painting/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-11",
-  "action": "submitted",
-  "reason": "今日随机休息未发布。Page indexing报告Crawled-not-indexed仅1条：birth-of-venus，URL Inspection确认未收录未提交过，提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/birth-of-venus/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-12",
-  "action": "submitted",
-  "reason": "今日新发布caravaggio-narcissus，URL Inspection确认URL is not on Google，提交成功。同日michelangelo-sistine-chapel为content-quality-audit审计更新，本轮已用掉本站名额未额外查询。",
-  "submitted_urls": [
-   "https://umberlore.com/caravaggio-narcissus/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-13",
-  "action": "submitted",
-  "reason": "今日新发布vanishing-point，URL Inspection确认URL is unknown to Google，提交成功；第二轮补充提交老页未收录巡检候选simonetta-vespucci（Discovered-currently not indexed），提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/vanishing-point/",
-   "https://umberlore.com/simonetta-vespucci/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "2 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-15",
-  "action": "submitted",
-  "reason": "今日新发布the-death-of-socrates，URL Inspection确认URL is unknown to Google，提交成功。老页未收录巡检本次刷新出3个候选（含今日新发布这篇），第二、三轮补充提交剩余2个：open-license-art-image-directory、the-anatomy-lesson-nicolaes-tulp（均URL is unknown to Google），全部提交成功，本站候选清零。",
-  "submitted_urls": [
-   "https://umberlore.com/the-death-of-socrates/",
-   "https://umberlore.com/open-license-art-image-directory/",
-   "https://umberlore.com/the-anatomy-lesson-nicolaes-tulp/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_used": "3 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-16",
-  "action": "submitted",
-  "reason": "今日新发布prussian-blue-pigment（12:35档），URL Inspection确认URL unknown to Google，提交成功。老页未收录巡检本站唯一候选即为此页，无需第二轮补充。",
-  "submitted_urls": [
-   "https://umberlore.com/prussian-blue-pigment/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_exceeded_attempted": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-22",
-  "action": "submitted",
-  "reason": "今日新发布grisaille，URL Inspection确认URL unknown to Google，提交成功（期间因Claude in Chrome插件瞬时断连+页面'Testing if live URL can be indexed'耗时较长，重试3次后于约30秒内确认成功，非Quota Exceeded）。老页未收录巡检（unindexed_pages.py）额外发现fresco-painting（Discovered-not-indexed），第二轮提交成功。",
-  "submitted_urls": [
-   "https://umberlore.com/grisaille/",
-   "https://umberlore.com/fresco-painting/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_exceeded_attempted": [],
-  "quota_used": "2 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-23",
-  "note": "今日新发布the-arnolfini-portrait（12:35档，同时也是巡检库存里的unindexed_old候选），URL Inspection显示URL is not on Google/unknown to Google，提交成功。同日另有encaustic-painting审计更新，未检查（配额优先给新页）。",
-  "submitted_urls": [
-   "https://umberlore.com/the-arnolfini-portrait/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_exceeded_attempted": [],
-  "quota_used": "1 of shared account-wide daily quota"
- },
- {
-  "date": "2026-09-24",
-  "note": "游标从WageLark开始。今日新发布(长尾)，URL unknown",
-  "action": "submitted",
-  "submitted_urls": [
-   "https://umberlore.com/golden-ratio-in-art/"
-  ],
-  "already_indexed_no_action": [],
-  "quota_exceeded_attempted": [],
-  "quota_used": "1 of shared account-wide daily quota"
- }
+  {
+    "date": "2026-08-02",
+    "action": "submitted_first_run",
+    "reason": "trafficsite-gsc-index-requests首次处理本站。umberlore.com此前无gsc-index-submit-log.json，第0步用Claude in Chrome核实search.google.com/search-console属性下拉列表，确认umberlore.com（sc-domain:）已是已验证property（GSC设置早于本任务预期，'Processing data, please check again in a day or so'确认是全新property无历史数据）。本站首批5篇文章已达'累计4篇上线'首次提交门槛（无专属RELEASE_PLAN.md记录，按CLAUDE.md默认门槛执行）。逐一用URL Inspection检查，5篇均显示'URL is not on Google'，全部提交，均清晰看到绿色'Indexing requested'弹窗成功标志。",
+    "submitted_urls": [
+      "https://umberlore.com/mona-lisa/",
+      "https://umberlore.com/what-is-a-gargoyle/",
+      "https://umberlore.com/van-gogh-paintings/",
+      "https://umberlore.com/water-lilies-monet-series/",
+      "https://umberlore.com/gustav-klimt/"
+    ],
+    "index_status_before": "all 5: URL is not on Google (unknown to Google)",
+    "quota_used": "5 of shared account-wide daily quota",
+    "quota_remaining": "本次运行across全部6站共成功11次后于calcbadger.com第12次请求遇Quota Exceeded；本站5篇全部在配额耗尽前处理完毕"
+  },
+  {
+    "date": "2026-08-03",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行（两轮制配额稀缺模式，本站排第7个/round1最后一个）。今日新发布：abstract-art-first-painting。URL Inspection显示未收录（'URL is unknown to Google'），提交后清晰看到绿色'Indexing requested'弹窗成功标志。",
+    "submitted_urls": [
+      "https://umberlore.com/abstract-art-first-painting/"
+    ],
+    "index_status_before": "URL is not on Google (unknown to Google)",
+    "quota_used": "1 of shared account-wide daily quota (8th request this run)"
+  },
+  {
+    "date": "2026-08-04",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行。今日新发布3篇（frank-lloyd-wright/st-peters-basilica/edvard-munch-the-scream），取代理值最高的frank-lloyd-wright（URL is not on Google）提交成功。第二轮取st-peters-basilica（同样未收录）提交成功；edvard-munch-the-scream本轮未及检查。",
+    "submitted_urls": [
+      "https://umberlore.com/frank-lloyd-wright/",
+      "https://umberlore.com/st-peters-basilica/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota (5th and 15th requests this run)"
+  },
+  {
+    "date": "2026-08-05",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（sagrada-familia/starry-night）。第一轮取sagrada-familia（URL is not on Google）提交成功，第二轮取starry-night（同样未收录）提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/sagrada-familia/",
+      "https://umberlore.com/starry-night/"
+    ],
+    "quota_used": "2 requests this run (round 1 and round 2)"
+  },
+  {
+    "date": "2026-08-06",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布2篇（andy-warhol/art-deco，见内容发布日志.md）。第一轮取andy-warhol（URL is not on Google）提交成功。第二轮因Chrome扩展断连未能到达本站，art-deco及队列后续候选本次未检查。",
+    "submitted_urls": [
+      "https://umberlore.com/andy-warhol/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
+  },
+  {
+    "date": "2026-08-06",
+    "action": "submitted",
+    "reason": "第二轮（Chrome扩展重连后继续）：取今日新发布第二篇art-deco（URL is not on Google）提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/art-deco/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request (round 2, continuation after Chrome extension reconnect)"
+  },
+  {
+    "date": "2026-08-07",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行（跨天连续游标轮换，两轮）。按收入代理排序队列逐个URL Inspection检查：已收录（URL is on Google）的候选跳过不消耗配额，共3个；找到未收录候选后提交REQUEST INDEXING，两轮各提交1个，共2个。",
+    "submitted_urls": [
+      "https://umberlore.com/famous-paintings/",
+      "https://umberlore.com/saturn-devouring-his-son/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/pop-art/",
+      "https://umberlore.com/edvard-munch-the-scream/",
+      "https://umberlore.com/frida-kahlo-paintings/"
+    ],
+    "quota_used": "2 requests (2轮各1次)"
+  },
+  {
+    "date": "2026-08-08",
+    "action": "skipped_all_indexed",
+    "reason": "trafficsite-gsc-index-requests例行运行。队列内4个候选全部已'URL is on Google'（自然收录），未消耗提交配额。",
+    "submitted_urls": [],
+    "already_indexed_no_action": [
+      "https://umberlore.com/pop-art/",
+      "https://umberlore.com/edvard-munch-the-scream/",
+      "https://umberlore.com/frida-kahlo-paintings/",
+      "https://umberlore.com/diego-rivera/"
+    ],
+    "quota_used": "0 requests (全部候选已自然收录)"
+  },
+  {
+    "date": "2026-08-09",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。处理今日新发布 elements-of-art，URL Inspection确认'URL is not on Google'，REQUEST INDEXING后确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/elements-of-art/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-10",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日两篇新发布：venus-de-milo查询已收录未提交；renaissance-art查询确认'URL is unknown to Google'，REQUEST INDEXING后确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/renaissance-art/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/venus-de-milo/"
+    ],
+    "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-11",
+    "action": "submitted",
+    "reason": "游标第7站。今日新发布jackson-pollock（1949年《生活》杂志意外成名角度，KD37但站内有KD40+先例）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。今日另有andy-warhol的content-quality-audit日期修正（既有页面小改非新URL），本轮未纳入检查。",
+    "submitted_urls": [
+      "https://umberlore.com/jackson-pollock/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-12",
+    "action": "submitted",
+    "reason": "游标第6站。今日新发布fallen-angel-painting（Alexandre Cabanel 1847年《L'Ange déchu》，非神话题材本身与MythCairn无重叠）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/fallen-angel-painting/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-13",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日新发布cloisonne（umberlore-content-publishing）。URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功，等待约20秒确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/cloisonne/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota (6th request this run)"
+  },
+  {
+    "date": "2026-08-16",
+    "action": "submitted",
+    "reason": "按队列脚本代理排序检查候选：pop-art/art-styles/frida-kahlo-paintings/daguerreotype/emphasis-in-art（08-13新发布）均已收录。改查Page indexing报告的'Discovered - currently not indexed'分类，命中fact-or-fiction，URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/fact-or-fiction/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/pop-art/",
+      "https://umberlore.com/art-styles/",
+      "https://umberlore.com/frida-kahlo-paintings/",
+      "https://umberlore.com/daguerreotype/",
+      "https://umberlore.com/emphasis-in-art/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-16",
+    "action": "submitted",
+    "reason": "同日第二次运行（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑）。build-index-queue.py队列下一批未提交候选：venus-de-milo已收录，architectural-painting经URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/architectural-painting/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/venus-de-milo/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-17",
+    "action": "submitted",
+    "reason": "今日新发布两篇：aztec-art与the-broken-column（umberlore-content-publishing定时任务当日两次运行）。URL Inspection分别确认均'URL is not on Google'，REQUEST INDEXING各自提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/aztec-art/",
+      "https://umberlore.com/the-broken-column/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-18",
+    "action": "submitted",
+    "reason": "今日新发布mayan-art，URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://umberlore.com/mayan-art/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-19",
+    "action": "submitted",
+    "reason": "今日新发布psychedelic-art，URL Inspection确认'URL is not on Google'（unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。今日另有content-quality-audit审计更新st-peters-basilica（该URL历史已提交过，本轮未重复查询/提交）。",
+    "submitted_urls": [
+      "https://umberlore.com/psychedelic-art/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-20",
+    "action": "submitted",
+    "reason": "今日新发布aboriginal-art（umberlore-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/aboriginal-art/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-21",
+    "action": "submitted",
+    "reason": "今日新发布encaustic-painting（umberlore-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/encaustic-painting/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-22",
+    "action": "submitted",
+    "reason": "今日新发布romanesque-painting（umberlore-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/romanesque-painting/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-23",
+    "action": "submitted",
+    "reason": "今日无新发布。Pages报告2个Discovered-currently not indexed候选(michelangelo-sistine-chapel/topics-technique)中，选中队列内匹配的michelangelo-sistine-chapel，URL Inspection确认URL is not on Google/Discovered-currently not indexed，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/michelangelo-sistine-chapel/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-24",
+    "action": "submitted",
+    "reason": "今日新发布famous-renaissance-paintings（umberlore-content-publishing任务，12:35档）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/famous-renaissance-paintings/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-25",
+    "action": "submitted",
+    "reason": "今日新发布majolica（umberlore-content-publishing任务，12:35档）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/majolica/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-26",
+    "action": "submitted",
+    "reason": "今日新发布ghost-of-a-flea，URL Inspection确认未收录，REQUEST INDEXING提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/ghost-of-a-flea/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": 1
+  },
+  {
+    "date": "2026-08-27",
+    "action": "submitted",
+    "reason": "今日新发布famous-landscape-paintings（umberlore-content-publishing任务），URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/famous-landscape-paintings/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-28",
+    "action": "submitted",
+    "reason": "今日新发布famous-portraits（12:35档）：URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/famous-portraits/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-29",
+    "action": "submitted",
+    "reason": "今日新发布icarus-painting（12:35档）：URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/icarus-painting/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-30",
+    "action": "submitted",
+    "reason": "今日新发布famous-mexican-artists：URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/famous-mexican-artists/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-31",
+    "action": "submitted",
+    "reason": "本站今日随机休息未发布。用Page indexing报告找到Crawled-currently-not-indexed里的art-deco（proxy 95930，最后抓取Aug 31当天），URL Inspection确认URL is not on Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://umberlore.com/art-deco/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-01",
+    "action": "submitted",
+    "reason": "今日新发布chiaroscuro-woodcut，URL Inspection确认URL is not on Google，提交成功。第二轮查队列候选pop-art/art-styles/frida-kahlo-paintings均已收录；Page indexing报告discovered-currently-not-indexed里artist-peak-creation-age确认未收录，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/chiaroscuro-woodcut/",
+      "https://umberlore.com/artist-peak-creation-age/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/pop-art/",
+      "https://umberlore.com/art-styles/",
+      "https://umberlore.com/frida-kahlo-paintings/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-02",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，UmberLore排第9位，今日无新发布。检查pop-art/art-styles/frida-kahlo-paintings均已收录（历史已提交生效），Page indexing报告Discovered-not-indexed仅2条，artist-peak-creation-age昨日已提交，改用/topics/technique/（分类归档页，Discovered-currently-not-indexed）提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/topics/technique/"
+    ],
+    "already_indexed_no_action": [
+      "https://umberlore.com/pop-art/",
+      "https://umberlore.com/art-styles/",
+      "https://umberlore.com/frida-kahlo-paintings/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-03",
+    "action": "submitted",
+    "reason": "今日新发布schiele-neulengbach-trial，URL Inspection确认URL is not on Google，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/schiele-neulengbach-trial/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-04",
+    "action": "submitted",
+    "reason": "今日新发布Jackson Pollock's Convergence, Sold as a Puzzle(slug: jackson-pollock-convergence)，URL Inspection确认URL is not on Google，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/jackson-pollock-convergence/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-09",
+    "action": "submitted",
+    "reason": "今日新发布Why the Best Byzantine Mosaics Survive in Italy(slug: byzantine-mosaics)，URL Inspection确认URL is not on Google，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/byzantine-mosaics/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-10",
+    "action": "submitted",
+    "reason": "今日新发布the-lovers-painting，URL Inspection确认URL is not on Google，提交成功。同日art-styles为content-quality-audit审计更新，本轮已用掉本站名额未额外查询。",
+    "submitted_urls": [
+      "https://umberlore.com/the-lovers-painting/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-11",
+    "action": "submitted",
+    "reason": "今日随机休息未发布。Page indexing报告Crawled-not-indexed仅1条：birth-of-venus，URL Inspection确认未收录未提交过，提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/birth-of-venus/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-12",
+    "action": "submitted",
+    "reason": "今日新发布caravaggio-narcissus，URL Inspection确认URL is not on Google，提交成功。同日michelangelo-sistine-chapel为content-quality-audit审计更新，本轮已用掉本站名额未额外查询。",
+    "submitted_urls": [
+      "https://umberlore.com/caravaggio-narcissus/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-13",
+    "action": "submitted",
+    "reason": "今日新发布vanishing-point，URL Inspection确认URL is unknown to Google，提交成功；第二轮补充提交老页未收录巡检候选simonetta-vespucci（Discovered-currently not indexed），提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/vanishing-point/",
+      "https://umberlore.com/simonetta-vespucci/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-15",
+    "action": "submitted",
+    "reason": "今日新发布the-death-of-socrates，URL Inspection确认URL is unknown to Google，提交成功。老页未收录巡检本次刷新出3个候选（含今日新发布这篇），第二、三轮补充提交剩余2个：open-license-art-image-directory、the-anatomy-lesson-nicolaes-tulp（均URL is unknown to Google），全部提交成功，本站候选清零。",
+    "submitted_urls": [
+      "https://umberlore.com/the-death-of-socrates/",
+      "https://umberlore.com/open-license-art-image-directory/",
+      "https://umberlore.com/the-anatomy-lesson-nicolaes-tulp/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "3 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-16",
+    "action": "submitted",
+    "reason": "今日新发布prussian-blue-pigment（12:35档），URL Inspection确认URL unknown to Google，提交成功。老页未收录巡检本站唯一候选即为此页，无需第二轮补充。",
+    "submitted_urls": [
+      "https://umberlore.com/prussian-blue-pigment/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_exceeded_attempted": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-22",
+    "action": "submitted",
+    "reason": "今日新发布grisaille，URL Inspection确认URL unknown to Google，提交成功（期间因Claude in Chrome插件瞬时断连+页面'Testing if live URL can be indexed'耗时较长，重试3次后于约30秒内确认成功，非Quota Exceeded）。老页未收录巡检（unindexed_pages.py）额外发现fresco-painting（Discovered-not-indexed），第二轮提交成功。",
+    "submitted_urls": [
+      "https://umberlore.com/grisaille/",
+      "https://umberlore.com/fresco-painting/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_exceeded_attempted": [],
+    "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-23",
+    "note": "今日新发布the-arnolfini-portrait（12:35档，同时也是巡检库存里的unindexed_old候选），URL Inspection显示URL is not on Google/unknown to Google，提交成功。同日另有encaustic-painting审计更新，未检查（配额优先给新页）。",
+    "submitted_urls": [
+      "https://umberlore.com/the-arnolfini-portrait/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_exceeded_attempted": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-24",
+    "note": "游标从WageLark开始。今日新发布(长尾)，URL unknown",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/golden-ratio-in-art/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_exceeded_attempted": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-26",
+    "note": "本日第二次运行(游标从WageLark开始)。巡检unindexed_old，unknown/未收录，提交成功(Indexing requested)",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/cloisonne/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_exceeded_attempted": [],
+    "quota_used": "1 of shared account-wide daily quota"
+  }
 ]
