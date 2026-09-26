@@ -8840,6 +8840,14 @@ export const guides: Guide[] = [
       {
         "question": "When did the English term \"vanishing point\" come into use?",
         "answer": "Not for a long while. Brook Taylor's 1715 perspective manual is the first known appearance of that exact phrase in English. Whatever Renaissance Florence called this convergence point, it wasn't that phrase, and English speakers went without a settled name for it for roughly three more centuries after the concept first took hold in painting."
+      },
+      {
+        "question": "Can you give me an example of a vanishing point?",
+        "answer": "A standard case is Masaccio's fresco of the Trinity in Florence. Painted in the mid-1420s, the coffered vault behind the figures converges on one point at the viewer's eye level, and Vasari said it looked like a hole cut into the wall."
+      },
+      {
+        "question": "How do I know where to put the vanishing point?",
+        "answer": "Put it on the horizon line, which marks the viewer's eye level. Lines running along the ground below that level slope up toward the point, and lines above it, such as a ceiling edge, slope down. In a one-point scene every receding line meets at the same spot."
       }
     ],
     "sources": [
@@ -9751,6 +9759,10 @@ export const guides: Guide[] = [
       {
         "question": "Is the golden ratio really more pleasing than other rectangles?",
         "answer": "Not reliably. Plus magazine describes tests where people chose favorites all over the range, and a root-two rectangle often beat the golden one."
+      },
+      {
+        "question": "How to use the Fibonacci sequence in art?",
+        "answer": "Mostly as a sizing shortcut. Ratios of consecutive terms such as 8/5, 13/8 and 21/13 approach 1.618, so the sequence gives you near-golden proportions for a panel or grid without a compass. A spiral drawn over a finished painting proves little, since it depends on where you start the first rectangle."
       }
     ],
     "sources": [
@@ -9879,6 +9891,10 @@ export const guides: Guide[] = [
       {
         "question": "Why is the price of Salvator Mundi $450.3 million and not $400 million?",
         "answer": "The auctioneer's hammer stopped at $400 million, and $50,312,500 in buyer fees was added on top. Those fees came to about an eighth of the hammer price."
+      },
+      {
+        "question": "How much is a da Vinci painting worth?",
+        "answer": "There is no going rate. Fewer than 25 major paintings are credited to Leonardo, so comparable sales are scarce. The public benchmark is Salvator Mundi, which reached $450,312,500 with fees at Christie's in late 2017. In 1958 the same panel changed hands for just 45 pounds, catalogued under a different name."
       }
     ],
     "sources": [

@@ -3444,3 +3444,21 @@ FAQ重合改写模式：①直接事实描述"survived by rolling out of bed ont
   "pending_owen_decision": false
 }
 ```
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-09-26)",
+  "site": "umberlore",
+  "slugs_processed": ["vanishing-point", "golden-ratio-in-art", "most-expensive-painting-in-the-world", "are-thomas-kinkade-paintings-worth-anything"],
+  "faq_added": {"vanishing-point": 2, "golden-ratio-in-art": 1, "most-expensive-painting-in-the-world": 1, "are-thomas-kinkade-paintings-worth-anything": 0},
+  "skipped": [
+    "golden-ratio-in-art / How to find the golden ratio in a picture?：与已有 apply/examples FAQ 重复",
+    "most-expensive-painting / How much is Starry Night worth today?：无公开估值来源且主题错配",
+    "kinkade / How can I tell if my painting is worth money?：已被现有 FAQ 覆盖"
+  ],
+  "sources": "Wikipedia(Holy Trinity Masaccio / Vanishing point / Perspective / Golden ratio / Leonardo da Vinci)，文章已引 Artnet/Christie's 数据",
+  "humanizer_avoid_ai_writing": "已真实调用 Skill(humanizer) 与 Skill(avoid-ai-writing)，数字/专名已核对",
+  "check_prose_patterns": "4 篇新增 FAQ 后全部 rc=0（两轮改写清除 FAQ 逐字重合）",
+  "note": "只新增 FAQ，未动正文/sources/updated"
+}
+```
