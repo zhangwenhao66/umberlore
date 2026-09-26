@@ -444,3 +444,9 @@ UmberLore断链置换战术累计已发送 **5封**（含1封跟进：Marian Uni
 ### 遗留待办
 
 下轮继续核实Saint Paul College（09-16，满10天后）；继续按外链优先页面清单剩余高曝光页（cristina-kahlo/st-peters-basilica/what-is-a-gargoyle等）方向找候选，大学官方项目curriculum页（非LibGuides）这个新角度本轮命中1条真实机会，值得继续沿用。
+
+---
+
+## 2026-09-26 trafficsite-broken-link-building（外链产能集中规则：11-30位曝光 UmberLore 614 / WageLark 567 / MythCairn 396 前三；DialWick冻结，固定名额给CalcBadger）
+
+SES冻结已解除（09-15），本轮可发信。第0步：Saint Paul College（09-16，hannah.kauffmann@saintpaul.edu）curl复查 saintpaul.libguides.com/detroitmurals HTTP 200，无umberlore字样，外链明细仅stackscope.dev一条nofollow，对方零回复。判定 `not_replaced`。第二部分：按优先页面清单方向（gargoyle/St Peter's）WebSearch两轮，结果全是文章页/Wikipedia，没有编辑型资源页，无候选，未发送。未发出邮件；未做跟进（10天窗口内，累计0条到手，转化率渠道级问题已在待Owen处理事项挂起决策）。累计口径：已发送5封 / 到手0条 / 0%。
