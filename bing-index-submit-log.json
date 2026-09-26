@@ -194,5 +194,15 @@
       "https://umberlore.com/most-expensive-painting-in-the-world/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-26",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/are-thomas-kinkade-paintings-worth-anything/",
+      "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
