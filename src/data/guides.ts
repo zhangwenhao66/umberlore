@@ -9855,7 +9855,7 @@ export const guides: Guide[] = [
         },
         "body": [
           "Van Gogh's Portrait of Dr. Gachet went to the Japanese businessman Ryoei Saito in 1990, who said he would have it cremated with him. The painting later changed hands privately. The Art Newspaper's 2019 investigation says the current owner remains unknown, and The Daily Beast reported that year that it had never been seen publicly again, nearly 30 years after the auction.",
-          "For more, see [van Gogh paintings](/van-gogh-paintings/) and [famous paintings](/famous-paintings/)."
+          "For more, see [van Gogh paintings](/van-gogh-paintings/) and [famous paintings](/famous-paintings/). For prices at the opposite end of the market, see [whether Thomas Kinkade paintings are worth anything](/are-thomas-kinkade-paintings-worth-anything/)."
         ]
       }
     ],
@@ -9937,6 +9937,115 @@ export const guides: Guide[] = [
       {
         "label": "Wikimedia Commons: File:Leonardo da Vinci, Salvator Mundi, c.1500, oil on walnut, 45.4 × 65.6 cm.jpg",
         "url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci,_Salvator_Mundi,_c.1500,_oil_on_walnut,_45.4_%C3%97_65.6_cm.jpg"
+      }
+    ]
+  },
+  {
+    "slug": "are-thomas-kinkade-paintings-worth-anything",
+    "category": "Painting",
+    "title": "Are Thomas Kinkade Paintings Worth Anything?",
+    "description": "Most Thomas Kinkade prints resell for $15 to $100 at auction, while originals reach five figures. Recent sold prices, edition tiers and how to check yours.",
+    "published": "2026-09-26",
+    "updated": "2026-09-26",
+    "coreSummary": "Are Thomas Kinkade paintings worth anything? If yours is a mass-produced print, usually not much: in 33 recent US auction results for Kinkade prints, 26 sold for $100 or less and the median was $75. Originals are a separate market, with a $12,200 result in May 2026 and a reported record of $50,800.",
+    "image": "/images/thomas-kinkade-portrait.jpg",
+    "imageAlt": "Head-and-shoulders photograph of Thomas Kinkade, a bearded man in a grey jacket over a blue shirt, smiling at the camera in an office with a framed photo behind him.",
+    "imageCredit": "[Thomas Kinkade](https://commons.wikimedia.org/wiki/File:ThomasKinkade.jpg), photograph by the US Department of Defense, 2005, public domain (US government work). Kinkade's paintings are still in copyright and are not reproduced on this page.",
+    "sections": [
+      {
+        "heading": "The short answer",
+        "body": [
+          "Start with one question: is yours a print or an original? Almost everything sold through Kinkade galleries, mail order and home-shopping TV was a print, and prints now change hands for tens of dollars. Original paintings are scarce and can reach five figures.",
+          "To see what buyers have really paid lately, I read the first results page of Invaluable's sold-at-auction listing for Thomas Kinkade on 26 September 2026. It held 48 lots dated 11 April to 23 September 2026. Removing three Canadian-dollar lots, one original oil, and four items that were not artwork (two porcelain pieces, a tree ornament and a lot with no description of the art) left 40 print lots sold in US dollars. Seven of those returned no price. The other 33 are the sample used below."
+        ]
+      },
+      {
+        "heading": "What 33 recent print results looked like",
+        "body": [
+          "The median was $75 and the mean $182. The mean sits well above the median because two lots pulled it up. Twenty-six of the 33 results, 79%, were $100 or less, and 14 were $50 or less.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Sale price</th><th style=\"padding:8px 10px;text-align:left;\">Results</th><th style=\"padding:8px 10px;text-align:left;\">Share of 33</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">$1 to $49</td><td style=\"padding:6px 10px;\">11</td><td style=\"padding:6px 10px;\">33%</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">$50 to $99</td><td style=\"padding:6px 10px;\">13</td><td style=\"padding:6px 10px;\">39%</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">$100 to $299</td><td style=\"padding:6px 10px;\">4</td><td style=\"padding:6px 10px;\">12%</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">$300 to $999</td><td style=\"padding:6px 10px;\">3</td><td style=\"padding:6px 10px;\">9%</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">$1,000 and up</td><td style=\"padding:6px 10px;\">2</td><td style=\"padding:6px 10px;\">6%</td></tr></tbody></table></div>",
+          "The two highest results were unusual. A canvas print of A New Day at Cinderella Castle made $1,900 at Bodnar's on 2 September, and its lot description calls it a Renaissance Edition numbered 4 out of 25 (it is also a Disney subject, so edition size may not be the only reason). The next was a framed offset lithograph of San Francisco, Lombard Street at $1,100 (A.B. Levy's Palm Beach, 11 June), with no edition mark in its description and an estimate of $1,000 to $2,000. Everything else in the sample was under $700.",
+          "The bulk of the numbered prints in the sample carry edition marks such as 541/2100, 53/1100, 1312/1750, 2153/3950, 1556/2950 and 2620/2750, and other lots imply editions as small as 100 and as large as 4,850, though most are in the low thousands. A print numbered 4 of 25 is a different animal from one numbered 2,153 of 3,950.",
+          "One description shows how noisy a single sale can be. An embellished giclee, signed and numbered 166/900 PP, 28 x 42 in., appears twice with identical wording. It sold for $300 at Abell Auction on 23 April and $650 there on 18 June. If it is the same print, the difference is a matter of which bidders showed up that day.",
+          "The seven no-price results are informative too. Three are R & R Auction lots described only as a library edition (30.5 x 26.5 in.), and two are the same Chamberlain Auction Gallery gallery-proof lithograph, Moon Light Lane I, listed on 6 June and again on 29 August. The listing does not say why they show no price, so I have left them out of the medians rather than count them as zeros.",
+          "One caution on the sample. It is one results page from one aggregator, so it covers auction-house sales only. What's My Art Worth says eBay is the most active market for Kinkade prints, and I did not sample it. The 33 results mix sellers, frames and conditions, the listing does not say whether the buyer's premium is included, one lot bundles a print with another painting and another is a pair of lithographs, each counted once. It is a snapshot of the low end, where nearly every Kinkade owner's piece sits, and it was never cross-checked against the price guide quoted below."
+        ]
+      },
+      {
+        "heading": "Why prints resell so cheaply",
+        "body": [
+          "Kinkade built his business on reproductions. Wikipedia summarizes it as mass marketing of his work as printed reproductions and licensed products through the Thomas Kinkade Company, and says the company claimed that at one point one in every 20 American homes owned one of his paintings. That is a company claim, but the direction is clear: the supply of his prints is huge.",
+          "The dealer network behind the prints also shrank. Court documents cited by Wikipedia show at least 350 independently owned Kinkade franchises between 1997 and 2005, with the number more than halved by May 2005. The Signature Galleries began to falter during the 2007 to 2009 recession, and in June 2010 Pacific Metro, the company that manufactured the reproductions, filed for Chapter 11 protection. In 2006 an arbitration panel awarded two former gallery owners $860,000 in damages plus $1.2 million in fees and expenses, later raised to $2.8 million with interest, after finding the company had failed to disclose material information (Wikipedia). NBC News reported that August that the FBI was looking into dealer complaints.",
+          "Wikipedia adds two more problems. It reports that the prints owners are likely to hold were factory-printed and then touched up by hand, and not by Kinkade himself. It also describes him as one of the most counterfeited artists, with hand-painted fakes and digital reproductions in circulation, so a buyer on the secondary market has to price in doubt about authenticity."
+        ]
+      },
+      {
+        "heading": "Edition tiers and what they change",
+        "body": [
+          "Thomas Kinkade Studios publishes a glossary of the edition marks printed on its canvases. The standard numbered canvas (S/N) is the base tier, hand-highlighted and numbered. A/P (artist proof) is a smaller early run, G/P (gallery proof) carries a gold foil remarque stamped on the image, and P/P (publisher proof) is a small run at the publisher's discretion. Renaissance Edition (R/E) canvases have a textured brushstroke process. Before 6 April 2012, the date of Kinkade's death, each was finished by a Master Highlighter, signed by the artist and sealed with a silver foil stamp; later ones keep the texture and seal but carry no artist signature. Master Edition (M/E) is described as the top tier, with a hand-sketched remarque, a metallic signature, the artist's thumbprint and a seal.",
+          "The mark tells you how scarce a print was meant to be, and the lot with a 4-of-25 Renaissance Edition number is the one place the sample shows that premium. A price guide from What's My Art Worth lists standard numbered canvases at $200 to $800 and Master Editions at $2,000 to $5,000. The lots in my sample rarely say which tier they are, so I cannot test that range tier by tier. What I can say is that most of the priced results, canvas or not, came in under $200, and the guide does not say what its figures are based on.",
+          "What's My Art Worth points out that highlighted pieces are still prints, and the Studios' own glossary defines an edition as a limited number of prints made from an original artwork, with highlighting as a finish added to those prints."
+        ]
+      },
+      {
+        "heading": "Originals are a different market",
+        "body": [
+          "Wikipedia reports that about 600 of Kinkade's roughly 6,000 unpublished works have been published since his death, though that count may include sketches. The few that reach auction sell on the strength of the piece itself.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Work</th><th style=\"padding:8px 10px;text-align:left;\">Medium</th><th style=\"padding:8px 10px;text-align:left;\">Result</th><th style=\"padding:8px 10px;text-align:left;\">How solid is the number</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">The Trailbreakers (20 x 16 in.)</td><td style=\"padding:6px 10px;\">Oil on board, hand signed lower right</td><td style=\"padding:6px 10px;\">$12,200, Bradford's, 3 May 2026</td><td style=\"padding:6px 10px;\">Invaluable result field and lot description</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Skagway in 1898 (1988)</td><td style=\"padding:6px 10px;\">Oil on canvas</td><td style=\"padding:6px 10px;\">$31,250, Bonhams, August 2013</td><td style=\"padding:6px 10px;\">Stated in Invaluable's artist biography; the Bonhams page itself blocked my check</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">The Town Square</td><td style=\"padding:6px 10px;\">Not stated in the guide</td><td style=\"padding:6px 10px;\">$50,800, 2025, reported record</td><td style=\"padding:6px 10px;\">One price-guide site reports it; I could not open the auction record</td></tr></tbody></table></div>",
+          "Even here the ceiling is modest for such a famous name: the sales in the tens of thousands are the top of what I found, and the What's My Art Worth guide calls his market decorative more than investment-driven. I would not buy a Kinkade print as an investment on this evidence. For where the top of the whole painting market sits, see [the record price ladder](/most-expensive-painting-in-the-world/)."
+        ]
+      },
+      {
+        "heading": "How to check what yours is worth",
+        "body": [
+          "Work through the piece in this order. First, identify the medium. A canvas print, a paper lithograph and an oil painting are three different markets. Second, look for the edition mark and number in the lower margin, and for the certificate of authenticity on the back. Third, search sold results, not asking prices. Asking prices on eBay or a dealer's site show what sellers hope for. Completed eBay sales and past auction results show what someone paid, and the price guide above tells owners to use completed eBay sales of the exact edition.",
+          "Fourth, compare like with like: same title, same medium, same edition tier and a similar frame. A print numbered 2,153 of 3,950 and one numbered 4 of 25 are not the same product. Fifth, if it looks like an original, meaning no edition number and signed in paint on a stretched canvas or board, get an independent written appraisal from someone who is not planning to buy it.",
+          "Do not count what was paid at a gallery. Keep the certificate of authenticity too: the same guide says Thomas Kinkade Studios does not replace lost certificates or authenticate works, and Wikipedia describes Kinkade as one of the most counterfeited artists. The price guide above says a piece bought at a gallery for $3,000 typically resells for $300 to $500, and the auction results in this article point to the same order of magnitude, or lower."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I find out how much my Thomas Kinkade painting is worth?",
+        "answer": "Start by deciding which bucket it falls in, reproduction or one-off original, then note which edition tier and number it carries. Then search past sales of the same title and tier on a site like Invaluable. For a suspected original, pay an independent appraiser. In the recent Invaluable sample, ordinary prints sat around $75 while one 20 x 16 in. original oil made $12,200."
+      },
+      {
+        "question": "What are the most valuable paintings by Thomas Kinkade?",
+        "answer": "Originals top the list. The 1988 oil Skagway in 1898 sold at Bonhams for $31,250 in August 2013 according to Invaluable, and one price guide reports The Town Square at $50,800 in 2025 as the record. Among prints, the highest result in my sample was $1,900, for a small-run Renaissance canvas from an edition of only 25."
+      },
+      {
+        "question": "How much does an original Thomas Kinkade painting cost?",
+        "answer": "The results I could confirm run from $12,200 (May 2026) to $31,250 (2013), and one price guide reports a record of $50,800 (2025). Originals show up at auction less often than prints, and the most recent one in my sample sold through a regional house, Bradford's. What a gallery charged for a print tells you little about what it will fetch now."
+      },
+      {
+        "question": "Are Thomas Kinkade prints worth money?",
+        "answer": "A few, but most are not. Kinkade prints were issued in large editions, often several thousand impressions, and 79% of recent priced auction results were $100 or less. Low edition numbers, small-run tiers and complete paperwork are what move a print out of that band."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Thomas Kinkade",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Kinkade"
+      },
+      {
+        "label": "Invaluable: Thomas Kinkade sold at auction prices",
+        "url": "https://www.invaluable.com/artist/kinkade-thomas-57zuv23bl3/sold-at-auction-prices/"
+      },
+      {
+        "label": "Thomas Kinkade Studios: Glossary of art edition terms",
+        "url": "https://www.thomaskinkade.com/blogs/news/glossary-of-art-edition-terms"
+      },
+      {
+        "label": "What's My Art Worth: Thomas Kinkade artwork value",
+        "url": "https://whatsmyartworth.com/artists/kinkade-artwork-value/"
+      },
+      {
+        "label": "NBC News: Suits against 'Painter of Light' get FBI scrutiny",
+        "url": "https://www.nbcnews.com/news/amp/wbna14576181"
+      },
+      {
+        "label": "Wikimedia Commons: File:ThomasKinkade.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:ThomasKinkade.jpg"
       }
     ]
   }
