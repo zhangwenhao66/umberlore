@@ -204,5 +204,17 @@
       "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-29",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/the-death-of-socrates/",
+      "https://umberlore.com/vanishing-point/",
+      "https://umberlore.com/open-license-art-image-directory/",
+      "https://umberlore.com/the-anatomy-lesson-nicolaes-tulp/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
