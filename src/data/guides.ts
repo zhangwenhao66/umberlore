@@ -9106,7 +9106,7 @@ export const guides: Guide[] = [
   "slug": "open-license-art-image-directory",
   "category": "Resources",
   "title": "The Open-License Museum Image Directory: Where to Find Art You Can Actually Use",
-  "description": "Ten major museums and archives that release collection images under an open license, checked against each institution’s current terms page: what’s actually free to use, what still requires attribution, and the one major outlier that isn’t cleared for commercial use.",
+  "description": "Ten major museums checked against their own current terms pages: what’s free to use, what needs attribution, and the one outlier not cleared for commercial use.",
   "published": "2026-09-15",
   "updated": "2026-09-15",
   "coreSummary": "Of the ten major museums and archives checked against their own current terms pages, nine release some or all of their collection images under CC0, free for any use including commercial, with no permission required. Only one, the British Museum, licenses its open collection under CC BY-NC-SA 4.0, which requires attribution and rules out commercial use without a separate paid license.",
