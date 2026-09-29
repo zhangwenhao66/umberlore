@@ -167,7 +167,15 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1400,
   "w": 1400
  },
+ "/images/bob-ross-alaska-air-force.avif": {
+  "h": 609,
+  "w": 974
+ },
  "/images/bob-ross-alaska-air-force.jpg": {
+  "h": 609,
+  "w": 974
+ },
+ "/images/bob-ross-alaska-air-force.webp": {
   "h": 609,
   "w": 974
  },
@@ -1157,6 +1165,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/black-square-malevich-tretyakov-sm.webp": {
   "h": 750,
+  "w": 750
+ },
+ "/images/responsive/bob-ross-alaska-air-force-sm.avif": {
+  "h": 469,
+  "w": 750
+ },
+ "/images/responsive/bob-ross-alaska-air-force-sm.jpg": {
+  "h": 469,
+  "w": 750
+ },
+ "/images/responsive/bob-ross-alaska-air-force-sm.webp": {
+  "h": 469,
   "w": 750
  },
  "/images/responsive/bonampak-murals-reproduction-mna-sm.avif": {

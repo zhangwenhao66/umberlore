@@ -617,5 +617,14 @@
   "fingerprint": "1790406337269029544:62348:contain:None:750:avif2",
   "result": null,
   "desktop_rel": "/images/thomas-kinkade-portrait.jpg"
+ },
+ "/images/bob-ross-alaska-air-force.jpg": {
+  "fingerprint": "1790698478033886087:682925:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/bob-ross-alaska-air-force-sm.jpg",
+   "w": 750,
+   "h": 469
+  },
+  "desktop_rel": "/images/bob-ross-alaska-air-force.jpg"
  }
 }

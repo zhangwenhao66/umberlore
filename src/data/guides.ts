@@ -10008,7 +10008,7 @@ export const guides: Guide[] = [
         "body": [
           "Wikipedia reports that about 600 of Kinkade's roughly 6,000 unpublished works have been published since his death, though that count may include sketches. The few that reach auction sell on the strength of the piece itself.",
           "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Work</th><th style=\"padding:8px 10px;text-align:left;\">Medium</th><th style=\"padding:8px 10px;text-align:left;\">Result</th><th style=\"padding:8px 10px;text-align:left;\">How solid is the number</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">The Trailbreakers (20 x 16 in.)</td><td style=\"padding:6px 10px;\">Oil on board, hand signed lower right</td><td style=\"padding:6px 10px;\">$12,200, Bradford's, 3 May 2026</td><td style=\"padding:6px 10px;\">Invaluable result field and lot description</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Skagway in 1898 (1988)</td><td style=\"padding:6px 10px;\">Oil on canvas</td><td style=\"padding:6px 10px;\">$31,250, Bonhams, August 2013</td><td style=\"padding:6px 10px;\">Stated in Invaluable's artist biography; the Bonhams page itself blocked my check</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">The Town Square</td><td style=\"padding:6px 10px;\">Not stated in the guide</td><td style=\"padding:6px 10px;\">$50,800, 2025, reported record</td><td style=\"padding:6px 10px;\">One price-guide site reports it; I could not open the auction record</td></tr></tbody></table></div>",
-          "Even here the ceiling is modest for such a famous name: the sales in the tens of thousands are the top of what I found, and the What's My Art Worth guide calls his market decorative more than investment-driven. I would not buy a Kinkade print as an investment on this evidence. For where the top of the whole painting market sits, see [the record price ladder](/most-expensive-painting-in-the-world/)."
+          "Even here the ceiling is modest for such a famous name: the sales in the tens of thousands are the top of what I found, and the What's My Art Worth guide calls his market decorative more than investment-driven. I would not buy a Kinkade print as an investment on this evidence. For where the top of the whole painting market sits, see [the record price ladder](/most-expensive-painting-in-the-world/). [Bob Ross is the closer TV-painter parallel](/bob-ross-most-famous-painting/), though his individual paintings stay obscure for close to the opposite reason: almost none of them ever circulate at all."
         ]
       },
       {
@@ -10217,7 +10217,7 @@ export const guides: Guide[] = [
           "Lake Below Snow-Capped Peaks and Cloudy Sky, an 18-by-24-inch oil painted around 1990-91, sold for $114,800 at Bonhams in early August 2025, more than doubling its estimate and setting what Bonhams called a new global auction record for the artist at the time. It came from a private family collection rather than the Bob Ross Inc. vault.",
           "That record lasted about three months. On 16 November 2025, HBO's Last Week Tonight with John Oliver announced it would auction a Bob Ross painting, Cabin at Sunset, painted for a 1986 episode, as part of a fundraiser for the Public Media Bridge Fund, created in response to federal funding cuts to public broadcasting. The Bob Ross estate agreed to release the painting for the sale. Bidding closed on 24 November after 35 bids at $1,044,000, more than nine times the previous record, and the broader auction raised over $1.5 million for public media.",
           "Two months after that, on 27 January 2026, Bonhams Skinner sold Change of Seasons, painted on camera in 1990, for $787,900, more than thirteen times its $60,000 high estimate. Multiple outlets described this as breaking the auction record for a Ross painting, which is accurate only if the John Oliver benefit sale is treated as a separate category from standard auction house sales; by total dollars changed hands, Cabin at Sunset is still the higher of the two. That Bonhams Skinner sale, alongside two other Ross paintings offered the same day, brought in a combined total over $1.27 million, again earmarked for public television funding.",
-          "Put plainly: the real answer to \"what is Bob Ross's most expensive painting\" is Cabin at Sunset at $1,044,000, sold through a celebrity charity auction rather than a traditional art-market sale, and it is less than an eighth of the $9.85 million figure attached to A Walk in the Woods."
+          "Put plainly: the real answer to \"what is Bob Ross's most expensive painting\" is Cabin at Sunset at $1,044,000, sold through a celebrity charity auction rather than a traditional art-market sale, and it is less than an eighth of the $9.85 million figure attached to A Walk in the Woods. Both numbers are modest next to [the paintings that actually top the world market](/most-expensive-painting-in-the-world/), where the current record sits above $450 million."
         ],
         "image": {
           "src": "/images/bob-ross-auction-record-timeline.svg",
@@ -10229,7 +10229,7 @@ export const guides: Guide[] = [
         "body": [
           "Part of why this question is hard to answer is that almost none of Bob Ross's on-air paintings were ever sold or individually publicized in the first place. Across The Joy of Painting's 403 half-hour episodes over 31 seasons (1983-1994), Ross painted on camera in 381 of them, and NPR reports he made three nearly identical versions of each piece: one painted off camera beforehand as a reference, one painted live during the half-hour broadcast, and a third, more detailed version painted afterward and photographed for the accompanying instructional books. That works out to roughly 1,143 paintings from the original television run.",
           "Almost all of those paintings still exist, and almost all of them are owned by Bob Ross Inc., the company founded by Ross's business partners Walt and Annette Kowalski. The company keeps them; it does not sell them off to collectors. Atlas Obscura reported that the company stores an estimated 1,165 paintings at its headquarters in Virginia, under the oversight of Annette Kowalski and her daughter Joan, the company's president. Bob Ross Inc. has also donated a number of works to the Smithsonian's National Museum of American History. Because the vast majority of episode paintings simply sit in that Virginia collection without ever circulating through galleries or auctions, almost none of them individually became famous the way a single Van Gogh or Vermeer might; the show itself, not any one canvas, is what people actually remember.",
-          "That scarcity is also what makes the handful of paintings that do reach the open market, whether through a family collection, a public-media benefit, or a gallery listing, unusually newsworthy compared to how rarely most working artists' individual pieces make headlines."
+          "That scarcity is also what makes the handful of paintings that do reach the open market, whether through a family collection, a public-media benefit, or a gallery listing, unusually newsworthy compared to how rarely most working artists' individual pieces make headlines. [Thomas Kinkade](/are-thomas-kinkade-paintings-worth-anything/) is the closer parallel than Van Gogh or Vermeer: another TV-and-catalog-famous painter whose household name outruns what any single piece of his actually fetches at auction, for very different structural reasons."
         ]
       },
       {
@@ -10243,7 +10243,7 @@ export const guides: Guide[] = [
     "faq": [
       {
         "question": "What is Bob Ross's most valuable painting?",
-        "answer": "Going by confirmed auction results, it is Cabin at Sunset: bidding on HBO's Last Week Tonight benefit auction closed at $1,044,000 in late November 2025. The piece most people actually mean, though, is A Walk in the Woods. That one, painted during the show's debut broadcast, carries a bigger sticker, nearly $10 million from a Minneapolis gallery back in September 2023, but nobody has ever confirmed it actually found a buyer at that number or any other."
+        "answer": "By confirmed auction results, Cabin at Sunset holds that title: bidding closed at $1,044,000 in late November 2025 through John Oliver's televised charity auction. The piece most people actually mean, though, is the landscape from the show's very first broadcast. It carries a bigger sticker, nearly $10 million, asked by a Minneapolis art dealer in the fall of 2023, but nobody has ever confirmed it actually found a buyer at that number or any other."
       },
       {
         "question": "Who owns most of Bob Ross's paintings?",
@@ -10251,11 +10251,11 @@ export const guides: Guide[] = [
       },
       {
         "question": "How many paintings did Bob Ross make?",
-        "answer": "More than 30,000 across his lifetime, counting work he did outside of television entirely. Narrowed to The Joy of Painting alone, he appears on camera painting during 381 of the show's 403 original episodes, and NPR reports each of those became three near-identical canvases (an off-camera reference copy, the broadcast copy, and a book copy), putting the show-era total at roughly eleven hundred pieces made between 1983 and 1994."
+        "answer": "More than 30,000 across his lifetime, counting work he did outside of television entirely. Narrow that just to his PBS painting series, and he appears on camera painting during 381 of its 403 original episodes; NPR reports each of those became three near-identical canvases (an off-camera reference copy, the broadcast copy, and a book copy), putting the show-era total at roughly eleven hundred pieces made between 1983 and 1994."
       },
       {
         "question": "Can you buy an original Bob Ross painting?",
-        "answer": "Only rarely. Bob Ross Inc. holds onto nearly all of its collection and is not in the business of selling it. What buyers actually get their hands on tends to come from families who owned a piece for decades, or from an occasional charity sale for public broadcasting, like the auctions between August 2025 and January 2026 covered above."
+        "answer": "Only rarely. Bob Ross Inc. holds onto nearly all of its collection and is not in the business of selling it. What buyers actually get their hands on tends to come from families who owned a piece for decades, or from an occasional charity sale that supports PBS member stations, like the auctions between August 2025 and January 2026 covered above."
       }
     ],
     "sources": [
@@ -10264,7 +10264,7 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/The_Joy_of_Painting"
       },
       {
-        "label": "NPR: The Real Bob Ross — Meet the Meticulous Artist Behind Those Happy Trees",
+        "label": "NPR: The Real Bob Ross (Meet the Meticulous Artist Behind Those Happy Trees)",
         "url": "https://www.npr.org/2016/08/29/490923502/the-real-bob-ross-meet-the-meticulous-artist-behind-those-happy-trees"
       },
       {

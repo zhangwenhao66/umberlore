@@ -49,6 +49,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/black-square-malevich-tretyakov-sm.jpg",
   "w": 750
  },
+ "/images/bob-ross-alaska-air-force.jpg": {
+  "h": 469,
+  "mobile": "/images/responsive/bob-ross-alaska-air-force-sm.jpg",
+  "w": 750
+ },
  "/images/bonampak-murals-reproduction-mna.jpg": {
   "h": 363,
   "mobile": "/images/responsive/bonampak-murals-reproduction-mna-sm.jpg",
