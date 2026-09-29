@@ -10268,6 +10268,10 @@ export const guides: Guide[] = [
         "url": "https://www.npr.org/2016/08/29/490923502/the-real-bob-ross-meet-the-meticulous-artist-behind-those-happy-trees"
       },
       {
+        "label": "Reader's Digest: How Many Paintings Bob Ross Made, and Why He Made Copies of Each",
+        "url": "https://www.rd.com/article/why-bob-ross-made-3-copies-of-his-paintings/"
+      },
+      {
         "label": "Smithsonian Magazine: Bob Ross's Very First On-Air Painting Is for Sale",
         "url": "https://www.smithsonianmag.com/smart-news/bob-rosss-first-on-air-painting-on-offer-for-nearly-10-million-180982930/"
       },
