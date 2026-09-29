@@ -450,3 +450,41 @@ UmberLore断链置换战术累计已发送 **5封**（含1封跟进：Marian Uni
 ## 2026-09-26 trafficsite-broken-link-building（外链产能集中规则：11-30位曝光 UmberLore 614 / WageLark 567 / MythCairn 396 前三；DialWick冻结，固定名额给CalcBadger）
 
 SES冻结已解除（09-15），本轮可发信。第0步：Saint Paul College（09-16，hannah.kauffmann@saintpaul.edu）curl复查 saintpaul.libguides.com/detroitmurals HTTP 200，无umberlore字样，外链明细仅stackscope.dev一条nofollow，对方零回复。判定 `not_replaced`。第二部分：按优先页面清单方向（gargoyle/St Peter's）WebSearch两轮，结果全是文章页/Wikipedia，没有编辑型资源页，无候选，未发送。未发出邮件；未做跟进（10天窗口内，累计0条到手，转化率渠道级问题已在待Owen处理事项挂起决策）。累计口径：已发送5封 / 到手0条 / 0%。
+
+---
+
+## 2026-09-29（第十五次运行，交互式会话代跑，未发出邮件）
+
+第0步：riveramural.org（09-23，mural@ccsf.edu）距今6天，未满10天窗口，跳过验证；全站无其他满足条件的未验证记录。
+
+第二部分：延续"大学官方curriculum页"角度，针对清单剩余高曝光页（cristina-kahlo 517、st-peters-basilica 469、what-is-a-gargoyle 147）WebSearch定向搜索，命中10个候选资源页并全部扫描：
+
+- Duke LibGuide「Medieval/Gothic Architecture ARTHIST 225/190S」3个子页（Primary Sources 36链/Online Maps 37链/Gothic Details 30链）
+- Harvard Library「Resources for Medieval Art & Architecture」（30链）
+- SCIArc LibGuide「Architectures of Europe in the Middle Ages」（267链，绝大多数是校内代理/付费数据库链接）
+- Duke DAHVC「Gothic Cathedrals」课程页（7链）
+- UNC LibGuide「Italian Renaissance Art - Background Info」（25链，对应st-peters-basilica）
+- Yale Teachers Institute 3个Diego Rivera/Frida Kahlo课程单元页（各3链，对应cristina-kahlo；链接密度太低，这类单元页本身出站链接极少，不构成有效候选池）
+- Washington National Cathedral「Learn & Discover」（16链，对应gargoyle文章原有引用源）
+
+脚本判定DEAD共7条，逐条独立核实（curl+双DNS交叉验证，用1.1.1.1核对8.8.8.8的解析结果，排除误报）：
+
+1. `https://gallica.bnf.fr/`（Duke Online Maps页）——**误报**。8.8.8.8对bnf.fr返回SERVFAIL（DNSSEC相关问题），1.1.1.1正常解析到194.199.8.11，站点本身存活，不是真实死链。已作为方法论教训记录（见下）。
+2. `http://awmc.unc.edu/wordpress/map-files/`（Duke Online Maps页）——独立curl确认真实404。主题是古代世界地图中心的地图文件索引，跟哥特式建筑/滴水嘴兽无主题对应，排除。
+3. `http://www.medievalcoins.50g.com/links.htm`（Harvard页）——独立curl确认真实404。主题是中世纪钱币链接页，跟本站任何已发布文章都不对应，排除。
+4. `http://www.unc.edu/depts/art/verkerk/celtic/celtic/index.html`（Harvard页）——独立curl确认真实404。主题是凯尔特艺术，跟gargoyle/哥特式建筑不对应，排除。
+5. `http://www.edi.mshs.univ-poitiers.fr/presentation.htm`（Harvard页，锚文本"Phototheque: Centre d'Etudes Superieures de Civilisation Medievale"）——双DNS均无法解析，确认真实死域名。但取得页面原文说明是"普瓦捷大学主办的罗曼式建筑与艺术图像数据库"，属于本站连续多轮排除的"数据库/机构收藏类，功能不对等"（叙事型文章无法替代图像检索数据库），且主题是罗曼式不是哥特式，排除。
+6. `http://www.mcah.columbia.edu/byzantium/html/building_icon.html`（Harvard页，锚文本"Restoring Byzantium: Iconography"）——`www.`子域名解析失败，但去掉www的`mcah.columbia.edu`本身可解析（CNAME到old-learn.columbia.edu），只是该具体路径连接超时而非确认404，不满足"干净404"门槛，且主题是拜占庭圣像研究项目，跟gargoyle/St. Peter's都不对应，排除（不算入DEAD计数，脚本原判定为"DNS解析失败"是误判，实际应为SOFT超时）。
+7. `http://www.themourners.org/`（Harvard页，锚文本"The Mourners: Tomb Sculptures from the Court of Burgundy"）——去掉www后独立curl返回HTTP 406（站点存活，反爬拦截，不是死链），且此前2026-08-16轮已判定过同一目标"主题不对应"（本站无勃艮第墓雕塑相关文章），本轮复核结论不变，排除。
+
+**本轮结论：7条脚本判定DEAD，逐条核实后无一通过"真实404 + 主题对应 + 非数据库功能对等"三重门槛，未发出任何邮件。**
+
+**方法论补充（写入供下轮参考）**：本轮发现`broken_link_scan.py`的DNS失败判定在个别情况下对8.8.8.8有假阳性（gallica.bnf.fr因DNSSEC问题被8.8.8.8误判SERVFAIL，1.1.1.1正常解析）；`www.`子域名与不带www的apex域名可能解析结果不同（mcah.columbia.edu即是一例，www不通但apex通）。以后对"DNS解析失败"类判定，独立核实时应同时用两个公共DNS（8.8.8.8和1.1.1.1）交叉验证，并尝试去掉/添加www前缀重试，避免把"存活但网络路径有问题"误判为真实死链。
+
+### 累计口径
+
+UmberLore断链置换战术累计已发送 **5封**（含1封跟进：Marian University）；已验证`not_replaced` 2条（Marian、Westport），Saint Paul College（09-16）与riveramural.org（09-23）均尚未到验证窗口；`verified_live_backlink_confirmed` 0条，转化率0/4（不含2条未到验证期）。
+
+### 遗留待办
+
+下轮继续核实riveramural.org（09-23，满10天后，约10-03）；清单剩余高曝光页（cristina-kahlo/st-peters-basilica/what-is-a-gargoyle）本轮已系统查过大学LibGuide+课程页+官方教育页三类角度，短期内不建议重复投入同类资源页，除非站内新增更精确对应的文章（如专门的拜占庭建筑、罗曼式雕塑、或中世纪钱币文章）。下轮建议换查Notre-Dame de Paris / Sagrada Familia / Vatican Museums官方教育资源页，或回到"艺术犯罪/伪造"方向（`magazine.artland.com`断链已发，可评估该支柱是否还有其他机会）。
