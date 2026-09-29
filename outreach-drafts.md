@@ -594,3 +594,32 @@ UmberLore
 **独立复核（全新spawn agent，独立re-fetch核实）**：VERDICT: SEND。6项检查逐一独立验证：①两条死链均独立curl复核为404，且在riveramural.org/curriculum/页面Lesson 2 "Pan American Unity Mural"研究环节里逐字确认存在（非编造）；②mural@ccsf.edu经WebSearch确认是riveramural.org公开的院系联系邮箱（School of Fine, Applied, & Communication Arts），非单一用途邮箱；③独立fetch umberlore.com/diego-rivera/确认文章确实覆盖Detroit疫苗接种争议+Rockefeller列宁肖像铲除两桩事件，且grep全文确认无"Pan American Unity"/"CCSF"字样，诚实披露成立不构成夸大；④语气/结构检查通过，无AI写作痕迹，两段式结构（第一段纯死链通知，第二段给替换建议）符合规范；⑤无不可核实的收件人相关陈述；⑥无重复/群发迹象。
 
 **已发送**：`gmail_send.py send --from umberlore --to mural@ccsf.edu --subject "Two broken links on your Diego Rivera curriculum page"`，**Message ID `1a0ce6cb661b464c`**。
+
+---
+
+## 2026-09-29 — Pratt Institute Libraries "Open Access Image Resources" LibGuide (ccostel5@pratt.edu) — open-license-art-image-directory distribution
+
+To: ccostel5@pratt.edu
+Subject: Two open-access museums missing from your Open Access Image Resources guide
+
+Hi Cheryl,
+
+I went through Pratt's Open Access Image Resources guide. It's one of the more thorough lists I've come across, covering Getty, Cleveland, the Met, LACMA, and a few others most guides skip. Two institutions with large CC0 programs aren't on there yet: the Rijksmuseum (700,000+ images, free download after creating a free Rijksstudio account) and Paris Musées (the City of Paris's own museum network).
+
+I run UmberLore, an art history site, and put together a directory covering 10 major open-access programs with their actual licensing terms side by side: umberlore.com/open-license-art-image-directory/. Most guides treat "open access" as one category, but it isn't. Nine of the ten institutions we checked release images as CC0, no restrictions. The British Museum is the outlier: CC BY-NC-SA, so attribution is required and commercial use isn't allowed. That matters for anyone putting images in something for sale.
+
+Thanks for keeping the guide updated.
+
+Owen
+UmberLore
+contact@umberlore.com
+
+**Target found via**: WebSearch for open-access image LibGuides. `libguides.pratt.edu/c.php?g=763369&p=8238035` confirmed live (200), last updated 2026-09-02. Confirmed via raw-text grep that "Rijksmuseum" and "Paris Musées" genuinely do not appear anywhere on the page (11 other institutions do).
+
+**Contact**: ccostel5@pratt.edu confirmed via `libguides.pratt.edu/staff-directory` as Cheryl Costello, Art & Design Liaison Librarian — a general subject contact, not the page's generic "Report a problem" technical mailto (systems.library@pratt.edu).
+
+**Two independent review rounds** (full detail in `linkable-asset-log.md` 2026-09-29 entry): round 1 caught a wrong Rijksmuseum figure ("130,000+ objects" — actually National Gallery of Art's GitHub-dataset stat, mixed up from the same source page) — fixed to "700,000+ images" per UmberLore's own page and cross-checked against independent sources (ianvisits, MyModernMet, Open Culture all report ~700-840k). Round 2: fresh re-fetch of both live pages, verdict CAN SEND.
+
+**Dedup**: `gmail_send.py list --query "to:pratt.edu"` → empty.
+
+**Status: SENT (2026-09-29).** `gmail_send.py send --from umberlore --to ccostel5@pratt.edu`, Message ID `1a0edd8a5f099207`.

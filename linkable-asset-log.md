@@ -111,3 +111,23 @@ Still 2/10 (no new target found this round). Continue on future runs.
 **Distribution counts**: peak-creation-age at 3 sent targets + 1 follow-up (below the ≥10 saturation bar, continue on future runs); open-license-art-image-directory at 1 sent target (just started, far from saturation).
 
 **Lesson for future runs**: this round's near-miss (a pitch that misrepresented the recipient's own page) is a reminder that "the asset's own published research is accurate" does not mean "my assumption about what the target page covers is accurate" — the independent-review step exists precisely to catch exactly this kind of claim, and it did its job. Verify claims about the *recipient's* page as rigorously as claims about the asset itself, not just self-consistency.
+
+---
+
+## 2026-09-29 — distribution pass #6 (capacity-concentration rule)
+
+**Site selection**: recomputed 28-day 11-30-position impressions across the 7 non-suppressed/non-frozen traffic sites: wagelark(729) / **umberlore(608)** / mythcairn(401) / dayalmanac(218) / factcrumbs(102) / hollowvane(35) / warcrumbs(13). UmberLore ranks #2 this run (WageLark processed first, see its own log). CalcBadger/DialWick compete separately for the fixed slot; LingoGrove excluded (ranking-suppressed).
+
+**Order of work**: distribution only, both assets already satisfy this month's quota trigger via the 9/15 open-license-art-image-directory build — no new-asset pressure this run. Open-license-art-image-directory (1/10 sent going in) is further from saturation than peak-creation-age (3/10 sent + 1 follow-up), so it took priority.
+
+**Step 3 (pitch)**: WebSearch found Pratt Institute Libraries' "Open Access Image Resources" LibGuide (libguides.pratt.edu, last updated Sep 2 2026 — actively maintained), a thorough resource list covering 11 institutions (Art Institute of Chicago, Biodiversity Heritage Library, Cleveland, Getty, LACMA, Met, National Gallery of Art, National Palace Museum, Smithsonian, Walters, both Yale guides) but missing two institutions UmberLore's own directory covers: the Rijksmuseum and Paris Musées. Found the right contact via Pratt's staff directory — Cheryl Costello, the Art & Design liaison librarian (ccostel5@pratt.edu) — rather than the page's generic "Report a problem" technical mailto (systems.library@pratt.edu), which would have been a single-purpose channel. Drafted a pitch naming the two missing institutions and UmberLore's CC0-vs-CC-BY-NC-SA licensing distinction as the differentiator.
+
+Passed `Skill(humanizer)` (removed one em dash and a "worth a look" vague-endorsement phrase in self-review) and `Skill(avoid-ai-writing)` clean. **Two independent review rounds, one real problem caught and fixed**: round 1 found the draft's Rijksmuseum figure ("130,000+ objects") was wrong — that number actually belongs to a different institution's line item (National Gallery of Art's GitHub dataset, "130,000+ object records") on UmberLore's own source page, and both independent web search and the site's own page put the real Rijksmuseum figure at 700,000+ images. Fixed to "700,000+ images, free download after creating a free Rijksstudio account." Round 2 (fresh re-fetch of both the Pratt guide and the UmberLore page, cross-checked the Rijksmuseum figure against independent sources beyond just the sender's own page, verified the Paris Musées description) returned CAN SEND.
+
+**Dedup**: `gmail_send.py list --query "to:pratt.edu"` → empty before send.
+
+**Sent**: `gmail_send.py send --from umberlore --to ccostel5@pratt.edu`, Message ID `1a0edd8a5f099207`.
+
+**Step 2 / 3.5**: not re-run this pass (time budget went to the pitch, which required 2 review rounds).
+
+**Distribution counts**: peak-creation-age unchanged at 3 sent + 1 follow-up. open-license-art-image-directory now 2/10 sent (Douglas College 9/22, Pratt Institute 9/29).
