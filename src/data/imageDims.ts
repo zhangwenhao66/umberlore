@@ -167,6 +167,14 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1400,
   "w": 1400
  },
+ "/images/bob-ross-alaska-air-force.jpg": {
+  "h": 609,
+  "w": 974
+ },
+ "/images/bob-ross-auction-record-timeline.svg": {
+  "h": 620,
+  "w": 1200
+ },
  "/images/bonampak-murals-reproduction-mna.avif": {
   "h": 774,
   "w": 1600
@@ -1922,6 +1930,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/the-milkmaid-vermeer.webp": {
   "h": 1600,
   "w": 1427
+ },
+ "/images/thomas-kinkade-portrait.avif": {
+  "h": 660,
+  "w": 680
+ },
+ "/images/thomas-kinkade-portrait.jpg": {
+  "h": 660,
+  "w": 680
+ },
+ "/images/thomas-kinkade-portrait.webp": {
+  "h": 660,
+  "w": 680
  },
  "/images/van-gogh-bedroom-arles-1888.avif": {
   "h": 900,

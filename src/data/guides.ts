@@ -1608,7 +1608,7 @@ export const guides: Guide[] = [
 {
     "slug": "st-peters-basilica",
     "category": "Architecture",
-    "title": "St. Peter's Basilica: 5 Architects, One Fight",
+    "title": "St. Peter's Basilica: The 120-Year Design Fight",
     "description": "Five chief architects took turns reversing each other's plans for St. Peter's Basilica, from Bramante's circle to Maderno's cross, across 120 years of construction.",
     "published": "2026-08-04",
     "updated": "2026-08-19",
@@ -2723,7 +2723,7 @@ export const guides: Guide[] = [
   {
     "slug": "diego-rivera",
     "category": "Painting",
-    "title": "Diego Rivera: The Lenin Mural Rockefeller Chiseled Off in 1934",
+    "title": "Diego Rivera: The Mural Rockefeller Chiseled Off",
     "description": "Diego Rivera hid a portrait of Lenin inside a fresco commissioned for Rockefeller Center. Nelson Rockefeller had it plastered over in 1934, before it was even finished.",
     "published": "2026-08-06",
     "updated": "2026-08-26",
@@ -3986,7 +3986,7 @@ export const guides: Guide[] = [
   {
     "slug": "fallen-angel-painting",
     "category": "Painting",
-    "title": "Fallen Angel Painting by Cabanel: Location, Was It Controversial?",
+    "title": "Fallen Angel Painting by Cabanel: Was It Really Controversial?",
     "description": "Cabanel's Fallen Angel painting is often called 'highly controversial.' The Musée Fabre's account says the Academy was startled by the pose, not the devil.",
     "published": "2026-08-12",
     "updated": "2026-08-26",
@@ -6312,7 +6312,7 @@ export const guides: Guide[] = [
   {
     "slug": "cristina-kahlo",
     "category": "Painting",
-    "title": "Cristina Kahlo: Frida's Sister, Painted by Diego Rivera",
+    "title": "Cristina Kahlo: The Sister in Four Kahlo and Rivera Artworks",
     "description": "Cristina Kahlo appears in at least four documented works by Frida Kahlo and Diego Rivera. Her own family kept producing photographers, four generations running.",
     "published": "2026-08-27",
     "updated": "2026-09-22",
@@ -10179,6 +10179,125 @@ export const guides: Guide[] = [
       {
         "label": "NPR: The cake attack isn't the first time Mona Lisa has been targeted",
         "url": "https://www.npr.org/2022/05/31/1102260613/the-cake-attack-isnt-the-first-time-mona-lisa-has-been-targeted-over-the-years"
+      }
+    ]
+  },
+  {
+    "slug": "bob-ross-most-famous-painting",
+    "category": "Painting",
+    "title": "What Is Bob Ross's Most Famous Painting?",
+    "description": "Depends what you mean by famous. A Walk in the Woods was listed at $9.85 million but never confirmed sold. The paintings that actually sold, dated and sourced.",
+    "published": "2026-09-29",
+    "updated": "2026-09-29",
+    "coreSummary": "What is Bob Ross's most famous painting? There are two different correct answers. A Walk in the Woods, the painting from the very first episode of The Joy of Painting on 11 January 1983, is the one most people mean: a Minneapolis gallery listed it for $9.85 million in September 2023, and it has never been confirmed sold. If you mean the painting that actually changed hands for the most money, that is Cabin at Sunset, which sold for $1,044,000 at a charity benefit auction in November 2025.",
+    "image": "/images/bob-ross-alaska-air-force.jpg",
+    "imageAlt": "Bob Ross, then a US Air Force master sergeant, putting the finishing touch on a landscape painting during an art demonstration at the Fairbanks Pioneers Home in Alaska in the late 1970s, watched by two onlookers.",
+    "imageCredit": "[Bob Ross Alaska Painting](https://commons.wikimedia.org/wiki/File:Bob_Ross_Alaska_Painting.jpg), US Air Force photo by SrA Dan Saylor, circa 1975-1979, public domain (US government work). Ross's television paintings remain in copyright and are not reproduced on this page.",
+    "sections": [
+      {
+        "heading": "The short answer",
+        "body": [
+          "Ask Google \"Bob Ross's most famous painting\" and most pages point to one thing: A Walk in the Woods, the landscape he painted on camera in the first-ever episode of The Joy of Painting, which aired on PBS on 11 January 1983. It is the right answer for \"most historically significant,\" which is the exact phrase the gallery selling it used. It is the wrong answer for \"sold for the most money,\" because as far as any public record shows, it has never sold at all.",
+          "In September 2023, Chad Nelson of the gallery Modern Artifact in Minneapolis listed A Walk in the Woods for $9.85 million, describing it as the most historically significant Bob Ross original painting ever created. Reporters covering the listing, including the Washington Post and Smithsonian Magazine, were careful to say it was for sale, not that it had sold. Nelson told at least one outlet he did not expect a quick sale and might not sell it any time soon, treating the asking price as much as a way to put the painting on display for a wider audience as a genuine sale target. Three years on, no auction house, gallery, or news report has confirmed a completed sale at that price or any other.",
+          "Meanwhile, three other Bob Ross paintings have actually changed hands at auction since August 2025, all through fundraisers tied to public broadcasting, and all for far less than $9.85 million. The highest of those confirmed sales, $1,044,000 for a painting called Cabin at Sunset, is the closest thing there is to a real \"most valuable Bob Ross painting\" figure. The rest of this page separates the number everyone quotes from the prices that were actually paid."
+        ]
+      },
+      {
+        "heading": "The $9.85 million painting nobody has confirmed buying",
+        "body": [
+          "A Walk in the Woods shows a forest path after rain, painted in roughly 26 minutes during the debut broadcast of The Joy of Painting. It carries a signature in red at the lower left, a certificate of authenticity from Bob Ross Inc., and a written statement from Ross himself, all cited in the gallery's listing. Modern Artifact's pitch for the $9.85 million price rests on rarity, not on market comparables: episode paintings from the original run almost never reach the open market because Bob Ross Inc. still holds most of them (see the section below), which makes this one, from the very first episode, a one-of-a-kind object with no comparable data point.",
+          "That rarity argument is real, but it is also the reason the price cannot be checked against anything. There is no second first-episode painting to compare it to, and Nelson's own comments to reporters in September 2023, that he was in no hurry to sell, point toward a listing meant to generate attention as much as a completed transaction. If a sale eventually closes, whatever the price turns out to be, it will not automatically make this the record price for a Bob Ross painting: auction results for three other pieces already exceed one million dollars, confirmed and public, which the next section covers."
+        ]
+      },
+      {
+        "heading": "The paintings that actually sold for record prices",
+        "body": [
+          "Where A Walk in the Woods has an asking price with no confirmed buyer, three other paintings have documented hammer prices, and all three sales happened within about six months of each other, driven by a wave of celebrity-linked and public-media benefit auctions, not the traditional art market.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Painting</th><th style=\"padding:8px 10px;text-align:left;\">Sold</th><th style=\"padding:8px 10px;text-align:left;\">Price</th><th style=\"padding:8px 10px;text-align:left;\">Venue</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Lake Below Snow-Capped Peaks and Cloudy Sky</td><td style=\"padding:6px 10px;\">Aug 2025</td><td style=\"padding:6px 10px;\">$114,800</td><td style=\"padding:6px 10px;\">Bonhams, online auction</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Cabin at Sunset</td><td style=\"padding:6px 10px;\">Nov 2025</td><td style=\"padding:6px 10px;\"><strong>$1,044,000</strong></td><td style=\"padding:6px 10px;\">Last Week Tonight with John Oliver benefit auction</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;\">Change of Seasons</td><td style=\"padding:6px 10px;\">Jan 2026</td><td style=\"padding:6px 10px;\">$787,900</td><td style=\"padding:6px 10px;\">Bonhams Skinner, Americana sale</td></tr></tbody></table></div>",
+          "Lake Below Snow-Capped Peaks and Cloudy Sky, an 18-by-24-inch oil painted around 1990-91, sold for $114,800 at Bonhams in early August 2025, more than doubling its estimate and setting what Bonhams called a new global auction record for the artist at the time. It came from a private family collection rather than the Bob Ross Inc. vault.",
+          "That record lasted about three months. On 16 November 2025, HBO's Last Week Tonight with John Oliver announced it would auction a Bob Ross painting, Cabin at Sunset, painted for a 1986 episode, as part of a fundraiser for the Public Media Bridge Fund, created in response to federal funding cuts to public broadcasting. The Bob Ross estate agreed to release the painting for the sale. Bidding closed on 24 November after 35 bids at $1,044,000, more than nine times the previous record, and the broader auction raised over $1.5 million for public media.",
+          "Two months after that, on 27 January 2026, Bonhams Skinner sold Change of Seasons, painted on camera in 1990, for $787,900, more than thirteen times its $60,000 high estimate. Multiple outlets described this as breaking the auction record for a Ross painting, which is accurate only if the John Oliver benefit sale is treated as a separate category from standard auction house sales; by total dollars changed hands, Cabin at Sunset is still the higher of the two. That Bonhams Skinner sale, alongside two other Ross paintings offered the same day, brought in a combined total over $1.27 million, again earmarked for public television funding.",
+          "Put plainly: the real answer to \"what is Bob Ross's most expensive painting\" is Cabin at Sunset at $1,044,000, sold through a celebrity charity auction rather than a traditional art-market sale, and it is less than an eighth of the $9.85 million figure attached to A Walk in the Woods."
+        ],
+        "image": {
+          "src": "/images/bob-ross-auction-record-timeline.svg",
+          "alt": "Timeline diagram contrasting the unconfirmed $9.85 million asking price for A Walk in the Woods in September 2023 with three confirmed auction sales: Lake Below Snow-Capped Peaks for $114,800 in August 2025, Cabin at Sunset for $1,044,000 in November 2025, and Change of Seasons for $787,900 in January 2026."
+        }
+      },
+      {
+        "heading": "Why so few individual paintings are famous at all",
+        "body": [
+          "Part of why this question is hard to answer is that almost none of Bob Ross's on-air paintings were ever sold or individually publicized in the first place. Across The Joy of Painting's 403 half-hour episodes over 31 seasons (1983-1994), Ross painted on camera in 381 of them, and NPR reports he made three nearly identical versions of each piece: one painted off camera beforehand as a reference, one painted live during the half-hour broadcast, and a third, more detailed version painted afterward and photographed for the accompanying instructional books. That works out to roughly 1,143 paintings from the original television run.",
+          "Almost all of those paintings still exist, and almost all of them are owned by Bob Ross Inc., the company founded by Ross's business partners Walt and Annette Kowalski. The company keeps them; it does not sell them off to collectors. Atlas Obscura reported that the company stores an estimated 1,165 paintings at its headquarters in Virginia, under the oversight of Annette Kowalski and her daughter Joan, the company's president. Bob Ross Inc. has also donated a number of works to the Smithsonian's National Museum of American History. Because the vast majority of episode paintings simply sit in that Virginia collection without ever circulating through galleries or auctions, almost none of them individually became famous the way a single Van Gogh or Vermeer might; the show itself, not any one canvas, is what people actually remember.",
+          "That scarcity is also what makes the handful of paintings that do reach the open market, whether through a family collection, a public-media benefit, or a gallery listing, unusually newsworthy compared to how rarely most working artists' individual pieces make headlines."
+        ]
+      },
+      {
+        "heading": "Before television: a US Air Force sergeant who painted in Alaska",
+        "body": [
+          "The image at the top of this page is not one of Ross's television paintings; none of those can legally be reproduced here since Bob Ross Inc. still holds the copyright. It is a US Air Force photograph from the mid-to-late 1970s, showing then-Master Sergeant Bob Ross finishing an Alaskan landscape during an art demonstration for employees and retired residents at the Fairbanks Pioneers Home, where he was stationed at Eielson Air Force Base as first sergeant of the base clinic. According to the photo's caption, Ross donated the three paintings from that demonstration to the retirement home afterward.",
+          "Ross spent about twenty years in the Air Force before retiring in 1981 and turning to painting full time, a period that gets far less attention than his eventual television career but that is exactly when he learned the wet-on-wet technique that made The Joy of Painting possible: he studied under the artist Bill Alexander, whose own PBS demonstrations and painting classes Ross and Alexander later co-promoted through joint publicity photos and print advertisements from the early 1980s. The Alaska photo predates any of that public partnership; it shows a soldier painting for his neighbors years before any camera crew was involved, which is a very different picture than the plaid-shirted television host most people associate with the name."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Bob Ross's most valuable painting?",
+        "answer": "Going by confirmed auction results, it is Cabin at Sunset: bidding on HBO's Last Week Tonight benefit auction closed at $1,044,000 in late November 2025. The piece most people actually mean, though, is A Walk in the Woods. That one, painted during the show's debut broadcast, carries a bigger sticker, nearly $10 million from a Minneapolis gallery back in September 2023, but nobody has ever confirmed it actually found a buyer at that number or any other."
+      },
+      {
+        "question": "Who owns most of Bob Ross's paintings?",
+        "answer": "Bob Ross Inc., a company built by a husband-and-wife team of business partners, keeps the bulk of them. Per Atlas Obscura, roughly 1,165 paintings sit at the company's Virginia headquarters under one of those partners and her daughter, who now runs the company. A smaller number have gone to the Smithsonian for its American history collection."
+      },
+      {
+        "question": "How many paintings did Bob Ross make?",
+        "answer": "More than 30,000 across his lifetime, counting work he did outside of television entirely. Narrowed to The Joy of Painting alone, he appears on camera painting during 381 of the show's 403 original episodes, and NPR reports each of those became three near-identical canvases (an off-camera reference copy, the broadcast copy, and a book copy), putting the show-era total at roughly eleven hundred pieces made between 1983 and 1994."
+      },
+      {
+        "question": "Can you buy an original Bob Ross painting?",
+        "answer": "Only rarely. Bob Ross Inc. holds onto nearly all of its collection and is not in the business of selling it. What buyers actually get their hands on tends to come from families who owned a piece for decades, or from an occasional charity sale for public broadcasting, like the auctions between August 2025 and January 2026 covered above."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: The Joy of Painting",
+        "url": "https://en.wikipedia.org/wiki/The_Joy_of_Painting"
+      },
+      {
+        "label": "NPR: The Real Bob Ross — Meet the Meticulous Artist Behind Those Happy Trees",
+        "url": "https://www.npr.org/2016/08/29/490923502/the-real-bob-ross-meet-the-meticulous-artist-behind-those-happy-trees"
+      },
+      {
+        "label": "Smithsonian Magazine: Bob Ross's Very First On-Air Painting Is for Sale",
+        "url": "https://www.smithsonianmag.com/smart-news/bob-rosss-first-on-air-painting-on-offer-for-nearly-10-million-180982930/"
+      },
+      {
+        "label": "Washington Post: Bob Ross's first TV painting on sale for nearly $10 million",
+        "url": "https://www.washingtonpost.com/nation/2023/09/21/bob-ross-painting-walk-woods/"
+      },
+      {
+        "label": "The Art Newspaper: Bob Ross painting sells for record $1m at John Oliver benefit auction",
+        "url": "https://www.theartnewspaper.com/2025/11/26/bob-ross-record-john-oliver-auction-benefit-public-television-trump-cuts"
+      },
+      {
+        "label": "Bonhams: Bob Ross, Lake Below Snow-Capped Peaks and Cloudy Sky (lot listing)",
+        "url": "https://www.bonhams.com/auction/30700/lot/205/bob-ross-1942-1995-lake-below-snow-capped-peaks-and-cloudy-sky-18-x-24-in-457-x-61-cm-painted-circa-1990-91/"
+      },
+      {
+        "label": "WBUR: Massachusetts record-breaking auction of Bob Ross art",
+        "url": "https://www.wbur.org/news/2026/01/28/bob-ross-painting-auction-results-public-television-record"
+      },
+      {
+        "label": "Atlas Obscura: Almost Every Original Bob Ross Painting Lives in a Virginia Office Building",
+        "url": "https://www.atlasobscura.com/articles/where-are-bob-ross-paintings"
+      },
+      {
+        "label": "Biography.com: How Bob Ross's Time in the Air Force Inspired His Paintings",
+        "url": "https://www.biography.com/artists/bob-ross-air-force"
+      },
+      {
+        "label": "Wikimedia Commons: File:Bob Ross Alaska Painting.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Bob_Ross_Alaska_Painting.jpg"
       }
     ]
   }
