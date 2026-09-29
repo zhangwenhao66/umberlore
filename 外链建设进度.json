@@ -71,6 +71,15 @@
       "answer_url": "https://www.quora.com/Where-is-Fallen-Angel-Alexandre-Cabanel/answer/Owen-Zhang-161",
       "status": null,
       "notes": "外链产能集中规则命中(11-30位曝光矩阵第1，668)+外链优先页面清单_20260912.md目标页优先。发布时该问题已有2个答案均信息模糊/有误。以站内文章骨架撰写(馆藏编号889.2.1、1889年入藏经过、Musée Fabre官网与AGORHA数据库尺寸记载互相矛盾这一现有答案未提及的增量事实)。过humanizer+avoid-ai-writing双重检查。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,全程只填URL字段。发布前用javascript_tool核实编辑器DOM该span class为\"span link\"(非link_pending)且颜色为Quora链接蓝,发布后再次核实渲染页面DOM确实是<a href>真实超链接(rel=noopener nofollow)。 | question_title: Where is Fallen Angel Alexandre Cabanel?"
+    },
+    {
+      "date": "2026-09-29",
+      "site": "umberlore.com",
+      "target_page": "https://umberlore.com/cristina-kahlo/",
+      "question_url": "https://www.quora.com/In-1928-Frida-painted-a-portrait-of-a-woman-who-went-on-to-have-an-affair-with-her-husband-Diego-Rivera-Who-was-the-woman",
+      "answer_url": "https://www.quora.com/In-1928-Frida-painted-a-portrait-of-a-woman-who-went-on-to-have-an-affair-with-her-husband-Diego-Rivera-Who-was-the-woman/answer/Owen-Zhang-161",
+      "status": null,
+      "notes": "外链优先页面清单_20260912.md目标页优先(26页清单中曝光第二高未用页，517曝光)+最久未处理站(09-13)当选。发布时该问题仅1个匿名答案，只提1928年Portrait of My Sister Cristina和'modelled for some of Rivera's work'一句模糊带过。以站内文章骨架撰写(Rivera在1929-30年卫生部大楼壁画期间画过Cristina裸体两次，早于公认婚外情开始时间；1934-35年国家宫楼梯壁画又画了穿衣的Cristina；Frida 1937年My Wet-Nurse and I因Cristina出生而存在但未直接画她)，均为现有答案未提及的增量事实。过humanizer+avoid-ai-writing双重检查(零破折号、零AI高频词、无rule of three堆砌)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,全程只填URL字段,填写前用zoom核实URL无误。发布前用javascript_tool核实编辑器DOM该span class为\"span link\"(非link_pending),发布后再次核实渲染页面DOM确实是<a href=\"https://umberlore.com/cristina-kahlo/\" target=\"_blank\" rel=\"noopener nofollow\">here</a>真实超链接。credential沿用默认Business Communications Researcher(无UmberLore专属credential可选)。 | question_title: In 1928 Frida painted a portrait of a woman who went on to have an affair with her husband Diego Rivera. Who was the woman?"
     }
   ],
   "reddit": []
