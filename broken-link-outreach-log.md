@@ -488,3 +488,6 @@ UmberLore断链置换战术累计已发送 **5封**（含1封跟进：Marian Uni
 ### 遗留待办
 
 下轮继续核实riveramural.org（09-23，满10天后，约10-03）；清单剩余高曝光页（cristina-kahlo/st-peters-basilica/what-is-a-gargoyle）本轮已系统查过大学LibGuide+课程页+官方教育页三类角度，短期内不建议重复投入同类资源页，除非站内新增更精确对应的文章（如专门的拜占庭建筑、罗曼式雕塑、或中世纪钱币文章）。下轮建议换查Notre-Dame de Paris / Sagrada Familia / Vatican Museums官方教育资源页，或回到"艺术犯罪/伪造"方向（`magazine.artland.com`断链已发，可评估该支柱是否还有其他机会）。
+
+## 2026-09-30 运行（选站：11-30位曝光第3，583）
+第0步：Saint Paul College已验证过；riveramural.org（09-23）仅7天未到窗口。新方向：中世纪/哥特艺术LibGuide与艺术史网站清单，扫描10页（Manitoba/Dickinson×2/Warburg/South Florida/SCI-Arc/Pima/Missouri/FAU/SCAD）。Warburg Institute页面36条DEAD，但均为意大利文艺复兴文献数据库、档案馆、大学系网页，和本站80篇文章无叙事型对应；唯一沾边的universalleonardo.org（Dickinson、Warburg，Leonardo作品数据库）对应本站mona-lisa，但属数据库类、功能不对等，按既定规则排除；Dickinson/Columbia Amiens项目页同理。未发送。累计口径不变：已发送5封 / 到手0条 / 0%。
