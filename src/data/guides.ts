@@ -3849,7 +3849,7 @@ export const guides: Guide[] = [
     "title": "Michelangelo's Sistine Chapel Painting: 'It Is Not My Art'",
     "description": "Michelangelo painted the Sistine Chapel ceiling standing upright for four and a half years, not lying down, and built his own scaffold after rejecting the pope's design.",
     "published": "2026-08-11",
-    "updated": "2026-09-12",
+    "updated": "2026-09-30",
     "coreSummary": "Michelangelo painted the Sistine Chapel ceiling standing on a platform of his own design, leaning his head and torso backward for four and a half years, not lying on his back as the popular image holds. He took the 1508 commission only after Pope Julius II's allies talked him back to Rome, rejected the pope's chosen architect's scaffold plan in favor of one he built himself, watched his first finished section grow mold within months, and wrote to a friend in a sonnet that his eyesight and judgment had gone crooked from the strain, since \"'tis ill shooting through a twisted reed.\"",
     "image": "/images/michelangelo-sistine-ceiling-full.jpg",
     "imageAlt": "The full ceiling of the Sistine Chapel, painted by Michelangelo between 1508 and 1512, showing the Genesis scenes and surrounding prophets and sibyls.",
@@ -3927,6 +3927,10 @@ export const guides: Guide[] = [
         "answer": "No. He worked standing on a raised wooden platform built to his own specifications, about seven feet under the ceiling, tilting his head and upper body backward with his arms raised overhead. The reclining image is a later invention, popularized above all by a 1965 Hollywood dramatization of his life; no source written in his lifetime describes him working that way. His own marginal sketch of himself at work, made next to the verses he wrote describing the strain, shows him upright."
       },
       {
+        "question": "How old was Michelangelo when he painted the Sistine Chapel?",
+        "answer": "He was 33 when the ceiling contract was dated on 8 May 1508 and 37 when it opened to the public on 1 November 1512, having been born on 6 March 1475. The altar wall's Last Judgment came much later, from 1536 to 1541, when he was roughly 61 to 66."
+      },
+      {
         "question": "How long did it take Michelangelo to paint the Sistine Chapel ceiling?",
         "answer": "Roughly 4.5 years. The agreement was finalized on 8 May 1508, and the ceiling was unveiled to the public on 1 November 1512."
       },
@@ -3959,6 +3963,10 @@ export const guides: Guide[] = [
       {
         "label": "Wikipedia: Sistine Chapel ceiling",
         "url": "https://en.wikipedia.org/wiki/Sistine_Chapel_ceiling"
+      },
+      {
+        "label": "Wikipedia: Michelangelo (birth date, Last Judgment dates)",
+        "url": "https://en.wikipedia.org/wiki/Michelangelo"
       },
       {
         "label": "Wikipedia: Tomb of Pope Julius II",
