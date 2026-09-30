@@ -216,5 +216,24 @@
       "https://umberlore.com/the-anatomy-lesson-nicolaes-tulp/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-29",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/bob-ross-most-famous-painting/",
+      "https://umberlore.com/how-we-work/"
+    ],
+    "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-30",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/prussian-blue-pigment/"
+    ],
+    "method": "SubmitUrl"
   }
 ]
