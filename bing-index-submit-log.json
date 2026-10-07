@@ -235,5 +235,18 @@
       "https://umberlore.com/prussian-blue-pigment/"
     ],
     "method": "SubmitUrl"
+  },
+  {
+    "date": "2026-10-07",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/aboriginal-art/",
+      "https://umberlore.com/encaustic-painting/",
+      "https://umberlore.com/fresco-painting/",
+      "https://umberlore.com/grisaille/",
+      "https://umberlore.com/psychedelic-art/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
