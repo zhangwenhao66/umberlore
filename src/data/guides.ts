@@ -631,7 +631,7 @@ export const guides: Guide[] = [
     "title": "Mona Lisa: Did the 1911 Theft Really Make It Famous?",
     "description": "The 1911 theft is the usual explanation for the Mona Lisa's fame. Guidebooks and Louvre copyist records from before the theft tell a more complicated story.",
     "published": "2026-08-02",
-    "updated": "2026-08-02",
+    "updated": "2026-10-07",
     "coreSummary": "The 1911 theft did not rescue the Mona Lisa from obscurity: Baedeker's 1907 Paris guidebook, printed four years before Vincenzo Peruggia walked out with the panel, already called it \"the most celebrated female portrait in the world\". What the two-year disappearance changed was the size of the audience, pushing a reputation held inside the art world into the new photographic mass press.",
     "image": "/images/mona-lisa.jpg",
     "imageAlt": "Leonardo da Vinci's portrait of Lisa Gherardini, oil on poplar panel, in the Musée du Louvre",
@@ -697,7 +697,7 @@ export const guides: Guide[] = [
         "image": {
           "src": "/images/mona-lisa-excelsior-1913.jpg",
           "alt": "Front page of the Paris daily Excelsior, 14 December 1913, given over to a staged photographic reconstruction of the Mona Lisa theft, with a portrait of Vincenzo Peruggia at the centre",
-          "credit": "[Excelsior, Vincenzo Peruggia, Vol de La Joconde, Mona Lisa](https://commons.wikimedia.org/wiki/File:Excelsior_-_Vincenzo_Peruggia_-_Vol_de_La_Joconde_-_Mona_Lisa.jpg), Excelsior, 14 December 1913, digitised by Gallica / Bibliothèque nationale de France, public domain"
+          "credit": "[Excelsior, Vincenzo Peruggia, Vol de La Joconde, Mona Lisa](https://commons.wikimedia.org/wiki/File:Excelsior_-_Vincenzo_Peruggia_-_Vol_de_La_Joconde_-_Mona_Lisa.jpg), Excelsior, 14 December 1913; digitisation: Gallica / Bibliothèque nationale de France; public domain"
         }
       },
       {
@@ -755,7 +755,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "How much is the Mona Lisa worth today?",
-        "answer": "There's no current appraisal, since the Louvre has never assigned it a market value and it can't legally be sold, belonging as it does to France's protected national heritage collection. The one benchmark on record is decades old: it holds the Guinness World Record for the highest insurance valuation ever placed on a painting, set at $100 million in 1962, which Guinness itself calculates as roughly $1 billion in 2023 dollars."
+        "answer": "Guinness records a $100 million valuation from 1962, prepared for the panel's exhibition journey to America. It was an insurance assessment, which does not establish a present-day sale price. [Guinness World Records](https://www.guinnessworldrecords.com/world-records/highest-insurance-valuation-for-a-painting)."
       },
       {
         "question": "How old was Lisa Gherardini, the Mona Lisa's model, when she died?",
@@ -765,7 +765,11 @@ export const guides: Guide[] = [
         "question": "Why did it take 16 years to paint the Mona Lisa?",
         "answer": "Leonardo began the portrait around 1503 and, according to most accounts, kept working on it until close to his death in 1519, carrying the unfinished panel with him for years, including his final move to France. Contemporaries and later biographers describe him as a famously slow, perfectionist painter who revised his work over long periods rather than completing commissions promptly; his sfumato technique, discussed elsewhere on this site, is applied in many thin, gradual layers, a method that by its nature resists being rushed."
       },
-],
+      {
+        "question": "Why is the Mona Lisa so expensive?",
+        "answer": "The painting's artistic reputation and fame help explain the high estimates attached to it. The Louvre singles out Leonardo's thin glazes, which soften the outlines, and explains that the theft and recovery increased its celebrity. A quoted dollar amount needs its own context: Guinness documents an assessment for insurance during an overseas exhibition, not a recent auction sale. [Louvre](https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana); [Guinness World Records](https://www.guinnessworldrecords.com/world-records/highest-insurance-valuation-for-a-painting)."
+      }
+    ],
     "sources": [
       {
         "label": "Musée du Louvre, collection record: Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa (INV 779; MR 316)",
@@ -798,9 +802,18 @@ export const guides: Guide[] = [
       {
         "label": "Excelsior, 14 December 1913, front page reporting the recovery, digitised by Gallica, BnF",
         "url": "https://gallica.bnf.fr/ark:/12148/bpt6k4602479m"
+      },
+      {
+        "label": "Louvre: The Salle des États, painting technique and theft",
+        "url": "https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana"
+      },
+      {
+        "label": "Guinness World Records: historical insurance assessment",
+        "url": "https://www.guinnessworldrecords.com/world-records/highest-insurance-valuation-for-a-painting"
       }
     ]
   },
+
   {
     "slug": "gustav-klimt",
     "category": "Painting",
