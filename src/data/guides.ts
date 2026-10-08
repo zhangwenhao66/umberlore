@@ -10491,7 +10491,7 @@ export const guides: Guide[] = [
       "slug": "antique-oil-painting",
       "category": "Technique",
       "title": "Antique Oil Painting: How to Tell Age and Value",
-      "description": "An antique oil painting has to answer three things: its age, its maker and its price. Here is the physical and paperwork evidence behind each one.",
+      "description": "An antique oil painting has to answer three things: its age, its maker and its price. Here is the physical and paperwork evidence you can check for each of them.",
       "published": "2026-10-08",
       "updated": "2026-10-08",
       "coreSummary": "An antique oil painting is only worth money when its age, its maker and its price all hold up, and each takes different evidence. Age comes from the physical object, meaning its stretcher and edges, its cracks and its pigments. Authorship comes from attribution and provenance, and price follows authorship more than age. No single age cutoff for paintings settles any of the three.",
