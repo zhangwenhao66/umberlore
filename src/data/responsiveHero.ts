@@ -14,6 +14,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/amalienburg-hall-of-mirrors-sm.jpg",
   "w": 750
  },
+ "/images/antique-oil-painting-craquelure.jpg": {
+  "h": 835,
+  "mobile": "/images/responsive/antique-oil-painting-craquelure-sm.jpg",
+  "w": 750
+ },
  "/images/aphrodite-painting-titian-venus-urbino.jpg": {
   "h": 527,
   "mobile": "/images/responsive/aphrodite-painting-titian-venus-urbino-sm.jpg",

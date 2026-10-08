@@ -635,5 +635,14 @@
    "h": 558
   },
   "desktop_rel": "/images/amalienburg-hall-of-mirrors.jpg"
+ },
+ "/images/antique-oil-painting-craquelure.jpg": {
+  "fingerprint": "1791453486833747938:427997:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/antique-oil-painting-craquelure-sm.jpg",
+   "w": 750,
+   "h": 835
+  },
+  "desktop_rel": "/images/antique-oil-painting-craquelure.jpg"
  }
 }

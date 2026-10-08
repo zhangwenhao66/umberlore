@@ -9265,7 +9265,7 @@ export const guides: Guide[] = [
       {
         "heading": "On a painter's palette, and in a duelist's threat",
         "body": [
-          "By the nineteenth century, Prussian blue was a standard studio color, not a novelty. When a delivery of paint from Paris finally caught up with [Vincent van Gogh in Arles in April 1888](/van-gogh-paintings/), he wrote to his brother Theo with an itemized list of what had arrived, naming Prussian blue alongside chrome yellows, emerald green and madder lakes as colors he said were \"hardly found in the Dutch palette\" he had trained on.",
+          "By the nineteenth century, Prussian blue was a standard studio color, not a novelty. When a delivery of paint from Paris finally caught up with [Vincent van Gogh in Arles in April 1888](/van-gogh-paintings/), he wrote to his brother Theo with an itemized list of what had arrived, naming Prussian blue alongside chrome yellows, emerald green and madder lakes as colors he said were \"hardly found in the Dutch palette\" he had trained on. Its approximate early-1700s starting date also makes it a useful floor when dating an old canvas, as the guide to [dating an antique oil painting](/antique-oil-painting/) shows.",
           "The pigment shows up in a stranger register in a letter from the painter Edward Burne-Jones, who [testified for the critic John Ruskin at Ruskin's 1878 libel trial against James McNeill Whistler](/whistler-ruskin-trial/). Burne-Jones had carried his own grudge against Whistler since 1867, after Whistler struck his friend, the painter Alphonse Legros, in an unrelated quarrel, and the courtroom gave him a public confrontation in place of a physical one. Writing to a friend afterward, Burne-Jones said that if the dispute ever came to an actual duel, he would choose his weapon: \"pots of oil paint,\" and specifically \"prussian blue as the most effective weapon I know.\" No duel followed, but the line has outlived the quarrel that prompted it."
         ]
       },
@@ -10484,6 +10484,131 @@ export const guides: Guide[] = [
           {
               "label": "Wikimedia Commons: File:Versailles Palace. Hall of Mirrors 2006.jpg",
               "url": "https://commons.wikimedia.org/wiki/File:Versailles_Palace._Hall_of_Mirrors_2006.jpg"
+          }
+      ]
+  },
+  {
+      "slug": "antique-oil-painting",
+      "category": "Technique",
+      "title": "Antique Oil Painting: How to Tell Age and Value",
+      "description": "An antique oil painting has to answer three things: its age, its maker and its market price. This guide sets out the physical and paperwork evidence behind each one.",
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "coreSummary": "An antique oil painting is only worth money when its age, its maker and its price all hold up, and each takes different evidence. Age comes from the physical object, meaning its stretcher and edges, its cracks and its pigments. Authorship comes from attribution and provenance, and price follows authorship more than age. No single age cutoff for paintings settles any of the three.",
+      "image": "/images/antique-oil-painting-craquelure.jpg",
+      "imageAlt": "Close detail of a face in the Kunsthistorisches Museum's Boy with an Arrow, catalogued under Giorgione, about 1500, with a dense web of fine cracks across the oil paint on its wooden panel",
+      "imageCredit": "[Giorgione, Ragazzo con la freccia (detail)](https://commons.wikimedia.org/wiki/File:Giorgione_-_Ragazzo_con_la_freccia1.jpg), about 1500, oil on panel, Kunsthistorisches Museum, Vienna, public domain",
+      "sections": [
+          {
+              "heading": "Age, maker and price are separate questions",
+              "body": [
+                  "Sellers use the word antique loosely, and for paintings there is no single age line that everyone applies. Take two pictures from 1915, a hotel-lobby landscape and a documented portrait. Both are old, and the market prices them very differently. Age is the cheapest thing to claim and the least useful for working out what a picture is worth.",
+                  "That leaves three questions about any antique oil painting. Physical evidence speaks to its age, paperwork and expert opinion to its maker, and the price follows the maker more than it follows the date. The sections below take them in that order."
+              ]
+          },
+          {
+              "heading": "Read the back and the edges first",
+              "body": [
+                  "A painting's back and tacking edges keep a record of what has happened to it. The Cincinnati Art Museum's conservation blog shows how much one picture can tell. Frank Duveneck's nude study, which the museum acquired in 1915, had its folded-over edges pressed flat onto the front, and documents suggest that was done in the late 1930s. Under ultraviolet light a pale blue-green glow shows an artist-applied natural resin glaze, and the glaze stops at an old fold line in the tacking margin. The conservators read that as support for the idea that Duveneck finished the painting while it was wrapped around a smaller stretcher.",
+                  "Two points carry over to a painting at home. A newer stretcher or a changed canvas size does not make the paint newer. The Duveneck edges were reworked in the late 1930s, after the artist's death in 1919, and the picture was still his. And the evidence lives in the edges and the surface layers, so a conservator should look before anyone cleans, trims or re-stretches. Before that, photograph the front, back, edges, frame, labels and any inscriptions."
+              ]
+          },
+          {
+              "heading": "Craquelure suggests age, and forgers know it",
+              "body": [
+                  "Craquelure is the network of fine cracks that opens across paint and varnish over time. The detail at the top of this page comes from the Kunsthistorisches Museum's Boy with an Arrow, catalogued under Giorgione and dated to about 1500. It shows the dense web an oil painting on a wooden panel can carry after five centuries.",
+                  "Cracks like these usually come with age, though they cannot date a painting alone. Han van Meegeren, the Dutch forger who sold paintings as Vermeers, used phenol-formaldehyde resin to harden his paint so the pictures would read as 300 years old. When a commission examined eight of his paintings before his 1947 trial, it found the resins Bakelite and Albertol, which were not invented until the twentieth century. It also found dust in the cracks that appeared to be India ink, and surface craquelure that did not always match the craquelure in the ground layer underneath.",
+                  "So a convincing pattern is a reason to keep checking. A natural pattern agrees with the layers below it, and that agreement is what the commission found missing in van Meegeren's work."
+              ]
+          },
+          {
+              "heading": "Pigments set a floor under the date",
+              "body": [
+                  "Many pigments have a first date, and finding one in an original paint layer means the picture cannot be older than that date. The table gives the dates from published pigment histories. Use usually came later than first availability, and identifying a pigment takes a sample or instrument analysis in a lab, so treat this as background for reading a technical report, not a home test.",
+                  "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.5;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Pigment</th><th style=\"padding:8px 10px;text-align:left;\">First date in the published histories</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">What finding it in an original layer means</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">[Prussian blue](/prussian-blue-pigment/)</td><td style=\"padding:8px 10px;vertical-align:top;\">About 1704, Berlin</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">The painting cannot be older than the early 1700s.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Chrome yellow</td><td style=\"padding:8px 10px;vertical-align:top;\">Lead chromate preparation published by Vauquelin in 1809</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">The painting cannot predate the early 19th century.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Synthetic ultramarine</td><td style=\"padding:8px 10px;vertical-align:top;\">Guimet developed his process in 1826 and won the Paris prize on 4 February 1828</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">Synthetic ultramarine in the original paint means 1828 or later.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Cadmium yellow</td><td style=\"padding:8px 10px;vertical-align:top;\">Cadmium found in 1817; pigment production delayed until about 1840</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">The painting dates from the 1840s or later.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Titanium white</td><td style=\"padding:8px 10px;vertical-align:top;\">Composite pigments from 1916; pure titanium dioxide widely available by 1928; pure rutile form from 1957</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">A picture dated 1880 with it in the original paint is a later picture.</td></tr></tbody></table></div>",
+                  "The titanium white row comes with a caution from the conservators who built that timeline. Their summary says a titanium white paint cannot be dated just by finding barium or calcium sulfate in it, because manufacturers added sulfate fillers to many paints anyway. Dates also work in one direction. A late pigment in an original layer proves the picture is later, but a palette of old pigments proves nothing alone, since van Meegeren mixed his paints from old formulas to pass inspection.",
+                  "One anachronism settles the question, while any number of old-looking features leave it open."
+              ]
+          },
+          {
+              "heading": "Attribution sets the price",
+              "body": [
+                  "Market value follows who the picture is by. Catalogues signal their confidence in set phrases, and a conservation firm's guide to the vocabulary describes a ladder. Fully attributed works carry the highest value, works described as Circle of an artist, made in the artist's immediate environment, come next, School of sits between Circle of and After, and copies After the artist usually rank lowest, though the guide notes important exceptions.",
+                  "That ladder is why two paintings that look alike can sell far apart, and why a catalogue's exact wording deserves a slow read. For the top end of what a secure attribution can reach, see the [price records for the most expensive painting in the world](/most-expensive-painting-in-the-world/). For the other kind of question, whether a popular painter's work is worth anything at all, see [Thomas Kinkade's market](/are-thomas-kinkade-paintings-worth-anything/).",
+                  "Valuation and authentication are separate jobs, and the purpose of the valuation shapes the number. The International Society of Appraisers, founded in 1979, is a personal property appraisers' association with a public directory of members. For the materials and condition side, a paintings conservator can examine the picture. For wider background on how paintings are made, see the [guide to art techniques](/art-techniques/)."
+              ]
+          },
+          {
+              "heading": "What to do with a painting you already own",
+              "body": [
+                  "Start by recording what is there before changing anything. Photograph the front, the back, the edges, the frame and every label, stamp or inscription, and note whether the stretcher and tacks look original or replaced. Write down where the painting came from and anything the previous owner said about it, because that history is the beginning of a provenance.",
+                  "Then look for the maker. A signature or label gives a name to search alongside auction results, and a missing signature does not mean the picture is minor. Treat a name from a label or a family story as a lead to test, since the ladder above shows how much depends on the attribution holding up.",
+                  "Last, decide what the number is for. Insurance, estate and sale valuations can differ, so tell the appraiser the purpose up front. Leave cleaning, varnish removal and re-stretching to a conservator, since those steps remove the very evidence discussed above."
+              ]
+          }
+      ],
+      "faq": [
+          {
+              "question": "How do I know if my oil painting is valuable?",
+              "answer": "Value starts with who painted it, so the first job is evidence of authorship, such as a documented signature, labels, exhibition or sale records and an expert's opinion. How old it looks under examination, and its condition, come next. For a number, hire a credentialed appraiser of fine art (the ISA publishes a member directory). For the materials, ask a conservator. Age alone does not set a price."
+          },
+          {
+              "question": "What oil paintings are worth money?",
+              "answer": "Paintings credited, with confidence, to an artist the market wants, a documented ownership history and sound condition. Catalogue wording ranks fully attributed pictures and Circle of pictures above School of and After. How far the top end goes is shown by the sale records on the site's record-prices page."
+          },
+          {
+              "question": "How to antique an oil painting?",
+              "answer": "Aging a surface to pass as old is where forgery starts, so the useful answer is a warning. Han van Meegeren added a synthetic hardening resin to his paint so his forged pictures would pass as centuries old, and investigators later detected it, along with cracks on the surface that did not line up with the underlying layers. A decorative aged finish on a new painting is a finishing technique, and the line is crossed when it is sold as old."
+          },
+          {
+              "question": "Does titanium white mean an oil painting is a fake?",
+              "answer": "Only if the painting claims to be older than the pigment. Conservators' timelines put composite titanium white at 1916 and the pure pigment as common by 1928, so an 1880 canvas cannot have carried it originally. For a 1950s picture it is ordinary. Only a lab can identify the pigment and say whether it belongs to the first painting campaign or to later repairs."
+          },
+          {
+              "question": "Can craquelure tell me how old a painting is?",
+              "answer": "It supports an age estimate but cannot fix a date. The Van Meegeren case showed crack patterns can be induced, and the check that exposed them was whether the surface cracks matched the layers beneath."
+          }
+      ],
+      "sources": [
+          {
+              "label": "Cincinnati Art Museum, Behind the Scenes in Conservation: No pun intended!",
+              "url": "https://www.cincinnatiartmuseum.org/about/blog/conservation-blog-5312018/"
+          },
+          {
+              "label": "Wikipedia: Frank Duveneck",
+              "url": "https://en.wikipedia.org/wiki/Frank_Duveneck"
+          },
+          {
+              "label": "Wikipedia: Han van Meegeren",
+              "url": "https://en.wikipedia.org/wiki/Han_van_Meegeren"
+          },
+          {
+              "label": "AIC Member Community: The Dating Game, a new diagnostic marker for dating titanium white pigments (Rogge and Arslanoglu)",
+              "url": "https://www.culturalheritage.org/blogs/keara-teeter/2019/05/26/47th-aic-titanium-white"
+          },
+          {
+              "label": "Pigments through the Ages: History of ultramarine",
+              "url": "https://www.webexhibits.org/pigments/indiv/history/ultramarine.html"
+          },
+          {
+              "label": "Pigments through the Ages: History of cadmium yellow",
+              "url": "https://webexhibits.org/pigments/indiv/history/cdyellow.html"
+          },
+          {
+              "label": "Pigments through the Ages: History of chrome yellow",
+              "url": "https://www.webexhibits.org/pigments/indiv/history/cryellow.html"
+          },
+          {
+              "label": "Fine Art Restoration Company: What After, Circle of and School of mean in art history and value",
+              "url": "https://fineart-restoration.co.uk/guides-and-advice/understanding-what-after-circle-of-and-school-of-really-mean-in-fine-art/"
+          },
+          {
+              "label": "International Society of Appraisers: About us",
+              "url": "https://isa-appraisers.org/about"
+          },
+          {
+              "label": "Wikimedia Commons: File:Giorgione - Ragazzo con la freccia1.jpg",
+              "url": "https://commons.wikimedia.org/wiki/File:Giorgione_-_Ragazzo_con_la_freccia1.jpg"
           }
       ]
   }
