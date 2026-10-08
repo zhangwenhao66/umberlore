@@ -248,5 +248,15 @@
       "https://umberlore.com/psychedelic-art/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-10-08",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/antique-oil-painting/",
+      "https://umberlore.com/rococo-architecture-vs-baroque/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
