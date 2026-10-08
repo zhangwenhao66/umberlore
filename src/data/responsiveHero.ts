@@ -9,6 +9,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/abstract-art-kandinsky-untitled-watercolor-sm.jpg",
   "w": 750
  },
+ "/images/amalienburg-hall-of-mirrors.jpg": {
+  "h": 558,
+  "mobile": "/images/responsive/amalienburg-hall-of-mirrors-sm.jpg",
+  "w": 750
+ },
  "/images/aphrodite-painting-titian-venus-urbino.jpg": {
   "h": 527,
   "mobile": "/images/responsive/aphrodite-painting-titian-venus-urbino-sm.jpg",

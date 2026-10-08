@@ -626,5 +626,14 @@
    "h": 469
   },
   "desktop_rel": "/images/bob-ross-alaska-air-force.jpg"
+ },
+ "/images/amalienburg-hall-of-mirrors.jpg": {
+  "fingerprint": "1791438756634023371:610234:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/amalienburg-hall-of-mirrors-sm.jpg",
+   "w": 750,
+   "h": 558
+  },
+  "desktop_rel": "/images/amalienburg-hall-of-mirrors.jpg"
  }
 }

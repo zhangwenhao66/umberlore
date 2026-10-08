@@ -1662,7 +1662,7 @@ export const guides: Guide[] = [
         "heading": "Maderno reverses the logic again, and gives the building its final footprint",
         "body": [
           "Carlo Maderno's route to the job ran through a single successful facade. His work on Santa Susanna in Rome, finished in 1603, got him named chief architect of St. Peter's that same year. In 1607, Britannica records, \"he designed the nave and a new facade for Saint Peter's and was made architect to Pope Paul V.\" What he designed reversed Michelangelo's centralized scheme for the second time in the building's history, this time for good: Paul V (1605–21) \"adopted Carlo Maderno's plan, giving the basilica the form of a Latin cross by extending the nave to the east.\"",
-          "The reasoning wasn't aesthetic. Britannica's entry on Maderno states it directly: his additions \"were consonant with the spirit of the Counter-Reformation; by adding the nave he transformed Michelangelo's Greek-cross plan into a longitudinal one, thus reverting to the scheme of early Christian and Medieval cathedrals.\" A centralized dome reads as a unified symbolic whole from a single vantage point. A long nave processes and seats far more people for Mass, which mattered more to a Church spending the early seventeenth century competing for the loyalty of ordinary worshippers. Maderno also designed an extra bay on each end of his facade to carry a pair of bell towers. Only one was ever built, and Britannica notes it wasn't even to Maderno's design: \"that was of a different design executed by Gian Lorenzo Bernini in 1637.\" That means Bernini's first credited contribution to the building predates his baldachin by more than a decade.",
+          "The reasoning wasn't aesthetic. Britannica's entry on Maderno states it directly: his additions \"were consonant with the spirit of the Counter-Reformation; by adding the nave he transformed Michelangelo's Greek-cross plan into a longitudinal one, thus reverting to the scheme of early Christian and Medieval cathedrals.\" A centralized dome reads as a unified symbolic whole from a single vantage point. A long nave processes and seats far more people for Mass, which mattered more to a Church spending the early seventeenth century competing for the loyalty of ordinary worshippers. Maderno's Rome is the public, Counter-Reformation face of the Baroque; the later turn toward small, decorated interiors is traced in [how Rococo architecture differs from Baroque](/rococo-architecture-vs-baroque/). Maderno also designed an extra bay on each end of his facade to carry a pair of bell towers. Only one was ever built, and Britannica notes it wasn't even to Maderno's design: \"that was of a different design executed by Gian Lorenzo Bernini in 1637.\" That means Bernini's first credited contribution to the building predates his baldachin by more than a decade.",
           "Maderno's nave is also where a commonly repeated number needs a caveat rather than a flat correction. Britannica states that Paul V's extension completed \"the 615-foot- (187-meter-) long main structure,\" and the Fabbrica di San Pietro's visitor FAQ gives the same figure in its own words: \"Saint Peter's Basilica is one of the largest churches in the world. It is approximately 187 meters long and 136 meters high to the top of the Dome.\" Both the building's custodians and an outside encyclopedia agree on 187 meters for what Britannica specifically labels the main structure, while the roughly 220 meters that circulates on plenty of secondary sites almost certainly includes the entrance portico and atrium, which Britannica's figure appears to exclude. Neither number is simply wrong; they most likely measure different things, which is the same habit worth applying to [a functioning gargoyle versus a merely decorative grotesque](/what-is-a-gargoyle/): check what the primary source is actually measuring before repeating a number. Construction on Maderno's nave and facade finished by 1615. The building itself wasn't consecrated until eleven years after that, on November 18, 1626, under Pope Urban VIII, 120 years, almost to the month, after Julius II laid the first stone."
         ]
       },
@@ -10325,5 +10325,166 @@ export const guides: Guide[] = [
         "url": "https://commons.wikimedia.org/wiki/File:Bob_Ross_Alaska_Painting.jpg"
       }
     ]
+  },
+  {
+      "slug": "rococo-architecture-vs-baroque",
+      "category": "Architecture",
+      "title": "Rococo Architecture vs Baroque: How to Tell",
+      "description": "Rococo architecture vs Baroque comes down to where the decoration sits and who it was for. Oval plans and curves don't separate them. Four dated buildings do.",
+      "published": "2026-10-08",
+      "updated": "2026-10-08",
+      "coreSummary": "Rococo architecture vs Baroque is mostly a question of setting. Baroque architecture began in Italy in the late 16th century as a Catholic answer to the Reformation and works at public scale, with domes, colonnades and state galleries meant to impress a crowd. Rococo appeared in Paris around the 1730s as a reaction against the heavy official style of Louis XIV's Versailles and works at room scale, with asymmetrical stucco, mirrors and pale colors inside salons, pavilions and church interiors. Curves, ovals and rich decoration do not separate the two, because Baroque builders used all three first.",
+      "image": "/images/amalienburg-hall-of-mirrors.jpg",
+      "imageAlt": "The circular Hall of Mirrors in the Amalienburg at Nymphenburg, Munich, with silver stucco ornament curling around tall mirrors and a glass chandelier hanging from the white ceiling.",
+      "imageCredit": "[Amalienburg Spiegelsaal-1](https://commons.wikimedia.org/wiki/File:Amalienburg_Spiegelsaal-1.jpg) by Rufus46, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)",
+      "sections": [
+          {
+              "heading": "Start with what does not separate them",
+              "body": [
+                  "The usual markers offered for Rococo are curves, ovals, heavy ornament and a secular mood. Taken one at a time, three of them fail when you check them against actual buildings.",
+                  "Ovals first. Britannica's overview of Baroque architecture lists complex plans based on the oval, with interlocking spaces, among the style's standard devices for creating a sense of motion. Bernini gave the Jesuit church of Sant'Andrea al Quirinale in Rome an elliptical dome over an elliptical floor plan, and Borromini's San Carlo alle Quattro Fontane has a corrugated oval plan. Wikipedia calls the Wieskirche an oval Rococo church, which is true, but an oval plan alone proves nothing, since Rome was already building oval churches in the 1600s.",
+                  "Amount of ornament is the second false trail. The Hall of Mirrors at Versailles is Baroque by every account, and it has 17 mirrored arches, 357 mirrors, gilded sculpture and a painted vault. Nobody would call it restrained. If \"more decoration\" were the test, Versailles would be Rococo.",
+                  "Religion is the third. Baroque architecture was introduced by the Catholic Church, particularly the Jesuits, as a way to answer the Reformation. But the best-known Rococo church, the Wieskirche in Bavaria, is a Catholic pilgrimage church built between 1745 and 1754 after tears were reported on a wooden figure of the Scourged Christ in 1738. So Rococo was not a secular style in any simple sense. The Church used it too."
+              ]
+          },
+          {
+              "heading": "What actually differs",
+              "body": [
+                  "The differences that hold up are quieter, and all three show up in the same place, which is the wall of a single room.",
+                  "Setting comes first. Baroque architecture at its core is public and monumental. Rococo grew out of Parisian interiors. Britannica describes it as a reaction against the official Baroque art of Louis XIV's reign, with designers and engravers such as Pierre Le Pautre, Juste-Aurèle Meissonier, Jean Berain and Nicolas Pineau developing a lighter, more intimate style of decoration for the new residences of Parisian nobles. Wikipedia says attention shifted from grand public spaces to private rooms, and adds that large state galleries were often divided into smaller apartments, and that furniture was scaled down to match.",
+                  "Ornament logic is the second difference, and it is where the word asymmetry earns its place. Britannica states that asymmetrical design was the rule in Rococo surfaces, built from delicate interlacings of curves and countercurves based on the \"C\" and the \"S\", plus shell forms and other natural shapes. Baroque ornament, in the examples here, mostly sits inside a classical frame of columns, pilasters and cornices. Compare the two photographs further down this page and you can see it without any theory. At Versailles the arches repeat at equal intervals and the ornament stays in its lane. At the Amalienburg the frames themselves bend, and the ornament climbs over the edges of the mirrors.",
+                  "Color and light are the third. Wikipedia sets Rococo's soft yellows, creams, pearl greys and pale blues against Baroque's bold, high-contrast chiaroscuro. Britannica gives the Rococo palette as light pastels, ivory white and gold, with mirrors used to enlarge the sense of space. The Amalienburg's silver on blue is a textbook case.",
+                  "One caution about asymmetry. It describes the ornament, not the building. The Amalienburg's central room is circular, which is about as symmetrical as a plan gets. What looks asymmetrical is the stucco crawling around it."
+              ]
+          },
+          {
+              "heading": "The same kind of room, half a century apart",
+              "body": [
+                  "The cleanest comparison is two mirrored rooms built for two very different clients. Work on the Hall of Mirrors at Versailles ran from 1678 to 1684, according to the Château de Versailles, under the architect Jules Hardouin-Mansart. The Amalienburg was built between 1734 and 1739 in the park of Nymphenburg Palace in Munich for Elector Karl Albrecht and his wife Maria Amalia, with François de Cuvilliés as its architect. The Bavarian Palace Department credits Cuvilliés with the design, while Wikipedia credits the hall itself to the stucco sculptor Johann Baptist Zimmermann and the carver Joachim Dietrich, so who shaped the room depends on which source you read.",
+                  "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">What you can check</th><th style=\"padding:8px 10px;text-align:left;\">Baroque: Hall of Mirrors, Versailles</th><th style=\"padding:8px 10px;text-align:left;\">Rococo: Amalienburg, Munich</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;vertical-align:top;\"><strong>Dates</strong></td><td style=\"padding:6px 10px;vertical-align:top;\">Work began in 1678 and ended in 1684</td><td style=\"padding:6px 10px;vertical-align:top;\">Built 1734 to 1739</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;vertical-align:top;\"><strong>Who it was for</strong></td><td style=\"padding:6px 10px;vertical-align:top;\">The king, as a state gallery about 73 m long</td><td style=\"padding:6px 10px;vertical-align:top;\">An elector and his wife, as a hunting lodge in a park</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;vertical-align:top;\"><strong>Wall system</strong></td><td style=\"padding:6px 10px;vertical-align:top;\">17 arched mirror bays framed by marble and classical pilasters (357 mirrors in all)</td><td style=\"padding:6px 10px;vertical-align:top;\">A circular room with curving silver stucco frames around the mirrors, on a blue ground</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;vertical-align:top;\"><strong>Ceiling</strong></td><td style=\"padding:6px 10px;vertical-align:top;\">A painted vault set in architectural frames</td><td style=\"padding:6px 10px;vertical-align:top;\">Stucco ornament that runs up from the walls into the cove</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:6px 10px;vertical-align:top;\"><strong>Mood the designer wanted</strong></td><td style=\"padding:6px 10px;vertical-align:top;\">Authority and scale</td><td style=\"padding:6px 10px;vertical-align:top;\">Intimacy and play</td></tr></tbody></table></div>",
+                  "The Versailles hall replaced an open terrace, and the official site notes that its mirrors also made a point about French glassmaking competing with Venice. The Amalienburg was a hunting lodge. Its main room is a small circle in a park pavilion, there to be enjoyed by a handful of people."
+              ],
+              "image": {
+                  "src": "/images/versailles-hall-of-mirrors.jpg",
+                  "alt": "A row of tall arched mirrors set between marble pilasters in the Hall of Mirrors at Versailles, with gilded figures holding candelabra in front and a painted vault overhead.",
+                  "credit": "[Versailles Palace. Hall of Mirrors 2006](https://commons.wikimedia.org/wiki/File:Versailles_Palace._Hall_of_Mirrors_2006.jpg) by Michael Shade, public domain"
+              }
+          },
+          {
+              "heading": "Buildings that are both, and why the exterior misleads",
+              "body": [
+                  "Most real buildings do not sort neatly, and the ones built across the changeover show it best. The Würzburg Residence in Bavaria is the standard example. UNESCO's inscription summary dates the construction to 1720 to 1744 and the interior decoration to 1740 to 1770, with Balthasar Neumann in charge of the project. Giovanni Battista Tiepolo painted the vault over the ceremonial staircase in the early 1750s, after Neumann's structure had stood for years. A building that was begun in the Late Baroque and finished inside in a different taste will naturally carry both.",
+                  "The same pattern shows up in the Bavarian and Austrian pilgrimage churches. Wikipedia's Rococo entry notes that the typical German Rococo church pairs a regular, restrained exterior with an overabundance of decoration inside, and gives Ottobeuren Abbey as an example. That is why photographs of the facade can mislead. If you want to date a building by style, the interior is the better witness, and for Rococo it is often the only one that counts.",
+                  "France is the reverse case. Rococo began there, but Wikipedia says French Rococo never reached the extravagance of the Bavarian, Austrian or Italian versions, and that the discoveries at Herculaneum and Pompeii steered French architecture toward a more symmetrical neoclassicism. The best-known French Rococo space is a room, not a building. The Salon de la Princesse in the Hôtel de Soubise in Paris, decorated by Germain Boffrand with paintings by Natoire and others, falls in the 1730s, although sources disagree on the exact years. Britannica says the salons were begun in 1732, Wikipedia gives 1735 to 1740 for Boffrand's interiors, and another source says 1735 to 1739."
+              ]
+          },
+          {
+              "heading": "Is Rococo its own style or the last phase of Baroque?",
+              "body": [
+                  "Reference works give both answers, sometimes in the same article. Wikipedia's entry on Baroque architecture describes Rococo as an even more elaborately decorative variant of Baroque and calls Neumann's late works among the final expressions of the Rococo or the Late Baroque. Its entry on Rococo, meanwhile, says the style emerged as a reaction against the Louis XIV style and that art historians now treat it as a distinct period. Britannica takes the reaction view, describing Rococo as a response to the ponderous design of Versailles.",
+                  "The better reading is probably that each framing fits a different place. In Paris, the break with Versailles was real and the clients were fashionable aristocrats. In southern Germany and Austria, the same Catholic institutions that commissioned Baroque churches went on commissioning churches, and the new vocabulary slid into the interiors. So the dividing line is blurry, and it is mostly drawn inside the walls.",
+                  "The names themselves tell a related story. Both words began as insults, as the page on [art styles and their nicknames](/art-styles/) lays out, which is partly why critics spent a long time treating the pair as one overdecorated blur."
+              ]
+          },
+          {
+              "heading": "A sixty-second field test",
+              "body": [
+                  "If you are standing in front of a building and have to decide, work through these in order.",
+                  "Walk inside before you judge. If the outside is calm and regular but the inside is a riot of pale stucco, mirrors and curling ornament, you are probably in a Rococo interior. If the outside already shouts, with sweeping curved facades, giant columns and theatrical stairs, think Baroque.",
+                  "Look at what frames the ornament. Columns, pilasters and cornices that organize everything point to Baroque. Frames that bend, ornament that spills across the edges and ignores the grid, and shell or leaf motifs that crawl up the wall point to Rococo.",
+                  "Look at the color. Deep contrasts of dark marble, gilding and shadow lean Baroque. White, cream, pastel blue and silver lean Rococo.",
+                  "Ask who the room was for. A processional space for a crowd, whether a nave or a state gallery, leans Baroque. A salon, a bedroom or a small pavilion leans Rococo. For a good Baroque starting point, the nave that Carlo Maderno added at [St. Peter's Basilica](/st-peters-basilica/) came out of the Counter-Reformation, and the page on [Baroque paintings](/baroque-paintings/) shows the same taste for drama in a different medium.",
+                  "When two answers conflict, trust the date. Italian Baroque buildings were already under way in the late 1500s. Most surveys place the arrival of Rococo in the 1730s, and Britannica points to French interiors from the early 1720s, so a building finished before about 1700 cannot be Rococo, however curly it looks."
+              ]
+          }
+      ],
+      "faq": [
+          {
+              "question": "Rococo architecture vs Baroque: what is the main difference?",
+              "answer": "The Baroque style was built for public impact, using big domes, columned fronts and grand state rooms to impress a crowd, and it began in late 16th-century Italy as part of the Catholic response to Protestantism. Rococo arrived in France about the 1730s as a lighter reaction to the royal palace at Versailles and mostly lives indoors, with curling asymmetric plasterwork, large mirrors and a pastel palette."
+          },
+          {
+              "question": "Is Rococo just late Baroque?",
+              "answer": "Reference works split on this. Wikipedia's Baroque entry presents Rococo as a still more decorated variant, while its Rococo entry and the Britannica article both frame it as a pushback against Louis XIV's court taste. The overlap is real in Bavaria and Austria, where Baroque exteriors were often given Rococo interiors, as in the Bavarian prince-bishop's palace at Würzburg."
+          },
+          {
+              "question": "Which came first, Baroque or Rococo?",
+              "answer": "Baroque. Wikipedia's Gesù entry dates the Jesuit church in Rome to a 1568 start, and its article on the Baroque style gives 1584 for the consecration, making it a standard early example. Rococo emerged in France in the early 18th century. Britannica cites a French salon finished in 1722, and many architecture surveys date its arrival to the 1730s."
+          },
+          {
+              "question": "Does an oval floor plan mean a building is Rococo?",
+              "answer": "No. Oval plans were already a Baroque device in Rome, as the Jesuit church Bernini designed on the Quirinale hill and the oval church Borromini built nearby both show. Rococo churches such as the Wieskirche also use ovals, but the shape does not distinguish the two styles."
+          },
+          {
+              "question": "Is the Palace of Versailles Baroque or Rococo?",
+              "answer": "The Hall of Mirrors, built between 1678 and 1684 under Louis XIV, is Late Baroque. Rococo arose afterward as a reaction to that style, and its best-known French example is a single Paris salon in the Soubise mansion, dated to the 1730s."
+          }
+      ],
+      "sources": [
+          {
+              "label": "Encyclopaedia Britannica: Baroque architecture",
+              "url": "https://www.britannica.com/technology/Baroque-architecture"
+          },
+          {
+              "label": "Encyclopaedia Britannica: Rococo",
+              "url": "https://www.britannica.com/art/Rococo"
+          },
+          {
+              "label": "Wikipedia: Church of the Gesù",
+              "url": "https://en.wikipedia.org/wiki/Church_of_the_Ges%C3%B9"
+          },
+          {
+              "label": "Wikipedia: Sant'Andrea al Quirinale",
+              "url": "https://en.wikipedia.org/wiki/Sant%27Andrea_al_Quirinale"
+          },
+          {
+              "label": "Wikipedia: San Carlo alle Quattro Fontane",
+              "url": "https://en.wikipedia.org/wiki/San_Carlo_alle_Quattro_Fontane"
+          },
+          {
+              "label": "Wikipedia: Rococo",
+              "url": "https://en.wikipedia.org/wiki/Rococo"
+          },
+          {
+              "label": "Wikipedia: Baroque architecture",
+              "url": "https://en.wikipedia.org/wiki/Baroque_architecture"
+          },
+          {
+              "label": "Château de Versailles: The Hall of Mirrors",
+              "url": "https://en.chateauversailles.fr/discover/estate/palace/hall-mirrors"
+          },
+          {
+              "label": "Bavarian Palace Department: Small palaces at Nymphenburg Palace Park",
+              "url": "https://www.schloesser.bayern.de/englisch/palace/objects/ny_parkb.htm"
+          },
+          {
+              "label": "Wikipedia: Amalienburg",
+              "url": "https://en.wikipedia.org/wiki/Amalienburg"
+          },
+          {
+              "label": "UNESCO World Heritage Centre: Pilgrimage Church of Wies",
+              "url": "https://whc.unesco.org/en/list/271"
+          },
+          {
+              "label": "Wikipedia: Wieskirche",
+              "url": "https://en.wikipedia.org/wiki/Wieskirche"
+          },
+          {
+              "label": "UNESCO World Heritage Centre: Würzburg Residence",
+              "url": "https://whc.unesco.org/en/list/169"
+          },
+          {
+              "label": "Wikipedia: Hôtel de Soubise",
+              "url": "https://en.wikipedia.org/wiki/H%C3%B4tel_de_Soubise"
+          },
+          {
+              "label": "Wikimedia Commons: File:Amalienburg Spiegelsaal-1.jpg",
+              "url": "https://commons.wikimedia.org/wiki/File:Amalienburg_Spiegelsaal-1.jpg"
+          },
+          {
+              "label": "Wikimedia Commons: File:Versailles Palace. Hall of Mirrors 2006.jpg",
+              "url": "https://commons.wikimedia.org/wiki/File:Versailles_Palace._Hall_of_Mirrors_2006.jpg"
+          }
+      ]
   }
 ];
