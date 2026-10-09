@@ -239,6 +239,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/papunya-school-1972-sm.jpg",
   "w": 750
  },
+ "/images/parthenon-vs-pantheon-west-facade.jpg": {
+  "h": 485,
+  "mobile": "/images/responsive/parthenon-vs-pantheon-west-facade-sm.jpg",
+  "w": 750
+ },
  "/images/pop-art-whitechapel-gallery-exterior.jpg": {
   "h": 1000,
   "mobile": "/images/responsive/pop-art-whitechapel-gallery-exterior-sm.jpg",

@@ -644,5 +644,14 @@
    "h": 835
   },
   "desktop_rel": "/images/antique-oil-painting-craquelure.jpg"
+ },
+ "/images/parthenon-vs-pantheon-west-facade.jpg": {
+  "fingerprint": "1791523620954927165:444405:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/parthenon-vs-pantheon-west-facade-sm.jpg",
+   "w": 750,
+   "h": 485
+  },
+  "desktop_rel": "/images/parthenon-vs-pantheon-west-facade.jpg"
  }
 }

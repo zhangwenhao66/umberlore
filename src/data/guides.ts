@@ -10406,7 +10406,8 @@ export const guides: Guide[] = [
                   "Look at what frames the ornament. Columns, pilasters and cornices that organize everything point to Baroque. Frames that bend, ornament that spills across the edges and ignores the grid, and shell or leaf motifs that crawl up the wall point to Rococo.",
                   "Look at the color. Deep contrasts of dark marble, gilding and shadow lean Baroque. White, cream, pastel blue and silver lean Rococo.",
                   "Ask who the room was for. A processional space for a crowd, whether a nave or a state gallery, leans Baroque. A salon, a bedroom or a small pavilion leans Rococo. For a good Baroque starting point, the nave that Carlo Maderno added at [St. Peter's Basilica](/st-peters-basilica/) came out of the Counter-Reformation, and the page on [Baroque paintings](/baroque-paintings/) shows the same taste for drama in a different medium.",
-                  "When two answers conflict, trust the date. Italian Baroque buildings were already under way in the late 1500s. Most surveys place the arrival of Rococo in the 1730s, and Britannica points to French interiors from the early 1720s, so a building finished before about 1700 cannot be Rococo, however curly it looks."
+                  "When two answers conflict, trust the date. Italian Baroque buildings were already under way in the late 1500s. Most surveys place the arrival of Rococo in the 1730s, and Britannica points to French interiors from the early 1720s, so a building finished before about 1700 cannot be Rococo, however curly it looks.",
+                  "For a comparison of two ancient monuments, see [Parthenon vs Pantheon](/parthenon-vs-pantheon/), which distinguishes their plans and building phases."
               ]
           }
       ],
@@ -10623,5 +10624,139 @@ export const guides: Guide[] = [
               "url": "https://commons.wikimedia.org/wiki/File:Giorgione_-_Ragazzo_con_la_freccia1.jpg"
           }
       ]
+  },
+  {
+    "slug": "parthenon-vs-pantheon",
+    "category": "Architecture",
+    "title": "Parthenon vs Pantheon: Read Beyond the Columns",
+    "description": "Parthenon vs Pantheon: compare the plans, roofs and building phases, then use official restoration records to understand what survives in Athens and Rome.",
+    "published": "2026-10-09",
+    "updated": "2026-10-09",
+    "coreSummary": "Parthenon vs Pantheon compares Athens’ rectangular Greek temple with Rome’s circular, domed sanctuary. The Parthenon’s missing roof reflects later destruction; the Pantheon’s Agrippa inscription refers to a foundation earlier than the surviving Hadrianic building.",
+    "image": "/images/parthenon-vs-pantheon-west-facade.jpg",
+    "imageAlt": "Scaffolding and a crane in front of the marble columns and west pediment of the Parthenon.",
+    "imageCredit": "[Parthenon west facade during restoration, 2015](https://commons.wikimedia.org/wiki/File:Restoration_work_Parthenon_facade_Acropolis_Athens_Greece.jpg) by Jebulon, CC0. Resized without cropping.",
+    "sections": [
+      {
+        "heading": "A comparison you can check against the buildings",
+        "body": [
+          "Parthenon vs Pantheon is a comparison between a rectangular Greek temple in Athens and a Roman building whose columned entrance opens into a circular, domed hall. The names sound close, and a cropped photograph can make their columned fronts look related. Follow the columns around the building, or look at what they stand in front of, and their different plans become visible.",
+          "The table separates the date of the surviving structure from the date of an earlier building on its site. It also separates construction from the completion of decoration. Those distinctions matter here: a familiar date can be correct for one phase and misleading when attached to the whole monument.",
+          "<table><caption>Parthenon and Pantheon: evidence for identification</caption><thead><tr><th>What to check</th><th>Parthenon</th><th>Pantheon in Rome</th></tr></thead><tbody><tr><th>Location</th><td>Acropolis, Athens</td><td>Piazza della Rotonda, Rome</td></tr><tr><th>Surviving building</th><td>Temple construction 447–438 BCE; pedimental sculpture completed in 432 BCE</td><td>Rebuilt under Hadrian; museum authority gives 118–125 CE</td></tr><tr><th>Plan</th><td>Rectangular temple surrounded by columns</td><td>Columned porch leading to a circular rotunda</td></tr><tr><th>Exterior order</th><td>Doric outer columns, with Ionic elements elsewhere</td><td>Corinthian granite columns at the porch</td></tr><tr><th>Roof clue</th><td>Ancient tiled roof lost; surviving ruin and restored members</td><td>Concrete dome with a central oculus</td></tr><tr><th>Original association</th><td>Athena Parthenos</td><td>Roman sanctuary; earlier Agrippan foundation</td></tr><tr><th>Later condition</th><td>Converted to church and mosque; explosion damaged it in 1687</td><td>Consecrated as a church in 609 CE</td></tr></tbody></table>",
+          "Table sources: [Acropolis Restoration Service](https://www.ysma.gr/en/monuments/parthenon/), [Acropolis Museum](https://www.theacropolismuseum.gr/en/exhibit-halls/parthenon-gallery) and the Italian museum authority’s [Pantheon overview](https://direzionemuseiroma.cultura.gov.it/en/pantheon/) and [historical account](https://direzionemuseiroma.cultura.gov.it/pantheon/cenni-storici/). The table is a comparison assembled from those records, not a new survey of either monument."
+        ]
+      },
+      {
+        "heading": "The Parthenon: walk around the rectangle",
+        "body": [
+          "The Parthenon stands on the Acropolis, the elevated sanctuary above Athens. Its outer colonnade surrounds the temple instead of forming only a porch at the front. The [Acropolis Restoration Service](https://www.ysma.gr/en/monuments/parthenon/) describes eight columns across each short end and seventeen along each long side. In an oblique photograph, that long repeated line of supports is a useful identifying feature.",
+          "Inside this perimeter stood a walled sanctuary, or cella. The cella contained two separate compartments, with access from opposite ends. The larger eastern room housed the gold-and-ivory statue of Athena Parthenos. The smaller western room served a different function. A roofless photograph today can make this arrangement hard to imagine: the missing walls and roof once defined enclosed rooms within the ring of exterior columns.",
+          "The [Acropolis Museum’s gallery explanation](https://www.theacropolismuseum.gr/en/exhibit-halls/parthenon-gallery) helps recover that relationship without pretending the temple survives intact. Its display wraps around a rectangular core aligned with the ancient cella. Relief blocks from the Ionic frieze are mounted around that core, while pedimental figures occupy the ends. The sculpture belonged to particular parts of an architectural system; it was not a collection of independent ornaments distributed wherever space remained.",
+          "Doric describes the exterior order, not every detail of the building. The service identifies Ionic features as well, including the continuous frieze around the cella. If a comparison calls the Parthenon simply Doric, use that as a starting label. It does not erase the other order incorporated into the same design."
+        ]
+      },
+      {
+        "heading": "The Pantheon: look behind the porch",
+        "body": [
+          "Rome’s Pantheon has a classical columned entrance, but the mass behind it is cylindrical. Its porch does not continue as a rectangular ring of columns around the entire building. The Italian authority’s [historical description](https://direzionemuseiroma.cultura.gov.it/pantheon/cenni-storici/) identifies sixteen Corinthian columns of grey and pink granite in the portico. Beyond the entrance is the rotunda, the circular hall that carries the dome.",
+          "The official [English monument page](https://direzionemuseiroma.cultura.gov.it/en/pantheon/) gives the dome’s diameter as 43.30 metres and describes the cylindrical supporting wall as more than six metres thick. It gives the same value for the interior height. [Italy’s national tourism portal](https://www.italia.it/en/lazio/rome/pantheon) uses 43.44 metres for the diameter and about 43 metres for the height. The published figures differ, so 43.30 metres here remains the museum authority’s measurement. The near-equality of height and width lets you picture an imagined sphere inside the room; it is not a claim that every surface is perfectly regular.",
+          "The dome has recessed panels, called coffers, and a round opening at its crown. That opening is the oculus. The interior photograph shows the bright circle of sky and the light falling onto the dome’s surface. These are architectural clues you can see directly, even without reading a caption. A view that contains this overhead arrangement belongs to the Pantheon, not to the surviving Parthenon.",
+          "The opening admits rain as well as daylight. The authority’s [Italian account](https://direzionemuseiroma.cultura.gov.it/pantheon/cenni-storici/) records drainage holes in the floor. The dome therefore cannot be described as an ordinary sealed roof with a decorative circular motif. Its opening is part of the interior’s working arrangement. For another Roman dome discussed through its construction history, continue to [St Peter’s Basilica](/st-peters-basilica/)."
+        ],
+        "image": {
+          "src": "/images/parthenon-vs-pantheon-oculus.jpg",
+          "alt": "The open oculus and recessed coffers of the Pantheon dome, with a patch of sunlight on the curved surface.",
+          "credit": "[Pantheon dome interior, 2016](https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_dome_2016.jpg) by Góngora, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized without cropping."
+        }
+      },
+      {
+        "heading": "Two dates that are easy to attach to the wrong thing",
+        "body": [
+          "For the Parthenon, the [restoration service](https://www.ysma.gr/en/monuments/parthenon/) distinguishes temple construction, from 447 to 438 BCE, from the pedimental sculpture completed in 432 BCE. The museum gives the whole building programme a fifteen-year span beginning in 447 BCE. These accounts address different milestones. A date range ending in 432 BCE can describe the wider project without proving that every part was under construction until that year.",
+          "The Pantheon presents another trap. Its facade names Marcus Agrippa, whose foundation on the site preceded the standing building. The inscription honours that earlier association. It should not be read as a date stamp for the concrete dome visible today. The Italian museum authority gives 118–125 CE for the surviving reconstruction. [Smarthistory’s account](https://smarthistory.org/the-pantheon/) discusses archaeological evidence for work beginning under Trajan around 114 CE and completion under Hadrian in 125–128 CE. The latter account was checked through its indexed search excerpt because its full page returned 403. These ranges concern a debated building sequence; the Hadrianic attribution in the table follows the museum authority.",
+          "Both sites had predecessors. Both were changed later. A single “built in” date can conceal that sequence, especially when it is repeated beside a photograph of a surviving facade. Before comparing ages, ask which phase each date describes. Comparing the fifth-century BCE Parthenon programme with the second-century CE Pantheon makes the Greek temple the older structure, without needing to manufacture an exact age gap from uncertain endpoints.",
+          "This is also why a name or an inscription cannot settle a construction question by itself. The record of the structure, the surviving fabric and the commemorative text are different kinds of evidence. They can belong to the same monument while pointing to different moments in its history."
+        ]
+      },
+      {
+        "heading": "Roofless today does not mean open-air by design",
+        "body": [
+          "The Parthenon’s missing roof is a loss. The [Acropolis Museum](https://www.theacropolismuseum.gr/en/exhibit-halls/parthenon-gallery) explicitly describes a tiled roof of Pentelic marble. Its present outline should not be projected backwards as if ancient visitors saw the same open sky between the columns. The outer colonnade, the enclosed cella and the roof worked together; the ruin preserves only parts of that arrangement.",
+          "The [restoration service’s history](https://www.ysma.gr/en/monuments/parthenon/) records conversion to a church and later a mosque before the catastrophe of 1687. During the Venetian siege, gunpowder stored inside the monument exploded after bombardment. Extensive parts collapsed. The account ties the ruined condition to a specific destructive event, while also documenting earlier damage and later removal of sculpture. Neither weathering alone nor an original preference for an open roof explains what survives.",
+          "The Pantheon was consecrated as a Christian church in 609 CE, according to the [Italian authority](https://direzionemuseiroma.cultura.gov.it/en/pantheon/). Its survival does not make the interior an untouched Roman time capsule. The authority’s historical account describes later changes to the attic decoration and replacement porch columns. Continued use and alteration can coexist with the preservation of the building’s principal form.",
+          "Photographs should therefore be compared with their subjects’ histories. One image may show a damaged temple under conservation; another may show an ancient structure still serving as a church. Calling both buildings well preserved, or calling both ruins, loses the distinction that the photographs and official records actually establish."
+        ]
+      },
+      {
+        "heading": "Why the Parthenon is restored without becoming a replica",
+        "body": [
+          "The question “Why don’t they rebuild the Parthenon?” assumes restoration means making a complete new-looking temple. The [service’s published principles](https://www.ysma.gr/en/restoration/principles-of-interventions/) include “Respect for the authentic material” and state, “In restoration supplements of new marble are limited.” The first rule puts the surviving stone before a completed silhouette; the second limits how gaps are filled. The same document requires retention of members’ original structural function and reversibility of the work. These constraints govern what can be reassembled and how fragments are joined.",
+          "An earlier repair can itself cause damage. In its [restoration account](https://www.ysma.gr/en/the-service/fields-work/restoration/), YSMA describes removing oxidized iron and unsuitable older repair materials, joining fragmented architectural members and placing them back in their original positions. Where filling is needed, it uses Pentelic marble; new titanium connections replace problematic old fittings. This is work on identifiable members of a historic structure, not permission to fill every gap with a guessed ancient design.",
+          "The scaffolding in the head photograph records work on the surviving fabric. It records a conservation worksite in 2015. It does not establish which intervention is happening today, nor does it prove that the temple is about to regain every missing wall or roof surface. The photo’s date belongs to the photograph, and the service’s programme descriptions belong to the particular interventions they document.",
+          "Identifying a building through what its parts do is useful elsewhere too. The difference between a working waterspout and a decorative creature is the starting point of [what is a gargoyle](/what-is-a-gargoyle/). That page concerns another architectural function; it is not evidence for the ancient temples’ dates or materials."
+        ]
+      },
+      {
+        "heading": "A photo-reading checklist with limits",
+        "body": [
+          "Begin with the outline behind the columns. A long rectangular colonnade wrapping a temple points to the Parthenon. A porch attached to a round mass points to Rome’s Pantheon. If the image is cropped tightly to the front columns, keep the identification provisional: the feature that distinguishes the buildings may simply be outside the frame.",
+          "An interior view can settle the question more quickly. Coffers curving around a bright central oculus identify the Pantheon’s dome. Exposed sky above the remaining Greek columns indicates the Parthenon’s present condition, but says nothing by itself about its ancient roof. An architectural drawing should be checked for whether it depicts a reconstruction, a measured survey or the surviving state.",
+          "Finally, check the caption’s place and date. Athens and Rome are decisive for these two monuments. A modern date attached to a photograph does not date the building. Nor should a famous name on a facade override the documented reconstruction. With these checks, the comparison becomes something you can apply to an image, when a caption is missing.",
+          "Once the two buildings are identified, architectural style is a separate question. [Rococo architecture versus Baroque](/rococo-architecture-vs-baroque/) addresses another pair of often-confused labels. It belongs to a later period and compares a different set of buildings; it offers further practice in checking what a comparison actually describes."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are Pantheon and Parthenon the same?",
+        "answer": "No. One stands in Italy’s capital and contains a round domed room; the other occupies the Athenian Acropolis and has a rectangular plan. Compare the [Roman monument record](https://direzionemuseiroma.cultura.gov.it/en/pantheon/) with [YSMA’s description](https://www.ysma.gr/en/monuments/parthenon/)."
+      },
+      {
+        "question": "Why don’t they rebuild the Parthenon?",
+        "answer": "The conservation programme prioritizes surviving ancient fabric. Its rules permit limited additions and require respect for each member’s structural role, with the possibility of reversing an intervention. See [the published restoration principles](https://www.ysma.gr/en/restoration/principles-of-interventions/)."
+      },
+      {
+        "question": "Parthenon vs Pantheon: which is older?",
+        "answer": "The Athenian monument predates the standing Roman one. [YSMA](https://www.ysma.gr/en/monuments/parthenon/) places the Greek construction in the fifth century BCE, while the [Pantheon authority](https://direzionemuseiroma.cultura.gov.it/en/pantheon/) dates the Roman reconstruction to Hadrian’s second-century CE reign."
+      },
+      {
+        "question": "Which building has the hole in its dome?",
+        "answer": "The opening belongs to the Roman Pantheon. The roof aperture admits sunlight and precipitation, with drainage provided below; the [museum’s account of the aperture](https://direzionemuseiroma.cultura.gov.it/pantheon/cenni-storici/) explains this arrangement."
+      }
+    ],
+    "sources": [
+      {
+        "label": "YSMA: Parthenon",
+        "url": "https://www.ysma.gr/en/monuments/parthenon/"
+      },
+      {
+        "label": "Acropolis Museum: Parthenon Gallery",
+        "url": "https://www.theacropolismuseum.gr/en/exhibit-halls/parthenon-gallery"
+      },
+      {
+        "label": "Italian museum authority: Pantheon",
+        "url": "https://direzionemuseiroma.cultura.gov.it/en/pantheon/"
+      },
+      {
+        "label": "Italian museum authority: historical account",
+        "url": "https://direzionemuseiroma.cultura.gov.it/pantheon/cenni-storici/"
+      },
+      {
+        "label": "YSMA: restoration principles",
+        "url": "https://www.ysma.gr/en/restoration/principles-of-interventions/"
+      },
+      {
+        "label": "YSMA: restoration methods",
+        "url": "https://www.ysma.gr/en/the-service/fields-work/restoration/"
+      },
+      {
+        "label": "Smarthistory: Pantheon (indexed excerpt; full page unavailable)",
+        "url": "https://smarthistory.org/the-pantheon/"
+      },
+      {
+        "label": "Italia.it: Pantheon",
+        "url": "https://www.italia.it/en/lazio/rome/pantheon"
+      }
+    ]
   }
 ];

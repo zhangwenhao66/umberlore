@@ -27,6 +27,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1200,
   "w": 859
  },
+ "/images/amalienburg-hall-of-mirrors.avif": {
+  "h": 1428,
+  "w": 1920
+ },
+ "/images/amalienburg-hall-of-mirrors.jpg": {
+  "h": 1428,
+  "w": 1920
+ },
+ "/images/amalienburg-hall-of-mirrors.webp": {
+  "h": 1428,
+  "w": 1920
+ },
  "/images/andy-warhol-jack-mitchell-portrait.avif": {
   "h": 480,
   "w": 598
@@ -41,6 +53,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/andy-warhol-silkscreen-process-diagram.svg": {
   "h": 620,
+  "w": 1200
+ },
+ "/images/antique-oil-painting-craquelure.avif": {
+  "h": 1336,
+  "w": 1200
+ },
+ "/images/antique-oil-painting-craquelure.jpg": {
+  "h": 1336,
+  "w": 1200
+ },
+ "/images/antique-oil-painting-craquelure.webp": {
+  "h": 1336,
   "w": 1200
  },
  "/images/aphrodite-painting-giorgione-sleeping-venus.jpg": {
@@ -915,6 +939,22 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1030,
   "w": 1600
  },
+ "/images/parthenon-vs-pantheon-oculus.jpg": {
+  "h": 1200,
+  "w": 1600
+ },
+ "/images/parthenon-vs-pantheon-west-facade.avif": {
+  "h": 1034,
+  "w": 1600
+ },
+ "/images/parthenon-vs-pantheon-west-facade.jpg": {
+  "h": 1034,
+  "w": 1600
+ },
+ "/images/parthenon-vs-pantheon-west-facade.webp": {
+  "h": 1034,
+  "w": 1600
+ },
  "/images/pattern-in-art-darb-i-imam-spandrel.avif": {
   "h": 431,
   "w": 646
@@ -1069,6 +1109,30 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/abstract-art-kandinsky-untitled-watercolor-sm.webp": {
   "h": 577,
+  "w": 750
+ },
+ "/images/responsive/amalienburg-hall-of-mirrors-sm.avif": {
+  "h": 558,
+  "w": 750
+ },
+ "/images/responsive/amalienburg-hall-of-mirrors-sm.jpg": {
+  "h": 558,
+  "w": 750
+ },
+ "/images/responsive/amalienburg-hall-of-mirrors-sm.webp": {
+  "h": 558,
+  "w": 750
+ },
+ "/images/responsive/antique-oil-painting-craquelure-sm.avif": {
+  "h": 835,
+  "w": 750
+ },
+ "/images/responsive/antique-oil-painting-craquelure-sm.jpg": {
+  "h": 835,
+  "w": 750
+ },
+ "/images/responsive/antique-oil-painting-craquelure-sm.webp": {
+  "h": 835,
   "w": 750
  },
  "/images/responsive/aphrodite-painting-titian-venus-urbino-sm.avif": {
@@ -1599,6 +1663,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 483,
   "w": 750
  },
+ "/images/responsive/parthenon-vs-pantheon-west-facade-sm.avif": {
+  "h": 485,
+  "w": 750
+ },
+ "/images/responsive/parthenon-vs-pantheon-west-facade-sm.jpg": {
+  "h": 485,
+  "w": 750
+ },
+ "/images/responsive/parthenon-vs-pantheon-west-facade-sm.webp": {
+  "h": 485,
+  "w": 750
+ },
  "/images/responsive/pop-art-whitechapel-gallery-exterior-sm.avif": {
   "h": 1000,
   "w": 750
@@ -1998,6 +2074,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/venus-de-milo-louvre.webp": {
   "h": 1400,
   "w": 563
+ },
+ "/images/versailles-hall-of-mirrors.jpg": {
+  "h": 1536,
+  "w": 1024
  },
  "/images/water-lilies-japanese-bridge-1900.jpg": {
   "h": 1328,
