@@ -10178,6 +10178,10 @@ export const guides: Guide[] = [
       {
         "question": "Was the Mona Lisa stolen in the 2025 Louvre robbery?",
         "answer": "No. The 19 October 2025 robbery targeted crown jewels in the Apollo Gallery. Eight pieces, worth around €88 million, were taken (Wikipedia, 2025 Louvre heist)."
+      },
+      {
+        "question": "Does the original Mona Lisa still exist?",
+        "answer": "Yes. Leonardo's painting survives at the Louvre. Its gallery guide identifies the original in room 711 of the museum's Denon wing, protected inside a glass enclosure."
       }
     ],
     "sources": [

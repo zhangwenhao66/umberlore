@@ -3489,3 +3489,28 @@ FAQ重合改写模式：①直接事实描述"survived by rolling out of bed ont
   "diffusion_note": "扩散判定：单站（title长度离群交site-search-opportunity-refresh受控流程处理，非本任务直接修复范围；孤儿页修复方式(About页链接)属本站个案，非通用问题）"
 }
 ```
+
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-10-09)",
+  "site": "umberlore",
+  "slugs_processed": [
+    "how-many-times-was-the-mona-lisa-stolen"
+  ],
+  "faq_added": 1,
+  "sources": [
+    "https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana"
+  ],
+  "source_verification": "Official Louvre gallery guide, live web open 2026-10-09: Room 711 / Denon wing / Salle des États; original wooden panel protected in glass.",
+  "check_prose_patterns": "Baseline rc0; each addition rc0; precommit rc0",
+  "quality_chain": {
+    "humanizer": "Original /Users/zhangwh/.claude/skills/humanizer/SKILL.md read and applied: neutral reference voice, simple clauses, no invented first-person or promotional frame; draft retained after audit. Mechanical overlap revision removed redundant gallery name; location and protection claims retained.",
+    "avoid-ai-writing": "Original /Users/zhangwh/.claude/skills/avoid-ai-writing/SKILL.md read and applied after humanizer: no Tier1 filler, rhetorical reveal, manufactured personality, or dash; second-pass fact qualifiers preserved.",
+    "fidelity": "Every specific location, tense form, practice and employment requirement checked against the listed live official source; no salary or numeric work-hour estimates introduced."
+  },
+  "scope": "Only new FAQ entries; original prose/title/description/sources/dates/FAQ preserved. Partial exposure-priority batch; remaining pages not reached.",
+  "suppression_exception": null,
+  "independent_review": "Root independently opened all four official sources and checked all five FAQ drafts before publication, 2026-10-09; supported. Worker subsequently removed redundant Louvre gallery name for overlap gate, preserving meaning."
+}
+```
