@@ -72,3 +72,13 @@
 ## 2026-09-03 复查：未重新执行完整排查，站龄仍未达复查门槛
 
 站点 2026-08-02 注册，本次复查时站龄约 32 天（不到 2 个月），仍低于上次排查设定的"3-6 个月运营史"复查门槛（对应约 2026 年 10-11 月）。本站内容量已从首次排查时的个位数增长到 59 篇，但绑定本渠道可行性的变量是域名整体的 WP:RS 可信度（新域名、无独立第三方引用历史、无编辑部信号页面），不是文章数量——单篇内容变多不改变这个判断，所以本次不重新执行 WebSearch 排查，避免做重复劳动。编辑部信号页面（署名作者页/事实核查方针/勘误政策）核实仍未上线，"资格积累路径"第2项建议维持有效。下次到点复查前不再逐次追加复查记录。
+
+
+<!-- run:20261009T141607+0800 -->
+## 2026-10-09 近期样本实查
+
+当前核查以词条修订和本站实际内容为准，历史站龄门槛、缺作者页或计算器一律禁止的推断不沿用。本轮是近期样本筛查，非全站穷尽审计；不推进最后有效提交日期。
+
+- UmberLore：本站 `parthenon-vs-pantheon`；维基条目 [Parthenon](https://en.wikipedia.org/w/index.php?oldid=1375607468)，修订 1375607468。结论：柱列4:9等CN需专门建筑文献，本站比较稿不能替代。合格引用建议0、Talk留言0、新提交0、公开上线0。
+
+参考来源资格与外部资源价值分别判断；本站来源更详尽本身不构成可靠来源资格。独立审查已完成，无对外草稿，英文写作链不适用。未编辑维基正文、未新增机会键或虚构回执。证据：`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/screening-results.json`、`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/wiki-current.json`、`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/followup-20261009T1515-receipt.json`。
