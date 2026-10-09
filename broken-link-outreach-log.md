@@ -491,3 +491,10 @@ UmberLore断链置换战术累计已发送 **5封**（含1封跟进：Marian Uni
 
 ## 2026-09-30 运行（选站：11-30位曝光第3，583）
 第0步：Saint Paul College已验证过；riveramural.org（09-23）仅7天未到窗口。新方向：中世纪/哥特艺术LibGuide与艺术史网站清单，扫描10页（Manitoba/Dickinson×2/Warburg/South Florida/SCI-Arc/Pima/Missouri/FAU/SCAD）。Warburg Institute页面36条DEAD，但均为意大利文艺复兴文献数据库、档案馆、大学系网页，和本站80篇文章无叙事型对应；唯一沾边的universalleonardo.org（Dickinson、Warburg，Leonardo作品数据库）对应本站mona-lisa，但属数据库类、功能不对等，按既定规则排除；Dickinson/Columbia Amiens项目页同理。未发送。累计口径不变：已发送5封 / 到手0条 / 0%。
+
+
+## 2026-10-09 Codex正式运行（run-id: 20261009T2100）
+
+原任务源码SHA 0ba445bbeffccdc04fdb2129ec95cd04b96e56ce31153b420a2dd4a2e89ca61c，完整覆盖1–176行。先查旧账及全账号Gmail，再复查来源页HTTP200、未出现本站替换链接；DataForSEO未找到对应来源域名外链。本次0发送、0新提交、0获链。原十站累计原账口径79封/0确认获链（不同站日志计数存在历史ID差异，非新增投递）。成本全轮$0.1221。证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-broken-link-building/20261009T2100/old-review.json、umberlore-backlinks.txt。
+旧信超过14天窗口，不补发跟进；本轮仅完成到期核实，后续30天复查队列已登记。
+17站今日已确认新提交2/102、缺口100（alpha1、gamma1，其余0）；本专项0。公开上线本轮未重新验证，未检查不算完成。完整逐站表：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-broken-link-building/20261009T2100/17站当日覆盖.md。外链范围最新覆盖17站，但专项仅真实适配子集；主执行器补缺。低转化79/0已登记原统一待办，不重复新增策略告警。
