@@ -1,0 +1,196 @@
+{
+  "run_id": "20261009T1725",
+  "task_source_sha": "78cfe39fa7f9f837016ead288409db84f7aad017cd40886427f570b8209fa200",
+  "planned_pages": [
+    "UmberLore/bob-ross-most-famous-painting"
+  ],
+  "checked_pages": [
+    "UmberLore/bob-ross-most-famous-painting"
+  ],
+  "unchecked_pages": [
+    "LingoGrove",
+    "DayAlmanac",
+    "CalcBadger",
+    "Hollowvane",
+    "MythCairn",
+    "Morningwit",
+    "CloverAcre",
+    "Burrowkin",
+    "FactCrumbs",
+    "WageLark",
+    "WarCrumbs"
+  ],
+  "full_audits_completed": 0,
+  "partial_audits": 1,
+  "frozen_excluded": [
+    "DialWick"
+  ],
+  "findings": [
+    {
+      "id": "million_claim",
+      "claim": "auction results for three other pieces already exceed one million dollars",
+      "rule_ref": "R-seo-29 / L-0924-3 / L-1009-1",
+      "basis_type": "source-content + internal consistency",
+      "source_urls": [
+        "https://www.bonhams.com/auction/30700/lot/205/bob-ross-1942-1995-lake-below-snow-capped-peaks-and-cloudy-sky-18-x-24-in-457-x-61-cm-painted-circa-1990-91/",
+        "https://www.theartnewspaper.com/2025/11/26/bob-ross-record-john-oliver-auction-benefit-public-television-trump-cuts",
+        "https://www.wbur.org/news/2026/01/28/bob-ross-painting-auction-results-public-television-record"
+      ],
+      "source_evidence": "The sentence implies three individual works exceeded $1m. Of the three listed prices, only Cabin at Sunset exceeds $1m; the other two are $114,800 and $787,900. If meant cumulatively, the wording is ambiguous and still misleading.",
+      "review_status": "confirmed",
+      "action_status": "deployed-verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/production-content-match.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/cf-api-after.json"
+      ]
+    },
+    {
+      "id": "all_fundraisers",
+      "claim": "three other paintings ... all through fundraisers tied to public broadcasting",
+      "rule_ref": "R-seo-29 / L-0924-3 / L-1009-1",
+      "basis_type": "source-content + internal consistency",
+      "source_urls": [
+        "https://www.bonhams.com/auction/30700/lot/205/bob-ross-1942-1995-lake-below-snow-capped-peaks-and-cloudy-sky-18-x-24-in-457-x-61-cm-painted-circa-1990-91/",
+        "https://www.theartnewspaper.com/2025/11/26/bob-ross-record-john-oliver-auction-benefit-public-television-trump-cuts",
+        "https://www.wbur.org/news/2026/01/28/bob-ross-painting-auction-results-public-television-record"
+      ],
+      "source_evidence": "August Bonhams lot is explicitly private-family property with private collection provenance. Later public media charity auctions cannot be projected backward onto that ordinary private consignment. Moreover the sources establish additional November/January works, so three is a selected comparison, not a complete count.",
+      "review_status": "confirmed",
+      "action_status": "deployed-verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/production-content-match.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/cf-api-after.json"
+      ]
+    },
+    {
+      "id": "hammer_price",
+      "claim": "three other paintings have documented hammer prices",
+      "rule_ref": "R-seo-29 / L-0924-3 / L-1009-1",
+      "basis_type": "source-content + internal consistency",
+      "source_urls": [
+        "https://www.bonhams.com/auction/30700/lot/205/bob-ross-1942-1995-lake-below-snow-capped-peaks-and-cloudy-sky-18-x-24-in-457-x-61-cm-painted-circa-1990-91/"
+      ],
+      "source_evidence": "At least the August figure explicitly includes buyer’s premium, so hammer prices is incorrect for the shared price label.",
+      "review_status": "confirmed",
+      "action_status": "deployed-verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/production-content-match.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/cf-api-after.json"
+      ]
+    },
+    {
+      "id": "cabin_year",
+      "claim": "Cabin at Sunset painted for a 1986 episode vs cited source 1987",
+      "rule_ref": "R-writing-04 / factual evidence threshold",
+      "basis_type": "independent-source review",
+      "source_urls": [
+        "https://www.theartnewspaper.com/2025/11/26/bob-ross-record-john-oliver-auction-benefit-public-television-trump-cuts",
+        "https://www.bobross.com/joy-of-painting-tv10/",
+        "https://e.givesmart.com/events/LYw/"
+      ],
+      "source_evidence": "The Art Newspaper labels the work 1987. Third-party episode lists identify the Season 10 Episode 2 broadcast as September 10 1986. Official Bob Ross product page confirms series 10 episode 2, but does not establish the work’s painting date or broadcast year. Episode airdate and canvas creation date are different assertions. No primary evidence in this review resolves 1986 vs 1987.",
+      "review_status": "unverified",
+      "action_status": "unsupported-year-removed",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/production-content-match.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/cf-api-after.json"
+      ]
+    },
+    {
+      "id": "dark_life_last_words_paa",
+      "claim": "Add PAA answers about dark personal life or last words",
+      "rule_ref": "R-writing-04 / factual evidence threshold",
+      "basis_type": "independent-source review",
+      "source_urls": [],
+      "source_evidence": "No precise PAA wording or reliable supporting evidence was provided or established. These topics do not help answer the painting question. Do not infer sensational biography or fabricate last words.",
+      "review_status": "rejected",
+      "action_status": "not-added",
+      "verification_evidence": []
+    },
+    {
+      "id": "record_duration",
+      "claim": "record lasted three months; Cabin nine times previous record",
+      "rule_ref": "L-1009-1",
+      "basis_type": "missing chronological intermediate sale",
+      "source_urls": [
+        "https://www.theartnewspaper.com/2025/11/26/bob-ross-record-john-oliver-auction-benefit-public-television-trump-cuts"
+      ],
+      "source_evidence": "Winter’s Peace $318000 on November11 is an intermediate record; sampled table cannot establish duration or previous ratio.",
+      "review_status": "confirmed",
+      "action_status": "deployed-verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/production-content-match.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/cf-api-after.json"
+      ]
+    },
+    {
+      "id": "image_onlooker_count",
+      "claim": "watched by two onlookers",
+      "rule_ref": "L-0809-4",
+      "basis_type": "independent visual inspection",
+      "source_urls": [
+        "https://commons.wikimedia.org/wiki/File:Bob_Ross_Alaska_Painting.jpg"
+      ],
+      "source_evidence": "Front two plus additional spectators visible; image-alt-review.json independent confirmation.",
+      "review_status": "confirmed",
+      "action_status": "deployed-verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/production-content-match.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/cf-api-after.json"
+      ]
+    }
+  ],
+  "quality_reports": [
+    "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/quality-final.json",
+    "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/writing-review-after.json",
+    "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/independent-findings-final.json",
+    "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/image-alt-review.json"
+  ],
+  "limitations": [
+    "Two organic YouTube competitor pages timed out; full body structure not checked.",
+    "Site-wide policy behaviour and both timed-out competitor body structures remain unchecked; mobile Lighthouse completed for selected article.",
+    "Mechanical runner has18 batch-only/unsupported items. Bridge candidate gate resolved separately with independent notes.",
+    "Numeric consistency batch is unsupported; 17 unchecked explicitly recorded."
+  ],
+  "inputs": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/worktrees/quality-audit-20261009-1725/src/data/guides.ts",
+    "file_sha256": "294628c7d09a5f6d7d0d68cc4fa4b642fa091dcd7a5bcaf0a95958cc308bd307",
+    "start": 1536821,
+    "end": 1553797,
+    "characters": 16976,
+    "article_sha256": "434355e0d358d2d31d563cb1009de168b2f9c6b1a42a91515a4a76e7681de035",
+    "truncated": false,
+    "rendered": false
+  },
+  "cost_usd": 0.002,
+  "geo_before": 78,
+  "geo_after": 85,
+  "production_verified": true,
+  "last_audited_advanced": false,
+  "matrix_exact_scope": {
+    "expected": 17,
+    "checked": 17,
+    "unchecked": 0,
+    "hits_sites": 1,
+    "hits_pages": 1
+  },
+  "prevention_commit": "62c3cf5",
+  "content_commit": "24c2b4c6f2eccd7c6e499a18e8289f431ddd0969",
+  "deployment_id": "10f59b9f-6043-4d48-b4e3-f7376e46821a",
+  "completed_at": "2026-10-09T17:53:14.317275+08:00",
+  "cwv": {
+    "scope": "single-page mobile Lighthouse lab, not field CWV",
+    "perf": 98,
+    "lcp_seconds": 1.9,
+    "cls": 0.08,
+    "tbt_ms": 0,
+    "state": "good"
+  },
+  "indexnow": {
+    "urls": 3,
+    "bing": 200,
+    "yandex": 200,
+    "accepted_not_indexed": true
+  },
+  "new_inbound_body_links": 2
+}

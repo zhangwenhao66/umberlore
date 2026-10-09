@@ -3618,3 +3618,18 @@ Mandatory semantic resolutions: description is a complete imperative sentence, p
 
 IndexNow Bing200/Yandex200 and CWV perf95/LCP2.4s/CLS0.098/TBT0ms were reported by the main agent after this deployment. Those records were not among the four artifacts requested for this recheck and are therefore attributed to that agent, not falsely claimed independently inspected here. IndexNow acceptance means accepted request, not indexed page. No new mandatory article correction identified.
 
+
+
+## 2026-10-09 17:25 trafficsite-content-quality-audit — 20261009T1725
+
+本轮按最久未完整审计顺序选择 UmberLore，PAA 候选 bob-ross-most-famous-painting（128 impressions / position 8.9 / 原正文入链1）。完整审计0，部分审计1；last_audited 未推进。其余11站未轮到，冻结 DialWick 排除。无新文章发布，不补跑窗口。
+
+确认5项并上线：误称三幅作品都超过100万美元、误称全部为公益拍卖、将含佣金结果称为hammer price、忽略中间成交导致纪录持续时间/倍数错误、照片旁观者人数错误。Cabin年份1986/1987缺可靠证据，删除年份并保留官方 series10 episode2；煽情人物PAA无可靠证据，未添加。表格逐行区分来源/公益状态/价格口径，最高价格仅限所列成交，未虚构拍卖类别来解释矛盾。
+
+英文链 humanizer → avoid-ai-writing 完整实读及检测/改稿/复核，三位独立agent完成事实、写作、SEO/GEO/垃圾政策审查；另有图片目视复核。GEO 78/99→85/99，为人工启发式评分，不代表排名。正文入链新增2（most-expensive-painting-in-the-world、famous-landscape-paintings），独立桥接核实通过；总入链来源3。标题/slug/发布日期保持，三页updated=2026-10-09。
+
+验证：101页构建通过；单篇机械检查34通过/1桥接候选/18未检查，桥接独立notes已通过，无未解决候选；并非全部53项通过。线上三URL应查3/实查3/未检查0，HTTP200、canonical/H1/robots索引信号PASS，三个main正文均与本地审核构建完全相同。SEO drift仅预期FAQ/schema内容变化，未丢失正文表格/图片/内链。CF部署10f59b9f-6043-4d48-b4e3-f7376e46821a成功，对应24c2b4c6f2eccd7c6e499a18e8289f431ddd0969。IndexNow三URL获Bing200/Yandex200，仅表示接受请求。移动端Lighthouse perf98/LCP1.9s/CLS0.080/TBT0ms，好；并非真实用户CWV。
+
+扩散判定：通用 / 扫描范围：17站（精确错误表述扫描未检查0；数字一致性批量模式不支持，17站该子项未检查）/ 命中：1站1篇 / 修复：当场1篇事实修正+2页入链 / 防复发：L-1009-1 + 发布独审B-129第10项，kit62c3cf5已推送。冻结/walled约束保持。
+
+未检查边界：2个YouTube竞争页全文超时；全站政策行为未审；机械runner18个仅批量/不支持项。这是部分审计，不能更新完整审计日期。真实SERP费用$0.0020。原项目脏checkout/index/他人claim未改，独立worktree提交并部署。证据JSON：audit-findings-20261009T1725.json；完整receipt保存在 /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/。已记录共享工作日志，不更新作战数据台、不发送状态邮件。

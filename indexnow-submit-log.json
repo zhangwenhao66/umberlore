@@ -333,9 +333,10 @@
   },
   "https://umberlore.com/famous-landscape-paintings/": {
     "submitted_date": "2026-08-27",
-    "last_submitted_date": "2026-09-22",
+    "last_submitted_date": "2026-10-09",
     "verified_status": "verified_indexed",
-    "verified_date": "2026-10-08"
+    "verified_date": "2026-10-08",
+    "note": "audit update 20261009T1725 | [{\"urls\":[\"https://umberlore.com/bob-ross-most-famous-painting/\",\"https://umberlore.com/most-expensive-painting-in-the-world/\",\"https://umberlore.com/famous-landscape-paintings/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
   },
   "https://umberlore.com/sand-painting/": {
     "submitted_date": "2026-08-27",
@@ -503,8 +504,9 @@
   },
   "https://umberlore.com/most-expensive-painting-in-the-world/": {
     "submitted_date": "2026-09-24",
-    "last_submitted_date": "2026-09-26",
-    "verified_status": "pending"
+    "last_submitted_date": "2026-10-09",
+    "verified_status": "pending",
+    "note": "audit update 20261009T1725 | [{\"urls\":[\"https://umberlore.com/bob-ross-most-famous-painting/\",\"https://umberlore.com/most-expensive-painting-in-the-world/\",\"https://umberlore.com/famous-landscape-paintings/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
   },
   "https://umberlore.com/are-thomas-kinkade-paintings-worth-anything/": {
     "submitted_date": "2026-09-26",
@@ -523,7 +525,8 @@
   },
   "https://umberlore.com/bob-ross-most-famous-painting/": {
     "submitted_date": "2026-09-29",
-    "last_submitted_date": "2026-09-29",
-    "verified_status": "pending"
+    "last_submitted_date": "2026-10-09",
+    "verified_status": "pending",
+    "note": "audit update 20261009T1725 | [{\"urls\":[\"https://umberlore.com/bob-ross-most-famous-painting/\",\"https://umberlore.com/most-expensive-painting-in-the-world/\",\"https://umberlore.com/famous-landscape-paintings/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
   }
 }
