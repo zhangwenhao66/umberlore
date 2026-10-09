@@ -1,0 +1,196 @@
+{
+  "run_id": "20261009T2125",
+  "article": "rococo-architecture-vs-baroque",
+  "counts": {
+    "eligible_sites": 12,
+    "planned_articles": 1,
+    "partial_articles": 1,
+    "fully_audited_articles": 0,
+    "confirmed_findings": 2,
+    "repaired_findings": 2,
+    "last_audited_advanced": false,
+    "not_reached": [
+      "CalcBadger",
+      "DayAlmanac",
+      "LingoGrove",
+      "Hollowvane",
+      "MythCairn",
+      "Morningwit",
+      "CloverAcre",
+      "Burrowkin",
+      "FactCrumbs",
+      "WarCrumbs",
+      "WageLark"
+    ],
+    "frozen_excluded": [
+      "DialWick"
+    ]
+  },
+  "findings": [
+    {
+      "id": "amalienburg-role-conflation",
+      "review_status": "confirmed",
+      "action_status": "deployed_verified",
+      "rule_ref": "L-0930-2/L-1008-1/L-0817-3",
+      "basis_type": "official",
+      "reason": "把设计者与工艺执行者分工写成来源矛盾；官方详细页明确两职责。",
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/alternate-0.txt",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/second-review.json"
+      ],
+      "replacement": "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/minimal-factual-draft.md",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/production-verification.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/final-review.json"
+      ],
+      "propagation": "通用归因失效模式；实体扫描17/17仅本篇命中；现有教训与源头独审已有覆盖，子任务无修复权限",
+      "before": "The Bavarian Palace Department credits Cuvilliés with the design, while Wikipedia credits the hall itself to the stucco sculptor Johann Baptist Zimmermann and the carver Joachim Dietrich, so who shaped the room depends on which source you read.",
+      "after": "The Bavarian Palace Administration credits François Cuvilliés the Elder with the \"designs for the architecture and decoration\" and supervision of the craftsmen. Johann Baptist Zimmermann carried out most of the stucco work, and Johann Joachim Dietrich the woodcarving."
+    },
+    {
+      "id": "soubise-phase-conflation",
+      "review_status": "confirmed",
+      "action_status": "deployed_verified",
+      "rule_ref": "L-0930-2/L-1008-1/L-0817-3",
+      "basis_type": "official",
+      "reason": "把commission/pavilion/decoration三个阶段写成年份分歧，another source不具名。",
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/official-0.txt",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/second-review.json"
+      ],
+      "replacement": "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/minimal-factual-draft.md",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/production-verification.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/final-review.json"
+      ],
+      "propagation": "通用归因失效模式；实体扫描17/17仅本篇命中；现有教训与源头独审已有覆盖，子任务无修复权限",
+      "before": "The Salon de la Princesse in the Hôtel de Soubise in Paris, decorated by Germain Boffrand with paintings by Natoire and others, falls in the 1730s, although sources disagree on the exact years. Britannica says the salons were begun in 1732, Wikipedia gives 1735 to 1740 for Boffrand's interiors, and another source says 1735 to 1739.",
+      "after": "The Salon de la Princesse in the Hôtel de Soubise in Paris forms part of Germain Boffrand's Rococo interiors, with paintings by Charles Natoire and others. The French National Archives dates the commission for new arrangements to 1732. Boffrand's oval pavilion followed in 1735, with work on the interiors beginning in 1736; the Archives' timeline dates the oval pavilion and interior decoration to 1735 to 1740."
+    }
+  ],
+  "dimensions": [
+    {
+      "number": 1,
+      "dimension": "EEAT",
+      "status": "checked_with_findings",
+      "evidence": "官方建筑管理机构、UNESCO及百科可回溯；角色归因两处需窄修。"
+    },
+    {
+      "number": 2,
+      "dimension": "事实准确性",
+      "status": "partial",
+      "evidence": "全文已读并核专属5项；Gesù1568/1584、椭圆宗教反例、凡尔赛17/357/73米、Amalienburg1734-39、Soubise分阶段、Würzburg1720-44/1740-70获得支持；Britannica原页仍不能完整读，Rococo/Baroque两篇Wikipedia长文未全读，不能宣称全部断言验证通过。"
+    },
+    {
+      "number": 3,
+      "dimension": "时效性",
+      "status": "checked",
+      "evidence": "published/updated2026-10-08，常青建筑史，无需加2026标题；没有证据要求改动历史日期。"
+    },
+    {
+      "number": 4,
+      "dimension": "竞争差异化",
+      "status": "checked",
+      "evidence": "唯一实时SERP；前三organic H2/H3与正文：LAJ、Heartwood代理全文、Invaluable全文已读。共同子题mood/symmetry/color/period已覆盖，无≥2站共有且本篇缺的强制新增子题。AI overview有11引用无本站；本文椭圆/宗教反例+四组日期实例+比较表超过一句定义。"
+    },
+    {
+      "number": 5,
+      "dimension": "SEO技术",
+      "status": "root_evidence",
+      "evidence": "seo-page/site/schema/fetch.json真实产物；页面title/meta/H1/slug语义合适。字段统计title43 z=-1.46、description158 z=-0.50，不能用长度判缺陷。root报告技术35实跑34PASS/桥接候选待复核及18无接口未检查。"
+    },
+    {
+      "number": 6,
+      "dimension": "GEO",
+      "status": "heuristic",
+      "evidence": "原文72/99；见11项权重。两处修订并引正确官方短语的候选82/99，未上线不计完成，渲染/AI平台总体可见性未检查。"
+    },
+    {
+      "number": 7,
+      "dimension": "早期AI味",
+      "status": "not_applicable_date",
+      "evidence": "2026-10-08晚于2026-08-07。针对最小修订真实完整执行humanizer→avoid-ai-writing，见draft；没有因此批量改原文结构。"
+    },
+    {
+      "number": 8,
+      "dimension": "外链腐烂",
+      "status": "partial",
+      "evidence": "16来源全部请求。Britannica2及UNESCO2 curl403为拦截不能当死链；UNESCO web可读替代。未发现404；Britannica浏览器/代理仍失败，不把摘要当全文。"
+    },
+    {
+      "number": 9,
+      "dimension": "内链健康",
+      "status": "partial",
+      "evidence": "完整目标baroque-paintings叙述支持drama，bridge-verify.json；STPeter/Parthenon延伸阅读语义核对；art-styles支持命名贬义。正文入链至少2已找到，但GSC脚本TimeoutError，临门排名及自动候选未检查。"
+    },
+    {
+      "number": 10,
+      "dimension": "Schema一致性",
+      "status": "root_evidence",
+      "evidence": "原文标题/日期/FAQ字段存在，root seo-schema.json与生产核查为准；此子任务没有更改可见内容或schema。"
+    },
+    {
+      "number": 11,
+      "dimension": "敏感漂移",
+      "status": "checked",
+      "evidence": "艺术/宗教史中性语境，不涉及现实人群诋毁、争议人物新闻；未见须更新的时事事实。"
+    },
+    {
+      "number": 12,
+      "dimension": "配图许可",
+      "status": "checked_license_visual_unchecked",
+      "evidence": "Commons两许可页完整读：Amalienburg Rufus46 CC BY-SA3；Versailles MichaelShade public domain。图注/许可吻合；静态已存在但屏幕裁剪及主体可见由root因browser双超时记未检查。"
+    },
+    {
+      "number": 13,
+      "dimension": "广告合规",
+      "status": "partial",
+      "evidence": "正文无武器/赌博/毒品操作或血腥渲染。Layout inert→consent grant加载，native及banneriframe无popunder代码；仅静态核查，不代表Adsterra平台inventory及真实创意通过，广告诱点布局可视未检查。root核ads.txt/隐私。"
+    },
+    {
+      "number": 14,
+      "dimension": "机械散文",
+      "status": "checked_pass",
+      "evidence": "check_prose_patterns退出0：1835词，own0，contrast0，narrativehyphen0，5FAQ无≥20连续字符正文重复。"
+    },
+    {
+      "number": 15,
+      "dimension": "GoogleSpam",
+      "status": "checked_sample_pass",
+      "evidence": "真实读技能与当前官方完整政策/HelpfulContent/AI features。11类：cloaking、doorway、expired domain、hacked、hidden、keywordstuffing、linkspam、machinegeneratedtraffic、malware、scaledabuse、misleading均无本篇证据。AI三要素：有多建筑辨识分析非维基改写；匿名来源及假冲突损及准确性，已形成具体发现。全站未来scaled模式与账号后台不因此获PASS。"
+    }
+  ],
+  "geo_before": 72,
+  "geo_after": 82,
+  "geo_max": 99,
+  "geo_scope": "heuristic text quality; not AI citation probability",
+  "technical": {
+    "runner_total": 53,
+    "supported_passed": 35,
+    "unsupported_unchecked": 18,
+    "bridge_override_evidence": "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/bridge-final.txt",
+    "index_signals": "PASS",
+    "schema_warning_resolved": "only expected dateModified changed",
+    "schema_recommended_publisher": "template advisory, no article change"
+  },
+  "keyword_evidence": "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/keyword-evidence.json",
+  "limitations": [
+    "Britannica two full source pages inaccessible after curl/web/proxy/browser attempts",
+    "Wikipedia Rococo/Baroque full body not entirely verified",
+    "CUA two timeouts; actual ad-interaction behavior untested",
+    "GSC query TimeoutError",
+    "SERP depth10 returned six organic results; cannot claim complete top10 identity classification",
+    "IndexNow Bing outcome unknown; Yandex 200 accepted; no blind replay"
+  ],
+  "propagation": {
+    "scope": 17,
+    "checked": 17,
+    "other_entity_hits": 0,
+    "prevention_commit": "ccc4fb5",
+    "prepublish_block": "B-129 item11",
+    "existing_lessons": [
+      "L-0930-2",
+      "L-0817-3"
+    ]
+  }
+}

@@ -3633,3 +3633,18 @@ IndexNow Bing200/Yandex200 and CWV perf95/LCP2.4s/CLS0.098/TBT0ms were reported 
 扩散判定：通用 / 扫描范围：17站（精确错误表述扫描未检查0；数字一致性批量模式不支持，17站该子项未检查）/ 命中：1站1篇 / 修复：当场1篇事实修正+2页入链 / 防复发：L-1009-1 + 发布独审B-129第10项，kit62c3cf5已推送。冻结/walled约束保持。
 
 未检查边界：2个YouTube竞争页全文超时；全站政策行为未审；机械runner18个仅批量/不支持项。这是部分审计，不能更新完整审计日期。真实SERP费用$0.0020。原项目脏checkout/index/他人claim未改，独立worktree提交并部署。证据JSON：audit-findings-20261009T1725.json；完整receipt保存在 /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T1725/。已记录共享工作日志，不更新作战数据台、不发送状态邮件。
+
+
+## 2026-10-09 21:25 Codex 部分审计 / run 20261009T2125
+
+rococo-architecture-vs-baroque：完整读取正文并执行15维审查，两处角色/阶段混淆经第二独审确认、窄修且已部署。published=2026-10-08保留，updated=2026-10-09；title/description/slug未改。GEO启发式72/99→82/99。完整审计0/部分1，来源全文和实际广告交互缺证据，**不推进 last_audited**。
+
+content commit 841e909；CF生产29acb8c5-1b49-483a-a686-a7365320d38f，绕缓存main正文与构建相等；索引信号PASS，schema仅预期dateModified变化。53机械项35实跑通过（桥接独审记录单独回填），18未支持单篇未检查。移动lab perf96 LCP2.2s CLS0.097 TBT2ms，非真实用户CWV。IndexNow Yandex200，Bing结果未知，未盲目重放。
+
+扩散判定：通用 / 扫描范围：17站（未检查0）/ 命中：1站1篇 / 修复：当场2处 / 防复发：B-129 item11，复用L-0930-2/L-0817-3，kit ccc4fb5。未轮到：CalcBadger, DayAlmanac, LingoGrove, Hollowvane, MythCairn, Morningwit, CloverAcre, Burrowkin, FactCrumbs, WarCrumbs, WageLark；DialWick冻结排除。详细findings及15维三态见audit-findings-20261009T2125.json和本轮独审证据。
+
+关键词｜来源/日期/地域｜月量｜KD｜CPC/币种｜广告竞争｜SERP｜本站表现
+---|---|---|---|---|---|---|---
+rococo architecture vs baroque｜DataForSEO Google 10/9 US en desktop；既有PAA文章事实修复｜未查(非新选题)｜未查｜未查｜未查｜6个自然结果；前三全文；PAA/AIO｜GSC TimeoutError未检查；Bing未查
+
+费用$0.0020；原始响应与全部排名见/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/keyword-evidence.json。本轮receipt：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/receipt.json。

@@ -528,5 +528,11 @@
     "last_submitted_date": "2026-10-09",
     "verified_status": "pending",
     "note": "audit update 20261009T1725 | [{\"urls\":[\"https://umberlore.com/bob-ross-most-famous-painting/\",\"https://umberlore.com/most-expensive-painting-in-the-world/\",\"https://umberlore.com/famous-landscape-paintings/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
+  },
+  "https://umberlore.com/rococo-architecture-vs-baroque/": {
+    "submitted_date": "2026-10-09",
+    "last_submitted_date": "2026-10-09",
+    "verified_status": "pending",
+    "note": "audit-20261009T2125 | [{\"urls\":[\"https://umberlore.com/rococo-architecture-vs-baroque/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":false,\"status\":null,\"error\":\"timeout/error\"},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
   }
 }
