@@ -3517,3 +3517,104 @@ FAQ重合改写模式：①直接事实描述"survived by rolling out of bed ont
 
 ## 2026-10-09 12:55 本轮发布机械检查事实修正
 操作键 umberlore-content-publishing:2026-10-09T1235:frida-kahlo-paintings。新增FAQ独审PASS；原Munch桥接句独审CONFIRMED，notes绑定当前稿。既有共享模板Editorial Team/Written and edited by不实人类编辑声明已改为UmberLore/Published by并上线。扩散判定：通用 / 扫描范围：17站（未检查0）/ 修前9站23处，本站修2处，修后8站21处 / 其他站延续既有批次，不重复立项；DialWick冻结只读 / 防复发：check_editorial_identity.py已入CHECKS.json（94aa5c0）。证据 /Users/zhangwh/.codex/automation-runtime/runs/umberlore-content-publishing/20261009T1235/receipt.json。
+
+umberlore-content-publishing:2026-10-09:owen-followup:parthenon-vs-pantheon
+扩散判定：单篇 / 扫描范围：当前新稿 / 防复发：既有机械及事实二源/独审约束；首轮2必改已修再核全部通过，AI审核不冒充人工。
+# Independent AI review: parthenon-vs-pantheon
+
+Verdict: **PASS for publication review after the two requested fixes were verified.** This is an independent AI review, not evidence of a human/editor review. No project edits, commits, builds, deploys or IndexNow actions were performed by this reviewer. Only private review files and a private site copy were written.
+
+## Scope and artifacts
+
+Reviewed the entire new article, all title/description/coreSummary/FAQ/source/image fields, built-page.html, three linked target articles, Rococo source article and Baroque-paintings bridge target. Read global_authentication_blocker_policy.md fully; original humanizer SKILL.md lines 1–638, avoid-ai-writing 1–822, seo-audit 1–389; additionally the GEO weight reference and spam policy checklist. Sources were read from actual fetched files, not receipt summaries alone. Wikipedia material was inspected in relevant architecture, chronology and preservation passages, not falsely claimed as a full 8,000-line read.
+
+Snapshot guides.ts SHA256: ca0c75dbecebdce8e331207797fdbc177a3ed0eb68bb5581ac657bc4c6905186
+
+Independent run_checks adapted to a private copy because check_bridge_sentences writes candidates to its working directory. The guides argument read the original file; --site pointed to independent-site with src/public/tools/vendor copied. First copy lacked vendor and produced a coverage-pre error; adding the actual vendor copy resolved this without editing the project. Final log: independent-checks-final.log. **51 registered checks: 34 runner PASS, 0 FAIL, 17 UNCHECKED.** No UNCHECKED item is counted as substantive PASS. check_updated_date_sync additionally reports execution failure 1 despite runner exit 0; actual article source and built Article date fields were independently read and match 2026-10-09. check_sources_urls has soft access prompts; official fetched HTML/source files were independently examined. No “all 51 passed” claim is warranted.
+
+UNCHECKED: check_approx_precise_consistency, check_band_table_midpoint_bug, check_calculator_reference_values, check_chart_data_coverage, check_comparatives, check_duplicate_function_drift, check_entity_equivalence, check_generated_file_freshness, check_image_dims_freshness, check_image_filename_collision, check_pdf_quote_verification, check_prompt_injection_scan, check_schema_content_consistency, check_stale_1099_threshold, check_structural_marker_safety, check_svg_em_dash, check_svg_label_overlap. Most are batch-only, calculator/PDF/SVG items are not applicable to this article; comparison, figures, metadata and schema received semantic/HTML review below.
+
+## Content, originality and links
+
+正文计数1769 English word tokens after removing HTML tags and replacing Markdown links with labels (FAQ/sources excluded); exceeds 1500 project floor. There is one new independently useful task: distinguish the two buildings in photographs, while avoiding incorrect dating from an inscription or surviving ruined outline. Same-category title and section skeleton comparison covered what-is-a-gargoyle, st-peters-basilica and rococo-architecture-vs-baroque; they answer drainage identification, a 120-year construction history, and style labels respectively. New headings follow plan → dates → damage → restoration → identification, not a keyword-substituted version of those articles. Automated sibling comparison checks 5 same-category pages without a high-overlap candidate.
+
+Read the actual TheCollector, Diffen and TheHistoryOfArt competitor text. Collector uses a monument-by-monument location/style/purpose overview; Diffen is a standard design/history/use table and contains claims the draft does not inherit; HistoryOfArt is closest in broad recognition/conservation intent and shares the two freely licensed photos. The new article adds specific YSMA intervention rules, old iron/titanium repair method, construction-versus-sculpture milestones, source-bound 43.30/43.44 conflict and explicit image date limits. Those sections carry concrete source-specific detail rather than rearranging competitors' generic support/light/material prose. No copied distinctive prose was found. Shared Commons images alone do not prove copying; both are accurately attributed. This is synthesized sourced explanation, not claimed original field research.
+
+Three outgoing body slugs exist and their complete article text was checked: st-peters-basilica actually discusses dome construction history; what-is-a-gargoyle begins with the functional drainage/grotesque distinction; rococo-architecture-vs-baroque compares later architectural style labels. Bridge wording explicitly limits these adjacent links instead of treating them as evidence for ancient dates. New page extraction finds 0 bridge candidates, but semantic review still covered all 3. Rococo new inbound sentence matches new article's actual plans/building-phase contents; source body outgoing links rise from 3 to 4. Its pre-existing baroque-paintings candidate #1 is CONFIRMED in bridge-notes.json after target full-text review.
+
+True PAA evidence checked directly in research-db/direct-api-log/20261008T094948Z_serp_parthenon-vs-pantheon_e55ac1d0.json: item 1 “Are Pantheon and Parthenon the same?” and item 3 “Why don't they rebuild the Parthenon?” correspond to FAQ 1/2. FAQ 3/4 are editorial questions, not asserted as PAA. All 4 answers are traceable and do not merely repeat body sentences verbatim.
+
+## Facts and image evidence
+
+- Parthenon 8 × 17 columns and 447–438 construction / 432 pediment completion: YSMA actual page; Acropolis Museum gallery independently gives 447 start and fifteen-year programme plus the separated cella; relevant Wikipedia chronology independently agrees on structural/decorative milestone difference.
+- 1687 bombardment/gunpowder: YSMA actual history, Acropolis Museum official museum-history/search excerpt and VisitGreece official Acropolis account support this. Earlier fire and later sculpture removals are acknowledged, avoiding an exclusive-cause claim.
+- Pantheon 16 grey/pink granite Corinthian porch columns: Italian historical account explicitly states sedici; official English historical-background search result independently states sixteen (translation of same institution, not an independent excavation).
+- 609 church consecration: Italian authority actual overview/history and basilica's own pantheonroma.org/vita-liturgica official record independently agree.
+- Dome 43.30/height 43.30: Italian authority actual overview/history. Italia.it actual text gives internal diameter43.44 and height about43; these are preserved as differing published numbers. Requested fix removed the unsupported “differ in precision” explanation. The method or cause of discrepancy remains unknown and is not invented.
+- Trajan about114 / Hadrian125–128: independent current official Smarthistory search output reproduces the actual indexed argument; full-page unavailability is clearly disclosed, so no full-page verification claim. Italian official 118–125 table attribution is source-bound. Agrippa inscription is not used to date the standing dome.
+- Restoration: actual YSMA principles and methods support limited new marble, structural function, reversibility, authentic materials, removal of oxidized iron, titanium connections and Pentelic fills. Added direct quotes were checked verbatim: “Respect for the authentic material” (6 words) and “In restoration supplements of new marble are limited.” (9 words). Fifteen words total from the one source; they are explained rather than injected as decorative authority.
+
+Both actual JPG images visually inspected: west-facade picture shows scaffolding/crane/marble columns/pediment; dome picture shows open oculus/coffers/sunlight patch. Alt accurately describes visible content; it avoids giving unobservable historical dates. Commons actual metadata supports Jebulon, 17May2015, CC0; Góngora, 2016, CC BY-SA4.0. Both source links/license links are present; resize without crop is documented. Head image does not represent current2026 works.
+
+## Writing and SEO
+
+Humanizer → avoid-ai-writing independent detect review PASS after revision: no credibility-killing chatter, invented firsthand experience, expert/human-review claims, promotion, generic future closer, or repeated abstract superlatives. Neutral reference tone is suitable. Headings vary in shape and depth; longer restoration/dating sections do work rather than adding decorative symmetry. A few explicit historical contrasts are justified by the reader's real confusion, not an invented opposing position. No need to add fake first person or arbitrary emotion.
+
+Manual comparatives PASS: older is backed by BCE versus CE chronology; near-equality is identified as a visualization rather than a mathematical survey; no superiority/“best” claim is made in page text. Title46 characters and description154 are descriptive, leading with query naturally; those lengths are project heuristics, not official Google minimums. coreSummary264 characters directly answers identity/roof/inscription distinctions without overpromising.
+
+Built HTML checked: one H1 equals title; title suffix UmberLore; description matches source; canonical https://umberlore.com/parthenon-vs-pantheon/; dates published/modified2026-10-09; two content image paths/alt match article. Article, FAQPage, Organization and BreadcrumbList JSON-LD parse. Article dates match source; FAQ questions/answers match visible text. Existing template publisher recommendation/multiple-schema warning are not new defects caused by this article. The main opening exposes useful answer immediately. Live HTTP deployment, sitemap discovery, and browser viewport rendering are UNCHECKED by this read-only reviewer and belong to the main agent's deployment verification, not to a claim that this already-live page was checked.
+
+## GEO scoring (model judgment; 99-point rubric)
+
+| Dimension | Weight | Score | Evidence and deduction |
+|---|---:|---:|---|
+| Authoritative direct quotes |16|8|Two short verified YSMA quotes on one institution; no broader specialist quotations, so not full credit. |
+| Statistical data completeness |14|13|Dates, columns and dimensions source-bound; conflict admitted; measurement methods unavailable. |
+| Citability / traceability |13|12|Table sources and embedded named primary links; Smarthistory search-only limitation. |
+| Structure |12|11|Direct summary, evidence table, useful heading sequence,4FAQ; no fabricated FAQ expansion. |
+| Fluency |10|9|Plain paragraphs and logical connections; some didactic caveat repetition remains. |
+| Semantic coverage |8|7|Cities, plans, orders, materials,dates,roof,restoration,recognition; avoids irrelevant exhaustiveness. |
+| Trust |8|7|Real institutions/method/limits/update date; no firsthand research, no human review asserted. |
+| Terminology |6|6|cella/rotunda/coffers/oculus explained; exterior Doric/Ionic distinction retained. |
+| Robustness |5|5|Multi-source milestones,dimensions,date disputes,image date limits. |
+| Cross-domain |4|3|Three useful adjacent architectural tasks; no wider transferable technical evidence. |
+| Readability |3|3|Short paragraphs and practical visual cues. |
+
+Total **84/99 = 84.8/100**, penalty0. Original before verified quotes was76/99=76.8; the dimension was0, not invented authority. Current revised score passes project≥80 while acknowledging it is a heuristic AI judgment, not evidence of ranking or citation eligibility.
+
+## Google-spam eleven categories
+
+Three-element assessment: effort=yes (real source and image research); original synthesis=yes, limited to explanatory organization, not exclusive discoveries; added value=yes (repair principles / phase distinctions / conflict / photo limits). New page is not mechanically swapping a variable into a comparison template.
+
+| Category | Result | Basis |
+|---|---|---|
+|1 Scaled content abuse|PASS article scope|Distinct evidence-specific synthesis; site cadence/state remains main agent's gate, not inferred safe from prose. |
+|2 Site reputation abuse|PASS|Own architecture article; no third-party sponsored payload. |
+|3 Expired-domain abuse|N/A|No new acquisition/domain switch in this change; domain history not independently audited. |
+|4 Hidden text/links|PASS changed HTML|Content visible; no hidden keyword block in article HTML. |
+|5 Keyword stuffing|PASS|Query in essential fields/opening; no unnatural body repetition. |
+|6 Link spam|PASS|Three real contextual body targets plus official sources; no paid/exchange links. |
+|7 Scraping|PASS|Actual competitor comparison plus substantive primary-source additions; no copied distinctive prose. |
+|8 Cloaking/doorway|PASS source scope|One article for one reader task; no new alternate landing doorway. Live bot/user differential not tested. |
+|9 Misleading functionality|PASS|Promises identification explanation, supplies table/clues; no nonexistent tool promise. |
+|10 Machine-generated traffic|N/A|No traffic-generation action by this review/article. |
+|11 Malicious practices|PASS changed-content scope|No executable payload or back-button hijack added; existing whole-site third-party scripts not security-audited. |
+
+No article-policy FAIL remains. No generalizable factual defect found requiring a matrix repair; the unsupported precision explanation was specific to this draft and fixed before publication. Existing mechanical coverage limitations are recorded explicitly, not counted as universal site safety.
+
+
+## Final typography-only recheck
+
+PASS retained. Compared the current imported article object to the independently reviewed object with one exact normalization: each en dash → ` to `. Equality was true across the entire nested article; therefore numbers, semantic fields, table structure, sources, quote text, image data, FAQ and URLs are unchanged. Four date-range occurrences across table/body are the only differences. Current article contains zero em/en dashes. Updated built-page.html main text contains all three distinct revised date ranges. No whole audit/check runner rerun was claimed for this scoped recheck; prior 34/0/17 result remains historical evidence for the reviewed substantive content. GEO score remains84/99=84.8; word count changes from1769 to1773 tokens because4 range separators become word tokens, with no information added. New guides.ts SHA256: 294628c7d09a5f6d7d0d68cc4fa4b642fa091dcd7a5bcaf0a95958cc308bd307.
+
+
+## Production stdout recheck
+
+PASS retained after independently reading the actual saved stdout in production-verification.json, seo-drift.log, seo-page-production.json and seo-schema-production.json. This was a log/artifact recheck, not a new fetch. Expected1 production URL / checked1 / unchecked0 within this HTTP/index-signal scope. All four records name https://umberlore.com/parthenon-vs-pantheon/, not a preview or pages.dev hostname. HTTP200, no redirect chain, one matching H1, self-canonical matching final URL, description154 characters and query-led title58 characters. production-verification records real body, both article images, verified quotes, visible/structured FAQ, dates, exact deployed commit verification and live inbound link. Main agent reported commit448d10ef7b04605e7310dc8577f05b358927b9e6 and successful CF deployment65e750fd; these IDs are contextual main-agent evidence, not additional fields invented in the four artifacts.
+
+Index signals PASS: actual meta robots is max-image-preview:large; meta_noindex=false, x_robots_tags=[], header_noindex=false; one production self-canonical; no contradictory noindex instruction. Scope expressly excludes JS execution, robots.txt and GSC. HTTP/index-signal PASS does not prove crawling or indexing. Main-scope word_count2174 includes site/UI/sidebar content and must not replace the article-only1769→1773 token count.
+
+Mandatory semantic resolutions: description is a complete imperative sentence, promises concrete plan/roof/phase identification supplied by the page, uses keyword naturally once, and names official restoration records as its specific source method. Schema script's inferred_page_type=unknown was independently resolved as Article; Article and FAQPage match actual page function. Organization and BreadcrumbList coexisting with them are legitimate complementary descriptions, not demonstrated contradictory entities. Article required headline/datePublished/author/image all present; publisher remains a recommended-field warning in the existing template, not “all schema clean.” BreadcrumbList has no checker ruleset, so not a substantive ruleset PASS.
+
+IndexNow Bing200/Yandex200 and CWV perf95/LCP2.4s/CLS0.098/TBT0ms were reported by the main agent after this deployment. Those records were not among the four artifacts requested for this recheck and are therefore attributed to that agent, not falsely claimed independently inspected here. IndexNow acceptance means accepted request, not indexed page. No new mandatory article correction identified.
+
