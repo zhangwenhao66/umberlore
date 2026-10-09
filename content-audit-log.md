@@ -3514,3 +3514,6 @@ FAQ重合改写模式：①直接事实描述"survived by rolling out of bed ont
   "independent_review": "Root independently opened all four official sources and checked all five FAQ drafts before publication, 2026-10-09; supported. Worker subsequently removed redundant Louvre gallery name for overlap gate, preserving meaning."
 }
 ```
+
+## 2026-10-09 12:55 本轮发布机械检查事实修正
+操作键 umberlore-content-publishing:2026-10-09T1235:frida-kahlo-paintings。新增FAQ独审PASS；原Munch桥接句独审CONFIRMED，notes绑定当前稿。既有共享模板Editorial Team/Written and edited by不实人类编辑声明已改为UmberLore/Published by并上线。扩散判定：通用 / 扫描范围：17站（未检查0）/ 修前9站23处，本站修2处，修后8站21处 / 其他站延续既有批次，不重复立项；DialWick冻结只读 / 防复发：check_editorial_identity.py已入CHECKS.json（94aa5c0）。证据 /Users/zhangwh/.codex/automation-runtime/runs/umberlore-content-publishing/20261009T1235/receipt.json。
