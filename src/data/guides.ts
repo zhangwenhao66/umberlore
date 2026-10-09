@@ -1903,7 +1903,7 @@ export const guides: Guide[] = [
     "title": "Frida Kahlo's Paintings: How a Career This Small Keeps Attracting Fakes",
     "description": "Frida Kahlo painted roughly 150 works. Three authentication disputes since 2009, the latest in October 2025, show how often that short, closed list gets challenged.",
     "published": "2026-08-04",
-    "updated": "2026-08-21",
+    "updated": "2026-10-09",
     "coreSummary": "Frida Kahlo's known body of work is small and largely accounted for: Taschen's 2021 complete-paintings catalogue, edited by art historian Luis-Martín Lozano, gathers 152 paintings, and the Harry Ransom Center notes that 55 of them are self-portraits. That scarcity has not stopped disputed works from surfacing. A 2009 archive of purported Kahlo paintings, letters, and diaries split her own scholars into accusers and an unconvinced owner, with no resolution to date; two attempts in 2019 and 2020 to resell her long-lost largest painting, The Wounded Table, were both rejected, the second because the resurfaced work was painted on the wrong material; and in October 2025 Bavarian police seized forged paintings attributed to Kahlo from a ring that was also selling fake Picassos and Rembrandts.",
     "image": "/images/frida-kahlo-portrait-1919.jpg",
     "imageAlt": "Frida Kahlo photographed in 1919 by her father, commercial photographer Guillermo Kahlo, several years before she began painting.",
@@ -1957,6 +1957,10 @@ export const guides: Guide[] = [
     ],
     "faq": [
       {
+        "question": "Why did Frida Kahlo have a unibrow?",
+        "answer": "Kahlo left the hair between her eyebrows in place. The V&A quotes her writing, \"Of my face, I like the eyebrows and the eyes.\" She also darkened her brows with cosmetics. A Revlon eyebrow pencil in Ebony was found among her possessions in 2004. Her self-portraits repeat the connected brow shape. [The V&A account of her cosmetics](https://www.vam.ac.uk/articles/making-her-self-up) describes how she kept and enhanced her eyebrows."
+      },
+      {
         "question": "How many paintings did Frida Kahlo actually make?",
         "answer": "Estimates cluster around 150 total paintings. Taschen published a catalogue of her complete paintings in 2021 with Luis-Martín Lozano as editor. The publisher itself describes it as gathering \"all 152\" of her paintings. That figure builds on a 1988 raisonné catalogue that scholar Prignitz-Poda co-authored with two colleagues. The Ransom Center reports that self-portraits account for 55 of the total."
       },
@@ -1986,6 +1990,10 @@ export const guides: Guide[] = [
       },
 ],
     "sources": [
+      {
+        "label": "V&A: Making her self up: Frida Kahlo’s cosmetics",
+        "url": "https://www.vam.ac.uk/articles/making-her-self-up"
+      },
       {
         "label": "Harry Ransom Center: Self-Portrait with Thorn Necklace and Hummingbird by Frida Kahlo",
         "url": "https://www.hrc.utexas.edu/frida-kahlo-self-portrait/"
