@@ -131,3 +131,13 @@ Passed `Skill(humanizer)` (removed one em dash and a "worth a look" vague-endors
 **Step 2 / 3.5**: not re-run this pass (time budget went to the pitch, which required 2 review rounds).
 
 **Distribution counts**: peak-creation-age unchanged at 3 sent + 1 follow-up. open-license-art-image-directory now 2/10 sent (Douglas College 9/22, Pratt Institute 9/29).
+
+
+## 2026-10-10 13:30 — Codex / run-id 20261010T1330
+
+- 当前任务源码SHA：98aea1a63cda47dc8bf7f5ccc15de79260112e2567762b2b83483512f801c018，完整覆盖1–248行。
+- GSC窗口2026-09-10至2026-10-07，应查17/实查17/未检查0；按固定首位及前三选CalcBadger、WageLark、alpha、UmberLore。其余13站本轮未轮到，不推进处理日期。
+- 11–30名查询曝光549，进入前三。开放版权图库目录仍未达到10个合格独立邀请，分发优先，不造新资产。补齐一次性同类反查3页（From the Heart/Wisconsin/Francesca）；外链1/1/0，前两条分别自有镜像及BookCreator书页无编辑渠道，未接受。直接发现From the Heart资源页缺Rijksmuseum，网站ETV2102.633、链接/RD=5230/1777≈2.94、首见2019-01-16、近期维护；通用info邮箱公开可核。14天Gmail无重复、17站共享ledger全时域名无匹配、业务日志扫描无重复。英文humanizer→avoid-ai-writing实读检查完成，独立agent heart_review核3页HTTP200及事实/身份/用途后判可以发送。仅保存待Owen明确批准的具体草稿，没有发信、没有Gmail草稿、没有虚构message ID。Iowa曾措辞审查通过，但随后域名比率142超过50硬门槛，草稿拒绝不进发送队列。已有Reddit候选不重复登记，目录不作为原创研究强投。
+- 新资产0；本轮发送N=0，新增已验证dofollow M=0，不计算0/0成功率。有回执历史累计N=21，原日志已确认M=0，M/N=0%；不声称全量历史链接本轮实时复查。未到累计30触发线。
+- 证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-linkable-asset-building/20261010T1330/receipt.json；现存资产未饱和且今天10号未触发15号兜底，本轮不制造资产；只改业务文档，无网站内容部署。
+- 下一步：UmberLore邮件精确草稿待Owen明确说“发”；其余未获新分发机会的对象保留原日期。共享work_journal保存本轮结果，不更新作战数据台。

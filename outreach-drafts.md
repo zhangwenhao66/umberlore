@@ -623,3 +623,50 @@ contact@umberlore.com
 **Dedup**: `gmail_send.py list --query "to:pratt.edu"` → empty.
 
 **Status: SENT (2026-09-29).** `gmail_send.py send --from umberlore --to ccostel5@pratt.edu`, Message ID `1a0edd8a5f099207`.
+
+
+## 2026-10-10 — Iowa Art Library resource recommendation
+
+Status: rejected_target_admission; independent content review passed, but domain average142 links/RD exceeds hard50; not eligible for sending, not sent.
+
+To: patricia-gimenez@uiowa.edu
+From: contact@umberlore.com
+Subject: Museum image sources for your public-domain guide
+
+Hi Patricia,
+
+Your Sources for Public Domain Images guide lists the Met, Getty and National Gallery of Art. It does not currently list the Rijksmuseum or Paris Musées.
+
+UmberLore has a museum image directory that includes both, with links to each institution's reuse terms and notes on checking the individual image record:
+https://umberlore.com/open-license-art-image-directory/
+
+Would you consider it as a supplementary resource for the guide?
+
+Owen Zhang
+Publisher, UmberLore
+
+Evidence: /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-linkable-asset-building/20261010T1330
+Gmail query newer_than:14d (to:uiowa.edu OR to:cornell.edu) returned [] on 2026-10-10. Cross-matrix outreach logs rg found no uiowa.edu. Verify independently; no email may be sent without Owen approving this specific draft.
+
+
+## 2026-10-10 — From the Heart Productions resource recommendation
+
+To: info@fromtheheartproductions.com
+From: contact@umberlore.com
+Subject: Rijksmuseum image source for your museum resources page
+Intent: recommend an existing museum licensing directory to a filmmaker resource page that omits Rijksmuseum. No paid placement, reciprocity, anchor or follow request.
+Status: drafted_pending_Owen_approval (独立审核：可以发送); NOT SENT.
+
+Hello,
+
+Your Copyright Free Museum Images page includes the Met and Paris Museums, but not the Rijksmuseum.
+
+UmberLore's museum image directory includes the Rijksmuseum, with a link to its reuse policy and notes on checking the rights of individual images:
+https://umberlore.com/open-license-art-image-directory/
+
+Would you consider adding it as a supplementary reference on that resource page?
+
+Owen Zhang
+Publisher, UmberLore
+
+Evidence: /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-linkable-asset-building/20261010T1330; Gmail newer_than:14d to:fromtheheartproductions.com returned []; cross-matrix outreach logs no matches. ETV2103, link/RD3, archive2824days, resource and Contact Info pages200, public general info email decoded from site HTML data-enc-email.
