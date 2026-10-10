@@ -79,8 +79,11 @@
         }
       ],
       "review_status": "confirmed",
-      "action_status": "changed",
-      "verification_evidence": [],
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1325/live-after.json",
+        "production 384d7f50-3c4a-42f9-b122-205d6dd3a206 source9b8e0fb"
+      ],
       "reason": "The article equates the 1828 prize/commercial availability with the earliest possible original layer. CAMEO explicitly distinguishes discovery in 1826 from commercial sale in 1828. Getty also says first manufactured in 1826. The hard 1828 floor is therefore unsupported; this does not prove an actual painting used it in 1826."
     },
     {
@@ -105,8 +108,11 @@
         }
       ],
       "review_status": "confirmed",
-      "action_status": "changed",
-      "verification_evidence": [],
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1325/live-after.json",
+        "production 384d7f50-3c4a-42f9-b122-205d6dd3a206 source9b8e0fb"
+      ],
       "reason": "The cited history separates 1817 metal discovery, 1818 pigment discovery, and delayed production about 1840. About 1840 production does not establish a categorical 1840s earliest possible layer. CAMEO corroborates synthetic preparation in 1817. Do not assert an earlier actual painting use on this evidence."
     },
     {
@@ -137,8 +143,11 @@
         }
       ],
       "review_status": "confirmed",
-      "action_status": "changed",
-      "verification_evidence": [],
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1325/live-after.json",
+        "production 384d7f50-3c4a-42f9-b122-205d6dd3a206 source9b8e0fb"
+      ],
       "reason": "The blanket natural-cracks-must-match rule is contradicted by Canadian Conservation Institute definitions allowing cracks in one or more varnish, paint or ground layers. Getty distinguishes drying and age cracks. The cited Wikipedia account reports mismatched cracks as one of multiple observations, alongside modern resin and suspicious dirt; its claim of necessary natural agreement is marked citation needed. No primary commission report was located, so the historical mismatch detail remains unverified. It cannot support a universal forgery test."
     },
     {
@@ -163,8 +172,11 @@
         }
       ],
       "review_status": "confirmed",
-      "action_status": "changed",
-      "verification_evidence": [],
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1325/live-after.json",
+        "production 384d7f50-3c4a-42f9-b122-205d6dd3a206 source9b8e0fb"
+      ],
       "reason": "A securely named maker is not a prerequisite for monetary value. Christie’s own catalogue offers an 18th-century oil on canvas as Anonymous (Cuzco School), records prior sales, and search-indexed lot data gives USD50,400 realised. The source explicitly describes age, condition, provenance, rarity and demand as additional value factors. The literal only-worth-money rule and price-holds-up condition overstate the evidence. This finding does not dispute that attribution can materially affect price."
     }
   ],
@@ -225,7 +237,8 @@
     "description_length": "161,z=-0.09,not a defect by project rule",
     "schema": "recommended publisher missing is shared template advisory; multiple complementary JSONLD types are not inherently conflicting",
     "sister_similarity": "table HTML styles overlap51%; contents compare different pigments/different scope, no copied prose; manually rejected",
-    "run_checks": "34PASS/1REVIEW(sister table markup)/18UNCHECKED(mode not supported, hero crop Umber not covered); prose pass"
+    "run_checks": "34PASS/1REVIEW(sister table markup)/18UNCHECKED(mode not supported, hero crop Umber not covered); prose pass",
+    "drift": "schema expectedFAQ correction; body1780→1746(-2%); canonical/H1 preserved"
   },
   "spam_policy": {
     "source": "https://developers.google.com/search/docs/essentials/spam-policies",
@@ -261,5 +274,19 @@
     "serp_summary": "8 organic of12elements; sales pages dominate; AIO present; no top10 completeness claim",
     "gsc": "internal_link_audit28d executed; selected new10/8 page absent striking list; page specific query metrics unverified, not zero"
   },
-  "last_audited_advanced": false
+  "last_audited_advanced": false,
+  "deployment": {
+    "content_commit": "9b8e0fb",
+    "id": "384d7f50-3c4a-42f9-b122-205d6dd3a206",
+    "http": 200
+  },
+  "internal_links": {
+    "before": 1,
+    "after_planned": 2,
+    "sources": [
+      "prussian-blue",
+      "the-death-of-socrates"
+    ],
+    "scope": "body links only; second context independently reviewed"
+  }
 }

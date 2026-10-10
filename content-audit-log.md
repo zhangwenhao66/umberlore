@@ -3764,14 +3764,16 @@ Only FAQ additions; prior FAQ/body/date/schema fields preserved. English humaniz
 
 ## 2026-10-10 13:25 Codex 部分审计 / 20261010T1325
 
-antique-oil-painting：完整0/部分1，不推进last_audited（仍2026-09-29）。任务定义：持画者通过材料/来源证据判断年代与估值，得到保存证据和找专业人员的步骤。本轮完整读6节/5FAQ/10来源，4个候选独审confirmed4；上线前changed4/verified0。published10/8保留，updated10/10，title/description/slug保留。修订为颜料制备与商业年份分开、裂纹非跨层必然一致、未知作者仍可有价值；1947案例明确二手记述，原报告未核实。英文humanizer→avoid-ai-writing实际读取kit源并执行两遍文风核对；修订后再次独审。
+antique-oil-painting：完整0/部分1，不推进last_audited（仍2026-09-29）。任务定义：持画者通过材料/来源证据判断年代与估值，得到保存证据和找专业人员的步骤。本轮完整读6节/5FAQ/10来源，4个候选独审confirmed4；修订changed4，生产绕缓存verified4（部署384d7f50/source9b8e0fb）。published10/8保留，updated10/10，title/description/slug保留。修订为颜料制备与商业年份分开、裂纹非跨层必然一致、未知作者仍可有价值；1947案例明确二手记述，原报告未核实。英文humanizer→avoid-ai-writing实际读取kit源并执行两遍文风核对；修订后再次独审。
 
 SEO实际check-page/schema/字段zscore；GEO模型启发式72→82/99，非官方分。构建101页面成功，机械34通过/1表格样式重合人工排除/18接口或模式未检查，不把未检查算通过。动态广告/移动渲染IAB超时未检查；ads.txt正确发布者、隐私/关于HTTP200；CommonsPD元数据一致。Google11类逐项口径见JSON，不宣称全站通过。旧GEO快照不覆写。未完成整站15维，禁止推进完整审计日期。
 
-扩散判定：通用 / 扫描范围17站（未检查0）/ 具体错误措辞命中1站1篇 / 修复当场1篇（上线待验）/ 防复发：L-0805-1复发 + B-129第12项源头审核。此次仅具体措辞扫描，不是全矩阵语义通过。其余11站未轮到；冻结DialWick排除。最新SERP购买意图占主、AIO存在，判意图层候选，不因SERP强行换页型或添偏题购买FAQ。
+扩散判定：通用 / 扫描范围17站（未检查0）/ 具体错误措辞命中1站1篇 / 修复当场1篇（4项均已生产核实）/ 防复发：L-0805-1复发 + B-129第12项源头审核。此次仅具体措辞扫描，不是全矩阵语义通过。其余11站未轮到；冻结DialWick排除。最新SERP购买意图占主、AIO存在，判意图层候选，不因SERP强行换页型或添偏题购买FAQ。
 
 |关键词|来源/日期/地域|月量|KD|CPC/币种|广告竞争|SERP|本站表现|
 |---|---|---|---|---|---|---|---|
 |antique oil painting|DataForSEO10/10美国英文桌面|未查|未查|未查|未查|8自然/12元素，AIO有|28日内链扫描已做，本页查询数未核实|
 
 本轮API$0.002，先复用缓存再按任务实时SERP职责刷新1次。完整响应及四项独审证据见audit-findings-20261010T1325.json，receipt保存在/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1325/receipt.json。
+
+收尾：schema漂移为预期FAQ事实修订，字数1780→1746(-2%)，canonical/H1不变。正文入链原1（prussian-blue）；在The Death of Socrates来源/归属段补1条目标说明，既有事实不改，形成2条。kit防复发主分支01fa73d。
