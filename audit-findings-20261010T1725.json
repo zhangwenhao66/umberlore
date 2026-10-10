@@ -1,0 +1,504 @@
+{
+  "run_id": "20261010T1725",
+  "task": "trafficsite-content-quality-audit",
+  "at": "2026-10-10T18:08:13.139822+08:00",
+  "source_sha": "78cfe39fa7f9f837016ead288409db84f7aad017cd40886427f570b8209fa200",
+  "coverage": {
+    "planned_urls": [
+      "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+    ],
+    "checked_urls": [
+      "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+    ],
+    "complete_sites": 0,
+    "partial_sites": 1,
+    "not_reached": [
+      "lingogrove",
+      "dayalmanac",
+      "calcbadger",
+      "hollowvane",
+      "mythcairn",
+      "morningwit",
+      "cloveracre",
+      "burrowkin",
+      "factcrumbs",
+      "wagelark",
+      "warcrumbs"
+    ],
+    "excluded_frozen": [
+      "dialwick"
+    ],
+    "unchecked": [
+      "IAB rendered ads/mobile: two30s timeouts",
+      "Field INP and CrUX not obtained; Lighthouse is lab performance only",
+      "Original primary conservation report for acid damage unavailable; secondary explicitly attributed",
+      "Whole site fifteen-dimension coverage incomplete; last_audited unchanged",
+      "53checks:35processPASS/0FAIL/18UNCHECKED; updated_date_sync internal execution failure additionally classified semantically unchecked",
+      "Commons image license/live media metadata not independently fetched this run; existing credits retained"
+    ]
+  },
+  "input": {
+    "selected_json_sha256": "8594498dedb1678d483dc0c9cf155ccedbec059deea021d5707d8f38ad2451d6",
+    "coverage": "full7sections/5FAQ/13sources/2articleimages",
+    "truncated": false,
+    "rendered": false
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "summary": "Restrict removal count to theft-and-attack ledger",
+      "basis_type": "official",
+      "rule_ref": "L-0924-3; R-seo-29; B-129.13",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/facts-recheck.md"
+      ],
+      "review_status": "confirmed",
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/live-content-verification.json",
+        "production 76ddd26 / 0358bab4-c73c-49f7-b56f-8e3d8bc26240"
+      ]
+    },
+    {
+      "id": "F2",
+      "summary": "Correct Uffizi exhibition to five days",
+      "basis_type": "official",
+      "rule_ref": "L-0924-3; R-seo-29; B-129.13",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/facts-recheck.md"
+      ],
+      "review_status": "confirmed",
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/live-content-verification.json",
+        "production 76ddd26 / 0358bab4-c73c-49f7-b56f-8e3d8bc26240"
+      ]
+    },
+    {
+      "id": "F3",
+      "summary": "Do not label razor incident a successful removal",
+      "basis_type": "source_comparison",
+      "rule_ref": "L-0924-3; R-seo-29; B-129.13",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/facts-recheck.md"
+      ],
+      "review_status": "confirmed",
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/live-content-verification.json",
+        "production 76ddd26 / 0358bab4-c73c-49f7-b56f-8e3d8bc26240"
+      ]
+    },
+    {
+      "id": "F4",
+      "summary": "Distinguish reported acid damage from confirmed rock damage",
+      "basis_type": "source_comparison",
+      "rule_ref": "L-0924-3; R-seo-29; B-129.13",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/facts-recheck.md"
+      ],
+      "review_status": "confirmed",
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/live-content-verification.json",
+        "production 76ddd26 / 0358bab4-c73c-49f7-b56f-8e3d8bc26240"
+      ]
+    },
+    {
+      "id": "F5",
+      "summary": "Use complete NPR transcript to itemize five attacks",
+      "basis_type": "source_comparison",
+      "rule_ref": "L-0924-3; R-seo-29; B-129.13",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/facts-recheck.md"
+      ],
+      "review_status": "confirmed",
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/live-content-verification.json",
+        "production 76ddd26 / 0358bab4-c73c-49f7-b56f-8e3d8bc26240"
+      ]
+    },
+    {
+      "id": "F6",
+      "summary": "Update planned Louvre space and current room",
+      "basis_type": "official",
+      "rule_ref": "L-0924-3; R-seo-29; B-129.13",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/facts-recheck.md"
+      ],
+      "review_status": "confirmed",
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/live-content-verification.json",
+        "production 76ddd26 / 0358bab4-c73c-49f7-b56f-8e3d8bc26240"
+      ]
+    },
+    {
+      "id": "F7",
+      "summary": "Short title zscore -1.78 is not a defect",
+      "basis_type": "project_methodology",
+      "rule_ref": "task audit candidate review",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/technical-review.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md"
+      ],
+      "review_status": "rejected",
+      "action_status": "unchanged",
+      "verification_evidence": []
+    },
+    {
+      "id": "F8",
+      "summary": "Four complementary JSONLD types are not conflicting schema",
+      "basis_type": "project_methodology",
+      "rule_ref": "task audit candidate review",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/technical-review.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md"
+      ],
+      "review_status": "rejected",
+      "action_status": "unchanged",
+      "verification_evidence": []
+    },
+    {
+      "id": "F9",
+      "summary": "4 Jan1914 public redisplay is not the Florence exhibition date",
+      "basis_type": "official",
+      "rule_ref": "task audit candidate review",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/technical-review.md",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/independent-facts.md"
+      ],
+      "review_status": "rejected",
+      "action_status": "unchanged",
+      "verification_evidence": []
+    },
+    {
+      "id": "F10",
+      "summary": "Hero decode caused mobile CLS0.194",
+      "basis_type": "measured",
+      "rule_ref": "R-seo-29; R-core-48",
+      "urls": [
+        "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/"
+      ],
+      "evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/lighthouse.json"
+      ],
+      "review_status": "confirmed",
+      "action_status": "verified",
+      "verification_evidence": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/cwv-after-receipt.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/cls-independent-review.md",
+        "68c1a161-97c8-46dd-8afc-c176da98564b"
+      ]
+    }
+  ],
+  "counts": {
+    "confirmed": 7,
+    "rejected": 3,
+    "changed": 7,
+    "verified": 7
+  },
+  "scan": {
+    "expected": 17,
+    "checked": 17,
+    "unchecked": 0,
+    "matched_sites": 1,
+    "matched_pages": 1,
+    "scope": "specific wording in original checkout; fixed target validated in isolated source and live production, not whole-matrix semantic certification",
+    "evidence": "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/count-scope-scan.txt",
+    "post_fix_target": {
+      "Times it left the wall</td>": 0,
+      "little over two weeks": 0,
+      "Uffizi.{0,60}two weeks": 0
+    },
+    "post_fix_target_scope": "Exact old table-label and span strings zero in isolated updated source; benign section heading retained."
+  },
+  "geo": {
+    "rubric": "11 dimensions /99 project heuristic, not Google or AI certification",
+    "before_total": 67,
+    "after_total": 80,
+    "score_evidence": "/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/technical/geo-score-recheck.json",
+    "arithmetic_correction": "initial prose77 did not match sum67; fixed before report"
+  },
+  "technical": {
+    "build": "PASS101pages",
+    "title_description_slug_published": "unchanged",
+    "updated": "2026-10-10",
+    "seo_drift": "schema contents changed as expected from revised core summary/date; types and FAQcount unchanged",
+    "inbound_links": "1->2: Gustav Klimt existing anchor retargeted; sourceout2 unchanged. Other candidates reach outlink cap or irrelevant; no artificial third link.",
+    "schema": "production4 JSONLD;1H1 canonical self; title52chars description152",
+    "ads_privacy": "static disclosures observed; actual served content/placement/consent unchecked",
+    "indexability": "2 expected/2 checked/0 unchecked; seo_drift audit both PASS",
+    "schema_drift": "Expected coreSummary/updated Article schema changes; parse4types and5FAQ intact"
+  },
+  "keyword": {
+    "query": "how many times was the mona lisa stolen",
+    "historical_metrics": {
+      "source": "keyword pool qcheck/kw",
+      "date": "2026-08-02",
+      "country": "not verified from cached row",
+      "volume": 880,
+      "kd": 9,
+      "cpc": null,
+      "ad_competition": null,
+      "intent": "informational"
+    },
+    "current_serp": {
+      "source": "DataForSEO Google organic live advanced",
+      "date": "2026-10-10",
+      "country": "US2840",
+      "language": "en",
+      "device": "desktop",
+      "organic_count": 9,
+      "features": 12,
+      "aio": "present, no Umber citation",
+      "scope": "not full top10; no new metrics call",
+      "receipt": "/Users/zhangwh/Desktop/zhangwenhao/独立站/research-db/direct-api-log/20261010T094902Z_serp_how-many-times-was-the-mona-lisa-stolen_ea0bfa67.json"
+    },
+    "gsc": "28day target276impressions position7.6; inbound1 before ->2 after",
+    "expanded_keywords": 0
+  },
+  "cost_usd": 0.002,
+  "spam_policy": {
+    "selected_article": "No scaled keyword swaps, forced links, fake testing or misleading tools observed; same art-history topic, attributed evidence and timeline add value.",
+    "unchecked": "Domain history, paid link inventory, crawler/browser cloaking, machine traffic and runtime ads not certified"
+  },
+  "last_audited_advanced": false,
+  "kit_commit": "bb34f61 +9f84d3c local main; R-core16 no push",
+  "deployment": {
+    "id": "68c1a161-97c8-46dd-8afc-c176da98564b",
+    "url": "https://68c1a161.umberlore.pages.dev",
+    "environment": "production",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": "2026-10-10T10:10:08.008842Z",
+      "ended_on": "2026-10-10T10:10:15.448672Z",
+      "status": "success"
+    },
+    "deployment_trigger": {
+      "type": "github:push",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "448d117f473cd455dc08f880cb31491e18cfc81d",
+        "commit_message": "Record accepted IndexNow submission for audited article links",
+        "commit_dirty": false
+      }
+    }
+  },
+  "indexnow": "Bing200 and Yandex202 for exactly2 URLs; accepted is not indexing",
+  "cwv_after": {
+    "metrics": {
+      "lcp": 2069.722,
+      "cls": 0.002502424231691223,
+      "tbt": 6.947000000000116,
+      "perf": 99,
+      "elapsed": 26,
+      "final_url": "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/?cb=20261010T1725cls",
+      "lh_version": "13.5.0",
+      "fix_hints": [
+        "LCP元素 <img src=\"https://umberlore.com/images/responsive/mona-lisa-sm.avif\" alt=\"Leonar",
+        "布局偏移元素 1 处"
+      ]
+    },
+    "error": null,
+    "mode": "mobile lab production after448d117; field INP not measured"
+  },
+  "cls_scan": {
+    "expected": 17,
+    "actual": 17,
+    "unchecked": [],
+    "hit_sites": 2,
+    "sites": [
+      {
+        "site": "alpha (chinaabroadguide.com)",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/seo-geo-trinity/apps/alpha",
+        "data_exists": true,
+        "templates_read": 28,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "beta (commsadvisor.com)",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/seo-geo-trinity/apps/beta",
+        "data_exists": true,
+        "templates_read": 18,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "gamma (hrpaypick.com)",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/seo-geo-trinity/apps/gamma",
+        "data_exists": true,
+        "templates_read": 16,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "delta (cashflowpick.com)",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/seo-geo-trinity/apps/delta",
+        "data_exists": true,
+        "templates_read": 18,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "Hollowvane",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/hollowvane",
+        "data_exists": true,
+        "templates_read": 10,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "FactCrumbs",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/factcrumbs",
+        "data_exists": true,
+        "templates_read": 11,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "WarCrumbs",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/warcrumbs",
+        "data_exists": true,
+        "templates_read": 11,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "UmberLore",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/umberlore",
+        "data_exists": true,
+        "templates_read": 10,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": [
+          {
+            "path": "/Users/zhangwh/Desktop/zhangwenhao/独立站/umberlore/src/pages/[slug].astro",
+            "line": 183,
+            "class": "mx-auto h-auto max-h-[585px] w-auto max-w-full md:max-h-[72vh]",
+            "width_attr": true,
+            "height_attr": true,
+            "sha256": "b022ff1da5625673185b3e20bddb3df28d61278c2db117d61519730fa10e9d01"
+          }
+        ]
+      },
+      {
+        "site": "DayAlmanac",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/dayalmanac",
+        "data_exists": true,
+        "templates_read": 11,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": [
+          {
+            "path": "/Users/zhangwh/Desktop/zhangwenhao/独立站/dayalmanac/src/pages/[slug].astro",
+            "line": 194,
+            "class": "mx-auto h-auto max-h-[62vh] w-auto max-w-full border border-[var(--rule)]",
+            "width_attr": true,
+            "height_attr": true,
+            "sha256": "82c313aa06d5214a6a2ac918fca8bfbf5f09714221213c97976c8cd7d85085c7"
+          }
+        ]
+      },
+      {
+        "site": "MythCairn",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/mythcairn",
+        "data_exists": true,
+        "templates_read": 13,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "LingoGrove",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/lingogrove",
+        "data_exists": true,
+        "templates_read": 11,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "DialWick",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/dialwick",
+        "data_exists": true,
+        "templates_read": 10,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "WageLark",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/wagelark",
+        "data_exists": true,
+        "templates_read": 11,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "CalcBadger",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/calcbadger",
+        "data_exists": true,
+        "templates_read": 9,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "Morningwit",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/morningwit/site",
+        "data_exists": true,
+        "templates_read": 15,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "CloverAcre",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/cloveracre/site",
+        "data_exists": true,
+        "templates_read": 10,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      },
+      {
+        "site": "Burrowkin",
+        "app": "/Users/zhangwh/Desktop/zhangwenhao/独立站/burrowkin/site",
+        "data_exists": true,
+        "templates_read": 12,
+        "state": "checked",
+        "exact_picture_img_w_auto_h_auto_max_w_full_hits": []
+      }
+    ],
+    "scope": "Exact template candidate scan only; not a measured CLS audit or semantic pass."
+  },
+  "cls_candidate_exclusion": "DayAlmanac national-boyfriend-day production CLS0; different frame CSS, no repair"
+}

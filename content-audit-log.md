@@ -3777,3 +3777,20 @@ SEO实际check-page/schema/字段zscore；GEO模型启发式72→82/99，非官�
 本轮API$0.002，先复用缓存再按任务实时SERP职责刷新1次。完整响应及四项独审证据见audit-findings-20261010T1325.json，receipt保存在/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1325/receipt.json。
 
 收尾：schema漂移为预期FAQ事实修订，字数1780→1746(-2%)，canonical/H1不变。正文入链原1（prussian-blue）；在The Death of Socrates来源/归属段补1条目标说明，既有事实不改，形成2条。kit防复发主分支01fa73d。
+
+
+## 2026-10-10 17:25 Codex 局部审计 / 20261010T1725
+
+UmberLore how-many-times-was-the-mona-lisa-stolen：完整0/部分1，不推进last_audited（2026-09-29）。读全7节/5FAQ/13来源；用户任务是分开成功盗窃、袭击/损坏、合法移展并取得有日期的事件账。事实confirmed6/changed6/verified6：离墙范围收窄为盗窃袭击账；Uffizi五天；剃刀未成立成功移走；酸损伤归因二手Charney与Louvre确认石击损伤分列；NPR全文五项+后续汤袭；2025计划/2026设计与现room711。另确认修复首图CLS1，合计confirmed7/changed7/verified7；独审排除标题zscore、互补schema、1914重展日期误判3项。published9/26、title/meta/slug不动，updated10/10。英文humanizer→avoid-ai-writing真实源码完整读取并执行；主线程补足顺序证据，保真验证PASS。
+
+新入链1：Gustav Klimt既有锚点转向本页，本页入链1→2、来源页出链2不增加；其他候选已满出链上限或无关，不硬凑。没有PAA新内容（2已覆盖、另2偏题）。事实76ddd26部署0358bab4成功；模板fffaeff包含于448d117部署68c1a161-97c8-46dd-8afc-c176da98564b成功。绕缓存HTTP200、1H1、自canonical、4JSONLD、5FAQ及新事实关键词核实；seo_drift schema内容变化属于日期/摘要预期差异，2URL索引信号检查均PASS。IndexNow只提交目标与Gustav2URL，Bing200/Yandex202，接受不等于收录。
+
+GEO人工启发式67→80/99（初稿加总77已订正67）；没有把它当Google分或AI引用量。机械应53/实35/18未查/0失败；updated_date_sync内部执行失败另按未检查，不算语义通过。构建101页PASS。Lighthouse移动生产CLS0.193731→0.002502、LCP修后2069.7ms、TBT6.9ms；实验室快照非Field/INP。图片picture.block+img.w-full预留解码前高度；保持画框、比例及其余图片模板。81有首图构建页全有尺寸/ratio/w-full声明，非81页实测。动态广告/实际移动布局IAB两次30s超时；图片授权在线元数据和完整历史原始文献未全核，静态披露不能替代广告合规。全站15维未完成，其余11站未轮到，DialWick冻结排除。
+
+扩散判定：通用 / 扫描范围17站（未检查0）/ 具体计数措辞命中1站1篇（原checkout为保护他人未覆盖，实际工作树/生产旧错词0）；精确首图模板2站候选、确认Umber1站，DayAlmanac真实生产样本CLS0不改 / 修复当场1篇事实+1模板 / 防复发L-0924-3复发+B-129.13，L-0903-5实证补充+B-129.14；kit本地主分支9f84d3c、bb34f61，按R-core16不push。模式扫描非全矩阵语义/CWV认证。
+
+|关键词|来源/日期/地域|月量|KD|CPC/币种|广告竞争|SERP|本站表现|
+|---|---|---|---|---|---|---|---|
+|how many times was the mona lisa stolen|历史词库2026-08-02（地域未核）；实时Google10/10美国英文桌面|880（历史）|9（历史）|无缓存数据|无缓存数据|9自然/12特征，AIO有、未引本站，未完整前10|28日276曝光/平均7.6，点击CTR未单独核；入链1→2|
+
+本轮API$0.002，未扩词、未新增文章；完整指标/原始SERP及三态详情见audit-findings-20261010T1725.json，receipt /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/receipt.json。无邮件外发、无数据台写入。
