@@ -34,8 +34,8 @@
   "https://umberlore.com/gustav-klimt/": {
     "submitted_date": "2026-08-02",
     "verified_status": "stale_not_indexed",
-    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202 | 2026-08-17: Discovered but not crawled，discovered 02 Aug 2026，账龄15天，超过14天阈值判定为stale",
-    "last_submitted_date": "2026-09-22",
+    "note": "launch batch (2026-08-02); Bing 202 / Yandex 202 | 2026-08-17: Discovered but not crawled，discovered 02 Aug 2026，账龄15天，超过14天阈值判定为stale | audit-20261010T1725 | [{\"urls\":[\"https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/\",\"https://umberlore.com/gustav-klimt/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":202}]}]",
+    "last_submitted_date": "2026-10-10",
     "last_checked_date": "2026-08-17",
     "verified_method": "bwt_url_inspection"
   },
@@ -515,8 +515,9 @@
   },
   "https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/": {
     "submitted_date": "2026-09-26",
-    "last_submitted_date": "2026-09-26",
-    "verified_status": "pending"
+    "last_submitted_date": "2026-10-10",
+    "verified_status": "pending",
+    "note": "audit-20261010T1725 | [{\"urls\":[\"https://umberlore.com/how-many-times-was-the-mona-lisa-stolen/\",\"https://umberlore.com/gustav-klimt/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":202}]}]"
   },
   "https://umberlore.com/about/": {
     "submitted_date": "2026-09-29",
