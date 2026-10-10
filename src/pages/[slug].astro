@@ -63,9 +63,9 @@ const heroSizes = heroDims
 	: undefined;
 // 2026-09-15 CWV 跟进：跟 factcrumbs/warcrumbs 同款 WebP + preload 手法（gen-responsive-images.py
 // 现在也给 contain 模式生成同名 WebP 兄弟文件，quality=75，不改变任何宽高/裁剪数值——只加一份
-// 更小的等效编码，<picture> 包裹不影响 `.plate` 的 CSS 计算，因为视觉盒子仍由内部 <img> 的
-// width/height/style 决定，<picture> 本身不参与布局）。这几行只做字节层面优化，不碰上面
-// `.plate`/`--pw`/`--ph` 那套五轮才排查清楚的 CLS 逻辑一个字符。
+// 更小的等效编码，不改变 `.plate` 的宽度公式）。2026-10-10：picture 内的 img 不再命中
+// 全局 `.plate > img` 规则；为它显式设 width:100%，配合已知宽高比预留解码前高度，
+// picture 设 block。编码选择与框宽公式保持原样。
 const heroWebpDesktop = (() => {
 	if (!guide.image || !guide.image.match(/\.jpe?g$/i)) return null;
 	const rel = guide.image.replace(/\.jpe?g$/i, '.webp');
@@ -165,7 +165,9 @@ const heroAvifMobile = (() => {
 					class="plate hero-plate mx-auto max-w-full"
 					style={imgDims(guide.image) ? `--pw: ${imgDims(guide.image)!.w}; --ph: ${imgDims(guide.image)!.h};` : undefined}
 				>
-					<picture>
+					{/* Reserve the known image ratio inside the frame before picture decoding.
+					    The global .plate > img rule does not reach this picture child. */}
+					<picture class="block">
 						{heroAvifDesktop && (
 							<source
 								srcset={heroAvifMobile ? `${heroAvifMobile} ${heroResponsive!.w}w, ${heroAvifDesktop} ${heroDims?.w}w` : heroAvifDesktop}
@@ -183,7 +185,7 @@ const heroAvifMobile = (() => {
 						<img
 							src={guide.image}
 							alt={guide.imageAlt ?? guide.title}
-							class="mx-auto h-auto max-h-[585px] w-auto max-w-full md:max-h-[72vh]"
+							class="mx-auto h-auto max-h-[585px] w-full max-w-full md:max-h-[72vh]"
 							loading="eager"
 							fetchpriority="high"
 							width={imgDims(guide.image)?.w}
