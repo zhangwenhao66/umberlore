@@ -3791,6 +3791,6 @@ GEO人工启发式67→80/99（初稿加总77已订正67）；没有把它当Goo
 
 |关键词|来源/日期/地域|月量|KD|CPC/币种|广告竞争|SERP|本站表现|
 |---|---|---|---|---|---|---|---|
-|how many times was the mona lisa stolen|历史词库2026-08-02（地域未核）；实时Google10/10美国英文桌面|880（历史）|9（历史）|无缓存数据|无缓存数据|9自然/12特征，AIO有、未引本站，未完整前10|28日276曝光/平均7.6，点击CTR未单独核；入链1→2|
+|how many times was the mona lisa stolen|历史词库2026-08-02（地域未核）；实时Google10/10美国英文桌面|880（历史）|9（历史）|无缓存数据|无缓存数据|9自然/12结果元素（含3非自然特征），AIO有、未引本站，未完整前10|28日276曝光/平均7.6，点击CTR未单独核；入链1→2|
 
 本轮API$0.002，未扩词、未新增文章；完整指标/原始SERP及三态详情见audit-findings-20261010T1725.json，receipt /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/receipt.json。无邮件外发、无数据台写入。

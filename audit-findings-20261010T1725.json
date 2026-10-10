@@ -284,10 +284,11 @@
       "language": "en",
       "device": "desktop",
       "organic_count": 9,
-      "features": 12,
       "aio": "present, no Umber citation",
       "scope": "not full top10; no new metrics call",
-      "receipt": "/Users/zhangwh/Desktop/zhangwenhao/独立站/research-db/direct-api-log/20261010T094902Z_serp_how-many-times-was-the-mona-lisa-stolen_ea0bfa67.json"
+      "receipt": "/Users/zhangwh/Desktop/zhangwenhao/独立站/research-db/direct-api-log/20261010T094902Z_serp_how-many-times-was-the-mona-lisa-stolen_ea0bfa67.json",
+      "total_items": 12,
+      "non_organic_features": 3
     },
     "gsc": "28day target276impressions position7.6; inbound1 before ->2 after",
     "expanded_keywords": 0
