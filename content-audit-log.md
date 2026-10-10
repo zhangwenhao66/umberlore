@@ -3648,3 +3648,115 @@ content commit 841e909；CF生产29acb8c5-1b49-483a-a686-a7365320d38f，绕缓�
 rococo architecture vs baroque｜DataForSEO Google 10/9 US en desktop；既有PAA文章事实修复｜未查(非新选题)｜未查｜未查｜未查｜6个自然结果；前三全文；PAA/AIO｜GSC TimeoutError未检查；Bing未查
 
 费用$0.0020；原始响应与全部排名见/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/keyword-evidence.json。本轮receipt：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261009T2125/receipt.json。
+
+
+## PAA-FAQ批强(daily-task, 2026-10-10)
+```json
+{
+  "site": "umberlore",
+  "added": [
+    {
+      "slug": "elements-of-art",
+      "question": "What are examples of forms in art?",
+      "answer": "A sphere, cube or pyramid is a geometric form: each extends into three dimensions. Sculptures can also have irregular forms resembling living things. The National Gallery of Art uses Alexander Calder's Vertical Constellation with Bomb to teach both kinds. [National Gallery of Art](https://www.nga.gov/educational-resources/elements-art/elements-art-form).",
+      "source": "https://www.nga.gov/educational-resources/elements-art/elements-art-form"
+    }
+  ],
+  "added_faq_count": 1,
+  "added_page_count": 1,
+  "rejections": [
+    {
+      "site": "umberlore",
+      "slug": "bob-ross-most-famous-painting",
+      "question": "What is considered the greatest painting of all time?",
+      "reason": "Subjective universal ranking outside Bob Ross article."
+    },
+    {
+      "site": "umberlore",
+      "slug": "mona-lisa",
+      "question": "What are some interesting facts about the Mona Lisa?",
+      "reason": "Open-ended fact list already covered by current factual FAQs."
+    },
+    {
+      "site": "umberlore",
+      "slug": "mona-lisa",
+      "question": "What is the most famous painting in the world?",
+      "reason": "No defined worldwide fame metric; existing article explains Mona Lisa fame without a defensible superlative."
+    },
+    {
+      "site": "umberlore",
+      "slug": "mona-lisa",
+      "question": "Who originally sang Mona Lisa?",
+      "reason": "Song-title PAA mismatch; article concerns Leonardo painting."
+    },
+    {
+      "site": "umberlore",
+      "slug": "elements-of-art",
+      "question": "What are the 7 forms of art?",
+      "reason": "Art-medium categories are a different meaning of forms than this visual-element article."
+    },
+    {
+      "site": "umberlore",
+      "slug": "elements-of-art",
+      "question": "What are the 7 main elements of art?",
+      "reason": "Equivalent to existing FAQ What are the seven elements of art."
+    },
+    {
+      "site": "umberlore",
+      "slug": "elements-of-art",
+      "question": "What are the elements of form?",
+      "reason": "Ambiguous framework; PAA matching form subtopic to general elements article gives no specific sourced list."
+    }
+  ],
+  "checks": [
+    {
+      "slug": "elements-of-art",
+      "baseline_exit": 0,
+      "after_exit": 0
+    }
+  ],
+  "sources": [
+    "https://www.nga.gov/educational-resources/elements-art/elements-art-form"
+  ],
+  "review": "root-review-traffic-a.json",
+  "status": "draft_checked",
+  "unprocessed": [
+    {
+      "slug": "rococo-architecture-vs-baroque",
+      "question": "Was Leonardo da Vinci a Renaissance or Baroque artist?",
+      "reason": "bounded group run; not reached after source/quality work"
+    },
+    {
+      "slug": "rococo-architecture-vs-baroque",
+      "question": "Was Marie Antoinette Baroque or Rococo?",
+      "reason": "bounded group run; not reached after source/quality work"
+    },
+    {
+      "slug": "rococo-architecture-vs-baroque",
+      "question": "Was Marie Antoinette Rococo or Baroque?",
+      "reason": "bounded group run; not reached after source/quality work"
+    },
+    {
+      "slug": "rococo-architecture-vs-baroque",
+      "question": "Why was Rococo hated?",
+      "reason": "bounded group run; not reached after source/quality work"
+    },
+    {
+      "slug": "antique-oil-painting",
+      "question": "What painting sold for $70 million?",
+      "reason": "bounded group run; not reached after source/quality work"
+    },
+    {
+      "slug": "antique-oil-painting",
+      "question": "Where can I find antique original oil paintings for sale?",
+      "reason": "bounded group run; not reached after source/quality work"
+    },
+    {
+      "slug": "parthenon-vs-pantheon",
+      "question": "What did Michelangelo say about the Pantheon?",
+      "reason": "bounded group run; not reached after source/quality work"
+    }
+  ]
+}
+```
+Only FAQ additions; prior FAQ/body/date/schema fields preserved. English humanizer → avoid-ai-writing two passes, numbers/proper names/URLs checked; source SHA evidence traffic-a-writing.json. Independent root review passed. Odyssey source verified from official search excerpts (full-page curl lacked text).

@@ -2974,8 +2974,12 @@ export const guides: Guide[] = [
       {
         "question": "Why do art teachers still use a framework that's less than 150 years old?",
         "answer": "Because it works as a shared descriptive vocabulary, not because it's ancient. One major California museum's teaching materials on formal analysis use the same basic terms to help viewers unpack why a picture works the way it does, rather than just naming what's in it, which was the practical problem Arthur Wesley Dow was trying to solve back in 1899 when he first wrote his three-part system down."
-      }
-    ],
+      },
+{
+  "question": "What are examples of forms in art?",
+  "answer": "A sphere, cube or pyramid is a geometric form: each extends into three dimensions. Sculptures can also have irregular forms resembling living things. The National Gallery of Art uses Alexander Calder's Vertical Constellation with Bomb to teach both kinds. [National Gallery of Art](https://www.nga.gov/educational-resources/elements-art/elements-art-form)."
+}
+],
     "sources": [
       {
         "label": "Wikipedia: Elements of art",
