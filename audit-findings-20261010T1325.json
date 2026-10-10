@@ -1,0 +1,265 @@
+{
+  "run_id": "20261010T1325",
+  "task": "trafficsite-content-quality-audit",
+  "source_sha": "78cfe39fa7f9f837016ead288409db84f7aad017cd40886427f570b8209fa200",
+  "coverage": {
+    "planned_urls": [
+      "https://umberlore.com/antique-oil-painting/"
+    ],
+    "checked_urls": [
+      "https://umberlore.com/antique-oil-painting/"
+    ],
+    "complete_sites": 0,
+    "partial_sites": 1,
+    "not_reached": [
+      "lingogrove",
+      "dayalmanac",
+      "calcbadger",
+      "hollowvane",
+      "mythcairn",
+      "morningwit",
+      "cloveracre",
+      "burrowkin",
+      "factcrumbs",
+      "wagelark",
+      "warcrumbs"
+    ],
+    "excluded_frozen": [
+      "dialwick"
+    ],
+    "unchecked": [
+      {
+        "check": "rendered ads/mobile layout",
+        "reason": "IAB createBrowserTab timeout30s; no rendered state returned"
+      },
+      {
+        "check": "full source claim coverage",
+        "reason": "Original1947commission report unavailable; remaining secondary historical account explicitly attributed"
+      },
+      {
+        "check": "full site audit",
+        "reason": "This run performed a selected-page partial audit, not every page or every live rendered check"
+      }
+    ]
+  },
+  "input": {
+    "raw_html_sha256": "27bb7f04dcb1979679c7280c1f00d996207f016ca8363abfc0ce2496e2dca7c3",
+    "selected_json_sha256": "2d0dcfe4609d1ba40590f53051ba6147cf7b8e5319d43a1f37a57636d1730d5e",
+    "selected_json_chars": 14341,
+    "selected_json_coverage": "full:6sections/5FAQ/10sources",
+    "truncated": false,
+    "rendered": false
+  },
+  "findings": [
+    {
+      "id": "synthetic-ultramarine-date",
+      "rule_ref": "L-0805-1; R-seo-29; B-129.12",
+      "basis_type": "official",
+      "urls": [
+        "https://umberlore.com/antique-oil-painting/"
+      ],
+      "evidence": [
+        {
+          "url": "https://cameo.mfa.org/wiki/Ultramarine_blue,_synthetic",
+          "authority": "Museum of Fine Arts, Boston conservation materials encyclopedia",
+          "excerpt": "discovered in 1826 in France by Jean-Baptiste Guimet and sold commercially in 1828",
+          "verification": "Full page read, description"
+        },
+        {
+          "url": "https://www.getty.edu/publications/getty-research-journal/21/the-getty-peacock-fresco/",
+          "authority": "Getty Research Journal",
+          "excerpt": "First manufactured in 1826, synthetic ultramarine blue is chemically identical to natural lazurite.",
+          "verification": "Public page search and full-page open"
+        },
+        {
+          "url": "https://www.webexhibits.org/pigments/indiv/history/ultramarine.html",
+          "authority": "Article cited pigment history",
+          "excerpt": "submitted a process he had secretly developed in 1826",
+          "verification": "Downloaded source-4.txt read"
+        }
+      ],
+      "review_status": "confirmed",
+      "action_status": "changed",
+      "verification_evidence": [],
+      "reason": "The article equates the 1828 prize/commercial availability with the earliest possible original layer. CAMEO explicitly distinguishes discovery in 1826 from commercial sale in 1828. Getty also says first manufactured in 1826. The hard 1828 floor is therefore unsupported; this does not prove an actual painting used it in 1826."
+    },
+    {
+      "id": "cadmium-yellow-date",
+      "rule_ref": "L-0805-1; R-seo-29; B-129.12",
+      "basis_type": "official",
+      "urls": [
+        "https://umberlore.com/antique-oil-painting/"
+      ],
+      "evidence": [
+        {
+          "url": "https://webexhibits.org/pigments/indiv/history/cdyellow.html",
+          "authority": "Article cited pigment history",
+          "excerpt": "production of the cadmium pigments was delayed until about 1840",
+          "verification": "Downloaded source-5.txt read; discovery table says 1818"
+        },
+        {
+          "url": "https://cameo.mfa.org/wiki/Cadmium_yellow",
+          "authority": "Museum of Fine Arts, Boston conservation materials encyclopedia",
+          "excerpt": "Cadmium yellows were synthetically prepared in Germany by Friedrich Strohmeyer in 1817.",
+          "verification": "Official-domain web search text; full-page access failed (web error; bounded requests returned403)"
+        }
+      ],
+      "review_status": "confirmed",
+      "action_status": "changed",
+      "verification_evidence": [],
+      "reason": "The cited history separates 1817 metal discovery, 1818 pigment discovery, and delayed production about 1840. About 1840 production does not establish a categorical 1840s earliest possible layer. CAMEO corroborates synthetic preparation in 1817. Do not assert an earlier actual painting use on this evidence."
+    },
+    {
+      "id": "craquelure-layer-agreement",
+      "rule_ref": "L-0805-1; R-seo-29; B-129.12",
+      "basis_type": "official",
+      "urls": [
+        "https://umberlore.com/antique-oil-painting/"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/condition-reporting-paintings-glossary.html",
+          "authority": "Canadian Conservation Institute",
+          "excerpt": "Surface or deep checks in one or more of the varnish, paint or ground layers.",
+          "verification": "Full page read, cracks definition; drying cracks definition also checked"
+        },
+        {
+          "url": "https://www.getty.edu/publications/conserving-canvas/glossary/",
+          "authority": "Getty Conserving Canvas",
+          "excerpt": "Breaks in the paint layers, or paint and ground layers",
+          "verification": "Full page read, crackle entry; distinguishes drying versus age cracks"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Han_van_Meegeren",
+          "authority": "Article cited tertiary source, not primary verification",
+          "excerpt": "The craquelure on the surface did not always match that in the ground layer",
+          "verification": "Downloaded source-2.txt; relevant passage marked citation needed"
+        }
+      ],
+      "review_status": "confirmed",
+      "action_status": "changed",
+      "verification_evidence": [],
+      "reason": "The blanket natural-cracks-must-match rule is contradicted by Canadian Conservation Institute definitions allowing cracks in one or more varnish, paint or ground layers. Getty distinguishes drying and age cracks. The cited Wikipedia account reports mismatched cracks as one of multiple observations, alongside modern resin and suspicious dirt; its claim of necessary natural agreement is marked citation needed. No primary commission report was located, so the historical mismatch detail remains unverified. It cannot support a universal forgery test."
+    },
+    {
+      "id": "core-summary-value-absolute",
+      "rule_ref": "L-0805-1; R-seo-29; B-129.12",
+      "basis_type": "official",
+      "urls": [
+        "https://umberlore.com/antique-oil-painting/"
+      ],
+      "evidence": [
+        {
+          "url": "https://onlineonly.christies.com/s/latin-american-art-online/anonymous-cuzco-school-18th-century-1/211947",
+          "authority": "Christie’s auction lot, primary market record",
+          "excerpt": "ANONYMOUS (CUZCO SCHOOL, 18TH CENTURY)",
+          "verification": "Full-page details confirm anonymous attribution, oil on canvas, prior sales; indexed search lists Price Realised USD50,400 but price absent from fetched body."
+        },
+        {
+          "url": "https://fineart-restoration.co.uk/guides-and-advice/understanding-what-after-circle-of-and-school-of-really-mean-in-fine-art/",
+          "authority": "Article cited conservation firm",
+          "excerpt": "Value is also influenced by factors such as age, condition, provenance, rarity and market demand.",
+          "verification": "Downloaded source-7.txt read"
+        }
+      ],
+      "review_status": "confirmed",
+      "action_status": "changed",
+      "verification_evidence": [],
+      "reason": "A securely named maker is not a prerequisite for monetary value. Christie’s own catalogue offers an 18th-century oil on canvas as Anonymous (Cuzco School), records prior sales, and search-indexed lot data gives USD50,400 realised. The source explicitly describes age, condition, provenance, rarity and demand as additional value factors. The literal only-worth-money rule and price-holds-up condition overstate the evidence. This finding does not dispute that attribution can materially affect price."
+    }
+  ],
+  "scan": {
+    "expected": 17,
+    "checked": 17,
+    "unchecked": 0,
+    "matched_sites": 1,
+    "matched_pages": 1,
+    "scope": "four specific erroneous wordings, not broad semantic certification"
+  },
+  "geo": {
+    "rubric": "11 dimensions/99, project heuristic not Google scoring",
+    "before": [
+      10,
+      9,
+      9,
+      11,
+      8,
+      6,
+      6,
+      5,
+      3,
+      3,
+      2
+    ],
+    "after": [
+      12,
+      10,
+      11,
+      11,
+      9,
+      7,
+      7,
+      5,
+      4,
+      3,
+      3
+    ],
+    "before_total": 72,
+    "after_total": 82,
+    "maxima": [
+      16,
+      14,
+      13,
+      12,
+      10,
+      8,
+      8,
+      6,
+      5,
+      4,
+      3
+    ],
+    "reason": "Direct conservation glossary and pigment history strengthen attribution and qualifications; no first-hand testing or new numerical valuation claims."
+  },
+  "seo_warnings": {
+    "description_length": "161,z=-0.09,not a defect by project rule",
+    "schema": "recommended publisher missing is shared template advisory; multiple complementary JSONLD types are not inherently conflicting",
+    "sister_similarity": "table HTML styles overlap51%; contents compare different pigments/different scope, no copied prose; manually rejected",
+    "run_checks": "34PASS/1REVIEW(sister table markup)/18UNCHECKED(mode not supported, hero crop Umber not covered); prose pass"
+  },
+  "spam_policy": {
+    "source": "https://developers.google.com/search/docs/essentials/spam-policies",
+    "scope": "selected article static content only; site-wide paid links, domain history, traffic and dynamic behavior not certified",
+    "checks": {
+      "scaled_content": "sample PASS: museum case, pigment limits, task steps add value; site-wide unchecked",
+      "site_reputation": "sample PASS: same art-history topic",
+      "expired_domain": "UNCHECKED: no domain history in this selected-page run",
+      "hidden_text": "static PASS; rendered unchecked",
+      "keyword_stuffing": "sample PASS: no forced repetitions",
+      "link_spam": "sample PASS: cited reference and thematic internal links; site-wide paid links unchecked",
+      "scraping": "sample PASS: sourced synthesis; three competitor headings requested",
+      "cloaking_doorway": "UNCHECKED: no crawler-versus-browser comparison",
+      "misleading_functionality": "PASS: information page does not promise nonexistent tool",
+      "machine_traffic": "UNCHECKED: no traffic-cause study in this run",
+      "malicious_practices": "static no observed malicious content; runtime unchecked"
+    }
+  },
+  "cost_usd": 0.002,
+  "keyword": {
+    "query": "antique oil painting",
+    "source": "DataForSEO Google organic live advanced",
+    "date": "2026-10-10",
+    "country": "US2840",
+    "language": "en",
+    "device": "desktop",
+    "volume": null,
+    "kd": null,
+    "cpc": null,
+    "ad_competition": null,
+    "missing_reason": "existing article factual correction; SERP endpoint does not provide these metrics; no extra budget call",
+    "serp_raw": "/Users/zhangwh/Desktop/zhangwenhao/独立站/research-db/direct-api-log/20261010T053634Z_serp_antique-oil-painting_6f15a1a9.json",
+    "serp_summary": "8 organic of12elements; sales pages dominate; AIO present; no top10 completeness claim",
+    "gsc": "internal_link_audit28d executed; selected new10/8 page absent striking list; page specific query metrics unverified, not zero"
+  },
+  "last_audited_advanced": false
+}

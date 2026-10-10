@@ -10522,8 +10522,8 @@ export const guides: Guide[] = [
       "title": "Antique Oil Painting: How to Tell Age and Value",
       "description": "An antique oil painting has to answer three things: its age, its maker and its price. Here is the physical and paperwork evidence you can check for each of them.",
       "published": "2026-10-08",
-      "updated": "2026-10-08",
-      "coreSummary": "An antique oil painting is only worth money when its age, its maker and its price all hold up, and each takes different evidence. Age comes from the physical object, meaning its stretcher and edges, its cracks and its pigments. Authorship comes from attribution and provenance, and price follows authorship more than age. No single age cutoff for paintings settles any of the three.",
+      "updated": "2026-10-10",
+      "coreSummary": "An antique oil painting raises separate questions about age, attribution and market value, and each takes different evidence. Its stretcher, edges, cracks and pigments can help establish age. Attribution and provenance help identify the maker. Value also depends on condition, rarity and demand; a painting can have value even when its artist is unknown.",
       "image": "/images/antique-oil-painting-craquelure.jpg",
       "imageAlt": "Close detail of a face in the Kunsthistorisches Museum's Boy with an Arrow, catalogued under Giorgione, about 1500, with a dense web of fine cracks across the oil paint on its wooden panel",
       "imageCredit": "[Giorgione, Ragazzo con la freccia (detail)](https://commons.wikimedia.org/wiki/File:Giorgione_-_Ragazzo_con_la_freccia1.jpg), about 1500, oil on panel, Kunsthistorisches Museum, Vienna, public domain",
@@ -10546,15 +10546,15 @@ export const guides: Guide[] = [
               "heading": "Craquelure suggests age, and forgers know it",
               "body": [
                   "Craquelure is the network of fine cracks that opens across paint and varnish over time. The detail at the top of this page comes from the Kunsthistorisches Museum's Boy with an Arrow, catalogued under Giorgione and dated to about 1500. It shows the dense web an oil painting on a wooden panel can carry after five centuries.",
-                  "Cracks like these usually come with age, though they cannot date a painting alone. Han van Meegeren, the Dutch forger who sold paintings as Vermeers, used phenol-formaldehyde resin to harden his paint so the pictures would read as 300 years old. When a commission examined eight of his paintings before his 1947 trial, it found the resins Bakelite and Albertol, which were not invented until the twentieth century. It also found dust in the cracks that appeared to be India ink, and surface craquelure that did not always match the craquelure in the ground layer underneath.",
-                  "So a convincing pattern is a reason to keep checking. A natural pattern agrees with the layers below it, and that agreement is what the commission found missing in van Meegeren's work."
+                  "Cracks like these usually come with age, though they cannot date a painting alone. Han van Meegeren, the Dutch forger who sold paintings as Vermeers, used phenol-formaldehyde resin to harden his paint so the pictures would read as 300 years old. The Wikipedia account reports that a commission examining eight paintings before his 1947 trial found modern Bakelite and Albertol resins and suspicious material in the cracks. These reported observations cannot establish a general test for authenticity.",
+                  "So a convincing pattern is a reason to keep checking. The Canadian Conservation Institute describes cracks in one or more varnish, paint or ground layers. Cracks need not affect every layer, and their alignment cannot establish authenticity on its own."
               ]
           },
           {
               "heading": "Pigments set a floor under the date",
               "body": [
                   "Many pigments have a first date, and finding one in an original paint layer means the picture cannot be older than that date. The table gives the dates from published pigment histories. Use usually came later than first availability, and identifying a pigment takes a sample or instrument analysis in a lab, so treat this as background for reading a technical report, not a home test.",
-                  "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.5;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Pigment</th><th style=\"padding:8px 10px;text-align:left;\">First date in the published histories</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">What finding it in an original layer means</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">[Prussian blue](/prussian-blue-pigment/)</td><td style=\"padding:8px 10px;vertical-align:top;\">About 1704, Berlin</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">The painting cannot be older than the early 1700s.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Chrome yellow</td><td style=\"padding:8px 10px;vertical-align:top;\">Lead chromate preparation published by Vauquelin in 1809</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">The painting cannot predate the early 19th century.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Synthetic ultramarine</td><td style=\"padding:8px 10px;vertical-align:top;\">Guimet developed his process in 1826 and won the Paris prize on 4 February 1828</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">Synthetic ultramarine in the original paint means 1828 or later.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Cadmium yellow</td><td style=\"padding:8px 10px;vertical-align:top;\">Cadmium found in 1817; pigment production delayed until about 1840</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">The painting dates from the 1840s or later.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Titanium white</td><td style=\"padding:8px 10px;vertical-align:top;\">Composite pigments from 1916; pure titanium dioxide widely available by 1928; pure rutile form from 1957</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">A picture dated 1880 with it in the original paint is a later picture.</td></tr></tbody></table></div>",
+                  "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.5;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Pigment</th><th style=\"padding:8px 10px;text-align:left;\">First date in the published histories</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">What finding it in an original layer means</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">[Prussian blue](/prussian-blue-pigment/)</td><td style=\"padding:8px 10px;vertical-align:top;\">About 1704, Berlin</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">The painting cannot be older than the early 1700s.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Chrome yellow</td><td style=\"padding:8px 10px;vertical-align:top;\">Lead chromate preparation published by Vauquelin in 1809</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">The painting cannot predate the early 19th century.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Synthetic ultramarine</td><td style=\"padding:8px 10px;vertical-align:top;\">Guimet developed his process in 1826 and won the Paris prize on 4 February 1828</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">Synthetic ultramarine points to the late 1820s or later: it was developed in 1826 and sold commercially in 1828.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Cadmium yellow</td><td style=\"padding:8px 10px;vertical-align:top;\">Cadmium found in 1817; pigment production delayed until about 1840</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">Cadmium yellow points to the 19th century or later; commercial production began around 1840.</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:8px 10px 8px 0;vertical-align:top;\">Titanium white</td><td style=\"padding:8px 10px;vertical-align:top;\">Composite pigments from 1916; pure titanium dioxide widely available by 1928; pure rutile form from 1957</td><td style=\"padding:8px 0 8px 10px;vertical-align:top;\">A picture dated 1880 with it in the original paint is a later picture.</td></tr></tbody></table></div>",
                   "The titanium white row comes with a caution from the conservators who built that timeline. Their summary says a titanium white paint cannot be dated just by finding barium or calcium sulfate in it, because manufacturers added sulfate fillers to many paints anyway. Dates also work in one direction. A late pigment in an original layer proves the picture is later, but a palette of old pigments proves nothing alone, since van Meegeren mixed his paints from old formulas to pass inspection.",
                   "One anachronism settles the question, while any number of old-looking features leave it open."
               ]
@@ -10583,11 +10583,11 @@ export const guides: Guide[] = [
           },
           {
               "question": "What oil paintings are worth money?",
-              "answer": "Paintings credited, with confidence, to an artist the market wants, a documented ownership history and sound condition. Catalogue wording ranks fully attributed pictures and Circle of pictures above School of and After. How far the top end goes is shown by the sale records on the site's record-prices page."
+              "answer": "Attribution, condition, provenance, rarity and demand all affect value. Anonymous works can sell, too; a named artist is not a prerequisite. Catalogue wording describes confidence in an attribution; it does not guarantee a price. Sale records can help an appraiser judge a particular work."
           },
           {
               "question": "How to antique an oil painting?",
-              "answer": "Aging a surface to pass as old is where forgery starts, so the useful answer is a warning. Han van Meegeren added a synthetic hardening resin to his paint so his forged pictures would pass as centuries old, and investigators later detected it, along with cracks on the surface that did not line up with the underlying layers. A decorative aged finish on a new painting is a finishing technique, and the line is crossed when it is sold as old."
+              "answer": "A decorative aged finish on a new painting is a finishing technique; selling it as old turns it into deception. Han van Meegeren used synthetic resin to harden paint in forged pictures. Appearance alone cannot establish age, so a buyer needs materials and provenance evidence."
           },
           {
               "question": "Does titanium white mean an oil painting is a fake?",
@@ -10595,7 +10595,7 @@ export const guides: Guide[] = [
           },
           {
               "question": "Can craquelure tell me how old a painting is?",
-              "answer": "It supports an age estimate but cannot fix a date. The Van Meegeren case showed crack patterns can be induced, and the check that exposed them was whether the surface cracks matched the layers beneath."
+              "answer": "It can support an age estimate but cannot fix a date. Crack patterns can be induced, and natural cracks can affect different layers. A conservator must assess them alongside materials and other evidence."
           }
       ],
       "sources": [
@@ -10638,6 +10638,14 @@ export const guides: Guide[] = [
           {
               "label": "Wikimedia Commons: File:Giorgione - Ragazzo con la freccia1.jpg",
               "url": "https://commons.wikimedia.org/wiki/File:Giorgione_-_Ragazzo_con_la_freccia1.jpg"
+          },
+          {
+              "label": "Canadian Conservation Institute: Condition reporting, paintings glossary",
+              "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/condition-reporting-paintings-glossary.html"
+          },
+          {
+              "label": "Museum of Fine Arts, Boston, CAMEO: Synthetic ultramarine",
+              "url": "https://cameo.mfa.org/wiki/Ultramarine_blue,_synthetic"
           }
       ]
   },
