@@ -1,0 +1,127 @@
+{
+  "getty-media": {
+    "url": "https://www.getty.edu/publications/mummyportraits/part-one/1/",
+    "read": "Full article sections through acknowledgments, web lines 1–88. References not required to substantiate added scope. Direct text retained.",
+    "evidence": [
+      "The scope for differentiating encaustic recipes is limited in ancient samples.",
+      "The article identifies beeswax in both AIC portraits, discusses unestablished recipes across literature, contamination, aging and no reliable preparation test."
+    ],
+    "correction": "No evidence ever used is not a justified inference from chemical uncertainty; preserve conditional absence as report-date limit.",
+    "saved_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-primary/getty-media.txt",
+    "saved_sha": "68d7c4291cea5196775ae9aa2491e77ff80c52c365dfc0e7a9758c2db9d23ae1"
+  },
+  "met-cloisonne": {
+    "url": "https://www.metmuseum.org/essays/chinese-cloisonne",
+    "read": "Full main essay web lines 25–30; direct fetch403, official indexed web full essay read.",
+    "quote": "However, by the period of Emperor Xuande, this ware came to be greatly prized at court.",
+    "correction": "Cao Zhao1388 to Xuande1426–35 roughly40years supports bounded timeline; China leading superlative unsupported."
+  },
+  "uffizi-venus": {
+    "url": "https://www.uffizi.it/en/artworks/birth-of-venus",
+    "read": "Full official artwork main description and catalogue fields via successful direct fetch.",
+    "quote": "there is nothing written about the painting before 1550",
+    "correction": "Source Ghost bridge can use museum absence-before1550, but not turn speculative visit-before1550 into first written date; inventory apparently complete qualification must remain.",
+    "saved_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-primary/uffizi-venus.txt",
+    "saved_sha": "489ef7e651a372c81612b39c8993566cdd7b301389aaf83b9435f735031006fc"
+  },
+  "ambrosiana-cartoon": {
+    "url": "https://www.ambrosiana.it/en/discover/masterpieces/school-of-athens/",
+    "read": "Full official object essay and all catalogue fields successfully direct fetched; web internal error fallback direct succeeded.",
+    "quote": "The imposing architecture we see in the fresco does not appear in the cartoon",
+    "correction": "One abandoned first design, later adjustments separate; particular cartoon transfer/destruction not established by object record.",
+    "saved_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-primary/ambrosiana-cartoon.txt",
+    "saved_sha": "61f6fb1721c2e85a1c2517fbfd0d6494e07ec52d6916349f19aff4b80ba4e224"
+  },
+  "taull-mapping": {
+    "url": "https://blog.museunacional.cat/en/virtual-apse-of-sant-climent-de-taull/",
+    "read": "Full main museum article through final restorer author, peripheral sidebar not treated as article.",
+    "quote": "previously hidden behind the old painted copy on plaster which is now substituted by the digital projection",
+    "correction": "Digital mapping2013 plus surviving original remains; not current exact plaster cast or wholly absent medieval paint.",
+    "saved_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-primary/taull-mapping.txt",
+    "saved_sha": "43f8d088709b56b7cc8dd1a55a6462af7b9b63cb9bd707887828c2d23dfa93a5"
+  },
+  "pottery-1950": {
+    "url": "https://www.legislation.gov.uk/uksi/1950/65/pdfs/uksi_19500065_en.pdf",
+    "read": "Relevant primary regulations1–6, definitions, application and worker scope; web PDF pages0–6 lines0–230, not claimed full26pages.",
+    "quote": "The Regulations made by the Secretary of State on the 2nd January, 1913",
+    "correction": "Revokes1913pottery/1932silicosis; 5% low-solubility and1% leadless definitions pertain factory risk. Removed first and century-to-any-law claims."
+  },
+  "fda-pottery": {
+    "url": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery",
+    "read": "Full consumer Q&A web65–110.",
+    "quote": "consider not using it for cooking, serving, or storing food or drinks.",
+    "correction": "Food-contact suitability of individual objects cannot be inferred from worker regulation or mere vintage/date."
+  },
+  "prado-baudelio": {
+    "url": "https://www.museodelprado.es/coleccion/obra-de-arte/cortina-ermita-de-san-baudelio-casillas-de/a3ac59cd-8d16-4a35-bbec-05a3796d976e",
+    "read": "Official indexed main catalogue paragraph complete as search result; direct403. Not full webpage claimed.",
+    "quote": "Boston, Indianapolis, Cincinnati y The Cloisters de Nueva York",
+    "correction": "Four US museums listed; six fragments depositedPrado1957; removed inconsistent5US/halfdozeninstitutions count."
+  },
+  "ng-rocks": {
+    "url": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/national-gallery-reveals-images-of-abandoned-angel-and-christ-underneath-the-virgin-of-the-rocks-ahead-of-ground-breaking-new-leonardo-experience-this-autumn",
+    "read": "Full main press release98–124 and notes129–155 web; direct article full search alternative.",
+    "quote": "the second underdrawing, while aligning much more closely to the finished version",
+    "correction": "One abandoned composition, one revised working design, not abandoned twice."
+  },
+  "majolica-collectors": {
+    "url": "https://www.majolicasociety.com/collecting-majolica/",
+    "read": "Full collectors own guidance text via official search full main essay.",
+    "quote": "The undersurface of a majolica piece is almost always glazed",
+    "correction": "Original rawclaybase/crazingproof/flawlessmodern claim invalid categorical authenticity; warnings on forgedmarks/copies/repairs kept."
+  },
+  "christies-tray": {
+    "url": "https://onlineonly.christies.com/s/rothschild-masterpieces-online-sale/large-minton-majolica-rotating-circular-tray-657/191736",
+    "read": "Full own lot catalogue description, provenance, estimate and condition report official indexed page; estimate not price realized.",
+    "quote": "Estimate: USD 500 - 800",
+    "correction": "Specific circa1870EnglishMintontray 2023lot657sale22103; demonstrates range not national price hierarchy."
+  },
+  "christies-vase": {
+    "url": "https://onlineonly.christies.com/s/rothschild-masterpieces-online-sale/minton-majolica-faux-bois-ground-bacchus-vase-661/191742",
+    "read": "Own lot catalogue/estimate/condition report main fully indexed read.",
+    "quote": "Estimate: USD 1,500 - 2,000",
+    "correction": "1861MintonBacchuslot661same2023sale; estimateonly, not result."
+  },
+  "ng-haywain": {
+    "url": "https://www.nationalgallery.org.uk/paintings/john-constable-the-hay-wain",
+    "read": "Complete official indexed collection main description and provenance fields read; not sidebar exhibited chronology claimed.",
+    "quote": "The critics who reviewed it at the exhibition were generally favourable",
+    "correction": "1821 reviews favourable but unsold;1824 Arrowsmith package£250, not permanent London rejection; outdoor studies accumulated over years."
+  },
+  "smithsonian-andes": {
+    "url": "https://americanart.si.edu/exhibitions/humboldt/online/frederic-edwin-church-study-andes",
+    "read": "Complete object main paragraph web234–237 read",
+    "quote": "includes five distinct biomes",
+    "correction": "Five biomes primary confirms; retain originalfive climatezones facts."
+  },
+  "louvre-pandemonium": {
+    "url": "https://collections.louvre.fr/en/ark:/53355/cl010067390",
+    "read": "Full collection record description, measurements, provenance and bibliography actually read indexed official page.",
+    "quote": "vente après décès Hick, Manchester, 21.II.1843",
+    "correction": "Ownerdied1842, painting sold1843 not dangling man sold; Sotheby original movies and prequel references not mutually exclusive."
+  },
+  "sotheby-martin-2015": {
+    "url": "https://www.sothebys.com/en/auctions/ecatalogue/2015/old-master-british-paintings-evening-sale-l15033/lot.57.html",
+    "read": "Complete lot lines0–98 read, including provenance, literature, fullessay and footnotes.",
+    "quote": "Estimate 2,000,000 - 3,000,000 GBP",
+    "correction": "2015 estimate not price/current record; originalStarWars comparison distinct fromPhantomMenaceinfluence;24printssubscription1825–27 confirmed."
+  },
+  "sotheby-martin-2016": {
+    "url": "https://www.sothebys.com/en/auctions/ecatalogue/2016/old-master-british-paintings-day-l16034/lot.207.html",
+    "read": "Full indexed own catalogue note, not complete condition page claimed.",
+    "quote": "8 July 2015, lot 57 for £2.7 million",
+    "correction": "Historical roundedprimarysale report, not currentglobalrecordUSDconversion."
+  },
+  "rmfab-icarus": {
+    "url": "https://fine-arts-museum.be/en/news/new-technical-study-of-the-fall-of-icaru",
+    "read": "Complete current official dated9April2026 news main paragraph read.",
+    "quote": "expected to return to the museum around October 2026",
+    "correction": "Expectednotactualnowonview, source explicitnoticeprojecteddate."
+  },
+  "ngs-matisse": {
+    "url": "https://www.nationalgalleries.org/art-and-artists/129058/icare-icarus",
+    "read": "Complete main paragraphs167–169 and object fields172–197 read.",
+    "quote": "This may be in relation to Matisse’s concerns for his wife, daughter and son",
+    "correction": "Possibleinterpretationnotexclusive; recordedbyLydia notunmediatedartiststatement; print1947vsdesign1943–44"
+  }
+}

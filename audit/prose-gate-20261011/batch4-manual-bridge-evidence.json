@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "encaustic-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "An ancient technique's founding account can stay just as thin elsewhere in art history: [the fullest surviving description of Brunelleschi's vanishing-point demonstration panels was written decades after the fact, by a biographer whose own authorship of that account isn't fully settled either](/vanishing-point/).",
+      "anchor": "the fullest surviving description of Brunelleschi's vanishing-point demonstration panels was written decades after the fact, by a biographer whose own authorship of that account isn't fully settled either",
+      "target_slug": "vanishing-point"
+    },
+    "quote": "Manetti's own biography creates a timing problem for the very story it tells. He was born on 6 July 1423, close to or after every proposed date for the panels, which puts firsthand childhood memory of the demonstrations somewhere between unlikely and impossible depending on whose dating you accept. He wrote his biography as an adult; the art historian Johannes Grave, citing the standard critical edition, dates the text to the 1480s, decades after Brunelleschi's death on 15 April 1446. The manuscript record is unsettled too. Three copies survive, known to scholars as the Magliabechiana, the Pistoiese, and the Corsiniana, and the first of them wasn't published until 1812, by the canon Domenico Moreni, who attributed it at the time to an anonymous contemporary of Brunelleschi rather than to Manetti. Manetti's authorship came later, from the archivist Gaetano Milanesi's 1887 edition, and Grave, writing in a peer-reviewed 2010 study of the panels, still describes it only as Manetti's \\\"probable authorship,\\\" not a closed question. A demonstration nobody can date precisely is known through a text nobody can fully date or attribute either, more than five centuries on.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "全读失传两panel、1401–1425估年、Manetti1423出生、1480s著述与probable作者归属及全FAQ。新句保留具体迟后记录和作者归属不确定，类比只文献薄弱，不声称古代蜡与透视同一技术。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "encaustic-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "The seven-part vocabulary now used to describe any painting's structure, line, shape, form, has a similarly recent history: [the seven-item list appears on the record no earlier than a 1968 printing of a studio-art textbook](/elements-of-art/), which is a long way from any inherited ancient tradition, however timeless the terms sound.",
+      "anchor": "the seven-item list appears on the record no earlier than a 1968 printing of a studio-art textbook",
+      "target_slug": "elements-of-art"
+    },
+    "quote": "None of these three systems is the seven-item list taught in American classrooms today. Dow had three elements. Ross organized his book around dots, lines, and tone rather than a fixed count. Kandinsky had three of his own: point, line, plane. The specific seven-term checklist, line, shape, form, space, value, color, texture, is a later American synthesis, and it shows up on the historical record specifically in college textbooks written for studio-art foundation courses. The clearest example still in print is Otto Ocvirk's Art Fundamentals: Theory and Practice; the earliest copy of it held by the Internet Archive is a 1968 printing from the W. C. Brown Company in Dubuque, Iowa, and later editions carried the same seven-part structure into the 2010s. That book, not any single artist's manifesto, is where most people who ever took an introductory studio-art class actually encountered the version of the list now treated as standard.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "全读Dow1899三项、Kandinsky1926三项、1968 Archive教材及全FAQ。原no earlier把馆藏最早副本当历史首次不成立；源现只1968印本documented七项，不称全球first。目标自身globalfirst债务排B7事实额外批。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "romanesque-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A painted figure's emotional presentation can split critical opinion just as sharply as a mural's fate can split a negotiating table: [one 1880 critic dismissed the ghostly saints in Jules Bastien-Lepage's Joan of Arc as \\\"false naturalism\\\" even as the painting won praise for its heroine's pose](/joan-of-arc-painting/).",
+      "anchor": "one 1880 critic dismissed the ghostly saints in Jules Bastien-Lepage's Joan of Arc as \\\"false naturalism\\\" even as the painting won praise for its heroine's pose",
+      "target_slug": "joan-of-arc-painting"
+    },
+    "quote": "Jules Bastien-Lepage's 1879 Joan of Arc, now at the Metropolitan Museum of Art under accession number 89.21.1, shows the peasant girl in her parents' garden at Domrémy as the transparent, ghostly figures of Saints Michael, Margaret, and Catherine hover before a sunlit wall, calling her to fight. Bastien-Lepage, who had fought and been wounded in the Franco-Prussian War in 1870, traveled to Domrémy itself, not far from his own birthplace of Damvillers in Lorraine, the region France had just partly lost to Prussia, and painted Joan's face and pose from his cousin, Marie-Adèle Robert, who had modeled for him before. At the 1880 Paris Salon, critics praised Joan's expression but split over the saints: Joris-Karl Huysmans dismissed them as \\\"false naturalism,\\\" a real blow for a painter France had already crowned leader of its Naturalist school. American businessman Erwin Davis bought the canvas and gave it to the Met in 1889, the same year it was shown at the Paris Exposition Universelle. Painter and diarist Marie Bashkirtseff complained that French critics failed to appreciate a painting she said was properly \\\"worshipped\\\" in the United States.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "本批全读透明三saints、Huysmans1880false naturalism、MarieRobert模特及全FAQ。原criticism比壁画外交谈判相同争议机制无支持，改为独立艺术批评例，留1880评论与heroine赞誉。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "romanesque-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "It is the same city whose [Sagrada Família](/sagrada-familia/) reached its finish in 2026.",
+      "anchor": "Sagrada Família",
+      "target_slug": "sagrada-familia"
+    },
+    "quote": "On 20 February 2026, construction crews fastened the final piece onto the Tower of Jesus Christ at the center of Sagrada Família, bringing the basilica to its full height of 172.5 meters and completing all six of the temple's central towers. The milestone completed the exterior of the tallest tower; it did not finish the whole basilica Antoni Gaudí redesigned in 1883.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "完整B2全读receipt与当前article SHA完全相同，复用该完整读记录。Feb20/2026 172.5只Jesus tower外部/六central完成、18整体未完，源已撤finishwhole2026。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "romanesque-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Notre-Dame de Paris shows a related version of the same gap between what a site looks like today and what actually survived from its medieval building campaign, since [the carved monsters tourists photograph on its towers date from an 1843–1864 restoration](/what-is-a-gargoyle/), not from the Gothic construction itself.",
+      "anchor": "the carved monsters tourists photograph on its towers date from an 1843–1864 restoration",
+      "target_slug": "what-is-a-gargoyle"
+    },
+    "quote": "Between 1843 and 1864, Eugène Viollet-le-Duc and Jean-Baptiste-Antoine Lassus rebuilt much of Notre-Dame de Paris; Lassus died in 1857 and Viollet-le-Duc carried the campaign on alone. Among the additions was a row of hybrid creatures set along the balustrade linking the two west towers, the Galerie des Chimères. The brooding horned figure resting its chin on its hands, the one that appears on every second postcard of Paris, belongs to this group. It has no channel. It drains nothing. It is a chimera, and it is younger than the Arc de Triomphe.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "本轮重读B1最终全body+9FAQ。1843–64改建的Galerie chimeras不是中世纪真排水gargoyle，目标直接支持桥接date和旅游形象/存留实物差别；不称所有雕刻全是19世纪。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "famous-renaissance-paintings",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "It was made as a preparatory work for the Stanza della Segnatura in the Vatican, commissioned by Pope Julius II at very nearly the same time [Michelangelo was on a scaffold of his own design elsewhere in the Vatican, painting the Sistine ceiling for the same pope](/michelangelo-sistine-chapel/).",
+      "anchor": "Michelangelo was on a scaffold of his own design elsewhere in the Vatican, painting the Sistine ceiling for the same pope",
+      "target_slug": "michelangelo-sistine-chapel"
+    },
+    "quote": "Michelangelo took the complaint to Julius directly and got permission to build his own scaffold instead. His design was freestanding: a wooden platform on brackets set into holes drilled above the chapel's upper windows, clear of the floor so services could continue underneath and clear of the vault so no rope holes interrupted the plaster. The builder Piero Roselli constructed it to Michelangelo's specifications and then roughcast the ceiling's surface himself, preparing it for the first layer of plaster. The arrangement worked well enough that when conservators mounted their own scaffolding for the ceiling's restoration more than four and a half centuries later, they reused the same holes above the windows that Michelangelo's carpenters had cut in 1508.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "reason": "本轮重读B3最终全body+9FAQ，1508–1512 Julius commission与自定platform/Roselli施工明确，支持同时期同pope/scaffold具体桥接，不把cleaning当imaging。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "famous-renaissance-paintings",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[The same habit applies to a painting's basic catalogue facts](/famous-paintings/), support, dimensions, inventory number, which get garbled in the retelling just as often as the story of what lies underneath the paint.",
+      "anchor": "The same habit applies to a painting's basic catalogue facts",
+      "target_slug": "famous-paintings"
+    },
+    "quote": "Museums keep a different kind of record. A collection entry has to name the support the work is painted on, the technique, the measurements in centimetres, an inventory number, and how the institution came to own it. Those fields exist because the object has to be insured, conserved, hung and found again, and they are maintained by people who can walk up to it and look.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "本轮完整重读B1最终全body+7FAQ，collectionentry medium/support/dimensions/inventory/provenance直接支持source桥接。撤无目标证据thissite haschecked动作claim，现描述目标文章讨论字段，不编人工亲测。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "majolica",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A similar gap between an assumed technique and what the documented record actually supports shows up in [the wax recipe long credited as the ancient medium behind the Fayum mummy portraits, which a 2020 chemical analysis found no confirmed trace of in an actual painting](/encaustic-painting/); majolica's version runs through a factory ledger and a trade union archive, not a conservation lab, but the underlying mistake, a name and a process assumed to have traveled together when they hadn't, is the same shape.",
+      "anchor": "the wax recipe long credited as the ancient medium behind the Fayum mummy portraits, which a 2020 chemical analysis found no confirmed trace of in an actual painting",
+      "target_slug": "encaustic-painting"
+    },
+    "quote": "Encaustic painting's origin is uncertain by its own earliest chronicler: writing around 77 AD, Pliny the Elder stated flatly that \\\"it is not agreed who was the inventor of painting in wax,\\\" recording several competing claims before crediting Pausias of Sicyon as the first artist to become famous at it. The \\\"Punic wax\\\" recipe long cited as the medium behind the Fayum mummy portraits fares no better under modern testing: a 2020 study published by Getty, focused on two Art Institute of Chicago portraits, reviewed recipes recorded from Otto Donner von Richter in 1893 through Euphrosyne Doxiadis in the 1990s, and repeated as settled fact in reference works including The Oxford History of Western Art, and reported that scientific analysis had not established those specific combinations in mummy portraits. Identifying beeswax does not establish how it was prepared. The same study found beeswax as the major binder in both paintings, including one that looks nothing like encaustic, undercutting the visual test art historians have used for over a century to sort portraits into \\\"encaustic\\\" and \\\"tempera\\\" groups.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "本批全读原及改稿5FAQ，Getty2020完整相关主文证实分析出beeswax并不定制备recipe。原never found概括过强，改为recipe preparation无法仅由binder识别；两knownglazes与ancient uncertainty明确分开。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "majolica",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Reputation can swing the opposite way just as fast: [China's leading antiquarian dismissed cloisonné enamel as unfit for a scholar's studio in 1388, only for the same technique to become an imperial treasure within about forty years](/cloisonne/), a reminder that a decorative craft's status, like its name, is rarely as stable as the finished object makes it look.",
+      "anchor": "China's leading antiquarian dismissed cloisonné enamel as unfit for a scholar's studio in 1388, only for the same technique to become an imperial treasure within about forty years",
+      "target_slug": "cloisonne"
+    },
+    "quote": "Cloisonné's reputation as an old, unbroken craft doesn't match the documented record in any of the three traditions most associated with it. In China, the earliest written mention of the technique is dismissive: Cao Zhao's 1388 antiquities guide, the Gegu Yaolun, rules copper enamelware fit only for a woman's chamber and, in the Metropolitan Museum of Art's account of that judgment, \\\"not well suited to a more restrained atmosphere, such as that of a scholar's home.\\\" Within about 40 years, by the Ming Xuande reign (1426-35), the same technique had become prized ware at the imperial court, the period from which the earliest securely dated Chinese cloisonné survives. Byzantium had no comparable gap: the Met holds a gold and cloisonné-enamel reliquary made in the early ninth century to hold a fragment of the True Cross, and Venice's Basilica di San Marco has displayed a gold altarpiece carrying more than eighty Byzantine cloisonné enamels since 976. Japan's version shows two real breaks instead, and Sotheby's historical account states plainly that no three-dimensional cloisonné was produced there again until a former samurai, Kaji Tsunekichi, took apart an imported enamel piece in the late 1830s.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "全读1388CaoZhao/1426–35Xuande起已securecourtobjects及全FAQ。约40年范围支持声誉变迁，已撤leading排名；不把该短时间变迁当所有cloisonne不连续证据，其他已发现目标事实债务排额外批。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "ghost-of-a-flea",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[A comparable gap between an object's creation and the paper trail proving what happened to it afterward shows up in the record for Botticelli's Birth of Venus, which is missing from an otherwise complete 1499 Medici inventory and first appears in writing only in Vasari's account from before 1550](/birth-of-venus/); with the flea panel, every step of that trail from 1820 onward is independently confirmed, which is unusual enough for a minor 19th-century picture to be worth pointing out on its own.",
+      "anchor": "A comparable gap between an object's creation and the paper trail proving what happened to it afterward shows up in the record for Botticelli's Birth of Venus, which is missing from an otherwise complete 1499 Medici inventory and first appears in writing only in Vasari's account from before 1550",
+      "target_slug": "birth-of-venus"
+    },
+    "quote": "In 1975, an apparently complete 1499 inventory of the property belonging to Lorenzo di Pierfrancesco de' Medici's branch of the family was published for the first time. Primavera appears in that inventory. The Birth of Venus does not. On the strength of that absence, the art historian Ronald Lightbown, in his 1989 study Sandro Botticelli: Life and Work, concludes that the Birth of Venus only came into Medici ownership sometime after 1499, not commissioned alongside Primavera as earlier scholarship had assumed. A single list of household goods, compiled more than a decade after the painting was likely made and unread by art historians for nearly five centuries after that, was enough to unravel an assumption that had stood as settled fact.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "全读目标body+8FAQ，1499apparentlycomplete库存有Primavera无Venus支持缺记录，原otherwisecomplete过强已改apparently。目标before1550与官方Uffizifirstwritten1550不同，源采用官方1550并留目标身份/1499链接；目标firstdate在B7同步修，primary receipt明确缺口不能以旧目标当1550证据。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "famous-landscape-paintings",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "It comes from the same kind of paper trail [this site has used to check other canonical paintings against the museums that actually own them](/famous-paintings/): the catalogue record, the preparatory material that survives alongside the object, and in Constable's case, the artist's own letters about who bought the thing and why.",
+      "anchor": "this site has used to check other canonical paintings against the museums that actually own them",
+      "target_slug": "famous-paintings"
+    },
+    "quote": "Museums keep a different kind of record. A collection entry has to name the support the work is painted on, the technique, the measurements in centimetres, an inventory number, and how the institution came to own it. Those fields exist because the object has to be insured, conserved, hung and found again, and they are maintained by people who can walk up to it and look.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "本轮完整重读B1最终全body+7FAQ，collectionentry medium/support/dimensions/inventory/provenance直接支持source桥接。撤无目标证据thissite haschecked动作claim，现描述目标文章讨论字段，不编人工亲测。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "famous-landscape-paintings",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[Monet later built an entire body of work the opposite way, returning to one motif dozens of times instead of compressing many places into one canvas](/water-lilies-monet-series/), but both approaches share the same premise: a finished landscape doesn't have to record a single sitting in front of the subject.",
+      "anchor": "Monet later built an entire body of work the opposite way, returning to one motif dozens of times instead of compressing many places into one canvas",
+      "target_slug": "water-lilies-monet-series"
+    },
+    "quote": "The studio reorganised his year. MoMA's account describes the pattern: in summer he painted outdoors on smaller canvases, and in winter he retreated indoors to work on paintings roughly six and a half feet tall and up to twenty feet wide, moving between several panels at a time. Six and a half feet is about two metres, and that measurement is the whole specification. It is why separate canvases could later be butted together into continuous compositions, and why the two big MoMA canvases that never went to Paris share the same height as the Paris panels. MoMA's triptych of 1914 to 1926 measures 200 by 424.8 cm per panel and 200 by 1,276 cm overall; its single panel is 199.5 by 599 cm.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "全读Giverny池塘建造、series约250、summer outdoor small/winter large studio panels及全FAQ。原opposite way和samepremise泛概括删，改成同pond反复研究及late studio制作具体桥接，非同一方法。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "pandemonium-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A single painted subject splitting into two separate, differently documented objects happens elsewhere in this period too: [Rene Magritte painted The Lovers twice in Paris in 1928, and the two canvases, now held on opposite sides of the world, carry ownership records that look nothing alike](/the-lovers-painting/).",
+      "anchor": "Rene Magritte painted The Lovers twice in Paris in 1928, and the two canvases, now held on opposite sides of the world, carry ownership records that look nothing alike",
+      "target_slug": "the-lovers-painting"
+    },
+    "quote": "Rene Magritte's The Lovers is not one painting but two: a couple kissing through white cloth at MoMA in New York, and a second version showing the couple facing forward at the National Gallery of Australia in Canberra, both painted in Paris in 1928 and both close to 54 by 73 centimetres. Nearly every account of the veiled faces repeats the same explanation, that as a boy Magritte watched his drowned mother's body pulled from the River Sambre with her nightgown wrapped around her face. Wikipedia's entry on Magritte states that later research discredited that eyewitness story, and a 2018 review in the New York Review of Books calls it a family legend, now discredited. Magritte was thirteen when his mother died on 24 February 1912, not fourteen as some retellings claim, and his own description of the day left the riverbank out entirely: In 1912, his mother Regina is tired of life. She throws herself into the Sambre.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "全读1928Paris两独立canvas/NYMoMA与CanberraNGA，各provenance和母亲eyewitnesslegend不可靠及全FAQ。新原桥接只同subject多object并不同ownership，目标开篇确有两机构；不推一幅复制另一幅。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "pandemonium-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Unlike William Blake, whose own visionary panel [The Ghost of a Flea](/ghost-of-a-flea/) stayed in private hands, first his friend John Varley's and later a collector's, until it reached the Tate on loan in 1913, Martin's Milton illustrations reached an enormous audience while he was still alive to see it.",
+      "anchor": "The Ghost of a Flea",
+      "target_slug": "ghost-of-a-flea"
+    },
+    "quote": "Robertson lent the panel to the Tate from 1913 onward. He died on 4 September 1948, having bequeathed four Blake works directly to the nation, with the remainder of his collection to be sold at auction through his executors. Tate's catalogue record lists the gift as \\\"Bequeathed by W. Graham Robertson 1949,\\\" a year after his death, because that is when the bequest was formally completed and accessioned rather than when Robertson made the decision. [Botticelli’s Birth of Venus is absent from an apparently complete 1499 Medici inventory](/birth-of-venus/). The Uffizi dates its first written mention to Vasari in 1550. The flea panel has a different record: a retrospective inscription, later sale information, and the Tate loan and bequest dates described above.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "本批全读body+5FAQ并重核改稿，Robertson1913loan、1948death1949accession支持public exposure区别。原privatebeforeloan事实可保留，Martin广泛分布另有Sotheby2015essay主文实际核；不称Blake晚/早精神疾病同类。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "icarus-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[Millais famously painted Ophelia's landscape first, with no model at all, and only added Elizabeth Siddal to the canvas months later](/ophelia-millais/), a different version of the same underlying habit in Victorian studio painting: build the picture's pieces separately, then assemble them, instead of staging one live scene from start to finish.",
+      "anchor": "Millais famously painted Ophelia's landscape first, with no model at all, and only added Elizabeth Siddal to the canvas months later",
+      "target_slug": "ophelia-millais"
+    },
+    "quote": "John Everett Millais painted his 1851–52 Ophelia in two separate stages: an outdoor landscape by the Hogsmill River near Ewell in Surrey, completed over roughly five months of eleven-hour days, and the figure of Elizabeth Siddal added afterward in his London studio, where he posed her fully clothed in a bathtub of water kept warm by lamps underneath. During one long winter sitting the lamps went out unnoticed, Siddal caught a severe cold, and her father wrote to Millais threatening legal action for £50 in damages, a bill Millais ultimately settled for a lesser, undisclosed sum.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "B3目标完整读receipt与当前B2article SHA完全相同，复用完整body+5FAQ。1851setting1852Siddal支持source两阶段制作，但不能据此称所有Victorian普遍过程，已去泛化并明示具体年。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "icarus-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "The same pattern shows up across [other paintings assembled from religious and literary texts, not from direct observation](/pandemonium-painting/): artists working from a shared text or myth routinely make incompatible choices about which moment to freeze, and those choices, not just technical skill, are often what later audiences end up arguing about.",
+      "anchor": "other paintings assembled from religious and literary texts, not from direct observation",
+      "target_slug": "pandemonium-painting"
+    },
+    "quote": "The 1841 oil wasn't Martin's first attempt at this composition. In 1824 he engraved it as a mezzotint, one of twenty-four subjects from Paradise Lost commissioned by the London publisher Septimus Prowett. Martin was paid 2,000 guineas for that first set of plates, published by subscription in twelve monthly instalments between 1825 and 1827, each pairing two mezzotints with a section of Milton's text.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "reason": "本批全读并核改稿body+6FAQ，1824mezzotint/1831largerprint/1841oil三版本支持source具体单artist跨media返题；原samepattern不同artist incompatible text选择无支持已改实际时间线。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "mandala-art": {
+    "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "article_sha": "f9a5b08d9292cb8cfe87785d51624b13c9599fd9abfa1901e3f0258a262413f1",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "full_body_all_FAQ_actually_read": true,
+    "quote": "The mandala most people actually picture, a circle divided into precise, symmetrical zones with a deity or symbol at the center, belongs to a different and much later tradition: Tantric Buddhism, which developed in India from around the sixth century CE onward. Early examples include sketches in eighth- through tenth-century Dunhuang manuscripts and Tibetan cloth paintings and temple murals from the eleventh and twelfth centuries. The wider Buddhist record also includes Japanese mandalas, such as the Takao set dated 824. The dates of these surviving objects are distinct from the composition dates of Vedic hymns.",
+    "reason": "新Encaustic桥接严格保留Dunhuang8–10/Takao824/Tibet11–12和文本bookdivision≠picture，不推hymn日期是word首次"
+  },
+  "psychedelic-art": {
+    "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "article_sha": "ae4529d5b4c2bf32366e1da1cd9459d1535d6011c8b74c5ecf01f9c9e441e9b0",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "full_body_all_FAQ_actually_read": true,
+    "quote": "Ask where psychedelic art came from and the answer usually starts in 1966, with the concert posters Wes Wilson and a handful of other San Francisco artists made for Bill Graham's Fillmore Auditorium: swirling color, hallucinatory imagery, lettering that seemed to melt. The implied mechanism is direct. Someone took LSD, and the trip came out on paper. That story skips the drug's first decade of American use almost entirely. Beginning in 1954, a full twelve years before California made LSD illegal and before Timothy Leary had made himself its public face, a Los Angeles psychiatrist named Oscar Janiger was already giving the drug to patients in a research setting and asking some of them to paint what happened.",
+    "reason": "Ghost不把Blake visions当临床药物experiment同状态，只Janiger1954和后来的1966poster史两个记录"
+  },
+  "edvard-munch-the-scream": {
+    "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "article_sha": "82acdb2a39adae0c37f4be775bf59743244a563bbe9432492c43d5fd9d976ea8",
+    "source_file_sha": "0dc2b5ba7f2b5996313d948f7db14f7c094ff8cfd2cd42a712ffaa87c0b789bd",
+    "full_body_all_FAQ_actually_read": true,
+    "quote": "In the top left corner of the National Museum's 1893 version, barely visible to the naked eye, is a sentence in pencil: \\\"Can only have been painted by a madman!\\\" For most of the twentieth century nobody paid it much attention, and when scholars did notice it, the assumption ran the obvious way. A gallery-goer, so the theory went, had scrawled an insult on a painting whose subject already looked deranged. In 2008, Munch scholar Gerd Woll floated exactly that: a vandal's graffiti, not the artist's hand.",
+    "reason": "Ghost只NationalMuseum1893inscription作者Munch，不称selfdiagnosis；目标core混合1893与1910chemical已排B7修"
+  }
+}

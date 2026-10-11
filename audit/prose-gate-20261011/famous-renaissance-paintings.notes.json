@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标 michelangelo-sistine-chapel 全正文全部FAQ核读。原句：Michelangelo took the complaint to Julius directly and got permission to build his own scaffold instead. His design was freestanding: a wooden platform on brackets set into holes drilled above the chapel's upper windows, clear of the floor so services could continue underneath and clear of the vault so no rope holes interrupted the plaster. The builder Piero Roselli constructed it to Michelangelo's specifications and then roughcast the ceiling's surface himself, preparing it for the first layer of plaster. The arrangement worked well enough that when conservators mounted their own scaffolding for the ceiling's restoration more than four and a half centuries later, they reused the same holes above the windows that Michelangelo's carpenters had cut in 1508.。源当前句：It was made as a preparatory work for the Stanza della Segnatura in the Vatican, commissioned by Pope Julius II at very nearly the same time [Michelangelo was on a scaffold of his own design elsewhere in the Vatican, painting the Sistine ceiling for the same pope](/michelangelo-sistine-chapel/).。本轮重读B3最终全body+9FAQ，1508–1512 Julius commission与自定platform/Roselli施工明确，支持同时期同pope/scaffold具体桥接，不把cleaning当imaging。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "目标 famous-paintings 全正文全部FAQ核读。原句：Museums keep a different kind of record. A collection entry has to name the support the work is painted on, the technique, the measurements in centimetres, an inventory number, and how the institution came to own it. Those fields exist because the object has to be insured, conserved, hung and found again, and they are maintained by people who can walk up to it and look.。源当前句：[The same habit applies to a painting's basic catalogue facts](/famous-paintings/), support, dimensions, inventory number, which get garbled in the retelling just as often as the story of what lies underneath the paint.。本轮完整重读B1最终全body+7FAQ，collectionentry medium/support/dimensions/inventory/provenance直接支持source桥接。撤无目标证据thissite haschecked动作claim，现描述目标文章讨论字段，不编人工亲测。"
+  }
+]

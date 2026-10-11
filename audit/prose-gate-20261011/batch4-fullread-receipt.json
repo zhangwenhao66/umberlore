@@ -1,0 +1,137 @@
+{
+  "birth-of-venus": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/birth-of-venus.txt",
+    "article_sha": "2184e151e8b358874e1cff199d0d72b91df7f5047d47f2ab2ad4314858bbf9bc",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "cloisonne": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/cloisonne.txt",
+    "article_sha": "0ce1549b409c4da38026a87dacb984425801e10e0bb55848e98811e17f951f01",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "elements-of-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/elements-of-art.txt",
+    "article_sha": "c3c5fed73946a944add17037068c271d1bba934d32523c131d4e4e78498b89e6",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "encaustic-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/encaustic-painting.txt",
+    "article_sha": "c169b13e93c2f9919c4647eadf4e51c94832e8fb92dab9db6fecb03569cfeaf1",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": "B4 complete source body+FAQ",
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "famous-paintings": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/famous-paintings.txt",
+    "article_sha": "905e88e95296f6e75c2e5f26d10c205a5d589ba6b813b65d21e783c6b8989ff6",
+    "source_file_sha": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "ghost-of-a-flea": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/ghost-of-a-flea.txt",
+    "article_sha": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": "B4 complete source body+FAQ",
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "joan-of-arc-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/joan-of-arc-painting.txt",
+    "article_sha": "bfb16c2806914b3be5f2429008edce9c53ebb7814929b0e03ac75d6b8c94184c",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "michelangelo-sistine-chapel": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/michelangelo-sistine-chapel.txt",
+    "article_sha": "7fc5fd952b706ed226cd51382466fe0bbb365898554e18cda19901efdab02c41",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "ophelia-millais": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/ophelia-millais.txt",
+    "article_sha": "b3c34cb3092460373fbd5db9239bffb6e89c084d5498db493b4d55b7ec6de6cf",
+    "source_file_sha": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read": true,
+    "reuse_read": "exact current article SHA equals B2/B3 complete target read receipt",
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "pandemonium-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/pandemonium-painting.txt",
+    "article_sha": "e23f79e762f502e0cf34b10359e5ca3a161355feee41d5fb814c4b56d3dd4685",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": "B4 complete source body+FAQ",
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "sagrada-familia": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/sagrada-familia.txt",
+    "article_sha": "f90e198188b1c051d20104c7b78c11bbfc0805f794fcdb7e28403d89ca3a6f57",
+    "source_file_sha": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read": true,
+    "reuse_read": "exact current article SHA equals B2/B3 complete target read receipt",
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "the-lovers-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/the-lovers-painting.txt",
+    "article_sha": "7db42396ebb9ceb2dffc11ebfe4f19ee3595338b3df7a6129c5cb01940c3c5b2",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "vanishing-point": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/vanishing-point.txt",
+    "article_sha": "951edd1f9d5bb0e92a248bc8e4ed4014e9f985990ed9a59795c388080baeb1e8",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "water-lilies-monet-series": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/water-lilies-monet-series.txt",
+    "article_sha": "280cbcb6d01fc45afec32320e6d76394ce6ec67639446662f6b6199939a5ad5e",
+    "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  },
+  "what-is-a-gargoyle": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/what-is-a-gargoyle.txt",
+    "article_sha": "3fb10b237e01dccac982abe29d60b3b35caa341a8bc36d0c4efeef00ddc73894",
+    "source_file_sha": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_read": true,
+    "reuse_read": null,
+    "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+  }
+}
