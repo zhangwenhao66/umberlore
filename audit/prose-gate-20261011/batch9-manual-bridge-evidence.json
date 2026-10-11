@@ -1,0 +1,167 @@
+[
+  {
+    "source_slug": "art-deco",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "Vienna had already spent a decade breaking with realism in exactly this ornamental, flattened direction: the gold-leaf surfaces of [Gustav Klimt's paintings](/gustav-klimt/), finished in the years before the first world war, worked pattern and metal leaf into figures the same way Art Deco would later work geometric pattern into buildings, furniture and jewellery, just with paint standing in for chrome.",
+      "anchor": "Gustav Klimt's paintings",
+      "target_slug": "gustav-klimt"
+    },
+    "review": "Fulltarget includes goldleaf figure/patternwork and separate restitution ownershipdispute: Klimt materialexample narrowed no identicalprocess chrome; Aztecownership analogy onlywhoholds/displays, notclaimsame legalresult.",
+    "target_quote": "Altmann and Austria agreed to put the ownership question to binding arbitration",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "target_current_article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "source_current_article_sha256": "84feab305aa5cc061ea6ad81bab82188626ddcd9723757a679c50d2267f80ffa",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "daguerreotype",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The single human detail that made this plate famous, in other words, is itself a matter of interpretation rather than settled fact, a different kind of contested \\\"first\\\" than [the disputed date on the watercolor credited as art's first fully abstract painting](/abstract-art-first-painting/), but built from the same raw material: a claim that outran what the surviving evidence can actually support.",
+      "anchor": "the disputed date on the watercolor credited as art's first fully abstract painting",
+      "target_slug": "abstract-art-first-painting"
+    },
+    "review": "Fulltarget catalogueAM1976-8641913 against artist1910inscription; sourcecompares evidentialuncertainty, notsame datingtechnique or firstpersonproof.",
+    "target_quote": "the date field in the Centre Pompidou's catalogue, the field a researcher would cite, reads 1913",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "target_current_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "source_current_article_sha256": "dab3ce792a35ec9c6ccdc4011568dc49f3dbdb9de8511ecdbd1bbdd097e2c06c",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "daguerreotype",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The most reproduced daguerreotype in the world survives today in worse physical condition than the copies Newhall made of it more than three decades before that restoration, a detail that tends to get smoothed out of the caption entirely, the same way [a seven-part vocabulary now taught as though it were art's timeless grammar turns out to have a specific, comparatively recent origin story of its own](/elements-of-art/) once anyone checks where it actually came from.",
+      "anchor": "a seven-part vocabulary now taught as though it were art's timeless grammar turns out to have a specific, comparatively recent origin story of its own",
+      "target_slug": "elements-of-art"
+    },
+    "review": "CurrentB7target1968edition available butnotfirstlist; sourcebridge revised removesrecentuniversalorigin and samebrittlesurvivalclaim.",
+    "target_quote": "That available edition does not establish the list's first appearance.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "target_current_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "source_current_article_sha256": "dab3ce792a35ec9c6ccdc4011568dc49f3dbdb9de8511ecdbd1bbdd097e2c06c",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "daguerreotype",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "However sharp the daguerreotype's detail, that limitation made it a difficult format to scale once demand for portrait photography moved from novelty to industry, which is why the single, fragile, much-photographed Boulevard du Temple plate exists at all, the same brittle survival that separates [the Louvre's own documented account of a famous painting](/mona-lisa/) from the folklore that tends to grow up around anything this widely reproduced: because there was never a negative to lose, there was also never a spare.",
+      "anchor": "the Louvre's own documented account of a famous painting",
+      "target_slug": "mona-lisa"
+    },
+    "review": "Fresh completebodyALLFAQ target gives documentedpoplar notBaedekercanvas; sourcebridge now precisely that cataloguevsreport discrepancy; nofalseequationnegativeabsence/poplarpreservation.",
+    "target_quote": "oil on poplar wood, not canvas",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+    "target_current_article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+    "source_current_article_sha256": "dab3ce792a35ec9c6ccdc4011568dc49f3dbdb9de8511ecdbd1bbdd097e2c06c",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "art-styles",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "And the same 1550 book that invented Gothic's insult, Vasari's Lives, also [invented a murder confession for one of the Renaissance painters it profiled, a story that took archivists three centuries to disprove using burial records](/renaissance-art/).",
+      "anchor": "invented a murder confession for one of the Renaissance painters it profiled, a story that took archivists three centuries to disprove using burial records",
+      "target_slug": "renaissance-art"
+    },
+    "review": "Fulltarget describes VasariCastagno1457/Veneziano1461 and Milanesi1862 burialrecordrefutation. Sourcesaysreportedfabricatedstory notproved Vasari personallyinventedallhehadheard; confessionchronology correct.",
+    "target_quote": "Domenico Veneziano did not die until May 1461, nearly four years after Castagno.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "target_current_article_sha256": "a5924cd23ea7d8cd60590b3ce4dace99f8cca6c70a2a3bd874cc47b6d04bb651",
+    "source_current_article_sha256": "3e089bb0b1cafb0c408400c3709855a22b1cd53bfaff8c21d5b3a95dae0b61e8",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "architectural-painting",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "A comparable gap opens up a little over two centuries after Saenredam's Haarlem interiors, in photography, where [close examination of the plate](/daguerreotype/) usually credited with capturing the first photographed person turned up faint traces, a possible child, a horse, other unregistered smears, that complicate the tidy single-bystander story built around the image's most legible corner.",
+      "anchor": "close examination of the plate",
+      "target_slug": "daguerreotype"
+    },
+    "review": "CurrentB9targetcompletebodyALLFAQ+allchangedparagraphs read; targetlistschild/horse/smears withpossibilityqualification. Architecturalcomparison aboutunexpecteddetails, notprovingDaguerremadecompositionaldistortionslikeSaenredam.",
+    "target_quote": "a possible child looking out from a window, a horse",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+    "target_current_article_sha256": "dab3ce792a35ec9c6ccdc4011568dc49f3dbdb9de8511ecdbd1bbdd097e2c06c",
+    "source_current_article_sha256": "6163152722d3f3c2a99cf20abe4d89d6fa3aba3d1d89647ae0ba6bf9e2d5d53f",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "architectural-painting",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "St Peter's Basilica, the subject of some of the genre's later architectural views, has [a legend that Vatican records complicate](/st-peters-basilica/) attached to one of its most photographed bronze features, in a pattern not unlike Botticelli's Birth of Venus, where [a 1499 inventory undercut](/birth-of-venus/) an assumption about the painting's origin that had stood as settled fact for centuries.",
+      "anchor": "a legend that Vatican records complicate",
+      "target_slug": "st-peters-basilica"
+    },
+    "review": "CurrentB7targetbodyFAQ sourcehistoricalaccounts viaWiki bronze90% cannon/Venice; bridge removesunsupportedclaimactuallyreadVaticanrecords and sayslegendaboutsourcebronze.",
+    "target_quote": "historical records that indicate about ninety percent of the Pantheon bronze",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "target_current_article_sha256": "9214264199698c7ca554e192f5c10e96ddcb969415041d131290fbac7faf6752",
+    "source_current_article_sha256": "6163152722d3f3c2a99cf20abe4d89d6fa3aba3d1d89647ae0ba6bf9e2d5d53f",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "architectural-painting",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "St Peter's Basilica, the subject of some of the genre's later architectural views, has [a legend that Vatican records complicate](/st-peters-basilica/) attached to one of its most photographed bronze features, in a pattern not unlike Botticelli's Birth of Venus, where [a 1499 inventory undercut](/birth-of-venus/) an assumption about the painting's origin that had stood as settled fact for centuries.",
+      "anchor": "a 1499 inventory undercut",
+      "target_slug": "birth-of-venus"
+    },
+    "review": "CurrentB8target allsourceFAQ narrows inventorysilence asinterpretationnotcommissionproof. Sourcebridge narrowedproposedprovenancegap notabsoluteconclusiveorigin.",
+    "target_quote": "A 1499 household inventory, unpublished until 1975, lists its companion painting and leaves this one out.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "target_current_article_sha256": "af4c137b389ed13f7f6fa4f57a257212bed7bc59b8564348ffa99662412b65e5",
+    "source_current_article_sha256": "6163152722d3f3c2a99cf20abe4d89d6fa3aba3d1d89647ae0ba6bf9e2d5d53f",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "aztec-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "A comparable identification puzzle turns up in Mesoamerican art further south as well: [a tomb uncovered beneath the Bonampak murals in 2010 holds an occupant whose identity, captive or royal relative, has never been resolved](/mayan-art/).",
+      "anchor": "a tomb uncovered beneath the Bonampak murals in 2010 holds an occupant whose identity, captive or royal relative, has never been resolved",
+      "target_slug": "mayan-art"
+    },
+    "review": "CurrentB3targetallbodyFAQ cryptunderRoom2 in2010, identitycaptiveorrelative unconfirmed; straightforward identificationuncertaintycomparison, notsame excavationprocedure.",
+    "target_quote": "a captive warrior, killed the way the murals above him show captives being killed, or a relative of Bonampak's ruling family",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "target_current_article_sha256": "46e3b27b87765f6398df73790e45182e119783790b86f8d7d3c1d366ee9e95f6",
+    "source_current_article_sha256": "fad3ff4a8447a53f1b7dd50a8c4f75bba010724019cdfc73deb0afb66d359010",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "aztec-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "[Gustav Klimt's own body of work carries a parallel argument over ownership, playing out in restitution disputes over paintings looted during the Nazi era](/gustav-klimt/), in a different European museum system but over the same basic question of who actually gets to hold and display a contested object.",
+      "anchor": "Gustav Klimt's own body of work carries a parallel argument over ownership, playing out in restitution disputes over paintings looted during the Nazi era",
+      "target_slug": "gustav-klimt"
+    },
+    "review": "Fulltarget includes goldleaf figure/patternwork and separate restitution ownershipdispute: Klimt materialexample narrowed no identicalprocess chrome; Aztecownership analogy onlywhoholds/displays, notclaimsame legalresult.",
+    "target_quote": "Altmann and Austria agreed to put the ownership question to binding arbitration",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "target_current_article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "source_current_article_sha256": "fad3ff4a8447a53f1b7dd50a8c4f75bba010724019cdfc73deb0afb66d359010",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "aztec-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The mandala offers a different kind of parallel: [the word and concept predate the specific images most people now associate with it by roughly two thousand years, a case where popular understanding lags behind a much older and more specific history](/mandala-art/).",
+      "anchor": "the word and concept predate the specific images most people now associate with it by roughly two thousand years, a case where popular understanding lags behind a much older and more specific history",
+      "target_slug": "mandala-art"
+    },
+    "review": "CurrentB7targethymndivisionsversusritualimages explicitlydifferenttraditions; source2kclaimremoved. Earlierworddoesnotdate sameconcept/image.",
+    "target_quote": "divisions of hymns, not drawings",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "target_current_article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+    "source_current_article_sha256": "fad3ff4a8447a53f1b7dd50a8c4f75bba010724019cdfc73deb0afb66d359010",
+    "full_source_and_target_body_allFAQ_read": true
+  }
+]

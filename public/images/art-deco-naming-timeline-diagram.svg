@@ -1,6 +1,6 @@
 <svg viewBox="0 0 1200 620" width="1200" height="620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
   <rect width="1200" height="620" fill="#faf6f0"/>
-  <text x="600" y="50" text-anchor="middle" font-size="26" fill="#4a3728" font-weight="bold">A Style Named Four Decades After It Started</text>
+  <text x="600" y="50" text-anchor="middle" font-size="26" fill="#4a3728" font-weight="bold">An Interwar Style and Its Retrospective Label</text>
   <text x="600" y="78" text-anchor="middle" font-size="15" fill="#6d4f3a">Six dated events between the motifs, the monuments, and the name</text>
 
   <line x1="80" y1="330" x2="1120" y2="330" stroke="#8a5a34" stroke-width="4"/>
@@ -25,9 +25,9 @@
   <circle cx="530" cy="330" r="12" fill="#6d4f3a"/>
   <text x="530" y="280" text-anchor="middle" font-size="20" fill="#4a3728" font-weight="bold">1930</text>
   <text x="530" y="370" text-anchor="middle" font-size="13" fill="#4a3728">Van Alen's Chrysler</text>
-  <text x="530" y="388" text-anchor="middle" font-size="13" fill="#4a3728">Building tops out in</text>
-  <text x="530" y="406" text-anchor="middle" font-size="12" fill="#7a6248">Manhattan, still with</text>
-  <text x="530" y="422" text-anchor="middle" font-size="12" fill="#7a6248">no name for its style</text>
+  <text x="530" y="388" text-anchor="middle" font-size="13" fill="#4a3728">Building is completed in</text>
+  <text x="530" y="406" text-anchor="middle" font-size="12" fill="#7a6248">Manhattan, reflecting</text>
+  <text x="530" y="422" text-anchor="middle" font-size="12" fill="#7a6248">the interwar style</text>
 
   <!-- 1931 -->
   <circle cx="730" cy="330" r="12" fill="#9c6b4f"/>
@@ -49,10 +49,10 @@
   <circle cx="1080" cy="330" r="12" fill="#b08050"/>
   <text x="1080" y="280" text-anchor="middle" font-size="20" fill="#4a3728" font-weight="bold">1968</text>
   <text x="1080" y="370" text-anchor="middle" font-size="13" fill="#4a3728">Bevis Hillier's book</text>
-  <text x="1080" y="388" text-anchor="middle" font-size="13" fill="#4a3728">fixes "Art Deco" as</text>
-  <text x="1080" y="406" text-anchor="middle" font-size="12" fill="#7a6248">the standard English</text>
-  <text x="1080" y="422" text-anchor="middle" font-size="12" fill="#7a6248">name for the style</text>
+  <text x="1080" y="388" text-anchor="middle" font-size="13" fill="#4a3728">helps popularise</text>
+  <text x="1080" y="406" text-anchor="middle" font-size="12" fill="#7a6248">"Art Deco" among</text>
+  <text x="1080" y="422" text-anchor="middle" font-size="12" fill="#7a6248">English-speaking readers</text>
 
-  <text x="600" y="500" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">Forty-one years separate the Paris exposition that supposedly launched "Art Deco" from the book that actually named it.</text>
-  <text x="600" y="520" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">Everyone alive during the style's own run — including the people who built its two most famous towers — never once called it that.</text>
+  <text x="600" y="500" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">The 1966 retrospective followed the 1925 exposition by 41 years; Hillier’s 1968 book followed by 43.</text>
+  <text x="600" y="520" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">These are milestones in the label’s popularity, not proof of an exhaustive first-use record.</text>
 </svg>

@@ -1,0 +1,188 @@
+{
+  "status": "five historical sources ready for parent independent diff review",
+  "parent": "c3d6902168e842ce41f8712778d44e7808ae0cc0",
+  "dependencies": [],
+  "slugs": [
+    "art-deco",
+    "daguerreotype",
+    "architectural-painting",
+    "aztec-art",
+    "art-styles"
+  ],
+  "five_historical_sources_new_review": true,
+  "original_candidates": 11,
+  "current_candidates": 4,
+  "original_targets_body_allFAQ_read": {
+    "gustav-klimt": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+      "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+      "article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/gustav-klimt.txt",
+      "line_count": 109,
+      "read_coverage": "Exact unchanged article SHA previously complete body/allFAQ read this current run",
+      "prior_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-target-map.json"
+      ]
+    },
+    "abstract-art-first-painting": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+      "source_file_sha256": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+      "article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/abstract-art-first-painting.txt",
+      "line_count": 73,
+      "read_coverage": "Current B9 actual complete body/allFAQ read from saved target file"
+    },
+    "elements-of-art": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/elements-of-art.txt",
+      "line_count": 79,
+      "read_coverage": "Exact unchanged article SHA previously complete body/allFAQ read this current run",
+      "prior_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-target-map.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json"
+      ]
+    },
+    "mona-lisa": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+      "source_file_sha256": "f1c4e2aabc81d03834e8a8bfb76a12fa59a1540186cb90c7f850c7876053d1d1",
+      "article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/mona-lisa.txt",
+      "line_count": 104,
+      "read_coverage": "Current complete body/allFAQ actual read B9"
+    },
+    "renaissance-art": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+      "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+      "article_sha256": "a5924cd23ea7d8cd60590b3ce4dace99f8cca6c70a2a3bd874cc47b6d04bb651",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/renaissance-art.txt",
+      "line_count": 63,
+      "read_coverage": "Current B9 actual complete body/allFAQ read from saved target file"
+    },
+    "daguerreotype": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+      "source_file_sha256": "f1c4e2aabc81d03834e8a8bfb76a12fa59a1540186cb90c7f850c7876053d1d1",
+      "article_sha256": "dab3ce792a35ec9c6ccdc4011568dc49f3dbdb9de8511ecdbd1bbdd097e2c06c",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/daguerreotype.txt",
+      "line_count": 82,
+      "read_coverage": "Current complete body/allFAQ actual read B9"
+    },
+    "st-peters-basilica": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "article_sha256": "9214264199698c7ca554e192f5c10e96ddcb969415041d131290fbac7faf6752",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/st-peters-basilica.txt",
+      "line_count": 75,
+      "read_coverage": "Exact unchanged article SHA previously complete body/allFAQ read this current run",
+      "prior_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json"
+      ]
+    },
+    "birth-of-venus": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+      "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+      "article_sha256": "af4c137b389ed13f7f6fa4f57a257212bed7bc59b8564348ffa99662412b65e5",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/birth-of-venus.txt",
+      "line_count": 68,
+      "read_coverage": "Exact unchanged article SHA previously complete body/allFAQ read this current run",
+      "prior_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-semantic.json"
+      ]
+    },
+    "mayan-art": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+      "source_file_sha256": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+      "article_sha256": "46e3b27b87765f6398df73790e45182e119783790b86f8d7d3c1d366ee9e95f6",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/mayan-art.txt",
+      "line_count": 69,
+      "read_coverage": "Current B9 actual complete body/allFAQ read from saved target file"
+    },
+    "mandala-art": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+      "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/mandala-art.txt",
+      "line_count": 64,
+      "read_coverage": "Exact unchanged article SHA previously complete body/allFAQ read this current run",
+      "prior_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-target-map.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json"
+      ]
+    }
+  },
+  "extra_link_reviews": {
+    "pop-art": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "5bae6bb45f85bcdee4839e5b024f9ecf699c367a500dd796ec69e50387a22c54",
+      "coverage": "Prior B7 current-run complete body/allFAQ read, unchanged exact articleSHA",
+      "prior_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json"
+    },
+    "art-deco": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+      "article_sha256": "84feab305aa5cc061ea6ad81bab82188626ddcd9723757a679c50d2267f80ffa",
+      "coverage": "Current batch complete body/allFAQ read",
+      "prior_receipt": null
+    }
+  },
+  "new_notes_not_old_history": true,
+  "checks": {
+    "architectural-painting": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "aztec-art": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "art-deco": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "daguerreotype": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "art-styles": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    }
+  },
+  "preservation": {
+    "art-deco": {
+      "FAQ_count": 9,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "daguerreotype": {
+      "FAQ_count": 10,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "art-styles": {
+      "FAQ_count": 6,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "architectural-painting": {
+      "FAQ_count": 5,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "aztec-art": {
+      "FAQ_count": 5,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    }
+  },
+  "SVG_XML_and_final_PNG_actual_viewed": "public/images/art-deco-naming-timeline-diagram.svg; out/umber-b9-artdeco.png",
+  "skill_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/skill-receipt.json",
+  "diff_self_read": "All312 originaldiff lines read in four segments1–99/100–190/191–260/261–312; final extra grammar, names and tombscope inline actualread",
+  "spread": "General findings forwarded to root for 17site scan/prevention: labelpopularisation isnot first-useproof;uniqueoriginal isnotuncopyable;documentdate vsinference;gapnon-equivalence. Original checkout/index untouched; no push.",
+  "source_file_sha256": "f1c4e2aabc81d03834e8a8bfb76a12fa59a1540186cb90c7f850c7876053d1d1"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "The single human detail that made this plate famous, in other words, is itself a matter of interpretation rather than settled fact, a different kind of contested \\\"first\\\" than [the disputed date on the watercolor credited as art's first fully abstract painting](/abstract-art-first-painting/), but built from the same raw material: a claim that outran what the surviving evidence can actually support.",
+    "target_slug": "abstract-art-first-painting",
+    "note": "Fulltarget catalogueAM1976-8641913 against artist1910inscription; sourcecompares evidentialuncertainty, notsame datingtechnique or firstpersonproof. Actual target quote: the date field in the Centre Pompidou's catalogue, the field a researcher would cite, reads 1913",
+    "source_article_sha256": "dab3ce792a35ec9c6ccdc4011568dc49f3dbdb9de8511ecdbd1bbdd097e2c06c",
+    "target_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts"
+  }
+]

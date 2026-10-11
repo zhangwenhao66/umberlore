@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "A comparable gap opens up a little over two centuries after Saenredam's Haarlem interiors, in photography, where [close examination of the plate](/daguerreotype/) usually credited with capturing the first photographed person turned up faint traces, a possible child, a horse, other unregistered smears, that complicate the tidy single-bystander story built around the image's most legible corner.",
+    "target_slug": "daguerreotype",
+    "note": "CurrentB9targetcompletebodyALLFAQ+allchangedparagraphs read; targetlistschild/horse/smears withpossibilityqualification. Architecturalcomparison aboutunexpecteddetails, notprovingDaguerremadecompositionaldistortionslikeSaenredam. Actual target quote: a possible child looking out from a window, a horse",
+    "source_article_sha256": "6163152722d3f3c2a99cf20abe4d89d6fa3aba3d1d89647ae0ba6bf9e2d5d53f",
+    "target_article_sha256": "dab3ce792a35ec9c6ccdc4011568dc49f3dbdb9de8511ecdbd1bbdd097e2c06c",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts"
+  }
+]

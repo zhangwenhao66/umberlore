@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "A comparable identification puzzle turns up in Mesoamerican art further south as well: [a tomb uncovered beneath the Bonampak murals in 2010 holds an occupant whose identity, captive or royal relative, has never been resolved](/mayan-art/).",
+    "target_slug": "mayan-art",
+    "note": "CurrentB3targetallbodyFAQ cryptunderRoom2 in2010, identitycaptiveorrelative unconfirmed; straightforward identificationuncertaintycomparison, notsame excavationprocedure. Actual target quote: a captive warrior, killed the way the murals above him show captives being killed, or a relative of Bonampak's ruling family",
+    "source_article_sha256": "fad3ff4a8447a53f1b7dd50a8c4f75bba010724019cdfc73deb0afb66d359010",
+    "target_article_sha256": "46e3b27b87765f6398df73790e45182e119783790b86f8d7d3c1d366ee9e95f6",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "[Gustav Klimt's own body of work carries a parallel argument over ownership, playing out in restitution disputes over paintings looted during the Nazi era](/gustav-klimt/), in a different European museum system but over the same basic question of who actually gets to hold and display a contested object.",
+    "target_slug": "gustav-klimt",
+    "note": "Fulltarget includes goldleaf figure/patternwork and separate restitution ownershipdispute: Klimt materialexample narrowed no identicalprocess chrome; Aztecownership analogy onlywhoholds/displays, notclaimsame legalresult. Actual target quote: Altmann and Austria agreed to put the ownership question to binding arbitration",
+    "source_article_sha256": "fad3ff4a8447a53f1b7dd50a8c4f75bba010724019cdfc73deb0afb66d359010",
+    "target_article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts"
+  }
+]

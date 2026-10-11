@@ -1,0 +1,14 @@
+{
+  "pop-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "5bae6bb45f85bcdee4839e5b024f9ecf699c367a500dd796ec69e50387a22c54",
+    "coverage": "Prior B7 current-run complete body/allFAQ read, unchanged exact articleSHA",
+    "prior_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json"
+  },
+  "art-deco": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+    "article_sha256": "84feab305aa5cc061ea6ad81bab82188626ddcd9723757a679c50d2267f80ffa",
+    "coverage": "Current batch complete body/allFAQ read",
+    "prior_receipt": null
+  }
+}

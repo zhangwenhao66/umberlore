@@ -1,0 +1,27 @@
+{
+  "art-deco": {
+    "FAQ_count": 9,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "daguerreotype": {
+    "FAQ_count": 10,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "art-styles": {
+    "FAQ_count": 6,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "architectural-painting": {
+    "FAQ_count": 5,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "aztec-art": {
+    "FAQ_count": 5,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  }
+}
