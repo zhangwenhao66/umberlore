@@ -120,7 +120,7 @@
     },
     "art-deco": {
       "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
-      "article_sha256": "84feab305aa5cc061ea6ad81bab82188626ddcd9723757a679c50d2267f80ffa",
+      "article_sha256": "251bf944a0aac26430fc108d872f7873ef8132c9631a9451a1808ead66fc0a79",
       "coverage": "Current batch complete body/allFAQ read",
       "prior_receipt": null
     }
@@ -137,12 +137,12 @@
       "bridge": 0,
       "build": 0
     },
-    "art-deco": {
+    "daguerreotype": {
       "prose": 0,
       "bridge": 0,
       "build": 0
     },
-    "daguerreotype": {
+    "art-deco": {
       "prose": 0,
       "bridge": 0,
       "build": 0
@@ -184,5 +184,6 @@
   "skill_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/skill-receipt.json",
   "diff_self_read": "All312 originaldiff lines read in four segments1–99/100–190/191–260/261–312; final extra grammar, names and tombscope inline actualread",
   "spread": "General findings forwarded to root for 17site scan/prevention: labelpopularisation isnot first-useproof;uniqueoriginal isnotuncopyable;documentdate vsinference;gapnon-equivalence. Original checkout/index untouched; no push.",
-  "source_file_sha256": "f1c4e2aabc81d03834e8a8bfb76a12fa59a1540186cb90c7f850c7876053d1d1"
+  "source_file_sha256": "b642f4ae1ece18a6bd292dc8b492ee16b390aa2d832dd44f06a8f87eca7076f0",
+  "followup": "ArtDeco FAQ6 complete modifier; ArtStyles closing paragraph distinguishes six naming histories; two changed sources dual/build0"
 }

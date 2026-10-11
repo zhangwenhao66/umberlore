@@ -2691,7 +2691,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "What influenced the Art Deco style?",
-        "answer": "Britannica traces the style's design DNA to Cubism, the Bauhaus, the Ballets Russes, and Art Nouveau, along with early Classical, Egyptian, and American Indian influences plus stylised natural motifs. The tomb discovery made in 1922 by Carter, revealing Tutankhamun’s burial specifically fed the Egyptian-derived elements, scarabs, lotus columns and sunburst fans, that surfaced in jewellery and architecture during the years right after the find."
+        "answer": "Britannica traces the style's design DNA to Cubism, the Bauhaus, the Ballets Russes, and Art Nouveau, along with early Classical, Egyptian, and American Indian influences plus stylised natural motifs. Carter’s discovery in 1922 at Tutankhamun’s burial site specifically fed the Egyptian-derived elements, scarabs, lotus columns and sunburst fans, that surfaced in jewellery and architecture during the years right after the find."
       },
       {
         "question": "Is Art Deco the same as Art Nouveau?",
@@ -3799,7 +3799,7 @@ export const guides: Guide[] = [
       {
         "heading": "The put-down outlives the argument",
         "body": [
-          "The pattern repeats across all six names with enough consistency to be worth noticing on its own: a critic or a rival school picks a fight with a specific painting, a specific room at a specific Salon, or a specific building, loses the argument about taste, and wins the argument about vocabulary anyway, because the word survives long after anyone remembers being angry about it. Reading a definition of any of these styles without that history means reading only the settlement, not the argument that produced it.",
+          "Several of these names grew from documented hostile comments, but their origins and later acceptance differ. The examples tied to particular reviews can be dated more precisely than the history of Rococo. Some artists accepted a label; others continued to reject it. Those differences belong alongside the definitions, without turning six separate histories into one argument about taste.",
           "The same trail of naming shows up elsewhere at UmberLore from the opposite direction. [Paolozzi put the word POP in a collage in 1947, fifteen years before Alloway’s 1962 essay Pop Since 1949](/pop-art/). A word inside an artwork is distinct from a movement label in critical writing. [Art Deco’s retrospective label became prominent through a 1966 exhibition and Hillier’s 1968 book](/art-deco/), decades after the exposition of 1925. Vasari’s Lives, which condemned medieval architecture in 1550, also [reported a fabricated murder confession for one of the Renaissance painters it profiled, a story that took archivists three centuries to disprove using burial records](/renaissance-art/)."
         ]
       }

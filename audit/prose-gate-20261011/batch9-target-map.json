@@ -32,7 +32,7 @@
   },
   "mona-lisa": {
     "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
-    "source_file_sha256": "f1c4e2aabc81d03834e8a8bfb76a12fa59a1540186cb90c7f850c7876053d1d1",
+    "source_file_sha256": "b642f4ae1ece18a6bd292dc8b492ee16b390aa2d832dd44f06a8f87eca7076f0",
     "article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
     "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/mona-lisa.txt",
     "line_count": 104,
@@ -48,7 +48,7 @@
   },
   "daguerreotype": {
     "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
-    "source_file_sha256": "f1c4e2aabc81d03834e8a8bfb76a12fa59a1540186cb90c7f850c7876053d1d1",
+    "source_file_sha256": "b642f4ae1ece18a6bd292dc8b492ee16b390aa2d832dd44f06a8f87eca7076f0",
     "article_sha256": "dab3ce792a35ec9c6ccdc4011568dc49f3dbdb9de8511ecdbd1bbdd097e2c06c",
     "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/daguerreotype.txt",
     "line_count": 82,
