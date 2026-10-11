@@ -549,5 +549,11 @@
     "last_submitted_date": "2026-10-09",
     "verified_status": "pending",
     "note": "[{\"urls\":[\"https://umberlore.com/parthenon-vs-pantheon/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
+  },
+  "https://umberlore.com/genre-painting/": {
+    "submitted_date": "2026-10-11",
+    "last_submitted_date": "2026-10-11",
+    "verified_status": "pending",
+    "note": "[{\"urls\":[\"https://umberlore.com/genre-painting/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":false,\"status\":null,\"error\":\"timeout/error\"}]}] | [{\"urls\":[\"https://umberlore.com/genre-painting/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":false,\"status\":null,\"error\":\"timeout/error\"}]}]"
   }
 }
