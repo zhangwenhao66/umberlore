@@ -3837,3 +3837,40 @@ Only FAQ additions; prior FAQ/body/title/description/sources/schema/updated/publ
 - 只新增FAQ，既有正文、FAQ、元数据、sources、更新时间不变。
 - humanizer → avoid-ai-writing已依次读取真实kit技能并执行；数字/专名/链接复核，来源与逐条检查见 /Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261011T-paa-codex-2215/root-additions.json。
 - 每次新增及提交前check_prose_patterns.py均退出0；独立内容审查pass，独立子模块/依赖build成功。
+
+```json
+{
+  "url_slug": "mandala-art",
+  "last_audited": "2026-10-12",
+  "published_date": "2026-08-12",
+  "article_specific_checklist": [
+    "Rig Veda mandala as book names vs pictorial mandalas: the 2000-year gap claim",
+    "Met exhibition dates (Sep 19 2024 – Jan 12 2025) and Tenzing Rigdol climate commission",
+    "Smithsonian Sackler Gallery 2002 sand mandala dispersal into Tidal Basin (Jan 27 2002)",
+    "Dalai Lama 2014 Kalachakra Ladakh dismantling date and Indus River dispersal",
+    "Jung Bollingen stone 1950 Telesphorus mandala and Greek inscription accuracy",
+    "Rubin Museum closure Oct 6 2024 and 20-year history"
+  ],
+  "findings": [
+    {"dimension": "事实准确性", "status": "未发现问题", "detail": "All key claims verified via web search: Met exhibition dates Sep 19 2024–Jan 12 2025 confirmed by Met press release; Smithsonian 2002 Sackler Gallery sand mandala completed and dispersed Jan 27 2002 confirmed by Smithsonian archives; Dalai Lama 33rd Kalachakra Ladakh July 2014 dismantling into Indus River confirmed by Reach Ladakh and Dalai Lama office; Jung Bollingen stone 1950 Telesphorus mandala and Greek inscription confirmed by Library of Congress exhibition page; Rubin Museum closed Oct 6 2024 after 20 years confirmed by Rubin press release. Rig Veda 10 mandalas as book divisions (not drawings) confirmed by WHE and Vedic Heritage Portal."},
+    {"dimension": "EEAT", "status": "未发现问题", "detail": "9 external sources all authoritative: Met Museum, Smithsonian National Museum of Asian Art, Dalai Lama Office, Library of Congress, Rubin Museum, Vedic Heritage Portal (Indian Ministry of Culture), Wikimedia Commons, World History Encyclopedia. No vague attributions."},
+    {"dimension": "时效性", "status": "未发现问题", "detail": "published/updated both 2026-08-12; historical/art-history content, no time-sensitive data requiring refresh."},
+    {"dimension": "竞品差异化", "status": "未发现问题", "detail": "Article provides specific institutional-level evidence (Met Jnanadakini mandala accession, Smithsonian 2002 event details, Jung Bollingen stone inscription) not found in WHE or Wikipedia. The corrective framing (WHE conflates Vedic textual divisions with pictorial mandalas) adds genuine value."},
+    {"dimension": "SEO技术审计", "status": "未发现问题", "detail": "title 59 chars z=0.27 normal; description 162 chars z=0.06 normal; live URL 200; seo_drift baseline stored: canonical self-ref, H1=1, schema=4, 5 FAQ schema, 8 images, 12 internal links, 2490 words."},
+    {"dimension": "GEO审计", "status": "未发现问题", "detail": "coreSummary provides quotable definition; sections open with direct statements; 5 FAQs with FAQPage schema; 9 authoritative sources; robots.txt allows AI crawlers. No GEO action needed."},
+    {"dimension": "早期内容AI味", "status": "未发现问题", "detail": "published 2026-08-12, after avoid-ai-writing introduction (2026-08-07). check_prose_patterns.py exit 0: 0 em-dash issues, 3 comparison words / 1921 words, 2 's own' phrases (≤2), 0 FAQ-body verbatim overlap."},
+    {"dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "8/9 external links returned 200 with curl. Met press release returned 429 (rate-limited, not broken — URL confirmed valid via web search). Rubin Museum returned 403 with default UA but 200 with browser headers (bot-blocking, not link rot)."},
+    {"dimension": "内链健康度", "status": "未发现问题", "detail": "mandala-art not on umberlore internal_link_audit.py orphan/near-door list (65 near-door pages, 7 with ≤1 inbound links — mandala-art not among them). 5 in-site links all resolve to existing slugs: renaissance-art, abstract-art-first-painting, elements-of-art, mayan-art, sand-painting."},
+    {"dimension": "Schema数据一致性", "status": "未发现问题", "detail": "No edits made; schema fields consistent with visible content (4 schema objects detected)."},
+    {"dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "Article is art-historical/religious; no current political controversy. Dalai Lama references are historical event reporting, not endorsement."},
+    {"dimension": "配图可用性与版权", "status": "未发现问题", "detail": "umberlore does not force-crop hero images (aspect-ratio preserved per site CSS). Both images are Wikimedia Commons public domain / CC BY-SA 3.0 with proper attribution."},
+    {"dimension": "AdSense政策合规", "status": "未发现问题", "detail": "ads.txt correctly points to pub-5245502795720653. Content is art-history, no violence/gore/weapons beyond historical mention."},
+    {"dimension": "机械散文检查", "status": "通过", "detail": "check_prose_patterns.py exit 0: all 4 checks passed."},
+    {"dimension": "谷歌垃圾政策合规", "status": "未发现问题", "detail": "No scaled content patterns, no hidden text, no keyword stuffing. Article is unique art-historical research with original analysis."}
+  ],
+  "actions_taken": [],
+  "seo_score": null,
+  "geo_score": null,
+  "core_conclusion_overturned": false
+}
+```
