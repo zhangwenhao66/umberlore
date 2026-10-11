@@ -3827,3 +3827,13 @@ GEO人工启发式67→80/99（初稿加总77已订正67）；没有把它当Goo
 }
 ```
 Only FAQ additions; prior FAQ/body/title/description/sources/schema/updated/published fields preserved. 9 rejects registered in research-db/paa_rejections.json (90天冷却). 本批 3 个 slug 改动前后 check_prose_patterns.py 均退出0（与本站既有存量债务无关的页面）。
+
+
+## PAA-FAQ批强(daily-task, 2026-10-11) — umberlore
+
+- Run: 20261011T-paa-codex-2215
+- 核对1页，新增1条FAQ。
+- Slugs: antique-oil-painting
+- 只新增FAQ，既有正文、FAQ、元数据、sources、更新时间不变。
+- humanizer → avoid-ai-writing已依次读取真实kit技能并执行；数字/专名/链接复核，来源与逐条检查见 /Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261011T-paa-codex-2215/root-additions.json。
+- 每次新增及提交前check_prose_patterns.py均退出0；独立内容审查pass，独立子模块/依赖build成功。

@@ -10644,7 +10644,11 @@ export const guides: Guide[] = [
           {
               "question": "How do you clean a vintage oil painting?",
               "answer": "Dry dusting is the only thing safe to do at home. Use a soft natural-hair brush, sweep in one direction from the top down, and never press into the paint. Skip water, soap, and household cleaners: water creeps into the hairline cracks of an aged film and swells the canvas, which makes the paint lift. A yellowed or cloudy varnish, flaking, or a work of any real value belongs with a conservator, not a cloth."
-          }
+          },
+        {
+          "question": "Where can I find antique original oil paintings for sale?",
+          "answer": "Auction catalogues are one place to start: Sotheby's and Christie's have Old Master painting departments, and their sales also include works from later centuries. Look at the individual lot, not just the category name. Read the attribution wording and ownership record, request a condition report and include buyer fees in your budget before bidding."
+        }
       ],
       "sources": [
           {
