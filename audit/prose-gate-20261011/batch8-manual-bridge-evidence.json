@@ -1,0 +1,197 @@
+[
+  {
+    "source_slug": "edvard-munch-the-scream",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "That is the same catalogue entry [read alongside five other paintings straight from the records of the museums that hold them, support and technique included](/famous-paintings/), rather than from the secondhand description most people repeat.",
+      "anchor": "read alongside five other paintings straight from the records of the museums that hold them, support and technique included",
+      "target_slug": "famous-paintings"
+    },
+    "review": "Full catalogue article covers six works, including NationalMuseum1893 Scream NG.M.00939 with support and technique. Munch bridge concerns that catalogue record, not ca1910 chemistry. Venus bridge now limits catalogue evidence and its specific commission gap, not claiming all famousworks lack patrons.",
+    "target_quote": "NG.M.00939",
+    "target_current_article_sha256": "905e88e95296f6e75c2e5f26d10c205a5d589ba6b813b65d21e783c6b8989ff6",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "source_current_article_sha256": "105c5c59e9e6be231c7e3c71d750cc1fcf53ca3df2656c9372452bd228bbda7e",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "birth-of-venus",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "None of it is a document naming a patron, which puts this painting in the same evidentiary position as most works this famous: [what a museum's catalogue entry can and cannot establish](/famous-paintings/) turns out to matter more than the popular story built on top of it.",
+      "anchor": "what a museum's catalogue entry can and cannot establish",
+      "target_slug": "famous-paintings"
+    },
+    "review": "Full catalogue article covers six works, including NationalMuseum1893 Scream NG.M.00939 with support and technique. Munch bridge concerns that catalogue record, not ca1910 chemistry. Venus bridge now limits catalogue evidence and its specific commission gap, not claiming all famousworks lack patrons.",
+    "target_quote": "NG.M.00939",
+    "target_current_article_sha256": "905e88e95296f6e75c2e5f26d10c205a5d589ba6b813b65d21e783c6b8989ff6",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "source_current_article_sha256": "af4c137b389ed13f7f6fa4f57a257212bed7bc59b8564348ffa99662412b65e5",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "birth-of-venus",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "Ownership records overturning a settled attribution decades after the fact is not unique to this painting either; it is the same kind of documentary reversal that reshaped [who legally owned Gustav Klimt's most famous portraits](/gustav-klimt/): this one was settled by an inventory, that one by arbitration after a courtroom fight over jurisdiction.",
+      "anchor": "who legally owned Gustav Klimt's most famous portraits",
+      "target_slug": "gustav-klimt"
+    },
+    "review": "Full target distinguishes 2004 jurisdiction from 2006 arbitration ownership/restitution. Revised bridge distinguishes inventory inference from a legal award; no identical reversal or conclusive inventory claim.",
+    "target_quote": "it did not decide who owned the paintings",
+    "target_current_article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "source_current_article_sha256": "af4c137b389ed13f7f6fa4f57a257212bed7bc59b8564348ffa99662412b65e5",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "caravaggio-narcissus",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "This site has run into a comparable identity problem inside a different Caravaggio picture before, over which figure at the table is actually meant to be [Matthew in Caravaggio's Calling of Saint Matthew, a scholarly dispute about reading the composition, not about who painted it](/baroque-paintings/).",
+      "anchor": "Matthew in Caravaggio's Calling of Saint Matthew, a scholarly dispute about reading the composition, not about who painted it",
+      "target_slug": "baroque-paintings"
+    },
+    "review": "Target names the competing bearded and younger Matthew readings; bridge explicitly concerns figure identity, not authorship of the painting.",
+    "target_quote": "Most writers on the painting take the bearded man",
+    "target_current_article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "source_current_article_sha256": "de0a2c3135895925e9110d7d08ed615bf66293ee60d07fc9068e8884222b86b4",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "caravaggio-narcissus",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "Technology has settled more than argument here, too, elsewhere in this site's coverage: a 2022 Rijksmuseum scan using Macro-XRF and reflectance imaging found that [Vermeer had painted over a wooden jug holder and a woven fire basket beneath the surface of The Milkmaid](/the-milkmaid-vermeer/), the same kind of non-invasive, paint-layer-reading approach the 1995 Narcissus restoration used, just aimed at a different question.",
+      "anchor": "Vermeer had painted over a wooden jug holder and a woven fire basket beneath the surface of The Milkmaid",
+      "target_slug": "the-milkmaid-vermeer"
+    },
+    "review": "Target2022 MacroXRF/reflectance study identifies woodenjugholder and firebasket; revised bridge concerns hidden revisions and explicitly a different question from Narcissus attribution.",
+    "target_quote": "wooden jug holder",
+    "target_current_article_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "source_current_article_sha256": "de0a2c3135895925e9110d7d08ed615bf66293ee60d07fc9068e8884222b86b4",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "caravaggio-narcissus",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "And the broader conservation-science toolkit behind both cases, X-ray methods that read what a painter did without removing a single paint sample, is the same one [a 2010 fluorescence study used to measure the individual glaze layers inside Leonardo's sfumato](/art-techniques/), a reminder that a lot of what modern viewers know about how these paintings were physically made has come from instruments invented centuries after the paint dried.",
+      "anchor": "a 2010 fluorescence study used to measure the individual glaze layers inside Leonardo's sfumato",
+      "target_slug": "art-techniques"
+    },
+    "review": "Current samebatch target fullbodyALLFAQ read and revised:2010XRF estimates sfumato glaze layers; the bridge only asserts that physical measurement and doesnotassert Seurat reading history is a third lab study.",
+    "target_quote": "individual glaze layers only 1 to 2 micrometers thick",
+    "target_current_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "source_current_article_sha256": "de0a2c3135895925e9110d7d08ed615bf66293ee60d07fc9068e8884222b86b4",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "art-techniques",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "This site has found a version of the same gap running the other direction, in the vocabulary art classes use rather than in the techniques themselves: [the checklist of \\\"elements of art\\\" now taught in most classrooms has no clear textbook record before a 1968 printing](/elements-of-art/), decades after painters had already been working with line, color, and form without that specific seven-word list attached to them.",
+      "anchor": "the checklist of \\\"elements of art\\\" now taught in most classrooms has no clear textbook record before a 1968 printing",
+      "target_slug": "elements-of-art"
+    },
+    "review": "TargetB7current fullbodyFAQ read, exactSHA receipt:1968availableedition doesnot establish firstlist;1960cataloguerecord and distinctDow/Ross/Kandinsky systems. Both revised bridges now say this bounded claim.",
+    "target_quote": "does not establish",
+    "target_current_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "art-techniques",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "A pigment can carry the same kind of loose ends: [Prussian blue picked up several regional trade names over three centuries, and one of them, Turnbull's Blue, was assumed for decades to name a chemically distinct substance until X-ray diffraction studies confirmed it was the identical compound all along](/prussian-blue-pigment/).",
+      "anchor": "Prussian blue picked up several regional trade names over three centuries, and one of them, Turnbull's Blue, was assumed for decades to name a chemically distinct substance until X-ray diffraction studies confirmed it was the identical compound all along",
+      "target_slug": "prussian-blue-pigment"
+    },
+    "review": "Fresh target allbodyFAQ read:Turnbull alternative reaction formerly considered different, diffraction shows same crystal structure with impurity/particle differences; names are trade labels not all identical recipes.",
+    "target_quote": "identical crystal structure",
+    "target_current_article_sha256": "83c1100df8583712cee1b8521a839ffd15047b091a09b661d41d52e38d0aee6f",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "source_current_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "art-techniques",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "[Van Gogh's palette is precise enough to date his paintings almost to the season, and separate conservation research shows how much of that original color has since shifted](/van-gogh-paintings/), a finding about the same painter's materials aging over time rather than about how he applied them.",
+      "anchor": "Van Gogh's palette is precise enough to date his paintings almost to the season, and separate conservation research shows how much of that original color has since shifted",
+      "target_slug": "van-gogh-paintings"
+    },
+    "review": "ExactSHA earliercurrent-run fullread reused. Targetdates palette changes with correspondence and separates laterconservation; rewritten bridge doesnotdate anycanvas bypalettealone or promise season precision.",
+    "target_quote": "He names the three he mixed",
+    "target_current_article_sha256": "e6a36bdd875788fa59a04f4c8e1e2ef537c59034d4adb1feff3c7dc6194fff14",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "source_current_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "art-techniques",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "A third technique on this site carries a similarly thin documentary record: [the fullest surviving account of Brunelleschi's lost vanishing-point demonstration panels was written decades after he built them, by a biographer whose own authorship of that account isn't fully settled either](/vanishing-point/).",
+      "anchor": "the fullest surviving account of Brunelleschi's lost vanishing-point demonstration panels was written decades after he built them, by a biographer whose own authorship of that account isn't fully settled either",
+      "target_slug": "vanishing-point"
+    },
+    "review": "CurrentB6wholebodyFAQ read receipt:Manetti biography1480s, probable authorship, panels date uncertain; link correctly calls detailed survivingaccount ratherthan nootherreports/witnessclaim.",
+    "target_quote": "probable authorship",
+    "target_current_article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "source_current_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "emphasis-in-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "That timeline runs alongside a finding this site has already documented on the elements side of the same checklist: [the seven-part vocabulary now used to describe any painting's line, shape, and color has no clear record before a 1968 classroom textbook](/elements-of-art/), decades after Ross and Dow had already published competing, incompatible versions of the principles half of the same subject.",
+      "anchor": "the seven-part vocabulary now used to describe any painting's line, shape, and color has no clear record before a 1968 classroom textbook",
+      "target_slug": "elements-of-art"
+    },
+    "review": "TargetB7current fullbodyFAQ read, exactSHA receipt:1968availableedition doesnot establish firstlist;1960cataloguerecord and distinctDow/Ross/Kandinsky systems. Both revised bridges now say this bounded claim.",
+    "target_quote": "does not establish",
+    "target_current_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "f89bc8441a7f11f8f4019b63ef72cb661c24a3517db804f24703f554df447995",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "emphasis-in-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "A comparable lag turns up in an unrelated corner of art vocabulary: [the word mandala appears in written sources nearly two thousand years before any surviving pictorial mandala](/mandala-art/), which is the same lesson from a different direction, a term's familiar, settled feel says nothing about when it actually took on its current meaning. \\\"Emphasis\\\" isn't a fabricated concept, painters have directed a viewer's eye toward one part of a picture for as long as there have been pictures, but the specific word doing that job today is a later arrival than the technique it describes, arriving well after design theorists had already spent decades calling the same thing Subordination or Dominance.",
+      "anchor": "the word mandala appears in written sources nearly two thousand years before any surviving pictorial mandala",
+      "target_slug": "mandala-art"
+    },
+    "review": "CurrentB7exactSHA bodyFAQ read receipt:RigVeda hymn divisions distinct from later Buddhist ritualimages; hymncompositiondate doesnotdate firstword or firstimage;2k absolute removed.",
+    "target_quote": "divisions of hymns, not drawings",
+    "target_current_article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "f89bc8441a7f11f8f4019b63ef72cb661c24a3517db804f24703f554df447995",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "emphasis-in-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "It's a different pattern from repetition without a dominant, which this site examined in [Andy Warhol's silkscreened Marilyns](/andy-warhol/): identical, evenly repeated units that refuse to let any single one lead, the mirror image of what Rembrandt's single shaft of light does to one captain's hand.",
+      "anchor": "Andy Warhol's silkscreened Marilyns",
+      "target_slug": "andy-warhol"
+    },
+    "review": "LatestB2wholebodyFAQ reading completed (fresh oldfull + allchangedparts supplemental). Targetstates fifty repeatedsources split25colour/25blackwhite. Revised bridge compares this layout, removing unsupportedclaim of equalattention/nodominant.",
+    "target_quote": "twenty-five in saturated colour",
+    "target_current_article_sha256": "20fffd1e0e006315492ea92c7f3f6f19612320b98a947a096607e0519dbd0d13",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "source_current_article_sha256": "f89bc8441a7f11f8f4019b63ef72cb661c24a3517db804f24703f554df447995",
+    "full_source_and_target_body_allFAQ_read": true
+  }
+]

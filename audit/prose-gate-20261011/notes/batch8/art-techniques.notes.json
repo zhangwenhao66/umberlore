@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "This site has found a version of the same gap running the other direction, in the vocabulary art classes use rather than in the techniques themselves: [the “elements of art” checklist is one teaching system among several documented vocabularies and textbook editions](/elements-of-art/), and a surviving 1968 edition does not establish the first use of its seven-word list.",
+    "target_slug": "elements-of-art",
+    "note": "TargetB7current fullbodyFAQ read, exactSHA receipt:1968availableedition doesnot establish firstlist;1960cataloguerecord and distinctDow/Ross/Kandinsky systems. Both revised bridges now say this bounded claim. Actual target quote: does not establish",
+    "source_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "target_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "A pigment can carry the same kind of loose ends: [Prussian blue picked up several regional trade names over three centuries, and one of them, Turnbull's Blue, was assumed for decades to name a chemically distinct substance until X-ray diffraction studies confirmed it was the identical compound all along](/prussian-blue-pigment/).",
+    "target_slug": "prussian-blue-pigment",
+    "note": "Fresh target allbodyFAQ read:Turnbull alternative reaction formerly considered different, diffraction shows same crystal structure with impurity/particle differences; names are trade labels not all identical recipes. Actual target quote: identical crystal structure",
+    "source_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "target_article_sha256": "83c1100df8583712cee1b8521a839ffd15047b091a09b661d41d52e38d0aee6f",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "sentence": "[Van Gogh’s letters document changes in his palette at particular dates, while conservation research measures later changes to his colours](/van-gogh-paintings/), a finding about the same painter's materials aging over time rather than about how he applied them.",
+    "target_slug": "van-gogh-paintings",
+    "note": "ExactSHA earliercurrent-run fullread reused. Targetdates palette changes with correspondence and separates laterconservation; rewritten bridge doesnotdate anycanvas bypalettealone or promise season precision. Actual target quote: He names the three he mixed",
+    "source_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "target_article_sha256": "e6a36bdd875788fa59a04f4c8e1e2ef537c59034d4adb1feff3c7dc6194fff14",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts"
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "sentence": "A third technique on this site carries a similarly thin documentary record: [the fullest surviving account of Brunelleschi's lost vanishing-point demonstration panels was written decades after he built them, by a biographer whose own authorship of that account isn't fully settled either](/vanishing-point/).",
+    "target_slug": "vanishing-point",
+    "note": "CurrentB6wholebodyFAQ read receipt:Manetti biography1480s, probable authorship, panels date uncertain; link correctly calls detailed survivingaccount ratherthan nootherreports/witnessclaim. Actual target quote: probable authorship",
+    "source_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "target_article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts"
+  }
+]

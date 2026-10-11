@@ -1,0 +1,153 @@
+{
+  "andy-warhol": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "20fffd1e0e006315492ea92c7f3f6f19612320b98a947a096607e0519dbd0d13",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-andy-warhol.txt",
+    "lines": 59,
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "art-techniques": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-art-techniques.txt",
+    "lines": 68,
+    "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "baroque-paintings": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-baroque-paintings.txt",
+    "lines": 72,
+    "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "elements-of-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-elements-of-art.txt",
+    "lines": 79,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-completion.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-target-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-manual-bridge-evidence.json"
+    ],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "famous-paintings": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha256": "905e88e95296f6e75c2e5f26d10c205a5d589ba6b813b65d21e783c6b8989ff6",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-famous-paintings.txt",
+    "lines": 99,
+    "source_file_sha256": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-target-read-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-fullread-receipt.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+    ],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "gustav-klimt": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-gustav-klimt.txt",
+    "lines": 109,
+    "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "mandala-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-mandala-art.txt",
+    "lines": 64,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-completion.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-target-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-manual-bridge-evidence.json"
+    ],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "prussian-blue-pigment": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+    "article_sha256": "83c1100df8583712cee1b8521a839ffd15047b091a09b661d41d52e38d0aee6f",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-prussian-blue-pigment.txt",
+    "lines": 62,
+    "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "the-milkmaid-vermeer": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "article_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-the-milkmaid-vermeer.txt",
+    "lines": 63,
+    "source_file_sha256": "9c3f08eec54869065c3f8c49c709bc049da7577d7c2d8c560118cfd6984a0461",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-manual-bridge-evidence.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-quotes.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-completion.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-preservation.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-semantic.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-manual-bridge-evidence.json"
+    ],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "van-gogh-paintings": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha256": "e6a36bdd875788fa59a04f4c8e1e2ef537c59034d4adb1feff3c7dc6194fff14",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-van-gogh-paintings.txt",
+    "lines": 96,
+    "source_file_sha256": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+    ],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  },
+  "vanishing-point": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-vanishing-point.txt",
+    "lines": 60,
+    "source_file_sha256": "87db78930f0edbd083ba2f60342f7c998dd1ed07c6f14a21fc6d3dc481db7ad9",
+    "full_body_all_FAQ_read": true,
+    "exact_SHA_prior_current_run_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-quotes.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-completion.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-preservation.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-semantic.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-manual-bridge-evidence.json"
+    ],
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+    "full_read": true
+  }
+}

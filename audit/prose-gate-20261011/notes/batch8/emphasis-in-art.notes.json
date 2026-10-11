@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "That timeline runs alongside a finding this site has already documented on the elements side of the same checklist: [the vocabulary used to describe line, shape and colour varies across teaching systems, and one available 1968 textbook does not establish its origin](/elements-of-art/), decades after Ross and Dow had already published competing, incompatible versions of the principles half of the same subject.",
+    "target_slug": "elements-of-art",
+    "note": "TargetB7current fullbodyFAQ read, exactSHA receipt:1968availableedition doesnot establish firstlist;1960cataloguerecord and distinctDow/Ross/Kandinsky systems. Both revised bridges now say this bounded claim. Actual target quote: does not establish",
+    "source_article_sha256": "f89bc8441a7f11f8f4019b63ef72cb661c24a3517db804f24703f554df447995",
+    "target_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "A comparable lag turns up in an unrelated corner of art vocabulary: [mandala can name divisions of Vedic hymns as well as later Buddhist ritual images](/mandala-art/), but hymn composition dates do not date the first use of the label or the first image. \\\"Emphasis\\\" isn't a fabricated concept, painters have directed a viewer's eye toward one part of a picture for as long as there have been pictures, but these particular textbooks show different ways of naming the device.",
+    "target_slug": "mandala-art",
+    "note": "CurrentB7exactSHA bodyFAQ read receipt:RigVeda hymn divisions distinct from later Buddhist ritualimages; hymncompositiondate doesnotdate firstword or firstimage;2k absolute removed. Actual target quote: divisions of hymns, not drawings",
+    "source_article_sha256": "f89bc8441a7f11f8f4019b63ef72cb661c24a3517db804f24703f554df447995",
+    "target_article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts"
+  }
+]

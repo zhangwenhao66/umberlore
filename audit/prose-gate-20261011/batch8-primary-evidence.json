@@ -1,0 +1,67 @@
+{
+  "read_evidence": [
+    {
+      "url": "https://www.munch.no/en/The-Scream/where-can-i-see-the-scream/",
+      "coverage": "web complete official main50–69 read; local snapshot saved",
+      "finding": "eight finished holdings=onepainting+onedrawing+sixlithographs; three objects rotate; motif likelywalk1891, not1883documentedimmediatecause"
+    },
+    {
+      "url": "https://www.mynewsdesk.com/uk/nasjonalmuseet/pressreleases/national-museum-of-norway-infrared-scans-reveal-author-of-hidden-graffiti-on-edvard-munchs-original-painting-of-the-scream-3075318",
+      "coverage": "complete primary NationalMuseum release main local15–63 actuallyread",
+      "finding": "2021 attributed handwriting toMunch;likely1895or shortlyafter criticism, notclinicaldiagnosis"
+    },
+    {
+      "url": "https://www.esrf.fr/home/UsersAndScience/Experiments/ID21/cultural-heritage-activities-at-id21/future/CdS.html",
+      "coverage": "whole beamline publication/abstract listing actuallyread, notclaimedalllinkedpapers;2020studyabstract specificallyread",
+      "finding": "ca1910 oils; in situ noninvasive plus microsample and models;mobilechlorine+moisture;smallerlightrole"
+    },
+    {
+      "url": "https://www.munch.no/en/about/conservation/researchers-have-found-out-why-the-scream-is-fading/",
+      "coverage": "complete official main50–84 actualwebread",
+      "finding": "1910?version;45–55% priorstorage;humiditymain;MUNCHholdingsrotate"
+    },
+    {
+      "url": "https://www.metmuseum.org/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/rebay",
+      "coverage": "complete primary scholarly museum biography main2–28 actualwebread, author GiovanniCasini2019",
+      "finding": "Rebay1890–1967, directorresigned1952,buildingopened1959,foundationestablishedbeforedeath"
+    },
+    {
+      "url": "https://www.uffizi.it/en/artworks/birth-of-venus",
+      "coverage": "complete official characteristics/description57–93 actualwebread plus local snapshot",
+      "finding": "A12 current,tempera canvas172.5x278.5,inv878,ca1485,canvaswidelyusednoblehouses;doesnotstatecitycountrysettingcause"
+    },
+    {
+      "url": "https://www.finestresullarte.info/en/travelnotebooks/1158v_caravaggio-or-spadarino-the-story-of-the-narcissus-in-the-national-gallery-of-ancient-art-at-palazzo-barberini.php",
+      "coverage": "relevant scholarly account144–180 and280–310 fullyread;translationroute redirectedactualItaliantext; notclaimedwhole350lines",
+      "finding": "Schneider early1990radiographs and1991–92catalogue precede1995restoration, notresponse to1995results"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/45410/pg45410-images.html",
+      "coverage": "editionfront1–31;Beginnings81–109;principles375–425 andsubordination476–513 actualread; fulltext lexical caseinsensitivewordsearch recorded separately, notwholebooksemanticclaim",
+      "finding": "9threvised1914;firstedition1899;fiveprinciplesquotedfromactual1914edition"
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/74765/pg74765-images.html",
+      "coverage": "complete openingMeaning/threeOrdersections123–180 actualread; complete downloadedtext lexicalcount emphasis=0, notwholebooksemanticclaim",
+      "finding": "Ross1907threeprinciples; lexicalabsenceinthisdigitaltext notproofnoearliertreatise"
+    },
+    {
+      "url": "https://archive.org/details/dli.ernet.29070",
+      "coverage": "actualmetadatafilename resolved after404;complete1951title150–165 andradiation1560–1583/repetition3320–3342/index15918–15938 actualread;notwhole17024OCRlines",
+      "finding": "1951edition emphdominance paired,indexEmphasisSeeDominant;quotescannot beassigned1941editionwithoutthatcopy"
+    }
+  ],
+  "lexical_measurement": {
+    "dow": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-primary/dow.txt",
+      "sha256": "d10d0ff4b6691dafcdbdf3ad6f7742b59132ea70035cc3dca5859a95a0ce97c5",
+      "emphasis_wholeword_case_insensitive_count": 0
+    },
+    "ross": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-primary/ross.txt",
+      "sha256": "a5187b9f7e2171f18d5b9efbff996c8fb2fcf0fd6d89db3fd127ecc7baba0b40",
+      "emphasis_wholeword_case_insensitive_count": 0
+    }
+  },
+  "failures_and_fallbacks": "Guggenheim HTML200 JS shell notreadbody;fallback actualMet fullbiography read. Graves firstguessedOCR URL404, officialmetadataresolved current1951OCR. MUNCH firstconservationpath404, actualofficiallink followed and fullmainread."
+}

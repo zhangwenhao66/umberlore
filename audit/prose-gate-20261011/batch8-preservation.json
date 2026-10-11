@@ -1,0 +1,32 @@
+{
+  "non-objective-art": {
+    "FAQ_count": 8,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "edvard-munch-the-scream": {
+    "FAQ_count": 9,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "birth-of-venus": {
+    "FAQ_count": 7,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "caravaggio-narcissus": {
+    "FAQ_count": 7,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "art-techniques": {
+    "FAQ_count": 6,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "emphasis-in-art": {
+    "FAQ_count": 5,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  }
+}
