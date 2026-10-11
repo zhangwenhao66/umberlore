@@ -583,6 +583,30 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 1109,
   "w": 1600
  },
+ "/images/genre-painting-bruegel-harvesters.jpg": {
+  "h": 932,
+  "w": 1280
+ },
+ "/images/genre-painting-de-hooch-courtyard.avif": {
+  "h": 1513,
+  "w": 1280
+ },
+ "/images/genre-painting-de-hooch-courtyard.jpg": {
+  "h": 1513,
+  "w": 1280
+ },
+ "/images/genre-painting-de-hooch-courtyard.webp": {
+  "h": 1513,
+  "w": 1280
+ },
+ "/images/genre-painting-dou-astronomer.jpg": {
+  "h": 1900,
+  "w": 1280
+ },
+ "/images/genre-painting-steen-dissolute-household.jpg": {
+  "h": 1511,
+  "w": 1280
+ },
  "/images/gentileschi-judith-slaying-holofernes-uffizi.jpg": {
   "h": 1600,
   "w": 1301
@@ -1457,6 +1481,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/gargoyle-notre-dame-rainwater-sm.webp": {
   "h": 1727,
+  "w": 750
+ },
+ "/images/responsive/genre-painting-de-hooch-courtyard-sm.avif": {
+  "h": 887,
+  "w": 750
+ },
+ "/images/responsive/genre-painting-de-hooch-courtyard-sm.jpg": {
+  "h": 887,
+  "w": 750
+ },
+ "/images/responsive/genre-painting-de-hooch-courtyard-sm.webp": {
+  "h": 887,
   "w": 750
  },
  "/images/responsive/ghost-of-a-flea-sm.avif": {

@@ -4327,7 +4327,7 @@ export const guides: Guide[] = [
         "heading": "How to read one of these paintings today",
         "body": [
           "A museum's catalog entry is the place to check before assuming a finished architectural view records a building's true proportions, since it's often the only place preparatory drawings or measured comparisons are laid out in public. When a catalog uses the word capriccio, veduta ideata, or \"architectural fantasy,\" as the National Gallery does for Guardi's Venetian scenes, it's telling a viewer upfront that the artist worked from imagination or from a composite of separate buildings rather than from one observed place, the way Saenredam's and Canaletto's catalog entries never do for their own supposedly documentary views.",
-          "The buildings these paintings claim to record carry their own history of institutional record complicating popular assumption, independent of what the paintings themselves changed. St Peter's Basilica, the subject of some of the genre's later architectural views, has [a legend that Vatican records complicate](/st-peters-basilica/) attached to one of its most photographed bronze features, in a pattern not unlike Botticelli's Birth of Venus, where [a 1499 inventory undercut](/birth-of-venus/) an assumption about the painting's origin that had stood as settled fact for centuries. Architectural painting's promise of documentary accuracy sits inside a genre, and an art-historical record more broadly, that keeps turning out to be more composed, and more contested, than the finished object first suggests."
+          "The buildings these paintings claim to record carry their own history of institutional record complicating popular assumption, independent of what the paintings themselves changed. St Peter's Basilica, the subject of some of the genre's later architectural views, has [a legend that Vatican records complicate](/st-peters-basilica/) attached to one of its most photographed bronze features, in a pattern not unlike Botticelli's Birth of Venus, where [a 1499 inventory undercut](/birth-of-venus/) an assumption about the painting's origin that had stood as settled fact for centuries. Architectural painting's promise of documentary accuracy sits inside a genre, and an art-historical record more broadly, that keeps turning out to be more composed, and more contested, than the finished object first suggests. Architectural painting is a subject category, and so is [genre painting](/genre-painting/), the name the academies gave to pictures of everyday life."
         ]
       }
     ],
@@ -8026,7 +8026,7 @@ export const guides: Guide[] = [
         "heading": "Did he trace this with a lens, or measure it by hand?",
         "body": [
           "A separate, more technical argument surrounds how Vermeer built the picture's illusion of depth in the first place. Objects at different distances from the viewer, the near table setting against the far wall, sit at slightly inconsistent scales, and Serena Cant has pointed to that discrepancy as possible evidence that Vermeer projected the scene through a camera obscura and painted over the projection rather than working from measured perspective alone.",
-          "Walter Liedtke, who curated the European paintings department at the Metropolitan Museum of Art and organized two separate Vermeer exhibitions there, pushed back on that reading using a piece of physical evidence in the canvas itself: a small pinhole, later found at the vanishing point of the composition. In his account, the pinhole undercuts the optical-device theory rather than supporting it, since a camera obscura projection lasts only as long as the light holds, roughly ten seconds by his estimate, while the painting itself took months to complete. Liedtke's alternative is more mundane: a pin driven into the canvas at the vanishing point, with a chalked string tied to it and snapped against the surface to lay out straight perspective lines by hand, a standard studio technique that needed no lens at all."
+          "Walter Liedtke, who curated the European paintings department at the Metropolitan Museum of Art and organized two separate Vermeer exhibitions there, pushed back on that reading using a piece of physical evidence in the canvas itself: a small pinhole, later found at the vanishing point of the composition. In his account, the pinhole undercuts the optical-device theory rather than supporting it, since a camera obscura projection lasts only as long as the light holds, roughly ten seconds by his estimate, while the painting itself took months to complete. Liedtke's alternative is more mundane: a pin driven into the canvas at the vanishing point, with a chalked string tied to it and snapped against the surface to lay out straight perspective lines by hand, a standard studio technique that needed no lens at all. Whatever the working method, the result belongs to a category named long after the painter died: the everyday-life pictures the academies later filed under [genre painting](/genre-painting/)."
         ]
       }
     ],
@@ -10812,6 +10812,157 @@ export const guides: Guide[] = [
       {
         "label": "Italia.it: Pantheon",
         "url": "https://www.italia.it/en/lazio/rome/pantheon"
+      }
+    ]
+  },
+  {
+    "slug": "genre-painting",
+    "category": "Painting",
+    "title": "What Is a Genre Painting? The Word Came Later",
+    "description": "A genre painting shows ordinary life, not gods, saints or kings. Dutch painters made them in great numbers and had no general term for what they were doing.",
+    "published": "2026-10-11",
+    "updated": "2026-10-11",
+    "coreSummary": "A genre painting is a picture of ordinary life, people working, drinking, courting or quarrelling, as opposed to a scene from scripture, myth or history. The category was real and the academies ranked it, but the name is not contemporary with the pictures: the Dutch masters who made most of the surviving examples had no general term for them, and the Met dates the word's use in this sense to the end of the eighteenth century.",
+    "image": "/images/genre-painting-de-hooch-courtyard.jpg",
+    "imageAlt": "Pieter de Hooch's courtyard scene: a woman in a black jacket trimmed with white fur stands on a brick path while a maid kneels over a cooking pot and a platter of fish, with a water pump, broom and buckets along a whitewashed wall at the right.",
+    "imageCredit": "[A Woman and her Maid in a Courtyard](https://www.nationalgallery.org.uk/paintings/pieter-de-hooch-a-woman-and-her-maid-in-a-courtyard), Pieter de Hooch, about 1660-1, National Gallery, London, public domain",
+    "sections": [
+      {
+        "heading": "The definition is mostly a list of what the picture is not",
+        "body": [
+          "Genre painting is the term for pictures of ordinary life. Tate's art-terms entry puts it in one line: \"The term genre painting refers to paintings which depict scenes of everyday life.\"",
+          "The hard part is the boundary. The National Gallery in London reaches for the same construction twice when it has to separate a genre painting from a portrait. Of Murillo's A Peasant Boy leaning on a Sill it writes that although the boy is very lifelike, \"this is not a portrait. It is a genre painting that provides a momentary glimpse of everyday life in Seville.\" Of Greuze's A Girl it says the picture \"may look like a portrait\" but is probably a genre painting, \"an image of a type.\"",
+          "A lifelike figure is not enough to make a portrait. The category turns on whether the picture claims a named sitter. A genre painting shows a type: a maid, a card player, a surgeon at work, a child holding an apple. That is a different job from [the portraits that record a named sitter](/famous-portraits/), where the identity of the person in the frame is the whole point. Tate records where the form took hold, in Holland in the seventeenth century, and notes that the pictures were usually small and often showed peasant life or drinking in taverns."
+        ]
+      },
+      {
+        "heading": "The academies ranked the category, and ranked it low",
+        "body": [
+          "Genre painting is one of five categories that seventeenth-century theorists sorted pictures into. Tate lists them as history, portrait, genre, landscape and still life, and is explicit that the order carried weight. The ranking came from the French Royal Academy, and Tate gives the reasoning behind it: landscape and still life sat at the bottom \"because they did not involve human subject matter,\" while history painting took the top because it \"dealt with the noblest events of human history and with religion.\"",
+          "The Metropolitan Museum of Art dates the codification in its Heilbrunn essay on genre painting in Northern Europe. The Academie Royale de Peinture et de Sculpture was founded in 1648, and by then, the essay says, the hierarchy of arts \"was firmly established and upheld by critics throughout Europe.\"",
+          "Not every writer used five rungs. The Dutch artist and writer Samuel van Hoogstraten, in his 1678 Inleyding tot de hooge schoole der schilderkonst, sorted painting into three grades. Still life came last, as it \"relied primarily on direct observation and skill,\" and history came first, as it \"was believed to require imaginative genius for its execution.\" The pictures of everyday life sat between them, on what the Met calls \"the huge middle rung.\"",
+          "The two schemes agree on the ends of the scale and differ about the middle. Neither puts ordinary life at the top."
+        ]
+      },
+      {
+        "heading": "The painters had no name for what they were doing",
+        "body": [
+          "At the time the pictures were being made, there was no general term for them. The Met's essay is direct about it: the form took the middle rung of the hierarchy, yet it \"then lacked a general term.\"",
+          "The essay adds a date, and hedges it: \"the word genre was probably used in this sense for the first time toward the end of the eighteenth century by French writer Quatremere de Quincy.\" The hedge is the Met's, and it should be kept. A narrower claim does not depend on it: the label arrived after the pictures did.",
+          "The Dutch had words for the pictures, just not one word covering all of them. The Met quotes kleyne beuzelingen, \"little trifles.\"",
+          "That is why the category can feel at once obvious and slippery. A visitor standing in front of a Vermeer interior has no trouble seeing what it is. The museum label, the wall text and the search query that brought the visitor through the door all use a word the painter never used."
+        ]
+      },
+      {
+        "heading": "What the Dutch were actually painting",
+        "body": [
+          "With no umbrella term to organise the market, painters specialised. The Met's essay traces the range, and the specialisations are distinct enough to tabulate.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.82rem;line-height:1.45;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">What it shows</th><th style=\"padding:8px 10px;text-align:left;\">Who painted it</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">A documented example</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Peasant labour, weddings and village fairs</td><td style=\"padding:7px 10px;\">Pieter Bruegel the Elder (about 1525-1569)</td><td style=\"padding:7px 0 7px 10px;\">The Harvesters, 1565, Metropolitan Museum of Art</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Crowds of well-dressed revellers</td><td style=\"padding:7px 10px;\">Willem Buytewech (1591-1624) and Frans Hals (1582/83-1666)</td><td style=\"padding:7px 0 7px 10px;\">Frans Hals, Merrymakers at Shrovetide, Metropolitan Museum of Art</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Tavern brawls and card players</td><td style=\"padding:7px 10px;\">Adriaen Brouwer (1605/06-1638)</td><td style=\"padding:7px 0 7px 10px;\">The Smokers, Metropolitan Museum of Art</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Small, minutely finished interiors lit by hearth or candle</td><td style=\"padding:7px 10px;\">Gerrit Dou (1613-1675) and Frans van Mieris (1635-1681)</td><td style=\"padding:7px 0 7px 10px;\">Gerrit Dou, Astronomer by Candlelight, about 1656-1659</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Upper-class rooms, figures reading, writing or at a mirror</td><td style=\"padding:7px 10px;\">Gerard ter Borch the Younger (1617-1681)</td><td style=\"padding:7px 0 7px 10px;\">ter Borch's domestic interiors, Metropolitan Museum of Art</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Quiet Delft rooms in careful daylight</td><td style=\"padding:7px 10px;\">Pieter de Hooch (1629-1684) and Johannes Vermeer (1632-1675)</td><td style=\"padding:7px 0 7px 10px;\">de Hooch, A Woman and her Maid in a Courtyard, National Gallery, London</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Comic, moralising households</td><td style=\"padding:7px 10px;\">Jan Steen (1626-1679)</td><td style=\"padding:7px 0 7px 10px;\">The Dissolute Household, 1982.60.31, Metropolitan Museum of Art</td></tr><tr><td style=\"padding:7px 10px 7px 0;\">Street life in Rome, painted by northerners</td><td style=\"padding:7px 10px;\">The Bamboccianti, led by Pieter van Laer (about 1592/95-?1642)</td><td style=\"padding:7px 0 7px 10px;\">works by Jan Miel, Johannes Lingelbach and Michiel Sweerts</td></tr></tbody></table></div>",
+          "The list is a reminder that the category is a container built afterwards. Bruegel's peasants, Brouwer's tavern brawls and ter Borch's silk-clad letter writers were not competing for the same wall, and the buyers who collected them were not shopping for a genre painting."
+        ],
+        "image": {
+          "src": "/images/genre-painting-bruegel-harvesters.jpg",
+          "alt": "Bruegel's The Harvesters: peasants cutting and binding wheat across a golden field, one asleep under a tree, with a village, church tower and a wide bay in the distance.",
+          "credit": "[The Harvesters](https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg), Pieter Bruegel the Elder, 1565, Metropolitan Museum of Art, public domain"
+        }
+      },
+      {
+        "heading": "Why the view into someone else's room sold",
+        "body": [
+          "The Met's essay names the mechanism that made these pictures sell. A large part of a genre scene's appeal, it says, was \"the opportunity it afforded to gaze into a private interior much like the one in which it might have hung and, in many cases, to identify with the values expressed by the subject.\"",
+          "The National Gallery makes a related point about Pieter de Hooch, whose courtyard pictures it calls some of the most evocative examples of the form. Scenes of ordinary mothers and children, or of maids and their mistresses at ease in their own homes, had hardly been depicted in art before; in Holland from about the 1640s the theme became a popular one. Vermeer's [Milkmaid](/the-milkmaid-vermeer/) belongs to this group.",
+          "The same page is careful about how literally to read any of it. These scenes were not necessarily real, the gallery notes, and were often idealised, holding up the household virtues expected of the women who ran them. The rooms are painted with real construction, and the lives inside them are arranged.",
+          "That makes the pictures a record of a market as much as of a household. They show a version of daily life shaped for a buyer, which is a different thing from a neutral record of one."
+        ]
+      },
+      {
+        "heading": "What the market did with the ranking",
+        "body": [
+          "Buyers did not follow the ranking. Gerrit Dou, the Leiden painter the Met calls the first and greatest of a school of fine painters, worked small and slow, and it paid: pictures of this kind \"were produced in great quantity, often fetched large sums,\" and were \"collected by bakers, burghers, and princely patrons alike.\"",
+          "A form that theorists placed below portraiture, and well below history, found buyers at every level of Dutch society. The people who hung these pictures on their walls were not making a point about the hierarchy of genres. They were buying a view into someone else's room."
+        ],
+        "image": {
+          "src": "/images/genre-painting-dou-astronomer.jpg",
+          "alt": "Gerrit Dou's Astronomer by Candlelight: a man in a feathered cap leans over an open book, a single candle lighting his face, a globe and hourglass on the table beside him, framed by a stone arch.",
+          "credit": "[Astronomer by Candlelight](https://commons.wikimedia.org/wiki/File:Dou,_Gerard_-_Astronomer_by_Candlelight_-_late_1650.jpg), Gerrit Dou, about 1656-1659, public domain"
+        }
+      },
+      {
+        "heading": "Where the joke carried the moral",
+        "body": [
+          "Jan Steen's household scenes are the clearest evidence that these pictures were never only documentary. In The Dissolute Household a man with a pipe and a woman with a wine glass pay each other no attention while a maid pours; a lute lies on the floor, a ham sits on a platter, and a cat inspects it.",
+          "The Met reads the scattered objects as an argument. The joint of meat and the broken jug \"warn against profligate behavior,\" while a clapper and crutch, \"symbols of poverty and disease,\" hint at what lies ahead for the family. A viewer who laughs at the mess has already absorbed the warning."
+        ],
+        "image": {
+          "src": "/images/genre-painting-steen-dissolute-household.jpg",
+          "alt": "Jan Steen's The Dissolute Household: a woman sprawled in a chair holding a wine glass, a man with a pipe beside her, a maid pouring wine, a boy and a sleeping woman at a table, a lute on the floor and a cat nosing a joint of meat on a platter.",
+          "credit": "[The Dissolute Household](https://commons.wikimedia.org/wiki/File:The_Dissolute_Household_MET_DP146465.jpg), Jan Steen, Metropolitan Museum of Art, CC0"
+        }
+      },
+      {
+        "heading": "The form crossed the Alps and the Pyrenees",
+        "body": [
+          "The Dutch did not keep the form to themselves. The Met describes a group of Dutch and Flemish artists working in Rome by about 1625, nicknamed the Bamboccianti after their leader Pieter van Laer, who was known as Il Bamboccio. Jan Miel, Johannes Lingelbach and Michiel Sweerts painted contemporary life in the Roman countryside, and the Met traces the realism and dramatic lighting of those pictures to Caravaggio.",
+          "In Paris, Louis Le Nain brought what the Met calls a classicising gravitas to scenes such as the Peasant Family, and his example shaped the street scenes of the next generation. The National Gallery records the same current arriving in Italy from the other direction: most Italian artists of the period concentrated on religion, mythology and history, and the ones who broke away, Crespi among them, were influenced by Dutch painters working in Italy. Unlike the Netherlands, the gallery notes, Italy had no comparable market for pictures of this kind.",
+          "Murillo's peasant boys in Seville belong to the same current. The National Gallery notes that he may have drawn on seventeenth-century Dutch and Flemish paintings of everyday life.",
+          "The traffic ran both ways, which is part of why the category resists a clean national label. A Roman street scene by a Utrecht painter and a Seville street urchin by a Spanish painter are both genre paintings, and neither owes its subject to the academies that named the category."
+        ]
+      },
+      {
+        "heading": "The word travelled, and the pictures moved to the city",
+        "body": [
+          "Tate follows the form out of the Netherlands and across two centuries. In Britain, William Hogarth's modern moral subjects were \"a special kind of genre, in their frankness and often biting social satire,\" and plainer versions followed from George Morland and Francis Wheatley. Genre painting became hugely popular in the Victorian period after the success of David Wilkie.",
+          "By the end of the nineteenth century the subject had moved to the city. Tate describes Impressionists including Renoir and Monet capturing \"the excitement and fleeting nature of the modern life they saw around them,\" and Walter Sickert painting alienated couples in interiors.",
+          "In France the line ran through Chardin, Greuze and Fragonard, who the Met says kept subjects drawn from earlier Dutch work alive into the eighteenth century. The word that now covers all of it is younger than every picture in this article. The same lag between object and label runs through later art: [Art Deco](/art-deco/) was never called that by the people who designed in it."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "When was the term genre first used?",
+        "answer": "Late, and the Met hedges it. Its timeline essay says the word was probably first used this way at the close of the 1700s, and credits a French writer for it. Before that, no single word covered them."
+      },
+      {
+        "question": "What genres are there in art?",
+        "answer": "Tate lists five, ranked: history painting at the top, then portraiture, then the everyday-life scenes that share the list's name, with still life and landscape at the bottom. The order came from the Academy in Paris."
+      },
+      {
+        "question": "How can you tell a genre painting from a portrait?",
+        "answer": "The dividing line is whether a named sitter is claimed. A figure can be painted with complete realism and still be classed as a genre piece, which is what one London museum says about two of its own pictures: Murillo's boy and Greuze's girl both look lifelike, and neither is treated as a portrait."
+      },
+      {
+        "question": "Why did the academies rank everyday scenes so low?",
+        "answer": "The Met sets out the reasoning through a 1678 treatise by the painter van Hoogstraten, which put still life last because it rested on the eye and the hand, and history first because it was thought to demand imagination. Everyday scenes took the place in between."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tate: Genre painting",
+        "url": "https://www.tate.org.uk/art/art-terms/g/genre-painting"
+      },
+      {
+        "label": "Tate: Genres",
+        "url": "https://www.tate.org.uk/art/art-terms/g/genres"
+      },
+      {
+        "label": "Meagher, Jennifer. Genre Painting in Northern Europe. Heilbrunn Timeline of Art History, The Metropolitan Museum of Art, April 2008",
+        "url": "https://www.metmuseum.org/toah/hd/gnrn/hd_gnrn.htm"
+      },
+      {
+        "label": "National Gallery, London: Murillo, A Peasant Boy leaning on a Sill (NG74)",
+        "url": "https://www.nationalgallery.org.uk/paintings/bartolome-esteban-murillo-a-peasant-boy-leaning-on-a-sill"
+      },
+      {
+        "label": "National Gallery, London: Greuze, A Girl (NG1019)",
+        "url": "https://www.nationalgallery.org.uk/paintings/jean-baptiste-greuze-a-girl"
+      },
+      {
+        "label": "National Gallery, London: de Hooch, A Woman and her Maid in a Courtyard (NG794)",
+        "url": "https://www.nationalgallery.org.uk/paintings/pieter-de-hooch-a-woman-and-her-maid-in-a-courtyard"
+      },
+      {
+        "label": "National Gallery, London: Crespi, Peasants with Donkeys (NG6627)",
+        "url": "https://www.nationalgallery.org.uk/paintings/giuseppe-maria-crespi-peasants-with-donkeys"
       }
     ]
   }

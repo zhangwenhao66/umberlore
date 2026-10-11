@@ -154,6 +154,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/gargoyle-notre-dame-rainwater-sm.jpg",
   "w": 750
  },
+ "/images/genre-painting-de-hooch-courtyard.jpg": {
+  "h": 887,
+  "mobile": "/images/responsive/genre-painting-de-hooch-courtyard-sm.jpg",
+  "w": 750
+ },
  "/images/ghost-of-a-flea.jpg": {
   "h": 1024,
   "mobile": "/images/responsive/ghost-of-a-flea-sm.jpg",

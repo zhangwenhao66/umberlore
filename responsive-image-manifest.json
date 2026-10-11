@@ -653,5 +653,14 @@
    "h": 485
   },
   "desktop_rel": "/images/parthenon-vs-pantheon-west-facade.jpg"
+ },
+ "/images/genre-painting-de-hooch-courtyard.jpg": {
+  "fingerprint": "1791708578894421304:593751:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/genre-painting-de-hooch-courtyard-sm.jpg",
+   "w": 750,
+   "h": 887
+  },
+  "desktop_rel": "/images/genre-painting-de-hooch-courtyard.jpg"
  }
 }
