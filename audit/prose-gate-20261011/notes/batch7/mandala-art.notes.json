@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "[This site's look at the earliest fully abstract paintings](/abstract-art-first-painting/) found a related current running under a different name in roughly the same period: Hilma af Klint's non-representational canvases grew directly out of her own circle of Swedish Theosophists and seance sitters, the same general decades in which Jung's own psychic material was pushing him toward the mandala as an image of psychological order rather than religious devotion.",
+    "target_slug": "abstract-art-first-painting",
+    "note": "Target dates inscription versus catalogue and describes Hilma spiritualism. Pop revised to dating dispute, Elements separated attribution from formal vocabulary, Mandala limited to contemporaneous spiritual practice, without equal theology or universalfirst. Actual target quote: immersing herself in Theosophy",
+    "source_article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+    "target_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts"
+  }
+]

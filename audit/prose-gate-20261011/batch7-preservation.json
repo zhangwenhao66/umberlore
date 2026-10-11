@@ -1,0 +1,32 @@
+{
+  "st-peters-basilica": {
+    "FAQ_count": 7,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "pop-art": {
+    "FAQ_count": 9,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "frida-kahlo-paintings": {
+    "FAQ_count": 8,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "elements-of-art": {
+    "FAQ_count": 7,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "mandala-art": {
+    "FAQ_count": 5,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  },
+  "cloisonne": {
+    "FAQ_count": 5,
+    "questions_exact_preserved": true,
+    "whole_original_Markdown_URL_sequence_preserved": true
+  }
+}

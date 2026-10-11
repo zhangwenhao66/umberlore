@@ -25,9 +25,9 @@
   <circle cx="630" cy="300" r="12" fill="#6d4f3a"/>
   <text x="630" y="250" text-anchor="middle" font-size="20" fill="#4a3728" font-weight="bold">1962</text>
   <text x="630" y="340" text-anchor="middle" font-size="13" fill="#4a3728">Alloway's "Pop Since</text>
-  <text x="630" y="358" text-anchor="middle" font-size="13" fill="#4a3728">1949" is the first essay</text>
-  <text x="630" y="376" text-anchor="middle" font-size="12" fill="#7a6248">on record actually</text>
-  <text x="630" y="392" text-anchor="middle" font-size="12" fill="#7a6248">printing the phrase</text>
+  <text x="630" y="358" text-anchor="middle" font-size="13" fill="#4a3728">1949" uses the phrase</text>
+  <text x="630" y="376" text-anchor="middle" font-size="12" fill="#7a6248">in its running text,</text>
+  <text x="630" y="392" text-anchor="middle" font-size="12" fill="#7a6248">following 1958 captions</text>
 
   <!-- 1963 -->
   <circle cx="850" cy="300" r="12" fill="#9c6b4f"/>
@@ -45,6 +45,6 @@
   <text x="1080" y="376" text-anchor="middle" font-size="12" fill="#7a6248">$195.04M at Christie's,</text>
   <text x="1080" y="392" text-anchor="middle" font-size="12" fill="#7a6248">a US art-auction record</text>
 
-  <text x="600" y="470" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">15 years separate the word "pop" first appearing in a collage from the first essay to print the phrase "Pop Art."</text>
+  <text x="600" y="470" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">15 years separate Paolozzi’s collage and Alloway’s 1962 essay using “Pop Art” in running prose.</text>
   <text x="600" y="490" text-anchor="middle" font-size="11" fill="#7a6248" font-style="italic">The 1958 date usually given for the term's "coining" is the year Alloway published a related essay whose running prose never uses the words "Pop Art"; only its captions did.</text>
 </svg>

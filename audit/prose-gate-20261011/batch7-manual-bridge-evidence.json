@@ -1,0 +1,190 @@
+[
+  {
+    "source_slug": "st-peters-basilica",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The dome most visitors assume is a pure Michelangelo design is, on the building's own records, a collaboration finished by two other architects making their own calls, comparable to [the gap between what Frank Lloyd Wright drew for Fallingwater and what his engineer quietly had to add to keep it standing](/frank-lloyd-wright/).",
+      "anchor": "the gap between what Frank Lloyd Wright drew for Fallingwater and what his engineer quietly had to add to keep it standing",
+      "target_slug": "frank-lloyd-wright"
+    },
+    "review": "Target records extra reinforcing during construction and Wright objections; analogy concerns later builders revising a design, not identical structural cause.",
+    "target_quote": "additional steel went into the beam",
+    "target_current_article_sha256": "4b191a7230edfa36e6da160f8cb1984db77a297427ecdada4117dacfffd1f7b2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "9214264199698c7ca554e192f5c10e96ddcb969415041d131290fbac7faf6752",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "st-peters-basilica",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "Neither number is simply wrong; they most likely measure different things, which is the same habit worth applying to [a functioning gargoyle versus a merely decorative grotesque](/what-is-a-gargoyle/): check what the primary source is actually measuring before repeating a number.",
+      "anchor": "a functioning gargoyle versus a merely decorative grotesque",
+      "target_slug": "what-is-a-gargoyle"
+    },
+    "review": "Target separates functionaldrainage from decorativegrotesque; source now states this classification cannot explain187/220 discrepancy.",
+    "target_quote": "water",
+    "target_current_article_sha256": "3fb10b237e01dccac982abe29d60b3b35caa341a8bc36d0c4efeef00ddc73894",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "9214264199698c7ca554e192f5c10e96ddcb969415041d131290fbac7faf6752",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "st-peters-basilica",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The most quoted line about the building's most photographed bronze object may be describing the wrong metal, much the same kind of afterlife a theft gave [the Mona Lisa's fame](/mona-lisa/), where the popular story and the documented one don't quite match.",
+      "anchor": "the Mona Lisa's fame",
+      "target_slug": "mona-lisa"
+    },
+    "review": "Target documents a pre-existing reputation amplified by theft; comparison limited to discrepancy between popular story and historical record, not bronze provenance.",
+    "target_quote": "It fed an already well-regarded image",
+    "target_current_article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "9214264199698c7ca554e192f5c10e96ddcb969415041d131290fbac7faf6752",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "st-peters-basilica",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "[Barcelona's Sagrada Família](/sagrada-familia/) inverts that same problem: one architect's design, left unfinished at his death, that later builders spent a century trying to complete faithfully rather than redraw, not five architects each reversing the last one's scheme.",
+      "anchor": "Barcelona's Sagrada Família",
+      "target_slug": "sagrada-familia"
+    },
+    "review": "Target records reconstruction from surviving models after fire; revised bridge distinguishes that reconstruction from StPeter multiple revisions.",
+    "target_quote": "survived a 1936 fire",
+    "target_current_article_sha256": "f90e198188b1c051d20104c7b78c11bbfc0805f794fcdb7e28403d89ca3a6f57",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "source_current_article_sha256": "9214264199698c7ca554e192f5c10e96ddcb969415041d131290fbac7faf6752",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "pop-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The [same pattern, of an institution quietly correcting the popular story of a movement's first moment](/abstract-art-first-painting/), turns up often enough in art history that it is worth treating any tidy coining date as a placeholder rather than a fact.",
+      "anchor": "same pattern, of an institution quietly correcting the popular story of a movement's first moment",
+      "target_slug": "abstract-art-first-painting"
+    },
+    "review": "Target dates inscription versus catalogue and describes Hilma spiritualism. Pop revised to dating dispute, Elements separated attribution from formal vocabulary, Mandala limited to contemporaneous spiritual practice, without equal theology or universalfirst.",
+    "target_quote": "immersing herself in Theosophy",
+    "target_current_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "5bae6bb45f85bcdee4839e5b024f9ecf699c367a500dd796ec69e50387a22c54",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "frida-kahlo-paintings",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "A discrepancy in the support material, the same category of fact a museum catalogue records for [Munch's Scream, tempera and grease crayon on cardboard](/edvard-munch-the-scream/), was enough on its own to end the claim.",
+      "anchor": "Munch's Scream, tempera and grease crayon on cardboard",
+      "target_slug": "edvard-munch-the-scream"
+    },
+    "review": "Target gives the exact NationalMuseum1893 support/medium; compares object catalogue material, not1910chemicalfindings.",
+    "target_quote": "tempera and grease crayon on cardboard",
+    "target_current_article_sha256": "82acdb2a39adae0c37f4be775bf59743244a563bbe9432492c43d5fd9d976ea8",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "75757c8c56923ee0341a3509854fd3adf8e2d47025ed4802f9e5fd727e9e27b0",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "frida-kahlo-paintings",
+    "extra_manual_link": "famous-renaissance-paintings",
+    "review": "AlltargetbodyFAQ freshlyread; some panels imaging plus fresco/cartooncomparison, notfourcanvas hiddenwholecompositions.",
+    "target_quote": "The cartoon preserves a stage of the composition",
+    "target_current_article_sha256": "3675767d2115dccd5a996e5d1622c880a696377344047dbe0153fbbdc1e0591e",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "elements-of-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "And the argument over which handful of paintings [actually deserves credit as the first fully abstract picture](/abstract-art-first-painting/) is, underneath the attribution dispute, an argument about the same vocabulary Kandinsky was trying to pin down in Point and Line to Plane: at what point does a composition of pure point, line, and plane stop referring to anything else and start being only itself.",
+      "anchor": "actually deserves credit as the first fully abstract picture",
+      "target_slug": "abstract-art-first-painting"
+    },
+    "review": "Target dates inscription versus catalogue and describes Hilma spiritualism. Pop revised to dating dispute, Elements separated attribution from formal vocabulary, Mandala limited to contemporaneous spiritual practice, without equal theology or universalfirst.",
+    "target_quote": "immersing herself in Theosophy",
+    "target_current_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "mandala-art",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "[This site's look at the earliest fully abstract paintings](/abstract-art-first-painting/) found a related current running under a different name in roughly the same period: Hilma af Klint's non-representational canvases grew directly out of her own circle of Swedish Theosophists and seance sitters, the same general decades in which Jung's own psychic material was pushing him toward the mandala as an image of psychological order rather than religious devotion.",
+      "anchor": "This site's look at the earliest fully abstract paintings",
+      "target_slug": "abstract-art-first-painting"
+    },
+    "review": "Target dates inscription versus catalogue and describes Hilma spiritualism. Pop revised to dating dispute, Elements separated attribution from formal vocabulary, Mandala limited to contemporaneous spiritual practice, without equal theology or universalfirst.",
+    "target_quote": "immersing herself in Theosophy",
+    "target_current_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "cloisonne",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "A craft's reputation can flip just as fast toward closer scrutiny as toward prestige: [conservation science has measured exactly what one-line textbook definitions of sfumato, impasto, and pointillism leave out, down to the width of individual paint-glaze layers](/art-techniques/).",
+      "anchor": "conservation science has measured exactly what one-line textbook definitions of sfumato, impasto, and pointillism leave out, down to the width of individual paint-glaze layers",
+      "target_slug": "art-techniques"
+    },
+    "review": "Target2010XRF measures sfumato layers; revised bridge only asserts this measurement, not allthree methods experimentalproof.",
+    "target_quote": "individual glaze layers only 1 to 2 micrometers thick",
+    "target_current_article_sha256": "a5a864efbe46cdd92e4690843279f43eb67b03a45e6b31d7614de0c9f37731b3",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "4db9c5b8cdcb341346ff78777a6af3bbeb4b7bed7f3d95ad4f3968018ce5c977",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "cloisonne",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "[Romanesque painting](/romanesque-painting/) from the same period has a rescue story of its own, a museum beating a dealer by hiring his crew.",
+      "anchor": "Romanesque painting",
+      "target_slug": "romanesque-painting"
+    },
+    "review": "Target records dealer crew hired by MuseumsBoard; rescue analogy is explicitly this negotiation.",
+    "target_quote": "hired Steffanoni's own crew",
+    "target_current_article_sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "source_current_article_sha256": "4db9c5b8cdcb341346ff78777a6af3bbeb4b7bed7f3d95ad4f3968018ce5c977",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "cloisonne",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "That's a different shape from the steady, cumulative transmission implied by phrases like \\\"an ancient technique,\\\" the kind of framing that also undersells how recent some now-standard art vocabulary actually is: the very checklist used to describe [any painting's formal structure](/elements-of-art/) turns out to date to a specific 1968 studio-art textbook rather than to any older inherited tradition.",
+      "anchor": "any painting's formal structure",
+      "target_slug": "elements-of-art"
+    },
+    "review": "Target newly read and rewritten; 1968availablecopy doesnotdatefirstlist,1960bibliographicrecord alsoexists.",
+    "target_quote": "does not establish",
+    "target_current_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "4db9c5b8cdcb341346ff78777a6af3bbeb4b7bed7f3d95ad4f3968018ce5c977",
+    "full_source_and_target_body_allFAQ_read": true
+  },
+  {
+    "source_slug": "cloisonne",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The word-versus-object gap shows up elsewhere in decorative and ritual art too: [the word mandala is documented nearly two thousand years before the earliest surviving pictorial mandala](/mandala-art/), a comparable distance between an assumed origin point and what the physical record actually supports.",
+      "anchor": "the word mandala is documented nearly two thousand years before the earliest surviving pictorial mandala",
+      "target_slug": "mandala-art"
+    },
+    "review": "Target distinguishes hymnbooklabel from Buddhistimages and compositiondate from wordfirstuse; original2kfirstword/firstimage gapunsupported, narrowedtwo documenteduses.",
+    "target_quote": "do not establish a single worldwide first image",
+    "target_current_article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "source_current_article_sha256": "4db9c5b8cdcb341346ff78777a6af3bbeb4b7bed7f3d95ad4f3968018ce5c977",
+    "full_source_and_target_body_allFAQ_read": true
+  }
+]

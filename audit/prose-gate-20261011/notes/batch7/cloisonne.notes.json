@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "[Romanesque painting](/romanesque-painting/) from the same period has a rescue story of its own, a museum beating a dealer by hiring his crew.",
+    "target_slug": "romanesque-painting",
+    "note": "Target records dealer crew hired by MuseumsBoard; rescue analogy is explicitly this negotiation. Actual target quote: hired Steffanoni's own crew",
+    "source_article_sha256": "4db9c5b8cdcb341346ff78777a6af3bbeb4b7bed7f3d95ad4f3968018ce5c977",
+    "target_article_sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "That's a different shape from the steady, cumulative transmission implied by phrases like \\\"an ancient technique,\\\" the kind of framing that also undersells how recent some now-standard art vocabulary actually is: the very checklist used to describe [any painting's formal structure](/elements-of-art/) is a teaching convention discussed through several systems and textbook editions, not a list whose origin can be proved from one 1968 copy.",
+    "target_slug": "elements-of-art",
+    "note": "Target newly read and rewritten; 1968availablecopy doesnotdatefirstlist,1960bibliographicrecord alsoexists. Actual target quote: does not establish",
+    "source_article_sha256": "4db9c5b8cdcb341346ff78777a6af3bbeb4b7bed7f3d95ad4f3968018ce5c977",
+    "target_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts"
+  }
+]

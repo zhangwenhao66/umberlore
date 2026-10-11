@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "A discrepancy in the support material, the same category of fact a museum catalogue records for [Munch's Scream, tempera and grease crayon on cardboard](/edvard-munch-the-scream/), was enough on its own to end the claim.",
+    "target_slug": "edvard-munch-the-scream",
+    "note": "Target gives the exact NationalMuseum1893 support/medium; compares object catalogue material, not1910chemicalfindings. Actual target quote: tempera and grease crayon on cardboard",
+    "source_article_sha256": "75757c8c56923ee0341a3509854fd3adf8e2d47025ed4802f9e5fd727e9e27b0",
+    "target_article_sha256": "82acdb2a39adae0c37f4be775bf59743244a563bbe9432492c43d5fd9d976ea8",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts"
+  }
+]

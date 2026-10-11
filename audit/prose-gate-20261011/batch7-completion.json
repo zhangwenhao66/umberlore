@@ -1,0 +1,256 @@
+{
+  "status": "six_sources_ready_for_parent_independent_diff_review",
+  "original_remote_baseline": "c3d6902168e842ce41f8712778d44e7808ae0cc0",
+  "review_parent": "85b8aa8c86bafb3320d2fd096c5df38332d0b90b",
+  "dependencies_already_delivered_other_batches": [
+    "dfe658f36b032ca4b7bf024429f05d34a6e63aae",
+    "fa76b175364c0838749cf2a15e712e2d849f8716"
+  ],
+  "slugs": [
+    "st-peters-basilica",
+    "pop-art",
+    "frida-kahlo-paintings",
+    "elements-of-art",
+    "mandala-art",
+    "cloisonne"
+  ],
+  "source_full_body_allFAQ": true,
+  "eleven_targets_body_allFAQ": {
+    "abstract-art-first-painting": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-abstract-art-first-painting.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-fullread-receipt.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-target-read-map.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "art-techniques": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "a5a864efbe46cdd92e4690843279f43eb67b03a45e6b31d7614de0c9f37731b3",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-art-techniques.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-quotes.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "edvard-munch-the-scream": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "82acdb2a39adae0c37f4be775bf59743244a563bbe9432492c43d5fd9d976ea8",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-edvard-munch-the-scream.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-extra-link-evidence.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "elements-of-art": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-elements-of-art.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-quotes.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-target-read-map.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-fullread-receipt.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "famous-renaissance-paintings": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+      "article_sha256": "3675767d2115dccd5a996e5d1622c880a696377344047dbe0153fbbdc1e0591e",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-famous-renaissance-paintings.txt",
+      "exact_SHA_previous_receipts": [],
+      "full_read": true,
+      "source_file_sha256": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "frank-lloyd-wright": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "4b191a7230edfa36e6da160f8cb1984db77a297427ecdada4117dacfffd1f7b2",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-frank-lloyd-wright.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "mandala-art": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-mandala-art.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-fullread-receipt.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-extra-link-evidence.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "mona-lisa": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-mona-lisa.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "romanesque-painting": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+      "article_sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-romanesque-painting.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-quotes.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "sagrada-familia": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+      "article_sha256": "f90e198188b1c051d20104c7b78c11bbfc0805f794fcdb7e28403d89ca3a6f57",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-sagrada-familia.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-target-read-map.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-fullread-receipt.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    },
+    "what-is-a-gargoyle": {
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+      "article_sha256": "3fb10b237e01dccac982abe29d60b3b35caa341a8bc36d0c4efeef00ddc73894",
+      "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-what-is-a-gargoyle.txt",
+      "exact_SHA_previous_receipts": [
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-target-read-map.json",
+        "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-fullread-receipt.json"
+      ],
+      "full_read": true,
+      "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+      "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+    }
+  },
+  "manual_checks": 13,
+  "original_candidates": 12,
+  "current_candidates": 7,
+  "notes_not_historical_reuse": true,
+  "FAQ_questions_counts_URL_sequence": {
+    "st-peters-basilica": {
+      "FAQ_count": 7,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "pop-art": {
+      "FAQ_count": 9,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "frida-kahlo-paintings": {
+      "FAQ_count": 8,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "elements-of-art": {
+      "FAQ_count": 7,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "mandala-art": {
+      "FAQ_count": 5,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "cloisonne": {
+      "FAQ_count": 5,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    }
+  },
+  "checks": {
+    "frida-kahlo-paintings": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "mandala-art": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "st-peters-basilica": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "pop-art": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "elements-of-art": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "cloisonne": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    }
+  },
+  "two_SVG_XML_actual_PNG_viewed": [
+    "pop-art-timeline-diagram",
+    "elements-of-art-diagram"
+  ],
+  "skill_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/skill-receipt.json",
+  "primary": [
+    {
+      "url": "https://www.basilicasanmarco.it/basilica/tesoro-e-pala-doro/la-pala-doro/?lang=en",
+      "coverage": "complete official main26–50 read; 1102–1118 lower/1209/1343–45/1847fixed/display1958",
+      "finding": "976commission cannot date completed current layout or continuous display."
+    },
+    {
+      "url": "https://www.sothebys.com/en/articles/japanese-cloisonne-enamels-an-expression-of-endless-patience",
+      "coverage": "complete scholarly main7–59 and bibliography60–68 read; authorGregoryIrvineV&A76",
+      "finding": "Qualified no3Dobjects until19c; notallmetal fittings or allproduction gap;1838/1839/1860–61/1871/1873/1874/1896/1893 preserved."
+    },
+    {
+      "url": "https://www.warhol.org/lessons/silkscreen-printing/underpainting-and-photographic-silkscreen-printing/",
+      "coverage": "whole lesson128–247 actually read; historical154–165 and manualsteps205–220",
+      "finding": "Commercial photographic screen prepared separately, hands/squeegee pushink. No automatic printingpress claim."
+    },
+    {
+      "url": "https://www.basilicasanpietro.va/en/faq/how-big-is-st-peters-basilica",
+      "coverage": "completeheadword3–5 read",
+      "finding": "187meters/136meters; no220boundaryplan supplied, noatrioexplanationinferred."
+    },
+    {
+      "url": "https://books.google.de/books?hl=de&id=wnNxzDQeB5IC",
+      "coverage": "completecatalog14–65 read (metadata and selectedtablecontents only; notclaimed full169pagebook)",
+      "finding": "1960edition UniversityofColoradoBoulder169pp; disproves1968availablecopy=firstpublication, doesnot provefirstsevenlist."
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/45410/pg45410-images.html",
+      "coverage": "editionfrontmatter20–31; completeBeginnings81–109 andThreeElements114–129 read; laterchapters notclaimedread",
+      "finding": "Ninthrevised1914 edition, authorfirst1899 at84; exactstructure/imitationquote89; triad117–121."
+    }
+  ],
+  "spread": "Historical-first/measurement/production-scope issues forwarded to root for17site scan/prevention. Emphasis historical1968+mandala bridge identified and queued as explicit B8sixthsource, not silently declared reviewcomplete. Originalcheckout/otherWT untouched. No push."
+}

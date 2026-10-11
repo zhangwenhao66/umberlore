@@ -1,0 +1,132 @@
+{
+  "abstract-art-first-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-abstract-art-first-painting.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-fullread-receipt.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-target-read-map.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "art-techniques": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "a5a864efbe46cdd92e4690843279f43eb67b03a45e6b31d7614de0c9f37731b3",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-art-techniques.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-quotes.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "edvard-munch-the-scream": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "82acdb2a39adae0c37f4be775bf59743244a563bbe9432492c43d5fd9d976ea8",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-edvard-munch-the-scream.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-extra-link-evidence.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "elements-of-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-elements-of-art.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-quotes.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-target-read-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-fullread-receipt.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "famous-renaissance-paintings": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "article_sha256": "3675767d2115dccd5a996e5d1622c880a696377344047dbe0153fbbdc1e0591e",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-famous-renaissance-paintings.txt",
+    "exact_SHA_previous_receipts": [],
+    "full_read": true,
+    "source_file_sha256": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "frank-lloyd-wright": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "4b191a7230edfa36e6da160f8cb1984db77a297427ecdada4117dacfffd1f7b2",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-frank-lloyd-wright.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "mandala-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "f1db20eed44f33f9e1f177acbd5a7d6426d6568f670ebd9115471e43ec9350a3",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-mandala-art.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-fullread-receipt.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-extra-link-evidence.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "mona-lisa": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-mona-lisa.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "romanesque-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "article_sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-romanesque-painting.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-quotes.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "sagrada-familia": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "f90e198188b1c051d20104c7b78c11bbfc0805f794fcdb7e28403d89ca3a6f57",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-sagrada-familia.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-target-read-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-fullread-receipt.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  },
+  "what-is-a-gargoyle": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+    "article_sha256": "3fb10b237e01dccac982abe29d60b3b35caa341a8bc36d0c4efeef00ddc73894",
+    "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-what-is-a-gargoyle.txt",
+    "exact_SHA_previous_receipts": [
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-target-read-map.json",
+      "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-fullread-receipt.json"
+    ],
+    "full_read": true,
+    "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+    "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+  }
+}

@@ -74,8 +74,8 @@
     <circle cx="605" cy="550" r="24" fill="#3f5a75"/>
     <circle cx="655" cy="550" r="24" fill="#6a3f5a"/>
     <text x="600" y="665" text-anchor="middle" font-size="18" fill="#4a3728" font-weight="bold">COLOR</text>
-    <text x="600" y="688" text-anchor="middle" font-size="12" fill="#7a6248">Hue, described by</text>
-    <text x="600" y="704" text-anchor="middle" font-size="12" fill="#7a6248">wavelength of light</text>
+    <text x="600" y="688" text-anchor="middle" font-size="12" fill="#7a6248">Hue, intensity and</text>
+    <text x="600" y="704" text-anchor="middle" font-size="12" fill="#7a6248">light-dark value</text>
   </g>
 
   <!-- Cell 7: TEXTURE -->
