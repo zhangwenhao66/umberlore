@@ -3794,3 +3794,36 @@ GEO人工启发式67→80/99（初稿加总77已订正67）；没有把它当Goo
 |how many times was the mona lisa stolen|历史词库2026-08-02（地域未核）；实时Google10/10美国英文桌面|880（历史）|9（历史）|无缓存数据|无缓存数据|9自然/12结果元素（含3非自然特征），AIO有、未引本站，未完整前10|28日276曝光/平均7.6，点击CTR未单独核；入链1→2|
 
 本轮API$0.002，未扩词、未新增文章；完整指标/原始SERP及三态详情见audit-findings-20261010T1725.json，receipt /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261010T1725/receipt.json。无邮件外发、无数据台写入。
+
+## PAA-FAQ批强(daily-task, 2026-10-11)
+```json
+{
+  "site": "umberlore",
+  "type": "PAA-FAQ批强(daily-task, 2026-10-11)",
+  "commit": "3654739",
+  "added": [
+    {"slug": "rococo-architecture-vs-baroque", "question": "Was Leonardo da Vinci a Renaissance or Baroque artist?", "source": "High Renaissance 1490-1527 (LibreTexts/Lumen)"},
+    {"slug": "rococo-architecture-vs-baroque", "question": "Was Marie Antoinette Baroque or Rococo?", "source": "HISTORY; Humanities LibreTexts (Rococo 1730-1760)"},
+    {"slug": "rococo-architecture-vs-baroque", "question": "Why was Rococo hated?", "source": "Wallace Collection; Diderot criticism; Catholic Encyclopedia"},
+    {"slug": "antique-oil-painting", "question": "How do you clean a vintage oil painting?", "source": "Austin Gallery (art cleaning); conservator guidance"},
+    {"slug": "genre-painting", "question": "Can you give me an example of a genre painting?", "source": "Met Heilbrunn (Northern Europe genre); NGA (Watteau/Chardin/Fragonard)"}
+  ],
+  "added_faq_count": 5,
+  "added_page_count": 3,
+  "rejections_registered": [
+    {"slug": "how-many-times-was-the-mona-lisa-stolen", "questions": ["What are the 13 stolen paintings?"], "reason": "指1990年加德纳博物馆失窃案13件藏品，与本页主题不符"},
+    {"slug": "antique-oil-painting", "questions": ["What are some popular oil paintings?", "What are the three rules of oil painting?", "What is the 80/20 rule in painting?", "What painting sold for $70 million?"], "reason": "泛泛列举/绘画技法/拍卖冷知识，与本文古董鉴定主题不符（4条）"},
+    {"slug": "genre-painting", "questions": ["What are the five painting genres?", "What are the 7 genres of painting with examples?"], "reason": "与既有FAQ What genres are there in art? 实质重复"},
+    {"slug": "parthenon-vs-pantheon", "questions": ["What did Michelangelo say about the Pantheon?"], "reason": "该引言仅见旅游页/专栏转述，无一手或权威艺术史来源，不足以核实"},
+    {"slug": "rococo-architecture-vs-baroque", "questions": ["Was Marie Antoinette Rococo or Baroque?"], "reason": "与同批倒装问法为同一问题，已就后者作答"}
+  ],
+  "checks": [
+    {"slug": "rococo-architecture-vs-baroque", "baseline_exit": 0, "after_exit": 0},
+    {"slug": "antique-oil-painting", "baseline_exit": 0, "after_exit": 0},
+    {"slug": "genre-painting", "baseline_exit": 0, "after_exit": 0}
+  ],
+  "de_ai": "Skill(humanizer) + Skill(avoid-ai-writing) 真实调用（scoped umberlore），新增FAQ过一遍；数字/专名/链接对照原稿无改坏",
+  "status": "committed"
+}
+```
+Only FAQ additions; prior FAQ/body/title/description/sources/schema/updated/published fields preserved. 9 rejects registered in research-db/paa_rejections.json (90天冷却). 本批 3 个 slug 改动前后 check_prose_patterns.py 均退出0（与本站既有存量债务无关的页面）。
