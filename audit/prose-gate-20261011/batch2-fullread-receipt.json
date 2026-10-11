@@ -1,0 +1,202 @@
+{
+  "edvard-munch-the-scream": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "82acdb2a39adae0c37f4be775bf59743244a563bbe9432492c43d5fd9d976ea8",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/edvard-munch-the-scream.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "diego-rivera": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/diego-rivera.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "andy-warhol": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "20fffd1e0e006315492ea92c7f3f6f19612320b98a947a096607e0519dbd0d13",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/andy-warhol.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "simonetta-vespucci": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "9194017dec853ca7013fdb47ab88b38a4c2125ed7789bbee0b910f939cb74684",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/simonetta-vespucci.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "mona-lisa": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/mona-lisa.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "famous-renaissance-paintings": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "059e6e875eb91541d5a635ef69a0f5afe1e2b991eccbcfb9131af65cea5af772",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/famous-renaissance-paintings.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "venus-de-milo": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "3fe0db66c10ec91da36659acf4e318de661e067408a4c62b889a24205c039355",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/venus-de-milo.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "non-objective-art": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "d764913a94a648e112cd8614581fc8a41c186f9dac9651579a6a6806ea6ae4e6",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/non-objective-art.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "frida-kahlo-paintings": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha256": "59cac98e0b00167b845f7aaa50bb5ede3d8285d33fdd70a084c8f4c2eb4fb45f",
+    "source_file_sha256": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/frida-kahlo-paintings.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "ophelia-millais": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "b3c34cb3092460373fbd5db9239bffb6e89c084d5498db493b4d55b7ec6de6cf",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/ophelia-millais.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "famous-paintings": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha256": "905e88e95296f6e75c2e5f26d10c205a5d589ba6b813b65d21e783c6b8989ff6",
+    "source_file_sha256": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/famous-paintings.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "gustav-klimt": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/gustav-klimt.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "caravaggio-narcissus": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "847f10f5abd114912e7f30aeb42652ed972cbd718d9892dc709d3299536536e4",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/caravaggio-narcissus.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "saturn-devouring-his-son": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "5ce090c703b9ae3a4fad7f465757255815aa8f8dd0a739e1535abc26a113c9d1",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/saturn-devouring-his-son.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "sagrada-familia": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "f90e198188b1c051d20104c7b78c11bbfc0805f794fcdb7e28403d89ca3a6f57",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/sagrada-familia.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "jackson-pollock-convergence": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "84a5136b9daeaebfdf1fb81800f4d65cccf2dddff72a1c9dbaf350192e036b12",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/jackson-pollock-convergence.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "psychedelic-art": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "9b654e307f5301414360be5527008b09567390539169f1462c0bb4eb3cd82dc1",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/psychedelic-art.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "renaissance-art": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "a5924cd23ea7d8cd60590b3ce4dace99f8cca6c70a2a3bd874cc47b6d04bb651",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/renaissance-art.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "art-deco": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "70ac639176df3efb85b33cfe927d1ec6ec53d69b2fd3952ea70d90e44d141d8a",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/art-deco.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "frank-lloyd-wright": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha256": "4b191a7230edfa36e6da160f8cb1984db77a297427ecdada4117dacfffd1f7b2",
+    "source_file_sha256": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/frank-lloyd-wright.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "starry-night": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "0af5edc9f41cfa784c05ca1853649949581878eaf231ad2d4babf99306e04806",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/starry-night.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "birth-of-venus": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "2184e151e8b358874e1cff199d0d72b91df7f5047d47f2ab2ad4314858bbf9bc",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/birth-of-venus.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "van-gogh-paintings": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha256": "e6a36bdd875788fa59a04f4c8e1e2ef537c59034d4adb1feff3c7dc6194fff14",
+    "source_file_sha256": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/van-gogh-paintings.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "jackson-pollock": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "cc8ec0bfda2eb724a3a1b5f176061f66103b7e878b62ef2adbbbbed1aba90267",
+    "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/jackson-pollock.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  },
+  "pop-art": {
+    "body_plus_all_faq": true,
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha256": "df7e52f5f598626b2e2e00e565147352a611cddac54588a80aa643d85c9ffc4b",
+    "source_file_sha256": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/pop-art.umber-full.txt",
+    "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sagrada-familia": [
+    {
+      "url": "https://sagradafamilia.org/en/history-of-the-temple",
+      "coverage": "Full historical chronology lines9–198 read: 1954Passionfoundations,1986Subirachs,2026Feb20 exterior only,June10mass/blessing",
+      "quote": "This completes the exterior of the central tower, the Temple’s tallest."
+    },
+    {
+      "url": "https://blog.sagradafamilia.org/es/fases-construccion-torre-jesus/",
+      "coverage": "Official2026-02-20 tower announcement, relevant finishing paragraph read in prior context and searchfallback; web open internalerror; not falsely recorded wholepage",
+      "quote": "aunque las obras del interior continuarán durante los años 2027 y 2028."
+    }
+  ],
+  "saturn-devouring-his-son": [
+    {
+      "url": "https://www.museodelprado.es/en/the-collection/art-work/saturn/18110a75-b0e7-430c-bc73-2a4d55893bd6",
+      "coverage": "Prado official indexed collection statement read; directweb andboundedrequests403 unavailable; fallback precisecataloguegroundfloorquote",
+      "quote": "It occupied the wall across from Leocadia Zorrilla (P00754) on the ground floor"
+    },
+    {
+      "url": "https://fundaciongoyaenaragon.es/obra/cabezas-en-un-paisaje/672",
+      "coverage": "Completegeneraldata+ownershiphistory+interpretationread",
+      "quote": "Stanley Moss & Company"
+    }
+  ],
+  "andy-warhol": [
+    {
+      "url": "https://www.nybooks.com/articles/2011/08/18/warhol-under-waldorf/",
+      "coverage": "Eyewitness RichardEkstract openletter lines85–99 readentireletterandresponse",
+      "quote": "the 1965 world premiere of video art"
+    },
+    {
+      "url": "https://www.nybooks.com/articles/2011/08/18/how-andy-warhols-red-self-portraits-were-made/",
+      "coverage": "Dorment documentaryanalysis lines78–123 readcompleteessay; exchange rather than gift of later1966party chronology",
+      "quote": "The transaction he made with Ekstract, however, was not a gift but an exchange."
+    }
+  ],
+  "starry-night": [
+    {
+      "url": "https://www.nature.com/news/2006/060703/full/news060703-17.html",
+      "coverage": "PhilipBall researchreport37–56full relevantparagraphs/quote ofAragon read; targetdoesNOTcontainthisresult; independentprimaryinterview evidence explicitnotborrowedtarget",
+      "quote": "the luminance probability distribution doesn’t fit Kolmogorov’s theory."
+    }
+  ],
+  "venus-de-milo": [
+    {
+      "url": "https://www.smithsonianmag.com/arts-culture/base-deception-91910975/",
+      "coverage": "October2003GregoryCurtis firsthandinterviewparagraphandhistoricalsurrounding read; currentrolewordreplacedthen",
+      "quote": "In a recent interview, Alain Pasquier, general conservator"
+    }
+  ],
+  "ophelia-millais": [
+    {
+      "url": "source Hamlet Act4Scene7 text embedded sourcearticle quotedGertrude",
+      "coverage": "Originalsourceparagraphcontainsreportingqueenandactualverse; correctionremovesunsupporteduniversalnostagingclaim, doesnotmakehistoricalreplacementclaim",
+      "quote": "There is a willow grows aslant a brook"
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "slug": "sagrada-familia",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "The same willingness to bet a building's stability on an untested idea shows up decades later at [Frank Lloyd Wright's Fallingwater](/frank-lloyd-wright/), where the architect's engineer left reinforcing steel out of the cantilevers and the error went uncorrected for 65 years.",
+      "anchor": "Frank Lloyd Wright's Fallingwater",
+      "target_slug": "frank-lloyd-wright"
+    },
+    "target_quote": "Kaufmann talked him down, and additional steel went into the beam, though even that detail doesn't survive into a single clean story: some accounts credit Hall with quietly doubling the reinforcing himself, oth",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "全读Hall建议8→16与实际额外钢筋、Glickman负筋遗漏、1997临时支撑与2002修复；源不再把Gaudi模型计算说成押注未验证稳定性，不再把Wright整65年无修等同Gaudi。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "starry-night",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Aragón told Nature's news team the same year that his group had tested other artists' turbulent-looking work and come up empty: \\\"We have examined other apparently turbulent paintings of several artists and find no evidence of Kolmogorov scaling.\\\" He named [Edvard Munch's The Scream](/edvard-munch-the-scream/) specifically, a painting made by a similarly tumultuous artist and full of superficially similar swirls, as one example whose luminance pattern simply does not fit Kolmogorov's law.",
+      "anchor": "Edvard Munch's The Scream",
+      "target_slug": "edvard-munch-the-scream"
+    },
+    "target_quote": " objects carry one motif\nbody\nThere is no single Scream. Munch made four finished versions of the composition between 1893 and 1910, in two different media, and none of them is a copy of another; each has its o",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "目标全文有4版本、1893–1910与保护研究，不含Kolmogorov负结果；这条旧桥接不能以目标支持物理结果。新段明确将Nature2006研究和目标仅支持4版本作品对象历史分成不同句，不将物理结论附在目标锚句。独立primary Philip Ball在Nature与研究者本人访谈全文36–56行已读，DOI10.1038/news060703-17明确该负结果；未泛化全部Munch作品或今后方法。目标补充只支持作品身份，不伪称目标有这项研究。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "saturn-devouring-his-son",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "It is a different kind of alteration from the slow chemical pigment change [conservators have measured, decades later, in Van Gogh's canvases](/van-gogh-paintings/), but it is the same reminder that almost nothing from this period survives completely untouched by later hands.",
+      "anchor": "conservators have measured, decades later, in Van Gogh's canvases",
+      "target_slug": "van-gogh-paintings"
+    },
+    "target_quote": "ind of chrome yellow, and the sulfur-rich variety reduces under light into chromium(III) compounds, which is what browns the paint film. The museum cut its maximum lighting level by two thirds in response, from",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "全读REVIGO2017、redlake消失与chromeyellow还原成CrIII；明确化学老化与人工转移画面两种独立改变，删除laterhands误归因。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "saturn-devouring-his-son",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Authorship disputes over a single canvas can run for just as long without a forensic resolution elsewhere: [a Caravaggio Narcissus has had its authorship argued since 1913, and a 1995 X-ray restoration meant to settle the question instead left conservators reading the same paint layers two different ways](/caravaggio-narcissus/).",
+      "anchor": "a Caravaggio Narcissus has had its authorship argued since 1913, and a 1995 X-ray restoration meant to settle the question instead left conservators reading the same paint layers two different ways",
+      "target_slug": "caravaggio-narcissus"
+    },
+    "target_quote": "erini gallery that same year. In 1973-74 Cesare Brandi proposed instead that it was painted by the far more obscure Giovanni Antonio Galli, known as lo Spadarino, a theory Gianni Papi developed from 1986 onward",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1913发现/1916发表、1973–74Brandi、1986Papi、1989文献和Schneider1991–92技术判断在1995修复之前；改为不同研究并列而非1995触发双方同时分析。目标core和FAQ5本身时序风险已登记额外事实批。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "saturn-devouring-his-son",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Painted portraits raise a similar identity question from a different angle: whether Sandro Botticelli's posthumous \\\"Simonetta\\\" portraits even depict [Simonetta Vespucci at all remains disputed, and a 2026 medical paper now argues over how she died rather than just who she was](/simonetta-vespucci/).",
+      "anchor": "Simonetta Vespucci at all remains disputed, and a 2026 medical paper now argues over how she died rather than just who she was",
+      "target_slug": "simonetta-vespucci"
+    },
+    "target_quote": "ned by Medicine\ndescription\nA 2026 medical paper argues a pituitary tumor killed Botticelli's presumed muse at twenty-three, though scholars still cannot agree she is in the paintings at all.\npublished\n2026-09-",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读肖像身份争论、1486Botticelli、1476死亡记录和2019/2026医学回顾；源限定医学假说并不决定肖像身份或确定死因。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "andy-warhol",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "The same gap between a critic's label and an artist's plainer account of the work shows up on the other side of postwar American painting too: [Jackson Pollock's description of how he worked](/jackson-pollock/) never uses the phrase \\\"action painting,\\\" the term Harold Rosenberg coined for his generation in 1952.",
+      "anchor": "Jackson Pollock's description of how he worked",
+      "target_slug": "jackson-pollock"
+    },
+    "target_quote": "m drawings or color sketches. My painting is direct. I usually paint on the floor. I enjoy working on a large canvas, I feel more at home, more at ease, in a big area. Having the canvas on the floor, I feel nea",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1950Namuth拍摄1951电影发布、本人流程原话、Rosenberg1952essay和复发前已酗酒；仅说电影录音无术语而不证明整个生涯从未使用。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "andy-warhol",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "It was a paper trail that, unlike [Klimt's paintings, contested for entirely different reasons](/gustav-klimt/), pointed one way and then reversed itself.",
+      "anchor": "Klimt's paintings, contested for entirely different reasons",
+      "target_slug": "gustav-klimt"
+    },
+    "target_quote": "offered no view on ownership. Ownership was settled separately: a three-judge panel in Vienna ruled on 15 January 2006.\nIt is on permanent view at New York's Neue Galerie. Ronald S. Lauder acquired it in a priv",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1938夺取、1941购入、1998法、2004SupremeCourt仅司法管辖与2006Vienna所有权仲裁；源明确ownershipvsWarholauthenticity不同法理和证据不做同因逆转。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "andy-warhol",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "That is the same private, case-by-case scrutiny that a market small enough to keep [attracting fakes](/frida-kahlo-paintings/) has always needed, just without an institutional stamp behind it.",
+      "anchor": "attracting fakes",
+      "target_slug": "frida-kahlo-paintings"
+    },
+    "target_quote": "ogist's handwriting match and chemical paint analysis consistent with the 1940s as support.\nNeither side produced a result that settled the matter, and no government ruling closing the case appears in the recor",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "全读2009Noyola私人委托化学/笔迹检测仍未解决、2019警方交易案、2020支撑材料woodvsfabric和2025Bavarian警方伪作。旧源alwaysprivate且noinstitution错误；新句保留私人专家及testing但不抹掉政府与警方。Saturn额外非触发内链亦同步改为supportmaterial不再谎称pigment/paper分析彻底解决。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "andy-warhol",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A painting can sit on the opposite side of that same gap between critical judgment and popular demand: one 1967 critic wrote that the reworked color in [Jackson Pollock's Convergence clashed with the rest of the canvas, yet the same painting later became a 340-piece jigsaw puzzle marketed as the world's hardest](/jackson-pollock-convergence/).",
+      "anchor": "Jackson Pollock's Convergence clashed with the rest of the canvas, yet the same painting later became a 340-piece jigsaw puzzle marketed as the world's hardest",
+      "target_slug": "jackson-pollock-convergence"
+    },
+    "target_quote": "h in a car crash that August. In 1964 the game company Springbok Editions turned the same canvas into a 340-piece jigsaw puzzle marketed as the world's most difficult, and it reportedly sold in the hundreds of ",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1952制作与展、1956入藏、1964拼图340件、1967Rubin批评；纠正旧later造成先后颠倒，popularvscriticism仅个案不声称所有评论皆负面。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "venus-de-milo",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "It is not the only Venus in a major museum whose early ownership history is thinner than the label suggests; [the commission history of Botticelli's Birth of Venus in Florence has the same kind of gap](/birth-of-venus/), just for different reasons and in a different medium.",
+      "anchor": "the commission history of Botticelli's Birth of Venus in Florence has the same kind of gap",
+      "target_slug": "birth-of-venus"
+    },
+    "target_quote": "title\nThe Birth of Venus: The 1499 Inventory That Doesn't Mention It\ndescription\nNo document records who commissioned The Birth of Venus. A 1499 household inventory, unpublished until 1975, lists its companion ",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1499inventory缺条、1550Vasari见两幅、Botticelli/Uffizi和无原commission文件；新句仅说后来Medici拥有不证明委托，与雕像fragment关联不相同。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "venus-de-milo",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A missing fragment is a quieter way for an institution to shape how a work is read than [physically chiseling an unwanted mural off a wall](/diego-rivera/), but the effect on the historical record is the same kind of gap.",
+      "anchor": "physically chiseling an unwanted mural off a wall",
+      "target_slug": "diego-rivera"
+    },
+    "target_quote": "ller had it plastered over in 1934, before it was even finished.\npublished\n2026-08-06\nupdated\n2026-08-26\ncoreSummary\nIn April 1933, Diego Rivera added a portrait of Vladimir Lenin to Man at the Crossroads, a fr",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1933Lenin与Rockefeller要求删除/停工、1934拆毁和Mexicocity重画；主动破坏是有记录事件，不能把Venus基座无记录去向归因为机构隐瞒同一手法。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "venus-de-milo",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "It is not settled that the fragment was definitely part of this statue's pedestal, and the Louvre's restraint on that point is worth taking as seriously as the more dramatic cover-up framing that popular accounts of the episode tend to favor, a caution about reading too much into a single artifact that also shapes [what a museum's own catalogue record can and cannot establish](/famous-paintings/) for works far better documented than this one.",
+      "anchor": "what a museum's own catalogue record can and cannot establish",
+      "target_slug": "famous-paintings"
+    },
+    "target_quote": "nd provenance or acquisition. Those fields settle whether a work is panel or canvas, painting or print, what it actually measures, and when and from whom the museum got it. A page about a famous work that carri",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "全读六画对象字段及NightWatch尺寸、medium/support/record；只说字段可核不声称条目能直接保证所有作者/来历都已解决。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "renaissance-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Institutional self-interest has shaped an art movement's name more directly than that, too: [New York's Guggenheim Museum dropped the word \\\"non-objective\\\" from its own name in 1952, the same year it eased out Hilla Rebay, the curator who had coined the museum's original title around that term](/non-objective-art/).",
+      "anchor": "New York's Guggenheim Museum dropped the word \\\"non-objective\\\" from its own name in 1952, the same year it eased out Hilla Rebay, the curator who had coined the museum's original title around that term",
+      "target_slug": "non-objective-art"
+    },
+    "target_quote": "a home. She was pushed out in 1952, before either one survived her.\npublished\n2026-08-30\nupdated\n2026-08-30\ncoreSummary\nNon-objective art is the term Hilla Rebay used for fully non-representational painting, an",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1939旧MuseumNonObjectivePainting、1952Rebay辞职/更名、1959馆开与1967死亡；newbridge限定administration而非movement命名，撤未经证明Rebaycoinedtitle。目标死亡时间悬空已登记额外修。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "renaissance-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A movement's standard origin story can misdate itself by just as wide a margin in the other direction: [psychedelic art's own textbook starting point, 1966 San Francisco rock posters, turns out to trace back to a psychiatrist's LSD studies a full twelve years earlier](/psychedelic-art/).",
+      "anchor": "psychedelic art's own textbook starting point, 1966 San Francisco rock posters, turns out to trace back to a psychiatrist's LSD studies a full twelve years earlier",
+      "target_slug": "psychedelic-art"
+    },
+    "target_quote": "ve LSD to artists starting in 1954, twelve years before the Fillmore's posters. Their trademark lettering was borrowed, not tripped into.\npublished\n2026-08-19\nupdated\n2026-08-19\ncoreSummary\nPsychedelic art's st",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读Janiger1954–62实验250artworks与1971评估、Moscoso等1966rockposters及字体借Secession；研究早12年只先行背景，不是确证海报运动直接继承。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "renaissance-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Technical study has corrected the record on individual Renaissance paintings in a similar way, only with X-rays instead of burial registers: [four canonical canvases turn out to hide entirely different, abandoned designs underneath their finished surfaces](/famous-renaissance-paintings/).",
+      "anchor": "four canonical canvases turn out to hide entirely different, abandoned designs underneath their finished surfaces",
+      "target_slug": "famous-renaissance-paintings"
+    },
+    "target_quote": "fluorescence, and a surviving cartoon show four famous Renaissance paintings held different designs than the finished works display.\npublished\n2026-08-24\nupdated\n2026-08-24\ncoreSummary\nFour of the best-known pa",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读两Leonardo木板IRunderdrawing、Arnolfini橡木板修改、RaphaelSchoolofAthens壁画与Ambrosiana存cartoon；旧4canvases全hiddenabandoned图像错误，新句区分材料/方法，仅举真实IR和cartoon例子。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "renaissance-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A similar lag shows up elsewhere in how art-historical labels settle long after the objects and stories they describe: [a design movement of the 1920s went by other names entirely until a French retrospective four decades later gave it the one still used today](/art-deco/), and [a movement's defining word turned up in an actual artwork over a decade before any published essay used it as a title](/pop-art/).",
+      "anchor": "a design movement of the 1920s went by other names entirely until a French retrospective four decades later gave it the one still used today",
+      "target_slug": "art-deco"
+    },
+    "target_quote": "term didn't reach print until 1966.\npublished\n2026-08-06\nupdated\n2026-08-06\ncoreSummary\nThe style now called Art Deco ran through the 1920s and 1930s, but no one who lived through it used that name. The 1925 Pa",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1925exposition完整名称、1966巴黎retrospective、1968Hillier英文推广；源限定1966展使回顾性名称成形，未把年代标签当同期自称。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "renaissance-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A similar lag shows up elsewhere in how art-historical labels settle long after the objects and stories they describe: [a design movement of the 1920s went by other names entirely until a French retrospective four decades later gave it the one still used today](/art-deco/), and [a movement's defining word turned up in an actual artwork over a decade before any published essay used it as a title](/pop-art/).",
+      "anchor": "a movement's defining word turned up in an actual artwork over a decade before any published essay used it as a title",
+      "target_slug": "pop-art"
+    },
+    "target_quote": "lished in Artforum in October 1962.\nimage\n/images/pop-art-whitechapel-gallery-exterior.jpg\nimageAlt\nThe exterior of the Whitechapel Gallery in London, the venue that hosted the 1956 exhibition This Is Tomorrow,",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "全读Paolozzi1947POP字、Hamilton1956collage、Alloway1958masspopularart/图说与1962PopSince1949正文；桥接采用实际1947→1962十五年两记录，不再说before任何publishedessay都不曾写（标题/图说不等正文）。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "ophelia-millais",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Several of the flowers also carry symbolic weight tied to Shakespeare's text or to the Victorian language of flowers: willow and pansies are conventionally read as symbols of forsaken and unrequited love, poppies as death, daisies as innocence, and violets as faithfulness and the death of the young, an interpretive layer added by later readers rather than a fact written into the canvas itself, the same caution that separates [the Louvre's documented account of the Mona Lisa](/mona-lisa/) from the folklore that has grown up around it.",
+      "anchor": "the Louvre's documented account of the Mona Lisa",
+      "target_slug": "mona-lisa"
+    },
+    "target_quote": "\ncategory\nPainting\ntitle\nMona Lisa: Did the 1911 Theft Really Make It Famous?\ndescription\nThe 1911 theft is the usual explanation for the Mona Lisa's fame. Guidebooks and Louvre copyist records from before the ",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读Lisaidentity、1519/France记录、1907guidebook与1911盗窃/回收；源对比可证记录与流行叙事只方法，不把花象征和MonaLisa传说来源等同。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  },
+  {
+    "slug": "jackson-pollock",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[Van Gogh's Starry Night](/starry-night/) shows a similar gap: his own letters confirm a morning star at the asylum window, and the village below it is invented.",
+      "anchor": "Van Gogh's Starry Night",
+      "target_slug": "starry-night"
+    },
+    "target_quote": "calls it \\\"the addition of an imaginary village,\\\" and its slender, Dutch-style church spire evokes the artist's homeland, not Provence. Astronomers have precisely dated two of Van Gogh's other night paintings,",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1889lettersVenus、MoMAimaginaryvillage、2006/2019/2024/2025物理争论；sourcePollock复发不是相同因果gap，现仅并列各自证据能确定何种事情，不借此解释酒精疾病。",
+    "source_and_target_body_all_faq_read": true,
+    "current_target_link_retained": true
+  }
+]
