@@ -3443,7 +3443,7 @@ export const guides: Guide[] = [
     "title": "What Is a Daguerreotype? A \"First Photo\" That Barely Survived",
     "description": "A daguerreotype is a unique image on silver-plated copper. The 1838 plate cited as photography's first photo of a person survives only as a copy of a copy.",
     "published": "2026-08-10",
-    "updated": "2026-08-10",
+    "updated": "2026-10-11",
     "coreSummary": "A daguerreotype is a direct-positive photograph fixed on a silver-plated copper plate, a unique image made without a negative, first shown to the public by Louis Daguerre on August 19, 1839. The plate usually cited as the first photograph to show a living person, an 1838 Paris streetscape called Boulevard du Temple, no longer survives in its original state: a botched 1970 restoration in Munich compounded a century of decay, so nearly every reproduction now in circulation, including the one at the top of this article, derives from copies the historian Beaumont Newhall made in the 1930s, not the plate itself.",
     "image": "/images/daguerreotype-boulevard-du-temple-1838.jpg",
     "imageAlt": "The 1838 daguerreotype Boulevard du Temple, showing an apparently empty Paris street with a man having his boots polished barely visible at the lower left corner.",
@@ -3539,7 +3539,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Are daguerreotypes worth anything?",
-        "answer": "Most are worth relatively little: ordinary studio portraits with no case or identified sitter often sell for as little as $25 to $100, not far off flea-market prices. Value climbs sharply for pieces with a named subject, an intact case and seal, an unusual size, or a rare subject beyond the standard studio portrait; outdoor and occupational scenes are especially sought after, and a daguerreotype of a rural estate has sold for as much as $62,500."
+        "answer": "Most are worth relatively little: ordinary studio portraits with no case or identified sitter trade at flea-market levels. Value climbs sharply for pieces with a named subject, an intact case and seal, an unusual size, or a rare subject beyond the standard studio portrait; outdoor and occupational scenes are especially sought after."
       },
       {
         "question": "What is the difference between a daguerreotype and a photograph?",
@@ -3564,8 +3564,8 @@ export const guides: Guide[] = [
         "url": "https://en.wikipedia.org/wiki/Boulevard_du_Temple_(photograph)"
       },
       {
-        "label": "Daguerreotype Archive: Samuel F. B. Morse's letter on Daguerre, New-York Observer, April 20, 1839",
-        "url": "http://www.daguerreotypearchive.org/texts/N8390002_MORSE_NY_OBSERVER_1839-04-20.pdf"
+        "label": "Ewer Archive: Samuel F. B. Morse's letter on Daguerre, New-York Observer, April 20, 1839 (archived copy; the original daguerreotypearchive.org site is offline)",
+        "url": "https://web.archive.org/web/20240119053608/http://www.daguerreotypearchive.org/texts/N8390002_MORSE_NY_OBSERVER_1839-04-20.pdf"
       },
       {
         "label": "Wikimedia Commons: File:Boulevard du Temple by Daguerre.jpg",
