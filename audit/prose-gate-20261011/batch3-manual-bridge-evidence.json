@@ -1,0 +1,156 @@
+[
+  {
+    "slug": "michelangelo-sistine-chapel",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Technical imaging has unsettled other old-master surfaces the same way: [the Met's 2022 infrared and X-ray fluorescence imaging of a Neoclassical deathbed scene found a woman and child painted over on the staircase, a chain repositioned, a hairband removed, and a window replaced by bare stone](/the-death-of-socrates/).",
+      "anchor": "the Met's 2022 infrared and X-ray fluorescence imaging of a Neoclassical deathbed scene found a woman and child painted over on the staircase, a chain repositioned, a hairband removed, and a window replaced by bare stone",
+      "target_slug": "the-death-of-socrates"
+    },
+    "quote": "The single strangest find sits on the staircase in the background, where the finished painting shows one woman glancing back, traditionally identified as Socrates' wife Xanthippe. Underneath the visible paint, the same fluorescence mapping revealed a second figure David had painted there and then covered over completely: a cloaked woman holding a child, the child gripping her neck with one hand and reaching backward with the other. Nobody has confirmed who they were meant to be, though the Phaedo itself mentions a young son small enough to be carried in his mother's arms on the day his father died, which makes the guess that David first sketched in Xanthippe with their youngest boy, then changed his mind, a reasonable one. The same kind of buried evidence, paint layers quietly contradicting each other about what an old-master canvas is supposed to show, is what eventually reopened the question of who painted [a Caravaggio-attributed canvas at the Palazzo Barberini, where a 1995 X-ray restoration turned up evidence that still hasn't settled a decades-long authorship dispute](/caravaggio-narcissus/).",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "reason": "完整读2022成像部分和全FAQ；原same way把移除污垢/争议glaze与无损成像找pentimenti混同，新句明确二者不同方法，保留woman+child、chain、hairband和window四项有文内证据的发现。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "fallen-angel-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "A similar gap between a popular caption and the documented record shows up in [Frida Kahlo's The Broken Column](/the-broken-column/), usually described as a recovery painting made after her spinal surgery even though the medical record she left behind places it before.",
+      "anchor": "Frida Kahlo's The Broken Column",
+      "target_slug": "the-broken-column"
+    },
+    "quote": "That puts two full years between the painting and the surgery it is routinely said to follow. The Broken Column isn't a record of a failed fix; it's a portrait made in the middle of the wait, while a corset was standing in for a procedure that hadn't happened yet.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "reason": "全读1944Zimbron corset和1946Wilson融合、2017文章临床视角及4FAQ；1847Cabanel接收记录和1944Kahlo日期的类比只限流行概括与更细记录不符，不把艺术构图或医疗机制等同；目标原句明确两年时间差。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "fallen-angel-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[Millais's Ophelia](/ophelia-millais/), another mid-Victorian painting this site has covered, went through a comparable multi-stage production of its own, its river landscape finished months before its model was ever posed for the figure, a reminder that paintings now treated as single, settled images were often built up across separate, disconnected sessions.",
+      "anchor": "Millais's Ophelia",
+      "target_slug": "ophelia-millais"
+    },
+    "quote": "The painting already had a buyer before the public had a chance to see it. On 10 December 1851, while Millais was still working on the studio portion of the canvas, the art dealer Henry Farrer bought Ophelia directly from him for 300 guineas. The picture changed hands several more times over the following decades among Victorian collectors before Sir Henry Tate acquired it in the early 1890s, meaning the reviewers who tore into the picture at the Royal Academy in 1852 were judging a work whose commercial value the market had already settled months earlier.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读1851外景/1852Siddal内景、病症不确定、父亲索50与付款金额区别及5FAQ；改掉same/comparable将一幅跨阶段绘制和两幅独立作品当同一制作过程，现明示区别。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "fallen-angel-painting",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "What the gap resembles is the situation this site found in [Goya's Saturn Devouring His Son](/saturn-devouring-his-son/), another canvas whose documented history turned out to be less settled than the confident, single-number captions built around it suggest, sometimes because a scholar disputes attribution outright, and sometimes, as here, because two records that both cite the same primary source simply don't match each other.",
+      "anchor": "Goya's Saturn Devouring His Son",
+      "target_slug": "saturn-devouring-his-son"
+    },
+    "quote": "The dispute has never been closed by hard forensic evidence. In a separate set of authentication cases, [inconsistent support materials have undermined claims to possess lost Frida Kahlo paintings](/frida-kahlo-paintings/). No infrared study, pigment dating or newly discovered document has settled the Junquera question either way; it remains an argument from indirect documentary evidence on both sides, a less tidy answer than the confident wall label in the Prado's galleries suggests. [The attribution of Narcissus to Caravaggio remains disputed](/caravaggio-narcissus/). Its rediscovery in 1913 and publication under Caravaggio's name in 1916 were followed by competing attributions and technical research; restoration findings in 1995 did not produce universal agreement.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "全读2003Junquera、地上房间、原层位置及1870s转移、9FAQ；原single-number尺寸冲突与作者争论不同，新句分别说measurement和authorship。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "mandala-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[This site's look at the earliest fully abstract paintings](/abstract-art-first-painting/) found a related current running under a different name in roughly the same period: Hilma af Klint's non-representational canvases grew directly out of her own circle of Swedish Theosophists and seance sitters, the same general decades in which Jung's own psychic material was pushing him toward the mandala as an image of psychological order rather than religious devotion.",
+      "anchor": "This site's look at the earliest fully abstract paintings",
+      "target_slug": "abstract-art-first-painting"
+    },
+    "quote": "None of it was made for a gallery wall. Af Klint painted within a private circle of four other women, later called The Five, who held regular seances and recorded what they described as messages from spiritual sources; the paintings were, by her own account, executed under that guidance, not composed as exhibition pieces. That context is exactly why the work stayed outside art history for so long: it was never made to enter the conversation Kandinsky was having in Munich. Non-representational art has found unconventional doorways more than once: decades later, [a Los Angeles psychiatrist's 1950s LSD studies pushed professional artists toward their own unplanned departures from recognizable subject matter](/psychedelic-art/), a different route to a broadly similar kind of break.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "本批重读当前B1全篇含6FAQ；TheFive/SwedishTheosophy/1905 spiritualinstruction/1906–07作画支持桥接时期与精神主义背景，源讲Jung1913后心理探索不声称两人相互影响或同一信仰。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "the-broken-column",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[Diego Rivera, her husband, ran into a comparable gap between what an image looked like and what its maker meant by it, though the disagreement was political, not clinical, when a mural he insisted was accurately titled got chiseled off a wall in New York anyway](/diego-rivera/).",
+      "anchor": "Diego Rivera, her husband, ran into a comparable gap between what an image looked like and what its maker meant by it, though the disagreement was political, not clinical, when a mural he insisted was accurately titled got chiseled off a wall in New York anyway",
+      "target_slug": "diego-rivera"
+    },
+    "quote": "The unfinished mural stayed hidden behind stretched canvas for the rest of 1933 while artists' groups, including painter John Sloan and photographer Alfred Stieglitz, organized in Rivera's defense, and a December 1933 proposal to move the work intact to the Museum of Modern Art went nowhere. In February 1934, workmen peeled and chiseled the fresco off the RCA Building's lobby wall entirely. Rockefeller Center Inc. issued a two-sentence statement confirming the wall had been replastered. Rivera, whose net profit on the commission came to about $7,000 after expenses, said its destruction \\\"will advance the cause of the labor revolution.\\\" The following year, working from salvaged black-and-white photographs, he repainted the composition from memory at Mexico City's Palacio de Bellas Artes under a new title, Man, Controller of the Universe, where the recreation still hangs.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "reason": "B2目标全读记录hash与当前完全相同，8FAQ包含Lenin要求、停工、1934拆除和1934重画；原accurately titled的视觉意图泛比医疗诠释不成立，改为明确政治委托纠纷及区别。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "whistler-ruskin-trial",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Art-market lawsuits keep landing on that same kind of non-answer: more than a century later, [a $20 million lawsuit over a disputed Andy Warhol self-portrait ended when the collector who filed it ran out of money to keep fighting](/andy-warhol/), leaving no court ruling on whether the painting was genuine.",
+      "anchor": "a $20 million lawsuit over a disputed Andy Warhol self-portrait ended when the collector who filed it ran out of money to keep fighting",
+      "target_slug": "andy-warhol"
+    },
+    "quote": "On 28 October 2011, the Art Newspaper reported that the Foundation had decided to dissolve the 16-year-old Andy Warhol Art Authentication Board by early 2012. Foundation president Joel Wachs gave the reasoning directly: \\\"It is a matter of priority, and our responsibility to Andy's mission. Our money should be going to artists, not lawyers.\\\" The Foundation kept its catalogue raisonné project running, but drew a line around its purpose. \\\"The catalogue raisonné serves a non-market purpose: Andy's legacy and Warhol scholarship,\\\" Wachs said. \\\"The market seems to want to use the authentication board, but that can't be our concern.\\\"",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "reason": "B2全读+本轮SHA一致；JoeSimon经济耗尽撤案未判authenticity；Whistler赢libel仅farthing是裁决不等同Warhol撤案，新句说各诉争对象及结果不同。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "mayan-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "The gap between the story most people repeat and the record scholars have actually assembled shows up well outside Mesoamerica too: [the mandala carries a similar mismatch, its earliest documented meaning is a chapter division in a Vedic hymn collection, not the geometric picture the word now calls to mind, and popular writing keeps blurring the two anyway](/mandala-art/).",
+      "anchor": "the mandala carries a similar mismatch, its earliest documented meaning is a chapter division in a Vedic hymn collection, not the geometric picture the word now calls to mind, and popular writing keeps blurring the two anyway",
+      "target_slug": "mandala-art"
+    },
+    "quote": "Mandala is Sanskrit for circle and also names divisions of the Rig Veda, a collection of 1,028 hymns composed in an early form of Sanskrit and traditionally dated to roughly 1500 to 1200 BCE. There, mandala names each of the text's ten books: Mandala 1 through Mandala 10, a purely organizational label, the same way a modern reader might say \\\"Book Four\\\" of an epic poem. India's Vedic Heritage Portal, run by the country's Ministry of Culture, still lists \\\"Mandala Krama\\\" among the recitation traditions built around those ten divisions. Nothing about that structure describes a circular drawing.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "reason": "本批全篇5FAQ已读；本轮另核Dunhuang8–10、Takao824及Tibet11–12，已撤全球first只Tibet和无法由诗歌日期推wordfirst。桥接只文本标签vsritualimage不同用途，不把变化说成Maya军事共识同类发现。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "psychedelic-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[Pop art's own label has the same problem: the word \\\"pop\\\" turns up in a 1947 collage nine years before Richard Hamilton's better-known version, and fifteen years before any published essay printed the phrase \\\"Pop Art\\\" in its running text](/pop-art/).",
+      "anchor": "Pop art's own label has the same problem: the word \\\"pop\\\" turns up in a 1947 collage nine years before Richard Hamilton's better-known version, and fifteen years before any published essay printed the phrase \\\"Pop Art\\\" in its running text",
+      "target_slug": "pop-art"
+    },
+    "quote": "The gap between those two dates is where the standard history gets soft. Alloway is routinely credited with coining \\\"Pop Art\\\" in a February 1958 essay, \\\"The Arts and the Mass Media\\\", published in Architectural Design. Read the essay's running prose and the phrase is not there: Alloway writes about \\\"mass popular art\\\" and \\\"pop culture\\\", not \\\"Pop Art\\\" as a two-word proper name. The art historian Nigel Whiteley, introducing a 2004 Artforum reprint of Alloway's later essay, notes that the phrase did appear in the 1958 piece, just confined to its picture captions rather than the argument itself. The earliest essay on record that prints the literal phrase in running text is a different Alloway piece, Pop Since 1949, published in Artforum in October 1962. That is four years after the date usually given for the term's invention, and fifteen years after Paolozzi had already put the word itself into a collage. A separate dating dispute concerns [Kandinsky's watercolour, catalogued by its museum three years later than its inscription](/abstract-art-first-painting/). Both cases call for checking the relevant record before repeating a familiar origin date.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "reason": "本批重读B1最终全篇及9FAQ；Paolozzi1947、Hamilton1956、Alloway1958captionvs1962runningprose明确；新句仅三记录，不称所有媒介最早印词也不把Janiger直接当Fillmore源。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "aboriginal-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[The Aztec Sun Stone's central carved face has drawn at least four competing scholarly identifications over the past century, argued from the same surviving object](/aztec-art/), and in a different way, [the Bonampak murals in Chiapas kept yielding previously unreadable content for decades after their 1946 rediscovery, as documentation methods advanced from hand-copying to infrared photography](/mayan-art/).",
+      "anchor": "The Aztec Sun Stone's central carved face has drawn at least four competing scholarly identifications over the past century, argued from the same surviving object",
+      "target_slug": "aztec-art"
+    },
+    "quote": "Carlos Navarrete and Doris Heyden broke with that consensus in 1974, arguing instead that the clawed hands and knife-tongue point to Tlaltecuhtli, the earth deity, a reading Richard Townsend supported in his own 1979 study of Aztec imperial art, in part because he judged the earth reading more consistent with the surrounding Ollin glyph than a specifically solar one. Cecilia Klein proposed a third identity in 1976: Yohualtecuhtli, the \\\"Night Lord,\\\" whom Klein linked to the earth, darkness, and the underworld instead of daylight. Maya epigrapher David Stuart revisited the question again in a 2016 essay, adding a fourth possibility without resolving the other three: that the central face may function, at least in part, as a deified portrait of the ruler Moctezuma II, embedded structurally within the Ollin glyph's design rather than merely surrounded by it. No single identification has displaced the others in the scholarly literature, even though museum labels and popular sources still default to Tonatiuh, historically the oldest reading, not the most recent one.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "reason": "本批首次全读完整body+5FAQ；Seler/Beyer同一Tonatiuh身份、Navarrete/HeydenTlaltecuhtli、KleinYohualtecuhtli、Stuart2016Moctezuma四身份，不误称只有四个人。新句至少4identifications，不归因为刻意遮蔽，也不与recoverfadedpaint等同。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  },
+  {
+    "slug": "aboriginal-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "[The Aztec Sun Stone's central carved face has drawn at least four competing scholarly identifications over the past century, argued from the same surviving object](/aztec-art/), and in a different way, [the Bonampak murals in Chiapas kept yielding previously unreadable content for decades after their 1946 rediscovery, as documentation methods advanced from hand-copying to infrared photography](/mayan-art/).",
+      "anchor": "the Bonampak murals in Chiapas kept yielding previously unreadable content for decades after their 1946 rediscovery, as documentation methods advanced from hand-copying to infrared photography",
+      "target_slug": "mayan-art"
+    },
+    "quote": "The murals have also been documented twice, decades apart, by two very different methods. Between 1946 and 1948, artists Antonio Tejeda and Agustín Villagra produced the first copies for the Carnegie Institution of Washington, tracing what they could see by eye and, by most accounts, omitting details they found confusing or too damaged to render with confidence rather than inventing anything outright; that work anchored the 1955 Ruppert, Thompson, and Proskouriakoff publication that introduced the murals to the wider scholarly world. Starting in 1996, art historian Mary Miller led Yale's Bonampak Documentation Project, which used infrared photography and videography, principally shot by photographer Justin Kerr, to record calligraphic lines and hieroglyphic texts that have faded past the point of being visible to the naked eye but still register under infrared light. Some of that loss, researchers on the project have noted, came not just from centuries of natural erosion but from well-intentioned mid-twentieth-century conservation attempts that ended up damaging the paint layer further. Archaeological artist Heather Hurst and Leonard Ashby used the resulting photographic record to produce new reconstruction paintings, published in Miller and Claudia Brittenham's 2013 book The Spectacle of the Late Maya Court, incorporating details the original 1940s copyists never had the means to see.",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "reason": "本批全读body+4FAQ；1946–48Tejeda/Villagra handcopies、1996Miller/KerrIR、Hurst/Ashby重建和2013书支持新桥接具体方法；删除把身份争议/遮蔽design/成像恢复当统一samepattern。",
+    "source_target_body_all_FAQ_read": true,
+    "link_retained": true
+  }
+]

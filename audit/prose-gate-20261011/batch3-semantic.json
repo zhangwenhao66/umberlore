@@ -1,0 +1,120 @@
+{
+  "michelangelo-sistine-chapel": {
+    "before_candidates": 1,
+    "after_candidates": 0,
+    "notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/michelangelo-sistine-chapel.notes.json",
+    "FAQ_count_before": 9,
+    "FAQ_count_after": 9,
+    "questions_unchanged": true,
+    "links_multiset_preserved": true,
+    "source_full_read": true,
+    "source_article_sha": "7fc5fd952b706ed226cd51382466fe0bbb365898554e18cda19901efdab02c41",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "outward_chain": "Complete unique kit humanizer then avoid-ai-writing applied; literal quotes/names/dates/question counts/links checked after rewriting; skill-receipt.json hashes. Prose baseline0 meant targeted facts/scope fixes, no mechanical FAQ rewriting."
+  },
+  "fallen-angel-painting": {
+    "before_candidates": 3,
+    "after_candidates": 1,
+    "notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/fallen-angel-painting.notes.json",
+    "FAQ_count_before": 7,
+    "FAQ_count_after": 7,
+    "questions_unchanged": true,
+    "links_multiset_preserved": true,
+    "source_full_read": true,
+    "source_article_sha": "ad93bc309b8842591d42f42d85eb64489dd39197ad9589fcdb24a632e91a6827",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "outward_chain": "Complete unique kit humanizer then avoid-ai-writing applied; literal quotes/names/dates/question counts/links checked after rewriting; skill-receipt.json hashes. Prose baseline0 meant targeted facts/scope fixes, no mechanical FAQ rewriting."
+  },
+  "mandala-art": {
+    "before_candidates": 1,
+    "after_candidates": 1,
+    "notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/mandala-art.notes.json",
+    "FAQ_count_before": 5,
+    "FAQ_count_after": 5,
+    "questions_unchanged": true,
+    "links_multiset_preserved": true,
+    "source_full_read": true,
+    "source_article_sha": "f9a5b08d9292cb8cfe87785d51624b13c9599fd9abfa1901e3f0258a262413f1",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "outward_chain": "Complete unique kit humanizer then avoid-ai-writing applied; literal quotes/names/dates/question counts/links checked after rewriting; skill-receipt.json hashes. Prose baseline0 meant targeted facts/scope fixes, no mechanical FAQ rewriting."
+  },
+  "the-broken-column": {
+    "before_candidates": 1,
+    "after_candidates": 0,
+    "notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/the-broken-column.notes.json",
+    "FAQ_count_before": 4,
+    "FAQ_count_after": 4,
+    "questions_unchanged": true,
+    "links_multiset_preserved": true,
+    "source_full_read": true,
+    "source_article_sha": "15043d8334c796d8eacd77d1266b04ee2c9363dec49209a88844dd9f0130550f",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "outward_chain": "Complete unique kit humanizer then avoid-ai-writing applied; literal quotes/names/dates/question counts/links checked after rewriting; skill-receipt.json hashes. Prose baseline0 meant targeted facts/scope fixes, no mechanical FAQ rewriting."
+  },
+  "whistler-ruskin-trial": {
+    "before_candidates": 1,
+    "after_candidates": 0,
+    "notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/whistler-ruskin-trial.notes.json",
+    "FAQ_count_before": 4,
+    "FAQ_count_after": 4,
+    "questions_unchanged": true,
+    "links_multiset_preserved": true,
+    "source_full_read": true,
+    "source_article_sha": "fe4801644273f52ad59a1cd84eb618d8e862473ac9415ec4db0e5e2938570897",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "outward_chain": "Complete unique kit humanizer then avoid-ai-writing applied; literal quotes/names/dates/question counts/links checked after rewriting; skill-receipt.json hashes. Prose baseline0 meant targeted facts/scope fixes, no mechanical FAQ rewriting."
+  },
+  "mayan-art": {
+    "before_candidates": 1,
+    "after_candidates": 0,
+    "notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/mayan-art.notes.json",
+    "FAQ_count_before": 4,
+    "FAQ_count_after": 4,
+    "questions_unchanged": true,
+    "links_multiset_preserved": true,
+    "source_full_read": true,
+    "source_article_sha": "46e3b27b87765f6398df73790e45182e119783790b86f8d7d3c1d366ee9e95f6",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "outward_chain": "Complete unique kit humanizer then avoid-ai-writing applied; literal quotes/names/dates/question counts/links checked after rewriting; skill-receipt.json hashes. Prose baseline0 meant targeted facts/scope fixes, no mechanical FAQ rewriting."
+  },
+  "psychedelic-art": {
+    "before_candidates": 1,
+    "after_candidates": 0,
+    "notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/psychedelic-art.notes.json",
+    "FAQ_count_before": 4,
+    "FAQ_count_after": 4,
+    "questions_unchanged": true,
+    "links_multiset_preserved": true,
+    "source_full_read": true,
+    "source_article_sha": "ae4529d5b4c2bf32366e1da1cd9459d1535d6011c8b74c5ecf01f9c9e441e9b0",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "outward_chain": "Complete unique kit humanizer then avoid-ai-writing applied; literal quotes/names/dates/question counts/links checked after rewriting; skill-receipt.json hashes. Prose baseline0 meant targeted facts/scope fixes, no mechanical FAQ rewriting."
+  },
+  "aboriginal-art": {
+    "before_candidates": 2,
+    "after_candidates": 0,
+    "notes": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/aboriginal-art.notes.json",
+    "FAQ_count_before": 4,
+    "FAQ_count_after": 4,
+    "questions_unchanged": true,
+    "links_multiset_preserved": true,
+    "source_full_read": true,
+    "source_article_sha": "103e9b405e1ca2894db74ad4d83869c16cf0084a4b5e6668fb2bb34f034174aa",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "outward_chain": "Complete unique kit humanizer then avoid-ai-writing applied; literal quotes/names/dates/question counts/links checked after rewriting; skill-receipt.json hashes. Prose baseline0 meant targeted facts/scope fixes, no mechanical FAQ rewriting.",
+    "before_faq": [
+      "It traces to a 1971 wall-painting effort at a government school in Papunya, where senior community men, with Kaapa Tjampitjinpa at the front, took over what had begun as a children's drawing exercise and turned it into a mural steeped in ancestral songline imagery, encouraged by their teacher. That event prompted other residents to begin recording their own ancestral stories on any surface within reach, a wave of activity now regarded as the true start of the movement. Applying dots to camouflage sensitive imagery didn't start until later, spanning 1973 to 1975.",
+      "According to Judith Ryan, the curator who documented the shift, the technique developed specifically so painters working under the Papunya Tula name had a way to sell finished work to outside buyers without exposing sacred and ceremonial imagery to viewers who lacked the ceremonial authority to view it, Aboriginal people from unrelated groups included. Dots applied over or around altered symbols obscured restricted content while still producing a finished, saleable painting.",
+      "Painted in 1971 and reworked twice more over the next couple of years, the mural was removed entirely in 1974 when maintenance crews acted on government orders. Judith Ryan, who later wrote the introduction to Geoffrey Bardon's 1991 book about the movement, branded the erasure there as cultural vandalism, the same phrase she used elsewhere in that essay.",
+      "The name was suggested by Charlie Tarawa, known also as Tjaruru, a Pintupi painter, at a gathering of artists at Charley Creek in June 1972; it points to two hills near Papunya recognized as a shared meeting site for people whose family lines converge there. The company that grew out of that gathering became official on the 16th of November, 1972."
+    ],
+    "after_faq": [
+      "The Western Desert painting movement developed at Papunya in 1971. Elders led by Kaapa Tjampitjinpa took over a school mural project begun by children, and other residents painted their ancestral stories on available small surfaces. Dots occur in surviving work from 1971 and 1972; the 1973–75 development described by Judith Ryan concerns their increasing use to hide sacred designs from uninitiated viewers.",
+      "According to Judith Ryan, the curator who documented the shift, the technique developed specifically so painters working under the Papunya Tula name had a way to sell finished work to outside buyers without exposing sacred ritual content to viewers who lacked the ceremonial authority to view it, Aboriginal people from unrelated groups included. Dots applied over or around altered symbols obscured restricted content while still producing a finished, saleable painting.",
+      "Painted in 1971 and reworked twice more over the next couple of years, the mural was removed entirely in 1974 when maintenance crews acted on government orders. Judith Ryan, who later wrote the introduction to Geoffrey Bardon's 1991 book about the movement, branded the erasure there as cultural vandalism, the same phrase she used elsewhere in that essay.",
+      "The name was suggested by Charlie Tarawa, known also as Tjaruru, a Pintupi painter, at a gathering of artists at Charley Creek in June 1972; it points to two hills near Papunya recognized as a shared meeting site for people whose family lines converge there. The company that grew out of that gathering became official on the 16th of November, 1972."
+    ],
+    "all_faq_retained": true,
+    "link_multiset_preserved": true
+  }
+}

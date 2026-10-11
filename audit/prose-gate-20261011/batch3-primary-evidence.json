@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "mandala-art",
+    "source": "Christian Luczanits, Earliest Mandalas (2008), SOAS institutional repository",
+    "url": "https://eprints.soas.ac.uk/19524/1/Luczanits%202008%20Earliest%20Mandalas.pdf",
+    "read_status": "Indexed primary original paragraph and footnote4 read; direct PDF web502 and boundedcurl TLSfailed; not claimed entirePDF",
+    "finding": "pre11/12 TibetIndia paintedobjects lacking; Dunhuang drawings andJapanGarbhaVajradhatu; earliestTakao824. Narrowed source to examples and removed globalfirst, RigVeda composition dates cannotdatefirstlabel."
+  },
+  {
+    "slug": "mandala-art",
+    "source": "The Mandala in Tibet exhibition catalogue text Rossi and Rossi",
+    "url": "https://www.asianart.com/mandalas/tibet.html",
+    "read_status": "entire17lines read",
+    "finding": "8–10Dunhuangsketches;11/12Tibetcloth;Tabomuralsmid11; correctFAQ centuries."
+  },
+  {
+    "slug": "mandala-art",
+    "source": "Vedic Heritage Portal, Ministry of Culture",
+    "url": "https://vedicheritage.gov.in/samhitas/rigveda/shakala-samhita/mandal-01/",
+    "read_status": "Indexed officialcurrentMandala01 heading read",
+    "finding": "Confirms textualdivisionlabel only; no evidenceforwordfirst1500."
+  },
+  {
+    "slug": "aboriginal-art",
+    "source": "John Kean, NGV, Johnny Warangula: Painting in a changing landscape",
+    "url": "https://www.ngv.vic.gov.au/essay/johnny-warangula-tjupurrula-painting-in-a-changing-landscape/",
+    "read_status": "articlelines45–110 andcomplete relevant1971/1972paras63–68 plus1973–75footnote read",
+    "finding": "1971white dottedinfill;1972layerdots. Narrow1973–75camouflage development vs firstdot/after1974."
+  },
+  {
+    "slug": "fallen-angel-painting",
+    "source": "MuseeFabre official collection",
+    "url": "https://www.museefabre.fr/lange-dechu",
+    "read_status": "indexedofficialobjectfields andobligatoryenvois/topic paragraphs read",
+    "finding": "121x189.7;envoisobligatory yettopicchosen. Correctheight0.5width6.8."
+  },
+  {
+    "slug": "the-broken-column",
+    "source": "Courtney et al PTJ2017 original research",
+    "url": "https://academic.oup.com/ptj/article/97/1/90/2896952",
+    "read_status": "indexedoriginalabstract andp93 excerpt read; directarticle/PDFblocked. Not claimedfullpaper",
+    "finding": "Painting1944+corset andchronicpainnarrative. Existing1944/1946claims confirmedonlytargetactualfulltext; no newlyinventedclinicalclaim."
+  }
+]

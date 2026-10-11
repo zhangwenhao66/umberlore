@@ -1,0 +1,164 @@
+{
+  "abstract-art-first-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/abstract-art-first-painting.umber-b3-target-full.txt",
+    "length": 14942,
+    "FAQ": 6,
+    "source_file_sha": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "body_all_FAQ_read": true,
+    "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+  },
+  "andy-warhol": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha": "20fffd1e0e006315492ea92c7f3f6f19612320b98a947a096607e0519dbd0d13",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/andy-warhol.umber-b3-target-full.txt",
+    "length": 14412,
+    "FAQ": 6,
+    "source_file_sha": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "body_all_FAQ_read": true,
+    "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+  },
+  "aztec-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "article_sha": "727dd16f20427a2975d567157ef289982aef9c347bfab2feeafb3629b1ec9d47",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/aztec-art.umber-b3-target-full.txt",
+    "length": 15549,
+    "FAQ": 5,
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "body_all_FAQ_read": true,
+    "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+  },
+  "diego-rivera": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "article_sha": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/diego-rivera.umber-b3-target-full.txt",
+    "length": 18840,
+    "FAQ": 8,
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "body_all_FAQ_read": true,
+    "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+  },
+  "mandala-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "article_sha": "f9a5b08d9292cb8cfe87785d51624b13c9599fd9abfa1901e3f0258a262413f1",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/mandala-art.umber-b3-target-full.txt",
+    "length": 14877,
+    "FAQ": 5,
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "body_all_FAQ_read": true,
+    "coverage": "Complete initial source body+all FAQ read; all final changes and rewritten FAQ reviewed against initial article span",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "source_article_sha": "f9a5b08d9292cb8cfe87785d51624b13c9599fd9abfa1901e3f0258a262413f1",
+    "full_initial_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/mandala-art.umber-b3-full.txt",
+    "source_body_all_FAQ_read": true
+  },
+  "mayan-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "article_sha": "46e3b27b87765f6398df73790e45182e119783790b86f8d7d3c1d366ee9e95f6",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/mayan-art.umber-b3-target-full.txt",
+    "length": 13209,
+    "FAQ": 4,
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "body_all_FAQ_read": true,
+    "coverage": "Complete initial source body+all FAQ read; all final changes and rewritten FAQ reviewed against initial article span",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "source_article_sha": "46e3b27b87765f6398df73790e45182e119783790b86f8d7d3c1d366ee9e95f6",
+    "full_initial_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/mayan-art.umber-b3-full.txt",
+    "source_body_all_FAQ_read": true
+  },
+  "ophelia-millais": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha": "b3c34cb3092460373fbd5db9239bffb6e89c084d5498db493b4d55b7ec6de6cf",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/ophelia-millais.umber-b3-target-full.txt",
+    "length": 15358,
+    "FAQ": 5,
+    "source_file_sha": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "body_all_FAQ_read": true,
+    "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+  },
+  "pop-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/src/data/guides.ts",
+    "article_sha": "df7e52f5f598626b2e2e00e565147352a611cddac54588a80aa643d85c9ffc4b",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/pop-art.umber-b3-target-full.txt",
+    "length": 18681,
+    "FAQ": 9,
+    "source_file_sha": "ff0cb6352bcaffc023b27d11e13860d32c111de494e1d90f5af9478eab191c88",
+    "body_all_FAQ_read": true,
+    "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+  },
+  "saturn-devouring-his-son": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha": "5ce090c703b9ae3a4fad7f465757255815aa8f8dd0a739e1535abc26a113c9d1",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/saturn-devouring-his-son.umber-b3-target-full.txt",
+    "length": 19984,
+    "FAQ": 9,
+    "source_file_sha": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+    "body_all_FAQ_read": true,
+    "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+  },
+  "the-broken-column": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "article_sha": "15043d8334c796d8eacd77d1266b04ee2c9363dec49209a88844dd9f0130550f",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/the-broken-column.umber-b3-target-full.txt",
+    "length": 12384,
+    "FAQ": 4,
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "body_all_FAQ_read": true,
+    "coverage": "Complete initial source body+all FAQ read; all final changes and rewritten FAQ reviewed against initial article span",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "source_article_sha": "15043d8334c796d8eacd77d1266b04ee2c9363dec49209a88844dd9f0130550f",
+    "full_initial_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/the-broken-column.umber-b3-full.txt",
+    "source_body_all_FAQ_read": true
+  },
+  "the-death-of-socrates": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "article_sha": "0913b835d728308896041801b45b3054e60247f7e41ab066be63ed214f446fbc",
+    "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/the-death-of-socrates.umber-b3-target-full.txt",
+    "length": 14953,
+    "FAQ": 5,
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "body_all_FAQ_read": true,
+    "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+  },
+  "michelangelo-sistine-chapel": {
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "source_article_sha": "7fc5fd952b706ed226cd51382466fe0bbb365898554e18cda19901efdab02c41",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "full_initial_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/michelangelo-sistine-chapel.umber-b3-full.txt",
+    "source_body_all_FAQ_read": true,
+    "coverage": "Complete initial source body+all FAQ read; all final changes and rewritten FAQ reviewed against initial article span"
+  },
+  "fallen-angel-painting": {
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "source_article_sha": "ad93bc309b8842591d42f42d85eb64489dd39197ad9589fcdb24a632e91a6827",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "full_initial_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/fallen-angel-painting.umber-b3-full.txt",
+    "source_body_all_FAQ_read": true,
+    "coverage": "Complete initial source body+all FAQ read; all final changes and rewritten FAQ reviewed against initial article span"
+  },
+  "whistler-ruskin-trial": {
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "source_article_sha": "fe4801644273f52ad59a1cd84eb618d8e862473ac9415ec4db0e5e2938570897",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "full_initial_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/whistler-ruskin-trial.umber-b3-full.txt",
+    "source_body_all_FAQ_read": true,
+    "coverage": "Complete initial source body+all FAQ read; all final changes and rewritten FAQ reviewed against initial article span"
+  },
+  "psychedelic-art": {
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "source_article_sha": "ae4529d5b4c2bf32366e1da1cd9459d1535d6011c8b74c5ecf01f9c9e441e9b0",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "full_initial_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/psychedelic-art.umber-b3-full.txt",
+    "source_body_all_FAQ_read": true,
+    "coverage": "Complete initial source body+all FAQ read; all final changes and rewritten FAQ reviewed against initial article span"
+  },
+  "aboriginal-art": {
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "source_article_sha": "103e9b405e1ca2894db74ad4d83869c16cf0084a4b5e6668fb2bb34f034174aa",
+    "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+    "full_initial_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/aboriginal-art.umber-b3-full.txt",
+    "source_body_all_FAQ_read": true,
+    "coverage": "Complete initial source body+all FAQ read; all final changes and rewritten FAQ reviewed against initial article span"
+  }
+}
