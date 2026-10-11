@@ -1,0 +1,106 @@
+{
+  "architectural-painting": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "b126216d892210ec58f3481a0b8ffd873b19fbfdd128c70389cdf44b5ff02c75",
+    "FAQ_count": 5,
+    "quote": "Hans Vredeman de Vries, generally credited with founding architectural painting as an independent genre in the 1560s, illustrated the technique with invented cities, not real ones.",
+    "reason": "原全体architectural painters观察实物断言与目标Vredeman虚构城市相反，现仅对比Saenredam等既有实例。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "art-styles": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "62c51b8e08f56bcbc9ae5e9c7c0b61652efe8579751f4176482f4f7120ee25c2",
+    "FAQ_count": 6,
+    "quote": "Vasari attributed the style's invention to the Goths, the barbarian peoples he blamed for destroying Rome's classical buildings after conquering the city.",
+    "reason": "目标Vasari错误Goths归因与十二世纪SaintDenis时间支持这一个类比，不推所有movement都由同过程。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "artist-peak-creation-age": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "b6194e3c3a2911126ad5da2c6fcdb6994b964f1ec3a15b5dc09a5bb9d63d11f1",
+    "FAQ_count": 4,
+    "quote": "Johannes Vermeer  Girl with a Pearl Earring  1667*  35  8",
+    "reason": "目标1667*表格年龄35采用区间上端，源只叙数据行约定，不把1667当museum精确创作年。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "cloisonne": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "0ce1549b409c4da38026a87dacb984425801e10e0bb55848e98811e17f951f01",
+    "FAQ_count": 5,
+    "quote": "it now carries more than eighty Byzantine cloisonné enamels dating from the tenth to the late twelfth century",
+    "reason": "原same fused-gold和976完成连续展示无证；保留80多件enamel身份，独立SanMarco官源解释多期改造，不归目标未有口径。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "elements-of-art": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "c3c5fed73946a944add17037068c271d1bba934d32523c131d4e4e78498b89e6",
+    "FAQ_count": 7,
+    "quote": "the earliest copy of it held by the Internet Archive is a 1968 printing",
+    "reason": "限定 Internet Archive 所持最早复制本，不将该 archive 年份当全球首创；目标标题/summary过度首创另批事实修。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "fallen-angel-painting": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "sha256": "ad93bc309b8842591d42f42d85eb64489dd39197ad9589fcdb24a632e91a6827",
+    "FAQ_count": 7,
+    "quote": "Cabanel won the second Grand Prix de Rome in 1845",
+    "reason": "目标确1845第二Rome奖，源Cabanel身份及年份皆吻合，不把1847作品创作年变1845。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "famous-portraits": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+    "FAQ_count": 7,
+    "quote": "whose slipped shoulder strap drew enough outrage at the 1884 Paris Salon",
+    "reason": "Joan只比MadameX hostile reception1884以及Met1916，不同失礼原因；Simonetta链接三个明确条目cross/reception/fatherdaughter，不泛称都单一人物身份纠错。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "ghost-of-a-flea": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "sha256": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+    "FAQ_count": 5,
+    "quote": "the single finished painting to come out of roughly ninety pencil sketches Blake produced during nightly sessions at the house of the astrologer John Varley",
+    "reason": "Martin连接目标90草图中唯一成画，不说信仰相同；Lovers新句明确Keynes与Raine不同解释，不把Keynes推断当Blake亲口事实。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "gustav-klimt": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "FAQ_count": 11,
+    "quote": "The 2004 US Supreme Court ruling in that case decided only that Austria could be sued in an American court; it did not decide who owned the paintings.",
+    "reason": "原comparably tangled误合Schiele刑案和财产案；现分开jurisdiction2004与arbitration2006；不写最高法院判归属。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "pandemonium-painting": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "sha256": "e23f79e762f502e0cf34b10359e5ca3a161355feee41d5fb814c4b56d3dd4685",
+    "FAQ_count": 6,
+    "quote": "Martin had already designed the same rising-palace composition twice before as prints, once in 1824 and again as a larger single engraving in 1831",
+    "reason": "目标明确1824/1831版画与1841油画；Lovers另链151年家族保留目标ownership段，非两画相同来源。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "romanesque-painting": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+    "FAQ_count": 4,
+    "quote": "heavily shaped by Byzantine models filtered through Italy: flat, frontal figures, geometric drapery",
+    "reason": "目标core明确Italy转入、flat/frontal/geometric和Taull；新桥只这些形式，不推所有人物或唯一路径。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "the-arnolfini-portrait": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "bcefd067ce6b97414352066d243252194d651d0350d4caa185791d3d9c3570da",
+    "FAQ_count": 6,
+    "quote": "That dates the Cenami marriage to 1447, six years after van Eyck's death and thirteen years after the panel was signed.",
+    "reason": "1447婚期晚于vanEyck1441死，源已限定曾用diArrigo夫妻身份，非否定所有候选夫妻或证明currentwife姓名。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  },
+  "the-lovers-painting": {
+    "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sha256": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1",
+    "FAQ_count": 7,
+    "quote": "Later biographical research disputes that eyewitness account.",
+    "reason": "Simonetta生平不确定不能称虚构与Magritte同来源；新句只疑问biographical reading，目标争议eyewitness细节支持。",
+    "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+  }
+}

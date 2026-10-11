@@ -1,0 +1,395 @@
+{
+  "pattern-in-art": {
+    "source_sha256": "467eccf10ee3940037c97ea7a6588849e71a4f4296d87475f24e0ff87ac7dc3a",
+    "before_faq": [
+      "No. The standard seven-item list, texture, color, value, space, form, shape, and line, comes from a different framework, one traced in a separate article on this site. Pattern instead sits in a different Getty-defined bucket, design principles, which also covers unity, rhythm, balance, variety, emphasis, proportion, and movement.",
+      "That is disputed. Working with Paul Steinhardt, Peter Lu argued the 1453 spandrel displays a quasicrystal-like structure, in a paper Science published in 2007, predating Roger Penrose's tiling mathematics by roughly 500 years. Emil Makovicky, a mineralogist based in Denmark, published a rebuttal that same year, arguing the pattern is periodic, not quasicrystalline, and that its unusual features were borrowed from an older tiling at Maragha. Neither side's position has been retracted.",
+      "A funerary krater attributed to the workshop of an Athens vase painter modern scholars call Hirschfeld, made in roughly the third quarter of the eighth century BCE and standing just over a meter tall. It carries a second name, the Dipylon Krater, taken from the burial ground gate excavators found it beside, and its current home is the Met's collection in New York, where mourners process beside the deceased under bands of meander ornament.",
+      "A textile dyeing method that works backward from ordinary printing. An entire piece of cloth is dyed a uniform dark blue first, and a bleaching agent is then block-printed onto it wherever the design calls for a lighter shade, taking color away where normal printing would lay it down. William Morris needed six years, from 1875 to 1881, to make the process reliable enough to use.",
+      "Thrushes kept raiding the fruit beds at Kelmscott Manor, his home in Oxfordshire, and he turned the problem into a repeating textile design rather than fencing the garden off. The V&A registered his finished pattern on 11 May 1883.",
+      "Earlier scholarship sometimes dismissed the era's busy repeated ornament as under-developed compared to the more naturalistic figure painting that followed it, a framing the two classicists who documented this period say understates how much organizational work the era's pattern was actually doing."
+    ],
+    "after_faq": [
+      "No. The standard seven-item list, texture, color, value, space, form, shape, and line, comes from a different framework, one traced in a separate article on this site. Pattern instead sits in a different Getty-defined bucket, design principles, which also covers unity, rhythm, balance, variety, emphasis, proportion, and movement.",
+      "That is disputed. Working with Paul Steinhardt, Peter Lu argued the 1453 spandrel displays a quasicrystal-like structure, in a paper Science published in 2007, predating Roger Penrose's tiling mathematics by roughly 500 years. Emil Makovicky, a mineralogist based in Denmark, published a rebuttal that same year, arguing the pattern is periodic, not quasicrystalline, and that its unusual features were borrowed from an older tiling at Maragha. Neither side's position has been retracted.",
+      "The Dipylon Krater is a terracotta monument held by the Met, made around 750–735 BCE by the workshop associated with Hirschfeld. Its height is 108.3 cm. Above, mourners surround a body on a bier in a prothesis scene. Chariots and infantry occupy a separate lower register.",
+      "A textile dyeing method that works backward from ordinary printing. An entire piece of cloth is dyed a uniform dark blue first, and a bleaching agent is then block-printed onto it wherever the design calls for a lighter shade, taking color away where normal printing would lay it down. William Morris needed six years, from 1875 to 1881, to make the process reliable enough to use.",
+      "Thrushes raiding the fruit at Kelmscott Manor, where Morris lived in Oxfordshire, supplied the subject. Registration at the Patents Office took place in May of 1883. The V&A preserves the fabric and explains how it was made; registration was Morris's action.",
+      "Earlier scholarship sometimes dismissed the era's busy repeated ornament as under-developed compared to the more naturalistic figure painting that followed it, a framing the two classicists who documented this period say understates how much organizational work the era's pattern was actually doing."
+    ],
+    "all_source_body_and_faq_read": true,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Ask someone to name [what art is built from](/elements-of-art/) and they will usually reach for the same seven words that the elements-of-art guide on this site finds in a 1968 printing of a studio-art textbook, the earliest copy it could document: line, shape, form, space, value, color, texture.",
+        "anchor": "what art is built from",
+        "target_slug": "elements-of-art"
+      }
+    ],
+    "new_notes_count": 1,
+    "facts": "See full diff and B5 primary records; corrected inherited assertions discovered while checking bridge scope. All original questions retained."
+  },
+  "john-martin-paintings": {
+    "source_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea",
+    "before_faq": [
+      "Crowds showed up at the London gallery in numbers the venue hadn't planned for, forcing staff to add a barrier around the canvas. That same show handed the picture its £200 first prize, instant recognition for a painter who'd struggled for most of a decade.",
+      "No. The judge hearing Martin's 1833 injunction request found that the statute covering his prints said nothing about staging an unlicensed public exhibition, only about selling unauthorized copies. A rival diorama in New York followed two years afterward, apparently unchallenged.",
+      "Tate's own estimate puts the audience for that posthumous tour close to eight million, reaching venues in Scotland, Ireland, the United States, and eventually Australia in the two decades after his 1854 death.",
+      "The nickname belongs to his brother. Jonathan Martin, a preacher, torched the cathedral at York in early 1829, and an insanity plea kept him off the gallows after the criminal trial that followed. John funded that defense. Historians and casual readers alike sometimes apply the nickname to the wrong sibling.",
+      "The Academy judged his final three-painting series to be vulgar, even though the same canvases kept drawing paying crowds when they toured English cities after his 1854 death. Tate didn't acquire one of the three until 1945; the remaining pair arrived only via a 1974 bequest."
+    ],
+    "after_faq": [
+      "Crowds showed up at the London gallery in numbers the venue hadn't planned for, forcing staff to add a barrier around the canvas. That same show handed the picture its £200 first prize, instant recognition for a painter who'd struggled for most of a decade.",
+      "No. The judge hearing Martin's 1833 injunction request found that the statute covering his prints said nothing about staging an unlicensed public exhibition, only about selling unauthorized copies. A rival diorama in New York followed two years afterward, apparently unchallenged.",
+      "Tate's own estimate puts the audience for that posthumous tour close to eight million, reaching venues in Scotland, Ireland, the United States, and eventually Australia in the two decades after his 1854 death.",
+      "The nickname belongs to his brother. Jonathan Martin, a preacher, torched the cathedral at York in early 1829, and an insanity plea kept him off the gallows after the criminal trial that followed. John funded that defense. Historians and casual readers alike sometimes apply the nickname to the wrong sibling.",
+      "The Academy judged his final three-painting series to be vulgar, even though the same canvases kept drawing paying crowds when they toured English cities after his 1854 death. Tate didn't acquire one of the three until 1945; the remaining pair arrived only via a 1974 bequest."
+    ],
+    "all_source_body_and_faq_read": true,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Martin's other Louvre-connected painting, [Pandemonium](/pandemonium-painting/), came out of that same Paradise Lost project: he engraved the composition twice, in 1824 and 1831, before finally painting it in oil in 1841.",
+        "anchor": "Pandemonium",
+        "target_slug": "pandemonium-painting"
+      },
+      {
+        "source": "body",
+        "sentence": "Martin, he wrote, \\\"has attempted this Denner-like portraiture of sea-foam with the assistance of an acre of canvas, with what success, I believe the critics of his last year's Canute had, for once, sense enough to decide.\\\" He wasn't the only Romantic-era painter working from private vision rather than direct observation; William Blake did something similar on a far smaller scale, finishing a single tempera panel, [The Ghost of a Flea](/ghost-of-a-flea/), out of roughly ninety sketches drawn during nightly sessions at John Varley's house.",
+        "anchor": "The Ghost of a Flea",
+        "target_slug": "ghost-of-a-flea"
+      }
+    ],
+    "new_notes_count": 2,
+    "facts": "See full diff and B5 primary records; corrected inherited assertions discovered while checking bridge scope. All original questions retained."
+  },
+  "schiele-neulengbach-trial": {
+    "source_sha256": "e971bb0316a64c17b7655cb68e860c2731c42b48527f6dc135a3f143be9b86c5",
+    "before_faq": [
+      "A single charge: showing an obscene sketch where children in his studio could see it. Two other accusations, abduction and statutory rape, tied to a runaway 13-year-old girl, were both thrown out earlier in the process.",
+      "A 13-year-old named Tatjana von Mossig whose father had retired from the navy and settled the family in Neulengbach. She had wanted help reaching relatives in Vienna, backed out once she got there, and made the return trip a day later.",
+      "Twenty-four days in all: three weeks awaiting trial, plus a further three-day sentence handed down once the public-immorality count alone stuck.",
+      "He set it alight with a candle in open court. Officers had taken more than a hundred drawings from Schiele's studio when they made the arrest, and this was one of them.",
+      "Three watercolors of his jail cell, each dated to a different day in April 1912. One shows an orange smuggled to him through the window; another shows the door that a researcher, Alessandra Comini, later used to pinpoint the exact room decades afterward."
+    ],
+    "after_faq": [
+      "A single charge: showing an obscene sketch where children in his studio could see it. Two other accusations, abduction and statutory rape, tied to a runaway 13-year-old girl, were both thrown out earlier in the process.",
+      "A 13-year-old named Tatjana von Mossig whose father had retired from the navy and settled the family in Neulengbach. She had wanted help reaching relatives in Vienna, backed out once she got there, and made the return trip a day later.",
+      "Twenty-four days in all: three weeks awaiting trial, plus a further three-day sentence handed down once the public-immorality count alone stuck.",
+      "The reported account describes the judge burning a sheet with a candle during the hearing. It belonged to a seizure of over one hundred works on paper made at the artist's studio following his arrest.",
+      "Three watercolors of his jail cell, each dated to a different day in April 1912. One shows an orange smuggled to him through the window; another shows the door that a researcher, Alessandra Comini, later used to pinpoint the exact room decades afterward."
+    ],
+    "all_source_body_and_faq_read": true,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Schiele's mentor, Gustav Klimt, had died nearly nine months earlier that same year; [the Klimt guide follows a separate legal history: a Nazi-era restitution dispute, a 2004 US Supreme Court ruling on jurisdiction, and a 2006 Austrian arbitration award](/gustav-klimt/).",
+        "anchor": "the Klimt guide follows a separate legal history: a Nazi-era restitution dispute, a 2004 US Supreme Court ruling on jurisdiction, and a 2006 Austrian arbitration award",
+        "target_slug": "gustav-klimt"
+      }
+    ],
+    "new_notes_count": 1,
+    "facts": "See full diff and B5 primary records; corrected inherited assertions discovered while checking bridge scope. All original questions retained."
+  },
+  "the-milkmaid-vermeer": {
+    "source_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+    "before_faq": [
+      "No one can say for certain, since the canvas is unsigned and undated. Specialists writing decades apart have proposed different windows within the late 1650s to early 1660s, and even the Rijksmuseum's paperwork isn't internally consistent: a 2022 press release from the museum dated the picture to 1657-58, while its current online object listing instead gives \\\"c. 1660.\\\" Treat any single year quoted elsewhere as one scholar's estimate rather than a settled fact.",
+      "175 guilders, at the Amsterdam sale of the estate of Jacob Dissius, son-in-law of Vermeer's Delft patron Pieter van Ruijven. Among the Vermeer paintings sold off in that single auction, that price ranked second; only View of Delft went for more, at 200 guilders. Sale descriptions from that era rarely bothered with praise at all, which makes the auction catalogue's positive words about this picture stand out.",
+      "Two objects Vermeer had sketched in and then covered over: a wooden holder built for hanging jugs, and a woven basket used to hold warming coals, both matching furnishings listed in his household estate at his death. Underneath those, the scans also picked up a rough, fast underlayer near the maid's raised forearm, suggesting Vermeer blocked in the whole composition quickly rather than building it up with the slow precision usually credited to him. The imaging equipment behind all three findings had first been built for a separate project, restoring a Rembrandt painting in the same building.",
+      "In Amsterdam, inside the Rijksmuseum, catalogued as SK-A-2344 since 1908. Getting there took more than two centuries: a sale out of the original patron's family holdings in 1696, another public sale in 1719, five or more further changes of private ownership, and then eighty-six years inside one family, the Six collectors, starting in 1822. The purchase, bundled with thirty-eight other works from that family's holdings, came together only after lawmakers and a private arts society stepped in to keep the picture from leaving the country.",
+      "Published opinion splits on exactly this question, and neither camp has won. One line of interpretation, associated with a Met curator and an independent art historian, points to period-specific symbols on the canvas, a Cupid tile, a foot warmer, that Dutch viewers of the 1650s would likely have read as suggestive. A rival reading treats the same maid's plain dress and steady focus as a study in domestic virtue, presenting her housework as admirable rather than undercutting it with innuendo. Both interpretations are argued from the same handful of details, which is exactly why the debate has not resolved.",
+      "Young Woman Seated at a Virginal, which sold for £16.2 million, about $30 million, at Sotheby's London in 2004, the first Vermeer to reach auction in roughly 80 years. Scholars had doubted the attribution for decades before a decade of forensic study persuaded most of them it was genuine. The Milkmaid itself has never gone to auction since it entered the museum's holdings in 1908; national museums rarely sell paintings already in their permanent collection.",
+      "There's no current public appraisal, because the painting has never gone to auction since the Rijksmuseum acquired it in 1908, and national museums don't typically sell works already in their permanent collections. The closest available benchmark is a different Vermeer, Young Woman Seated at a Virginal, which sold for about $30 million at Sotheby's London in 2004; The Milkmaid, better known and more securely attributed, would likely draw a higher price if it were ever sold, but that figure would be speculation rather than a documented sale.",
+      "A crisp white linen cap, the standard headwear for a Dutch domestic servant of the period, not a basket or jug as some retellings assume. The jug she's pouring milk from, and the bread on the table in front of her, are held in her hands, not balanced on her head."
+    ],
+    "after_faq": [
+      "The canvas bears no date. Published estimates range across the later 1650s and the beginning of the 1660s: the museum's collection page currently gives about 1660, while its 2022 research announcement uses 1657–58. These are proposed dates, not a year written on the picture.",
+      "175 guilders, at the Amsterdam sale of the estate of Jacob Dissius, son-in-law of Vermeer's Delft patron Pieter van Ruijven. Among the Vermeer paintings sold off in that single auction, that price ranked second; only View of Delft went for more, at 200 guilders. Sale descriptions from that era rarely bothered with praise at all, which makes the auction catalogue's positive words about this picture stand out.",
+      "A September 2022 announcement described an abandoned holder for jugs on the wall, broad dark preparatory paint under the arm, and a new reading of an already known basket. The latter could have held a dish of live coals to warm a newborn or dry its nappies. Researchers used macro-XRF together with scans of reflected light; the same methods had served the Rijksmuseum's Night Watch project.",
+      "In Amsterdam, inside the Rijksmuseum, catalogued as SK-A-2344 since 1908. Getting there took more than two centuries: a sale out of the original patron's family holdings in 1696, another public sale in 1719, five or more further changes of private ownership, and then eighty-six years inside one family, the Six collectors, starting in 1822. The purchase, bundled with thirty-eight other works from that family's holdings, came together only after lawmakers and a private arts society stepped in to keep the picture from leaving the country.",
+      "Published opinion splits on exactly this question, and neither camp has won. One line of interpretation, associated with a Met curator and an independent art historian, points to period-specific symbols on the canvas, a Cupid tile, a foot warmer, that Dutch viewers of the 1650s would likely have read as suggestive. A rival reading treats the same maid's plain dress and steady focus as a study in domestic virtue, presenting her housework as admirable rather than undercutting it with innuendo. Both interpretations are argued from the same handful of details, which is exactly why the debate has not resolved.",
+      "Young Woman Seated at a Virginal, which sold for £16.2 million, about $30 million, at Sotheby's London in 2004, the first Vermeer to reach auction in roughly 80 years. Scholars had doubted the attribution for decades before a decade of forensic study persuaded most of them it was genuine. The Milkmaid itself has never gone to auction since it entered the museum's holdings in 1908; national museums rarely sell paintings already in their permanent collection.",
+      "No current public valuation is available. The Rijksmuseum has held the painting since 1908, so there is no recent sale price for it. The roughly $30 million paid for Young Woman Seated at a Virginal in 2004 concerns a different work and cannot establish a price for this one.",
+      "She wears a white linen cap. Her hands support the jug as she pours; the bread rests on the table. Neither the vessel nor the loaf is balanced on her head."
+    ],
+    "all_source_body_and_faq_read": true,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "current_candidates": [],
+    "new_notes_count": 0,
+    "facts": "See full diff and B5 primary records; corrected inherited assertions discovered while checking bridge scope. All original questions retained."
+  },
+  "byzantine-mosaics": {
+    "source_sha256": "cdce7dea6711543e43246010e68fd205a2f5af60766553d5cefafda342e2d019",
+    "before_faq": [
+      "A Lombard conquest in 751 cut Ravenna loose from Byzantine political control, a good six decades ahead of the longer, more damaging round of image-smashing the empire went through between 815 and 843. Ravenna's own San Vitale church, finished back in 547, kept its gold-ground saints and courtiers from that century largely intact as a result, while the sixth-century gold ground Justinian had commissioned for the capital's own cathedral did not make it through the iconoclastic campaigns at all.",
+      "A large apse mosaic of Mary seated on a throne with the infant Christ, unveiled around 867, roughly 330 years past the church's original 537 consecration. Patriarch Photius marked the occasion with a sermon on 29 March 867, delivered before the two ruling co-emperors of the day. The sixth-century decoration Justinian had originally commissioned, once spread across the vaults and arches throughout the interior, left no known trace behind by that point.",
+      "Craftsmen sandwiched beaten gold leaf between two layers of glass, then set the resulting cubes into wet plaster leaning away from the wall's own flat surface, angled toward the floor below. Archaeologist Emerson Swift traced that deliberate lean back in 1934, finding it let each cube throw lamplight and daylight back at a slightly different angle from its neighbors on a curved vault, which is why a viewer walking past the same wall would see the gold surface flicker and change rather than sit still.",
+      "Yes, but only on a rotating schedule. After Hagia Sophia's 2020 switch back to an active mosque, international news coverage, Al Jazeera among the outlets reporting it, described a plan to hide the figural Christian images, particularly those facing worshippers, behind drawn curtains or a light projection for the length of each prayer session, then open them back up to view once the service ends.",
+      "The recorded price was 26,000 solidi, gold coins Julius Argentarius put up as the project's financier. A kilogram figure for that sum is contested rather than settled: one widely cited source lands on 16.38 kilograms of gold, while multiplying the coin count by the era's typical per-coin weight instead points to something in the neighborhood of 116 kilograms. Bishop Ecclesius broke ground in 526, while the Ostrogoths still held the city; a later bishop, Maximian, finally saw the project finished in the year 547, once Justinian I's forces had retaken Ravenna for Byzantium.",
+      "Byzantine mosaics grew directly out of earlier Hellenistic and Roman techniques, but Byzantine craftsmen shifted both the medium's purpose and its materials. Roman mosaics were mostly floor decoration made from small stone tesserae, often geometric patterns or genre scenes for private houses. Byzantine artisans moved the art onto church walls and vaults, switching to glass tesserae, frequently backed with gold leaf for a shimmering gold ground, and used it for large-scale religious imagery, icons, and biblical scenes rather than decorative flooring."
+    ],
+    "after_faq": [
+      "Aistulf's conquest removed Ravenna from imperial government in 751, ahead of the second anti-image campaign, which lasted from 815 until 843. Saints and courtiers made for San Vitale during the sixth century remain there. Political separation provides context for their survival, without proving a sole cause. Constantinople's cathedral initially used mainly crosses and abstract decoration; claims that iconoclasts eliminated a complete early scheme of sacred figures go beyond the evidence.",
+      "Mary enthroned with the infant Jesus fills the apse. A homily by Photius celebrates the unveiling on 29 March 867, approximately three centuries and three decades after the 537 consecration. That dates this major representation of a person, without implying the loss of all older gold decoration or demonstrating that another Marian image previously occupied the same spot.",
+      "Craftsmen sandwiched beaten gold leaf between two layers of glass, then set the resulting cubes into wet plaster leaning away from the wall's own flat surface, angled toward the floor below. Archaeologist Emerson Swift traced that deliberate lean back in 1934, finding it let each cube throw lamplight and daylight back at a slightly different angle from its neighbors on a curved vault, which is why a viewer walking past the same wall would see the gold surface flicker and change rather than sit still.",
+      "A visitor route to the upper gallery opened in January 2024, with Byzantine images among the sights identified by Turkey's culture ministry. That official announcement separates the tourist route from worshippers' access. Check the current arrangements for a planned visit; older reports of temporary prayer-time coverings do not give a reliable timetable for every image.",
+      "Julius Argentarius reportedly supplied 26,000 gold solidi. With an approximate coin mass of 4.45 grams, the total is about 115.7 kg. The frequently quoted 16.38 kilograms fails that calculation. Ecclesius began the project in 526, when the Ostrogoths governed Ravenna; once Byzantine forces retook the city, the building was finished under Maximian in 547.",
+      "Byzantine mosaics grew directly out of earlier Hellenistic and Roman techniques, but Byzantine craftsmen shifted both the medium's purpose and its materials. Roman mosaics were mostly floor decoration made from small stone tesserae, often geometric patterns or genre scenes for private houses. Byzantine artisans moved the art onto church walls and vaults, switching to glass tesserae, frequently backed with gold leaf for a shimmering gold ground, and used it for large-scale religious imagery, icons, and biblical scenes rather than decorative flooring."
+    ],
+    "all_source_body_and_faq_read": true,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Vasari's habit of pinning a whole style's flaws on an outside group was not limited to painting: [he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen](/art-styles/).",
+        "anchor": "he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen",
+        "target_slug": "art-styles"
+      }
+    ],
+    "new_notes_count": 1,
+    "facts": "See full diff and B5 primary records; corrected inherited assertions discovered while checking bridge scope. All original questions retained.",
+    "all_faq_retained": true,
+    "link_multiset_preserved": true
+  },
+  "joan-of-arc-painting": {
+    "source_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e",
+    "before_faq": [
+      "A family member sat for it: his cousin Marie-Adèle Robert posed as Joan mid-gesture in her parents' plot of vegetables and flowers, one of several canvases she modeled for him.",
+      "In New York, logged as object 89.21.1 in a museum built partly on gifts like Erwin Davis's, the businessman who bought the canvas once Salon interest cooled and passed it along a decade later.",
+      "Because reviewer Huysmans felt the three ghostly saints betrayed the plain, documentary approach to peasant life that had built this particular painter's reputation. Most other Salon reviewers had no complaint about Joan herself, only about what hovered behind her.",
+      "No, a separate work entirely: Ingres finished his coronation scene of Joan in 1854, decades earlier, and it now hangs in the Louvre rather than New York. He built the figure by drawing a bare model in the studio first, not by visiting her home village.",
+      "Yes, he went to Domrémy in person, close to Damvillers where he himself grew up. A sculptor had made a similar pilgrimage a few years earlier: Emmanuel Frémiet cast a Domrémy native as the face of his 1874 equestrian statue of Joan in Paris."
+    ],
+    "after_faq": [
+      "A family member sat for it: his cousin Marie-Adèle Robert posed as Joan mid-gesture in her parents' plot of vegetables and flowers, one of several canvases she modeled for him.",
+      "In New York, logged as object 89.21.1 in a museum built partly on gifts like Erwin Davis's, the businessman who bought the canvas once Salon interest cooled and passed it along a decade later.",
+      "Because reviewer Huysmans felt the three ghostly saints betrayed the plain, documentary approach to peasant life that had built this particular painter's reputation. Most other Salon reviewers had no complaint about Joan herself, only about what hovered behind her.",
+      "No, a separate work entirely: Ingres finished his coronation scene of Joan in 1854, decades earlier, and it now hangs in the Louvre rather than New York. He built the figure by drawing a bare model in the studio first, not by visiting her home village.",
+      "Yes, he went to Domrémy in person, close to Damvillers where he himself grew up. A sculptor had made a similar pilgrimage a few years earlier: Emmanuel Frémiet cast a Domrémy native as the face of his 1874 equestrian statue of Joan in Paris."
+    ],
+    "all_source_body_and_faq_read": true,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Jules Bastien-Lepage, trained at the École des Beaux-Arts in Paris, the school that ran the Grand Prix de Rome, where [Alexandre Cabanel](/fallen-angel-painting/) took second prize in 1845, finished Joan of Arc in 1879, nine years after he himself fought in the Franco-Prussian War and was wounded, and after France's defeat in that war let Prussia annex the eastern part of Lorraine, the same region where both Bastien-Lepage and, some four centuries earlier, Joan of Arc herself had been born.",
+        "anchor": "Alexandre Cabanel",
+        "target_slug": "fallen-angel-painting"
+      },
+      {
+        "source": "body",
+        "sentence": "Four years after Bastien-Lepage's own Salon scandal, in 1884, [John Singer Sargent's Madame X also met a hostile reception at the 1884 Salon after its slipped shoulder strap offended viewers; Sargent later sold that canvas to the Metropolitan Museum in 1916](/famous-portraits/): two very different pictures, the same pattern of French condemnation followed eventually by an American museum's acquisition.",
+        "anchor": "John Singer Sargent's Madame X also met a hostile reception at the 1884 Salon after its slipped shoulder strap offended viewers; Sargent later sold that canvas to the Metropolitan Museum in 1916",
+        "target_slug": "famous-portraits"
+      }
+    ],
+    "new_notes_count": 2,
+    "facts": "See full diff and B5 primary records; corrected inherited assertions discovered while checking bridge scope. All original questions retained."
+  },
+  "the-lovers-painting": {
+    "source_sha256": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1",
+    "before_faq": [
+      "Yes. One version, the couple kissing face to face, belongs to MoMA in New York. A second, with the couple looking straight out at whoever is looking back at them, is part of the Canberra collection built by Australia's national gallery. Both are the same year and roughly the same modest size, closer to a sheet of poster paper than a gallery-filling canvas. A pair of related pictures from that year exist too, numbered III and IV in later catalogues, but they sit in private hands and rarely surface in public.",
+      "Almost certainly not. The claim traces back to a family story that Magritte biographers have since walked back as unreliable, possibly started by a household nurse rather than by anyone who was actually there. A 2018 review of how scholars now read Magritte's life, published in a well-regarded American literary journal, goes further and dismisses the riverbank scene outright.",
+      "There is no settled answer. One line of interpretation connects the cloth to Magritte's mother's 1912 death by drowning; another, unconnected to his biography, reads it as a statement about how intimacy always leaves something hidden. Magritte himself rejected both projects, saying a painting's mystery was \\\"unknowable\\\" and shouldn't be decoded at all.",
+      "New York holds the face-to-face version, willed to the museum by a private collector who died in 1998. Canberra holds the forward-facing one, which Australia's national gallery bought outright in 1990.",
+      "Thirteen. He was born in 1898, and his mother's death in February 1912 came months before his fourteenth birthday later that same year. Several retellings of the story get the number wrong.",
+      "No museum or scholarly body keeps an official ranking of \\\"saddest painting,\\\" and critics land on different answers. Works that come up most often include Van Gogh's Sorrowing Old Man (\\\"At Eternity's Gate\\\"), Picasso's The Old Guitarist, and John Everett Millais's [Ophelia](/ophelia-millais/). The veiled kiss discussed on this page doesn't usually make that particular list, since its central feeling reads more as estrangement or isolation than outright grief, but it's still one of the images people reach for when the subject of quietly unsettling paintings comes up.",
+      "Belgian Surrealist Rene Magritte, who made both museum versions, the face-to-face canvas at MoMA and the forward-facing canvas at Australia's national gallery in Canberra, working in Paris during 1928. Two more paintings using the same veiled-kiss motif followed from his own hand that year, labeled III and IV in later catalogs, both still privately owned and seldom put on public view."
+    ],
+    "after_faq": [
+      "Yes. The New York example depicts the couple kissing through cloth. Canberra's pair instead looks outward with their faces covered. Both canvases were made in 1928 and are about 54 centimetres high and 73 wide. Related works appear under the later designations III and IV; those labels do not identify four repetitions of one scene.",
+      "Almost certainly not. The claim traces back to a family story that Magritte biographers have since walked back as unreliable, possibly started by a household nurse rather than by anyone who was actually there. A 2018 review of how scholars now read Magritte's life, published in a well-regarded American literary journal, goes further and dismisses the riverbank scene outright.",
+      "There is no settled answer. One line of interpretation connects the cloth to Magritte's mother's 1912 death by drowning; another, unconnected to his biography, reads it as a statement about how intimacy always leaves something hidden. Magritte himself rejected both projects, saying a painting's mystery was \\\"unknowable\\\" and shouldn't be decoded at all.",
+      "MoMA holds the kissing version, acquired from Richard S. Zeisler's collection in 1998. Australia's national gallery purchased the forward-facing painting in 1990. These are acquisition dates; neither date alone supplies a collector's death date or the complete earlier ownership history.",
+      "Thirteen. He was born in 1898, and his mother's death in February 1912 came months before his fourteenth birthday later that same year. Several retellings of the story get the number wrong.",
+      "Sadness is a viewer's judgment, so these paintings cannot be assigned a definitive rank. Van Gogh's Sorrowing Old Man, also called At Eternity's Gate, Picasso's The Old Guitarist, and Millais's [Ophelia](/ophelia-millais/) offer different subjects for that discussion. The Lovers can suggest estrangement or obstructed intimacy without every viewer reading it as grief.",
+      "The Belgian painter Rene Magritte made the pair now held by museums while living in Paris in 1928. Later accounts assign the numerals III and IV to additional pictures from that year, whose scenes differ from the cloth-covered kiss."
+    ],
+    "all_source_body_and_faq_read": true,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "current_candidates": [],
+    "new_notes_count": 0,
+    "facts": "See full diff and B5 primary records; corrected inherited assertions discovered while checking bridge scope. All original questions retained."
+  },
+  "simonetta-vespucci": {
+    "source_sha256": "dd7bf08a6dbdfb3b1ba3db117a4d31f28fe59801abc53adb0f0b4391646cdaf1",
+    "before_faq": [
+      "Probably not in the way it's usually told. Serious skepticism runs through the modern scholarship, which treats the claim as invented sentiment, not documented fact. The one Botticelli image of Simonetta that historical record actually confirms, painted from life for a joust held in 1475, has been lost since. Venus's face in the finished 1480s canvas belongs to a much later, unconfirmed layer of that story.",
+      "For centuries doctors and historians alike pointed to consumption, the old name for tuberculosis. A research group led by an Italian endocrinologist has since built a different case across two papers: first a tumor secreting excess hormones, published in 2019, then a specific fatal mechanism, a sudden internal bleed inside it, added in a 2026 follow-up. Their account traces a collapse at a ball, a severe nosebleed, and several days of worsening symptoms recorded in a 1476 letter.",
+      "Sources disagree by a year, which comes down to how precisely her birth is dated. Ronald Lightbown, writing Botticelli's 1989 biography, puts her at twenty-two. The endocrinology team's two studies both land on twenty-three instead, using the same approximate birth year of 1453 but rounding it differently against her documented death date in 1476.",
+      "The museum stops short of a firm yes. Its wall label hedges her name with the phrase said to be, rather than stating a match outright. Two details drive that caution: the artist's age when Simonetta died, young enough to make a life portrait implausible, and a name inscribed at the canvas's base that curators suspect was added well after the paint dried.",
+      "Some writers, including John Ruskin, have read Botticelli's 1510 request to be buried at Ognissanti, at Simonetta's feet, as a sign he had loved her. There's a simpler complication: Ognissanti had been his baptismal parish since childhood, already held other work by him, and became the resting place of his own family as well, so the request did not need a romance behind it to make sense."
+    ],
+    "after_faq": [
+      "Probably not in the way it's usually told. Serious skepticism runs through the modern scholarship, which treats the claim as invented sentiment, not documented fact. The one Botticelli image of Simonetta that historical record actually confirms, painted from life for a joust held in 1475, has been lost since. Venus's face in the finished 1480s canvas belongs to a much later, unconfirmed layer of that story.",
+      "For centuries doctors and historians alike pointed to consumption, the old name for tuberculosis. A research group led by an Italian endocrinologist has since built a different case across two papers: first a tumor secreting excess hormones, published in 2019, then a specific fatal mechanism, a sudden internal bleed inside it, added in a 2026 follow-up. Their account traces a collapse at a ball, a severe nosebleed, and several days of worsening symptoms recorded in a 1476 letter.",
+      "Sources disagree by a year, which comes down to how precisely her birth is dated. Ronald Lightbown, writing Botticelli's 1989 biography, puts her at twenty-two. The endocrinology team's two studies both land on twenty-three instead, using the same approximate birth year of 1453 but rounding it differently against her documented death date in 1476.",
+      "The museum stops short of a firm yes. Its wall label hedges her name with the phrase said to be, rather than stating a match outright. Two details drive that caution: the artist's age when Simonetta died, young enough to make a life portrait implausible, and a name inscribed at the canvas's base that curators suspect was added well after the paint dried.",
+      "Some writers, including John Ruskin, have read Botticelli's 1510 request to be buried at Ognissanti, at Simonetta's feet, as a sign he had loved her. There's a simpler complication: Ognissanti had been his baptismal parish since childhood, already held other work by him, and became the resting place of his own family as well, so the request did not need a romance behind it to make sense."
+    ],
+    "all_source_body_and_faq_read": true,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "current_candidates": [],
+    "new_notes_count": 0,
+    "facts": "See full diff and B5 primary records; corrected inherited assertions discovered while checking bridge scope. All original questions retained.",
+    "all_faq_retained": true,
+    "link_multiset_preserved": true
+  }
+}

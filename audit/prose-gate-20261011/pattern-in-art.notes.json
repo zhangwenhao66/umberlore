@@ -1,0 +1,10 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：the earliest copy of it held by the Internet Archive is a 1968 printing。逐句判断：限定 Internet Archive 所持最早复制本，不将该 archive 年份当全球首创；目标标题/summary过度首创另批事实修。",
+    "source_sha256": "467eccf10ee3940037c97ea7a6588849e71a4f4296d87475f24e0ff87ac7dc3a",
+    "target_sha256": "c3c5fed73946a944add17037068c271d1bba934d32523c131d4e4e78498b89e6",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts"
+  }
+]

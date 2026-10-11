@@ -1,0 +1,123 @@
+{
+  "fetch": {
+    "milk-object": {
+      "url": "https://www.rijksmuseum.nl/en/collection/object/The-Milkmaid--42dd0e658c2979aec8e144d2357c55c0",
+      "status": 200,
+      "chars": 6154
+    },
+    "milk-press": {
+      "url": "https://www.rijksmuseum.nl/en/press/press-releases/rijksmuseum-reveals-major-discoveries-on-vermeer-s-painting-the-milkmaid",
+      "status": 200,
+      "chars": 6659
+    },
+    "milk-met": {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2009/vermeer",
+      "status": 429,
+      "chars": 118
+    },
+    "simonetta-2026": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13263234/",
+      "status": 403,
+      "chars": 17
+    },
+    "swift": {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Journals/AJA/38/1/Byzantine_Gold_Mosaic*.html",
+      "status": 200,
+      "chars": 7024
+    },
+    "hagia-modern": {
+      "url": "https://smarthistory.org/middle-byzantine-mosaics-hagia-sophia/",
+      "status": 403,
+      "chars": 58
+    },
+    "schiele-museum": {
+      "url": "https://www.schielemuseum.at/en/mehr-Schiele/neulengbach",
+      "status": 200,
+      "chars": 1762
+    },
+    "kallir": {
+      "url": "https://www.theartnewspaper.com/2018/06/01/egon-schiele-was-not-a-sex-offender",
+      "status": 200,
+      "chars": 6399
+    },
+    "pattern-met": {
+      "url": "https://www.metmuseum.org/art/collection/search/248904",
+      "status": 429,
+      "chars": 118
+    },
+    "pattern-lu": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17322056/",
+      "status": 203,
+      "chars": 124
+    },
+    "pattern-va": {
+      "url": "https://collections.vam.ac.uk/item/O270884/strawberry-thief-furnishing-fabric-morris-william/",
+      "status": 200,
+      "chars": 5391
+    },
+    "moma-lovers": {
+      "url": "https://www.moma.org/collection/works/79933",
+      "status": 403,
+      "chars": 749
+    }
+  },
+  "full_reads": {
+    "milk-object.txt": "complete Rijksmuseum object/provenance: undated,c1660,Six PieterHendrik heirs",
+    "milk-press.txt": "complete research release: jugrack, earlier basket now firebasket, bowl coals, underpainting",
+    "kallir.txt": "complete primary author Jane Kallir: Vienna arrival, missing trial records, reported conviction",
+    "schiele-museum.txt": "complete main museum history, 21 days cell and drawing",
+    "swift.txt": "complete AJA1934 pp81–82, physical gold/glass/tilt, broader figural discussion not original537 proof",
+    "morris-correct.txt": "complete V&A T5861919 record O78889: 1875→1881→1883, May registration byMorris; wrong1955reproductionnotused",
+    "harvard-lu.txt": "complete main Harvard article March2007, PeterLu Harvard graduate student",
+    "martin-tate.txt": "complete main TerryRiggs biography, paralysis1853 death1854",
+    "simonetta-xml.txt": "complete full primary article BioC XML withabstract/body/conclusion/references; coauthors changed, Pozzilli shared, clinicalhypothesis not confirmedportraitdiagnosis"
+  },
+  "web_complete_reads": [
+    {
+      "url": "https://pressbooks.pub/smarthistoryguidetobyzantineart/chapter/iconoclastic-controversy-and-mosaics/",
+      "coverage": "main lines226–348 all article; secondphase milder; apse no earlierimageryproof"
+    },
+    {
+      "url": "https://www.basilicasanmarco.it/en/the-golden-pala/",
+      "coverage": "whole main: different medieval campaigns, silvergilt metal enamel, feriale covering until1847"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2009/vermeer",
+      "coverage": "complete main exhibition text: 2009 loan, firstUSsince1939; curl429alternativeWEBread"
+    },
+    {
+      "url": "https://www.moma.org/collection/works/79933",
+      "coverage": "complete object/provenance footnotes1–6 viaofficial indexedWEB; curl403alternate; acquisition1998doesnotdateZeislerdeath"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/248904",
+      "coverage": "complete intro+object fields andItalianprothesis description; curl429alternateWEBread"
+    },
+    {
+      "url": "https://yorkminster.org/app/uploads/2024/07/Traitor-on-Trial-Teacher-Resource.pdf",
+      "coverage": "complete relevant teacherhistory section, jury guiltybutinsane/judgeNG"
+    },
+    {
+      "url": "https://engelsiz.ktb.gov.tr/tr-364045/ayasofya-i-kebir-camiinde-yeni-duzenleme-15-ocakta-basliyor.html",
+      "coverage": "wholemainlines17–29, January2024newvisitorroute; no2026pricepromise"
+    }
+  ],
+  "not_full_reads": [
+    "milk-pdf.txt: error212bytes notPDF",
+    "hagia-modern.txt:403; only indexedfirstnonfigural sentence read, fullalternate scholar article used",
+    "hagia-pressbook.txt:403 wrong guessedURLnotused",
+    "pattern-lu.txt:203captcha alternativeHarvard",
+    "morris-original.txt: wrongO78883pincushion notused",
+    "nga-lovers.txt:403; official acquisitionrecordindexedonly; noabsenceearlierownersclaim"
+  ],
+  "corrections": {
+    "pattern-in-art": "prothesis upper bier/lower procession; HarvardLu; Morris1883design≠sixyearprintingprocess1875–81; Patent actor and Maydate; dotpainting1971origin≠latermasking",
+    "john-martin-paintings": "1853stroke/1854death; unfinishedtrilogywithin1851–53; Edinburghdisputed; architecturefantasyvsmeasuredevidence; guiltyinsaneverdictNG",
+    "schiele-neulengbach-trial": "Viennaactualtrip; >100notpluralhundreds; originalcourtrecordsunavailable; separateKlimtjurisdiction/restitution",
+    "the-milkmaid-vermeer": "undated≠unsigned; datasetupperdate convention; VanRuijven1674≠Dissius21auction1696; singlePieterHendrikinheritance; 2009USloandisprovesneverleft; samebasketreidentified/bowlcoals; tronie≠nositter; pinholeperspective≠tensecondcamera lifetime; breadtable",
+    "byzantine-mosaics": "nonfiguraloriginal537; secondiconoclasmmildernotlonger; apse867notprovedreplacement; 26000*4.45=115.7kg; enamelmetal≠goldfoilglass/976notfullensemble; 2024accessnot2020guarantee; retainedSwift/Photiusquotes",
+    "joan-of-arc-painting": "narrowMadameXreceptionnotidenticalcause; stylesnamedforartist/worknotentiregroupalways",
+    "the-lovers-painting": "2museumpaintingsnot2onlynorbothkiss; 17vs21=4days; acquisition1998notdeath; absenceinconsultedrecord≠noearlierowners; noobjectivepopularsadnessranking; SVGsameboundedrecordscope",
+    "simonetta-vespucci": "Pozzillisharednotindependent/sameteam; JuneonlineJulyissue; uncertainties≠inventedMagritteorprovenclinicaldiagnosis; 3portraitspecificfacts"
+  }
+}

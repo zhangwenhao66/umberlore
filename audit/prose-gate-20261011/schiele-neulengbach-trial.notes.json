@@ -1,0 +1,10 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：The 2004 US Supreme Court ruling in that case decided only that Austria could be sued in an American court; it did not decide who owned the paintings.。逐句判断：原comparably tangled误合Schiele刑案和财产案；现分开jurisdiction2004与arbitration2006；不写最高法院判归属。",
+    "source_sha256": "e971bb0316a64c17b7655cb68e860c2731c42b48527f6dc135a3f143be9b86c5",
+    "target_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts"
+  }
+]

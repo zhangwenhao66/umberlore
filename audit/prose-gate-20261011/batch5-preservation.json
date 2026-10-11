@@ -1,0 +1,58 @@
+{
+  "john-martin-paintings": {
+    "questions_unchanged": true,
+    "FAQ_count": 5,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "source_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/john-martin-paintings.before.ts"
+  },
+  "pattern-in-art": {
+    "questions_unchanged": true,
+    "FAQ_count": 6,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "source_sha256": "467eccf10ee3940037c97ea7a6588849e71a4f4296d87475f24e0ff87ac7dc3a",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/pattern-in-art.before.ts"
+  },
+  "schiele-neulengbach-trial": {
+    "questions_unchanged": true,
+    "FAQ_count": 5,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "source_sha256": "e971bb0316a64c17b7655cb68e860c2731c42b48527f6dc135a3f143be9b86c5",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/schiele-neulengbach-trial.before.ts"
+  },
+  "the-milkmaid-vermeer": {
+    "questions_unchanged": true,
+    "FAQ_count": 8,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "source_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/the-milkmaid-vermeer.before.ts"
+  },
+  "joan-of-arc-painting": {
+    "questions_unchanged": true,
+    "FAQ_count": 5,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "source_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/joan-of-arc-painting.before.ts"
+  },
+  "the-lovers-painting": {
+    "questions_unchanged": true,
+    "FAQ_count": 7,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "source_sha256": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/the-lovers-painting.before.ts"
+  },
+  "byzantine-mosaics": {
+    "questions_unchanged": true,
+    "FAQ_count": 6,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "source_sha256": "cdce7dea6711543e43246010e68fd205a2f5af60766553d5cefafda342e2d019",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/byzantine-mosaics.before.ts"
+  },
+  "simonetta-vespucci": {
+    "questions_unchanged": true,
+    "FAQ_count": 5,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "source_sha256": "dd7bf08a6dbdfb3b1ba3db117a4d31f28fe59801abc53adb0f0b4391646cdaf1",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/simonetta-vespucci.before.ts"
+  }
+}

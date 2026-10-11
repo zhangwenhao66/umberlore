@@ -1,0 +1,18 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：Cabanel won the second Grand Prix de Rome in 1845。逐句判断：目标确1845第二Rome奖，源Cabanel身份及年份皆吻合，不把1847作品创作年变1845。",
+    "source_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e",
+    "target_sha256": "ad93bc309b8842591d42f42d85eb64489dd39197ad9589fcdb24a632e91a6827",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：whose slipped shoulder strap drew enough outrage at the 1884 Paris Salon。逐句判断：Joan只比MadameX hostile reception1884以及Met1916，不同失礼原因；Simonetta链接三个明确条目cross/reception/fatherdaughter，不泛称都单一人物身份纠错。",
+    "source_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e",
+    "target_sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts"
+  }
+]

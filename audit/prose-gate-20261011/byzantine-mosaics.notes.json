@@ -1,0 +1,10 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：Vasari attributed the style's invention to the Goths, the barbarian peoples he blamed for destroying Rome's classical buildings after conquering the city.。逐句判断：目标Vasari错误Goths归因与十二世纪SaintDenis时间支持这一个类比，不推所有movement都由同过程。",
+    "source_sha256": "cdce7dea6711543e43246010e68fd205a2f5af60766553d5cefafda342e2d019",
+    "target_sha256": "62c51b8e08f56bcbc9ae5e9c7c0b61652efe8579751f4176482f4f7120ee25c2",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts"
+  }
+]

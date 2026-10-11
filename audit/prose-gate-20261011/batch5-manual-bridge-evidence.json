@@ -1,0 +1,402 @@
+[
+  {
+    "source": "pattern-in-art",
+    "original": {
+      "source": "body",
+      "sentence": "Ask someone to name [what art is built from](/elements-of-art/) and they will usually reach for the same seven words that the elements-of-art guide on this site finds in a 1968 printing of a studio-art textbook, the earliest copy it could document: line, shape, form, space, value, color, texture.",
+      "anchor": "what art is built from",
+      "target_slug": "elements-of-art"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Ask someone to name [what art is built from](/elements-of-art/) and they will usually reach for the same seven words that the elements-of-art guide on this site finds in a 1968 printing of a studio-art textbook, the earliest copy it could document: line, shape, form, space, value, color, texture.",
+        "anchor": "what art is built from",
+        "target_slug": "elements-of-art"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "c3c5fed73946a944add17037068c271d1bba934d32523c131d4e4e78498b89e6",
+      "FAQ_count": 7,
+      "quote": "the earliest copy of it held by the Internet Archive is a 1968 printing",
+      "reason": "限定 Internet Archive 所持最早复制本，不将该 archive 年份当全球首创；目标标题/summary过度首创另批事实修。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "467eccf10ee3940037c97ea7a6588849e71a4f4296d87475f24e0ff87ac7dc3a"
+  },
+  {
+    "source": "john-martin-paintings",
+    "original": {
+      "source": "body",
+      "sentence": "Martin's other Louvre-connected painting, [Pandemonium](/pandemonium-painting/), came out of that same Paradise Lost project: he engraved the composition twice, in 1824 and 1831, before finally painting it in oil in 1841.",
+      "anchor": "Pandemonium",
+      "target_slug": "pandemonium-painting"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Martin's other Louvre-connected painting, [Pandemonium](/pandemonium-painting/), came out of that same Paradise Lost project: he engraved the composition twice, in 1824 and 1831, before finally painting it in oil in 1841.",
+        "anchor": "Pandemonium",
+        "target_slug": "pandemonium-painting"
+      },
+      {
+        "source": "body",
+        "sentence": "Martin, he wrote, \\\"has attempted this Denner-like portraiture of sea-foam with the assistance of an acre of canvas, with what success, I believe the critics of his last year's Canute had, for once, sense enough to decide.\\\" He wasn't the only Romantic-era painter working from private vision rather than direct observation; William Blake did something similar on a far smaller scale, finishing a single tempera panel, [The Ghost of a Flea](/ghost-of-a-flea/), out of roughly ninety sketches drawn during nightly sessions at John Varley's house.",
+        "anchor": "The Ghost of a Flea",
+        "target_slug": "ghost-of-a-flea"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+      "sha256": "e23f79e762f502e0cf34b10359e5ca3a161355feee41d5fb814c4b56d3dd4685",
+      "FAQ_count": 6,
+      "quote": "Martin had already designed the same rising-palace composition twice before as prints, once in 1824 and again as a larger single engraving in 1831",
+      "reason": "目标明确1824/1831版画与1841油画；Lovers另链151年家族保留目标ownership段，非两画相同来源。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea"
+  },
+  {
+    "source": "john-martin-paintings",
+    "original": {
+      "source": "body",
+      "sentence": "Unlike the [real buildings that architectural painters measure on site and then alter on the panel](/architectural-painting/), the citadel collapsing in that painting never existed anywhere to begin with; there was no building to check the proportions against.",
+      "anchor": "real buildings that architectural painters measure on site and then alter on the panel",
+      "target_slug": "architectural-painting"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Martin's other Louvre-connected painting, [Pandemonium](/pandemonium-painting/), came out of that same Paradise Lost project: he engraved the composition twice, in 1824 and 1831, before finally painting it in oil in 1841.",
+        "anchor": "Pandemonium",
+        "target_slug": "pandemonium-painting"
+      },
+      {
+        "source": "body",
+        "sentence": "Martin, he wrote, \\\"has attempted this Denner-like portraiture of sea-foam with the assistance of an acre of canvas, with what success, I believe the critics of his last year's Canute had, for once, sense enough to decide.\\\" He wasn't the only Romantic-era painter working from private vision rather than direct observation; William Blake did something similar on a far smaller scale, finishing a single tempera panel, [The Ghost of a Flea](/ghost-of-a-flea/), out of roughly ninety sketches drawn during nightly sessions at John Varley's house.",
+        "anchor": "The Ghost of a Flea",
+        "target_slug": "ghost-of-a-flea"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "b126216d892210ec58f3481a0b8ffd873b19fbfdd128c70389cdf44b5ff02c75",
+      "FAQ_count": 5,
+      "quote": "Hans Vredeman de Vries, generally credited with founding architectural painting as an independent genre in the 1560s, illustrated the technique with invented cities, not real ones.",
+      "reason": "原全体architectural painters观察实物断言与目标Vredeman虚构城市相反，现仅对比Saenredam等既有实例。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea"
+  },
+  {
+    "source": "john-martin-paintings",
+    "original": {
+      "source": "body",
+      "sentence": "Martin, he wrote, \\\"has attempted this Denner-like portraiture of sea-foam with the assistance of an acre of canvas, with what success, I believe the critics of his last year's Canute had, for once, sense enough to decide.\\\" He wasn't the only Romantic-era painter working from private vision rather than direct observation; William Blake did something similar on a far smaller scale, finishing a single tempera panel, [The Ghost of a Flea](/ghost-of-a-flea/), out of roughly ninety sketches drawn during nightly sessions at John Varley's house.",
+      "anchor": "The Ghost of a Flea",
+      "target_slug": "ghost-of-a-flea"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Martin's other Louvre-connected painting, [Pandemonium](/pandemonium-painting/), came out of that same Paradise Lost project: he engraved the composition twice, in 1824 and 1831, before finally painting it in oil in 1841.",
+        "anchor": "Pandemonium",
+        "target_slug": "pandemonium-painting"
+      },
+      {
+        "source": "body",
+        "sentence": "Martin, he wrote, \\\"has attempted this Denner-like portraiture of sea-foam with the assistance of an acre of canvas, with what success, I believe the critics of his last year's Canute had, for once, sense enough to decide.\\\" He wasn't the only Romantic-era painter working from private vision rather than direct observation; William Blake did something similar on a far smaller scale, finishing a single tempera panel, [The Ghost of a Flea](/ghost-of-a-flea/), out of roughly ninety sketches drawn during nightly sessions at John Varley's house.",
+        "anchor": "The Ghost of a Flea",
+        "target_slug": "ghost-of-a-flea"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+      "sha256": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+      "FAQ_count": 5,
+      "quote": "the single finished painting to come out of roughly ninety pencil sketches Blake produced during nightly sessions at the house of the astrologer John Varley",
+      "reason": "Martin连接目标90草图中唯一成画，不说信仰相同；Lovers新句明确Keynes与Raine不同解释，不把Keynes推断当Blake亲口事实。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea"
+  },
+  {
+    "source": "schiele-neulengbach-trial",
+    "original": {
+      "source": "body",
+      "sentence": "Schiele's mentor, Gustav Klimt, had died nearly nine months earlier that same year; [Klimt's own most famous paintings carry a comparably tangled paper trail](/gustav-klimt/), tied up for decades in a Nazi-era looting dispute that reached the US Supreme Court in 2004.",
+      "anchor": "Klimt's own most famous paintings carry a comparably tangled paper trail",
+      "target_slug": "gustav-klimt"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Schiele's mentor, Gustav Klimt, had died nearly nine months earlier that same year; [the Klimt guide follows a separate legal history: a Nazi-era restitution dispute, a 2004 US Supreme Court ruling on jurisdiction, and a 2006 Austrian arbitration award](/gustav-klimt/).",
+        "anchor": "the Klimt guide follows a separate legal history: a Nazi-era restitution dispute, a 2004 US Supreme Court ruling on jurisdiction, and a 2006 Austrian arbitration award",
+        "target_slug": "gustav-klimt"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+      "FAQ_count": 11,
+      "quote": "The 2004 US Supreme Court ruling in that case decided only that Austria could be sued in an American court; it did not decide who owned the paintings.",
+      "reason": "原comparably tangled误合Schiele刑案和财产案；现分开jurisdiction2004与arbitration2006；不写最高法院判归属。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "e971bb0316a64c17b7655cb68e860c2731c42b48527f6dc135a3f143be9b86c5"
+  },
+  {
+    "source": "the-milkmaid-vermeer",
+    "original": {
+      "source": "body",
+      "sentence": "Vermeer's other most-recognized single-figure painting has an easier anchor: he was 35, the same age recorded for him in [a wider dataset of 64 canonical paintings' creation ages](/artist-peak-creation-age/), when he made it.",
+      "anchor": "a wider dataset of 64 canonical paintings' creation ages",
+      "target_slug": "artist-peak-creation-age"
+    },
+    "current_candidates": [],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "b6194e3c3a2911126ad5da2c6fcdb6994b964f1ec3a15b5dc09a5bb9d63d11f1",
+      "FAQ_count": 4,
+      "quote": "Johannes Vermeer  Girl with a Pearl Earring  1667*  35  8",
+      "reason": "目标1667*表格年龄35采用区间上端，源只叙数据行约定，不把1667当museum精确创作年。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b"
+  },
+  {
+    "source": "byzantine-mosaics",
+    "original": {
+      "source": "body",
+      "sentence": "Vasari's habit of pinning a whole style's flaws on an outside group was not limited to painting: [he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen](/art-styles/).",
+      "anchor": "he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen",
+      "target_slug": "art-styles"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Vasari's habit of pinning a whole style's flaws on an outside group was not limited to painting: [he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen](/art-styles/).",
+        "anchor": "he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen",
+        "target_slug": "art-styles"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "62c51b8e08f56bcbc9ae5e9c7c0b61652efe8579751f4176482f4f7120ee25c2",
+      "FAQ_count": 6,
+      "quote": "Vasari attributed the style's invention to the Goths, the barbarian peoples he blamed for destroying Rome's classical buildings after conquering the city.",
+      "reason": "目标Vasari错误Goths归因与十二世纪SaintDenis时间支持这一个类比，不推所有movement都由同过程。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "cdce7dea6711543e43246010e68fd205a2f5af60766553d5cefafda342e2d019"
+  },
+  {
+    "source": "byzantine-mosaics",
+    "original": {
+      "source": "body",
+      "sentence": "Byzantine cloisonne enamel, a related luxury medium built on the same fused-gold logic as mosaic tesserae, had already given Venice's Basilica di San Marco a gold altarpiece, first commissioned in 976 and [carrying more than eighty pieces of Byzantine cloisonne enamel added over the following two centuries](/cloisonne/), the whole ensemble on public display centuries before Vasari ever picked up a pen.",
+      "anchor": "carrying more than eighty pieces of Byzantine cloisonne enamel added over the following two centuries",
+      "target_slug": "cloisonne"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Vasari's habit of pinning a whole style's flaws on an outside group was not limited to painting: [he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen](/art-styles/).",
+        "anchor": "he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen",
+        "target_slug": "art-styles"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "0ce1549b409c4da38026a87dacb984425801e10e0bb55848e98811e17f951f01",
+      "FAQ_count": 5,
+      "quote": "it now carries more than eighty Byzantine cloisonné enamels dating from the tenth to the late twelfth century",
+      "reason": "原same fused-gold和976完成连续展示无证；保留80多件enamel身份，独立SanMarco官源解释多期改造，不归目标未有口径。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "cdce7dea6711543e43246010e68fd205a2f5af60766553d5cefafda342e2d019"
+  },
+  {
+    "source": "byzantine-mosaics",
+    "original": {
+      "source": "body",
+      "sentence": "Byzantine mosaic conventions had also already traveled directly into medieval European painting rather than staying confined to the empire that produced them: [Romanesque church murals across eleventh- and twelfth-century Europe borrowed the same flat, frontal figures and geometric drapery associated with Byzantine mosaic, filtered through Italy into village churches as far from Constantinople as the Catalan Pyrenees](/romanesque-painting/).",
+      "anchor": "Romanesque church murals across eleventh- and twelfth-century Europe borrowed the same flat, frontal figures and geometric drapery associated with Byzantine mosaic, filtered through Italy into village churches as far from Constantinople as the Catalan Pyrenees",
+      "target_slug": "romanesque-painting"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Vasari's habit of pinning a whole style's flaws on an outside group was not limited to painting: [he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen](/art-styles/).",
+        "anchor": "he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen",
+        "target_slug": "art-styles"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+      "sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+      "FAQ_count": 4,
+      "quote": "heavily shaped by Byzantine models filtered through Italy: flat, frontal figures, geometric drapery",
+      "reason": "目标core明确Italy转入、flat/frontal/geometric和Taull；新桥只这些形式，不推所有人物或唯一路径。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "cdce7dea6711543e43246010e68fd205a2f5af60766553d5cefafda342e2d019"
+  },
+  {
+    "source": "joan-of-arc-painting",
+    "original": {
+      "source": "body",
+      "sentence": "Jules Bastien-Lepage, trained at the École des Beaux-Arts in Paris, the school that ran the Grand Prix de Rome, where [Alexandre Cabanel](/fallen-angel-painting/) took second prize in 1845, finished Joan of Arc in 1879, nine years after he himself fought in the Franco-Prussian War and was wounded, and after France's defeat in that war let Prussia annex the eastern part of Lorraine, the same region where both Bastien-Lepage and, some four centuries earlier, Joan of Arc herself had been born.",
+      "anchor": "Alexandre Cabanel",
+      "target_slug": "fallen-angel-painting"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Jules Bastien-Lepage, trained at the École des Beaux-Arts in Paris, the school that ran the Grand Prix de Rome, where [Alexandre Cabanel](/fallen-angel-painting/) took second prize in 1845, finished Joan of Arc in 1879, nine years after he himself fought in the Franco-Prussian War and was wounded, and after France's defeat in that war let Prussia annex the eastern part of Lorraine, the same region where both Bastien-Lepage and, some four centuries earlier, Joan of Arc herself had been born.",
+        "anchor": "Alexandre Cabanel",
+        "target_slug": "fallen-angel-painting"
+      },
+      {
+        "source": "body",
+        "sentence": "Four years after Bastien-Lepage's own Salon scandal, in 1884, [John Singer Sargent's Madame X also met a hostile reception at the 1884 Salon after its slipped shoulder strap offended viewers; Sargent later sold that canvas to the Metropolitan Museum in 1916](/famous-portraits/): two very different pictures, the same pattern of French condemnation followed eventually by an American museum's acquisition.",
+        "anchor": "John Singer Sargent's Madame X also met a hostile reception at the 1884 Salon after its slipped shoulder strap offended viewers; Sargent later sold that canvas to the Metropolitan Museum in 1916",
+        "target_slug": "famous-portraits"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+      "sha256": "ad93bc309b8842591d42f42d85eb64489dd39197ad9589fcdb24a632e91a6827",
+      "FAQ_count": 7,
+      "quote": "Cabanel won the second Grand Prix de Rome in 1845",
+      "reason": "目标确1845第二Rome奖，源Cabanel身份及年份皆吻合，不把1847作品创作年变1845。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e"
+  },
+  {
+    "source": "joan-of-arc-painting",
+    "original": {
+      "source": "body",
+      "sentence": "Four years after Bastien-Lepage's own Salon scandal, in 1884, [a strikingly similar uproar hit John Singer Sargent's Madame X, whose slipped shoulder strap outraged that year's Salon audience, and which Sargent likewise sold to the same museum, decades later, in 1916](/famous-portraits/): two very different pictures, the same pattern of French condemnation followed eventually by an American museum's acquisition.",
+      "anchor": "a strikingly similar uproar hit John Singer Sargent's Madame X, whose slipped shoulder strap outraged that year's Salon audience, and which Sargent likewise sold to the same museum, decades later, in 1916",
+      "target_slug": "famous-portraits"
+    },
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "Jules Bastien-Lepage, trained at the École des Beaux-Arts in Paris, the school that ran the Grand Prix de Rome, where [Alexandre Cabanel](/fallen-angel-painting/) took second prize in 1845, finished Joan of Arc in 1879, nine years after he himself fought in the Franco-Prussian War and was wounded, and after France's defeat in that war let Prussia annex the eastern part of Lorraine, the same region where both Bastien-Lepage and, some four centuries earlier, Joan of Arc herself had been born.",
+        "anchor": "Alexandre Cabanel",
+        "target_slug": "fallen-angel-painting"
+      },
+      {
+        "source": "body",
+        "sentence": "Four years after Bastien-Lepage's own Salon scandal, in 1884, [John Singer Sargent's Madame X also met a hostile reception at the 1884 Salon after its slipped shoulder strap offended viewers; Sargent later sold that canvas to the Metropolitan Museum in 1916](/famous-portraits/): two very different pictures, the same pattern of French condemnation followed eventually by an American museum's acquisition.",
+        "anchor": "John Singer Sargent's Madame X also met a hostile reception at the 1884 Salon after its slipped shoulder strap offended viewers; Sargent later sold that canvas to the Metropolitan Museum in 1916",
+        "target_slug": "famous-portraits"
+      }
+    ],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+      "FAQ_count": 7,
+      "quote": "whose slipped shoulder strap drew enough outrage at the 1884 Paris Salon",
+      "reason": "Joan只比MadameX hostile reception1884以及Met1916，不同失礼原因；Simonetta链接三个明确条目cross/reception/fatherdaughter，不泛称都单一人物身份纠错。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e"
+  },
+  {
+    "source": "the-lovers-painting",
+    "original": {
+      "source": "body",
+      "sentence": "Asked what a painting meant, he tended to turn the question back on the asker: \\\"It does not mean anything, because mystery means nothing either, it is unknowable.\\\" [William Blake left behind a comparable mismatch between what actually happened and what later writers made of it, though the direction runs the other way: the astrologer hosting Blake's nightly sketching sessions took the results far more seriously than Blake himself apparently did.](/ghost-of-a-flea/) A different couple painting carries a related kind of correction: [the identity long attached to the two figures in Jan van Eyck's Arnolfini Portrait turned out to rest on a marriage date that fell years after the artist's own death, once archivists checked the record against the calendar.](/the-arnolfini-portrait/)",
+      "anchor": "William Blake left behind a comparable mismatch between what actually happened and what later writers made of it, though the direction runs the other way: the astrologer hosting Blake's nightly sketching sessions took the results far more seriously than Blake himself apparently did.",
+      "target_slug": "ghost-of-a-flea"
+    },
+    "current_candidates": [],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+      "sha256": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+      "FAQ_count": 5,
+      "quote": "the single finished painting to come out of roughly ninety pencil sketches Blake produced during nightly sessions at the house of the astrologer John Varley",
+      "reason": "Martin连接目标90草图中唯一成画，不说信仰相同；Lovers新句明确Keynes与Raine不同解释，不把Keynes推断当Blake亲口事实。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1"
+  },
+  {
+    "source": "the-lovers-painting",
+    "original": {
+      "source": "body",
+      "sentence": "Asked what a painting meant, he tended to turn the question back on the asker: \\\"It does not mean anything, because mystery means nothing either, it is unknowable.\\\" [William Blake left behind a comparable mismatch between what actually happened and what later writers made of it, though the direction runs the other way: the astrologer hosting Blake's nightly sketching sessions took the results far more seriously than Blake himself apparently did.](/ghost-of-a-flea/) A different couple painting carries a related kind of correction: [the identity long attached to the two figures in Jan van Eyck's Arnolfini Portrait turned out to rest on a marriage date that fell years after the artist's own death, once archivists checked the record against the calendar.](/the-arnolfini-portrait/)",
+      "anchor": "the identity long attached to the two figures in Jan van Eyck's Arnolfini Portrait turned out to rest on a marriage date that fell years after the artist's own death, once archivists checked the record against the calendar.",
+      "target_slug": "the-arnolfini-portrait"
+    },
+    "current_candidates": [],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "bcefd067ce6b97414352066d243252194d651d0350d4caa185791d3d9c3570da",
+      "FAQ_count": 6,
+      "quote": "That dates the Cenami marriage to 1447, six years after van Eyck's death and thirteen years after the panel was signed.",
+      "reason": "1447婚期晚于vanEyck1441死，源已限定曾用diArrigo夫妻身份，非否定所有候选夫妻或证明currentwife姓名。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1"
+  },
+  {
+    "source": "simonetta-vespucci",
+    "original": {
+      "source": "body",
+      "sentence": "[The same pattern, a vivid backstory that turns out to be invented, shows up in an entirely different artist's most reproduced image: the veiled kiss in Magritte's The Lovers is usually traced to a riverbank scene from his childhood that biographers have since walked back as unreliable.](/the-lovers-painting/)",
+      "anchor": "The same pattern, a vivid backstory that turns out to be invented, shows up in an entirely different artist's most reproduced image: the veiled kiss in Magritte's The Lovers is usually traced to a riverbank scene from his childhood that biographers have since walked back as unreliable.",
+      "target_slug": "the-lovers-painting"
+    },
+    "current_candidates": [],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1",
+      "FAQ_count": 7,
+      "quote": "Later biographical research disputes that eyewitness account.",
+      "reason": "Simonetta生平不确定不能称虚构与Magritte同来源；新句只疑问biographical reading，目标争议eyewitness细节支持。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "dd7bf08a6dbdfb3b1ba3db117a4d31f28fe59801abc53adb0f0b4391646cdaf1"
+  },
+  {
+    "source": "simonetta-vespucci",
+    "original": {
+      "source": "body",
+      "sentence": "[A comparable gap between a museum's plain label and the fuller story behind it shows up in other well-known portraits too: three paintings profiled elsewhere on this site each carry a detail that turns out to be more complicated than the label alone suggests.](/famous-portraits/)",
+      "anchor": "A comparable gap between a museum's plain label and the fuller story behind it shows up in other well-known portraits too: three paintings profiled elsewhere on this site each carry a detail that turns out to be more complicated than the label alone suggests.",
+      "target_slug": "famous-portraits"
+    },
+    "current_candidates": [],
+    "target": {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+      "sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+      "FAQ_count": 7,
+      "quote": "whose slipped shoulder strap drew enough outrage at the 1884 Paris Salon",
+      "reason": "Joan只比MadameX hostile reception1884以及Met1916，不同失礼原因；Simonetta链接三个明确条目cross/reception/fatherdaughter，不泛称都单一人物身份纠错。",
+      "coverage": "full body and all FAQs; previously read unchanged article hash reused for four B3/B4 targets, others read B5"
+    },
+    "verdict": "original reviewed; final retained or narrowed supported assertion",
+    "source_sha256": "dd7bf08a6dbdfb3b1ba3db117a4d31f28fe59801abc53adb0f0b4391646cdaf1"
+  }
+]

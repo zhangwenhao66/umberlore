@@ -15,7 +15,7 @@
 
   <circle cx="430" cy="180" r="9" fill="#a06f92"/>
   <text x="430" y="205" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">1953</text>
-  <text x="430" y="220" text-anchor="middle" font-size="11" fill="#5a5266">First documented</text>
+  <text x="430" y="220" text-anchor="middle" font-size="11" fill="#5a5266">Listed owner by</text>
   <text x="430" y="234" text-anchor="middle" font-size="11" fill="#5a5266">owner: Jean Bastien,</text>
   <text x="430" y="248" text-anchor="middle" font-size="11" fill="#5a5266">Brussels</text>
 
@@ -33,9 +33,9 @@
   <circle cx="970" cy="180" r="9" fill="#8a5a7a"/>
   <text x="970" y="205" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">1998</text>
   <text x="970" y="220" text-anchor="middle" font-size="11" fill="#5a5266">MoMA acquires it,</text>
-  <text x="970" y="234" text-anchor="middle" font-size="11" fill="#5a5266">Zeisler bequest</text>
+  <text x="970" y="234" text-anchor="middle" font-size="11" fill="#5a5266">Zeisler collection</text>
 
-  <text x="700" y="270" text-anchor="middle" font-size="11" font-style="italic" fill="#7a6b78">Five documented owners across 70 years. No public record 1928-1953 (spans the German occupation of Belgium, 1940-1944).</text>
+  <text x="700" y="270" text-anchor="middle" font-size="11" font-style="italic" fill="#7a6b78">MoMA's list starts by 1953; earlier ownership is not supplied in that published sequence.</text>
 
   <!-- NGA track -->
   <text x="70" y="360" font-size="15" fill="#2f2a3a" font-weight="bold">National Gallery of Australia, Canberra</text>
@@ -47,7 +47,7 @@
   <text x="250" y="415" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">1928</text>
   <text x="250" y="430" text-anchor="middle" font-size="11" fill="#5a5266">Painted, Paris</text>
 
-  <text x="580" y="415" text-anchor="middle" font-size="11" fill="#5a5266" font-style="italic">no owner in public gallery records for 62 years</text>
+  <text x="580" y="415" text-anchor="middle" font-size="11" fill="#5a5266" font-style="italic">earlier owners not supplied in the acquisition entry</text>
 
   <circle cx="970" cy="390" r="9" fill="#4a7a72"/>
   <text x="970" y="415" text-anchor="middle" font-size="12" fill="#2f2a3a" font-weight="bold">1990</text>
