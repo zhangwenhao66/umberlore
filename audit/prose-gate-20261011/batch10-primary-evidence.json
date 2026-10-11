@@ -1,0 +1,43 @@
+{
+  "cranach": {
+    "url": "https://www.clevelandart.org/art/1941.40",
+    "coverage": "Completeobjectdescription/local1–40; datesprobableafter1508, heraldry, Netherlandsprobablelearning",
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b10-primary/cranach.txt"
+  },
+  "cda": {
+    "url": "https://lucascranach.org/de/US_MMANY_27-54-21/",
+    "coverage": "Complete scholarlycuratorialmain web0–32 actuallyread; localcda.txt savedUTF8mojibake so webcorrectGerman primaryused; metalcolour1507,tintedpaper, toneplate later1508/1509. Allbibliography/provenance notclaimedread."
+  },
+  "andreani": {
+    "url": "https://www.metmuseum.org/art/collection/search/769238",
+    "coverage": "Webfullmuseumobjectmain3–15 andmetadata49–60 actualread; curl429 alternativeweb200;1599Andreaniafterpaintings1484–1492."
+  },
+  "petit": {
+    "url": "https://en.chateauversailles.fr/discover/estate/estate-trianon/petit-trianon",
+    "coverage": "Relevantcompletehistoryarchitecture local110–145 primary; Neoclassical,Gabriel1768, LouisXVIgiftqueen. Full555linepage notclaimedread."
+  },
+  "hameau": {
+    "url": "https://www.chateauversailles.fr/decouvrir/domaine/domaine-trianon/hameau-reine",
+    "coverage": "Relevantcompleteofficialdescriptionlocal305–315 rusticaspectrefinedinterior;fullpage notclaimedread."
+  },
+  "frida": {
+    "url": "https://www.museofridakahlo.org.mx/museo/",
+    "coverage": "Relevantcompleteobjectentry clocks local465–478 actualread; 1939divorce/8Dec1940remarriage; restmuseumtimeline notclaimedread."
+  },
+  "getty": {
+    "url": "https://www.getty.edu/projects/conservation-america-tropical/",
+    "coverage": "CompletemainGoaloutcomesbackgroundapproach local101–145;preservationshownnotrepainting; timeline1942differentlatestGRJ1938; no silentconflict."
+  },
+  "getty-grj": {
+    "url": "https://www.getty.edu/publications/getty-research-journal/21/shorter-notices/worldwide-emotion/",
+    "coverage": "Relevantfullprimarypassages local628–668 actualread, whitewashedbefore1938/deportationbefore1933mail; notwholeessay. This supportsretained1938vsdifferentbroaderprojecttimeline1942."
+  },
+  "time-interview": {
+    "url": "https://time.com/7206184/frida-kahlo-cristina-kahlo-documentary/",
+    "coverage": "Completeactualinterviewmain118–162 read; initialAllyinsertnotfollowed. firsthandCristinaabout1yearsistersapart,fatherdiedage13,2025career35/docconsultant. Otherfamilydata keptinheritednotnewprimaryproof."
+  },
+  "failed-chicago": {
+    "url": "https://www.artic.edu/files/fed02e4c-00c6-4c2b-bc08-889a74cba160/AIC_MuseumStudies_12-1_UPDF.pdf",
+    "coverage": "Fetchedonepagescan noextractabletext. NOTfullread/notusedasproof; actualCDAofficialfallback completecuratorialmain."
+  }
+}

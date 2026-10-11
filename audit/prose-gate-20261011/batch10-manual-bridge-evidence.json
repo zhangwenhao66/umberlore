@@ -1,0 +1,77 @@
+[
+  {
+    "source_slug": "cristina-kahlo",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The south wall was finished the year after [Nelson Rockefeller had a different Rivera mural chiseled off a wall in New York](/diego-rivera/), a very different building and a very different outcome for the same muralist, still working through the same question of who gets to shape a country's future, with Cristina placed inside this one.",
+      "anchor": "Nelson Rockefeller had a different Rivera mural chiseled off a wall in New York",
+      "target_slug": "diego-rivera"
+    },
+    "review": "Rivera target records February1934 destruction and NationalPalace source1934–35completion; same artist/different patrons/outcomes contextualcomparison, noassertion identical patrons or motive.",
+    "target_quote": "In February 1934, workmen peeled and chiseled the fresco",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+    "target_article_sha256": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+    "source_article_sha256": "d7d3e819ec7839fb56c7b8bc95610faadcb6a16f5ff684c3b2639c46600dec06",
+    "source_and_target_body_allFAQ_actualread": true
+  },
+  {
+    "source_slug": "famous-mexican-artists",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "Rivera's household extended beyond that marriage: Frida's younger sister, Cristina, sat for both painters through the early 1930s, turning up in the same National Palace stairwell cycle and in [a family line of painted and photographed portraits this site traces separately](/cristina-kahlo/).",
+      "anchor": "a family line of painted and photographed portraits this site traces separately",
+      "target_slug": "cristina-kahlo"
+    },
+    "review": "CurrentB10targetcompletebodyALLFAQ includingcore distinctionliteralmodel/symbolicconnection. Target gives Cristina inNationalPalacepanel and1928portrait/photographicdescendants. Sourcefamilyline assertion supported.",
+    "target_quote": "Cristina appears in the same crowded panel",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+    "target_article_sha256": "d7d3e819ec7839fb56c7b8bc95610faadcb6a16f5ff684c3b2639c46600dec06",
+    "source_article_sha256": "4bc8d0307cbd9c67fb2362cba9d3a41402b9c17bafb821ce5fc1a31d53b0acc5",
+    "source_and_target_body_allFAQ_actualread": true
+  },
+  {
+    "source_slug": "chiaroscuro-woodcut",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "[Vasari's Lives supplied the Renaissance with its name and its cast of artists in the same 1550 book that also invented a murder its subjects could not have committed](/renaissance-art/), and the same author's confident, undocumented account of who invented the chiaroscuro woodcut follows a similar shape: a good story, told without the archival check that later museum records, working from the objects, keep failing to confirm.",
+      "anchor": "Vasari's Lives supplied the Renaissance with its name and its cast of artists in the same 1550 book that also invented a murder its subjects could not have committed",
+      "target_slug": "renaissance-art"
+    },
+    "review": "CurrentB2target actualB9fullread exactarticleSHA unchanged. Vasari Castagnomurder refutedby1457/1461recordsandMilanesi1862 supports reportedfalse story; bridge nowdoesnotclaim Vasari personallyinventedmurder or same datingtestforprints.",
+    "target_quote": "Milanesi",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "target_article_sha256": "a5924cd23ea7d8cd60590b3ce4dace99f8cca6c70a2a3bd874cc47b6d04bb651",
+    "source_article_sha256": "be8f2844a8aa75db57f5b80c0b792e4da457210479568b9668bd91741e7f0205",
+    "source_and_target_body_allFAQ_actualread": true
+  },
+  {
+    "source_slug": "rococo-architecture-vs-baroque",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "Peter's Basilica](/st-peters-basilica/) came out of the Counter-Reformation, and the page on [Baroque paintings](/baroque-paintings/) shows the same taste for drama in a different medium.",
+      "anchor": "Baroque paintings",
+      "target_slug": "baroque-paintings"
+    },
+    "review": "Target complete bodyFAQ explicitlydramatic instant/emotionalintensity/lighting. Rococo source comparison restricted tastefordrama acrossmedia, notclaims allRococo secular or bothstyles identical.",
+    "target_quote": "a preference for capturing one fleeting dramatic instant",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+    "target_article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+    "source_article_sha256": "99985267a62985cb27320654e89b73c17307049409f8385c423ccdc77b83cd9c",
+    "source_and_target_body_allFAQ_actualread": true
+  },
+  {
+    "source_slug": "genre-painting",
+    "original_candidate": {
+      "source": "body",
+      "sentence": "The same lag between object and label runs through later art: [Art Deco](/art-deco/) was never called that by the people who designed in it.",
+      "anchor": "Art Deco",
+      "target_slug": "art-deco"
+    },
+    "review": "CurrentB9followupsourcebodyFAQ actuallyreadwith1966exhibition/1968bookEnglishpopularisation. Cannotinferglobalnoearlierusage;sourcebridge rewrittenretrospectivepopularityexplicitlybounded.",
+    "target_quote": "milestones in its later popularity",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+    "target_article_sha256": "251bf944a0aac26430fc108d872f7873ef8132c9631a9451a1808ead66fc0a79",
+    "source_article_sha256": "87b0fcccf2fbaa6ed0699957c8033646b0f9d1361e914abca75a672602cb52a6",
+    "source_and_target_body_allFAQ_actualread": true
+  }
+]

@@ -1,0 +1,281 @@
+{
+  "status": "five historical sources fresh semantic review complete; parent independent review required",
+  "parent": "c3d6902168e842ce41f8712778d44e7808ae0cc0",
+  "dependencies": [],
+  "slugs": [
+    "cristina-kahlo",
+    "famous-mexican-artists",
+    "chiaroscuro-woodcut",
+    "rococo-architecture-vs-baroque",
+    "genre-painting"
+  ],
+  "source_count": 5,
+  "original_candidates": 5,
+  "current_candidates": 3,
+  "full_source_body_allFAQ_read": {
+    "cristina-kahlo": {
+      "full_body_allFAQ_actualread": true,
+      "source_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b10-read/cristina-kahlo.txt",
+      "source_read_lines": "1–60",
+      "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+      "current_article_sha256": "d7d3e819ec7839fb56c7b8bc95610faadcb6a16f5ff684c3b2639c46600dec06",
+      "before_FAQ": [
+        "Born in 1908 and gone by 1964, she was Frida Kahlo's sister, younger by eleven months, who modeled for both Frida and Diego Rivera, Frida's husband, through the early 1930s, and had an affair with Rivera that split the sisters apart for a time before they made peace.",
+        "It is a 1928 painting, one of Frida's early works, completed shortly before she and Rivera wed. Its brushwork still owes more to Rivera's approach than to the pared-down, personal manner Frida grew into afterward, making it an early data point for how her mature style developed.",
+        "Memory, the Heart is a self-portrait Frida Kahlo painted in 1937, in oil on metal, owned today by the Paris-based collector Michel Petitjean. It shows Frida on a shoreline with a metal rod through an empty space in her chest and her own bleeding heart lying nearby in the sand. Art historians usually read it as a symbolic response to the affair Rivera had with Cristina, though Cristina does not appear in the scene itself.",
+        "Yes, in at least two documented works. Cristina appears on the National Palace stairwell panel that Rivera finished in 1934-35, part of his sweeping mural covering Mexico's past; separately, he also painted her nude in another allegorical panel at the Secretaría de Salubridad building.",
+        "Yes. Today, another photographer known as Cristina Kahlo is Frida's great-niece, and the granddaughter of the historical Cristina Kahlo she is named after. Her father, Antonio Kahlo, was the historical Cristina's son and also worked as a photographer; she went on to advise the makers of the 2024 Frida documentary.",
+        "Yes, though not right away. After learning Rivera and Cristina had become involved, Frida cut off her hair and put away the Tehuana dresses she associated with him, and the sisters spent roughly a year apart before making up. Cristina remained one of the sisters Frida stayed closest to for the rest of her life, later accompanying her on a trip to New York, even though the affair itself helped drive Frida and Diego into a divorce that lasted four years before they remarried in 1940.",
+        "Frida Kahlo, by his own account, despite marrying four times and despite his affair with her sister Cristina. In his autobiography, My Art, My Life, dictated to Gladys March, Rivera described Frida as the great love of his life. After she died in 1954 he mourned for about a year before remarrying his longtime art dealer, Emma Hurtado, and he set up the trust that turned Frida's Casa Azul into the museum it remains today."
+      ],
+      "after_FAQ": [
+        "Born in 1908 and gone by 1964, she was Frida Kahlo's sister, younger by eleven months, who modeled for both Frida and Diego Rivera, Frida's husband, through the early 1930s, and had an affair with Rivera that split the sisters apart for a time before they made peace.",
+        "It is a 1928 painting, one of Frida's early works, completed shortly before she and Rivera wed. Its brushwork still owes more to Rivera's approach than to the pared-down, personal manner Frida grew into afterward, making it an early data point for how her mature style developed.",
+        "Memory, the Heart is a self-portrait Frida Kahlo painted in 1937, in oil on metal, owned today by the Paris-based collector Michel Petitjean. It shows Frida on a shoreline with a metal rod through an empty space in her chest and her own bleeding heart lying nearby in the sand. Art historians usually read it as a symbolic response to the affair Rivera had with Cristina, though Cristina does not appear in the scene itself.",
+        "Yes, in at least two documented works. Cristina appears on the National Palace stairwell panel that Rivera finished in 1934-35, part of his sweeping mural covering Mexico's past; separately, he also painted her nude in another allegorical panel at the Secretaría de Salubridad building.",
+        "Yes. Today, another photographer known as Cristina Kahlo is Frida's great-niece, and the granddaughter of the historical Cristina Kahlo she is named after. Her father, Antonio Kahlo, was the historical Cristina's son and also worked as a photographer; she went on to advise the makers of the 2024 Frida documentary.",
+        "Yes, though not right away. After learning Rivera and Cristina had become involved, Frida cut off her hair and put away the Tehuana dresses she associated with him, and the sisters spent roughly a year apart before making up. Cristina remained one of the sisters Frida stayed closest to for the rest of her life, later accompanying her on a trip to New York, even though the affair itself helped drive Frida and Diego into their divorce in 1939; they married again in 1940.",
+        "Frida Kahlo, by his own account, despite marrying four times and despite his affair with her sister Cristina. In his autobiography, My Art, My Life, dictated to Gladys March, Rivera described Frida as the great love of his life. After she died in 1954 he mourned for about a year before remarrying his longtime art dealer, Emma Hurtado, and he set up the trust that turned Frida's Casa Azul into the museum it remains today."
+      ],
+      "facts_links_names_rechecked": true
+    },
+    "famous-mexican-artists": {
+      "full_body_allFAQ_actualread": true,
+      "source_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b10-read/famous-mexican-artists.txt",
+      "source_read_lines": "1–76",
+      "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+      "current_article_sha256": "4bc8d0307cbd9c67fb2362cba9d3a41402b9c17bafb821ce5fc1a31d53b0acc5",
+      "before_FAQ": [
+        "Los Tres Grandes (\\\"The Three Greats\\\") is the nickname for Rivera, Orozco, and Siqueiros, the trio named in full above, muralists most associated with the government-backed painting movement that followed Mexico's early-20th-century revolution.",
+        "Yes. On May 24, 1940, the muralist Siqueiros, introduced above as part of the trio, led some twenty armed men who stormed the walled Coyoacán compound where Natalia Sedova lived with her exiled husband. The couple threw themselves to the floor and escaped the spray of bullets, but a bullet hit his grandson, and an American guard on the property turned up dead afterward. Siqueiros faced seven charges; a judge later acquitted him on the two homicide counts, the conspiracy count, and the weapons count, and the country's incoming leader then arranged safe passage out for him before the remaining charges could go forward. Trotsky did not survive a second attempt that August, struck down by a different assailant wielding a mountaineer's pick.",
+        "Siqueiros ran a New York studio space in 1936, described above, that used industrial paint, spray guns, and deliberately unpredictable technique in place of traditional brushwork. Pollock, still in his twenties then, was one of the participants who helped with its projects; several later accounts credit that time with the pouring habit that eventually became his signature.",
+        "Siqueiros painted it on a Los Angeles wall in 1932, and the mural was read as anti-imperialist propaganda, partially covered by 1934, then painted over in full four years after that. No color photo of how it looked before the cover-up has ever turned up. The team that eventually restored it worked from chemical analysis of the surviving paint layers instead, and the wall went back on public view on the mural's eightieth birthday, October 9, 2012.",
+        "Prometheus is a 1930 fresco Orozco painted for the Frary Dining Hall, on the Pomona campus in the Claremont Colleges group of southern California, usually pointed to as the earliest example of a modern wall fresco anywhere in the country. It shows the mythical fire-thief mid-reach, flanked by a crowd, and drew immediate critical praise, including from Pollock himself, still in his teens when he saw it in person, who later, by his own account, called it the best painting on the continent.",
+        "By most measures of contemporary recognition, Frida Kahlo has outpaced Los Tres Grandes in global visibility, driven by decades of exhibitions, merchandise, and film, including the 2002 biopic Frida, that have made her self-portraits among the most reproduced images in art history. Her [catalogue is small enough to count, and disputed or forged works keep testing its edges decades after her death](/frida-kahlo-paintings/), and her most-reproduced self-portrait, [The Broken Column, is usually described as a recovery painting from spinal surgery even though the documented medical record places that surgery two years after the canvas was finished](/the-broken-column/). Historically, though, the three muralists profiled on this page, Rivera, Orozco, and Siqueiros, were regarded as Mexico's defining artists of their era, commissioned directly by the government to shape the country's post-revolutionary identity.",
+        "Beyond Frida Kahlo and Los Tres Grandes, several artists built serious reputations outside the muralist tradition. Rufino Tamayo, born in Oaxaca in 1899, rejected the muralists' overtly political program in favor of blending international modernist styles, Cubism among them, with Indigenous Zapotec imagery. María Izquierdo, born in 1902, was among the first Mexican women to hold a major solo exhibition and, alongside Kahlo, is generally ranked as one of the country's most important twentieth-century female painters; she and Tamayo were also a couple who shared a Mexico City studio in the late 1920s and early 1930s. Remedios Varo, born in Spain but a naturalized Mexican citizen for most of her working life, became a central figure in Mexico City's Surrealist circle, painting esoteric, dreamlike scenes far removed from the muralists' public wall-sized statements."
+      ],
+      "after_FAQ": [
+        "Los Tres Grandes (\\\"The Three Greats\\\") is the nickname for Rivera, Orozco, and Siqueiros, the trio named in full above, muralists most associated with the government-backed painting movement that followed Mexico's early-20th-century revolution.",
+        "Yes. On May 24, 1940, the muralist Siqueiros, introduced above as part of the trio, led some twenty armed men who stormed the walled Coyoacán compound where Natalia Sedova lived with her exiled husband. The couple threw themselves to the floor and escaped the spray of bullets, but a bullet hit his grandson, and an American guard on the property turned up dead afterward. Siqueiros faced seven charges; a judge later acquitted him on the two homicide counts, the conspiracy count, and the weapons count, and the country's incoming leader then arranged safe passage out for him before the remaining charges could go forward. Trotsky did not survive a second attempt that August, struck down by a different assailant wielding a mountaineer's pick.",
+        "Siqueiros ran a New York studio space in 1936, described above, that used industrial paint, spray guns, and deliberately unpredictable technique in place of traditional brushwork. Pollock, still in his twenties then, was one of the participants who helped with its projects; several later accounts credit that time with the pouring habit that eventually became his signature.",
+        "Siqueiros painted it on a Los Angeles wall in 1932, and the mural was read as anti-imperialist propaganda, partially covered by 1934, then painted over in full four years after that. No color photo of how it looked before the cover-up has ever turned up. The team that eventually restored it worked from chemical analysis of the surviving paint layers instead, and the wall went back on public view on the mural's eightieth birthday, October 9, 2012.",
+        "Prometheus is a 1930 fresco Orozco painted for the Frary Dining Hall, on the Pomona campus in the Claremont Colleges group of southern California, usually pointed to as the earliest example of a modern wall fresco anywhere in the country. It shows the mythical fire-thief mid-reach, flanked by a crowd, and drew immediate critical praise, including from Pollock himself, still in his teens when he saw it in person, who later, by his own account, called it the best painting on the continent.",
+        "By most measures of contemporary recognition, Frida Kahlo has outpaced Los Tres Grandes in global visibility, driven by decades of exhibitions, merchandise, and film, including the 2002 biopic Frida, that have made her self-portraits among the most reproduced images in art history. Her [catalogue is small enough to count, and disputed or forged works keep testing its edges decades after her death](/frida-kahlo-paintings/), and her most-reproduced self-portrait, [The Broken Column, is usually described as a recovery painting from spinal surgery even though the documented medical record places that surgery two years after the canvas was finished](/the-broken-column/). Historically, though, the three muralists profiled on this page, Rivera, Orozco, and Siqueiros, were regarded as Mexico's defining artists of their era, commissioned directly by the government to shape the country's post-revolutionary identity.",
+        "Beyond Frida Kahlo and Los Tres Grandes, several artists built serious reputations outside the muralist tradition. Rufino Tamayo, born in Oaxaca in 1899, rejected the muralists' overtly political program in favor of blending international modernist styles, Cubism among them, with Indigenous Zapotec imagery. María Izquierdo, born in 1902, was among the first Mexican women to hold a major solo exhibition and, alongside Kahlo, is generally ranked as one of the country's most important twentieth-century female painters; she and Tamayo were also a couple who shared a Mexico City studio in the late 1920s and early 1930s. Remedios Varo, born in Spain but a naturalized Mexican citizen for most of her working life, became a central figure in Mexico City's Surrealist circle, painting esoteric, dreamlike scenes far removed from the muralists' public wall-sized statements."
+      ],
+      "facts_links_names_rechecked": true
+    },
+    "chiaroscuro-woodcut": {
+      "full_body_allFAQ_actualread": true,
+      "source_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b10-read/chiaroscuro-woodcut.txt",
+      "source_read_lines": "1–64",
+      "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+      "current_article_sha256": "be8f2844a8aa75db57f5b80c0b792e4da457210479568b9668bd91741e7f0205",
+      "before_FAQ": [
+        "No single answer is settled. The Renaissance biographer Vasari pinned the honor on Ugo da Carpi, an Italian workshop cutter whose first documented brush with the technique is a Venetian Senate filing dated midsummer 1516, trailing two printmakers working in the German lands, Cranach and Burgkmair, by close to a decade, since both were already turning out multi-block color prints. Modern curators dismiss the Italian-origin story but disagree with each other over which of the two Germans got there first, and one Ohio museum's published catalog entry lays the borrowing at Cranach's feet, arguing he took Burgkmair's method and then altered a date to bury the debt.",
+        "Two clues point to a later date. Cranach only received the right to display the winged-serpent heraldry that appears on the sheet starting in 1508, years after the print supposedly left his workshop. And his household did not pick up multi-block color printing, according to the Ohio institution's catalog entry, until a 1508 journey to the Low Countries, where curators believe he studied his Augsburg-based competitor Hans Burgkmair's approach firsthand. Chicago's copy of the same sheet carries a museum-assigned date of roughly 1509 rather than the inscribed year.",
+        "Filing with Venice's governing Senate in July 1516, Ugo da Carpi described his color-printing method in fresh, unprecedented terms and asked the government to bar anyone else, indefinitely, from copying any design or woodcut carrying his name, past output or future. Two years afterward, Pope Leo X handed him a second, narrower privilege limited to just one specific work: his 1518 four-block print of the apostle Peter confronting Ananias over a lie about land money.",
+        "A two-block print, the form Cranach and Burgkmair worked in first, uses one key block for outlines and a single tone block for color, with unprinted paper standing in for highlights. A three-block print adds a second tone block for a wider range of shading. Wikipedia's account of the technique credits an unnamed craftsman at a printer's workshop in Strasbourg, run by a man named Schott, as the first to pull off the wider, three-block version of the process.",
+        "Wikipedia's account of the technique mentions this claim: Mantegna's painted cycle depicting Caesar's triumphal march, dated sometime in the final three decades of the 1400s, years ahead of the two German rivals and decades ahead of the Venetian workshop cutter who later fought over the credit. Calling it that leans on a looser, more general definition of the term than the color-registration process built from a key block plus one or more tone blocks that the sixteenth-century German and Italian printmakers are credited with developing, and reference works usually keep it filed apart from that later, better-documented dispute rather than folding it into the same rivalry."
+      ],
+      "after_FAQ": [
+        "No single answer is settled. The Renaissance biographer Vasari pinned the honor on Ugo da Carpi, an Italian workshop cutter whose first documented brush with the technique is a Venetian Senate filing dated midsummer 1516, trailing two printmakers working in the German lands, Cranach and Burgkmair, by close to a decade, since both were already turning out multi-block color prints. Modern curators dismiss the Italian-origin story but disagree with each other over which of the two Germans got there first, and one Ohio museum's published catalog entry lays the borrowing at Cranach's feet, arguing he took Burgkmair's method and then altered a date to bury the debt.",
+        "Two clues point to a later date. Cranach only received the right to display the winged-serpent heraldry that appears on the sheet starting in 1508, years after the print supposedly left his workshop. And his household did not pick up multi-block color printing, according to the Ohio institution's catalog entry, until a 1508 journey to the Low Countries, where curators believe he studied his Augsburg-based competitor Hans Burgkmair's approach firsthand. Chicago's copy of the same sheet carries a museum-assigned date of roughly 1509 rather than the inscribed year.",
+        "Filing with Venice's governing Senate in July 1516, Ugo da Carpi described his color-printing method in fresh, unprecedented terms and asked the government to bar anyone else, indefinitely, from copying any design or woodcut carrying his name, past output or future. Two years afterward, Pope Leo X handed him a second, narrower privilege limited to just one specific work: his 1518 four-block print of the apostle Peter confronting Ananias over a lie about land money.",
+        "A two-block print, the form Cranach and Burgkmair worked in first, uses one key block for outlines and a single tone block for color, with unprinted paper standing in for highlights. A three-block print adds a second tone block for a wider range of shading. Wikipedia's account of the technique credits an unnamed craftsman at a printer's workshop in Strasbourg, run by a man named Schott, as the first to pull off the wider, three-block version of the process.",
+        "No. That claim confuses the painted designs with later prints. Andrea Mantegna’s series of Caesar’s triumph was painted in the late fifteenth century, within the broad 1470–1500 period cited in the claim. The museum catalogue dates the woodcut version to 1599 and credits Andrea Andreani, working after Mantegna. It cannot give the German or Italian rivals in the dispute about who introduced the process in the 1500s an example in this medium dating from before 1500."
+      ],
+      "facts_links_names_rechecked": true
+    },
+    "rococo-architecture-vs-baroque": {
+      "full_body_allFAQ_actualread": true,
+      "source_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b10-read/rococo-architecture-vs-baroque.txt",
+      "source_read_lines": "1–80",
+      "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+      "current_article_sha256": "99985267a62985cb27320654e89b73c17307049409f8385c423ccdc77b83cd9c",
+      "before_FAQ": [
+        "The Baroque style was built for public impact, using big domes, columned fronts and grand state rooms to impress a crowd, and it began in late 16th-century Italy as part of the Catholic response to Protestantism. Rococo arrived in France about the 1730s as a lighter reaction to the royal palace at Versailles and mostly lives indoors, with curling asymmetric plasterwork, large mirrors and a pastel palette.",
+        "Reference works split on this. Wikipedia's Baroque entry presents Rococo as a still more decorated variant, while its Rococo entry and the Britannica article both frame it as a pushback against Louis XIV's court taste. The overlap is real in Bavaria and Austria, where Baroque exteriors were often given Rococo interiors, as in the Bavarian prince-bishop's palace at Würzburg.",
+        "Baroque. Wikipedia's Gesù entry dates the Jesuit church in Rome to a 1568 start, and its article on the Baroque style gives 1584 for the consecration, making it a standard early example. Rococo emerged in France in the early 18th century. Britannica cites a French salon finished in 1722, and many architecture surveys date its arrival to the 1730s.",
+        "No. Oval plans were already a Baroque device in Rome, as the Jesuit church Bernini designed on the Quirinale hill and the oval church Borromini built nearby both show. Rococo churches such as the Wieskirche also use ovals, but the shape does not distinguish the two styles.",
+        "The Hall of Mirrors, built between 1678 and 1684 under Louis XIV, is Late Baroque. Rococo arose afterward as a reaction to that style, and its best-known French example is a single Paris salon in the Soubise mansion, dated to the 1730s.",
+        "Renaissance, and specifically the High Renaissance. Leonardo lived from 1452 to 1519, and the Baroque style only took shape a century later, in late 16th-century Italy. Art-history surveys group him with Michelangelo and Raphael as the leading figures of the High Renaissance, the period running roughly from 1490 to 1527, which ended with the Sack of Rome.",
+        "Rococo. She reigned in the second half of the 18th century, after the heavier Baroque style tied to Louis XIV had given way to something lighter. Her Petit Trianon and the Hameau de la Reine at Versailles carry the Rococo taste: pastel interiors, floral boiseries, and a playful retreat from court formality. The wider Versailles complex holds both, since its core is Baroque and its later royal retreats are Rococo.",
+        "Critics treated it as frivolous from the start. The word itself was coined in the 19th century as a put-down, and Denis Diderot attacked painters such as François Boucher for celebrating aristocratic pleasure and sensuality over virtue. Church writers objected on other grounds, calling its ornament too worldly and too soft for a place of worship. Much of that hostility faded once art historians adopted the term as a neutral label."
+      ],
+      "after_FAQ": [
+        "The Baroque style was built for public impact, using big domes, columned fronts and grand state rooms to impress a crowd, and it began in late 16th-century Italy as part of the Catholic response to Protestantism. Rococo arrived in France about the 1730s as a lighter reaction to the royal palace at Versailles and mostly lives indoors, with curling asymmetric plasterwork, large mirrors and a pastel palette.",
+        "Reference works split on this. Wikipedia's Baroque entry presents Rococo as a still more decorated variant, while its Rococo entry and the Britannica article both frame it as a pushback against Louis XIV's court taste. The overlap is real in Bavaria and Austria, where Baroque exteriors were often given Rococo interiors, as in the Bavarian prince-bishop's palace at Würzburg.",
+        "Baroque. Wikipedia's Gesù entry dates the Jesuit church in Rome to a 1568 start, and its article on the Baroque style gives 1584 for the consecration, making it a standard early example. Rococo emerged in France in the early 18th century. Britannica cites a French salon finished in 1722, and many architecture surveys date its arrival to the 1730s.",
+        "No. Oval plans were already a Baroque device in Rome, as the Jesuit church Bernini designed on the Quirinale hill and the oval church Borromini built nearby both show. Rococo churches such as the Wieskirche also use ovals, but the shape does not distinguish the two styles.",
+        "The Hall of Mirrors, built between 1678 and 1684 under Louis XIV, is Late Baroque. Rococo arose afterward as a reaction to that style, and its best-known French example is a single Paris salon in the Soubise mansion, dated to the 1730s.",
+        "Renaissance, and specifically the High Renaissance. Leonardo lived from 1452 to 1519, and the Baroque style only took shape several decades after his death, in late 16th-century Italy. Art-history surveys group him with Michelangelo and Raphael as the leading figures of the High Renaissance, the period running roughly from 1490 to 1527, which ended with the Sack of Rome.",
+        "Her period includes more than Rococo. Marie Antoinette was queen consort in the later eighteenth century, after the court taste associated with Louis XIV. The Versailles estate spans several styles: its main palace is Baroque, but Gabriel’s Petit Trianon is a Neoclassical building. Meanwhile, the Hameau de la Reine has rustic cottages with refined rooms inside. Pastel decoration and floral boiseries may evoke Rococo, yet a playful retreat from court formality does not establish the architectural style of every building.",
+        "Critics treated it as frivolous from the start. The word itself was coined in the 19th century as a put-down, and Denis Diderot attacked painters such as François Boucher for celebrating aristocratic pleasure and sensuality over virtue. Church writers objected on other grounds, calling its ornament too worldly and too soft for a place of worship. Much of that hostility faded once art historians adopted the term as a neutral label."
+      ],
+      "facts_links_names_rechecked": true
+    },
+    "genre-painting": {
+      "full_body_allFAQ_actualread": true,
+      "source_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b10-read/genre-painting.txt",
+      "source_read_lines": "1–104",
+      "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+      "current_article_sha256": "87b0fcccf2fbaa6ed0699957c8033646b0f9d1361e914abca75a672602cb52a6",
+      "before_FAQ": [
+        "Late, and the Met hedges it. Its timeline essay says the word was probably first used this way at the close of the 1700s, and credits a French writer for it. Before that, no single word covered them.",
+        "Tate lists five, ranked: history painting at the top, then portraiture, then the everyday-life scenes that share the list's name, with still life and landscape at the bottom. The order came from the Academy in Paris.",
+        "The dividing line is whether a named sitter is claimed. A figure can be painted with complete realism and still be classed as a genre piece, which is what one London museum says about two of its own pictures: Murillo's boy and Greuze's girl both look lifelike, and neither is treated as a portrait.",
+        "The Met sets out the reasoning through a 1678 treatise by the painter van Hoogstraten, which put still life last because it rested on the eye and the hand, and history first because it was thought to demand imagination. Everyday scenes took the place in between.",
+        "Bruegel's Peasant Wedding is a standard one: a crowded village feast with no named sitter and no historical subject. Dutch and French painters supply others, among them Vermeer's quiet domestic interiors and Chardin's The Return from the Market, where a maid carries home bread and a joint of meat. What ties them together is the subject, ordinary people doing ordinary things, not a shared style."
+      ],
+      "after_FAQ": [
+        "Late, and the Met hedges it. Its timeline essay says the word was probably first used this way at the close of the 1700s, and credits a French writer for it. Before that, no single word covered them.",
+        "Tate lists five, ranked: history painting at the top, then portraiture, then the everyday-life scenes that share the list's name, with still life and landscape at the bottom. The order came from the Academy in Paris.",
+        "The dividing line is whether a named sitter is claimed. A figure can be painted with complete realism and still be classed as a genre piece, which is what one London museum says about two of its own pictures: Murillo's boy and Greuze's girl both look lifelike, and neither is treated as a portrait.",
+        "The Met sets out the reasoning through a 1678 treatise by the painter van Hoogstraten, which put still life last because it rested on the eye and the hand, and history first because it was thought to demand imagination. Everyday scenes took the place in between.",
+        "Bruegel's Peasant Wedding is a standard one: a crowded village feast with no named sitter and no historical subject. Dutch and French painters supply others, among them Vermeer's quiet domestic interiors and Chardin's The Return from the Market, where a maid carries home bread and a joint of meat. What ties them together is the subject, ordinary people doing ordinary things, not a shared style."
+      ],
+      "facts_links_names_rechecked": true
+    }
+  },
+  "original_targets": {
+    "diego-rivera": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+      "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+      "article_sha256": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+      "full_body_allFAQ_read": true,
+      "coverage": "B10actualfullbodyALLFAQ"
+    },
+    "baroque-paintings": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+      "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+      "article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+      "full_body_allFAQ_read": true,
+      "coverage": "B10actualfullbodyALLFAQ"
+    },
+    "cristina-kahlo": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+      "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+      "article_sha256": "d7d3e819ec7839fb56c7b8bc95610faadcb6a16f5ff684c3b2639c46600dec06",
+      "full_body_allFAQ_read": true,
+      "coverage": "B10actualfullbodyALLFAQ"
+    },
+    "renaissance-art": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+      "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+      "article_sha256": "a5924cd23ea7d8cd60590b3ce4dace99f8cca6c70a2a3bd874cc47b6d04bb651",
+      "full_body_allFAQ_read": true,
+      "coverage": "B9actualfullbodyALLFAQ exactunchangedarticleSHA receipt /Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch9-target-map.json"
+    },
+    "art-deco": {
+      "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+      "source_file_sha256": "b642f4ae1ece18a6bd292dc8b492ee16b390aa2d832dd44f06a8f87eca7076f0",
+      "article_sha256": "251bf944a0aac26430fc108d872f7873ef8132c9631a9451a1808ead66fc0a79",
+      "full_body_allFAQ_read": true,
+      "coverage": "B9actualfullbodyALLFAQ exactunchangedarticleSHA receipt /Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch9-semantic.json"
+    }
+  },
+  "manual_original_candidates": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch10-manual-bridge-evidence.json",
+  "new_notes_not_history": true,
+  "checks": {
+    "genre-painting": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "famous-mexican-artists": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "chiaroscuro-woodcut": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "rococo-architecture-vs-baroque": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    },
+    "cristina-kahlo": {
+      "prose": 0,
+      "bridge": 0,
+      "build": 0
+    }
+  },
+  "preservation": {
+    "cristina-kahlo": {
+      "FAQ_count": 7,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "famous-mexican-artists": {
+      "FAQ_count": 7,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "chiaroscuro-woodcut": {
+      "FAQ_count": 5,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "rococo-architecture-vs-baroque": {
+      "FAQ_count": 8,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    },
+    "genre-painting": {
+      "FAQ_count": 5,
+      "questions_exact_preserved": true,
+      "whole_original_Markdown_URL_sequence_preserved": true
+    }
+  },
+  "SVG_full_XML_final_PNG_actualviewed": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b10-cristina.png",
+  "primary": {
+    "cranach": {
+      "url": "https://www.clevelandart.org/art/1941.40",
+      "coverage": "Completeobjectdescription/local1–40; datesprobableafter1508, heraldry, Netherlandsprobablelearning",
+      "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b10-primary/cranach.txt"
+    },
+    "cda": {
+      "url": "https://lucascranach.org/de/US_MMANY_27-54-21/",
+      "coverage": "Complete scholarlycuratorialmain web0–32 actuallyread; localcda.txt savedUTF8mojibake so webcorrectGerman primaryused; metalcolour1507,tintedpaper, toneplate later1508/1509. Allbibliography/provenance notclaimedread."
+    },
+    "andreani": {
+      "url": "https://www.metmuseum.org/art/collection/search/769238",
+      "coverage": "Webfullmuseumobjectmain3–15 andmetadata49–60 actualread; curl429 alternativeweb200;1599Andreaniafterpaintings1484–1492."
+    },
+    "petit": {
+      "url": "https://en.chateauversailles.fr/discover/estate/estate-trianon/petit-trianon",
+      "coverage": "Relevantcompletehistoryarchitecture local110–145 primary; Neoclassical,Gabriel1768, LouisXVIgiftqueen. Full555linepage notclaimedread."
+    },
+    "hameau": {
+      "url": "https://www.chateauversailles.fr/decouvrir/domaine/domaine-trianon/hameau-reine",
+      "coverage": "Relevantcompleteofficialdescriptionlocal305–315 rusticaspectrefinedinterior;fullpage notclaimedread."
+    },
+    "frida": {
+      "url": "https://www.museofridakahlo.org.mx/museo/",
+      "coverage": "Relevantcompleteobjectentry clocks local465–478 actualread; 1939divorce/8Dec1940remarriage; restmuseumtimeline notclaimedread."
+    },
+    "getty": {
+      "url": "https://www.getty.edu/projects/conservation-america-tropical/",
+      "coverage": "CompletemainGoaloutcomesbackgroundapproach local101–145;preservationshownnotrepainting; timeline1942differentlatestGRJ1938; no silentconflict."
+    },
+    "getty-grj": {
+      "url": "https://www.getty.edu/publications/getty-research-journal/21/shorter-notices/worldwide-emotion/",
+      "coverage": "Relevantfullprimarypassages local628–668 actualread, whitewashedbefore1938/deportationbefore1933mail; notwholeessay. This supportsretained1938vsdifferentbroaderprojecttimeline1942."
+    },
+    "time-interview": {
+      "url": "https://time.com/7206184/frida-kahlo-cristina-kahlo-documentary/",
+      "coverage": "Completeactualinterviewmain118–162 read; initialAllyinsertnotfollowed. firsthandCristinaabout1yearsistersapart,fatherdiedage13,2025career35/docconsultant. Otherfamilydata keptinheritednotnewprimaryproof."
+    },
+    "failed-chicago": {
+      "url": "https://www.artic.edu/files/fed02e4c-00c6-4c2b-bc08-889a74cba160/AIC_MuseumStudies_12-1_UPDF.pdf",
+      "coverage": "Fetchedonepagescan noextractabletext. NOTfullread/notusedasproof; actualCDAofficialfallback completecuratorialmain."
+    }
+  },
+  "skill_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/skill-receipt.json",
+  "diff_self_read": "Final218lines all content reviewed; initial508lines1–110/111–245/246–350 includingformatting; final160–218read plus95–160 re-read; remainingformatdiffremoved noomissionfacts.",
+  "spread": "General findings to root for17sitescan/prevention: relatedprintstages do notcreatechronologycontradiction; paintings≠prints; styleofbuilding cannot inferfromclient/retreat; subject depicted≠symboliclink. Originalcheckout/index untouched,no push."
+}

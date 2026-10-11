@@ -1,7 +1,7 @@
 <svg viewBox="0 0 1200 620" width="1200" height="620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
   <rect width="1200" height="620" fill="#faf6f0"/>
   <text x="600" y="50" text-anchor="middle" font-size="26" fill="#4a3728" font-weight="bold">A Camera Skips One Generation, Then Returns Twice</text>
-  <text x="600" y="78" text-anchor="middle" font-size="15" fill="#6d4f3a">Four generations of one Mexico City family, alternating who holds the camera and who sits for it</text>
+  <text x="600" y="78" text-anchor="middle" font-size="15" fill="#6d4f3a">Four generations of one Mexico City family; a photographic line passes through Cristina Kahlo to her son and granddaughter</text>
 
   <line x1="80" y1="330" x2="1120" y2="330" stroke="#8a5a34" stroke-width="4"/>
 
@@ -22,11 +22,11 @@
   <circle cx="450" cy="330" r="14" fill="#a6733f"/>
   <text x="450" y="270" text-anchor="middle" font-size="15" fill="#4a3728" font-weight="bold">Cristina Kahlo</text>
   <text x="450" y="290" text-anchor="middle" font-size="12" fill="#7a6248">1908-1964</text>
-  <text x="450" y="308" text-anchor="middle" font-size="12" fill="#7a6248">painted and muraled, not behind a camera</text>
-  <text x="450" y="368" text-anchor="middle" font-size="13" fill="#4a3728">Painted by Frida (1928,</text>
-  <text x="450" y="386" text-anchor="middle" font-size="13" fill="#4a3728">1937) and muraled by</text>
-  <text x="450" y="404" text-anchor="middle" font-size="13" fill="#4a3728">Rivera (1934-35, Ministry</text>
-  <text x="450" y="422" text-anchor="middle" font-size="12" fill="#7a6248">of Health); mother of Antonio</text>
+  <text x="450" y="308" text-anchor="middle" font-size="12" fill="#7a6248">model for Frida and Rivera</text>
+  <text x="450" y="368" text-anchor="middle" font-size="13" fill="#4a3728">Portrait by Frida (1928);</text>
+  <text x="450" y="386" text-anchor="middle" font-size="13" fill="#4a3728">symbolic link to works of 1937;</text>
+  <text x="450" y="404" text-anchor="middle" font-size="13" fill="#4a3728">model for Rivera (1934-35,</text>
+  <text x="450" y="422" text-anchor="middle" font-size="12" fill="#7a6248">Ministry of Health); Antonio’s mother</text>
 
   <path d="M 520 330 L 680 330" stroke="#b08050" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
   <text x="600" y="320" text-anchor="middle" font-size="11" fill="#a6733f" font-style="italic">son</text>
@@ -59,6 +59,6 @@
     </marker>
   </defs>
 
-  <text x="600" y="500" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">Two of the four generations photographed; the other two, joined by marriage and by paint rather than by a lens, were photographed and painted instead.</text>
-  <text x="600" y="520" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">The name Cristina Kahlo now belongs to two different working artists in the same family, born roughly half a century apart.</text>
+  <text x="600" y="500" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">Three generations used photography: Guillermo, Antonio and the younger Cristina; the older Cristina sat for painters.</text>
+  <text x="600" y="520" text-anchor="middle" font-size="12" fill="#7a6248" font-style="italic">The name Cristina Kahlo now belongs to a historical model and a working photographer in the same family, born roughly half a century apart.</text>
 </svg>

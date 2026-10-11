@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Peter's Basilica](/st-peters-basilica/) came out of the Counter-Reformation, and the page on [Baroque paintings](/baroque-paintings/) shows the same taste for drama in a different medium.",
+    "target_slug": "baroque-paintings",
+    "note": "Target complete bodyFAQ explicitlydramatic instant/emotionalintensity/lighting. Rococo source comparison restricted tastefordrama acrossmedia, notclaims allRococo secular or bothstyles identical. Actualtargetquote: a preference for capturing one fleeting dramatic instant",
+    "source_article_sha256": "99985267a62985cb27320654e89b73c17307049409f8385c423ccdc77b83cd9c",
+    "target_article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts"
+  }
+]

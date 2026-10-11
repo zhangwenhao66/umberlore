@@ -6379,10 +6379,10 @@ export const guides: Guide[] = [
     "slug": "cristina-kahlo",
     "category": "Painting",
     "title": "Cristina Kahlo: The Sister in Four Kahlo and Rivera Artworks",
-    "description": "Cristina Kahlo appears in at least four documented works by Frida Kahlo and Diego Rivera. Her own family kept producing photographers, four generations running.",
+    "description": "At least four works by Frida Kahlo and Diego Rivera depict Cristina or refer to her symbolically. Her family connects three photographers across four generations.",
     "published": "2026-08-27",
     "updated": "2026-09-22",
-    "coreSummary": "Cristina Kahlo y Calderón (1908-1964), Frida Kahlo's younger sister, is a documented subject in at least four artworks: Frida's 1928 Portrait of Cristina, My Sister; her 1937 self-portrait Memory, the Heart, which responds to Cristina's affair with Frida's husband Diego Rivera; and two Rivera murals, a 1934-35 panel at Mexico City's National Palace and a nude figure in his Ministry of Health mural. The family's connection to image-making extended past painting: Cristina's son, photographer Antonio Kahlo, and his daughter, also named Cristina Kahlo, a consultant on the 2024 documentary Frida, extended a photographic line that began with the sisters' father, commercial photographer Guillermo Kahlo.",
+    "coreSummary": "Cristina Kahlo y Calderón (1908-1964), Frida Kahlo's younger sister, is depicted or symbolically connected to at least four artworks: Frida's 1928 Portrait of Cristina, My Sister; her 1937 self-portrait Memory, the Heart, which responds to Cristina's affair with Frida's husband Diego Rivera; and two Rivera murals, a 1934-35 panel at Mexico City's National Palace and a nude figure in his Ministry of Health mural. The family's connection to image-making extended past painting: Cristina's son, photographer Antonio Kahlo, and his daughter, also named Cristina Kahlo, a consultant on the 2024 documentary Frida, extended a photographic line that began with the sisters' father, commercial photographer Guillermo Kahlo.",
     "image": "/images/kahlo-sisters-1916.jpg",
     "imageAlt": "A 1916 group portrait of sisters Matilde, Adriana, Frida, and Cristina Kahlo, photographed by their father Guillermo Kahlo, twelve years before Frida painted Cristina for the first time.",
     "imageCredit": "[Guillermo Kahlo, Matilde, Adriana, Frida and Cristina Kahlo, 1916](https://commons.wikimedia.org/wiki/File:Guillermo_Kahlo_-_Matilde,_Adriana,_Frida_and_Cristina_Kahlo_-_Google_Art_Project.jpg), public domain (Guillermo Kahlo died in 1941).",
@@ -6391,7 +6391,7 @@ export const guides: Guide[] = [
         "heading": "One sister, at least four documented artworks",
         "body": [
           "Cristina Kahlo y Calderón was born on 7 June 1908 in Coyoacán, Mexico City, eleven months after her sister Frida, to the photographer Guillermo Kahlo and his wife Matilde Calderón. Most of what gets written about her stops at biography: the close bond with Frida, the failed marriage, the affair with Diego Rivera that nearly ended the sisters' relationship. What tends to get skipped is a shorter, more checkable list, the actual artworks in which Cristina appears, made by two of the twentieth century's [most examined Mexican artists](/famous-mexican-artists/) over roughly a decade.",
-          "By the time Frida and Rivera had returned to Mexico as established painters in the early 1930s, Cristina was sitting for both of them regularly. That work survives in at least two Frida paintings, one Frida self-portrait that uses her only as a symbol, and two separate Rivera murals in two different Mexico City buildings. Each one records a different stage of the sisters' relationship, and each has a documented location, date range, or provenance that a museum catalogue or a mural's site history can confirm."
+          "By the time Frida and Rivera had returned to Mexico as established painters in the early 1930s, Cristina was sitting for both of them regularly. That work survives in a portrait by Frida and two Rivera murals in separate Mexico City buildings. Two further Frida self-portraits relate to Cristina without depicting her directly. Each one records a different stage of the sisters' relationship, and each has a documented location, date range, or provenance that a museum catalogue or a mural's site history can confirm."
         ]
       },
       {
@@ -6420,7 +6420,7 @@ export const guides: Guide[] = [
         "heading": "A camera runs in the family, one generation at a time",
         "body": [
           "Frida's paintbrush was not the only image-making tool in this family. Guillermo Kahlo, Frida and Cristina's father, was not Mexican by birth: born Carl Wilhelm Kahlo in Pforzheim, in what is now Germany, he emigrated to Mexico in 1891 and took Mexican citizenship in 1894, then built a career as a commercial photographer, commissioned by the government to document the country's architecture and churches, work published under Mexico's Ministry of Education in 1923. By his era, photography had moved well past [the daguerreotype's silver-plated-copper origins](/daguerreotype/) and into the studio-portrait and archival-documentation work that made up his living. The 1916 group portrait of his four daughters at the top of this article, Cristina among them as a child, is his.",
-          "Cristina herself never picked up the camera professionally, spending her documented life as a painter's and a muralist's subject, not an image-maker in her own right. She was also, of the four Kahlo sisters Guillermo and Matilde raised, the only one who went on to have children, which is the specific reason the family's photographic line runs through her descendants, not Frida's or either of their other two sisters'. Her son, Antonio Kahlo, took photography up as an amateur, with a darkroom at home; when his own daughter was about ten years old, he let her help him develop a print of a family picnic, and watching the image surface in the chemical bath is what she has said made her fall in love with the medium. Antonio died at 42, when that daughter, also named Cristina Kahlo after her grandmother, was 13. She built a 35-year career as a working photographer anyway, documenting Mexican cultural institutions and communities, and much of what she knows about her great-aunt Frida, she has said, came from research she did later in life rather than family stories. In 2024, she served as a consultant on Frida, a documentary directed by Carla Gutiérrez that premiered at Sundance on 18 January that year, produced by TIME Studios and Imagine Documentaries and distributed by Amazon MGM Studios; the film skips an outside narrator and uses Frida's own writing, voiced by the actress Fernanda Echevarría, and went on to a place on the 2025 Oscars documentary shortlist. The name Cristina Kahlo now belongs to two different working artists in one family, born roughly half a century apart, on either side of the paintings and murals in between."
+          "Cristina herself never picked up the camera professionally, spending her documented life as a painter's and a muralist's subject, not an image-maker in her own right. She was also, of the four Kahlo sisters Guillermo and Matilde raised, the only one who went on to have children, which is the specific reason the family's photographic line runs through her descendants, not Frida's or either of their other two sisters'. Her son, Antonio Kahlo, took photography up as an amateur, with a darkroom at home; when his own daughter was about ten years old, he let her help him develop a print of a family picnic, and watching the image surface in the chemical bath is what she has said made her fall in love with the medium. Antonio died at 42, when that daughter, also named Cristina Kahlo after her grandmother, was 13. She built a 35-year career as a working photographer anyway, documenting Mexican cultural institutions and communities, and much of what she knows about her great-aunt Frida, she has said, came from research she did later in life rather than family stories. In 2024, she served as a consultant on Frida, a documentary directed by Carla Gutiérrez that premiered at Sundance on 18 January that year, produced by TIME Studios and Imagine Documentaries and distributed by Amazon MGM Studios; the film skips an outside narrator and uses Frida's own writing, voiced by the actress Fernanda Echevarría, and went on to a place on the 2025 Oscars documentary shortlist. The name Cristina Kahlo now belongs to a historical model and a working photographer in one family, born roughly half a century apart, on either side of the paintings and murals in between."
         ],
         "image": {
           "src": "/images/cristina-kahlo-photography-lineage-diagram.svg",
@@ -6451,7 +6451,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Did Frida Kahlo ever forgive her sister Cristina?",
-        "answer": "Yes, though not right away. After learning Rivera and Cristina had become involved, Frida cut off her hair and put away the Tehuana dresses she associated with him, and the sisters spent roughly a year apart before making up. Cristina remained one of the sisters Frida stayed closest to for the rest of her life, later accompanying her on a trip to New York, even though the affair itself helped drive Frida and Diego into a divorce that lasted four years before they remarried in 1940."
+        "answer": "Yes, though not right away. After learning Rivera and Cristina had become involved, Frida cut off her hair and put away the Tehuana dresses she associated with him, and the sisters spent roughly a year apart before making up. Cristina remained one of the sisters Frida stayed closest to for the rest of her life, later accompanying her on a trip to New York, even though the affair itself helped drive Frida and Diego into their divorce in 1939; they married again in 1940."
       },
       {
         "question": "Who was Diego Rivera's love of his life?",
@@ -6494,6 +6494,10 @@ export const guides: Guide[] = [
       {
         "label": "The Jackalope: Interview with Cristina Kahlo, great-niece of Frida Kahlo",
         "url": "https://jackalopemagazine.com/2013/10/23/qa-cristina-kahlo/"
+      },
+      {
+        "label": "Museo Frida Kahlo: clocks recording divorce and remarriage",
+        "url": "https://www.museofridakahlo.org.mx/museo/"
       }
     ]
   },
@@ -7031,7 +7035,7 @@ export const guides: Guide[] = [
     "description": "David Alfaro Siqueiros ran a workshop that shaped Jackson Pollock, then led an armed raid on Leon Trotsky's villa. A judge acquitted him of the worst charges months later.",
     "published": "2026-08-30",
     "updated": "2026-08-30",
-    "coreSummary": "Mexico's most consequential modern artists were not painters working in isolation but three muralists hired by the same 1920s government program: Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros, later nicknamed Los Tres Grandes. Siqueiros erased a Los Angeles mural that Getty conservators spent years restoring, ran a 1936 New York workshop where a young Jackson Pollock learned to pour paint from a can, and on May 24, 1940, led roughly twenty armed men into Leon Trotsky's Coyoacán villa in a failed assassination attempt; a judge acquitted him of the most serious charges months later, and Mexico's incoming president arranged for him to leave the country, sparing him the rest. Orozco's 1930 fresco Prometheus at Pomona College, the first modern fresco painted in the United States, drew a different kind of attention: Pollock visited it that same year and called it the greatest painting in North America.",
+    "coreSummary": "Mexico's most consequential modern artists were not painters working in isolation but three muralists hired by the same 1920s government program: Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros, later nicknamed Los Tres Grandes. Siqueiros painted a Los Angeles mural that was later whitewashed and that Getty conservators spent years conserving, ran a 1936 New York workshop where a young Jackson Pollock learned to pour paint from a can, and on May 24, 1940, led roughly twenty armed men into Leon Trotsky's Coyoacán villa in a failed assassination attempt; a judge acquitted him of the most serious charges months later, and Mexico's incoming president arranged for him to leave the country, sparing him the rest. Orozco's 1930 fresco Prometheus at Pomona College, the first modern fresco painted in the United States, drew a different kind of attention: Pollock visited it that same year and called it the greatest painting in North America.",
     "image": "/images/david-alfaro-siqueiros-portrait-1922.jpg",
     "imageAlt": "David Alfaro Siqueiros, photographed by an unknown photographer circa 1922-1924, roughly a year before he helped found the Mexican muralist movement's painters' union.",
     "imageCredit": "[David Alfaro Siqueiros, 1922](https://commons.wikimedia.org/wiki/File:David_Alfaro_Siqueiros,_1922.jpg), unknown photographer, public domain.",
@@ -7048,7 +7052,7 @@ export const guides: Guide[] = [
         "heading": "A Los Angeles mural whitewashed for eighty years",
         "body": [
           "In 1932, art educator Nelbert Chouinard invited Siqueiros to Los Angeles to run mural workshops, and over a six-month stay he completed three murals with a team of student collaborators. The most consequential was América Tropical: Oprimida y Destrozada por los Imperialismos (Tropical America: Oppressed and Destroyed by Imperialism), painted on the exterior wall of the Plaza Art Center facing Olvera Street. Commissioned as a decorative piece, it turned into an image of an Indigenous peon crucified beneath an American eagle, a far more radical statement than the patrons had asked for.",
-          "The mural received some favorable notice but was read by others as Communist propaganda; the street-facing portion was partially covered within two years and the whole wall was whitewashed by 1938. Siqueiros himself was deported from the United States that same year for political activity, before the final cover-up. No color photographs of the original are known to survive. In 2012, the Getty Conservation Institute completed a restoration project that relied on scientific paint analysis rather than any surviving color record to recover as much of Siqueiros's original palette as possible, and the mural became newly viewable to the public on October 9, 2012, its eightieth anniversary, at a dedicated América Tropical Interpretive Center that now stands nearby."
+          "The mural received some favorable notice but was read by others as Communist propaganda; the street-facing portion was partially covered within two years and the whole wall was whitewashed by 1938. Siqueiros had already left the United States by the time of the complete cover-up. The later censorship was not his own destruction of the painting. No color photographs of the original are known to survive. In 2012, the Getty Conservation Institute completed a restoration project that relied on scientific paint analysis rather than any surviving color record to recover as much of Siqueiros's original palette as possible, and the mural became newly viewable to the public on October 9, 2012, its eightieth anniversary, at a dedicated América Tropical Interpretive Center that now stands nearby."
         ]
       },
       {
@@ -7160,6 +7164,10 @@ export const guides: Guide[] = [
       {
         "label": "Olga's Gallery: David Alfaro Siqueiros Biography",
         "url": "https://www.freeart.com/gallery/s/siqueiros/siqueirosbio.html"
+      },
+      {
+        "label": "Getty Research Journal: Worldwide Emotion",
+        "url": "https://www.getty.edu/publications/getty-research-journal/21/shorter-notices/worldwide-emotion/"
       }
     ]
   },
@@ -7420,7 +7428,7 @@ export const guides: Guide[] = [
     "description": "The Cleveland Museum of Art dates Cranach's inscribed-1506 chiaroscuro woodcut to after 1508, once he had learned the tone-block technique from a rival.",
     "published": "2026-09-01",
     "updated": "2026-09-01",
-    "coreSummary": "A chiaroscuro woodcut credited to Lucas Cranach the Elder and inscribed 1506 could not have been made that year: the Cleveland Museum of Art's collection record for the print, Saint Christopher, says it carries a coat of arms Cranach was not granted permission to use until 1508, and that its tone-block technique likely came from a 1508 trip to the Netherlands where he learned the process from his rival Hans Burgkmair, a debt the backdating was meant to hide. A separate, more flattering account tied to the Metropolitan Museum has Cranach sending a proof to the patron Conrad Peutinger in 1507, a full year earlier, with Burgkmair's prints following only as a commissioned response, an account the Cleveland dating directly contradicts. Neither version squares with the one that stuck: Giorgio Vasari's 1550 Lives credited the Italian printmaker Ugo da Carpi, whose earliest documented chiaroscuro work is a July 1516 petition to the Venetian Senate, seven to nine years after the German prints, describing the process as a new manner of printing light and dark.",
+    "coreSummary": "A chiaroscuro woodcut credited to Lucas Cranach the Elder and inscribed 1506 could not have been made that year: the Cleveland Museum of Art's collection record for the print, Saint Christopher, says it carries a coat of arms Cranach was not granted permission to use until 1508, and that its tone-block technique likely came from a 1508 trip to the Netherlands where he learned the process from his rival Hans Burgkmair, a debt the backdating was meant to hide. Earlier colour prints reached the patron Conrad Peutinger in 1507 and prompted Burgkmair’s experiments. The Cranach Digital Archive distinguishes those metal-coloured prints on tinted paper from the later tone-block process, so the dates need not contradict each other. The earlier German works challenge the Italian priority claim that Vasari made: Giorgio Vasari's 1550 Lives credited the Italian printmaker Ugo da Carpi, whose earliest documented chiaroscuro work is a July 1516 petition to the Venetian Senate, seven to nine years after the German prints, describing the process as a new manner of printing light and dark.",
     "image": "/images/chiaroscuro-woodcut-cranach-saint-christopher.jpg",
     "imageAlt": "Lucas Cranach the Elder's chiaroscuro woodcut Saint Christopher, inscribed 1506 but dated by the Cleveland Museum of Art to probably after 1508.",
     "imageCredit": "[Saint Christopher](https://www.metmuseum.org/art/collection/search/397470), Lucas Cranach the Elder, 1506, The Metropolitan Museum of Art (Purchase, Joseph Pulitzer Bequest, 1917), public domain",
@@ -7436,8 +7444,8 @@ export const guides: Guide[] = [
       {
         "heading": "A patron's proof, or a rival's commission",
         "body": [
-          "A more flattering account of the same years survives in institutional retellings tied to the Metropolitan Museum's collection. In 1507, Cranach's patron Frederick III, elector of Saxony, sent a proof impression of a Cranach print to Conrad Peutinger, a councillor to the future Holy Roman Emperor Maximilian I based in Augsburg. Peutinger was impressed enough by the print's coloring that he commissioned Hans Burgkmair, an Augsburg printmaker, to produce chiaroscuro woodcuts of his own; the following year, Peutinger sent Frederick two of Burgkmair's results. On this telling, Cranach was demonstrably first, with a finished proof already circulating a year or more before the earliest date Cleveland allows for his tone-block prints, and Burgkmair followed as a direct, commissioned response.",
-          "The two accounts do not fit together. If Cranach had a proof impressive enough to send to a foreign councillor in 1507, the technique behind it cannot also be something he only picked up on a trip abroad the following year. Wikipedia's synthesis of the surrounding scholarship acknowledges the contradiction without resolving it, stating that the two-block chiaroscuro woodcut \"was probably first invented by Lucas Cranach the Elder in Germany in 1508 or 1509, though he backdated some of his first prints,\" while also noting a separate, competing view crediting Burgkmair \"in all probability\" instead, developing the technique for Emperor Maximilian as a cheap way to circulate his image widely. Neither museum record, Cleveland's or the Peutinger account tied to the Met, treats the other as settled.",
+          "In 1507, Cranach’s patron Frederick III, elector of Saxony, sent colour prints to Conrad Peutinger in Augsburg. The Cranach Digital Archive describes impressions of armoured riders printed with gold and silver. Peutinger then encouraged artists in Augsburg to develop that process, and in September 1508 sent examples back to the Saxon court. The archive identifies them as Burgkmair’s Saint George and Emperor Maximilian. These early colour experiments preceded the use of a tone block whose unprinted areas reveal the paper as highlights.",
+          "That technical distinction matters. In Cranach’s early Saint George, a second block printed highlights onto paper already coloured with a brush. The later process printed colour from a tone block and left the paper unprinted for light areas. The Cranach Digital Archive dates Cranach’s first examples of that later process to 1509, after Burgkmair’s innovations in Augsburg. Wikipedia’s synthesis still presents competing priority claims, but a proof circulating in 1507 does not by itself demonstrate use of the later tone-block method.",
           "A third German printmaking center complicates the timeline further. According to the same Wikipedia synthesis, a block-cutter, a formschneider, working in the press of the Strasbourg publisher Johannes Schott is credited as the first to produce a chiaroscuro woodcut printed from three separate blocks, adding another named claimant to a technique that, within a single decade in southern Germany, already had at least two artists and one anonymous craftsman with a documented stake in having done it first."
         ],
         "image": {
@@ -7461,9 +7469,9 @@ export const guides: Guide[] = [
       {
         "heading": "What reference works say now",
         "body": [
-          "Modern reference accounts reject Vasari's claim of Italian precedence in plain terms. Wikipedia's synthesis of the scholarship states it directly: \"Despite Vasari's claim for Italian precedence in Ugo da Carpi, it is clear that his, the first Italian examples, date to around 1516,\" seven years past 1509, the latest year even the most cautious dating assigns to the German prints. Rejecting Ugo's priority does not settle the question Vasari's account skipped over entirely, though: which German printmaker actually got there first. The scholarship offers no single answer, only Cleveland's case for Burgkmair as the true source that Cranach copied and concealed, set against the Peutinger-proof account's case for Cranach as the genuine originator that Burgkmair was commissioned to follow.",
-          "A separate, looser reading of the term pushes the timeline back even further, and outside Germany entirely. Some sources credit the Italian painter Andrea Mantegna's Triumph of Julius Caesar, produced sometime between 1470 and 1500, as the first chiaroscuro woodcut, years or decades before the German printmakers, and decades before Ugo da Carpi's Venetian filing. That claim rests on a broader definition of chiaroscuro printing than the specific two-block, tone-and-highlight process Cranach, Burgkmair, and Ugo all worked in, and reference accounts that mention it generally treat it as a separate strand of the term's use, not a direct rival claim to the same invention.",
-          "What survives across all these accounts is a technique whose origin story keeps failing the same test: a specific date, checked against a specific fact on the ground, that the date cannot explain. Cranach's coat of arms was not his to use until 1508, on a print he dated 1506. Ugo's Venetian Senate petition described his process as new in a year when it was already close to a decade old somewhere else. [Vasari's Lives supplied the Renaissance with its name and its cast of artists in the same 1550 book that also invented a murder its subjects could not have committed](/renaissance-art/), and the same author's confident, undocumented account of who invented the chiaroscuro woodcut follows a similar shape: a good story, told without the archival check that later museum records, working from the objects, keep failing to confirm. A ceramic technique three centuries later ran into a related problem, [a name borrowed from an older process it never actually used](/majolica/), a reminder that mismatched names and uncheckable origin stories were never unique to sixteenth-century printmaking. The rest of UmberLore's [Technique hub](/topics/technique/) covers fresco painting and Prussian blue pigment, among others."
+          "Modern reference accounts reject Vasari's claim of Italian precedence in plain terms. Wikipedia's synthesis of the scholarship states it directly: \"Despite Vasari's claim for Italian precedence in Ugo da Carpi, it is clear that his, the first Italian examples, date to around 1516,\" seven years past 1509, the latest year even the most cautious dating assigns to the German prints. Rejecting Ugo's priority does not settle the question Vasari's account skipped over entirely, though: which German printmaker actually got there first. Priority claims also depend on what counts as the technique: earlier colour experiments and the later tone-block process are related stages, not automatically the same method.",
+          "A different confusion involves Andrea Mantegna’s Triumph of Julius Caesar. A claim repeated in Wikipedia places it between 1470 and 1500 and calls it an early chiaroscuro woodcut. The Met’s object record separates the works: Mantegna made a cycle of nine paintings in 1484–1492, while Andrea Andreani’s woodcuts after those paintings date to 1599. A painted source and a later print after it cannot establish a fifteenth-century invention of this printing method.",
+          "These accounts require separate checks of object dates, the printing process and what a claim to invention meant. Cranach's coat of arms was not his to use until 1508, on a print he dated 1506. Ugo's Venetian Senate petition described his process as new in a year when it was already close to a decade old somewhere else. [Vasari’s Lives reported a murder story later contradicted by the artists’ recorded death dates](/renaissance-art/). His attribution of printmaking priority likewise needs comparison with surviving objects and records; the two corrections concern different evidence, rather than one identical dating test. A ceramic technique three centuries later ran into a related problem, [a name borrowed from an older process it never actually used](/majolica/), a reminder that mismatched names and uncheckable origin stories were never unique to sixteenth-century printmaking. The rest of UmberLore's [Technique hub](/topics/technique/) covers fresco painting and Prussian blue pigment, among others."
         ]
       }
     ],
@@ -7486,7 +7494,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Is Mantegna's Triumph of Julius Caesar really the first chiaroscuro woodcut?",
-        "answer": "Wikipedia's account of the technique mentions this claim: Mantegna's painted cycle depicting Caesar's triumphal march, dated sometime in the final three decades of the 1400s, years ahead of the two German rivals and decades ahead of the Venetian workshop cutter who later fought over the credit. Calling it that leans on a looser, more general definition of the term than the color-registration process built from a key block plus one or more tone blocks that the sixteenth-century German and Italian printmakers are credited with developing, and reference works usually keep it filed apart from that later, better-documented dispute rather than folding it into the same rivalry."
+        "answer": "No. That claim confuses the painted designs with later prints. Andrea Mantegna’s series of Caesar’s triumph was painted in the late fifteenth century, within the broad 1470–1500 period cited in the claim. The museum catalogue dates the woodcut version to 1599 and credits Andrea Andreani, working after Mantegna. It cannot give the German or Italian rivals in the dispute about who introduced the process in the 1500s an example in this medium dating from before 1500."
       }
     ],
     "sources": [
@@ -7517,6 +7525,14 @@ export const guides: Guide[] = [
       {
         "label": "The Metropolitan Museum of Art: The death of Ananias, surrounded by Apostles, Ugo da Carpi",
         "url": "https://www.metmuseum.org/art/collection/search/399987"
+      },
+      {
+        "label": "Cranach Digital Archive: Saint George on Horseback",
+        "url": "https://lucascranach.org/de/US_MMANY_27-54-21/"
+      },
+      {
+        "label": "Metropolitan Museum: Andreani after Mantegna, The Triumph of Julius Caesar",
+        "url": "https://www.metmuseum.org/art/collection/search/769238"
       }
     ]
   },
@@ -10522,11 +10538,11 @@ export const guides: Guide[] = [
           },
           {
               "question": "Was Leonardo da Vinci a Renaissance or Baroque artist?",
-              "answer": "Renaissance, and specifically the High Renaissance. Leonardo lived from 1452 to 1519, and the Baroque style only took shape a century later, in late 16th-century Italy. Art-history surveys group him with Michelangelo and Raphael as the leading figures of the High Renaissance, the period running roughly from 1490 to 1527, which ended with the Sack of Rome."
+              "answer": "Renaissance, and specifically the High Renaissance. Leonardo lived from 1452 to 1519, and the Baroque style only took shape several decades after his death, in late 16th-century Italy. Art-history surveys group him with Michelangelo and Raphael as the leading figures of the High Renaissance, the period running roughly from 1490 to 1527, which ended with the Sack of Rome."
           },
           {
               "question": "Was Marie Antoinette Baroque or Rococo?",
-              "answer": "Rococo. She reigned in the second half of the 18th century, after the heavier Baroque style tied to Louis XIV had given way to something lighter. Her Petit Trianon and the Hameau de la Reine at Versailles carry the Rococo taste: pastel interiors, floral boiseries, and a playful retreat from court formality. The wider Versailles complex holds both, since its core is Baroque and its later royal retreats are Rococo."
+              "answer": "Her period includes more than Rococo. Marie Antoinette was queen consort in the later eighteenth century, after the court taste associated with Louis XIV. The Versailles estate spans several styles: its main palace is Baroque, but Gabriel’s Petit Trianon is a Neoclassical building. Meanwhile, the Hameau de la Reine has rustic cottages with refined rooms inside. Pastel decoration and floral boiseries may evoke Rococo, yet a playful retreat from court formality does not establish the architectural style of every building."
           },
           {
               "question": "Why was Rococo hated?",
@@ -10605,6 +10621,14 @@ export const guides: Guide[] = [
           {
               "label": "Wikimedia Commons: File:Versailles Palace. Hall of Mirrors 2006.jpg",
               "url": "https://commons.wikimedia.org/wiki/File:Versailles_Palace._Hall_of_Mirrors_2006.jpg"
+          },
+          {
+            "label": "Palace of Versailles: Petit Trianon",
+            "url": "https://en.chateauversailles.fr/discover/estate/estate-trianon/petit-trianon"
+          },
+          {
+            "label": "Palace of Versailles: Hameau de la Reine",
+            "url": "https://www.chateauversailles.fr/decouvrir/domaine/domaine-trianon/hameau-reine"
           }
       ]
   },
@@ -10981,7 +11005,7 @@ export const guides: Guide[] = [
         "body": [
           "Tate follows the form out of the Netherlands and across two centuries. In Britain, William Hogarth's modern moral subjects were \"a special kind of genre, in their frankness and often biting social satire,\" and plainer versions followed from George Morland and Francis Wheatley. Genre painting became hugely popular in the Victorian period after the success of David Wilkie.",
           "By the end of the nineteenth century the subject had moved to the city. Tate describes Impressionists including Renoir and Monet capturing \"the excitement and fleeting nature of the modern life they saw around them,\" and Walter Sickert painting alienated couples in interiors.",
-          "In France the line ran through Chardin, Greuze and Fragonard, who the Met says kept subjects drawn from earlier Dutch work alive into the eighteenth century. The word that now covers all of it is younger than every picture in this article. The same lag between object and label runs through later art: [Art Deco](/art-deco/) was never called that by the people who designed in it."
+          "In France the line ran through Chardin, Greuze and Fragonard, who the Met says kept subjects drawn from earlier Dutch work alive into the eighteenth century. The label was established after the early Dutch examples discussed here. The name [Art Deco](/art-deco/) also became popular retrospectively, through a 1966 exhibition and a 1968 book. Those milestones do not prove that no contemporary ever used it."
         ]
       }
     ],

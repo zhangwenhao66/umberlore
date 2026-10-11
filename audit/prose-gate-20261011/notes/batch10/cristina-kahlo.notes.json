@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "The south wall was finished the year after [Nelson Rockefeller had a different Rivera mural chiseled off a wall in New York](/diego-rivera/), a very different building and a very different outcome for the same muralist, still working through the same question of who gets to shape a country's future, with Cristina placed inside this one.",
+    "target_slug": "diego-rivera",
+    "note": "Rivera target records February1934 destruction and NationalPalace source1934–35completion; same artist/different patrons/outcomes contextualcomparison, noassertion identical patrons or motive. Actualtargetquote: In February 1934, workmen peeled and chiseled the fresco",
+    "source_article_sha256": "d7d3e819ec7839fb56c7b8bc95610faadcb6a16f5ff684c3b2639c46600dec06",
+    "target_article_sha256": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts"
+  }
+]
