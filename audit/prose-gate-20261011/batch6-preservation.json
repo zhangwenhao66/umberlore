@@ -1,0 +1,50 @@
+{
+  "vanishing-point": {
+    "questions_unchanged": true,
+    "FAQ_count": 7,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "decoded_strings_no_literal_backslash_quote": true,
+    "source_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/vanishing-point.before.ts"
+  },
+  "the-arnolfini-portrait": {
+    "questions_unchanged": true,
+    "FAQ_count": 6,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "decoded_strings_no_literal_backslash_quote": true,
+    "source_sha256": "87e2e6bb5d26593fdd0c2dd4ba071b8f9662f56d09a623c9c6fdf8ca54253762",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/the-arnolfini-portrait.before.ts"
+  },
+  "the-death-of-socrates": {
+    "questions_unchanged": true,
+    "FAQ_count": 5,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "decoded_strings_no_literal_backslash_quote": true,
+    "source_sha256": "c8d1c61f3c9551d1ceb4a1c9a89a31d2de1e149be7bb7732a3bd7ecd87cef3a4",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/the-death-of-socrates.before.ts"
+  },
+  "are-thomas-kinkade-paintings-worth-anything": {
+    "questions_unchanged": true,
+    "FAQ_count": 4,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "decoded_strings_no_literal_backslash_quote": true,
+    "source_sha256": "f3b858cde4b84d9a926727d4ce4f782a1ced0f009efd5145a85b99791fc24943",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/are-thomas-kinkade-paintings-worth-anything.before.ts"
+  },
+  "bob-ross-most-famous-painting": {
+    "questions_unchanged": true,
+    "FAQ_count": 4,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "decoded_strings_no_literal_backslash_quote": true,
+    "source_sha256": "e0e7458a3665baf11da215a8242a84f5d4df7c6153a5f4818868aedfb2973cfe",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/bob-ross-most-famous-painting.before.ts"
+  },
+  "fresco-painting": {
+    "questions_unchanged": true,
+    "FAQ_count": 6,
+    "whole_block_Markdown_URL_sequence_unchanged": true,
+    "decoded_strings_no_literal_backslash_quote": true,
+    "source_sha256": "91a6188eaac094585f11ab4b41f4a86ca3492502919b81ff56334cd42444ff9b",
+    "original": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/fresco-painting.before.ts"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "reads": [
+    {
+      "url": "https://www.nationalgallery.org.uk/research/publications/exhibition-catalogues/building-the-picture/place-making/introduction",
+      "coverage": "whole main essay lines103–128 and notes137–143; Manetti1480s, forty years after death, panels lost"
+    },
+    {
+      "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-primary/grave.txt",
+      "coverage": "PDF pages1–6, extracted lines1–220 actually read; date estimates1401–1425, probable authorship, Filarete/Vasari briefer reports, hole and mirrors; pages7–20 not claimed read"
+    },
+    {
+      "url": "https://www.metmuseum.org/perspectives/the-death-of-socrates-new-discoveries",
+      "coverage": "whole main article lines0–96; infrared forearm vs fluorescence fingers; Plato absence is literary account"
+    },
+    {
+      "url": "https://www.nationalgallery.org.uk/paintings/catalogues/campbell-1998/the-arnolfini-portrait",
+      "coverage": "relevant sections169–197 provenance;244–266 and269–299 technical;410–475 identities. Lines267–268 not claimed fully read. Hay1842 lifetime acquisition; second-spouse hypothesis tentative"
+    },
+    {
+      "url": "https://www.smn.it/en/artworks/masaccios-holy-trinity/",
+      "coverage": "whole main40–49, detached and relocated; no precise restoration date asserted"
+    },
+    {
+      "url": "https://www.pbs.org/video/brushstroke-bidding-1762814154/",
+      "coverage": "complete broadcast transcript157–274: Ross/wife/Kowalski founders1982, 30paintings auctions2025, pre-recorded episodes, public-media beneficiaries"
+    },
+    {
+      "file": "/Users/zhangwh/Desktop/zhangwenhao/独立站/umberlore/内容发布日志.md",
+      "coverage": "2026-09-26 entry lines1350–1353 actual record of sample48→40→33; original logged first-person sample preserved, no new firsthand sample invented"
+    }
+  ],
+  "not_full_reads": [
+    "Brook Taylor1715 facsimile catalogue search not primary PDF; existing dated publication claim retained, FAQ no new globally-first assertion"
+  ],
+  "corrections": {
+    "vanishing-point": "horizontal-lines horizon scope; Manetti birth not later-viewing disproof; mirror distance not mirror size; Alberti return date not absence proof; Masaccio detached/relocated; tonal modeling vs geometry; Milkmaid perspective string not lenses disproof; Elements modern seven vs Dow three without1968global first",
+    "the-death-of-socrates": "literary Plato absence not independent technical proof; infrared forearm vs fluorescence fingers; Caravaggio debate predates1995 treatment; published ownership gap not wartime misconduct",
+    "fresco-painting": "dry additions/replacement possible after wet plaster cures; removal ownership disputes separate from painted reconstruction; FAQ retains fragments, nationality1905,2017/2024 qualifications",
+    "the-arnolfini-portrait": "Hay sale1842 while alive not1854 estate; diNicolao secondwife tentative; no physical impossible pregnancy certainty; undocumented acquisition path not proven looting",
+    "are-thomas-kinkade-paintings-worth-anything": "dated real logged sample retained; auction results not return forecast; original20by16dimensions preserved; reported not directly checked auction results clearly qualified; Bobselectedcharitysales/companycollection",
+    "bob-ross-most-famous-painting": "cited listing no completed purchase not global never-sold; prerecorded three versions not live unique subject; founders and30benefit-auction works fromPBS; public-domain photograph selection not blanket copyright ban; three-sale comparison bounded"
+  }
+}

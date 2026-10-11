@@ -1,0 +1,114 @@
+{
+  "are-thomas-kinkade-paintings-worth-anything": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "f3b858cde4b84d9a926727d4ce4f782a1ced0f009efd5145a85b99791fc24943",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-are-thomas-kinkade-paintings-worth-anything.txt",
+    "quote": "Twenty-six of the 33 results, 79%, were $100 or less",
+    "reason": "目标真实Sept26样本33prints/79%≤100和original不同市场；不是TV节目人物事实也不能推家喻户晓与全部单幅价值排序，现只比媒介和市场范围。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "art-techniques": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "a5a864efbe46cdd92e4690843279f43eb67b03a45e6b31d7614de0c9f37731b3",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-art-techniques.txt",
+    "quote": "reconstructed 19th-century white paint formulations in the laboratory and tested their rheology",
+    "reason": "目标LeonardoXRF层厚与VanGogh重建配方rheology是不同方法；原otherimaging把材料实验称hiddenlayer扫描错误；新桥分开两研究。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "bob-ross-most-famous-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "e0e7458a3665baf11da215a8242a84f5d4df7c6153a5f4818868aedfb2973cfe",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-bob-ross-most-famous-painting.txt",
+    "quote": "thirty paintings were selected for auction",
+    "reason": "原almostnonecirculate永久不卖与本页2025/26成交及官方30卖出冲突；新句限保留大收藏与benefit选择，不再使用相反原因类比。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "caravaggio-narcissus": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "847f10f5abd114912e7f30aeb42652ed972cbd718d9892dc709d3299536536e4",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-caravaggio-narcissus.txt",
+    "quote": "a 1995 restoration ran X-rays across it looking for answers",
+    "reason": "原bridge暗示1995物证触发1986作者争议时序不成立；现说既有归属争议中使用1995技术证据，不把Schneider1991/92当1995扫描观察。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "elements-of-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "c3c5fed73946a944add17037068c271d1bba934d32523c131d4e4e78498b89e6",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-elements-of-art.txt",
+    "quote": "Dow had three elements.",
+    "reason": "目标三条不同旧体系和现代seven中space支持具体课堂词汇对照；不据archive1968推全球首创。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "famous-portraits": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-famous-portraits.txt",
+    "quote": "a farmer and his daughter",
+    "reason": "AmericanGothic两模特与人物关系不同，目标不证单一遗漏archive导致同样纠错过程；新桥仅三个disputed details，明确fatherdaughter。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "fresco-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "91a6188eaac094585f11ab4b41f4a86ca3492502919b81ff56334cd42444ff9b",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-fresco-painting.txt",
+    "quote": "calcium hydroxide inside it reacts with carbon dioxide from the surrounding air and converts into calcium carbonate",
+    "reason": "原because把binder当存活充分原因且声称一直同一wall错误；保留化学bond独立句，SantaMaria官方记录搬迁。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "grisaille": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "3430183c09fa15d22291380230e4d6352579a6d36b18d877db4dcd329de9dbe5",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-grisaille.txt",
+    "quote": "painting Saint John the Baptist and Saint John the Evangelist in grey convincing enough to read as statues standing in stone niches",
+    "reason": "目标1432灰阶两圣人支持塑像效果；删tone排除geometry的伪二分，不声称grisaille无空间构造。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "romanesque-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "article_sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-romanesque-painting.txt",
+    "quote": "between 1920 and 1923 they removed murals from Sant Climent de Taüll",
+    "reason": "目标Catalonia1919销售合法、1920–23museum聘crew移除原作支持拆除与所有权；与Knossos补缺是两个具体问题，不排除任何其他restoration争论。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "the-milkmaid-vermeer": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "article_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-the-milkmaid-vermeer.txt",
+    "quote": "a pin driven into the canvas at the vanishing point, with a chalked string tied to it and snapped against the surface",
+    "reason": "目标Liedtke解释pinhole+chalkstring是一个物证读法；保留may/contested，免lens是该方法不需而非排除Vermeer其他器具。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "vanishing-point": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-vanishing-point.txt",
+    "quote": "Both panels are lost.",
+    "reason": "目标两块Brunelleschi示范板已失存支持此具体物件范围；不把Manetti出生较晚当无法以后看存留panel的证据。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "the-lovers-painting": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "article_sha256": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-the-lovers-painting.txt",
+    "quote": "MoMA's published record for the painting starts in 1953",
+    "reason": "目标当轮B5新核限定museum-published1953起记录，源原暗示Germanoccupationconcern无证；新桥仅publishedgap且不能推looting。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "renaissance-art": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+    "article_sha256": "a5924cd23ea7d8cd60590b3ce4dace99f8cca6c70a2a3bd874cc47b6d04bb651",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-renaissance-art.txt",
+    "quote": "Castagno died suddenly in Florence on 19 August 1457",
+    "reason": "目标burialdates1457/1461和Milanesi1862支持Vasari叙事不可能；不把bornlate与谋杀档案纠错当同一种证据。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  },
+  "artist-peak-creation-age": {
+    "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "article_sha256": "b6194e3c3a2911126ad5da2c6fcdb6994b964f1ec3a15b5dc09a5bb9d63d11f1",
+    "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-artist-peak-creation-age.txt",
+    "quote": "Jan van Eyck&#8224;  The Arnolfini Portrait  1434  44  7",
+    "reason": "目标dataset44但birthc1390本来有dagger5–10年限定，源midforties只approx。",
+    "coverage": "full body and all FAQs actually read this run; Lovers exact SHA reused from B5 full read, other targets read anew"
+  }
+}

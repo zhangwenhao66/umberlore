@@ -1,0 +1,281 @@
+{
+  "vanishing-point": {
+    "source_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "all_source_body_and_FAQ_read": true,
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "A different illusion of solid form was taking shape at almost the same moment across the Alps, where [Jan and Hubert van Eyck used grey-toned grisaille to make two flat panels on the 1432 Ghent Altarpiece resemble carved stone saints](/grisaille/).",
+        "anchor": "Jan and Hubert van Eyck used grey-toned grisaille to make two flat panels on the 1432 Ghent Altarpiece resemble carved stone saints",
+        "target_slug": "grisaille"
+      },
+      {
+        "source": "body",
+        "sentence": "A plainer studio version of the same trick turns up again more than two centuries later in Vermeer's workshop, where, on one contested reading of the physical evidence, a [pin driven into the canvas at the vanishing point, tied to a chalked string, may have been enough to lay out straight perspective lines by hand](/the-milkmaid-vermeer/), a method that needs no mirror or lens but does not by itself rule out their use elsewhere in his work.",
+        "anchor": "pin driven into the canvas at the vanishing point, tied to a chalked string, may have been enough to lay out straight perspective lines by hand",
+        "target_slug": "the-milkmaid-vermeer"
+      },
+      {
+        "source": "body",
+        "sentence": "The [elements of art](/elements-of-art/) guide includes space in the modern seven-term classroom list and contrasts that list with Dow's three-part system of 1899.",
+        "anchor": "elements of art",
+        "target_slug": "elements-of-art"
+      }
+    ],
+    "new_notes_count": 3,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "before_faq": [
+      "It's where receding parallel lines in a drawing or painting appear to meet on the horizon, giving a flat surface the illusion of depth. A composition built around one such meeting point is working in what artists call one-point perspective; some scenes need two or three instead.",
+      "Credit usually goes to the Florentine architect Brunelleschi, who staged the earliest known working demonstration on two painted panels, at a date historians still can't pin down precisely, guesses range across roughly a quarter century. A formal name for that convergence trick came later still, from a treatise the humanist Alberti wrote once those two panels were already old news.",
+      "Neither one does. The painting of the Baptistery and the larger view showing Florence's town-hall square have both disappeared without a trace, and nothing physical from either has ever turned up. Everything now known about how they functioned rests entirely on a written description, not on the objects.",
+      "It's the only surviving account with any real detail, though scholars flag two problems with it. Take the earliest date scholars have floated for when the panels went up, and its author hadn't been born yet; take the latest, and he was a toddler too young to remember any of it, and he only set the story down as an adult many decades afterward. On top of that, whether he personally wrote the text now credited to him is a question specialists still treat as unresolved.",
+      "Not for a long while. Brook Taylor's 1715 perspective manual is the first known appearance of that exact phrase in English. Whatever Renaissance Florence called this convergence point, it wasn't that phrase, and English speakers went without a settled name for it for roughly three more centuries after the concept first took hold in painting.",
+      "A standard case is Masaccio's fresco of the Trinity in Florence. Painted in the mid-1420s, the coffered vault behind the figures converges on one point at the viewer's eye level, and Vasari said it looked like a hole cut into the wall.",
+      "Put it on the horizon line, which marks the viewer's eye level. Lines running along the ground below that level slope up toward the point, and lines above it, such as a ceiling edge, slope down. In a one-point scene every receding line meets at the same spot."
+    ],
+    "after_faq": [
+      "This is the spot where a projected family of parallel edges appears to meet. For edges running horizontally into depth, it sits at the observer's eye level. A one-point view has one depth direction; a two- or three-point view uses more.",
+      "The usual credit goes to the two Florentine painted demonstrations made by Brunelleschi. Estimates of their date run from about 1401 to 1425, without a dated document to settle the matter. Alberti wrote a Latin explanation in 1435, followed by an Italian text in 1436.",
+      "Neither picture survives: the view of the Baptistery and the larger town-square view. Written testimony, principally the Life ascribed to Manetti, supplies the details used to reconstruct them. Neither original painted board can now be examined.",
+      "It offers the most detailed early account, written during the 1480s, several decades after the architect's death in 1446. Attribution of the text to Manetti remains probable. Being born in 1423 ruled out seeing panels made earlier being constructed, but not necessarily seeing them afterward.",
+      "Taylor's perspective manual of 1715 uses the familiar English term. That publication came around three hundred years after the proposed dates of the Florentine experiments. In Alberti's earlier vocabulary, the meeting place of the central sightline was the centric point.",
+      "The Trinity by Masaccio shows this construction clearly: the edges of its painted chapel converge and seem to open up depth behind masonry. Painted during the 1420s, it prompted Vasari to compare the effect to a hole in the church wall.",
+      "For a level view of horizontal ground and ceiling edges, place the depth point at the observer's eye level. Edges below it rise toward it, and those above descend. Only lines parallel to that depth direction share that point; inclined lines can converge elsewhere."
+    ]
+  },
+  "the-death-of-socrates": {
+    "source_sha256": "c8d1c61f3c9551d1ceb4a1c9a89a31d2de1e149be7bb7732a3bd7ecd87cef3a4",
+    "all_source_body_and_FAQ_read": true,
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "According to the Met's 2022 technical examination, David positioned the vanishing point of that system directly above Plato's head, a choice the museum describes as directing \\\"the viewer's gaze to the source of the narrative.\\\" It is the same basic geometric convention covered elsewhere on this site, [the technique whose earliest documented demonstration in Western painting has left no surviving physical trace at all](/vanishing-point/), put here to a far more pointed use: aiming an entire architectural background at one man's face.",
+        "anchor": "the technique whose earliest documented demonstration in Western painting has left no surviving physical trace at all",
+        "target_slug": "vanishing-point"
+      }
+    ],
+    "new_notes_count": 1,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "before_faq": [
+      "An Athenian court convicted Socrates of impiety and of corrupting the city's youth, and sentenced him to die by drinking poison hemlock. Plato's Phaedo, the primary account David worked from, describes him accepting the sentence calmly rather than fleeing when the chance arose, discussing the immortality of the soul with his followers right up until he drank the poison.",
+      "David built the scene around an Enlightenment-era ideal, rational self-control facing death, with Socrates' calm, upright pose set against the visible grief of everyone around him. The staging advice he sought from a classical-languages scholar, and the way perspective and repeated drawing revisions keep pulling the eye back toward Socrates and toward Plato, all serve the same idea, a philosopher's convictions outlasting his fear of dying.",
+      "No. The Phaedo, the dialogue describing the scene, names everyone who was actually in the room, several of Socrates' students and a few visitors, and Plato is not among them. A technical study the Met conducted in 2022 reached the same conclusion independently, describing Plato as absent from the actual event, even though David relied on that same text to construct nearly everything else in the composition.",
+      "A 2022 conservation study at the Met traced a full layer of drawing hidden under the paint surface, plus several revisions David later painted over: a chain repositioned around a bed leg, a hairband removed, Socrates' forearm and fingers shifted slightly, a window replaced with bare stone, and, most unexpectedly, one entire extra figure group on the staircase that never made it into the finished composition.",
+      "According to Plato's Phaedo, after most of his body had already gone cold and numb from the poison, Socrates uncovered his face and said: \\\"Crito, I owe a cock to Asclepius; will you remember to pay the debt?\\\" Crito promised to see to it. Those were reportedly his final words before he died."
+    ],
+    "after_faq": [
+      "Socrates was condemned for impiety and corrupting young Athenians. The sentence was death by hemlock. In the Phaedo, the text David used for this scene, he spends his final hours debating the soul with his companions and then drinks the poison.",
+      "David presents the philosopher as composed and still teaching while those around him mourn. The effect suits an Enlightenment ideal of reason and conviction under pressure. Advice from Father Adry, preparatory figure studies and the prison's perspective all contributed to that staging.",
+      "Plato says in the Phaedo that he was ill, leaving himself out of the group who attended. The museum's 2022 article uses that written background; examining paint cannot determine the attendees of an ancient event. David nevertheless includes an elderly-looking Plato beside the bed.",
+      "The Met's 2022 investigation detected preliminary drawn outlines under the painted surface and changes to a chain, red headband, arm and fingers, and a window. It also detected an abandoned woman-and-child group on the stairs. The evidence comes from several imaging methods, including images made with infrared-sensitive cameras, X-radiographs and elemental maps from fluorescence scans.",
+      "The Phaedo gives his last request as: \\\"Crito, I owe a cock to Asclepius; will you remember to pay the debt?\\\" Crito agrees. In that account Socrates speaks after the hemlock has left most of his body cold and numb."
+    ]
+  },
+  "fresco-painting": {
+    "source_sha256": "91a6188eaac094585f11ab4b41f4a86ca3492502919b81ff56334cd42444ff9b",
+    "all_source_body_and_FAQ_read": true,
+    "current_candidates": [
+      {
+        "source": "body",
+        "sentence": "It is a different problem from what happened to [Romanesque frescoes stripped from Catalan churches](/romanesque-painting/) in the same general period, whose documented dispute concerned removal crews, dealers and museum ownership.",
+        "anchor": "Romanesque frescoes stripped from Catalan churches",
+        "target_slug": "romanesque-painting"
+      }
+    ],
+    "new_notes_count": 1,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "before_faq": [
+      "A mural is any large painting applied directly to a wall or ceiling, whatever the method. Fresco specifically means pigment applied to wet lime plaster so the color bonds chemically into the wall as it cures. Every fresco is a mural, but most modern murals are painted onto dry plaster or another surface with a different binder, so they are not frescoes in the technical sense.",
+      "Yes, largely because of the deadline the wet-plaster chemistry imposes. Color stops bonding once the lime finishes curing, so there is no room afterward to blend tones or paint over an error; a flawed passage typically has to be chiseled out and re-plastered instead. Painting [the Vatican ceiling now known worldwide as Michelangelo's Sistine Chapel](/michelangelo-sistine-chapel/) cost his team an entire completed stretch of work when a faulty lime batch stayed damp long enough for mold to take hold.",
+      "The ceiling Michelangelo painted in Rome's Sistine Chapel is the answer most people give first, but Minoan wall paintings from Bronze Age Crete, especially the striding lily-crowned figure and the bull-leaping scene from Knossos, circulate just as widely as emblems of that civilization, even though restorers working a century ago rebuilt them far more heavily than most reproductions let on.",
+      "Yes. Fresco is a painting medium defined by its binder, the wet lime plaster the pigment is worked into, rather than by subject matter or scale. Art historians classify it alongside oil, tempera and encaustic as one of the standard binder-based painting categories.",
+      "The individual fragments are ancient: a crown, a torso and a pair of legs, all painted in the same Late Minoan style and excavated from the same part of the palace complex. What is not ancient is their assembly into one striding figure. Working for Evans in 1905, the Swiss illustrator Gilliéron joined those pieces into a single walking prince, and a number of researchers now doubt the crown and the torso came from the same body.",
+      "Most scholars stop short of calling it fraud. Evans paid for the restoration work himself, with no outside body reviewing how much his restorers invented, and the field had not yet drawn a firm boundary between recording what was found and supplying what was missing. What resulted is generally described today as heavy interpretive reconstruction, not forgery, and the record on any one fresco can cut either way: a 2017 paper found the griffin pair beside the throne diverges sharply from what was pulled out of the ground, while a 2024 paper on the lily-crowned figure's torso backed Evans on which way that figure faces, even as it left the separate question of whether the crown and torso belong together unresolved."
+    ],
+    "after_faq": [
+      "Mural describes a wall or ceiling painting regardless of the binder. In true fresco, color is applied while lime plaster is wet, becoming held in the hardened surface as it carbonates. Modern wall paintings often use paint on a dry support instead.",
+      "The working time is limited by the fresh plaster. Once it sets, a painter cannot continue the same wet-plaster blending; corrections may require a dry-paint addition or replacement of the damaged section. [Michelangelo's Sistine ceiling crew](/michelangelo-sistine-chapel/) had to remove and redo an early mold-damaged passage.",
+      "Michelangelo's Vatican ceiling is a familiar example. Bronze Age Cretan pictures, including Knossos's lily-crowned figure and bull-leaping scene, are also widely reproduced. Their modern reconstructions include substantial additions to surviving ancient fragments.",
+      "Yes. It names a method of painting into fresh lime plaster, independent of what the picture depicts. Oil, tempera and encaustic use other binders. The size of a picture does not determine which of these methods it uses.",
+      "Ancient fragments include legs, a torso and a crown in Late Minoan style, excavated in the same palace area. In 1905, Arthur Evans commissioned their assembly as a walking prince from Émile Gilliéron, an illustrator from Switzerland. Whether the crown and torso originally depicted one person remains disputed, separate from the argument about which direction the torso faces.",
+      "The work is usually discussed as interpretive restoration rather than deliberate forgery. Evans financed it before today's conservation standards developed. Evidence still varies by object: a 2017 study challenged the displayed griffins, while the 2024 torso study supported the traditional direction of the lily-crowned figure without settling whether all its fragments belong together."
+    ],
+    "all_faq_retained": true,
+    "link_multiset_preserved": true
+  },
+  "the-arnolfini-portrait": {
+    "source_sha256": "87e2e6bb5d26593fdd0c2dd4ba071b8f9662f56d09a623c9c6fdf8ca54253762",
+    "all_source_body_and_FAQ_read": true,
+    "current_candidates": [],
+    "new_notes_count": 0,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "before_faq": [
+      "Because the couple everyone named for sixty years turns out not to fit the timeline. Erwin Panofsky's 1934 marriage-record theory rested on identifying the sitters as a specific pair, but ducal account books unearthed in 1997 place that pair's actual wedding well past the year the artist himself was buried. Current scholarship instead points to a different relative sharing the Arnolfini name, paired with a wife whose identity was never recorded.",
+      "This 1434 panel spent centuries celebrated as visual proof of a specific wedding, its mirror and showy Latin inscription read as witness marks on a private ceremony. That reading unraveled once archivists traced the presumed bride's actual marriage date to more than a decade past the painting's completion, leaving historians to reconstruct a different, less documented couple as the true sitters.",
+      "Nobody knows her name. Current scholarship attaches the male sitter to a specific Arnolfini relative and treats the woman beside him only as his presumed second spouse, a person no surviving record names. The bride's name popular older sources use belonged to a different Arnolfini relative's wife, who married well after this panel was finished.",
+      "For all its polish, much of the paint layer went down quickly. Conservators can point to an actual fingerprint van Eyck left behind, pressed into paint that was still wet near the small dog standing at the couple's feet.",
+      "She isn't. Curators attribute the rounded silhouette to how she's holding up the excess fabric of an oversized, fashionable gown, not to pregnancy. This exact misunderstanding predates the internet by a wide margin: a Madrid palace inventory drawn up around 1700 already logged the same figure as expecting.",
+      "Through a chain of royal owners and one probable act of wartime looting. The panel moved out of Philip the Good's ducal circle into Spain's royal holdings by the mid-1500s and stayed there for roughly two and a half centuries, disappearing from Spanish records only once fighting from the Napoleonic era disrupted the country. A Scottish army officer surfaces as its next owner, and the gallery purchased the piece from him in 1842."
+    ],
+    "after_faq": [
+      "The old identification fails a date check. Paviot's 1997 archival research dated the wedding of Jeanne Cenami and Giovanni, the di Arrigo relative, to 1447, whereas the painter died in 1441. Campbell therefore favors another Giovanni, the di Nicolao relative, and a putative second spouse. This alternative remains tentative.",
+      "It combines unusually detailed domestic objects, a reflecting mirror and a conspicuous Latin signature dated 1434. Panofsky interpreted these as a marriage record in 1934. Later archival findings undermined his proposed couple, leaving both the sitters and the ceremonial interpretation open to debate.",
+      "The woman remains unidentified. Campbell's suggested second spouse for the di Nicolao relative has no documented marriage to support it. Jeanne Cenami belongs to an older identification: she married the other Giovanni after both this picture and its painter's death.",
+      "The polished finish conceals quick brushwork and direct handling. Near the dog's hind leg, a recognizable finger or thumb impression survives where van Eyck softened a shadow in wet paint. The Gallery also records rapid strokes and wet-in-wet passages.",
+      "The Gallery explains the shape as gathered fabric: she is lifting the front of a bulky gown. A royal Spanish inventory had already misread the same silhouette as pregnancy around 1700. Her dress does not establish that she was expecting a child.",
+      "Don Diego, surnamed de Guevara, is the earliest recorded owner. He presented the picture to Margaret, the Austrian ruler serving as regent in the Low Countries. Her niece Mary took it to Spain, where it entered the royal collection. James Hay held it after the Peninsular War, although how he acquired it is uncertain. He sold it to the Gallery in 1842."
+    ]
+  },
+  "are-thomas-kinkade-paintings-worth-anything": {
+    "source_sha256": "f3b858cde4b84d9a926727d4ce4f782a1ced0f009efd5145a85b99791fc24943",
+    "all_source_body_and_FAQ_read": true,
+    "current_candidates": [],
+    "new_notes_count": 0,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "before_faq": [
+      "Start by deciding which bucket it falls in, reproduction or one-off original, then note which edition tier and number it carries. Then search past sales of the same title and tier on a site like Invaluable. For a suspected original, pay an independent appraiser. In the recent Invaluable sample, ordinary prints sat around $75 while one 20 x 16 in. original oil made $12,200.",
+      "Originals top the list. The 1988 oil Skagway in 1898 sold at Bonhams for $31,250 in August 2013 according to Invaluable, and one price guide reports The Town Square at $50,800 in 2025 as the record. Among prints, the highest result in my sample was $1,900, for a small-run Renaissance canvas from an edition of only 25.",
+      "The results I could confirm run from $12,200 (May 2026) to $31,250 (2013), and one price guide reports a record of $50,800 (2025). Originals show up at auction less often than prints, and the most recent one in my sample sold through a regional house, Bradford's. What a gallery charged for a print tells you little about what it will fetch now.",
+      "A few, but most are not. Kinkade prints were issued in large editions, often several thousand impressions, and 79% of recent priced auction results were $100 or less. Low edition numbers, small-run tiers and complete paperwork are what move a print out of that band."
+    ],
+    "after_faq": [
+      "Identify the medium and, for a reproduction, its edition code and number. Compare completed transactions for matching titles and editions; an original warrants an independent appraisal. The September 2026 sample had a print median of $75, while a 20-by-16-inch original oil separately fetched $12,200.",
+      "The larger reported amounts concern original paintings. Invaluable reports $31,250 for the 1988 Skagway oil in August 2013; the price guide lists a 2025 Town Square result of $50,800 that was not checked against its auction record. The sampled reproductions topped out at $1,900: a Renaissance print carrying number four in a run of twenty-five.",
+      "The cited original results include a May 2026 transaction at $12,200 and a reported 2013 transaction at $31,250. The guide also reports $50,800 for 2025, without an auction record checked here. The recent Bradford's result concerns an original, not a gallery-bought print. These few examples cannot price another work.",
+      "Some have appreciable resale prices, but large editions are common. In the dated sample, 26 out of 33 priced print lots fetched no more than $100, about 79%. Edition size, tier, condition and documentation matter when choosing comparable sales."
+    ]
+  },
+  "bob-ross-most-famous-painting": {
+    "source_sha256": "e0e7458a3665baf11da215a8242a84f5d4df7c6153a5f4818868aedfb2973cfe",
+    "all_source_body_and_FAQ_read": true,
+    "current_candidates": [],
+    "new_notes_count": 0,
+    "writing_chain": {
+      "sources": [
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/humanizer/SKILL.md",
+          "sha256": "0d4e1d88de7302bebaa50dbf369bba3e4cb5a6bfdc7932c39df287e1b43b02dd",
+          "coverage": "complete"
+        },
+        {
+          "path": "/Users/zhangwh/Desktop/zhangwenhao/owen-opc-kit/domains/writing/skills/avoid-ai-writing/SKILL.md",
+          "sha256": "1049b51c0c1351565c4c58db48242df115b4b3769b3cbec210a07c977f9c5b09",
+          "coverage": "complete"
+        }
+      ],
+      "order": [
+        "humanizer",
+        "avoid-ai-writing"
+      ],
+      "mode": "targeted FAQ rewrite, neutral reference voice",
+      "second_pass": "Full changed spans re-read; no invented figures/dates, fixed quote repetitions paraphrased without attribution inflation; see before/after each slug; independent audit pending parent."
+    },
+    "before_faq": [
+      "Cabin at Sunset fetched the largest reported amount in this selection: $1,044,000. John Oliver hosted that benefit sale in November 2025. The debut-episode canvas was offered at $9.85 million. No completed sale is documented for that listing.",
+      "Bob Ross Inc., a company built by a husband-and-wife team of business partners, keeps the bulk of them. Per Atlas Obscura, roughly 1,165 paintings sit at the company's Virginia headquarters under one of those partners and her daughter, who now runs the company. A smaller number have gone to the Smithsonian for its American history collection.",
+      "More than 30,000 across his lifetime, counting work he did outside of television entirely. Narrow that just to his PBS painting series, and he appears on camera painting during 381 of its 403 original episodes; NPR reports each of those became three near-identical canvases (an off-camera reference copy, the broadcast copy, and a book copy), putting the show-era total at roughly eleven hundred pieces made between 1983 and 1994.",
+      "Only rarely. Bob Ross Inc. holds onto nearly all of its collection and is not in the business of selling it. What buyers actually get their hands on tends to come from families who owned a piece for decades, or from an occasional charity sale that supports PBS member stations, including the public-media charity events discussed on this page."
+    ],
+    "after_faq": [
+      "Cabin at Sunset leads this three-sale selection. Its reported result was $1,044,000 at John Oliver's charity event in November 2025. By comparison, the debut picture's $9.85 million was an asking amount. The sources cited do not report a completed purchase at that sum.",
+      "Bob Ross Inc. retains most of the television-era paintings. An Atlas Obscura account put its holdings at about 1,165, stored in Virginia with Annette and Joan Kowalski overseeing them. A few were donated to the Smithsonian, and thirty were subsequently chosen for auctions supporting public television.",
+      "His lifetime output is estimated at more than 30,000. For the television series alone, 381 of 403 episodes show him painting. NPR reports three versions per subject: a reference picture, the one made during recording and a later book illustration. That gives about 1,143 show-related canvases across the 1983–94 run.",
+      "Yes, although the large company collection has historically limited supply. Documented purchases include privately held pictures and fundraising sales. PBS said in a November 2025 report that the company had chosen thirty works for auction, with proceeds benefiting local public television stations."
+    ]
+  }
+}
