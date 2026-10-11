@@ -10471,6 +10471,18 @@ export const guides: Guide[] = [
           {
               "question": "Is the Palace of Versailles Baroque or Rococo?",
               "answer": "The Hall of Mirrors, built between 1678 and 1684 under Louis XIV, is Late Baroque. Rococo arose afterward as a reaction to that style, and its best-known French example is a single Paris salon in the Soubise mansion, dated to the 1730s."
+          },
+          {
+              "question": "Was Leonardo da Vinci a Renaissance or Baroque artist?",
+              "answer": "Renaissance, and specifically the High Renaissance. Leonardo lived from 1452 to 1519, and the Baroque style only took shape a century later, in late 16th-century Italy. Art-history surveys group him with Michelangelo and Raphael as the leading figures of the High Renaissance, the period running roughly from 1490 to 1527, which ended with the Sack of Rome."
+          },
+          {
+              "question": "Was Marie Antoinette Baroque or Rococo?",
+              "answer": "Rococo. She reigned in the second half of the 18th century, after the heavier Baroque style tied to Louis XIV had given way to something lighter. Her Petit Trianon and the Hameau de la Reine at Versailles carry the Rococo taste: pastel interiors, floral boiseries, and a playful retreat from court formality. The wider Versailles complex holds both, since its core is Baroque and its later royal retreats are Rococo."
+          },
+          {
+              "question": "Why was Rococo hated?",
+              "answer": "Critics treated it as frivolous from the start. The word itself was coined in the 19th century as a put-down, and Denis Diderot attacked painters such as François Boucher for celebrating aristocratic pleasure and sensuality over virtue. Church writers objected on other grounds, calling its ornament too worldly and too soft for a place of worship. Much of that hostility faded once art historians adopted the term as a neutral label."
           }
       ],
       "sources": [
@@ -10628,6 +10640,10 @@ export const guides: Guide[] = [
           {
               "question": "Can craquelure tell me how old a painting is?",
               "answer": "It can support an age estimate but cannot fix a date. Crack patterns can be induced, and natural cracks can affect different layers. A conservator must assess them alongside materials and other evidence."
+          },
+          {
+              "question": "How do you clean a vintage oil painting?",
+              "answer": "Dry dusting is the only thing safe to do at home. Use a soft natural-hair brush, sweep in one direction from the top down, and never press into the paint. Skip water, soap, and household cleaners: water creeps into the hairline cracks of an aged film and swells the canvas, which makes the paint lift. A yellowed or cloudy varnish, flaking, or a work of any real value belongs with a conservator, not a cloth."
           }
       ],
       "sources": [
@@ -10933,6 +10949,10 @@ export const guides: Guide[] = [
       {
         "question": "Why did the academies rank everyday scenes so low?",
         "answer": "The Met sets out the reasoning through a 1678 treatise by the painter van Hoogstraten, which put still life last because it rested on the eye and the hand, and history first because it was thought to demand imagination. Everyday scenes took the place in between."
+      },
+      {
+        "question": "Can you give me an example of a genre painting?",
+        "answer": "Bruegel's Peasant Wedding is a standard one: a crowded village feast with no named sitter and no historical subject. Dutch and French painters supply others, among them Vermeer's quiet domestic interiors and Chardin's The Return from the Market, where a maid carries home bread and a joint of meat. What ties them together is the subject, ordinary people doing ordinary things, not a shared style."
       }
     ],
     "sources": [
