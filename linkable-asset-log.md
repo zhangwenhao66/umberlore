@@ -141,3 +141,12 @@ Passed `Skill(humanizer)` (removed one em dash and a "worth a look" vague-endors
 - 新资产0；本轮发送N=0，新增已验证dofollow M=0，不计算0/0成功率。有回执历史累计N=21，原日志已确认M=0，M/N=0%；不声称全量历史链接本轮实时复查。未到累计30触发线。
 - 证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-linkable-asset-building/20261010T1330/receipt.json；现存资产未饱和且今天10号未触发15号兜底，本轮不制造资产；只改业务文档，无网站内容部署。
 - 下一步：UmberLore邮件精确草稿待Owen明确说“发”；其余未获新分发机会的对象保留原日期。共享work_journal保存本轮结果，不更新作战数据台。
+
+## 2026-10-11 — Owen 批准发送 From the Heart 草稿
+
+- 2026-10-10 由 `trafficsite-linkable-asset-building` 起草并经独立审核（heart_review）判"可以发送"的 From the Heart Productions 草稿，Owen 于 2026-10-11 明确批准发送。
+- 发送前复核（本会话）：目标页 `https://fromtheheartproductions.com/copyright-free-museum-images/` HTTP200、正文含 Metropolitan(1)/Paris(3)、不含 Rijksmuseum(0)，邮件首句仍成立；资产页 `https://umberlore.com/open-license-art-image-directory/` HTTP200、含 Rijksmuseum 及其 terms 链接；14天去重（共享 ledger + Gmail `to/from:fromtheheartproductions.com`）均 0 命中；发件别名 `contact@umberlore.com` 已验证。
+- 质量链：本会话重新完整读取 `Skill(humanizer)` 与 `Skill(avoid-ai-writing)` 并逐条过检（无 em dash/加粗/emoji/三连排比/夸大/模糊归因/机器人腔/hedge stack），仅做两处精简（`notes on`→`a note on`；`as a supplementary reference on that resource page`→`to that page`），数字与专名（Met / Paris / Rijksmuseum / URL / 逐图核对 rights 的限定）逐项保留。对外文本门槛 hook 已放行（本次真实调用两技能后才发）。
+- **已发送**：`gmail_send.py send --from umberlore --to info@fromtheheartproductions.com`，Message ID `1a12b4d295d539c6`，From 头实测 `UmberLore <contact@umberlore.com>`。
+- 分发计数：open-license-art-image-directory 现 3/10 sent（Douglas College 9/22、Pratt Institute 9/29、From the Heart 10/11）。
+- 跟进：followup_date +12 天（2026-10-23），单次跟进一次。
