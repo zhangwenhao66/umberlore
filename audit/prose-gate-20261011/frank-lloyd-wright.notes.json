@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 what-is-a-gargoyle 正文+FAQ。实际原句 “A gargoyle is a working waterspout. Here is the test that separates one from a grotesque, why Notre-” 。源句 They were load-bearing structure built to look weightless, which is the same test that separates a working [gargoyle from a merely decorative grotesque](/what-is-a-gargoyle/): whether the form is actually doing the job it appears to be doing, or only posing as if it were. 。核读实际排水与仅装饰grotesque的功能区分、apotropaic意图证据不足；源Robie比喻只功能/装饰区分，并非相同工程方法。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 abstract-art-first-painting 正文+FAQ。实际原句 “But the date field in the Centre Pompidou's catalogue, the field a researcher would cite, reads 1913.” 。源句 That kind of disagreement over who actually fixed what turns up often enough in design history to expect it rather than resolve it on the spot, in much the same way [a museum's catalogue can end up overriding the date on the object it holds](/abstract-art-first-painting/). 。核读1910背书与1913馆藏日期、stylistic inference、afKlint1906–7与公共影响差异；类比仅不同记录冲突，未称全机构偷偷更改或所有coiningdate不可信。"
+  }
+]

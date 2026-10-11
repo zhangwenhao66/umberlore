@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 john-martin-paintings 正文+FAQ。实际原句 “submitted for exhibition, they were rejected as vulgar.” 。源句 Institutional judgment can diverge from popular reputation for other painters just as sharply: [John Martin's paintings drew paying nineteenth-century crowds and even a pirated diorama, yet the Royal Academy still rejected his last trilogy as vulgar](/john-martin-paintings/). 。核读1821付费人群、1833侵权diorama案和最后三联画Academy拒绝段；源断言逐项有对应，未把1833案与最后三联画混为同一作品。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 water-lilies-monet-series 正文+FAQ。实际原句 “He commissioned it, then painted the thing he had commissioned.” 。源句 And in the same letter, underlined in the manuscript, comes a sentence that reads very differently now than it did then: \\\"all the colours that Impressionism has made fashionable are unstable, all the more reason boldly to use them too raw, time will only soften them too much.\\\" In the decades that followed, another painter organised his materials around a single motif, not a single palette, a programme traced in [Monet's Water Lilies series](/water-lilies-monet-series/). 。核读1893购地申请获准、园工养护、两类构图和约250–300幅范围；源仅称同一水园主题/自己委建，已删除亲自挖池种植的无凭据断言。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 famous-landscape-paintings 正文+FAQ。实际原句 “Constable submitted the work to the 1821 Royal Academy exhibition under the title Landscape: Noon.” 。源句 Landscape paintings face a parallel kind of myth-checking: [three other 19th-century landscapes long read as faithful records of one real view turn out, on inspection of the sketches and sale records behind them, to have been spliced together, renamed, or barely sold at all](/famous-landscape-paintings/). 。核读Friedrich分别素描后组合、Constable改题且1821未售而1824转售、Church多气候区组合；barely sold只对应Constable初次展出不代表三者总销量。"
+  }
+]

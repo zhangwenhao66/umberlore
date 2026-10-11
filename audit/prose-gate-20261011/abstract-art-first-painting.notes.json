@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 psychedelic-art 正文+FAQ。实际原句 “it was consistently brighter, more abstract, and less representational” 。源句 Non-representational art has found unconventional doorways more than once: decades later, [a Los Angeles psychiatrist's 1950s LSD studies pushed professional artists toward their own unplanned departures from recognizable subject matter](/psychedelic-art/), a different route to a broadly similar kind of break. 。核读1954–62 Janiger研究、250件作品与Hertel1971评估；LSD作品更抽象/少具象有支持，未称由此直接创立1966海报运动。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 non-objective-art 正文+FAQ。实际原句 “Rebay resigned as director in March 1952 rather than carry it out.” 。源句 The reassessment reached its widest audience in 2018, when the Guggenheim's Hilma af Klint: Paintings for the Future opened in New York; the museum's account of the show states that \\\"more than 600,000 visitors have attended Hilma af Klint: Paintings for the Future, the highest recorded attendance figure for a single exhibition in the museum's history.\\\" Institutions have shaped which abstract pioneers get remembered in more than one case: [the Guggenheim's forerunner institution opened under Hilla Rebay as the Museum of Non-Objective Painting; she left its directorship in 1952, the same year the museum dropped the term from its name](/non-objective-art/). 。核读1939成立、1952辞职及改名、1959开馆和1967去世；源已由named after curator改为opened under curator，避免馆名纪念她的错读。目标did not live句发现已登记额外事实修，不以此作为来源。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 famous-paintings 正文+FAQ。实际原句 “Those fields settle whether a work is panel or canvas, painting or print, what it actually measures” 。源句 [Checking a museum's catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to depict a water garden he commissioned](/water-lilies-monet-series/) rather than a scene he simply found. 。核读六件作品具体medium/support/size/inventory及NightWatch两套尺寸矛盾；源仅推可检查资料字段，不断言各catalogue必无误或都有能解决的唯一结论。"
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 water-lilies-monet-series 正文+FAQ。实际原句 “He commissioned it, then painted the thing he had commissioned.” 。源句 [Checking a museum's catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to depict a water garden he commissioned](/water-lilies-monet-series/) rather than a scene he simply found. 。核读1893购地申请获准、园工养护、两类构图和约250–300幅范围；源仅称同一水园主题/自己委建，已删除亲自挖池种植的无凭据断言。"
+  }
+]

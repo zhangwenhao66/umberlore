@@ -1,0 +1,93 @@
+[
+  {
+    "slug": "what-is-a-gargoyle",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Another church of the same century, the [Sagrada Família](/sagrada-familia/), reached a 2026 finish engineered a century earlier.",
+      "anchor": "Sagrada Família",
+      "target_slug": "sagrada-familia"
+    },
+    "target_quote": "Construction started on 19 March 1882",
+    "full_read": true,
+    "reason": "核读1882原Villar设计、1883Gaudi接任、1936模型毁损、重建模型与现工程；源已去整座2026竣工和同世纪，采用1882起建/后人重建设计记录。六中央塔外部完成与整座竣工混淆已由官方和Vatican报道确认，下一批目标自身同步窄修。",
+    "new_sentence_keeps_link": true
+  },
+  {
+    "slug": "famous-paintings",
+    "baseline_candidate": {
+      "source": "FAQ#7",
+      "sentence": "No museum or survey keeps an official ranking, but the same works recur across nearly every list: Leonardo da Vinci's [Mona Lisa](/mona-lisa/) (Louvre) and The Last Supper (Santa Maria delle Grazie, Milan), Michelangelo's [Sistine Chapel ceiling](/michelangelo-sistine-chapel/) (Vatican), Sandro Botticelli's [The Birth of Venus](/birth-of-venus/) (Uffizi), Vincent van Gogh's [The Starry Night](/starry-night/) (MoMA), Rembrandt's The Night Watch (Rijksmuseum, also covered above), Pablo Picasso's Guernica (Museo Reina Sofía), Édouard Manet's Olympia (Musée d'Orsay), Gustav Klimt's The Kiss (Belvedere, Vienna), and Grant Wood's American Gothic (Art Institute of Chicago).",
+      "anchor": "Mona Lisa",
+      "target_slug": "mona-lisa"
+    },
+    "target_quote": "The 1911 theft did not rescue the Mona Lisa from obscurity",
+    "full_read": true,
+    "reason": "核读含1907guidebook、1911盗窃、1913回收、大众传播，目标不支持盗窃前完全无名；源句只类比流行故事与记录差异，不将两起事件因果等同。",
+    "new_sentence_keeps_link": true
+  },
+  {
+    "slug": "famous-paintings",
+    "baseline_candidate": {
+      "source": "FAQ#7",
+      "sentence": "No museum or survey keeps an official ranking, but the same works recur across nearly every list: Leonardo da Vinci's [Mona Lisa](/mona-lisa/) (Louvre) and The Last Supper (Santa Maria delle Grazie, Milan), Michelangelo's [Sistine Chapel ceiling](/michelangelo-sistine-chapel/) (Vatican), Sandro Botticelli's [The Birth of Venus](/birth-of-venus/) (Uffizi), Vincent van Gogh's [The Starry Night](/starry-night/) (MoMA), Rembrandt's The Night Watch (Rijksmuseum, also covered above), Pablo Picasso's Guernica (Museo Reina Sofía), Édouard Manet's Olympia (Musée d'Orsay), Gustav Klimt's The Kiss (Belvedere, Vienna), and Grant Wood's American Gothic (Art Institute of Chicago).",
+      "anchor": "Sistine Chapel ceiling",
+      "target_slug": "michelangelo-sistine-chapel"
+    },
+    "target_quote": "The full ceiling of the Sistine Chapel, painted by Michelangelo between 1508 and 1512",
+    "full_read": true,
+    "reason": "核读Michelangelo1508–1512天顶、1512Nov1公开、Vatican，并区别1536–41LastJudgment；FAQ仅天顶身份和馆址。",
+    "new_sentence_keeps_link": true
+  },
+  {
+    "slug": "famous-paintings",
+    "baseline_candidate": {
+      "source": "FAQ#7",
+      "sentence": "No museum or survey keeps an official ranking, but the same works recur across nearly every list: Leonardo da Vinci's [Mona Lisa](/mona-lisa/) (Louvre) and The Last Supper (Santa Maria delle Grazie, Milan), Michelangelo's [Sistine Chapel ceiling](/michelangelo-sistine-chapel/) (Vatican), Sandro Botticelli's [The Birth of Venus](/birth-of-venus/) (Uffizi), Vincent van Gogh's [The Starry Night](/starry-night/) (MoMA), Rembrandt's The Night Watch (Rijksmuseum, also covered above), Pablo Picasso's Guernica (Museo Reina Sofía), Édouard Manet's Olympia (Musée d'Orsay), Gustav Klimt's The Kiss (Belvedere, Vienna), and Grant Wood's American Gothic (Art Institute of Chicago).",
+      "anchor": "The Birth of Venus",
+      "target_slug": "birth-of-venus"
+    },
+    "target_quote": "The Uffizi dates the work to",
+    "full_read": true,
+    "reason": "核读Botticelli、约1485、Uffizi、temperaoncanvas与1499来源缺口；FAQ原排名绝对化已改为本页实例选择，保持作者馆藏名和链接。",
+    "new_sentence_keeps_link": true
+  },
+  {
+    "slug": "famous-paintings",
+    "baseline_candidate": {
+      "source": "FAQ#7",
+      "sentence": "No museum or survey keeps an official ranking, but the same works recur across nearly every list: Leonardo da Vinci's [Mona Lisa](/mona-lisa/) (Louvre) and The Last Supper (Santa Maria delle Grazie, Milan), Michelangelo's [Sistine Chapel ceiling](/michelangelo-sistine-chapel/) (Vatican), Sandro Botticelli's [The Birth of Venus](/birth-of-venus/) (Uffizi), Vincent van Gogh's [The Starry Night](/starry-night/) (MoMA), Rembrandt's The Night Watch (Rijksmuseum, also covered above), Pablo Picasso's Guernica (Museo Reina Sofía), Édouard Manet's Olympia (Musée d'Orsay), Gustav Klimt's The Kiss (Belvedere, Vienna), and Grant Wood's American Gothic (Art Institute of Chicago).",
+      "anchor": "The Starry Night",
+      "target_slug": "starry-night"
+    },
+    "target_quote": "It's been in MoMA's New York collection since 1941",
+    "full_read": true,
+    "reason": "核读VanGogh1889June、MoMA1941入藏472.1941及虚构村庄；FAQ列举作品，不借目标断言全球人气排名。",
+    "new_sentence_keeps_link": true
+  },
+  {
+    "slug": "pop-art",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "The [same pattern, of an institution quietly correcting the popular story of a movement's first moment](/abstract-art-first-painting/), turns up often enough in art history that it is worth treating any tidy coining date as a placeholder rather than a fact.",
+      "anchor": "same pattern, of an institution quietly correcting the popular story of a movement's first moment",
+      "target_slug": "abstract-art-first-painting"
+    },
+    "target_quote": "But the date field in the Centre Pompidou's catalogue, the field a researcher would cite, reads 1913.",
+    "full_read": true,
+    "reason": "核读1910背书与1913馆藏日期、stylistic inference、afKlint1906–7与公共影响差异；类比仅不同记录冲突，未称全机构偷偷更改或所有coiningdate不可信。",
+    "new_sentence_keeps_link": true
+  },
+  {
+    "slug": "st-peters-basilica",
+    "baseline_candidate": {
+      "source": "body",
+      "sentence": "Neither number is simply wrong; they most likely measure different things, which is the same habit worth applying to [a functioning gargoyle versus a merely decorative grotesque](/what-is-a-gargoyle/): check what the primary source is actually measuring before repeating a number.",
+      "anchor": "a functioning gargoyle versus a merely decorative grotesque",
+      "target_slug": "what-is-a-gargoyle"
+    },
+    "target_quote": "A gargoyle is a working waterspout. Here is the test that separates one from a grotesque, why Notre-",
+    "full_read": true,
+    "reason": "核读实际排水与仅装饰grotesque的功能区分、apotropaic意图证据不足；源Robie比喻只功能/装饰区分，并非相同工程方法。",
+    "new_sentence_keeps_link": true
+  }
+]
