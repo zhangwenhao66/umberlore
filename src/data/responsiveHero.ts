@@ -44,6 +44,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/art-styles-monet-impression-sunrise-sm.jpg",
   "w": 750
  },
+ "/images/atmospheric-perspective-bierstadt-rockies.jpg": {
+  "h": 449,
+  "mobile": "/images/responsive/atmospheric-perspective-bierstadt-rockies-sm.jpg",
+  "w": 750
+ },
  "/images/aztec-sun-stone-museo-antropologia.jpg": {
   "h": 586,
   "mobile": "/images/responsive/aztec-sun-stone-museo-antropologia-sm.jpg",

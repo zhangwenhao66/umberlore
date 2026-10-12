@@ -662,5 +662,14 @@
    "h": 887
   },
   "desktop_rel": "/images/genre-painting-de-hooch-courtyard.jpg"
+ },
+ "/images/atmospheric-perspective-bierstadt-rockies.jpg": {
+  "fingerprint": "1791795627785529791:242062:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/atmospheric-perspective-bierstadt-rockies-sm.jpg",
+   "w": 750,
+   "h": 449
+  },
+  "desktop_rel": "/images/atmospheric-perspective-bierstadt-rockies.jpg"
  }
 }

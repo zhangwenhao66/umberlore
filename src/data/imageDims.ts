@@ -151,6 +151,26 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 630,
   "w": 1200
  },
+ "/images/atmospheric-perspective-bierstadt-rockies.avif": {
+  "h": 958,
+  "w": 1600
+ },
+ "/images/atmospheric-perspective-bierstadt-rockies.jpg": {
+  "h": 958,
+  "w": 1600
+ },
+ "/images/atmospheric-perspective-bierstadt-rockies.webp": {
+  "h": 958,
+  "w": 1600
+ },
+ "/images/atmospheric-perspective-patinir-flight-egypt.jpg": {
+  "h": 1218,
+  "w": 1500
+ },
+ "/images/atmospheric-perspective-villa-livia-garden.jpg": {
+  "h": 633,
+  "w": 1600
+ },
  "/images/aztec-sun-stone-museo-antropologia.avif": {
   "h": 1250,
   "w": 1600
@@ -875,6 +895,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 616,
   "w": 1600
  },
+ "/images/mixed-media-art-timeline-diagram.svg": {
+  "h": 620,
+  "w": 1200
+ },
  "/images/moctezuma-feather-headdress-weltmuseum.jpg": {
   "h": 1066,
   "w": 1600
@@ -1217,6 +1241,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/responsive/art-styles-monet-impression-sunrise-sm.webp": {
   "h": 584,
+  "w": 750
+ },
+ "/images/responsive/atmospheric-perspective-bierstadt-rockies-sm.avif": {
+  "h": 449,
+  "w": 750
+ },
+ "/images/responsive/atmospheric-perspective-bierstadt-rockies-sm.jpg": {
+  "h": 449,
+  "w": 750
+ },
+ "/images/responsive/atmospheric-perspective-bierstadt-rockies-sm.webp": {
+  "h": 449,
   "w": 750
  },
  "/images/responsive/aztec-sun-stone-museo-antropologia-sm.avif": {

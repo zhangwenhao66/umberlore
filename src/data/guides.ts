@@ -9429,7 +9429,7 @@ export const guides: Guide[] = [
       {
         "heading": "What actually happens when a fresco dries",
         "body": [
-          "True fresco, called *buon fresco* in Italian, is painted with pigment ground in water and applied directly onto a thin top layer of wet lime plaster called *intonaco*. As that plaster sets, the calcium hydroxide inside it reacts with carbon dioxide from the surrounding air and converts into calcium carbonate, a chemical change that locks the pigment inside a hardened crystalline surface, not left sitting on top the way oil paint would be. A University of Southern California engineering write-up on the process describes the plaster layer as porous enough for that carbon dioxide to diffuse in and react with the dissolved lime, effectively growing a durable stone surface around the pigment as it cures.",
+          "True fresco, called *buon fresco* in Italian, is painted with pigment ground in water and applied directly onto a thin top layer of wet lime plaster called *intonaco*. As that plaster sets, the calcium hydroxide inside it reacts with carbon dioxide from the surrounding air and converts into calcium carbonate, a chemical change that locks the pigment inside a hardened crystalline surface, not left sitting on top the way oil paint would be. A University of Southern California engineering write-up on the process describes the plaster layer as porous enough for that carbon dioxide to diffuse in and react with the dissolved lime, effectively growing a durable stone surface around the pigment as it cures. Wall painting is where the effect that Leonardo later named [atmospheric perspective](/atmospheric-perspective/) turns up first, in the frescoed garden room of the Villa of Livia in Rome.",
           "That same chemistry sets a hard deadline. Once the plaster stops absorbing water, it stops absorbing pigment too, so a painter has to finish an entire section, called a *giornata*, in a single working day, after which further changes need dry-surface additions or replacement plaster rather than continued wet-plaster painting. [Michelangelo's crew on the Sistine Chapel ceiling](/michelangelo-sistine-chapel/) learned this the difficult way in 1508, when a lime-and-pozzolana plaster mix stayed wet too long in Rome's damp air and grew mold across an entire finished section before it could cure, forcing the team to scrape the plaster back and start over with a standard lime-and-sand mix.",
           "Because the bond is chemical, not just visual, a genuine fresco surface and later paint added on top of it after the plaster has already cured age differently and can, in principle, be told apart. That distinction turns out to matter more than most visitors to the ancient world's most reproduced frescoes realize, because several of Bronze Age Crete's signature images were extensively completed by restorers, not simply recovered whole, some within a few years of excavation and one only decades later, all working for the same excavator."
         ]
@@ -11199,5 +11199,145 @@ export const guides: Guide[] = [
         "url": "https://artuk.org/discover/art-terms/mixed-media"
       }
     ]
-  }
+  },
+    {
+      "slug": "atmospheric-perspective",
+      "category": "Technique",
+      "title": "Atmospheric Perspective: Older Than Its Own Name",
+      "description": "Atmospheric perspective is why far hills go pale and blue. Roman wall painters used it long before anyone named it, and the phrase itself belongs to Leonardo da Vinci.",
+      "published": "2026-10-12",
+      "updated": "2026-10-12",
+      "coreSummary": "Atmospheric perspective is the effect the air has on how distant objects look: paler, bluer, lower in contrast, and softer in the smallest details first. Roman wall painters were using it long before anyone named it, but the name arrives with Leonardo da Vinci's Treatise on Painting, and the physical cause he proposed in the same collection was not confirmed until 1871.",
+      "image": "/images/atmospheric-perspective-bierstadt-rockies.jpg",
+      "imageAlt": "Albert Bierstadt, The Rocky Mountains, Lander's Peak: a sunlit meadow in the foreground with a Native American encampment of teepees, horses and figures, a lake and waterfall in the middle distance, and snow-covered peaks behind them painted so pale and blue that they read almost as part of the sky.",
+      "imageCredit": "[The Rocky Mountains, Lander's Peak](https://commons.wikimedia.org/wiki/File:Albert_Bierstadt_-_The_Rocky_Mountains,_Lander%27s_Peak.jpg) by Albert Bierstadt, 1863. Public domain, collection of The Metropolitan Museum of Art.",
+      "sections": [
+        {
+          "heading": "The far ridge is already a different colour",
+          "body": [
+            "Stand at the head of a valley and look at the far end of it. The hills at the back are paler than the ones near you, they have shifted toward blue, the light and dark inside them is weaker, and the smallest things in them, single trees, field walls, the line of a stream, have stopped registering at all.",
+            "That is the whole effect, and Britannica's definition of it is one sentence. Aerial perspective is the \"method of creating the illusion of depth, or recession, in a painting or drawing by modulating colour to simulate changes effected by the atmosphere on the colours of things seen at a distance.\" The same entry records the second name the painter's term goes by: \"Also known as: atmospheric perspective.\"",
+            "The National Gallery in London keeps it in its glossary, and its entry ties the two names to one phenomenon: \"Leonardo da Vinci, among others, observed that as a landscape recedes from the viewer its colours and tones alter due to the nature of the atmosphere. The pictorial equivalent of this phenomenon is called aerial or atmospheric perspective.\"",
+            "What disappears first is not arbitrary. Leonardo da Vinci wrote the order down in his Treatise on Painting. In the 1802 John Francis Rigaud translation it reads: \"Of objects receding from the eye the smallest will be the first lost to the sight; from which it follows, that the largest will be the last to disappear.\" A distant town keeps its tower long after it has lost its windows.",
+            "Spotting the effect on a wall is a comparison, not a mood. Find the nearest ridge in the picture and the furthest one. If the furthest is lighter in tone, less saturated and lower in contrast, the painter has built the depth out of air. If the furthest ridge is simply smaller and set higher up, then geometry is doing it instead, and that is a different tool with its own history, told in [how the first vanishing point was found](/vanishing-point/)."
+          ]
+        },
+        {
+          "heading": "The air is thicker at the bottom of the valley",
+          "body": [
+            "The effect is not spread evenly through a view, because the air doing the work is not evenly spread either. Britannica again: \"All these effects are more apparent at the base of a mountain than at its peak, since the density of the intervening atmosphere is greater at lower elevations.\" A summit can sit clear in thin air while its own foot is already hazed over.",
+            "Leonardo tied the same observation to how dark the thing being looked at is: \"The darker the mountain is in itself, the bluer it will appear at a great distance.\"",
+            "He also ordered the losses, in a passage that reads like a work instruction: \"The first part of any colour which is lost by the distance, is the gloss, being the smallest part of it, as a light within a light. The second that diminishes by being farther removed, is the light, because it is less in quantity than the shadow. The third is the principal shadows, nothing remaining at last but a kind of middling obscurity.\"",
+            "Sheen goes first, then highlight, then shadow, until what is left of a far hill is a flat blue-grey with no modeling in it. Britannica adds the part that is easy to get wrong: the distance is not simply bleached. \"Distant objects appear somewhat lighter than objects of similar tone lying closer at hand, and in general contrasts between light and shade appear less extreme at great distances.\" Lighter and flatter both, and it is the flattening the eye reads as distance."
+          ]
+        },
+        {
+          "heading": "Roman wall painters used it first",
+          "body": [
+            "The effect is far older than any word for it. Britannica: \"Examples of aerial perspective have been found in ancient Greco-Roman wall paintings.\"",
+            "The dated examples are Roman. Wikipedia's aerial perspective article puts the earliest surviving use at 30 BCE, in the Second Style at Pompeii, the phase of wall painting that opens a room out into illusionistic architecture or an illusionistic garden, and names two cases: the garden room at the Villa of Livia at Prima Porta, and a first-century fresco of Paris on Mount Ida. That 30 BCE is the article's date for the style, not a museum's dating of either work.",
+            "The Villa of Livia room is the clearer of the two. It is an underground chamber about 40 feet by 20, painted floor to ceiling as a garden, with a low painted balustrade running along the bottom of every wall and the planting behind it thinning into haze as the painted ground recedes. The room has no window and shows no sky beyond the painted one. Every inch of its depth is painted. The frescoes were cut from the walls and taken to Rome, and they are now in the Palazzo Massimo."
+          ],
+          "image": {
+            "src": "/images/atmospheric-perspective-villa-livia-garden.jpg",
+            "alt": "The garden room fresco from the Villa of Livia, now in the Palazzo Massimo in Rome: a painted marble balustrade along the bottom, a strip of lawn with small plants, dense green trees and shrubs carrying ripe fruit with birds perched among them, and behind the planting a pale blue band of hazy distance under a light sky.",
+            "credit": "[Villa of Livia, garden fresco](https://commons.wikimedia.org/wiki/File:Villa_of_Livia_-_Garden_fresco_001.jpg) by Gleb Simonov. Public domain (released by the photographer); fresco in the collection of the Museo Nazionale Romano, Palazzo Massimo."
+          }
+        },
+        {
+          "heading": "Lost, then rediscovered in Antwerp",
+          "body": [
+            "Then the technique goes missing for a long stretch. Britannica is blunt about it: \"The techniques were lost from European art during the 'Dark' and Middle Ages and were rediscovered by Flemish painters of the 15th century (such as Joachim Patinir), after which they became a standard element in the European painter's technical vocabulary.\"",
+            "The National Gallery dates the return to the same corner of Europe, a little more tightly: \"It first appears in early 15th-century Netherlandish paintings and was only later taken up by Italian painters.\" Its glossary also gives the practical reason the effect suited oil so well, crediting \"the subtle gradation of colour required\" and noting that for that \"the oil medium was best suited to achieving this illusion.\"",
+            "Patinir, working in Antwerp, built whole pictures out of exactly those gradations. Landscape with the Flight into Egypt, now in the Koninklijk Museum voor Schone Kunsten in Antwerp, stacks them in bands: a dark crag and a shaded foreground, a broad green middle distance with a farmstead, and then a river mouth opening onto a sea and a range of mountains bleached almost to the colour of the cloud behind them."
+          ],
+          "image": {
+            "src": "/images/atmospheric-perspective-patinir-flight-egypt.jpg",
+            "alt": "Joachim Patinir, Landscape with the Flight into Egypt: a dark rocky crag with a small idol on a ledge at the left, the Holy Family on a donkey on a path below it, a farmstead with cottages and animals at middle right, and behind them a river valley opening onto a pale blue sea with ships and distant mountains.",
+            "credit": "[Landscape with the Flight into Egypt](https://commons.wikimedia.org/wiki/File:Joachim_Patinir_-_Landscape_with_the_Flight_into_Egypt.jpg) by Joachim Patinir, dated between 1515 and 1524 on the file record. Public domain, collection of the Koninklijk Museum voor Schone Kunsten, Antwerp."
+          }
+        },
+        {
+          "heading": "The phrase belongs to Leonardo",
+          "body": [
+            "The name is later than the practice by well over a thousand years, and Britannica puts it with one person: \"Although the use of aerial perspective has been known since antiquity, Leonardo da Vinci first used the term aerial perspective in his Treatise on Painting.\"",
+            "The chapter carrying that heading is short and practical. Rigaud's translation opens it: \"There is another kind of perspective called aerial, because by the difference of the air it is easy to determine the distance of different objects, though seen on the same line.\" He then gives the working rule, that a building meant to stand five times further off should take five times more of the blue of the air.",
+            "Leonardo was not the first to notice the phenomenon itself. The National Gallery's glossary credits that to the earlier architect and writer Leon Battista Alberti, with a rider attached: \"Alberti had observed the phenomenon, which he described, inaccurately, in 'De Pictura', but it was studied more thoroughly by Leonardo da Vinci in his writings.\" De pictura was first composed in Latin in 1435, well before anything Leonardo wrote on the subject.",
+            "So the order of events runs: painted in Roman houses from the first century BCE, described by Alberti in the 1430s, named and worked out by Leonardo, and then a standing part of the European painter's kit for the next four hundred years."
+          ]
+        },
+        {
+          "heading": "Leonardo also guessed what causes it",
+          "body": [
+            "Leonardo did not stop at naming the effect. In a chapter of the same collection he proposed where it comes from: \"The azure of the sky is produced by a mixture composed of light and darkness; I say of light, because of the moist particles floating in the air, which reflect the light. By darkness, I mean the pure air, which has none of these extraneous particles to stop and reflect the rays.\"",
+            "The claim is that particles hanging in the air catch sunlight and throw it sideways into the line of sight. Wikipedia's article on Rayleigh scattering dates that conjecture to about 1506 to 1510 and summarizes it the same way: Leonardo took the scattering of sunlight by small particles in the atmosphere to give the sky its blue hue.",
+            "Physics reached the same place in the nineteenth century, and out of order. In 1869 John Tyndall, working on purified air for infrared experiments, found that bright light scattering off very small particles was faintly blue-tinted, and proposed that this explained the colour of the sky; he could not say why blue light should be scattered in preference to the rest of the spectrum. In 1871 Lord Rayleigh published two papers on the colour and polarisation of skylight and supplied the missing rule, that scattering intensity varies inversely with the fourth power of the wavelength.",
+            "The fourth power is what makes any of this visible. Set scattering at 700 nanometres, at the red end of the range the eye can see, to 1, and the same relation gives the rest of the band:",
+            "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.45;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Band</th><th style=\"padding:8px 10px;text-align:right;white-space:nowrap;\">Wavelength</th><th style=\"padding:8px 10px 8px 0;text-align:right;white-space:nowrap;\">Relative scattering</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Red</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">700 nm</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">1.00</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Orange</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">650 nm</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">1.35</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Yellow-green</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">550 nm</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">2.62</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Blue-green</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">500 nm</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">3.84</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Blue</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">450 nm</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">5.86</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Violet</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">400 nm</td><td style=\"padding:7px 10px;text-align:right;white-space:nowrap;\">9.38</td></tr></tbody></table></div>",
+            "A blue at 450 nanometres is scattered nearly six times as hard as a red at 700, which is the whole reason a distant ridge reads blue and a near one does not. The numbers are worked out from the fourth-power relation rather than measured off a photograph, and they are the part of the story no painter had. The distance between what a technique is called and what it physically does is the one [conservation studies keep closing for sfumato, impasto and pointillism](/art-techniques/). The effect had been painted for about nineteen centuries on observation alone before Rayleigh put a figure on it."
+          ]
+        },
+        {
+          "heading": "Where the effect is carrying the most weight",
+          "body": [
+            "Some painters lean on it harder than others. Britannica's verdict on the heaviest user: \"The 19th-century British landscape painter J.M.W. Turner made perhaps the boldest and most ambitious use of aerial perspective among Western artists.\"",
+            "It is not a European invention, whatever the naming history suggests. \"Aerial perspective was used with great sophistication and pictorial effectiveness by Chinese landscape painters from about the 8th century on.\"",
+            "Bierstadt's The Rocky Mountains, Lander's Peak, painted in 1863 and now in the Metropolitan Museum of Art, shows the whole set of moves on one canvas. The meadow in front is dark and specific, crowded with an encampment, horses and figures a viewer can count. The middle distance holds a lake and a waterfall in softer greens and greys. Behind both, the snow peaks are pitched so close to the colour of the sky that they sit further back than the drawing alone would put them.",
+            "Read any landscape that way and the test stays quick. Compare the nearest band and the furthest one, and check whether the far band has lost tone, saturation and contrast in that order. If it has, the depth is built out of air. Not every landscape that reads as a single observed view is one, which is [what the sketches behind Friedrich, Constable and Church reveal](/famous-landscape-paintings/)."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is another name for atmospheric perspective?",
+          "answer": "Aerial perspective. Britannica gives that alternative in the same listing, and the two are treated as one effect wherever the subject is taught. Nothing separates them except which word a given writer reached for."
+        },
+        {
+          "question": "Who first used the term atmospheric perspective?",
+          "answer": "Britannica gives the honour to Leonardo, whose collected notes carry a short chapter on the subject. The effect it names had already been painted on Roman walls for well over a millennium by then."
+        },
+        {
+          "question": "How does atmospheric perspective differ from linear perspective?",
+          "answer": "Linear perspective is geometry: edges running into depth converge on a single vanishing point, and objects shrink by a rule a straightedge can draw, which is [the separate history this site tells elsewhere](/vanishing-point/). The air-based effect is optics instead, altering colour, contrast and edge detail as distance grows. Most landscapes use both, which is why the two are easy to confuse."
+        },
+        {
+          "question": "Why do distant mountains look blue?",
+          "answer": "Air scatters short wavelengths much more strongly than long ones, so light arriving from the direction of a far object carries a higher share of blue. Rayleigh and his 1871 papers supplied the numbers behind that, and Leonardo had proposed the underlying particle mechanism more than three and a half centuries earlier."
+        },
+        {
+          "question": "When was atmospheric perspective first used in painting?",
+          "answer": "Roman wall painting is where the earliest examples are, and the practice then vanishes from European art until painters in the Low Countries revive it in the early fifteenth century."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Britannica: Aerial perspective",
+          "url": "https://www.britannica.com/art/aerial-perspective"
+        },
+        {
+          "label": "National Gallery, London: Aerial perspective (glossary)",
+          "url": "https://www.nationalgallery.org.uk/paintings/glossary/aerial-perspective"
+        },
+        {
+          "label": "Leonardo da Vinci, A Treatise on Painting, trans. John Francis Rigaud (1802). Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/46915"
+        },
+        {
+          "label": "Wikipedia: Aerial perspective",
+          "url": "https://en.wikipedia.org/wiki/Aerial_perspective"
+        },
+        {
+          "label": "Wikipedia: Rayleigh scattering",
+          "url": "https://en.wikipedia.org/wiki/Rayleigh_scattering"
+        },
+        {
+          "label": "Wikipedia: Villa of Livia",
+          "url": "https://en.wikipedia.org/wiki/Villa_of_Livia"
+        },
+        {
+          "label": "Wikipedia: De pictura",
+          "url": "https://en.wikipedia.org/wiki/De_pictura"
+        }
+      ]
+    }
 ];
