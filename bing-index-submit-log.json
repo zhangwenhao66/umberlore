@@ -332,5 +332,15 @@
       "https://umberlore.com/genre-painting/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-10-12",
+    "site": "umberlore.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://umberlore.com/atmospheric-perspective/",
+      "https://umberlore.com/mixed-media-art/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
