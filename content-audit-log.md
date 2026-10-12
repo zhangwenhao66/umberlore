@@ -3874,3 +3874,40 @@ Only FAQ additions; prior FAQ/body/title/description/sources/schema/updated/publ
   "core_conclusion_overturned": false
 }
 ```
+
+## Wikipedia 正文归因回溯（R-seo-29 · UmberLore · 2026-10-12）
+- Run ID：`umberlore-20261012T1939`；本条仅覆盖 UmberLore；原 checkout 未改。候选依据为初始 wide inventory 100 行 / 27 篇，原始逐行分类及 raw 文件/hash 见 `/Users/zhangwh/.codex/receipts/wikipedia-umberlore-20261012/review.json`、`candidates.json`、`raw/`。
+- 分类：100/100（仍在 89、漂移 10、未检查 1；未检查仅 `um-039`，63 项数据表无法逐项核验，故不作通过结论）。漂移 IDs：`um-023, um-024, um-027, um-031, um-032, um-053, um-054, um-063, um-098, um-099`；相应修订见 review.json 的 `edit_summary`。另 `um-034` 全文 sources[] 检查补入被临时清单漏掉的 Moctezuma’s headdress URL，raw 200，证据在 review 的 source_inventory_findings 与对应行。
+- 核对命令（2026-10-12）：`python3 .../check_wikipedia_attribution_drift.py --all --guides src/data/guides.ts`、`... --all --narrow --guides src/data/guides.ts`；最终 wide 0 / narrow 0（原始输出 `wide-final.txt`、`narrow-final.txt`）。矩阵复扫 `matrix_scan.py --check .../check_wikipedia_attribution_drift.py`，应查17 / 实查17 / 未检查0；9站存在各自候选，脚本命中表示待人工核，不等于漂移；本次不编辑其他站，结果见 `matrix-final.txt`。
+- 英文写作链：每轮正文更改均按 humanizer → avoid-ai-writing 顺序执行并复核专名、数字、引语、URL；Codex 不提供原生 Skill() 调用，记录的是读取精确技能文件并顺序应用，不伪称工具调用。路径/hash 和历轮范围见 `writing-chain-drift-fixes.json`（humanizer `0d4e1d88…`，avoid-ai-writing `1049b51c…`）。最后一轮逐句补入 6 个残余命中句的 checked date、去掉14条重复日期、重写 famous-landscape-paintings FAQ#1 后，5个相关 slug 的 run_checks 均 exit0。
+- 27 个候选 slug 的最终 `run_checks.py --guides <worktree>/src/data/guides.ts --slug <slug> --site <worktree>` 收据目录：`/Users/zhangwh/.codex/receipts/wikipedia-umberlore-20261012/run-checks-final-correct-site/`。结果：26篇 exit0；`antique-oil-painting` exit1，唯一 failure 为 `check_sister_page_similarity.py`。人工打开匹配片段确认 51% 重合仅是两页共享表格 HTML wrapper（`<div style="overflow-x:auto"><table...`），未发现正文逐句模板复制；去改table结构会越过本次正文事实修改范围，故如实保留结构性不通过。每篇均为应跑55/实跑38/未检查17；未检查为清单未定义单篇模式或路径/参数不匹配项，原始逐项原因在对应 JSON stdout，不能算通过。
+- Bridge 候选人工核验：`encaustic-painting` 2、`fallen-angel-painting` 1、`fresco-painting` 1、`majolica` 2 均逐句对照目标页确认；notes 文件保存在 worktree 根目录并随本次证据保留。辅助证据/逐句结论亦见 receipts。
+- 扩散判定：通用（R-seo-29）；范围17站，未检查0；矩阵9站候选待核（本站100行已分类，其他站不改）；本批修复 UmberLore 10条漂移；防复发检查为现有 `check_wikipedia_attribution_drift.py` 已用于 wide/narrow 与 matrix_scan。
+- 每篇候选数及最终检查状态：
+  - `pop-art`：2（仍在2 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `st-peters-basilica`：3（仍在3 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `saturn-devouring-his-son`：1（仍在1 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `elements-of-art`：5（仍在5 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `birth-of-venus`：8（仍在8 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `fallen-angel-painting`：4（仍在3 / 漂移1 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `architectural-painting`：4（仍在2 / 漂移2 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `cloisonne`：6（仍在4 / 漂移2 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `aztec-art`：1（仍在1 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `mayan-art`：2（仍在2 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `encaustic-painting`：2（仍在2 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `artist-peak-creation-age`：1（仍在0 / 漂移0 / 未检查1）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `majolica`：1（仍在1 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `ghost-of-a-flea`：1（仍在1 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `famous-landscape-paintings`：3（仍在3 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `sand-painting`：2（仍在2 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `non-objective-art`：2（仍在2 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `chiaroscuro-woodcut`：3（仍在3 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `the-lovers-painting`：1（仍在1 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `fresco-painting`：2（仍在0 / 漂移2 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `golden-ratio-in-art`：7（仍在7 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `most-expensive-painting-in-the-world`：10（仍在9 / 漂移1 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `are-thomas-kinkade-paintings-worth-anything`：4（仍在4 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `how-many-times-was-the-mona-lisa-stolen`：15（仍在15 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `rococo-architecture-vs-baroque`：7（仍在7 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+  - `antique-oil-painting`：1（仍在0 / 漂移1 / 未检查0）；run_checks exit1，汇总: 通过 37 / 不通过 1 / 未检查 17（应跑 55 / 实跑 38）；failure：不通过  check_sister_page_similarity.py            结论：1处高重合候选，人工核对是否逐句复制模板。
+  - `atmospheric-perspective`：2（仍在1 / 漂移1 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。

@@ -1,0 +1,14 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Target encaustic-painting coreSummary and section on mummy portraits state that beeswax can be identified but the proposed Punic-wax recipe/preparation cannot be established from it; the Getty study does not confirm those specific recipes. This directly supports the bridge sentence's caution.",
+    "sentence": "A similar gap between an assumed technique and what the documented record actually supports shows up in [the proposed Punic-wax formulas for Fayum portraits, whose preparation cannot be established simply by identifying beeswax](/encaustic-painting/)."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Target cloisonne article's Cao Zhao section gives the 1388 dismissal and states that Xuande-period cloisonné was greatly prized at court; the documented Xuande reign is 1426–1435, less than 40 years later. This supports the bridge's qualified chronology and change in status.",
+    "sentence": "Reputation can swing the opposite way just as fast: [the antiquarian Cao Zhao dismissed cloisonné enamel as unfit for a scholar's studio in 1388, only for the same technique to become an imperial treasure within about forty years](/cloisonne/), a reminder that a decorative craft's status, like its name, is rarely as stable as the finished object makes it look."
+  }
+]

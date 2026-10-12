@@ -1,0 +1,20 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "The link points to frank-lloyd-wright. Its “Fallingwater’s engineer forgot the reinforcing” section says Wright refused Walter Hall’s correction and additional steel was added during construction; it also records disagreement over who added it. That supports the bridge sentence’s reference to reinforcement despite Wright’s objections.",
+    "sentence": "The dome most visitors assume is a pure Michelangelo design is, on the building's own records, a collaboration finished by two other architects making their own calls, comparable to [the additional reinforcing used during Fallingwater's construction despite Wright's objections](/frank-lloyd-wright/)."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "The link points to mona-lisa. Its core summary says the 1911 theft did not rescue the painting from obscurity but enlarged its audience; the body describes the two-year disappearance and the resulting mass-press attention. That supports the bridge sentence’s qualified reference to the theft story and its mismatch with the documented account.",
+    "sentence": "The most quoted line about the building's most photographed bronze object may be describing the wrong metal, much the same kind of afterlife a theft gave [the Mona Lisa's fame](/mona-lisa/), where the popular story and the documented one don't quite match."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "The link points to sagrada-familia. The target identifies construction beginning in 1882 and says later architects continued the project from photographs and reconstructed models after Gaudí’s studio models were destroyed. This supports both details in the bridge sentence.",
+    "sentence": "[Barcelona's Sagrada Família](/sagrada-familia/) inverts that same problem: a project begun in 1882 whose later builders have worked from Gaudí's surviving models and reconstructed plans."
+  }
+]
