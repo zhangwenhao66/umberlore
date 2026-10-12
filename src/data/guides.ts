@@ -10989,5 +10989,143 @@ export const guides: Guide[] = [
         "url": "https://www.nationalgallery.org.uk/paintings/giuseppe-maria-crespi-peasants-with-donkeys"
       }
     ]
+  },
+  {
+    "slug": "mixed-media-art",
+    "category": "Technique",
+    "title": "Mixed Media Art: The Word Arrived in 1962",
+    "description": "Museums date mixed media to about 1912, when Braque pasted printed oilcloth into a Cubist drawing. The word mixed-media is not recorded in English until 1962.",
+    "published": "2026-10-12",
+    "updated": "2026-10-12",
+    "coreSummary": "Mixed media art is work built from more than one material, where no single medium name covers the object: paint with paper, fabric with found objects, a glued surface with a painted one. Museums date the practice to around 1912, when Georges Braque pasted factory-printed oilcloth into a Cubist drawing and Pablo Picasso followed with oilcloth and rope. The phrase is younger. Merriam-Webster's earliest citation for mixed-media is 1962, and the sense it records is multimedia, so the label has always described a container rather than a medium.",
+    "image": "/images/mixed-media-art-timeline-diagram.svg",
+    "imageAlt": "A timeline diagram marking 1912, when Braque and Picasso pasted printed oilcloth into Cubist work; 1954, when Rauschenberg made the first Combine; and 1962, the first recorded use of mixed-media in English, with a dashed bracket marking the fifty years between the practice and the word.",
+    "sections": [
+      {
+        "heading": "What the term actually names",
+        "body": [
+          "Mixed media is the term for work built from more than one material. Tate's art-terms entry is a single sentence: \"Mixed media is a term used to describe artworks composed from a combination of different media or materials.\"",
+          "Art UK, the charity that catalogues publicly owned art in Britain, sets out how wide the range runs. The materials, it says, \"can be anything, from paint and paper, to newspaper and found objects.\"",
+          "Neither definition tells you what any particular work is made of, and that is the term's whole function. A painting is oil on canvas. A drawing is graphite on paper. A collage is paper stuck to a surface. Mixed media is the line a museum writes when none of those names fits the object in front of it.",
+          "Art UK's entry names artists who worked this way across the twentieth century, from Henri Matisse to Eileen Agar and Ingrid Pollard. The label now covers a span of practice far wider than the Cubist collages that started it.",
+          "So the phrase describes a combination, not a substance, and the combination changes from work to work. Two objects catalogued as mixed media may share no material at all."
+        ]
+      },
+      {
+        "heading": "The practice starts in a Provence hardware shop",
+        "body": [
+          "Museums agree on when the practice begins. Tate: \"The use of mixed media began around 1912 with the cubist collages and constructions of Pablo Picasso and Georges Braque.\" Art UK gives the same year and the same two names.",
+          "The story behind that date is concrete, and Smarthistory tells it. In the summer of 1912 Georges Braque left Paris for a holiday in Provence. In a hardware shop he found a roll of oilcloth, the printed vinyl covering sold for lining shelves and drawers, and bought a length printed with a fake wood grain. Smarthistory describes the material as an early version of contact paper, sold in a range of pre-printed patterns. He was at work on a Cubist drawing of a guitar and had been about to render the grain of the wood in pencil. He cut the oilcloth and pasted the factory-printed pattern into the drawing instead.",
+          "Smarthistory's verdict on that gesture is blunt: \"With this collage, Braque changed the direction of art for the next ninety years.\"",
+          "Picasso followed. His Still Life with Chair Caning, dated 1912, is oil and oilcloth on canvas framed with rope, 29 by 37 cm, in the Musee Picasso in Paris. The cane pattern of a cafe chair is not painted on; it is a piece of commercially printed oilcloth glued to the surface, and the oval canvas is bound with real rope.",
+          "What was new at that moment was the paste itself. A manufactured, printed surface was attached to a picture as itself, keeping its own texture and its own commercial origin. The artist's hand did the choosing and the cutting, and little else.",
+          "Tate's collection shows where that led within a year. Bottle of Vieux Marc, Glass, Guitar and Newspaper, made by Picasso in 1913, is the work Tate uses to illustrate its mixed media entry, and by then the pasted element had stopped being a stunt and become part of how a Cubist picture was assembled."
+        ]
+      },
+      {
+        "heading": "A word that arrives fifty years late",
+        "body": [
+          "The practice and the phrase are half a century apart. Merriam-Webster gives 1962 as the first known use of mixed-media in English: \"The first known use of mixed-media was in 1962.\"",
+          "That date needs a qualification. The dictionary's entry is not an art term. Merriam-Webster defines mixed-media, as an adjective, in one word: multimedia. The 1962 citation belongs to that sense. What the dictionary was recording was not what a gallery means by the phrase.",
+          "The two senses have since pulled further apart. Tate keeps multi-media for work that \"uses or includes a combination of electronic media, such as video, film, audio and computers,\" and leaves mixed media for materials. A dictionary and a museum now use the same pair of words to draw opposite lines.",
+          "Put the dates side by side and the shape of the problem appears. Braque's oilcloth was pasted in 1912. The English word that now covers it was not recorded until 1962.",
+          "The gap also explains why the phrase can feel vague to anyone who meets it first on a gallery wall. It was never a term for a technique or for a material. It was a term for a hole in the vocabulary, and it still is."
+        ]
+      },
+      {
+        "heading": "What the works were called in the meantime",
+        "body": [
+          "For those fifty years the objects had names. They were other names, given by different people for different reasons.",
+          "Collage is the oldest. Tate's entry covers both the technique and the resulting object, in which pieces of paper, photographs, fabric and other ephemera are \"arranged and stuck down onto a supporting surface.\" The word comes from the French papiers colles, and Tate dates its use as an artists' technique to the early twentieth century.",
+          "Tate adds one detail that explains why the categories are so often confused. Collage can also take in other media, painting and drawing among them. A single picture can be a painting and a collage at once, and the museum's medium field still has to hold one answer.",
+          "Rauschenberg supplied a word of his own. The Robert Rauschenberg Foundation records that by the summer of 1954 he had made the first fully realised Combine, \"eliminating all distinctions between painting and sculpture,\" and that the Red Paintings and Combines were first exhibited at the Egan Gallery in New York in December 1954, where the Foundation says critics were baffled by works that \"challenged existing definitions of art.\" The series kept growing: the Foundation lists Bed, made in 1955, and Monogram, worked on from 1955 to 1959, among the Combines, and notes that many of them travelled to the U.S. Pavilion at the Venice Biennale in 1964. Combine belongs to the artist, not to a curator.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.82rem;line-height:1.45;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Name</th><th style=\"padding:8px 10px;text-align:left;\">In use from</th><th style=\"padding:8px 10px;text-align:left;\">Who used it</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">What it covers</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Collage</td><td style=\"padding:7px 10px;\">Early twentieth century</td><td style=\"padding:7px 10px;\">French, from papiers colles</td><td style=\"padding:7px 0 7px 10px;\">Paper, photographs, fabric and other ephemera stuck down onto a surface (Tate)</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Combine</td><td style=\"padding:7px 10px;\">1954</td><td style=\"padding:7px 10px;\">Robert Rauschenberg</td><td style=\"padding:7px 0 7px 10px;\">Works that remove the distinction between painting and sculpture (Rauschenberg Foundation)</td></tr><tr><td style=\"padding:7px 10px 7px 0;\">Mixed media</td><td style=\"padding:7px 10px;\">1962, first English citation</td><td style=\"padding:7px 10px;\">Dictionary usage, sense \"multimedia\"</td><td style=\"padding:7px 0 7px 10px;\">Any work built from more than one material (Tate)</td></tr></tbody></table></div>",
+          "The list explains why mixed media reads as a container. Collage names a technique. Combine names one artist's body of work. Mixed media names neither, and it is what a museum reaches for when the others do not apply."
+        ]
+      },
+      {
+        "heading": "The two working parts are collage and assemblage",
+        "body": [
+          "Almost everything catalogued as mixed media falls into one of two groups, and Tate keeps a term for each. Collage is flat: pieces arranged and stuck down onto a surface. Assemblage is three-dimensional, which Tate defines as art made by assembling disparate elements, \"often everyday objects,\" either scavenged by the artist or bought specially.",
+          "Tate dates assemblage to the same moment as collage, tracing the approach back to Picasso's cubist constructions, the three-dimensional works he began making from 1912. An early example it names is Still Life 1914, made from scraps of wood and a length of tablecloth fringing, glued together and painted.",
+          "The two words then run in parallel through the century. Tate records that in 1918 the Dada artist Kurt Schwitters began using scavenged scrap material for collages and assemblages, and called the technique merz, and that assemblage became the basis for many surrealist objects, which combined found objects into sculptures built to be unsettling.",
+          "By the 1950s and 1960s, Tate says, assemblage was in wide use. Jasper Johns and Robert Rauschenberg worked with scrappy materials and found objects alongside thickly applied paint, which is the practice Rauschenberg's own word, Combine, was invented to name. Johns wrote the method down in a sketchbook in 1964: \"Take an object / Do something to it / Do something else to it. [Repeat.]\"",
+          "Tate illustrates the range with objects. Its page shows Man Ray's Indestructible Object, made in 1923, remade in 1933 and issued as an editioned replica in 1965, and Mario Merz's Lingotto of 1968, the latter held in the ARTIST ROOMS collection Tate shares with the National Galleries of Scotland.",
+          "Read together, the two terms explain why a museum reaches for mixed media at all. Collage and assemblage name the technique. Mixed media names the catalogue field, and it has to hold both."
+        ]
+      },
+      {
+        "heading": "Mixed media is not multimedia",
+        "body": [
+          "Tate draws the line by asking what the second medium is. Multi-media describes work that includes electronic media: video, film, audio or computers. Mixed media describes work built from materials, whether those are paint and paper, or fabric and found objects.",
+          "The test is therefore about the kind of medium, not the number of them. A canvas with glued oilcloth and a rope frame is mixed media. A room with a monitor in it is multimedia, whatever else stands in the room.",
+          "This runs against the dictionary sense, and the confusion is old enough that Tate addresses it under a heading that reads \"Mixed media vs. multi-media.\" Anyone who reads a gallery label and a dictionary entry side by side meets both definitions, and only one of them is the one the museum meant.",
+          "The difference is practical. A label reading mixed media tells you the object is made of more than one material. A label reading multimedia tells you the work includes electronic media. The materials on the wall can be identical in both cases; what changes is whether the second medium is a material at all."
+        ]
+      },
+      {
+        "heading": "Why the label keeps being needed",
+        "body": [
+          "A term that names a combination has to be invented whenever a combination becomes common enough to need one, and that is the pattern here. The Cubists produced objects that collage could partly describe. Rauschenberg produced objects that collage could not describe at all, so he named them himself. By the time mixed media entered English in 1962, the practice it described was already fifty years old.",
+          "That lag between an object and the word for it runs through the period. [Pop Art](/pop-art/) is the clearest case: the syllable turned up in a collage in 1947, the movement's name is credited to a critic's 1958 essay whose running prose actually reads \"mass popular art,\" and the first essay on record to print the phrase \"Pop Art\" in its text appeared in 1962, the year Merriam-Webster records for mixed-media.",
+          "Museum records show the pressure from the other side. A [catalogue entry](/famous-paintings/) has to name a medium for every object, and the medium field is where a work with oilcloth and rope, or a glued layer and a painted one, has to be filed under something.",
+          "The materials themselves are the subject of a separate line of research. [Conservation science](/art-techniques/) can now measure what lies under a painted surface: an X-ray fluorescence study of nine faces Leonardo painted found his sfumato built from as many as 30 glaze layers.",
+          "None of that makes the label more precise. Mixed media remains a way of saying that a work is made of more than one thing, and that the museum's other words did not fit.",
+          "The three dates answer three different questions. 1912 is when museums say the practice begins. 1954 is when one artist gave his own version of it a name. 1962 is when English acquired a word for the whole field. None of them is the date of the other two."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the meaning of multimedia art?",
+        "answer": "Tate reserves that word for art which brings in electronic media, naming video and sound among its examples. What separates it from mixed media is whether the extra medium is electronic."
+      },
+      {
+        "question": "When did mixed media start?",
+        "answer": "Two dates, fifty years apart. Tate and Art UK both put the beginning of the practice at about 1912, when Picasso and Braque were pasting printed material into Cubist drawings. The dictionary record for the word is 1962."
+      },
+      {
+        "question": "Is collage the same as mixed media?",
+        "answer": "Collage is the narrower term. Tate describes it as cut paper, photographic prints, cloth and similar throwaway material arranged and fixed to a surface, and notes that painted or drawn elements can be part of it too. The wider museum line, mixed media, covers objects that resist any single material name."
+      },
+      {
+        "question": "What were these works called before the phrase existed?",
+        "answer": "Collage, a borrowing of papiers colles in French, and in Rauschenberg's case Combine, a word he coined from 1954 for hybrids that stopped separating painting from sculpture. Both are older than the English use of mixed-media."
+      },
+      {
+        "question": "Do dictionaries and galleries mean the same thing by mixed media?",
+        "answer": "They disagree. The Merriam-Webster entry treats the adjective as a synonym for multimedia and dates its first use to 1962, while Tate gives multi-media to electronic media and reserves the mixed media label for physical materials."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tate: Mixed media",
+        "url": "https://www.tate.org.uk/art/art-terms/m/mixed-media"
+      },
+      {
+        "label": "Tate: Collage",
+        "url": "https://www.tate.org.uk/art/art-terms/c/collage"
+      },
+      {
+        "label": "Tate: Assemblage",
+        "url": "https://www.tate.org.uk/art/art-terms/a/assemblage"
+      },
+      {
+        "label": "Merriam-Webster: mixed-media",
+        "url": "https://www.merriam-webster.com/dictionary/mixed-media"
+      },
+      {
+        "label": "Harris, Beth, and Steven Zucker. Picasso, Still Life with Chair Caning. Smarthistory",
+        "url": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e"
+      },
+      {
+        "label": "Robert Rauschenberg Foundation: Expanding Career, 1954-69",
+        "url": "https://www.rauschenbergfoundation.org/artist/expanding-career-1954-69"
+      },
+      {
+        "label": "Art UK: Mixed media",
+        "url": "https://artuk.org/discover/art-terms/mixed-media"
+      }
+    ]
   }
 ];

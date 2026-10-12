@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1200 620" width="1200" height="620" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif" role="img" aria-label="Timeline: Braque and Picasso paste printed oilcloth into Cubist works in 1912; Rauschenberg makes the first Combine in 1954; the word mixed-media is first recorded in English in 1962.">
+  <rect width="1200" height="620" fill="#faf6f0"/>
+  <text x="600" y="52" text-anchor="middle" font-size="27" fill="#4a3728" font-weight="bold">A Practice From 1912, a Word From 1962</text>
+  <text x="600" y="82" text-anchor="middle" font-size="15" fill="#6d4f3a">Three dated moments, and the fifty years between the first and the last</text>
+
+  <line x1="90" y1="330" x2="1110" y2="330" stroke="#8a5a34" stroke-width="4"/>
+
+  <!-- 1912 -->
+  <circle cx="230" cy="330" r="13" fill="#8a5a34"/>
+  <text x="230" y="272" text-anchor="middle" font-size="21" fill="#4a3728" font-weight="bold">1912</text>
+  <text x="230" y="372" text-anchor="middle" font-size="13.5" fill="#4a3728">Braque pastes factory-printed</text>
+  <text x="230" y="391" text-anchor="middle" font-size="13.5" fill="#4a3728">oilcloth into a Cubist drawing;</text>
+  <text x="230" y="410" text-anchor="middle" font-size="13.5" fill="#4a3728">Picasso follows with oilcloth</text>
+  <text x="230" y="429" text-anchor="middle" font-size="13.5" fill="#4a3728">and a rope frame</text>
+  <text x="230" y="456" text-anchor="middle" font-size="12" fill="#7a6248">The date museums give for the</text>
+  <text x="230" y="473" text-anchor="middle" font-size="12" fill="#7a6248">start of mixed media</text>
+
+  <!-- 1954 -->
+  <circle cx="600" cy="330" r="13" fill="#a6733f"/>
+  <text x="600" y="272" text-anchor="middle" font-size="21" fill="#4a3728" font-weight="bold">1954</text>
+  <text x="600" y="372" text-anchor="middle" font-size="13.5" fill="#4a3728">Rauschenberg makes the first</text>
+  <text x="600" y="391" text-anchor="middle" font-size="13.5" fill="#4a3728">fully realised Combine and</text>
+  <text x="600" y="410" text-anchor="middle" font-size="13.5" fill="#4a3728">gives the work a name of</text>
+  <text x="600" y="429" text-anchor="middle" font-size="13.5" fill="#4a3728">his own</text>
+  <text x="600" y="456" text-anchor="middle" font-size="12" fill="#7a6248">Not "mixed media": the artist's</text>
+  <text x="600" y="473" text-anchor="middle" font-size="12" fill="#7a6248">own word, still in use today</text>
+
+  <!-- 1962 -->
+  <circle cx="970" cy="330" r="13" fill="#6d4f3a"/>
+  <text x="970" y="272" text-anchor="middle" font-size="21" fill="#4a3728" font-weight="bold">1962</text>
+  <text x="970" y="372" text-anchor="middle" font-size="13.5" fill="#4a3728">Merriam-Webster's earliest</text>
+  <text x="970" y="391" text-anchor="middle" font-size="13.5" fill="#4a3728">citation for "mixed-media"</text>
+  <text x="970" y="410" text-anchor="middle" font-size="13.5" fill="#4a3728">in English, and the sense it</text>
+  <text x="970" y="429" text-anchor="middle" font-size="13.5" fill="#4a3728">records is "multimedia"</text>
+  <text x="970" y="456" text-anchor="middle" font-size="12" fill="#7a6248">The word arrives half a</text>
+  <text x="970" y="473" text-anchor="middle" font-size="12" fill="#7a6248">century after the works</text>
+
+  <!-- gap bracket -->
+  <line x1="230" y1="530" x2="970" y2="530" stroke="#c9b8a4" stroke-width="2" stroke-dasharray="7 7"/>
+  <line x1="230" y1="522" x2="230" y2="538" stroke="#c9b8a4" stroke-width="2"/>
+  <line x1="970" y1="522" x2="970" y2="538" stroke="#c9b8a4" stroke-width="2"/>
+  <text x="600" y="560" text-anchor="middle" font-size="14" fill="#6d4f3a" font-style="italic">Fifty years in which the works existed but the label did not</text>
+
+  <text x="600" y="598" text-anchor="middle" font-size="12" fill="#9a8a76">Sources: Tate (art terms, mixed media and collage); Merriam-Webster; Robert Rauschenberg Foundation; Smarthistory</text>
+</svg>
