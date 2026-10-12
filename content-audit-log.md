@@ -3911,3 +3911,6 @@ Only FAQ additions; prior FAQ/body/title/description/sources/schema/updated/publ
   - `rococo-architecture-vs-baroque`：7（仍在7 / 漂移0 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
   - `antique-oil-painting`：1（仍在0 / 漂移1 / 未检查0）；run_checks exit1，汇总: 通过 37 / 不通过 1 / 未检查 17（应跑 55 / 实跑 38）；failure：不通过  check_sister_page_similarity.py            结论：1处高重合候选，人工核对是否逐句复制模板。
   - `atmospheric-perspective`：2（仍在1 / 漂移1 / 未检查0）；run_checks exit0，汇总: 通过 38 / 不通过 0 / 未检查 17（应跑 55 / 实跑 38）。
+
+- Post-rebase复核（2026-10-12，commit `d68f713`基线）：重新逐篇执行27条带`--site <worktree>`的`run_checks.py --guides <worktree>/src/data/guides.ts --slug <slug>`；26篇 exit0，antique-oil-painting唯一 exit1仍为上文结构性共用表格HTML wrapper；每篇55/38/17（未检查原因见逐篇 JSON）。post-rebase wide/narrow均0，matrix应查17/实查17/未检查0。收据：`/Users/zhangwh/.codex/receipts/wikipedia-umberlore-20261012/run-checks-post-rebase/`及`wide-post-rebase.txt`、`narrow-post-rebase.txt`、`matrix-post-rebase.txt`。
+- Git提交检查hook状态：提交时hook报告“未提供 --path，也没能从 --diff 里解析出任何slug，跳过检查（不算通过，是没查到）”。记录为该hook未执行/未通过，不以人工27篇检查替代hook；实际逐slug证据仍如上。提交明确pathspec仅7条：`src/data/guides.ts`、`content-audit-log.md`、4篇bridge notes及St Peter notes。push前另作Git freshness与目标引用复核。
