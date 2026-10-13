@@ -338,5 +338,10 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "h": 997,
   "mobile": "/images/responsive/whistler-nocturne-black-and-gold-falling-rocket-sm.jpg",
   "w": 750
+ },
+ "/images/who-painted-this-painting-golden-helmet.jpg": {
+  "h": 1006,
+  "mobile": "/images/responsive/who-painted-this-painting-golden-helmet-sm.jpg",
+  "w": 750
  }
 };

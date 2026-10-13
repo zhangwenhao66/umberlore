@@ -6804,7 +6804,8 @@ export const guides: Guide[] = [
         "body": [
           "Landscape with the Fall of Icarus is an oil-on-canvas painting, 73.5 by 112 centimetres, that entered the collection of the Royal Museums of Fine Arts of Belgium (RMFAB) in Brussels in 1912, bought on the art market. For decades it was catalogued as the work of Pieter Bruegel the Elder. It no longer is, at least not without a heavy qualifier.",
           "A technical examination of the painting in 1996 cast serious doubt on that attribution. Since then, the museum's own position is that it is \"doubtful the execution is by Bruegel the Elder, but the composition can be said with certainty to be his.\" In plain terms, the design is Bruegel's, most likely copied from a lost original he painted around 1558, while the physical object in Brussels is now generally treated as a good early copy by an unknown hand, made perhaps in the 1560s. In 2006, the chemist J. Reisse re-examined an earlier paint sample and argued the case for authenticity wasn't as closed as the 1996 consensus suggested, reopening a debate that technical analysis alone hasn't settled.",
-          "That debate is still active as of this writing. RMFAB published a notice on 9 April 2026 announcing new, non-invasive technical research on the painting, carried out with Belgium's Royal Institute for Cultural Heritage. The museum's own wording captures how unresolved the file still is: \"Doubts have been expressed about its attribution, dating, painting technique and the extent of its restoration.\" The results are scheduled to be unveiled at a Pieter Bruegel the Elder exhibition the museum plans for autumn 2028, and the painting itself, out of its usual gallery for the study, is expected back at the museum around October 2026."
+          "That debate is still active as of this writing. RMFAB published a notice on 9 April 2026 announcing new, non-invasive technical research on the painting, carried out with Belgium's Royal Institute for Cultural Heritage. The museum's own wording captures how unresolved the file still is: \"Doubts have been expressed about its attribution, dating, painting technique and the extent of its restoration.\" The results are scheduled to be unveiled at a Pieter Bruegel the Elder exhibition the museum plans for autumn 2028, and the painting itself, out of its usual gallery for the study, is expected back at the museum around October 2026.",
+            "Doubt, a counter-argument and a study still running: that file has been open since 1996. A picture that never carried a name to begin with is judged from the same evidence, and [how that process runs](/who-painted-this-painting/) is set out step by step."
         ]
       },
       {
@@ -10226,7 +10227,8 @@ export const guides: Guide[] = [
           "The accounts differ in small ways that are easy to miss, so here are the ones I found.",
           "Peruggia's sentence is one example. Wikipedia's Mona Lisa article (checked 12 Oct 2026) says he served six months. His own Wikipedia page  says he was sentenced to one year and 15 days and served seven months on appeal. The 2009 object is another: Wikipedia and The Week say a teacup, NPR's guest says a mug and hot coffee. Both Wikipedia and The Week agree on the attacker: a Russian woman upset over being denied French citizenship.",
           "The 1956 events are muddier. NPR says the acid attack is why the painting is behind glass today. Wikipedia says (checked 12 Oct 2026) glass was already there because of the earlier razor incident, and that the December rock shattered it. The attacker of 30 December is called Ugo Ungaza Villegas on Wikipedia (checked 12 Oct 2026) and Hugo Unjaga Villegas in The Week.",
-          "None of this changes the headline count. When I cite a detail from these accounts, I use the wording the sources share and say where they split."
+          "None of this changes the headline count. When I cite a detail from these accounts, I use the wording the sources share and say where they split.",
+          "Accounts that contradict each other are the normal condition of the record, not a defect in it. Weighing them is also what an attribution argument amounts to, and [who painted a picture](/who-painted-this-painting/) is settled, when it is settled at all, the same way."
         ]
       },
       {
@@ -11460,6 +11462,157 @@ export const guides: Guide[] = [
         {
           "label": "Art UK: Strike a pose, a brief history of posture in art",
           "url": "https://artuk.org/discover/stories/strike-a-pose-a-brief-history-of-posture-in-art"
+        }
+      ]
+    },
+    {
+      "slug": "who-painted-this-painting",
+      "category": "Painting",
+      "title": "Who Painted This Painting? Start at the Back",
+      "description": "Who painted this painting is rarely settled by the signature on the front. What actually moves an attribution sits on the back of the canvas and in the wood.",
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "coreSummary": "Who painted this painting is almost never settled by the signature on the front. A name can go on years after the paint dried, and Berlin's own record of buying its Man with the Golden Helmet says a comparison with a signed picture may have been decisive; the museum withdrew the attribution 89 years later. The evidence that actually moves an attribution sits on the back of the canvas, in sale records and exhibition labels, and in the wood of the support itself.",
+      "image": "/images/who-painted-this-painting-golden-helmet.jpg",
+      "imageAlt": "A half-length head of an elderly man turned three-quarters to the right, wearing a large gilded helmet with a plume and an iron gorget. The face is brightly lit and heavily worked, the helmet catches strong gold highlights, and the background behind the figure is almost black.",
+      "imageCredit": "[The Man with the Golden Helmet](https://commons.wikimedia.org/wiki/File:Anonymous_-_The_Man_with_the_Golden_Helmet_-_811A_-_Gem%C3%A4ldegalerie.jpg), Rembrandt's circle, about 1650&#8211;1660, oil on canvas, Gemäldegalerie, Staatliche Museen zu Berlin. Public domain.",
+      "sections": [
+        {
+          "heading": "Where to start, and what to expect",
+          "body": [
+            "For most paintings that come out of a house clearance or a junk shop, the honest answer is that nobody knows and nobody will. A picture with no signature, no label, no sale record and no distinctive hand behind it was made by somebody who never entered any art-historical record, and looking harder will not put a name to it.",
+            "What can be done is a sequence. Each step narrows the field, and each step can fail on its own terms. The order matters, because the cheap checks come first and the expensive ones only make sense once the cheap ones have turned up something worth testing.",
+            "The thing to hold on to is that an attribution is a claim about a person, argued from evidence that mostly describes materials and process. That gap is where every argument in this field happens, and it is why the same question can be answered one way for decades and then answered differently."
+          ]
+        },
+        {
+          "heading": "A signature is the weakest evidence on the object",
+          "body": [
+            "It is natural to treat the signature as the answer. In practice it is the weakest single piece of evidence on the object, because it is the easiest thing to add.",
+            "A name can go on years after the paint dried: during a restoration, when an anonymous picture is being cleaned and somebody decides it would look better with an attribution on it, or by a forger starting from a blank. The test is stratigraphic. If the signature sits on top of the varnish layer, it went on after the picture was finished, whatever it says.",
+            "Berlin's Man with the Golden Helmet shows how far a comparison can carry an argument that turns out to be wrong. Wilhelm von Bode bought the picture in 1897 for the Berlin museums, having decided that it was by Rembrandt's hand and that the sitter was Rembrandt's older brother Adriaen. The Gemäldegalerie's account of that purchase says a decisive factor may have been a comparison with a signed work by Rembrandt bought for the Mauritshuis in The Hague in 1891, which appeared to show the same model painted in the same manner.",
+            "The reasoning was sound and the conclusion was not. In 1986, after a sustained program of technical and art-historical examination, the gallery took the name off the picture and filed it under Rembrandt's circle."
+          ]
+        },
+        {
+          "heading": "Start at the back",
+          "body": [
+            "The most productive place to begin is the side nobody frames. The reverse of a painting accumulates a paper trail, and it is far harder to fake consistently than the front.",
+            "Dealer labels, exhibition labels with dates printed on them, auction house chalk marks and stencils, collector inventory numbers inked or chalked onto the stretcher, framers' labels, customs seals and transport stickers all end up there, and each one is a dated anchor. A label from a known gallery, an exhibition number, a stencil from a particular sale: separately they are small, and together they can sometimes be reassembled into a chain of ownership. That chain is what art historians mean by provenance, and it is the same class of record that [three canonical portraits](/famous-portraits/) turn on when the stories attached to them are tested.",
+            "Three registers do most of this work, and they are not equally open. The Getty Provenance Index is free to search and holds millions of records drawn from dealer stock books, auction catalogues and household inventories. The Art Loss Register, which carries out more than 400,000 checks a year, is a private database and charges for searches. INTERPOL's Stolen Works of Art Database, which holds almost 57,000 items with certified police information and is the only international register of its kind, is reachable through its free ID-Art app, which matches a photograph against the same database; searches you save carry the date and time, which INTERPOL says may be used as proof that due-diligence checks were carried out. All three counts are as of October 2026.",
+            "Labels can also be moved between pictures, and they can be faked. A label establishes that a painting was in a particular place at a particular time. It does not establish who made it."
+          ]
+        },
+        {
+          "heading": "Style, and the man who tried to make it a system",
+          "body": [
+            "The oldest method is looking. Connoisseurship means recognizing a painter's hand from the way a picture is made, and for most of the discipline's history it rested on the trained eye of a specialist who had seen a great many paintings.",
+            "Giovanni Morelli (1816&#8211;1891) tried to turn that into a procedure. An Italian art historian who also served as a senator in the early Republic, he published his attributions in German under a double pseudonym, as the work of a Russian named Ivan Lermolieff translated by Johannes Schwartze, both names being reshufflings of his own.",
+            "His argument was that a painter's conspicuous features are the worst ones to lean on, because they are exactly what a copyist notices and reproduces. What a painter cannot help doing is the small stuff: the way an ear is drawn, the shape of a fingernail, the articulation of fingers. Morelli catalogued those involuntary habits and used them to sort paintings apart.",
+            "The method was criticized as mechanical and fell out of fashion. The idea underneath it did not. Every technical comparison made in a conservation studio today is looking for the same thing, the marks a painter made without deciding to."
+          ]
+        },
+        {
+          "heading": "The catalogue raisonné, and where it stops",
+          "body": [
+            "A catalogue raisonné is a scholar's attempt to list everything an artist made, with an entry for each work setting out its provenance, exhibition history, bibliography, condition and, increasingly, the results of technical examination.",
+            "In the market its verdict carries enormous weight. Inclusion is treated as close to a certificate of authenticity, and exclusion can take most of a painting's value with it.",
+            "That concentration of authority is why the professional bodies publish rules for it. The Catalogue Raisonné Scholars Association issued guidelines in 2010 for the formulation and presentation of authenticity opinions requested by owners, alongside the College Art Association's longer-standing standards on authentications and attributions."
+          ]
+        },
+        {
+          "heading": "What a laboratory adds, and what it cannot",
+          "body": [
+            "Technical examination answers questions about materials. It does not name a painter, and every method has conditions under which it returns nothing at all.",
+            "Infrared reflectography exploits a simple difference. Near-infrared radiation passes through most paint layers and is absorbed by dark ones, carbon black above all. If an artist laid out a design in a dark underdrawing before painting over it, the infrared image shows that drawing, along with the changes made partway through.",
+            "X-radiography works the other way round. Heavier atoms block X-rays, so lead white and vermilion register strongly, and so do nails, panel joins and later repairs. The catch is that every layer is superimposed in a single image, which makes the results harder to read than they look.",
+            "Dendrochronology dates the wood. Tree rings vary in width from year to year, and the resulting pattern is distinctive enough to be matched against reference sequences, which gives both the region the timber came from and a window for when the tree was felled.",
+            "The National Gallery's catalogue entry for the Wilton Diptych is a clean demonstration of both halves of this. The panels are oak from the eastern Baltic, and the latest tree ring found in them is from 1375. Infrared reflectography found extensive underdrawing on the two main panels. It found almost none on the exterior, where the armorial side is covered in gold and silver leaf and the hart panel carries black pigment in its underlayers: metal leaf blocks infrared completely, and brown and green earths and black inhibit it. A technique that works on one face of an object can return nothing on the other, for reasons that have nothing to do with who painted it.",
+            "A laboratory also works through an object in a fixed order, from the least invasive outward. The National Gallery's published method for its Vermeer study runs from visual inspection under normal, raking and ultraviolet light, through the binocular microscope and infrared and X-ray imaging, to paint samples taken as cross-sections and put through scanning electron microscopy, infrared spectroscopy and gas chromatography.",
+            "Modern instrument suites push further into the same material questions. When the National Gallery set out to separate Botticelli's hand from Filippino Lippi's in the Adoration of the Kings, the team combined connoisseurship, microscope work, element mapping by X-ray fluorescence, infrared reflectography, reflectance imaging spectroscopy and 3D surface scanning. Each of those answers something about how the picture was made. The attribution is still made by people."
+          ],
+          "image": {
+            "src": "/images/who-painted-this-painting-wilton-diptych.jpg",
+            "alt": "The Wilton Diptych shown as two hinged panels side by side, both against a tooled gold ground. The left panel has three standing saints, two of them crowned and in white robes and one in a camel-hair garment, with a kneeling king in an embroidered gold robe before them. The right panel shows the Virgin in a deep blue cloak holding the Christ Child, surrounded by angels in the same blue with feathered wings, one of them carrying a pennant.",
+            "credit": "[The Wilton Diptych](https://commons.wikimedia.org/wiki/File:Wilton_diptych.jpg), English or French, dated by the National Gallery to about 1397&#8211;1398. National Gallery, London. Public domain."
+          }
+        },
+        {
+          "heading": "Why the answer keeps changing",
+          "body": [
+            "Rembrandt is the standard demonstration that attribution is an argument rather than a measurement, because the numbers move so far.",
+            "In 1836 the English dealer John Smith compiled the first catalogue of Rembrandt's paintings and accepted 614 of them, many known to him only from written descriptions or reproductive prints. By the turn of the twentieth century, with Bode, Valentiner and Hofstede de Groot adding discoveries faster than they removed them, the corpus had passed 700. Then Horst Gerson's 1969 revision of Bredius's 1935 catalogue accepted 435, and the shock was not the number so much as the names that came off the list.",
+            "The Man with the Golden Helmet is that same story compressed into one object. It spent 89 years as an autograph Rembrandt and as the picture that demonstrated Bode's eye, and then in 1986 it was reclassified. The Gemäldegalerie's current entry says the painting was most likely made in Amsterdam between 1650 and 1660, and that whoever made it probably worked in Rembrandt's workshop.",
+            "None of this is confined to the seventeenth century. The attribution of [Salvator Mundi](/most-expensive-painting-in-the-world/) to Leonardo has been argued over since the picture surfaced, and the argument did not end when it sold for $450 million. A group portrait like [The Anatomy Lesson of Dr. Nicolaes Tulp](/the-anatomy-lesson-nicolaes-tulp/) sits at the easier end of the scale, because the commission, the sitter list and the date are documented, and even there the details get retested."
+          ]
+        },
+        {
+          "heading": "If the painting is yours",
+          "body": [
+            "The practical order runs from cheap to expensive, and most of it can be done at a desk.",
+            "Photograph both sides at high resolution, in raking light, and transcribe every mark on the back before anything is cleaned. Search the auction archives and any catalogue raisonné for the name, if there is one. Run the object against the theft registers before spending money on anything else, because the worst outcome is not a low value, it is owning a picture that has to be handed back.",
+            "Expect the answer to be that there is no answer. Apps that identify art from a photograph work by matching the image against a database of known paintings. That is a good trick for naming a picture you have seen somewhere and cannot place, and it is useless for a picture nobody has ever catalogued. For an unsigned work by an unknown hand, the honest end point is unknown, and what the exercise reliably produces is a better understanding of the object itself."
+          ]
+        }
+      ],
+                  "faq": [
+        {
+          "question": "How can I identify a painting?",
+          "answer": "Begin with the reverse. Stickers from dealers and loan exhibitions, stencils left behind by auction houses, stock numbers written onto the stretcher and customs stamps together give a dated record of where a picture has been, and that record is frequently more informative than a name on the front. Check any name against a known example as well, remembering that one applied over the varnish was put there after the work was completed."
+        },
+        {
+          "question": "Can an app identify a painting from a photo?",
+          "answer": "Only when the painting has already been catalogued somewhere. Any system that works from an image is comparing it against pictures that somebody has already recorded, which is true of INTERPOL's own recognition app too: it searches objects that have been reported, and a work nobody has recorded is not in the set."
+        },
+        {
+          "question": "What is a catalogue raisonné, and does being in one prove the artist?",
+          "answer": "It is a scholarly inventory of everything believed to be by one artist, with provenance and technical data recorded for each entry, and it does not settle authorship on its own. The market treats inclusion as close to proof of authenticity, which is why scholarly bodies publish standards for how those opinions are formed and delivered."
+        },
+        {
+          "question": "Why did the Man with the Golden Helmet stop being a Rembrandt?",
+          "answer": "Bode acquired the picture for Berlin in 1897 believing it to be by Rembrandt's own hand, partly because it resembled a signed Rembrandt that the Mauritshuis had just acquired. Nearly nine decades later, after a long program of examination, the Gemäldegalerie dropped the attribution and moved the picture out of the master's oeuvre."
+        }
+      ],
+      "sources": [
+        {
+          "label": "National Gallery of Art: Issues of Attribution in the Rembrandt Workshop",
+          "url": "https://www.nga.gov/research/online-editions/17th-century-dutch-paintings/essay-issues-attribution-rembrandt.html"
+        },
+        {
+          "label": "Staatliche Museen zu Berlin, Gemäldegalerie: The Man with the Golden Helmet (inv. 811A)",
+          "url": "https://smb.museum-digital.de/object/60997"
+        },
+        {
+          "label": "The National Gallery, London: The Wilton Diptych, National Gallery Catalogues",
+          "url": "https://www.nationalgallery.org.uk/paintings/catalogues/national-gallery-2024/the-wilton-diptych-v1"
+        },
+        {
+          "label": "The National Gallery, London: Methods, Vermeer and technique",
+          "url": "https://www.nationalgallery.org.uk/research/publications/vermeer-and-technique/methods-vermeer-and-technique"
+        },
+        {
+          "label": "The National Gallery, London: Restoring Botticelli's Adoration of the Kings, part three",
+          "url": "https://www.nationalgallery.org.uk/behind-the-scenes/restoring-botticelli-adoration-part-three"
+        },
+        {
+          "label": "Getty Research Institute: Getty Provenance Index",
+          "url": "https://www.getty.edu/research/tools/provenance/faq.html"
+        },
+        {
+          "label": "INTERPOL: Stolen Works of Art Database",
+          "url": "https://www.interpol.int/en/Crimes/Cultural-heritage-crime/Stolen-Works-of-Art-Database"
+        },
+        {
+          "label": "INTERPOL: ID-Art mobile app",
+          "url": "https://www.interpol.int/en/Crimes/Cultural-heritage-crime/ID-Art-mobile-app"
+        },
+        {
+          "label": "Catalogue Raisonné Scholars Association: Guidelines for Issuing Scholarly Opinions about Authenticity (2010), with the College Art Association's standards on Authentications and Attributions",
+          "url": "https://www.catalogueraisonne.org/guidelines"
+        },
+        {
+          "label": "Digital Humanities Quarterly: Leonardo, Morelli, and the Computational Mirror",
+          "url": "http://www.digitalhumanities.org/dhq/vol/15/1/000540/000540.html"
         }
       ]
     }

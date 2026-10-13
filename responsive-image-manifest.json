@@ -671,5 +671,14 @@
    "h": 449
   },
   "desktop_rel": "/images/atmospheric-perspective-bierstadt-rockies.jpg"
+ },
+ "/images/who-painted-this-painting-golden-helmet.jpg": {
+  "fingerprint": "1791889292474136892:565380:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/who-painted-this-painting-golden-helmet-sm.jpg",
+   "w": 750,
+   "h": 1006
+  },
+  "desktop_rel": "/images/who-painted-this-painting-golden-helmet.jpg"
  }
 }

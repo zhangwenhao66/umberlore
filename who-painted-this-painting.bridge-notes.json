@@ -1,0 +1,8 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "断言有两部分。(1) 'three canonical portraits'：目标文章 famous-portraits 的 coreSummary 自述覆盖 'Three canonical portraits'，正文三节分别是 Las Meninas（委拉斯开兹）、Madame X（萨金特）、American Gothic（格兰特·伍德），数目与题材均属实。(2) '用 provenance 这类记录检验附在它们身上的说法'：该文标题为 'Famous Portraits: What the Provenance Records Show'，正文逐节用馆藏与档案记录去检验流传说法，例如 American Gothic 一节明确写馆方目录把画中人定为 'a farmer and his daughter'、破除'夫妻'误读，Las Meninas 一节用普拉多 1984 年技术研究检验十字架是否身后所加。断言成立。",
+    "sentence": "That chain is what art historians mean by provenance, and it is the same class of record that [three canonical portraits](/famous-portraits/) turn on when the stories attached to them are tested."
+  }
+]

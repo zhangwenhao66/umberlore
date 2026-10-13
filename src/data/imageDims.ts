@@ -151,15 +151,7 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 630,
   "w": 1200
  },
- "/images/atmospheric-perspective-bierstadt-rockies.avif": {
-  "h": 958,
-  "w": 1600
- },
  "/images/atmospheric-perspective-bierstadt-rockies.jpg": {
-  "h": 958,
-  "w": 1600
- },
- "/images/atmospheric-perspective-bierstadt-rockies.webp": {
   "h": 958,
   "w": 1600
  },
@@ -322,6 +314,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/cloisonne-xuande-candlestick-lotus-met.jpg": {
   "h": 450,
   "w": 600
+ },
+ "/images/contrapposto-weight-shift-diagram.svg": {
+  "h": 500,
+  "w": 1200
  },
  "/images/cristina-kahlo-photography-lineage-diagram.svg": {
   "h": 620,
@@ -1951,6 +1947,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 997,
   "w": 750
  },
+ "/images/responsive/who-painted-this-painting-golden-helmet-sm.avif": {
+  "h": 1006,
+  "w": 750
+ },
+ "/images/responsive/who-painted-this-painting-golden-helmet-sm.jpg": {
+  "h": 1006,
+  "w": 750
+ },
+ "/images/responsive/who-painted-this-painting-golden-helmet-sm.webp": {
+  "h": 1006,
+  "w": 750
+ },
  "/images/robie-house-exterior.jpg": {
   "h": 1200,
   "w": 1600
@@ -2198,6 +2206,22 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/whistler-nocturne-black-and-gold-falling-rocket.webp": {
   "h": 1600,
   "w": 1204
+ },
+ "/images/who-painted-this-painting-golden-helmet.avif": {
+  "h": 2146,
+  "w": 1600
+ },
+ "/images/who-painted-this-painting-golden-helmet.jpg": {
+  "h": 2146,
+  "w": 1600
+ },
+ "/images/who-painted-this-painting-golden-helmet.webp": {
+  "h": 2146,
+  "w": 1600
+ },
+ "/images/who-painted-this-painting-wilton-diptych.jpg": {
+  "h": 1249,
+  "w": 1600
  },
  "/logo-512.png": {
   "h": 512,
