@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "generated_at_local": "2026-10-13 Asia/Shanghai",
+  "generation_method": "Full per-article check_prose_patterns.py and check_bridge_sentences.py scan on freshly fetched origin/main plus this task content commits; every candidate notes file required CONFIRMED verdict, note length >=20, and exact current sentence where notes include sentence; all candidates passed --verify. Queue reconstruction uses this tracked manifest and current candidate fingerprints.",
+  "source": {
+    "repository": "origin/main",
+    "commit": "d0d966f3a5ca12cdcc94bcf732c3dee0306fba71",
+    "data_path": "src/data/guides.ts",
+    "data_sha256": "dc15503949178b9d3785590593025bef96486d44d2ea0eb4273a4f68705d30da",
+    "scan_evidence": "recheck/final-integration-scan.json",
+    "scanner_sha256": {
+      "check_prose_patterns.py": "954e2adcec4d0fdc102f1af022e49d4e3e157034b98256fa4ad099c9dcbe2f42",
+      "check_bridge_sentences.py": "25b488a406d5cf3c0e2446c9c14f83a298de197fe008e8da3ad0110e0f1497c8"
+    }
+  },
+  "coverage": {
+    "candidate_slugs": 37,
+    "candidate_sentences": 61,
+    "verified_slugs": 37,
+    "unverified_slugs": 0
+  },
+  "verified_bridge_slugs": [
+    {
+      "slug": "what-is-a-gargoyle",
+      "candidate_count": 1,
+      "candidate_sha256": "975816d4ac29e8fafe0c9698f3738435cc8541dd194f21cfca7008a69f5e9d7c",
+      "notes_sha256": "2114b48c76cfb700244fe87a72f38370de4d09cb1e04716b98e13642a967d10d",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/what-is-a-gargoyle.notes.json"
+    },
+    {
+      "slug": "van-gogh-paintings",
+      "candidate_count": 3,
+      "candidate_sha256": "6d3ce5667feb0b72f82624fec4f0b5f4b87983c46c2b574b6c55fd7ad3f8d209",
+      "notes_sha256": "50f4da3b9d3f3075a904666cd15dce73b9dd1bb0daa5dba487e6c6268ea7ae53",
+      "verification_basis": "prior_confirmed_notes_without_sentence_field",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umberlore/van-gogh-paintings.notes.json"
+    },
+    {
+      "slug": "abstract-art-first-painting",
+      "candidate_count": 4,
+      "candidate_sha256": "fde921800d044586d3d0ab57efe4da3753763b2c36383d6d4a95382595c3af79",
+      "notes_sha256": "43deb21bee56d79776f029194f2e49026a33d6c14a936186acf1504f9bd138fa",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/abstract-art-first-painting.notes.json"
+    },
+    {
+      "slug": "frank-lloyd-wright",
+      "candidate_count": 2,
+      "candidate_sha256": "b610ebd45a18e02113c983b5e7b9e2ec91630e691a9a5d24e4404e0bb29e5251",
+      "notes_sha256": "1348ac1c301d620957c49ae3d37b96ceb6483a8b488705abfdf28fa0f4e49ab4",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/frank-lloyd-wright.notes.json"
+    },
+    {
+      "slug": "st-peters-basilica",
+      "candidate_count": 3,
+      "candidate_sha256": "6fbc728b781cfd4c7e32e9e16029dfe8452201efb5ff870fbcc39f74a4558c2b",
+      "notes_sha256": "f71edfe477cd26c23c83c8c31f554b4da1051576e828a427f240d7a53746a3b5",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/st-peters-basilica.notes.json"
+    },
+    {
+      "slug": "edvard-munch-the-scream",
+      "candidate_count": 1,
+      "candidate_sha256": "8ad0cbf2315ec8bd272a3a4803067586d6c5e27254538f3e32b9c8467d737291",
+      "notes_sha256": "8387df91cef8246a897bc001beba0be3275874f38187c0c4d3c27128266cebdb",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/edvard-munch-the-scream.notes.json"
+    },
+    {
+      "slug": "frida-kahlo-paintings",
+      "candidate_count": 1,
+      "candidate_sha256": "8d669ec6166626c095877b61f3872990ccd861d1c5ac1ae2ea273098657a84ed",
+      "notes_sha256": "1394c104bb5fd4830e72b2536cdb29220ef33261c649fc57fd33bb3b8e6caafc",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/frida-kahlo-paintings.notes.json"
+    },
+    {
+      "slug": "ophelia-millais",
+      "candidate_count": 1,
+      "candidate_sha256": "242310f544173e30673f85ab1d63e02488766827a8b489935da3f5bcf3c6093e",
+      "notes_sha256": "76c22110af5cc6b087fecb3779da7ff2bd0d088b5d3b5c3102eee4fdc627dcca",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/ophelia-millais.notes.json"
+    },
+    {
+      "slug": "daguerreotype",
+      "candidate_count": 1,
+      "candidate_sha256": "13bc11ef945a4bf15439615b2d6d87b38a7e03032a03d2041bef0c87b22a6ec0",
+      "notes_sha256": "565974e9da867f6d1115313c525d94098089eccb87d6dacc33e1454f26ee9829",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/daguerreotype.notes.json"
+    },
+    {
+      "slug": "fallen-angel-painting",
+      "candidate_count": 1,
+      "candidate_sha256": "b2121dd8b291212cb246fc317e7a9d44ae3e1a95b7a25d9b0122b1ca7cefa8d8",
+      "notes_sha256": "0475e399742f519fe84174c315ca312688da8367d6e0dd24a05ce944dfa3d8e6",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/fallen-angel-painting.notes.json"
+    },
+    {
+      "slug": "mandala-art",
+      "candidate_count": 1,
+      "candidate_sha256": "8c16be44c7bf685fcd36fa0e201e612104c683c319ed3647e0e3559e1850a1ed",
+      "notes_sha256": "07437f0e8a813ff5f70954f81d0f4889ec1f33273b08ceeea535bb158bd9cf6c",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/mandala-art.notes.json"
+    },
+    {
+      "slug": "architectural-painting",
+      "candidate_count": 1,
+      "candidate_sha256": "713034b2c33b9dc911eef17aa5115136100c4be2d2f78094399f9ed7ca54f3d2",
+      "notes_sha256": "ac4487573f02cfc84ae3d121239124d23b49fdfd03b637868e8188cd6eedb0f2",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/architectural-painting.notes.json"
+    },
+    {
+      "slug": "cloisonne",
+      "candidate_count": 2,
+      "candidate_sha256": "ffd7a40e13fcddce871f8f2aa3ee9e463b75fdeb673eaedc8fce49142be24115",
+      "notes_sha256": "a49e04d2acde4a1908c473d4de4fbe08dd52b45ec0a10558a85caf5d68e9ae79",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/cloisonne.notes.json"
+    },
+    {
+      "slug": "emphasis-in-art",
+      "candidate_count": 2,
+      "candidate_sha256": "7e9f05d7abbba3d0782073515f74ab40ea116a9e23d6a60c2151c11e9b66b01c",
+      "notes_sha256": "6dd958f7181d9a10100b3ea1b950238ffe28fdf802e128bef49dbb889d9ad415",
+      "verification_basis": "prior_confirmed_notes_without_sentence_field",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261011T-paa-codex-2215/worktrees/umberlore/emphasis-in-art.notes.json"
+    },
+    {
+      "slug": "aztec-art",
+      "candidate_count": 2,
+      "candidate_sha256": "7d6a037a946109b9a1004b56dd90446a745c917671b46ca9eba5b5da807e32e4",
+      "notes_sha256": "e1b3c51b27e50ed59edfaae2df36633c902d06c3205d701811892de93c3233f8",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/aztec-art.notes.json"
+    },
+    {
+      "slug": "encaustic-painting",
+      "candidate_count": 2,
+      "candidate_sha256": "5691be1bc081e11b5e58a67c5ce97d1b45b6b6ff7b3408a41d7b094d8dd69150",
+      "notes_sha256": "de3f79564df65843b69aa112cd34e9503fc901af320c4f4b0ac4b6f3f02f841b",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/encaustic-painting.notes.json"
+    },
+    {
+      "slug": "romanesque-painting",
+      "candidate_count": 1,
+      "candidate_sha256": "4e13f02442bee80be8660df92c47e685a29ecc60eade17c131d0bb075f1257f0",
+      "notes_sha256": "24d21efee766106d281eae753beb7ce526585e52e2a83e5f72f9e192e4ae0d11",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/romanesque-painting.notes.json"
+    },
+    {
+      "slug": "famous-renaissance-paintings",
+      "candidate_count": 2,
+      "candidate_sha256": "b03edf87fa4e1b9a709dd7615b4e147df182e8e94d8736dfb63b917172cb2efc",
+      "notes_sha256": "6f07de52b1b0b68455d60506de92af812f92d7e5ce100e2bfc1c59901fc87fda",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/famous-renaissance-paintings.notes.json"
+    },
+    {
+      "slug": "majolica",
+      "candidate_count": 2,
+      "candidate_sha256": "c330df3ccac4d7c8c916d29db0d6d9db6f06c595e28dc846be5c732abe66fd12",
+      "notes_sha256": "786b09fd3d173e6a5224ff5fbb092be969cd53f21990ef6a0bf9b7b7e6780e84",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/majolica.notes.json"
+    },
+    {
+      "slug": "cristina-kahlo",
+      "candidate_count": 1,
+      "candidate_sha256": "6682f02ef4904a1e4a9a3d8165b87365f810f86c3264440b0445a50e6fb846a7",
+      "notes_sha256": "aabe8deae6bf4ff87bea0f541aad6f86a54ae7309385eee10059107a5befd8fb",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/cristina-kahlo.notes.json"
+    },
+    {
+      "slug": "pandemonium-painting",
+      "candidate_count": 2,
+      "candidate_sha256": "482c44c2afa61817b33985cef7ab359afa0097effc4c225546f026a44d6aa7a7",
+      "notes_sha256": "96b890e410fe1e3d7c8f82d0420043bfd6d27421d532904d70b3c6c3f3ad44ed",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/pandemonium-painting.notes.json"
+    },
+    {
+      "slug": "icarus-painting",
+      "candidate_count": 1,
+      "candidate_sha256": "e618db925f05777a14567fa74c61fd4b48c326bd4ebc366d6a521b4026e8d6ac",
+      "notes_sha256": "d9f166f7b50f7329669be14c234c2b544c0298d4a307dbdb93d99a5b28ab232d",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-prose-gate-backfill/20261013/recheck/umberlore/icarus-painting.notes.json"
+    },
+    {
+      "slug": "famous-mexican-artists",
+      "candidate_count": 1,
+      "candidate_sha256": "731704b90aa873eacfe307c37249e18ac30be139928e8dc7457cb3808ab84a2b",
+      "notes_sha256": "33af2903e359bc70a56652cc0cd8181e51651ff39ea8418421c34aa9c8724483",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/famous-mexican-artists.notes.json"
+    },
+    {
+      "slug": "pattern-in-art",
+      "candidate_count": 1,
+      "candidate_sha256": "9187a159ed5c6d337027828d03ac1e4d7cb771b9e1e89ba7e25b5e1613c3a059",
+      "notes_sha256": "04dc258c82ee2fb6f47381eeaa85c7a0d47cc3ac6ae77cdfe66f8cba29a49cd8",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/pattern-in-art.notes.json"
+    },
+    {
+      "slug": "john-martin-paintings",
+      "candidate_count": 2,
+      "candidate_sha256": "e321f35e0aee2a6eb2f5bf41c3b4fe440fc30ab9dacf8196cb0751a1bc1dd740",
+      "notes_sha256": "68beb3f1ab241cb19d6bcb866a649efeb13714674bd4efcf9f73c695d1026d63",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/john-martin-paintings.notes.json"
+    },
+    {
+      "slug": "schiele-neulengbach-trial",
+      "candidate_count": 1,
+      "candidate_sha256": "b3bc68cc5b0690ff08f00e1cbd461b20b32e0ed1a40ba1ac79551ca8ae0b93b2",
+      "notes_sha256": "aadf4fcc65ee8c326ccc226090e143050bf9396771f9e7cdee711ad76f1bd236",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/schiele-neulengbach-trial.notes.json"
+    },
+    {
+      "slug": "byzantine-mosaics",
+      "candidate_count": 1,
+      "candidate_sha256": "945bb97502a37b858a2969fc0aca7bd81d2a5f2cd5394cb5a1f522ce390b7a24",
+      "notes_sha256": "e660bde1e15cc8250126d374917a30d477f3d89dbb0518e61c66d49e65eac3d4",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/byzantine-mosaics.notes.json"
+    },
+    {
+      "slug": "joan-of-arc-painting",
+      "candidate_count": 2,
+      "candidate_sha256": "551f750140ec78266364c1c5844e1bf0b5b4beea563b857fd0fe5bf34d212d98",
+      "notes_sha256": "378adfda507663e656b131c09746228d7e4fa1718a54898352955e8c12b2eeec",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/joan-of-arc-painting.notes.json"
+    },
+    {
+      "slug": "art-techniques",
+      "candidate_count": 4,
+      "candidate_sha256": "da4d046b1d3164843b9d74bf1218f3cf01f1c6b5f389725895db1e2d685a7dc7",
+      "notes_sha256": "b34e9763028b67e437addfa1fbdd67e59985d29fe827cb119daeff9ee7dd3296",
+      "verification_basis": "prior_confirmed_notes_without_sentence_field",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261011T-paa-codex-2215/worktrees/umberlore/art-techniques.notes.json"
+    },
+    {
+      "slug": "caravaggio-narcissus",
+      "candidate_count": 3,
+      "candidate_sha256": "78b64e2b8edaa6e7ff022e4788bc362264b6a42737b83256e359695a7bf7b8de",
+      "notes_sha256": "adba05bd5a05f303e84441a7a3dad562f301bea8379d2be9ab1e2bdbb3b96dfe",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/caravaggio-narcissus.notes.json"
+    },
+    {
+      "slug": "vanishing-point",
+      "candidate_count": 3,
+      "candidate_sha256": "1ffa90ccde8b416b32fc36e8e33588d22c3eb4711677d166531351bfcddf9ae4",
+      "notes_sha256": "d36e468247bfb5e9eb9a108d5388fedd94adfadf716ddedac41346f2c69f8204",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/vanishing-point.notes.json"
+    },
+    {
+      "slug": "the-death-of-socrates",
+      "candidate_count": 1,
+      "candidate_sha256": "7196336702fec05fe94020aa55e3315d165e4a0248bc3dcfb5007b5c5639c2bf",
+      "notes_sha256": "d880ee4421be4d3f4c765186802d9dfb8406cc1a43e4d6f6392fec0aaea78aaf",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/the-death-of-socrates.notes.json"
+    },
+    {
+      "slug": "fresco-painting",
+      "candidate_count": 1,
+      "candidate_sha256": "9f91febf282676586190d4f96e1b61177247c3001ef7303721b1dd0a70c3de57",
+      "notes_sha256": "1f93b7d9a723b8c4cff2ecc62d8af8ca9af2e9c517742a127cc57b8ba876f02d",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/fresco-painting.notes.json"
+    },
+    {
+      "slug": "how-many-times-was-the-mona-lisa-stolen",
+      "candidate_count": 1,
+      "candidate_sha256": "4437d76c175d75b4474414a69c9260f6d8d586c28e7f596150630d624ed8f54f",
+      "notes_sha256": "b9b7c17520c4423e4e877e953281da2818565c3521e499932e81afd50e738197",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-prose-gate-backfill/20261013/recheck/umberlore/how-many-times-was-the-mona-lisa-stolen.notes.json"
+    },
+    {
+      "slug": "rococo-architecture-vs-baroque",
+      "candidate_count": 1,
+      "candidate_sha256": "10f548400081319c18c1224392c63fe03d5f3d3a6f415dd6ff0519156efc7072",
+      "notes_sha256": "7900dd80485fa76c366f832756cf4863f24f425dc0cbea93e064541bcc83653c",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-final-integration-notes/rococo-architecture-vs-baroque.notes.json"
+    },
+    {
+      "slug": "contrapposto",
+      "candidate_count": 1,
+      "candidate_sha256": "44a9c063c40dca0075d0a35b3ae38a199a137d08b58ec0d8e91eac234350cf9b",
+      "notes_sha256": "b343e095a66f5f566ce02c6499705e125c1c9efe4c2b94c228edfb5944af1753",
+      "verification_basis": "prior_confirmed_notes_without_sentence_field",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-prose-gate-backfill/20261013/integration/umberlore/contrapposto.notes.json"
+    },
+    {
+      "slug": "who-painted-this-painting",
+      "candidate_count": 1,
+      "candidate_sha256": "0c2d0b488e4facb1e996217f7dc1d0f7cc1ee68a3edecd429c43e59ccf00191e",
+      "notes_sha256": "1883845759995a8292d139c96fa9ffe96d3d6e3b8e542284bb0309a01873fd8f",
+      "verification_basis": "exact_sentence_match",
+      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-prose-gate-backfill/20261013/recheck/umberlore/who-painted-this-painting.notes.json"
+    }
+  ]
+}
