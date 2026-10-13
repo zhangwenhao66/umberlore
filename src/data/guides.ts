@@ -6213,7 +6213,7 @@ export const guides: Guide[] = [
       },
       {
         "question": "Did Church really display Heart of the Andes with palm fronds and gaslights?",
-        "answer": "That specific detail is unverified. Church's 1859 showing in New York did use an elaborate custom frame, drawn curtains, and carefully aimed lighting overhead so viewers experienced the canvas almost like an actual view rather than framed paint on a wall, and that staging is documented. But the widely repeated claim describing palm fronds around the room and silver-reflector gas lamps overhead isn't backed by any surviving account from the time; The Wikipedia article's cited references, reviewed 13 October 2026, also treat those additions as doubtful."
+        "answer": "That specific detail is unverified. Church's 1859 showing in New York did use an elaborate custom frame, drawn curtains, and carefully aimed lighting overhead so viewers experienced the canvas almost like an actual view rather than framed paint on a wall, and that staging is documented. But the widely repeated claim describing palm fronds around the room and silver-reflector gas lamps overhead isn't backed by any surviving account from the time; Wikipedia citations checked 13 Oct 2026 do not substantiate palm fronds or gas lamps."
       },
       {
         "question": "What are some famous American landscape paintings?",
