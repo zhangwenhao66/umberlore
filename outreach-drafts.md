@@ -670,3 +670,25 @@ Owen Zhang
 Publisher, UmberLore
 
 Evidence: /Users/zhangwh/.codex/automation-runtime/runs/trafficsite-linkable-asset-building/20261010T1330; Gmail newer_than:14d to:fromtheheartproductions.com returned []; cross-matrix outreach logs no matches. ETV2103, link/RD3, archive2824days, resource and Contact Info pages200, public general info email decoded from site HTML data-enc-email.
+
+## 2026-10-13 — UNB Libraries "Image" guide (K.VoseJones@unb.ca) — open-license-art-image-directory distribution
+
+To: K.VoseJones@unb.ca
+From: contact@umberlore.com
+Subject: Two open-access museums missing from your Image guide
+Status: SENT (2026-10-13) — independent review 可以发送; Message ID 1a133d5221da1133; From header verified UmberLore <contact@umberlore.com>
+
+Hi Kim,
+
+I went through the Galleries and Museums section of your Image guide at UNB Libraries. It lists the Barnes Foundation, the Getty Open Content Program, LACMA, the Met, the National Gallery of Art and the Smithsonian.
+
+Two large CC0 programs are missing from it: the Rijksmuseum (700,000+ images, free download after creating a free Rijksstudio account) and Paris Musées, the network of 14 City of Paris museums (150,000+ images). Both release their open collections under CC0, the same terms as the institutions already on your list.
+
+I run UmberLore, an art history site, and keep a directory that checks each museum's current terms page and records the license side by side: https://umberlore.com/open-license-art-image-directory/. The Rijksmuseum and Paris Musées rows list the collection sizes and license links if you'd like to add them.
+
+Thanks for keeping the guide updated.
+
+Owen Zhang
+Publisher, UmberLore
+
+**Target**: `lib.unb.ca/guides/image` (HTTP 200) — "Galleries and Museums" section lists Barnes, Getty, LACMA, Met, NGA (Washington), Smithsonian; "Rijksmuseum" and "Paris Musées" absent (0 raw-HTML hits each). **Contact**: K.VoseJones@unb.ca — Kim Vose Jones, Library Assistant, UNB Fredericton; profile lists "Kim's Guides: Image".

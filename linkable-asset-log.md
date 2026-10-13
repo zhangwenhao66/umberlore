@@ -150,3 +150,21 @@ Passed `Skill(humanizer)` (removed one em dash and a "worth a look" vague-endors
 - **已发送**：`gmail_send.py send --from umberlore --to info@fromtheheartproductions.com`，Message ID `1a12b4d295d539c6`，From 头实测 `UmberLore <contact@umberlore.com>`。
 - 分发计数：open-license-art-image-directory 现 3/10 sent（Douglas College 9/22、Pratt Institute 9/29、From the Heart 10/11）。
 - 跟进：followup_date +12 天（2026-10-23），单次跟进一次。
+
+## 2026-10-13 — distribution pass (capacity-concentration rule)
+
+**Site selection**: recomputed 28-day 11-30-position impressions across the 7 non-suppressed/non-frozen traffic sites via `gsc_query.py`: wagelark(318) > umberlore(191) ≈ dayalmanac(189) > mythcairn(87) > hollowvane(48) > factcrumbs(33) > warcrumbs(0). UmberLore ranks #2. CalcBadger/DialWick compete for the fixed slot (DialWick frozen). LingoGrove excluded (ranking-suppressed).
+
+**Order of work**: distribution only. `open-license-art-image-directory` was at 3/10 sent (least-saturated of this site's two assets), so it took priority over `artist-peak-creation-age` (3 sent + 1 follow-up).
+
+**Step 3 (pitch)** — new target: UNB Libraries' "Image" research guide (`lib.unb.ca/guides/image`, HTTP 200). Raw-HTML grep confirmed the guide's "Galleries and Museums" section lists the Barnes Foundation, British Library, Art Institute of Chicago, Getty Open Content Program, LACMA, Metropolitan Museum of Art, National Gallery of Art (Washington), Smithsonian, Walters, Yale and Tate, and that "Rijksmuseum" and "Paris Musées" do not appear anywhere on the page (0 hits each). Contact: K.VoseJones@unb.ca — Kim Vose Jones, Library Assistant, UNB Fredericton; her staff profile lists "Kim's Guides: Image", i.e. she owns the guide (named personal contact, not the page's generic feedback form).
+
+Passed `Skill(humanizer)` then `Skill(avoid-ai-writing)` (no em/en dashes, no Tier-1 AI vocabulary, no rule-of-three; one clarity fix "rows carry"→"rows list"). Independent review agent (fresh instance, checklist only) fetched both live pages, verified all six named institutions are present and both omitted ones absent, verified the asset page states Rijksmuseum = 700,000+ images and Paris Musées = 150,000+ images (14 City of Paris museums), both CC0, and returned **可以发送**.
+
+**Dedup**: `gmail_send.py list --query "newer_than:14d (to:unb.ca OR to:vosejones OR from:unb.ca)"` → empty; shared ledger + matrix outreach logs → no unb.ca contact record.
+
+**Sent**: `gmail_send.py send --from umberlore --to K.VoseJones@unb.ca`, Message ID `1a133d5221da1133`, From header verified `UmberLore <contact@umberlore.com>`.
+
+**Distribution count**: `open-license-art-image-directory` now 4/10 sent (Douglas College 9/22, Pratt Institute 9/29, From the Heart 10/11, UNB 10/13). `artist-peak-creation-age` unchanged at 3 sent + 1 follow-up.
+
+**Step 2 / 3.5**: not re-run this pass (time budget went to the pitch). **Follow-up**: +12 days (2026-10-25), single follow-up.
