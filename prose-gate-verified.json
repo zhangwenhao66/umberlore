@@ -4,7 +4,7 @@
   "generation_method": "Full per-article check_prose_patterns.py and check_bridge_sentences.py scan on freshly fetched origin/main plus this task content commits; every candidate notes file required CONFIRMED verdict, note length >=20, and exact current sentence where notes include sentence; all candidates passed --verify. Queue reconstruction uses this tracked manifest and current candidate fingerprints.",
   "source": {
     "repository": "origin/main",
-    "commit": "d0d966f3a5ca12cdcc94bcf732c3dee0306fba71",
+    "commit": "01b7e7f97c5376998be73ff8b911396061db89a3",
     "data_path": "src/data/guides.ts",
     "data_sha256": "dc15503949178b9d3785590593025bef96486d44d2ea0eb4273a4f68705d30da",
     "scan_evidence": "recheck/final-integration-scan.json",
