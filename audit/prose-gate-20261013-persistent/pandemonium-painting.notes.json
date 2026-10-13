@@ -1,0 +1,41 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Current target full body/ALL FAQ reviewed in B5. Bridge concerns the two identified museum canvases, not a claim that Magritte made only two versions; target records their different ownership histories. Earlier quotation superseded; current literal target quotation: Two museum paintings share the motif of a couple with cloth-covered heads.",
+    "sentence": "A single painted subject splitting into two separate, differently documented objects happens elsewhere in this period too: [Rene Magritte painted The Lovers twice in Paris in 1928, and the two canvases, now held on opposite sides of the world, carry ownership records that look nothing alike](/the-lovers-painting/).",
+    "target_slug": "the-lovers-painting",
+    "source_article_sha256": "e23f79e762f502e0cf34b10359e5ca3a161355feee41d5fb814c4b56d3dd4685",
+    "target_article_sha256": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 5,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/audit/prose-gate-20261011/the-lovers-painting.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "40d1e1f1bc204d0fe45e9f96b152694b705e03f702b1160e6b0c9489a0fbeec1",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    },
+    "literal_quote_checked_on_final_head": "a84e5c4"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "目标 ghost-of-a-flea 全正文全部FAQ核读。原句：Robertson lent the panel to the Tate from 1913 onward. He died on 4 September 1948, having bequeathed four Blake works directly to the nation, with the remainder of his collection to be sold at auction through his executors. Tate's catalogue record lists the gift as \\\"Bequeathed by W. Graham Robertson 1949,\\\" a year after his death, because that is when the bequest was formally completed and accessioned rather than when Robertson made the decision. [Botticelli’s Birth of Venus is absent from an apparently complete 1499 Medici inventory](/birth-of-venus/). The Uffizi dates its first written mention to Vasari in 1550. The flea panel has a different record: a retrospective inscription, later sale information, and the Tate loan and bequest dates described above.。源当前句：Unlike William Blake, whose own visionary panel [The Ghost of a Flea](/ghost-of-a-flea/) stayed in private hands, first his friend John Varley's and later a collector's, until it reached the Tate on loan in 1913, Martin's Milton illustrations reached an enormous audience while he was still alive to see it.。本批全读body+5FAQ并重核改稿，Robertson1913loan、1948death1949accession支持public exposure区别。原privatebeforeloan事实可保留，Martin广泛分布另有Sotheby2015essay主文实际核；不称Blake晚/早精神疾病同类。",
+    "sentence": "Unlike William Blake, whose own visionary panel [The Ghost of a Flea](/ghost-of-a-flea/) stayed in private hands, first his friend John Varley's and later a collector's, until it reached the Tate on loan in 1913, Martin's Milton illustrations reached an enormous audience while he was still alive to see it.",
+    "target_slug": "ghost-of-a-flea",
+    "source_article_sha256": "e23f79e762f502e0cf34b10359e5ca3a161355feee41d5fb814c4b56d3dd4685",
+    "target_article_sha256": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 4,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/audit/prose-gate-20261011/ghost-of-a-flea.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

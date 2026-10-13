@@ -1,0 +1,21 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Rivera's household extended beyond that marriage: Frida's younger sister, Cristina, sat for both painters through the early 1930s, turning up in the same National Palace stairwell cycle and in [a family line of painted and photographed portraits this site traces separately](/cristina-kahlo/).",
+    "target_slug": "cristina-kahlo",
+    "note": "CurrentB10targetcompletebodyALLFAQ includingcore distinctionliteralmodel/symbolicconnection. Target gives Cristina inNationalPalacepanel and1928portrait/photographicdescendants. Sourcefamilyline assertion supported. Actualtargetquote: Cristina appears in the same crowded panel",
+    "source_article_sha256": "4bc8d0307cbd9c67fb2362cba9d3a41402b9c17bafb821ce5fc1a31d53b0acc5",
+    "target_article_sha256": "d7d3e819ec7839fb56c7b8bc95610faadcb6a16f5ff684c3b2639c46600dec06",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 10,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch10-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/audit/prose-gate-20261011/notes/batch10/cristina-kahlo.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "d7d3e819ec7839fb56c7b8bc95610faadcb6a16f5ff684c3b2639c46600dec06",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

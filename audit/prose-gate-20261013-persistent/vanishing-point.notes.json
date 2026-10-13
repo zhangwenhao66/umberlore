@@ -1,0 +1,73 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文和全部FAQ核读；具体原句：painting Saint John the Baptist and Saint John the Evangelist in grey convincing enough to read as statues standing in stone niches。逐句判断：目标1432灰阶两圣人支持塑像效果；删tone排除geometry的伪二分，不声称grisaille无空间构造。",
+    "source_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_sha256": "3430183c09fa15d22291380230e4d6352579a6d36b18d877db4dcd329de9dbe5",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "sentence": "A different illusion of solid form was taking shape at almost the same moment across the Alps, where [Jan and Hubert van Eyck used grey-toned grisaille to make two flat panels on the 1432 Ghent Altarpiece resemble carved stone saints](/grisaille/).",
+    "target_slug": "grisaille",
+    "source_article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_article_sha256": "3430183c09fa15d22291380230e4d6352579a6d36b18d877db4dcd329de9dbe5",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "matching_prior_actual_fullread_receipts": [
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+            "article_sha256": "3430183c09fa15d22291380230e4d6352579a6d36b18d877db4dcd329de9dbe5",
+            "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-grisaille.txt"
+          }
+        }
+      ],
+      "coverage": "Entire target body and ALL FAQ actualread in prior current-run batch; exact articleSHA remains unchanged."
+    }
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "目标正文和全部FAQ核读；具体原句：a pin driven into the canvas at the vanishing point, with a chalked string tied to it and snapped against the surface。逐句判断：目标Liedtke解释pinhole+chalkstring是一个物证读法；保留may/contested，免lens是该方法不需而非排除Vermeer其他器具。",
+    "source_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sentence": "A plainer studio version of the same trick turns up again more than two centuries later in Vermeer's workshop, where, on one contested reading of the physical evidence, a [pin driven into the canvas at the vanishing point, tied to a chalked string, may have been enough to lay out straight perspective lines by hand](/the-milkmaid-vermeer/), a method that needs no mirror or lens but does not by itself rule out their use elsewhere in his work.",
+    "target_slug": "the-milkmaid-vermeer",
+    "source_article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_article_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 5,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/audit/prose-gate-20261011/the-milkmaid-vermeer.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "目标正文和全部FAQ核读；具体原句：Dow had three elements.。逐句判断：目标三条不同旧体系和现代seven中space支持具体课堂词汇对照；不据archive1968推全球首创。",
+    "source_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_sha256": "c3c5fed73946a944add17037068c271d1bba934d32523c131d4e4e78498b89e6",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "sentence": "The [elements of art](/elements-of-art/) guide includes space in the modern seven-term classroom list and contrasts that list with Dow's three-part system of 1899.",
+    "target_slug": "elements-of-art",
+    "source_article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 7,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/audit/prose-gate-20261011/notes/batch7/elements-of-art.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

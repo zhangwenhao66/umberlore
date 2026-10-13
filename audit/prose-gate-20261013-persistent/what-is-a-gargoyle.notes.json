@@ -1,0 +1,54 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 mona-lisa 正文+FAQ。实际原句 “The 1911 theft did not rescue the Mona Lisa from obscurity” 。源句 The gap between the photographed image and the documented record is a recurring problem in art history; the same gap runs through [how the Mona Lisa became famous](/mona-lisa/). 。核读含1907guidebook、1911盗窃、1913回收、大众传播，目标不支持盗窃前完全无名；源句只类比流行故事与记录差异，不将两起事件因果等同。",
+    "sentence": "The gap between the photographed image and the documented record is a recurring problem in art history; the same gap runs through [how the Mona Lisa became famous](/mona-lisa/).",
+    "target_slug": "mona-lisa",
+    "source_article_sha256": "3fb10b237e01dccac982abe29d60b3b35caa341a8bc36d0c4efeef00ddc73894",
+    "target_article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "matching_prior_actual_fullread_receipts": [
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch9-target-map.json",
+          "entry": {
+            "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/src/data/guides.ts",
+            "source_file_sha256": "b642f4ae1ece18a6bd292dc8b492ee16b390aa2d832dd44f06a8f87eca7076f0",
+            "article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+            "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/mona-lisa.txt",
+            "line_count": 104,
+            "read_coverage": "Current complete body/allFAQ actual read B9"
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-target-map.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/src/data/guides.ts",
+            "article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+            "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b7-read/target-mona-lisa.txt",
+            "exact_SHA_previous_receipts": [
+              "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json"
+            ],
+            "full_read": true,
+            "source_file_sha256": "af09d77db2bc3d9312c776e8cac5467bb8a6030267138cf1d88db3be69f678a2",
+            "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged."
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json",
+          "entry": {
+            "body_plus_all_faq": true,
+            "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+            "article_sha256": "c33bc16d8cea9bcbae9f22457a10d12cf13c92aca4ed988916e64f59387537f3",
+            "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+            "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/mona-lisa.umber-full.txt",
+            "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+          }
+        }
+      ],
+      "coverage": "Entire target body and ALL FAQ actualread in prior current-run batch; exact articleSHA remains unchanged."
+    }
+  }
+]

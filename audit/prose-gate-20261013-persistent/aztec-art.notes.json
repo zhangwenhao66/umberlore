@@ -1,0 +1,84 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "A comparable identification puzzle turns up in Mesoamerican art further south as well: [a tomb uncovered beneath the Bonampak murals in 2010 holds an occupant whose identity, captive or royal relative, has never been resolved](/mayan-art/).",
+    "target_slug": "mayan-art",
+    "note": "CurrentB3targetallbodyFAQ cryptunderRoom2 in2010, identitycaptiveorrelative unconfirmed; straightforward identificationuncertaintycomparison, notsame excavationprocedure. Actual target quote: a captive warrior, killed the way the murals above him show captives being killed, or a relative of Bonampak's ruling family",
+    "source_article_sha256": "fad3ff4a8447a53f1b7dd50a8c4f75bba010724019cdfc73deb0afb66d359010",
+    "target_article_sha256": "46e3b27b87765f6398df73790e45182e119783790b86f8d7d3c1d366ee9e95f6",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 3,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/audit/prose-gate-20261011/mayan-art.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "46e3b27b87765f6398df73790e45182e119783790b86f8d7d3c1d366ee9e95f6",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "[Gustav Klimt's own body of work carries a parallel argument over ownership, playing out in restitution disputes over paintings looted during the Nazi era](/gustav-klimt/), in a different European museum system but over the same basic question of who actually gets to hold and display a contested object.",
+    "target_slug": "gustav-klimt",
+    "note": "Fulltarget includes goldleaf figure/patternwork and separate restitution ownershipdispute: Klimt materialexample narrowed no identicalprocess chrome; Aztecownership analogy onlywhoholds/displays, notclaimsame legalresult. Actual target quote: Altmann and Austria agreed to put the ownership question to binding arbitration",
+    "source_article_sha256": "fad3ff4a8447a53f1b7dd50a8c4f75bba010724019cdfc73deb0afb66d359010",
+    "target_article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "matching_prior_actual_fullread_receipts": [
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch9-target-map.json",
+          "entry": {
+            "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+            "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+            "article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+            "read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b9-target-read/gustav-klimt.txt",
+            "line_count": 109,
+            "read_coverage": "Exact unchanged article SHA previously complete body/allFAQ read this current run",
+            "prior_receipts": [
+              "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-target-map.json"
+            ]
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-target-map.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+            "article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+            "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-gustav-klimt.txt",
+            "lines": 109,
+            "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+            "full_body_all_FAQ_read": true,
+            "exact_SHA_prior_current_run_receipts": [],
+            "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+            "full_read": true
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-target-map.json",
+          "entry": {
+            "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+            "sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+            "FAQ_count": 11
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json",
+          "entry": {
+            "body_plus_all_faq": true,
+            "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+            "article_sha256": "2cc561bf0d17f68b595c7184c547b8de8cdcf21898c6196708541917256d1431",
+            "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+            "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/gustav-klimt.umber-full.txt",
+            "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+          }
+        }
+      ],
+      "coverage": "Entire target body and ALL FAQ actualread in prior current-run batch; exact articleSHA remains unchanged."
+    }
+  }
+]

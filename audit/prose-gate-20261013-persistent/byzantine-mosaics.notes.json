@@ -1,0 +1,24 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：Vasari attributed the style's invention to the Goths, the barbarian peoples he blamed for destroying Rome's classical buildings after conquering the city.。逐句判断：目标Vasari错误Goths归因与十二世纪SaintDenis时间支持这一个类比，不推所有movement都由同过程。",
+    "source_sha256": "cdce7dea6711543e43246010e68fd205a2f5af60766553d5cefafda342e2d019",
+    "target_sha256": "62c51b8e08f56bcbc9ae5e9c7c0b61652efe8579751f4176482f4f7120ee25c2",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sentence": "Vasari's habit of pinning a whole style's flaws on an outside group was not limited to painting: [he used the same move on architecture, blaming pointed arches and flying buttresses on the Goths despite that architectural style not appearing anywhere in Europe until centuries after the historical Gothic kingdoms had fallen](/art-styles/).",
+    "target_slug": "art-styles",
+    "source_article_sha256": "cdce7dea6711543e43246010e68fd205a2f5af60766553d5cefafda342e2d019",
+    "target_article_sha256": "afaae20e9971e20499daa9b38d42a5a6e673c2d88d188b0b863e5dfa391714c1",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 9,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch9-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-9/audit/prose-gate-20261011/notes/batch9/art-styles.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "afaae20e9971e20499daa9b38d42a5a6e673c2d88d188b0b863e5dfa391714c1",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

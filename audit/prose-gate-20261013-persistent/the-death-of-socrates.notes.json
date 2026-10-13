@@ -1,0 +1,24 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文和全部FAQ核读；具体原句：Both panels are lost.。逐句判断：目标两块Brunelleschi示范板已失存支持此具体物件范围；不把Manetti出生较晚当无法以后看存留panel的证据。",
+    "source_sha256": "c8d1c61f3c9551d1ceb4a1c9a89a31d2de1e149be7bb7732a3bd7ecd87cef3a4",
+    "target_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+    "sentence": "According to the Met's 2022 technical examination, David positioned the vanishing point of that system directly above Plato's head, a choice the museum describes as directing \\\"the viewer's gaze to the source of the narrative.\\\" It is the same basic geometric convention covered elsewhere on this site, [the technique whose earliest documented demonstration in Western painting has left no surviving physical trace at all](/vanishing-point/), put here to a far more pointed use: aiming an entire architectural background at one man's face.",
+    "target_slug": "vanishing-point",
+    "source_article_sha256": "c8d1c61f3c9551d1ceb4a1c9a89a31d2de1e149be7bb7732a3bd7ecd87cef3a4",
+    "target_article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 6,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/audit/prose-gate-20261011/vanishing-point.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

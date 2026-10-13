@@ -1,0 +1,62 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "The south wall was finished the year after [Nelson Rockefeller had a different Rivera mural chiseled off a wall in New York](/diego-rivera/), a very different building and a very different outcome for the same muralist, still working through the same question of who gets to shape a country's future, with Cristina placed inside this one.",
+    "target_slug": "diego-rivera",
+    "note": "Rivera target records February1934 destruction and NationalPalace source1934–35completion; same artist/different patrons/outcomes contextualcomparison, noassertion identical patrons or motive. Actualtargetquote: In February 1934, workmen peeled and chiseled the fresco",
+    "source_article_sha256": "d7d3e819ec7839fb56c7b8bc95610faadcb6a16f5ff684c3b2639c46600dec06",
+    "target_article_sha256": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "matching_prior_actual_fullread_receipts": [
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch10-target-map.json",
+          "entry": {
+            "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+            "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+            "article_sha256": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+            "full_body_allFAQ_read": true,
+            "coverage": "B10actualfullbodyALLFAQ"
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-target-read-map.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+            "article_sha": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+            "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/diego-rivera.umber-b3-target-full.txt",
+            "length": 18840,
+            "FAQ": 8
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-fullread-receipt.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+            "article_sha": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+            "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/diego-rivera.umber-b3-target-full.txt",
+            "length": 18840,
+            "FAQ": 8,
+            "source_file_sha": "be84f600b1b9b2f955461c53628c06e56ac6888d2d102945ec937c9b5322cfd1",
+            "body_all_FAQ_read": true,
+            "coverage": "full current target body+all FAQ; unchanged B2 full reads reused only after exact article SHA match; B1 abstract/pop current text re-read in this batch"
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch2-fullread-receipt.json",
+          "entry": {
+            "body_plus_all_faq": true,
+            "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-2/src/data/guides.ts",
+            "article_sha256": "1df52a7666cf6158950a134fc0af6e02012eb2ba8b2cb944c62d2a3736f42bfc",
+            "source_file_sha256": "b5cc2816ad94cf4631bdb1139b589c0d43e14c75f1d10aa4e26b6bffe36ef53c",
+            "full_read_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/diego-rivera.umber-full.txt",
+            "coverage": "entire extracted body+all FAQ; previously complete b1 reads reused only after content-scope confirmation; b2 seven new targets read completely"
+          }
+        }
+      ],
+      "coverage": "Entire target body and ALL FAQ actualread in prior current-run batch; exact articleSHA remains unchanged."
+    }
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 what-is-a-gargoyle 正文+FAQ。实际原句 “A gargoyle is a working waterspout. Here is the test that separates one from a grotesque, why Notre-” 。源句 They were load-bearing structure built to look weightless, which is the same test that separates a working [gargoyle from a merely decorative grotesque](/what-is-a-gargoyle/): whether the form is actually doing the job it appears to be doing, or only posing as if it were. 。核读实际排水与仅装饰grotesque的功能区分、apotropaic意图证据不足；源Robie比喻只功能/装饰区分，并非相同工程方法。",
+    "sentence": "They were load-bearing structure built to look weightless, which is the same test that separates a working [gargoyle from a merely decorative grotesque](/what-is-a-gargoyle/): whether the form is actually doing the job it appears to be doing, or only posing as if it were.",
+    "target_slug": "what-is-a-gargoyle",
+    "source_article_sha256": "4b191a7230edfa36e6da160f8cb1984db77a297427ecdada4117dacfffd1f7b2",
+    "target_article_sha256": "3fb10b237e01dccac982abe29d60b3b35caa341a8bc36d0c4efeef00ddc73894",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 1,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch1-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/audit/prose-gate-20261011/what-is-a-gargoyle.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "3fb10b237e01dccac982abe29d60b3b35caa341a8bc36d0c4efeef00ddc73894",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 abstract-art-first-painting 正文+FAQ。实际原句 “But the date field in the Centre Pompidou's catalogue, the field a researcher would cite, reads 1913.” 。源句 That kind of disagreement over who actually fixed what turns up often enough in design history to expect it rather than resolve it on the spot, in much the same way [a museum's catalogue can end up overriding the date on the object it holds](/abstract-art-first-painting/). 。核读1910背书与1913馆藏日期、stylistic inference、afKlint1906–7与公共影响差异；类比仅不同记录冲突，未称全机构偷偷更改或所有coiningdate不可信。",
+    "sentence": "That kind of disagreement over who actually fixed what turns up often enough in design history to expect it rather than resolve it on the spot, in much the same way [a museum's catalogue can end up overriding the date on the object it holds](/abstract-art-first-painting/).",
+    "target_slug": "abstract-art-first-painting",
+    "source_article_sha256": "4b191a7230edfa36e6da160f8cb1984db77a297427ecdada4117dacfffd1f7b2",
+    "target_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 1,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch1-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/audit/prose-gate-20261011/abstract-art-first-painting.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

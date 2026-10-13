@@ -1,0 +1,724 @@
+{
+  "repository": "umberlore",
+  "data_path": "src/data/guides.ts",
+  "data_sha256": "dc15503949178b9d3785590593025bef96486d44d2ea0eb4273a4f68705d30da",
+  "scripts_sha256": {
+    "check_prose_patterns.py": "839e4077688cbf644f8fbab26c27bcc9a18e8e9c508344cda996b1fa23631a37",
+    "check_bridge_sentences.py": "c6cb21d4d00fdfa46c2dd0106f92b2ded62f9bafb365ff46ab6c8b75c622734e"
+  },
+  "expected": 88,
+  "checked": 88,
+  "unexamined": 0,
+  "failed": 0,
+  "candidate_slugs": 37,
+  "candidate_sentences": 61,
+  "manifest_coverage_matches": true,
+  "stale_manifest_slugs": [],
+  "results": [
+    {
+      "slug": "what-is-a-gargoyle",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "van-gogh-paintings",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "water-lilies-monet-series",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "mona-lisa",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "gustav-klimt",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "famous-paintings",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "abstract-art-first-painting",
+      "status": "passed",
+      "candidates": 4,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "pop-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "frank-lloyd-wright",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "st-peters-basilica",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "edvard-munch-the-scream",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "frida-kahlo-paintings",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "sagrada-familia",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "starry-night",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "saturn-devouring-his-son",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "andy-warhol",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "art-deco",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "diego-rivera",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "elements-of-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "birth-of-venus",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "venus-de-milo",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "renaissance-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "ophelia-millais",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "daguerreotype",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "jackson-pollock",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "art-styles",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "michelangelo-sistine-chapel",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "fallen-angel-painting",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "mandala-art",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "architectural-painting",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "cloisonne",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "emphasis-in-art",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "baroque-paintings",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "aztec-art",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "the-broken-column",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "whistler-ruskin-trial",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "mayan-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "psychedelic-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "aboriginal-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "encaustic-painting",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "romanesque-painting",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "artist-peak-creation-age",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "famous-renaissance-paintings",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "majolica",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "ghost-of-a-flea",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "famous-landscape-paintings",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "sand-painting",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "cristina-kahlo",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "famous-portraits",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "pandemonium-painting",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "icarus-painting",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "aphrodite-painting",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "famous-mexican-artists",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "non-objective-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "pattern-in-art",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "chiaroscuro-woodcut",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "monochromatic-painting",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "john-martin-paintings",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "schiele-neulengbach-trial",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "jackson-pollock-convergence",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "the-milkmaid-vermeer",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "byzantine-mosaics",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "joan-of-arc-painting",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "the-lovers-painting",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "simonetta-vespucci",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "art-techniques",
+      "status": "passed",
+      "candidates": 4,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "caravaggio-narcissus",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "vanishing-point",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "the-anatomy-lesson-nicolaes-tulp",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "the-death-of-socrates",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "open-license-art-image-directory",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "prussian-blue-pigment",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "fresco-painting",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "grisaille",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "the-arnolfini-portrait",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "golden-ratio-in-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "most-expensive-painting-in-the-world",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "are-thomas-kinkade-paintings-worth-anything",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-many-times-was-the-mona-lisa-stolen",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "bob-ross-most-famous-painting",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "rococo-architecture-vs-baroque",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "antique-oil-painting",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "parthenon-vs-pantheon",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "genre-painting",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "mixed-media-art",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "atmospheric-perspective",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "contrapposto",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "who-painted-this-painting",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    }
+  ],
+  "source_commit": "1db7f8a5a4428c18b063eeee6a849f3a07973df8"
+}

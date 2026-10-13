@@ -1,0 +1,24 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文和全部FAQ核读；具体原句：between 1920 and 1923 they removed murals from Sant Climent de Taüll。逐句判断：目标Catalonia1919销售合法、1920–23museum聘crew移除原作支持拆除与所有权；与Knossos补缺是两个具体问题，不排除任何其他restoration争论。",
+    "source_sha256": "91a6188eaac094585f11ab4b41f4a86ca3492502919b81ff56334cd42444ff9b",
+    "target_sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "sentence": "It is a different problem from what happened to [Romanesque frescoes stripped from Catalan churches](/romanesque-painting/) in the same general period, whose documented dispute concerned removal crews, dealers and museum ownership.",
+    "target_slug": "romanesque-painting",
+    "source_article_sha256": "91a6188eaac094585f11ab4b41f4a86ca3492502919b81ff56334cd42444ff9b",
+    "target_article_sha256": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 4,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/audit/prose-gate-20261011/romanesque-painting.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "aab7a639ff423722cded7faa29c81c192fc9aa280f6b519dd706a8b6b8a05070",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

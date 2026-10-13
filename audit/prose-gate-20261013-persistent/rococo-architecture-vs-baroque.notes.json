@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "Peter's Basilica](/st-peters-basilica/) came out of the Counter-Reformation, and the page on [Baroque paintings](/baroque-paintings/) shows the same taste for drama in a different medium.",
+    "target_slug": "baroque-paintings",
+    "note": "Target complete bodyFAQ explicitlydramatic instant/emotionalintensity/lighting. Rococo source comparison restricted tastefordrama acrossmedia, notclaims allRococo secular or bothstyles identical. Actualtargetquote: a preference for capturing one fleeting dramatic instant",
+    "source_article_sha256": "99985267a62985cb27320654e89b73c17307049409f8385c423ccdc77b83cd9c",
+    "target_article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "matching_prior_actual_fullread_receipts": [
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-target-map.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+            "article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+            "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-baroque-paintings.txt",
+            "lines": 72,
+            "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+            "full_body_all_FAQ_read": true,
+            "exact_SHA_prior_current_run_receipts": [],
+            "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+            "full_read": true
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch10-target-map.json",
+          "entry": {
+            "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+            "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+            "article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+            "full_body_allFAQ_read": true,
+            "coverage": "B10actualfullbodyALLFAQ"
+          }
+        }
+      ],
+      "coverage": "Entire target body and ALL FAQ actualread in prior current-run batch; exact articleSHA remains unchanged."
+    }
+  }
+]

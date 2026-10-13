@@ -1,0 +1,25 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Current target full body/ALL FAQ reviewed in B7. The source identifies the earliest copy its guide could document, while the current target also mentions a catalogued 1960 edition. It does not establish global first use. Earlier quotation superseded; current literal target quotation: the Internet Archive holds a 1968 printing from the W. C. Brown Company in Dubuque, Iowa, while Google Books catalogues a 1960 edition.",
+    "source_sha256": "467eccf10ee3940037c97ea7a6588849e71a4f4296d87475f24e0ff87ac7dc3a",
+    "target_sha256": "c3c5fed73946a944add17037068c271d1bba934d32523c131d4e4e78498b89e6",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sentence": "Ask someone to name [what art is built from](/elements-of-art/) and they will usually reach for the same seven words that the elements-of-art guide on this site finds in a 1968 printing of a studio-art textbook, the earliest copy it could document: line, shape, form, space, value, color, texture.",
+    "target_slug": "elements-of-art",
+    "source_article_sha256": "467eccf10ee3940037c97ea7a6588849e71a4f4296d87475f24e0ff87ac7dc3a",
+    "target_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 7,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/audit/prose-gate-20261011/notes/batch7/elements-of-art.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    },
+    "literal_quote_checked_on_final_head": "a84e5c4"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 psychedelic-art 正文+FAQ。实际原句 “it was consistently brighter, more abstract, and less representational” 。源句 Non-representational art has found unconventional doorways more than once: decades later, [a Los Angeles psychiatrist's 1950s LSD studies pushed professional artists toward their own unplanned departures from recognizable subject matter](/psychedelic-art/), a different route to a broadly similar kind of break. 。核读1954–62 Janiger研究、250件作品与Hertel1971评估；LSD作品更抽象/少具象有支持，未称由此直接创立1966海报运动。",
+    "sentence": "Non-representational art has found unconventional doorways more than once: decades later, [a Los Angeles psychiatrist's 1950s LSD studies pushed professional artists toward their own unplanned departures from recognizable subject matter](/psychedelic-art/), a different route to a broadly similar kind of break.",
+    "target_slug": "psychedelic-art",
+    "source_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_article_sha256": "ae4529d5b4c2bf32366e1da1cd9459d1535d6011c8b74c5ecf01f9c9e441e9b0",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 3,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/audit/prose-gate-20261011/psychedelic-art.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "ae4529d5b4c2bf32366e1da1cd9459d1535d6011c8b74c5ecf01f9c9e441e9b0",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 non-objective-art 正文+FAQ。实际原句 “Rebay resigned as director in March 1952 rather than carry it out.” 。源句 The reassessment reached its widest audience in 2018, when the Guggenheim's Hilma af Klint: Paintings for the Future opened in New York; the museum's account of the show states that \\\"more than 600,000 visitors have attended Hilma af Klint: Paintings for the Future, the highest recorded attendance figure for a single exhibition in the museum's history.\\\" Institutions have shaped which abstract pioneers get remembered in more than one case: [the Guggenheim's forerunner institution opened under Hilla Rebay as the Museum of Non-Objective Painting; she left its directorship in 1952, the same year the museum dropped the term from its name](/non-objective-art/). 。核读1939成立、1952辞职及改名、1959开馆和1967去世；源已由named after curator改为opened under curator，避免馆名纪念她的错读。目标did not live句发现已登记额外事实修，不以此作为来源。",
+    "sentence": "The reassessment reached its widest audience in 2018, when the Guggenheim's Hilma af Klint: Paintings for the Future opened in New York; the museum's account of the show states that \\\"more than 600,000 visitors have attended Hilma af Klint: Paintings for the Future, the highest recorded attendance figure for a single exhibition in the museum's history.\\\" Institutions have shaped which abstract pioneers get remembered in more than one case: [the Guggenheim's forerunner institution opened under Hilla Rebay as the Museum of Non-Objective Painting; she left its directorship in 1952, the same year the museum dropped the term from its name](/non-objective-art/).",
+    "target_slug": "non-objective-art",
+    "source_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_article_sha256": "6c48a46b528ac4b0a36fc630014bc4ab31234feccc11faa3a23e131366af0316",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 8,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/audit/prose-gate-20261011/notes/batch8/non-objective-art.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "6c48a46b528ac4b0a36fc630014bc4ab31234feccc11faa3a23e131366af0316",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 famous-paintings 正文+FAQ。实际原句 “Those fields settle whether a work is panel or canvas, painting or print, what it actually measures” 。源句 [Checking a museum's catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to depict a water garden he commissioned](/water-lilies-monet-series/) rather than a scene he simply found. 。核读六件作品具体medium/support/size/inventory及NightWatch两套尺寸矛盾；源仅推可检查资料字段，不断言各catalogue必无误或都有能解决的唯一结论。",
+    "sentence": "[Checking a museum's catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to depict a water garden he commissioned](/water-lilies-monet-series/) rather than a scene he simply found.",
+    "target_slug": "famous-paintings",
+    "source_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_article_sha256": "905e88e95296f6e75c2e5f26d10c205a5d589ba6b813b65d21e783c6b8989ff6",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 1,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch1-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-1/audit/prose-gate-20261011/famous-paintings.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "905e88e95296f6e75c2e5f26d10c205a5d589ba6b813b65d21e783c6b8989ff6",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "note": "已完整读取目标 water-lilies-monet-series 正文+FAQ。实际原句 “He commissioned it, then painted the thing he had commissioned.” 。源句 [Checking a museum's catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to depict a water garden he commissioned](/water-lilies-monet-series/) rather than a scene he simply found. 。核读1893购地申请获准、园工养护、两类构图和约250–300幅范围；源仅称同一水园主题/自己委建，已删除亲自挖池种植的无凭据断言。",
+    "sentence": "[Checking a museum's catalogue fields against the popular story around a work](/famous-paintings/) turns up this kind of gap more often than casual readers expect, in much the same way [Monet's water lily canvases turn out to depict a water garden he commissioned](/water-lilies-monet-series/) rather than a scene he simply found.",
+    "target_slug": "water-lilies-monet-series",
+    "source_article_sha256": "6b1589ec1e9bd005dcc3159b929aa27fc7b407826234c2b02f68b42370370ed2",
+    "target_article_sha256": "280cbcb6d01fc45afec32320e6d76394ce6ec67639446662f6b6199939a5ad5e",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "matching_prior_actual_fullread_receipts": [
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-target-read-map.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+            "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/water-lilies-monet-series.txt",
+            "article_sha": "280cbcb6d01fc45afec32320e6d76394ce6ec67639446662f6b6199939a5ad5e",
+            "source_file_sha": "7aaccfd9f7d5ebc0046a2bb332762df768aee654781c741ad6812250bac6381a",
+            "full_read": true,
+            "reuse_read": null
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-fullread-receipt.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+            "full_text": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b4-targets/water-lilies-monet-series.txt",
+            "article_sha": "280cbcb6d01fc45afec32320e6d76394ce6ec67639446662f6b6199939a5ad5e",
+            "source_file_sha": "473dd87f58fb78820140a2690c532e0ba663a38c903b7145b8831413681b4dc3",
+            "full_read": true,
+            "reuse_read": null,
+            "coverage": "full body+all FAQ actually read; current drafts reread by scope changes and exact raw/decoded diff; quotations checked as JSON string values"
+          }
+        }
+      ],
+      "coverage": "Entire target body and ALL FAQ actualread in prior current-run batch; exact articleSHA remains unchanged."
+    }
+  }
+]

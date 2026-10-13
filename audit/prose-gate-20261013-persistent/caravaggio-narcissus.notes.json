@@ -1,0 +1,80 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "This site has run into a comparable identity problem inside a different Caravaggio picture before, over which figure at the table is actually meant to be [Matthew in Caravaggio's Calling of Saint Matthew, a scholarly dispute about reading the composition, not about who painted it](/baroque-paintings/).",
+    "target_slug": "baroque-paintings",
+    "note": "Target names the competing bearded and younger Matthew readings; bridge explicitly concerns figure identity, not authorship of the painting. Actual target quote: Most writers on the painting take the bearded man",
+    "source_article_sha256": "de0a2c3135895925e9110d7d08ed615bf66293ee60d07fc9068e8884222b86b4",
+    "target_article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "matching_prior_actual_fullread_receipts": [
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-target-map.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/src/data/guides.ts",
+            "article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+            "read": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b8-read/target-baroque-paintings.txt",
+            "lines": 72,
+            "source_file_sha256": "ef1b1455fd84f4ad1ed4db25c8f3f72c4906828f9f0289aa4365bd1789043f05",
+            "full_body_all_FAQ_read": true,
+            "exact_SHA_prior_current_run_receipts": [],
+            "coverage": "Complete body and all FAQ: current batch source or fresh target reading; prior same exact articleSHA receipts reused only when unchanged.",
+            "full_read": true
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch10-target-map.json",
+          "entry": {
+            "source": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-10/src/data/guides.ts",
+            "source_file_sha256": "3b5915e172db0e77b20f357e489f198e5d32a63e933464fab9618ddcea015bf4",
+            "article_sha256": "8034a738904b3a6b4a77598bfe301c98f651f381a1a5abe9d9be43ee1e9c52a2",
+            "full_body_allFAQ_read": true,
+            "coverage": "B10actualfullbodyALLFAQ"
+          }
+        }
+      ],
+      "coverage": "Entire target body and ALL FAQ actualread in prior current-run batch; exact articleSHA remains unchanged."
+    }
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "sentence": "Technical examination has answered other questions in this site’s coverage: a 2022 Rijksmuseum scan using Macro-XRF and reflectance imaging found that [Vermeer had painted over a wooden jug holder and a woven fire basket beneath the surface of The Milkmaid](/the-milkmaid-vermeer/), the same kind of non-invasive, paint-layer-reading approach the 1995 Narcissus restoration used, just aimed at a different question.",
+    "target_slug": "the-milkmaid-vermeer",
+    "note": "Target2022 MacroXRF/reflectance study identifies woodenjugholder and firebasket; revised bridge concerns hidden revisions and explicitly a different question from Narcissus attribution. Actual target quote: wooden jug holder",
+    "source_article_sha256": "de0a2c3135895925e9110d7d08ed615bf66293ee60d07fc9068e8884222b86b4",
+    "target_article_sha256": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 5,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/audit/prose-gate-20261011/the-milkmaid-vermeer.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "3fe48e4ae1cfb487d7451ea521bcd304d7a668183c83c20668d9c9978256501b",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "sentence": "And the broader conservation-science toolkit behind both cases, X-ray methods that read what a painter did without removing a single paint sample, is the same one [a 2010 fluorescence study used to measure the individual glaze layers inside Leonardo's sfumato](/art-techniques/), a reminder that a lot of what modern viewers know about how these paintings were physically made has come from instruments invented centuries after the paint dried.",
+    "target_slug": "art-techniques",
+    "note": "Current samebatch target fullbodyALLFAQ read and revised:2010XRF estimates sfumato glaze layers; the bridge only asserts that physical measurement and doesnotassert Seurat reading history is a third lab study. Actual target quote: individual glaze layers only 1 to 2 micrometers thick",
+    "source_article_sha256": "de0a2c3135895925e9110d7d08ed615bf66293ee60d07fc9068e8884222b86b4",
+    "target_article_sha256": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 8,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/audit/prose-gate-20261011/notes/batch8/art-techniques.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "28840d5533bcb11117041241b0c969bbb3b0bcbd23b428712a96bee8bd81a594",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

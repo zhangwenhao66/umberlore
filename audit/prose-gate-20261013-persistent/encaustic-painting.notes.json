@@ -1,0 +1,42 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Current target full body/ALL FAQ reviewed in B6. Detailed surviving account is late and attribution qualified; source analogy concerns thin documentation, not identical technology. Earlier quotation superseded; current literal target quotation: The detailed reconstruction of the hole, mirror, silvered sky and cut-away panel depends on this account.",
+    "sentence": "An ancient technique's founding account can stay just as thin elsewhere in art history: [the fullest surviving description of Brunelleschi's vanishing-point demonstration panels was written decades after the fact, by a biographer whose own authorship of that account isn't fully settled either](/vanishing-point/).",
+    "target_slug": "vanishing-point",
+    "source_article_sha256": "c169b13e93c2f9919c4647eadf4e51c94832e8fb92dab9db6fecb03569cfeaf1",
+    "target_article_sha256": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 6,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/audit/prose-gate-20261011/vanishing-point.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "594876d9d3ba0f46db892d91da7fa6a0d9bbb6d194e7c2c0b1b47512892af45a",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    },
+    "literal_quote_checked_on_final_head": "a84e5c4"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Current target full body/ALL FAQ reviewed in B7. Source says a 1968 printing documents the list, without dating its first appearance; target distinguishes available editions. Earlier quotation superseded; current literal target quotation: the Internet Archive holds a 1968 printing from the W. C. Brown Company in Dubuque, Iowa, while Google Books catalogues a 1960 edition.",
+    "sentence": "The seven-part vocabulary now used to describe any painting's structure, line, shape, form, has a similarly recent history: [a 1968 printing of a studio-art textbook documents the seven-item list](/elements-of-art/), which is a long way from any inherited ancient tradition, however timeless the terms sound.",
+    "target_slug": "elements-of-art",
+    "source_article_sha256": "c169b13e93c2f9919c4647eadf4e51c94832e8fb92dab9db6fecb03569cfeaf1",
+    "target_article_sha256": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 7,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/audit/prose-gate-20261011/notes/batch7/elements-of-art.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "1c04f1b37afdafa2a7b233c91086537e523ef039425eb3072edd23c1db9786a5",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    },
+    "literal_quote_checked_on_final_head": "a84e5c4"
+  }
+]

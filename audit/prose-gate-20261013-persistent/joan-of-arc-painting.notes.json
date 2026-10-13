@@ -1,0 +1,59 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：Cabanel won the second Grand Prix de Rome in 1845。逐句判断：目标确1845第二Rome奖，源Cabanel身份及年份皆吻合，不把1847作品创作年变1845。",
+    "source_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e",
+    "target_sha256": "ad93bc309b8842591d42f42d85eb64489dd39197ad9589fcdb24a632e91a6827",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/src/data/guides.ts",
+    "sentence": "Jules Bastien-Lepage, trained at the École des Beaux-Arts in Paris, the school that ran the Grand Prix de Rome, where [Alexandre Cabanel](/fallen-angel-painting/) took second prize in 1845, finished Joan of Arc in 1879, nine years after he himself fought in the Franco-Prussian War and was wounded, and after France's defeat in that war let Prussia annex the eastern part of Lorraine, the same region where both Bastien-Lepage and, some four centuries earlier, Joan of Arc herself had been born.",
+    "target_slug": "fallen-angel-painting",
+    "source_article_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e",
+    "target_article_sha256": "ad93bc309b8842591d42f42d85eb64489dd39197ad9589fcdb24a632e91a6827",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 3,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch3-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-3/audit/prose-gate-20261011/fallen-angel-painting.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "ad93bc309b8842591d42f42d85eb64489dd39197ad9589fcdb24a632e91a6827",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：whose slipped shoulder strap drew enough outrage at the 1884 Paris Salon。逐句判断：Joan只比MadameX hostile reception1884以及Met1916，不同失礼原因；Simonetta链接三个明确条目cross/reception/fatherdaughter，不泛称都单一人物身份纠错。",
+    "source_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e",
+    "target_sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+    "sentence": "Four years after Bastien-Lepage's own Salon scandal, in 1884, [John Singer Sargent's Madame X also met a hostile reception at the 1884 Salon after its slipped shoulder strap offended viewers; Sargent later sold that canvas to the Metropolitan Museum in 1916](/famous-portraits/): two very different pictures, the same pattern of French condemnation followed eventually by an American museum's acquisition.",
+    "target_slug": "famous-portraits",
+    "source_article_sha256": "16549ef2fc089f283ff99e60e493d735e9a2e56893a870f9ab8163a4e03b8f9e",
+    "target_article_sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "matching_prior_actual_fullread_receipts": [
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch6-target-map.json",
+          "entry": {
+            "path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-6/src/data/guides.ts",
+            "article_sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+            "read_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-b6-read/target-famous-portraits.txt"
+          }
+        },
+        {
+          "receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch5-target-map.json",
+          "entry": {
+            "file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-5/src/data/guides.ts",
+            "sha256": "4bdb2274c139150e476208dfd233e20895142a90da021eb97325145970a9443e",
+            "FAQ_count": 7
+          }
+        }
+      ],
+      "coverage": "Entire target body and ALL FAQ actualread in prior current-run batch; exact articleSHA remains unchanged."
+    }
+  }
+]

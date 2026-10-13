@@ -1,0 +1,46 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：Martin had already designed the same rising-palace composition twice before as prints, once in 1824 and again as a larger single engraving in 1831。逐句判断：目标明确1824/1831版画与1841油画；Lovers另链151年家族保留目标ownership段，非两画相同来源。",
+    "source_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea",
+    "target_sha256": "e23f79e762f502e0cf34b10359e5ca3a161355feee41d5fb814c4b56d3dd4685",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "sentence": "Martin's other Louvre-connected painting, [Pandemonium](/pandemonium-painting/), came out of that same Paradise Lost project: he engraved the composition twice, in 1824 and 1831, before finally painting it in oil in 1841.",
+    "target_slug": "pandemonium-painting",
+    "source_article_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea",
+    "target_article_sha256": "e23f79e762f502e0cf34b10359e5ca3a161355feee41d5fb814c4b56d3dd4685",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 4,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/audit/prose-gate-20261011/pandemonium-painting.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "e23f79e762f502e0cf34b10359e5ca3a161355feee41d5fb814c4b56d3dd4685",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "目标正文+全部FAQ全文核读。具体原句：the single finished painting to come out of roughly ninety pencil sketches Blake produced during nightly sessions at the house of the astrologer John Varley。逐句判断：Martin连接目标90草图中唯一成画，不说信仰相同；Lovers新句明确Keynes与Raine不同解释，不把Keynes推断当Blake亲口事实。",
+    "source_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea",
+    "target_sha256": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+    "target_file": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/src/data/guides.ts",
+    "sentence": "Martin, he wrote, \\\"has attempted this Denner-like portraiture of sea-foam with the assistance of an acre of canvas, with what success, I believe the critics of his last year's Canute had, for once, sense enough to decide.\\\" He wasn't the only Romantic-era painter working from private vision rather than direct observation; William Blake did something similar on a far smaller scale, finishing a single tempera panel, [The Ghost of a Flea](/ghost-of-a-flea/), out of roughly ninety sketches drawn during nightly sessions at John Varley's house.",
+    "target_slug": "ghost-of-a-flea",
+    "source_article_sha256": "4293098bbf07e28ec748c0842f54e00a7746e70950a741a59c8d907feb7daeea",
+    "target_article_sha256": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 4,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/audit/prose-gate-20261011/ghost-of-a-flea.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "01773c0cf9a1bc6a0ad9e62b257ab1c02ad99b5be971393f350f971d048732fe",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]

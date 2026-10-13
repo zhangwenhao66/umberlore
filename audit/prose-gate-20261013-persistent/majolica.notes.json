@@ -1,0 +1,41 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "目标 encaustic-painting 全正文全部FAQ核读。原句：Encaustic painting's origin is uncertain by its own earliest chronicler: writing around 77 AD, Pliny the Elder stated flatly that \\\"it is not agreed who was the inventor of painting in wax,\\\" recording several competing claims before crediting Pausias of Sicyon as the first artist to become famous at it. The \\\"Punic wax\\\" recipe long cited as the medium behind the Fayum mummy portraits fares no better under modern testing: a 2020 study published by Getty, focused on two Art Institute of Chicago portraits, reviewed recipes recorded from Otto Donner von Richter in 1893 through Euphrosyne Doxiadis in the 1990s, and repeated as settled fact in reference works including The Oxford History of Western Art, and reported that scientific analysis had not established those specific combinations in mummy portraits. Identifying beeswax does not establish how it was prepared. The same study found beeswax as the major binder in both paintings, including one that looks nothing like encaustic, undercutting the visual test art historians have used for over a century to sort portraits into \\\"encaustic\\\" and \\\"tempera\\\" groups.。源当前句：A similar gap between an assumed technique and what the documented record actually supports shows up in [the proposed Punic-wax formulas for Fayum portraits, whose preparation cannot be established simply by identifying beeswax](/encaustic-painting/).。本批全读原及改稿5FAQ，Getty2020完整相关主文证实分析出beeswax并不定制备recipe。原never found概括过强，改为recipe preparation无法仅由binder识别；两knownglazes与ancient uncertainty明确分开。",
+    "sentence": "A similar gap between an assumed technique and what the documented record actually supports shows up in [the proposed Punic-wax formulas for Fayum portraits, whose preparation cannot be established simply by identifying beeswax](/encaustic-painting/).",
+    "target_slug": "encaustic-painting",
+    "source_article_sha256": "6068d9e7f04bf53897276d156819bb9ce81b54767e79c252c173f4a21bf8ae4b",
+    "target_article_sha256": "c169b13e93c2f9919c4647eadf4e51c94832e8fb92dab9db6fecb03569cfeaf1",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 4,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch4-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-4/audit/prose-gate-20261011/encaustic-painting.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "c169b13e93c2f9919c4647eadf4e51c94832e8fb92dab9db6fecb03569cfeaf1",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Current target full body/ALL FAQ reviewed in B7. The source compares documented reputational change over about forty years, without applying that Chinese account to every enamel tradition. Earlier quotation superseded; current literal target quotation: Within about 40 years, by the Ming Xuande reign (1426-35), the same technique had become prized ware at the imperial court",
+    "sentence": "Reputation can swing the opposite way just as fast: [the antiquarian Cao Zhao dismissed cloisonné enamel as unfit for a scholar's studio in 1388, only for the same technique to become an imperial treasure within about forty years](/cloisonne/), a reminder that a decorative craft's status, like its name, is rarely as stable as the finished object makes it look.",
+    "target_slug": "cloisonne",
+    "source_article_sha256": "6068d9e7f04bf53897276d156819bb9ce81b54767e79c252c173f4a21bf8ae4b",
+    "target_article_sha256": "4db9c5b8cdcb341346ff78777a6af3bbeb4b7bed7f3d95ad4f3968018ce5c977",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 7,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch7-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-7/audit/prose-gate-20261011/notes/batch7/cloisonne.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "4db9c5b8cdcb341346ff78777a6af3bbeb4b7bed7f3d95ad4f3968018ce5c977",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    },
+    "literal_quote_checked_on_final_head": "a84e5c4"
+  }
+]

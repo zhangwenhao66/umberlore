@@ -1,0 +1,21 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "sentence": "A discrepancy in the support material, the same category of fact a museum catalogue records for [Munch's Scream, tempera and grease crayon on cardboard](/edvard-munch-the-scream/), was enough on its own to end the claim.",
+    "target_slug": "edvard-munch-the-scream",
+    "note": "Target gives the exact NationalMuseum1893 support/medium; compares object catalogue material, not1910chemicalfindings. Actual target quote: tempera and grease crayon on cardboard",
+    "source_article_sha256": "75757c8c56923ee0341a3509854fd3adf8e2d47025ed4802f9e5fd727e9e27b0",
+    "target_article_sha256": "105c5c59e9e6be231c7e3c71d750cc1fcf53ca3df2656c9372452bd228bbda7e",
+    "target_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "source_path": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/root/wt-umber-integration/src/data/guides.ts",
+    "current_run_fullread_evidence": {
+      "batch": 8,
+      "semantic_receipt": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/umber-batch8-semantic.json",
+      "notes_prior_currentrun": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/myth_umber/wt-umber-8/audit/prose-gate-20261011/notes/batch8/edvard-munch-the-scream.notes.json",
+      "source_body_allFAQ_actualread": true,
+      "actual_source_article_sha": "105c5c59e9e6be231c7e3c71d750cc1fcf53ca3df2656c9372452bd228bbda7e",
+      "read_coverage": "Complete source body and ALL FAQ read during latest batch; modified paragraphs/FAQ final diff read; exact articleSHA unchanged at integration."
+    }
+  }
+]
