@@ -53,7 +53,7 @@ export const mythQuizItems: MythQuizItem[] = [
 		claim: "Were the walls in Van Gogh's The Bedroom really purple?",
 		verdict: true,
 		explanation:
-			'Yes. He listed the colours for Theo on 16 October 1888: "The walls are of a pale violet" and "The doors lilac" (letter 705). The Van Gogh Museum states that the walls and doors were originally purple and now read blue, because the unstable red lake in the mixture faded and left the blue component dominant. The floor was also a harder red than it is today.',
+			'Yes. He listed the colors for Theo on 16 October 1888: "The walls are of a pale violet" and "The doors lilac" (letter 705). The Van Gogh Museum states that the walls and doors were originally purple and now read blue, because the unstable red lake in the mixture faded and left the blue component dominant. The floor was also a harder red than it is today.',
 		sourceSlug: 'van-gogh-paintings',
 		sourceTitle: 'Van Gogh Paintings: Reading the Palette, Then and Now',
 	},
@@ -61,7 +61,7 @@ export const mythQuizItems: MythQuizItem[] = [
 		claim: 'Did Van Gogh really sell only one painting in his lifetime?',
 		verdict: false,
 		explanation:
-			'No, and the Van Gogh Museum says so directly: the exact number is unknown, "but in any case, it was more than a couple." His uncle Cor commissioned nineteen cityscapes of The Hague, the Paris colourman Julien Tanguy bought a painting, and Theo sold one to a London gallery. *The Red Vineyard* was bought by Anna Boch after a public exhibition, which is the sale the myth compresses everything else into.',
+			'No, and the Van Gogh Museum says so directly: the exact number is unknown, "but in any case, it was more than a couple." His uncle Cor commissioned nineteen cityscapes of The Hague, the Paris colorman Julien Tanguy bought a painting, and Theo sold one to a London gallery. *The Red Vineyard* was bought by Anna Boch after a public exhibition, which is the sale the myth compresses everything else into.',
 		sourceSlug: 'van-gogh-paintings',
 		sourceTitle: 'Van Gogh Paintings: Reading the Palette, Then and Now',
 	},
@@ -69,7 +69,7 @@ export const mythQuizItems: MythQuizItem[] = [
 		claim: 'Did cataracts change the way Monet painted the Water Lilies?',
 		verdict: true,
 		explanation:
-			'Yes, and the effect is documented rather than inferred. Monet complained around 1914 and 1915 that reds looked muddy and his painting was darkening, and he labelled his paint tubes to avoid picking the wrong colour. By 1922 Charles Coutela recorded light perception only in his right eye. After surgery in early 1923 and corrective lenses in 1924 and 1925 his palette returned to cooler blues and greens, and he destroyed or retouched work from the cataract years. The Orangerie panels were finalised after his sight was corrected, not during the worst of it.',
+			'Yes, and the effect is documented rather than inferred. Monet complained around 1914 and 1915 that reds looked muddy and his painting was darkening, and he labelled his paint tubes to avoid picking the wrong color. By 1922 Charles Coutela recorded light perception only in his right eye. After surgery in early 1923 and corrective lenses in 1924 and 1925 his palette returned to cooler blues and greens, and he destroyed or retouched work from the cataract years. The Orangerie panels were finalised after his sight was corrected, not during the worst of it.',
 		sourceSlug: 'water-lilies-monet-series',
 		sourceTitle: "Monet's Water Lilies Series: A Motif He Built Himself",
 	},
@@ -93,7 +93,7 @@ export const mythQuizItems: MythQuizItem[] = [
 		claim: 'Did Klimt use real gold in his paintings?',
 		verdict: true,
 		explanation:
-			'Yes, and more than gold. The Belvedere’s catalogue record for *The Kiss* lists gold leaf, silver leaf and platinum leaf in the figures, worked into resin oil colours on a primed canvas. The background is Schlagmetall, brass composition leaf, glazed with translucent colour and scattered with metal-leaf flakes. Klimt’s father, Ernst Klimt the elder, trained as a gold engraver in Vienna.',
+			'Yes, and more than gold. The Belvedere’s catalogue record for *The Kiss* lists gold leaf, silver leaf and platinum leaf in the figures, worked into resin oil colors on a primed canvas. The background is Schlagmetall, brass composition leaf, glazed with translucent color and scattered with metal-leaf flakes. Klimt’s father, Ernst Klimt the elder, trained as a gold engraver in Vienna.',
 		sourceSlug: 'gustav-klimt',
 		sourceTitle: 'Gustav Klimt: The Gold Leaf and the Looted Portraits',
 	},
@@ -101,12 +101,12 @@ export const mythQuizItems: MythQuizItem[] = [
 		claim: 'Is The Great Wave a painting?',
 		verdict: false,
 		explanation:
-			'No. The Metropolitan Museum of Art classifies it under Prints and gives the medium as woodblock print, ink and colour on paper (accession [JP10](https://www.metmuseum.org/art/collection/search/36491)). It was published as part of the series Thirty-six Views of Mount Fuji around 1830 to 1832, and research by Capucine Korenberg for the [British Museum](https://www.britishmuseum.org/sites/default/files/2022-03/korenberg_article-for_hokusai%20_edited_volume_final-2020_accessible.pdf) reports that experts believe up to 8,000 impressions were made.',
+			'No. The Metropolitan Museum of Art classifies it under Prints and gives the medium as woodblock print, ink and color on paper (accession [JP10](https://www.metmuseum.org/art/collection/search/36491)). It was published as part of the series Thirty-six Views of Mount Fuji around 1830 to 1832, and research by Capucine Korenberg for the [British Museum](https://www.britishmuseum.org/sites/default/files/2022-03/korenberg_article-for_hokusai%20_edited_volume_final-2020_accessible.pdf) reports that experts believe up to 8,000 impressions were made.',
 		sourceSlug: 'famous-paintings',
 		sourceTitle: 'Famous Paintings: What Their Catalogue Entries Say',
 	},
 	{
-		claim: "Was Kandinsky's 1910 watercolour really the first abstract painting?",
+		claim: "Was Kandinsky's 1910 watercolor really the first abstract painting?",
 		verdict: false,
 		explanation:
 			'Its own holding institution no longer dates it to 1910. The Centre Pompidou\'s collection record for the work (inventory AM 1976-864) gives its date as 1913, based on stylistic comparison with the rest of Kandinsky\'s output, even though the sheet itself carries his handwritten inscription "Kandinsky 1910 // Aquarelle 1910 / (abstraite)."',
@@ -173,7 +173,7 @@ export const mythQuizItems: MythQuizItem[] = [
 		claim: 'Did Andy Warhol make a version of The Scream?',
 		verdict: true,
 		explanation:
-			"Yes. In 1984, following a Munch retrospective he saw in New York, Warhol was commissioned to produce a series of canvases and later screenprints based on four of Munch's best-known prints, including The Scream, reproducing Munch's own lithograph in the bright, flat colour blocks he had used for Marilyn Monroe and Campbell's soup cans. The Museum of Modern Art holds one of the resulting prints, The Scream (After Munch), 1984.",
+			"Yes. In 1984, following a Munch retrospective he saw in New York, Warhol was commissioned to produce a series of canvases and later screenprints based on four of Munch's best-known prints, including The Scream, reproducing Munch's own lithograph in the bright, flat color blocks he had used for Marilyn Monroe and Campbell's soup cans. The Museum of Modern Art holds one of the resulting prints, The Scream (After Munch), 1984.",
 		sourceSlug: 'edvard-munch-the-scream',
 		sourceTitle: "Munch Wrote 'Painted by a Madman' on The Scream Himself",
 	},
