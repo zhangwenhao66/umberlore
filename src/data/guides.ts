@@ -9832,7 +9832,7 @@ export const guides: Guide[] = [
         "heading": "A practical way to use it without the myths",
         "body": [
           "Draw your thumbnail on a rectangle with the phi grid drawn lightly across it. Put the main division of the picture, say the horizon or the edge of the largest shadow shape, on one of the four lines and see whether it improves the balance. Try the thirds version beside it. If both work, pick the one you prefer, and move on. If you are building a series of paintings on custom panels, adopt the 1 to 1.618 proportion for consistency, knowing your reason is taste and not tradition.",
-          "Then put the ratio away. Elements such as [emphasis](/emphasis-in-art/) and [pattern](/pattern-in-art/) usually decide whether a picture holds the eye, and the grid is a check on placement, not a substitute for them. Where perspective matters, the [vanishing point](/vanishing-point/) also fixes where the eye lands before any grid does."
+          "Then put the ratio away. Elements such as [emphasis](/emphasis-in-art/) and [pattern](/pattern-in-art/) usually decide whether a picture holds the eye, and the grid is a check on placement, not a substitute for them. Where perspective matters, the [vanishing point](/vanishing-point/) also fixes where the eye lands before any grid does. In figure work the equivalent is [contrapposto](/contrapposto/), which puts the weight on one leg so the hip and shoulder lines cross; no grid does that for you."
         ]
       }
     ],
@@ -11283,7 +11283,7 @@ export const guides: Guide[] = [
             "Some painters lean on it harder than others. Britannica's verdict on the heaviest user: \"The 19th-century British landscape painter J.M.W. Turner made perhaps the boldest and most ambitious use of aerial perspective among Western artists.\"",
             "It is not a European invention, whatever the naming history suggests. \"Aerial perspective was used with great sophistication and pictorial effectiveness by Chinese landscape painters from about the 8th century on.\"",
             "Bierstadt's The Rocky Mountains, Lander's Peak, painted in 1863 and now in the Metropolitan Museum of Art, shows the whole set of moves on one canvas. The meadow in front is dark and specific, crowded with an encampment, horses and figures a viewer can count. The middle distance holds a lake and a waterfall in softer greens and greys. Behind both, the snow peaks are pitched so close to the colour of the sky that they sit further back than the drawing alone would put them.",
-            "Read any landscape that way and the test stays quick. Compare the nearest band and the furthest one, and check whether the far band has lost tone, saturation and contrast in that order. If it has, the depth is built out of air. Not every landscape that reads as a single observed view is one, which is [what the sketches behind Friedrich, Constable and Church reveal](/famous-landscape-paintings/)."
+            "Read any landscape that way and the test stays quick. Compare the nearest band and the furthest one, and check whether the far band has lost tone, saturation and contrast in that order. If it has, the depth is built out of air. Figure work has its own example of the naming lag: [contrapposto](/contrapposto/), an Italian word for a pose Greek sculptors had been carving roughly two thousand years earlier. Not every landscape that reads as a single observed view is one, which is [what the sketches behind Friedrich, Constable and Church reveal](/famous-landscape-paintings/)."
           ]
         }
       ],
@@ -11337,6 +11337,129 @@ export const guides: Guide[] = [
         {
           "label": "Wikipedia: De pictura",
           "url": "https://en.wikipedia.org/wiki/De_pictura"
+        }
+      ]
+    },
+    {
+      "slug": "contrapposto",
+      "category": "Technique",
+      "title": "Contrapposto in Art: Reading the Weight Shift",
+      "description": "Contrapposto is a standing pose that puts the weight on one leg, tilting hips and shoulders against each other. The earliest surviving example was carved after 480 BC.",
+      "published": "2026-10-13",
+      "updated": "2026-10-13",
+      "coreSummary": "Contrapposto is the stance in which a standing figure carries its weight on one leg and lets the other bend and relax, so the hip on the weighted side rides higher and the shoulders tilt back the other way. Greek sculptors were carving the pose by the early fifth century BC, and the Acropolis Museum dates the Kritios Boy, the earliest surviving statue that uses it, to after 480 BC. The word itself is Italian, built from contrapporre, to set against, and it belongs to the Renaissance, roughly two thousand years after the first statues that show the pose.",
+      "image": "/images/contrapposto-weight-shift-diagram.svg",
+      "imageAlt": "A two-panel schematic. On the left, a figure standing on both legs has level shoulder and hip lines. On the right, a figure in contrapposto stands on one straight leg with the other bent, its hip line rising on the weighted side while the shoulder line drops on the same side.",
+      "sections": [
+        {
+          "heading": "What the pose actually is",
+          "body": [
+            "Contrapposto describes a standing figure that does not stand evenly. All the weight goes onto one leg, which stays straight and takes the load. The other leg is free: it bends at the knee, trails or steps a little, and carries nothing.",
+            "That single decision changes the whole body. Because the load sits on one side, the pelvis tilts up on the weighted side and the shoulders tilt the opposite way, so the two lines cross instead of running parallel. The spine takes a shallow S-curve and the figure stops looking symmetrical.",
+            "That is why the pose reads as motion. A figure standing on both legs is settled; a figure standing on one leg is caught mid-step.",
+            "The word names a structure. A figure can be calm or violent and still be in the pose, and a figure can look relaxed without being in it at all. What makes it contrapposto is mechanical: one straight leg takes the load, and the two lines across the body cross instead of running level.",
+    "The two terms worth keeping are the weighted leg and the free leg. Museum labels rarely name them, but once you know to look for the straight leg, the rest of the pose follows from it. It is also a different sort of term from the single-word vocabulary of [the elements of art](/elements-of-art/): contrapposto names a relationship between two parts of a body, not one quality of a surface."
+          ]
+        },
+        {
+          "heading": "What the pose replaced",
+          "body": [
+            "Before contrapposto, the standard Greek standing figure was the kouros: feet together, weight on both legs, hips and shoulders level, the body turned flat to the viewer. A kouros is symmetrical on purpose, and the symmetry is the point. You look at it from the front.",
+            "Contrapposto breaks that symmetry, and the break is what lets the figure turn. Once the weight moves onto one leg, the shoulders can rotate one way while the hips rotate the other, so the body can face slightly to the side and still be standing still.",
+            "The Kritios Boy is the earliest surviving statue where that break is visible. The Acropolis Museum files it as the most characteristic work of what is called the Severe Style. Brown University's Joukowsky Institute, which uses the statue in its Greek-art teaching, dates it to 490&#8211;480 BCE and places it at the end of the Late Archaic period, the moment the rigid Archaic stance gives way."
+          ]
+        },
+        {
+          "heading": "The earliest surviving example",
+          "body": [
+            "The Acropolis Museum in Athens holds the earliest surviving statue in the pose. Its catalogue entry is precise about the object and silent about the word: inventory &#913;&#954;&#961;. 698, Parian marble, 1.22 m tall, dated to after 480 BC, and attributed to the sculptor Kritios on the strength of its resemblance to the Harmodios of the Tyrannicides group.",
+            "The museum's own description of the stance never uses the term contrapposto. It says the figure “supports his weight on his left leg, while the right one remains loose, bent at the knee.” That is the pose described from the object outward, and the description works without the label.",
+            "The statue was not found in one piece. The torso came up in 1865&#8211;1866, southeast of the Parthenon, and the head followed in 1888, near the south wall of the Acropolis. Traces of red dye survive on the hair, and the eyes, made from another material, are gone.",
+            "Treat the museum's date as a floor. \"After 480 BC\" places the statue in the generation that followed the Persian destruction on the Acropolis, and Brown's course notes narrow the range to 490&#8211;480 BCE. The two readings agree on the part that matters: both put the figure at the end of the Archaic sequence and the start of the Classical one, which is where a change in how carved bodies stand would show up first.",
+    "That is the whole argument for the pose in one object. The weight is on one leg, the other is loose, and the figure looks like it could walk out of the room."
+          ]
+        },
+        {
+          "heading": "A dated line of the pose",
+          "body": [
+            "The pose does not arrive once and stay put. Four works, each dated by the museum that holds it or by the scholarship that museum cites, mark the line.",
+            "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.5;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Work</th><th style=\"padding:8px 10px;text-align:left;white-space:nowrap;\">Date</th><th style=\"padding:8px 10px;text-align:left;\">Material and size</th><th style=\"padding:8px 10px;text-align:left;\">Held at</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">What the record shows</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Kritios Boy</td><td style=\"padding:7px 10px;white-space:nowrap;\">after 480 BC</td><td style=\"padding:7px 10px;\">Parian marble, 1.22 m</td><td style=\"padding:7px 10px;\">Acropolis Museum, Athens (&#913;&#954;&#961;. 698)</td><td style=\"padding:7px 0 7px 10px;\">earliest surviving figure in the pose; weight on the left leg</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Doryphoros, after Polykleitos</td><td style=\"padding:7px 10px;white-space:nowrap;\">original c. 450 BC</td><td style=\"padding:7px 10px;\">bronze original lost; marble copies</td><td style=\"padding:7px 10px;\">copies in Naples and Kassel (Sk 4)</td><td style=\"padding:7px 0 7px 10px;\">the Kassel torso was restored using casts of the near-complete Naples copy</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">David, Donatello</td><td style=\"padding:7px 10px;white-space:nowrap;\">1435&#8211;1440</td><td style=\"padding:7px 10px;\">bronze</td><td style=\"padding:7px 10px;\">Museo Nazionale del Bargello, Florence</td><td style=\"padding:7px 0 7px 10px;\">first recorded in 1469, at the Medici wedding of Lorenzo il Magnifico</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">David, Michelangelo</td><td style=\"padding:7px 10px;white-space:nowrap;\">1501&#8211;1504</td><td style=\"padding:7px 10px;\">marble, 517 cm</td><td style=\"padding:7px 10px;\">Galleria dell&#8217;Accademia, Florence (Inv. Scult. n. 1076)</td><td style=\"padding:7px 0 7px 10px;\">commissioned 16 August 1501 for 400 ducats, for a buttress of the cathedral</td></tr></tbody></table></div>",
+            "The two Renaissance Davids do different things with the same device. Donatello's is a bronze first documented in a Medici courtyard in 1469, and its weight shift reads as a step just taken. Michelangelo's is marble and 517 cm tall, cut from a block two earlier sculptors had roughened and abandoned; it was commissioned in 1501 for a buttress of Florence Cathedral, then moved by a committee of artists to the entrance of the Palazzo Vecchio instead. The same mechanism carries a different argument in each.",
+    "The gap between the second row and the third is the point. The pose did not begin in the Renaissance. Italian sculptors picked up a Greek device again in the fifteenth century, after a gap of roughly nineteen centuries. A pose survives that kind of gap because it is portable: [one reclining arrangement was copied for 350 years](/aphrodite-painting/) on the same logic, a body position clear enough to be repeated by hand.",
+            "Most of the Greek statues a visitor can actually see are also copies. Polykleitos's Doryphoros, a bronze of about 450 BC, is the example the textbooks reach for, and the bronze is gone. What survives is marble: a near-complete figure in Naples, and a torso in Kassel, inventory Sk 4, that the Kassel catalogue dates to 90&#8211;100 AD and that was completed in modern times with plaster casts taken from the Naples copy. The pose reaches us twice removed, as a Roman copy of a Greek bronze and often a modern restoration of a Roman copy. For a related case of laboratory work showing what a simple name leaves out, see [what conservation science has found about painting technique](/art-techniques/)."
+          ]
+        },
+        {
+          "heading": "Where the word comes from",
+          "body": [
+            "Merriam-Webster traces the word to Italian contrapposto, “contraposition,” from contrapporre, “to oppose,” and behind that the Latin contrapositus, past participle of contraponere, “to place opposite.” Every link in the chain carries the same sense: placing two things opposite each other.",
+            "So the word names the counter-tilt rather than the pose's origin. It describes what the body does once the weight moves to one side, and it entered art writing in Italian.",
+            "That distinction matters whenever a page tells you the Greeks “invented contrapposto.” They worked out the pose. The label arrived about two thousand years later, applied to antique statues by writers who needed a word for what they were looking at.",
+            "The term is now standard furniture in museum writing. Art UK, the charity that catalogues publicly owned art in Britain, opens a piece on posture with “the ancient Greek invention of contrapposto,” found in Michelangelo's David, and treats it as a label readers will already recognize."
+          ]
+        },
+        {
+          "heading": "How to read it on a statue",
+          "body": [
+            "Standing in front of a figure, three checks settle the question.",
+            "Find the straight leg. The weight-bearing leg is the one that is not bent. The free leg bends at the knee and often trails behind or steps forward, and its heel may lift.",
+            "Follow the hip line. On the weighted side the hip rides higher. In the Kritios Boy the weight is on the left, so the left hip lifts.",
+            "Check the shoulders against the hips. They tilt the other way, and the shoulder on the weighted side drops. Level shoulders and level hips together mean the older frontal stance, the arrangement the pose replaced.",
+            "A worked example makes the three checks concrete. On the Kritios Boy the weight is on the left leg, so the left hip is the high one and the left shoulder is the low one; the free right leg bends at the knee and carries nothing. Cover the head and look only at the two lines running across the body. They form a shallow X, not a pair of parallels, and that X is the pose. A figure that fails the third check is usually not in the pose at all, however relaxed the silhouette looks.",
+    "The three checks are also a test of a photograph. A figure leaning on a wall or parked on one hip in a snapshot can produce the same silhouette with none of the structure, which is why the pose in a studio portrait and the pose in a marble are worth reading differently."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Who came up with contrapposto?",
+          "answer": "Nobody, in the sense the question implies. No single sculptor gets the credit. Workshops in Greece worked the pose out during the 400s BC, and the oldest work in the pose, the Kritios Boy, carries a museum date of after 480 BC and an attribution to Kritios made on stylistic grounds. The Italian name arrived long afterward."
+        },
+        {
+          "question": "Does Michelangelo's David use contrapposto?",
+          "answer": "Yes. David stands on a single leg, letting the second one bend, so pelvis and ribcage tilt in opposite directions, the same arrangement the Kritios Boy shows, carved nearly two millennia earlier. The Galleria dell'Accademia, which holds the statue, dates it 1501&#8211;1504 and gives its height as 517 cm."
+        },
+        {
+          "question": "What does the word contrapposto mean?",
+          "answer": "Counterpoise, or contraposition. The Italian verb underneath is contrapporre, meaning to set one thing against another; the older Latin root is contraponere. What the word names is the counter-tilt of pelvis and ribcage, not the pose's place of origin."
+        },
+        {
+          "question": "Is the Kritios Boy the first contrapposto statue?",
+          "answer": "Only in the narrow sense that nothing older in the pose has come down to us. Earlier figures may have been carved and lost, and the stance develops gradually and does not arrive complete. Its museum entry gives a date of after 480 BC; the course notes at Brown place it in the decade before that. It is the oldest such figure you can still stand in front of."
+        },
+        {
+          "question": "Is contrapposto used only in sculpture?",
+          "answer": "No. Sculpture is where it is easiest to see, because a statue has to stand up and the weight has to go somewhere, but painters took up the same weight shift once antique figures were being studied again during the Renaissance. The free leg still bends and the hip and shoulder lines still tilt against each other; the mechanics do not change with the material."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Acropolis Museum: Youth statue, the “Kritios Boy” (&#913;&#954;&#961;. 698)",
+          "url": "https://www.theacropolismuseum.gr/en/youth-statue-kritios-boy"
+        },
+        {
+          "label": "Brown University, Joukowsky Institute for Archaeology: Kritios Boy",
+          "url": "https://www.brown.edu/Departments/Joukowsky_Institute/courses/greekpast/4714.html"
+        },
+        {
+          "label": "Merriam-Webster: contrapposto",
+          "url": "https://www.merriam-webster.com/dictionary/contrapposto"
+        },
+        {
+          "label": "Musei del Bargello: David, Donato di Niccolò di Betto Bardi detto Donatello",
+          "url": "https://bargellomusei.it/opere/david/"
+        },
+        {
+          "label": "Galleria dell'Accademia di Firenze: David, Michelangelo Buonarroti (Inv. Scult. n. 1076)",
+          "url": "https://www.galleriaaccademiafirenze.it/opere/david-michelangelo/"
+        },
+        {
+          "label": "Antikensammlung Kassel: Doryphoros / Achilleus (?), Polyklet (Kopie), Inv. Sk 4",
+          "url": "https://antiken.museum-kassel.de/26227/"
+        },
+        {
+          "label": "Art UK: Strike a pose, a brief history of posture in art",
+          "url": "https://artuk.org/discover/stories/strike-a-pose-a-brief-history-of-posture-in-art"
         }
       ]
     }
