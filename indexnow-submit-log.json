@@ -363,12 +363,17 @@
   "https://umberlore.com/famous-portraits/": {
     "submitted_date": "2026-08-28",
     "last_submitted_date": "2026-09-23",
-    "verified_status": "pending"
+    "verified_status": "verified_indexed",
+    "last_checked_date": "2026-10-13",
+    "verified_method": "bing_url_inspection"
   },
   "https://umberlore.com/pandemonium-painting/": {
     "submitted_date": "2026-08-28",
     "last_submitted_date": "2026-09-23",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-10-13",
+    "verified_method": "bing_url_inspection",
+    "verified_note": "Bing: Discovered but not crawled (08-28提交,46d)"
   },
   "https://umberlore.com/icarus-painting/": {
     "submitted_date": "2026-08-29",
@@ -378,7 +383,9 @@
   "https://umberlore.com/aphrodite-painting/": {
     "submitted_date": "2026-08-29",
     "last_submitted_date": "2026-08-29",
-    "verified_status": "pending"
+    "verified_status": "verified_indexed",
+    "last_checked_date": "2026-10-13",
+    "verified_method": "bing_url_inspection"
   },
   "https://umberlore.com/famous-mexican-artists/": {
     "submitted_date": "2026-08-30",
