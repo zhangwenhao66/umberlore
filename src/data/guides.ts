@@ -11452,10 +11452,7 @@ export const guides: Guide[] = [
         {
           "question": "How do you pronounce \"contrapposto\"?",
           "answer": "In the English pronunciation given by Merriam-Webster, it is roughly kohn-truh-PAH-stoh. The strongest stress falls on PAH, the third syllable. The dictionary writes it as ˌkōntrəˈpä(ˌ)stō. [Merriam-Webster](https://www.merriam-webster.com/dictionary/contrapposto)"
-        },
-        {
-          "question": "What is contrapposto in art?",
-          "answer": "It is a way of arranging a human figure so that the upper and lower body turn against one another. Merriam-Webster describes the hips, shoulders and head as facing different directions around the body's upright axis. That counter-turn makes the figure less rigidly frontal. [Merriam-Webster](https://www.merriam-webster.com/dictionary/contrapposto)"
+
         }
       ],
       "sources": [
