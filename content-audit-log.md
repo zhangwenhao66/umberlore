@@ -3934,3 +3934,8 @@ Only FAQ additions; prior FAQ/body/title/description/sources/schema/updated/publ
 ## PAA-FAQ批强(daily-task, 2026-10-14)
 
 run-id=20261014T1100；只新增FAQ 5条；slug：mixed-media-art, atmospheric-perspective, contrapposto。逐问与commit前check_prose_patterns.py最终全部exit0，英文humanizer→avoid-ai-writing已执行，官方来源逐项核实。拒绝11问，逐问原因见本轮reject-decisions-umberlore.json；不计作新增。Node结构比较验证全部旧FAQ、正文及所有非FAQ字段完全不变；npm run build exit0。独立审查及部署待root验收，当前仅分支提交。证据：/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261014T1100。
+
+
+### PAA deployment verification 20261014T1100 site=umberlore
+
+Root independently reviewed the FAQ changes and approved publication. Content commit d8ea1ce00106ecc26db5b67a2ce94a06207627ab is on remote main. Cloudflare production deployment deb428bc-49df-44ac-9c43-8d2bb9ba8c2a completed deploy/success. All 5 new FAQs across 3 pages passed cache-bypass checks on the production domain with HTTP 200, including the answer text and source links. Evidence is general-deployments.json and general-online.json in /Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261014T1100/. This verification supersedes the pending review and deployment status above. The final published count is 5 FAQs. This log revision changed no FAQ or page content and issued no additional deployment command.
