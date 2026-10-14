@@ -3929,3 +3929,8 @@ Only FAQ additions; prior FAQ/body/title/description/sources/schema/updated/publ
 - 扫描器复核发现 FAQ#5 的日期写法 initially 不被机械豁免（`reviewed` 不是受支持的 `checked <date>`）；现已改为 `checked 13 Oct 2026`，FAQ重复检查与 `check_wikipedia_attribution_drift.py --all` 均退出0，wide/narrow 均0。此为发现并修复同批剩余一处，最终矩阵扫描在此修复后完成。
 - 部署核验补记：Wrangler `pages deployment list --project-name umberlore` 回读生产 Active 部署 commit `9afca9c`（`https://703b97aa.umberlore.pages.dev`）。对该不可变 Pages URL 用唯一 cache-buster 复核 4/4 为 HTTP 200，均含 13 October 2026 日期，famous-landscape-paintings FAQ 也含最终版本 `Wikipedia citations checked 13 Oct 2026`。同一时刻自定义域 `umberlore.com` 四页均 200且正文日期已更新，但 famous-landscape-paintings FAQ 仍返回前一版本；cache-buster 未绕过这一差异。按 R-seo-01，不执行 zone purge；准确记录为 Pages 部署源通过、自定义域 FAQ 边缘版本尚未更新。收据 `.../live/pagesdev-cache-bypass-summary.json` 与 `.../live/final-umberlore.com.html`。
 - 缓存最终收敛（2026-10-13）：前述自定义域 FAQ 旧版本仅为部署传播期间的暂态；约 1 分钟后用全新 `?cb=` 对四条自定义域 URL 复查，4/4 HTTP 200、正文日期标记均在、famous-landscape-paintings 最终 FAQ 标记也在。见 `.../live/custom-domain-final-cache-bypass-summary.json`；无需做 purge。最终状态：Pages 源部署与自定义域均已验证。
+
+
+## PAA-FAQ批强(daily-task, 2026-10-14)
+
+run-id=20261014T1100；只新增FAQ 6条；slug：mixed-media-art, atmospheric-perspective, contrapposto。逐问与commit前check_prose_patterns.py最终全部exit0，英文humanizer→avoid-ai-writing已执行，官方来源逐项核实。拒绝10问，逐问原因见本轮reject-decisions-umberlore.json；不计作新增。Node结构比较验证全部旧FAQ、正文及所有非FAQ字段完全不变；npm run build exit0。独立审查及部署待root验收，当前仅分支提交。证据：/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261014T1100。

@@ -11169,8 +11169,16 @@ export const guides: Guide[] = [
       {
         "question": "Do dictionaries and galleries mean the same thing by mixed media?",
         "answer": "They disagree. The Merriam-Webster entry treats the adjective as a synonym for multimedia and dates its first use to 1962, while Tate gives multi-media to electronic media and reserves the mixed media label for physical materials."
-      }
-    ],
+      },
+        {
+          "question": "Can you give me an example of mixed media art?",
+          "answer": "Robert Rauschenberg's Bed (1955) combines bedding with marks in oil paint and graphite. The pillow, sheet and quilt sit on a wooden support, so fabric and drawing materials are parts of the artwork itself. It is held by MoMA. [Foundation catalogue](https://www.rauschenbergfoundation.org/art/artwork/bed)"
+        },
+        {
+          "question": "Who are some of the most famous mixed media artists?",
+          "answer": "Rauschenberg and Picasso are examples documented in museum and foundation collections. Picasso's chair-caning still life of 1912 uses printed oilcloth within a rope border. Rauschenberg applied paint and graphite to bedding in Bed (1955). [Musée Picasso](https://www.museepicassoparis.fr/fr/chefs-d-oeuvre/nature-morte-a-la-chaise-cannee/) and [Foundation record](https://www.rauschenbergfoundation.org/art/artwork/bed)."
+        }
+      ],
     "sources": [
       {
         "label": "Tate: Mixed media",
@@ -11309,6 +11317,14 @@ export const guides: Guide[] = [
         {
           "question": "When was atmospheric perspective first used in painting?",
           "answer": "Roman wall painting is where the earliest examples are, and the practice then vanishes from European art until painters in the Low Countries revive it in the early fifteenth century."
+        },
+        {
+          "question": "Can you give me an example of atmospheric perspective?",
+          "answer": "Picture two ridges, one nearby and one on the horizon. A painter can separate them by giving the distant ridge a softer change of tone and bringing its color closer to the surrounding air. The London gallery describes this gradual shift between near and far areas as a way to imitate the space seen in a landscape. [National Gallery](https://www.nationalgallery.org.uk/paintings/glossary/aerial-perspective)"
+        },
+        {
+          "question": "How to make atmospheric perspective in art?",
+          "answer": "Choose a clear foreground tone, then change the tones progressively as the scene moves into the background. Compare neighboring depth bands rather than applying the same haze to everything. This is a practical use of the London glossary entry that graduated tonal changes can suggest the space observed in nature. [National Gallery](https://www.nationalgallery.org.uk/paintings/glossary/aerial-perspective)"
         }
       ],
       "sources": [
@@ -11432,6 +11448,14 @@ export const guides: Guide[] = [
         {
           "question": "Is contrapposto used only in sculpture?",
           "answer": "No. Sculpture is where it is easiest to see, because a statue has to stand up and the weight has to go somewhere, but painters took up the same weight shift once antique figures were being studied again during the Renaissance. The free leg still bends and the hip and shoulder lines still tilt against each other; the mechanics do not change with the material."
+        },
+        {
+          "question": "How do you pronounce \"contrapposto\"?",
+          "answer": "In the English pronunciation given by Merriam-Webster, it is roughly kohn-truh-PAH-stoh. The strongest stress falls on PAH, the third syllable. The dictionary writes it as ˌkōntrəˈpä(ˌ)stō. [Merriam-Webster](https://www.merriam-webster.com/dictionary/contrapposto)"
+        },
+        {
+          "question": "What is contrapposto in art?",
+          "answer": "It is a way of arranging a human figure so that the upper and lower body turn against one another. Merriam-Webster describes the hips, shoulders and head as facing different directions around the body's upright axis. That counter-turn makes the figure less rigidly frontal. [Merriam-Webster](https://www.merriam-webster.com/dictionary/contrapposto)"
         }
       ],
       "sources": [
