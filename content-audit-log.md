@@ -3939,3 +3939,25 @@ run-id=20261014T1100；只新增FAQ 5条；slug：mixed-media-art, atmospheric-p
 ### PAA deployment verification 20261014T1100 site=umberlore
 
 Root independently reviewed the FAQ changes and approved publication. Content commit d8ea1ce00106ecc26db5b67a2ce94a06207627ab is on remote main. Cloudflare production deployment deb428bc-49df-44ac-9c43-8d2bb9ba8c2a completed deploy/success. All 5 new FAQs across 3 pages passed cache-bypass checks on the production domain with HTTP 200, including the answer text and source links. Evidence is general-deployments.json and general-online.json in /Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261014T1100/. This verification supersedes the pending review and deployment status above. The final published count is 5 FAQs. This log revision changed no FAQ or page content and issued no additional deployment command.
+
+## 高曝光零点击页扫描（R-seo-32 第 8 款月度动作，2026-10-15） — UmberLore
+
+- **口径**：GSC 28 天页面级（2026-09-17~10-15）。零点击拆两类，只有第一类是本规则对象：
+  - **排 ≤15 且 0 点击** → Google 在结果页把答案说完了（AIO／直答框／知识面板），读者没有理由点进来，**结构性问题**；
+  - 排 >15 且 0 点击 → 只是还没排上去，属正常新页状态，**不作停止新增依据**。
+- **本站结果**：**23 个页面排 ≤15 却 0 点击，合计 1713 曝光 = 本站曝光的 18.5%**。
+- 曝光最高的几页：
+
+| 页面 | 曝光 | 排名 |
+|---|---|---|
+| `diego-rivera` | 181 | 8.5 |
+| `are-thomas-kinkade-paintings-worth-anything` | 160 | 13.0 |
+| `art-styles` | 142 | 6.6 |
+| `vanishing-point` | 135 | 6.5 |
+| `andy-warhol` | 104 | 7.8 |
+| `monochromatic-painting` | 97 | 7.5 |
+| `the-arnolfini-portrait` | 86 | 10.8 |
+| `water-lilies-monet-series` | 74 | 8.3 |
+
+- **处置**：本次**不撤回、不批量改写、不改存量页结构**（R-seo-03 第 4 条、R-seo-04；FactCrumbs 2026-10 的独立审计已实测"加结构"对这批页无效）。骨架停止新增的判断见矩阵报告。
+- **矩阵报告**：`独立站/高曝光零点击页矩阵扫描_20261015.md`（8 站合计 139 页 / 占矩阵曝光约 31%）。
