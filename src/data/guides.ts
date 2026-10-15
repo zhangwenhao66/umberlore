@@ -3146,9 +3146,9 @@ export const guides: Guide[] = [
     "category": "Sculpture",
     "title": "What Happened to the Statue of Zeus at Olympia?",
     "description": "Pausanias saw the Zeus at Olympia. A later account places it in Constantinople before a 475 palace fire; another theory links its loss to Olympia’s 426 fire.",
-    "published": "2026-10-15",
-    "updated": "2026-10-15",
-    "coreSummary": "The Statue of Zeus was still at Olympia when Pausanias described it in the second century CE. Lucian later joked about temple-robbers interfering with it, and a later tradition places it in Constantinople before the Palace of Lausus burned in 475. Archaeologists consider that transfer probable, but destruction in Olympia’s 426 fire remains another explanation, and no surviving source confirms the statue’s final location.",
+    "published": "2026-10-16",
+    "updated": "2026-10-16",
+    "coreSummary": "The Statue of Zeus was still in place at Olympia when Pausanias described it in the second century CE. A later account places it in Constantinople, in the Palace of Lausus, which burned in 475; a rival explanation has it destroyed when the sanctuary at Olympia burned in 426. Archaeologists consider the transfer probable, but no source written at the time records either ending.",
     "image": "/images/statue-of-zeus-olympia-temple-ruins.jpg",
     "imageAlt": "The surviving ruins of the Temple of Zeus at Olympia, where Phidias’s gold-and-ivory statue once stood.",
     "imageCredit": "[Temple of Zeus at Olympia](https://commons.wikimedia.org/wiki/File:Temple_of_Zeus_at_Olympia.jpg) by Anna Tziaki, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The photograph shows the temple ruins, not the lost statue.",
@@ -3156,49 +3156,70 @@ export const guides: Guide[] = [
       {
         "heading": "What Pausanias saw at Olympia",
         "body": [
-          "When Pausanias visited Olympia in the second century CE, the statue still stood inside the Temple of Zeus. In *Description of Greece* 5.11, he describes a seated Zeus made of gold and ivory, holding a small Victory in one hand and a sceptre in the other. The throne carried its own decoration in gold, ebony, ivory and precious stones. His account gives us a detailed view of the work, but not its later fate. [Read Pausanias’s description](https://www.theoi.com/Text/Pausanias5A.html).",
-          "A later literary passage complicates the timeline. In *Timon* 4, the second-century satirist Lucian has a character accuse Zeus of allowing temple-robbers to lay hands on his Olympia image. This is a comic accusation, not an eyewitness report of the statue’s final removal. Lucian also gives Zeus a thunderbolt in his right hand, while Pausanias describes a Nike there. A modern note in the *Journal of Hellenic Studies* discusses that mismatch. Lucian’s passage is evidence of a story about sacrilege, not a reliable inventory of damage. [Read Lucian’s *Timon* 4](https://monadnock.net/lucian/timon.html)."
+          "The statue was the work of Phidias, the Athenian sculptor whom the officials of Elis brought to the sanctuary to furnish a temple they had just finished. The workshop built for him stood west of the sacred precinct, facing the temple, and its hall was laid out on the same plan as the temple’s nave so that the figure could be put together at full size before being taken apart and carried indoors. Pausanias, writing in the second century CE, found it in position at the back of the cella, and his account in *Description of Greece* 5.11 is the fullest description of it that survives.",
+          "What he saw was a seated Zeus of gold and ivory, a garland of olive shoots on his head, a small Victory in his right hand and a sceptre in his left with an eagle perched on the sceptre. The sandals were gold, and so was the robe, which carried embroidered figures of animals and lily flowers. The throne mixed gold, ebony, ivory and precious stones, and its frame was crowded with carvings and paintings: four dancing Victories, one at each foot; Theban children carried off by sphinxes; and below the sphinxes, Apollo and Artemis shooting down the children of Niobe.",
+          "Above the image, Pausanias records three Graces on one side of the throne and three Seasons on the other. The footstool, which he says the Athenians called the thranion, carried golden lions and a relief of Theseus fighting the Amazons.",
+          "Screens built like walls held visitors back from the throne, and Panaenus, whom Pausanias calls a brother of Phidias, painted them with scenes that included Atlas holding up heaven and earth, Heracles waiting to take the load from him, and Penthesileia dying with Achilles supporting her. On the pedestal under the throne Pausanias lists a further series of reliefs in gold: the Sun in his chariot, Zeus and Hera, Hephaestus, Hermes, Hestia, Eros receiving Aphrodite as she rises from the sea, Apollo with Artemis, Athena, Heracles, and near the end of the pedestal Amphitrite and Poseidon. [Read Pausanias’s description](https://www.theoi.com/Text/Pausanias5A.html).",
+          "Pausanias adds that the statue’s height and breadth had been measured and published, and says he will not praise the men who did the measuring, because their records fall far short of the impression the image itself made. He closes his account of the making with a story: when the work was finished, Phidias asked the god for a sign that it pleased him, and a thunderbolt fell on the floor, where a bronze jar was kept afterwards to cover the spot.",
+          "A second literary passage is usually read alongside Pausanias. In *Timon* 4 the second-century satirist Lucian has a character complain that the gods pay no attention to crime, and cite the Zeus at Olympia as the proof: robbers have laid hands on the god himself, he says, and the figure simply sat there with a thunderbolt in its hand while they did it. The detail is worth pausing on, because it disagrees with Pausanias. Lucian arms the statue with a thunderbolt in the right hand; Pausanias puts the Victory in that hand and the sceptre in the left. Graham Anderson treated the discrepancy as a textual question in a note in the *Journal of Hellenic Studies*. Either way, the passage is evidence of a story about temple robbery, not a description of a removal. [Read Lucian’s *Timon* 4](https://monadnock.net/lucian/timon.html)."
+        ]
+      },
+      {
+        "heading": "Oil, ivory and the upkeep of the image",
+        "body": [
+          "Gold and ivory plate on a wooden frame is not a combination that looks after itself, and the statue needed constant attention. Pausanias notes that the floor in front of it was paved in black stone instead of white, with a raised rim of Parian marble running around the black paving, and that the rim was there to hold in the olive oil poured out over the image. The oil, he explains, kept the ivory from being damaged by the damp of the Altis.",
+          "The same passage sets out two contrasting arrangements. The ivory of the image on the Acropolis, the one the Athenians call the Maiden, was helped not by oil but by water, because the Acropolis stands high and is very dry. At Epidaurus, when Pausanias asked why the image of Asclepius received neither water nor oil, the attendants told him that the statue and its throne stood over a cistern. Upkeep of this kind was worked out site by site, against local conditions.",
+          "The [Archaeological Museum of Olympia](https://ancientolympiamuseum.com/index.php/2026/02/06/the-gold-and-ivory-statue-of-zeus/) describes the same routine and records a rectangular tank of oil kept in front of the figure, both to supply moisture and to give off reflections. Its account of the workshop reports what excavation recovered there: clay molds for the god’s himation, fragments of ivory, goldsmiths’ tools, and a small cup inscribed “Belonging to Phidias.” The museum gives the statue a height of almost twelve meters, and cites the geographer Strabo’s remark that if Zeus stood up he would break the roof of the temple."
         ]
       },
       {
         "heading": "Two fires, two different claims",
         "body": [
-          "The first fire belongs to Olympia. In 426 CE, the Altis, the sanctuary precinct around the temples, burned. John Younger and Paul Rehak describe the fire in their 2009 *Hesperia* study of the Temple of Zeus’s sculptures. The temple later suffered earthquakes in 522 and 551, and flooding covered the site with several metres of silt. Those events help explain the ruins now visible at Olympia. They do not prove the cult statue was still inside when the fire reached the sanctuary.",
-          "The second fire belongs to Constantinople. A medieval account attributed to Cedrenus says the statue had been moved from Olympia to the Palace of Lausus. The palace burned in 475. Gisela Richter discusses this tradition in her 1966 *Hesperia* article, alongside the possibility that the Zeus was destroyed at Olympia in 426. Younger and Rehak consider the transfer probable, citing evidence for the statue’s presence at the Palace of Lausus after 395. It remains a scholarly reconstruction, not a surviving contemporary record of the transport.",
-          "The two explanations rest on different evidence: an established Olympia fire with no surviving witness tying the statue to it, and a later transfer tradition paired with a Constantinople fire. Younger and Rehak favor the move, but neither fire can be identified as the moment the statue was destroyed."
+          "The first fire belongs to Olympia. In 426 CE the Altis, the sanctuary precinct around the temples, burned. John Younger and Paul Rehak describe that fire in their 2009 *Hesperia* study of the temple’s sculpture, and they note what followed: earthquakes in 522 and 551 completed the destruction of the temple, and the Alpheios river soon flooded the site, covering it with several meters of silt. Those events account for the ruins visible at Olympia today. They do not establish that the cult statue was still inside when the fire reached the sanctuary.",
+          "The second fire belongs to Constantinople. A tradition recorded by the Byzantine writer Cedrenus holds that the statue had been taken from Olympia and installed in the Palace of Lausus, an aristocratic collection of ancient art in the new capital, and that the palace burned in 475. Gisela Richter set that tradition against the alternative in her 1966 *Hesperia* article, where the other hypothesis had the Zeus destroyed at Olympia in the fire of 426. Younger and Rehak treat the transfer as probable, and point to evidence for the statue’s presence in the Palace of Lausus after 395.",
+          "The museum at Olympia opens its own account of all this by saying that the fate of the statue remains uncertain, then runs the story through to the fire without weighing the rival explanation. In its telling the figure was moved in the late fourth or early fifth century and installed in the palace of Lausus, an official serving under Theodosius II, before the building burned in 475 during the reign of Zeno. The archaeological literature is more guarded, and no record written at the time of the transport survives."
+        ]
+      },
+      {
+        "heading": "The two explanations side by side",
+        "body": [
+          "Set out next to each other, the two candidates turn out to rest on different kinds of evidence and to be answered by different kinds of discovery.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Question</th><th style=\"padding:8px 10px;text-align:left;\">Olympia fire</th><th style=\"padding:8px 0 8px 10px;text-align:left;\">Constantinople transfer</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Event</td><td style=\"padding:7px 10px;\">The Altis, the sanctuary precinct, burned in 426 CE</td><td style=\"padding:7px 0 7px 10px;\">The Palace of Lausus, Constantinople, burned in 475 CE</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Earliest support</td><td style=\"padding:7px 10px;\">Richter, Hesperia 35 (1966), recording a hypothesis she neither originates nor endorses</td><td style=\"padding:7px 0 7px 10px;\">Cedrenus, discussed by Richter, Hesperia 35 (1966)</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Evidence the statue was there</td><td style=\"padding:7px 10px;\">None that it was still there in 426</td><td style=\"padding:7px 0 7px 10px;\">A record of the statue in the palace after 395</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">How the statue gets there</td><td style=\"padding:7px 10px;\">No move is required; it is already at Olympia</td><td style=\"padding:7px 0 7px 10px;\">A transfer from Olympia, described only in later tradition</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">Modern standing</td><td style=\"padding:7px 10px;\">Richter sets it out as the alternative explanation</td><td style=\"padding:7px 0 7px 10px;\">Younger and Rehak call it probable; the museum calls 475 its final fate</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;\">What would settle it</td><td style=\"padding:7px 10px;\">Excavated remains of the statue at Olympia</td><td style=\"padding:7px 0 7px 10px;\">A contemporary record of the transfer, which no source supplies</td></tr></tbody></table></div>",
+          "The table makes one asymmetry plain. Both accounts end in a fire in the fifth century CE, and neither rests on a record written while the events were happening. The difference is that one explains a fire in the sanctuary where the statue certainly stood, while the other explains a fire in a palace where the statue may have stood. Destruction at Olympia needs the statue to have stayed put; destruction in Constantinople needs it to have traveled, and the travel is the part recorded only by later writers."
         ]
       },
       {
         "heading": "What the evidence can and cannot settle",
         "body": [
-          "Excavation has recovered parts of the Temple of Zeus and its architectural sculpture, but those remains do not identify the cult statue’s final location. The [Archaeological Museum of Olympia](https://ancientolympiamuseum.com/index.php/2026/02/06/the-gold-and-ivory-statue-of-zeus/) presents the move to Constantinople and the 475 fire as the statue’s final story. The archaeological literature treats the transfer as probable, while the exact route and ending remain uncertain.",
-          "That distinction matters. The Palace of Lausus burning in 475 is not proof that the Olympia statue was there. The Altis burning in 426 is not proof that it was still there either. We can place both events on the timeline; we cannot place the statue at either fire with certainty.",
-          "The contrast resembles another famous Greek sculpture whose surviving physical evidence does not settle every question about its history: the [Venus de Milo’s missing inscribed base](/venus-de-milo/). The two stories are different, but each turns on what a missing object can and cannot prove. More on the site’s [Sculpture topic page](/topics/sculpture/).",
-          "The careful answer is that the statue was still described at Olympia in the second century. Lucian later joked about temple-robbers interfering with it, and Younger and Rehak consider a later transfer to Constantinople probable. The 475 palace fire is one plausible ending; destruction at Olympia in 426 remains another."
+          "Excavation at Olympia has recovered the temple, its architectural sculpture and the workshop where the statue was made, but none of that identifies where the cult image itself ended up. The finds from the workshop date it and show how it was built; they say nothing about its last century.",
+          "That is why the question stays open. The Palace of Lausus burning in 475 is not proof that the Olympia statue was there, and the Altis burning in 426 is not proof that it was still there either. Both events can be placed on a timeline. The statue cannot be placed at either fire with certainty.",
+          "The shape of the problem is familiar from another famous Greek sculpture whose surviving physical evidence does not settle every question about its history: the [Venus de Milo’s missing inscribed base](/venus-de-milo/). The two cases differ in their details, but each turns on what a missing object can and cannot prove. How this site sources a page, and what it does about dates and corrections, is set out on [our method page](/how-we-work/). More on the site’s [Sculpture topic page](/topics/sculpture/).",
+          "What the record preserves is a set of descriptions and a set of claims about what became of the object, not the object. The museum notes that the statue now survives in descriptions and in small reproductions on coins, and the passage in Pausanias is the fullest of those descriptions. Everything past that point, including where the figure ended up, has to be argued from texts written at some distance from the events they describe, which is why the two candidates are weighed rather than settled.",
+          "The careful answer is that the statue was still described at Olympia in the second century. Lucian, writing in the same century, joked about temple-robbers interfering with it, which shows a story in circulation but not a removal. Younger and Rehak consider a transfer to Constantinople probable, and the museum at Olympia treats the 475 fire as the end of it. Destruction at Olympia in 426 remains the alternative."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Was the Statue of Zeus at Olympia destroyed in a fire?",
-        "answer": "Neither source identifies a direct record tying the Zeus image to either blaze. The 426 and 475 dates belong to the sanctuary and palace fires, not a witnessed destruction of the statue."
+        "question": "What is the purpose of the Statue of Zeus at Olympia?",
+        "answer": "It was the cult image housed in the great temple at Olympia, made by Phidias once the building was finished, and it stood at the rear of the cella as the object of worship that building existed to serve. Seeing it became an attraction in its own right, and Pausanias reports that its dimensions were recorded by people hoping to convey how large it was."
       },
       {
         "question": "Was the statue moved to Constantinople?",
-        "answer": "Younger and Rehak regard the move as probable, but their conclusion is an archaeological reconstruction rather than a surviving travel record."
+        "answer": "Most likely yes, though not beyond argument. The 2009 Hesperia report weighs the evidence and judges such a move probable. The case rests on later written sources, since nothing set down during the journey itself has come down to us."
       },
       {
         "question": "Where is the Statue of Zeus now?",
-        "answer": "No source places it today. The historical accounts describe the image and possible events, but none records where it ended up."
+        "answer": "Nowhere that any source records. The sanctuary has yielded its buildings, the carved figures that decorated them, and the workshop in which the figure was put together, but no fragment of the lost statue has ever been found, and its last resting place remains unknown."
       },
       {
-        "question": "When did the statue disappear?",
-        "answer": "Pausanias’s account is the latest detailed description of the statue standing at its sanctuary. Lucian’s later joke does not establish when it disappeared."
+        "question": "Was the Statue of Zeus at Olympia destroyed in a fire?",
+        "answer": "Two blazes are candidates, and no account written as events unfolded connects the statue to either one. One consumed the sacred enclosure at Olympia in 426; the other, in 475, destroyed the imperial palace that had belonged to Lausus."
       }
     ],
     "sources": [
       {
-        "label": "Pausanias, Description of Greece 5.11.1 to 5.11.10, Theoi Classical Texts Library",
+        "label": "Pausanias, Description of Greece 5.11.1 to 5.11.11, Theoi Classical Texts Library",
         "url": "https://www.theoi.com/Text/Pausanias5A.html"
       },
       {
@@ -3214,7 +3235,7 @@ export const guides: Guide[] = [
         "url": "https://www.ascsa.edu.gr/uploads/media/hesperia/40205744.pdf"
       },
       {
-        "label": "Graham Anderson, Lucian, Timon 4: Another Case of σκηπτόν/σκῆπτρον?, The Journal of Hellenic Studies 133 (2013)",
+        "label": "Graham Anderson, Lucian, Timon 4: Another Case of σκηπτόν/σκῆπτρον?, The Journal of Hellenic Studies 100 (1980), p. 182",
         "url": "https://www.cambridge.org/core/journals/journal-of-hellenic-studies/article/abs/lucian-timon-4-another-case-of/752608FC465F239CA50E3345B256BACD"
       },
       {

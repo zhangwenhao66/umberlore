@@ -2,6 +2,7 @@
   {
     "index": 1,
     "verdict": "CONFIRMED",
-    "note": "断言：Venus de Milo 的缺失铭文基座属于“实物证据无法定论全部历史问题的著名希腊雕塑”之列。目标文章 venus-de-milo 正文与 FAQ 原文支持：coreSummary 写明刻有 Alexandros 名字的基座“disappeared from the record soon afterward”，Louvre 的文物修复保管人“has never taken an official position on whether that fragment belonged to the statue at all”；正文又写“The missing base leaves its connection to the sculpture uncertain”。故新文称其为“实物证据不足以定论”的另一例属实，非类比夸大。"
+    "sentence": "The shape of the problem is familiar from another famous Greek sculpture whose surviving physical evidence does not settle every question about its history: the [Venus de Milo’s missing inscribed base](/venus-de-milo/).",
+    "note": "断言：Venus de Milo 缺失的铭文基座属于“实物证据无法定论全部历史问题”的著名希腊雕塑之列。目标文章 venus-de-milo 原文支持：coreSummary 写刻有 Alexandros 之名的基座“disappeared from the record soon afterward”，Louvre 的文物修复保管人“has never taken an official position on whether that fragment belonged to the statue at all”，正文又写“The missing base leaves its connection to the sculpture uncertain”。故称其为“证据不足以定论”的另一例属实。本句在 2026-10-16 改写后触发词由 resembles 改为 familiar from，脚本已不再列为候选，此记录按当前文本人工核对保留。"
   }
 ]
