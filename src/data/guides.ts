@@ -3149,7 +3149,7 @@ export const guides: Guide[] = [
     "published": "2026-10-15",
     "updated": "2026-10-15",
     "coreSummary": "The Statue of Zeus was still at Olympia when Pausanias described it in the second century CE. Lucian later joked about temple-robbers interfering with it, and a later tradition places it in Constantinople before the Palace of Lausus burned in 475. Archaeologists consider that transfer probable, but destruction in Olympia’s 426 fire remains another explanation, and no surviving source confirms the statue’s final location.",
-    "image": "/images/statue-of-zeus-olympia-temple-ruins.webp",
+    "image": "/images/statue-of-zeus-olympia-temple-ruins.jpg",
     "imageAlt": "The surviving ruins of the Temple of Zeus at Olympia, where Phidias’s gold-and-ivory statue once stood.",
     "imageCredit": "[Temple of Zeus at Olympia](https://commons.wikimedia.org/wiki/File:Temple_of_Zeus_at_Olympia.jpg) by Anna Tziaki, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The photograph shows the temple ruins, not the lost statue.",
     "sections": [

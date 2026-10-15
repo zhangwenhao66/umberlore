@@ -314,6 +314,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/starry-night-moma-sm.jpg",
   "w": 750
  },
+ "/images/statue-of-zeus-olympia-temple-ruins.jpg": {
+  "h": 562,
+  "mobile": "/images/responsive/statue-of-zeus-olympia-temple-ruins-sm.jpg",
+  "w": 750
+ },
  "/images/the-milkmaid-vermeer.jpg": {
   "h": 841,
   "mobile": "/images/responsive/the-milkmaid-vermeer-sm.jpg",
