@@ -2091,6 +2091,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 640,
   "w": 1200
  },
+ "/images/statue-of-zeus-olympia-temple-ruins.webp": {
+  "h": 960,
+  "w": 1280
+ },
  "/images/the-lovers-provenance-diagram.svg": {
   "h": 560,
   "w": 1200
