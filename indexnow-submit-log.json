@@ -596,5 +596,11 @@
     "last_submitted_date": "2026-10-13",
     "verified_status": "pending",
     "note": "[{\"urls\":[\"https://umberlore.com/contrapposto/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":false,\"status\":null,\"error\":\"timeout/error\"}]}]"
+  },
+  "https://umberlore.com/modern-art-vs-contemporary-art/": {
+    "submitted_date": "2026-10-16",
+    "last_submitted_date": "2026-10-16",
+    "verified_status": "pending",
+    "note": "[{\"urls\":[\"https://umberlore.com/modern-art-vs-contemporary-art/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
   }
 }
