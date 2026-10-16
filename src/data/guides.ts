@@ -3903,7 +3903,7 @@ export const guides: Guide[] = [
         "heading": "The put-down outlives the argument",
         "body": [
           "Several of these names grew from documented hostile comments, but their origins and later acceptance differ. The examples tied to particular reviews can be dated more precisely than the history of Rococo. Some artists accepted a label; others continued to reject it. Those differences belong alongside the definitions, without turning six separate histories into one argument about taste.",
-          "The same trail of naming shows up elsewhere at UmberLore from the opposite direction. [Paolozzi put the word POP in a collage in 1947, fifteen years before Alloway’s 1962 essay Pop Since 1949](/pop-art/). A word inside an artwork is distinct from a movement label in critical writing. [Art Deco’s retrospective label became prominent through a 1966 exhibition and Hillier’s 1968 book](/art-deco/), decades after the exposition of 1925. Vasari’s Lives, which condemned medieval architecture in 1550, also [reported a fabricated murder confession for one of the Renaissance painters it profiled, a story that took archivists three centuries to disprove using burial records](/renaissance-art/)."
+          "The same trail of naming shows up elsewhere at UmberLore from the opposite direction. [Paolozzi put the word POP in a collage in 1947, fifteen years before Alloway’s 1962 essay Pop Since 1949](/pop-art/). A word inside an artwork is distinct from a movement label in critical writing. [Art Deco’s retrospective label became prominent through a 1966 exhibition and Hillier’s 1968 book](/art-deco/), decades after the exposition of 1925. Vasari’s Lives, which condemned medieval architecture in 1550, also [reported a fabricated murder confession for one of the Renaissance painters it profiled, a story that took archivists three centuries to disprove using burial records](/renaissance-art/). The broader labels have a similar problem with dates, since [museums disagree on where modern art ends and contemporary art begins](/modern-art-vs-contemporary-art/)."
         ]
       }
     ],
@@ -11739,5 +11739,144 @@ export const guides: Guide[] = [
           "url": "http://www.digitalhumanities.org/dhq/vol/15/1/000540/000540.html"
         }
       ]
-    }
+    },
+  {
+    "slug": "modern-art-vs-contemporary-art",
+    "category": "Resources",
+    "title": "Modern Art vs Contemporary Art: Museums Disagree",
+    "description": "Tate counts modern art from Courbet's realism, but each museum picks its own start date for contemporary. A Boston museum dropped 'modern' from its name in 1948.",
+    "published": "2026-10-16",
+    "updated": "2026-10-16",
+    "coreSummary": "The modern art vs contemporary art question gets different dates from different museums. Tate counts modern art from the realism of Gustave Courbet to abstract art and its developments in the 1960s, names postmodernism as the reaction that followed, and says the start of contemporary art varies by institution: 1947 at the Institute of Contemporary Arts in London, 1977 at the New Museum in New York. In 1948 the Boston Museum of Modern Art renamed itself the Institute of Contemporary Art, saying modern art had gathered widespread and injurious misunderstandings during the war era.",
+    "image": "/images/modern-vs-contemporary-art-timeline-diagram.svg",
+    "imageAlt": "Timeline with six dated moments: Boston Museum of Modern Art incorporated in 1936, Institute of Contemporary Arts in London founded 1947, the Boston museum renamed Institute of Contemporary Art in 1948, the term postmodernism first used around 1970, the New Museum in New York dating contemporary art from 1977, and Tate Modern opening in 2000.",
+    "sections": [
+      {
+        "heading": "What Tate counts as modern art",
+        "body": [
+          "Start with Tate's art-terms entries. Tate uses modernism and modern art for the same succession of movements: the ones critics and historians have identified from the realism of Gustave Courbet onward, ending in abstract art and its developments in the 1960s. That gives modern art a start at Courbet's realism and an end in the 1960s, with no single year fixed at either side.",
+          "The entry also says what the movements shared. Tate lists a rejection of history and conservative values, experiment with form that tended toward abstraction, and a new emphasis on materials, techniques and processes. It adds that modernism was generally tied to utopian visions of human life and a belief in progress.",
+          "The works Tate picks as key moments show how long the span is. They include Alphonse Legros's Le Repas des Pauvres (1877), Georges Braque's Bottle and Fishes (c. 1910-12), Kazimir Malevich's Black Square (1913), László Moholy-Nagy's K VII (1922), Salvador Dalí's Metamorphosis of Narcissus (1937) and Robert Morris's Untitled (1965, reconstructed 1971). That is nearly ninety years of work under one label.",
+          "The end date has a stated cause. By the 1960s, Tate says, modernism had become a dominant idea of art, and the American critic Clement Greenberg had formulated a particularly narrow theory of modernist painting. A reaction followed, and it was quickly identified as postmodernism. So Tate's modern art ends where an argument against it begins. Even the endpoint, abstraction, gets re-dated by a museum, as the guide to [the painting long called the first abstract one](/abstract-art-first-painting/) shows: a Kandinsky watercolor signed 1910 that its own museum now dates to 1913."
+        ]
+      },
+      {
+        "heading": "Postmodernism sits between the two",
+        "body": [
+          "Two-column answers leave out the middle term, and the middle term is where the dates blur. Tate describes postmodernism as a reaction against modernism and as the period that followed modernism's dominance. It says the term was first used around 1970, and that as an art movement it defies definition, because no one postmodern style or theory holds it together.",
+          "Tate suggests that postmodernism may be said to begin with pop art in the 1960s and to take in much of what followed, naming conceptual art, neo-expressionism, feminist art and the Young British Artists of the 1990s. The [Pop Art guide](/pop-art/) covers a 1947 collage that carried the word before the movement had a name, which is one more reason the starting line stays soft.",
+          "The attitudes changed along with the dates. Tate says modernism rested on idealism and reason, and that modernists championed clarity and simplicity. Postmodernism, in Tate's account, was born of scepticism, embraced complex and often contradictory layers of meaning, collapsed the distinction between high culture and popular culture, and introduced a sense that 'anything goes'. Jeff Koons's Three Ball Total Equilibrium Tank (1985) is one of the works Tate uses to illustrate the term.",
+          "Postmodernism is also the label that overlaps both neighbors. Its early years fall inside Tate's modern span, which runs to the 1960s, and its later years fall inside the 1947 and 1977 definitions of contemporary below."
+        ]
+      },
+      {
+        "heading": "Contemporary art has no fixed start",
+        "body": [
+          "Tate's entry on contemporary art is short. It opens by saying the term is 'loosely used' for art of the present day and of the relatively recent past, of an innovatory or avant-garde nature.",
+          "It then concedes that the date of origin varies. The Institute of Contemporary Arts in London, founded in 1947, champions art from that year onwards. The New Museum of Contemporary Art in New York chooses 1977. In the 1980s Tate planned a Museum of Contemporary Art in which contemporary meant 'art of the past ten years on a rolling basis'.",
+          "Those three definitions give different answers for the same painting. A work from 1960 sits inside the London institute's remit and outside the New Museum's, and it would have dropped out of a rolling ten-year window by 1971.",
+          "Outside museums the dates drift further. The table sets out what a few sources say, with the commercial pages marked as such.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\">Source</th><th style=\"padding:8px 10px;text-align:left;\">What it says about modern art</th><th style=\"padding:8px 10px;text-align:left;\">What it says about contemporary art</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Tate, art-terms entries</td><td style=\"padding:7px 10px;vertical-align:top;\">Succession of movements from the realism of Gustave Courbet to abstract art and its developments in the 1960s</td><td style=\"padding:7px 10px;vertical-align:top;\">Art of the present day and the relatively recent past; the start date varies by museum</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Institute of Contemporary Arts, London (as reported by Tate)</td><td style=\"padding:7px 10px;vertical-align:top;\">Not addressed</td><td style=\"padding:7px 10px;vertical-align:top;\">Counts art from 1947, the year the institute was founded</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">New Museum, New York (as reported by Tate)</td><td style=\"padding:7px 10px;vertical-align:top;\">Not addressed</td><td style=\"padding:7px 10px;vertical-align:top;\">Counts art from 1977</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Tate's 1980s plan for a museum of contemporary art</td><td style=\"padding:7px 10px;vertical-align:top;\">Not addressed</td><td style=\"padding:7px 10px;vertical-align:top;\">The past ten years, on a rolling basis</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Caroline Ashwood, artist's shop blog</td><td style=\"padding:7px 10px;vertical-align:top;\">Roughly 1870 to 1960</td><td style=\"padding:7px 10px;vertical-align:top;\">Anything after 2000 for most people; some still include the 1960s and 1970s; nothing before 1945</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">The Marshall Gallery, gallery blog</td><td style=\"padding:7px 10px;vertical-align:top;\">Not addressed in the post</td><td style=\"padding:7px 10px;vertical-align:top;\">Defines \"contemporary modern art\" as a period from the late 1940s to the present</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Google AI Overview for this query, retrieved 15 October 2026 (it changes over time)</td><td style=\"padding:7px 10px;vertical-align:top;\">1860s to the 1970s</td><td style=\"padding:7px 10px;vertical-align:top;\">The 1960s or 1970s to the present</td></tr></tbody></table></div>",
+          "The museum entries alone disagree by thirty years on where contemporary art begins, 1947 against 1977, before the retailers' pages come in. One shop blog gives most people's rule as anything after 2000, while noting that some still call 1960s and 1970s paintings contemporary and that nothing before 1945 qualifies. That leaves a fifty-five-year stretch, 1945 to 2000, between its two firm points, and the page calls the question hard to answer because the term can be a bit vague. The same blog also raises a second test, whether the artist is living, which none of the museum entries uses. The 1947 and 1977 dates here come from Tate's entry alone."
+        ]
+      },
+      {
+        "heading": "The Boston museum that dropped 'modern'",
+        "body": [
+          "The Institute of Contemporary Art in Boston shows the word being chosen rather than discovered. Its history page says the museum was incorporated in 1936 as the Boston Museum of Modern Art, a 'renegade offspring of the Museum of Modern Art' in New York, and describes it as a sister institution to MoMA.",
+          "In 1948 it changed its name to the Institute of Contemporary Art. The museum's timeline says the change set off heated debate in the art world, and it quotes the 1948 statement behind it: the new name distanced the museum from the 'widespread and injurious misunderstandings' that the term modern art had accrued during the war era, and aligned it instead with the art of the time. That statement records the reason the museum gave for the switch.",
+          "The same timeline lists the Contemporary Art Museum, Houston, as founded in 1948, and the ICA says it went on to pave the way for other institutes and museums of contemporary art.",
+          "Other art terms have documented origins of their own. The [guide to art style names](/art-styles/) covers movement labels that began as critics' insults. The [mixed media guide](/mixed-media-art/) shows a practice dated to about 1912 whose label is first recorded in English in 1962. [Non-objective art](/non-objective-art/) is a third case, a term that a Guggenheim museum put in its own name in 1939."
+        ],
+        "image": {
+          "src": "/images/modern-vs-contemporary-art-timeline-diagram.svg",
+          "alt": "Timeline with six dated moments: Boston Museum of Modern Art incorporated in 1936, Institute of Contemporary Arts in London founded 1947, the Boston museum renamed Institute of Contemporary Art in 1948, the term postmodernism first used around 1970, the New Museum in New York dating contemporary art from 1977, and Tate Modern opening in 2000."
+        }
+      },
+      {
+        "heading": "Three eras compared",
+        "body": [
+          "Set side by side, Tate's three descriptions look like this. Every cell is drawn from the Tate entries listed in the sources.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px 8px 0;text-align:left;\"></th><th style=\"padding:8px 10px;text-align:left;\">Modern art</th><th style=\"padding:8px 10px;text-align:left;\">Postmodern art</th><th style=\"padding:8px 10px;text-align:left;\">Contemporary art</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Dates in Tate's entries</td><td style=\"padding:7px 10px;vertical-align:top;\">From the realism of Gustave Courbet to abstract art and its developments in the 1960s</td><td style=\"padding:7px 10px;vertical-align:top;\">Term first used around 1970; may be said to begin with pop art in the 1960s</td><td style=\"padding:7px 10px;vertical-align:top;\">No fixed start: 1947 at the ICA in London, 1977 at the New Museum, a rolling ten years in Tate's 1980s plan</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Core idea of the work</td><td style=\"padding:7px 10px;vertical-align:top;\">Experiment with form, a tendency to abstraction, new emphasis on materials, techniques and processes</td><td style=\"padding:7px 10px;vertical-align:top;\">No single style or theory; individual experience and interpretation count for more than abstract principles</td><td style=\"padding:7px 10px;vertical-align:top;\">The entry names no unifying principle, only a time frame and an innovatory or avant-garde character</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Belief about progress and truth</td><td style=\"padding:7px 10px;vertical-align:top;\">Idealism, a utopian vision and a belief in progress; trust that universal principles could explain reality</td><td style=\"padding:7px 10px;vertical-align:top;\">Scepticism and suspicion of reason; doubt that universal truths exist</td><td style=\"padding:7px 10px;vertical-align:top;\">The entry takes no position</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Relation to popular culture and daily life</td><td style=\"padding:7px 10px;vertical-align:top;\">Sought a new alignment with the experience and values of modern industrial life</td><td style=\"padding:7px 10px;vertical-align:top;\">Collapsed the distinction between high culture and mass or popular culture, and between art and everyday life</td><td style=\"padding:7px 10px;vertical-align:top;\">The entry takes no position</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px 7px 0;vertical-align:top;\">Works Tate shows</td><td style=\"padding:7px 10px;vertical-align:top;\">Braque, Bottle and Fishes (c. 1910-12); Malevich, Black Square (1913)</td><td style=\"padding:7px 10px;vertical-align:top;\">Jeff Koons, Three Ball Total Equilibrium Tank (1985)</td><td style=\"padding:7px 10px;vertical-align:top;\">Tracey Emin, Hate and Power Can be a Terrible Thing (2004); Ai Weiwei, Sunflower Seeds (2010)</td></tr></tbody></table></div>",
+          "Read down the contemporary column and the entries thin out. Tate's modern and postmodern entries mostly describe attitudes. Its contemporary entry mostly describes timing, with a nod to an innovatory or avant-garde character. Read that way, modern and postmodern are positions artists took, while contemporary is closer to a timing label."
+        ]
+      },
+      {
+        "heading": "Why the dates never settle",
+        "body": [
+          "Each museum draws its own line, and the two cases above show how. The Boston rename in 1948 tied the word to a statement about the war era, and the New Museum's 1977 choice tied it to a year.",
+          "Tate's own history page shows how the two words travel together. It says Tate Modern opened in 2000 and describes the national collection as including international modern and contemporary art, without stating a boundary between the two in that sentence.",
+          "No source in the table claims the question is closed. Tate calls the term loosely used, and the shop blog says it can be a bit vague. The only firm points are at the ends: work from the 1910s is modern under every source in the table that gives dates, and work made after 2000 is contemporary under every fixed start date in it."
+        ]
+      },
+      {
+        "heading": "How to place a work in front of you",
+        "body": [
+          "Start with the label. If the wall text or collection page says modern, postmodern or contemporary, that is the institution's call, and it follows that institution's start date.",
+          "Without a label, date the work. A canvas from 1913 is modern under every source in the table that gives dates. A work from 2010 is contemporary under every fixed start date in the table. Everything between 1947 and 2000 depends on whose line you use, so the same canvas can fall inside one museum's contemporary remit and outside another's.",
+          "When the date lands in that stretch, the safest description names the evidence: made in the 1960s, counted as modern by Tate's entry and as contemporary by the London institute's. That is longer than a label, and it holds up whichever line the reader prefers."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the difference between modern and contemporary art?",
+        "answer": "Modern art is a historical run of movements that Tate starts with Courbet and ends in the 1960s. Contemporary work is defined by recency instead, and each museum chooses a starting year, with London using 1947 and New York 1977. Postmodern work falls between the two."
+      },
+      {
+        "question": "Is Van Gogh modern art?",
+        "answer": "Yes, by any dated definition in the table. His painting comes after the realism that opens Tate's account, and after the roughly 1870 start given by one shop blog. No museum or website here treats nineteenth-century work as contemporary."
+      },
+      {
+        "question": "What is the history of contemporary art?",
+        "answer": "In the sources used here, a London institute founded in 1947 dates the category from its own founding, and a Boston museum switched from Modern to Contemporary in 1948, the year a Houston museum devoted to the field was founded. New York's New Museum later picked 1977 as its starting year."
+      },
+      {
+        "question": "When did modern art end?",
+        "answer": "Tate ends it in the 1960s, once a reaction labelled postmodernism formed against a dominant modernist idea of art. One shop blog stops at 1960. Google's AI Overview on 15 October 2026 stretched it into the 1970s. There is no agreed year."
+      },
+      {
+        "question": "Is postmodern art modern or contemporary?",
+        "answer": "It overlaps both. Tate sees a backlash against modernism, dates the word to about 1970, and names pop art, which took shape in the 1960s, as a possible beginning. The early years sit within the modern span, while its 1990s end clears both museum cutoffs."
+      },
+      {
+        "question": "Why did the Boston Museum of Modern Art become the Institute of Contemporary Art?",
+        "answer": "In 1948 the museum said the phrase modern art had picked up damaging misunderstandings in wartime, and that a new name would tie it to current work. The ICA's chronology records that the decision started a debate across the art world."
+      },
+      {
+        "question": "Does contemporary art mean the artist is still alive?",
+        "answer": "Tate's wording concerns timing, covering recent decades and today, and says nothing on if the artist is alive. A shop blog mentions the living-artist test as a possibility; no museum entry in the table applies it."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Tate: Modernism",
+        "url": "https://www.tate.org.uk/art/art-terms/m/modernism"
+      },
+      {
+        "label": "Tate: Postmodernism",
+        "url": "https://www.tate.org.uk/art/art-terms/p/postmodernism"
+      },
+      {
+        "label": "Tate: Contemporary art",
+        "url": "https://www.tate.org.uk/art/art-terms/c/contemporary-art"
+      },
+      {
+        "label": "Tate: History of Tate",
+        "url": "https://www.tate.org.uk/about-us/history-tate"
+      },
+      {
+        "label": "Institute of Contemporary Art Boston: History and archives",
+        "url": "https://www.icaboston.org/about/history/"
+      },
+      {
+        "label": "Caroline Ashwood: Abstract, Contemporary and Modern Art, what's the difference",
+        "url": "https://www.carolineashwood.com/blogs/modern-abstract-art/abstract-contemporary-and-modern-art-what-s-the-difference"
+      },
+      {
+        "label": "The Marshall Gallery: What is contemporary modern art",
+        "url": "https://themarshallgallery.com/post/5023-what-is-contemporary-modern-art"
+      }
+    ]
+  }
 ];

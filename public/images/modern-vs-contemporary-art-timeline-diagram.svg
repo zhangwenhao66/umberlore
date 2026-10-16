@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1200 640" width="1200" height="640" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif" role="img" aria-label="Timeline: Boston Museum of Modern Art incorporated 1936; Institute of Contemporary Arts London founded 1947; Boston museum renamed Institute of Contemporary Art 1948; term postmodernism first used around 1970; New Museum in New York dates contemporary art from 1977; Tate Modern opens 2000.">
+  <rect width="1200" height="640" fill="#faf6f0"/>
+  <text x="600" y="50" text-anchor="middle" font-size="27" fill="#4a3728" font-weight="bold">Where Institutions Put the Line</text>
+  <text x="600" y="80" text-anchor="middle" font-size="15" fill="#6d4f3a">Six dated moments in how museums named modern and contemporary art</text>
+  <line x1="90" y1="340" x2="1110" y2="340" stroke="#8a5a34" stroke-width="4"/>
+  <!-- 1936 -->
+  <line x1="172" y1="327" x2="150" y2="238" stroke="#c9b8a4" stroke-width="2"/>
+  <circle cx="172" cy="340" r="12" fill="#8a5a34"/>
+  <text x="150" y="125" text-anchor="middle" font-size="22" fill="#4a3728" font-weight="bold">1936</text>
+  <text x="150" y="150" text-anchor="middle" font-size="13.5" fill="#4a3728">Boston Museum of Modern Art</text>
+  <text x="150" y="169" text-anchor="middle" font-size="13.5" fill="#4a3728">is incorporated, a sister</text>
+  <text x="150" y="188" text-anchor="middle" font-size="13.5" fill="#4a3728">institution to MoMA</text>
+  <!-- 1947 -->
+  <line x1="321" y1="353" x2="250" y2="440" stroke="#c9b8a4" stroke-width="2"/>
+  <circle cx="321" cy="340" r="12" fill="#a6733f"/>
+  <text x="250" y="470" text-anchor="middle" font-size="22" fill="#4a3728" font-weight="bold">1947</text>
+  <text x="250" y="495" text-anchor="middle" font-size="13.5" fill="#4a3728">Institute of Contemporary Arts,</text>
+  <text x="250" y="514" text-anchor="middle" font-size="13.5" fill="#4a3728">London, founded; Tate says it</text>
+  <text x="250" y="533" text-anchor="middle" font-size="13.5" fill="#4a3728">counts art from this year</text>
+  <!-- 1948 -->
+  <line x1="335" y1="327" x2="440" y2="238" stroke="#c9b8a4" stroke-width="2"/>
+  <circle cx="335" cy="340" r="12" fill="#6d4f3a"/>
+  <text x="440" y="125" text-anchor="middle" font-size="22" fill="#4a3728" font-weight="bold">1948</text>
+  <text x="440" y="150" text-anchor="middle" font-size="13.5" fill="#4a3728">Boston renames itself the</text>
+  <text x="440" y="169" text-anchor="middle" font-size="13.5" fill="#4a3728">Institute of Contemporary Art</text>
+  <text x="440" y="188" text-anchor="middle" font-size="13.5" fill="#4a3728">and drops "modern"</text>
+  <!-- c. 1970 -->
+  <line x1="634" y1="353" x2="600" y2="440" stroke="#c9b8a4" stroke-width="2"/>
+  <circle cx="634" cy="340" r="12" fill="#9c6b4f"/>
+  <text x="600" y="470" text-anchor="middle" font-size="22" fill="#4a3728" font-weight="bold">c. 1970</text>
+  <text x="600" y="495" text-anchor="middle" font-size="13.5" fill="#4a3728">Tate: the term</text>
+  <text x="600" y="514" text-anchor="middle" font-size="13.5" fill="#4a3728">"postmodernism" is first</text>
+  <text x="600" y="533" text-anchor="middle" font-size="13.5" fill="#4a3728">used around now</text>
+  <!-- 1977 -->
+  <line x1="729" y1="327" x2="800" y2="238" stroke="#c9b8a4" stroke-width="2"/>
+  <circle cx="729" cy="340" r="12" fill="#7a6248"/>
+  <text x="800" y="125" text-anchor="middle" font-size="22" fill="#4a3728" font-weight="bold">1977</text>
+  <text x="800" y="150" text-anchor="middle" font-size="13.5" fill="#4a3728">New Museum, New York,</text>
+  <text x="800" y="169" text-anchor="middle" font-size="13.5" fill="#4a3728">dates "contemporary"</text>
+  <text x="800" y="188" text-anchor="middle" font-size="13.5" fill="#4a3728">from this year</text>
+  <!-- 2000 -->
+  <line x1="1042" y1="353" x2="1000" y2="440" stroke="#c9b8a4" stroke-width="2"/>
+  <circle cx="1042" cy="340" r="12" fill="#b08050"/>
+  <text x="1000" y="470" text-anchor="middle" font-size="22" fill="#4a3728" font-weight="bold">2000</text>
+  <text x="1000" y="495" text-anchor="middle" font-size="13.5" fill="#4a3728">Tate Modern opens, in a</text>
+  <text x="1000" y="514" text-anchor="middle" font-size="13.5" fill="#4a3728">collection that Tate calls</text>
+  <text x="1000" y="533" text-anchor="middle" font-size="13.5" fill="#4a3728">modern and contemporary</text>
+  <text x="600" y="590" text-anchor="middle" font-size="14" fill="#6d4f3a" font-style="italic">Thirty years separate the first and last museum start dates for "contemporary" that Tate cites</text>
+  <text x="600" y="618" text-anchor="middle" font-size="12" fill="#9a8a76">Sources: Tate (art terms: contemporary art, postmodernism; history of Tate); Institute of Contemporary Art Boston, history timeline</text>
+</svg>
