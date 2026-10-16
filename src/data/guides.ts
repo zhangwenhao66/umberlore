@@ -11744,7 +11744,7 @@ export const guides: Guide[] = [
     "slug": "modern-art-vs-contemporary-art",
     "category": "Resources",
     "title": "Modern Art vs Contemporary Art: Museums Disagree",
-    "description": "Tate counts modern art from Courbet's realism, but each museum picks its own start date for contemporary. A Boston museum dropped 'modern' from its name in 1948.",
+    "description": "Tate counts modern art from Courbet's realism, but each museum picks a start date for contemporary. A Boston museum dropped 'modern' from its name in 1948.",
     "published": "2026-10-16",
     "updated": "2026-10-16",
     "coreSummary": "The modern art vs contemporary art question gets different dates from different museums. Tate counts modern art from the realism of Gustave Courbet to abstract art and its developments in the 1960s, names postmodernism as the reaction that followed, and says the start of contemporary art varies by institution: 1947 at the Institute of Contemporary Arts in London, 1977 at the New Museum in New York. In 1948 the Boston Museum of Modern Art renamed itself the Institute of Contemporary Art, saying modern art had gathered widespread and injurious misunderstandings during the war era.",
