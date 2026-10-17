@@ -539,7 +539,7 @@ export const guides: Guide[] = [
           "Monet sold steadily while he worked. The Art Institute's Water Lily Pond of 1900 went to the dealer Léonce Rosenberg around the time of the 1900 Durand-Ruel show, which is part of why the museum treats it as a finished picture rather than a study. The Metropolitan Museum's Bridge over a Pond of Water Lilies of 1899 came in through the Havemeyer bequest in 1929.",
           "The large studio panels moved much later, and in a hurry. MoMA's history of its own holdings records that in 1955 it became the first American museum to buy one, paying Michel Monet four million francs, then about $11,500. It added a smaller panel in 1956. On 15 April 1958 a fire broke out on the museum's second floor, where contractors were working on the air conditioning. An electrician was killed, around 550 paintings were exposed to smoke or water, and both Water Lilies panels were destroyed.",
           "When the curator Dorothy Miller telephoned Giverny looking for a replacement, Michel Monet's wife told her the studio was empty and everything had gone to the Paris dealer Katia Granoff. Miller found four large canvases in storage in another painter's studio. MoMA bought the triptych for the equivalent of $150,000 and a single panel for $83,000, more than seven times per painting what it had paid three years earlier for the canvas that burned.",
-          "The rest of the family's pictures reached the Musée Marmottan Monet in 1966, when Michel Monet left the museum as his universal legatee. Over a hundred canvases arrived, among them the monumental water lily and garden paintings which, in the museum's own words, were never shown during the artist's lifetime and went on public view for the first time when they entered the collection. Forty years after the painter's death, most of the series was still coming out of storage."
+          "The rest of the family's pictures reached the Musée Marmottan Monet in 1966, when Michel Monet left the museum as his universal legatee. Over a hundred canvases arrived, among them the monumental water lily and garden paintings which, in the museum's own words, were never shown during the artist's lifetime and went on public view for the first time when they entered the collection. Forty years after the painter's death, most of the series was still coming out of storage. A count of where all of Monet's catalogued paintings, not only the Water Lilies, are held today is on the page about [where Monet's paintings are](/where-are-monets-paintings/)."
         ]
       }
     ],
@@ -11876,6 +11876,157 @@ export const guides: Guide[] = [
       {
         "label": "The Marshall Gallery: What is contemporary modern art",
         "url": "https://themarshallgallery.com/post/5023-what-is-contemporary-modern-art"
+      }
+    ]
+  },
+  {
+    "slug": "where-are-monets-paintings",
+    "category": "Painting",
+    "title": "Where Are Monet's Paintings? Half Are Private",
+    "description": "Of 1,824 catalogued Monet paintings, 954 sit in private collections. Here is who holds the rest, from Orsay and Marmottan to Boston, and what has been lost.",
+    "published": "2026-10-17",
+    "updated": "2026-10-17",
+    "coreSummary": "More than half of Monet's catalogued paintings are listed as privately owned. Counting the 1,824 rows in Wikipedia's list of his paintings, Water Lilies excluded (checked 2026-10-17), 954 are marked as private collection, 853 sit with museums or other named holders and 17 are unknown or destroyed. The largest museum holdings are the Musée d'Orsay with 73 rows and the Musée Marmottan Monet with 71, followed by the Metropolitan Museum of Art, the Museum of Fine Arts in Boston and the Art Institute of Chicago.",
+    "image": "/images/where-are-monets-paintings-impression-sunrise.jpg",
+    "imageAlt": "Claude Monet's Impression, Sunrise, 1872: a small rowing boat with two figures on pale blue-green water in dawn haze, an orange sun and its broken orange reflection, ship masts and cranes fading into the mist, signed Claude Monet 72 at lower left.",
+    "imageCredit": "[Impression, Sunrise by Claude Monet](https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg), 1872, Musée Marmottan Monet, Paris. Public domain (artist died 1926).",
+    "sections": [
+      {
+        "heading": "More than half of the list is private",
+        "body": [
+          "Ask where Monet's paintings are and the usual answer is a list of museums. The Musée Marmottan Monet describes itself on its homepage as holding the world's biggest collection of his work. The Musée de l'Orangerie has the great Water Lilies panels. Boston, Chicago and Washington cover the American stops. All of that is true, and it leaves out the largest single holder, which is not a museum at all.",
+          "To put a number on it, this page counts the rows of Wikipedia's list of paintings by Claude Monet (checked 2026-10-17). The list says it covers the extant finished paintings apart from the Water Lilies, which have a separate table, and it gives each painting a Wildenstein catalogue number and a current location. It has 1,824 rows. Some rows share a base catalogue number and differ by a letter suffix, so about 1,750 distinct base numbers sit behind them.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Holder</th><th style=\"padding:8px 10px;text-align:left;\">Rows</th><th style=\"padding:8px 10px;text-align:left;\">Share of 1,824</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">Private collection</td><td style=\"padding:7px 10px;\">954</td><td style=\"padding:7px 10px;\">52.3%</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">Museums and other named holders</td><td style=\"padding:7px 10px;\">853</td><td style=\"padding:7px 10px;\">46.8%</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">Unknown or destroyed</td><td style=\"padding:7px 10px;\">17</td><td style=\"padding:7px 10px;\">0.9%</td></tr></tbody></table></div>",
+          "That makes 954 rows, 52.3 percent, private collection. A further 853 sit with museums or a few other named holders such as the Nahmad and Pérez Simón collections, and 17 are either unknown or recorded as destroyed. The label is a statement about ownership, and the five rows that spell it with a capital letter are counted with the rest. It does not say whether the painting hangs in a house, sits in a vault or is on loan to a museum, and it does not say who owns it.",
+          "Two limits apply. The list is volunteer-edited, so a painting can stay marked private after a museum buys it, or the reverse. And a row is not an object in a museum inventory, as the cross-check below shows. Read the counts as a ranking with a margin of a few paintings per holder, not as audited totals."
+        ]
+      },
+      {
+        "heading": "Which museums hold the other 853",
+        "body": [
+          "Two Paris museums lead by a wide margin. The Musée d'Orsay has 73 rows and the Musée Marmottan Monet 71, together 144 of the 853 named-holder rows, about 17 percent. Grouped by city, Paris institutions hold 153 rows, New York 50, Washington 38 and Boston 37.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Rank</th><th style=\"padding:8px 10px;text-align:left;\">Holder</th><th style=\"padding:8px 10px;text-align:left;\">City</th><th style=\"padding:8px 10px;text-align:left;\">Rows</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">1</td><td style=\"padding:7px 10px;\">Musée d'Orsay</td><td style=\"padding:7px 10px;\">Paris</td><td style=\"padding:7px 10px;\">73</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">2</td><td style=\"padding:7px 10px;\">Musée Marmottan Monet</td><td style=\"padding:7px 10px;\">Paris</td><td style=\"padding:7px 10px;\">71</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">3</td><td style=\"padding:7px 10px;\">Metropolitan Museum of Art</td><td style=\"padding:7px 10px;\">New York</td><td style=\"padding:7px 10px;\">39</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">4</td><td style=\"padding:7px 10px;\">Museum of Fine Arts</td><td style=\"padding:7px 10px;\">Boston</td><td style=\"padding:7px 10px;\">37</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">5</td><td style=\"padding:7px 10px;\">Art Institute of Chicago</td><td style=\"padding:7px 10px;\">Chicago</td><td style=\"padding:7px 10px;\">31</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">6</td><td style=\"padding:7px 10px;\">National Gallery of Art</td><td style=\"padding:7px 10px;\">Washington, D.C.</td><td style=\"padding:7px 10px;\">26</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">7</td><td style=\"padding:7px 10px;\">Philadelphia Museum of Art</td><td style=\"padding:7px 10px;\">Philadelphia</td><td style=\"padding:7px 10px;\">22</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">8 (tie)</td><td style=\"padding:7px 10px;\">National Museum of Western Art</td><td style=\"padding:7px 10px;\">Tokyo</td><td style=\"padding:7px 10px;\">14</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">8 (tie)</td><td style=\"padding:7px 10px;\">Hermitage Museum</td><td style=\"padding:7px 10px;\">St Petersburg</td><td style=\"padding:7px 10px;\">14</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">10</td><td style=\"padding:7px 10px;\">Pola Museum of Art</td><td style=\"padding:7px 10px;\">Hakone</td><td style=\"padding:7px 10px;\">12</td></tr></tbody></table></div>",
+          "The Marmottan's claim to the biggest collection survives the count once the Water Lilies are added. Its homepage says some hundred masterpieces were bequeathed by the painter's family and close friends. Across the two lists it has 71 plus 18 rows, 89 in all, against 73 plus 3, or 76, for the Orsay. On the main list alone, the Orsay leads the Marmottan by two rows. The museum's round figure of a hundred is above the 89 rows, so the list may undercount it.",
+          "The Louvre, which many visitors assume is the place for Monet, has two rows. ArtAtlas's itinerary page calls it not a primary Monet destination. Outside France and the United States the biggest blocks are in Tokyo, St Petersburg and Hakone, at 14, 14 and 12 rows."
+        ],
+        "image": {
+          "src": "/images/where-are-monets-paintings-holdings.svg",
+          "alt": "Horizontal bar chart of the 1,824 rows in a list of Monet paintings: private collection 954, Musée d'Orsay 73, Musée Marmottan Monet 71, Metropolitan Museum of Art 39, Museum of Fine Arts Boston 37, Art Institute of Chicago 31, National Gallery of Art Washington 26, Philadelphia Museum of Art 22, unknown or destroyed 17. The private bar is more than ten times longer than the longest museum bar."
+        }
+      },
+      {
+        "heading": "Checking the list against the Met's database",
+        "body": [
+          "To see how far the list can be trusted, the Metropolitan Museum's open-access database was queried for Claude Monet in its European Paintings department on 2026-10-17. It returns 39 objects, all classified as paintings, and two of them carry the title Water Lilies. A search without the department filter returns two more objects that could not be inspected. The list gives the Met 39 rows in the main table and 4 in the Water Lilies table, 43 in all, so the museum lists fewer.",
+          "Some of that gap may be loans or former holdings, and some may be the list running ahead of or behind the museum. The two sources cannot be reconciled from outside. A difference of about ten percent for one museum is enough to swap neighbors in the ranking below the top two, which is why this page treats every count as approximate."
+        ]
+      },
+      {
+        "heading": "The Water Lilies have their own list, and a smaller private share",
+        "body": [
+          "Wikipedia's separate table of Water Lilies (checked 2026-10-17) has 214 rows. Of those, 83 are private collection, about 39 percent, a smaller share than in the main list. The Marmottan has 18, the Orangerie 8, the Chichu Art Museum on Naoshima 6, the Museum of Modern Art 6 (two of them marked lost in fire) and the Met 4. The Orangerie's eight rows match the eight compositions the museum itself describes. Monet offered two large panels to the French State on 12 November 1918, and the eight compositions were installed at the Orangerie in 1927, a few months after his death.",
+          "Private owners do sell. In June 2014 a Water Lilies painting sold at Sotheby's in London for $54 million to an anonymous buyer, and the same canvas was then shown in the exhibition Painting the Modern Garden at the Cleveland Museum of Art and the Royal Academy of Arts from 2015, according to Wikipedia's article on the series (checked 2026-10-17). How the cycle was built and why it was scattered is covered in the page on [Monet's Water Lilies series](/water-lilies-monet-series/).",
+          "The table is not complete either. The same Wikipedia article (checked 2026-10-17) describes the series as approximately 250 oil paintings, MLive's reporting uses about the same figure, and the table lists 214 rows."
+        ]
+      },
+      {
+        "heading": "The series were broken up too",
+        "body": [
+          "Monet's series went the same way as the single canvases. The Museum Barberini's catalogue note counts twenty-five Grainstacks painted in 1890 and 1891. ArtAtlas's itinerary page places six of them at the Art Institute of Chicago, with others at the Met, the Orsay and in private collections, and it says the Rouen Cathedral series divides between the Orsay, which has four, and the Musée des Beaux-Arts de Rouen, which has one.",
+          "A visitor chasing one series therefore needs several cities and, for some canvases, an exhibition loan. That is also why the museum ranking above says little about any single motif. The Orsay's 73 rows are dated from 1861 to 1920, and 46 of them come from the 1860s and 1870s, so its strength is the early Impressionist years more than the late series."
+        ]
+      },
+      {
+        "heading": "What a private collection can hide",
+        "body": [
+          "The label can also cover a painting that is on public view. The list marks the 1890 Grainstacks (W.1273) as private collection. The Museum Barberini in Potsdam catalogues the same canvas under inventory number MB-Mon-26 and gives its Wildenstein number as 1273. Its provenance record shows the picture was consigned for Sotheby's New York on 14 May 2019 as lot 8, and it has been on show at the museum in the exhibition Impressionism: The Hasso Plattner Collection since 5 September 2020. Wikipedia's article on the Haystacks series says that sale fetched $110.7 million, a record for Monet, and names Hasso Plattner as the buyer (checked 2026-10-17). The list is not wrong, since a collector owns the painting, but a reader who takes private to mean invisible would miss one of the more visitable pictures among the 954.",
+          "Seventeen rows in the main list have no holder at all. Eleven are listed as unknown and six as destroyed. By the list's notes, two were destroyed in the Second World War, one in a fire around 1950, one in a fire in 2022, one is recorded only as lost in a fire, and a 1917 self-portrait was destroyed by the artist. Apart from the 2022 fire, those notes come from the list alone and were not checked here against a second source.",
+          "The 2022 fire is the best documented. MLive reported on 26 September 2023, from documents filed in an insurance lawsuit, that three Monet paintings were apparently destroyed in a house fire in Pentwater Township, Michigan: Prairie, ciel nuageux (1890), La Route de Vétheuil (1880) and Falaise à Varengeville (1882). Together they were valued at more than $45 million. The first had been sold at Sotheby's in 2019 to a telephone bidder for just under $6 million. The fire chief told MLive the cause was still undetermined, and the owners' claim against their insurer was in litigation at the time of the report.",
+          "The list marks one 1890 meadow painting, Meadow, Cloudy Sky (W.1246), as destroyed in a fire in 2022 and cites the MLive article for it. The other two paintings the article names are not among the list's 17 destroyed or unknown rows. If the court filings are right, the private count above may be too high by up to two, because a private owner's loss reaches a volunteer-edited list late or not at all."
+        ]
+      },
+      {
+        "heading": "Where the sources disagree",
+        "body": [
+          "Three of the numbers a reader would want do not agree between sources, and none of them can be settled from the pages read for this article.",
+          "<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.85rem;line-height:1.4;\"><thead><tr style=\"border-bottom:2px solid var(--ink);\"><th style=\"padding:8px 10px;text-align:left;\">Question</th><th style=\"padding:8px 10px;text-align:left;\">One source says</th><th style=\"padding:8px 10px;text-align:left;\">Another source says</th></tr></thead><tbody><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">How many paintings did Monet complete?</td><td style=\"padding:7px 10px;\">Art historian Paul Tucker, quoted by MLive: more than 2,100</td><td style=\"padding:7px 10px;\">The two Wikipedia lists together (checked 2026-10-17): about 2,040 rows (1,824 plus 214)</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">How many Water Lilies are there?</td><td style=\"padding:7px 10px;\">Wikipedia's article (checked 2026-10-17) and MLive: roughly 250</td><td style=\"padding:7px 10px;\">Wikipedia's table (checked 2026-10-17): about 215 rows</td></tr><tr style=\"border-bottom:1px solid var(--rule);\"><td style=\"padding:7px 10px;\">What did the MoMA fire destroy?</td><td style=\"padding:7px 10px;\">MoMA's history page: a fire on April 15, 1958 destroyed one Water Lilies panel, and the damaged other went to a university conservation clinic</td><td style=\"padding:7px 10px;\">MoMA's Monet course booklet lists both Water Lilies panels it held among the works not saved; Wikipedia's Water Lilies table (checked 2026-10-17) marks two MoMA entries (W.1813 and W.1982) as lost in fire; MLive dates the fire to 1957</td></tr></tbody></table></div>",
+          "The first two rows fit a list that is incomplete: about 60 paintings short of the total Tucker gives, and about 35 short on the Water Lilies. The third is a disagreement between two MoMA pages, with a newspaper year that matches neither. The museum's history page counts one destroyed panel and one damaged; its course booklet counts two losses, which is also what the Wikipedia table (checked 2026-10-17) shows. The sources read here do not settle which count is right."
+        ]
+      },
+      {
+        "heading": "What the numbers mean for seeing them",
+        "body": [
+          "For anyone trying to see as many Monets as possible in a day, the arithmetic points to Paris: the Orsay, the Marmottan and the Orangerie's eight Water Lilies compositions sit in one city and account for about 170 rows between them. In the United States the Met, Boston and Chicago are within a few rows of each other, and which one has more depends on the loans and rehangs of any given year.",
+          "Most of the 954 private paintings can be seen only when owners lend them to an exhibition or when a work comes to auction, as the 2014 and 2019 sales show. A few, like the Potsdam Grainstacks, are shown by their owners. For the wider picture of where the best-known pictures by many artists hang, see the guide to [famous paintings](/famous-paintings/), and for Monet's landscapes in context, the survey of [famous landscape paintings](/famous-landscape-paintings/)."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Where can I see Monet paintings in the US?",
+        "answer": "Think New York, Boston, Chicago, Washington and Philadelphia. By the Wikipedia tally, checked on 2026-10-17, the Met leads with 39 main-list rows, ahead of Boston (37), the Art Institute in Chicago (31), the National Gallery in Washington (26) and Philadelphia (22). New York's MoMA also shows Water Lilies. [Monet paintings list, Wikipedia](https://en.wikipedia.org/wiki/List_of_paintings_by_Claude_Monet)"
+      },
+      {
+        "question": "Are there any Monet paintings at the Louvre?",
+        "answer": "Yes, but only two. The list assigns two paintings to the Louvre, against 73 for the Musée d'Orsay, and ArtAtlas's guide advises that the Louvre is no main stop for Monet. [ArtAtlas: Where to See Claude Monet](https://artatlas.it/artists/monet/)"
+      },
+      {
+        "question": "Which museum has the biggest Monet collection?",
+        "answer": "The Marmottan claims that distinction on its homepage. Counting both Wikipedia lists, checked on 2026-10-17, it has 89 rows against 76 for the Musée d'Orsay. [Marmottan homepage](https://www.marmottan.fr/en/)"
+      },
+      {
+        "question": "Is Claude Monet at the MoMA?",
+        "answer": "Yes, through the Water Lilies; the series table lists six entries at the museum, and the table flags two as burned. The blaze of 15 April 1958 wrecked at least one panel when firefighters broke in, and a MoMA study booklet names both of its panels as exceptions to the rescue. [MoMA: MoMA on Fire](https://www.moma.org/interactives/moma_through_time/1950/moma-on-fire/)"
+      },
+      {
+        "question": "How many Monet paintings are in private collections?",
+        "answer": "Roughly half. The main Wikipedia list, checked on 2026-10-17, marks 954 of 1,824 rows private, and the separate Water Lilies list marks 83 of 214, which together is 1,037 of 2,038 rows, or 51 percent. The label reflects ownership as last edited by volunteers, so it can lag behind sales and losses. [Wikipedia: Water Lilies (Monet series)](https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series))"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: List of paintings by Claude Monet",
+        "url": "https://en.wikipedia.org/wiki/List_of_paintings_by_Claude_Monet"
+      },
+      {
+        "label": "Wikipedia: Water Lilies (Monet series)",
+        "url": "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)"
+      },
+      {
+        "label": "The Metropolitan Museum of Art: Open Access collection API",
+        "url": "https://metmuseum.github.io/"
+      },
+      {
+        "label": "Musée Marmottan Monet",
+        "url": "https://www.marmottan.fr/en/"
+      },
+      {
+        "label": "Musée de l'Orangerie: The Water Lilies by Claude Monet",
+        "url": "https://www.musee-orangerie.fr/en/node/197502"
+      },
+      {
+        "label": "Museum Barberini: Claude Monet, Grainstacks (1890), collection record",
+        "url": "https://sammlung.museum-barberini.de/en/MB-Mon-26_claude-monet-grainstacks"
+      },
+      {
+        "label": "Wikipedia: Haystacks (Monet series)",
+        "url": "https://en.wikipedia.org/wiki/Haystacks_(Monet_series)"
+      },
+      {
+        "label": "MLive: Three Monet paintings destroyed when Lake Michigan mansion burned (2023-09-26)",
+        "url": "https://www.mlive.com/news/2023/09/three-monet-paintings-destroyed-when-lake-michigan-mansion-burned.html"
+      },
+      {
+        "label": "MoMA: MoMA on Fire (1958)",
+        "url": "https://www.moma.org/interactives/moma_through_time/1950/moma-on-fire/"
+      },
+      {
+        "label": "MoMA: Claude Monet, Water Lilies (course booklet, PDF)",
+        "url": "https://www.moma.org/momaorg/shared/pdfs/docs/learn/courses/Monet_WaterLilies.pdf"
+      },
+      {
+        "label": "ArtAtlas: Where to See Claude Monet",
+        "url": "https://artatlas.it/artists/monet/"
       }
     ]
   }

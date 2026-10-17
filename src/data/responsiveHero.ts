@@ -339,6 +339,11 @@ export const RESPONSIVE_HERO: Record<string, { mobile: string; w: number; h: num
   "mobile": "/images/responsive/wheelwright-museum-entrance-sm.jpg",
   "w": 750
  },
+ "/images/where-are-monets-paintings-impression-sunrise.jpg": {
+  "h": 582,
+  "mobile": "/images/responsive/where-are-monets-paintings-impression-sunrise-sm.jpg",
+  "w": 750
+ },
  "/images/whistler-nocturne-black-and-gold-falling-rocket.jpg": {
   "h": 997,
   "mobile": "/images/responsive/whistler-nocturne-black-and-gold-falling-rocket-sm.jpg",

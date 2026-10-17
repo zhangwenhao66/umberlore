@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1200 640" width="1200" height="640" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif" role="img" aria-label="Horizontal bar chart of where the 1,824 paintings in Wikipedia's list of Monet paintings are: 954 in private collections, then 73 at the Musée d'Orsay, 71 at the Musée Marmottan Monet, 39 at the Metropolitan Museum of Art, 37 in Boston, 31 in Chicago, 26 at the National Gallery of Art in Washington, 22 in Philadelphia, and 17 unknown or destroyed.">
+<rect width="1200" height="640" fill="#faf6f0"/>
+<text x="600" y="50" text-anchor="middle" font-size="27" fill="#4a3728" font-weight="bold">Where the Monets in the list are held</text>
+<text x="600" y="78" text-anchor="middle" font-size="15" fill="#6d4f3a">1,824 rows in Wikipedia's list of Monet paintings, Water Lilies excluded (list read 2026-10-17)</text>
+<text x="316" y="141" text-anchor="end" font-size="15" fill="#4a3728">Private collection</text>
+<rect x="330" y="118" width="700.0" height="34" fill="#8a5a34"/>
+<text x="1040.0" y="141" font-size="16" fill="#4a3728" font-weight="bold">954</text>
+<text x="316" y="193" text-anchor="end" font-size="15" fill="#4a3728">Musée d'Orsay, Paris</text>
+<rect x="330" y="170" width="53.6" height="34" fill="#a6733f"/>
+<text x="393.6" y="193" font-size="16" fill="#4a3728" font-weight="bold">73</text>
+<text x="316" y="245" text-anchor="end" font-size="15" fill="#4a3728">Musée Marmottan Monet, Paris</text>
+<rect x="330" y="222" width="52.1" height="34" fill="#a6733f"/>
+<text x="392.1" y="245" font-size="16" fill="#4a3728" font-weight="bold">71</text>
+<text x="316" y="297" text-anchor="end" font-size="15" fill="#4a3728">Metropolitan Museum of Art, New York</text>
+<rect x="330" y="274" width="28.6" height="34" fill="#a6733f"/>
+<text x="368.6" y="297" font-size="16" fill="#4a3728" font-weight="bold">39</text>
+<text x="316" y="349" text-anchor="end" font-size="15" fill="#4a3728">Museum of Fine Arts, Boston</text>
+<rect x="330" y="326" width="27.1" height="34" fill="#a6733f"/>
+<text x="367.1" y="349" font-size="16" fill="#4a3728" font-weight="bold">37</text>
+<text x="316" y="401" text-anchor="end" font-size="15" fill="#4a3728">Art Institute of Chicago</text>
+<rect x="330" y="378" width="22.7" height="34" fill="#a6733f"/>
+<text x="362.7" y="401" font-size="16" fill="#4a3728" font-weight="bold">31</text>
+<text x="316" y="453" text-anchor="end" font-size="15" fill="#4a3728">National Gallery of Art, Washington</text>
+<rect x="330" y="430" width="19.1" height="34" fill="#a6733f"/>
+<text x="359.1" y="453" font-size="16" fill="#4a3728" font-weight="bold">26</text>
+<text x="316" y="505" text-anchor="end" font-size="15" fill="#4a3728">Philadelphia Museum of Art</text>
+<rect x="330" y="482" width="16.1" height="34" fill="#a6733f"/>
+<text x="356.1" y="505" font-size="16" fill="#4a3728" font-weight="bold">22</text>
+<text x="316" y="557" text-anchor="end" font-size="15" fill="#4a3728">Unknown or destroyed (all rows)</text>
+<rect x="330" y="534" width="12.5" height="34" fill="#6d4f3a"/>
+<text x="352.5" y="557" font-size="16" fill="#4a3728" font-weight="bold">17</text>
+<text x="600" y="608" text-anchor="middle" font-size="13" fill="#7a6248">Counts are rows in the list, not museum inventories. Private collection: 954 of 1,824 rows (52.3%). Museums and other named holders: 853 (46.8%).</text>
+</svg>

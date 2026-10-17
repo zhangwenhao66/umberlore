@@ -1935,6 +1935,18 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 499,
   "w": 750
  },
+ "/images/responsive/where-are-monets-paintings-impression-sunrise-sm.avif": {
+  "h": 582,
+  "w": 750
+ },
+ "/images/responsive/where-are-monets-paintings-impression-sunrise-sm.jpg": {
+  "h": 582,
+  "w": 750
+ },
+ "/images/responsive/where-are-monets-paintings-impression-sunrise-sm.webp": {
+  "h": 582,
+  "w": 750
+ },
  "/images/responsive/whistler-nocturne-black-and-gold-falling-rocket-sm.avif": {
   "h": 997,
   "w": 750
@@ -2198,6 +2210,22 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  "/images/wheelwright-museum-entrance.webp": {
   "h": 1064,
   "w": 1600
+ },
+ "/images/where-are-monets-paintings-holdings.svg": {
+  "h": 640,
+  "w": 1200
+ },
+ "/images/where-are-monets-paintings-impression-sunrise.avif": {
+  "h": 1489,
+  "w": 1920
+ },
+ "/images/where-are-monets-paintings-impression-sunrise.jpg": {
+  "h": 1489,
+  "w": 1920
+ },
+ "/images/where-are-monets-paintings-impression-sunrise.webp": {
+  "h": 1489,
+  "w": 1920
  },
  "/images/whistler-nocturne-black-and-gold-falling-rocket.avif": {
   "h": 1600,

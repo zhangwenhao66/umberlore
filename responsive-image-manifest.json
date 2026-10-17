@@ -680,5 +680,23 @@
    "h": 1006
   },
   "desktop_rel": "/images/who-painted-this-painting-golden-helmet.jpg"
+ },
+ "/images/statue-of-zeus-olympia-temple-ruins.jpg": {
+  "fingerprint": "1792251719202863282:253434:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/statue-of-zeus-olympia-temple-ruins-sm.jpg",
+   "w": 750,
+   "h": 562
+  },
+  "desktop_rel": "/images/statue-of-zeus-olympia-temple-ruins.jpg"
+ },
+ "/images/where-are-monets-paintings-impression-sunrise.jpg": {
+  "fingerprint": "1792251926627544174:804833:contain:None:750:avif2",
+  "result": {
+   "mobile": "/images/responsive/where-are-monets-paintings-impression-sunrise-sm.jpg",
+   "w": 750,
+   "h": 582
+  },
+  "desktop_rel": "/images/where-are-monets-paintings-impression-sunrise.jpg"
  }
 }
