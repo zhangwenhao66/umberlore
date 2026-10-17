@@ -602,5 +602,11 @@
     "last_submitted_date": "2026-10-16",
     "verified_status": "pending",
     "note": "[{\"urls\":[\"https://umberlore.com/modern-art-vs-contemporary-art/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
+  },
+  "https://umberlore.com/where-are-monets-paintings/": {
+    "submitted_date": "2026-10-17",
+    "last_submitted_date": "2026-10-17",
+    "verified_status": "pending",
+    "note": "[{\"urls\":[\"https://umberlore.com/where-are-monets-paintings/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
   }
 }
